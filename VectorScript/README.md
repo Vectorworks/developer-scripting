@@ -14,8 +14,8 @@ Please, download and read the [VectorScript Language Guide PDF](VectorScript Lan
 * [User Interface](pages/User%20Interface.md)
 * [Creating a Custom Dialog Box](pages/Creating%20a%20Custom%20Dialog%20Box.md)
 * [Plug-in Parameter Types](pages/Plug-in%20Parameter%20Types.md)
-* [Search Criteria](pages/Search%20Criteria.md)
-* [Search Criteria DE](pages/Search%20Criteria%20DE.md)
+* [Search Criteria](https://github.com/Vectorworks/developer-scripting/blob/main/VectorScript/pages/Search%20Criteria.md)
+* [Search Criteria DE](https://github.com/Vectorworks/developer-scripting/blob/main/VectorScript/pages/Search%20Criteria%20DE.md)
 * [Include Files and Encryption](pages/Include%20Files%20and%20Encryption.md)
 * [Object Events](pages/Object%20Events.md)
 * [The VectorScript Debugger](pages/The%20VectorScript%20Debugger.md)
@@ -23,6 +23,6 @@ Please, download and read the [VectorScript Language Guide PDF](VectorScript Lan
 
 ## Function Reference
 
-* [Functions](../Function%20Reference/Functions/README.md)
+* [Functions](../Function%20Reference/README.md)
 * [Appendix](../Function%20Reference/Appendix/README.md)
 
