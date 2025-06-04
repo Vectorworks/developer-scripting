@@ -21,5 +21,4 @@ def vs.vsoContextM_AddSep(itemID):
 Availability: from Vectorworks 2014
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

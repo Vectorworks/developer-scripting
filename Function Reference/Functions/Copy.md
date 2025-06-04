@@ -37,5 +37,4 @@ vs.Message(vs.Copy('A sample string',10,6))
 Availability: from All Versions
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

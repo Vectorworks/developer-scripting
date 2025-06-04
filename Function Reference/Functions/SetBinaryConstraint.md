@@ -78,5 +78,4 @@ Sets a constraint on h1 and h2 on the designated vertices.  Valid values for typ
 Availability: from VectorWorks 9.0
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

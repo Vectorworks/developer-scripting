@@ -24,5 +24,4 @@ def vs.wsEditAddMenu(menuPath):
 Availability: from Vectorworks 2018
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

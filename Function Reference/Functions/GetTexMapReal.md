@@ -40,5 +40,4 @@ def vs.GetTexMapReal(h, partID, selector):
 Availability: from Vectorworks 14.0. Deprecated from Vectorworks 15.
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

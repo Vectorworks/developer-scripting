@@ -28,5 +28,4 @@ VS Functions:
 Availability: from Vectorworks 2018
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

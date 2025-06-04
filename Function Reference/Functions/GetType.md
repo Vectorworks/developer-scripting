@@ -258,5 +258,4 @@ From VW 2010+: [GetTypeN| GetTypeN](GetTypeN|%20GetTypeN.md)
 Availability: from All Versions. Deprecated from VW 2010+.
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

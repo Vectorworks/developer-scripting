@@ -35,5 +35,4 @@ RotatePoint(0,3,45d);
 Availability: from MiniCAD6.0
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

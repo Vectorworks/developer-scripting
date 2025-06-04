@@ -28,5 +28,4 @@ def vs.DBDocSetColKey(databaseName, tableName, columnName, setIsKey):
 Availability: from Vectorworks 2011
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

@@ -34,5 +34,4 @@ def vs.FindObjAtPt_Create3D(hContainer, objOptions, travOptions, locX, locY, loc
 Availability: from Vectorworks 2020
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

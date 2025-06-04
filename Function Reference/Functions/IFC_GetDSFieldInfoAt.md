@@ -32,5 +32,4 @@ def vs.IFC_GetDSFieldInfoAt(objectName, dataSheetName, iField):
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

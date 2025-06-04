@@ -47,5 +47,4 @@ SetWSCellBorder is obsolete as of VectorWorks 12.0, see new [[VS:SetWSCellBorder
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

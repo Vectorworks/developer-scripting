@@ -24,5 +24,4 @@ def vs.Space_CreateSpace(space, spaceHeight):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

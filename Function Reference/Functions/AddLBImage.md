@@ -183,5 +183,4 @@ Availability: from VectorWorks 11.0
 Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

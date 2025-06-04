@@ -26,5 +26,4 @@ def vs.CreateDuplicateObjN(objectToDuplicate, containerHandle, maintainHeightRel
 Availability: from Vectorworks 2020
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

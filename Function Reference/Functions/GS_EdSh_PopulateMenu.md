@@ -28,5 +28,4 @@ def vs.GS_EdSh_PopulateMenu(itemID, numStrings, cStringsArray, libraryDataPtr):
 Availability: from Vectorworks 2014
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

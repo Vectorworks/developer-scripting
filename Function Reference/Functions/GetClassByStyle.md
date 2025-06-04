@@ -18,5 +18,4 @@ def vs.GetClassByStyle(hObject):
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

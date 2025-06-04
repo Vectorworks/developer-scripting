@@ -69,5 +69,4 @@ vs.Message( str(vs.CrossProduct(v1, v2)) ) # returns a 3-dimensional tuple
 Availability: from VectorWorks 8.5
 
 ## Category
-* Math - Vectors
-
+* [Math - Vectors](../Categories/Math%20-%20Vectors.md)

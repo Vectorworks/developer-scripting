@@ -35,5 +35,4 @@ ReplaceText(hText,'Old text', 'New', TRUE, FALSE);
 Availability: from Vectorworks 2025
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

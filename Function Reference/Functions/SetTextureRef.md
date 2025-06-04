@@ -33,5 +33,4 @@ From Peter Vandewalle: Setting wall textures "by class" by using a TextureRef of
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

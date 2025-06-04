@@ -74,5 +74,4 @@ kMessageDoubleRecursiveClick         = -15;
 Availability: from VectorWorks12.0
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

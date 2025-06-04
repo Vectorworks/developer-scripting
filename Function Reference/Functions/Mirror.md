@@ -33,5 +33,4 @@ def vs.Mirror(h, dup, p1, p2):
 Availability: from Vectorworks 2017
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

@@ -27,5 +27,4 @@ forum.vectorworks.net/index.php?/topic/75193-a-super-short-course-in-worksheet-s
 Availability: from Vectorworks 2020
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

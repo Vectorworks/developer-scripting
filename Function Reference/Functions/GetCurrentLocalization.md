@@ -26,5 +26,4 @@ def vs.GetCurrentLocalization():
 Availability: from Vectorworks 2010
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

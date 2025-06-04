@@ -39,5 +39,4 @@ CloseSS is obsolete as of VectorWorks 9.0
 Availability: from MiniCAD 6.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

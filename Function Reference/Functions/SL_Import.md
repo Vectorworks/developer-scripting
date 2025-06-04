@@ -21,5 +21,4 @@ def vs.SL_Import(paramSelfHandle):
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

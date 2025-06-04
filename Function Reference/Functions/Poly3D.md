@@ -31,5 +31,4 @@ Poly3D(1,1,0,1.5,1.5,1,2.5,1.5,1,);
 Availability: from All Versions
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

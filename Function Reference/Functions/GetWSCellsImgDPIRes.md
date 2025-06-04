@@ -24,5 +24,4 @@ def vs.GetWSCellsImgDPIRes(worksheet):
 Availability: from Vectorworks 2017
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

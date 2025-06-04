@@ -32,5 +32,4 @@ VS Functions:
 Availability: from VectorWorks 2008
 
 ## Category
-* Objects - Architectural
-
+* [Objects - Architectural](../Categories/Objects%20-%20Architectural.md)

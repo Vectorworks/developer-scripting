@@ -39,5 +39,4 @@ Test()
 Availability: from Vectorworks 2015
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

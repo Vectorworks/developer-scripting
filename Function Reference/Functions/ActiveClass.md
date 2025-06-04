@@ -31,5 +31,4 @@ VS Functions:
 Availability: from MiniCAD6.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

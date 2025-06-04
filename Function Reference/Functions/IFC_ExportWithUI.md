@@ -38,5 +38,4 @@ ok = vs.IFC_ExportWithUI(FALSE)
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

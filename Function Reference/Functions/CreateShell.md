@@ -24,5 +24,4 @@ def vs.CreateShell(surface, thickness):
 Availability: from Vectorworks 2016
 
 ## Category
-* Objects - Solids
-
+* [Objects - Solids](../Categories/Objects%20-%20Solids.md)

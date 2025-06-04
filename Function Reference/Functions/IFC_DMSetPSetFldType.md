@@ -30,5 +30,4 @@ def vs.IFC_DMSetPSetFldType(strObjectName, strEntryName, strPSetName, strFieldNa
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

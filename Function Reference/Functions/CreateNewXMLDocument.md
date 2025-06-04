@@ -30,5 +30,4 @@ def vs.CreateNewXMLDocument(XMLHandle, rootElementName):
 Availability: from All Versions
 
 ## Category
-* XML
-
+* [XML](../Categories/XML.md)

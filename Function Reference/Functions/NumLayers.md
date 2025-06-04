@@ -16,5 +16,4 @@ def vs.NumLayers():
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

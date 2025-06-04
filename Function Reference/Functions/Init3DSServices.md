@@ -16,5 +16,4 @@ def vs.Init3DSServices():
 Availability: from Vectorworks 2014
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

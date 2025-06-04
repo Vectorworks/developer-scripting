@@ -26,5 +26,4 @@ def vs.DBDocGetConn(databaseName):
 Availability: from Vectorworks 2011
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

@@ -73,5 +73,4 @@ def vs.GetBinaryConstraint(constrType, obj1, obj2, obj1VertA, obj1VertB, obj2Ver
 Availability: from VectorWorks 9.0
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

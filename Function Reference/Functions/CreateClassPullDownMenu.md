@@ -71,5 +71,4 @@ VS Functions:
 Availability: from VectorWorks 13.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

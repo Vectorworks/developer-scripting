@@ -34,5 +34,4 @@ VS Functions:
 Availability: from VectorWorks12.0
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

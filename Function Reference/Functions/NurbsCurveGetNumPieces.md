@@ -29,5 +29,4 @@ presentation of pieces (segments in the example) in a NURBS curve:
 Availability: from VectorWorks 9.0
 
 ## Category
-* Objects - NURBS
-
+* [Objects - NURBS](../Categories/Objects%20-%20NURBS.md)

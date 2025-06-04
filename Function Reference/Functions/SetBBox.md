@@ -46,5 +46,4 @@ ResetObject(ObjHandle);
 Availability: from All Versions
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

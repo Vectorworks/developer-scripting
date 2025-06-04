@@ -58,5 +58,4 @@ vs.CreateLight(2, 3, 8, 1, True, True)
 Availability: from MiniCAD 7.0
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

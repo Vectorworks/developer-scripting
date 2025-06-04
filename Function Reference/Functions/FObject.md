@@ -28,5 +28,4 @@ Relative calls:
 Availability: from All Versions
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

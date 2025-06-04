@@ -45,5 +45,4 @@ RUN(GetArcSetArcExample);
 Availability: from All Versions
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

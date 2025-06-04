@@ -16,5 +16,4 @@ def vs.Ungroup():
 Availability: from All Versions
 
 ## Category
-* Objects - Groups
-
+* [Objects - Groups](../Categories/Objects%20-%20Groups.md)

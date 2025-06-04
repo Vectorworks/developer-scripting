@@ -32,5 +32,4 @@ def vs.Get3DOrientation(h):
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

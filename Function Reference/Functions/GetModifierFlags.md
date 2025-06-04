@@ -26,5 +26,4 @@ def vs.GetModifierFlags():
 Availability: from Vectorworks 2025
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

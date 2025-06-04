@@ -16,5 +16,4 @@ def vs.PrintWithoutUsingPrintDialog():
 Availability: from VectorWorks10.5
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

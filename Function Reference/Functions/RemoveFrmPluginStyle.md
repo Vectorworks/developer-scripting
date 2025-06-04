@@ -24,5 +24,4 @@ def vs.RemoveFrmPluginStyle(hSymDef, itemName):
 Availability: from Vectorworks 2017
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

@@ -31,5 +31,4 @@ def vs.SetDropShadowData(h, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colo
 Availability: from Vectorworks 2017
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

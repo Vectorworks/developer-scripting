@@ -24,5 +24,4 @@ def vs.IsCoPlanar(refID1, refID2):
 Availability: from Vectorworks 2011
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

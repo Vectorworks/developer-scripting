@@ -16,5 +16,4 @@ def vs.CC_ReloadData():
 Availability: from Vectorworks 2023.4
 
 ## Category
-* ConnectCAD
-
+* [ConnectCAD](../Categories/ConnectCAD.md)

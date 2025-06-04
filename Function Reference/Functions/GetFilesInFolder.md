@@ -27,5 +27,4 @@ def vs.GetFilesInFolder(folderName, index):
 Availability: from Vectorworks 2014
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

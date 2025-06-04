@@ -29,5 +29,4 @@ def vs.CreatePullDownSearch(nDialogID, nComponentID, nWidthInChars):
 Availability: from Vectorworks 2020
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

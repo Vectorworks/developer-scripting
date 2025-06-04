@@ -27,5 +27,4 @@ ndowScreenSizes}}
 Availability: from VectorWorks 8.0
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

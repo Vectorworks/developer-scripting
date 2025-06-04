@@ -28,5 +28,4 @@ def vs.SetLayerAmbientColor(layer, red, green, blue):
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

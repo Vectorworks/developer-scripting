@@ -31,5 +31,4 @@ WidthValue:=Width(N='Box');
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

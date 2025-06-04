@@ -24,5 +24,4 @@ def vs.GetNumLineTypeItems(dialogID, itemID):
 Availability: from Vectorworks 2015
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

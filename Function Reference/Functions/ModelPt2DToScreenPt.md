@@ -24,5 +24,4 @@ This routine transform  a given point from model(object) to VCS.
 Availability: from VectorWorks13.0
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

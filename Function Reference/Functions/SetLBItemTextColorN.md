@@ -33,5 +33,4 @@ For a list of available tints, see [[VS:SetStaticTextColorN|SetStaticTextColorN]
 Availability: from Vectorworks 2023
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

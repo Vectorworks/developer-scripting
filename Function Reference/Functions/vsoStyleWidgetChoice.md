@@ -21,5 +21,4 @@ def vs.vsoStyleWidgetChoice():
 Availability: from Vectorworks 2017
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

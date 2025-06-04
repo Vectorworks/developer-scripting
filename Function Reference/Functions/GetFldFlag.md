@@ -29,5 +29,4 @@ fieldType:=GetFldFlag(recordHandle,3);
 Availability: from Vectorworks 2016
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

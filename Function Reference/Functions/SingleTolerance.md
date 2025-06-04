@@ -41,5 +41,4 @@ SingleTolerance(True,False,'approx. ','',1/16&quot;);
 Availability: from MiniCAD4.0
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

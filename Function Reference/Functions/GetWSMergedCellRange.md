@@ -34,5 +34,4 @@ def vs.GetWSMergedCellRange(worksheet, row, column):
 Availability: from VectorWorks12.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -35,5 +35,4 @@ GetTexMapRealN(FSActLayer, 7, 0, 5); { radius in mm of the left part's (7) textu
 Availability: from Vectorworks 2010
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

@@ -26,5 +26,4 @@ def vs.SetRRDiam(h, xDiam, yDiam):
 Availability: from Vectorworks 2014
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

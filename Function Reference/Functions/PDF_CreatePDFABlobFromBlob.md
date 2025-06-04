@@ -30,5 +30,4 @@ def vs.PDF_CreatePDFABlobFromBlob(inBlobPtr, inBlobSize, inPDFAFormat, ioBlobPtr
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

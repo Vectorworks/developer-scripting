@@ -24,5 +24,4 @@ Returns the bitmap object attached to the shader record, NIL if none
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

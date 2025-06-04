@@ -35,5 +35,4 @@ This seems to mean that the whole xml is stored on memory as long as the VW sess
 Availability: from VectorWorks12.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

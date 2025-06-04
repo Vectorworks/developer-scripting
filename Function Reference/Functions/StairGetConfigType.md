@@ -85,5 +85,4 @@ def vs.StairGetConfigType(stair):
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Stairs
-
+* [Objects - Stairs](../Categories/Objects%20-%20Stairs.md)

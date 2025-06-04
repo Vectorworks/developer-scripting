@@ -50,5 +50,4 @@ Similar calls:
 Availability: from Vectorworks 2012
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

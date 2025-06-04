@@ -31,5 +31,4 @@ Returns the pen background color setting of the class named className in paramet
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

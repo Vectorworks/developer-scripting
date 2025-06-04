@@ -28,5 +28,4 @@ def vs.GetWSCellTextAngle(worksheet, row, column):
 Availability: from VectorWorks12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

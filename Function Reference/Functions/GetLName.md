@@ -29,5 +29,4 @@ olateLayer}}
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

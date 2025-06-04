@@ -35,5 +35,4 @@ GetCellStr is obsolete as of VectorWorks 9.0, see new [[VS:GetWSCellString| GetW
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

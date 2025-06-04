@@ -40,5 +40,4 @@ ok = vs.IFC_DefPsetImport2( 'D:\Vectorworks\Presets.xml');
 Availability: from Vectorworks 2023 SP6
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

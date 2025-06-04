@@ -32,5 +32,4 @@ def vs.DisplayOrganizationDialog(tabToSelect):
 Availability: from VectorWorks 12.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

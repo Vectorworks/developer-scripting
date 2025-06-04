@@ -23,5 +23,4 @@ def vs.SetVPClOvrdObjTxt(viewportHandle, className, objectTexture):
 Availability: from Vectorworks 2018
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

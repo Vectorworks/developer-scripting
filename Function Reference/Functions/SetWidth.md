@@ -24,5 +24,4 @@ def vs.SetWidth(h, value):
 Availability: from Vectorworks14.0
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

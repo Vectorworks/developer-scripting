@@ -30,5 +30,4 @@ def vs.StairSetNumRisers(stair, NumRisers1, NumRisers2, NumRisers3, NumRisers4):
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Stairs
-
+* [Objects - Stairs](../Categories/Objects%20-%20Stairs.md)

@@ -38,5 +38,4 @@ VS Functions:
 Availability: from Vectorworks 2019
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

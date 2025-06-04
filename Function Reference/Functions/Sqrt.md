@@ -34,5 +34,4 @@ RUN(GenerateError);
 Availability: from All Versions
 
 ## Category
-* Math - General
-
+* [Math - General](../Categories/Math%20-%20General.md)

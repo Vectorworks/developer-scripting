@@ -36,5 +36,4 @@ For example, if GetZVals(zVal, deltaZVal) gives a non-zero zVal, you'll have to 
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

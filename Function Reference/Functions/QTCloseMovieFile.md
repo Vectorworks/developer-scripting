@@ -21,5 +21,4 @@ def vs.QTCloseMovieFile(movieRef):
 Availability: from VectorWorks8.5
 
 ## Category
-* Special - QuickTime
-
+* [Special - QuickTime](../Categories/Special%20-%20QuickTime.md)

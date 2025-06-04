@@ -28,5 +28,4 @@ def vs.IFC_GetZSGField(selector, fieldName):
 Availability: from Vectorworks 2022.1
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

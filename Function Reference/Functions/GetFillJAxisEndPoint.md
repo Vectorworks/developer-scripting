@@ -38,5 +38,4 @@ xIAxis, yIAxis = vs.GetFillJAxisEndPoint(vs.FSActLayer())
 Availability: from VectorWorks10.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2017
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

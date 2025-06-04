@@ -30,5 +30,4 @@ def vs.RefreshResManager(updateVWLibs, updateUserLibs, updateWGLibs, updateFavs,
 Availability: from Vectorworks 2025
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

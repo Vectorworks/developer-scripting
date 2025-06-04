@@ -21,5 +21,4 @@ def vs.EditRenderWorksPrefs():
 Availability: from Vectorworks 2014
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

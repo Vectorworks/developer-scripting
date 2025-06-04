@@ -34,5 +34,4 @@ This function supports the following control types:
 Availability: from VectorWorks8.5
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

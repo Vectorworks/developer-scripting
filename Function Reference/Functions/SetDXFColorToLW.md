@@ -24,5 +24,4 @@ def vs.SetDXFColorToLW(dxfClrIndex, lineWeight):
 Availability: from Vectorworks 2013
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

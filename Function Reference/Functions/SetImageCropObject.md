@@ -24,5 +24,4 @@ def vs.SetImageCropObject(image, crop):
 Availability: from Vectorworks 2014
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

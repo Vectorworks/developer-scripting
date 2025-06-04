@@ -24,5 +24,4 @@ def vs.PDF_SetProgressBar(progressPtr, status):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

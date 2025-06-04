@@ -26,5 +26,4 @@ def vs.GetGISOriginN():
 Availability: from Vectorworks 2020
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

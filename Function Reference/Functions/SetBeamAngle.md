@@ -24,5 +24,4 @@ def vs.SetBeamAngle(h, beamAngleR):
 Availability: from MiniCAD7.0
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

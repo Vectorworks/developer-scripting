@@ -24,5 +24,4 @@ def vs.ForEachMaterial(onlyUsed, callback):
 Availability: from Vectorworks 2021
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

@@ -48,5 +48,4 @@ GetTextureRefN(obj, 3, 0, TRUE);
 Availability: from Vectorworks 2010
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

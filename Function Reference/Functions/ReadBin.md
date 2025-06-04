@@ -35,5 +35,4 @@ def vs.ReadBin():
 Availability: from VW 2018
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

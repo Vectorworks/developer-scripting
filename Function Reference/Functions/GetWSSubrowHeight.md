@@ -28,5 +28,4 @@ def vs.GetWSSubrowHeight(worksheet, databaserow, subrow):
 Availability: from Vectorworks14.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

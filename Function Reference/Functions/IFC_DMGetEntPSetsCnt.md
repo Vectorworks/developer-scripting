@@ -26,5 +26,4 @@ def vs.IFC_DMGetEntPSetsCnt(strObjectName, strEntryName):
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

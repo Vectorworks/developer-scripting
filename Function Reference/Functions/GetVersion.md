@@ -69,5 +69,4 @@ Example()
 Availability: from MiniCAD7.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

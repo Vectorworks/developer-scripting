@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2011
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

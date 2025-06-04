@@ -69,5 +69,4 @@ RUN(Example);
 Availability: from Vectorworks 2023
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

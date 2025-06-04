@@ -32,5 +32,4 @@ def vs.SetWSImgType(worksheet, topRow, leftColumn, bottomRow, rightColumn, type)
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

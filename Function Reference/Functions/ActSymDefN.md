@@ -34,5 +34,4 @@ VS Functions:
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

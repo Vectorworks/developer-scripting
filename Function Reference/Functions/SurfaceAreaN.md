@@ -28,5 +28,4 @@ totalArea:=SurfaceAreaN((C='Empty Space'));
 Availability: from Vectorworks 2012
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

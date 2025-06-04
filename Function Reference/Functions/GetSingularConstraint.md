@@ -51,5 +51,4 @@ def vs.GetSingularConstraint(typeOfConstraint, obj, vertexA, vertexB):
 Availability: from VectorWorks 9.0
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

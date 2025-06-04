@@ -26,5 +26,4 @@ def vs.SetWSImgShowDBHeader(hWorksheetImage, show, redrawImage):
 Availability: from Vectorworks 2018
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

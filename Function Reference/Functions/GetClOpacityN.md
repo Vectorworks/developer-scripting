@@ -23,5 +23,4 @@ def vs.GetClOpacityN(strClassName):
 Availability: from Vectorworks 2017
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

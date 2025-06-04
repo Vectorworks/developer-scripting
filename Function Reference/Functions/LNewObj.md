@@ -21,5 +21,4 @@ If the object has been deleted since it was created, this function returns NIL. 
 Availability: from All Versions
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

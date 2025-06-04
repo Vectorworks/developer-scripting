@@ -50,5 +50,4 @@ vs.RectangleN ( origin[0], origin[1], direction[0], direction[1], width, height 
 Availability: from VectorWorks13.0
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

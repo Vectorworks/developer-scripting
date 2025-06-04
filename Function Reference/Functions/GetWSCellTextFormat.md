@@ -61,5 +61,4 @@ FontStyle integer is the sum of applicable attributes.
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

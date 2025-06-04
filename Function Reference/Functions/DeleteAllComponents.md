@@ -24,5 +24,4 @@ def vs.DeleteAllComponents(obj):
 Availability: from VectorWorks 12.5
 
 ## Category
-* Objects - Architectural
-
+* [Objects - Architectural](../Categories/Objects%20-%20Architectural.md)

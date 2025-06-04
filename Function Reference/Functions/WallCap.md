@@ -44,5 +44,4 @@ WallCap(True, True, False, 1.0', 0.0);
 Availability: from MiniCAD4.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

@@ -24,5 +24,4 @@ Returns true if object contains a light object in it.  This function works for c
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

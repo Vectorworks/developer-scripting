@@ -35,5 +35,4 @@ Availability: from VectorWorks 9.0
 <b>Deprecated since Vectorworks 2015</b>: Use [[VS:GetVWRString]] instead.
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

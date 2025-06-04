@@ -24,5 +24,4 @@ def vs.IFC_CreateZSG(selector, ZSGName):
 Availability: from Vectorworks 2022.1
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

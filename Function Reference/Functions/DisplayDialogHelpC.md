@@ -19,5 +19,4 @@ Added 2/09/2007 by Lyndsey Ferguson
 Availability: from VectorWorks12.5
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

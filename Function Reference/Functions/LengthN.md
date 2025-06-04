@@ -27,5 +27,4 @@ LengthValue:=LengthN(C='CrossMembers');
 Availability: from Vectorworks 2012
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

@@ -41,5 +41,4 @@ VS Functions: [ColorIndexToRGB](ColorIndexToRGB.md) | [RGBToColorIndex](RGBToCol
 Availability: from MiniCAD6.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

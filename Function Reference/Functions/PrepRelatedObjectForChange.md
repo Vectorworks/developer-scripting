@@ -27,5 +27,4 @@ Does this mean that the object is sent an event, and if so, what is the event co
 Availability: from VectorWorks12.5
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

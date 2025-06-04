@@ -30,5 +30,4 @@ NOTE: A determination that a cell is valid only means that the specified cell fa
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -25,5 +25,4 @@ Any vertex constrained creates one such object type 110 for each of the objects 
 Availability: from VectorWorks 9.0
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

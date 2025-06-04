@@ -40,5 +40,4 @@ Volume is obsolete as of VectorWorks12.5<P>
 Availability: from VectorWorks8.0
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

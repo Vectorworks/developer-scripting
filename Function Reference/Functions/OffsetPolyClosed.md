@@ -33,5 +33,4 @@ result = vs.OffsetPolyClosed(obj, offset /vs.GetPrefReal(152)*25.4, smoothCorner
 Availability: from Vectorworks 2018
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

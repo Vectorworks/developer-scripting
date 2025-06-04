@@ -129,5 +129,4 @@ vs.ForEachObjectInList(DoIt, 0, 0, vs.FSymDef);
 Availability: from VectorWorks 8.5
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -28,5 +28,4 @@ def vs.GetTreeControlItemData(nDialogID, nComponentID, nItemID):
 Availability: from VectorWorks12.5
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

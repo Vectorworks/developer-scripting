@@ -16,5 +16,4 @@ def vs.LegacyShapefileImp():
 Availability: from Vectorworks 2012
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

@@ -25,5 +25,4 @@ def vs.IFC_DMSetFieldMap(inStrObjName, inStrEntryName, inStrFieldName, strMappin
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

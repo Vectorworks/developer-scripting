@@ -24,5 +24,4 @@ def vs.IsVPGroupContainedObject(objectHandle, groupType):
 Availability: from VectorWorks11.0
 
 ## Category
-* Objects - Groups
-
+* [Objects - Groups](../Categories/Objects%20-%20Groups.md)

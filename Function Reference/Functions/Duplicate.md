@@ -38,5 +38,4 @@ vs.Duplicate(2,0)
 Availability: from All Versions
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

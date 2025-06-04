@@ -28,5 +28,4 @@ def vs.Moments3D(obj):
 Availability: from VectorWorks 10.1
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

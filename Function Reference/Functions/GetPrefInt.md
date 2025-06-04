@@ -36,5 +36,4 @@ maxUndos = vs.GetPrefInt(17)
 Availability: from VectorWorks8.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

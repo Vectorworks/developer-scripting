@@ -32,5 +32,4 @@ def vs.GetLBItemDashStyle(dialogID, componentID, itemIndex, subItemIndex):
 Availability: from VectorWorks12.0
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

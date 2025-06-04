@@ -50,5 +50,4 @@ VS Functions:
 Availability: from Vectorworks 2011
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

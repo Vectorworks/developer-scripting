@@ -35,5 +35,4 @@ Add operator = 2
 Availability: from Vectorworks 2012
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

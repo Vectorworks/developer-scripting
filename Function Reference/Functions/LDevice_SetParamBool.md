@@ -31,5 +31,4 @@ def vs.LDevice_SetParamBool(handle, cellIndex, accessoryIndex, universalName, ne
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

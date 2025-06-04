@@ -31,5 +31,4 @@ def vs.SetDocDrpShadowData(bUseDropShadow, nUnits, dOffset, dBlurRadius, dAngle,
 Availability: from Vectorworks 2017
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

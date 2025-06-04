@@ -76,5 +76,4 @@ END;
 Availability: from VectorWorks 12.0
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

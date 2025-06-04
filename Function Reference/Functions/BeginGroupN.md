@@ -70,5 +70,4 @@ VS Functions:
 Availability: from Vectorworks 2011
 
 ## Category
-* Objects - Groups
-
+* [Objects - Groups](../Categories/Objects%20-%20Groups.md)

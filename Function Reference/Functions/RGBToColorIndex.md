@@ -42,5 +42,4 @@ Functions:
 Availability: from MiniCAD6.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

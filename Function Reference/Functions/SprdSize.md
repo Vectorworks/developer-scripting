@@ -31,5 +31,4 @@ SprdSize is obsolete as of VectorWorks 9.0, see new [[VS:GetWSRowColumnCount| Ge
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

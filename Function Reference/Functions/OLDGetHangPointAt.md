@@ -30,5 +30,4 @@ def vs.OLDGetHangPointAt(handle, loadIndex, pointIndex):
 Availability: from Vectorworks 2018
 
 ## Category
-* Truss Analysis
-
+* [Truss Analysis](../Categories/Truss%20Analysis.md)

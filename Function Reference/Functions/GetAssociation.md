@@ -31,5 +31,4 @@ Returns association handle.
 Availability: from Vectorworks 2018
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

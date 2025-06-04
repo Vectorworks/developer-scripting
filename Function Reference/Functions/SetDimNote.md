@@ -34,5 +34,4 @@ SetDimNote(dimHandle,'DLO');
 Availability: from Vectorworks 2015
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

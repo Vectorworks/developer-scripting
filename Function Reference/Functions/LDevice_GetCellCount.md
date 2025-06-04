@@ -21,5 +21,4 @@ def vs.LDevice_GetCellCount(handle):
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

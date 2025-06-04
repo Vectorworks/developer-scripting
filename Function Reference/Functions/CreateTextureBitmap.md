@@ -26,5 +26,4 @@ CreateTextureBitmap is obsolete as of VectorWorks 10.1
 Availability: from VectorWorks 8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

@@ -30,5 +30,4 @@ def vs.SetLBItemData(nDialogID, nComponentID, nItemIndex, nSubItemIndex, nUserDa
 Availability: from VectorWorks12.5
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

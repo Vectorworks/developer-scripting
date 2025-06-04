@@ -61,5 +61,4 @@ RUN(ChangeGroupClass);
 Availability: from VectorWorks8.5
 
 ## Category
-* Objects - Groups
-
+* [Objects - Groups](../Categories/Objects%20-%20Groups.md)

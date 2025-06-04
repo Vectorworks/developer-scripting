@@ -27,5 +27,4 @@ def vs.SetVPClOvrdWallTxt(viewportHandle, className, leftTexture, centerTexture,
 Availability: from Vectorworks 2018
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

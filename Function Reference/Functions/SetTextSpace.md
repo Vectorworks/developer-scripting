@@ -41,5 +41,4 @@ Use [[VS:SetTextLeading| SetTextLeading]] to set a custom line spacing.
 Availability: from VectorWorks 8.0
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

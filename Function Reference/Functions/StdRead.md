@@ -39,5 +39,4 @@ END;
 Availability: from VectorWorks8.0
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

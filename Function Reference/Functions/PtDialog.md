@@ -40,5 +40,4 @@ PtDialog('Enter a coordinate.','0','0',cX,cY);
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

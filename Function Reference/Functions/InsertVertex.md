@@ -40,5 +40,4 @@ It is not possible insert a vertex as type 4 (radius vertex). You must insert th
 Availability: from VectorWorks 10.0
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

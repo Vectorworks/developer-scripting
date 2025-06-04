@@ -48,5 +48,4 @@ As of Vectorworks 2018 SP2, this function takes an integer parameter toolType to
 Availability: from Vectorworks 2018
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

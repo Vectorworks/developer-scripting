@@ -20,5 +20,4 @@ This example isn't very helpful. JDW.
 Availability: from All Versions
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

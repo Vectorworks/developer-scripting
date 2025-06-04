@@ -34,5 +34,4 @@ def vs.SetWSCellTextColor(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 Availability: from VectorWorks12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

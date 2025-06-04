@@ -26,5 +26,4 @@ def vs.HO_GetHoistColorLbl(value, maxValue):
 Availability: from Vectorworks 2018
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

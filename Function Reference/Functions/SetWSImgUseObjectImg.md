@@ -32,5 +32,4 @@ def vs.SetWSImgUseObjectImg(worksheet, topRow, leftColumn, bottomRow, rightColum
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

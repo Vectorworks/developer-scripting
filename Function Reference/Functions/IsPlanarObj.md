@@ -25,5 +25,4 @@ Use [[VS:GetPlanarRef|GetPlanarRef]] instead to find the planar refID of a given
 Availability: from Vectorworks 2016
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

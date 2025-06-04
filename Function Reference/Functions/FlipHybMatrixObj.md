@@ -40,5 +40,4 @@ Flips hybrid objects: symbols and plug-ins. If the objects to flip are symbols y
 Availability: from Vectorworks 2014
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

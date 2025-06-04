@@ -36,5 +36,4 @@ def vs.PDF_GetPageSizeFromBlob(inBlobPtr, inBlobSize, inPageBoxID, inCurPage, ou
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

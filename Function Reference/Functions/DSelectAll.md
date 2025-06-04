@@ -16,5 +16,4 @@ def vs.DSelectAll():
 Availability: from All Versions
 
 ## Category
-* Selection
-
+* [Selection](../Categories/Selection.md)

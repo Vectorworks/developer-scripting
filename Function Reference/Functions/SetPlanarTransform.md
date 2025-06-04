@@ -21,5 +21,4 @@ def vs.SetPlanarTransform(h):
 Availability: from Vectorworks 2016
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

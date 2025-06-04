@@ -21,5 +21,4 @@ def vs.ArcTan(v):
 Availability: from All Versions
 
 ## Category
-* Math - General
-
+* [Math - General](../Categories/Math%20-%20General.md)

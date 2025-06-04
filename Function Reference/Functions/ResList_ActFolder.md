@@ -24,5 +24,4 @@ def vs.ResList_ActFolder(uniqueID, folder):
 Availability: from Vectorworks 2019.3
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

@@ -34,5 +34,4 @@ def vs.OverlapLineLine(begPt1, endPt1, begPt2, endPt2, tolerance):
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

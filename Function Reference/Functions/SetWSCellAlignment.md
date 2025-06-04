@@ -53,5 +53,4 @@ def vs.SetWSCellAlignment(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

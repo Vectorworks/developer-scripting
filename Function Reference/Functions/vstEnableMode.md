@@ -26,5 +26,4 @@ Availability: from All Versions
 This is drop-in function.
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

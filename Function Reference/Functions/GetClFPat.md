@@ -44,5 +44,4 @@ Example();
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

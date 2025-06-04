@@ -29,5 +29,4 @@ def vs.CreateTaperedExtrude(profileH, angle, height):
 Availability: from VectorWorks 9.0
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

@@ -24,5 +24,4 @@ def vs.ObjArea(h):
 Availability: from VectorWorks 12.5
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

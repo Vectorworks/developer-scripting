@@ -26,5 +26,4 @@ def vs.LandmarkMatchSlope(h, h3d, landmarkObj):
 Availability: from Vectorworks 2016
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

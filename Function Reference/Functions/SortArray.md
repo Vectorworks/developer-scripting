@@ -31,5 +31,4 @@ Sorts first numtosort elements of single-dimensional array  arraytosort into asc
 Availability: from VectorWorks9.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

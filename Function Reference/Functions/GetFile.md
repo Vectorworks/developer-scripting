@@ -54,5 +54,4 @@ Example()
 Availability: from All Versions
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

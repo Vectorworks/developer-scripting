@@ -29,5 +29,4 @@ def vs.LDevice_GetParamLong(handle, cellIndex, accessoryIndex, universalName):
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

@@ -38,5 +38,4 @@ SetFillIAxisEndPoint(objectHandle, 20.0, 10.0);
 Availability: from VectorWorks10.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

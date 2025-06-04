@@ -24,5 +24,4 @@ def vs.CreateChainDimension(h1, h2):
 Availability: from VectorWorks12.5
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

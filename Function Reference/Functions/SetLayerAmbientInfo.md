@@ -29,5 +29,4 @@ brightness is a percentage value
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

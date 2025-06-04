@@ -32,5 +32,4 @@ def vs.SetObjectAsCornerBreak(objH, wallH, cornerBreak):
 Availability: from Vectorworks 2010
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

@@ -35,5 +35,4 @@ def vs.SetStaticTextColor(dialogID, componentID, red, green, blue):
 Availability: from Vectorworks 2010
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

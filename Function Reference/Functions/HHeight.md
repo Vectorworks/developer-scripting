@@ -24,5 +24,4 @@ Observed in 2021: Despite the OIP Width and Height fields flipping values when a
 Availability: from All Versions
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

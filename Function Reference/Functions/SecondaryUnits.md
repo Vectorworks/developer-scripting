@@ -101,5 +101,4 @@ SecondaryUnits(1, 6, 2, TRUE, TRUE);
 Availability: from MiniCAD 7.0
 
 ## Category
-* Units
-
+* [Units](../Categories/Units.md)

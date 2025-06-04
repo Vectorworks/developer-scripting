@@ -47,5 +47,4 @@ SetGradientData(gradientHandle, segmentIndex, 0.9, 0.5, 255, 255, 255);
 Availability: from VectorWorks10.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

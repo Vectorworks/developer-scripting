@@ -16,5 +16,4 @@ def vs.GetPlantToolPlantName():
 Availability: from VectorWorks13.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

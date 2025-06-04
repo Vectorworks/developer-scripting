@@ -52,5 +52,4 @@ def vs.IntersectSolid(obj1, obj2):
 Availability: from MiniCAD 7.0
 
 ## Category
-* Objects - Solids
-
+* [Objects - Solids](../Categories/Objects%20-%20Solids.md)

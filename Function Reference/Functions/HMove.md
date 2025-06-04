@@ -36,5 +36,4 @@ vs.HMove(vs.FSActLayer(),2,2)
 Availability: from All Versions
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

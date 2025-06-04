@@ -35,5 +35,4 @@ vs.Poly(*points)
 Availability: from All Versions
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

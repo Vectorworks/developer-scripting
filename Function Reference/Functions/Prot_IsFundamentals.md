@@ -16,5 +16,4 @@ def vs.Prot_IsFundamentals():
 Availability: from Vectorworks 2023
 
 ## Category
-* Protection
-
+* [Protection](../Categories/Protection.md)

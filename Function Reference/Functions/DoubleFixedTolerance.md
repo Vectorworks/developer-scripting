@@ -46,5 +46,4 @@ vs.DoubleFixedTolerance(True,False,'','','yes','no')
 Availability: from MiniCAD4.0
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

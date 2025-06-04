@@ -26,5 +26,4 @@ def vs.BindLayerToWFSFS(inURL, inFeatureName, inRequestAll):
 Availability: from Vectorworks 2023
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

@@ -42,5 +42,4 @@ SetLScale(HandleToLayer,96);
 Availability: from MiniCAD6.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

@@ -25,5 +25,4 @@ Sets so that the class fill colors are used for the object referenced by h.
 Availability: from VectorWorks8.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

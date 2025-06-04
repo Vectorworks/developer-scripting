@@ -16,5 +16,4 @@ def vs.HP_ConvertToHangPos():
 Availability: from Vectorworks 2019
 
 ## Category
-* Truss Analysis
-
+* [Truss Analysis](../Categories/Truss%20Analysis.md)

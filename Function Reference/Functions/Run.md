@@ -39,5 +39,4 @@ RUN(Example);
 Availability: from All Versions
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

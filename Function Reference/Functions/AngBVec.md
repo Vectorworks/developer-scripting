@@ -60,5 +60,4 @@ vs.Message(str(vs.AngBVec( v1, v2 )))
 Availability: from All Versions
 
 ## Category
-* Math - Vectors
-
+* [Math - Vectors](../Categories/Math%20-%20Vectors.md)

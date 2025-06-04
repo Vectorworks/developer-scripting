@@ -31,5 +31,4 @@ DoMenuText is obsolete as of VectorWorks8.0<P>
 Availability: from MiniCAD4.0
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

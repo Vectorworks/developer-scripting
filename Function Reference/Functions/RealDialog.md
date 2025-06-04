@@ -34,5 +34,4 @@ realValue = vs.RealDialog('Enter a real value', '0.00')
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

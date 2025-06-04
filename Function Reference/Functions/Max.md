@@ -24,5 +24,4 @@ def vs.Max(val1, val2):
 Availability: from Vectorworks 2014
 
 ## Category
-* Math - General
-
+* [Math - General](../Categories/Math%20-%20General.md)

@@ -21,5 +21,4 @@ def vs.GetSymDefSubType(hSymDef):
 Availability: from Vectorworks 2017
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

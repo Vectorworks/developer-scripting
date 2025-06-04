@@ -26,5 +26,4 @@ def vs.GetLayoutDialogSize(dialogID):
 Availability: from VectorWorks12.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

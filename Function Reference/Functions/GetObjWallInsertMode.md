@@ -39,5 +39,4 @@ In Python the third parameter (insertMode) doesn't do anything, but it needs to 
 Availability: from Vectorworks 2017
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

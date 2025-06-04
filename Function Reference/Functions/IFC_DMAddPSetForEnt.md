@@ -30,5 +30,4 @@ def vs.IFC_DMAddPSetForEnt(strObjectName, strEntryName, strPSetName, bEnabled, s
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

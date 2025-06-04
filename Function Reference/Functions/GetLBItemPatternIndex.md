@@ -33,5 +33,4 @@ def vs.GetLBItemPatternIndex(dialogID, componentID, itemIndex, the column index)
 Availability: from Vectorworks 2010
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

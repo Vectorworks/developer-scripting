@@ -40,5 +40,4 @@ def vs.SetTexMapReal(h, partID, selector, value):
 Availability: from Vectorworks14.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

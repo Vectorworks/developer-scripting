@@ -27,5 +27,4 @@ Same functionality as WallWidth(h), except that GetWallThickness returns also a 
 Availability: from VectorWorks12.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

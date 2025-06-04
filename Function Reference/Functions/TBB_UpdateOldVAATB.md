@@ -16,5 +16,4 @@ def vs.TBB_UpdateOldVAATB():
 Availability: from Vectorworks 2019
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

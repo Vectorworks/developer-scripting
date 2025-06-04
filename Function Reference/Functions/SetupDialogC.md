@@ -21,5 +21,4 @@ def vs.SetupDialogC():
 Availability: from VectorWorks9.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

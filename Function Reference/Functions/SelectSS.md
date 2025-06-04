@@ -27,5 +27,4 @@ SelectSS is obsolete as of VectorWorks9.0<P>
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

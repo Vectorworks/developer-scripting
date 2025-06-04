@@ -46,5 +46,4 @@ ok = vs.IFC_DefPsetImport( 'D:\Vectorworks');
 Availability: from Vectorworks 2016
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

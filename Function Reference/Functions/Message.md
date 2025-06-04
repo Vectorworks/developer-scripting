@@ -36,5 +36,4 @@ Message('The Number of objects was :',theNumber);
 Availability: from All Versions
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2016
 
 ## Category
-* Project Sharing
-
+* [Project Sharing](../Categories/Project%20Sharing.md)

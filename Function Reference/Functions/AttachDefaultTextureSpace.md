@@ -27,5 +27,4 @@ Deletes any pre-existing space attached to the object (with the specified part I
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

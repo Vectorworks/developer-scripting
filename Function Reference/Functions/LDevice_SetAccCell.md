@@ -28,5 +28,4 @@ def vs.LDevice_SetAccCell(handle, cellIndex, accessoryIndex, newCellIndex):
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

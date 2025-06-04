@@ -100,5 +100,4 @@ def vs.CreateShaderRecord(texture, family, prototype):
 Availability: from VectorWorks10.1
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

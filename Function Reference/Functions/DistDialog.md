@@ -36,5 +36,4 @@ vs.Message(vs.DistDialog('Enter a distance value:','0'))
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

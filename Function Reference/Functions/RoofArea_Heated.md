@@ -34,5 +34,4 @@ Below a schema posted by Jeff Ouellette 2008:
 Availability: from Vectorworks 14.0
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

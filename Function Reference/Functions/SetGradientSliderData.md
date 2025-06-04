@@ -49,5 +49,4 @@ SetGradientSliderData(dialogID, componentID, segmentIndex, 0.9, 0.5, 255, 255, 2
 Availability: from VectorWorks10.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

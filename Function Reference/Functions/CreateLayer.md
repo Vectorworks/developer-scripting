@@ -31,5 +31,4 @@ def vs.CreateLayer(layerName, layerType):
 Availability: from VectorWorks 10.5
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

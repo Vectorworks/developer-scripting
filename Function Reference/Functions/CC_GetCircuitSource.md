@@ -30,5 +30,4 @@ def vs.CC_GetCircuitSource(hCircuit):
 Availability: from Vectorworks 2025
 
 ## Category
-* ConnectCAD
-
+* [ConnectCAD](../Categories/ConnectCAD.md)

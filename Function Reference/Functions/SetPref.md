@@ -51,5 +51,4 @@ SetPref(17,FALSE);
 Availability: from MiniCAD6.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

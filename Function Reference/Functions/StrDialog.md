@@ -46,5 +46,4 @@ example()
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

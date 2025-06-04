@@ -29,5 +29,4 @@ X and y are in paint node pixels from top left
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

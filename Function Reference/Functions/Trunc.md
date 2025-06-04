@@ -51,5 +51,4 @@ Trunc(0.94); { returns 0 }
 Availability: from All Versions
 
 ## Category
-* Math - General
-
+* [Math - General](../Categories/Math%20-%20General.md)

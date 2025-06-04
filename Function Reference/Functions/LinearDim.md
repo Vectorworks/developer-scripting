@@ -58,5 +58,4 @@ LinearDim(-2&quot;,2&quot;,1&quot;,2&quot;,-3&quot;,0,771,770,0.75);
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

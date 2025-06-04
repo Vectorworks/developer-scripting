@@ -29,5 +29,4 @@ def vs.CreateImgFromSymbol(symbolName, symbolHeight, symbolWidth, symbolMargin, 
 Availability: from Vectorworks 2018
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

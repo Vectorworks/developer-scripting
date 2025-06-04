@@ -27,5 +27,4 @@ This currently fails on Round Walls. (VW 13.01+).
 Availability: from VectorWorks13.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

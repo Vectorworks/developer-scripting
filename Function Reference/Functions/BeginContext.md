@@ -33,5 +33,4 @@ VS Functions:
 Availability: from VectorWorks 12.5
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

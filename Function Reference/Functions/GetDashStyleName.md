@@ -34,5 +34,4 @@ VS Functions:
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Names
-
+* [Object Names](../Categories/Object%20Names.md)

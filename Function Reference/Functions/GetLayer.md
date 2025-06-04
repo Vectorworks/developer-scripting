@@ -34,5 +34,4 @@ LayerHandle = vs.GetLayer(ObjHd)
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

@@ -45,5 +45,4 @@ VS Functions:
 Availability: from MiniCAD4.0
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

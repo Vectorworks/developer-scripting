@@ -33,5 +33,4 @@ OpenGL render mode       = 11.
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

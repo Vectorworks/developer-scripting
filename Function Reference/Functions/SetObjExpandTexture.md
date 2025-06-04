@@ -27,5 +27,4 @@ Sets whether three or just a single texture is applied to this object (can be up
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

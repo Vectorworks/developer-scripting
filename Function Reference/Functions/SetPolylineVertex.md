@@ -79,5 +79,4 @@ For polygons:
 Availability: from VectorWorks 8.5
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

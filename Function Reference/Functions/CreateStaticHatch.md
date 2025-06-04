@@ -54,5 +54,4 @@ vs.GetPt( PickPointCallback )
 Availability: from VectorWorks10.1
 
 ## Category
-* Hatches @ Vector Fills
-
+* [Hatches @ Vector Fills](../Categories/Hatches%20-%20Vector%20Fills.md)

@@ -27,5 +27,4 @@ Respective [[VS:SetClUseTexture]].
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

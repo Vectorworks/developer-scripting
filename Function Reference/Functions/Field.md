@@ -37,5 +37,4 @@ VS Functions:
 Availability: from All Versions. Obsolete from VW 9.
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

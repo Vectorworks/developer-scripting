@@ -44,5 +44,4 @@ Example()
 Availability: from VectorWorks8.5
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

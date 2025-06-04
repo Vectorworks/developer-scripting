@@ -28,5 +28,4 @@ def vs.GetZatXY(hObject, X, Y):
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

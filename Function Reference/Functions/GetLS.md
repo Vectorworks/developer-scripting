@@ -38,5 +38,4 @@ lStyleValue = vs.GetLS(handleToObject)
 Availability: from All Versions, deprecated from Vectorworks 2013
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

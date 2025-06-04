@@ -40,5 +40,4 @@ def vs.SetLBItemMkrChoice(dialogID, componentID, itemIndex, subItemIndex, style,
 Availability: from Vectorworks 2022
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

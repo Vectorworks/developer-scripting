@@ -16,5 +16,4 @@ def vs.DS_GetAngle():
 Availability: from Vectorworks 2014
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

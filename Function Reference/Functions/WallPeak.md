@@ -39,5 +39,4 @@ WallPeak(3'-6&quot;,9'-0&quot;);
 Availability: from MiniCAD4.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

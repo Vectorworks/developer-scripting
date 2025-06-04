@@ -32,5 +32,4 @@ def vs.XMLSAXEndDocMemory(XMLHandle):
 Availability: from Vectorworks 2011
 
 ## Category
-* XML SAX
-
+* [XML SAX](../Categories/XML%20SAX.md)

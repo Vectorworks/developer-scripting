@@ -32,5 +32,4 @@ ok = vs.IFC_ImportWithUI()
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

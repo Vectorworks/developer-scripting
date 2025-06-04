@@ -38,5 +38,4 @@ SetFillJAxisEndPoint(objectHandle, 15.0, 25.0);
 Availability: from VectorWorks10.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

@@ -82,5 +82,4 @@ Example()
 Availability: from VectorWorks10.0
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

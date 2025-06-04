@@ -32,5 +32,4 @@ def vs.CircleCircleInters(cenPt1, cenPt2, radius1, radius2):
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

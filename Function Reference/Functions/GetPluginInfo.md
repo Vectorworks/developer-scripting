@@ -30,5 +30,4 @@ Please mind that this routine returns obj type 48 (record instance). In case of 
 Availability: from VectorWorks8.5
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

@@ -31,5 +31,4 @@ HeightValue = vs.Height((N='North Wall'))
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

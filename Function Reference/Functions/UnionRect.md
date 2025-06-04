@@ -42,5 +42,4 @@ UnionRect(0,0,3,3,3,3,5,5,x1,y1,x2,y2);
 Availability: from All Versions
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

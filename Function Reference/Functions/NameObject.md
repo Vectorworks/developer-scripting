@@ -39,5 +39,4 @@ SetName(LNewObj, 'Part 5257');
 Availability: from All Versions
 
 ## Category
-* Object Names
-
+* [Object Names](../Categories/Object%20Names.md)

@@ -46,5 +46,4 @@ CreateText('Sample text string');
 Availability: from All Versions
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

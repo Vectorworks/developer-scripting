@@ -26,5 +26,4 @@ def vs.LDevice_AddAccessory(handle, cellIndex, accessorySymbol):
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

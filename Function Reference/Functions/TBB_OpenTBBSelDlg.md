@@ -28,5 +28,4 @@ def vs.TBB_OpenTBBSelDlg(StyleName, SheetSize, TBWidth, TBHeight):
 Availability: from Vectorworks 2019
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -63,5 +63,4 @@ Example()
 Availability: from VectorWorks10.1
 
 ## Category
-* Objects - NURBS
-
+* [Objects - NURBS](../Categories/Objects%20-%20NURBS.md)

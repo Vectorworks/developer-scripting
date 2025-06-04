@@ -54,5 +54,4 @@ ok = vs.IFC_DefPsetAddMember( 'Chair Details', 'Height', 'IfcReal');
 Availability: from Vectorworks 2016.
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

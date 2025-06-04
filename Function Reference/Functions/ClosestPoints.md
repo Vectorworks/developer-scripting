@@ -30,5 +30,4 @@ def vs.ClosestPoints(h1, h2):
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

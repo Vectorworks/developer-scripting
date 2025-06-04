@@ -23,5 +23,4 @@ def vs.GetDrawingArea():
 |outIsOnePrintedPage|BOOLEAN|Returns true, if One Printer Page was selected in Page Setup dialog and the page area is the same as the selected from the printer page area.|
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

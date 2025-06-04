@@ -42,5 +42,4 @@ If no item in the NameList carries the name searched with [[VS:GetObject| GetObj
 Availability: from All Versions
 
 ## Category
-* Object Names
-
+* [Object Names](../Categories/Object%20Names.md)

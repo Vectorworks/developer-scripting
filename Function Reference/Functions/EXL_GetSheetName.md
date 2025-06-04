@@ -24,5 +24,4 @@ def vs.EXL_GetSheetName(sheetIndex):
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

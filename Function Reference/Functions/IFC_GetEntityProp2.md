@@ -30,5 +30,4 @@ def vs.IFC_GetEntityProp2(hObject, propertyName):
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

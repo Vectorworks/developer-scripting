@@ -39,5 +39,4 @@ RUN(Example);
 Availability: from Vectorworks 2023.3
 
 ## Category
-* Objects - Solids
-
+* [Objects - Solids](../Categories/Objects%20-%20Solids.md)

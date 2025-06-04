@@ -31,5 +31,4 @@ ApplyCustomTexPart(parentPIO, pioSubObj, 100);
 Availability: from Vectorworks 2017
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

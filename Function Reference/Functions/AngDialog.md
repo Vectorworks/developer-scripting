@@ -34,5 +34,4 @@ AngleValue = vs.AngDialog('Enter an angle value:', '0d')
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

@@ -21,5 +21,4 @@ def vs.UpdateStyledObjects(styleName):
 Availability: from Vectorworks 2017
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

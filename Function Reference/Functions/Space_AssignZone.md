@@ -26,5 +26,4 @@ def vs.Space_AssignZone(space, zoneType, zoneName):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

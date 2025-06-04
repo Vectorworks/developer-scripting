@@ -22,5 +22,4 @@ VS Functions:
 Availability: from All Versions
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

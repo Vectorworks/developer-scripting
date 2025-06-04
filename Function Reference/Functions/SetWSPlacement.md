@@ -30,5 +30,4 @@ def vs.SetWSPlacement(worksheet, top, left, bottom, right):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

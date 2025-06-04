@@ -27,5 +27,4 @@ def vs.CreateImageControl2(dialogID, controlID, widthInPixels, heightInPixels, i
 Availability: from Vectorworks 2012
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

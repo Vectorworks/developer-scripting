@@ -26,5 +26,4 @@ def vs.ResList_AddCont1(uniqueID, baseFolderSpec, folderName):
 Availability: from Vectorworks 2017
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

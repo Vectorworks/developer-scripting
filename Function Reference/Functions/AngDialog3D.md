@@ -44,5 +44,4 @@ x,y,z = AngDialog3D('Enter the angle values:','0','0','0')
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

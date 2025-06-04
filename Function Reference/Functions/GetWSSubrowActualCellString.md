@@ -34,5 +34,4 @@ WARNING: Because database subrow cells and their contents are dynamically create
 Availability: from VectorWorks13.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

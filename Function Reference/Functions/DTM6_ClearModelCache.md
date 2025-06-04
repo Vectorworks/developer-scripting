@@ -24,5 +24,4 @@ def vs.DTM6_ClearModelCache(hObject):
 Availability: from Vectorworks 2011
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

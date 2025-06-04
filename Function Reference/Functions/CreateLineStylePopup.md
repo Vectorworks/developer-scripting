@@ -27,5 +27,4 @@ Create a dialog control that displays the line style choices available in the ac
 Availability: from VectorWorks12.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

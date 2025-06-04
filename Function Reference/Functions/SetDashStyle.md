@@ -53,5 +53,4 @@ SetDashStyle(True, 0,1",1 /4", 1/4", 1/4");
 Availability: from MiniCAD 4.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

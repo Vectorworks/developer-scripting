@@ -16,5 +16,4 @@ def vs.ReDrawAll():
 Availability: from All Versions
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -120,5 +120,4 @@ RUN(Example);
 Availability: from MiniCAD 7.0
 
 ## Category
-* Units
-
+* [Units](../Categories/Units.md)

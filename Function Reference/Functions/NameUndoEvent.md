@@ -24,5 +24,4 @@ Names the undo event that is currently being built.
 Availability: from VectorWorks8.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

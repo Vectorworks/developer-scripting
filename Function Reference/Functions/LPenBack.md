@@ -26,5 +26,4 @@ Sets the background pen color for the active layer.
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

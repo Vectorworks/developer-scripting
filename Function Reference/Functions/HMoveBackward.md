@@ -27,5 +27,4 @@ It is possible using HMoveForward and HMoveBackward to re-order layers. But use 
 Availability: from VectorWorks8.5
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

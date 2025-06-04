@@ -87,5 +87,4 @@ vs.AlrtDialog('Default:' + vs.GetRField(hrec, recname, fld))
 Availability: from VectorWorks 8.5
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

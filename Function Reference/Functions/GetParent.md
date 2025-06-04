@@ -26,5 +26,4 @@ Returns the "parent" of h, that is, h's immediate owner.  For most objects, this
 Availability: from VectorWorks8.5
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

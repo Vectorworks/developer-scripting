@@ -49,5 +49,4 @@ SetRField(HandleToObject,'Part Info','Serial No.','P-4322');
 Availability: from All Versions.
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

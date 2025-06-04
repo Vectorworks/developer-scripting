@@ -43,5 +43,4 @@ Rotate3D(21d 10' 22&quot;,-18d 44' 50&quot;,-7d 5' 45&quot;);
 Availability: from All Versions
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

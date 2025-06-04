@@ -16,5 +16,4 @@ def vs.GetTopVisibleWS():
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

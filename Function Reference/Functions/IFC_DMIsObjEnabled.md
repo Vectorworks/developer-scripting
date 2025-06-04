@@ -41,5 +41,4 @@ bOk = vs.IFC_DMIsObjEnabled('Space'); #bOk returns if the Space Object is enable
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

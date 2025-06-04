@@ -24,5 +24,4 @@ Brings up the Edit Texture dialog for this texture
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

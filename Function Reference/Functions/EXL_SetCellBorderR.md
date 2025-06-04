@@ -36,5 +36,4 @@ def vs.EXL_SetCellBorderR(sheetIndex, cellRow, cellColumn, weight, color, style,
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

@@ -24,5 +24,4 @@ def vs.ExportImageFile(hHmage, filePath):
 Availability: from Vectorworks 2015
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

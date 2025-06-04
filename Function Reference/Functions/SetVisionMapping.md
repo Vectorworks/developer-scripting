@@ -30,5 +30,4 @@ def vs.SetVisionMapping(color, universe, gobo, name, channel):
 Availability: from Vectorworks 2018
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

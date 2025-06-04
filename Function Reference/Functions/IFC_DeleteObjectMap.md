@@ -21,5 +21,4 @@ def vs.IFC_DeleteObjectMap(objectName):
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -24,5 +24,4 @@ def vs.PublishSavedSet(savedSetName, outputFolder):
 Availability: from Vectorworks 2020
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

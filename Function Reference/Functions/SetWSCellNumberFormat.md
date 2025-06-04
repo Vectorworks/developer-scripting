@@ -98,5 +98,4 @@ FYI:  DO NOT USE 9 and 10!!!
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -24,5 +24,4 @@ def vs.IFC_DMEnableObject(inStrObjName, bEnable):
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

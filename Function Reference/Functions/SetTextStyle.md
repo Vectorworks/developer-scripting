@@ -74,5 +74,4 @@ SetTextSyle(HandleToText, 0, 5, 34);
 Availability: from MiniCAD 6.0
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

@@ -72,5 +72,4 @@ SprdFormat is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellNumberFormat
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -32,5 +32,4 @@ VS Functions:
 Availability: from Vectorworks 2015
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

@@ -32,5 +32,4 @@ CellValue is obsolete as of VectorWorks 9.0, see [[VS:GetWSCellValue | GetWSCell
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

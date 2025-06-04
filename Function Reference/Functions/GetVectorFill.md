@@ -30,5 +30,4 @@ This routine will also return names of Gradient or Image Fill definitions applie
 Availability: from MiniCAD7.0.1
 
 ## Category
-* Hatches @ Vector Fills
-
+* [Hatches @ Vector Fills](../Categories/Hatches%20-%20Vector%20Fills.md)

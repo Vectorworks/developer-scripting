@@ -21,5 +21,4 @@ def vs.SetLTGeneration(ltGeneration):
 Availability: from Vectorworks 2020.5
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

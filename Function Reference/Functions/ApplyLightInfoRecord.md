@@ -24,5 +24,4 @@ def vs.ApplyLightInfoRecord(hSymboL, hObject):
 Availability: from Vectorworks 2013
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

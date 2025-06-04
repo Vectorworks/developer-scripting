@@ -39,5 +39,4 @@ Availability: from MiniCAD6.0
 Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

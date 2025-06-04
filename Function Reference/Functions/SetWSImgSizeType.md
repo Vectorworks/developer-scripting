@@ -32,5 +32,4 @@ def vs.SetWSImgSizeType(worksheet, topRow, leftColumn, bottomRow, rightColumn, i
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

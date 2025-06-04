@@ -29,5 +29,4 @@ def vs.CreatePaintFromImgN(image, locPt, rotDeg):
 Availability: from Vectorworks 2011
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

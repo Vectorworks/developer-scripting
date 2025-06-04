@@ -21,5 +21,4 @@ def vs.DBeam_EndShttGet(bUseLampRotFlag):
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

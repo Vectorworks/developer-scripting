@@ -34,5 +34,4 @@ def vs.GetEntityMatrix(objectHandle):
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

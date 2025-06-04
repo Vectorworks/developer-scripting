@@ -56,5 +56,4 @@ DoMenuTextByNameExample()
 Availability: from MiniCAD 5.0
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

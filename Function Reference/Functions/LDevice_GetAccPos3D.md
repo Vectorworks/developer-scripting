@@ -30,5 +30,4 @@ def vs.LDevice_GetAccPos3D(handle, cellIndex, accessoryIndex):
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

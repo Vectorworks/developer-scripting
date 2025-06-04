@@ -33,5 +33,4 @@ Use the pref object boo 700, instead, it is more secure:
 Availability: from VectorWorks10.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

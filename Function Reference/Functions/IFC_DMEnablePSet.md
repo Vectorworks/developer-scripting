@@ -28,5 +28,4 @@ def vs.IFC_DMEnablePSet(strObjectName, strEntryName, strPSetName, bEnable):
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -31,5 +31,4 @@ vs.DimText()
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

@@ -26,5 +26,4 @@ def vs.ws2AddMenuItem(menuPath, newMenuUnivName, beforeIndex):
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

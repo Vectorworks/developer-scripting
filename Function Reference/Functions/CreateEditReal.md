@@ -96,5 +96,4 @@ Example()
 Availability: from VectorWorks 9.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

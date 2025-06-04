@@ -19,5 +19,4 @@ Sets the global attributes to use the opacity of the default class.
 Availability: from VectorWorks13.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

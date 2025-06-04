@@ -42,5 +42,4 @@ There doesn't seem to be a way to get the document DEFAULT text justification li
 Availability: from All Versions
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

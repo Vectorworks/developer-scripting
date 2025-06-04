@@ -21,5 +21,4 @@ def vs.TBB_UpdateOldBorders():
 Availability: from Vectorworks 2018
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

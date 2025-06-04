@@ -26,5 +26,4 @@ VS Functions:
 Availability: from Vectorworks 2019
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

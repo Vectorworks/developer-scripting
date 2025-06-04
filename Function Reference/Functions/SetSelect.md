@@ -24,5 +24,4 @@ To select an object in a Wall you must select both the object and the Wall.
 Availability: from All Versions
 
 ## Category
-* Selection
-
+* [Selection](../Categories/Selection.md)

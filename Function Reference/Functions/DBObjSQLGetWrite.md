@@ -24,5 +24,4 @@ def vs.DBObjSQLGetWrite(hRecord):
 Availability: from Vectorworks 2011
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

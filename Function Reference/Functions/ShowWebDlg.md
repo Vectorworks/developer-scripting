@@ -38,5 +38,4 @@ vs.ShowWebDlg('Title', 'www.gooogle.com', 'Close', '')
 Availability: from Vectorworks 2019
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

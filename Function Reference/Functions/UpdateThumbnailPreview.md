@@ -21,5 +21,4 @@ def vs.UpdateThumbnailPreview(resourceHandle):
 Availability: from VectorWorks11.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

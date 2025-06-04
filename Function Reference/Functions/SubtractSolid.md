@@ -59,5 +59,4 @@ A solid subtraction has object type 84 and subtype 516. Mind, also other objects
 Availability: from MiniCAD 7.0
 
 ## Category
-* Objects - Solids
-
+* [Objects - Solids](../Categories/Objects%20-%20Solids.md)

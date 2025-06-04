@@ -54,5 +54,4 @@ controlPoint: The distance from the side to where the curve starts.  Must be les
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Roofs
-
+* [Objects - Roofs](../Categories/Objects%20-%20Roofs.md)

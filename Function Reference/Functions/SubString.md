@@ -34,5 +34,4 @@ middleStr := SubString('Left;Middle;Right', ';', 2);
 Availability: from Vectorworks 2014
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

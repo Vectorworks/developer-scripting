@@ -16,5 +16,4 @@ def vs.DBeam_GetLines():
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

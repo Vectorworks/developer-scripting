@@ -26,5 +26,4 @@ def vs.EXL_GetSheetSize(sheetIndex):
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

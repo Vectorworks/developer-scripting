@@ -33,5 +33,4 @@ TypeValue = vs.ObjectType( "N='Mystery Object'" );
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

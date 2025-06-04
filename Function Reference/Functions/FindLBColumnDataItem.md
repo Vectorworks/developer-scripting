@@ -30,5 +30,4 @@ def vs.FindLBColumnDataItem(dialogID, componentID, columnIndex, itemString):
 Availability: from VectorWorks11.0
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

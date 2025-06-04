@@ -34,5 +34,4 @@ VS Functions:
 Availability: from Vectorworks 2013
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

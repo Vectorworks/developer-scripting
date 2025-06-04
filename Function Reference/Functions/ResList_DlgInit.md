@@ -26,5 +26,4 @@ def vs.ResList_DlgInit(uniqueID, dlgID, ctrlID):
 Availability: from Vectorworks 2017
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

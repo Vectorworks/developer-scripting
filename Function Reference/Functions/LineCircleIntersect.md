@@ -36,5 +36,4 @@ This function checks and returns the intersection of the circle with an infinite
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

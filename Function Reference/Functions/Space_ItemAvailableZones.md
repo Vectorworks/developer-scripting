@@ -21,5 +21,4 @@ def vs.Space_ItemAvailableZones(item):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

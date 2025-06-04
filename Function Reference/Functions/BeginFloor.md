@@ -37,5 +37,4 @@ vs.EndGroup()
 Availability: from MiniCAD4.0
 
 ## Category
-* Objects - Architectural
-
+* [Objects - Architectural](../Categories/Objects%20-%20Architectural.md)

@@ -30,5 +30,4 @@ To think of this behavior in another way (that was certainly not intended origin
 Availability: from All Versions
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

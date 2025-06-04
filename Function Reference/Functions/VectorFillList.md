@@ -24,5 +24,4 @@ Returns the name of the specified hatch definition from the active document.
 Availability: from MiniCAD7.0.1
 
 ## Category
-* Hatches @ Vector Fills
-
+* [Hatches @ Vector Fills](../Categories/Hatches%20-%20Vector%20Fills.md)

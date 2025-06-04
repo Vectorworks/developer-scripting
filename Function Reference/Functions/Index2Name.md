@@ -24,5 +24,4 @@ Returns the name of the object with the internal index specified.
 Availability: from VectorWorks8.0
 
 ## Category
-* Object Names
-
+* [Object Names](../Categories/Object%20Names.md)

@@ -55,5 +55,4 @@ SetWSRowHeight(sheet,3,9,22,TRUE,TRUE);
 Availability: from VectorWorks12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -41,5 +41,4 @@ SetGradientSliderSelectedMarker(dialogID, componentID, 4, 2);
 Availability: from VectorWorks10.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

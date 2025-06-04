@@ -33,5 +33,4 @@ Works for both regular and dynamic arrays. Returns 0 for column dimensions of th
 Availability: from VectorWorks9.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

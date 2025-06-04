@@ -104,5 +104,4 @@ Projection(1,2,3',-2,-2,2,2);
 Availability: from MiniCAD 4.0
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

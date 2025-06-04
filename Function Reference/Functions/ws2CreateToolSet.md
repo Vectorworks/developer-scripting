@@ -38,5 +38,4 @@ Icon_dark@2X.svg
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

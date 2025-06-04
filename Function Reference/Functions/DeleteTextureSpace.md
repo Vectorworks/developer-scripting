@@ -27,5 +27,4 @@ Removes the texture space from this object.  To render textures correctly, an ob
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

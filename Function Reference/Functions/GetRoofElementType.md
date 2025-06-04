@@ -45,5 +45,4 @@ dormerType: if it is a dormer then:
 Availability: from VectorWorks9.0
 
 ## Category
-* Objects - Roofs
-
+* [Objects - Roofs](../Categories/Objects%20-%20Roofs.md)

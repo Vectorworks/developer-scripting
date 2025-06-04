@@ -16,5 +16,4 @@ def vs.EA_IsUsedUValue():
 Availability: from Vectorworks 2016
 
 ## Category
-* EnergyAnalysis Interface Library
-
+* [EnergyAnalysis Interface Library](../Categories/EnergyAnalysis%20Interface%20Library.md)

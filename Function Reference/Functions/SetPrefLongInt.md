@@ -39,5 +39,4 @@ SetPrefLongInt(55,128);
 Availability: from VectorWorks9.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

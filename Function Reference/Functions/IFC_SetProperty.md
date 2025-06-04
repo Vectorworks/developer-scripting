@@ -28,5 +28,4 @@ def vs.IFC_SetProperty(hObject, pSetName, propertyName, propValue):
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

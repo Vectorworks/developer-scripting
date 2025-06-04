@@ -21,5 +21,4 @@ def vs.EnableCLDropShadow(className, enable):
 Availability: from Vectorworks 2017
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

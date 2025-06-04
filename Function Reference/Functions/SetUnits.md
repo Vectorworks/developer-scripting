@@ -77,5 +77,4 @@ SetUnits(4096,64,3,1.0,'&quot;','sq ft');
 Availability: from All Versions
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

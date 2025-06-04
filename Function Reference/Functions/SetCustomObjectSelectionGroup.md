@@ -26,5 +26,4 @@ def vs.SetCustomObjectSelectionGroup(objectHand, selGroup):
 Availability: from Vectorworks14.0
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

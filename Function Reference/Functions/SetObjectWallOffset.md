@@ -31,5 +31,4 @@ Julian: [2009/08/30] The offset value is to the centre of the object.
 Availability: from Vectorworks 2010
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

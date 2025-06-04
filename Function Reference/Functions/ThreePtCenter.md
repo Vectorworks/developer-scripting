@@ -72,5 +72,4 @@ if polyObj != vs.Handle( 0 ): # not checking here for obj type, but you should
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

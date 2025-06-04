@@ -26,5 +26,4 @@ def vs.AddListBrowserImage(dialogID, controlID, imageSpecifier):
 Availability: from Vectorworks 2012
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

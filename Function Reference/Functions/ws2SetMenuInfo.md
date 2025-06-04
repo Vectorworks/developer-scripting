@@ -30,5 +30,4 @@ def vs.ws2SetMenuInfo(menuPath, displayName, hasShortcutKey, shortcutKey, shortc
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

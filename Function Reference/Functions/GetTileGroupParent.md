@@ -44,5 +44,4 @@ VS Functions:
 Availability: from Vectorworks 2011
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

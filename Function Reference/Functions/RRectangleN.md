@@ -32,5 +32,4 @@ def vs.RRectangleN(orgin, direction, width, height, xDiam, yDiam):
 Availability: from VectorWorks13.0
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

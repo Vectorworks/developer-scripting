@@ -21,5 +21,4 @@ def vs.ImportDXFDWGFile(fileName):
 Availability: from Vectorworks 2013
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

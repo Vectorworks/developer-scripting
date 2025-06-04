@@ -16,5 +16,4 @@ def vs.GetDocumentDefaultSketchStyle():
 Availability: from VectorWorks11.5
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

@@ -26,5 +26,4 @@ perimeter := HPerimN(object);
 Availability: from Vectorworks 2012
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

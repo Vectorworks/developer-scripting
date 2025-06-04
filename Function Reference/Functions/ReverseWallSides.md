@@ -46,5 +46,4 @@ RUN(ReverseWallSidesExample);
 Availability: from VectorWorks10.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

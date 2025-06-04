@@ -30,5 +30,4 @@ vs.HideLayer()
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

@@ -28,5 +28,4 @@ def vs.IFC_DMIsPSetFldOpt(strObjectName, strEntryName, strPSetName, strFieldName
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

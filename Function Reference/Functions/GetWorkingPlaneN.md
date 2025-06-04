@@ -32,5 +32,4 @@ def vs.GetWorkingPlaneN():
 Availability: from Vectorworks 2011
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

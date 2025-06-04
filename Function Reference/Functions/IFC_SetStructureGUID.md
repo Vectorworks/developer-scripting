@@ -28,5 +28,4 @@ def vs.IFC_SetStructureGUID(guidType, iBuilding, iStorey, Guid):
 Availability: from Vectorworks 2024
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

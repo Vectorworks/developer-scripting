@@ -21,5 +21,4 @@ def vs.GetVPClOvrdLnWeight(viewportHandle, className):
 Availability: from Vectorworks 2018
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

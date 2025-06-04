@@ -39,5 +39,4 @@ Insert(theStr,originalStr,3);
 Availability: from All Versions
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

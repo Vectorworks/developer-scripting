@@ -153,5 +153,4 @@ VS Functions:
 Availability: from VectorWorks10.0
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

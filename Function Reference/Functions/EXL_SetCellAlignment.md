@@ -36,5 +36,4 @@ def vs.EXL_SetCellAlignment(sheetIndex, cellRow, cellColumn, AlignmentH, Alignme
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

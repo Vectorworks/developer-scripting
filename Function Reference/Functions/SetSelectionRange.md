@@ -28,5 +28,4 @@ def vs.SetSelectionRange(dialogID, controlID, startPos, endPos):
 Availability: from VectorWorks12.0.1
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

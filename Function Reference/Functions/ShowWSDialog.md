@@ -60,5 +60,4 @@ def vs.ShowWSDialog(dialogType):
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

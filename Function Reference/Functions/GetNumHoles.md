@@ -32,5 +32,4 @@ VS Functions:
 Availability: from VectorWorks9.0
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

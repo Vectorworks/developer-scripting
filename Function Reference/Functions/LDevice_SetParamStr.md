@@ -31,5 +31,4 @@ def vs.LDevice_SetParamStr(handle, cellIndex, accessoryIndex, universalName, new
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

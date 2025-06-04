@@ -27,5 +27,4 @@ featureSize is in real-world inches
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

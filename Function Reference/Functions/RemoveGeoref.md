@@ -47,5 +47,4 @@ else:
 Availability: from Vectorworks 2023.3
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

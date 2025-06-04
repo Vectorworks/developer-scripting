@@ -34,5 +34,4 @@ NOTE: A determination that a range is valid only means that the specified range 
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

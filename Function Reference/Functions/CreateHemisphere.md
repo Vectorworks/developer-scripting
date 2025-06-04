@@ -27,5 +27,4 @@ def vs.CreateHemisphere(center, top):
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Solids
-
+* [Objects - Solids](../Categories/Objects%20-%20Solids.md)

@@ -41,5 +41,4 @@ VW12 supports only horizontal text (0 degree) and vertical text (90 degrees). So
 Availability: from VectorWorks12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -21,5 +21,4 @@ def vs.DTM6_IsDTM6Object(hDTMObject):
 Availability: from All Versions
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

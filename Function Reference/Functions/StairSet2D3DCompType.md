@@ -37,5 +37,4 @@ def vs.StairSet2D3DCompType(stair, ComponentType2D3D):
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Stairs
-
+* [Objects - Stairs](../Categories/Objects%20-%20Stairs.md)

@@ -26,5 +26,4 @@ def vs.SL_Export(exportType, instHand, fieldName):
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

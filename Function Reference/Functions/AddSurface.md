@@ -31,5 +31,4 @@ VS Functions:
 Availability: from VectorWorks8.5
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

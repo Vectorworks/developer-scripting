@@ -32,5 +32,4 @@ get the Universal Name of the View menu.
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

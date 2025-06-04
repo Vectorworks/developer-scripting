@@ -40,5 +40,4 @@ def vs.GetCWFramesFromPt(hWall, testPt, includeBottomFrame):
 Availability: from Vectorworks 2015
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

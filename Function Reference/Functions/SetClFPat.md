@@ -41,5 +41,4 @@ SetClFPat('Grassy Cover',42);
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

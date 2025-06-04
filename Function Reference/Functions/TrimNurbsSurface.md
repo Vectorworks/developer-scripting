@@ -60,5 +60,4 @@ VS Functions:
 Availability: from Vectorworks 2013
 
 ## Category
-* Objects - NURBS
-
+* [Objects - NURBS](../Categories/Objects%20-%20NURBS.md)

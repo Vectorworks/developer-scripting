@@ -36,5 +36,4 @@ def vs.EXL_SetCellFont(sheetIndex, cellRow, cellColumn, fontStyle, fontSize, fon
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

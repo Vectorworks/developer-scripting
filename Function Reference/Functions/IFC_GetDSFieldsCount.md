@@ -26,5 +26,4 @@ def vs.IFC_GetDSFieldsCount(objectName, dataSheetName):
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

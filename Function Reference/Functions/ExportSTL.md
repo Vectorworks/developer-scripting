@@ -31,5 +31,4 @@ STL is a native file format to the stereolithography CAD software created by 3D 
 Availability: from Vectorworks 2016
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

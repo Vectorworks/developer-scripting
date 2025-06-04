@@ -26,5 +26,4 @@ def vs.PlanarPtToScreenPlanePt(refID, pt2D):
 Availability: from Vectorworks 2011
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

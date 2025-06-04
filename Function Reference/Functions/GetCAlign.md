@@ -61,5 +61,4 @@ GetCAlign is obsolete as of VectorWorks 9.0, see new [[VS:GetWSCellAlignment| Ge
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

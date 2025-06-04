@@ -41,5 +41,4 @@ def vs.SetWSCellInsideVertBorder(worksheet, topRow, leftColumn, bottomRow, right
 Availability: from VectorWorks12.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

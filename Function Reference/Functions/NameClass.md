@@ -38,5 +38,4 @@ Rect(4,4,6,6);
 Availability: from All Versions
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

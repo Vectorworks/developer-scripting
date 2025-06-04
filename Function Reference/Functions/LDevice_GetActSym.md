@@ -16,5 +16,4 @@ def vs.LDevice_GetActSym():
 Availability: from Vectorworks 2019
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

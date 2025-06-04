@@ -21,5 +21,4 @@ def vs.EditGeorefWithUI(hLayer):
 Availability: from Vectorworks 2012
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

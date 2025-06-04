@@ -28,5 +28,4 @@ def vs.SetScale(actualSize):
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

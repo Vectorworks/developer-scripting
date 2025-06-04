@@ -26,5 +26,4 @@ This function returns the brightness multiplier used for symbols that contains l
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

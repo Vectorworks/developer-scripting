@@ -36,5 +36,4 @@ hasRecord:=Eval(handleToObject,(R IN ['Part Info']);
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

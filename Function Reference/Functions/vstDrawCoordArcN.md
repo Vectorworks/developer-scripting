@@ -25,5 +25,4 @@ def vs.vstDrawCoordArcN(ptLeftTopX, ptLeftTopY, ptRghtBotX, ptRghtBotY, startAng
 Availability: from Vectorworks 2011
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

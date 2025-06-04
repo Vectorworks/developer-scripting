@@ -24,5 +24,4 @@ Displays the Properties dialog for all objects matching the specified search cri
 Availability: from VectorWorks12.5
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

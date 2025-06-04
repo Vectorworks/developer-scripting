@@ -16,5 +16,4 @@ def vs.AdditionalDefRecords():
 Availability: from Vectorworks 2014
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

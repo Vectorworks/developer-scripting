@@ -24,5 +24,4 @@ def vs.ComponentVolume(c, index):
 Availability: from Vectorworks 2011
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

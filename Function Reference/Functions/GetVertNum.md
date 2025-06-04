@@ -21,5 +21,4 @@ def vs.GetVertNum(PolyHd):
 Availability: from All Versions
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

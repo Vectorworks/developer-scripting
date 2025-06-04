@@ -65,5 +65,4 @@ In VW2011 this will generate a number of NURBS surfaces instead of an extrude al
 Availability: from VectorWorks 9.0
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

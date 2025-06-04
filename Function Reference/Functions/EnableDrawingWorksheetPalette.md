@@ -55,5 +55,4 @@ vs.EnableDrawingWorksheetPalette(True, None)
 Availability: from Vectorworks14.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

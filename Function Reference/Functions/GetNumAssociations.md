@@ -24,5 +24,4 @@ Number of associations of specified object.
 Availability: from Vectorworks 2018
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

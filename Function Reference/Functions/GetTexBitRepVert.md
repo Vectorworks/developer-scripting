@@ -24,5 +24,4 @@ Returns TRUE if this texture bitmap repeats vertically.
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

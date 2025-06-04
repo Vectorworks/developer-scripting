@@ -32,5 +32,4 @@ Round(235.73); { returns 236 }
 Availability: from All Versions
 
 ## Category
-* Math - General
-
+* [Math - General](../Categories/Math%20-%20General.md)

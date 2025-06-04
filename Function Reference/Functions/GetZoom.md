@@ -24,5 +24,4 @@ Returns the percentage of the zoom factor in the current view. (100.0 would be t
 Availability: from VectorWorks 8.0
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

@@ -24,5 +24,4 @@ def vs.SetTextureSize(texture, newSize):
 Availability: from VectorWorks10.1
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

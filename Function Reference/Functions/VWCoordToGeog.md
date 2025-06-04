@@ -28,5 +28,4 @@ def vs.VWCoordToGeog(inCoordX, inCoordY):
 Availability: from Vectorworks 2012
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

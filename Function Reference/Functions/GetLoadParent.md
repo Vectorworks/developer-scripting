@@ -21,5 +21,4 @@ def vs.GetLoadParent(handle):
 Availability: from Vectorworks 2025
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

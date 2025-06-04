@@ -39,5 +39,4 @@ VS Functions:
 Availability: from All Versions
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

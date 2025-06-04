@@ -31,5 +31,4 @@ VDelete('Detail A-A');
 Availability: from All Versions
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

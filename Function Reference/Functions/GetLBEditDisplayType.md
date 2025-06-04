@@ -26,5 +26,4 @@ def vs.GetLBEditDisplayType(dialogID, componentID, columnIndex):
 Availability: from VectorWorks11.0
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

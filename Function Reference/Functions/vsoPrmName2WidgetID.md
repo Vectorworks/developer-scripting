@@ -30,5 +30,4 @@ For this function to work, you need to use an empty string for the record name.
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

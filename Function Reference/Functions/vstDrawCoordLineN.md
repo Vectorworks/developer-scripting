@@ -23,5 +23,4 @@ def vs.vstDrawCoordLineN(pt1X, pt1Y, pt2X, pt2Y, planeRefID):
 Availability: from Vectorworks 2011
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

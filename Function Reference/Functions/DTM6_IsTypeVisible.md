@@ -41,5 +41,4 @@ Availability: from All Versions
 This is drop-in function.
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

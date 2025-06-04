@@ -41,5 +41,4 @@ VS Functions:
 Availability: from Vectorworks 2021
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

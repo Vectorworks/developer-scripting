@@ -29,5 +29,4 @@ It seems that when you try to rename a class to a class name that already exist,
 Availability: from VectorWorks8.5
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

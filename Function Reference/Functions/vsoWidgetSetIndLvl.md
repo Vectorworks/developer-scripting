@@ -55,5 +55,4 @@ def vs.vsoWidgetSetIndLvl(widgetID, indentLevel):
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

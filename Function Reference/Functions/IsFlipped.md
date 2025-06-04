@@ -44,5 +44,4 @@ VS Functions:
 Availability: from VectorWorks8.0
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

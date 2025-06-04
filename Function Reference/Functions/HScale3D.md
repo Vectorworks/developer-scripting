@@ -39,5 +39,4 @@ def vs.HScale3D(h, centerX, centerY, centerZ, scaleX, scaleY, scaleZ):
 Availability: from Vectorworks 2014
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

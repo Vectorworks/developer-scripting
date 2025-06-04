@@ -21,5 +21,4 @@ def vs.EditShaderRecord(shaderRecord):
 Availability: from VectorWorks10.1
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

@@ -35,5 +35,4 @@ Area is obsolete as of VectorWorks12.5<P>
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

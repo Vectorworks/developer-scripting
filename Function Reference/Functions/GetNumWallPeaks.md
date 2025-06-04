@@ -24,5 +24,4 @@ return number of peaks in wall
 Availability: from VectorWorks9.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

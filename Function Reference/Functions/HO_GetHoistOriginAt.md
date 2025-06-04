@@ -21,5 +21,4 @@ def vs.HO_GetHoistOriginAt(index):
 Availability: from Vectorworks 2018
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

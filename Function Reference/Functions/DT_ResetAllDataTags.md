@@ -16,5 +16,4 @@ def vs.DT_ResetAllDataTags():
 Availability: from Vectorworks 2025
 
 ## Category
-* Data Tag Interface Library
-
+* [Data Tag Interface Library](../Categories/Data%20Tag%20Interface%20Library.md)

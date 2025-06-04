@@ -28,5 +28,4 @@ averseObjectsInActiveLayer}}
 Availability: from Vectorworks 2011
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

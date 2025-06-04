@@ -28,5 +28,4 @@ def vs.GetSymLoc3D(objectHandle):
 Availability: from VectorWorks10.0
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

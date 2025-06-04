@@ -28,5 +28,4 @@ def vs.vsoButtonGetResource(paramName, objectType, folderSpec, folderName):
 Availability: from Vectorworks 2018
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

@@ -32,5 +32,4 @@ visibilityType values:
 Availability: from VectorWorks 11.0
 
 ## Category
-* Objects - Groups
-
+* [Objects - Groups](../Categories/Objects%20-%20Groups.md)

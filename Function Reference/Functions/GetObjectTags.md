@@ -67,5 +67,4 @@ sample code by Pat Stanford
 Availability: from Vectorworks 2019
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

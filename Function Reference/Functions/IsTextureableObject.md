@@ -24,5 +24,4 @@ This function returns true if the specified 3D object can have textures attached
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

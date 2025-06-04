@@ -39,5 +39,4 @@ def vs.GetClosestSide(obj, pt):
 Availability: from VectorWorks 8.5
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -24,5 +24,4 @@ def vs.SL_UpdateUID(oldUID, newUID):
 Availability: from Vectorworks 2012
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

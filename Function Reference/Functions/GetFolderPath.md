@@ -774,5 +774,4 @@ Example()
 Availability: from VectorWorks 8.0
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

@@ -46,5 +46,4 @@ Sets the falloff functions for the light.  0 = None, 1 = Normal, 2 = Smooth, 3 =
 Availability: from MiniCAD 7.0.1
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

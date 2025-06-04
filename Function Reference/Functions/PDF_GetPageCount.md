@@ -21,5 +21,4 @@ def vs.PDF_GetPageCount(inFilePath):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

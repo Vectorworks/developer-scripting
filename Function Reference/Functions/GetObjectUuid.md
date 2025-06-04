@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2018.4
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

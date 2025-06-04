@@ -21,5 +21,4 @@ def vs.SetFenceAttrs(fFenceHandle):
 Availability: from Vectorworks 2015
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

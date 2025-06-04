@@ -39,5 +39,4 @@ On return, int1 and int2 are the two possible points of intersection.  legal1 an
 Availability: from VectorWorks10.0
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

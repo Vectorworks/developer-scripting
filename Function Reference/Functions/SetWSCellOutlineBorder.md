@@ -41,5 +41,4 @@ def vs.SetWSCellOutlineBorder(worksheet, topRow, leftColumn, bottomRow, rightCol
 Availability: from VectorWorks12.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

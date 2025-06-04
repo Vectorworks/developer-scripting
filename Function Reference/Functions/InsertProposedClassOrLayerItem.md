@@ -70,5 +70,4 @@ Availability: from VectorWorks13.0
 Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

@@ -16,5 +16,4 @@ def vs.ShowPlanShadowsTab():
 Availability: from Vectorworks 2014
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

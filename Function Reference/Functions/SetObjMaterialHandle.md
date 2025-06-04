@@ -21,5 +21,4 @@ def vs.SetObjMaterialHandle(objectHandle, materialHandle):
 Availability: from Vectorworks 2021
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

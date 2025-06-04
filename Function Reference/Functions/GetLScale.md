@@ -34,5 +34,4 @@ LayerScale  = vs.GetLScale(vs.ActLayer())
 Availability: from All Versions
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

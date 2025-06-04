@@ -28,5 +28,4 @@ def vs.EXL_SetCellNumber(sheetIndex, cellRow, cellColumn, value):
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

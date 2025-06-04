@@ -24,5 +24,4 @@ def vs.DSH_GetDSCount(hObject):
 Availability: from Vectorworks 2020.1
 
 ## Category
-* Data Sheets
-
+* [Data Sheets](../Categories/Data%20Sheets.md)

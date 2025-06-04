@@ -24,5 +24,4 @@ def vs.SetClVectorFill(className, hatchName):
 Availability: from VectorWorks9.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

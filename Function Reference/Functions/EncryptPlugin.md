@@ -32,5 +32,4 @@ http://www.vectorworks.net/support/custom/sdk/sdkdown.php
 Availability: from Vectorworks 2014
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

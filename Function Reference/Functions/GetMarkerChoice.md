@@ -114,5 +114,4 @@ GetMarkerChoice is obsolete as of VectorWorks 13.0
 Availability: from VectorWorks 12.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

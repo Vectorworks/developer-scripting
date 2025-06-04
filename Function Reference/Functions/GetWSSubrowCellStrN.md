@@ -77,5 +77,4 @@ RUN(WStest);
 Availability: from Vectorworks 2012
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -21,5 +21,4 @@ def vs.Plant_EditPlantDefRB(plantToEdit):
 Availability: from Vectorworks 2014
 
 ## Category
-* PlantObjectCoreTools
-
+* [PlantObjectCoreTools](../Categories/PlantObjectCoreTools.md)

@@ -41,5 +41,4 @@ def vs.SetWSCellInsideHorizBorder(worksheet, topRow, leftColumn, bottomRow, righ
 Availability: from VectorWorks12.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -47,5 +47,4 @@ VS Functions:
 Availability: from VectorWorks9.0
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

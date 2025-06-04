@@ -41,5 +41,4 @@ ok = vs.IFC_ClearIFCInfo(hObject)
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

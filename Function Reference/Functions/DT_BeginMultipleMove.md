@@ -16,5 +16,4 @@ def vs.DT_BeginMultipleMove():
 Availability: from Vectorworks 2019
 
 ## Category
-* Data Tag Interface Library
-
+* [Data Tag Interface Library](../Categories/Data%20Tag%20Interface%20Library.md)

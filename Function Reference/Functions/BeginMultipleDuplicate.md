@@ -23,5 +23,4 @@ VS Functions:
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

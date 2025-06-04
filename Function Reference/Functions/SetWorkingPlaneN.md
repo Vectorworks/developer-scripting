@@ -35,5 +35,4 @@ def vs.SetWorkingPlaneN(centerPt, normal, uVec):
 Availability: from Vectorworks 2011
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

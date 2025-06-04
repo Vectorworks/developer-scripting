@@ -26,5 +26,4 @@ def vs.PDF_PrintBlob(inBlobPtr, inBlobSize, inSettings):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

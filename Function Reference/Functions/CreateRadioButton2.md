@@ -28,5 +28,4 @@ def vs.CreateRadioButton2(dialogID, itemID, text, iconResPath):
 Availability: from Vectorworks 2023
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

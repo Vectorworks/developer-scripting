@@ -41,5 +41,4 @@ WriteBin(1234); { number }
 Availability: from Vectorworks 2018
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

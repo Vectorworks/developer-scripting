@@ -35,5 +35,4 @@ Changes the active tool to that specified by toolID. Waits until the user has ex
 Availability: from Vectorworks 2016
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

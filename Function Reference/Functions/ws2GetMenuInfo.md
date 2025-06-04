@@ -28,5 +28,4 @@ def vs.ws2GetMenuInfo(menuPath):
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

@@ -69,5 +69,4 @@ GetMarker is obsolete as of VectorWorks 13.0
 Availability: from VectorWorks 10.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

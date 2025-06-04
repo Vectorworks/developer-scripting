@@ -24,5 +24,4 @@ def vs.DeleteConstraint(obj, constraint):
 Availability: from VectorWorks9.0
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

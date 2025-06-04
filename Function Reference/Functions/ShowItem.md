@@ -76,5 +76,4 @@ RUN(dialogID_Main);
 Availability: from VectorWorks11.5
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

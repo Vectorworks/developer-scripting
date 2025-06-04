@@ -29,5 +29,4 @@ def vs.RoofArea_TotalProj(c):
 Availability: from Vectorworks 14.0
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

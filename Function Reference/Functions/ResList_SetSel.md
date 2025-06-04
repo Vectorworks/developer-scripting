@@ -24,5 +24,4 @@ def vs.ResList_SetSel(uniqueID, itemName):
 Availability: from Vectorworks 2017
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

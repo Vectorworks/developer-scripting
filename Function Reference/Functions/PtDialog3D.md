@@ -44,5 +44,4 @@ xPt, yPt, zPt = vs.PtDialog3D('User prompt string','0','0','0')
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

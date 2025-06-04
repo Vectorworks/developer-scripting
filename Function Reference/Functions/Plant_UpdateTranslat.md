@@ -30,5 +30,4 @@ def vs.Plant_UpdateTranslat(newSymbolName, oldID, newID, masterPlant, currentPla
 Availability: from Vectorworks 2014
 
 ## Category
-* PlantObjectCoreTools
-
+* [PlantObjectCoreTools](../Categories/PlantObjectCoreTools.md)

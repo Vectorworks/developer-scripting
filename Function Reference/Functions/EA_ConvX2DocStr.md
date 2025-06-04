@@ -26,5 +26,4 @@ def vs.EA_ConvX2DocStr(unitType, value, incUnitMark):
 Availability: from Vectorworks 2016
 
 ## Category
-* EnergyAnalysis Interface Library
-
+* [EnergyAnalysis Interface Library](../Categories/EnergyAnalysis%20Interface%20Library.md)

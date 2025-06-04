@@ -30,5 +30,4 @@ def vs.IFC_SetFieldVisible(objectName, mainEntry, childEntry, fieldName, isVisib
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

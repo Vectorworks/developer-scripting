@@ -50,5 +50,4 @@ A more frequently updated tint list can be found by looking for the EUiControlTe
 Availability: from Vectorworks 2023
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

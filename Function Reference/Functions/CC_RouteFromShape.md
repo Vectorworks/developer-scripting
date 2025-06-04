@@ -21,5 +21,4 @@ def vs.CC_RouteFromShape(hObj):
 Availability: from Vectorworks 2022
 
 ## Category
-* ConnectCAD
-
+* [ConnectCAD](../Categories/ConnectCAD.md)

@@ -33,5 +33,4 @@ ok	= vs.IFC_DMResetToDef()
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

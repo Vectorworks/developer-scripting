@@ -26,5 +26,4 @@ def vs.vsoAddWidget(widgetID, widgetType, locName):
 Availability: from Vectorworks 2014
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

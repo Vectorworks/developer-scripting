@@ -21,5 +21,4 @@ def vs.vstDrawCoordLine3D(pt1, pt2):
 Availability: from Vectorworks 2011
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

@@ -62,5 +62,4 @@ GetClassArrow is obsolete as of VectorWorks 13.0
 Availability: from VectorWorks 10.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

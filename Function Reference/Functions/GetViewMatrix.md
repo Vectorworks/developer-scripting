@@ -30,5 +30,4 @@ def vs.GetViewMatrix(objectHandle):
 Availability: from VectorWorks10.5
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

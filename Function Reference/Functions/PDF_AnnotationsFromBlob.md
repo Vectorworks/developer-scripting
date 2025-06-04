@@ -32,5 +32,4 @@ def vs.PDF_AnnotationsFromBlob(inBlobPtr, inBlobSize, inCurPage, boundsX, bounds
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

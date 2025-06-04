@@ -36,5 +36,4 @@ See &lt;a href=main.php?name=GetPrimaryUnitInfo&gt;GetPrimaryUnitInfo&lt;/a&gt; 
 Availability: from VectorWorks8.0
 
 ## Category
-* Units
-
+* [Units](../Categories/Units.md)

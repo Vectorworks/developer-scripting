@@ -30,5 +30,4 @@ def vs.QTSetMovieOptions(movieRef, frameRate, keyFrameRate, useDlg, useDlgPrevie
 Availability: from VectorWorks8.5
 
 ## Category
-* Special - QuickTime
-
+* [Special - QuickTime](../Categories/Special%20-%20QuickTime.md)

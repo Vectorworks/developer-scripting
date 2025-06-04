@@ -24,5 +24,4 @@ def vs.DelVertex(objectHd, vertexNum):
 Availability: from MiniCAD6.0
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

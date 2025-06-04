@@ -41,5 +41,4 @@ def vs.EndPoly():
 Availability: from All Versions
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

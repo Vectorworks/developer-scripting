@@ -143,5 +143,4 @@ Example()
 Availability: from VectorWorks 9.0
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

@@ -58,5 +58,4 @@ RUN(Example);
 Availability: from VectorWorks8.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

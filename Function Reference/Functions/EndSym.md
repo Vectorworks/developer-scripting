@@ -16,5 +16,4 @@ def vs.EndSym():
 Availability: from All Versions
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

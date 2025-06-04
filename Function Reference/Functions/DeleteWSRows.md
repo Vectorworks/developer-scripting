@@ -26,5 +26,4 @@ def vs.DeleteWSRows(worksheet, startRow, numRows):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -24,5 +24,4 @@ def vs.ImportOBJ(fileName, bAllMatAsRW):
 Availability: from Vectorworks 2016
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

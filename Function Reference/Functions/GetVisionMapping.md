@@ -30,5 +30,4 @@ def vs.GetVisionMapping():
 Availability: from Vectorworks 2018
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

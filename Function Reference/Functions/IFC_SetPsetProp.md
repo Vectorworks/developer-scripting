@@ -59,5 +59,4 @@ ok = vs.IFC_SetPsetProp(hWall, 'Pset_WallCommon', 'ThermalTransmittance', '0.5')
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -27,5 +27,4 @@ def vs.DBShowDBTableDlg(database, table):
 Availability: from Vectorworks 2011
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

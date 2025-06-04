@@ -30,5 +30,4 @@ It seems to succeed while parsing clean third-party VS parametric objects, but t
 Availability: from VectorWorks 11.0
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

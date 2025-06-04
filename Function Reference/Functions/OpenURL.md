@@ -223,5 +223,4 @@ status := OpenURL('file:///C:/My Files/VSLG11.pdf';
 Availability: from VectorWorks10.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

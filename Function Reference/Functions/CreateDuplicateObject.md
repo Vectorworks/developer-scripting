@@ -57,5 +57,4 @@ IF temp_h <> NIL THEN SetName(temp_h, 'c2');
 Availability: from VectorWorks 12.5
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

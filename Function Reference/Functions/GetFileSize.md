@@ -18,5 +18,4 @@ def vs.GetFileSize(FilePath):
 Availability: from Vectorworks 2017
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

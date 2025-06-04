@@ -28,5 +28,4 @@ This doesn't seem to work on symdefs.
 Availability: from All Versions
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

@@ -26,5 +26,4 @@ def vs.Space_Set3DNetHeightOffset(space, offset, selObj):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

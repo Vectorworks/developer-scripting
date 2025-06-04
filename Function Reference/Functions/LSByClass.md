@@ -19,5 +19,4 @@ Sets the global attributes to use the line style of the default class.
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

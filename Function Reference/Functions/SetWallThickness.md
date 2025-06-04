@@ -27,5 +27,4 @@ NZH 5-10-05
 Availability: from VectorWorks12.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

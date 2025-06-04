@@ -24,5 +24,4 @@ def vs.vsoWidgetPopupEnergy(widgetID, dataType):
 Availability: from Vectorworks 2016
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

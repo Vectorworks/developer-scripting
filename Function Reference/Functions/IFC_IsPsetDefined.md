@@ -21,5 +21,4 @@ def vs.IFC_IsPsetDefined(strPsetName):
 Availability: from Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

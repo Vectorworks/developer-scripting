@@ -41,5 +41,4 @@ def vs.SetWSCellRightBorder(worksheet, topRow, leftColumn, bottomRow, rightColum
 Availability: from VectorWorks12.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

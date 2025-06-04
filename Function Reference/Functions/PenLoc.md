@@ -46,5 +46,4 @@ vs.Message( str(pt) )
 Availability: from All Versions
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

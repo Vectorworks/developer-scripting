@@ -24,5 +24,4 @@ def vs.DT_AssociateWithObj(hDataTag, hObject):
 Availability: from Vectorworks 2020
 
 ## Category
-* Data Tag Interface Library
-
+* [Data Tag Interface Library](../Categories/Data%20Tag%20Interface%20Library.md)

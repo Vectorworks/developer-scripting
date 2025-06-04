@@ -26,5 +26,4 @@ VS Functions:
 Availability: from Vectorworks 2017
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

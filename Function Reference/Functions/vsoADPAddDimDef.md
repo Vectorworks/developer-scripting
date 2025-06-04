@@ -28,5 +28,4 @@ def vs.vsoADPAddDimDef(message, startPt3, endPt3, dimOffset):
 Availability: from Vectorworks 2023
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

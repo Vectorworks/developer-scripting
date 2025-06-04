@@ -44,5 +44,4 @@ END;
 Availability: from MiniCAD5.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

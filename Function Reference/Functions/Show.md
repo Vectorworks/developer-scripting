@@ -34,5 +34,4 @@ Show((C='Proposed Phase 2 Construction'));
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

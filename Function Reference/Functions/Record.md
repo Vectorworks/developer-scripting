@@ -37,5 +37,4 @@ Record(handleToObj,'Vendor Information');
 Availability: from All Versions
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

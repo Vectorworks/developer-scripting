@@ -38,5 +38,4 @@ SetObjectVariableBoolean(obj, 17, FALSE);
 Availability: from VectorWorks 9.0
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

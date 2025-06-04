@@ -44,5 +44,4 @@ def vs.GetLightInfo(h):
 Availability: from MiniCAD 7.0
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

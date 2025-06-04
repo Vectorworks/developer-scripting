@@ -36,5 +36,4 @@ upi = vs.GetPrefReal(152)
 Availability: from VectorWorks9.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

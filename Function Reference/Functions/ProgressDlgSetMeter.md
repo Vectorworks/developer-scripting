@@ -27,5 +27,4 @@ les can be found at [[VS:Progress Dialog]].
 Availability: from Vectorworks 2015
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

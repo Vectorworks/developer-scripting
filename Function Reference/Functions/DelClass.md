@@ -31,5 +31,4 @@ vs.DelClass('Future Construction')
 Availability: from All Versions
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

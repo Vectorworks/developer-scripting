@@ -24,5 +24,4 @@ def vs.RunPickClrFromPal():
 Availability: from Vectorworks 2013
 
 ## Category
-* Color
-
+* [Color](../Categories/Color.md)

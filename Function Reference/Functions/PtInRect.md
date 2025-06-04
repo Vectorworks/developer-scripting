@@ -48,5 +48,4 @@ RUN(Example);
 Availability: from All Versions
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

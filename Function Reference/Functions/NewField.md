@@ -45,5 +45,4 @@ NewField('Part Info','Serial No.','A-0000',4,0);
 Availability: from All Versions
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

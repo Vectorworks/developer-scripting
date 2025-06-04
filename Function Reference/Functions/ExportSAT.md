@@ -24,5 +24,4 @@ def vs.ExportSAT(filePath, solidAsSurface):
 Availability: from Vectorworks 2013
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

@@ -18,5 +18,4 @@ def vs.SelectAll():
 Availability: from All Versions
 
 ## Category
-* Selection
-
+* [Selection](../Categories/Selection.md)

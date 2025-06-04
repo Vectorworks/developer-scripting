@@ -21,5 +21,4 @@ def vs.IsPolyClosed(polyHandle):
 Availability: from Vectorworks 2014
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

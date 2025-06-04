@@ -19,5 +19,4 @@ Generates a random number between 0.0 and 1.0
 Availability: from VectorWorks8.0
 
 ## Category
-* Math - General
-
+* [Math - General](../Categories/Math%20-%20General.md)

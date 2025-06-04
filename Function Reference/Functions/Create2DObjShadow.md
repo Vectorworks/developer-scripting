@@ -42,5 +42,4 @@ vs.SetOpacity(h_shadow, 30)
 Availability: from Vectorworks 2014
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

@@ -21,5 +21,4 @@ def vs.ObjPropsEditDlg(hObj):
 Availability: from Vectorworks 2017
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

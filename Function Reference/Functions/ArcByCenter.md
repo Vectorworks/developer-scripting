@@ -57,5 +57,4 @@ vs.GetPt( PickPointCallback )
 Availability: from VectorWorks10.0
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

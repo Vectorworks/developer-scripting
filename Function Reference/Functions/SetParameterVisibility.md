@@ -33,5 +33,4 @@ Multiple selections behave differently on Mac and windows.  Select 2 objects.  O
 Availability: from VectorWorks10.0
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

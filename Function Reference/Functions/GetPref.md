@@ -40,5 +40,4 @@ SelHandleStatus = vs.GetPref(17)
 Availability: from MiniCAD6.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

@@ -31,5 +31,4 @@ GetCellNum is obsolete as of VectorWorks 9.0, see new [[VS:GetWSCellValue| GetWS
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -21,5 +21,4 @@ def vs.SetZoom(zoomfactor):
 Availability: from MiniCAD6.0
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

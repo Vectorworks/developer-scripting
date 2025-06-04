@@ -94,5 +94,4 @@ Example()
 Availability: from VectorWorks 10.0
 
 ## Category
-* Objects - NURBS
-
+* [Objects - NURBS](../Categories/Objects%20-%20NURBS.md)

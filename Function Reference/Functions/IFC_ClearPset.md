@@ -46,5 +46,4 @@ ok = vs.IFC_ClearPset(hObject, 'PSet_WallCommon')
 Available from: Vectorworks 2016
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

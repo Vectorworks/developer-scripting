@@ -53,5 +53,4 @@ hasattr( vs, 'FUNCTION_NAME' )
 Availability: from VectorWorks 9.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

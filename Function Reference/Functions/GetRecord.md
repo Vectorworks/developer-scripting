@@ -38,5 +38,4 @@ handleToRecord = vs.GetRecord(handleToObject,3)
 Availability: from All Versions
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

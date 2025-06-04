@@ -35,5 +35,4 @@ END;
 Availability: from All Versions
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

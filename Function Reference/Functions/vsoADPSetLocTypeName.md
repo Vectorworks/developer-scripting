@@ -24,5 +24,4 @@ def vs.vsoADPSetLocTypeName(message, localizedName):
 Availability: from Vectorworks 2023
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

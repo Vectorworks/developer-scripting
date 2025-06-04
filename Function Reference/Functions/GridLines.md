@@ -21,5 +21,4 @@ def vs.GridLines(gridDistance):
 Availability: from All Versions
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

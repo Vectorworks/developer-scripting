@@ -26,5 +26,4 @@ def vs.IFC_DMSetEntryType(strObjectName, strEntryName, type):
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

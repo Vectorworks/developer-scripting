@@ -74,5 +74,4 @@ Availability: from Vectorworks 2009
 This is drop-in function.
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

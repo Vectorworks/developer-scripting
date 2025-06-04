@@ -32,5 +32,4 @@ def vs.SetWSImgScale(worksheet, topRow, leftColumn, bottomRow, rightColumn, scal
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

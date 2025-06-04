@@ -34,5 +34,4 @@ def vs.SetWSImgSize(worksheet, topRow, leftColumn, bottomRow, rightColumn, heigh
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

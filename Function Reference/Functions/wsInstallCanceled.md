@@ -21,5 +21,4 @@ def vs.wsInstallCanceled(canceled):
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

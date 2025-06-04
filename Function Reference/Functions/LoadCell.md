@@ -49,5 +49,4 @@ LoadCell is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellFormula| SetWS
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

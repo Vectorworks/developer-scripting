@@ -24,5 +24,4 @@ def vs.SetHLLineStyle(HLOptionsHandle, lineStyle):
 Availability: from Vectorworks 2019
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

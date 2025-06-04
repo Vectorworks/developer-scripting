@@ -26,5 +26,4 @@ def vs.TBB_GetPageArea(LayerHand):
 Availability: from Vectorworks 2019.1
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -32,5 +32,4 @@ def vs.ClearWSCell(worksheet, topRow, leftColumn, bottomRow, rightColumn):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

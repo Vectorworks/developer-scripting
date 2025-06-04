@@ -32,5 +32,4 @@ def vs.PDF_SnapGeomFromBlob(inBlobPtr, inBlobSize, inCurPage, boundsX, boundsY, 
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

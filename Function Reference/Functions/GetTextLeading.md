@@ -24,5 +24,4 @@ If a custom value was not set, this returns -1.0.
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

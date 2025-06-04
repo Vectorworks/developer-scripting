@@ -19,5 +19,4 @@ Creates a new texture object handle with default values
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

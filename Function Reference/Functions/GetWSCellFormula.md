@@ -28,5 +28,4 @@ def vs.GetWSCellFormula(worksheet, row, column):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

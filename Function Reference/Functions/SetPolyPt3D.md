@@ -43,5 +43,4 @@ SetPolyPt3D(objectHandle,3,2.5&quot;,3&quot;,8&quot;);
 Availability: from MiniCAD7.0
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

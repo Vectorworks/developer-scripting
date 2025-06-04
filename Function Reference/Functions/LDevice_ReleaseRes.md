@@ -16,5 +16,4 @@ def vs.LDevice_ReleaseRes():
 Availability: from Vectorworks 2019.2
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

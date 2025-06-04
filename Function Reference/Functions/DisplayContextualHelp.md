@@ -21,5 +21,4 @@ def vs.DisplayContextualHelp(Identifier):
 Availability: from VectorWorks12.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

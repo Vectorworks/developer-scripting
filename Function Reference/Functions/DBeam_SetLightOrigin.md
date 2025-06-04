@@ -21,5 +21,4 @@ def vs.DBeam_SetLightOrigin(origin):
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

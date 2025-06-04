@@ -31,5 +31,4 @@ VS Functions:
 Availability: from All Versions
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

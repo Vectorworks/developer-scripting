@@ -39,5 +39,4 @@ This by default sets sorting always to descending. In order to set sorting to as
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

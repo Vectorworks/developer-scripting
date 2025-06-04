@@ -26,5 +26,4 @@ def vs.GS_EdSh_ConstructLayout(shaderNameCStr, paramsPtr):
 Availability: from Vectorworks 2014
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

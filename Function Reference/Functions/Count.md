@@ -42,5 +42,4 @@ CountValue = vs.Count("(FP=4)AND(T='Rect')")
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

@@ -28,5 +28,4 @@ def vs.IFC_AddRecToObjMap(objectName, recordName, condition, bEnable):
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

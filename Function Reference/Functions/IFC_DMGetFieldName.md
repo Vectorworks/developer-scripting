@@ -28,5 +28,4 @@ def vs.IFC_DMGetFieldName(inStrObjName, inStrEntryName, index):
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

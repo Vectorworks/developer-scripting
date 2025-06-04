@@ -25,5 +25,4 @@ Takes into account both translation and rotation.
 Availability: from VectorWorks13.0
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

@@ -18,5 +18,4 @@ def vs.DBeam_SetLShutDepth(depth):
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

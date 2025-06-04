@@ -29,5 +29,4 @@ VS Functions:
 Availability: from Vectorworks 2013
 
 ## Category
-* User Interactive
-
+* [User Interactive](../Categories/User%20Interactive.md)

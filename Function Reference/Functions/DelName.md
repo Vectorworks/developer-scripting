@@ -21,5 +21,4 @@ def vs.DelName(name):
 Availability: from All Versions
 
 ## Category
-* Object Names
-
+* [Object Names](../Categories/Object%20Names.md)

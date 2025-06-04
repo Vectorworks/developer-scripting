@@ -21,5 +21,4 @@ def vs.vstDrawCoordEllipse(ptLeftTopX, ptLeftTopY, ptRghtBotX, ptRghtBotY):
 Availability: from Vectorworks 2011
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

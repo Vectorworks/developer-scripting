@@ -24,5 +24,4 @@ CJG 6-27-06
 Availability: from VectorWorks12.5
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

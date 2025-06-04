@@ -30,5 +30,4 @@ def vs.IFC_DMGetPSetFldMap(strObjectName, strEntryName, strPSetName, strFieldNam
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

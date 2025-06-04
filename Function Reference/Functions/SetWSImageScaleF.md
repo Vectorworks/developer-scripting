@@ -26,5 +26,4 @@ def vs.SetWSImageScaleF(handle, scaleFactor, redraw):
 Availability: from Vectorworks 2017
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -24,5 +24,4 @@ def vs.GS_EdSh_RunDialog(libraryDataPtr):
 Availability: from Vectorworks 2014
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

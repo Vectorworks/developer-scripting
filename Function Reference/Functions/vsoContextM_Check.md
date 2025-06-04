@@ -24,5 +24,4 @@ def vs.vsoContextM_Check(itemID, check):
 Availability: from Vectorworks 2014
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

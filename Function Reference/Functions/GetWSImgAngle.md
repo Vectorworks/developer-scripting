@@ -28,5 +28,4 @@ def vs.GetWSImgAngle(worksheet, row, column):
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

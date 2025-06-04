@@ -26,5 +26,4 @@ def vs.SetVPClOvrdFillOpty(viewportHandle, className, fillOpacity):
 Availability: from Vectorworks 2014
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

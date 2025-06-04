@@ -30,5 +30,4 @@ If you set opacity to an object inside parametric the actual opacity will be com
 Availability: from VectorWorks13.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

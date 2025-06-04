@@ -32,5 +32,4 @@ def vs.DBDocGetColumns(database, table):
 Availability: from Vectorworks 2011
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

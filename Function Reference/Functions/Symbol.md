@@ -31,5 +31,4 @@ Seems to set the documents active symbol definition [CMP]
 Availability: from All Versions
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

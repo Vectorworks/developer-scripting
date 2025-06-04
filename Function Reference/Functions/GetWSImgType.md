@@ -32,5 +32,4 @@ Thumbnail image type     = 0,<BR>
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

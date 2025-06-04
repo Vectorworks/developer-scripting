@@ -25,5 +25,4 @@ def vs.SetVPClOvrdRoofTxt(viewportHandle, className, topMaterial, dormerMaterial
 Availability: from Vectorworks 2018
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

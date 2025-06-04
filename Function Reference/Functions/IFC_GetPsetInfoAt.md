@@ -56,5 +56,4 @@ ok	= vs.IFC_GetPsetInfoAt(hObject, True, 0, outName, outType)
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -26,5 +26,4 @@ def vs.vsoGetQTOFunction(hObject):
 Availability: from Vectorworks 2022
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

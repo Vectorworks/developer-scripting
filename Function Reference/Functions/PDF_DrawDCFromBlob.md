@@ -34,5 +34,4 @@ def vs.PDF_DrawDCFromBlob(inBlobPtr, inBlobSize, inCurPage, inDC, inDrawMatrix, 
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

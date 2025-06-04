@@ -30,5 +30,4 @@ def vs.IFC_GetZSGPSetField(selector, ZSGName, psetName, psetField):
 Availability: from Vectorworks 2022.1
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

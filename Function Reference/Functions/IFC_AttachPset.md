@@ -50,5 +50,4 @@ ok = vs.IFC_AttachPset(hSpace, 'Pset_SpaceFireSafetyRequirements')
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

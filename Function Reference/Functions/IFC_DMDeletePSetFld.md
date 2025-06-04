@@ -28,5 +28,4 @@ def vs.IFC_DMDeletePSetFld(strObjectName, strEntryName, strPSetName, strFieldNam
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

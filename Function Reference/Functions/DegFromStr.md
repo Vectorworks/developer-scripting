@@ -26,5 +26,4 @@ def vs.DegFromStr(fSlopeDef, fSlopeValue):
 Availability: from Vectorworks 2016
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

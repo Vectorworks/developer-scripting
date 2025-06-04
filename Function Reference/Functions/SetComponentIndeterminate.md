@@ -26,5 +26,4 @@ def vs.SetComponentIndeterminate(nDialogID, nComponentID, bIndeterminateState):
 Availability: from VectorWorks13.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

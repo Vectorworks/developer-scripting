@@ -67,5 +67,4 @@ VS Functions:
 Availability: from VectorWorks13.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

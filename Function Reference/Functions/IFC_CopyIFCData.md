@@ -57,5 +57,4 @@ ok = vs.IFC_CopyIFCData(hSource, hDestination, 3); #ok returns FALSE, IFC data n
 Available from: Vectorworks 2011.
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

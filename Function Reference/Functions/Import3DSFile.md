@@ -28,5 +28,4 @@ def vs.Import3DSFile(fileName, atOrigCoords, positionX, positionY):
 Availability: from Vectorworks 2020
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

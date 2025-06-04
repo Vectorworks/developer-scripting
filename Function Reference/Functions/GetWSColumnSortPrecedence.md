@@ -26,5 +26,4 @@ def vs.GetWSColumnSortPrecedence(worksheet, databaseRow, column):
 Availability: from Vectorworks 2012
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

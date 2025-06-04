@@ -32,5 +32,4 @@ def vs.SetWSImgView(worksheet, topRow, leftColumn, bottomRow, rightColumn, view)
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

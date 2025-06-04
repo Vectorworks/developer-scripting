@@ -39,5 +39,4 @@ def vs.vsoAddParamWidget(widgetID, paramName, locName):
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

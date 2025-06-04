@@ -28,5 +28,4 @@ def vs.CreateResourcePopup(nDialogID, nComponentID, nWidthInChars):
 Availability: from Vectorworks 2021
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

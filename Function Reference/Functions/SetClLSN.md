@@ -28,5 +28,4 @@ VS Functions:
 Availability: from Vectorworks 2013
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

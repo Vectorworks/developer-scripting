@@ -24,5 +24,4 @@ Sets the maximum number of undo events that can be stored in the undo table. Set
 Availability: from VectorWorks8.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

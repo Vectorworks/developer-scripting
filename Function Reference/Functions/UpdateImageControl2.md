@@ -26,5 +26,4 @@ def vs.UpdateImageControl2(dialogID, controlID, imageSpecifier):
 Availability: from Vectorworks 2012
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

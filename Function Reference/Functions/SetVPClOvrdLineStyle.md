@@ -23,5 +23,4 @@ def vs.SetVPClOvrdLineStyle(viewportHandle, className, lineStyle):
 Availability: from Vectorworks 2018
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

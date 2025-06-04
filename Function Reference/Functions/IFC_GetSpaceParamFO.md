@@ -76,5 +76,4 @@ if hSpace != vs.Handle(0):
 Availability: from Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

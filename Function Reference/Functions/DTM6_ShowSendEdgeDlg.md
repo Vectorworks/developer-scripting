@@ -21,5 +21,4 @@ def vs.DTM6_ShowSendEdgeDlg(objWEdgeType):
 Availability: from Vectorworks 2014
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

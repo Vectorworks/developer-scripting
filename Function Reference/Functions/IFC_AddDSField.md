@@ -32,5 +32,4 @@ def vs.IFC_AddDSField(objectName, dataSheetName, mainEntry, childEntry, fieldNam
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

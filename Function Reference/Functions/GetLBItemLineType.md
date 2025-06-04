@@ -32,5 +32,4 @@ def vs.GetLBItemLineType(dialogID, componentID, itemIndex, subItemIndex):
 Availability: from Vectorworks 2015
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

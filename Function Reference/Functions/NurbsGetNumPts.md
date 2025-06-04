@@ -31,5 +31,4 @@ this function will work for both nurbs curves and nurbs surfaces.
 Availability: from VectorWorks9.0
 
 ## Category
-* Objects - NURBS
-
+* [Objects - NURBS](../Categories/Objects%20-%20NURBS.md)

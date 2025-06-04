@@ -65,5 +65,4 @@ VS Functions:
 Availability: from VectorWorks 8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

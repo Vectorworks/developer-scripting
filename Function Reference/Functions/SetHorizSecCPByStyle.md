@@ -21,5 +21,4 @@ def vs.SetHorizSecCPByStyle(hObject, byStyle):
 Availability: from Vectorworks 2020
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

@@ -44,5 +44,4 @@ ok = vs.IFC_DeleteIFCInfo( hObject, True );
 Availability: from Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

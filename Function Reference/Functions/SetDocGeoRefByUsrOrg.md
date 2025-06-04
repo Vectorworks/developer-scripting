@@ -21,5 +21,4 @@ def vs.SetDocGeoRefByUsrOrg(EPSG):
 Availability: from Vectorworks 2021
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

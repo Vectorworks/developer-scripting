@@ -26,5 +26,4 @@ def vs.DeleteLBItem(dialogID, componentID, itemIndex):
 Availability: from VectorWorks11.0
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

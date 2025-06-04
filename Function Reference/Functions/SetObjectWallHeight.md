@@ -28,5 +28,4 @@ def vs.SetObjectWallHeight(objH, wallH, height):
 Availability: from Vectorworks 2015
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

@@ -41,5 +41,4 @@ def vs.SetWSCellLeftBN(worksheet, topRow, leftColumn, bottomRow, rightColumn, st
 Availability: from Vectorworks 2019
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

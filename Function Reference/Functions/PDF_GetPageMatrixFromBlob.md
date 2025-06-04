@@ -28,5 +28,4 @@ def vs.PDF_GetPageMatrixFromBlob(inBlobPtr, inBlobSize, inCurPage, inMatrix):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

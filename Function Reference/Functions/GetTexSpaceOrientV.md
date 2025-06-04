@@ -31,5 +31,4 @@ Returns the vector that describes the v-axis of the texture (from world space to
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

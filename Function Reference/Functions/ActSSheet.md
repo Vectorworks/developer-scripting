@@ -25,5 +25,4 @@ ActSSheet is obsolete as of VectorWorks 9.0
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

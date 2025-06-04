@@ -26,5 +26,4 @@ def vs.SetSheetLayerUserOrigin(layerHandle, xOrigin, yOrigin):
 Availability: from VectorWorks10.5
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

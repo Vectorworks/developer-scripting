@@ -46,5 +46,4 @@ VS Functions:
 Availability: from VectorWorks8.0
 
 ## Category
-* Hatches @ Vector Fills
-
+* [Hatches @ Vector Fills](../Categories/Hatches%20-%20Vector%20Fills.md)

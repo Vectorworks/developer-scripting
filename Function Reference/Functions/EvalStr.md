@@ -43,5 +43,4 @@ dataValue:= EvalStr(handleToObject,('Part Info'.'Serial No.'));
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

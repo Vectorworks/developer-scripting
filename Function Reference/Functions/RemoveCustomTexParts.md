@@ -28,5 +28,4 @@ AddCustomTexPart(200, ‘Treads’);
 Availability: from Vectorworks 2017
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

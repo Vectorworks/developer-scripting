@@ -47,5 +47,4 @@ See NurbsSurfaceEvalPt
 Availability: from VectorWorks9.0
 
 ## Category
-* Objects - NURBS
-
+* [Objects - NURBS](../Categories/Objects%20-%20NURBS.md)

@@ -80,5 +80,4 @@ VS Functions:
 Availability: from Vectorworks 2010
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

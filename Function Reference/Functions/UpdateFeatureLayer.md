@@ -16,5 +16,4 @@ def vs.UpdateFeatureLayer():
 Availability: from Vectorworks 2023
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

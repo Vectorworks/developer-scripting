@@ -26,5 +26,4 @@ def vs.CreateTaperedExtrd2(profileH, angle, height):
 Availability: from Vectorworks 2016
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

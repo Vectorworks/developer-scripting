@@ -30,5 +30,4 @@ def vs.IFC_SetEntityColor(inStrIfcType, inRed, inGreen, inBlue, inTransp):
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

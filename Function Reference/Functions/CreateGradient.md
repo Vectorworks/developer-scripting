@@ -36,5 +36,4 @@ vs.Message(vs.CreateGradient('My Gradient'))
 Availability: from VectorWorks10.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

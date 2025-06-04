@@ -16,5 +16,4 @@ def vs.RunGridSettingsDlg():
 Availability: from Vectorworks 2022
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

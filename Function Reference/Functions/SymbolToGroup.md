@@ -60,5 +60,4 @@ RUN(Test);</code>
 Availability: from VectorWorks 10.0
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

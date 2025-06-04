@@ -32,5 +32,4 @@ def vs.DSH_GetDSFieldValue(hObject, dsName, fieldLabel):
 Availability: from Vectorworks 2020.1
 
 ## Category
-* Data Sheets
-
+* [Data Sheets](../Categories/Data%20Sheets.md)

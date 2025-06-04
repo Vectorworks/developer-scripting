@@ -16,5 +16,4 @@ def vs.vstSetCursorByView():
 Availability: from Vectorworks 2011
 
 ## Category
-* Tool Events
-
+* [Tool Events](../Categories/Tool%20Events.md)

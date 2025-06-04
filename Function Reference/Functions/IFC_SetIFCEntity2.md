@@ -24,5 +24,4 @@ def vs.IFC_SetIFCEntity2(hObject, inStrIfcType):
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -28,5 +28,4 @@ def vs.IFC_DMGetPSetCond(strObjectName, strEntryName, psetIndex):
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

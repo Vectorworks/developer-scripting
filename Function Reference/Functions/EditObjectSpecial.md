@@ -24,5 +24,4 @@ def vs.EditObjectSpecial(h, editMode):
 Availability: from Vectorworks 2013
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

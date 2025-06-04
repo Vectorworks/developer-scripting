@@ -26,5 +26,4 @@ def vs.Polygonize(h, segmentationLength, polygonizeStraight):
 Availability: from Vectorworks 2018
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

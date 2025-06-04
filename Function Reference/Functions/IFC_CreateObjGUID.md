@@ -41,5 +41,4 @@ ok = vs.IFC_CreateObjGUID(hObject)
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

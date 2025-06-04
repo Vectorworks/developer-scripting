@@ -27,5 +27,4 @@ Sets the bitmap for a shader record, use NIL for no bitmap
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

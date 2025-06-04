@@ -19,5 +19,4 @@ See also: [[VS:GetFPathName]], which returns the fully qualified path of the act
 Availability: from All Versions
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

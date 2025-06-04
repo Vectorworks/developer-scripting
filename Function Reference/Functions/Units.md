@@ -62,5 +62,4 @@ See [[VS:GetPrimaryUnitInfo| GetPrimaryUnitInfo]] for details on changes in vers
 Availability: from All Versions
 
 ## Category
-* Units
-
+* [Units](../Categories/Units.md)

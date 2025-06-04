@@ -31,5 +31,4 @@ vs.Message(vs.HasDim(vs.FSActLayer()))
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

@@ -45,5 +45,4 @@ vs.DoubleTolerance(True,False,'est. ','',1/16,1/16)
 Availability: from MiniCAD4.0
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

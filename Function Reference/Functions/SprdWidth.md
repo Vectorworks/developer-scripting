@@ -37,5 +37,4 @@ SprdWidth is obsolete as of VectorWorks 9.0, see new [[VS:SetWSColumnWidth| SetW
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -59,5 +59,4 @@ def vs.GetCurrentMode():
 Availability: from VectorWorks10.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

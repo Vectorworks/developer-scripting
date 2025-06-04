@@ -38,5 +38,4 @@ VS Functions:
 Availability: from All Versions
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

@@ -43,5 +43,4 @@ PenPat(-3);
 Availability: from All Versions, deprecated from Vectorworks 2013
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

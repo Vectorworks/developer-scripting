@@ -52,5 +52,4 @@ vs.AlrtDialog(strPropValue + ' ,  ' + str(iType))
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

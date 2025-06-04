@@ -24,5 +24,4 @@ def vs.SetCustomFeedback(ParametricHandle, FeedbackGroup):
 Availability: from Vectorworks 2016
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

@@ -21,5 +21,4 @@ def vs.AcquireExportPDFSettingsAndLocation(inbSeparateDocuments):
 Availability: from VectorWorks12.5
 
 ## Category
-* Command
-
+* [Command](../Categories/Command.md)

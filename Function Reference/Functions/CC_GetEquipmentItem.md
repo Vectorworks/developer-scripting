@@ -21,5 +21,4 @@ def vs.CC_GetEquipmentItem(hDevice):
 Availability: from Vectorworks 2025
 
 ## Category
-* ConnectCAD
-
+* [ConnectCAD](../Categories/ConnectCAD.md)

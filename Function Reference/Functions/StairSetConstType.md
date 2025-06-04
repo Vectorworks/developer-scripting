@@ -47,5 +47,4 @@ def vs.StairSetConstType(stair, ConstructionType):
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Stairs
-
+* [Objects - Stairs](../Categories/Objects%20-%20Stairs.md)

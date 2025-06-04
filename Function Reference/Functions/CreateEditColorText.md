@@ -28,5 +28,4 @@ def vs.CreateEditColorText(dialogID, itemID, widthInStdChar, heightInLines):
 Availability: from Vectorworks 2022
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

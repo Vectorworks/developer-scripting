@@ -38,5 +38,4 @@ Run(Test); { _c_ }
 Availability: from Vectorworks 2014
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

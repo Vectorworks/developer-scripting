@@ -31,5 +31,4 @@ Set the current choice of the line style popup dialog control to the specified i
 Availability: from VectorWorks 12.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

@@ -118,5 +118,4 @@ VS Functions:
 Availability: from VectorWorks 13.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

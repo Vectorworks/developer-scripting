@@ -79,5 +79,4 @@ VS Functions:
 Availability: from MiniCAD 4.0
 
 ## Category
-* User Interactive
-
+* [User Interactive](../Categories/User%20Interactive.md)

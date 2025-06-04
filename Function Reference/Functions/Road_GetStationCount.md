@@ -21,5 +21,4 @@ def vs.Road_GetStationCount(hRoadwayObject):
 Availability: from Vectorworks 2015
 
 ## Category
-* Roadway Interface Library
-
+* [Roadway Interface Library](../Categories/Roadway%20Interface%20Library.md)

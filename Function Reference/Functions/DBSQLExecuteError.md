@@ -72,5 +72,4 @@ vs.AlrtDialog('state: ' + state + '\nmessage: ' + message + '\ncode: ' + str(cod
 Availability: from Vectorworks 2012
 
 ## Category
-* ODBC
-
+* [ODBC](../Categories/ODBC.md)

@@ -99,5 +99,4 @@ RUN(TEST)</code>;
 Availability: from Vectorworks 2010
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

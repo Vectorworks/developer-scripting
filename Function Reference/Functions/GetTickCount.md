@@ -44,5 +44,4 @@ Example()
 Availability: from VectorWorks8.5
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

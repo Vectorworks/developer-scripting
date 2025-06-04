@@ -31,5 +31,4 @@ Note: SetTexMapXXX routines replace the older SetTexSpaceXXX routines.  It is re
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

@@ -21,5 +21,4 @@ def vs.WebDlgEnableConsole(enable):
 Availability: from Vectorworks 2019
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

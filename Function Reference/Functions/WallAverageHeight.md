@@ -21,5 +21,4 @@ def vs.WallAverageHeight(c):
 Availability: from Vectorworks14.0
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

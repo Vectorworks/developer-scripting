@@ -89,5 +89,4 @@ vs.ForEachObject( SelectThem, "T=WALL" )
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

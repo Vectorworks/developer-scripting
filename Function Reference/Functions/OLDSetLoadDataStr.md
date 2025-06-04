@@ -31,5 +31,4 @@ def vs.OLDSetLoadDataStr(handle, selector, value, loadIndex):
 Availability: from Vectorworks 2018
 
 ## Category
-* Truss Analysis
-
+* [Truss Analysis](../Categories/Truss%20Analysis.md)

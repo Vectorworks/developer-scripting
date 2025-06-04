@@ -16,5 +16,4 @@ def vs.RunColorPaletteMgr():
 Availability: from Vectorworks 2013
 
 ## Category
-* Color
-
+* [Color](../Categories/Color.md)

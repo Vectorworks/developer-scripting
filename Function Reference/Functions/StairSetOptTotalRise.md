@@ -38,5 +38,4 @@ def vs.StairSetOptTotalRise(stair, OptionTotalRise):
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Stairs
-
+* [Objects - Stairs](../Categories/Objects%20-%20Stairs.md)

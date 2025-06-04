@@ -31,5 +31,4 @@ CellHasNum is obsolete as of VectorWorks 9.0, see [[VS:IsWSCellNumber | IsWSCell
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

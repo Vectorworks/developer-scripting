@@ -37,5 +37,4 @@ Scale(2,3);
 Availability: from All Versions
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

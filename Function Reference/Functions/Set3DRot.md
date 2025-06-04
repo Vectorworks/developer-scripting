@@ -86,5 +86,4 @@ VS Functions:
 Availability: from All Versions
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

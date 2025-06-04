@@ -13,5 +13,4 @@ def vs.CreateRenderworksStyle():
 Availability: from Vectorworks 2012
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

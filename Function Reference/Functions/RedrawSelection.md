@@ -16,5 +16,4 @@ def vs.RedrawSelection():
 Availability: from Vectorworks 2010
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

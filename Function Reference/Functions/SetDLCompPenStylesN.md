@@ -30,5 +30,4 @@ VS Functions:
 Availability: from Vectorworks 2019
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

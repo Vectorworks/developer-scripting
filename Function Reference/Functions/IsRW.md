@@ -16,5 +16,4 @@ def vs.IsRW():
 Availability: from VectorWorks10.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

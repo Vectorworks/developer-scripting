@@ -77,5 +77,4 @@ The className should specify the name of a class that exists in the parent docum
 Availability: from VectorWorks 8.5
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

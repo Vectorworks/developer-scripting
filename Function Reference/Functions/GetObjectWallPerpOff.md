@@ -26,5 +26,4 @@ def vs.GetObjectWallPerpOff(objectHandle, wallHandle):
 Availability: from Vectorworks 2023
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

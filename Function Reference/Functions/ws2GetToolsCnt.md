@@ -21,5 +21,4 @@ def vs.ws2GetToolsCnt(toolPath):
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

@@ -24,5 +24,4 @@ Deletes the hatch definition that has the name 'vectorFillName'
 Availability: from MiniCAD7.0.1
 
 ## Category
-* Hatches @ Vector Fills
-
+* [Hatches @ Vector Fills](../Categories/Hatches%20-%20Vector%20Fills.md)

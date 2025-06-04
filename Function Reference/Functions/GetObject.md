@@ -59,5 +59,4 @@ END;
 Availability: from All Versions
 
 ## Category
-* Object Names
-
+* [Object Names](../Categories/Object%20Names.md)

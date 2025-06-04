@@ -26,5 +26,4 @@ imageHandle := ShowCreateImageDialog;
 Availability: from VectorWorks10.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

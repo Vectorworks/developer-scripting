@@ -16,5 +16,4 @@ def vs.IFC_DMResToCOBieDef():
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

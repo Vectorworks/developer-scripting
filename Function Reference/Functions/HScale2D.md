@@ -39,5 +39,4 @@ If used on an extrude, the 2D shape inside the extrude will be scaled. The scali
 Availability: from Vectorworks 2014
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

@@ -33,5 +33,4 @@ NOTE: To create an on-drawing worksheet object, pass a worksheet handle to [[VS:
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

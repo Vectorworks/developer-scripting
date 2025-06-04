@@ -31,5 +31,4 @@ DimValue =vs.GetDimText(HandleToObj)
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

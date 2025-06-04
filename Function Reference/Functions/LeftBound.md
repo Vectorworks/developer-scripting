@@ -34,5 +34,4 @@ Availability: from All Versions
 Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

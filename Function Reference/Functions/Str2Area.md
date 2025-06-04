@@ -21,5 +21,4 @@ def vs.Str2Area(str):
 Availability: from Vectorworks 2014
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

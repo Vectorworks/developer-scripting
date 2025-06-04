@@ -16,5 +16,4 @@ def vs.DBeam_Get2DObjFOff():
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

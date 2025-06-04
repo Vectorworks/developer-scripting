@@ -28,5 +28,4 @@ def vs.EditSymMarkersDlg(dialogTitle, contextHelpID, inOutStartMarkerSymName, in
 Availability: from Vectorworks 2020
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

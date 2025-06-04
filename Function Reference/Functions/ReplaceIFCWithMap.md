@@ -47,5 +47,4 @@ ok = vs.ReplaceIFCWithMap(NULL, 'Wall')
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

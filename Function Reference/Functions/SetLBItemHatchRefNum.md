@@ -30,5 +30,4 @@ def vs.SetLBItemHatchRefNum(dialogID, componentID, itemIndex, subItemIndex, refN
 Availability: from Vectorworks 2022
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

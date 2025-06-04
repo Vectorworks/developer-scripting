@@ -28,5 +28,4 @@ def vs.InsertEnhanPullDownMenuItem(dialogID, controlID, strName, imageSpecifier)
 Availability: from Vectorworks 2012
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

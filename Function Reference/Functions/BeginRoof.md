@@ -67,5 +67,4 @@ vs.EndGroup()
 Availability: from MiniCAD 4.0
 
 ## Category
-* Objects - Roofs
-
+* [Objects - Roofs](../Categories/Objects%20-%20Roofs.md)

@@ -34,5 +34,4 @@ The one other thing that you have to do is provide a mechanism for preventing an
 Availability: from VectorWorks10.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

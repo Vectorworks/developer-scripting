@@ -75,5 +75,4 @@ VS Functions:
 Availability: from VectorWorks 8.0
 
 ## Category
-* Math - Vectors
-
+* [Math - Vectors](../Categories/Math%20-%20Vectors.md)

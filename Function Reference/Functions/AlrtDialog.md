@@ -34,5 +34,4 @@ vs.AlrtDialog('No objects are selected for this operation.')
 Availability: from All Versions
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

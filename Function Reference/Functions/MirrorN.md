@@ -34,5 +34,4 @@ def vs.MirrorN(h, dup, p1, p2, preserveMatrix):
 Availability: from Vectorworks 2023
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

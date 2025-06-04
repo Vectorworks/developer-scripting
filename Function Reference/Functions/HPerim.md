@@ -24,5 +24,4 @@ def vs.HPerim(h):
 Availability: from All Versions
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

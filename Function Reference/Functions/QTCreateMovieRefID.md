@@ -13,5 +13,4 @@ def vs.QTCreateMovieRefID():
 Availability: from Vectorworks 2018
 
 ## Category
-* Special - QuickTime
-
+* [Special - QuickTime](../Categories/Special%20-%20QuickTime.md)

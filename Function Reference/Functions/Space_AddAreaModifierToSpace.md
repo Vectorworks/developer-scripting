@@ -24,5 +24,4 @@ def vs.Space_AddAreaModifierToSpace(space, modifier):
 Availability: from Vectorworks 2014 - renamed [[VS:Space_AddAreaModif]] with Vectorworks 2024.
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

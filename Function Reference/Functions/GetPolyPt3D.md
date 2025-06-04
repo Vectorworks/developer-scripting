@@ -58,5 +58,4 @@ VS Functions:
 Availability: from MiniCAD 7.0
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

@@ -37,5 +37,4 @@ SetClUseGraphic('Forested Cover',TRUE);
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

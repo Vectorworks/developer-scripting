@@ -48,5 +48,4 @@ Marker is obsolete as of VectorWorks13.0<P>
 Availability: from MiniCAD6.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

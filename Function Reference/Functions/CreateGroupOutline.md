@@ -21,5 +21,4 @@ def vs.CreateGroupOutline(objectHandle):
 Availability: from Vectorworks 2014
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

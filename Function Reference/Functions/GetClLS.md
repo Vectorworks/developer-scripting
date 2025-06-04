@@ -45,5 +45,4 @@ Example()
 Availability: from VectorWorks 8.0, Deprecated from Vectorworks 2013
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

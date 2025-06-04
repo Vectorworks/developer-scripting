@@ -21,5 +21,4 @@ def vs.ExportSTEP(filePath, exportSolidsAsSurfaces):
 Availability: from Vectorworks 2018
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

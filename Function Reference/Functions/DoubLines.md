@@ -28,5 +28,4 @@ DoubLines is obsolete as of VectorWorks12.5<P>
 Availability: from All Versions
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

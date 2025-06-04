@@ -54,5 +54,4 @@ def vs.SetClassOptions(classOpts):
 Availability: from VectorWorks8.5
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

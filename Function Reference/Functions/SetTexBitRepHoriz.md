@@ -27,5 +27,4 @@ Sets the texture bitmap attribute to specify that it should repeat horizontally.
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

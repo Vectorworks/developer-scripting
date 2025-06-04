@@ -31,5 +31,4 @@ CellHasStr is obsolete as of VectorWorks 9.0, see [[VS:IsWSCellString | IsWSCell
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -70,5 +70,4 @@ VS Functions:
 Availability: from Vectorworks 2020
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

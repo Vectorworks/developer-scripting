@@ -31,5 +31,4 @@ def vs.GetPrefRGB(prefIndex):
 Availability: from Vectorworks14.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

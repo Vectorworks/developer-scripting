@@ -21,5 +21,4 @@ def vs.DXFScaleString(scale):
 Availability: from Vectorworks 2013
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

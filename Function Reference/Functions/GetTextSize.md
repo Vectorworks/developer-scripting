@@ -56,5 +56,4 @@ RUN(Example);
 Availability: from MiniCAD6.0
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

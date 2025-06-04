@@ -21,5 +21,4 @@ def vs.EnableDropShadow(h, enable):
 Availability: from Vectorworks 2017
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

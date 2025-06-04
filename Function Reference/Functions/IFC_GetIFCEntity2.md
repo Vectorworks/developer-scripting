@@ -28,5 +28,4 @@ def vs.IFC_GetIFCEntity2(hObject):
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

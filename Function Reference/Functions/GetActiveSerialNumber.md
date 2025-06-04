@@ -16,5 +16,4 @@ def vs.GetActiveSerialNumber():
 Availability: from VectorWorks10.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

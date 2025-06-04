@@ -21,5 +21,4 @@ def vs.Angle2Str(value):
 Availability: from Vectorworks 2014
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

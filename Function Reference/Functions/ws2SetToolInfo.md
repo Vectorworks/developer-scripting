@@ -30,5 +30,4 @@ def vs.ws2SetToolInfo(toolPath, displayName, shortcutKey, shortcutKeyModifier, r
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

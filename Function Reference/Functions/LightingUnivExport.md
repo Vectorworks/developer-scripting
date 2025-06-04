@@ -16,5 +16,4 @@ def vs.LightingUnivExport():
 Availability: from Vectorworks 2015
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

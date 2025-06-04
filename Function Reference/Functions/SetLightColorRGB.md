@@ -31,5 +31,4 @@ Color param range is 0..65535 -DLD 8/28/98
 Availability: from MiniCAD7.0.1
 
 ## Category
-* Objects - Lights
-
+* [Objects - Lights](../Categories/Objects%20-%20Lights.md)

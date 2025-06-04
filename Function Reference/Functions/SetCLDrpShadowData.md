@@ -37,5 +37,4 @@ If nUnits = 0, dOffset and dBlurRadius are in inch, if nUnits = 1, dOffset and d
 Availability: from Vectorworks 2017
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

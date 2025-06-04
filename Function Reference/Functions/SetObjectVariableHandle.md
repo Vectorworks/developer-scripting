@@ -26,5 +26,4 @@ def vs.SetObjectVariableHandle(h, index, value):
 Availability: from VectorWorks12.0
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

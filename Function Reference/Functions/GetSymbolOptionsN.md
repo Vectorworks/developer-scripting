@@ -94,5 +94,4 @@ RUN(Example);
 Availability: from VectorWorks 8.5
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

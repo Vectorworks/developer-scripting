@@ -39,5 +39,4 @@ Example()
 Availability: from MiniCAD6.0
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

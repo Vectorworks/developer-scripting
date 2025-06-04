@@ -28,5 +28,4 @@ def vs.CreateRadioButtonGroupBox(dialogID, itemID, name, hasFrame):
 Availability: from VectorWorks10.5
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

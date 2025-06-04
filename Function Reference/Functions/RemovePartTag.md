@@ -21,5 +21,4 @@ def vs.RemovePartTag(objectHandle):
 Availability: from Vectorworks 2022
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

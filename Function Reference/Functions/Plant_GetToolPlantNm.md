@@ -16,5 +16,4 @@ def vs.Plant_GetToolPlantNm():
 Availability: from Vectorworks 2014
 
 ## Category
-* PlantObjectCoreTools
-
+* [PlantObjectCoreTools](../Categories/PlantObjectCoreTools.md)

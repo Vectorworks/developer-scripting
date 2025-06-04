@@ -24,5 +24,4 @@ def vs.Space_ItemAssignedZones(space, item):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

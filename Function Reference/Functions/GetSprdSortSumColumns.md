@@ -43,5 +43,4 @@ GetSprdSortSumColumns is obsolete as of VectorWorks9.0<P>
 Availability: from VectorWorks8.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

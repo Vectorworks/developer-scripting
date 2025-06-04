@@ -28,5 +28,4 @@ def vs.VWCoordToGeogN(inCoordX, inCoordY):
 Availability: from Vectorworks 2020
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

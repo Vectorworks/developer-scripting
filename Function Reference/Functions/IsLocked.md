@@ -26,5 +26,4 @@ isLocked := vs.IsLocked( object );
 Availability: from Vectorworks 2025
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

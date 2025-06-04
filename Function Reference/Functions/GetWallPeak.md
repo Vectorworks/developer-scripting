@@ -36,5 +36,4 @@ From Lamberto Previati: GetWallPeak doesn't work if there is a symbol at the sam
 Availability: from VectorWorks9.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

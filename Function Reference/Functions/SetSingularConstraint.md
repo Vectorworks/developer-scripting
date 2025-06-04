@@ -54,5 +54,4 @@ Sets a constraint of type typeOfConstraint on the object h.  The valid values fo
 Availability: from VectorWorks 9.0
 
 ## Category
-* Parametric Constraints
-
+* [Parametric Constraints](../Categories/Parametric%20Constraints.md)

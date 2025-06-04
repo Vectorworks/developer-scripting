@@ -26,5 +26,4 @@ def vs.EnableLBUpdates(liDialogID, liComponentID, bEnableUpdates):
 Availability: from VectorWorks12.5
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

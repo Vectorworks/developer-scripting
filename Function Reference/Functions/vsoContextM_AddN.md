@@ -28,5 +28,4 @@ def vs.vsoContextM_AddN(locName, itemID, helpID, helpStr):
 Availability: from Vectorworks 2017
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

@@ -21,5 +21,4 @@ def vs.EXL_NewBook(filePath):
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

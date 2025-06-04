@@ -36,5 +36,4 @@ def vs.GetWSColumnOperators(worksheet, row):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

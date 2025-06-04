@@ -24,5 +24,4 @@ def vs.CC_GetDevice(hSocket, skip adapters):
 Availability: from Vectorworks 2025
 
 ## Category
-* ConnectCAD
-
+* [ConnectCAD](../Categories/ConnectCAD.md)

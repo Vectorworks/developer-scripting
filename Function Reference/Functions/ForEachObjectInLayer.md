@@ -150,5 +150,4 @@ vs.ForEachObjectInLayer( MakeItRed, 2, 0, 4 )
 Availability: from VectorWorks 8.5
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

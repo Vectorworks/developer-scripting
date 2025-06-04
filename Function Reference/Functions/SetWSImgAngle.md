@@ -32,5 +32,4 @@ def vs.SetWSImgAngle(worksheet, topRow, leftColumn, bottomRow, rightColumn, angl
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

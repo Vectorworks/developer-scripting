@@ -16,5 +16,4 @@ def vs.NumSelectedObjects():
 Availability: from Vectorworks 2010
 
 ## Category
-* Selection
-
+* [Selection](../Categories/Selection.md)

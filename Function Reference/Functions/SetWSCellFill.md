@@ -50,5 +50,4 @@ pattern fill= 2
 Availability: from VectorWorks12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

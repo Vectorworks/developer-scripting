@@ -21,5 +21,4 @@ def vs.wsEditEnd(restart):
 Availability: from Vectorworks 2018
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

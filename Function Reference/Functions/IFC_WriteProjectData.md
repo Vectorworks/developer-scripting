@@ -28,5 +28,4 @@ def vs.IFC_WriteProjectData(iPane, iParam, iBuilding, data):
 Availability: from Vectorworks 2024
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -21,5 +21,4 @@ def vs.GetLayerByName(layerName):
 Availability: from VectorWorks8.5
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

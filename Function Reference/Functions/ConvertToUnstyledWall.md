@@ -24,5 +24,4 @@ Sets a wall to be unstyled. This allows a wall to then be manipulated by certain
 Availability: from VectorWorks12.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

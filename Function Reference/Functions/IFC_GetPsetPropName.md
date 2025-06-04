@@ -26,5 +26,4 @@ def vs.IFC_GetPsetPropName(strPsetName, indexProperty):
 Availability: from Vectorworks 2022
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

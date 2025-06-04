@@ -53,5 +53,4 @@ Example()
 Availability: from VectorWorks8.5
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

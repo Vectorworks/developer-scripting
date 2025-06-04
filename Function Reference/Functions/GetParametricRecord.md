@@ -24,5 +24,4 @@ def vs.GetParametricRecord(h):
 Availability: from Vectorworks 2011
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

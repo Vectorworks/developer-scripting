@@ -24,5 +24,4 @@ SetWallControlOffset is obsolete as of VectorWorks12.5<P>
 Availability: from VectorWorks8.5
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

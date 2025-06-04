@@ -32,5 +32,4 @@ def vs.SetWSImgRenderMode(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 Availability: from Vectorworks 2014
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

@@ -18,5 +18,4 @@ def vs.DBeam_SetBeamAngle2(angle):
 Availability: from Vectorworks 2011
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

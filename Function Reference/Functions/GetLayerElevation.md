@@ -63,5 +63,4 @@ VS Functions:
 Availability: from VectorWorks10.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

@@ -16,5 +16,4 @@ def vs.TestEncryptPlugins():
 Availability: from Vectorworks 2018
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

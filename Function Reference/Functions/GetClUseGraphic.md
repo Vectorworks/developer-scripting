@@ -24,5 +24,4 @@ Returns whether the class is set to use its graphic attributes at object creatio
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

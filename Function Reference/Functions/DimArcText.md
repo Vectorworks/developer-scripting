@@ -32,5 +32,4 @@ vs.DimArcText()
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

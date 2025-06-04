@@ -26,5 +26,4 @@ def vs.SetViewVector(location, target, up):
 Availability: from VectorWorks9.0
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

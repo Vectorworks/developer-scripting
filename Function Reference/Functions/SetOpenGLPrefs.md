@@ -29,5 +29,4 @@ No longer a valid function, needs updating. (MF - Nov 11, 2015)
 Availability: from Vectorworks 2014
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

@@ -32,5 +32,4 @@ DSelectObj(S='Pine Tree');
 Availability: from All Versions
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

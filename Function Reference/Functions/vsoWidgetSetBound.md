@@ -27,5 +27,4 @@ def vs.vsoWidgetSetBound(widgetID_Popup, widgetID_Offset, boundID, isTop, offset
 Availability: from Vectorworks 2012
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

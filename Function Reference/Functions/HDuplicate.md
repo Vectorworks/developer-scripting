@@ -26,5 +26,4 @@ def vs.HDuplicate(objectHandle, x, y):
 Availability: from VectorWorks10.0
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

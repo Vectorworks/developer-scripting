@@ -55,5 +55,4 @@ SetWSCellFormula(h,2,0,2,0,'=DATABASE(R IN [''PART INFO''])');
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

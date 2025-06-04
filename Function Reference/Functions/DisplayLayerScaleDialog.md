@@ -19,5 +19,4 @@ Brings up the Layer Scale dialog.
 Availability: from VectorWorks12.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

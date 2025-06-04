@@ -51,5 +51,4 @@ ok = vs.IFC_GetEntityColor('IfcWall', red, green, blue, transp)
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

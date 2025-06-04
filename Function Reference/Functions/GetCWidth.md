@@ -31,5 +31,4 @@ GetCWidth is obsolete as of VectorWorks 9.0, see [[VS:GetWSColumnWidth | GetWSCo
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

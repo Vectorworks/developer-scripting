@@ -40,5 +40,4 @@ SetGradientSpotColor(gradientHandle, 4, 255, 255, 255);
 Availability: from VectorWorks10.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

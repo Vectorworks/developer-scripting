@@ -42,5 +42,4 @@ vs.Arc(0,0,2,2,45,90)
 Availability: from All Versions
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

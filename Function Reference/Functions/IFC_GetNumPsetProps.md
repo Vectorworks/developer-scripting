@@ -24,5 +24,4 @@ def vs.IFC_GetNumPsetProps(strPsetName):
 Availability: from Vectorworks 2022
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

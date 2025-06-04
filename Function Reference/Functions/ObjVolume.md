@@ -49,5 +49,4 @@ RUN(Example);
 Availability: from VectorWorks12.5
 
 ## Category
-* Objects - Solids
-
+* [Objects - Solids](../Categories/Objects%20-%20Solids.md)

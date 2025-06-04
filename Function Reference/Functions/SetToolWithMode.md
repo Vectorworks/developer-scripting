@@ -26,5 +26,4 @@ def vs.SetToolWithMode(toolIndex, modeGroup, modeButton):
 Availability: from Vectorworks 2016
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

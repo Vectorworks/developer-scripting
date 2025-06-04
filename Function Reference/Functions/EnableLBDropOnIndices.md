@@ -30,5 +30,4 @@ def vs.EnableLBDropOnIndices(dialogID, componentID, iStartIndex, iEndIndex, bEna
 Availability: from VectorWorks12.5
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

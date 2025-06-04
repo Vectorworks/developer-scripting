@@ -26,5 +26,4 @@ def vs.IFC_DMEnableEntry(inStrObjName, inStrEntryName, bEnable):
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

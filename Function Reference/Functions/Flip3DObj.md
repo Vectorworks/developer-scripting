@@ -62,5 +62,4 @@ Run(FlipTest);
 Availability: from Vectorworks 2010
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

@@ -54,5 +54,4 @@ SprdAlign is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellAlignment| Se
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

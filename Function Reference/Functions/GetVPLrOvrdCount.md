@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2014
 
 ## Category
-* Viewports
-
+* [Viewports](../Categories/Viewports.md)

@@ -75,5 +75,4 @@ vs.EndPoly()
 Availability: from MiniCAD4.0
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

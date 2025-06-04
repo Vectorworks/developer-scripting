@@ -31,5 +31,4 @@ VS Functions:
 Availability: from VectorWorks12.5
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

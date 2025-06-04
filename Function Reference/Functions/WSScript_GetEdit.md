@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2021
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

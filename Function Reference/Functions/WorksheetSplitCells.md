@@ -30,5 +30,4 @@ def vs.WorksheetSplitCells(worksheet, topRow, leftColumn, bottomRow, rightColumn
 Availability: from VectorWorks12.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

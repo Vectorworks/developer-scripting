@@ -75,5 +75,4 @@ Message('The key pressed was ',keyHit);
 Availability: from All Versions
 
 ## Category
-* User Interactive
-
+* [User Interactive](../Categories/User%20Interactive.md)

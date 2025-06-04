@@ -26,5 +26,4 @@ def vs.DeleteWSColumns(worksheet, startColumn, numColumns):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

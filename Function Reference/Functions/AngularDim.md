@@ -51,5 +51,4 @@ AngularDim(1 1/2&quot;,3/8&quot;,-1/4&quot;,-1/2&quot;,7/8&quot;,-1/2&quot;,1.70
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

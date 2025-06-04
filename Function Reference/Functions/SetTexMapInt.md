@@ -42,5 +42,4 @@ Algorithmic means either the "perimeter" or "roof" mapping type.
 Availability: from Vectorworks14.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

@@ -24,5 +24,4 @@ def vs.IFC_DMGetObjCondAt(index):
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

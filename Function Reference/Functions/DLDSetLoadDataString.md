@@ -26,5 +26,4 @@ def vs.DLDSetLoadDataString(selector, value):
 Availability: from Vectorworks 2018
 
 ## Category
-* Truss Analysis
-
+* [Truss Analysis](../Categories/Truss%20Analysis.md)

@@ -24,5 +24,4 @@ def vs.DeleteSymbolDefinition(hSymDef, bCompletely):
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

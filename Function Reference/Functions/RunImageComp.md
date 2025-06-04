@@ -27,5 +27,4 @@ def vs.RunImageComp(FilePath, savedView, SettingsDir, imageWidth, imageHeight):
 Availability: from Vectorworks 2020
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

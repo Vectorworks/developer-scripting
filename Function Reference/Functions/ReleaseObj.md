@@ -21,5 +21,4 @@ def vs.ReleaseObj(c):
 Availability: from Vectorworks 2017
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

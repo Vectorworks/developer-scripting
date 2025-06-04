@@ -26,5 +26,4 @@ def vs.CreateLayerPDMenu(nDialogID, nComponentID, widthInStandardChar):
 Availability: from Vectorworks 2020
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

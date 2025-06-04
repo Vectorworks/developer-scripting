@@ -57,5 +57,4 @@ VS Functions:
 Availability: from MiniCAD7.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

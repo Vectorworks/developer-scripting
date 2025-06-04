@@ -24,5 +24,4 @@ def vs.SetImageCropVisible(obj, isVisible):
 Availability: from Vectorworks 2014
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

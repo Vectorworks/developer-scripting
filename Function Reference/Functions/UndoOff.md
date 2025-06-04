@@ -16,5 +16,4 @@ def vs.UndoOff():
 Availability: from VectorWorks8.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

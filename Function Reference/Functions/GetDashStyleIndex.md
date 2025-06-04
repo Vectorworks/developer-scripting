@@ -48,5 +48,4 @@ The Function will also set the document default line style.
 Availability: from Vectorworks 2010
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

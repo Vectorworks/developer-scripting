@@ -44,5 +44,4 @@ EndFolder;
 Availability: from Vectorworks 2018
 
 ## Category
-* Document List Handling
-
+* [Document List Handling](../Categories/Document%20List%20Handling.md)

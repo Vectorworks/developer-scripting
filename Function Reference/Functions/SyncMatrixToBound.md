@@ -24,5 +24,4 @@ def vs.SyncMatrixToBound(obj, BoundID):
 Availability: from Vectorworks 2013
 
 ## Category
-* Objects - Architectural
-
+* [Objects - Architectural](../Categories/Objects%20-%20Architectural.md)

@@ -26,5 +26,4 @@ def vs.EnableLBExternalSort(dialogID, componentID, enable):
 Availability: from Vectorworks 2020
 
 ## Category
-* Dialogs - Modern - Browser
-
+* [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

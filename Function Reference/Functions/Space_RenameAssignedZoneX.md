@@ -28,5 +28,4 @@ def vs.Space_RenameAssignedZoneX(space, index, zoneType, zoneName):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

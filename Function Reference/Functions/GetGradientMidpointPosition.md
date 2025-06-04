@@ -36,5 +36,4 @@ midpointPosition = vs.GetGradientMidpointPosition(gradientHandle, 4)
 Availability: from VectorWorks10.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

@@ -21,5 +21,4 @@ def vs.WallArea_Net(c):
 Availability: from VectorWorks12.0
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

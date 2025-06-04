@@ -26,5 +26,4 @@ def vs.GetProjectionWKT(hLayer, esriStyle):
 Availability: from Vectorworks 2014
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

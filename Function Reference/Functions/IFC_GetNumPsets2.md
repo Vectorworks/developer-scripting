@@ -47,5 +47,4 @@ vs.AlrtDialog('The number of PSets is ' + str(numPSets))
 Availability: from Vectorworks 2018
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

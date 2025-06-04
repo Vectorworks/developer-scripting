@@ -36,5 +36,4 @@ SetDimText(dimHandle,'Length varies');
 Availability: from MiniCAD4.0
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

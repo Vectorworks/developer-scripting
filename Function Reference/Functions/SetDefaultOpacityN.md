@@ -21,5 +21,4 @@ def vs.SetDefaultOpacityN(inPenOpacity, inFillOpacity):
 Availability: from Vectorworks 2017
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

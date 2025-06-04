@@ -21,5 +21,4 @@ def vs.InstallScriptAddPath(fullPath):
 Availability: from Vectorworks 2021
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -25,5 +25,4 @@ def vs.IFC_DMSetFieldEnable(inStrObjName, inStrEntryName, inStrFieldName, bEnabl
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

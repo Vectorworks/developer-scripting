@@ -36,5 +36,4 @@ def vs.EXL_GetCellFont(sheetIndex, cellRow, cellColumn):
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

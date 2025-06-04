@@ -38,5 +38,4 @@ Use [[VS:GetWSCellValue| GetWSCellValue]] to retrieve actual numerical value wit
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

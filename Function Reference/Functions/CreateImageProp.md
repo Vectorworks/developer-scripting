@@ -40,5 +40,4 @@ def vs.CreateImageProp(propName, textureRef, height, width, enforceImageAspectRa
 Availability: from VectorWorks11.5
 
 ## Category
-* Objects - 3D
-
+* [Objects - 3D](../Categories/Objects%20-%203D.md)

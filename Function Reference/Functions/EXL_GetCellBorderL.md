@@ -34,5 +34,4 @@ def vs.EXL_GetCellBorderL(sheetIndex, cellRow, cellColumn):
 Availability: from Vectorworks 2021
 
 ## Category
-* Excel
-
+* [Excel](../Categories/Excel.md)

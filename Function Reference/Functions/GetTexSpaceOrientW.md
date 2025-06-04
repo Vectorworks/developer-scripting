@@ -33,5 +33,4 @@ Note: GetTexMapXXX routines replace the older GetTexSpaceXXX routines.  It is re
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

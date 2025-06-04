@@ -35,5 +35,4 @@ Display progress -  ??  This might control whether the screen updates as it is r
 Availability: from VectorWorks10.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)

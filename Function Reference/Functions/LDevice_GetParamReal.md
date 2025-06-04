@@ -29,5 +29,4 @@ def vs.LDevice_GetParamReal(handle, cellIndex, accessoryIndex, universalName):
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

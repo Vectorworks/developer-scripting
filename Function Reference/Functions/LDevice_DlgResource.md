@@ -26,5 +26,4 @@ def vs.LDevice_DlgResource(LayoutID, ControlID, SymbolName):
 Availability: from Vectorworks 2019
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

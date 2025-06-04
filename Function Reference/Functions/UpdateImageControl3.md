@@ -34,5 +34,4 @@ VS Functions:
 Availability: from Vectorworks 2018
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

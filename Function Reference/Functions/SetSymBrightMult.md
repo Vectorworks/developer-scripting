@@ -29,5 +29,4 @@ This function sets the brightness multiplier used for symbols that contains ligh
 Availability: from VectorWorks8.0
 
 ## Category
-* Objects - Symbols
-
+* [Objects - Symbols](../Categories/Objects%20-%20Symbols.md)

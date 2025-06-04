@@ -38,5 +38,4 @@ VS Functions:
 Availability: from Vectorworks 2018
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

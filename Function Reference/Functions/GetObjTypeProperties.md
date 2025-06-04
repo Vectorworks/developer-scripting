@@ -26,5 +26,4 @@ This function should return kTermProp for type kTermNode, kLineProp for kLineNod
 Availability: from Vectorworks 2018
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

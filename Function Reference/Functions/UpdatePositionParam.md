@@ -21,5 +21,4 @@ def vs.UpdatePositionParam(positionHandle):
 Availability: from Vectorworks 2023
 
 ## Category
-* Truss Analysis
-
+* [Truss Analysis](../Categories/Truss%20Analysis.md)

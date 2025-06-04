@@ -31,5 +31,4 @@ ObjectClass = vs.GetClass(handleToObject)
 Availability: from All Versions
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

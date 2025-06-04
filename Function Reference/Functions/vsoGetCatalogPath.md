@@ -24,5 +24,4 @@ def vs.vsoGetCatalogPath(folderSpec, relativePath):
 Availability: from Vectorworks 2018
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

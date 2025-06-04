@@ -34,5 +34,4 @@ def vs.vsoGetIntSizeInfo(message, isz_index, displayName, currentValue, defaultV
 Availability: from Vectorworks 2023.3
 
 ## Category
-* Object Events
-
+* [Object Events](../Categories/Object%20Events.md)

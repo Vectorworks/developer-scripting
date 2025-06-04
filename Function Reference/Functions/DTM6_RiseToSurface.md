@@ -28,5 +28,4 @@ def vs.DTM6_RiseToSurface(hDTMObject, hObject, TINType, sendType):
 Availability: from Vectorworks 2014
 
 ## Category
-* SiteModel Interface Library
-
+* [SiteModel Interface Library](../Categories/SiteModel%20Interface%20Library.md)

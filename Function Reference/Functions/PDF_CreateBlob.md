@@ -28,5 +28,4 @@ def vs.PDF_CreateBlob(inFilePath, ioBlobPtr, ioBlobSize, ioCurPage):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

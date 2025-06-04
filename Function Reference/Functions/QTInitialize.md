@@ -19,5 +19,4 @@ We don't support QuickTime versions less than 3.0, so this function will return 
 Availability: from VectorWorks8.5
 
 ## Category
-* Special - QuickTime
-
+* [Special - QuickTime](../Categories/Special%20-%20QuickTime.md)

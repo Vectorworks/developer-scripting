@@ -35,5 +35,4 @@ def vs.SetWSCellWrapTextFlag(worksheet, topRow, leftColumn, bottomRow, rightColu
 Availability: from VectorWorks12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

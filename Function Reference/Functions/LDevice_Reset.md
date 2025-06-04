@@ -21,5 +21,4 @@ def vs.LDevice_Reset(h):
 Availability: from Vectorworks 2015
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

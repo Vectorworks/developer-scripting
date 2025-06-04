@@ -26,5 +26,4 @@ Availability: from All Versions
 This is drop-in function.
 
 ## Category
-* XML
-
+* [XML](../Categories/XML.md)

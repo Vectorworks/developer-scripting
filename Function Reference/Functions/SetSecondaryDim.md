@@ -47,5 +47,4 @@ SetSecondaryDim(dimHd,TRUE,FALSE,'Approx.','',64);
 Availability: from MiniCAD7.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

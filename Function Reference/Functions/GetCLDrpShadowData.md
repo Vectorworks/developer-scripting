@@ -35,5 +35,4 @@ def vs.GetCLDrpShadowData(className):
 Availability: from Vectorworks 2017
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

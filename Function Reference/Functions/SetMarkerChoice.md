@@ -90,5 +90,4 @@ SetMarkerChoice is obsolete as of VectorWorks13.0<P>
 Availability: from VectorWorks12.0
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

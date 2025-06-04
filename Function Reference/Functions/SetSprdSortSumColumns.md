@@ -44,5 +44,4 @@ SetSprdSortSumColumns is obsolete as of VectorWorks 9.0, see new [[VS:SetWSColum
 Availability: from VectorWorks 8.5
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

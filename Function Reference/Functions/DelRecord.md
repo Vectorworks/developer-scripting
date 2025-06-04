@@ -24,5 +24,4 @@ def vs.DelRecord(h, name):
 Availability: from MiniCAD7.0
 
 ## Category
-* Database @ Record
-
+* [Database @ Record](../Categories/Database%20-%20Record.md)

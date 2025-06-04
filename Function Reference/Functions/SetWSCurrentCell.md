@@ -30,5 +30,4 @@ If specified cell is not contained within currently specified worksheet range, c
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

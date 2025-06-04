@@ -164,5 +164,4 @@ VS Functions:
 Availability: from VectorWorks8.0
 
 ## Category
-* Units
-
+* [Units](../Categories/Units.md)

@@ -31,5 +31,4 @@ Moreover, if the WS image is too large to display (about 11 meters long), it wil
 Availability: from VectorWorks 9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

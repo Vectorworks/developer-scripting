@@ -16,5 +16,4 @@ def vs.NonUndoableActionOK():
 Availability: from VectorWorks8.0
 
 ## Category
-* Dialogs - Predefined
-
+* [Dialogs - Predefined](../Categories/Dialogs%20-%20Predefined.md)

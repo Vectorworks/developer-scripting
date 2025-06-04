@@ -49,5 +49,4 @@ SetClassArrow is obsolete as of VectorWorks13.0<P>
 Availability: from VectorWorks10.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

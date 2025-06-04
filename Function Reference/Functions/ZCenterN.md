@@ -27,5 +27,4 @@ ZCenValue:=ZCenterN(N='Board');
 Availability: from Vectorworks 2012
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

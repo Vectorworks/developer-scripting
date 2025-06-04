@@ -29,5 +29,4 @@ def vs.FindFile(whichPath, relFilePath):
 Availability: from Vectorworks 2015
 
 ## Category
-* File I@O
-
+* [File I@O](../Categories/File%20IO.md)

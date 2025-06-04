@@ -24,5 +24,4 @@ def vs.WSScript_AddHandleId(h, id):
 Availability: from Vectorworks 2021
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

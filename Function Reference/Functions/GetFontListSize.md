@@ -21,5 +21,4 @@ AlrtDialog(Concat('The number of available fonts is: ', GetFontListSize));
 Availability: from Vectorworks 2015
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

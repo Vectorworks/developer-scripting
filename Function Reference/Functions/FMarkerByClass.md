@@ -30,5 +30,4 @@ useClassMarker = vs.FMarkerByClass()
 Availability: from VectorWorks8.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

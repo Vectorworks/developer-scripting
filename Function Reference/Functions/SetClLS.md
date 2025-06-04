@@ -41,5 +41,4 @@ SetClLS('Property Parcels',-4);
 Availability: from VectorWorks 8.0, deprecated from Vectorworks 2013
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

@@ -21,5 +21,4 @@ def vs.SetToolByName(toolName):
 Availability: from Vectorworks 2014
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

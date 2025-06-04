@@ -43,5 +43,4 @@ LimitTolerance(TRUE,FALSE,'','',-1&quot;,1&quot;);
 Availability: from MiniCAD4.0
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

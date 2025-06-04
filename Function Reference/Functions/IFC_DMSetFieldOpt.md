@@ -25,5 +25,4 @@ def vs.IFC_DMSetFieldOpt(inStrObjName, inStrEntryName, inStrFieldName, bOptional
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -41,5 +41,4 @@ ok = vs.IFC_ClearAllPsets(hObject)
 Availability: from Vectorworks 2011
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

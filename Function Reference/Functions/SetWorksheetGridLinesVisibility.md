@@ -24,5 +24,4 @@ def vs.SetWorksheetGridLinesVisibility(h, visible):
 Availability: from Vectorworks 2011
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

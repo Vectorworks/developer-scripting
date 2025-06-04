@@ -24,5 +24,4 @@ NZH 5-10-05
 Availability: from VectorWorks12.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

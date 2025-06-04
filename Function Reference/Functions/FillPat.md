@@ -37,5 +37,4 @@ vs.Rect(2,2,4,4)
 Availability: from All Versions
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

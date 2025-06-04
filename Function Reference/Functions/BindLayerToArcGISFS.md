@@ -26,5 +26,4 @@ def vs.BindLayerToArcGISFS(inURL, inFeatureId, inRequestAll):
 Availability: from Vectorworks 2023
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

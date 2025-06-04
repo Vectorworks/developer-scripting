@@ -24,5 +24,4 @@ def vs.ws2CreateToolPalette(univName, displayName):
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

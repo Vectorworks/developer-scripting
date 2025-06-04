@@ -27,5 +27,4 @@ Brings up the Edit Mapping dialog for the space attached to the object.  Returns
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

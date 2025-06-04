@@ -49,5 +49,4 @@ Poly(0, 0, -0.5, 1, 0.5, 2);
 Availability: from All Versions
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

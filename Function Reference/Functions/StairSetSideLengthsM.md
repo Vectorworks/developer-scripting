@@ -32,5 +32,4 @@ def vs.StairSetSideLengthsM(stair, LengthSide1M, LengthSide2M, LengthSide3M, Len
 Availability: from Vectorworks 2021
 
 ## Category
-* Objects - Stairs
-
+* [Objects - Stairs](../Categories/Objects%20-%20Stairs.md)

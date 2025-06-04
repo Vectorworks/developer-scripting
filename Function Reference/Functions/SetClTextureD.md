@@ -27,5 +27,4 @@ Sets the roof dormer texture of the class named className.
 Availability: from VectorWorks8.0
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

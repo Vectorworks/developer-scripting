@@ -30,5 +30,4 @@ def vs.SetTexMapBoolN(obj, texPartID, texLayerID, selector, value):
 Availability: from Vectorworks 2010
 
 ## Category
-* Textures
-
+* [Textures](../Categories/Textures.md)

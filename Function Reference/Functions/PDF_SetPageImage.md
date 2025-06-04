@@ -21,5 +21,4 @@ def vs.PDF_SetPageImage(inBlobPtr):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

@@ -110,5 +110,4 @@ vs.Message(vs.Date(2,1))
 Availability: from All Versions
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

@@ -30,5 +30,4 @@ def vs.SetWSColumnWidth(worksheet, fromColumn, toColumn, width):
 Availability: from VectorWorks9.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

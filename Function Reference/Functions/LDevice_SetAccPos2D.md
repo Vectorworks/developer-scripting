@@ -30,5 +30,4 @@ def vs.LDevice_SetAccPos2D(handle, cellIndex, accessoryIndex, position, rotation
 Availability: from Vectorworks 2021
 
 ## Category
-* Spotlight
-
+* [Spotlight](../Categories/Spotlight.md)

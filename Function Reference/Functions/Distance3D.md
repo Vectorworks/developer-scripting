@@ -32,5 +32,4 @@ def vs.Distance3D(x1, y1, z1, x2, y2, z2):
 Availability: from Vectorworks 2014
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

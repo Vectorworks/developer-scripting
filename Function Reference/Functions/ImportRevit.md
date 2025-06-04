@@ -21,5 +21,4 @@ def vs.ImportRevit(fileName):
 Availability: from Vectorworks 2017
 
 ## Category
-* ImportExport
-
+* [ImportExport](../Categories/ImportExport.md)

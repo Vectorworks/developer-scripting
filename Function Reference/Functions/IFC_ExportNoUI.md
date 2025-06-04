@@ -21,5 +21,4 @@ def vs.IFC_ExportNoUI(strFullFilePath):
 Availability: from Vectorworks 2021
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

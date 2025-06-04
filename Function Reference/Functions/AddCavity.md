@@ -44,5 +44,4 @@ AddCavity is obsolete as of VectorWorks 12.0.
 Availability: from MiniCAD 4.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

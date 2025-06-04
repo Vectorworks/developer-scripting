@@ -97,5 +97,4 @@ Sample PY by TWK, koenr, and Pat Stanford 4-12-24
 Availability: from Vectorworks 2019
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

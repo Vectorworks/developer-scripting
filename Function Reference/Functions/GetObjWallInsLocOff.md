@@ -30,5 +30,4 @@ VS Functions:
 Availability: from Vectorworks 2022
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

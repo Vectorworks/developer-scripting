@@ -38,5 +38,4 @@ vs.Message( str( v ) ) # 3-dimensional tuple whose last item is always 0
 Availability: from All Versions
 
 ## Category
-* Math - Vectors
-
+* [Math - Vectors](../Categories/Math%20-%20Vectors.md)

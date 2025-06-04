@@ -24,5 +24,4 @@ Returns true if the the active document contains a default hatch.  vectorFillNam
 Availability: from MiniCAD7.0.1
 
 ## Category
-* Hatches @ Vector Fills
-
+* [Hatches @ Vector Fills](../Categories/Hatches%20-%20Vector%20Fills.md)

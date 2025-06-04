@@ -21,5 +21,4 @@ def vs.PDF_DestroyBlob(ioBlobPtr):
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

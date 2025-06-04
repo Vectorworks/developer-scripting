@@ -21,5 +21,4 @@ HideSelectedObjects();
 Availability: from Vectorworks 2025
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

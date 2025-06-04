@@ -25,5 +25,4 @@ Returns an indication of whether the class arrow style is used for the object re
 Availability: from VectorWorks8.0
 
 ## Category
-* Object Attributes
-
+* [Object Attributes](../Categories/Object%20Attributes.md)

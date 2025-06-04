@@ -76,5 +76,4 @@ SetView(45d,30d,30d,0,2,2);
 Availability: from All Versions
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

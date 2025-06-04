@@ -55,5 +55,4 @@ vs.Poly(0,0,1,1,1,-1)
 Availability: from All Versions
 
 ## Category
-* Objects - Polys
-
+* [Objects - Polys](../Categories/Objects%20-%20Polys.md)

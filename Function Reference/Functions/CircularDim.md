@@ -52,5 +52,4 @@ vs.CircularDim(-4 - 3/8,3,-4 - 3/8,1/4,-5 - 3/4,3,-3,1/4,1 + 1/8,1,3, 1025,1/4)
 Availability: from All Versions
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

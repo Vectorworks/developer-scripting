@@ -19,5 +19,4 @@ Gets the name of the current document default wall style
 Availability: from VectorWorks12.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

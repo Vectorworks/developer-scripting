@@ -24,5 +24,4 @@ def vs.IFC_DelRecFromObjMap(objectName, recordName):
 Availability: from Vectorworks 2023.4
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -34,5 +34,4 @@ def vs.IFC_DMAddField(inStrObjName, inStrEntryName, inStrFieldName, type, bOptio
 Available from: Vectorworks 2017
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

@@ -37,5 +37,4 @@ def vs.GetDisplayWith2DComp(objectHandle, component):
 Availability: from Vectorworks 2019
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

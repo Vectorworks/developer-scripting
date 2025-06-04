@@ -24,5 +24,4 @@ def vs.EA_DataAccGetStr(acc, valueIndex):
 Availability: from Vectorworks 2016
 
 ## Category
-* EnergyAnalysis Interface Library
-
+* [EnergyAnalysis Interface Library](../Categories/EnergyAnalysis%20Interface%20Library.md)

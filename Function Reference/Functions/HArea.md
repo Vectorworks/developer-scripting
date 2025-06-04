@@ -30,5 +30,4 @@ HArea is obsolete as of VectorWorks 12.5
 Availability: from All Versions
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

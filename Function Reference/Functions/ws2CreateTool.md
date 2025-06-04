@@ -37,5 +37,4 @@ SDK Parametric = 4
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

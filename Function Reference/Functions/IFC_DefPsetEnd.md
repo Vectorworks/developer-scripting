@@ -54,5 +54,4 @@ ok	= vs.IFC_DefPsetEnd( psetName )
 Availability: from Vectorworks 2016
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

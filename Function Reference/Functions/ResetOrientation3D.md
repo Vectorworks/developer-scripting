@@ -39,5 +39,4 @@ ResetOrientation3D;
 Availability: from MiniCAD 5.0.2
 
 ## Category
-* General Edit
-
+* [General Edit](../Categories/General%20Edit.md)

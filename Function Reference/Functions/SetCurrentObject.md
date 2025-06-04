@@ -21,5 +21,4 @@ def vs.SetCurrentObject(h):
 Availability: from MiniCAD4.0
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

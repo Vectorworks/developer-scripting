@@ -60,5 +60,4 @@ VS Functions:
 Availability: from Vectorworks 2019
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

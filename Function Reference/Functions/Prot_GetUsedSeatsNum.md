@@ -16,5 +16,4 @@ def vs.Prot_GetUsedSeatsNum():
 Availability: from Vectorworks 2015
 
 ## Category
-* Protection
-
+* [Protection](../Categories/Protection.md)

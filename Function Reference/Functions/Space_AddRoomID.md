@@ -24,5 +24,4 @@ def vs.Space_AddRoomID(space, roomID):
 Availability: from Vectorworks 2014
 
 ## Category
-* SpaceObjectCoreTools
-
+* [SpaceObjectCoreTools](../Categories/SpaceObjectCoreTools.md)

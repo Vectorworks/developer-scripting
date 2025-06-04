@@ -28,5 +28,4 @@ def vs.OLDAddLoadHangPoint(handle, loadIndex, point, hasLoad):
 Availability: from Vectorworks 2018
 
 ## Category
-* Truss Analysis
-
+* [Truss Analysis](../Categories/Truss%20Analysis.md)

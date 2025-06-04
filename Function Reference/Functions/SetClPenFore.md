@@ -38,5 +38,4 @@ SetClPenFore('Cold Water Supply',cRed,cGrn,cBlu);
 Availability: from VectorWorks8.0
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

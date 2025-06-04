@@ -24,5 +24,4 @@ def vs.AssociateLinearDimension(h, selectedObjectsMode):
 Availability: from VectorWorks12.5
 
 ## Category
-* Dimensions
-
+* [Dimensions](../Categories/Dimensions.md)

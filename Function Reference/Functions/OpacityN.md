@@ -21,5 +21,4 @@ def vs.OpacityN(fillOpacity, penOpacity):
 Availability: from Vectorworks 2017
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

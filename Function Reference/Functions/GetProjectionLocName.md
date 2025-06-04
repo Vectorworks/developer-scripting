@@ -24,5 +24,4 @@ def vs.GetProjectionLocName(hLayer):
 Availability: from Vectorworks 2014
 
 ## Category
-* GIS
-
+* [GIS](../Categories/GIS.md)

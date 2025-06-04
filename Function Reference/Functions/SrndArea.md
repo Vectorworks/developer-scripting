@@ -26,5 +26,4 @@ Given a point, returns the area of the smallest polygon bounded by the selected 
 Availability: from All Versions
 
 ## Category
-* Graphic Calculation
-
+* [Graphic Calculation](../Categories/Graphic%20Calculation.md)

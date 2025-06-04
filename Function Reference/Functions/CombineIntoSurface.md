@@ -24,5 +24,4 @@ def vs.CombineIntoSurface(pt):
 Availability: from VectorWorks 10.1
 
 ## Category
-* Objects - 2D
-
+* [Objects - 2D](../Categories/Objects%20-%202D.md)

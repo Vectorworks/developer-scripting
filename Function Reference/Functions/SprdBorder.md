@@ -44,5 +44,4 @@ SprdBorder is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellBorder| SetW
 Availability: from All Versions
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

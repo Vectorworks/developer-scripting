@@ -26,5 +26,4 @@ numOfClasses = vs.ClassNum()
 Availability: from All Versions
 
 ## Category
-* Classes
-
+* [Classes](../Categories/Classes.md)

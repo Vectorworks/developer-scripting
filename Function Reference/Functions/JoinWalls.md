@@ -34,5 +34,4 @@ def vs.JoinWalls(firstWall, secondWall, firstWall, secondWall, joinModifier, cap
 Availability: from VectorWorks10.0
 
 ## Category
-* Objects - Walls
-
+* [Objects - Walls](../Categories/Objects%20-%20Walls.md)

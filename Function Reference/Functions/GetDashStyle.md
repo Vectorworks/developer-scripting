@@ -57,5 +57,4 @@ vs.GetDashStyle(True, 1, 1)
 Availability: from MiniCAD 5.0
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

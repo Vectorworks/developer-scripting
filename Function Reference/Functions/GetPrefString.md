@@ -36,5 +36,4 @@ unitmark = vs.GetPrefString(154)
 Availability: from VectorWorks9.0
 
 ## Category
-* Document Settings
-
+* [Document Settings](../Categories/Document%20Settings.md)

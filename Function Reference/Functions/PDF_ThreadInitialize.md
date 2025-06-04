@@ -16,5 +16,4 @@ def vs.PDF_ThreadInitialize():
 Availability: from Vectorworks 2014
 
 ## Category
-* PDF
-
+* [PDF](../Categories/PDF.md)

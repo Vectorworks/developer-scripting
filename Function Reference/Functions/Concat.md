@@ -53,5 +53,4 @@ vs.AlrtDialog(vs.Concat('A', 'sample', 'string'))
 Availability: from All Versions
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

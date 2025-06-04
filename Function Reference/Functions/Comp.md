@@ -59,5 +59,4 @@ vs.Message(str(v3) + '\r' + str(v4))
 Availability: from All Versions
 
 ## Category
-* Math - Vectors
-
+* [Math - Vectors](../Categories/Math%20-%20Vectors.md)

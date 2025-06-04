@@ -33,5 +33,4 @@ There are two thumbnail sizes at the moment, 64x64 and 128x32.
 Availability: from Vectorworks 2013
 
 ## Category
-* Dialogs - Modern
-
+* [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

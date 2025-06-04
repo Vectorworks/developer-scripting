@@ -33,5 +33,4 @@ Objects created with this call won't allow you to set a profile group, even if t
 Availability: from Vectorworks 2014
 
 ## Category
-* Objects - Custom
-
+* [Objects - Custom](../Categories/Objects%20-%20Custom.md)

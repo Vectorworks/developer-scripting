@@ -58,5 +58,4 @@ MoveObjs(3,0,FALSE,FALSE);
 Availability: from All Versions
 
 ## Category
-* Object Editing
-
+* [Object Editing](../Categories/Object%20Editing.md)

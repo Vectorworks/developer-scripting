@@ -24,5 +24,4 @@ Valid objects are PIOs, Symbols and Loci
 Availability: from Vectorworks 2011
 
 ## Category
-* Criteria
-
+* [Criteria](../Categories/Criteria.md)

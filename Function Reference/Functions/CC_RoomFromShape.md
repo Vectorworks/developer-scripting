@@ -21,5 +21,4 @@ def vs.CC_RoomFromShape(hObj):
 Availability: from Vectorworks 2022.3
 
 ## Category
-* ConnectCAD
-
+* [ConnectCAD](../Categories/ConnectCAD.md)

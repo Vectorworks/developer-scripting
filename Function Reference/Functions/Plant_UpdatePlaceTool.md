@@ -21,5 +21,4 @@ def vs.Plant_UpdatePlaceTool(plantToUpdateWith):
 Availability: from Vectorworks 2014
 
 ## Category
-* PlantObjectCoreTools
-
+* [PlantObjectCoreTools](../Categories/PlantObjectCoreTools.md)

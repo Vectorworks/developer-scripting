@@ -24,5 +24,4 @@ def vs.ws2CommitChanges(restart, reload):
 Availability: from Vectorworks 2021
 
 ## Category
-* Workspaces
-
+* [Workspaces](../Categories/Workspaces.md)

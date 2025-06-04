@@ -55,5 +55,4 @@ def vs.GetTextStyle(TextHd, Position):
 Availability: from MiniCAD 6.0
 
 ## Category
-* Objects - Text
-
+* [Objects - Text](../Categories/Objects%20-%20Text.md)

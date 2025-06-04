@@ -34,5 +34,4 @@ def vs.GetWorkingPlaneMat(refID):
 Availability: from Vectorworks 2011
 
 ## Category
-* Utility
-
+* [Utility](../Categories/Utility.md)

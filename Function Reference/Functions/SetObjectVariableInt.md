@@ -38,5 +38,4 @@ SetObjectVariableInt(h,1,2);
 Availability: from VectorWorks9.0
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

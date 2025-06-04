@@ -25,5 +25,4 @@ VS Functions:
 Availability: from Vectorworks 2018
 
 ## Category
-* Strings
-
+* [Strings](../Categories/Strings.md)

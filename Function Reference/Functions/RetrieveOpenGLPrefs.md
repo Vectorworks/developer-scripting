@@ -29,5 +29,4 @@ No longer a valid function, needs updating. (MF - Nov 11, 2015)
 Availability: from Vectorworks 2014
 
 ## Category
-* View @ Zoom
-
+* [View @ Zoom](../Categories/View%20-%20Zoom.md)

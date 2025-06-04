@@ -35,5 +35,4 @@ ok = vs.IFC_SetIFCEntity(hObject, ‘IfcFurnishingElement’)
 Availability: from Vectorworks 2014
 
 ## Category
-* IFC
-
+* [IFC](../Categories/IFC.md)

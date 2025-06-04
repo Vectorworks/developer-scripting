@@ -24,5 +24,4 @@ def vs.ConsolidatePlanar(obj1, obj2):
 Availability: from Vectorworks 2011
 
 ## Category
-* Object Info
-
+* [Object Info](../Categories/Object%20Info.md)

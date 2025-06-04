@@ -28,5 +28,4 @@ currFillStyle = vs.FFillPat()
 Availability: from All Versions
 
 ## Category
-* Document Attributes
-
+* [Document Attributes](../Categories/Document%20Attributes.md)

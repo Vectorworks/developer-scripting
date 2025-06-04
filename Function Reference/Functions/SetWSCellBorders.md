@@ -124,5 +124,4 @@ VS Functions:
 Availability: from VectorWorks 12.0
 
 ## Category
-* Worksheets
-
+* [Worksheets](../Categories/Worksheets.md)

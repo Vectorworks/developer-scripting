@@ -62,5 +62,4 @@ def vs.GetLayerRenderMode(theLayer):
 Availability: from VectorWorks 10.0
 
 ## Category
-* Layers
-
+* [Layers](../Categories/Layers.md)
