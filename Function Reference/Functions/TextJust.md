@@ -3,7 +3,8 @@
 ## Description
 Procedure TextJust sets the active text justification for a VectorWorks document. 
 
-[[Image:textlocus.gif]]
+![Text Locus](files/Textlocus.gif)
+
 {| class="wikitable_c"
 |+ Table - Text Justification
 ! Justification !! Constant

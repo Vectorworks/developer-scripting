@@ -3,7 +3,7 @@
 ## Description
 Procedure SetTextJustN sets the text justification of the referenced text object without changing its location.
 
-[[Image:textlocus.gif| right]]
+![Text Locus](files/Textlocus.gif)
 
 {| class="wikitable_c"
 |+ Table - Text Justification

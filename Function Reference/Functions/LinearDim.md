@@ -5,7 +5,7 @@ Procedure LinearDim creates a linear dimension in a VectorWorks document.
 
 Bit code values for dimension flags can be found in the [[VS:Function Reference Appendix#LinearDim|VectorScript Appendix]].
 
-[[Image:lindim.gif|Linear Dimension]]
+![Linear Dimension](files/Lindim.gif)
 
 
 October 30, 2023 Pat Stanford

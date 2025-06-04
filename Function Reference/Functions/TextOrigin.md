@@ -5,7 +5,7 @@ Procedure TextOrigin is used to specify the origin point (location) of a newly c
 
 The position of the actual text with respect to the origin is determined by the current vertical and horizontal text justification modes.
 
-[[Image:textlocus.gif]]
+![Text Locus](files/Textlocus.gif)
 
 ```pascal
 PROCEDURE TextOrigin(pX,pY : REAL);

@@ -4,7 +4,7 @@
 Procedure SetTextJust sets the text justification of the referenced text object. 
 
 
-[[Image:textlocus.gif| left]]
+![Text Locus](files/Textlocus.gif)
 
 {| class="wikitable_c"
 |+ Table - Text Justification

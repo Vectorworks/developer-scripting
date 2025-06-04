@@ -6,10 +6,12 @@ Procedure BeginSweep creates a three-dimensional sweep object in the VectorWorks
 The sweep increment may also be thought of as the spacing between the duplication of radial sweep mesh lines. The &quot;pitch&quot;, or vertical distance, is the distance that the sweep object will travel for every 360 degrees of rotation.  In sweep objects, the 2D template object may also be translated as it rotates, resulting in a &quot;corkscrew&quot; effect. The vertical movement is determined by the following equation: vertical movement = pitch * ArcAngle/360.
 
 *2D Object "Template" for Sweep
-[[Image:sweep2d.gif]]
+![2D Object "Template" for Sweep](files/Sweep2d.gif)
 
 *Sweep Object
-[[Image:sweep3d.gif]]
+
+![Sweep Object](files/Sweep3d.gif)
+
 
 ```pascal
 PROCEDURE BeginSweep(

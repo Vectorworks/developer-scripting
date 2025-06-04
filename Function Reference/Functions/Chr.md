@@ -20,7 +20,7 @@ def vs.Chr(v):
 ## Remarks
 Here;s the ASCII table for the lower 128...
 
-[[Image:ascii_lower.gif]]
+![ASCII Table (lower 128)](files/Ascii_lower.gif)
 
 ## Examples
 #### VectorScript ####

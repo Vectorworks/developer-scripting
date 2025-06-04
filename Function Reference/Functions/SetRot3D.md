@@ -3,7 +3,7 @@
 ## Description
 Procedure SetRot3D sets the rotation (in degrees) of the referenced object to the specified rotations and center.  This procedure works on the following 3D objects: extrudes, multiple extrudes, and sweeps.
 
-[[Image:3drotate.gif]]
+![3D Rotate](files/3drotate.gif)
 
 The difference between Set3DRot and SetRot3D is that Set3DRot adds the specified rotation to the existing rotation of the object, whereas SetRot3D does not consider the existing rotation, and merely makes the object rotation match the specified values.
 

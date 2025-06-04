@@ -8,7 +8,7 @@ Bit code values for dimension flags can be found in the [[VS:Function Reference 
 
 *Angular Dimension
 
-[[Image:angdim.gif]]
+![Angular Dimension](files/Angdim.gif)
 
 ```pascal
 PROCEDURE AngularDim(

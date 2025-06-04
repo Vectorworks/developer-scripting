@@ -4,7 +4,7 @@
 Procedure SetTextVerticalAlign sets the vertical alignment of the referenced text object. 
 
 
-[[Image:textlocus.gif| left]]
+![Text Locus](files/Textlocus.gif)
 
 {| class="wikitable_c"
 ! Justification !! Constant

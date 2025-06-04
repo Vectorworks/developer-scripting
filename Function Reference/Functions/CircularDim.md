@@ -5,7 +5,7 @@ Procedure CircularDim creates a diameter or radial dimension in a VectorWorks do
 
 Bit code values for dimension flags can be found in the [[VS:Function Reference Appendix#LinearDim|VectorScript Appendix]].
 
-[[Image:circdim.gif|Circular Dimension]]
+![Circular Dimension](files/Circdim.gif)
 
 ```pascal
 PROCEDURE CircularDim(

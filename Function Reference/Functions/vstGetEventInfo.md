@@ -25,7 +25,7 @@ def vs.vstGetEventInfo():
 ## Remarks
 Note that this procedure won't give back any information unless the tool is event-enabled. There does not seem to be a GUI method for enabling this; instead you'll have to open up the .vst file in a hex editor and change byte offset 144 (0x90) to "08". See image. (Thanks, Conrad!).
 
-[[Image:RmTestTool.vst.jpg]]
+![RmTestTool.vst](files/RmTestTool.vst.jpg)
 
 ## Version
 Availability: from All Versions

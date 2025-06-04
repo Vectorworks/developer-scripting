@@ -26,7 +26,7 @@ Procedure TextVerticalAlign sets the active text vertical alignment of a VectorW
 | style="text-align:center"| 5
 |}
 
-[[Image:textlocus.gif]]
+![Text Locus](files/Textlocus.gif)
 
 ```pascal
 PROCEDURE TextVerticalAlign(verticalAlignment : INTEGER);

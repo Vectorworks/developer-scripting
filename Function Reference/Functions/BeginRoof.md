@@ -18,7 +18,7 @@ Procedure BeginRoof creates a simple roof object in a VectorWorks document.
 
 *3-D View of Roof
 
-[[Image:roof.gif]]
+![Roof](files/Roof.gif)
 
 ```pascal
 PROCEDURE BeginRoof(
