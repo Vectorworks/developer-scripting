@@ -29,13 +29,13 @@ def vs.DoubleTolerance(showVal, boxText, leader, trailer, topDistance, botDistan
 |botDistance|REAL|Tolerance value text string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LinearDim(-2",2",1",2",-3",0,771,771,0.75);
 DoubleTolerance(True,False,'est. ','',1/16",1/16");
 {defines a dimension with a double tolerance}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.LinearDim(-2,2,1,2,-3,0,771,771,0.75)
 vs.DoubleTolerance(True,False,'est. ','',1/16,1/16)

@@ -30,11 +30,11 @@ Please have a look at my [http://www.vectorlab.info/index.php?title=Absolute_Ori
 [[User:Orso.b.schmid| Orso]], 2010/09/12: Warning: From VW13 this function subtracts the layer Z to the passed z-value. So, for example, by a layer z of 10, if you pass z=1 the vertex will go to -9.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPolyPt3D(objectHandle,3,2.5&quot;,3&quot;,8&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

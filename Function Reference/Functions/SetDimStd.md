@@ -25,13 +25,13 @@ Changes the document's default dimension standard.  The whichStandard parameter 
 [sd 8/18/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetDimStd(2);
 
 {sets the dimension standard to ASME}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -42,7 +42,7 @@ BEGIN
 END;
 RUN(Example)
 ```
-==== Python ====
+#### Python ####
 ```python
 # (_c_ 2024.04.19):
 # create Autocad colors with their index as name. Upon importing them from DWG, the colors have a slight shift compared to the original RGB values

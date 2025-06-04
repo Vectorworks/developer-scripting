@@ -25,12 +25,12 @@ def vs.SprdBorder(top, left, bot, right):
 |right|BOOLEAN|Right border on-off setting.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SprdBorder(TRUE, FALSE, TRUE, FALSE);
 LoadCell(1, 1, 'This is a string');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

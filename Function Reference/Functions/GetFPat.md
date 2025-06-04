@@ -25,11 +25,11 @@ def vs.GetFPat(h):
 The negative values need to be converted to positive values for Index2Name to work.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FPatValue:=GetFPat(HandleToObj);
 ```
-==== Python ====
+#### Python ####
 ```python
 FPatValue = vs.GetFPat(HandleToObj)
 ```

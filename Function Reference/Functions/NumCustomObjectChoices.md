@@ -26,11 +26,11 @@ def vs.NumCustomObjectChoices(objectName, parameterName):
 Call from CustomObject scripts only.  Return number of choice strings for a particular popup menu or radio group parameter.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 maxChoices := NumCustomObjectChoices(objName, 'PDINNER_MENU');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

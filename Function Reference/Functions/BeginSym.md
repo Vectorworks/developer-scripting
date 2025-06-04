@@ -26,7 +26,7 @@ Note: normally SetOriginAbsolute(0,0) should be called before calling this. The 
 BeginSym deselects all objects on the active layer (VW 13, 83388). Be aware of your handles created after that.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginSym('Window');
 Rect(-5'-11",-1",-2'-0",-5'-11");
@@ -37,7 +37,7 @@ MoveTo(-5'-11",-3'-0");
 LineTo(-2'-0",-3'-0");
 EndSym;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginSym('WindowNew')
 vs.Rect(-5*12 -11,-1*12,-2*12,-5*12 -11)

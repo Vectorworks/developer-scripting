@@ -22,11 +22,11 @@ def vs.GetLS(h):
 [[User:CBM-c-|_c_]] 2016.02.29: This is deprecated and returns always -1 as of VW 2016.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 lStyleValue := GetLS(handleToObject);
 ```
-==== Python ====
+#### Python ####
 ```python
 lStyleValue = vs.GetLS(handleToObject)
 ```

@@ -23,11 +23,11 @@ def vs.Eval(h, c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 hasRecord:=Eval(handleToObject,(R IN ['Part Info']);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -18,14 +18,14 @@ def vs.CallToolByName(toolName):
 |toolName|STRING|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Message( CallToolByName( 'Spiral' ) );
 { activates Spiral tool, returns true if successful
 Note: Spiral is not an internal tool
 if you try it for example with 'Wall' this will return an error, since it's an internal tool }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Message( vs.CallToolByIndex( 'Spiral' ) ) 
 # activates Spiral tool, returns true if successful

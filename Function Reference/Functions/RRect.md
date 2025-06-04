@@ -25,7 +25,7 @@ def vs.RRect(p1, p2, Diam):
 |Diam|REAL|X and Y diameters of corner.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -34,7 +34,7 @@ RRect(0, 0, 1, 1, 0.25, 0.25);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

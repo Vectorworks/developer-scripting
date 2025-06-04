@@ -29,12 +29,12 @@ def vs.LimitTolerance(showVal, boxText, leader, trailer, lowDistance, hiDistance
 |hiDistance|REAL|Tolerance value text string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LinearDim(-2&quot;,2&quot;,1&quot;,2&quot;,-3&quot;,0,771,771,0.75);
 LimitTolerance(TRUE,FALSE,'','',-1&quot;,1&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

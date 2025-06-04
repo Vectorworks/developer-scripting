@@ -35,7 +35,7 @@ If a plug-in command (.vsm) uses global variables that are being used by various
 use DoMenuTextByName('Organization', 0); instead. This call will fail if the specified item is not present in the workspace.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE DoMenuTextByNameExample;
 BEGIN
@@ -44,7 +44,7 @@ DoMenuTextByName('Standard Views',8); {sets view to right isometric}
 END;
 RUN(DoMenuTextByNameExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 def DoMenuTextByNameExample():
 	vs.DoMenuTextByName('Print',0); #{calls the print dialog}

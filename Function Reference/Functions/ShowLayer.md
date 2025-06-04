@@ -13,12 +13,12 @@ def vs.ShowLayer():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Layer('Future Construction');
 ShowLayer;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

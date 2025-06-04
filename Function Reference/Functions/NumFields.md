@@ -18,11 +18,11 @@ def vs.NumFields(h):
 |h|HANDLE|Handle to record.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 totalFields:=NumFields(HandleToRecord);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

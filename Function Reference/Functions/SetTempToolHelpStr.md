@@ -22,7 +22,7 @@ def vs.SetTempToolHelpStr(helpString):
 |helpString|STRING|The help string for the next temp tool.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR h : HANDLE;
@@ -40,7 +40,7 @@ SetSelect( h );
 END;
 RUN( Test );
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

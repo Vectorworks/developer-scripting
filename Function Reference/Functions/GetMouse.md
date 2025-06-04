@@ -21,7 +21,7 @@ def vs.GetMouse():
 This function does not return accurate position of the mouse on the current 2D plane when in a 3D view.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
 WHILE NOT KeyDown(aCode) DO
@@ -32,7 +32,7 @@ END;
 END;
 {displays the cursor coordinates as it is moved around onscreen}
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	isKeyDown, alakiCode = vs.KeyDown()

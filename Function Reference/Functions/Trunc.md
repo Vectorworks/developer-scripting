@@ -36,13 +36,13 @@ AlrtDialog(Concat('Trunc: ', Trunc(num) )); { --> 2147483647 fully wrong }
  </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Trunc(235.04); { returns 235 }
 Trunc(235.94); { returns 235 }
 Trunc(0.94); { returns 0 }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

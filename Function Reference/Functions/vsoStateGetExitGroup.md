@@ -29,7 +29,7 @@ def vs.vsoStateGetExitGroup(hObj):
 |outGrpType|LONGINT|Output parameter. Return the group type.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -63,7 +63,7 @@ BEGIN
       END;
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

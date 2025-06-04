@@ -25,7 +25,7 @@ def vs.XMLSAXParseFile(XMLHandle, whichPath, filename, nodeCallback):
 |nodeCallback|PROCEDURE|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE XMLSaxTest_Read;
 CONST
@@ -109,7 +109,7 @@ BEGIN
 END;
 RUN(XMLSaxTest_Read);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

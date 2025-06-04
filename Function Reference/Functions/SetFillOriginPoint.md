@@ -25,11 +25,11 @@ def vs.SetFillOriginPoint(objectHandle, xOriginPoint, yOriginPoint):
 |yOriginPoint|REAL|Y coordinate of origin point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetFillOriginPoint(objectHandle, 10.0, 20.0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

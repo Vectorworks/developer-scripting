@@ -47,11 +47,11 @@ Julian Carr [25 April 2014]: I don't believe this works as described. If you cre
 it will only return a value if the selected extrude has the Texture popup set to Class Texture in the OIP. Otherwise it returns 0. It does not apply the class texture to the object
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 textureID := ResolveByClassTextureRef(handleToObject, 0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

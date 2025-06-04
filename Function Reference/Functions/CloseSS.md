@@ -21,11 +21,11 @@ def vs.CloseSS(h):
 OBSOLETE for Version 9: see new [[VS:ShowWS | ShowWS]]. [VML 01/09/01]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CloseSS(HandleToWS);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

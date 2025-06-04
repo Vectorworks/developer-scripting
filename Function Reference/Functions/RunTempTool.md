@@ -25,7 +25,7 @@ def vs.RunTempTool(initialScroll, toolCallback):
 Conrad 17 Oct 2014: If toolCallback returns 0 it exits on first click, if it returns 1 it keeps gathering clicks - useful...
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -55,7 +55,7 @@ BEGIN
 END;
 RUN( Test );
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

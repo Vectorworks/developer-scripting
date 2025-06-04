@@ -21,11 +21,11 @@ def vs.RemoveAllImagePopupItems(dialogID, componentID):
 |componentID|LONGINT|Index to a specific image popup component.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 RemoveAllImagePopupItems(dialogID, componentID);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

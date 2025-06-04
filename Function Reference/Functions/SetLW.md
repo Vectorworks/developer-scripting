@@ -24,7 +24,7 @@ def vs.SetLW(h, lw):
 If you pass in the handle to a group, the objects within the group do not pickup the lineweight attribute. Compare this to the SetPenFore() procedure in which the objects within the group do pickup the colour attribute.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetLW(ObjHd,12);
 ```
@@ -82,7 +82,7 @@ end;
 
 Run(LW_Change);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -33,7 +33,7 @@ def vs.SetMarkerValue(dialogID, itemID, style, angle, length, width, basis, thic
 |thickness|REAL|Marker Thickness|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -80,7 +80,7 @@ int := RunLayoutDialog(dialogID, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

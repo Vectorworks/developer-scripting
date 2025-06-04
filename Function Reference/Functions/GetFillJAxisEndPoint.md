@@ -25,11 +25,11 @@ def vs.GetFillJAxisEndPoint(objectHandle):
 |yJAxisEndPoint|REAL|Y coordinate of J-axis point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetFillJAxisEndPoint(objectHandle, xJAxis, yJAxis);
 ```
-==== Python ====
+#### Python ####
 ```python
 xIAxis, yIAxis = vs.GetFillJAxisEndPoint(vs.FSActLayer())
 ```

@@ -20,11 +20,11 @@ def vs.LeftBound(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LeftBValue:=LeftBound(N='MyRect');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

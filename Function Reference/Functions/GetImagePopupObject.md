@@ -31,11 +31,11 @@ This procedure returns the name of the resource found in an image pop-up control
 -This function will only return the name for resources in the current document.  It will return an empty string if the resource is not in the document.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 objectName := GetImagePopupObject(dialogID, componentID, 4);
 ```
-==== Python ====
+#### Python ####
 ```python
 objectName = vs.GetImagePopupObject(dialogID, componentID, 4)
 ```

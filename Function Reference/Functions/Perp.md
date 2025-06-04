@@ -23,7 +23,7 @@ def vs.Perp(Vec):
 ([[User:CBM-c-| _c_]], 2011.01.25) The z-value of the vector returned by Perp is always zero. If your source vector has z<>0 the resulting vector might not be what you expect, because of the source vector's angle.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -35,7 +35,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0) # 3-dimensional tuple. Perp accepts also a 2-dimensional tuple
 v2 = (3, 15, 0)

@@ -18,7 +18,7 @@ def vs.RemoveGeoref(hLayer):
 |hLayer|HANDLE|Pass NIL for Vectorscript and None for Python if you want to manage the document.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 var
@@ -33,7 +33,7 @@ else
 end;
 run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.RemoveGeoref(None)
 isGeoref	= vs.IsGeoreferenced(None)

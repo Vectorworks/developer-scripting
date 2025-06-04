@@ -36,7 +36,7 @@ All parameters are for output:
 Use [[VS:GetProjection|GetProjection]](ActLayer) == 6 and xyzAngleR == 0 to check if the view is Top/Plan
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -80,7 +80,7 @@ viewNameStr);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	xAngleR, yAngleR, zAngleR, offsetPt = vs.GetView()

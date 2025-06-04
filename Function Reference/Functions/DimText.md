@@ -16,12 +16,12 @@ def vs.DimText():
 Creates a linear dimension object from the last line object that was drawn using VectorScript.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LineTo(2,2);
 DimText;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.LineTo(2,2)
 vs.DimText()

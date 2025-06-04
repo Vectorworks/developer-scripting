@@ -33,7 +33,7 @@ Size is in page-inches. Legal values are 0.0 to 2.0.
 Angle is in degrees.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE ShowNoneClassArrowValues;
 VAR
@@ -46,7 +46,7 @@ Message(style, ' ', size, ' ', ang);
 END;
 RUN(ShowNoneClassArrowValues);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

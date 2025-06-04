@@ -23,7 +23,7 @@ def vs.AddAssociation(ioOwnerObj, inKind, ioTargetObj):
 |ioTargetObj|HANDLE|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
    {This script operates on any three parametric objects in the drawing.
@@ -55,7 +55,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 #   This script operates on any three parametric objects in the drawing.
 #     The objects must be named as required in GetObject Below.

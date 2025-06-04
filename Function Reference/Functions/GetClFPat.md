@@ -25,7 +25,7 @@ def vs.GetClFPat(className):
 Returns the fill pattern of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -33,7 +33,7 @@ Message(GetClFPat('Dimension'));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.Message(vs.GetClFPat('Dimension'));

@@ -21,11 +21,11 @@ def vs.GetClLW(className):
 Returns the line weight of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 pbLineWt:= GetClLW('Property Bounds');
 ```
-==== Python ====
+#### Python ####
 ```python
 pbLineWt = vs.GetClLW('Property Bounds')
 ```

@@ -21,12 +21,12 @@ def vs.DrwSize(rows, columns):
 |columns|INTEGER|Number of sheet columns comprising total document area.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 DrwSize(2,3);
 {sets the drawing size to 2 x 3 sheets}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.DrwSize(2,3)
 ```

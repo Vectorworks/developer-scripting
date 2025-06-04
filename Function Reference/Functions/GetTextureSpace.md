@@ -27,7 +27,7 @@ def vs.GetTextureSpace(obj, partID):
 Returns the texture space attached to this object, with the same part ID as partID.  Walls may have three texture spaces attached to them if they have expanded textures, for example.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example; 
 VAR
@@ -44,7 +44,7 @@ Writeln('W', ' : ', XAxis, ' : ', YAxis, ' : ', ZAxis);
 END; 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	hObj = vs.GetTextureSpace(vs.FSActLayer(), 0)

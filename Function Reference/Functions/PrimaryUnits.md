@@ -91,7 +91,7 @@ def vs.PrimaryUnits(style, prec, dimPrec, format, angPrec, showMark, dispFrac):
 See [[VS:GetPrimaryUnitInfo| GetPrimaryUnitInfo]] for details on changes in VW9 and again in VW12.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -111,7 +111,7 @@ AlrtDialog(outStr);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

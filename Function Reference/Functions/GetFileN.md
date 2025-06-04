@@ -46,7 +46,7 @@ fileChooser->SetDefaultExtension(mask);
 :Python mask example: '*.txt' if VW-Version < 2016 else 'txt'
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -65,7 +65,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 title = 'Select the object library file...'
 defaultFolder = ''

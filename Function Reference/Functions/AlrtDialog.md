@@ -21,11 +21,11 @@ def vs.AlrtDialog(message):
 If message is null, the dialog will not be displayed.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 AlrtDialog('No objects are selected for this operation.');
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.AlrtDialog('No objects are selected for this operation.')
 ```

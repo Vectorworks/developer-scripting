@@ -25,7 +25,7 @@ def vs.CreateCustomObjectN(objectName, p, rotationAngle, showPref):
 |showPref|BOOLEAN|Show the Object Properties dialog.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -35,7 +35,7 @@ h := CreateCustomObjectN('Door', 0, 0, 0, False);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	h = vs.CreateCustomObjectN('Door', 0, 0, 0, False)

@@ -26,7 +26,7 @@ This function is used when importing more than one IFC files simultaneously.
 Please note that a Symbol Folder in the Resource Manager is created and every file is imported as a separate symbol. If the main folder contains a hierarchy of folders with more IFC files, the hierarchy can be conveyed in the Symbol Folder by setting bKeepHierarchy boolean to TRUE.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE ImportLibrary;
 VAR
@@ -42,7 +42,7 @@ END;
 
 RUN(ImportLibrary);
 ```
-==== Python ====
+#### Python ####
 ```python
 # We suggest that the path to the library that contains the IFC files is "D:\Files\IFCLibrary"
 ok = vs.IFC_ImportLibrary( "D:\Files\IFCLibrary", True );

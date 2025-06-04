@@ -31,13 +31,13 @@ For objects which are defined by their box, such as rectangles &amp; ovals, this
 [Joel Sciamma 2007.05.11]: Use it to resize the supported objects by moving the vertices of the bounding box as you might change the dimensions of a selected object in the Object Info palette. If you specify values that would cause the top left vertex to be below or to the right of the bottom right vertex, the referenced object will be moved, not resized. Call ResetObject after this procedure to force the object to redraw
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { To reshape a rect whose top left coordinates are 23.5, 100 and bottom right are 92, 49: }
 SetBBox(ObjHandle, 28, 110, 80.5, 49);
 ResetObject(ObjHandle);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

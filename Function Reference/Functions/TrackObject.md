@@ -41,7 +41,7 @@ def vs.TrackObject(callback):
 [[User:CBM-c-|_c_]], (2011 Oct. 03): The user is always prompted to select a point, similar to using [[VS:GetPt| GetPt]], and this point seems to be the required criteria. So the description is a bit misleading, since you might believe that the routine takes care of the point all by itself, which doesn't happen.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -63,7 +63,7 @@ BEGIN
 END;
 RUN( Test );
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

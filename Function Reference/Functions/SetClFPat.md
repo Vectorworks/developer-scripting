@@ -28,11 +28,11 @@ def vs.SetClFPat(className, fillpattern):
 Assigns a fill pattern to the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetClFPat('Grassy Cover',42);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -23,7 +23,7 @@ def vs.SetTextWidth(theText, widthDistance):
 |widthDistance|REAL|Text wrapping margin setting for text.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 
@@ -37,7 +37,7 @@ ForEachObjectInLayer(IncreaseTextWidth, 2, 0, 4);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

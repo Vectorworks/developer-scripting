@@ -25,7 +25,7 @@ def vs.LinkText(h, rec, fld):
 |fld|STRING|Name of field that will be linked to text string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginSym('Symbol #2');
 Oval(-3/4&quot;,1/2&quot;,3/4&quot;,-1/2&quot;);
@@ -40,7 +40,7 @@ LinkText(LNewObj,'Sample Format','Field 1');
 EndSym;
 Record(LNewObj,'Sample Format');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

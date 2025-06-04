@@ -32,12 +32,12 @@ Gerard Jonker, 2007/1/8:  Please have a look at my [http://www.vectorlab.info/in
 [[User:CBM-c-|_c_]], 2010/09/12: Warning: From VW13 this function returns the z-value adding the layer Z. So, for example, by a layer z of 10, if you have a vertex whose z is 1, the routine will return 11.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FOR i := 0 to (GetVertNum(thePoly) - 1) DO
     GetPolyPt3D(thePoly, i, vertX, vertY, vertZ);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
     obj = vs.FSActLayer()

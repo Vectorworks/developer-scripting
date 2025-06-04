@@ -21,7 +21,7 @@ def vs.SetZVals(zDistance, deltaZDistance):
 |deltaZDistance|REAL|Layer thickness.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -34,7 +34,7 @@ SetZVals(baseElevation, thickness);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

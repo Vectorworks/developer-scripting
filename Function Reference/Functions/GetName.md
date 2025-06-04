@@ -28,11 +28,11 @@ This function is a little non-intuitive. If the namestring of object h is empty,
 If the name has been deleted it returns an empty string, so test for both (empty string or "none" string).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ObjectName := GetName(HandleToObject);
 ```
-==== Python ====
+#### Python ####
 ```python
 ObjectName = vs.GetName(vs.FSActLayer())
 ```

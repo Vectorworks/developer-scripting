@@ -20,11 +20,11 @@ def vs.TopBound(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TopBValue:=TopBound(N='MyRect');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

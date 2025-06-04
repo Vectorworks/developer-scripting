@@ -63,7 +63,7 @@ The default value parameter isn't worth much -- it plops the value into the edit
 Accepts '3 1/4' and '3000000' but not '3,000,000'.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -80,7 +80,7 @@ result := RunLayoutDialog(dialog1, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler( item , data ):
 	pass

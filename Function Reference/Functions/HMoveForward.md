@@ -24,7 +24,7 @@ def vs.HMoveForward(h, toFront):
 It is possible using HMoveForward and HMoveBackward to re-order layers. But use caution. Do not set the toFront argument to TRUE -- it will delete the layer. Also, Peter Vandewalle claims that the layer can get deleted even if toFront is FALSE, if you keep sending it backward. (I could not confirm this.)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -32,7 +32,7 @@ HMoveForward(FSActLayer, FALSE);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.HMoveForward(vs.FSActLayer(), False)

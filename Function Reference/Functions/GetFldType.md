@@ -111,11 +111,11 @@ PIO Records:
 |}
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 fieldType:=GetFldType(recordHandle,3);
 ```
-==== Python ====
+#### Python ####
 ```python
 fieldType = vs.GetFldType(recordHandle,3)
 ```

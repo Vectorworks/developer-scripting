@@ -120,7 +120,7 @@ def DoIt(h):
 
 vs.ForEachObjectInList(DoIt, 0, 0, vs.FSymDef);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -35,12 +35,12 @@ def vs.SetGradientSliderData(dialogID, componentID, segmentIndex, spotPosition, 
 |blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 segmentIndex := 4;
 SetGradientSliderData(dialogID, componentID, segmentIndex, 0.9, 0.5, 255, 255, 255);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -53,12 +53,12 @@ def vs.SprdFormat(numForm, acc, ldr, trailr):
 |trailr|STRING|String suffix for cell.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SprdFormat(2, 2, '$', '');
 LoadCell(1, 1, '=500 * 3.25');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

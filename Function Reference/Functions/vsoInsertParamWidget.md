@@ -36,14 +36,14 @@ text:  the widget label.
 data:  not implemented yet.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 If GetLocalizedPluginParameter('NewModelWindowMain','TopShape',temp_s) then
 Begin
    result := vsoInsertParamWidget(1,1,temp_s,eventData);
 end;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

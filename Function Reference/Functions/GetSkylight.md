@@ -36,12 +36,12 @@ perpOffset: Top/Plan distance from roof outline to center of skylight.
 symName: Skylight symbol to place in the roof.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetSkylight(roofHandle,skylightID,edgeID,cOff,pOff,symID);
 symbolName:=Index2Name(symID);
 ```
-==== Python ====
+#### Python ####
 ```python
 edgeID,cOff,pOff,symID = vs.GetSkylight(roofHandle,skylightID)
 ```

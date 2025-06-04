@@ -33,7 +33,7 @@ On Windows, if you specify a fully qualified path in defaultStr, PutFile will de
 [[User:CBM-c-|_c_]] (2007.08.05): PutFile fails if the file name "defaultStr" passed is longer than 31 chars (including eventual extension). The file creates but doesn't open for writing and has 0 kb. (tested only on Mac, valid for VW 12.5.+). This limit related to Mac Classic's Finder could be removed now.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE PutFileExample;
 VAR
@@ -48,7 +48,7 @@ END;
 END;
 RUN(PutFileExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

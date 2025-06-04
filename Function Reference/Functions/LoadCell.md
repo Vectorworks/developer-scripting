@@ -23,7 +23,7 @@ def vs.LoadCell(ro, col, entry):
 |entry|STRING|Worksheet entry value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SprdSheet(0, 0, 3, 3);
 LoadCell(1, 1, '= (14 + 2) * 3');
@@ -33,7 +33,7 @@ SprdSheet(0, 0, 3, 3);
 LoadCell(1, 1, 'Window Schedule');
 { inserts a literal into a cell }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

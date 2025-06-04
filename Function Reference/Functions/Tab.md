@@ -18,12 +18,12 @@ def vs.Tab(n):
 |n|INTEGER|Number of tab characters to be written to file.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Tab(2);
 {writes two tabs to the output file}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

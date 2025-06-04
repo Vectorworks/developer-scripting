@@ -26,7 +26,7 @@ If WSImage &lt;&gt; NIL then ResetObject(WSImage);
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE WSrecalc;
 { (c) Petri Sakkinen 2008, except the key part which is (c) Victor via VSFR }
@@ -53,7 +53,7 @@ BEGIN
 END;
 RUN(WSrecalc);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

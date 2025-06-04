@@ -26,7 +26,7 @@ def vs.EqPt(pt1, pt2, tolerance):
 ([[User:CBM-c-|_c_]], 2022.01.21) Tolerance must be <> 0. By a tolerance of 0 EqPt will always return false. In Python, contrary to most Pascal-derived vectorial routines, EqPt accepts also a bidimensional tuple without returning gibberish: the third item will always be ignored. So this is a 2D-only routine.
 
 ## Examples
-==== Vectorscript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -38,7 +38,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 999) # z vals in 3-dimensional tuples will be ignored
 v2 = (12, 1, 0)

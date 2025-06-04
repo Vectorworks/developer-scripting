@@ -20,7 +20,7 @@ def vs.WriteLnMac(z):
 |z|ANY|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 CONST
@@ -34,7 +34,7 @@ Close('Output.txt');
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

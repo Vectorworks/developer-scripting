@@ -18,11 +18,11 @@ def vs.PenSize(lw):
 |lw|INTEGER|Line weight (in mils). Fourteen (14) mils equals one pixel.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PenSize(28);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

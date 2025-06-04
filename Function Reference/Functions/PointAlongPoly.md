@@ -50,7 +50,7 @@ BEGIN
 END;
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Str2Num( inStr ):
     ok, num = vs.ValidNumStr( inStr )

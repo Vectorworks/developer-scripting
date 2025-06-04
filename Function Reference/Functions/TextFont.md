@@ -18,11 +18,11 @@ def vs.TextFont(fontID):
 |fontID|INTEGER|Font ID setting for document.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TextFont(GetFontID('Times'));
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

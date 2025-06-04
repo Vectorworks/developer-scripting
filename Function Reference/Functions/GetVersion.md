@@ -34,7 +34,7 @@ def vs.GetVersion():
 |platform|INTEGER|Returns platform of application.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR 
@@ -51,7 +51,7 @@ Message('VectorWorks ', appMajor, '.', appMinor, '.', appMaint, ' running on ', 
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	appMajor, appMinor, appMaint, platform = vs.GetVersion()

@@ -26,7 +26,7 @@ def vs.DBDocAddConn(dsn, userName, password):
 If a SQLite file does not exist at the specified location then a new database file will be created. { from Vectorworks 2014 }
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {ODBC connection needs DSN name}
 PROCEDURE ConnectionSample;
@@ -57,7 +57,7 @@ BEGIN
 END;
 RUN( SQLiteConnTest );
 ```
-==== Python ====
+#### Python ####
 ```python
 #{ SQLite connection is available from VW 2014 }
 #{ SQLite connection needs [sqlite] prefix and full path to the database file }

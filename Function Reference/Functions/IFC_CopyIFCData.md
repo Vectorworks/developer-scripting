@@ -25,7 +25,7 @@ def vs.IFC_CopyIFCData(hSource, hDestination, inMode):
 ## Examples
 Assume we want to copy IFC data from a Space object to a Table object.
 
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE CopyIFCData;
 VAR
@@ -43,7 +43,7 @@ END;
 
 RUN(CopyIFCData);
 ```
-==== Python ====
+#### Python ####
 ```python
 hSource = vs.GetObject("Dining Room"); #Space Object
 hDestination = vs.GetObject("Dining Table"); #Table Object

@@ -28,13 +28,13 @@ def vs.SetTextFont(objectHd, Start, Count, FontNum):
 Note that "Start" is zero-based.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetTextFont(handleToText,0,5,GetFontID('Helvetica'));
 
 {sets the first five characters of the referenced text string to Helvetica}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

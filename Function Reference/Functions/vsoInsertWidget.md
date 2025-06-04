@@ -70,7 +70,7 @@ result := SetObjPropVS(kObjXPropHasUIOverride, TRUE);
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 kOnInitPropertiesEventID: 
 BEGIN
@@ -82,7 +82,7 @@ BEGIN
    resultStatus := vsoInsertWidget(5,kWidgetButton, 5,'Update Text', 0);
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

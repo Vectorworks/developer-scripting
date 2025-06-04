@@ -24,7 +24,7 @@ Creates a polyline from inSourceObject. inSourceObject is unchanged.
 This routine does not delete inSourceObject; also it creates its returned object not as the last object in the active layer, but immediately after inSourceObject in the stacking order, so if you delete inSourceObject, you will have "replaced" it.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -36,7 +36,7 @@ DelObject(h);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

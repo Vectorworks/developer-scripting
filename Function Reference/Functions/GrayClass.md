@@ -21,11 +21,11 @@ def vs.GrayClass(className):
 [sd 8/18/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GrayClass('Phase 2 Construction');
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.GrayClass('Phase 2 Construction')
 ```

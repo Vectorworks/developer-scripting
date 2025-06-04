@@ -14,12 +14,12 @@ def vs.LckObjs():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SelectObj((C='Structure To Remain'));
 LckObjs;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

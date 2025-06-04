@@ -23,7 +23,7 @@ def vs.SetArc(h, startAngle, arcAngle):
 |arcAngle|REAL|New sweep angle of arc.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetArcSetArcExample;
 VAR
@@ -36,7 +36,7 @@ SetArc(h, startAng, sweepAng + 10);
 END;
 RUN(GetArcSetArcExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

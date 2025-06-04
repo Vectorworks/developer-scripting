@@ -32,7 +32,7 @@ Note: tested on MacOs X.4.11 and Windows XP Pro, launching both routines from a 
 According to my tests, AutoKey under Windows will set the system to wait for user interaction, but at the same time makes the system blind to the user's interaction.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 WHILE NOT AutoKey(keyHit) DO
 BEGIN
@@ -41,7 +41,7 @@ SysBeep;
 END;
 Message('The key pressed was ',keyHit);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

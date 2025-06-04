@@ -26,7 +26,7 @@ def vs.IFC_DefPsetAddMember(psetName, propName, propType):
 The possible values for the member type are 'IfcReal', 'IfcInteger', 'IfcText', 'IfcBoolean'.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE PsetAddMember;
 VAR
@@ -38,7 +38,7 @@ END;
 
 RUN(PsetAddMember);
 ```
-==== Python ====
+#### Python ####
 ```python
 # We suggest that 'Chair Details' is a Custom Pset and we want to add 'Height' member with type 'IfcReal'
 ok = vs.IFC_DefPsetAddMember( 'Chair Details', 'Height', 'IfcReal');

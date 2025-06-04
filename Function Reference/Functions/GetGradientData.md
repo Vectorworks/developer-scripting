@@ -31,7 +31,7 @@ def vs.GetGradientData(gradient, segmentIndex):
 |blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -50,7 +50,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	gradient = vs.GetObject('Cyan-Magenta-Yellow')

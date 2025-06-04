@@ -34,7 +34,7 @@ Charles Chandler [2007.03.10]: This call needs some more work. It sometimes fail
 [[User:Orso.B.Schmid|orso]] [2010.09.04]: WARNING: This routine can cause crash if used in plug-in objects. Upon copying and pasting in a new document a PIO instance that uses this routine, the application will crash. (Tested VW13-15).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -67,7 +67,7 @@ IF listHds <> NIL THEN BEGIN
 END;
 { .... }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -21,7 +21,7 @@ def vs.SetText(objectHd, text):
 |text|DYNARRAY[] of CHAR|New text string value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetText(hText,'A new text string value');
 ```
@@ -51,7 +51,7 @@ ClrMessage;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

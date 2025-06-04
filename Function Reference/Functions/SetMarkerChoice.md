@@ -38,7 +38,7 @@ OBSOLETE procedure for VW2008, use SetMarkerValue instead.
 Set current choice for Marker popup dialog control.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE dialog1_Main;
 VAR
@@ -74,7 +74,7 @@ int := RunLayoutDialog(dialog1, dialog1_Handler);
 END;
 RUN(dialog1_Main);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

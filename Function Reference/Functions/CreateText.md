@@ -31,7 +31,7 @@ PopAttrs;
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -52,7 +52,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	txt = []

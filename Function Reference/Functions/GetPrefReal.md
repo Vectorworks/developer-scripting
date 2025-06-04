@@ -23,11 +23,11 @@ def vs.GetPrefReal(prefIndex):
 Returns the status of the specified preference item.  Used for preferences that return a real instead of a Boolean (see GetPref)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 upi:= GetPrefReal(152);
 ```
-==== Python ====
+#### Python ####
 ```python
 upi = vs.GetPrefReal(152)
 ```

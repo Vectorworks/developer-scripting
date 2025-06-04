@@ -23,7 +23,7 @@ def vs.IFC_ClearPset(hObject, inStrPsetName):
 ## Examples
 Assume we want to clear a "PSet_WallCommon" from Object which has already attached Ifc Record with that Property Set:
 
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -36,7 +36,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject = vs.FSActLayer()
 ok = vs.IFC_ClearPset(hObject, 'PSet_WallCommon')

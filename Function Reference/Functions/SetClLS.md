@@ -24,11 +24,11 @@ def vs.SetClLS(className, LS):
 Assigns the specified line style to the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetClLS('Property Parcels',-4);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -34,11 +34,11 @@ def vs.NurbsKnot(objectHd, index1, index2):
 this function will work for both nurbs curves and nurbs surfaces
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 See NurbsSurfaceEvalPt
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -49,7 +49,7 @@ topSlope: Angle of the dormer roof.
 controlPoint: The distance from the side to where the curve starts.  Must be less than (bottomWidth - topWidth) / 2.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 roofHandle := CreateRoof(TRUE,5 1/2&quot;,5 1/2&quot;,4,9.52627&quot;);
 AppendRoofEdge(roofHandle,-77'10&quot;,-25'3.18078&quot;,#45&quot;,2'0&quot;,10'0&quot;);
@@ -61,7 +61,7 @@ SetBatAttributes(roofHandle,batID,TRUE,5'0&quot;,10'0&quot;,4'0&quot;,6'3&quot;,
 SetDormerAttributes(roofHandle,batID,3,18'4&quot;,TRUE,3'0&quot;,63,FALSE,3'0&quot;);
 SetDormerThick(roofHandle, 2&quot;,1.83333&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

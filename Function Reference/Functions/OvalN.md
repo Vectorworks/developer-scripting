@@ -25,7 +25,7 @@ def vs.OvalN(orgin, direction, width, height):
 |height|REAL|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -33,7 +33,7 @@ OvalN(0, 0, 1, 0, 1, 1);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

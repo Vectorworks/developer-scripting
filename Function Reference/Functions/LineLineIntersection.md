@@ -31,7 +31,7 @@ def vs.LineLineIntersection(l1start, l1end, l2start, l2end):
 |sectpt|POINT|On return, point of intersection of the lines, if the lines intersect|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -50,7 +50,7 @@ Locus(pt5.x, pt5.y);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

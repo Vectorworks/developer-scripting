@@ -25,11 +25,11 @@ def vs.GetFillIAxisEndPoint(objectHandle):
 |yIAxisEndPoint|REAL|Y coordinate of I-axis point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetFillIAxisEndPoint(objectHandle, xIAxis, yIAxis);
 ```
-==== Python ====
+#### Python ####
 ```python
 xIAxis, yIAxis = vs.GetFillIAxisEndPoint(vs.FSActLayer())
 ```

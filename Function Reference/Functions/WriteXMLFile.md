@@ -55,7 +55,7 @@ No Child Or Sibling Nodes = -24;
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE WriteXML;
 {Writes data to an XML file.}
@@ -115,7 +115,7 @@ BEGIN
 END;
 Run(WriteXML);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

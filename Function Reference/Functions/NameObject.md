@@ -18,7 +18,7 @@ def vs.NameObject(objName):
 |objName|STRING|Name to be assigned to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 NameObject('Part 5257');
 Rect(0,2,2,0);
@@ -30,7 +30,7 @@ Rect(0,2,2,0);
 EndGroup;
 SetName(LNewObj, 'Part 5257');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

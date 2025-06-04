@@ -23,11 +23,11 @@ def vs.SetImagePopupSelectedItem(dialogID, componentID, itemIndex):
 |itemIndex|INTEGER|Index to item to select.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetImagePopupSelectedItem(dialogID, componentID, 4);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

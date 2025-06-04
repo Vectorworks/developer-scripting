@@ -25,11 +25,11 @@ Returns the status of the specified preference item.  Used for preferences that 
 The status of the requested preference. If the preference is a checkbox, then GetPrefLongInt returns TRUE or false. If it is a radio group or editable text item, then GetPrefLongInt returns an integer value representing that setting.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 convertRes2D:= GetPrefLongInt(55);
 ```
-==== Python ====
+#### Python ####
 ```python
 convertRes2D = vs.GetPrefLongInt(55)
 ```

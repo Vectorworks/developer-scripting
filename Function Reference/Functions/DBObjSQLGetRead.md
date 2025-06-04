@@ -21,7 +21,7 @@ def vs.DBObjSQLGetRead(hRecord):
 |SQLSentence|DYNARRAY[] of CHAR|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -64,7 +64,7 @@ BEGIN
 END;
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 import vs
 

@@ -22,7 +22,7 @@ Returns an indication of whether the class line weight is used for the object re
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -49,7 +49,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

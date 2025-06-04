@@ -34,7 +34,7 @@ def vs.GetTypeN(h):
 </linelist>
 
 ## Examples
-==== Python ====
+#### Python ####
 ```python
 _hObject=vs.LSActLayer()#get handle of last selected object
 

@@ -22,11 +22,11 @@ def vs.IFC_SetIFCEntity(hObject, inStrIfcName):
 
 ## Examples
 Assume we have an object, which we want to be exported as furniture:
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 IFC_SetIFCEntity(hObject, ‘IfcFurnishingElement’);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_SetIFCEntity(hObject, ‘IfcFurnishingElement’)
 ```

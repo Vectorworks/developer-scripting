@@ -18,7 +18,7 @@ def vs.NextDObj(h):
 |h|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 handleToObject:=FObject;
 WHILE handleToObject &lt;&gt; NIL DO BEGIN
@@ -27,7 +27,7 @@ handleToObject:=NextDObj(handleToObject);
 END;
 { selects all deselected objects }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

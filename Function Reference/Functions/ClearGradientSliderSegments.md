@@ -23,11 +23,11 @@ def vs.ClearGradientSliderSegments(dialogID, componentID):
 |componentID|LONGINT|Index to a specific gradient slider component.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ClearGradientSliderSegments(dialogID, componentID);
 ```
-==== Python ====
+#### Python ####
 ```python
 vsClearGradientSliderSegments(dialogID, componentID)
 ```

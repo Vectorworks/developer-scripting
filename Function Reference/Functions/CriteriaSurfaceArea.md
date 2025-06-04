@@ -25,11 +25,11 @@ def vs.CriteriaSurfaceArea(c):
 This function returns the surface area of the items matching the current criteria.  It will return 0 for any objects that will not work with the solids modeling functions.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 totalArea:=CriteriaSurfaceArea((C='Empty Space'));
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -20,13 +20,13 @@ def vs.Line(line):
 |line|REAL|Offset values for line.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Line(2,2);
 { draws a line from the current pen location to a point }
 { 2 horizontal and 2 vertical units away.               }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -18,7 +18,7 @@ def vs.IFC_ImportNoUI(strFilePath):
 |strFilePath|STRING|File path.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 
@@ -28,7 +28,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.IFC_ImportNoUI('D:\Import\Test.ifc')
 ```

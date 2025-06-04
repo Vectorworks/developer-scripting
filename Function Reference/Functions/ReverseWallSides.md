@@ -18,7 +18,7 @@ def vs.ReverseWallSides(theWall):
 |theWall|HANDLE|Handle to the wall to operate on.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE ReverseWallSidesExample;
 VAR
@@ -37,7 +37,7 @@ ReverseWallSides(h);
 END;
 RUN(ReverseWallSidesExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

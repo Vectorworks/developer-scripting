@@ -27,11 +27,11 @@ def vs.PtDialog(request, defaultX, defaultY):
 |y|REAL|Returns user input Y value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PtDialog('Enter a coordinate.','0','0',cX,cY);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

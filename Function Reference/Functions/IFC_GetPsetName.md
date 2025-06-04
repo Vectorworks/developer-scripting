@@ -23,7 +23,7 @@ def vs.IFC_GetPsetName(hObject, inPsetIndex):
 |outStrPsetName|STRING|Name of the pset|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -38,7 +38,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject = vs.FSActLayer()
 ok, outStrPsetName = vs. IFC_GetPsetName(hObject, 1)

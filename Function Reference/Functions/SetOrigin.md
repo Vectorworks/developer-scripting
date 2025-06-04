@@ -28,14 +28,14 @@ The difference between this and [[VS:SetOriginAbsolute]] is that this call <i>sh
 See the &lt;a href=http://www.vectorlab.info/index.php?title=Absolute_Origin&gt;VectorLab article&lt;/a&gt; on origins by Gerard Jonker.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Rect(0,0,1,1);
 SetOrigin(1,1);
 
 { Creates a rectangle with the bottom left point at coordinates (0,0), then moves the origin so that the top right point of the rectangle has coordinates (0,0). }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

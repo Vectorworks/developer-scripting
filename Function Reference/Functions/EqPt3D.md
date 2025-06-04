@@ -28,7 +28,7 @@ def vs.EqPt3D(pt1, pt2, tolerance):
 * Python and Pascal: Don't pass 0 to the tolerance, or the routine will always return false.
 
 ## Examples
-==== Vectorscript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -43,7 +43,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 999) # also accepts bidimensional tuples
 v2 = (12, 1, 999)

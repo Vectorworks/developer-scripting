@@ -25,14 +25,14 @@ def vs.SetFillBack(h, color):
 ; Warning: SetFillBack, SetFillFore will remove the "ByClass" attribute of the PEN as well. Remember to parse for it and restore it.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { Sets the Fill Background to black }
 SetFillBack(h, 0, 0, 0); { using rgb values }
 SetFillBack(h, 255); { using color index, be careful with color indexes after VW12 }
 { Conversely, GetFillBack will only return RGB values. }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.SetFillBack( h, (0, 0, 0) ) # using rgb values in a tuple
 vs.SetFillBack( h, (65535, 0, 0) ) # red color - note that the values are 32-bit

@@ -21,7 +21,7 @@ def vs.GetClLS(className):
 Returns the line style of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -29,8 +29,8 @@ Message(GetClLS('Property Bounds'));
 END;
 RUN(Example);
 ```
-==== Python ====
-==== Python ====
+#### Python ####
+#### Python ####
 ```python
 def	Example():
 	vs.Message(vs.GetClLS('Property Bounds'))

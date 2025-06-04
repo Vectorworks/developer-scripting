@@ -24,11 +24,11 @@ def vs.SetClUseGraphic(className, use):
 Sets whether the class graphic attributes are used at object creation.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetClUseGraphic('Forested Cover',TRUE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

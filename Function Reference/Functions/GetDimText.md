@@ -18,11 +18,11 @@ def vs.GetDimText(h):
 |h|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 DimValue:=GetDimText(HandleToObj);
 ```
-==== Python ====
+#### Python ####
 ```python
 DimValue =vs.GetDimText(HandleToObj)
 ```

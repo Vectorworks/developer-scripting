@@ -30,7 +30,7 @@ def vs.CreateEditInteger(dialogID, itemID, defaultValue, widthInCharacters):
 Edits long ints, does math,  get and set values with get and set integer calls
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -47,7 +47,7 @@ result := RunLayoutDialog(dialog1, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler( item , data):
 	pass

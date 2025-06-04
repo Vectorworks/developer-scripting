@@ -24,7 +24,7 @@ def vs.GetDrawingSizeRect():
 ([[User:CBM-c-|_c_]], 2014.08.19): The returned coordinates are (current units, page) the top-left, bottom-right coordinates of the printable page in the active layer. These coordinates can vary if the active layer is sheet or design layer. The newer routine [[VS:SetDrawingRectN]] allows to pass a handle to a layer.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -35,7 +35,7 @@ Message(p1X, ' ', p1Y, ' ', p2X, ' ', p2Y);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	p1, p2 = vs.GetDrawingSizeRect()

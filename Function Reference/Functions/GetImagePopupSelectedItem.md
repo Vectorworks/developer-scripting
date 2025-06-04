@@ -28,11 +28,11 @@ ComponentID is the dialog Item index of the control
 This function is currently returning item indexes assuming a 1-based index whereas GetImagePopupObject() assumes a zero based index.  This will hopefully be fixed for release so that all layout mgr dialog controls use a zero based indexing system for lists of items.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 selectedItemIndex := GetImagePopupSelectedItem(dialogID, componentID);
 ```
-==== Python ====
+#### Python ####
 ```python
 selectedItemIndex = vs.GetImagePopupSelectedItem(dialogID, componentID)
 ```

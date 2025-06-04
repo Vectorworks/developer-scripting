@@ -26,7 +26,7 @@ def vs.GetLocPt(h):
 Remember to add a third item (0, 0, 0) for usage in the Vector Routines such as [[VS:Vec2Ang]] or they will return gibberish.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```python
 PROCEDURE TEST;
 VAR
@@ -39,7 +39,7 @@ BEGIN
 END;
 Run(TEST);
 ```
-==== Python ====
+#### Python ####
 ```python
 locObj = vs.FSActLayer()
 

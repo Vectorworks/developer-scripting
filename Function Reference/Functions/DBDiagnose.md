@@ -15,7 +15,7 @@ def vs.DBDiagnose():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -26,7 +26,7 @@ END;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 import vs
 def Test():

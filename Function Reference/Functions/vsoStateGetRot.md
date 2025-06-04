@@ -25,7 +25,7 @@ def vs.vsoStateGetRot(hObj):
 |outIs3D|BOOLEAN|Output parameter. Was a 3D operation.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -55,7 +55,7 @@ BEGIN
       END;
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

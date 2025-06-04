@@ -23,14 +23,14 @@ def vs.PenFore(color):
 When using this command, you should check for the black background preference setting if you're trying to draw black lines.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PenFore(65535, 0, 39321); { using RGB values }
 
 colorIndex := RGBToColorIndex(65535, 0, 39321);
 PenFore(colorIndex); { using Color Index values }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.PenFore((65535, 0, 39321)) # using RGB values
 

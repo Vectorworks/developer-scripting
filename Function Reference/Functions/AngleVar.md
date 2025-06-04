@@ -13,7 +13,7 @@ def vs.AngleVar():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 procedure test;
 var
@@ -29,7 +29,7 @@ LineTo(3&quot;, #S);
 end;
 run(test);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

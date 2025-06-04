@@ -25,11 +25,11 @@ def vs.SetObjectVariableInt(h, index, value):
 |value|INTEGER|New value for property.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetObjectVariableInt(h,1,2);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -34,7 +34,7 @@ The text parameter is the label of the parameter to be displayed on the OIP.
 The data parameter is currently not in use.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 kOnInitPropertiesEventID: 
 BEGIN
@@ -55,7 +55,7 @@ Begin
    result := vsoAppendParamWidget(1,temp_s,eventData);
 end;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

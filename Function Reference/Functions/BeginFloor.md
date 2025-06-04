@@ -20,13 +20,13 @@ def vs.BeginFloor(thicknessDistance):
 |thicknessDistance|REAL|Floor thickness.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginFloor(6&quot;);
 Rect(1,1,5,5);
 EndGroup;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginFloor(6)
 vs.Rect(1,1,5,5)

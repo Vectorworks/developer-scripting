@@ -18,13 +18,13 @@ def vs.TextRotate(Rotation):
 |Rotation|REAL|Rotation angle, in degrees, for text.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TextRotate(45);
 TextOrigin(0&quot;,0&quot;);
 CreateText('Rotated string');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -20,7 +20,7 @@ def vs.GetPref(prefIndex):
 |prefIndex|INTEGER|Preference item constant.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SelHandleStatus:=GetPref(17);
 ```
@@ -28,7 +28,7 @@ Example for a shortcut to toggle preference true/false:
 ```pascal
 SetPref(49,not GetPref(49));
 ```
-==== Python ====
+#### Python ####
 ```python
 SelHandleStatus = vs.GetPref(17)
 ```

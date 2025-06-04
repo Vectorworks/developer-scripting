@@ -41,7 +41,7 @@ def vs.AlertQuestionDontShowAgain(question, advice, defaultButton, OKOverrideTex
 Created by TTF 1/9/2009
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -57,7 +57,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	arrayText = (   'DontShowDialogAgainCategory',

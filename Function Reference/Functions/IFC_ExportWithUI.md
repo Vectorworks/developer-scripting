@@ -18,7 +18,7 @@ def vs.IFC_ExportWithUI(bExpSingleObj):
 |bExpSingleObj|BOOLEAN|Set to False.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -29,7 +29,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_ExportWithUI(FALSE)
 ```

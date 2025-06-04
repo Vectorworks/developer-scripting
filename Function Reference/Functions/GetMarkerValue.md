@@ -33,7 +33,7 @@ def vs.GetMarkerValue(dialogID, itemID):
 |thickness|REAL|On return, indicates the thickness of the selected marker.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -80,7 +80,7 @@ int := RunLayoutDialog(dialogID, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler( item , data ):
 	if item == SetupDialogC:

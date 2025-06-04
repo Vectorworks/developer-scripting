@@ -26,7 +26,7 @@ def vs.GetArc(h):
 On round walls, this call won't detect if the wall is reversed or not (should return the inverse of the angle, if the wall is reversed).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetArcSetArcExample;
 VAR
@@ -39,7 +39,7 @@ SetArc(h, startAng, sweepAng + 10);
 END;
 RUN(GetArcSetArcExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 def GetArcSetArcExample():
 	h = vs.FSActLayer()

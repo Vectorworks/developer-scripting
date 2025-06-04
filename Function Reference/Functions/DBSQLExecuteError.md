@@ -38,7 +38,7 @@ Example of ODBC error reported by Vectorwroks and occured in FileMaker driver:
 '''NB! However, there is no guarantee that all drivers return them.'''
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -57,7 +57,7 @@ end;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 import vs
 ok = vs.DBDocAddConn( 'MyTestODBCDatabase', '', '' )

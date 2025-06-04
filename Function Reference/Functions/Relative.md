@@ -15,13 +15,13 @@ def vs.Relative():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Relative;
 ClosePoly;
 Poly(0,0,1,1,1,2,2,2,2,0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

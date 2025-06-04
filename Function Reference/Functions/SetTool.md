@@ -20,11 +20,11 @@ def vs.SetTool(theTool):
 |theTool|INTEGER|VectorWorks tool constant.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetTool(-203);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.SetTool(-241)
 ```

@@ -23,11 +23,11 @@ def vs.GetObjectVariableLongInt(h, index):
 |index|INTEGER|Object property index.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 p:= GetObjectVariableLongInt(h,579);
 ```
-==== Python ====
+#### Python ####
 ```python
 p = vs.GetObjectVariableLongInt(h,579)
 ```

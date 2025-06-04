@@ -18,11 +18,11 @@ def vs.CallToolByIndex(toolIndex):
 |toolIndex|INTEGER|   |
 
 ## Examples
-==== Vectorscript ====
+#### VectorScript ####
 ```pascal
 Message( CallToolByIndex( -221 ) ) { activate locus tool, returns true if successful }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Message( vs.CallToolByIndex( -221 ) ) # activate locus tool, returns true if successful
 ```

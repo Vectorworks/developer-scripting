@@ -28,7 +28,7 @@ def vs.CreateEditText(dialogID, itemID, defaultText, widthInCharacters):
 In the handler for the new Layout manager, tabbing into and out of an edit field does not produce an event as it did in the classic dialog handler.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -45,7 +45,7 @@ result := RunLayoutDialog(dialog1, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler( item , data ):
 	pass

@@ -41,12 +41,12 @@ updatePalette - input - specifies whether or not to update the worksheet palette
 lockHeight  - input - specifies whether or not to lock the height for the specified rows. If 'true' the height will be locked and the row will not automatically be resized when text is entered in a cell.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Sets and locks the height of all rows from row 3 to row 9 to 22 pixels and update the changes in the worksheet palette }
 SetWSRowHeight(sheet,3,9,22,TRUE,TRUE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

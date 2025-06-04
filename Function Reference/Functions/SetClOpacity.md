@@ -21,12 +21,12 @@ def vs.SetClOpacity(className, opacity):
 |opacity|INTEGER|Opacity specified by percentage value in range [0-100].|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ColorIndexToRGB(214,cRed,cGrn,cBlu);
 SetClOpacity('Cold Water Supply',cRed,cGrn,cBlu);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -21,11 +21,11 @@ def vs.GetNumImagePopupItems(dialogID, componentID):
 |componentID|LONGINT|Index to a specific image popup component.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 numImagePopupItems := GetNumImagePopupItems(dialogID, componentID);
 ```
-==== Python ====
+#### Python ####
 ```python
 numImagePopupItems = vs.GetNumImagePopupItems(dialogID, componentID)
 ```

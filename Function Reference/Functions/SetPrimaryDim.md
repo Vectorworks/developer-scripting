@@ -34,11 +34,11 @@ Sets dimension values that are specific to the primary portion of a dual dimensi
 [sd 8/18/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPrimaryDim(dimHd,TRUE,FALSE,'Approx.','',64);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -33,7 +33,7 @@ See graphical representation below (click on the image to enlarge it):
 [MaKro 11/2021] Did not dig deeper, but looks like beg and end can be interpreted as: vs.RelativeCoords(p, p_origin, x_axis)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```python
 PROCEDURE Example;
 VAR
@@ -58,7 +58,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

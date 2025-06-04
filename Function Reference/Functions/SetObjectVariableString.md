@@ -25,11 +25,11 @@ def vs.SetObjectVariableString(h, index, value):
 |value|STRING|New value for property.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPref(17,FALSE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

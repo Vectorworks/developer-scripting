@@ -21,7 +21,7 @@ def vs.NameClass(className):
 |className|STRING|Name of class.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 NameClass('Revisions');
 Rect(4,4,6,6);
@@ -29,7 +29,7 @@ Rect(4,4,6,6);
 {Create a class 'Revisions' in the document}
 {The rectangle is then assigned this class }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

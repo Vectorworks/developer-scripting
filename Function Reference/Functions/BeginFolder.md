@@ -15,7 +15,7 @@ def vs.BeginFolder():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 NameObject('Object Symbols');
 BeginFolder;
@@ -32,7 +32,7 @@ EndSym;
 EndFolder;
 {creates the symbol folder 'Object Symbols', which contains a symbol}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.NameObject('Object Symbols')
 vs.BeginFolder()

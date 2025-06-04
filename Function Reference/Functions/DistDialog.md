@@ -23,11 +23,11 @@ def vs.DistDialog(request, default):
 |default|STRING|Default value for input field.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Message(DistDialog('Enter a distance value:','0'));
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Message(vs.DistDialog('Enter a distance value:','0'))
 ```

@@ -25,7 +25,7 @@ def vs.CreateTreeControl(nDialogID, nComponentID, nWidthInChars, nHeightInChars)
 |nHeightInChars|INTEGER|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -59,7 +59,7 @@ result := RunLayoutDialog(dialog1, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler(item , data ):
 	SetupDialogC = 12255

@@ -35,7 +35,7 @@ def vs.SetWallHeights(h, startHtDistance, endHtDistance):
 |endHtDistance|REAL|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -48,7 +48,7 @@ boo := SetWallHeights(h, 12, 23);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

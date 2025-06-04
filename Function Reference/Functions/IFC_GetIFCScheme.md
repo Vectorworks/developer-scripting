@@ -18,7 +18,7 @@ def vs.IFC_GetIFCScheme():
 |outScheme|INTEGER|Possible out values are <b>kIFCSupportScheme_2x2 = 2 (IFC 2x2); <b>kIFCSupportScheme_2x3 = 3 (IFC 2x3) and <b>kIFCSupportScheme_2x4 = 4 (IFC 4)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR

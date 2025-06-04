@@ -23,11 +23,11 @@ def vs.GetNumGradientSliderSegments(dialogID, componentID):
 |componentID|LONGINT|Index to a specific gradient slider component.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 numSegments := GetNumGradientSliderSegments(dialogID, componentID);
 ```
-==== Python ====
+#### Python ####
 ```python
 numSegments = vs.GetNumGradientSliderSegments(dialogID, componentID)
 ```

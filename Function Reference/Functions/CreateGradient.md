@@ -23,11 +23,11 @@ A gradient resource must always have at least 2, but no more than 32767 color sp
 NOTE: if the specified name already exists, a unique nmae will be created by adding a number suffix to the specified name.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 gradientHandle := CreateGradient('My Gradient');
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Message(vs.CreateGradient('My Gradient'))
 ```

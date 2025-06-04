@@ -35,7 +35,7 @@ The values of TINType are one of:
 [[User:Ptr|Ptr]] [2020.09.14]:When applying this call on a 2D object, that 2D object gets converted into a 3D polygon. The handle to the 2D object will not be linked to this 3D polygon. "vs.LNewObj()" will not return the handle to the 3D polygon.
 
 ## Examples
-==== Python ====
+#### Python ####
 ```python
 _, _sPIOName, _hPIO, _hPIORecord, _hWall = vs.GetCustomObjectInfo()  # Get info from current PIO instance
 _hPath = vs.GetCustomObjectPath(_hPIO)

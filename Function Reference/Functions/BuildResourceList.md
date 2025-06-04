@@ -170,7 +170,7 @@ list := BuildResourceList(resID, -pathID, '', cnt); { current document + user fo
 |}
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CONST
     kHatch = 66;

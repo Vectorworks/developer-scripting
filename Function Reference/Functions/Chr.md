@@ -23,7 +23,7 @@ Here;s the ASCII table for the lower 128...
 [[Image:ascii_lower.gif]]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -38,7 +38,7 @@ AlrtDialog(str);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	str = ""

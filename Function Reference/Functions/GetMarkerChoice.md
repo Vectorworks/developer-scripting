@@ -30,7 +30,7 @@ def vs.GetMarkerChoice(dialogID, itemID):
 |size|REAL|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -71,7 +71,7 @@ int := RunLayoutDialog(dialogID, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler( item , data ):	
 	if item ==	SetupDialogC:

@@ -25,7 +25,7 @@ def vs.GetPenBack(h):
 |blue|LONGINT|Returns RGB color component value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -38,7 +38,7 @@ Message('r= ', r, ' g= ', g, ' b= ', b);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def example():
 	h = vs.FSActLayer()

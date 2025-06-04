@@ -37,7 +37,7 @@ Mac needs a 0-based index.
 A commented explanation of this issue has been posted on [http://www.vectorlab.info/index.php?title=List_browser_index_quirks_-_PC_Mac VectorLab], including screenshots of the different results between the two platforms.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE testLB_index;
 CONST
@@ -197,7 +197,7 @@ BEGIN
 END;
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

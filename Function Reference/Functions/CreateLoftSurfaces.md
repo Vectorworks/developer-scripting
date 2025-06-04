@@ -25,7 +25,7 @@ def vs.CreateLoftSurfaces(groupCurvesHd, bRule, bClose, bSolid):
 |bSolid|BOOLEAN|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -59,7 +59,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	x = 10

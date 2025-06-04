@@ -29,13 +29,13 @@ def vs.WallCap(atStart, closed, round, rightOffDistance, leftOffDistance):
 |leftOffDistance|REAL|Left extension of wall line beyond end point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Wall(0,0,7',0);
 WallCap(True, True, False, 1.0', 0.0);
 {sets the cap status of the starting cap of the wall as flat cap, bevelled, with the right side extending 1' beyond the wall end point}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

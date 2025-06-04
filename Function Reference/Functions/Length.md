@@ -20,12 +20,12 @@ def vs.Length(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LengthValue:=Length(C='CrossMembers');
 {returns the length of all objects in class 'CrossMembers'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

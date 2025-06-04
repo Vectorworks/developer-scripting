@@ -28,12 +28,12 @@ def vs.Arc(p1, p2, StartAngle, ArcAngle):
 The bounding box of the arc or polyline is not the same as the bounding box returned by GetBBox -- unless the sweep angle of the arc is 360 degrees.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Arc(0,0,2,2,#45,#90);
 {draws an 90 degree arc with a start angle of 45 degrees}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Arc(0,0,2,2,45,90)
 ```

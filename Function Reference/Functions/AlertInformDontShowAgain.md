@@ -33,7 +33,7 @@ def vs.AlertInformDontShowAgain(text, advice, minorAlert, arrOptions):
 Created by TTF 1/9/2009
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -49,7 +49,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	arrayText = ('DontShowDialogAgainCategory',

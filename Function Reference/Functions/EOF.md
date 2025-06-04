@@ -30,7 +30,7 @@ def vs.EOF(fileName):
 |fileName|STRING|Name of file.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
 Open('MyData');
@@ -39,7 +39,7 @@ ReadLn(a,b,c,d);
 Close('MyData');
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.Open('D:\test.txt')

@@ -39,7 +39,7 @@ Also note that while GetName will return 'none' for an object which has not been
 One more thing: <b>never rename the None class!</b> Many things in VW (English edition) expect this to be present, and will access it literally. If you want to initialize object names, do it like this: SetName(objectHandle, ''). Then GetName(objectHandle) will return ''.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -52,7 +52,7 @@ SetName(h1, SName);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 SName = 'Fred'
 h1 = vs.CreateSphere(0, 0, 0, 1000)

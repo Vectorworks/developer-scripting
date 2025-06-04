@@ -125,7 +125,7 @@ def vs.UpdateSymbolDisplayControl(dialogID, itemID, symbolName, renderMode, view
 |view|INTEGER|The standard view in which to display the symbol.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CreateSymbolDisplayControl( 5, 6, 'Chair', 350, 200, 5, 11, 9 );
 {Other code}
@@ -133,7 +133,7 @@ UpdateSymbolDisplayControl( 5, 6, 'Chair', 0, 3 );
 
 This creates a dialog control that displays the symbol called &quot;Chair.&quot;  The control is 350 pixels high and 200 pixels wide, with a margin of 5 pixels.  The symbol is rendered in OpenGL mode and displayed in a right isometric view.  It then later updates the control to display the same symbol rendered in Wireframe in a front view.
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -21,11 +21,11 @@ def vs.RealDialog(request, default):
 |default|STRING|Default value for input field.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 RealValue:=RealDialog('Enter a real value:','0.00');
 ```
-==== Python ====
+#### Python ####
 ```python
 realValue = vs.RealDialog('Enter a real value', '0.00')
 ```

@@ -18,7 +18,7 @@ def vs.vstSetHelpString(inHelpStr):
 |inHelpStr|STRING|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -26,7 +26,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -28,7 +28,7 @@ def vs.GetEditReal(dialogID, itemID, editRealType):
 does math, handles units, returns false for any error in conversion. For an explanation of editRealType, see the CreateEditReal call
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Dialog_Handler(VAR item :LONGINT; data :LONGINT);
 
@@ -47,7 +47,7 @@ THEN InvalidValue(11);
 END;
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

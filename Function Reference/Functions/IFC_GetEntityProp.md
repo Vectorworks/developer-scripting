@@ -25,7 +25,7 @@ def vs.IFC_GetEntityProp(hObject, inStrPropName):
 |outTypeSelect|INTEGER|Type of the property|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -41,7 +41,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hExtrude = vs.FSActLayer()
 ok, strPropValue, iType = vs.IFC_GetEntityProp(hExtrude, 'PredefinedType')

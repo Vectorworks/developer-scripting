@@ -33,11 +33,11 @@ def vs.GetGradientSliderData(dialogID, componentID, segmentIndex):
 |blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetGradientSliderData(dialogID, componentID, 4, 0.7, 0.3, 255, 255, 255);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.GetGradientSliderData(dialogID, componentID, 4)
 ```

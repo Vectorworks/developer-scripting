@@ -30,7 +30,7 @@ def vs.CopySymbol(filePath, symbol):
 |symbol|STRING|Name of symbol to import.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE CopySym;
 VAR
@@ -42,7 +42,7 @@ BEGIN
 END;
 RUN(CopySym);
 ```
-==== Python ====
+#### Python ####
 ```python
 def CopySym():
 	theSymbolName = 'Fax'

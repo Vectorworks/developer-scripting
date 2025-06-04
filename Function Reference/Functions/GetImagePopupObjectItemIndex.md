@@ -23,11 +23,11 @@ def vs.GetImagePopupObjectItemIndex(dialogID: int, componentID: int, objectName:
 |objectName|STRING|Name of object for which the image popup index should be retrieved.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 imagePopupIndex := GetImagePopupObjectItemIndex(dialogID, componentID, 'Symbol-1');
 ```
-==== Python ====
+#### Python ####
 ```python
 imagePopupIndex = vs.GetImagePopupObjectItemIndex(dialogID, componentID, 'Symbol-1')
 vs.SetImagePopupSelectedItem(dialogID, componentID, imagePopupIndex)

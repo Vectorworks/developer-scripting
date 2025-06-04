@@ -33,7 +33,7 @@ def vs.SetLS(h, ls):
 Thus the secure range to be used is: -1 to -[[VS:NumDashStyles| NumDashStyles]].
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -63,7 +63,7 @@ RUN(Example);
 { Assigning none (no pattern) to the object pen. }
 SetLS(ObjHandle, 0)
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

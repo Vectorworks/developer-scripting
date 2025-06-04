@@ -27,7 +27,7 @@ def vs.ReplaceIFCWithMap(hObject, inStrObjName):
 |inStrObjName|STRING|Object name.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -38,7 +38,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.ReplaceIFCWithMap(NULL, 'Wall')
 ```

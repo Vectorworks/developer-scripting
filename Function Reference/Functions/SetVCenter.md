@@ -18,11 +18,11 @@ def vs.SetVCenter(viewCenter):
 |viewCenter|REAL|Coordinates of document view center.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetVCenter(2,4);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

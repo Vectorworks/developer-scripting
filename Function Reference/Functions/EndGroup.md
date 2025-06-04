@@ -13,7 +13,7 @@ def vs.EndGroup():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginGroup;
 Rect(-1,1,0.5,0);
@@ -32,7 +32,7 @@ EndGroup;
 EndGroup;
 {creates a group comprised of 2 rects and 1 group}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginGroup()
 vs.Rect(-1,1,0.5,0)

@@ -18,7 +18,7 @@ def vs.IFC_DefPsetBegin(psetName):
 |psetName|STRING|The name of the Custom PSet.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -35,7 +35,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 psetName	= "My Custom Pset"
 

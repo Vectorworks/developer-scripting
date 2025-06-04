@@ -23,7 +23,7 @@ def vs.IFC_DMDeleteEntry(inStrObjName, inStrEntryName):
 ## Examples
 Assume we want to clear "IfcWall" Entry Group from the mapping for Wall Object:
 
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -34,7 +34,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_DMDeleteEntry('Wall', 'IfcWall')
 ```

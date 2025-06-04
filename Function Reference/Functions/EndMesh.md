@@ -15,7 +15,7 @@ def vs.EndMesh():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginMesh;
 ClosePoly;
@@ -32,7 +32,7 @@ Poly3D(4'-0&quot;,0',0',4'-0&quot;,0',4'-0&quot;,4'-0&quot;,-4'-0&quot;,4'-0&quo
 Poly3D(0',0',0',0',0',4'-0&quot;,4'-0&quot;,0',4'-0&quot;,4'-0&quot;,0',0');
 EndMesh;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginMesh()
 vs.ClosePoly()

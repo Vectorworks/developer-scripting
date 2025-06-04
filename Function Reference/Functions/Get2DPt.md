@@ -28,7 +28,7 @@ def vs.Get2DPt(obj, index):
 (RGM Feb 2006): This will generally return the center of an object. Use [[VS:GetSymLoc| GetSymLoc]] if you want eg. the 'point' of a Point PIO.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -43,7 +43,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 if vs.FSActLayer() == None:
     vs.AlrtDialog( 'Select a polygon or a polyline' )

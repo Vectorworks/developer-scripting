@@ -27,7 +27,7 @@ def vs.SetLBItemPatternIndex(dialogID, componentID, itemIndex, subItemIndex, pat
 |patIndex|INTEGER|The pattern index of this item. Value from [1..71] see [[VS:Function Reference Appendix#Fill Patterns]]|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetupDialogC: BEGIN
   tmp := InsertLBColumn( dialog, kListBrowser, 0, 'one', 60 );
@@ -43,7 +43,7 @@ SetupDialogC: BEGIN
   boo := SetLBItemFillBackColor( dialog, kListBrowser, 0, 1,   255, 255, 255 );
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

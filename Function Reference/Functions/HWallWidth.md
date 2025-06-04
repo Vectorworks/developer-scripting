@@ -21,7 +21,7 @@ def vs.HWallWidth(wallHd, widthDistance):
 |widthDistance|REAL|New wall width.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -48,7 +48,7 @@ DelObject(sourceWall);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

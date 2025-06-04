@@ -66,7 +66,7 @@ http://www.vectorworks.net/support/custom/vscript/example.php
 It contains a working example on a modern dialogue with an image control.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Slider Control Example}
 PROCEDURE dialog1_Main;
@@ -103,7 +103,7 @@ END;
 END;
 RUN(dialog1_Main);
 ```
-==== Python ====
+#### Python ####
 ```python
 #{Slider Control Example}
 def dialog1_Handler(item , data):

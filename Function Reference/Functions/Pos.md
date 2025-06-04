@@ -26,11 +26,11 @@ def vs.Pos(subStr, str):
 (Joel Sciamma, 2006.09.08): Pos returns the position of the ''first character'' of the ''first occurrence'' of the sub-string. The function is case-sensitive.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Loc:=Pos('samp','A sample string');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

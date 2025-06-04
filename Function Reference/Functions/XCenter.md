@@ -21,12 +21,12 @@ def vs.XCenter(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 XCenValue:=XCenter(N='Board');
 {returns the x-coord of the center of the named object 'Board'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

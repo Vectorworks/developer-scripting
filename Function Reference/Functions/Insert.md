@@ -23,14 +23,14 @@ def vs.Insert(source, index):
 |index|INTEGER|Position where string is to be inserted.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 theStr:='sample';
 originalStr:='A string';
 Insert(theStr,originalStr,3);
 {inserts 'sample' into the target string}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

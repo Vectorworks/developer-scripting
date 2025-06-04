@@ -21,7 +21,7 @@ def vs.GetFontID(fontName):
 returns -1 if the requested font is not available
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -32,7 +32,7 @@ AlrtDialog(Concat('The font ID is: ', GetFontID(str)));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	str = vs.StrDialog('Enter the font name:', 'Arial')

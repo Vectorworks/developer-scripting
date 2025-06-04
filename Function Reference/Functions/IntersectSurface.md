@@ -21,7 +21,7 @@ def vs.IntersectSurface(s1, s2):
 |s2|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -56,7 +56,7 @@ ClrMessage;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

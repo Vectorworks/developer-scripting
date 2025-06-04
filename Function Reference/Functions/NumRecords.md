@@ -18,11 +18,11 @@ def vs.NumRecords(h):
 |h|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 numAttached:=NumRecords(HandleToObject);
 ```
-==== Python ====
+#### Python ####
 ```python
 numAttached = vs.NumRecords(HandleToObject)
 ```

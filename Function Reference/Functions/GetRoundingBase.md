@@ -23,7 +23,7 @@ def vs.GetRoundingBase():
 |secondary|INTEGER|Rounding base for the secondary units|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 
@@ -50,7 +50,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def DisplayAccuracy():
 	display, primary, secondary = vs.GetRoundingBase()

@@ -24,11 +24,11 @@ def vs.Volume(c):
 This function returns the volume of the items matching the current criteria.  It will return 0 for any objects that will not work with the solids modeling functions.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 totalVol:=Volume((C='Empty Space'));
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

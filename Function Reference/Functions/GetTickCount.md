@@ -13,7 +13,7 @@ def vs.GetTickCount():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -26,7 +26,7 @@ Message('Seconds elapsed equals: ', (tick2 - tick1) / 60);
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def ResetObjectWrap(h):
 	vs.ResetObject(h)

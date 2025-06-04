@@ -23,13 +23,13 @@ def vs.Move(move):
 The difference between this and MoveTo is that this is relative, whereas MoveTo is absolute.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Move(6,1);
 { moves the graphics pen 6 units to the right }
 { and 1 unit up from the current position.    }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Move(6, 1)
 ```

@@ -30,11 +30,11 @@ def vs.GetCustomObjectChoice(objectName, parameterName, choiceIndex):
 Call from CustomObject scripts only.  Returns a particular choice string for a popup menu or radio group parameter.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 theChoice := GetCustomObjectChoice(objectName, 'PDINNER_MENU', 1);
 ```
-==== Python ====
+#### Python ####
 ```python
 theChoice = vs.GetCustomObjectChoice(objectName, 'PDINNER_MENU', 1)
 ```

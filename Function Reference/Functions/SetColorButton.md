@@ -27,7 +27,7 @@ def vs.SetColorButton(dialogID, itemID, red, green, blue):
 |blue|LONGINT|The blue component of the color.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE SetColorControl(dialogID, controlID :LONGINT; colorIndex :STRING);
 VAR
@@ -39,7 +39,7 @@ SetColorButton(dialogID, controlID, r, g, b);
 END;
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

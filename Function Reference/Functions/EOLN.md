@@ -18,7 +18,7 @@ def vs.EOLN(fileName):
 |fileName|STRING|Name of file.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   Open('MyData');
@@ -29,7 +29,7 @@ BEGIN
   Close('MyData');
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

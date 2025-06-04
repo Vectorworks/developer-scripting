@@ -13,12 +13,12 @@ def vs.UnLckObjs():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SelectObj((C='Structure To Remain'));
 UnLckObjs;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

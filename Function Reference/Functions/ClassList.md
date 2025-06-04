@@ -28,14 +28,14 @@ Answer: There's no sorting criteria, the list shows the class in order of their 
 [[User:CBM-c-|_c_]] [2011.03.29]: If you wish the classes alpha-sorted, you can use [[VS:BuildResourceList| BuildResourceList]].
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 noneClass := ClassList(1); { always returns the 'none' class, unregarded the localization }
 dimensionClass := ClassList(2); { always returns the 'dimension' class, unregarded the localization }
 classNumber3 := ClassList(3);
 classNumber4 := ClassList(4);
 ```
-==== Python ====
+#### Python ####
 ```python
 noneClass = vs.ClassList(1)
 dimensionClass = vs.ClassList(2)

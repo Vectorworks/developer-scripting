@@ -45,7 +45,7 @@ To elaborate a little...
 The first vector defines the X axis of a new coordinate system; the second vector defines the positive Y direction in that coordinate system. The cross product of those vectors will be in the positive Z direction.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```python
 PROCEDURE TEST;
 VAR
@@ -58,7 +58,7 @@ BEGIN
 END;
 Run(TEST);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0)
 v2 = (3, 15, 0)

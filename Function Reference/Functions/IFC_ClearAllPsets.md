@@ -18,7 +18,7 @@ def vs.IFC_ClearAllPsets(hObject):
 |hObject|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -31,7 +31,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject = vs.FSActLayer()
 ok = vs.IFC_ClearAllPsets(hObject)

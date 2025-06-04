@@ -27,7 +27,7 @@ def vs.ArcByCenter(x, y, radius, startAngl, sweepAngle):
 |sweepAngle|REAL|Sweep angle of the arc|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -42,7 +42,7 @@ AlrtDialog(Concat(GetType(LNewObj)));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def PickPointCallback(pt):
 	radius = 3

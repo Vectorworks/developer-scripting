@@ -23,11 +23,11 @@ def vs.GetObjectVariableReal(h, index):
 |index|INTEGER|Object property index.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 dim_offset:= GetObjectVariableReal(h,4);
 ```
-==== Python ====
+#### Python ####
 ```python
 dim_offset = vs.GetObjectVariableReal(h,4)
 ```

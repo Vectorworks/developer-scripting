@@ -23,11 +23,11 @@ def vs.HRotate(h, center, rotationAngle):
 |rotationAngle|REAL|Angle of rotation.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 HRotate(objHd,3,5,60d);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.HRotate(vs.FSActLayer(),3,5,60)

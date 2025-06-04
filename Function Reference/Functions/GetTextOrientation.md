@@ -25,7 +25,7 @@ def vs.GetTextOrientation(theText):
 |textIsMirrored|BOOLEAN|Returns mirror state of text.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -39,7 +39,7 @@ Locus(textOriginX, textOriginY);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	theText = vs.FSActLayer()

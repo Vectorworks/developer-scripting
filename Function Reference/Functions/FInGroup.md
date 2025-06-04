@@ -18,7 +18,7 @@ def vs.FInGroup(ObjectHd):
 |ObjectHd|HANDLE|Handle to group object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -32,7 +32,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	tmph = vs.FSActLayer()

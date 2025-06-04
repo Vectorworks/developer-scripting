@@ -21,12 +21,12 @@ def vs.LineTo(p):
 (Joel Sciamma, 2006.08.14): After the line is drawn, the graphics pen is set to the end of the line ready to draw another object. Use [[VS:MoveTo| MoveTo]] to reset the graphics pen position.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LineTo(3,4);
 {draws a line from the current pen position to (3, 4)}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

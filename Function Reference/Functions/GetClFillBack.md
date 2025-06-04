@@ -28,7 +28,7 @@ def vs.GetClFillBack(className):
 Returns the fill background color setting of the class named className in parameters colorRV, colorGV, and colorBV.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -41,8 +41,8 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
-==== Python ====
+#### Python ####
+#### Python ####
 ```python
 
 ```

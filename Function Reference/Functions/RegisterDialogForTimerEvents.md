@@ -21,7 +21,7 @@ def vs.RegisterDialogForTimerEvents(dialogID, timerDelayInMilliseconds):
 |timerDelayInMilliseconds|LONGINT|The amount of time in milliseconds between each sent each DialogTimerEventMessageC.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -90,7 +90,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

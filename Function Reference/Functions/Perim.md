@@ -20,12 +20,12 @@ def vs.Perim(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PerimValue := Perim(C='Fence');
 {returns the total perimeter of all objects in the class 'Fence'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

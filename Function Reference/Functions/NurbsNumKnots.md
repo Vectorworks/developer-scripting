@@ -25,11 +25,11 @@ def vs.NurbsNumKnots(objectHd, index):
 returns the number of knots for the indexed piece of the given nurbs curve.  or number of U knot vector (index=1) or V knot vector (index=0) of the given nurbs surface
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 See NurbsSurfaceEvalPt
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

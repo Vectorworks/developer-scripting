@@ -26,7 +26,7 @@ def vs.GetLayerElevation(h):
 [[User:Orso.b.schmid| orso]] 2006.11.25: Please note that this routines always returns millimeters.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -43,7 +43,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
     h = vs.FLayer()

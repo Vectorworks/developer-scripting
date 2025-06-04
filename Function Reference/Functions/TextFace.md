@@ -23,7 +23,7 @@ def vs.TextFace(s):
 Make sure the docs indicate that the face must appear in set notation - check it out [PCP]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TextFace([Italic]);
 {set the active text style to Italic}
@@ -31,7 +31,7 @@ TextFace([Italic]);
 TextFace([Bold,Outline]);
 {set the active text style to bold outline}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -21,7 +21,7 @@ def vs.IFC_GetNumPsets(hObject):
 |outNumPsets|INTEGER|Number of PSets|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -36,7 +36,7 @@ end;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok, iNum = vs.IFC_GetNumPsets(vs.FSActLayer())
 vs.AlrtDialog(str(iNum))

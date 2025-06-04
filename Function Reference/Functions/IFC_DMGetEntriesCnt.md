@@ -21,7 +21,7 @@ def vs.IFC_DMGetEntriesCnt(inStrObjName):
 |outCount|INTEGER|Returns IfcEntity groups count from IFC Data Mapping.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetEntriesCnt;
 VAR
@@ -32,7 +32,7 @@ BEGIN
 END;
 RUN(GetEntriesCnt);
 ```
-==== Python ====
+#### Python ####
 ```python
 cnt = 0
 boo, cnt = vs.IFC_DMGetEntriesCnt('Space', cnt)

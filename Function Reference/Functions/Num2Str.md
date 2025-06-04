@@ -39,14 +39,14 @@ The parameter <i>decPlace</i> can be the following values:
 |}
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 oldnumValue := 232.5148;
 newStrValue := Num2Str(3, oldnumValue);
 { --> '232.515' if your system is american }
 { --> '232,515' if your system is metric }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

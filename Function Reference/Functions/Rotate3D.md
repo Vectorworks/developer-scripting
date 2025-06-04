@@ -27,14 +27,14 @@ From Julian:
 Rotate3D() can only be called after object creation. Duplication does not count as a newly created object, so use Set3DRot() instead. If you are rotating in more than one axis, you may need to use it 3 times, first Z, then Y then X rotation.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginXtrd(0&quot;,4&quot;);
 Rect(0&quot;,3&quot;,1&quot;,0&quot;);
 EndXtrd;
 Rotate3D(21d 10' 22&quot;,-18d 44' 50&quot;,-7d 5' 45&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

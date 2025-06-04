@@ -25,7 +25,7 @@ def vs.EqualRect(rectAp1, rectAp2, rectBp1, rectBp2):
 |rectBp2|REAL|Bottom right coordinate of rectangle B.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -33,7 +33,7 @@ Message(EqualRect(0,0,3,3,3,3,0,0));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.Message(vs.EqualRect(0,0,3,3,3,3,0,0))

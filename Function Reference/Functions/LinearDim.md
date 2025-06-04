@@ -45,11 +45,11 @@ def vs.LinearDim(startPt, endPt, offsetDistance, dimType, arrow, textFlag, textO
 |textOffset|REAL|Dimension text offset distance.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LinearDim(-2&quot;,2&quot;,1&quot;,2&quot;,-3&quot;,0,771,770,0.75);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

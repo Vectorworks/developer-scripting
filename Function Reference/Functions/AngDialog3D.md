@@ -31,11 +31,11 @@ def vs.AngDialog3D(displayStr, xStr, yStr, zStr):
 |zAngleResult|REAL|Returns user input Z value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 AngDialog3D('Enter the angle values:','0','0','0',x,y,z);
 ```
-==== Python ====
+#### Python ####
 ```python
 x,y,z = AngDialog3D('Enter the angle values:','0','0','0')
 ```

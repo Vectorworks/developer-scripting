@@ -31,7 +31,7 @@ def vs.GetDefaultBeginningMarker():
 |visibility|BOOLEAN|The marker visibility.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -52,7 +52,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	ok, style, angle, size, width, thickBasis, thickness, visibility = vs.GetDefaultBeginningMarker ()

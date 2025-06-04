@@ -22,7 +22,7 @@ def vs.Write(z):
 |z|ANY|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Write(Value1);
 ```
@@ -41,7 +41,7 @@ BEGIN
   arr[2] := MixBytes( 255, 254 );
   Write(arr);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

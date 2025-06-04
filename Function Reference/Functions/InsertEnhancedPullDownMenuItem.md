@@ -27,7 +27,7 @@ def vs.InsertEnhancedPullDownMenuItem(dialogID, componentID, strName, iIconID):
 |iIconID|INTEGER|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE CreateControlsTest;
 CONST
@@ -68,7 +68,7 @@ BEGIN
 END;
 RUN( CreateControlsTest );
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

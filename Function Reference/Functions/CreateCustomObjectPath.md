@@ -30,7 +30,7 @@ If the path object code creates a symbol (BeginSym~EndSym), the page center gets
 It is nothing new, but this routine will create a custom object instance that doesn't resolve as "New Object". If inside the Plug-in code you are using IsNewCustomObject(pioName) you'd expect the object just created to be recognized as new. But IsNewCustomObject will never return TRUE on objects created by CreateCustomObjectPath.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -41,7 +41,7 @@ h := CreateCustomObjectPath('Cutting Plane', FSActLayer, nil);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.CallTool(-204)

@@ -25,7 +25,7 @@ def vs.GetLocalizedPluginName(inPluginName):
 |outName|STRING|The localized name of the plug-in|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 TYPE
@@ -94,7 +94,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def GetInfo( h ):	
 	global pluginCnt

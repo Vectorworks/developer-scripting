@@ -43,7 +43,7 @@ Here's a more complete list:
 Only returns a read-only error if you try to write to the file and it's actually read-only. But you can read from a read-only file without getting an error.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -67,7 +67,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	pathName = 'D:\'

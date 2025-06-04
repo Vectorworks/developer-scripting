@@ -21,11 +21,11 @@ def vs.GetFldName(h, index):
 |index|INTEGER|Number of field whose name will be returned (in a range of 1-n).|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FName:=GetFldName(HandleToRecord,1);
 ```
-==== Python ====
+#### Python ####
 ```python
 FName = vs.GetFldName(HandleToRecord,1)
 ```

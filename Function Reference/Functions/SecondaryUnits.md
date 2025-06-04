@@ -86,13 +86,13 @@ def vs.SecondaryUnits(style, dimPrec, format, showMark, dispFrac):
 See [[VS:GetPrimaryUnitInfo| GetPrimaryUnitInfo]] for details on changes in version 9 and again in version 12.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SecondaryUnits(1, 6, 2, TRUE, TRUE); 
 { Sets the secondary units to feet/inches with a dimension precision of 1/64, }
 { unit mark displayed, and fractional display of units values enabled.        }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

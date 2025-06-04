@@ -13,11 +13,11 @@ def vs.ShowCreateImageDialog():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 imageHandle := ShowCreateImageDialog;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

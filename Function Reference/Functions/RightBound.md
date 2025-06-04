@@ -23,11 +23,11 @@ def vs.RightBound(c):
 It would be nice if this would return the rightmost coordinate of the matching objects. Don't see how the sum of coordinates can be of any use.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 RightBValue:=RightBound(N='MyRect');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

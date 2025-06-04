@@ -21,12 +21,12 @@ def vs.YCenter(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 YCenValue:=YCenter(N='Board');
 {returns the y-coord of the center of the named object 'Board'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -25,11 +25,11 @@ def vs.GetRecord(h, cnt):
 Please note that since the introduction of ifc data, the usual praxis of fetching plug-in records using GetRecord(h, NumRecords(h)) can bring you perhaps unexpectedly the ifc record. Use [[VS:GetParametricRecord]] instead, introduced from VW 2011.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 handleToRecord := GetRecord(handleToObject,3);
 ```
-==== Python ====
+#### Python ####
 ```python
 handleToRecord = vs.GetRecord(handleToObject,3)
 ```

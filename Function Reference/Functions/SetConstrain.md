@@ -60,13 +60,13 @@ def vs.SetConstrain(str):
 |str|STRING|Constraint constant string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetConstrain('QD');
 
 {activates the snap objects and smart point constraints and deactivates the others}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

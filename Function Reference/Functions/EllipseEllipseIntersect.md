@@ -36,7 +36,7 @@ def vs.EllipseEllipseIntersect(upperLeft1, lowerRight1, upperLeft2, lowerRight2)
 On return, int1, int2, int3, and int4 contain the points of intersection.  Return value indicates which intersections are legal.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -59,7 +59,7 @@ Locus(int4.x, int4.y);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.OvalN(0, 0, 1, 0, 1, 1);

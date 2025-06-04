@@ -25,12 +25,12 @@ def vs.GetWSRowHLockState(worksheet, row):
 |lockState|BOOLEAN|Row Height lock state ( returns TRUE is row height is locked ; FALSE otherwise)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Gets the lock state of the fifth row in the specified worksheet}
 GetWSRowHLockState(sheet,5,lockstate);
 ```
-==== Python ====
+#### Python ####
 ```python
 lockstate = vs.GetWSRowHLockState(sheet,5)
 ```

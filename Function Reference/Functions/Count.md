@@ -27,12 +27,12 @@ CountValue := Count((FP=4)and(T=3)); { 3 is object type flag for 'Rectangle&amp'
 This is valid for all object types being assigned a name in the [[VS:Function Reference Appendix#Object Types|VectorScript Appendix]].
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CountValue := Count((FP=4)and(T='Rect'));
 {counts all rectangles with a fillpat index of 4}
 ```
-==== Python ====
+#### Python ####
 ```python
 CountValue = vs.Count("(FP=4)AND(T='Rect')")
 # counts all rectangles with a fillpat index of 4

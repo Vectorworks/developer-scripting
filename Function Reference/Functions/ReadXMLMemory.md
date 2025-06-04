@@ -21,7 +21,7 @@ def vs.ReadXMLMemory(XMLHandle, XMLData):
 |XMLData|DYNARRAY [] OF CHAR|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 procedure test;
 var 	xml : longint;
@@ -44,7 +44,7 @@ begin
 end;
 run(test);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

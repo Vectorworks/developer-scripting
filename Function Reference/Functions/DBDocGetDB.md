@@ -24,7 +24,7 @@ def vs.DBDocGetDB():
 * more databases connected: colon-separated string of database names.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE ODBCtest;
     VAR
@@ -38,7 +38,7 @@ BEGIN
 END;
 Run(ODBCtest);
 ```
-==== Python ====
+#### Python ####
 ```python
 def ODBCtest():
 	outDatabases = ''	

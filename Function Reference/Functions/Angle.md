@@ -18,11 +18,11 @@ def vs.Angle(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 aValue:=Angle(N='LineSeg');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -27,12 +27,12 @@ def vs.SingleTolerance(showVal, boxText, leader, trailer, limDistance):
 |limDistance|REAL|Limit tolerance string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LinearDim(-2&quot;,2&quot;,1&quot;,2&quot;,-3&quot;,0,771,770,0.75);
 SingleTolerance(True,False,'approx. ','',1/16&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

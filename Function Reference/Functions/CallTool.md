@@ -46,7 +46,7 @@ This works in nested groups as well as groups within symbols. If anyone knows of
 ## Examples
 {{AddSurface}}
 
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PushAttrs;
 PenFore(16);
@@ -55,7 +55,7 @@ PenPat(-2);
 CallTool(-201);
 PopAttrs;
 ```
-==== Python ====
+#### Python ####
 The python code will not pause for the execution of CallTool, that's why it uses a callback mechanism for the script to know when the temp tool has finished.
 ```python
 vs.PushAttrs()

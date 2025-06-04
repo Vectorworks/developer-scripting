@@ -24,12 +24,12 @@ def vs.SetClPenFore(className, r,g,b):
 Changes the pen foreground color setting of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ColorIndexToRGB(214,cRed,cGrn,cBlu);
 SetClPenFore('Cold Water Supply',cRed,cGrn,cBlu);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

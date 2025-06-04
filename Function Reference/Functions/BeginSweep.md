@@ -33,7 +33,7 @@ def vs.BeginSweep(startAngle, arcAngle, incAngle, PitchDistance):
 |PitchDistance|REAL|Pitch (translation distance) of sweep.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginSweep(#0d,#360d,#10d,0');
 Poly(3 1/4&quot;,-1/2&quot;,
@@ -56,7 +56,7 @@ Poly(3 1/4&quot;,-1/2&quot;,
 2 3/4&quot;,0&quot;);
 EndSweep;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginSweep(0,360,10,0)
 vs.Poly(3 + 1/4,-1/2,

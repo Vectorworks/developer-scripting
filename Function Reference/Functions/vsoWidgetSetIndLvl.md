@@ -24,7 +24,7 @@ def vs.vsoWidgetSetIndLvl(widgetID, indentLevel):
 [[User:CBM-c-|_c_]] (2022.01.05): There is a commented example of plug-in object (Python) with collapsable widgets here: [[User:CBM-c-/Plug-in_with_widget_basic_example]]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 5: {kObjOnInitXProperties}
         BEGIN
@@ -46,7 +46,7 @@ def vs.vsoWidgetSetIndLvl(widgetID, indentLevel):
             vsoWidgetSetEnable( 100, PUseCustomText );
 	END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -50,7 +50,7 @@ def vs.GetEnabledModules():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE testModules;
 
@@ -89,7 +89,7 @@ END;
 END;
 RUN(testModules);
 ```
-==== Python ====
+#### Python ####
 ```python
 def bittest (value, mask):
     bittest_result = False 

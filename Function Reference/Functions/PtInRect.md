@@ -23,7 +23,7 @@ def vs.PtInRect(point, rect1, rect2):
 |rect2|REAL|Bottom right coordinate of rectangular area.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -39,7 +39,7 @@ Message(PtInRect(pointX, pointY, rect1X, rect1Y, rect2X, rect2Y));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -20,7 +20,7 @@ def vs.Run(p):
 |p|PROCEDURE|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -30,7 +30,7 @@ Sysbeep;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

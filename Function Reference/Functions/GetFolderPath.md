@@ -755,7 +755,7 @@ The path defined with the flag (positive) 12 will point to the User's folder.
 List above updated.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -763,7 +763,7 @@ AlrtDialog(GetFolderPath(12));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.AlrtDialog(vs.GetFolderPath(12))

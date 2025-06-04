@@ -23,7 +23,7 @@ def vs.ShowItem(dialogID, item, show):
 |show|BOOLEAN|New visibility state of dialog control.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE dialogID_Main;
 VAR
@@ -67,7 +67,7 @@ BEGIN
 END;
 RUN(dialogID_Main);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

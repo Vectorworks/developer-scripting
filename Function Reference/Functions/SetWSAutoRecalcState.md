@@ -21,7 +21,7 @@ def vs.SetWSAutoRecalcState(worksheet, state):
 |state|BOOLEAN|Worksheet AutoRecalc flag.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Save the current AutoRecalc state}
 state := GetWSAutoRecalcState(h);
@@ -37,7 +37,7 @@ SetWSAutoRecalcState(h, state);
 {Recalculate the worksheet}
 RecalculateWS(h);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

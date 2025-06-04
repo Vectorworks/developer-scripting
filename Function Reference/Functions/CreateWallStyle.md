@@ -21,7 +21,7 @@ def vs.CreateWallStyle(wallStyleName):
 CJG 6-27-06
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 CONST
@@ -45,7 +45,7 @@ SetName(wallStyleHandle, wallStyleName); {Reset the wall style name.}
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	wallStyleName = 'Example Wall Style'

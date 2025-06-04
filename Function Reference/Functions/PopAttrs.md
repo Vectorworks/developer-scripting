@@ -16,7 +16,7 @@ def vs.PopAttrs():
 Calling this procedure more times than PushAttrs has been called during the execution of the script will crash VectorWorks.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -32,7 +32,7 @@ PopAttrs;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

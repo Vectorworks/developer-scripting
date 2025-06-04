@@ -18,11 +18,11 @@ def vs.ShowClass(className):
 |className|STRING|Name of class.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ShowClass('Dimension');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

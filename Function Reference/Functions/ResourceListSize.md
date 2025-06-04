@@ -18,13 +18,13 @@ def vs.ResourceListSize(listID):
 |listID|LONGINT|an ID for a resouce list created by the BuildResourceList function.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { Update numItems as the number of items in the resource list has }
 { changed. }
 numItems := ResourceListSize(listID);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

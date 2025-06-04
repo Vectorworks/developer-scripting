@@ -25,7 +25,7 @@ def vs.SetElementValue(XMLHandle, elementPath, value):
 |value|STRING|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 CONST
@@ -47,7 +47,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

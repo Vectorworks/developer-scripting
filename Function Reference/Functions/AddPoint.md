@@ -19,7 +19,7 @@ def vs.AddPoint(p):
 |py|REAL|Y Coordinates of vertex.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginPoly;
 AddPoint(0,0);
@@ -42,7 +42,7 @@ AddPoint(x,y);
 EndPoly;
 {creates a polygon with vertices as calculated}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginPoly()
 vs.AddPoint(0,0)

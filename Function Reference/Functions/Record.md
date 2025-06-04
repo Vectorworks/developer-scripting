@@ -24,11 +24,11 @@ def vs.Record(h, s):
 Delete any existing record named &quot;s&quot; on &quot;h&quot;, Create new record for format named 's', attach to &quot;h&quot;.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Record(handleToObj,'Vendor Information');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

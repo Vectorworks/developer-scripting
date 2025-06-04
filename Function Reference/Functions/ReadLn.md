@@ -54,7 +54,7 @@ ReadLn(color.red, color.green, color.blue); { LONGINT values are correctly loade
 the empty value and space stripping issues are still valid today (VW 12.5.x).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -74,7 +74,7 @@ AlrtDialog(lineOfText);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

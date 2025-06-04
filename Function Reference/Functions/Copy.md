@@ -23,12 +23,12 @@ def vs.Copy(source, index, count):
 |count|INTEGER|Length of substring.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Message(Copy('A sample string',10,6))
 {returns 'string'}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Message(vs.Copy('A sample string',10,6))
 ```

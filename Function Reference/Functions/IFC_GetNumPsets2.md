@@ -23,7 +23,7 @@ def vs.IFC_GetNumPsets2(hObject, bAllPsets):
 |outNumPsets|INTEGER|Number of PSets.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -36,7 +36,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 numPSets = 0
 ok, numPSets = vs.IFC_GetNumPsets2(vs.FSActLayer(), True)

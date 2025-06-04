@@ -21,12 +21,12 @@ def vs.RotatePoint(p, rotationAngle):
 |rotationAngle|REAL|Rotation angle.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetSelect(LNewObj);
 RotatePoint(0,3,45d);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

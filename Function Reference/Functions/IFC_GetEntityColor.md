@@ -27,7 +27,7 @@ def vs.IFC_GetEntityColor(inStrIfcType):
 |outTransp|INTEGER|Out parameter. Transepransy value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -42,7 +42,7 @@ end;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_GetEntityColor('IfcWall', red, green, blue, transp)
 ```

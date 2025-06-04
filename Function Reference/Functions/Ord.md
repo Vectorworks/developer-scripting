@@ -21,7 +21,7 @@ def vs.Ord(v):
 The encoding used is Apple MacRoman. This leads to a number of troubles if you are on Windows and use characters above ASCII 128.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Main;
 VAR
@@ -34,7 +34,7 @@ AlrtDialog(Concat(Ord(Copy(str, cnt, 1))));
 END;
 RUN(Main);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

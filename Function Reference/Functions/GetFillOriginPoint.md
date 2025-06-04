@@ -25,11 +25,11 @@ def vs.GetFillOriginPoint(objectHandle):
 |yOriginPoint|REAL|Y coordinate of origin point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetFillOriginPoint(objectHandle, xOrigin, yOrigin);
 ```
-==== Python ====
+#### Python ####
 ```python
 xIAxis, yIAxis = vs.GetFillOriginPoint(vs.FSActLayer())
 ```

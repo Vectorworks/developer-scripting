@@ -63,11 +63,11 @@ RUN(Example);
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetView(45d,30d,30d,0,2,2);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

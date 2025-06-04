@@ -17,11 +17,11 @@ Returns whether the global attributes are set to use the arrow style of the defa
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 useClassMarker:=FMarkerByClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 useClassMarker = vs.FMarkerByClass()
 ```

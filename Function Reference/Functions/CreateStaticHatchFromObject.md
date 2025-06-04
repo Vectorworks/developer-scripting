@@ -25,7 +25,7 @@ def vs.CreateStaticHatchFromObject(inObj, inHatchName, p, rotationAngle):
 |rotationAngle|REAL|An angle specifying an offset angle to use to create the output|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -39,7 +39,7 @@ SetSelect(h);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def PickPointCallback(pt):
 	h = vs.CreateStaticHatchFromObject(vs.FSActLayer(),'Default Hatch', pt[0], pt[1], 0)

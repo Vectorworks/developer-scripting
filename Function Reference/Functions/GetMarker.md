@@ -32,7 +32,7 @@ OBSOLETE for VW2008: Use [[VS:GetObjBeginningMarker| GetObjBeginningMarker]] and
 For a one inch marker pass in a size value equal to 16384. If you pass NIL for the obj parameter, this call will set the marker defaults for this document.  angle must be in range 0 to 90 degrees.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE CheckMarker;
 VAR
@@ -47,7 +47,7 @@ Message('StartMark: ', StartMark, ' EndMark:', EndMark, ' MarkerStyle:', MarkerS
 END;
 RUN(CheckMarker);
 ```
-==== Python ====
+#### Python ####
 ```python
 def CheckMarker():
 	h = vs.FSActLayer()

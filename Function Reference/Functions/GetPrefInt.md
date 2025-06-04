@@ -23,11 +23,11 @@ def vs.GetPrefInt(prefIndex):
 Returns the status of the specified preference item.  Used for preferences that return an Integer instead of a Boolean (see GetPref)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 maxUndos:=GetPrefInt(17);
 ```
-==== Python ====
+#### Python ####
 ```python
 maxUndos = vs.GetPrefInt(17)
 ```

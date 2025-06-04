@@ -18,7 +18,7 @@ def vs.IFC_DMIsObjEnabled(inStrObjName):
 |inStrObjName|STRING|Object's name.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE IsObjEnabled;
 VAR
@@ -29,7 +29,7 @@ END;
 
 RUN(IsObjEnabled);
 ```
-==== Python ====
+#### Python ####
 ```python
 bOk = vs.IFC_DMIsObjEnabled('Space'); #bOk returns if the Space Object is enabled in the current mapping
 ```

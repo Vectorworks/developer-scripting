@@ -21,7 +21,7 @@ def vs.PenLoc():
 ([[User:CBM-c-|_c_]], 2022.01.22) : To clarify, PenLoc doesn't return the current user defined mouse position (see [[VS:GetMouse]] for that), it returns the pen position during the script. Actions such as creating lines, polys etc. will cause the graphical pen internally to move. Is 2D only, In Python it returns a bidimensional tuple.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -34,7 +34,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.MoveTo(1, 234, 0) # penLoc = (1, 234)
 vs.Line(100, 0) # pen position moved by 100

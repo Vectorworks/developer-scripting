@@ -43,11 +43,11 @@ def vs.GetCAlign(h, row, col):
 |col|INTEGER|Worksheet column index.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 AlignmentMode := GetCAlign(WSheetHd, 4, 5);
 ```
-==== Python ====
+#### Python ####
 ```python
 AlignmentMode = vs.GetCAlign(WSheetHd, 4, 5)
 ```

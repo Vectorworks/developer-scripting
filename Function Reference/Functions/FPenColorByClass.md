@@ -17,11 +17,11 @@ Returns whether the global attributes are set to use the pen colors of the defau
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 useClassPenColor:=FPenColorByClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 useClassPenColor = vs.FPenColorByClass()
 ```

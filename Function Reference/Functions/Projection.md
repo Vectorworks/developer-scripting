@@ -91,11 +91,11 @@ Projection(1, 0, 9.76 * UPI * LayerScale, dwgleft, dwgtop, dwgright, dwgbottom);
 It has to be in real world inches, but has been discussed before. Try searching the archives.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Projection(1,2,3',-2,-2,2,2);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

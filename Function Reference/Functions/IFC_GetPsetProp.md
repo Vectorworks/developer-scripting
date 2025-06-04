@@ -27,7 +27,7 @@ def vs.IFC_GetPsetProp(hObject, inStrPsetName, inStrPropName):
 |outTypeSelect|INTEGER|Type of the property|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -43,7 +43,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hWall = vs.FSActLayer()
 ok, outValue, iType  = vs.IFC_GetPsetProp(hWall, 'Pset_WallCommon', 'Reference')

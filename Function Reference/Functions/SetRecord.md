@@ -21,11 +21,11 @@ def vs.SetRecord(h, record):
 |record|STRING|Name of record to assign to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetRecord(HandleToObject,'Part Info');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

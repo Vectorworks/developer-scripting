@@ -25,11 +25,11 @@ def vs.SetFillIAxisEndPoint(objectHandle, xIAxisEndPoint, yIAxisEndPoint):
 |yIAxisEndPoint|REAL|Y coordinate of I-axis point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetFillIAxisEndPoint(objectHandle, 20.0, 10.0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

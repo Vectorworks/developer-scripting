@@ -21,7 +21,7 @@ def vs.StrDialog(request, default):
 |default|STRING|Default value for input field.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -33,7 +33,7 @@ result := StrDialog(request, default);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def example():
 	request = 'User prompt string'

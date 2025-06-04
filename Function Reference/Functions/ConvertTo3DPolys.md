@@ -29,7 +29,7 @@ The group will contain a single 3D poly if the original source polyline containe
 The following object types fail to be converted: Dimensions.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -39,7 +39,7 @@ h := ConvertTo3DPolys(FSActLayer);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	h = vs.ConvertTo3DPolys(vs.FSActLayer())

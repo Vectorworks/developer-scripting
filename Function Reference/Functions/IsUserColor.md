@@ -24,7 +24,7 @@ def vs.IsUserColor(ColorIDX):
 ColorName returns the name of the color associated with the ColorIDX
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE PaintTagWorking;
 VAR
@@ -52,7 +52,7 @@ END;
 END;
 RUN(PaintTagWorking);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

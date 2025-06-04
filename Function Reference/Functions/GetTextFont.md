@@ -23,11 +23,11 @@ def vs.GetTextFont(objectHd, Position):
 |Position|INTEGER|Position in text string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 fontID:=GetTextFont(handleToText,2);
 ```
-==== Python ====
+#### Python ####
 ```python
 fontID = vs.GetTextFont(handleToText,2)
 ```

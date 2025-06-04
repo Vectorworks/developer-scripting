@@ -33,7 +33,7 @@ def vs.GetObjEndMarker(obj):
 |visibility|BOOLEAN|The marker visibility.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -56,7 +56,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example()
 	h = vs.FSActLayer()

@@ -26,11 +26,11 @@ def vs.SetPrefString(index, value):
 Sets the value of the specified preference to the value passed.   Similar to SetPref() except it works on preferences for string values
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPrefString(154,'cubits');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

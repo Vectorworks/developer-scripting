@@ -13,11 +13,11 @@ def vs.FPenSize():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CurrPenSize:=FPenSize;
 ```
-==== Python ====
+#### Python ####
 ```python
 CurrPenSize = vs.FPenSize()
 ```

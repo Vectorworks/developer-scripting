@@ -25,7 +25,7 @@ def vs.CreateContourCurves(inSourceObject, delta, ptOnPlane, normal):
 |normal|REAL|Plane's normal vector|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -47,7 +47,7 @@ h := CreateContourCurves(inSourceObject, delta, ptOnPlaneX, ptOnPlaneY, ptOnPlan
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	inSourceObject = vs.FSActLayer()

@@ -25,7 +25,7 @@ Then you can use GetLW to determine the actual lineweight.
 [[User:Orso.b.schmid| orso]]: (1 mil = 1/1000 in)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetLWExample;
 VAR
@@ -40,7 +40,7 @@ BEGIN
 END;
 RUN(GetLWExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 def PickPointCallback(pt):
 	h = vs.PickObject(pt[0], pt[1])

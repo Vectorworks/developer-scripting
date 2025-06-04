@@ -23,7 +23,7 @@ def vs.PenPat(patNumber):
 |patNumber|INTEGER|Pattern/linestyle ID value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PenPat(25);
 { uses fill pattern 25 as the active pen pattern }
@@ -31,7 +31,7 @@ PenPat(25);
 PenPat(-3);
 { sets a linestyle as the active pen pattern }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

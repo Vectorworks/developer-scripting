@@ -21,14 +21,14 @@ def vs.FillFore(color):
 [[User:CBM-c-|_c_]] 2015.05.19: This routine will also accept a single INTEGER Color Palette Index value in lieu of three LONGINT RGB values for the COLOR parameter. The Color index can be obtained with [[VS:RGBToColorIndex]]. See remarks under [[VS:SetPenFore]] for more infos. On Vectorlab there is a list of all color routines accepting multiple variable type, see: [http://www.vectorlab.info/index.php?title=Index_pitfalls#Colors Color Index].
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FillFore(65535, 0, 39321); { using RGB values }
 
 colorIndex := RGBToColorIndex(65535, 0, 39321);
 FillFore(colorIndex); { using Color Index values }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.FillFore((65535, 0, 39321)) # using RGB values
 

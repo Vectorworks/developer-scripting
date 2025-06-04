@@ -24,7 +24,7 @@ def vs.SetSegPt1(h, p):
 Although GetSegPt1 works on linear dimensions this call does not successfully set the pt for a dimension.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE ExtendLine;
 CONST
@@ -65,7 +65,7 @@ ForEachObject(ProcessLine, (((C='LineClass') &amp; (T=LINE))));
 END;
 RUN(ExtendLine);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

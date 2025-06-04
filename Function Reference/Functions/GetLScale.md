@@ -21,11 +21,11 @@ def vs.GetLScale(h):
 ''Joel Sciamma 2006.02.20'': Returns 200 for 1:200, 1 for 1:1 and 0.5 for 2x
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LayerScale := GetLScale(LayerHandle);
 ```
-==== Python ====
+#### Python ####
 ```python
 LayerScale  = vs.GetLScale(vs.ActLayer())
 ```

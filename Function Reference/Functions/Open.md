@@ -56,7 +56,7 @@ Returns platform specific absolute paths (not user interactive):
 *[[VS:GetFPathName]]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -70,7 +70,7 @@ Close(fileName);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

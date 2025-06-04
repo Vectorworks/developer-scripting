@@ -22,7 +22,7 @@ def vs.StdRead():
 |z|ANY|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetFile(fName);
 IF NOT DidCancel THEN BEGIN
@@ -30,7 +30,7 @@ Open(fName);
 StdRead(partID,partName);
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

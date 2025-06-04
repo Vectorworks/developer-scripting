@@ -28,7 +28,7 @@ The last parameter is the tab stop, in characters.  This function should be call
 To insert choices into a list box that has tab stops, add tabs to the string to separate the values.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -72,7 +72,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler(item, data):
 	if item == SetupDialogC:

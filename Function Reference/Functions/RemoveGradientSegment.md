@@ -21,12 +21,12 @@ def vs.RemoveGradientSegment(gradient, segmentIndex):
 |segmentIndex|INTEGER|Index of segment to be removed.|(segment indexes begin with 1)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 RemoveGradientSegment (gradientHandle, 4);
 { removes the segment with index 4 }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -21,13 +21,13 @@ def vs.Duplicate(offset):
 If user has "Offset Duplications" turned off, Duplicate ignores the x/y.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Rect(0,1,1,0);
 Duplicate(2,0);
 {duplicates the rectangle 2 units right of the original}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Rect(0,1,1,0)
 vs.Duplicate(2,0)

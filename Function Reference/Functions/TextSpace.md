@@ -32,12 +32,12 @@ def vs.TextSpace(spacing):
 |spacing|INTEGER|Spacing style for text.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TextSpace(4);
 {set the active leading to double space}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

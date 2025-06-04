@@ -21,7 +21,7 @@ def vs.EqualPt(p1, p2):
 |p2|REAL|Coordinates of second comparison point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -35,7 +35,7 @@ Message(EqualPt(x1, y1, x2, y2));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	x1 = 1

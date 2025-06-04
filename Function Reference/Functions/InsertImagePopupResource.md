@@ -26,13 +26,13 @@ def vs.InsertImagePopupResource(dialogID, componentID, listID, index):
 |index|LONGINT|an index into the list.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { Add all items in the resource list to the image popup. }
 for index:=1 to numItems do
 index := InsertImagePopupResource(dialogID, kImagePopupID, listID,   index);
 ```
-==== Python ====
+#### Python ####
 ```python
 for idx in range(cnt_reslist):
     # append image to popup, 1-based index in resource list

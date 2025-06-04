@@ -32,7 +32,7 @@ def vs.vsoStateGetNameChng(hObj):
 Setting your event enabled object to regen On Move is the best approach, as far as I see (even a copy in place is a move, for VW).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -68,7 +68,7 @@ BEGIN
       vsoSetEventResult(-8); { kObjectEventHandled }
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -31,12 +31,12 @@ def vs.InsertGradientSegment(gradient, spotPosition, midpointPosition, red, gree
 |blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 index := InsertGradientSegment(gradientHandle, 0.35, 0.4, 255, 255, 255);
 { inserts a white color spot at position, 0.35, with a midpoint position of 0.4 }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

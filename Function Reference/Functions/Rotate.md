@@ -18,11 +18,11 @@ def vs.Rotate(rotationAngle):
 |rotationAngle|REAL|Rotation angle.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Rotate(45d15'23");
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

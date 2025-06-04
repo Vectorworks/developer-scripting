@@ -22,11 +22,11 @@ def vs.WriteMac(z):
 |z|ANY|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 WriteMac(Value1);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

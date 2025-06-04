@@ -18,7 +18,7 @@ def vs.IFC_DMLoadSettings(inStrParam):
 |inStrParam|STRING|IFC Data Mapping name. If parameter is Empty, it's going to load the Default IFC Data Mapping.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -29,7 +29,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_DMLoadSettings('MyIFCMapping')
 ```

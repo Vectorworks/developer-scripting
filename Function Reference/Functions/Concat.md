@@ -40,11 +40,11 @@ def vs.Concat(txt):
 |}
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 AlrtDialog(Concat('A', 'sample', 'string'));
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.AlrtDialog(vs.Concat('A', 'sample', 'string'))
 ```

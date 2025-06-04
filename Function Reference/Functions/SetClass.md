@@ -26,7 +26,7 @@ If you use SetClass to set the class of an object to the 'None' class, and the '
 Note that if a handle to group is used, all objects within the group will receive the same class assignment as the group [Julian].
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -34,7 +34,7 @@ SetClass(FSActLayer, 'None');
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

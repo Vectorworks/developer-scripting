@@ -32,7 +32,7 @@ def vs.SetPolylineVertex(obj, vertexNum, p, vertexType, arcRadiusDistance, recal
 Sets the specified vertex of the referenced polyline object.  Vertex type constant values are 0 - Corner, 1 - Bezier, 2 - Cubic, 3 - Arc, 4 - Radius
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 {This will convert anything it can in the drawing to a polyline
@@ -62,7 +62,7 @@ ForEachObject(FilletPolygon, criteria);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

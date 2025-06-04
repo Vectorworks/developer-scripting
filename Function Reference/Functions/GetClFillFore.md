@@ -28,12 +28,12 @@ def vs.GetClFillFore(className):
 Returns the fill foreground color setting of the class named className in parameters colorRV, colorGV, and colorBV.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetClFillFore('Grassy Cover',cRed,cGrn,cBlu);
 RGBToColorIndex(cRed,cGrn,cBlu,colorValue);
 ```
-==== Python ====
+#### Python ####
 ```python
 cRed,cGrn,cBlu = vs.GetClFillFore('Grassy Cover')
 colorValue = vs.RGBToColorIndex(cRed,cGrn,cBlu)

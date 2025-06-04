@@ -56,7 +56,7 @@ vertMiter: This is used only with the double miter type; it specifies the vertic
 slabKind := GetObjectVariableInt(h, 172); {1 = roof, 2 = floor, 3 = column}
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 var
@@ -72,7 +72,7 @@ THEN Message(genGableWall, ' ', bearingInset, ' ', roofThick, ' ', miterType, ' 
 end;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	theRoof = vs.FSActLayer()

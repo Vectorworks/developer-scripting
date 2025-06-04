@@ -25,7 +25,7 @@ def vs.SetLayoutDialogPosition(dialogID, left, top):
 |top|INTEGER|Location of top edge of dialog in pixels.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Dialog;
 VAR
@@ -52,7 +52,7 @@ BEGIN
 END;
 RUN(Dialog);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

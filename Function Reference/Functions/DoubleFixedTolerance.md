@@ -29,13 +29,13 @@ def vs.DoubleFixedTolerance(showVal, boxText, leader, trailer, topStr, botStr):
 |botStr|STRING|Tolerance value text string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LinearDim(-2",2",1",2",-3",0,771,771,0.75);
 DoubleFixedTolerance(TRUE,FALSE,'','','yes','no');
 {defines a dimension with a double fixed tolerance}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.LinearDim(-2,2,1,2,-3,0,771,771,0.75)
 vs.DoubleFixedTolerance(True,False,'','','yes','no')

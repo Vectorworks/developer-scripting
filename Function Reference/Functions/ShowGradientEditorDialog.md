@@ -20,7 +20,7 @@ def vs.ShowGradientEditorDialog(gradient):
 |gradient|HANDLE|The gradient resource to display in the editor dialog; nil if a new gradient is to be created.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ShowGradientEditorDialog(gradientHandle);
 { displays the specified gradient resource in the editor }
@@ -29,7 +29,7 @@ newGradientHandle := nil;
 ShowGradientEditorDialog(newGradientHandle);
 { creates a new gradient resource and displays it in the editor }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

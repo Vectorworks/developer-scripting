@@ -23,7 +23,7 @@ def vs.IFC_DMSaveSettings(inStrParam, inObjName, bFileSettings):
 |bFileSettings|BOOLEAN|TRUE if the user wants to save the whole IFC Data Mapping. FALSE - saves only the specified Object's mapping.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -34,7 +34,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_DMSaveSettings('MyIFCMapping', '', TRUE)
 ```

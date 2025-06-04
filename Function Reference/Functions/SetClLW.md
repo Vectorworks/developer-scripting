@@ -24,11 +24,11 @@ def vs.SetClLW(className, LW):
 Assigns the specified line style to the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetClLW('To Be Demolished',28);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

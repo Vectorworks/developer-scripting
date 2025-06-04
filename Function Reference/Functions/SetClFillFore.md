@@ -24,12 +24,12 @@ def vs.SetClFillFore(className, r,g,b):
 Changes the fill foreground color setting of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ColorIndexToRGB(24,cRed,cGrn,cBlu);
 SetClFillFore('Grassy Cover',cRed,cGrn,cBlu);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

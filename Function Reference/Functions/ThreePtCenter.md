@@ -26,7 +26,7 @@ def vs.ThreePtCenter(pt1, pt2, pt3):
 ([[User:CBM-c-|_c_]], 2022.01.18) In VS Python this routine returns a 3-dimensional tuple. Warning: Most Math - Vector routines require a 3-dimensional tuple, failing to init a third item in VW before 2023 (vs.Vec2Ang, for example, returns gibberish on 2-d tuples).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { finds the tangent angle between two poly sides }
 PROCEDURE Example;
@@ -51,7 +51,7 @@ IF polyObj <> NIL THEN BEGIN { not checking here for obj type, but you should }
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 # finds the tangent angle between two poly sides
 polyObj = vs.FSActLayer() # take care to have a polygon selected

@@ -26,7 +26,7 @@ Returns the Z and Delta Z values for the active layer.
 [sd 8/14/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetLayerHeights(layerHandle :handle; var baseElev, thickness :REAL);
 BEGIN
@@ -35,7 +35,7 @@ baseElev  := baseElev  / (25.4 / GetPrefReal(152));
 thickness := thickness / (25.4 / GetPrefReal(152));
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

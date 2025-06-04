@@ -21,11 +21,11 @@ def vs.HideClass(className):
 If you're hiding a class for the purpose of printing with that class turned off, you have to do a [[VS:ReDrawAll]] before calling the the <i>[[VS:DoMenuTextByName|DoMenuTextByName]]('Print',0)</i> call, or else the class doesn't get hidden until after the script completes execution.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 HideClass('Dimension');
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.HideClass('Dimension')
 ```

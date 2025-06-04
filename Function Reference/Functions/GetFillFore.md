@@ -25,11 +25,11 @@ def vs.GetFillFore(h):
 |blue|LONGINT|Returns RGB color component value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetFillFore(handleToObject,redValue,greenValue,blueValue);
 ```
-==== Python ====
+#### Python ####
 ```python
 red_value, green_value, blue_value = vs.GetFillFore(vs.FSActLayer())
 ```

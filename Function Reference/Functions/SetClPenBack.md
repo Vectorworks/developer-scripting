@@ -24,12 +24,12 @@ def vs.SetClPenBack(className, r,g,b):
 Changes the pen background color setting of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ColorIndexToRGB(214,cRed,cGrn,cBlu);
 SetClPenBack('Cold Water Supply',cRed,cGrn,cBlu);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

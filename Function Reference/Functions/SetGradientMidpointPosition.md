@@ -23,11 +23,11 @@ def vs.SetGradientMidpointPosition(gradient, segmentIndex, position):
 |position|REAL|Position of the segment's midpoint relatvie to color spot immediately to left.|(position &gt;= 0.0 and position &lt;= 1.0)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetGradientMidpointPosition(gradientHandle, 4, 0.6);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

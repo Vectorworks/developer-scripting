@@ -31,11 +31,11 @@ def vs.PtDialog3D(displayStr, xStr, yStr, zStr):
 |zPt|REAL|Returns user input Z value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PtDialog3D('Enter the 3D location:','0','0','0',x,y,z);
 ```
-==== Python ====
+#### Python ####
 ```python
 xPt, yPt, zPt = vs.PtDialog3D('User prompt string','0','0','0')
 ```

@@ -39,11 +39,11 @@ def vs.CircularDim(startPt, endPt, box1, box2, textOffsetDistance, dimType, arro
 |shoulder|REAL|Shoulder extension line length.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CircularDim(-4 3/8&quot;,3&quot;,-4 3/8&quot;,1/4&quot;,-5 3/4&quot;,3&quot;,-3&quot;,1/4&quot;,1 1/8&quot;,1,3, 1025,1/4&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.CircularDim(-4 - 3/8,3,-4 - 3/8,1/4,-5 - 3/4,3,-3,1/4,1 + 1/8,1,3, 1025,1/4)
 ```

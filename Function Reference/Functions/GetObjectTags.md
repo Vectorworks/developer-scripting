@@ -21,7 +21,7 @@ def vs.GetObjectTags(objHandle):
 |outArrTags|ARRAY|The output array of Tags queried from the object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Procedure Test;
 var  h :Handle;
@@ -35,7 +35,7 @@ end;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 h = vs.FLayer
 b,t = vs.GetObjectTags(h)
@@ -54,7 +54,7 @@ Message(Date(2,2),' ',a(1),' ',a(2));
 end;
 
 Run(Test);</code>
-==== Python ====
+#### Python ####
 <code lang="py">
 h = vs.FLayer
 b,t = vs.GetObjectTags(h)

@@ -24,7 +24,7 @@ def vs.GetPtL(callback):
 In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted line (two points as callback function parameters).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -38,7 +38,7 @@ END;
 RUN(Example);
 ```
 Python sample is similar to the sample in [[VS:GetPt]].
-==== Python ====
+#### Python ####
 ```python
 
 ```

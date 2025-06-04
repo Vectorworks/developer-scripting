@@ -32,12 +32,12 @@ def vs.TextFlip(FlipType):
 |FlipType|INTEGER|Text flip setting for text.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TextFlip(1);
 CreateText('Sample text string');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

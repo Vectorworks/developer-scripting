@@ -18,7 +18,7 @@ def vs.EndPoly3D():
 [sd 8/14/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginPoly3D;
 Add3DPt(0,0,0);
@@ -29,7 +29,7 @@ Add3DPt(0,2,0);
 Add3DPt(0,0,0);
 EndPoly3D;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginPoly3D()
 vs.Add3DPt(0,0,0)

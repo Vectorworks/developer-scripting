@@ -21,11 +21,11 @@ def vs.AngDialog(request, default):
 |default|STRING|Default value for input field.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 AngleValue := AngDialog('Enter an angle value:', '0d');
 ```
-==== Python ====
+#### Python ####
 ```python
 AngleValue = vs.AngDialog('Enter an angle value:', '0d')
 ```

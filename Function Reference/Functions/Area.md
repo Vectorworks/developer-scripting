@@ -18,12 +18,12 @@ def vs.Area(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 totalA:=Area((C='Plywood')and(L='First'));
 {returns the area of all objects in class 'Plywood' on layer 'First'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

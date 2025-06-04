@@ -27,11 +27,11 @@ def vs.GetGradientSpotColor(gradient, segmentIndex):
 |blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetGradientSpotColor(gradientHandle, 4, red, green, blue);
 ```
-==== Python ====
+#### Python ####
 ```python
 red, green, blue = vs.GetGradientSpotColor(gradientHandle, 4)
 ```

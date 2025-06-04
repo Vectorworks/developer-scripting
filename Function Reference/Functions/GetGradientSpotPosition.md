@@ -23,11 +23,11 @@ def vs.GetGradientSpotPosition(gradient, segmentIndex):
 |position|REAL|Position of the segment's color spot relative to left-most point of the gradient.|(position &gt;= 0.0 and position &lt;= 1.0)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetGradientSpotPosition(gradientHandle, 4, spotPosition);
 ```
-==== Python ====
+#### Python ####
 ```python
 spotPosition = vs.GetGradientSpotPosition(gradientHandle, 4)
 ```

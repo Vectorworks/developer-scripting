@@ -32,7 +32,7 @@ def vs.vsoStateGetPos(hObj):
 Returns the distance moved (NOT the previous x,y,z location) in mm.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -62,7 +62,7 @@ BEGIN
         END;
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -20,14 +20,14 @@ def vs.Message(z):
 |z|ANY|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Message('Hello, world');
 
 Message('The Number of objects was :',theNumber);
 {displays a string using the variable value}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

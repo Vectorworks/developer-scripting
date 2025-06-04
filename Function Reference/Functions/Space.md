@@ -18,12 +18,12 @@ def vs.Space(n):
 |n|INTEGER|Number of spaces.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Space(5);
 {write 5 spaces to the output file}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

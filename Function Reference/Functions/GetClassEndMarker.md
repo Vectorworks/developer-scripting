@@ -31,7 +31,7 @@ def vs.GetClassEndMarker(name):
 |thickness|REAL|The marker thickness|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -51,7 +51,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	ok, style, angle, size, width, thickBasis, thickness = vs.GetClassEndMarker('None')

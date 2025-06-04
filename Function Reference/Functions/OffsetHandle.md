@@ -36,7 +36,7 @@ Warning:
 ; VW 2014: the handle will set as expected, undo still fails
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE try;
 VAR
@@ -61,7 +61,7 @@ BEGIN
 END;
 Run(try);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

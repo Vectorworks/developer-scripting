@@ -74,7 +74,7 @@ BEGIN
     { the rotation over the x and y axes will be set back to 0 when the symbol is edited }
 END;
 RUN(test);
-==== Python ====
+#### Python ####
 <code lang="py">
 ```
 

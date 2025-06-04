@@ -38,7 +38,7 @@ From Raymond Mullin:
 7 - If an array of characters is written to a file, the number of characters in the file will be less than the array length by the number of NULS in the array.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 CONST
@@ -52,7 +52,7 @@ Close('Output.txt');
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

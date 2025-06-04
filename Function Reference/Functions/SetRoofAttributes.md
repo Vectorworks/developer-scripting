@@ -51,7 +51,7 @@ bearingInset  is where the weight of the roof rests on the wall.  This is an ins
 miterType:  Specify 1 for a vertical miter, 2 for horizontal miter, 3 for a double miter cut, and 4 for a square end miter cut.  vertMiter: This is used only with the double miter type; it specifies the vertical length of the miter cut.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -85,7 +85,7 @@ ForEachObject(FindRoofFaces, str);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

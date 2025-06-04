@@ -23,14 +23,14 @@ def vs.Move3D(xDistance, yDistance, zDistance):
 |zDistance|REAL|Z offset ditance.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginXtrd(0',2&quot;);
 Rect(0&quot;,1&quot;,1&quot;,0&quot;);
 EndXtrd;
 Move3D(3&quot;,1&quot;,2&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

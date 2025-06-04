@@ -26,11 +26,11 @@ def vs.SetPrefInt(index, value):
 Sets the value of the specified preference to the value passed.   Similar to SetPref() except it works on preferences for Integer values
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPrefInt(17,FALSE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

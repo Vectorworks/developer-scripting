@@ -18,7 +18,7 @@ def vs.IFC_ClearIFCInfo(hObject):
 |hObject|HANDLE|Handle to object|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -31,7 +31,7 @@ end;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject = vs.FSActLayer()
 ok = vs.IFC_ClearIFCInfo(hObject)

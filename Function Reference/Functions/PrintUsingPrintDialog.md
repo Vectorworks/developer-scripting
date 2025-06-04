@@ -16,11 +16,11 @@ def vs.PrintUsingPrintDialog():
 Use GetEnabledModules to determine if an Industry Series product is installed.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 
 ```
-==== Python ====
+#### Python ####
 ```python
 result = vs.PrintUsingPrintDialog()
 ```

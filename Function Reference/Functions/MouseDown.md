@@ -21,7 +21,7 @@ def vs.MouseDown():
 This function returns a 2-dimensional point on the screen plane.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 REPEAT
 UNTIL MouseDown(x1,y1);
@@ -30,7 +30,7 @@ UNTIL MouseDown(x2,y2);
 MoveTo(x1,y1);
 LineTo(x2,y2);
 ```
-==== Python ====
+#### Python ####
 ```python
 down = False
 while not down:

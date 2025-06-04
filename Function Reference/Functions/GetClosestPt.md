@@ -32,7 +32,7 @@ def vs.GetClosestPt(obj, pt):
 |containedObj|LONGINT|Index of sub-object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetClosestPtExample;
 VAR
@@ -48,7 +48,7 @@ SetPenFore(obj, 65535, 0, 0);
 END;
 RUN(GetClosestPtExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 def PickPointCallback(pt):
 	obj = vs.PickObject(pt[0], pt[1])	

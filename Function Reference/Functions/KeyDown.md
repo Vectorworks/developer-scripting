@@ -56,7 +56,7 @@ The VectorScript function KeyDown () is initialized as TRUE on Windows in
 Tom
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 WHILE NOT KeyDown(keyHit) DO
 BEGIN
@@ -66,7 +66,7 @@ END;
 Message('The key pressed was ',keyHit);
 {an annoying example of one use of the KeyDown function}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

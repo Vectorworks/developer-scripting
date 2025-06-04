@@ -13,7 +13,7 @@ def vs.IFC_DMResetToDef():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -24,7 +24,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok	= vs.IFC_DMResetToDef()
 ```

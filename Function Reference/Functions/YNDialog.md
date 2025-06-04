@@ -21,7 +21,7 @@ def vs.YNDialog(s):
 YNDialog uses the exclamation icon, when really it should use the question icon.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 
@@ -36,7 +36,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 result = vs.YNDialog('User prompt string')
 ```

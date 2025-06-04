@@ -21,7 +21,7 @@ def vs.WriteXMLMemory(XMLHandle):
 |XMLData|DYNARRAY [] OF CHAR|Output parameter.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 procedure test;
 var 	xml : longint;
@@ -46,7 +46,7 @@ begin
 end;
 run(test);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

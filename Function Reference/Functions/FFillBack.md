@@ -23,11 +23,11 @@ def vs.FFillBack():
 |blue|LONGINT|Returns RGB color component value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FFillBack(redValue,greenValue,blueValue);
 ```
-==== Python ====
+#### Python ####
 ```python
 redValue,greenValue,blueValue = vs.FFillBack()
 ```

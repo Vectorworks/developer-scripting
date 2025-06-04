@@ -27,7 +27,7 @@ def vs.vsoStateGetLayrChng(hObj):
 |outScaleText|BOOLEAN|Output parameter. Does the new scale affect texts.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -58,7 +58,7 @@ BEGIN
       END;
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

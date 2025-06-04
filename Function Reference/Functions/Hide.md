@@ -21,11 +21,11 @@ def vs.Hide(c):
 Makes objects with the specified search criteria invisible if they are not already
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Hide((C='Proposed Phase 2 Construction'));
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

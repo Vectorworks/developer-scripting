@@ -44,11 +44,11 @@ The linestyle is defined by up to five black/white length pairs, which are speci
 The Function will also set the document default line style.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 currLS:=GetDashStyle;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.GetDashStyle(True, 1, 1)
 ```

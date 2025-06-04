@@ -36,11 +36,11 @@ This can be used to update values in data records attached to objects, as well a
 If you set a pop-up record field of a plug-in object by using the string value of one of the pop-up list members, case counts. For instance, after inserting a Drawing Border-Arch object into a drawing, the [[VS:SetRField]] procedure was used to set the Drawing Size pop-up field to the string value 'Condoc F - Horizontal' whereas the parameter value is 'ConDoc F - Horizontal' (notice the 'd' in ConDoc.) The drawing form was not drawing correctly because of this (the default A size form was drawn.) However, the orphan value of 'Condoc F - Horizontal' (little 'd') did not show up in the pop-up list as would be expected, but 'ConDoc F - Horizontal' (big 'D') was selected even though the form was not drawn to that size.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetRField(HandleToObject,'Part Info','Serial No.','P-4322');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

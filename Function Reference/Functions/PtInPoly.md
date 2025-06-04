@@ -24,7 +24,7 @@ def vs.PtInPoly(p, h):
 ([[User:CBM-c-_| _c_]] 2021.12.27): This only works on polygons or segments of polylines whose vertex type is corner. Any point on poly segments with other vertex type (bezier, arc, radius, cubic) will return false. Also small polygon sides will cause failure. All in all it is barely usable for anything than large polygons (not polylines) with large sides.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -39,7 +39,7 @@ Message(PtInPoly(x, y, polyHandle));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

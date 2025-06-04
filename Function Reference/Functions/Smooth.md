@@ -35,12 +35,12 @@ def vs.Smooth(smoothType):
 |smoothType|INTEGER|Smoothing style.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Smooth(2);
 Poly(0, 0, -0.5, 1, 0.5, 2);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

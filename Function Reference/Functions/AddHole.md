@@ -21,7 +21,7 @@ def vs.AddHole(objectToGetHole, holeTemplate):
 |holeTemplate|HANDLE|A 2D object to cut a hole out of objectToGetHole.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE AddHoleExample;
 VAR
@@ -35,7 +35,7 @@ IF AddHole(h1, h2) THEN SetFPat(h1, 3);
 END;
 RUN(AddHoleExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 def AddHoleExample():
 	vs.CallTool(-204)

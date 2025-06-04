@@ -26,11 +26,11 @@ Sets whether the class texture attributes are used at object creation.
 Respective 'Get' is under Textures: [[VS:GetClUseTexture]] .
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetClUseTexture('Proposed Roof',TRUE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

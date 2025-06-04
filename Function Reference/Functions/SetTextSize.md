@@ -28,12 +28,12 @@ def vs.SetTextSize(objectHd, Start, Count, Size):
 The size parameter was previously an integer, but is now a floating point value. [9/14/98 - PCP]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetTextSize(HandleToText,0,5,24);
 {set the first five characters of the referenced text string to 24 point text}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

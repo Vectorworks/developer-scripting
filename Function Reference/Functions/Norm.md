@@ -21,7 +21,7 @@ def vs.Norm(Vec):
 ([[User:CBM-c-|_c_]], 2022.01.20) In Python the vector used as parameter MUST be 3-dimensional, or it will return gibberish. This doesn't matter in Pascal.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -43,7 +43,7 @@ BEGIN
 END;
 Run(Example2);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0) # 3-dimensional tuple
 v2 = (3, 15, 0)

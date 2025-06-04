@@ -24,12 +24,12 @@ def vs.SetClFillBack(className, r,g,b):
 Changes the fill background color setting of the class named className.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ColorIndexToRGB(98,cRed,cGrn,cBlu);
 SetClFillBack('Grassy Cover',cRed,cGrn,cBlu);
 ```
-==== Python ====
+#### Python ####
 ```python
 cRed,cGrn,cBlu = ColorIndexToRGB(98)
 SetClFillBack('Grassy Cover',(cRed,cGrn,cBlu))

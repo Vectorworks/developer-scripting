@@ -21,7 +21,7 @@ def vs.CreateOffsetNurbsObjectHandle(h, offsetDistance):
 |offsetDistance|REAL|Offset distance. Positive offsets outwards.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -34,7 +34,7 @@ h := CreateOffsetNurbsObjectHandle(h, 1);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

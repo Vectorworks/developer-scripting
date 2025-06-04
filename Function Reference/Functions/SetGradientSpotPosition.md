@@ -25,11 +25,11 @@ def vs.SetGradientSpotPosition(gradient, segmentIndex, position):
 |position|REAL|Position of the segment's color spot relative to left-most point of the gradient.|(position &gt;= 0.0 and position &lt;= 1.0)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetGradientSpotPosition(gradientHandle, segmentIndex, 0.9);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

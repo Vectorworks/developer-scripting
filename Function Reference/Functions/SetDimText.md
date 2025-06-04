@@ -23,11 +23,11 @@ def vs.SetDimText(h, leaderTrailer):
 |leaderTrailer|STRING|Dimension text string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetDimText(dimHandle,'Length varies');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

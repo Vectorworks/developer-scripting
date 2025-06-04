@@ -13,13 +13,13 @@ def vs.Absolute():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Absolute;
 ClosePoly;
 Poly(0,0,1,1,1,2,2,2,2,0);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Absolute
 vs.ClosePoly

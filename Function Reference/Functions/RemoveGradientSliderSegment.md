@@ -25,11 +25,11 @@ def vs.RemoveGradientSliderSegment(dialogID, componentID, segmentIndex):
 |segmentIndex|INTEGER|Index to segment to be removed.|(segment indexes begin with 1)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 RemoveGradientSliderSegment(dialogID, componentID, 4);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

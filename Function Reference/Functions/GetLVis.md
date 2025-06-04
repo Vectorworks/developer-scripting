@@ -32,7 +32,7 @@ def vs.GetLVis(h):
 Note that this returns the state of the layer, as determined in the Layers... dialog, not whether or not the layer is actually visible on the screen. If Layer Options is set to Active Only, a "visible" layer will not be "visible" on the screen unless it is the active layer. This is the same behavior as GetObjectVariableInt(layerHandle, 153), which only returns the layer's visibility setting, not whether or not it's actually visible.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 FUNCTION GetLayerVisibility(layerHandle :handle) :INTEGER;
@@ -55,7 +55,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def GetLayerVisibility(layerHandle):
 	#{Returns the effective visibility of a layer.}

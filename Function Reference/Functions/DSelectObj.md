@@ -18,12 +18,12 @@ def vs.DSelectObj(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 DSelectObj(S='Pine Tree');
 {deselects all 'Pine Tree' symbols}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

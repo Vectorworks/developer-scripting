@@ -25,7 +25,7 @@ def vs.IFC_GetSpaceParamFO(hSpace, inStrParam):
 ## Examples
 To use the sample you need to have a selected Space object on the drawing.
 
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -53,7 +53,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hSpace	= vs.FSObject( vs.FLayer() )
 if hSpace != vs.Handle(0):

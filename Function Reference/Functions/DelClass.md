@@ -18,11 +18,11 @@ def vs.DelClass(className):
 |className|STRING|Name of class to delete.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 DelClass('Future Construction');
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.DelClass('Future Construction')
 ```

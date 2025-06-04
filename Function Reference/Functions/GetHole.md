@@ -61,7 +61,7 @@ Run(xxxxx);
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -88,7 +88,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 #Labels each vertex of a selected polyline's holes with their hole index and vertex index
 def labelHoleVertices():

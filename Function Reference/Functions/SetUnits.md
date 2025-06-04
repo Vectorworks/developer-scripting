@@ -64,11 +64,11 @@ Sets low-level unit values. If only one of the values is desired to change, GetU
 [sd 8/18/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetUnits(4096,64,3,1.0,'&quot;','sq ft');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

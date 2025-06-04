@@ -34,7 +34,7 @@ State constants are:
 :[[VS:Parametric State Notifications#kObjectNameChanged|kObjectNameChanged]] = 7;
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -64,7 +64,7 @@ BEGIN
       END;
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

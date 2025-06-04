@@ -25,11 +25,11 @@ def vs.SetFillJAxisEndPoint(objectHandle, xJAxisEndPoint, yJAxisEndPoint):
 |yJAxisEndPoint|REAL|Y coordinate of J-axis point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetFillJAxisEndPoint(objectHandle, 15.0, 25.0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

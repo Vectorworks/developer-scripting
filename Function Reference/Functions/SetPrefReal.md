@@ -26,11 +26,11 @@ def vs.SetPrefReal(index, value):
 Sets the value of the specified preference to the value passed.   Similar to SetPref() except it works on preferences for real values
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPrefReal(68,144);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

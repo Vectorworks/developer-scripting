@@ -14,11 +14,11 @@ def vs.FPenPat():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CurrPenStyle:=FPenPat;
 ```
-==== Python ====
+#### Python ####
 ```python
 CurrPenStyle = vs.FPenPat()
 ```

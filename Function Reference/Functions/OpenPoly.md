@@ -13,13 +13,13 @@ def vs.OpenPoly():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 OpenPoly;
 Poly(0,0,1,1,1,-1);
 {creates a open 3 sided polygon}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

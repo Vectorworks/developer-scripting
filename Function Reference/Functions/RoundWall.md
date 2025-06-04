@@ -26,7 +26,7 @@ def vs.RoundWall(centerPt, startPt, endPt):
 Creates a round wall the that is centered on the arc specified by the the three input points.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -44,7 +44,7 @@ RoundWall(x1, y1, x2, y2, x3, y3);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -44,12 +44,12 @@ def vs.MoveObjs(move, allLayers, allObjects):
 |allObjects|BOOLEAN|Move all objects option setting.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 MoveObjs(3,0,FALSE,FALSE);
 { moves selected objects on active layer 3 units to the right }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

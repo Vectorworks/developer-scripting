@@ -28,12 +28,12 @@ def vs.SetLScale(h, scale):
 |scale|REAL|Scale value for layer.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetLScale(HandleToLayer,96);
 {sets the referenced layer to a scale of 1/8&quot; = 1'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

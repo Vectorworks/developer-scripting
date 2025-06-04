@@ -42,7 +42,7 @@ if GetPickObjectInfo(x, y, h, hx, message) then begin
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -59,7 +59,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def PickPointCallback( pt ):
     vs.Message( 'X: ', pt[0], 'Y: ', pt[1] )

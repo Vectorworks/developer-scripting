@@ -18,11 +18,11 @@ Returns whether the global attributes are set to use the fill pattern of the def
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 useClassFPat:=FFPatByClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 useClassFPat = vs.FFPatByClass()
 ```

@@ -24,11 +24,11 @@ def vs.Ang2Vec(angleR, Length):
 ([[User:CBM-c-|_c_]], 2022.01.20) The vector returned is always 3-dimensional whereby the last item is always 0: Pascal: {x, y, z}, Python: tuple (0.0, 0.0, 0.0)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```python
 Message( Ang2Vec(45, 1) ); { 3-dimensional vector whose z item is always 0 }
 ```
-==== Python ====
+#### Python ####
 ```python
 v = vs.Ang2Vec(45, 1)
 vs.Message( str( v ) ) # 3-dimensional tuple whose last item is always 0

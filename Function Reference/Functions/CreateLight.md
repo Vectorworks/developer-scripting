@@ -45,11 +45,11 @@ def vs.CreateLight(pXR, pYR, pZR, lightType, isOn, castShadow):
 |castShadow|BOOLEAN|Specifies whether light will cast shadow.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CreateLight(2, 3, 8, 1, TRUE, TRUE);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.CreateLight(2, 3, 8, 1, True, True)
 ```

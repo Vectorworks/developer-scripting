@@ -15,11 +15,11 @@ def vs.FFillPat():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 currFillStyle:=FFillPat;
 ```
-==== Python ====
+#### Python ####
 ```python
 currFillStyle = vs.FFillPat()
 ```

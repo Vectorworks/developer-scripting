@@ -24,11 +24,11 @@ def vs.Scale(scaleXR, scaleYR):
 See also HScale2D.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Scale(2,3);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

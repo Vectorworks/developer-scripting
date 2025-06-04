@@ -21,7 +21,7 @@ def vs.SetObjectTags(objectHandle, arrTags):
 |arrTags|ARRAY|The arra of Tag Strings.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Procedure Test;
 
@@ -39,7 +39,7 @@ ENd;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 import vs
 
@@ -72,7 +72,7 @@ Begin
 ENd;
 
 Run(Test);</code>
-==== Python ====
+#### Python ####
 <code lang="py">
 import vs
 

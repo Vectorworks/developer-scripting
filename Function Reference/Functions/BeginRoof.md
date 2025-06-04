@@ -48,14 +48,14 @@ def vs.BeginRoof(p1, p2, upslope, riseDistance, runDistance, miter, vertPart):
 |vertPart|REAL|Dimension of vertical miter for double miter style.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginRoof(1,1,5,1,2,2,0.5,1,1,0);
 ClosePoly;
 Poly(1,1,3,1,3.5,2,4,1,5,1,5,5,1,5);
 EndGroup;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginRoof(1,1,5,1,2,2,0.5,1,1,0)
 vs.ClosePoly()

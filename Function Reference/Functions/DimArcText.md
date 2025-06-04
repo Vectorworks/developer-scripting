@@ -16,13 +16,13 @@ def vs.DimArcText():
 Creates an angular dimension object from the last arc object that was drawn using VectorScript
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Arc(0,0,2,2,45d,90d);
 DimArcText;
 { creates a dimension from the new arc object }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Arc(0,0,2,2,45,90)
 vs.DimArcText()

@@ -22,7 +22,7 @@ def vs.UnitVec(Vect):
 Note: in Python the vector used as parameter MUST be 3-dimensional, or UnitVec will return gibberish. This doesn't matter in Pascal.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```python
 PROCEDURE TEST;
 VAR
@@ -35,7 +35,7 @@ BEGIN
 END;
 Run(TEST);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0) # must be a 3-dimensional tuple, or you'll get gibberish in the returned vector
 v2 = (3, 15, 0)

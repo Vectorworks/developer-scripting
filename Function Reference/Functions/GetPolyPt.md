@@ -37,12 +37,12 @@ vs.AlrtDialog( 'after GetPolyPt: ' + str(len(p)) ) # 2 items?!?
 (Charles Chandler, 2001 Jan. 25): Doesn't work on rectangles, unless you rotate them, which turns them into polygons.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FOR i := 1 to GetVertNum(thePoly) DO
     GetPolyPt(thePoly, i, vertX, vertY);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
     obj = vs.FSActLayer()

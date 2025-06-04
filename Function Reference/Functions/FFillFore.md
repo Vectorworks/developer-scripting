@@ -23,11 +23,11 @@ def vs.FFillFore():
 |blue|LONGINT|Returns RGB color component value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 FFillFore(redValue,greenValue,blueValue);
 ```
-==== Python ====
+#### Python ####
 ```python
 redValue,greenValue,blueValue = vs.FFillFore()
 ```

@@ -22,7 +22,7 @@ def vs.IFC_AttachPset(hObject, inStrPsetName):
 
 ## Examples
 Assume we want an object to be exported as a space with attached  Pset_SpaceFireSafetyRequirements (first we have to attach IfcSpace with mandatory and enumerational properties and then the pset):
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -37,7 +37,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hSpace = vs.FSActLayer()
 ok = vs.IFC_SetIFCEntity(hSpace, 'IfcSpace')

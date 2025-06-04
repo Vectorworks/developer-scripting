@@ -25,7 +25,7 @@ def vs.AutoFitWSRowHeights(worksheet, fromRow, toRow):
 |toRow|INTEGER|Bottom row of row range|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Auto resizes the height of all rows from row 1 to row 4} 
 PROCEDURE Example;
@@ -37,7 +37,7 @@ AutoFitWSRowHeights(sheet,1,4);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	sheet = vs.GetTopVisibleWS() 

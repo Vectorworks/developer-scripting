@@ -20,7 +20,7 @@ def vs.WallTo(p):
 |p|REAL|End point of wall.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -46,7 +46,7 @@ WallTo(x2, y2);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

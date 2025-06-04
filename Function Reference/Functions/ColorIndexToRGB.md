@@ -28,12 +28,12 @@ def vs.ColorIndexToRGB(color):
 |blue|LONGINT|RGB color component value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ColorIndexToRGB(45, r, g, b);
 {returns the color value components of the color at position 45}
 ```
-==== Python ====
+#### Python ####
 ```python
 r, g, b = vs.ColorIndexToRGB(45)
 ```

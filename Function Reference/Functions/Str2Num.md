@@ -39,11 +39,11 @@ END;
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 numValue:=Str2Num('235.44');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -18,11 +18,11 @@ def vs.GetClass(h):
 |h|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ObjectClass:=GetClass(handleToObject);
 ```
-==== Python ====
+#### Python ####
 ```python
 ObjectClass = vs.GetClass(handleToObject)
 ```

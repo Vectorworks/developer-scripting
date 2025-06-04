@@ -54,7 +54,7 @@ text:  the widget label.
 data:  not implemented at this time.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 kOnInitPropertiesEventID: 
 BEGIN
@@ -66,7 +66,7 @@ BEGIN
    resultStatus := vsoAppendWidget(kWidgetButton, 1,'Update Text', 0);
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -37,7 +37,7 @@ vs.Message( str(vs.DotProduct(v1, v2)) ) # returns gibberish
 (PCP ): This should be used in place of the bullet/yen operator for better cross-platform operability. -
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -60,7 +60,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0) # 3-dimensional tuple
 v2 = (3, 15, 0) 

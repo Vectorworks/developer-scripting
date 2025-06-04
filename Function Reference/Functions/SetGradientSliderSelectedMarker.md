@@ -27,12 +27,12 @@ def vs.SetGradientSliderSelectedMarker(dialogID, componentID, segmentIndex, mark
 |markerType|INTEGER|Type of marker to select.|(1 = color marker, 2 = midpoint marker)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetGradientSliderSelectedMarker(dialogID, componentID, 4, 2);
 { selects midpoint marker in segment with index of 4 }
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

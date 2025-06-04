@@ -27,11 +27,11 @@ def vs.SetGradientSpotColor(gradient, segmentIndex, red, green, blue):
 |blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetGradientSpotColor(gradientHandle, 4, 255, 255, 255);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

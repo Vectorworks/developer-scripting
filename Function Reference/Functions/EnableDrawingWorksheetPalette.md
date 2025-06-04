@@ -24,7 +24,7 @@ def vs.EnableDrawingWorksheetPalette(enable, worksheet):
 |worksheet|HANDLE|Handle to specific worksheet for which to enable/disable drawing;|Set it to nil to enable/disable drawing in all displayed worksheet palettes.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Disable drawing in all displayed worksheet palettes.}
 EnableDrawingWorksheetPalette(false, nil);
@@ -37,7 +37,7 @@ EnableDrawingWorksheetPalette(false, nil);
 {Enable back drawing in all displayed worksheet palettes.}
 EnableDrawingWorksheetPalette(true, nil);
 ```
-==== Python ====
+#### Python ####
 ```python
 {Disable drawing in all displayed worksheet palettes.}
 vs.EnableDrawingWorksheetPalette(False, None)

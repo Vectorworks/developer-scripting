@@ -34,11 +34,11 @@ Sets dimension values that are specific to the secondary portion of a dual dimen
 [sd 8/18/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetSecondaryDim(dimHd,TRUE,FALSE,'Approx.','',64);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

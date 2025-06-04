@@ -13,11 +13,11 @@ def vs.ActiveClass():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 activeClName:= ActiveClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 activeClName = vs.ActiveClass()
 ```

@@ -19,7 +19,7 @@ def vs.IFC_DeleteIFCInfo(hObject:HANDLE, true);
 |bDoUndo|BOOLEAN|Use undo or not.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE DeleteIFCInfo;
 VAR
@@ -34,7 +34,7 @@ END;
 
 RUN(DeleteIFCInfo);
 ```
-==== Python ====
+#### Python ####
 ```python
 # We suggest that we have a handle to an object that has IFC data attached and we want to remove it and have the option to UNDO the change
 ok = vs.IFC_DeleteIFCInfo( hObject, True );

@@ -33,11 +33,11 @@ Size is in page-inches. Legal values are 0.0 to 2.0.
 Angle is in degrees.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetClassArrow('None', 2, 0.25, 15);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

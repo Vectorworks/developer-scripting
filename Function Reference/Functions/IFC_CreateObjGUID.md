@@ -18,7 +18,7 @@ def vs.IFC_CreateObjGUID(hObject):
 |hObject|HANDLE|Handle to the object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -31,7 +31,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject = vs.FSActLayer()
 ok = vs.IFC_CreateObjGUID(hObject)

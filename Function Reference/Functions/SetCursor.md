@@ -42,11 +42,11 @@ def vs.SetCursor(cursor):
 |cursor|INTEGER|Cursor style setting.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetCursor(LgCrossC);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

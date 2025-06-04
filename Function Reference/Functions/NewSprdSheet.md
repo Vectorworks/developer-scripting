@@ -29,11 +29,11 @@ def vs.NewSprdSheet(name, location, rows, columns, showOnDrawing, openAfterCreat
 |openAfterCreate|BOOLEAN|Open worksheet after creation.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 NewSprdSheet('Window Schedule', 12, 24, 5, 8, TRUE, FALSE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -27,7 +27,7 @@ def vs.GetPointAndParameterOnNurbsCurveAtGivenLength(inNurbCurve, inPercentOfLen
 |outIndex|LONGINT|0-based index of piece for piecewise NURBS curve.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -46,7 +46,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.CallTool(-325)

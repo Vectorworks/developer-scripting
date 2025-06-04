@@ -23,7 +23,7 @@ def vs.vsoStateGetObjChng(hObj):
 |outChangeID|LONGINT|Output parameter. Identifier of the object change that has happened.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BEGIN
   result := GetCustomObjectInfo(objectName, objectHand, recordHand, wallHand);
@@ -53,7 +53,7 @@ BEGIN
       END;
     END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

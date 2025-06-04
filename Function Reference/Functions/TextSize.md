@@ -25,12 +25,12 @@ The size parameter is now a REAL so fractional point sizes can be specified. Thi
 Text size is in page-space and does not take drawing scale into account.  [9/14/98 - PCP]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 TextSize(18);
 {set the active text size to 18 point}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

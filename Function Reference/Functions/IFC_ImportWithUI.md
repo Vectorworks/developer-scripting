@@ -13,7 +13,7 @@ def vs.IFC_ImportWithUI():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 
@@ -23,7 +23,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 ok = vs.IFC_ImportWithUI()
 ```

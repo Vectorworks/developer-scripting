@@ -34,11 +34,11 @@ this function will work for both nurbs curves and nurbs surfaces.
 set the indexed vertex of the indexed point of the given nurbs curve or the indexed (index2)control point of the surfaces in either the U (index 1= 1)or V(index1 =0) direction
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 See NurbsSurfaceEvalPt
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

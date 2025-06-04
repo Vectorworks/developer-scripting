@@ -26,7 +26,7 @@ Calculates the volume of the given object if a valid solid.
 Apparently this command is replacing CalcVolume. It should be noted that ObjVolume returns the volume in volume units from the Units dialog. CalcVolume returns the volume in length units cubed.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -40,7 +40,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

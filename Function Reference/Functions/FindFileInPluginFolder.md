@@ -31,7 +31,7 @@ def vs.FindFileInPluginFolder(filename):
 On the Mac, path will use colons instead of foreslashes as the folder delimiter.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -44,7 +44,7 @@ ELSE AlrtDialog('Could not find file.');
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	filename = 'Callout.vso';

@@ -22,7 +22,7 @@ def vs.GetWSAutoRecalcState(worksheet):
 |worksheet|HANDLE|Handle to worksheet.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {Save the current AutoRecalc state}
 state := GetWSAutoRecalcState(h);
@@ -38,7 +38,7 @@ SetWSAutoRecalcState(h, state);
 {Recalculate the worksheet}
 RecalculateWS(h);
 ```
-==== Python ====
+#### Python ####
 ```python
 #{Save the current AutoRecalc state}
 state = vs.GetWSAutoRecalcState(h)

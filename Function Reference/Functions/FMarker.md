@@ -46,7 +46,7 @@ Actually, the Style is returning:
 * 12 for dot, etc.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -59,7 +59,7 @@ Message(style, ' ', size, ' ', ang);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	style, size, ang = vs.FMarker()

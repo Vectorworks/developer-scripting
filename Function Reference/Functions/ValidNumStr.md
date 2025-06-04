@@ -26,7 +26,7 @@ def vs.ValidNumStr(str):
 * Returns FALSE if the specified string can not be converted into a numeric value and places zero in the REAL parameter.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CASE Item OF
 {// OK Button //}
@@ -45,7 +45,7 @@ END
 ELSE SysBeep;
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 str = '5m + 5cm'
 ok, num = vs.ValidNumStr( str )

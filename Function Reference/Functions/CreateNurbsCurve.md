@@ -28,7 +28,7 @@ Creates a NURBS curve with a single fit or control point, if it succeeds, return
 ([[User:CBM-c-|_c_]], 2010.12.26) Large [http://www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/ introduction to NURBS] by C.-K. Shene (MTU), including great many images.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE NewNurbsCurve;
 VAR
@@ -40,7 +40,7 @@ AddVertex3D(nC, 2, 0, 0);
 END;
 RUN(NewNurbsCurve);
 ```
-==== Python ====
+#### Python ####
 ```python
 def NewNurbsCurve():
 	nC = vs.CreateNurbsCurve(0, 0, 0, True, 2)

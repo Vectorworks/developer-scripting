@@ -17,11 +17,11 @@ Returns whether the global attributes are set to use the fill colors of the defa
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 useClassFillCol:=FFillColorByClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 useClassFillCol = vs.FFillColorByClass()
 ```

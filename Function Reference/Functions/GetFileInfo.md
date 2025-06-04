@@ -35,7 +35,7 @@ def vs.GetFileInfo(filename):
 |hasFolderPermission|BOOLEAN|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -59,7 +59,7 @@ Close('Output.txt');
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

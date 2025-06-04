@@ -31,7 +31,7 @@ As of VW 2022  the routine behaves on vertexes as such:
 * bezier: turn into arc
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -47,7 +47,7 @@ BEGIN
 END;
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 # select a polyline
 polyObj = vs.FSActLayer()

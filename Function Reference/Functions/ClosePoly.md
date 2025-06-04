@@ -13,13 +13,13 @@ def vs.ClosePoly():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 ClosePoly;
 Poly(0,0,1,1,1,-1);
 {creates a closed 3 sided polygon}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.ClosePoly()
 vs.Poly(0,0,1,1,1,-1)

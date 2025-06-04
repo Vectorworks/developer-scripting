@@ -28,7 +28,7 @@ def vs.RectangleN(orgin, direction, width, height):
 This procedure does not return a handle.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -36,7 +36,7 @@ RectangleN(0, 0, 1, 0, 1, 1);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 origin = [0, 1]
 direction = [10, 10]

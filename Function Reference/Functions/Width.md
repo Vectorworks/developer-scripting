@@ -18,11 +18,11 @@ def vs.Width(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 WidthValue:=Width(N='Box');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

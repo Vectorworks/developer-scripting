@@ -26,11 +26,11 @@ def vs.GetObjectVariableBoolean(h, index):
 From Julian: Appears to be unreliable for walls because it returns a different result depending on the view. Walls always report false for 2D, but only report true for 3D if in a 3D view.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 castShadow:= GetObjectVariableBoolean(h,53);
 ```
-==== Python ====
+#### Python ####
 ```python
 castShadow = vs.GetObjectVariableBoolean(h,53)
 ```

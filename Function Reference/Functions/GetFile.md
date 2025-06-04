@@ -23,7 +23,7 @@ def vs.GetFile():
 At least on the Mac, fileName does not set the default folder to browse. Use GetFileN if you want this functionality.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -38,7 +38,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	fileName = vs.GetFile()

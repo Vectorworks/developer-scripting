@@ -23,14 +23,14 @@ def vs.WallPeak(alongDistance, heightDistance):
 |heightDistance|REAL|Elevation of wall peak.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetZVal(0',8');
 Wall(0,0,7,0);
 WallPeak(3'-6&quot;,9'-0&quot;);
 {creates a 9' wall peak 3'-6&quot; from the start point of the wall}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

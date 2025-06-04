@@ -31,7 +31,7 @@ def vs.AngBVec(v1, v2):
 This is precisely what Vec2Ang does, except that Vec2Ang uses the X axis as the other vector.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -49,7 +49,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0) # 3-dimensional tuples
 v2 = (3, 15, 45)

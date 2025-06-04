@@ -33,7 +33,7 @@ def vs.SetObjBeginningMarker(obj, style, angle, size, width, thicknessBasis, thi
 |visibility|BOOLEAN|The marker visibility.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -47,7 +47,7 @@ END;
 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -36,7 +36,7 @@ Items are inserted and maintained in alphabetic order this may cause items to be
 If an Item fails to be inserted in the popup the function returns zero as the pop-up index value.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE dialog1_Main;
 VAR
@@ -64,7 +64,7 @@ int := RunLayoutDialog(dialog1, dialog1_Handler);
 END;
 RUN(dialog1_Main);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

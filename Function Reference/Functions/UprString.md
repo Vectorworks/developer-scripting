@@ -18,13 +18,13 @@ def vs.UprString(str):
 |str|DYNARRAY[] of CHAR|Source string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 revisedString := 'vectorworks';
 UprString(revisedString);
 {Sets revisedString equal to 'VECTORWORKS'}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

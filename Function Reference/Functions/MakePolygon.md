@@ -24,7 +24,7 @@ This routine creates its returned object not as the last object in the active la
 See also: &lt;a href=http://www.vectorworks.net/support/custom/vscript/reference/asp/main.asp?name=ConvertToPolygon&gt;ConvertToPolygon&lt;/a&gt;.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -36,7 +36,7 @@ h := MakePolygon(h);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

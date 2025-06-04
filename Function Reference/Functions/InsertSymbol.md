@@ -29,14 +29,14 @@ def vs.InsertSymbol(offsetDistance, heightDistance, flipped, right, capped, symb
 |symbolName|STRING|Name of symbol to be inserted in wall.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 MoveTo(3,1);
 WallTo(5',5');
 InsertSymbol(1',False,False,True,'Door');
 {inserts the symbol 'Door' at 1' from the start point of the last wall segment}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

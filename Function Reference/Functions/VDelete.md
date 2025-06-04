@@ -18,11 +18,11 @@ def vs.VDelete(name):
 |name|STRING|Name of view to be deleted.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 VDelete('Detail A-A');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

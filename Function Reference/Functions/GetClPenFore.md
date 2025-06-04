@@ -28,12 +28,12 @@ def vs.GetClPenFore(className):
 Returns the pen foreground color setting of the class named className in parameters colorRV, colorGV, and colorBV.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetClPenFore('Grassy Cover',cRed,cGrn,cBlu);
 RGBToColorIndex(cRed,cGrn,cBlu,colorValue);
 ```
-==== Python ====
+#### Python ####
 ```python
 cRed,cGrn,cBlu = vs.GetClPenFore('Grassy Cover')
 colorValue = vs.RGBToColorIndex(cRed,cGrn,cBlu)

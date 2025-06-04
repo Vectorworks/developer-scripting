@@ -53,7 +53,7 @@ Another way to get the UPI is to use:
 UPI := GetPrefReal(152);
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR 
@@ -69,7 +69,7 @@ Message(fraction, ' ', display, ' ', format, ' ', upi, ' ', name, ' ', squareNam
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	fraction, display, format, upi, name, squareName = vs.GetUnits()

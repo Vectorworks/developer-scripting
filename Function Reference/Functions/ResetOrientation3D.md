@@ -25,12 +25,12 @@ ResetOrientation3D;
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Poly3D(1,1,0,1.5,1.5,1,2.5,1.5,1,);
 ResetOrientation3D;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

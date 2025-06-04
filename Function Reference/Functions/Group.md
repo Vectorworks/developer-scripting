@@ -13,14 +13,14 @@ def vs.Group():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Rect(-1,1,0,0);
 Rect(-1,-0.5,0,-1.5);
 Group;
 {groups the most recently created objects}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Rect(-1,1,0,0)
 vs.Rect(-1,-0.5,0,-1.5)

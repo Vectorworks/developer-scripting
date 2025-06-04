@@ -18,11 +18,11 @@ def vs.Height(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 HeightValue:=Height(N='North Wall');
 ```
-==== Python ====
+#### Python ####
 ```python
 HeightValue = vs.Height((N='North Wall'))
 ```

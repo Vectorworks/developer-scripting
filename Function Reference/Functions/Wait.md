@@ -20,12 +20,12 @@ def vs.Wait(seconds):
 |seconds|INTEGER|Number of seconds to pause script execution.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Wait(3);
 {pauses execution for 3 seconds}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

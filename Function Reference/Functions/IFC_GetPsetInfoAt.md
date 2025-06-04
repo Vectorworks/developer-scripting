@@ -27,7 +27,7 @@ def vs.IFC_GetPsetInfoAt(hObject, bAllPsets, index):
 |outType|INTEGER|Returns the index that defines the state of the Pset. Possible values are: '''-2''' (pset forbidden from mapping, NOT attached in record), '''-1''' (pset forbidden from mapping, but attached in record), '''0''' (pset NOT attached), '''1''' (pset attached from record), '''2''' (pset attached from mapping).|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -42,7 +42,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject	= vs.Handle()
 ok	= False

@@ -15,7 +15,7 @@ def vs.EndMXtrd():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginMXtrd(0',1 363/512&quot;);
 Rect(-125/128&quot;,1 113/512&quot;,375/512&quot;,375/512&quot;);
@@ -27,7 +27,7 @@ Rect(-25/32&quot;,1 113/512&quot;,275/512&quot;,375/512&quot;);
 Rect(-125/128&quot;,1 113/512&quot;,375/512&quot;,375/512&quot;);
 EndMXtrd;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginMXtrd(0,1 + 363/512)
 vs.Rect(-125/128,1 + 113/512,375/512,375/512)

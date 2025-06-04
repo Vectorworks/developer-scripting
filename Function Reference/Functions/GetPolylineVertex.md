@@ -49,7 +49,7 @@ MaKro 2022:
 * For an Arc type (3) vertex, the internally stored radius can be different to the one showed in the info palette. [[VS:ConvertToArcPolyline]] fixes this issue.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -69,7 +69,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
     obj = vs.FSActLayer()

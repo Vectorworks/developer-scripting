@@ -130,7 +130,7 @@ def vs.CreateSymbolDisplayControl(dialogID, itemID, symbolName, height, width, m
 |view|INTEGER|The view in which to display the symbol.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 CreateSymbolDisplayControl( 5, 6, 'Chair', 350, 200, 5, 11, 9 );
 ```
@@ -153,7 +153,7 @@ int := RunLayoutDialog(dialog1, dialog1_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def dialog1_Handler( item , data ):
 	pass

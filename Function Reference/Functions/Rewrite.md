@@ -30,7 +30,7 @@ def vs.Rewrite(fileName):
 |fileName|STRING|Name of file.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -64,7 +64,7 @@ BEGIN
   arr[2] := MixBytes( 255, 254 );
   Write(arr);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -38,13 +38,13 @@ RUN(DeleteTest);
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 theStr:='A sample string';
 Delete(theStr,3,7);
 {deletes 'sample' from the string value}
 ```
-==== Python ====
+#### Python ####
 ```python
 def DeleteTest():
 	T = '1234567'

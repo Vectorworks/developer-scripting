@@ -30,11 +30,11 @@ Don't forget the brakets or it will block the rest of the script in a totally un
  str := EvalStr(gTargetH, (crit)); { correct }
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 dataValue:= EvalStr(handleToObject,('Part Info'.'Serial No.'));
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

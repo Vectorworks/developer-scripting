@@ -26,7 +26,7 @@ Calculates the volume of the given object if a valid solid.
 Apparently this command is replacing CalcSurfaceArea. It should be noted that ObjSurfaceArea returns the surface area in area units from the Units dialog. CalcSurfaceArea returns the volume in length units squared.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -40,7 +40,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

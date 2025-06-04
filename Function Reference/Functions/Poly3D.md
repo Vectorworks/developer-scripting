@@ -18,11 +18,11 @@ def vs.Poly3D(p):
 |p|REAL|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Poly3D(1,1,0,1.5,1.5,1,2.5,1.5,1,);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

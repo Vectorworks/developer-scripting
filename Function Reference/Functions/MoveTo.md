@@ -21,12 +21,12 @@ def vs.MoveTo(p):
 If you want to move a relative distance from the existing pen position, use Move.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 MoveTo(4,3);
 {moves the graphics pen to (4,3)}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.MoveTo(4, 3)
 ```

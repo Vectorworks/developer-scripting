@@ -32,7 +32,7 @@ returns a handle to the newly created NURBS surface if it succeeds,  return NULL
 Creates a NURBS surface with the number of control points and degrees as specified. Call NurbsSetPt3D() to set the control net
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -52,7 +52,7 @@ ResetBBox(h);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	h = vs.CreateNurbsSurface(3, 3, 1, 1)

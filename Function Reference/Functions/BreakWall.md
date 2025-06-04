@@ -23,14 +23,14 @@ def vs.BreakWall(offsetDistance, breakWidthDistance, right):
 |right|BOOLEAN|Left-right edge status of break.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 MoveTo(2,3);
 WallTo(7,3);
 BreakWall(3&quot;,1&quot;,True);
 {creates a right hand 1&quot; wall break 3&quot; from the start of the wall}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.MoveTo(2,3)
 vs.WallTo(7,3)

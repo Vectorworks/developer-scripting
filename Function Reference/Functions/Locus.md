@@ -18,7 +18,7 @@ def vs.Locus(p):
 |p|REAL|Coordinate location of new locus.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -29,7 +29,7 @@ Locus(x, y);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 x = 100
 y = 0

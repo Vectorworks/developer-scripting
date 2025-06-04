@@ -197,7 +197,7 @@ RUN(OpenURLExample);
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { Open a webpage. }
 status := OpenURL('http://www.vectorworks.net');
@@ -214,7 +214,7 @@ status := OpenURL('file:///MyMac9HD/My Files/VSLG11.pdf');
 { Open a PDF file in Acrobat on Windows. }
 status := OpenURL('file:///C:/My Files/VSLG11.pdf';
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

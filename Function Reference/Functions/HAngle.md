@@ -30,7 +30,7 @@ IF NOT GetObjectVariableBool(wallH, 570) THEN
 For rotated rectangle and oval, the angle is in range [-180;180].
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -39,7 +39,7 @@ Message(HAngle(FSActLayer));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.CallTool(-202)

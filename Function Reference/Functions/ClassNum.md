@@ -13,11 +13,11 @@ def vs.ClassNum():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 numOfClasses:= ClassNum;
 ```
-==== Python ====
+#### Python ####
 ```python
 numOfClasses = vs.ClassNum()
 ```

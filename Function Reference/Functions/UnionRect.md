@@ -29,11 +29,11 @@ def vs.UnionRect(p1, p2, p3, p4, p5, p6):
 |p6|REAL|Bottom right coordinate of boundary rectangle.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 UnionRect(0,0,3,3,3,3,5,5,x1,y1,x2,y2);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -13,13 +13,13 @@ def vs.HideLayer():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Layer('Future Construction');
 HideLayer;
 {hides the layer 'Future Construction'}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Layer('Future Construction')
 vs.HideLayer()

@@ -33,7 +33,7 @@ This seems to crash VW on Win98.
 Works OK on 1000 8367 on XP.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR 
@@ -44,7 +44,7 @@ Message(x1,' ',y1,' ',x2,' ',y2);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	x1, y1, x2, y2 = vs.GetScreen()

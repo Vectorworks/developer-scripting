@@ -21,7 +21,7 @@ def vs.VerifyLayout(dialogID):
 [DWD 1/20/00]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 {verify the dialog layou is properly constructed}
 dialogOK := VerifyLayout(lEditID);
@@ -31,7 +31,7 @@ BEGIN
 lmtestResult := RunLayoutDialog(lEditID,DriveSplashDialog);
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

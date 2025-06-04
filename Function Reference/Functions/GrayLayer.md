@@ -13,13 +13,13 @@ def vs.GrayLayer():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Layer('Future Construction');
 GrayLayer;
 {grays the layer 'Future Construction'}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Layer('Future Construction')
 vs.GrayLayer()

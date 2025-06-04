@@ -26,7 +26,7 @@ def vs.CreateStaticHatch(inHatchName, p, rotationAngle):
 The hatch is created in an arbitrary angle, not as defined.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -40,7 +40,7 @@ SetSelect(h);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def PickPointCallback(pt):
 	h = vs.CreateStaticHatch('Default Hatch', pt[0], pt[1], 0)

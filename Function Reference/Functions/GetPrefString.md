@@ -23,11 +23,11 @@ def vs.GetPrefString(prefIndex):
 Returns the status of the specified preference item.  Used for preferences that return a string instead of a Boolean (see GetPref)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 unitmark:=GetPrefString(154);
 ```
-==== Python ====
+#### Python ####
 ```python
 unitmark = vs.GetPrefString(154)
 ```

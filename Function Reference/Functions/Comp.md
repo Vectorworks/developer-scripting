@@ -34,7 +34,7 @@ def vs.Comp(v1, v2):
 [[File:C_MathVectorComp.png|200px ]]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```python
 PROCEDURE Example;
 VAR
@@ -47,7 +47,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 v1 = (12, 1, 0) # 3-dimensional tuples
 v2 = (3, 15, 0)

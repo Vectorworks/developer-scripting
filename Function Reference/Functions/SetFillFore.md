@@ -26,14 +26,14 @@ def vs.SetFillFore(h, color):
 ; Warning: SetFillBack, SetFillFore will remove the "ByClass" attribute of the PEN as well. Remember to parse for it and restore it.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetFillFore(h, 65535, 0, 39321); { using RGB values }
 
 colorIndex := RGBToColorIndex(65535, 0, 39321);
 SetFillFore(h, colorIndex); { using Color Index values }
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.SetFillFore(h, (65535, 0, 39321)) # using RGB values
 

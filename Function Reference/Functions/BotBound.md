@@ -20,11 +20,11 @@ def vs.BotBound(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BotBValue:=BotBound(N='MyRect');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

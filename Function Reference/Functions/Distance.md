@@ -25,12 +25,12 @@ def vs.Distance(x1, y1, x2, y2):
 |y2|REAL|Y coordinate of second point.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 d:=Distance(0,2,4,5);
 {returns the distance between (0,2) and (4,5)}
 ```
-==== Python ====
+#### Python ####
 ```python
 d= vs.Distance(0,2,4,5)
 ```

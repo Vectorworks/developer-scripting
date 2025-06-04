@@ -38,7 +38,7 @@ NurbsCurveGetNumPieces will give you the number of pieces inside of the nurbs cu
 NurbsGetNumPts will give you the number of points inside of a piece.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -70,7 +70,7 @@ BEGIN
 END;
 Run(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 nurbsObj = vs.FSActLayer() # take care to select a NURBS curve
 
@@ -118,7 +118,7 @@ END;
 Run(Example);
 </code>
 
-==== Python ====
+#### Python ####
 <code lang="py">
 nurbsObj = vs.FSActLayer() # take care to select a NURBS curve
 

@@ -42,7 +42,7 @@ Message(SetWallStyle(theWall, wallStyle, selectedOffDistance, replacingOffDistan
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

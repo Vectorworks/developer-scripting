@@ -34,7 +34,7 @@ The routine still works under VW 2014, but not in VW 2015.
 This routine is not recognized under VW 12.5 Fundamentals (might be VW 12.5.1)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -55,7 +55,7 @@ result := RunLayoutDialog(dialog1, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler( item , data ):
 	pass

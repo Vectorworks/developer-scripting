@@ -34,7 +34,7 @@ def vs.GetPrimaryUnitInfo():
 Returns settings information for primary units.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -87,7 +87,7 @@ END;
 END; 
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	major, minor, maintenance, platform = vs.GetVersion()

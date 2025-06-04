@@ -59,13 +59,13 @@ Note that SetTextStyle() toggles the bit you have set in the argument, but does 
 Outline and Shadowed are only available on the Macintosh.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetTextSyle(HandleToText, 0, 5, 34);
 
 {set the style of the substring text to bold and shadowed}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

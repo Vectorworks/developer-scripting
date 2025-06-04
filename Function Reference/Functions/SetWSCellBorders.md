@@ -95,7 +95,7 @@ OulineInside defines the outline, inside horizontal and inside vertical borders.
 This replaces [[VS:SetWSCellBorder| SetWSCellBorder]] which became obsolete as of version 12. (You can see obsolete functions by setting the preference on the home page.)
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { Sets the inside horizontal and vertical borders for the specified rectangular range of cells}
 SetWSCellBorders(sheet, 2, 4, 1, 5, FALSE, FALSE, FALSE, FALSE, 6);
@@ -105,7 +105,7 @@ SetWSCellBorders(sheet,2,4,1,5,FALSE,FALSE,FALSE,FALSE,1);
 {or}
 SetWSCellBorders(sheet,2,4,1,5,TRUE,TRUE,TRUE,TRUE,0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

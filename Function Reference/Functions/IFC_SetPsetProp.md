@@ -26,7 +26,7 @@ def vs.IFC_SetPsetProp(hObject, inStrPsetName, inStrPropName, inStrPropValue):
 
 ## Examples
 Assume we have a wall and we want in export to be marked as load-bearing, non-combustible and to put a reference ‘IW-01’, also we want to set thermal transmit-tance value of 0.5 – we need to attach Pset_WallCommon and set its properties ( LoadBearing, Combustible, Reference, ThermalTransmittance) as needed:
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -44,7 +44,7 @@ END;
 
 RUN(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hWall = vs.FSActLayer()
 ok = vs.IFC_SetIFCEntity(hWall, 'IfcWallStandardCase')

@@ -32,11 +32,11 @@ See FMarker for parameter descriptions.
 [sd 8/14/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Marker(2,0.25,60);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

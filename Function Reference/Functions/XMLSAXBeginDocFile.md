@@ -23,7 +23,7 @@ def vs.XMLSAXBeginDocFile(XMLHandle, whichPath, filename):
 |filename|STRING|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE XMLSaxTest_Write;
 CONST
@@ -61,7 +61,7 @@ BEGIN
 END;
 RUN(XMLSaxTest_Write);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

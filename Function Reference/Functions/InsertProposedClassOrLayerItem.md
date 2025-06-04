@@ -27,7 +27,7 @@ def vs.InsertProposedClassOrLayerItem(nDialogID, nComponentID, strLabel, nIconIn
 |nIconIndex|INTEGER|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -60,7 +60,7 @@ result := RunLayoutDialog(dialog1, Dialog_Handler);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

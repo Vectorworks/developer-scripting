@@ -37,7 +37,7 @@ short            toolID;    // active tool
 The fields 'wBits' and 'dataList' do not appear to be used.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -53,7 +53,7 @@ PopAttrs;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

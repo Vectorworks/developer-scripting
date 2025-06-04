@@ -23,11 +23,11 @@ def vs.HMove(h, xOffset, yOffset):
 |yOffset|REAL|Y offset distance.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 HMove(handleToObject,2,2);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.HMove(vs.FSActLayer(),2,2)
 ```

@@ -76,7 +76,7 @@ Size is in page-inches. Legal values are 0.0 to 2.0.
 Angle is in degrees.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE SetObjArrowValues;
 BEGIN
@@ -84,7 +84,7 @@ SetObjArrow(FSActLayer, 1, .25, 15, TRUE, TRUE);
 END;
 RUN(SetObjArrowValues);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

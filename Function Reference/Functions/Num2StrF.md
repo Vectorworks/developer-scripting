@@ -23,13 +23,13 @@ IMPORTANT NOTE: whether or not you get unit marks appended to the returned strin
 This appears not to work as advertised. The string value returned appears to be in inches no matter the unit settings of the document.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 oldnumValue:=23.45;
 newStrValue:=Num2StrF(oldnumValue);
 {would return 1'-11 1/2"}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

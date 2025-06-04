@@ -21,7 +21,7 @@ def vs.CalcVolume(solidObject):
 Calculates the volume of the given object if a valid solid.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -35,7 +35,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	if vs.FSActLayer() != None:

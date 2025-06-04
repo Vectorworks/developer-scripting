@@ -24,7 +24,7 @@ def vs.SetCustomObjectPath(objectHand, path):
 This can be used even in non-path objects, where the user is not given any interface for editing the path.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -65,7 +65,7 @@ END;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

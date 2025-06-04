@@ -25,13 +25,13 @@ BeginColumn takes the group of objects that follow, until there is an EndGroup, 
 [sd 8/17/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginColumn(12');
 Oval(2',2',6',6');
 EndGroup;
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginColumn(12*12)
 vs.Oval(2*12,2*12,6*12,6*12)

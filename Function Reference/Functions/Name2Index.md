@@ -23,11 +23,11 @@ Returns the internal index for the object associated with the specified name.
 (Joel Sciamma 2006.08.11): If the name does not exist, Name2Index returns zero.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 NameIndex := Name2Index('objectName');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

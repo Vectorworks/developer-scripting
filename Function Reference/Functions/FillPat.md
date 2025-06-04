@@ -20,13 +20,13 @@ def vs.FillPat(patNumber):
 |patNumber|LONGINT|Index of fill pattern to be set as document default.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Rect(0,0,2,2);
 FillPat(21);
 Rect(2,2,4,4);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Rect(0,0,2,2)
 vs.FillPat(21)

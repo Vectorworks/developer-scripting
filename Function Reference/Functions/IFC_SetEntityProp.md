@@ -24,7 +24,7 @@ def vs.IFC_SetEntityProp(hObject, inStrPropName, inStrPropValue):
 
 ## Examples
 Assume we have an extrude, that we want to be exported as a slab. IfcSlab has a property with enumeration value (“PredefinedType”), so it’s necessary to be set:
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -38,7 +38,7 @@ end;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hExtrude = vs.FSActLayer()
 ok = vs.IFC_SetIFCEntity(hExtrude, 'IfcSlab')

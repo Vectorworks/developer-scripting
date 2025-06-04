@@ -26,7 +26,7 @@ def vs.GetFontName(fontID):
 After VW 2015 you can use [[VS:GetFontListSize]] to fetch the count of installed fonts. Before that you had to check in both negative and positive direction the whole integer limit: from -32767 to +32767.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -38,7 +38,7 @@ AlrtDialog(str);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	str = ''

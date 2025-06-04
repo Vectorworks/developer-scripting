@@ -23,11 +23,11 @@ Note: a gradient must always have at least 2 segments.
 This also returns the number of levels in a hatch definition, like [{VS:GetObjectVariableInt]](HatchDefH, 660).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 numSegments := GetNumGradientSegments(gradientHandle);
 ```
-==== Python ====
+#### Python ####
 ```python
 numSegments = vs.GetNumGradientSegments(gradientHandle)
 ```

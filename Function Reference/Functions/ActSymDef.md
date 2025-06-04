@@ -13,7 +13,7 @@ def vs.ActSymDef():
 ```
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR HandleToActiveSym : HANDLE;
@@ -22,7 +22,7 @@ HandleToActiveSym:=ActSymDef;
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	HandleToActiveSym = vs.ActSymDef()

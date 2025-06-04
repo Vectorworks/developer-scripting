@@ -80,7 +80,7 @@ def vs.FormatTextDialog(fontName, style, size, spacing, leading, hAlignment, vAl
 |disableMask|INTEGER|Disables controls on the dialog.  Bit 1 disables font name, bit 2 size, bit 3 spacing, bit 4 style, bit 5 h align, bit 6 v align.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR 
@@ -113,7 +113,7 @@ FormatTextDialog(font, style, size, spacing, leading, hAlign, vAlign, disable);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
     #{Set some dialog defaults.}

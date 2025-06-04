@@ -21,7 +21,7 @@ def vs.Vec2Ang(Vect):
 ([[User:CBM-c-| _c_]], 2022.01.18) For Vectorscript Python you might need to add a third item in the tuple for the vector, or vs.Vec2Ang will return 90/-90. This is the opposite in VS Pascal.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { ... }
 p : VECTOR;
@@ -34,7 +34,7 @@ GetPolyPt( polyHandle, vtx1, p.x, p.y );
 
 ang := Vec2Ang( p );
 ```
-==== Python ====
+#### Python ####
 ```python
 p = vs.GetPolyPt( polyHandle, vtx1 ) # sets a tuple with 2 items in the form ( 0, 0 )
 ang = vs.Vec2Ang( (p[0], p[1], 0) ) 

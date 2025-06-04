@@ -23,11 +23,11 @@ def vs.GetObjectVariableString(h, index):
 |index|INTEGER|Object property index.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 dimstdName:= GetObjectVariableString(h,27);
 ```
-==== Python ====
+#### Python ####
 ```python
 dimstdName = vs.GetObjectVariableString(h,27)
 ```

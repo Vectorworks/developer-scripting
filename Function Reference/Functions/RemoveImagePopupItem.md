@@ -24,7 +24,7 @@ def vs.RemoveImagePopupItem(dialogID, componentID, itemIndex):
 |itemIndex|INTEGER|Index to item to be removed.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 RemoveImagePopupItem(dialogID, componentID, 4);
 ```
@@ -42,7 +42,7 @@ BEGIN
 	END;
 END;
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

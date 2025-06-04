@@ -18,11 +18,11 @@ def vs.HasDim(h):
 |h|HANDLE|Handle to object.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 isDimension:=HasDim(HandleToObject);
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.Message(vs.HasDim(vs.FSActLayer()))
 ```

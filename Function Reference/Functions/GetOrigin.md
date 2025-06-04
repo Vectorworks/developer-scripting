@@ -54,7 +54,7 @@ Run (HereAmI);
 Objects inside Symbols use the reverse of the User Origin. I added a table of the values related to VectorScript origin in the article [http://www.vectorlab.info/index.php?title=Absolute_Origin#Available_routines:Link Absolute Origin], by Gerard Jonker, on VectorLab.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -65,7 +65,7 @@ Message(originPt);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	originPtX, originPtY = vs.GetOrigin()

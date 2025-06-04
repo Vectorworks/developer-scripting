@@ -35,12 +35,12 @@ def vs.SprdAlign(align):
 |align|INTEGER|Text alignment within worksheet cell.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SprdAlign(2);
 LoadCell(3, 3, 'Cell 1, 1');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

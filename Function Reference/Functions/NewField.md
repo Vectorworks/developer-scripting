@@ -32,11 +32,11 @@ def vs.NewField(recName, fieldName, fieldValue, fType, fFlag):
 If the fieldName argument is longer than 20 characters, it will be truncated to 20 characters, without warning. The recName argument can be up to something like 60 characters (I think).
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 NewField('Part Info','Serial No.','A-0000',4,0);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

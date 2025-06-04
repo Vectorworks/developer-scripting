@@ -18,12 +18,12 @@ def vs.SprdWidth(width):
 |width|REAL|Width of worksheet cell (0-255 characters).|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SprdWidth(7);
 LoadCell(1,1,'Cell 1,1');
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

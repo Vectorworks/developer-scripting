@@ -18,12 +18,12 @@ def vs.LayerRef(layerName):
 |layerName|STRING|Name of referenced layer.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LayerRef('Layer-2');
 {creates a layer link of 'Layer-2' on the active layer}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

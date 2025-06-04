@@ -22,7 +22,7 @@ def vs.IFC_GetIFCEntity(hObject):
 
 ## Examples
 Try to get the IFC entity name for the given object:
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Test;
 VAR
@@ -37,7 +37,7 @@ end;
 
 Run(Test);
 ```
-==== Python ====
+#### Python ####
 ```python
 hObject = vs.FSActLayer()
 ok, strName = vs.IFC_GetIFCEntity(hObject)

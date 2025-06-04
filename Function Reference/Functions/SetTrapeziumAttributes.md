@@ -51,7 +51,7 @@ rightSlope: Angle of right dormer wall.
 topSlope: Angle of the roof of the dormer.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 roofHandle := CreateRoof(TRUE,5 1/2&quot;,5 1/2&quot;,4,9.52627&quot;);
 AppendRoofEdge(roofHandle,-77'10&quot;,-25'3.18078&quot;,#45&quot;,2'0&quot;,10'0&quot;);
@@ -63,7 +63,7 @@ SetTrapeziumAttributes(roofHandle,trapID,TRUE,6'0&quot;,10'0&quot;,TRUE,6'0&quot
 SetDormerAttributes(roofHandle,trapID,3,18'4&quot;,TRUE,3'0&quot;,63,FALSE,3'0&quot;);
 SetDormerThick(roofHandle, 2&quot;,1.83333&quot;);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

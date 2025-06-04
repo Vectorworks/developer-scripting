@@ -40,7 +40,7 @@ Returns a string interpretation of the field from the specified record
 [CLC 2004/11/8]: This returns values rounded to the nearest display accuracy, whereas pFieldName returns the actual number.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 
@@ -64,7 +64,7 @@ ForEachObjectInLayer(WriteFieldValues, 2, 0, 4);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 import vs
 

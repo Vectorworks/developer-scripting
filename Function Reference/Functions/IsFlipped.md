@@ -23,7 +23,7 @@ This function returns true? if the object matching the given criteria (such as a
 The change to criteria for this seems weird; does it accumulate the flipped states of the objects matching the criteria and return the sum?
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE CountFlippedDoorSymbols;
 BEGIN
@@ -31,7 +31,7 @@ Message(IsFlipped(S='*Door*'));
 END;
 RUN(CountFlippedDoorSymbols);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

@@ -17,11 +17,11 @@ Returns whether the global attributes are set to use the line weight of the defa
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 useClassLWidth:=FLWByClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 useClassLWidth = vs.FLWByClass()
 ```

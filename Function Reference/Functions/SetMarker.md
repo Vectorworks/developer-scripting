@@ -33,7 +33,7 @@ OBSOLETE for VW2008: Use SetObjBeginningMarker and/or SetObjEndMarker instead.
 This changes the document defaults.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -43,7 +43,7 @@ SetMarker(LNewObj, TRUE, FALSE, 2, 10000);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

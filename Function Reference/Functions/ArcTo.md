@@ -23,7 +23,7 @@ def vs.ArcTo(p, radiusDistance):
 |radiusDistance|REAL|Radius of vertex arc.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 BeginPoly;
 LineTo(-1&quot;,2&quot;);
@@ -34,7 +34,7 @@ ArcTo(1&quot;,1 1/2&quot;,1/2&quot;);
 EndPoly;
 {creates a polyline object}
 ```
-==== Python ====
+#### Python ####
 ```python
 vs.BeginPoly()
 vs.LineTo(-1,2)

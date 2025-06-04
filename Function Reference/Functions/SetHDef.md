@@ -21,12 +21,12 @@ def vs.SetHDef(oldH, newH):
 |newH|HANDLE|Handle to new definition.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetHDef(symbolHd,newSymDefHd);
 {updates the referenced symbol with a new definition}
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

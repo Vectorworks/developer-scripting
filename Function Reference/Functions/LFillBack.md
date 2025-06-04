@@ -23,11 +23,11 @@ Sets the background fill color for the active layer.
 [sd 8/14/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 LFillBack(65535,0,39321);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

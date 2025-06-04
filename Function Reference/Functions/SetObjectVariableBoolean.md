@@ -25,11 +25,11 @@ def vs.SetObjectVariableBoolean(h, index, status):
 |status|BOOLEAN|New status for property.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetObjectVariableBoolean(obj, 17, FALSE);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

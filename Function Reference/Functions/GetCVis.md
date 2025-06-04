@@ -21,7 +21,7 @@ def vs.GetCVis(className):
 Also, though a warning is generated, passing a string to a non-existent class returns 0.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 BEGIN
@@ -29,7 +29,7 @@ Message(GetCVis('Dimension'));
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Example():
 	vs.Message(vs.GetCVis('Dimension'))

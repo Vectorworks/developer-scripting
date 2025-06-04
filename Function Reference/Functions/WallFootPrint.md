@@ -23,7 +23,7 @@ def vs.WallFootPrint(wallHandle):
 [[User:CBM-c-|_c_]], (2011.01.30): You might need to regen it using [[VS:ResetObject| ResetObject]] in order to actually see/use it in the drawing. Mind that this object is always a screen plane polyline, unregarded the active plane, and that its vertexes are all hidden.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE GetWallFootPrint;
 VAR
@@ -34,7 +34,7 @@ h2 := WallFootPrint(h1);
 END;
 RUN(GetWallFootPrint);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

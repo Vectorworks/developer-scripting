@@ -21,7 +21,7 @@ def vs.ValidAngStr(str):
 |value|REAL|Returns numeric angle value converted from input string.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -33,7 +33,7 @@ IF ValidAngStr(str, value) THEN Message(value);
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

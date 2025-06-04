@@ -48,7 +48,7 @@ dupeHandle := CreateDuplicateObject(somethingInsideSymbol, pioHandle);
 This duplicates the object and puts it into the PIO container in one shot.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE SetParentExample;
 VAR
@@ -61,7 +61,7 @@ boo := SetParent(h2, h1);
 END;
 RUN(SetParentExample);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

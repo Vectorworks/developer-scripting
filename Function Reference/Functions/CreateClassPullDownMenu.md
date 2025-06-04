@@ -31,7 +31,7 @@ IF InsertPropClassOrLayerItem(dialogID, c_classPullDownMenu_Index, objClassStrin
 </code>
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE Example;
 VAR
@@ -49,7 +49,7 @@ BEGIN
 END;
 RUN(Example);
 ```
-==== Python ====
+#### Python ####
 ```python
 def Dialog_Handler(item , data ):
 	pass

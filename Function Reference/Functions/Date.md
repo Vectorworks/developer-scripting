@@ -71,7 +71,7 @@ From Gideon Scott on the tech board: WinXP &gt; Control Panel &gt; Regional and 
 The default setting of "English (United States)" affects the VW date format rather than the date settings under the normal "Regional Options" tab.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 { All examples are for the date Friday,  }
 { Nov. 18, 1988 and the time 10:42:24 AM }
@@ -88,7 +88,7 @@ Message.(Date(2,2));
 Message.(Date(2,1));
 {returns 11/18/88 10:42:24 AM}
 ```
-==== Python ====
+#### Python ####
 ```python
 #{ All examples are for the date Friday,  }
 #{ Nov. 18, 1988 and the time 10:42:24 AM }

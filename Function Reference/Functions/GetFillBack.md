@@ -25,11 +25,11 @@ def vs.GetFillBack(h):
 |blue|LONGINT|Returns RGB color component value.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 GetFillBack(handleToObject,redValue,greenValue,blueValue);
 ```
-==== Python ====
+#### Python ####
 ```python
 red_value, green_value, blue_value = vs.GetFillBack(vs.FSActLayer())
 ```

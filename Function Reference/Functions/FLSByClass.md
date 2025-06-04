@@ -17,11 +17,11 @@ Returns whether the global attributes are set to use the line style of the defau
 [sd 8/19/98]
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 useClassLStyle:=FLSByClass;
 ```
-==== Python ====
+#### Python ####
 ```python
 useClassLStyle = vs.FLSByClass()
 ```

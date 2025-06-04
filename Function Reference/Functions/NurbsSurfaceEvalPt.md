@@ -27,7 +27,7 @@ def vs.NurbsSurfaceEvalPt(objectHd, u, v):
 |p|REAL|Location of the u,v point on the surface.|
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 PROCEDURE LocusSurface;
 { Create a surface, then put loci on it }
@@ -102,7 +102,7 @@ END;
 END;
 Run(LocusSurface);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

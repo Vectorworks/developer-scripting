@@ -21,11 +21,11 @@ def vs.Show(c):
 Makes objects with the specified search criteria visible if they are not already.
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 Show((C='Proposed Phase 2 Construction'));
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

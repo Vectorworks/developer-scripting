@@ -26,11 +26,11 @@ def vs.SetPrefLongInt(index, value):
 Sets the value of the specified preference to the value passed.   Similar to SetPref() except it works on preferences for long integer values
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 SetPrefLongInt(55,128);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```

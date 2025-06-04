@@ -23,7 +23,7 @@ def vs.SetCDATA(XMLHandle, elementPath, data):
 |data|DYNARRAY [] OF CHAR|   |
 
 ## Examples
-==== VectorScript ====
+#### VectorScript ####
 ```pascal
 procedure test;
 var 	xml : longint;
@@ -49,7 +49,7 @@ begin
 end;
 run(test);
 ```
-==== Python ====
+#### Python ####
 ```python
 
 ```
