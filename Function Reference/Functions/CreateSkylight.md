@@ -18,7 +18,7 @@ def vs.CreateSkylight(roofObject):
 |roofObject|HANDLE|Handle to roof.|
 
 ## Examples
-eateRoofObj}}
+[CreateRoofObj](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

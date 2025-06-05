@@ -51,7 +51,7 @@ miterType:  1: vertical miter, 2: horizontal miter, 3: double miter , 4: square 
 vertMiter: Specifies vertical len of double miter.
 
 ## Examples
-eateRoofObj}}
+[CreateRoofObj](examples/CreateRoofObj.md)
 
 ## See Also
 VS Functions:

@@ -32,7 +32,7 @@ def vs.DBSQLExecuteDSN(dsn, userName, password, SQLQuery):
 CMP: DSN param appears to need a POSIX path
 
 ## Examples
-SQL}}
+[DBSQL](examples/DBSQL.md)
 
 ## See Also
 [DBSQLExecuteGet](DBSQLExecuteGet.md) | [DBSQLExecuteNext](DBSQLExecuteNext.md) | [DBSQLExecuteDelete](DBSQLExecuteDelete.md)

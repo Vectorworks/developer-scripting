@@ -24,7 +24,7 @@ Undocumented is that criteria also accept the object type flag as parameter. The
 CountValue := Count((FP=4)and(T=3)); { 3 is object type flag for 'Rectangle&amp' }
 </code>
 
-This is valid for all object types being assigned a name in the [[VS:Function Reference Appendix#Object Types|VectorScript Appendix]].
+This is valid for all object types being assigned a name in the [Script Appendix](../Appendix/pages/Appendix%20D%20-%20Vectorworks%20Object%20Types%20and%20Subtypes.md).
 
 ## Examples
 #### VectorScript ####

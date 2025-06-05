@@ -22,7 +22,7 @@ def vs.Layer(name):
 |name|STRING|Name of new or existing layer.|
 
 ## Examples
-olateLayer}}
+[IsolateLayer](examples/IsolateLayer.md)
 
 ## Version
 Availability: from All Versions

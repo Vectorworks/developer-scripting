@@ -18,7 +18,7 @@ def vs.CreatePaintFromImage(image):
 |image|HANDLE|Handle to the image resource from which a paint node is to be created.|
 
 ## Examples
-ageAndPaint}}
+[ImageAndPaint](examples/ImageAndPaint.md)
 
 ## Version
 Availability: from VectorWorks10.0

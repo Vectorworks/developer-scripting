@@ -32,7 +32,7 @@ def vs.CreateGroupBox(dialogID, itemID, text, hasFrame):
 A group box with out frame is used for placing and moving groups of controls.[DWG 1/20/00]
 
 ## Examples
-mplexDialogLayout2}}
+[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks9.0

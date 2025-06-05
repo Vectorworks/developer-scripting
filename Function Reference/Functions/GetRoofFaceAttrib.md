@@ -62,7 +62,7 @@ Other authors:
 See Also [[VS:GetRoofFaceCoords| GetRoofFaceCoords]]() for additional roof face data
 
 ## Examples
-tRoofProperties}}
+[GetRoofProperties](examples/GetRoofProperties.md)
 
 ## Version
 Availability: from VectorWorks 9.0

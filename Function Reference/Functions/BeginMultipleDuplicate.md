@@ -13,7 +13,7 @@ def vs.BeginMultipleDuplicate():
 ```
 
 ## Examples
-averseObjectsInActiveLayer}}
+[TraverseObjectsInActiveLayer](examples/TraverseObjectsInActiveLayer.md)
 
 ## See Also
 VS Functions:

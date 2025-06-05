@@ -24,7 +24,7 @@ def vs.ConvertToNURBS(h, keepOrig):
 [[User:CBM-c-|_c_]] (2010.12.24) The orientation of the generated NURBS object is -like for extrudes- based on the active view. Set the plane of your profile object with [[VS:SetPlanarRefIDToGround]] if you need it planar.
 
 ## Examples
-RBSObject}}
+[NURBSObject](examples/NURBSObject.md)
 
 ## Version
 Availability: from VectorWorks 10.0

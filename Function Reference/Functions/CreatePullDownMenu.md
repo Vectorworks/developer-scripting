@@ -23,7 +23,7 @@ def vs.CreatePullDownMenu(dialogID, itemID, widthInCharacters):
 |widthInCharacters|LONGINT|The width of the control in characters.|
 
 ## Examples
-alogLayoutPulldownMenu}}
+[DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
 ## Version
 Availability: from VectorWorks9.0

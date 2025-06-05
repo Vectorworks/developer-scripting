@@ -3,7 +3,7 @@
 ## Description
 Returns the numeric formatting of a cell in the referenced worksheet.
 
-Specific index values for numeric formats and accuracy are listed in the [[VS:Function Reference Appendix#Record - Worksheet Field Types|Appendix]].
+Specific index values for numeric formats and accuracy are listed in the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#record---worksheet-field-types).
 
 ```pascal
 PROCEDURE GetWSCellNumberFormat(

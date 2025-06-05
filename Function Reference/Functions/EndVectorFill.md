@@ -16,7 +16,7 @@ def vs.EndVectorFill():
 Follows BeginVectorFill and a variable number AddVectorFillLayer calls.
 
 ## Examples
-dHatchToResource}}
+[AddHatchToResource](examples/AddHatchToResource.md)
 
 ## Version
 Availability: from MiniCAD7.0.1

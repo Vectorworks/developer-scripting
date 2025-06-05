@@ -50,7 +50,7 @@ Set to false to offset the symbol from the top of the dormer using the next para
 symOffset: Distance from top of the dormer to symbol insertion point.
 
 ## Examples
-eateRoofOb}}
+[CreateRoofOb](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

@@ -46,7 +46,7 @@ rightSlope: Angle of right dormer roof.
 overhang: Distance roof projects past dormer walls.
 
 ## Examples
-eateRoofOb}}
+[CreateRoofOb](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

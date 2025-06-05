@@ -13,7 +13,7 @@ def vs.ClearCavities():
 ```
 
 ## Examples
-eateWallObject2}}
+[CreateWallObject2](examples/CreateWallObject2.md)
 
 ## Version
 ClearCavities is obsolete as of VectorWorks12.5<P>

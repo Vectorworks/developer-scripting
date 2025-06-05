@@ -35,7 +35,7 @@ Examples of all of the messaging techniques:&lt;pre&gt;
 AlertQuestion uses the exclamation icon, when really it should use the question icon.
 
 ## Examples
-ertDialogsAndMessages}}
+[AlertDialogsAndMessages](examples/AlertDialogsAndMessages.md)
 
 ## See Also
 VS Functions:

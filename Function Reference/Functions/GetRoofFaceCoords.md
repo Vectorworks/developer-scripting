@@ -34,7 +34,7 @@ Returns roof definition axis, upslope definition point.
 See Also GetRoofFaceAttr() for additional roof face data
 
 ## Examples
-tRoofProperties}}
+[GetRoofProperties](examples/GetRoofProperties.md)
 
 ## Version
 Availability: from VectorWorks9.0

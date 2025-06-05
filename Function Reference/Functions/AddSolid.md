@@ -52,7 +52,7 @@ def vs.AddSolid(obj1, obj2):
 |newSolid|HANDLE|Handle to resultant object from add operation.|
 
 ## Examples
-ginXtrd}}
+[BeginXtrd](examples/BeginXtrd.md)
 
 ## Version
 Availability: from MiniCAD 7.0

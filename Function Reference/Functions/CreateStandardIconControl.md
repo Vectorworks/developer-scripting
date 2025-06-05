@@ -31,7 +31,7 @@ def vs.CreateStandardIconControl(dialogID, iconControlID, iconNumber):
 Should show image of each icon.
 
 ## Examples
-mplexDialogLayout2}}
+[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks11.5

@@ -3,7 +3,7 @@
 ## Description
 Creates a new field in a specified record format. If the record does not exist, a new one is created using the specified record name.
 
-Please refer to the [[VS:Function Reference Appendix#Record - Worksheet Field Types|VectorScript Appendix]] for specific field data types and formatting.
+Please refer to the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#record---worksheet-field-types) for specific field data types and formatting.
 
 ```pascal
 PROCEDURE NewField(

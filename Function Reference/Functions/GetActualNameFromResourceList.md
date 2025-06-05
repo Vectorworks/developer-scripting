@@ -24,7 +24,7 @@ def vs.GetActualNameFromResourceList(listID, index):
 To get the display name use GetNameFromResourceList.
 
 ## Examples
-dHatchToResource}}
+[AddHatchToResource](examples/AddHatchToResource.md)
 
 ## See Also
 VS Functions:

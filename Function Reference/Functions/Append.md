@@ -30,7 +30,7 @@ def vs.Append(fileName):
 |fileName|STRING|Name of file to open for writing.|
 
 ## Examples
-leIO}}
+[FileIO](examples/FileIO.md)
 
 ## Version
 Availability: from All Versions

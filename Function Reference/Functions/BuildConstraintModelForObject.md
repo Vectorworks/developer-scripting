@@ -22,7 +22,7 @@ def vs.BuildConstraintModelForObject(h, traverseContainers):
 |traverseContainers|BOOLEAN|Whether to traverse containers-like objects|
 
 ## Examples
-averseObjectsInActiveLayer}}
+[TraverseObjectsInActiveLayer](examples/TraverseObjectsInActiveLayer.md)
 
 ## Version
 Availability: from Vectorworks 2011

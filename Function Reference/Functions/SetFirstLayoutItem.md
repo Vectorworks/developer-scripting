@@ -24,8 +24,8 @@ def vs.SetFirstLayoutItem(dialogID, firstItemID):
 [DWD 1/20/00]
 
 ## Examples
-alogLayoutPulldownMenu}}
-{{ComplexDialogLayout2}}
+* [DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
+* [ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks9.0

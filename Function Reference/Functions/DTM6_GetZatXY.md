@@ -36,7 +36,7 @@ The values of TINType are one of:
 ::ELSE GetZ from [Existing Surface]
 
 ## Examples
-M6_Sample}}
+[DTM6_Sample](examples/DTM6_Sample.md)
 
 ## See Also
 [DTM6_GetDTMObject](DTM6_GetDTMObject.md) | [DTM6_IsDTM6Object](DTM6_IsDTM6Object.md) | [DTM6_IsObjectReady](DTM6_IsObjectReady.md) | [DTM6_IsTypeVisible](DTM6_IsTypeVisible.md)

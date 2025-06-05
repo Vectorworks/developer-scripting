@@ -38,7 +38,7 @@ So don't use recursively zero for creating new columns. The issue disturbs quite
 (VW 12 - 13)
 
 ## Examples
-mplexDialogLayout4}}
+[ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
 ## Version
 Availability: from VectorWorks11.0

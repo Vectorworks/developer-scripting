@@ -29,7 +29,7 @@ def vs.AddLBImage(dialogID, componentID, resourceType, resourceID):
 |resourceID|INTEGER|the resource ID of image to add|
 
 ## Remarks
-The index returned is 0-based. {{MacPC_diff}}
+The index returned is 0-based.
 
 ## Examples
 Here's an annoying example of how to use icons in LB and get their status:

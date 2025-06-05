@@ -23,7 +23,7 @@ def vs.GetFirstChild(XMLHandle, elementPath):
 |value|STRING|Output parameter.|
 
 ## Examples
-LParse}}
+[XMLParse](examples/XMLParse.md)
 
 ## Version
 Availability: from All Versions

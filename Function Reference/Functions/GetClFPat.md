@@ -5,7 +5,7 @@ Returns the fill or hatch pattern of the specified class.
 
 A positive return value in a range of 0 to 71 is the index of the bitmap fill pattern of the class. A negative value is the negative of the fill pattern index (index * -1).
 
-Fill patterns and their associated constants can be found in the [[VS:Function Reference Appendix#Fill Patterns|Function Reference Appendix]].
+Fill patterns and their associated constants can be found in the [Sciprt Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).
 
 ```pascal
 FUNCTION GetClFPat(className : STRING): LONGINT;

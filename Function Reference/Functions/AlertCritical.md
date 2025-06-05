@@ -24,7 +24,7 @@ def vs.AlertCritical(text, advice):
 Created by TTF 1/18/2005
 
 ## Examples
-ertDialogsAndMessages}}
+[AlertDialogsAndMessages](examples/AlertDialogsAndMessages.md)
 
 ## See Also
 VS Functions:

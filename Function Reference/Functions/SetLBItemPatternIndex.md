@@ -24,7 +24,7 @@ def vs.SetLBItemPatternIndex(dialogID, componentID, itemIndex, subItemIndex, pat
 |componentID|LONGINT|id of the list browser control|
 |itemIndex|INTEGER|the row index|
 |subItemIndex|INTEGER|the column index|
-|patIndex|INTEGER|The pattern index of this item. Value from [1..71] see [[VS:Function Reference Appendix#Fill Patterns]]|
+|patIndex|INTEGER|The pattern index of this item. Value from [1..71] see [Sciprt Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).|
 
 ## Examples
 #### VectorScript ####

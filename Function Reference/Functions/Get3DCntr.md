@@ -23,7 +23,7 @@ def vs.Get3DCntr(h):
 |zValue|REAL|Returns elevation of object center point.|
 
 ## Examples
-t3DOrientation}}
+
 
 ## Version
 Availability: from All Versions

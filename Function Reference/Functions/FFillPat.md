@@ -3,7 +3,7 @@
 ## Description
 Function FFillPat returns the current fill pattern setting.
 
-Fill patterns and their associated constants can be found in the [[VS:Function Reference Appendix#Fill Patterns|VectorScript Appendix]].
+Fill patterns and their associated constants can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).
 
 ```pascal
 FUNCTION FFillPat : LONGINT;

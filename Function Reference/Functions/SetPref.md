@@ -3,7 +3,7 @@
 ## Description
 Procedure SetPref sets the on-off status of a VectorWorks preference dialog item. Parameter index specifies the preference item, and parameter status sets the on-off status of the item.
 
-A table of preference dialog items and their corresponding IDs may be found in the [[VS:Function Reference Appendix#Appendix F - Preference Selectors|Appendix]].
+A table of preference dialog items and their corresponding IDs may be found in the [Scirpt Appendix](../Appendix/pages/Appendix%20F%20-%20Preference%20Selectors.md).
 
 ```pascal
 PROCEDURE SetPref(

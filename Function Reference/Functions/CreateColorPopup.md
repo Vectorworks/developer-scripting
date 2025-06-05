@@ -25,7 +25,7 @@ def vs.CreateColorPopup(dialogID, itemID, widthInCharacters):
 |widthInCharacters|LONGINT|   |
 
 ## Examples
-lorPopupDialog}}
+[ColorPopupDialog](examples/ColorPopupDialog.md)
 
 ## Version
 Availability: from VectorWorks12.0

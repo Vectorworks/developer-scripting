@@ -21,7 +21,7 @@ def vs.CreateShedDormer(roofObject):
 This only creates the object, SetDormerAttributes() &amp; SetShedAttributes() must still be called to define the attributes of the dormer.
 
 ## Examples
-eateShedDormer}}
+[CreateShedDormer](examples/CreateShedDormer.md)
 
 ## Version
 Availability: from VectorWorks8.0

@@ -54,7 +54,7 @@ def vs.AddSymToWallEdge(h, alongDistance, heightDistance, flip, right, symbolNam
 |insertMode|INTEGER|Edge insertion mode.|
 
 ## Examples
-eateWallObject}}
+[CreateWallObject](examples/CreateWallObject.md)
 
 ## Version
 Availability: from VectorWorks 8.0

@@ -3,7 +3,7 @@
 ## Description
 Sets the value of the specified VectorWorks preference setting. Used with preference settings requiring a STRING value.
 
-A table of preference dialog items and their corresponding IDs may be found in the [[VS:Function Reference Appendix#Appendix F - Preference Selectors|Appendix]].
+A table of preference dialog items and their corresponding IDs may be found in the [Scirpt Appendix](../Appendix/pages/Appendix%20F%20-%20Preference%20Selectors.md).
 
 ```pascal
 PROCEDURE SetPrefString(

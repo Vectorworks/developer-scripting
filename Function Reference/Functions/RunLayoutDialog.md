@@ -45,7 +45,7 @@ Do not use the [[VS:Wait]]() function in the event handler subroutine of Layout 
 If you want to prevent a dialog from terminating after someone has clicked on the OK button, set item equal to -1. Note that in Python there is no output parameters. So, this value should be returned.
 
 ## Examples
-ampleDialogWithTwoEdits}}
+[ASampleDialogWithTwoEdits](examples/ASampleDialogWithTwoEdits.md)
 
 ## Version
 Availability: from VectorWorks9.0

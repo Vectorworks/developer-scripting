@@ -23,7 +23,7 @@ def vs.GetColorChoice(dialogID, itemID):
 |colorIndex|INTEGER|   |
 
 ## Examples
-lorPopupDialog}}
+[ColorPopupDialog](examples/ColorPopupDialog.md)
 
 ## Version
 Availability: from VectorWorks12.0

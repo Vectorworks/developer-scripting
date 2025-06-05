@@ -87,7 +87,7 @@ def vs.InitXML():
 ||   |   |
 
 ## Examples
-LParse}}
+[XMLParse](examples/XMLParse.md)
 
 ## Version
 Availability: from All Versions

@@ -25,7 +25,7 @@ def vs.CreateTabPane(dialogID, itemID, groupID):
 |groupID|LONGINT|The id of the group that defines the tab pane.|
 
 ## Examples
-mplexDialogLayout2}}
+[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## See Also
 VS Functions:

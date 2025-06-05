@@ -6,7 +6,7 @@ Procedure PenPat sets the active pen pattern (line style) for the document.
 
 If patNumber is in the range 0 to 71 the linestyle will be set to the corresponding fill pattern. A value in the range -1 to -8, will set the linestyle to one of the defined VectorWorks linestyles.
 
-Fill patterns and their associated constants can be found in the [[VS:Function Reference Appendix#Fill Patterns|VectorScript Appendix]].
+Fill patterns and their associated constants can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).
 
 ```pascal
 PROCEDURE PenPat(patNumber : INTEGER);

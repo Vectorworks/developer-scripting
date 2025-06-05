@@ -23,7 +23,7 @@ This only creates the object, SetDormerAttributes() &amp; SetHipAttributes() mus
 object: is the roof object into which to add the dormer.
 
 ## Examples
-eateRoofOb}}
+[CreateRoofOb](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

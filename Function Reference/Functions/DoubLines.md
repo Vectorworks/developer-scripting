@@ -19,7 +19,7 @@ def vs.DoubLines(doubleLineDistance):
 |doubleLineDistance|REAL|Width between lines.|
 
 ## Examples
-eateWallObject2}}
+[CreateWallObject2](examples/CreateWallObject2.md)
 
 ## Version
 DoubLines is obsolete as of VectorWorks12.5<P>

@@ -38,7 +38,8 @@ def vs.Set3DRot(h, xAngle, yAngle, zAngle, xDistance, yDistance, zDistance):
 (Gerard Jonker, 5 April 2006): The xDistance and yDistance parameters use the Absolute Origin, so you have to correct for a moved User Origin (see example).
 
 ## Examples
-{{Manipulate3DObjects}}
+[Manipulate3DObjects](examples/Manipulate3DObjects.md)
+
 ```pascal
 PROCEDURE Example;
 BEGIN

@@ -30,7 +30,7 @@ def vs.Close(fileName):
 |fileName|STRING|Name of file to close.|
 
 ## Examples
-leIO}}
+[FileIO](examples/FileIO.md)
 
 ## Version
 Availability: from All Versions

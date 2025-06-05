@@ -23,7 +23,7 @@ def vs.BeginXtrd(startDistance, endDistance):
 |endDistance|REAL|End distance from document ground plane.|
 
 ## Examples
-{{BeginXtrd}}
+[BeginXtrd](examples/BeginXtrd.md)
 
 Another example which will be handy for creating hybrid objects from within plug-ins:
 ```pascal

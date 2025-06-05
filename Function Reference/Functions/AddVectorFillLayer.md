@@ -5,7 +5,7 @@ Procedure AddVectorFillLayer is used to add layers to a vector fill definition. 
 
 The input parameters for a vector fill layer match the inputs from the right side of the VectorWorks hatch editor dialog.
 
-A color table listing with associated index values can be found in the [[VS:Function Reference Appendix#Color Palette|Appendix]].
+A color table listing with associated index values can be found in the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#color-palette).
 
 ```pascal
 PROCEDURE AddVectorFillLayer(
@@ -42,7 +42,7 @@ def vs.AddVectorFillLayer(xStart, yStart, xRepeat, yRepeat, xOffset, yOffset, da
 Follows a call to BeginVectorFill. The input for the layer match the input from the right side of the hatch editor dialog.
 
 ## Examples
-dHatchToResource}}
+[AddHatchToResource](examples/AddHatchToResource.md)
 
 ## Version
 Availability: from MiniCAD7.0.1

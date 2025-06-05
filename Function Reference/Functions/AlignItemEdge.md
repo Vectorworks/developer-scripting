@@ -57,7 +57,7 @@ Aligns layout items with the same edge and alignID. whichEdge: 1=right, 2=bottom
 Right aligned objects are lined up with the object with the minimum pixel value. Bottom and left aligned objects are lined up on the maximum pixel value.[DWD 1/20/00]
 
 ## Examples
-mplexDialogLayout}}
+[ComplexDialogLayout](examples/ComplexDialogLayout.md)
 
 ## Version
 Availability: from VectorWorks 9.0

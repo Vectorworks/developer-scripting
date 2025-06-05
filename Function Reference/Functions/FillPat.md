@@ -3,7 +3,7 @@
 ## Description
 Procedure FillPat sets the active fill pattern for the document. Any objects created after a calling this procedure will use the specified fill pattern.
 
-Fill patterns and their associated constants can be found in the [[VS:Function Reference Appendix#Fill Patterns|VectorScript Appendix]].
+Fill patterns and their associated constants can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).
 
 ```pascal
 PROCEDURE FillPat(patNumber : LONGINT);

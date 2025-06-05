@@ -18,7 +18,7 @@ def vs.ReleaseXML(XMLHandle):
 |XMLHandle|LONGINT|   |
 
 ## Examples
-LParse}}
+[XMLParse](examples/XMLParse.md)
 
 ## Version
 Availability: from All Versions

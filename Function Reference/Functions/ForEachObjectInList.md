@@ -63,12 +63,12 @@ def vs.ForEachObjectInList(actionFunc, objOptions, travOptions, list):
 |list|HANDLE|Handle to first item in list.|
 
 ## Remarks
-Be careful using this together with a call to [[VS:BeginSym]]: it deselects all selected objects on active layer (VW 13)
+Be careful using this together with a call to [BeginSym](BeginSym.md): it deselects all selected objects on active layer (VW 13)
 
 It seems that when you fill in a NIL Handle in the list Parameter, the ActionFunc will be executed on all the objects of the active layer (VW2011).
 
 ## Examples
-{{TraverseObjectsInActiveLayer}}
+[TraverseObjectsInActiveLayer](examples/TraverseObjectsInActiveLayer.md)
 ```pascal
 PROCEDURE Example;
 CONST

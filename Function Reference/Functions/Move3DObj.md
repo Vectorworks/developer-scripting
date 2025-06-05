@@ -25,7 +25,7 @@ def vs.Move3DObj(h, xDistance, yDistance, zDistance):
 |zDistance|REAL|Z offset distance.|
 
 ## Examples
-nipulate3DObjects}}
+[Manipulate3DObjects](examples/Manipulate3DObjects.md)
 
 ## Version
 Availability: from All Versions

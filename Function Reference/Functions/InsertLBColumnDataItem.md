@@ -34,7 +34,7 @@ def vs.InsertLBColumnDataItem(dialogID, componentID, columnIndex, itemString, im
 VW2011: It seems to be impossible to fill in a column with the same value with InsertLBColumnDataItem. If you need it, you can use [http://developer.vectorworks.net/index.php?title=VS:SetLBItemInfo SetLBItemInfo] instead.
 
 ## Examples
-mplexDialogLayout4}}
+[ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
 ## Version
 Availability: from VectorWorks11.0

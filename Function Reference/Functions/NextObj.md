@@ -18,7 +18,7 @@ def vs.NextObj(h):
 |h|HANDLE|Handle to object,  group, or  symbol definition.|
 
 ## Examples
-mplexDialogLayout4}}
+[ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
 ## See Also
 Relative calls:

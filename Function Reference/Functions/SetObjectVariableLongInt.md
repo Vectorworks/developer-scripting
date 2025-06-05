@@ -3,7 +3,7 @@
 ## Description
 Sets the value of a VectorWorks object property. Used with properties requiring a LONGINT value.
 
-For specific object selector index values, see the [[VS:Function Reference Appendix#Appendix G - Object Selectors|Appendix]].
+For specific object selector index values, see the [Script Appendix](../Appendix/pages/Appendix%20G%20-%20Object%20Selectors.md).
 
 ```pascal
 PROCEDURE SetObjectVariableLongInt(

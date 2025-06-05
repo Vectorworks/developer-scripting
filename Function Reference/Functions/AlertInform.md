@@ -26,7 +26,7 @@ def vs.AlertInform(text, advice, minorAlert):
 Created by 1/18/2005
 
 ## Examples
-ertDialogsAndMessages}}
+[AlertDialogsAndMessages](examples/AlertDialogsAndMessages.md)
 
 ## See Also
 VS Functions:

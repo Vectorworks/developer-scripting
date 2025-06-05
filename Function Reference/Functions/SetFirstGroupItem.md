@@ -23,11 +23,11 @@ def vs.SetFirstGroupItem(dialogID, groupID, firstItemID):
 |firstItemID|LONGINT|The index of the control item to be placed in the group box.|
 
 ## Remarks
-[DWD 1/20/00]
+
 
 ## Examples
-alogLayoutPulldownMenu}}
-{{ComplexDialogLayout2}}
+* [DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
+* [ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks9.0

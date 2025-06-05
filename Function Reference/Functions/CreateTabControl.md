@@ -23,7 +23,7 @@ def vs.CreateTabControl(dialogID, itemID):
 |itemID|LONGINT|The id of the Tab control.|
 
 ## Examples
-mplexDialogLayout2}}
+[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## See Also
 VS Functions:

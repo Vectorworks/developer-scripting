@@ -3,7 +3,7 @@
 ## Description
 Returns the value of a VectorWorks object property. Used with properties returning an INTEGER value.
 
-For specific object selector index values, see the [[VS:Function Reference Appendix#Appendix G - Object Selectors|Appendix]].
+For specific object selector index values, see the [Script Appendix](../Appendix/pages/Appendix%20G%20-%20Object%20Selectors.md).
 
 ```pascal
 FUNCTION GetObjectVariableInt(
@@ -23,7 +23,7 @@ def vs.GetObjectVariableInt(h, index):
 |index|INTEGER|Object property index.|
 
 ## Examples
-mplexDialogLayout4}}
+[ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
 ## Version
 Availability: from VectorWorks9.0

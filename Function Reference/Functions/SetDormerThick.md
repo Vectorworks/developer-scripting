@@ -23,7 +23,7 @@ def vs.SetDormerThick(roofObject, wallThickDistance, roofThickDistance):
 |roofThickDistance|REAL|Roof thickness of dormer.|
 
 ## Examples
-eateRoofOb}}
+[CreateRoofOb](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

@@ -32,8 +32,8 @@ To do multi-line static text, a fixed width for the control must be provided to 
 If you are overlaying a StaticText control over an image e.g in an About My Great Plugin... dialog you'l find that on Windows your text background s filled in gray behind the text instead of being transparent so your image shows thru. There is a low-level fix for this in Vectorworks. Just set the color of the text to 1,1,1 instead of 0,0,0 using SetStaticTextColor(dialogID, componentID, red, green, blue); Conrad.
 
 ## Examples
-mplexDialogLayout}}
-{{ComplexDialogLayout2}}
+*[ComplexDialogLayout](examples/ComplexDialogLayout.md)
+*[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks9.0

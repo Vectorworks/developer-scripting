@@ -18,7 +18,7 @@ def vs.SetDSelect(h):
 |h|HANDLE|Handle to object.|
 
 ## Examples
-olateLayer}}
+[IsolateLayer](examples/IsolateLayer.md)
 
 ## Version
 Availability: from All Versions

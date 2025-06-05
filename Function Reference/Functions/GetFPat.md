@@ -5,7 +5,7 @@ Function GetFPat returns the fill pattern of the referenced object.
 
 A positive value corresponds to the index of the fill pattern on the pattern palette. A negative value corresponds to internal index of a vector fill pattern applied to the object.
 
-Fill patterns and their associated constants can be found in the [[VS:Function Reference Appendix#Fill Patterns|VectorScript Appendix]].
+Fill patterns and their associated constants can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).
 
 ```pascal
 FUNCTION GetFPat(h : HANDLE): LONGINT;

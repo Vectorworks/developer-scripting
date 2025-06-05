@@ -4,7 +4,7 @@
 <b>OBSOLETE for VW 2008: Use [[VS:GetDefaultBeginningMarker| GetDefaultBeginningMarker]] and/or [[VS:GetDefaultEndMarker| GetDefaultEndMarker]] instead.</b>
 Procedure FMarker returns the active marker style parameters.
 
-A complete listing of marker styles can be found in the [[VS:Function Reference Appendix#Appendix I - Markers|Appendix]].
+A complete listing of marker styles can be found in the [Script Appendix](../Appendix/pages/Appendix%20I%20-%20Markers.md).
 
 ```pascal
 PROCEDURE FMarker(

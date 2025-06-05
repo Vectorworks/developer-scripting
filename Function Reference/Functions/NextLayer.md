@@ -18,7 +18,7 @@ def vs.NextLayer(h):
 |h|HANDLE|Handle to layer.|
 
 ## Examples
-averseObjects}}
+[TraverseObjects](examples/TraverseObjects.md)
 
 ## Version
 Availability: from All Versions

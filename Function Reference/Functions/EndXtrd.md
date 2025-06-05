@@ -15,7 +15,9 @@ def vs.EndXtrd():
 ```
 
 ## Examples
-{{BeginXtrd}}
+[BeginXtrd](examples/BeginXtrd.md)
+
+
 ```pascal
 BeginXtrd(0',4');
 Rect(-1 61/64&quot;,125/128&quot;,-1 119/256&quot;,-375/512&quot;);

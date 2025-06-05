@@ -45,7 +45,7 @@ On Vectorlab there is a list of all color routines accepting multiple variable t
 (Joel Sciamma 2006.08.14): To have no pen drawn, use SetLW to set the line weight to zero.
 
 ## Examples
-lectandDelObjects}}
+[SelectandDelObjects](examples/SelectandDelObjects.md)
 
 ## See Also
 VS Functions:

@@ -24,7 +24,7 @@ def vs.GetLBItemPatternIndex(dialogID, componentID, itemIndex, the column index)
 |componentID|LONGINT|id of the list browser control|
 |itemIndex|INTEGER|the row index|
 |the column index|INTEGER|the column index|
-|outPatIndex|INTEGER|Output parameter. Returns the pattern index of this item. Value from [1..71] see [[VS:Function Reference Appendix#Fill Patterns]]|
+|outPatIndex|INTEGER|Output parameter. Returns the pattern index of this item. Value from [1..71] see [Sciprt Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).|
 
 ## See Also
 [SetLBItemPatternIndex](SetLBItemPatternIndex.md)

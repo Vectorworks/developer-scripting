@@ -25,7 +25,7 @@ def vs.InsertLBItem(dialogID, componentID, itemIndex, itemString):
 |itemString|STRING|text to set for item|
 
 ## Examples
-mplexDialogLayout4}}
+[ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
 ## Version
 Availability: from VectorWorks11.0

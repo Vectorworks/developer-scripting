@@ -21,7 +21,7 @@ def vs.CreateTrapeziumDormer(roofObject):
 This only creates the object, SetDormerAttributes() &amp; SetTrapeziumAttributes() must still be called to define the attributes of the dormer.
 
 ## Examples
-eateRoofObj}}
+[CreateRoofObj](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

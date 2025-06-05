@@ -21,7 +21,6 @@ def vs.GetVCenter():
 ([[User:CBM-c-|_c_]], 2015.03.01):  This is not to be confused with the center of the page. The view center is always the center of the open window, so if you resize the window or pan somewhere else, for example, the view center will move accordingly.
 
 ## Examples
-ndowScreenSizes}}
 
 ## Version
 Availability: from VectorWorks 8.0

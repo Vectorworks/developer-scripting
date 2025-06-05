@@ -24,7 +24,7 @@ def vs.GetNameFromResourceList(listID, index):
 To get the actual name use GetActualNameFromResourceList.
 
 ## Examples
-rkingWithResrouceList}}
+[WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
 ## See Also
 VS Functions:

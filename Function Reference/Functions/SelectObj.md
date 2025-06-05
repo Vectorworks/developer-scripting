@@ -18,7 +18,7 @@ def vs.SelectObj(c):
 |c|CRITERIA|Search criteria.|
 
 ## Examples
-lectandDelObjects}}
+[SelectandDelObjects](examples/SelectandDelObjects.md)
 
 ## Version
 Availability: from All Versions

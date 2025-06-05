@@ -5,7 +5,7 @@ Procedure AddCavity creates a wall cavity in a new wall object. The newly define
 
 To apply a bitmap fill pattern, use positive value corresponding to the index  of the bitmap pattern.  To apply a vector fill pattern, use the negative of the vector fill index (index * -1). 
 
-Fill patterns and their associated constants can be found in the [[VS:Function Reference Appendix#Fill Patterns|VectorScript Appendix]].
+Fill patterns and their associated constants can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#fill-patterns).
 
 ```pascal
 PROCEDURE AddCavity(
@@ -32,7 +32,31 @@ def vs.AddCavity(pair, leftOffDistance, rightOffDistance, pairFill):
 (NZH 5-9-05) OBSOLETE for Version 12: Use [[VS:InsertNewComponent]] instead.
 
 ## Examples
-eateWallObjCavity}}
+#### VectorScript ####
+```pascal
+{ Create wall object with 1" wide cavity using black pattern fill.}
+DoubLines(6");
+AddCavity(True, 1", 2", 2);
+Wall(0, 1, 9, 1);
+
+{ Create wall object with 1" wide cavity using a custom hatch fill.}
+DoubLines(6");
+AddCavity(True, 1", 2", -Name2Index('My Hatch'));
+Wall(0, 1, 9, 1);
+```
+
+#### Python ####
+```python
+#{ Create wall object with 1" wide cavity using black pattern fill.}
+vs.DoubLines(6)
+vs.AddCavity(1, 1, 2, 2)
+vs.Wall(0, 1, 9, 1)
+
+#{ Create wall object with 1" wide cavity using a custom hatch fill.}
+vs.DoubLines(6)
+vs.AddCavity(1, 1, 2, -vs.Name2Index('My Hatch'))
+vs.Wall(0, 1, 9, 1)
+```
 
 ## See Also
 VS Functions:

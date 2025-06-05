@@ -35,7 +35,7 @@ projection: eave overhang
 eaveHeight: eave height
 
 ## Examples
-eateRoofObj}}
+[CreateRoofObj](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

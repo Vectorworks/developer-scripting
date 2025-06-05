@@ -38,7 +38,7 @@ an unrotated rectangle with width = 1m and height = 2m }
 </code>
 
 ## Examples
-lectandDelObjects}}
+[SelectandDelObjects](examples/SelectandDelObjects.md)
 
 ## See Also
 VS Functions:

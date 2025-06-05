@@ -30,7 +30,7 @@ Here is the list of TINType values. The function will return TRUE when these con
 *5 - 3D proposed -- IF (3DDisplay == Proposed)  THEN RETURN TRUE
 
 ## Examples
-M6_Sample}}
+[DTM6_Sample](examples/DTM6_Sample.md)
 
 ## See Also
 [DTM6_GetDTMObject](DTM6_GetDTMObject.md) | [DTM6_IsDTM6Object](DTM6_IsDTM6Object.md) | [DTM6_IsObjectReady](DTM6_IsObjectReady.md)

@@ -26,7 +26,7 @@ def vs.CreateSwapPane(dialogID, swapControlID, newGroupID):
 The function is analogous to CreateTabPane.
 
 ## Examples
-mplexDialogLayout3swap}}
+[ComplexDialogLayout3swap](examples/ComplexDialogLayout3swap.md)
 
 ## See Also
 VS Functions:

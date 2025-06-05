@@ -21,7 +21,7 @@ def vs.AddResourceToList(listID, resource):
 |resource|HANDLE|a resource to add to the resource list.|
 
 ## Examples
-dHatchToResource}}
+[AddHatchToResource](examples/AddHatchToResource.md)
 
 ## Version
 Availability: from VectorWorks12.0

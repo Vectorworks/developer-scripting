@@ -23,7 +23,7 @@ Returns the name of the referenced layer.
 [sd 8/14/98]
 
 ## Examples
-olateLayer}}
+[IsolateLayer](examples/IsolateLayer.md)
 
 ## Version
 Availability: from All Versions

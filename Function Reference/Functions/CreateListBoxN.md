@@ -27,7 +27,7 @@ def vs.CreateListBoxN(dialogID, itemID, widthInCharacters, heightInCharacters, i
 |isMultipleSelect|BOOLEAN|Does the list support multiple selection|
 
 ## Examples
-alogLayoutPulldownMenu}}
+[DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
 ## Version
 Availability: from VectorWorks10.5

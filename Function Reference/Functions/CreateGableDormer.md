@@ -21,7 +21,7 @@ def vs.CreateGableDormer(roofObject):
 This only creates the object, SetDormerAttributes() &amp; SetGableAttributes() must still be called to define the attributes of the dormer.
 
 ## Examples
-eateRoofOb}}
+[CreateRoofOb](examples/CreateRoofObj.md)
 
 ## Version
 Availability: from VectorWorks8.0

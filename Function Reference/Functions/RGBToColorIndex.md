@@ -3,7 +3,7 @@
 ## Description
 Procedure RGBToColorIndex converts the VectorWorks palette colors from its' red, green, and blue component values to the colors' palette position index. Parameters red, green, and blue return the color components of the swatch, and parameter color is the palette position ID of the color swatch. RGB values are in the range of 0~65535. 
 
-A color table listing with associated index values can be found in the [[VS:Function Reference Appendix#Color Palette|Appendix]].
+A color table listing with associated index values can be found in the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#color-palette).
 
 ```pascal
 PROCEDURE RGBToColorIndex(
@@ -30,7 +30,7 @@ def vs.RGBToColorIndex(red, green, blue):
 See &lt;a href=http://www.vectorlab.info/index.php?title=Colors_in_VectorWorks_2008%2B&gt;VectorLab&lt;/a&gt; for more info on color indices in VectorWorks 2008.
 
 ## Examples
-lectandDelObjects}}
+[SelectandDelObjects](examples/SelectandDelObjects.md)
 
 ## See Also
 Functions:

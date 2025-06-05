@@ -4,7 +4,7 @@
 <b>OBSOLETE for VW2008: Use [[VS:SetDefaultBeginningMarker|SetDefaultBeginningMarker]] and/or [[VS:SetDefaultEndMarker|SetDefaultEndMarker]] instead.</b>
 Marker defines a marker (arrowhead) style for the document. This marker style becomes the active style for the document.
 
-A complete listing of marker styles can be found in the [[VS:Function Reference Appendix#Appendix I - Markers |Appendix]]
+A complete listing of marker styles can be found in the [Script Appendix](../Appendix/pages/Appendix%20I%20-%20Markers.md).
 
 ```pascal
 PROCEDURE Marker(

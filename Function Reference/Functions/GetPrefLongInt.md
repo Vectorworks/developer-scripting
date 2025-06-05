@@ -3,7 +3,7 @@
 ## Description
 Returns the value of a VectorWorks preference setting. Used with preference settings returning a LONGINT value.
 
-A table of preference dialog items and their corresponding IDs may be found in the [[VS:Function Reference Appendix#Appendix F - Preference Selectors|Appendix]].
+A table of preference dialog items and their corresponding IDs may be found in the [Scirpt Appendix](../Appendix/pages/Appendix%20F%20-%20Preference%20Selectors.md).
 
 ```pascal
 FUNCTION GetPrefLongInt(prefIndex : INTEGER): LONGINT;

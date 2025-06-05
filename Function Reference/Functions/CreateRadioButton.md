@@ -25,10 +25,10 @@ def vs.CreateRadioButton(dialogID, itemID, text):
 |text|STRING|The display text for the control.|
 
 ## Remarks
-[DWD 1/20/00]
+
 
 ## Examples
-mplexDialogLayout2}}
+[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks9.0

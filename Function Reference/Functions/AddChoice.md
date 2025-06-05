@@ -30,7 +30,7 @@ def vs.AddChoice(dialogID, componentID, choiceText, itemIndex):
 For components created by [[VS:CreateEnhancedPullDownMenu| CreateEnhancedPullDownMenu]], [[VS:InsertEnhancedPullDownMenuItem| InsertEnhancedPullDownMenuItem]] should be used.
 
 ## Examples
-alogLayoutPulldownMenu}}
+[DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
 ## See Also
 For further information, please check out:

@@ -3,7 +3,7 @@
 ## Description
 Activates the specified VectorWorks tool for use. The tool remains selected as the active tool after use.
 
-Note: Please refer to the [[VS:Function Reference Appendix#SetTool - CallTool Selectors|VectorScript Appendix]] for specific tool ID values.
+Note: Please refer to the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#settool---calltool-selectors) for specific tool ID values.
 
 ```pascal
 PROCEDURE SetTool(theTool : INTEGER);

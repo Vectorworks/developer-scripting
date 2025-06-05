@@ -28,7 +28,7 @@ def vs.DisplayTabPane(dialogID, tabControlID, groupNumber):
 Note that pane indeces are 1-based in VectorScript, and 0-based in the SDK.  Tab panes are numbered sequentially in the order that they were inserted into the control.
 
 ## Examples
-mplexDialogLayout6}}
+[ComplexDialogLayout6](examples/ComplexDialogLayout6.md)
 
 ## See Also
 VS Functions:

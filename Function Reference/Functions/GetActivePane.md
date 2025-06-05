@@ -28,7 +28,7 @@ Note that pane indeces are 1-based in VectorScript, and 0-based in the SDK.  Pan
 This doesn't return the control ID per se, but rather, the sequential number of the tab or swap pane, in the order in which it was added to the tab/swap control (1, 2, 3, etc.).
 
 ## Examples
-mplexDialogLayout7}}
+
 
 ## See Also
 VS Functions:

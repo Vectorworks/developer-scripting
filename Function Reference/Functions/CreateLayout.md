@@ -32,7 +32,7 @@ Note that when you start creating controls, you should stick to IDs that are les
 It is possible to place a control next to the OK and Cancel button. To do this, give that control id 12605. It is not neccesary to add this control to the layout, this is done automatically (see Example 2 below).
 
 ## Examples
-alogLayoutPulldownMenu}}
+[DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
 ## Version
 Availability: from VectorWorks9.0

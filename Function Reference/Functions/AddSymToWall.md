@@ -29,11 +29,9 @@ def vs.AddSymToWall(wallHd, offDistance, heightDistance, flip, right, symbolName
 |symbolName|STRING|Name of symbol to insert in wall.|
 
 ## Remarks
-See AddSymToWallEdge
-[sd 8/13/98]
 
 ## Examples
-eateWallObject}}
+[CreateWallObject](examples/CreateWallObject.md)
 
 ## See Also
 VS Functions:

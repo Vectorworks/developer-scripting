@@ -23,7 +23,7 @@ def vs.IntDialog(request, default):
 |default|STRING|Default value for input field.|
 
 ## Examples
-mpleDialog}}
+[SimpleDialog](examples/SimpleDialog.md)
 
 ## Version
 Availability: from All Versions

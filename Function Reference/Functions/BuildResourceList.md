@@ -7,7 +7,7 @@ If the Display Default Content preference (#130) is on and folderIndex is not  0
 
 If folderIndex is positive, the list will include all the resources of that type from the current document, as well as from the specified folder. If folderIndex is 0, only the resources in the current document will be in the list. If folderIndex is negative, only the resources in the specified folder will be in the list.
 
-A complete listing of supported object types may be found in the [[VS:Function Reference Appendix#Appendix D - VectorWorks Object Types and Subtypes|VectorScript Appendix]].
+A complete listing of supported object types may be found in the [Script Appendix](../Appendix/pages/Appendix%20D%20-%20Vectorworks%20Object%20Types%20and%20Subtypes.md).
 
 | Folder Name                              | Constant |
 |------------------------------------------|----------|
@@ -227,7 +227,7 @@ Run(testResCountSymFolders);
 
 Another example from Pat Stanford <pat@coviana.com>
 November 2006
-{{WorkingWithResrouceList}}
+[WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
 ## See Also
 VS Functions:

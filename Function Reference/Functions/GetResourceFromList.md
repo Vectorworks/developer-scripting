@@ -28,7 +28,7 @@ IsReferenced := GetObjectVariableBoolean(handleToResourceDefinition, 700);
 </code>
 
 ## Examples
-rkingWithResrouceList}}
+[WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
 ## Version
 Availability: from VectorWorks12.0

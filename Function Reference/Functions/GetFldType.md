@@ -3,10 +3,10 @@
 ## Description
 Returns a constant indicating the data type of a specified field in the referenced record.
 
-Please refer to the [[VS:Function Reference Appendix#Record - Worksheet Field Types |VectorScript Appendix]] for specific field data types and formatting.
+Please refer to the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#record---worksheet-field-types) for specific field data types and formatting.
 
 
-For Plug-in Object Parameter Records, the field types are documented in the [[VS:Function Reference Appendix#Plug-in Object Parameter Record Field Types|VectorScript Appendix]].
+For Plug-in Object Parameter Records, the field types are documented in the [Scirpt Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#plug-in-object-parameter-record-field-types).
 
 ```pascal
 FUNCTION GetFldType(

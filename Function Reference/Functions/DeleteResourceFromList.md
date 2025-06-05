@@ -21,7 +21,7 @@ def vs.DeleteResourceFromList(listID, index):
 |index|LONGINT|an index into the list.|
 
 ## Examples
-rkingWithResrouceList}}
+[WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
 ## Version
 Availability: from VectorWorks12.0

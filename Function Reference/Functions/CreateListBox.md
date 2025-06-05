@@ -28,7 +28,7 @@ def vs.CreateListBox(dialogID, itemID, widthInCharacters, heightInCharacters):
 This control does not support multiple selections.
 
 ## Examples
-alogLayoutPulldownMenu}}
+[DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
 ## Version
 Availability: from VectorWorks9.0

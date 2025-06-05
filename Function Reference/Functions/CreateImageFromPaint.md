@@ -21,7 +21,7 @@ def vs.CreateImageFromPaint(paint, imageName):
 |imageName|STRING|User-specified name to be used to identify the newly created image resource.|
 
 ## Examples
-ageAndPaint}}
+[ImageAndPaint](examples/ImageAndPaint.md)
 
 ## Version
 Availability: from VectorWorks10.0

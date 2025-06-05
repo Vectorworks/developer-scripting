@@ -13,7 +13,7 @@ def vs.DidCancel():
 ```
 
 ## Examples
-mpleDialog}}
+[SimpleDialog](examples/SimpleDialog.md)
 
 ## Version
 Availability: from All Versions

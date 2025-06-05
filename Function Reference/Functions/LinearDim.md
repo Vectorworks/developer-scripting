@@ -3,7 +3,7 @@
 ## Description
 Procedure LinearDim creates a linear dimension in a VectorWorks document.
 
-Bit code values for dimension flags can be found in the [[VS:Function Reference Appendix#LinearDim|VectorScript Appendix]].
+Bit code values for dimension flags can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#lineardim).
 
 ![Linear Dimension](files/Lindim.gif)
 

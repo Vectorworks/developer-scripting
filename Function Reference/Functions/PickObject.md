@@ -23,7 +23,7 @@ Only picks objects on the active class &amp; layer, or on other classes/layers i
 PickObject & HCenter (when used together?) are less likely to produce incorrect results if you zoom in first.
 
 ## Examples
-olateLayer}}
+[IsolateLayer](examples/IsolateLayer.md)
 
 ## See Also
 VS Functions:

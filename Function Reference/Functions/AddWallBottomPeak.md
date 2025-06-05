@@ -23,7 +23,7 @@ def vs.AddWallBottomPeak(wallHd, offDistance, heightDistance):
 |heightDistance|REAL|Height of peak.|
 
 ## Examples
-eateWallObject}}
+[CreateWallObject](examples/CreateWallObject.md)
 
 ## Version
 Availability: from VectorWorks9.0

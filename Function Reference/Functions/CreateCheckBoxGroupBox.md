@@ -30,7 +30,7 @@ On VW 12.5.1 Win the border must be set to TRUE. If the border is set to FALSE t
 On VW 2016 Win the name parameter must have at least 2 characters or the checkbox will not be drawn.
 
 ## Examples
-mplexDialogLayout2}}
+[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
 ## Version
 Availability: from VectorWorks10.5

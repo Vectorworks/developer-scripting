@@ -7,7 +7,7 @@ If the item is part of a VectorWorks menu chunk, pass the position of the item w
 
 Note: DoMenuTextByName uses the internal VectorWorks menu item name to reference the menu command, and calls to this procedure will work on localized (international) versions of VectorWorks without modification. Note also that when calling VS plug-ins, you have to use the filename (which could be different from the internal plug-in name).
 
-A table listing DoMenuTextByName values can be found in the [[VS:Function Reference Appendix#Appendix H - DoMenuTextByName Constants| VectorScript Appendix]].
+A table listing DoMenuTextByName values can be found in the [Script Appendix](../Appendix/pages/Appendix%20H%20-%20DoMenuTextByName%20Constants.md).
 
 ```pascal
 PROCEDURE DoMenuTextByName(

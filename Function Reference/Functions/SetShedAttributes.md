@@ -43,7 +43,7 @@ topSlope: Angle of dormer roof.
 overhang: Distance roof projects past dormer walls.
 
 ## Examples
-eateShedDormer}}
+[CreateShedDormer](examples/CreateShedDormer.md)
 
 ## Version
 Availability: from VectorWorks8.0

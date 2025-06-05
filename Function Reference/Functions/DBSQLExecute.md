@@ -25,7 +25,7 @@ def vs.DBSQLExecute(database, SQLQuery):
 |outResultSetInst|LONGINT|   |
 
 ## Examples
-SQL}}
+[DBSQL](examples/DBSQL.md)
 
 ## Version
 Availability: from Vectorworks 2011
