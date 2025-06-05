@@ -29,7 +29,7 @@ LoadCell(1,1,'Cell 1,1');
 ```
 
 ## See Also
-[SetWSColumnWidth| SetWSColumnWidth](SetWSColumnWidth|%20SetWSColumnWidth.md)
+[SetWSColumnWidth](SetWSColumnWidth.md)
 
 ## Version
 SprdWidth is obsolete as of VectorWorks 9.0, see new [ SetWSColumnWidth](SetWSColumnWidth.md)

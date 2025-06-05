@@ -69,11 +69,11 @@ RUN(Example);
 
 ## See Also
 For polylines:
-* [GetPolylineVertex| GetPolylineVertex](GetPolylineVertex|%20GetPolylineVertex.md)
+* [GetPolylineVertex](GetPolylineVertex.md)
 
 For polygons:
-* [GetPolyPt| GetPolyPt](GetPolyPt|%20GetPolyPt.md)
-* [SetPolyPt| SetPolyPt](SetPolyPt|%20SetPolyPt.md)
+* [GetPolyPt](GetPolyPt.md)
+* [SetPolyPt](SetPolyPt.md)
 
 ## Version
 Availability: from VectorWorks 8.5

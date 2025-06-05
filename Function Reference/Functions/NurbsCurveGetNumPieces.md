@@ -23,7 +23,7 @@ See example on [NurbsGetPt3D](NurbsGetPt3D.md)
 ## Examples
 presentation of pieces (segments in the example) in a NURBS curve:
 
-[[File:NURBS_Pieces.png| 500px]]
+![NURBS_Pieces.png](files/NURBS_Pieces.png)
 
 ## Version
 Availability: from VectorWorks 9.0

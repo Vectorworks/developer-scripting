@@ -24,10 +24,10 @@ def vs.GetCellStr(h, row, col):
 
 ## See Also
 Functions:
-* [GetWSCellString | GetWSCellString](GetWSCellString%20| GetWSCellString.md)
-* [GetWSSubrowCellString | GetWSSubrowCellString](GetWSSubrowCellString%20| GetWSSubrowCellString.md)
-* [GetWSCellStringN | GetWSCellStringN](GetWSCellStringN%20| GetWSCellStringN.md) 
-* [GetWSSubrowCellStrN | GetWSSubrowCellStrN](GetWSSubrowCellStrN%20| GetWSSubrowCellStrN.md)
+* [GetWSCellString](GetWSCellString.md)
+* [GetWSSubrowCellString](GetWSSubrowCellString.md)
+* [GetWSCellStringN](GetWSCellStringN.md) 
+* [GetWSSubrowCellStrN](GetWSSubrowCellStrN.md)
 
 ## Version
 GetCellStr is obsolete as of VectorWorks 9.0, see new [ GetWSCellString](GetWSCellString.md) and [ GetWSSubrowCellString](GetWSSubrowCellString.md), [ GetWSCellStringN](GetWSCellStringN.md) and [ GetWSSubrowCellStrN](GetWSSubrowCellStrN.md)

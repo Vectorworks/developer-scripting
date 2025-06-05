@@ -23,7 +23,7 @@ def vs.GetCWidth(h, row, col):
 |col|INTEGER|Worksheet column index.|
 
 ## See Also
-[GetWSColumnWidth | GetWSColumnWidth](GetWSColumnWidth%20| GetWSColumnWidth.md)
+[GetWSColumnWidth](GetWSColumnWidth.md)
 
 ## Version
 GetCWidth is obsolete as of VectorWorks 9.0, see [GetWSColumnWidth ](GetWSColumnWidth .md)

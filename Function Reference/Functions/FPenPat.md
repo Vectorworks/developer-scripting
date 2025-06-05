@@ -24,7 +24,7 @@ CurrPenStyle = vs.FPenPat()
 ```
 
 ## See Also
-[FPenPatN|FPenPatN](FPenPatN|FPenPatN.md), [PenPatN|PenPatN](PenPatN|PenPatN.md)  from Vectorworks 2013
+[FPenPatN](FPenPatN.md), [PenPatN](PenPatN.md)  from Vectorworks 2013
 
 ## Version
 Availability: from All Versions, deprecated from Vectorworks 2013

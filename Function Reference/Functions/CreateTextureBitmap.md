@@ -17,7 +17,7 @@ Creates a new default texture bitmap, with no paint node attached.  Texture bitm
 
 ## See Also
 VS Functions:
-[CreateTextureBitmapN| CreateTextureBitmapN](CreateTextureBitmapN|%20CreateTextureBitmapN.md)
+[CreateTextureBitmapN](CreateTextureBitmapN.md)
 
 ## Version
 CreateTextureBitmap is obsolete as of VectorWorks 10.1

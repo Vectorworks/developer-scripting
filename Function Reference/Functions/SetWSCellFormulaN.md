@@ -89,8 +89,8 @@ RUN(WStest);
 
 ## See Also
 VS Functions:
-* [GetWSAutoRecalcState| GetWSAutoRecalcState](GetWSAutoRecalcState|%20GetWSAutoRecalcState.md) 
-* [SetWSAutoRecalcState| SetWSAutoRecalcState](SetWSAutoRecalcState|%20SetWSAutoRecalcState.md)
+* [GetWSAutoRecalcState](GetWSAutoRecalcState.md) 
+* [SetWSAutoRecalcState](SetWSAutoRecalcState.md)
 
 ## Version
 Availability: from Vectorworks 2012

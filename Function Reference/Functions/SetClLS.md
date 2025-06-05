@@ -34,8 +34,8 @@ SetClLS('Property Parcels',-4);
 ```
 
 ## See Also
-[GetClLSN|GetClLSN](GetClLSN|GetClLSN.md), [SetClLSN|SetClLSN](SetClLSN|SetClLSN.md) from Vectorworks 2013
-[GetClLS|GetClLS](GetClLS|GetClLS.md)
+[GetClLSN](GetClLSN.md), [SetClLSN](SetClLSN.md) from Vectorworks 2013
+[GetClLS](GetClLS.md)
 
 ## Version
 Availability: from VectorWorks 8.0, deprecated from Vectorworks 2013

@@ -38,8 +38,8 @@ Example()
 ```
 
 ## See Also
-[GetClLSN|GetClLSN](GetClLSN|GetClLSN.md), [SetClLSN|SetClLSN](SetClLSN|SetClLSN.md) from Vectorworks 2013
-[SetClLS|SetClLS](SetClLS|SetClLS.md)
+[GetClLSN](GetClLSN.md), [SetClLSN](SetClLSN.md) from Vectorworks 2013
+[SetClLS](SetClLS.md)
 
 ## Version
 Availability: from VectorWorks 8.0, Deprecated from Vectorworks 2013

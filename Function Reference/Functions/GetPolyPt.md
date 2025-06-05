@@ -55,11 +55,11 @@ Example()
 
 ## See Also
 For polygons:
-* [SetPolyPt| SetPolyPt](SetPolyPt|%20SetPolyPt.md)
+* [SetPolyPt](SetPolyPt.md)
 
 For polylines:
-* [GetPolylineVertex| GetPolylineVertex](GetPolylineVertex|%20GetPolylineVertex.md)
-* [SetPolylineVertex| SetPolylineVertex](SetPolylineVertex|%20SetPolylineVertex.md)
+* [GetPolylineVertex](GetPolylineVertex.md)
+* [SetPolylineVertex](SetPolylineVertex.md)
 
 ## Version
 Availability: from All Versions

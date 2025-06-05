@@ -136,7 +136,7 @@ for segm in range(0, segmentCnt): # python range is always one less than pascal
 
 A representation of pieces (segments in the example) in a NURBS curve:
 
-[[File:NURBS_Pieces.png| 500px]]
+![NURBS_Pieces.png](files/NURBS_Pieces.png)
 
 ## See Also
 VS Functions:

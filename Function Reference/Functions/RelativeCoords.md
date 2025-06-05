@@ -28,7 +28,7 @@ Remember to add a third item (0.0, 0.0, 0.0) for usage in the vector Routines su
 
 See graphical representation below (click on the image to enlarge it):
 
-[[File:C_MathRelativeCoords.png|200px ]] 
+![C_MathRelativeCoords.png](files/C_MathRelativeCoords.png)
 
 [MaKro 11/2021] Did not dig deeper, but looks like beg and end can be interpreted as: vs.RelativeCoords(p, p_origin, x_axis)
 

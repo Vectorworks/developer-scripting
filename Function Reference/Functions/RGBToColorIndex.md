@@ -34,9 +34,9 @@ See &lt;a href=http://www.vectorlab.info/index.php?title=Colors_in_VectorWorks_2
 
 ## See Also
 Functions:
-* [ColorIndexToRGB| ColorIndexToRGB](ColorIndexToRGB|%20ColorIndexToRGB.md)
-* [ColorIndexToRGBN| ColorIndexToRGBN](ColorIndexToRGBN|%20ColorIndexToRGBN.md)
-* [RGBToColorIndexN| RGBToColorIndexN](RGBToColorIndexN|%20RGBToColorIndexN.md)
+* [ColorIndexToRGB](ColorIndexToRGB.md)
+* [ColorIndexToRGBN](ColorIndexToRGBN.md)
+* [RGBToColorIndexN](RGBToColorIndexN.md)
 
 ## Version
 Availability: from MiniCAD6.0

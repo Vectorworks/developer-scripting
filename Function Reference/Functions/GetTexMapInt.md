@@ -23,7 +23,7 @@ def vs.GetTexMapInt(h, partID, selector):
 |selector|INTEGER|   |
 
 ## See Also
-[GetTexMapIntN|GetTexMapIntN](GetTexMapIntN|GetTexMapIntN.md), [SetTexMapIntN|SetTexMapIntN](SetTexMapIntN|SetTexMapIntN.md)
+[GetTexMapIntN](GetTexMapIntN.md), [SetTexMapIntN](SetTexMapIntN.md)
 
 ## Version
 Availability: from Vectorworks 14.0. Deprecated from Vectorworks 15.0.

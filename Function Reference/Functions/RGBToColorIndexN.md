@@ -71,9 +71,9 @@ vs.AlrtDialog(results)
 
 ## See Also
 Functions:
-* [ColorIndexToRGB| ColorIndexToRGB](ColorIndexToRGB|%20ColorIndexToRGB.md)
-* [ColorIndexToRGBN| ColorIndexToRGBN](ColorIndexToRGBN|%20ColorIndexToRGBN.md)
-* [RGBToColorIndex| RGBToColorIndex](RGBToColorIndex|%20RGBToColorIndex.md)
+* [ColorIndexToRGB](ColorIndexToRGB.md)
+* [ColorIndexToRGBN](ColorIndexToRGBN.md)
+* [RGBToColorIndex](RGBToColorIndex.md)
 
 ## Version
 Availability: from Vectorworks 2010

@@ -23,7 +23,7 @@ def vs.CellHasStr(h, row, col):
 |col|INTEGER|Worksheet column index.|
 
 ## See Also
-[IsWSCellString | IsWSCellString](IsWSCellString%20| IsWSCellString.md), [IsWSSubrowCellString | IsWSSubrowCellString](IsWSSubrowCellString%20| IsWSSubrowCellString.md)
+[IsWSCellString](IsWSCellString.md), [IsWSSubrowCellString](IsWSSubrowCellString.md)
 
 ## Version
 CellHasStr is obsolete as of VectorWorks 9.0, see [IsWSCellString](IsWSCellString.md), [IsWSSubrowCellString](IsWSSubrowCellString.md)

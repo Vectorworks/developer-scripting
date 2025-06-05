@@ -69,8 +69,8 @@ Example()
 
 ## See Also
 VS Functions:
-* [GetDefaultBeginningMarker| GetDefaultBeginningMarker](GetDefaultBeginningMarker|%20GetDefaultBeginningMarker.md)
-* [GetDefaultEndMarker| GetDefaultEndMarker](GetDefaultEndMarker|%20GetDefaultEndMarker.md)
+* [GetDefaultBeginningMarker](GetDefaultBeginningMarker.md)
+* [GetDefaultEndMarker](GetDefaultEndMarker.md)
 
 ## Version
 FMarker is obsolete as of VectorWorks 13.0

@@ -45,10 +45,10 @@ ok	= vs.IFC_DefPsetEnd( psetName )
 ```
 
 ## See Also
-[IFC_DefPsetEnd|IFC_DefPsetEnd](IFC_DefPsetEnd|IFC_DefPsetEnd.md)
-[IFC_DefPsetImport|IFC_DefPsetImport](IFC_DefPsetImport|IFC_DefPsetImport.md)
+[IFC_DefPsetEnd](IFC_DefPsetEnd.md)
+[IFC_DefPsetImport](IFC_DefPsetImport.md)
 
-[IFC_DefPsetAddMember|IFC_DefPsetAddMember](IFC_DefPsetAddMember|IFC_DefPsetAddMember.md)
+[IFC_DefPsetAddMember](IFC_DefPsetAddMember.md)
 
 ## Version
 Availability: from Vectorworks 2016

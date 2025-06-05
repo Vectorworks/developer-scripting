@@ -33,7 +33,7 @@ Add operator = 2
 
 ## See Also
 VS Functions:
-* [AddWSColumnOperator| AddWSColumnOperator](AddWSColumnOperator|%20AddWSColumnOperator.md)
+* [AddWSColumnOperator](AddWSColumnOperator.md)
 
 ## Version
 Availability: from Vectorworks 2012

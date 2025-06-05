@@ -32,7 +32,7 @@ Use [ IsWSCellString](IsWSCellNumber.md) and/or [ IsWSCellNumber](IsWSCellNumber
 Use [ GetWSCellValue](GetWSCellValue.md) to retrieve actual numerical value without formatting from a cell that contains a number.
 
 ## See Also
-[IsWSCellString | IsWSCellString](IsWSCellString%20| IsWSCellString.md), [IsWSCellStringN | IsWSCellStringN](IsWSCellStringN%20| IsWSCellStringN.md), [IsWSCellNumber | IsWSCellNumber](IsWSCellNumber%20| IsWSCellNumber.md), [GetWSCellValue | GetWSCellValue](GetWSCellValue%20| GetWSCellValue.md)
+[IsWSCellString](IsWSCellString.md), [IsWSCellStringN](IsWSCellStringN.md), [ IsWSCellNumber](IsWSCellNumber.md), [GetWSCellValue](GetWSCellValue.md)
 
 ## Version
 Availability: from VectorWorks 9.0

@@ -31,11 +31,11 @@ def vs.SetPolyPt(objectHd, index, xR, yR):
 
 ## See Also
 For polygons:
-* [GetPolyPt| GetPolyPt](GetPolyPt|%20GetPolyPt.md)
+* [GetPolyPt](GetPolyPt.md)
 
 For polylines:
-* [GetPolylineVertex| GetPolylineVertex](GetPolylineVertex|%20GetPolylineVertex.md)
-* [SetPolylineVertex| SetPolylineVertex](SetPolylineVertex|%20SetPolylineVertex.md)
+* [GetPolylineVertex](GetPolylineVertex.md)
+* [SetPolylineVertex](SetPolylineVertex.md)
 
 ## Version
 Availability: from All Versions

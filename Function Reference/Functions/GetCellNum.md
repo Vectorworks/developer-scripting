@@ -23,7 +23,7 @@ def vs.GetCellNum(h, row, col):
 |col|INTEGER|Worksheet column index.|
 
 ## See Also
-[GetWSCellValue| GetWSCellValue](GetWSCellValue|%20GetWSCellValue.md), [GetWSSubrowCellValue| GetWSSubrowCellValue](GetWSSubrowCellValue|%20GetWSSubrowCellValue.md)
+[GetWSCellValue](GetWSCellValue.md), [GetWSSubrowCellValue](GetWSSubrowCellValue.md)
 
 ## Version
 GetCellNum is obsolete as of VectorWorks 9.0, see new [ GetWSCellValue](GetWSCellValue.md) and [ GetWSSubrowCellValue](GetWSSubrowCellValue.md)

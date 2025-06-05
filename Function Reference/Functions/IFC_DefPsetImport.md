@@ -37,10 +37,10 @@ ok = vs.IFC_DefPsetImport( 'D:\Vectorworks');
 ```
 
 ## See Also
-[IFC_DefPsetBegin|IFC_DefPsetBegin](IFC_DefPsetBegin|IFC_DefPsetBegin.md)
-[IFC_DefPsetEnd|IFC_DefPsetEnd](IFC_DefPsetEnd|IFC_DefPsetEnd.md)
+[IFC_DefPsetBegin](IFC_DefPsetBegin.md)
+[IFC_DefPsetEnd](IFC_DefPsetEnd.md)
 
-[IFC_DefPsetAddMember|IFC_DefPsetAddMember](IFC_DefPsetAddMember|IFC_DefPsetAddMember.md)
+[IFC_DefPsetAddMember](IFC_DefPsetAddMember.md)
 
 ## Version
 Availability: from Vectorworks 2016

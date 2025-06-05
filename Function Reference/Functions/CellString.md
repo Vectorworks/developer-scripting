@@ -24,7 +24,7 @@ def vs.CellString(row, column):
 Returns the string representation of the current worksheet's cell specified by 'row' and 'column' numbers. [sd 8/13/98]
 
 ## See Also
-[IsWSCellString | IsWSCellString](IsWSCellString%20| IsWSCellString.md),  [IsWSCellStringN | IsWSCellStringN](IsWSCellStringN%20| IsWSCellStringN.md), [IsWSSubrowCellString | IsWSSubrowCellString](IsWSSubrowCellString%20| IsWSSubrowCellString.md)
+[IsWSCellString](IsWSCellString.md),  [IsWSCellStringN](IsWSCellStringN.md), [IsWSSubrowCellString](IsWSSubrowCellString.md)
 
 ## Version
 CellString is obsolete as of VectorWorks 9.0, see [IsWSCellString](IsWSCellString.md) (returns a string),  [IsWSCellStringN](IsWSCellStringN.md) (returns a Dynarray of Char), [IsWSSubrowCellString](IsWSSubrowCellString.md)

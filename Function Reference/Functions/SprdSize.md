@@ -23,7 +23,7 @@ def vs.SprdSize(h):
 |col|INTEGER|Returns column size of worksheet.|
 
 ## See Also
-[GetWSRowColumnCount| GetWSRowColumnCount](GetWSRowColumnCount|%20GetWSRowColumnCount.md)
+[GetWSRowColumnCount](GetWSRowColumnCount.md)
 
 ## Version
 SprdSize is obsolete as of VectorWorks 9.0, see new [ GetWSRowColumnCount](GetWSRowColumnCount.md).

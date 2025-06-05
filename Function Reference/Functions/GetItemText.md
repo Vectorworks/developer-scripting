@@ -23,7 +23,7 @@ def vs.GetItemText(dialogID, componentID):
 |text|STRING|The text of the component.|
 
 ## See Also
-[CreateEditText|CreateEditText](CreateEditText|CreateEditText.md)
+[CreateEditText](CreateEditText.md)
 
 ## Version
 Availability: from Vectorworks 2010

@@ -60,7 +60,7 @@ vs.Wall(0, 1, 9, 1)
 
 ## See Also
 VS Functions:
-[InsertNewComponent | InsertNewComponent](InsertNewComponent%20| InsertNewComponent.md)
+[InsertNewComponent](InsertNewComponent.md)
 
 ## Version
 AddCavity is obsolete as of VectorWorks 12.0.

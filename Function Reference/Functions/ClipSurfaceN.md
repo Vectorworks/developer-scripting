@@ -28,7 +28,7 @@ This clips only parts that intersect the sides of the clipper, it doesn't clip i
 
 Example:
 
-[[File:vsClipSurfaceN.png]]
+![VsClipSurfaceN.png](files/VsClipSurfaceN.png)
 
 ## Version
 Availability: from Vectorworks 2016

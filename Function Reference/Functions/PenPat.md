@@ -37,7 +37,7 @@ PenPat(-3);
 ```
 
 ## See Also
-[PenPatN|PenPatN](PenPatN|PenPatN.md), [FPenPatN|FPenPatN](FPenPatN|FPenPatN.md) from Vectorworks 2013
+[PenPatN](PenPatN.md), [FPenPatN](FPenPatN.md) from Vectorworks 2013
 
 ## Version
 Availability: from All Versions, deprecated from Vectorworks 2013

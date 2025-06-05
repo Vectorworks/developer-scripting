@@ -31,7 +31,7 @@ def vs.Comp(v1, v2):
 
 (*_c_*, 2010 Dec. 22) See graphical representation of how '''Comp''' works (click on the image to enlarge it):
 
-[[File:C_MathVectorComp.png|200px ]]
+![C_MathVectorComp](files/C_MathVectorComp.png)
 
 ## Examples
 #### VectorScript ####

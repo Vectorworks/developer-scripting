@@ -23,7 +23,7 @@ def vs.RoofArea_Heated(c):
 * Roof objects: the overhang is ruled parametrically clicking a face and setting it in the roof dialog. This sets roof axis in the embedded Roof Face[s].
 
 Below a schema posted by Jeff Ouellette 2008:
-[[File:Jeff2008_RoofArea_Functions.png]]
+![RoofArea_Functions.png](files/RoofArea_Functions.png)
 
 ## See Also
 * [RoofArea HeatedProj](RoofArea%20HeatedProj.md)

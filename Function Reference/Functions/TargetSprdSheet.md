@@ -21,7 +21,7 @@ def vs.TargetSprdSheet(h):
 This selects a spreadsheet for use by the script.  It does not open the spreadsheet. [sd 8/18/98]
 
 ## See Also
-[SetTopVisibleWS| SetTopVisibleWS](SetTopVisibleWS|%20SetTopVisibleWS.md)
+[SetTopVisibleWS](SetTopVisibleWS.md)
 
 ## Version
 TargetSprdSheet is obsolete as of VectorWorks 9.0, see new [ SetTopVisibleWS](SetTopVisibleWS.md).

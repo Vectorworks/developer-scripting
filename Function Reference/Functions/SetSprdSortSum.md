@@ -32,7 +32,7 @@ def vs.SetSprdSortSum(sheetHd, row, sortCol1, sortCol2, sortCol3, sumCol):
 Sets sorting and summation for a database row.  The sortCol1, sortCol2, and sortCol3 values specify the primary, secondary and tertiary sorts for the database row.  Pass a positive column for a descending sort; pass a negative column for an ascending sort.  For no sort,  pass 0 as the column.  Sum works the same way. [VML 01/09/01]
 
 ## See Also
-[SetWSColumnOperators| SetWSColumnOperators](SetWSColumnOperators|%20SetWSColumnOperators.md)
+[SetWSColumnOperators](SetWSColumnOperators.md)
 
 ## Version
 SetSprdSortSum is obsolete as of VectorWorks 9.0, see new [ SetWSColumnOperators](SetWSColumnOperators.md)

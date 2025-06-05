@@ -45,10 +45,10 @@ ok = vs.IFC_DefPsetAddMember( 'Chair Details', 'Height', 'IfcReal');
 ```
 
 ## See Also
-[IFC_DefPsetBegin|IFC_DefPsetBegin](IFC_DefPsetBegin|IFC_DefPsetBegin.md)
-[IFC_DefPsetEnd|IFC_DefPsetEnd](IFC_DefPsetEnd|IFC_DefPsetEnd.md)
+[IFC_DefPsetBegin](IFC_DefPsetBegin.md)
+[IFC_DefPsetEnd](IFC_DefPsetEnd.md)
 
-[IFC_DefPsetImport|IFC_DefPsetImport](IFC_DefPsetImport|IFC_DefPsetImport.md)
+[IFC_DefPsetImport](IFC_DefPsetImport.md)
 
 ## Version
 Availability: from Vectorworks 2016.

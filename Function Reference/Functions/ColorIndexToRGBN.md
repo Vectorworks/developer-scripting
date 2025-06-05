@@ -42,9 +42,9 @@ ColorIndexToRGBN(255,r,g,b,TRUE);
 
 ## See Also
 Functions:
-* [ColorIndexToRGB| ColorIndexToRGB](ColorIndexToRGB|%20ColorIndexToRGB.md)
-* [RGBToColorIndex| RGBToColorIndex](RGBToColorIndex|%20RGBToColorIndex.md)
-* [RGBToColorIndexN| RGBToColorIndexN](RGBToColorIndexN|%20RGBToColorIndexN.md)
+* [ColorIndexToRGB](ColorIndexToRGB.md)
+* [RGBToColorIndex](RGBToColorIndex.md)
+* [RGBToColorIndexN](RGBToColorIndexN.md)
 * [GetPenFore](GetPenFore.md) | [GetPenBack](GetPenBack.md)| [GetFillFore](GetFillFore.md) | [GetFillBack](GetFillBack.md)
 
 ## Version

@@ -32,7 +32,7 @@ lStyleValue = vs.GetLS(handleToObject)
 ```
 
 ## See Also
-[GetLSN|GetLSN](GetLSN|GetLSN.md) from Vectorworks 2013
+[GetLSN](GetLSN.md) from Vectorworks 2013
 
 ## Version
 Availability: from All Versions, deprecated from Vectorworks 2013

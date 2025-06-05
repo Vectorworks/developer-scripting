@@ -33,9 +33,9 @@ def vs.GetTexMapBool(h, partID, selector):
 
 ## See Also
 VS Functions:
-* VW 14: [SetTexMapBool|SetTexMapBool](SetTexMapBool|SetTexMapBool.md)
-* from VW 15: [SetTexMapBoolN|SetTexMapBoolN](SetTexMapBoolN|SetTexMapBoolN.md)
-* from VW 15: [GetTexMapBoolN|GetTexMapBoolN](GetTexMapBoolN|GetTexMapBoolN.md)
+* VW 14: [SetTexMapBool](SetTexMapBool.md)
+* from VW 15: [SetTexMapBoolN](SetTexMapBoolN.md)
+* from VW 15: [GetTexMapBoolN](GetTexMapBoolN.md)
 
 ## Version
 Availability: from Vectorworks 14.0. Deprecated from Vectorworks 15.0.

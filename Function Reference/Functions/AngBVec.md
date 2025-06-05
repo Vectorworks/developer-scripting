@@ -25,7 +25,22 @@ def vs.AngBVec(v1, v2):
 ## Remarks
 (*_c_*, 2022.01.20) In VS Python the vectors must be a 3-dimensional tuple in form (0.0, 0.0, 0.0), or the routine will return zero.
 
-(*_c_*, 2010.12.22) See vector diagrams on [[User:CBM-c-/VS-Math| VS Math]].
+Here some visual helps for the vectorial routines for those of us deprived of a proper math culture (me, for example), this was previously on Vectorlab as introduction to the Math section:
+
+**Vector Basic**  
+![Vector Math](files/C_MathVectorStandard.png)
+
+**Vector Operations**  
+![Vector Operations](files/C_MathVectorOperations.png)
+
+**Vector Components**  
+![Vector Components](files/C_MathVectorComp.png)
+
+**Relative Coordinates**  
+![Relative Coordinates](files/C_MathRelativeCoords.png)
+
+**Subroutines**  
+![Vector Subroutines](files/C_MathSubroutines.png)
 
 
 This is precisely what Vec2Ang does, except that Vec2Ang uses the X axis as the other vector.

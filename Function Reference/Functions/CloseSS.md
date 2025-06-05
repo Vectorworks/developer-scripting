@@ -31,7 +31,7 @@ CloseSS(HandleToWS);
 ```
 
 ## See Also
-[ShowWS | ShowWS](ShowWS%20| ShowWS.md)
+[ShowWS](ShowWS.md)
 
 ## Version
 CloseSS is obsolete as of VectorWorks 9.0

@@ -36,7 +36,7 @@ LoadCell(1, 1, 'This is a string');
 ```
 
 ## See Also
-[SetWSCellBorder| SetWSCellBorder](SetWSCellBorder|%20SetWSCellBorder.md)
+[SetWSCellBorder](SetWSCellBorder.md)
 
 ## Version
 SprdBorder is obsolete as of VectorWorks 9.0, see new [ SetWSCellBorder](SetWSCellBorder.md)

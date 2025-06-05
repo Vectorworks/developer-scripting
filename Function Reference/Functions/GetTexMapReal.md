@@ -32,9 +32,9 @@ def vs.GetTexMapReal(h, partID, selector):
 |selector|INTEGER|offsetX:1, offsetY:2, scale2D:3, rotate2D:4, radius:5, matrix mat00 through mat32: 6-17|
 
 ## See Also
-* [SetTexMapReal|SetTexMapReal](SetTexMapReal|SetTexMapReal.md) VW 14
-* [SetTexMapRealN|SetTexMapRealN](SetTexMapRealN|SetTexMapRealN.md) from VW 15
-* [GetTexMapRealN|GetTexMapRealN](GetTexMapRealN|GetTexMapRealN.md) from VW 15
+* [SetTexMapReal](SetTexMapReal.md) VW 14
+* [SetTexMapRealN](SetTexMapRealN.md) from VW 15
+* [GetTexMapRealN](GetTexMapRealN.md) from VW 15
 
 ## Version
 Availability: from Vectorworks 14.0. Deprecated from Vectorworks 15.

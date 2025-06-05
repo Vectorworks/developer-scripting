@@ -17,7 +17,7 @@ OBSOLETE for Version 9: see new [GetTopVisibleWS](GetTopVisibleWS.md).
 
 ## See Also
 VS Functions:
-[GetTopVisibleWS | GetTopVisibleWS](GetTopVisibleWS%20| GetTopVisibleWS.md)
+[GetTopVisibleWS](GetTopVisibleWS.md)
 
 ## Version
 ActSSheet is obsolete as of VectorWorks 9.0

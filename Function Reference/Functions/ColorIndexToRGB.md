@@ -40,9 +40,9 @@ r, g, b = vs.ColorIndexToRGB(45)
 
 ## See Also
 Functions:
-* [ColorIndexToRGBN| ColorIndexToRGBN](ColorIndexToRGBN|%20ColorIndexToRGBN.md)
-* [RGBToColorIndex| RGBToColorIndex](RGBToColorIndex|%20RGBToColorIndex.md)
-* [RGBToColorIndexN| RGBToColorIndexN](RGBToColorIndexN|%20RGBToColorIndexN.md)
+* [ColorIndexToRGBN](ColorIndexToRGBN.md)
+* [RGBToColorIndex](RGBToColorIndex.md)
+* [RGBToColorIndexN](RGBToColorIndexN.md)
 * [GetPenFore](GetPenFore.md) | [GetPenBack](GetPenBack.md)| [GetFillFore](GetFillFore.md) | [GetFillBack](GetFillBack.md)
 
 ## Version

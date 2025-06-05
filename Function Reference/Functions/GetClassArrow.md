@@ -53,8 +53,8 @@ RUN(ShowNoneClassArrowValues);
 
 ## See Also
 VS Functions:
-* [GetClassBeginningMarker| GetClassBeginningMarker](GetClassBeginningMarker|%20GetClassBeginningMarker.md)
-* [GetClassEndMarker| GetClassEndMarker](GetClassEndMarker|%20GetClassEndMarker.md)
+* [GetClassBeginningMarker](GetClassBeginningMarker.md)
+* [GetClassEndMarker](GetClassEndMarker.md)
 
 ## Version
 GetClassArrow is obsolete as of VectorWorks 13.0

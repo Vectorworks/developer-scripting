@@ -60,8 +60,8 @@ CheckMarker()
 ## See Also
 VS Functions:
 * [SetMarker](SetMarker.md)
-* [GetObjBeginningMarker| GetObjBeginningMarker](GetObjBeginningMarker|%20GetObjBeginningMarker.md)
-* [GetObjEndMarker| GetObjEndMarker](GetObjEndMarker|%20GetObjEndMarker.md)
+* [GetObjBeginningMarker](GetObjBeginningMarker.md)
+* [GetObjEndMarker](GetObjEndMarker.md)
 
 ## Version
 GetMarker is obsolete as of VectorWorks 13.0

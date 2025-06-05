@@ -40,8 +40,8 @@ LoadCell(1, 1, 'Window Schedule');
 
 ## See Also
 VS functions:
-* [SetWSCellFormula| SetWSCellFormula](SetWSCellFormula|%20SetWSCellFormula.md) (string, obsolete from VW 2012)
-* [SetWSCellFormulaN| SetWSCellFormulaN](SetWSCellFormulaN|%20SetWSCellFormulaN.md) (Dynarray of Char)
+* [SetWSCellFormula](SetWSCellFormula.md) (string, obsolete from VW 2012)
+* [SetWSCellFormulaN](SetWSCellFormulaN.md) (Dynarray of Char)
 
 ## Version
 LoadCell is obsolete as of VectorWorks 9.0, see new [ SetWSCellFormula](SetWSCellFormula.md) (string),  [ SetWSCellFormulaN](SetWSCellFormulaN.md) (Dynarray of Char).

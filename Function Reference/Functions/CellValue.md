@@ -24,7 +24,7 @@ def vs.CellValue(row, column):
 Returns the floating point representation of the current worksheet's cell specified by &quot;row&quot; and &quot;column&quot; numbers.  If the specified cell is not a numeric type, then this function returns 0. [sd 8/13/98]
 
 ## See Also
-[GetWSCellValue | GetWSCellValue](GetWSCellValue%20| GetWSCellValue.md), [GetWSSubrowCellValue | GetWSSubrowCellValue](GetWSSubrowCellValue%20| GetWSSubrowCellValue.md)
+[GetWSCellValue](GetWSCellValue.md), [GetWSSubrowCellValue](GetWSSubrowCellValue.md)
 
 ## Version
 CellValue is obsolete as of VectorWorks 9.0, see [GetWSCellValue](GetWSCellValue.md), [GetWSSubrowCellValue](GetWSSubrowCellValue.md)

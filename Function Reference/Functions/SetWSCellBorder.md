@@ -39,7 +39,7 @@ def vs.SetWSCellBorder(worksheet, topRow, leftColumn, bottomRow, rightColumn, to
 |outline|BOOLEAN|All borders ON-OFF status.|
 
 ## See Also
-[SetWSCellBorders| SetWSCellBorders](SetWSCellBorders|%20SetWSCellBorders.md)
+[SetWSCellBorders](SetWSCellBorders.md)
 
 ## Version
 SetWSCellBorder is obsolete as of VectorWorks 12.0, see new [ SetWSCellBorders](SetWSCellBorders.md)

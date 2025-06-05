@@ -62,7 +62,7 @@ The render mode constants:
 * 18 = Sketch
 
 *_c_*, (2014.08.18): From John Kerr. Many thanks John!
-[[File:PerspDistance.png| cente| Diagram of the perspective distance]]
+![Diagram of the perspective distance](files/PerspDistance.png)
 
 *_c_*, (2014.08.18): this below has lost the author during one of the wiki updates:
 

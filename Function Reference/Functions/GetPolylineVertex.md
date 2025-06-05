@@ -83,12 +83,12 @@ Example()
 
 ## See Also
 For polylines:
-* [SetPolylineVertex| SetPolylineVertex](SetPolylineVertex|%20SetPolylineVertex.md)
+* [SetPolylineVertex](SetPolylineVertex.md)
 * [GetPolylineArcMaxRadius](GetPolylineArcMaxRadius.md)
 
 For polygons:
-* [GetPolyPt| GetPolyPt](GetPolyPt|%20GetPolyPt.md)
-* [SetPolyPt| SetPolyPt](SetPolyPt|%20SetPolyPt.md)
+* [GetPolyPt](GetPolyPt.md)
+* [SetPolyPt](SetPolyPt.md)
 
 ## Version
 Availability: from VectorWorks 8.5

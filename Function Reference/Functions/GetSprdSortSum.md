@@ -32,7 +32,7 @@ def vs.GetSprdSortSum(sheetHd, row):
 Gets sorting for a database row.  The sortCol1, sortCol2, and sortCol3 values specify the primary, secondary and tertiary sorts for the database row.  For descending sorts, a positive column is returned; for ascending sorts, a negative column is returned.  For no sort,  0 is returned. Sum works the same way. [VML 01/09/01]
 
 ## See Also
-[GetWSColumnOperators | GetWSColumnOperators](GetWSColumnOperators%20| GetWSColumnOperators.md)
+[GetWSColumnOperators](GetWSColumnOperators.md)
 
 ## Version
 GetSprdSortSum is obsolete as of VectorWorks 9.0, see new [GetWSColumnOperators ](GetWSColumnOperators .md).
