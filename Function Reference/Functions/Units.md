@@ -3,43 +3,21 @@
 ## Description
 Procedure Units specifies a standard units setting for the active document. 
 
-{| class="wikitable_c"
-|+ Table - Standard Unit Settings
-! Units Setting !! Constant
-|-
-| Custom
-| style="text-align:center"| 0
-|-
-| Feet/Inches
-| style="text-align:center"| 1
-|-
-| Inches
-| style="text-align:center"| 2
-|-
-| Feet
-| style="text-align:center"| 3
-|-
-| Yards
-| style="text-align:center"| 4
-|-
-| Miles
-| style="text-align:center"| 5
-|-
-| Microns
-| style="text-align:center"| 6
-|-
-| Millimeters
-| style="text-align:center"| 7
-|-
-| Centimeters
-| style="text-align:center"| 8
-|-
-| Meters
-| style="text-align:center"| 9
-|-
-| Kilometers
-| style="text-align:center"| 10
-|}
+**Table - Standard Unit Settings**
+
+| Units Setting | Constant |
+|---------------|----------|
+| Custom        | 0        |
+| Feet/Inches   | 1        |
+| Inches        | 2        |
+| Feet          | 3        |
+| Yards         | 4        |
+| Miles         | 5        |
+| Microns       | 6        |
+| Millimeters   | 7        |
+| Centimeters   | 8        |
+| Meters        | 9        |
+| Kilometers    | 10       |
 
 ```pascal
 PROCEDURE Units(i : INTEGER);
@@ -56,7 +34,7 @@ def vs.Units(i):
 |i|INTEGER|Standard units setting index value.|
 
 ## Remarks
-See [[VS:GetPrimaryUnitInfo| GetPrimaryUnitInfo]] for details on changes in version 9 and again in version 12.
+See [GetPrimaryUnitInfo](GetPrimaryUnitInfo.md) for details on changes in version 9 and again in version 12.
 
 ## Version
 Availability: from All Versions

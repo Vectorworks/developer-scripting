@@ -23,20 +23,16 @@ def vs.Num2Str(decPlace, v):
 |v|REAL|Numeric value.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.05.23: You can also use [[VS:Concat]] to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, because it outputs the number as seen from inside VS, I suppose. See further comments on the page [[VS:Concat]].
+[[User:CBM-c-|_c_]], 2015.05.23: You can also use [Concat](Concat.md) to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, because it outputs the number as seen from inside VS, I suppose. See further comments on the page [Concat](Concat.md).
 
-The parameter <i>decPlace</i> can be the following values:
-{| class="wikitable"
-!Value !! Meaning !! Sample
-|-
-| positive || round-up the value || 10.56 -> 10.6 (1 decimal place)
-|-
-| 0 || round-up the value || 10.56 -> 11
-|-
-| -1 || Use scientific notation (9 decimal places) || 10.56 -> 1.056000000e+001
-|-
-| -2 || Use scientific notation (15 decimal places) || 10.56 -> 1.056000000000000e+001
-|}
+The parameter *decPlace* can be the following values:
+
+| Value    | Meaning                              | Sample                                 |
+|----------|--------------------------------------|----------------------------------------|
+| positive | round-up the value                   | 10.56 -> 10.6 (1 decimal place)        |
+| 0        | round-up the value                   | 10.56 -> 11                            |
+| -1       | Use scientific notation (9 decimals) | 10.56 -> 1.056000000e+001              |
+| -2       | Use scientific notation (15 decimals)| 10.56 -> 1.056000000000000e+001        |
 
 ## Examples
 #### VectorScript ####

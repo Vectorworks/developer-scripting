@@ -10,23 +10,16 @@ Textures in Vectorworks are stored using records, called shader records.  The re
 #Version
 
 Family values are:
-{| border=1
-! Value !! Name
-|-
-|1 || Color
-|-
-|2 || Reflectivity
-|-
-|3 || Transparency
-|-
-|4 || Bump
-|-
-|5 || Background
-|-
-|6 || Foreground
-|-
-|7 || Sketch (Artistic RW)
-|}
+
+| Value | Name                  |
+|-------|-----------------------|
+| 1     | Color                 |
+| 2     | Reflectivity          |
+| 3     | Transparency          |
+| 4     | Bump                  |
+| 5     | Background            |
+| 6     | Foreground            |
+| 7     | Sketch (Artistic RW)  |
 
 Prototype values depend on the Family value.  These are the Prototype values for each Family:
 

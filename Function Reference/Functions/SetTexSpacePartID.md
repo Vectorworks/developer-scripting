@@ -3,19 +3,13 @@
 ## Description
 Procedure SetTexSpacePartID sets the parent of the referenced texture space in an expanded object (walls or roofs).
 
-{| class="wikitable_c"
-|+ Table - Texture Space Objects
-! Object !! Constant
-|-
-| Primary
-| style="text-align:center"| 0
-|-
-| Secondary
-| style="text-align:center"| 1
-|-
-| Tertiary
-| style="text-align:center"| 2
-|}
+**Table - Texture Space Objects**
+
+| Object    | Constant |
+|-----------|----------|
+| Primary   | 0        |
+| Secondary | 1        |
+| Tertiary  | 2        |
 
 ```pascal
 PROCEDURE SetTexSpacePartID(

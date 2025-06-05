@@ -3,22 +3,14 @@
 ## Description
 Function GetTexSpaceKind returns the object type for texture mapping space.
 
-{| class="wikitable_c"
-|+ Table - Texture Mapping Spaces
-! Date Style !! Constant
-|-
-| Plane
-| style="text-align:center"| 0
-|-
-| Sphere
-| style="text-align:center"| 1
-|-
-| Cylinder
-| style="text-align:center"| 2
-|-
-| Algorithmic
-| style="text-align:center"| 3
-|}
+**Table - Texture Mapping Spaces**
+
+| Date Style   | Constant |
+|--------------|----------|
+| Plane        | 0        |
+| Sphere       | 1        |
+| Cylinder     | 2        |
+| Algorithmic  | 3        |
 
 ```pascal
 FUNCTION GetTexSpaceKind(textureSpace : HANDLE): INTEGER;

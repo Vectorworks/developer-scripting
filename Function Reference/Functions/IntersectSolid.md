@@ -3,31 +3,17 @@
 ## Description
 Function IntersectSolid creates a new solid intersection object from the referenced source objects.
 
-{| class="wikitable_c"
-|+ Table - Solids Operation Result Codes
-! Operation Result !! Result Code
-|-
-| Success
-| 0
-|-
-| Null geometry error
-| 1
-|-
-| Geometry error
-| 2
-|-
-| Out of memory error
-| 4
-|-
-| Bad group error
-| 5
-|-
-| Invalid object type
-| 6
-|-
-| Bad input
-| 20
-|}
+**Table - Solids Operation Result Codes**
+
+| Operation Result     | Result Code |
+|----------------------|-------------|
+| Success              | 0           |
+| Null geometry error  | 1           |
+| Geometry error       | 2           |
+| Out of memory error  | 4           |
+| Bad group error      | 5           |
+| Invalid object type  | 6           |
+| Bad input            | 20          |
 
 ```pascal
 FUNCTION IntersectSolid(

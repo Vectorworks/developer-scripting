@@ -3,26 +3,14 @@
 ## Description
 Procedure MoveObjs moves object(s) a specified offset distance. The last two parameters, allLayers and allObjects,  control which objects are offset by this procedure.
 
-{| class="wikitable_c"
-|+ Table - Effect of MoveObjs Parameters
-! allLayers !! allObjects !! Effect
-|-
-| TRUE
-| TRUE
-| Move all objects on all layers
-|-
-| TRUE
-| FALSE
-| Move selected objects on all layers
-|-
-| FALSE
-| TRUE
-| Move all objects on active layer
-|-
-| FALSE
-| FALSE
-| Move selected objects on active layer
-|}
+**Table - Effect of MoveObjs Parameters**
+
+| allLayers | allObjects | Effect                          |
+|-----------|------------|---------------------------------|
+| TRUE      | TRUE       | Move all objects on all layers  |
+| TRUE      | FALSE      | Move selected objects on all layers |
+| FALSE     | TRUE       | Move all objects on active layer|
+| FALSE     | FALSE      | Move selected objects on active layer |
 
 ```pascal
 PROCEDURE MoveObjs(

@@ -3,43 +3,19 @@
 ## Description
 Processes all items in the specified list and and applies the specified action to each item.
 
-{| class="wikitable_c"
-|+ Table - ForEachObjectInList Selectors
-! Option !! Selector !! Description
-|-
-! Colspan="3" | Object Options
-|-
-| All objects
-| style="text-align:center"| 0
-| 
-|-
-| Visible Objects only
-| style="text-align:center"| 1
-|  
-|-
-| Selected Objects only
-| style="text-align:center"| 2
-| 
-|-
-| Unlocked objects only
-| style="text-align:center"| 4
-| 
-|-
-! Colspan="3" | Traversal Options
-|-
-| Traverse Shallow
-| style="text-align:center"| 0
-|  
-|-
-| Traverse Groups
-| style="text-align:center"| 1
-| Traverse inside groups
-|-
-| Traverse Deep
-| style="text-align:center"| 2
-| Traverse all containers
-(walls, extrudes, sweeps, etc)
-|}
+**Table - ForEachObjectInList Selectors**
+
+| Option                | Selector | Description                        |
+|-----------------------|----------|------------------------------------|
+| **Object Options**    |          |                                    |
+| All objects           | 0        |                                    |
+| Visible Objects only  | 1        |                                    |
+| Selected Objects only | 2        |                                    |
+| Unlocked objects only | 4        |                                    |
+| **Traversal Options** |          |                                    |
+| Traverse Shallow      | 0        |                                    |
+| Traverse Groups       | 1        | Traverse inside groups             |
+| Traverse Deep         | 2        | Traverse all containers (walls, extrudes, sweeps, etc) |
 
 ```pascal
 PROCEDURE ForEachObjectInList(

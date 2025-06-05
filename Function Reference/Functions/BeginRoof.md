@@ -3,18 +3,14 @@
 ## Description
 Procedure BeginRoof creates a simple roof object in a VectorWorks document. 
 
-{| class="wikitable_c"
-|+ Table - Roof Miter Styles
-! Miter Style !! Constant
-|-
-| Vertical || 1
-|-
-| Horizontal || 2
-|-
-| Double || 3
-|-
-| Square || 4
-|}
+**Table - Roof Miter Styles**
+
+| Miter Style | Constant |
+|-------------|----------|
+| Vertical    | 1        |
+| Horizontal  | 2        |
+| Double      | 3        |
+| Square      | 4        |
 
 *3-D View of Roof
 

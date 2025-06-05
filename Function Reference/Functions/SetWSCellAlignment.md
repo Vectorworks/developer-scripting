@@ -7,22 +7,14 @@ SetWSCellAlignment allows a formula to be inserted into a rectangular range of c
 
 Alignment index values for worksheet cells correspond to the horizontal alignment index values for text used by VectorScript.
 
-{| class="wikitable_c"
-|+ Table - Worksheet Cell Alignment
-! Alignment !! Constant
-|- 
-| Left
-| style="text-align:center"| 1
-|- 
-| Center
-| style="text-align:center"| 2
-|- 
-| Right
-| style="text-align:center"| 3
-|- 
-| General
-| style="text-align:center"| 4
-|}
+**Table - Worksheet Cell Alignment**
+
+| Alignment | Constant |
+|-----------|----------|
+| Left      | 1        |
+| Center    | 2        |
+| Right     | 3        |
+| General   | 4        |
 
 ```pascal
 PROCEDURE SetWSCellAlignment(

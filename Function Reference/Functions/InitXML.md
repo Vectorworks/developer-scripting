@@ -13,64 +13,37 @@ To create a new XML file, use [[VS:CreateNewXMLDocument| CreateNewXMLDocument]],
 * Element paths must not end with a slash character.
 
 
-{| class="wikitable_c"
-|- 
-! Error !! Meaning
-|- 
-| 0 || No error
-|- 
-| -1 || Unknown error
-|- 
-| -2 || Invalid path to XML node (not file path)
-|- 
-| -3 || Element not found
-|- 
-| -4 || Attribute not found
-|- 
-| -5 || CDATA section not found
-|- 
-| -20 || Memory error
-|- 
-| -21 || Invalid XML handle
-|- 
-| -22 || Invalid parameters
-|- 
-| -23 || Parser error
-|- 
-| -30 || Index size error
-|- 
-| -31 || DOM String size error
-|- 
-| -32 || Hierarchy request error
-|- 
-| -33 || Wrong document error
-|- 
-| -34 || Invalid character error
-|- 
-| -35 || No data allowed error
-|- 
-| -36 || No modification allowed error
-|- 
-| -37 || Not found error
-|- 
-| -38 || Not supported error
-|- 
-| -39 || In use attribute error
-|- 
-| -40 || Invalid state error
-|- 
-| -41 || Syntax error
-|- 
-| -42 || Invalid modification error
-|- 
-| -43 || Namespace error
-|- 
-| -44 || Invalid access error
-|- 
-| -45  || Validation error
-|- 
-| -1000 ~ -2000 || Internal parser error
-|}
+**Table - XML Error Codes**
+
+| Error             | Meaning                        |
+|-------------------|-------------------------------|
+| 0                 | No error                      |
+| -1                | Unknown error                 |
+| -2                | Invalid path to XML node (not file path) |
+| -3                | Element not found             |
+| -4                | Attribute not found           |
+| -5                | CDATA section not found       |
+| -20               | Memory error                  |
+| -21               | Invalid XML handle            |
+| -22               | Invalid parameters            |
+| -23               | Parser error                  |
+| -30               | Index size error              |
+| -31               | DOM String size error         |
+| -32               | Hierarchy request error       |
+| -33               | Wrong document error          |
+| -34               | Invalid character error       |
+| -35               | No data allowed error         |
+| -36               | No modification allowed error |
+| -37               | Not found error               |
+| -38               | Not supported error           |
+| -39               | In use attribute error        |
+| -40               | Invalid state error           |
+| -41               | Syntax error                  |
+| -42               | Invalid modification error    |
+| -43               | Namespace error               |
+| -44               | Invalid access error          |
+| -45               | Validation error              |
+| -1000 ~ -2000     | Internal parser error         |
 
 ```pascal
 FUNCTION InitXML() :LONGINT;

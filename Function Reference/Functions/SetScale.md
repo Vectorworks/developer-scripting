@@ -3,10 +3,10 @@
 ## Description
 Procedure SetScale sets the drawing scale of the active layer of the document.
 
-<I>Calculating the Scale</I><P>
-To calculate the scale parameter from an architecural scale, the following formula may be used :<P>
+*Calculating the Scale*
+To calculate the scale parameter from an architecural scale, the following formula may be used :
 
-<CENTER>denominator/numerator * true size(in inches) = ActualSize</CENTER><P>
+```denominator/numerator * true size(in inches) = ActualSize```
 
 For example, to calculate a scale of 3/8"=1'-0", the scale parameter would be 8/3 *12 = 32.
 

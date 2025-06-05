@@ -7,38 +7,18 @@ Performs an action for each object at the specified point in the drawing. This c
 
 If the callback function returns FALSE, ForEachObjectAtPoint will not process any more objects at the specified point.
 
-{| class="wikitable"
-|+ Table - ForEachObjectAtPoint Selectors
-! Option !! Selector !! Description
-|-
-! Colspan="3" | Object Options
-|-
-| All objects
-| style="text-align:center"| 0
-| 
-|-
-| Visible Objects only
-| style="text-align:center"| 1
-|  
-|-
-| Selected Objects only
-| style="text-align:center"| 2
-| 
-|-
-| Unlocked objects only
-| style="text-align:center"| 4
-| 
-|-
-! Colspan="3" | Traversal Options
-|-
-| Traverse Shallow
-| style="text-align:center"| 0
-|  
-|-
-| Traverse Groups
-| style="text-align:center"| 1
-| Traverse inside groups
-|}
+**Table - ForEachObjectAtPoint Selectors**
+
+| Option                | Selector | Description               |
+|-----------------------|----------|---------------------------|
+| **Object Options**    |          |                           |
+| All objects           | 0        |                           |
+| Visible Objects only  | 1        |                           |
+| Selected Objects only | 2        |                           |
+| Unlocked objects only | 4        |                           |
+| **Traversal Options** |          |                           |
+| Traverse Shallow      | 0        |                           |
+| Traverse Groups       | 1        | Traverse inside groups    |
 
 ```pascal
 PROCEDURE ForEachObjectAtPoint(
@@ -70,7 +50,7 @@ def vs.ForEachObjectAtPoint(actionFunc, objOptions, travOptions, loc, pickRadius
 * doesn't go inside groups. The callback pointer is being set to NIL when going inside groups;
 * doesn't pick groups;
 
-You can use [[VS:FindObjAtPt_Create]], [[VS:FindObjAtPt_GetCount]], or [[VS:FindObjAtPt_GetObj]] instead.
+You can use [FindObjAtPt_Create](FindObjAtPt_Create.md), [FindObjAtPt_GetCount](FindObjAtPt_GetCount.md), or [FindObjAtPt_GetObj](FindObjAtPt_GetObj.md) instead.
 
 ## Examples
 ```pascal

@@ -21,9 +21,9 @@ def vs.SetOriginAbsolute(xValue, yValue):
 |yValue|REAL|Y coordinate of origin.|
 
 ## Remarks
-The difference between [[VS:SetOrigin]] and [[VS:SetOriginAbsolute]] is that SetOrigin <i>shifts</i> the origin the specified amount, where [[VS:SetOriginAbsolute]] <i>sets</i> the origin to the specified values.
+The difference between [SetOrigin](SetOrigin.md) and [SetOriginAbsolute](SetOriginAbsolute.md) is that SetOrigin *shifts* the origin the specified amount, where [SetOriginAbsolute](SetOriginAbsolute.md) *sets* the origin to the specified values.
 
-See the &lt;a href=http://www.vectorlab.info/index.php?title=Absolute_Origin&gt;VectorLab article&lt;/a&gt; on origins by Gerard Jonker.
+See the [VectorLab article](http://www.vectorlab.info/index.php?title=Absolute_Origin) on origins by Gerard Jonker.
 
 ## See Also
 VS Functions:

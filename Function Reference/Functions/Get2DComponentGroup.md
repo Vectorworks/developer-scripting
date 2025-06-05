@@ -4,30 +4,20 @@
 Gets the specified 2D component group of a symbol definition or plug-in object or NULL if the group does not exist.
 
 
-''Table - 2D components''
-{| class = "wikitable_c"
-! Constant !! 2D component
-|-
-| 0 || Not Set
-|-
-| 1 || Top
-|-
-| 2 || Bottom
-|-
-| 3 || Top and Bottom Cut
-|-
-| 4 || Front
-|-
-| 5 || Back
-|-
-| 6 || Front and Back Cut
-|-
-| 7 || Left
-|-
-| 8 || Right
-|-
-| 9  || Left and Right Cut 
-|}
+**Table - 2D components**
+
+| Constant | 2D component        |
+|----------|--------------------|
+| 0        | Not Set            |
+| 1        | Top                |
+| 2        | Bottom             |
+| 3        | Top and Bottom Cut |
+| 4        | Front              |
+| 5        | Back               |
+| 6        | Front and Back Cut |
+| 7        | Left               |
+| 8        | Right              |
+| 9        | Left and Right Cut |
 
 ```pascal
 FUNCTION Get2DComponentGroup(

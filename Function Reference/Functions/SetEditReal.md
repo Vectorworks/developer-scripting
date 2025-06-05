@@ -3,25 +3,15 @@
 ## Description
 Sets the numeric value of the specified REAL numeric edit field control.
 
-{| class="wikitable_c"
-|+ Table - Field Types for EditReal Fields
-! Index !! Field Value
-|- 
-| 1  
-| REAL value  
-|-
-| 2  
-| Angular value  
-|-
-| 3  
-| Dimension  
-|-
-| 4  
-| X coordinate  
-|-
-| 5  
-| Y coordinate  
-|}
+**Table - Field Types for EditReal Fields**
+
+| Index | Field Value   |
+|-------|--------------|
+| 1     | REAL value   |
+| 2     | Angular value|
+| 3     | Dimension    |
+| 4     | X coordinate |
+| 5     | Y coordinate |
 
 ```pascal
 PROCEDURE SetEditReal(

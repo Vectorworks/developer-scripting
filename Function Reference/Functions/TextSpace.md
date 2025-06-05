@@ -3,19 +3,13 @@
 ## Description
 Procedure TextSpace sets the active spacing for a VectorWorks document. 
 
-{| class="wikitable_c"
-|+ Table - Text Spacing
-! Leading !! Constant
-|-
-| Single space
-| style="text-align:center"| 2
-|-
-| 1 1/2 space
-| style="text-align:center"| 3
-|-
-| Double space
-| style="text-align:center"| 4
-|}
+**Table - Text Spacing**
+
+| Leading        | Constant |
+|----------------|----------|
+| Single space   | 2        |
+| 1 1/2 space    | 3        |
+| Double space   | 4        |
 
 ```pascal
 PROCEDURE TextSpace(spacing : INTEGER);

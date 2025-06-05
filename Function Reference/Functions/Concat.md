@@ -18,26 +18,17 @@ def vs.Concat(txt):
 |txt|DYNARRAY[] of CHAR|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.05.23: You can use [[VS:Concat]] to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, it outputs the number as seen from inside VS. See the table below for a list of routines formatting according to your system's settings.
-{| class="wikitable"
-|+ Decimal marker symbol usage
-! Metric: ',' !!  American '.'
-|-
-| 
-: 100,123
-|
-: 100.123
-|-
-! Formatting routines: !!  Non formatting routines:
-|-
-| 
-: [[VS:Num2Str]], [[VS:Num2StrF]], [[VS:Angle2Str]], [[VS:Area2Str]], [[VS:Volume2Str]]
-: <code>Num2Str(3, 100.123) { --> 100,123 on metric systems } </code>
-: <code>Num2Str(3, 100.123) { --> 100.123 on American systems } </code>
-|
-: [[VS:Concat]]
-: <code>Concat(100.123) { --> 100.123 on any system } </code>
-|}
+[[User:CBM-c-|_c_]], 2015.05.23: You can use [Concat](Concat.md) to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, it outputs the number as seen from inside VS. See the table below for a list of routines formatting according to your system's settings.
+
+**Decimal marker symbol usage**
+
+| Metric: ',' Example | American '.' Example |
+|---------------------|---------------------|
+| 100,123             | 100.123             |
+
+| Formatting routines | Non formatting routines |
+|---------------------|------------------------|
+| [Num2Str](Num2Str.md), [Num2StrF](Num2StrF.md), [Angle2Str](Angle2Str.md), [Area2Str](Area2Str.md), [Volume2Str](Volume2Str.md)<br>`Num2Str(3, 100.123) { --> 100,123 on metric systems }`<br>`Num2Str(3, 100.123) { --> 100.123 on American systems }` | [Concat](Concat.md)<br>`Concat(100.123) { --> 100.123 on any system }` |
 
 ## Examples
 #### VectorScript ####

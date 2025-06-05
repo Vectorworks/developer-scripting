@@ -1,7 +1,7 @@
 # CreateControl
 
 ## Description
-'''[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]'''. See [[VS:CreateImageControl2|CreateImageControl2]] and [[VS:CreateThumbnailPopup|CreateThumbnailPopup]] for a replacement.
+**[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md) DEPRECATED after Vectorworks2012**. See [CreateImageControl2](CreateImageControl2.md) and [CreateThumbnailPopup](CreateThumbnailPopup.md) for a replacement.
 
 Creates a new extended dialog control item. Supported extended dialog controls include image, system color palette, and slider controls.
 
@@ -29,37 +29,17 @@ def vs.CreateControl(dialogID, itemID, controlKind, name, data):
 |data|LONGINT|Initial data for the control item.|
 
 ## Remarks
-{| class="wikitable_c"
-|+ Table - Control Types
-! Index !! Control Type !! Data
-|- 
-| 1
-| PICT Image
-| Resource ID of a PICT
-Use [[VS:CreateImageControl2|CreateImageControl2]] from VW 2012
-|- 
-| 2
-| System Color 
-| Ignored. Pass a value of 0
-|- 
-| 3
-| Slider 
-| Maximum value of slider whose range is 0 - ###
-|- 
-| 10 
-| Image Popup 
-| Ignored. Pass a value of 0.
-Use [[VS:CreateThumbnailPopup|CreateThumbnailPopup]] from VW 2012
-|- 
-| 11 
-| Gradient Slider 
-| Width of the slider in characters
-|- 
-| 26 
-| PNG Image
-| Resource ID of a PNG image
-Use [[VS:CreateImageControl2|CreateImageControl2]] from VW 2012
-|}
+
+**Table - Control Types**
+
+| Index | Control Type    | Data |
+|-------|----------------|------|
+| 1     | PICT Image     | Resource ID of a PICT<br>Use [CreateImageControl2](CreateImageControl2.md) from VW 2012 |
+| 2     | System Color   | Ignored. Pass a value of 0 |
+| 3     | Slider         | Maximum value of slider whose range is 0 - ### |
+| 10    | Image Popup    | Ignored. Pass a value of 0.<br>Use [CreateThumbnailPopup](CreateThumbnailPopup.md) from VW 2012 |
+| 11    | Gradient Slider| Width of the slider in characters |
+| 26    | PNG Image      | Resource ID of a PNG image<br>Use [CreateImageControl2](CreateImageControl2.md) from VW 2012 |
 
 Check out the full example Align Selected Objects.
 http://www.vectorworks.net/support/custom/vscript/example.php

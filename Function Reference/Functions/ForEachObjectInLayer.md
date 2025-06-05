@@ -3,65 +3,25 @@
 ## Description
 Traverses through all objects according to specified search options and applies the specified action to each object.  The 'actionFunc' procedure should return false to continue with next object, or return true to stop the traversal.
 
-{| class="wikitable_c"
-|+ Table - ForEachObjectInLayer Selectors
-! Option !! Selector !! Description
-|-
-! Colspan="3" | Object Options
-|-
-| All objects
-| style="text-align:center"| 0
-| 
-|-
-| Visible Objects only
-| style="text-align:center"| 1
-|  
-|-
-| Selected Objects only
-| style="text-align:center"| 2
-| 
-|-
-| Unlocked objects only
-| style="text-align:center"| 4
-| 
-|-
-! Colspan="3" | Traversal Options
-|-
-| Traverse Shallow
-| style="text-align:center"| 0
-|  
-|-
-| Traverse Groups
-| style="text-align:center"| 1
-| Traverse inside groups
-|-
-| Traverse Deep
-| style="text-align:center"| 2
-| Traverse all containers
-(walls, extrudes, sweeps, etc)
-|-
-! Colspan="3" | Layer Options
-|-
-| Current layer 
-| style="text-align:center"| 0
-|  
-|-
-| All layers 
-| style="text-align:center"| 1
-| 
-|-
-| Visible layers
-| style="text-align:center"| 2
-| 
-|-
-| Editable layers
-| style="text-align:center"| 3
-| 
-|-
-| Snappable layers
-| style="text-align:center"| 4
-| 
-|}
+**Table - ForEachObjectInLayer Selectors**
+
+| Option                | Selector | Description                        |
+|-----------------------|----------|------------------------------------|
+| **Object Options**    |          |                                    |
+| All objects           | 0        |                                    |
+| Visible Objects only  | 1        |                                    |
+| Selected Objects only | 2        |                                    |
+| Unlocked objects only | 4        |                                    |
+| **Traversal Options** |          |                                    |
+| Traverse Shallow      | 0        |                                    |
+| Traverse Groups       | 1        | Traverse inside groups             |
+| Traverse Deep         | 2        | Traverse all containers (walls, extrudes, sweeps, etc) |
+| **Layer Options**     |          |                                    |
+| Current layer         | 0        |                                    |
+| All layers            | 1        |                                    |
+| Visible layers        | 2        |                                    |
+| Editable layers       | 3        |                                    |
+| Snappable layers      | 4        |                                    |
 
 ```pascal
 PROCEDURE ForEachObjectInLayer(

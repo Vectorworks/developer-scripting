@@ -4,24 +4,14 @@
 Function GetCAlign returns the alignment value of a cell in the referenced worksheet. 
 
 
-{| class="wikitable_c"
+**Table - Worksheet Cell Alignment**
 
-|+ Table - Worksheet Cell Alignment
-|- 
-! Alignment !! Constant
-|- 
-| General
-| style="text-align:center"| 1
-|- 
-| Left
-| style="text-align:center"| 2
-|- 
-| Right
-| style="text-align:center"| 3
-|- 
-| Center
-| style="text-align:center"| 4
-|}
+| Alignment | Constant |
+|-----------|----------|
+| General   | 1        |
+| Left      | 2        |
+| Right     | 3        |
+| Center    | 4        |
 
 ```pascal
 FUNCTION GetCAlign(

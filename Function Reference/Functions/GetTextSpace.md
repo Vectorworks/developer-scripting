@@ -3,19 +3,13 @@
 ## Description
 Procedure GetTextSpace returns the line spacing of the referenced text object.
 
-{| class="wikitable_c"
-|+ Table - Text Spacing
-! Leading !! Constant
-|-
-| Single space
-| 2
-|-
-| 1 1/2 space
-| 3
-|-
-| Double space
-| 4
-|}
+**Table - Text Spacing**
+
+| Leading        | Constant |
+|----------------|----------|
+| Single space   | 2        |
+| 1 1/2 space    | 3        |
+| Double space   | 4        |
 
 ```pascal
 FUNCTION GetTextSpace(theText : HANDLE): INTEGER;

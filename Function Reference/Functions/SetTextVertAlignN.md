@@ -5,25 +5,15 @@ Procedure SetTextVertAlignN sets the vertical alignment of the referenced text o
 
 ![Text Locus](files/Textlocus.gif)
 
-{| class="wikitable_c"
-! Justification !! Constant
-|+ Table - Text Vertical Justification
-|-
-| Top of text box 
-| style="text-align:center"| 1
-|-
-| Top baseline 
-| style="text-align:center"| 2
-|-
-| Text centerline 
-| style="text-align:center"| 3
-|-
-| Bottom baseline 
-| style="text-align:center"| 4
-|-
-| Bottom of text box 
-| style="text-align:center"| 5
-|}
+**Table - Text Vertical Justification**
+
+| Justification        | Constant |
+|----------------------|----------|
+| Top of text box      | 1        |
+| Top baseline         | 2        |
+| Text centerline      | 3        |
+| Bottom baseline      | 4        |
+| Bottom of text box   | 5        |
 
 ```pascal
 PROCEDURE SetTextVertAlignN(

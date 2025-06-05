@@ -32,83 +32,47 @@ In the appendix, the field types for worksheets and data records are listed, but
 
 Data Records:
 
-{| class="wikitable"
-! Constant !! Description
-|-
-| 1 || Integer
-|-
-| 2 || Boolean
-|-
-| 3 || Number-general
-|-
-| 4 || Text
-|-
-| 5 || Number-decimal
-|-
-| 6 || Number-decimal w/ commas
-|-
-| 7 || Number-scientific
-|-
-| 8 || Number-fractional
-|-
-| 9 || Number-dimension
-|-
-| 10 || Number-angle
-|-
-| 11 || Number-date/time
-|}
+| Constant | Description                |
+|----------|---------------------------|
+| 1        | Integer                   |
+| 2        | Boolean                   |
+| 3        | Number-general            |
+| 4        | Text                      |
+| 5        | Number-decimal            |
+| 6        | Number-decimal w/ commas  |
+| 7        | Number-scientific         |
+| 8        | Number-fractional         |
+| 9        | Number-dimension          |
+| 10       | Number-angle              |
+| 11       | Number-date/time          |
 
 PIO Records:
 
-{| class="wikitable"
-! Constant !! Description
-|-
-| 1 || Integer
-|-
-| 2 || Boolean
-|-
-| 3 || Number
-|-
-| 4 || Text
-|-
-| 7 || Dimension
-|-
-| 8 || Pop-Up
-|-
-| 9 || Radio Buttons
-|-
-| 10 || Control Point X
-|-
-| 11 || Control Point Y
-|-
-| 14 || Static Text Label
-|-
-| 18 || Classes Pop-up
-|-
-| 19 || Layer Pop-up
-|-
-| 20 || Angle
-|-
-| 21 || Area
-|-
-| 22 || Volume
-|-
-| 23 || Class
-|-
-| 24 || Material
-|-
-| 25 || Fill
-|-
-| 26 || Pen Style
-|-
-| 27 || Pen Weight
-|-
-| 28 || Color
-|-
-| 29 || Texture
-|-
-| 30 || Symbol Definition
-|}
+| Constant | Description         |
+|----------|--------------------|
+| 1        | Integer            |
+| 2        | Boolean            |
+| 3        | Number             |
+| 4        | Text               |
+| 7        | Dimension          |
+| 8        | Pop-Up             |
+| 9        | Radio Buttons      |
+| 10       | Control Point X    |
+| 11       | Control Point Y    |
+| 14       | Static Text Label  |
+| 18       | Classes Pop-up     |
+| 19       | Layer Pop-up       |
+| 20       | Angle              |
+| 21       | Area               |
+| 22       | Volume             |
+| 23       | Class              |
+| 24       | Material           |
+| 25       | Fill               |
+| 26       | Pen Style          |
+| 27       | Pen Weight         |
+| 28       | Color              |
+| 29       | Texture            |
+| 30       | Symbol Definition  |
 
 ## Examples
 #### VectorScript ####

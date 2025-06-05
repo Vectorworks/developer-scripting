@@ -4,51 +4,27 @@
 Displays the text formatting dialog and returns the selected text formatting options.
 
 
-{| class="wikitable_c"
-|+ Table - Text Style
-! Style !! Constant
-|-
-| Plain
-| 0
-|-
-| Bold
-| 1
-|-
-| Italic
-| 2
-|-
-| Underline
-| 4
-|-
-| Outline
-| 8
-|-
-| Shadowed
-| 16
-|}
+**Table - Text Style**
 
-{| class="wikitable_c"
-|+ Table - disableMask Values
-! Description !! Constant
-|-
-| Font
-| 1
-|-
-| Size
-| 2
-|-
-| Spacing
-| 4
-|-
-| Style
-| 8
-|-
-| hAlign
-| 16
-|-
-| vAlign
-| 32
-|}
+| Style     | Constant |
+|-----------|----------|
+| Plain     | 0        |
+| Bold      | 1        |
+| Italic    | 2        |
+| Underline | 4        |
+| Outline   | 8        |
+| Shadowed  | 16       |
+
+**Table - disableMask Values**
+
+| Description | Constant |
+|-------------|----------|
+| Font        | 1        |
+| Size        | 2        |
+| Spacing     | 4        |
+| Style       | 8        |
+| hAlign      | 16       |
+| vAlign      | 32       |
 
 ```pascal
 PROCEDURE FormatTextDialog(

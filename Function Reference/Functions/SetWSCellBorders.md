@@ -46,53 +46,20 @@ def vs.SetWSCellBorders(worksheet, topRow, leftColumn, bottomRow, rightColumn, t
 ## Remarks
 OulineInside defines the outline, inside horizontal and inside vertical borders.
 
-{| class="wikitable_c"
-|+ Available Constants
-! Const !! outline !! inside horizontal !! inside vertical
-|- 
-| 0 
-| false 
-| false 
-| false
-|- 
-| 1 
-| true 
-| false 
-| false
-|- 
-| 2 
-| false 
-| true 
-| false
-|- 
-| 3 
-| true 
-| true 
-| false
-|- 
-| 4 
-| false 
-| false 
-| true
-|- 
-| 5 
-| true 
-| false 
-| true
-|- 
-| 6 
-| false 
-| true 
-| true
-|- 
-| 7 
-| true 
-| true 
-| true
-|}
+**Available Constants**
 
+| Const | outline | inside horizontal | inside vertical |
+|-------|---------|-------------------|-----------------|
+| 0     | false   | false             | false           |
+| 1     | true    | false             | false           |
+| 2     | false   | true              | false           |
+| 3     | true    | true              | false           |
+| 4     | false   | false             | true            |
+| 5     | true    | false             | true            |
+| 6     | false   | true              | true            |
+| 7     | true    | true              | true            |
 
-This replaces [[VS:SetWSCellBorder| SetWSCellBorder]] which became obsolete as of version 12. (You can see obsolete functions by setting the preference on the home page.)
+This replaces [SetWSCellBorder](SetWSCellBorder.md) which became obsolete as of version 12. (You can see obsolete functions by setting the preference on the home page.)
 
 ## Examples
 #### VectorScript ####

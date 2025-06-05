@@ -3,44 +3,17 @@
 ## Description
 Procedure SetObjArrow sets the arrow style parameters for the indicated object.
 
-<I>Marker Styles</I><P>
-<CENTER>
-<TABLE BORDER=0 ALIGN=CENTER CELLSPACING=1 CELLPADDING=3>
-<TR> 
-<TH ALIGN=CENTER BGCOLOR=#000000><FONT COLOR=#FFFFFF>Marker 
-Style</FONT></TH>
-<TH ALIGN=CENTER BGCOLOR=#000000><FONT COLOR=#FFFFFF>Constant</FONT></TH>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Filled Arrow</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>0</TD>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Empty Arrow</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>1</TD>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Open Arrow</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>2</TD>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Filled Circle</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>3</TD>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Empty Circle</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>4</TD>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Slash</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>5</TD>
-</TR>
-<TR> 
-<TD ALIGN=CENTER BGCOLOR=#CCCCCC>Cross</TD>
-<TD ALIGN=CENTER BGCOLOR=#CCCCFF>6</TD>
-</TR>
-</TABLE>
-</CENTER>
+**Marker Styles**
+
+| Marker Style    | Constant |
+|-----------------|----------|
+| Filled Arrow    | 0        |
+| Empty Arrow     | 1        |
+| Open Arrow      | 2        |
+| Filled Circle   | 3        |
+| Empty Circle    | 4        |
+| Slash           | 5        |
+| Cross           | 6        |
 
 ```pascal
 PROCEDURE SetObjArrow(

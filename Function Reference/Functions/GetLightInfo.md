@@ -3,19 +3,13 @@
 ## Description
 Procedure GetLightInfo returns the attributes of the referenced light object.
 
-{| class="wikitable_c"
-|+ Table - Light Types
-! Light Type !! Constant
-|-
-| Directional
-| 0
-|-
-| Point
-| 1
-|-
-| Spot
-| 2
-|}
+**Table - Light Types**
+
+| Light Type   | Constant |
+|--------------|----------|
+| Directional  | 0        |
+| Point        | 1        |
+| Spot         | 2        |
 
 ```pascal
 PROCEDURE GetLightInfo(

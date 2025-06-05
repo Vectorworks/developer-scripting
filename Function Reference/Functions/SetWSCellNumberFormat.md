@@ -5,58 +5,22 @@ Sets the numeric formatting of a cell in the referenced worksheet.
 
 SetWSCellNumberFormat allows numeric formatting to be set for a rectangular range of cells. To set the formatting of a single cell, specify identical values for the top/bottom and left/right range boundaries.
 
-{| class="wikitable_c"
-|+ Table - Worksheet Number Formats
-! Style !! Constant !! Meaning of Accuracy
-|- 
-| General
-| style="text-align:center"| 0
-| 
-|- 
-| Fixed Decimal
-| style="text-align:center"| 1
-| number of decimal places
-|- 
-| DecwCommas
-| style="text-align:center"| 2
-| number of decimal places
-|- 
-| Scientific
-| style="text-align:center"| 3
-| number of decimal places
-|- 
-| Fractional
-| style="text-align:center"| 4
-| largest displayed denominator
-|-  
-| Dimension
-| style="text-align:center"| 5
-| 
-|- 
-| Angle
-| style="text-align:center"| 6
-| corresponds to angular accuracy in units dialog
-|- 
-| Date
-| style="text-align:center"| 7
-| index to a date format, e.g. 3 for 'dmy' or 7 for 'd-mmm-y' 
-|-  
-| Conditional
-| style="text-align:center"| 8
-| 
-|- 
-| Dimension Area
-| style="text-align:center"| 11
-| 
-|- 
-| Dimension Volume
-| style="text-align:center"| 12
-| 
-|- 
-| Text
-| style="text-align:center"| 13
-| 
-|}
+**Table - Worksheet Number Formats**
+
+| Style           | Constant | Meaning of Accuracy                                 |
+|-----------------|----------|-----------------------------------------------------|
+| General         | 0        |                                                     |
+| Fixed Decimal   | 1        | number of decimal places                            |
+| DecwCommas      | 2        | number of decimal places                            |
+| Scientific      | 3        | number of decimal places                            |
+| Fractional      | 4        | largest displayed denominator                       |
+| Dimension       | 5        |                                                     |
+| Angle           | 6        | corresponds to angular accuracy in units dialog     |
+| Date            | 7        | index to a date format, e.g. 3 for 'dmy' or 7 for 'd-mmm-y' |
+| Conditional     | 8        |                                                     |
+| Dimension Area  | 11       |                                                     |
+| Dimension Volume| 12       |                                                     |
+| Text            | 13       |                                                     |
 
 ```pascal
 PROCEDURE SetWSCellNumberFormat(

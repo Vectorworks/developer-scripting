@@ -1078,7 +1078,7 @@ def AngularDim(
 		
 		Category: Dimensions
 		Procedure AngularDim creates an angular dimension in the document.
-		<I>Angular Dimension</I><P>
+		Angular Dimension
 	'''
 	pass
 
@@ -1593,7 +1593,7 @@ def BeginRoof(
 		
 		Category: Objects - Roofs
 		Procedure BeginRoof creates a simple roof object in a Vectorworks document.
-		<I>3-D View of Roof</I><P>
+		3-D View of Roof
 	'''
 	pass
 
@@ -2187,7 +2187,7 @@ def CircularDim(
 		
 		Category: Dimensions
 		Procedure CircularDim creates a diameter or radial dimension in a Vectorworks document.
-		<I>Circular Dimension</I><P>
+		Circular Dimension
 	'''
 	pass
 
@@ -26330,7 +26330,7 @@ def LinearDim(
 		
 		Category: Dimensions
 		Procedure LinearDim creates a linear dimension in a Vectorworks document.
-		<I>Linear Dimension</I><P>
+		Linear Dimension
 	'''
 	pass
 
@@ -43103,7 +43103,7 @@ def Trunc(
 		
 		Category: Math - General
 		Truncates the decimal portion of the specified REAL number, returning the result as a LONGINT value.
-		Note that direct assignment of a REAL to a LONGINT will result in rounding the REAL to the <i>nearest</i> LONGINT, whereas Trunc always "rounds down" (if the number is positive).
+		Note that direct assignment of a REAL to a LONGINT will result in rounding the REAL to the nearest LONGINT, whereas Trunc always "rounds down" (if the number is positive).
 	'''
 	pass
 	return 'LONGINT' # 

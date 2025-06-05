@@ -3,27 +3,18 @@
 ## Description
 Aligns the specified control item with other items having the same edge and alignment id values. To align several control items, call this function once for each item to be aligned using a common alignment id value.
 
-{| class="wikitable_c"
-|+ Table - Alignment Options
-! Index !! Alignment Edge
-|-
-| align="center" | 1 
-| align="center" | Right 
-|-
-| align="center" | 2 
-| align="center" | Bottom 
-|-
-| align="center" | 3 
-| align="center" | Left 
-|-
-! Index !! Alignment Mode
-|-
-| align="center" | 0 
-| align="center" | Resize control items
-|-
-| align="center" | 1 
-| align="center" | Shift control items
-|}
+**Table - Alignment Options**
+
+| Index | Alignment Edge      |
+|-------|--------------------|
+| 1     | Right              |
+| 2     | Bottom             |
+| 3     | Left               |
+
+| Index | Alignment Mode         |
+|-------|-----------------------|
+| 0     | Resize control items  |
+| 1     | Shift control items   |
 
 
 Right alignment of objects will use the object with the minimum pixel value (=distance from the right) as the alignment baseline. Bottom and left alignment of objects will use the object with the  maximum pixel value as the alignment baseline.

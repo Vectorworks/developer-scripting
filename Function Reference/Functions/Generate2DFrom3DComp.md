@@ -6,56 +6,39 @@ The resulting graphics will be similar to converting the 3D component to lines f
 3D objects visible in the specified detail level will be used to generate the 2D component.
 
 
-''Table - 2D components''
-{| class = "wikitable_c"
-! Constant !! 2D component
-|-
-| 0 || Not Set
-|-
-| 1 || Top 
-|-
-| 2 || Bottom 
-|-
-| 3 || Top and Bottom Cut 
-|-
-| 4 || Front 
-|-
-| 5 || Back 
-|-
-| 6 || Front and Back Cut 
-|-
-| 7 || Left 
-|-
-| 8 || Right 
-|-
-| 9   || Left and Right Cut 
-|} 
+**Table - 2D components**
+
+| Constant | 2D component         |
+|----------|---------------------|
+| 0        | Not Set             |
+| 1        | Top                 |
+| 2        | Bottom              |
+| 3        | Top and Bottom Cut  |
+| 4        | Front               |
+| 5        | Back                |
+| 6        | Front and Back Cut  |
+| 7        | Left                |
+| 8        | Right               |
+| 9        | Left and Right Cut  |
 
 
-''Table - Available Render Modes''
-{| class = "wikitable_c"     
-! Constant !! Render Mode
-|-
-| 0 || Wireframe 
-|-
-| 6 || Hidden Line 
-|-
-| 7  || Dashed Hidden Line 
-|}
+**Table - Available Render Modes**
+
+| Constant | Render Mode         |
+|----------|--------------------|
+| 0        | Wireframe          |
+| 6        | Hidden Line        |
+| 7        | Dashed Hidden Line |
 
 
-''Table - Detail levels''
-{| class = "wikitable_c"
-! Constant !! Detail level
-|-
-| 1 || Low 
-|-
-| 2 || Medium 
-|-
-| 4 || High 
-|-
-| 7 || All 
-|}
+**Table - Detail levels**
+
+| Constant | Detail level |
+|----------|-------------|
+| 1        | Low         |
+| 2        | Medium      |
+| 4        | High        |
+| 7        | All         |
 
 ```pascal
 FUNCTION Generate2DFrom3DComp(

@@ -18,7 +18,7 @@ def vs.HideClass(className):
 |className|STRING|Name of class.|
 
 ## Remarks
-If you're hiding a class for the purpose of printing with that class turned off, you have to do a [[VS:ReDrawAll]] before calling the the <i>[[VS:DoMenuTextByName|DoMenuTextByName]]('Print',0)</i> call, or else the class doesn't get hidden until after the script completes execution.
+If you're hiding a class for the purpose of printing with that class turned off, you have to do a [ReDrawAll](ReDrawAll.md) before calling the the *[DoMenuTextByName](DoMenuTextByName.md)*('Print',0) call, or else the class doesn't get hidden until after the script completes execution.
 
 ## Examples
 #### VectorScript ####

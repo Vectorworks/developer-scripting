@@ -3,102 +3,44 @@
 ## Description
 Creates a new symbol display control in the dialog layout.  The control displays the specified symbol in the specified rendering mode and view.  The actual size of the symbol is not relevant; it is shown as large as possible in the given height and width (the height to width ratio of the symbol is always preserved).  To show a blank SymbolDisplay control, use an empty string as the symbolName parameter.
 
-{| class="wikitable_c"
-|+ Table - Render Modes
-! Render Mode !! Constant
-|-
-| Wireframe
-| 0
-|-
-| Unshaded Polygon
-| 2
-|-
-| Shaded Polygon
-| 3
-|-
-| Shaded Polygon No Lines
-| 4
-|-
-| Final Shaded Polygon
-| 5
-|-
-| Hidden Line
-| 6
-|-
-| Dashed Hidden Line
-| 7
-|-
-| OpenGL
-| 11
-|-
-| Fast RenderWorks
-| 12
-|-
-| Fast RenderWorks with Shadows
-| 13
-|-
-| Final Quality RenderWorks
-| 14
-|-
-| Custom RenderWorks
-| 15
-|-
-| Artistic RenderWorks
-| 17
-|-
-| Sketch
-| 18
-|}
+**Table - Render Modes**
 
-{| class="wikitable_c"
-|+ Table - Views
-! View !! Constant
-|-
-| Top/Plan
-| 2
-|-
-| Front
-| 3
-|-
-| Back
-| 4
-|-
-| Left
-| 5
-|-
-| Right
-| 6
-|-
-| Top
-| 7
-|-
-| Bottom
-| 8
-|-
-| Right Isometric
-| 9
-|-
-| Left Isometric
-| 10
-|-
-| Right Rear Isometric
-| 11
-|-
-| Left Rear Isometric
-| 12
-|-
-| Bottom Right Isometric
-| 13
-|-
-| Bottom Left Isometric
-| 14
-|-
-| Bottom Right Rear Isometric
-| 15
-|-
-| Bottom Left Rear Isometric
-| 16
-|}
+| Render Mode                    | Constant |
+|--------------------------------|----------|
+| Wireframe                      | 0        |
+| Unshaded Polygon               | 2        |
+| Shaded Polygon                 | 3        |
+| Shaded Polygon No Lines        | 4        |
+| Final Shaded Polygon           | 5        |
+| Hidden Line                    | 6        |
+| Dashed Hidden Line             | 7        |
+| OpenGL                         | 11       |
+| Fast RenderWorks               | 12       |
+| Fast RenderWorks with Shadows  | 13       |
+| Final Quality RenderWorks      | 14       |
+| Custom RenderWorks             | 15       |
+| Artistic RenderWorks           | 17       |
+| Sketch                         | 18       |
+
+**Table - Views**
+
+| View                      | Constant |
+|---------------------------|----------|
+| Top/Plan                  | 2        |
+| Front                     | 3        |
+| Back                      | 4        |
+| Left                      | 5        |
+| Right                     | 6        |
+| Top                       | 7        |
+| Bottom                    | 8        |
+| Right Isometric           | 9        |
+| Left Isometric            | 10       |
+| Right Rear Isometric      | 11       |
+| Left Rear Isometric       | 12       |
+| Bottom Right Isometric    | 13       |
+| Bottom Left Isometric     | 14       |
+| Bottom Right Rear Isometric | 15     |
+| Bottom Left Rear Isometric  | 16     |
 
 ```pascal
 PROCEDURE CreateSymbolDisplayControl(

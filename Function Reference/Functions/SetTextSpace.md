@@ -3,19 +3,13 @@
 ## Description
 Procedure SetTextSpace sets the line spacing of the referenced text object.
 
-{| class="wikitable_c"
-|+ Table - Text Spacing
-! Leading !! Constant
-|-
-| Single space
-| style="text-align:center"| 2
-|-
-| 1 1/2 space
-| style="text-align:center"| 3
-|-
-| Double space
-| style="text-align:center"| 4
-|}
+**Table - Text Spacing**
+
+| Leading        | Constant |
+|----------------|----------|
+| Single space   | 2        |
+| 1 1/2 space    | 3        |
+| Double space   | 4        |
 
 ```pascal
 PROCEDURE SetTextSpace(
@@ -35,7 +29,7 @@ def vs.SetTextSpace(theText, spacing):
 |spacing|INTEGER|Line spacing for text.|
 
 ## Remarks
-Use [[VS:SetTextLeading| SetTextLeading]] to set a custom line spacing.
+Use [SetTextLeading](SetTextLeading.md) to set a custom line spacing.
 
 ## Version
 Availability: from VectorWorks 8.0

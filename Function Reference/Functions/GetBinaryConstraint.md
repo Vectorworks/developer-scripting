@@ -3,40 +3,20 @@
 ## Description
 Returns a handle to a binary parametric constraint applied to the referenced objects.
 
-{| class="wikitable_c"
-|+ Table - Binary Constraint Types
-! Index !! Constraint Type
-|-
-| style="text-align:center" | 1
-| coincident
-|-
-| style="text-align:center" | 2
-| collinear
-|-
-| style="text-align:center" | 3
-| parallel 
-|-
-| style="text-align:center" | 6
-| tangent 
-|-
-| style="text-align:center" | 7
-| concentric
-|-
-| style="text-align:center" | 8
-| distance 
-|-
-| style="text-align:center" | 9
-| horizontal distance
-|-
-| style="text-align:center" | 10
-| vertical distance
-|-
-| style="text-align:center" | 12
-| angle
-|-
-| style="text-align:center" | 13
-| perpendicular
-|}
+**Table - Binary Constraint Types**
+
+| Index | Constraint Type      |
+|-------|---------------------|
+| 1     | coincident          |
+| 2     | collinear           |
+| 3     | parallel            |
+| 6     | tangent             |
+| 7     | concentric          |
+| 8     | distance            |
+| 9     | horizontal distance |
+| 10    | vertical distance   |
+| 12    | angle               |
+| 13    | perpendicular       |
 
 ```pascal
 FUNCTION GetBinaryConstraint(

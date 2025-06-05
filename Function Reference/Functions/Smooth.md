@@ -3,22 +3,14 @@
 ## Description
 Procedure Smooth sets the smoothing type of newly created polyline or polygon objects.
 
-{| class="wikitable_c"
-|+ Table - Smoothing Types
-! Smooth Type !! Constant
-|-
-| None
-| 0
-|-
-| Bezier
-| 1
-|-
-| Cubic
-| 2
-|-
-| Arc
-| 3
-|}
+**Table - Smoothing Types**
+
+| Smooth Type | Constant |
+|-------------|----------|
+| None        | 0        |
+| Bezier      | 1        |
+| Cubic       | 2        |
+| Arc         | 3        |
 
 ```pascal
 PROCEDURE Smooth(smoothType : INTEGER);

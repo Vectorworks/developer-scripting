@@ -5,31 +5,17 @@ Procedure SprdFormat determines the number format for cells within the active wo
 
 Values for ldr and trailr may not exceed 8 characters.
 
-{| class="wikitable_c"
-|+ Table - Worksheet Cell Formats
-! Cell Format !! Constant
-|- 
-| General
-| style="text-align:center"| 0
-|- 
-| Decimal
-| style="text-align:center"| 1
-|- 
-| Decimal/comma
-| style="text-align:center"| 2
-|- 
-| Scientific
-| style="text-align:center"| 3
-|- 
-| Fractional
-| style="text-align:center"| 4
-|- 
-| Dimension
-| style="text-align:center"| 5
-|- 
-| Angle
-| style="text-align:center"| 6
-|}
+**Table - Worksheet Cell Formats**
+
+| Cell Format      | Constant |
+|------------------|----------|
+| General          | 0        |
+| Decimal          | 1        |
+| Decimal/comma    | 2        |
+| Scientific       | 3        |
+| Fractional       | 4        |
+| Dimension        | 5        |
+| Angle            | 6        |
 
 ```pascal
 PROCEDURE SprdFormat(
@@ -64,10 +50,10 @@ LoadCell(1, 1, '=500 * 3.25');
 ```
 
 ## See Also
-[SetWSCellNumberFormat| SetWSCellNumberFormat](SetWSCellNumberFormat|%20SetWSCellNumberFormat.md)
+[SetWSCellNumberFormat](SetWSCellNumberFormat.md)
 
 ## Version
-SprdFormat is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellNumberFormat| SetWSCellNumberFormat]].
+SprdFormat is obsolete as of VectorWorks 9.0, see new [SetWSCellNumberFormat](SetWSCellNumberFormat.md).
 
 Availability: from All Versions
 

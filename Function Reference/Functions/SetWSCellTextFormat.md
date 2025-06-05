@@ -5,29 +5,16 @@ Sets text format settings for a cell in the referenced worksheet.
 
 SetWSCellTextFormat allows text formatting to be set for a rectangular range of cells. To set the formatting of a single cell, specify identical values for the top/bottom and left/right range boundaries.
 
-{| class="wikitable_c"
-|+ Table - Text Style
-! Style !! Constant
-|- 
-| Plain
-| style="text-align:center"| 0
-|- 
-| Bold
-| style="text-align:center"| 1
-|- 
-| Italic
-| style="text-align:center"| 2
-|- 
-| Underline
-| style="text-align:center"| 4
-|- 
-| Outline
-| style="text-align:center"| 8
-|-  
-| Shadowed
-| style="text-align:center"| 16
-|- 
-|}
+**Table - Text Style**
+
+| Style     | Constant |
+|-----------|----------|
+| Plain     | 0        |
+| Bold      | 1        |
+| Italic    | 2        |
+| Underline | 4        |
+| Outline   | 8        |
+| Shadowed  | 16       |
 
 ```pascal
 PROCEDURE SetWSCellTextFormat(

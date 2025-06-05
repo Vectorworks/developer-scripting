@@ -3,31 +3,17 @@
 ## Description
 Function SubtractSolid creates a new solid subtraction object from the referenced source objects.
 
-{| class="wikitable_c"
-|+ Table - Solids Operation Result Codes
-! Operation Result !! Result Code
-|-
-| Success
-| 0
-|-
-| Null geometry error
-| 1
-|-
-| Geometry error
-| 2
-|-
-| Out of memory error
-| 4
-|-
-| Bad group error
-| 5
-|-
-| Invalid object type
-| 6
-|-
-| Bad input
-| 20
-|}
+**Table - Solids Operation Result Codes**
+
+| Operation Result     | Result Code |
+|----------------------|-------------|
+| Success              | 0           |
+| Null geometry error  | 1           |
+| Geometry error       | 2           |
+| Out of memory error  | 4           |
+| Bad group error      | 5           |
+| Invalid object type  | 6           |
+| Bad input            | 20          |
 
 ```pascal
 FUNCTION SubtractSolid(
@@ -51,9 +37,9 @@ def vs.SubtractSolid(obj1, obj2):
 ## Remarks
 [[User:CBM-c-|_c_]] (2018.02.11):  obj1 = clipped, obj2 = clipper
 
-Everything cuts the backmost object, which will be the 1st retrived using [[VS:FIn3D]].
+Everything cuts the backmost object, which will be the 1st retrived using [FIn3D](FIn3D.md).
 
-A solid subtraction has object type 84 and subtype 516. Mind, also other objects have type 84, such as Generic Solids (eventually generated using [[VS:ExtrudeAlongPath]])
+A solid subtraction has object type 84 and subtype 516. Mind, also other objects have type 84, such as Generic Solids (eventually generated using [ExtrudeAlongPath](ExtrudeAlongPath.md))
 
 ## Version
 Availability: from MiniCAD 7.0

@@ -3,22 +3,14 @@
 ## Description
 Function GetRoofAttributes returns the attributes of the referenced roof object.
 
-{| class="wikitable_c"
-|+ Table - Roof Miter Styles
-! Miter Style !! Constant
-|-
-| Vertical
-| 1
-|-
-| Horizontal
-| 2
-|-
-| Double
-| 3
-|-
-| Square
-| 4
-|}
+**Table - Roof Miter Styles**
+
+| Miter Style | Constant |
+|-------------|----------|
+| Vertical    | 1        |
+| Horizontal  | 2        |
+| Double      | 3        |
+| Square      | 4        |
 
 ```pascal
 FUNCTION GetRoofAttributes(

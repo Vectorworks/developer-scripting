@@ -3,46 +3,22 @@
 ## Description
 Returns the render mode for the referenced layer.
 
-{| class="wikitable_c"
-|+ Table - Render Modes
-! Render Mode !! Constant
-|-
-| Wireframe
-| 0
-|-
-| Unshaded Polygon
-| 2
-|-
-| Shaded Polygon
-| 3
-|-
-| Shaded Polygon No Lines
-| 4
-|-
-| Final Shaded Polygon
-| 5
-|-
-| Hidden Line
-| 6
-|-
-| Dashed Hidden Line
-| 7
-|-
-| OpenGL
-| 11
-|-
-| Fast RenderWorks
-| 12
-|-
-| Fast RenderWorks with Shadows
-| 13
-|-
-| Final Quality Renderworks
-| 14
-|-
-| Custom Renderworks
-| 15
-|}
+**Table - Render Modes**
+
+| Render Mode                   | Constant |
+|-------------------------------|----------|
+| Wireframe                     | 0        |
+| Unshaded Polygon              | 2        |
+| Shaded Polygon                | 3        |
+| Shaded Polygon No Lines       | 4        |
+| Final Shaded Polygon          | 5        |
+| Hidden Line                   | 6        |
+| Dashed Hidden Line            | 7        |
+| OpenGL                        | 11       |
+| Fast RenderWorks              | 12       |
+| Fast RenderWorks with Shadows | 13       |
+| Final Quality Renderworks     | 14       |
+| Custom Renderworks            | 15       |
 
 ```pascal
 FUNCTION GetLayerRenderMode(theLayer : HANDLE): INTEGER;

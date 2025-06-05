@@ -5,34 +5,18 @@ Procedure GetTextStyle returns the text style at a specified position within the
 
 The position is in a range between 0 and 32767, representing a character position in the text string. An index of 0 refers to the first character in the string.
 
-{| class="wikitable_c"
-|+ Table - Text Style
-! Style !! Constant
-|-
-| Plain
-| style="text-align:center"| 0
-|-
-| Bold
-| style="text-align:center"| 1
-|-
-| Italic
-| style="text-align:center"| 2
-|-
-| Underline
-| style="text-align:center"| 4
-|-
-| Outline
-| style="text-align:center"| 8
-|-
-| Shadowed
-| style="text-align:center"| 16
-|-
-| Superscript (VW 2011+)
-| style="text-align:center"| 32
-|-
-| Subscript (VW 2011+)
-| style="text-align:center"| 64
-|}
+**Table - Text Style**
+
+| Style                | Constant |
+|----------------------|----------|
+| Plain                | 0        |
+| Bold                 | 1        |
+| Italic               | 2        |
+| Underline            | 4        |
+| Outline              | 8        |
+| Shadowed             | 16       |
+| Superscript (VW 2011+)| 32      |
+| Subscript (VW 2011+) | 64       |
 
 ```pascal
 FUNCTION GetTextStyle(

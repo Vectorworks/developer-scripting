@@ -4,14 +4,12 @@
 Gets the 2D component that is shown in Top/Plan view for a symbol definition or plug-in object.
 
 
-''Table - components''
-{| class = "wikitable_c"
-! Constant !! component
-|-
-| 0 || Top
-|-
-| 1 || Top and Bottom Cut
-|}
+**Table - components**
+
+| Constant | component         |
+|----------|------------------|
+| 0        | Top              |
+| 1        | Top and Bottom Cut|
 
 ```pascal
 FUNCTION GetTopPlan2DComp(objectHandle : HANDLE): INTEGER;

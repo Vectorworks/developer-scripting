@@ -3,19 +3,13 @@
 ## Description
 Converts referenced symbol to group using the specified conversion options.
 
-{| class="wikitable_c"
-|+ Table - Convert Actions
-! Convert Action !! Constant
-|-
-| Don't convert subobjects
-| 0
-|-
-| Convert plug-in and symbol subobjects
-| 1
-|-
-| Convert all subobjects
-| 2
-|}
+**Table - Convert Actions**
+
+| Convert Action                     | Constant |
+|-------------------------------------|----------|
+| Don't convert subobjects            | 0        |
+| Convert plug-in and symbol subobjects| 1       |
+| Convert all subobjects              | 2        |
 
 ```pascal
 PROCEDURE SymbolToGroup(

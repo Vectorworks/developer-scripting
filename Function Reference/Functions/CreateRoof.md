@@ -1,24 +1,16 @@
 # CreateRoof
 
 ## Description
-Function CreateRoof creates a new roof object in a VectorWorks document, returning a handle to the object. To define the roof object template, use [[VS:AppendRoofEdge| AppendRoofEdge]].
+Function CreateRoof creates a new roof object in a VectorWorks document, returning a handle to the object. To define the roof object template, use [AppendRoofEdge](AppendRoofEdge.md).
 
-{| class="wikitable_c"
-|+ Table - Roof Miter Styles
-! Miter Style !! Constant
-|-
-| Vertical
-| 1
-|-
-| Horizontal
-| 2
-|-
-| Double
-| 3
-|-
-| Square
-| 4
-|}
+**Table - Roof Miter Styles**
+
+| Miter Style | Constant |
+|-------------|----------|
+| Vertical    | 1        |
+| Horizontal  | 2        |
+| Double      | 3        |
+| Square      | 4        |
 
 ```pascal
 FUNCTION CreateRoof(
@@ -44,7 +36,7 @@ def vs.CreateRoof(genGableWall, bearingInsetDistance, roofThickDistance, miterTy
 |vertMiterDistance|REAL|Vertical component for double miters.|
 
 ## Remarks
-Use [[VS:AppendRoofEdge| AppendRoofEdge]]() to define the roof plan.
+Use [AppendRoofEdge](AppendRoofEdge.md)() to define the roof plan.
 genGableWall: Create wall object on gable ends, otherwise no wall is created.
 bearingInset is where the weight of the roof rests on the wall.  This is an inset from the defining edge of the roof plan.
 miterType:  1: vertical miter, 2: horizontal miter, 3: double miter , 4: square miter

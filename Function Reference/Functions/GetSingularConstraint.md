@@ -3,28 +3,16 @@
 ## Description
 Returns the type of constraint applied to the referenced object.
 
-{| class="wikitable_c"
-|+ Table - Constraint Types
-! Index !! Constraint Type
-|-
-| style="text-align:center" | 4 
-| Vertical 
-|-
-| style="text-align:center" | 5 
-| Horizontal 
-|-
-| style="text-align:center" | 8 
-| Distance 
-|-
-| style="text-align:center" | 9 
-| Vertical distance 
-|-
-| style="text-align:center" | 10 
-| Horizontal distance 
-|-
-| style="text-align:center" | 11 
-| Radius
-|}
+**Table - Constraint Types**
+
+| Index | Constraint Type      |
+|-------|---------------------|
+| 4     | Vertical            |
+| 5     | Horizontal          |
+| 8     | Distance            |
+| 9     | Vertical distance   |
+| 10    | Horizontal distance |
+| 11    | Radius              |
 
 ```pascal
 FUNCTION GetSingularConstraint(

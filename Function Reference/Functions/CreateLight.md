@@ -5,19 +5,13 @@ CreateLight creates a new light object in the active VectorScript document.
 
 A new light objects' color is defaulted to white, and brightness is defaulted to 75%. 
 
-{| class="wikitable_c"
-|+ Table - Light Types
-! Light Type !! Constant
-|-
-| Directional
-| 0
-|-
-| Point
-| 1
-|-
-| Spot
-| 2
-|}
+**Table - Light Types**
+
+| Light Type   | Constant |
+|--------------|----------|
+| Directional  | 0        |
+| Point        | 1        |
+| Spot         | 2        |
 
 ```pascal
 FUNCTION CreateLight(

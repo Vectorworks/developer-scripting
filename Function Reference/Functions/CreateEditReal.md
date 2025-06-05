@@ -5,25 +5,15 @@ Creates an editable text field control for REAL values.
 
 CreateEditReal is intended specifically for entry of numeric values; the control returns values in a numeric format, and supports calculations within the control field.
 
-{| class="wikitable_c"
-|+ Table - Field Types for EditReal Fields
-! Index !! Field Value
-|-
-| 1
-| REAL value
-|-
-| 2
-| Angular value
-|-
-| 3
-| Dimension
-|-
-| 4
-| X coordinate
-|-
-| 5
-| Y coordinate
-|}
+**Table - Field Types for EditReal Fields**
+
+| Index | Field Value   |
+|-------|--------------|
+| 1     | REAL value   |
+| 2     | Angular value|
+| 3     | Dimension    |
+| 4     | X coordinate |
+| 5     | Y coordinate |
 
 ```pascal
 PROCEDURE CreateEditReal(

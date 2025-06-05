@@ -3,19 +3,13 @@
 ## Description
 Procedure TextFlip flips newly created text vertically or horizontally. Parameter FlipType specifies the flip effect to be applied to the text.
 
-{| class="wikitable_c"
-|+ Table - Text Flip Style
-! Flip Style !! Constant
-|-
-| No reflection
-| style="text-align:center"| 0
-|-
-| Horizontal reflection thru origin
-| style="text-align:center"|  1
-|-
-| Vertical reflection thru origin
-| style="text-align:center"|  2
-|}
+**Table - Text Flip Style**
+
+| Flip Style                        | Constant |
+|-----------------------------------|----------|
+| No reflection                     | 0        |
+| Horizontal reflection thru origin | 1        |
+| Vertical reflection thru origin   | 2        |
 
 ```pascal
 PROCEDURE TextFlip(FlipType : INTEGER);

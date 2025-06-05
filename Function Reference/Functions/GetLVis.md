@@ -3,16 +3,13 @@
 ## Description
 Function GetLVis returns the visibility of the referenced layer.
 
-{| class="wikitable_c"
-|+ Table - Layer Visibility
-! Visibility !! Index Value
-|-
-| Normal ||  0
-|- 
-| Grayed ||  2
-|- 
-| Invisible || -1
-|}
+**Table - Layer Visibility**
+
+| Visibility | Index Value |
+|------------|-------------|
+| Normal     | 0           |
+| Grayed     | 2           |
+| Invisible  | -1          |
 
 ```pascal
 FUNCTION GetLVis(h : HANDLE): INTEGER;

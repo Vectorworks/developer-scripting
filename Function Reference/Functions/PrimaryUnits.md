@@ -4,60 +4,30 @@
 Procedure PrimaryUnits specifies the primary units settings for the active document. The primary units setting is used by the document for all measurement entry and display values in the document. 
 
 
-{| class="wikitable" style="float: right;"
-|+ Table - Units Formats
-! Units Format
-! Constant
-|-
-| Decimal
-| style="text-align:center"| 0
-|-
-| Fractional
-| style="text-align:center"| 1
-|-
-| Decimal Ft/Inches
-| style="text-align:center"| 2
-|-
-| Fractional Ft/Inches
-| style="text-align:center"| 3
-|}
-{| class="wikitable_c"
-|+ Table - Standard Unit Settings
-! Units Setting !! Constant
-|-
-| Custom
-| style="text-align:center"| 0
-|-
-| Feet/Inches
-| style="text-align:center"| 1
-|-
-| Inches
-| style="text-align:center"| 2
-|-
-| Feet
-| style="text-align:center"| 3
-|-
-| Yards
-| style="text-align:center"| 4
-|-
-| Miles
-| style="text-align:center"| 5
-|-
-| Microns
-| style="text-align:center"| 6
-|-
-| Millimeters
-| style="text-align:center"| 7
-|-
-| Centimeters
-| style="text-align:center"| 8
-|-
-| Meters
-| style="text-align:center"| 9
-|-
-| Kilometers
-| style="text-align:center"| 10
-|}
+**Table - Units Formats**
+
+| Units Format         | Constant |
+|--------------------- |----------|
+| Decimal              | 0        |
+| Fractional           | 1        |
+| Decimal Ft/Inches    | 2        |
+| Fractional Ft/Inches | 3        |
+
+**Table - Standard Unit Settings**
+
+| Units Setting | Constant |
+|---------------|----------|
+| Custom        | 0        |
+| Feet/Inches   | 1        |
+| Inches        | 2        |
+| Feet          | 3        |
+| Yards         | 4        |
+| Miles         | 5        |
+| Microns       | 6        |
+| Millimeters   | 7        |
+| Centimeters   | 8        |
+| Meters        | 9        |
+| Kilometers    | 10       |
 
 ```pascal
 PROCEDURE PrimaryUnits(
@@ -88,7 +58,7 @@ def vs.PrimaryUnits(style, prec, dimPrec, format, angPrec, showMark, dispFrac):
 
 ## Remarks
 [sd 8/18/98]
-See [[VS:GetPrimaryUnitInfo| GetPrimaryUnitInfo]] for details on changes in VW9 and again in VW12.
+See [GetPrimaryUnitInfo](GetPrimaryUnitInfo.md) for details on changes in VW9 and again in VW12.
 
 ## Examples
 #### VectorScript ####

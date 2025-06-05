@@ -3,28 +3,14 @@
 ## Description
 Procedure AddSymToWallEdge inserts a symbol in the referenced wall using the specified parameters to define placement. 
 
-{| class="wikitable_c"
-|+ Table - Symbol Insertion Alignment
-! Alignment !! Constant
-|-
-| Centerline
-| style="text-align:center"| 0
-|-
-| Left Edge
-| style="text-align:center"| 1
-|-
-| Right Edge
-| style="text-align:center"| 2
-|-
-| Core Component Center
-| style="text-align:center"| 3
-|-
-| Core Component Left Edge
-| style="text-align:center"| 4
-|-
-| Core Component Right Edge
-| style="text-align:center"| 5
-|}
+| Alignment                   | Constant |
+|-----------------------------|----------|
+| Centerline                  | 0        |
+| Left Edge                   | 1        |
+| Right Edge                  | 2        |
+| Core Component Center       | 3        |
+| Core Component Left Edge    | 4        |
+| Core Component Right Edge   | 5        |
 
 ```pascal
 PROCEDURE AddSymToWallEdge(
