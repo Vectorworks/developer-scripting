@@ -4,7 +4,7 @@
 Procedure ColorIndexToRGB converts the VectorWorks palette colors from the colors' palette position index to its red, green, and blue component values. 
 RGB values are in the range of 0~65535. (Black: (0, 0, 0), White: (65535, 65535, 65535))
 
-A color table listing with associated index values can be found in the [[VS:Function_Reference_Appendix#Color_Palette| Appendix]]
+A color table listing with associated index values can be found in the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#color-palette).
 
 ```pascal
 PROCEDURE ColorIndexToRGB(

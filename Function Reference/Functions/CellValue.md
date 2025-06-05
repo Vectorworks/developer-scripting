@@ -27,7 +27,7 @@ Returns the floating point representation of the current worksheet's cell specif
 [GetWSCellValue | GetWSCellValue](GetWSCellValue%20| GetWSCellValue.md), [GetWSSubrowCellValue | GetWSSubrowCellValue](GetWSSubrowCellValue%20| GetWSSubrowCellValue.md)
 
 ## Version
-CellValue is obsolete as of VectorWorks 9.0, see [[VS:GetWSCellValue | GetWSCellValue]], [[VS:GetWSSubrowCellValue | GetWSSubrowCellValue]]
+CellValue is obsolete as of VectorWorks 9.0, see [GetWSCellValue](GetWSCellValue.md), [GetWSSubrowCellValue](GetWSSubrowCellValue.md)
 
 Availability: from All Versions
 

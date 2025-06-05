@@ -13,7 +13,7 @@ def vs.ActLayer():
 ```
 
 ## Remarks
-For changing the active layer you can use [[VS:Layer]].
+For changing the active layer you can use [Layer](Layer.md).
 
 ## See Also
 VS Functions:

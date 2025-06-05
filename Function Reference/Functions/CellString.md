@@ -27,7 +27,7 @@ Returns the string representation of the current worksheet's cell specified by '
 [IsWSCellString | IsWSCellString](IsWSCellString%20| IsWSCellString.md),  [IsWSCellStringN | IsWSCellStringN](IsWSCellStringN%20| IsWSCellStringN.md), [IsWSSubrowCellString | IsWSSubrowCellString](IsWSSubrowCellString%20| IsWSSubrowCellString.md)
 
 ## Version
-CellString is obsolete as of VectorWorks 9.0, see [[VS:IsWSCellString | IsWSCellString]] (returns a string),  [[VS:IsWSCellStringN | IsWSCellStringN]] (returns a Dynarray of Char), [[VS:IsWSSubrowCellString | IsWSSubrowCellString]]
+CellString is obsolete as of VectorWorks 9.0, see [IsWSCellString](IsWSCellString.md) (returns a string),  [IsWSCellStringN](IsWSCellStringN.md) (returns a Dynarray of Char), [IsWSSubrowCellString](IsWSSubrowCellString.md)
 
 Availability: from All Versions
 

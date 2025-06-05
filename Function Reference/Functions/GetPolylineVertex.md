@@ -29,7 +29,7 @@ def vs.GetPolylineVertex(obj, vertexNum):
 |arcRadius|REAL|Radius of vertex corner (arc vertex only).|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.18) In VS Python this routine will always return a 2-items tuple, clipping it if "necessary". If you need a 3 items tuple for usage in vs.Vec2Ang, for example, you will need to restore the third item.
+(*_c_*, 2022.01.18) In VS Python this routine will always return a 2-items tuple, clipping it if "necessary". If you need a 3 items tuple for usage in vs.Vec2Ang, for example, you will need to restore the third item.
 <code lang="py">
 # test GetPolylineVertex
 p = (0, 0, 0)

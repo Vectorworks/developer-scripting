@@ -23,7 +23,7 @@ def vs.ReadXMLFile(XMLHandle, whichPath, filename):
 |filename|STRING|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.06.16): Requires a HSF path (with colon) on Mac.
+*_c_* (2016.06.16): Requires a HSF path (with colon) on Mac.
 
 ## Examples
 [XMLParse](examples/XMLParse.md)

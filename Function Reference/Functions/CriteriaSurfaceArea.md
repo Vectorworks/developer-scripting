@@ -1,7 +1,7 @@
 # CriteriaSurfaceArea
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>.. See [[VS:SurfaceAreaN|SurfaceAreaN]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>.. See [[VS:SurfaceAreaN|SurfaceAreaN]] for a replacement.
 
 Returns the surface area of the items matching the specified criteria. If more than one object matches the search criteria, the sum of all the surface areas of the matching objects will be returned. 
 
@@ -36,7 +36,7 @@ totalArea:=CriteriaSurfaceArea((C='Empty Space'));
 
 ## Version
 Availability: from VectorWorks12.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Criteria](../Categories/Criteria.md)

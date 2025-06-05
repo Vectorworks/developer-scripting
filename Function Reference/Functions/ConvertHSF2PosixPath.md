@@ -23,7 +23,7 @@ def vs.ConvertHSF2PosixPath(HSFPath):
 |outPosixPath|DYNARRAY[] of CHAR|Output parameter. Returns the converted path. If the function does not succeed the returned value is the passed 'HSFPath' value.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.06.16): This doesn't fail easily (I never could see a failure) but will return gibberish upon anything but a qualified HSF path. Interestingly, passing a qualified posix path (needing thus no conversion!) will also return gibberish:
+*_c_* (2016.06.16): This doesn't fail easily (I never could see a failure) but will return gibberish upon anything but a qualified HSF path. Interestingly, passing a qualified posix path (needing thus no conversion!) will also return gibberish:
 
 Example:
  path2convert := Macintosh HD:Users:user:Desktop:New File.txt

@@ -23,7 +23,7 @@ def vs.ForEachObject(callback, c):
 |c|CRITERIA|Search criteria for locating objects.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.05.14): Pay attention how you place your brakets while using criteria strings through variables. Extra brakets might not work and never return errors:
+*_c_* (2016.05.14): Pay attention how you place your brakets while using criteria strings through variables. Extra brakets might not work and never return errors:
 <code lang="pas">
 recordName := 'Part Info'; { needs single quotes because of the space }
 criteria = Concat('((R in [', '''', recordName, '''', ']))'); { wrap in single quotes }

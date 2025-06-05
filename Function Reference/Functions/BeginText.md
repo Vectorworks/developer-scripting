@@ -6,14 +6,14 @@ Text may be specified in single quotes, or variables may be used..
 
 To specify the insertion point of the new text object, use TextOrigin.
 
-<b>Note:</b> This function is not available in Python. Use [[VS:CreateText]] instead.
+<b>Note:</b> This function is not available in Python. Use [CreateText](CreateText.md) instead.
 
 ```pascal
 PROCEDURE BeginText;
 ```
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2015.12.19): If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
+(*_c_*, 2015.12.19): If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
 
 ## See Also
 VS Functions:

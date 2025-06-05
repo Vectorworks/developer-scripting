@@ -23,7 +23,7 @@ def vs.RelativeCoords(pt, begPt, endPt):
 |endPt|VECTOR|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.19) In Python the tuple returned is always bidimensional in the form (0.0, 0.0).
+(*_c_*, 2022.01.19) In Python the tuple returned is always bidimensional in the form (0.0, 0.0).
 Remember to add a third item (0.0, 0.0, 0.0) for usage in the vector Routines such as VS:Vec2Ang or they will return gibberish.
 
 See graphical representation below (click on the image to enlarge it):

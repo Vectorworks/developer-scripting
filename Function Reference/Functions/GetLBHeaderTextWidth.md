@@ -21,7 +21,7 @@ def vs.GetLBHeaderTextWidth(className, allowForSortIcon):
 |allowForSortIcon|BOOLEAN|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2021.01.19): From [[User:Tui| Tui]], this routine crashes VW 2021 on Window, not on Mac (tested VW 2021 SP2)
+*_c_* (2021.01.19): From [[User:Tui| Tui]], this routine crashes VW 2021 on Window, not on Mac (tested VW 2021 SP2)
 
 ## Version
 Availability: from Vectorworks 14.0

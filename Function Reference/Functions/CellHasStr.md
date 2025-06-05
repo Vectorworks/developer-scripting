@@ -26,7 +26,7 @@ def vs.CellHasStr(h, row, col):
 [IsWSCellString | IsWSCellString](IsWSCellString%20| IsWSCellString.md), [IsWSSubrowCellString | IsWSSubrowCellString](IsWSSubrowCellString%20| IsWSSubrowCellString.md)
 
 ## Version
-CellHasStr is obsolete as of VectorWorks 9.0, see [[VS:IsWSCellString | IsWSCellString]], [[VS:IsWSSubrowCellString | IsWSSubrowCellString]]
+CellHasStr is obsolete as of VectorWorks 9.0, see [IsWSCellString](IsWSCellString.md), [IsWSSubrowCellString](IsWSSubrowCellString.md)
 
 Availability: from All Versions
 

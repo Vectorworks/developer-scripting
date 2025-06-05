@@ -21,7 +21,7 @@ def vs.IsNewCustomObject(objectName):
 |objectName|STRING|Name of plugin object.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2008.04.05): IsNewCustomObject will never return TRUE on: objects created by[[VS:CreateCustomObjectPath]], objects duplicated by alt-click + drag, by Duplicate command, etc.
+*_c_* (2008.04.05): IsNewCustomObject will never return TRUE on: objects created by[[VS:CreateCustomObjectPath]], objects duplicated by alt-click + drag, by Duplicate command, etc.
 
 To detect a duplicated object you can use the name unicity rule of VW:
 * create a text field with default: '' <empty string>. Call it for example '__UUID' (the two preceeding underscores will make it invisible)

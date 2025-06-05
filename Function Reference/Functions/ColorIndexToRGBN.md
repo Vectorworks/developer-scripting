@@ -7,7 +7,7 @@ RGB values are in the range of 0~65535. (Black: (0, 0, 0), White: (65535, 65535,
 Parameter ignoreBlackBackground specifies whether the black background preference should be ignored.<br />
 If set to TRUE, black and white indexes will not be inverted in black background.<br />
 
-A color table listing with associated index values can be found in the [[VS:Function_Reference_Appendix#Color_Palette| Appendix]].
+A color table listing with associated index values can be found in the #Color_Palette| Appendix]].
 
 ```pascal
 PROCEDURE ColorIndexToRGBN(

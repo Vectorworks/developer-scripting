@@ -18,7 +18,7 @@ def vs.GetClLSN(className):
 |className|STRING|Name of class.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.02.29): Returns a name list index, while the older routine [[VS:GetClLS]] returned a dash style index. 
+*_c_* (2016.02.29): Returns a name list index, while the older routine [[VS:GetClLS]] returned a dash style index. 
 
 <code lang="vs">
 indx := GetClLSN('None');

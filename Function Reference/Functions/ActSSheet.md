@@ -13,7 +13,7 @@ def vs.ActSSheet():
 ```
 
 ## Remarks
-OBSOLETE for Version 9: see new [[VS:GetTopVisibleWS | GetTopVisibleWS]]. [VML 01/09/01]
+OBSOLETE for Version 9: see new [GetTopVisibleWS](GetTopVisibleWS.md).
 
 ## See Also
 VS Functions:

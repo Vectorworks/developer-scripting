@@ -40,7 +40,7 @@ def vs.GetRoofFaceAttrib(roofFace):
 |thickness|REAL|Thickness of roof.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.12.18: 
+*_c_*, 2015.12.18: 
 Hole style of openings:
 : 1 Vertical
 : 3 Splayed

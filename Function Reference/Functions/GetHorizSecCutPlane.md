@@ -15,7 +15,7 @@ def vs.GetHorizSecCutPlane(hObject):
 |hObject|HANDLE|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2021.01.31): Constants returned:
+*_c_* (2021.01.31): Constants returned:
 * 1 = View as Cut when Cut in Viewport
 * 3 = View as Uncut below when Cut in Viewport
 * 4 = View as Uncut above when Cut in Viewport

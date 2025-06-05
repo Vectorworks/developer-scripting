@@ -1,7 +1,7 @@
 # WallHeight
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See architectural category for replacement:
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See architectural category for replacement:
 :[[VS:DelObjStoryBound|DelObjStoryBound]]
 :[[VS:DelObjStoryBounds|DelObjStoryBounds]]
 :[[VS:GetObjBoundElevation|GetObjBoundElevation]]
@@ -36,7 +36,7 @@ def vs.WallHeight(wallHd):
 
 ## Version
 Availability: from MiniCAD6.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Objects - Walls](../Categories/Objects%20-%20Walls.md)

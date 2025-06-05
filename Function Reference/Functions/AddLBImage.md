@@ -1,7 +1,7 @@
 # AddLBImage
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:AddListBrowserImage|AddListBrowserImage]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md) DEPRECATED after Vectorworks2012</b>. See [AddListBrowserImage](AddListBrowserImage.md) for a replacement.
 
 Adds specified image resource to image list.
 
@@ -121,7 +121,7 @@ def DialogHandler(item, data):
 		int1 = vs.InsertLBColumn(dialogID, kLB, 0, 'col 1', 60)
 
 		#{ insert the second column into the List Browser }
-		int1 = vs.InsertLBColumn(dialogID, kLB, 1, 'col 2', 80)
+	 int1 = vs.InsertLBColumn(dialogID, kLB, 1, 'col 2', 80)
 
 		#{ set the control type of the columns, column1: multi state, column2: static }
 		bool = vs.SetLBControlType(dialogID, kLB, 0, 3)
@@ -180,7 +180,7 @@ VS Functions:
 
 ## Version
 Availability: from VectorWorks 11.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

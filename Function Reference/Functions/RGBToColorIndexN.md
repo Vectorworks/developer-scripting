@@ -3,7 +3,7 @@
 ## Description
 Procedure RGBToColorIndexN converts the Vectorworks palette colors from its' red, green, and blue component values to the Vectorworks color index. Parameters red, green, and blue return the color components of the swatch, and parameter color is the Vectorworks color index. RGB values are in the range of 0~65535. Parameter ignoreBlackBackground specifies whether the black background preference should be ignored. If set to TRUE, black and white indexes will not be inverted in black background.
 
-A color table listing with associated index values can be found in the [[VS:Function_Reference_Appendix#Color_Palette| Appendix]].
+A color table listing with associated index values can be found in the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#color-palette).
 
 ```pascal
 PROCEDURE RGBToColorIndexN(

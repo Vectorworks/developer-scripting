@@ -18,7 +18,7 @@ def vs.CreateVP(parentHandle):
 |parentHandle|HANDLE|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2015.02.25):  This invariably creates a VP with scale 1:1, view top-plan and all layers and classes set to invisible.
+(*_c_*, 2015.02.25):  This invariably creates a VP with scale 1:1, view top-plan and all layers and classes set to invisible.
 
 ## Version
 Availability: from VectorWorks 11.0

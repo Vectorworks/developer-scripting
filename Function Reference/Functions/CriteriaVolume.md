@@ -1,7 +1,7 @@
 # CriteriaVolume
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:VolumeN|VolumeN]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:VolumeN|VolumeN]] for a replacement.
 
 Returns the volume of the items matching the specified criteria. If more than one object matches the search criteria, the sum of all the volumes of the matching objects will be returned. 
 
@@ -36,7 +36,7 @@ totalVol = vs.CriteriaVolume(("C = 'Empty Space'"))
 
 ## Version
 Availability: from VectorWorks12.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Criteria](../Categories/Criteria.md)

@@ -44,7 +44,7 @@ def vs.ForEachObjectAtPoint(actionFunc, objOptions, travOptions, loc, pickRadius
 |pickRadius|REAL|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2011 Oct. 06): This function only finds objects within the same parent, so it won't work from inside PIOs for finding something which is on drawing, nor does it work for finding objects on other layers, unregarded their visibility options. 
+(*_c_*, 2011 Oct. 06): This function only finds objects within the same parent, so it won't work from inside PIOs for finding something which is on drawing, nor does it work for finding objects on other layers, unregarded their visibility options. 
 
 <b>NOTE</b> This function is very specific and have some problems:
 * doesn't go inside groups. The callback pointer is being set to NIL when going inside groups;

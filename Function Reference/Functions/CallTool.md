@@ -3,7 +3,7 @@
 ## Description
 Activates the specified VectorWorks tool for a single use. After the tool has been used VectorWorks will revert back to the previously active tool.
 
-Note: Please refer to the [[VS:Function_Reference_Appendix#settool| Appendix]] for specific tool ID values.
+Note: Please refer to the  [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#settool---calltool-selectors) for specific tool ID values.
 
 ```pascal
 PROCEDURE CallTool(toolID : INTEGER);

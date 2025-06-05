@@ -1,7 +1,7 @@
 # CallToolByIndex
 
 ## Description
-Similar to CallTool. Takes the internal ID of a tool ([[VS:Function_Reference_Appendix#settool| Appendix]] )
+Similar to CallTool. Takes the internal ID of a tool ([Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#settool---calltool-selectors))
 
 ```pascal
 FUNCTION CallToolByIndex(toolIndex : INTEGER): BOOLEAN;

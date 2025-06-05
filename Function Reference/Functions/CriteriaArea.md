@@ -1,7 +1,7 @@
 # CriteriaArea
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:AreaN|AreaN]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:AreaN|AreaN]] for a replacement.
 
 Returns the area of an object. If more than one object matches the search criteria, the function will return the sum of all the matching object areas.
 
@@ -32,7 +32,7 @@ totalA:=Area((C='Plywood')and(L='First'));
 
 ## Version
 Availability: from VectorWorks12.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Criteria](../Categories/Criteria.md)

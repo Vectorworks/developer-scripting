@@ -23,7 +23,7 @@ def vs.CrossProduct(v1, v2):
 |v2|VECTOR|Source vector 2.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.20) The vector returned is always 3-dimensional: Pascal: vector {x, y, z}, Python: tuple (0.0, 0.0, 0.0).
+(*_c_*, 2022.01.20) The vector returned is always 3-dimensional: Pascal: vector {x, y, z}, Python: tuple (0.0, 0.0, 0.0).
 Note: in Python the two vectors used as parameters MUST be 3-dimensional, or it will return gibberish for the x, y values. This doesn't matter in Pascal.
 
 <code lang="py">

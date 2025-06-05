@@ -1,7 +1,7 @@
 # TopBound
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:TopBoundN|TopBoundN]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:TopBoundN|TopBoundN]] for a replacement.
 
 Returns the y-coordinate of the bounding box (top left corner) of an object matching the search criteria. If more than one object matches the search criteria, the function will return the sum of the coordinates of all the matching objects.
 
@@ -31,7 +31,7 @@ TopBValue:=TopBound(N='MyRect');
 
 ## Version
 Availability: from All Versions
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Criteria](../Categories/Criteria.md)

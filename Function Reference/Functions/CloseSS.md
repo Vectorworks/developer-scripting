@@ -18,7 +18,7 @@ def vs.CloseSS(h):
 |h|HANDLE|Handle to worksheet.|
 
 ## Remarks
-OBSOLETE for Version 9: see new [[VS:ShowWS | ShowWS]]. [VML 01/09/01]
+OBSOLETE for Version 9: see new [ShowWS](ShowWS.md). [VML 01/09/01]
 
 ## Examples
 #### VectorScript ####

@@ -24,7 +24,7 @@ HAreaN(object);
 
 ## Version
 Availability: from Vectorworks 2012
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Object Info](../Categories/Object%20Info.md)

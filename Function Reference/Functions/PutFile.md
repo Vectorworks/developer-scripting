@@ -30,7 +30,7 @@ Remember that you can't use any of the following chars for filenaming:  / : * ? 
 
 On Windows, if you specify a fully qualified path in defaultStr, PutFile will default to the folder in that path, and to the file at the end of the path. On the Mac, PutFile always defaults to the folder containing the active drawing file, and defaultStr should be used just for the filename.
 
-[[User:CBM-c-|_c_]] (2007.08.05): PutFile fails if the file name "defaultStr" passed is longer than 31 chars (including eventual extension). The file creates but doesn't open for writing and has 0 kb. (tested only on Mac, valid for VW 12.5.+). This limit related to Mac Classic's Finder could be removed now.
+*_c_* (2007.08.05): PutFile fails if the file name "defaultStr" passed is longer than 31 chars (including eventual extension). The file creates but doesn't open for writing and has 0 kb. (tested only on Mac, valid for VW 12.5.+). This limit related to Mac Classic's Finder could be removed now.
 
 ## Examples
 #### VectorScript ####

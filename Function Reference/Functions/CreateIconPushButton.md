@@ -1,7 +1,7 @@
 # CreateIconPushButton
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:AddButtonMode|AddButtonMode]] or [[VS:CreateImagePushButton|CreateImagePushButton]] for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [AddButtonMode](AddButtonMode.md) or [CreateImagePushButton](CreateImagePushButton.md) for a replacement.
 
 Creates an icon push button with the specified icon ID and width in characters.
 
@@ -27,10 +27,10 @@ def vs.CreateIconPushButton(nDialogID, nComponentID, nIconID, nWidthInChars):
 |nWidthInChars|INTEGER|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2014.09.17): 
+(*_c_*, 2014.09.17): 
 The routine still works under VW 2014, but not in VW 2015.
 
-([[User:CBM-c-|_c_]], 2007.04.09): 
+(*_c_*, 2007.04.09): 
 This routine is not recognized under VW 12.5 Fundamentals (might be VW 12.5.1)
 
 ## Examples
@@ -71,7 +71,7 @@ Example()
 
 ## Version
 Availability: from VectorWorks 12.5
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Dialogs - Modern](../Categories/Dialogs%20-%20Modern.md)

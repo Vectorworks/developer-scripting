@@ -1,7 +1,7 @@
 # ZCenter
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:ZCenterN|ZCenterN]] for a replacement function.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:ZCenterN|ZCenterN]] for a replacement function.
 
 
 Returns the z-coordinate value of the center of an object matching the search criteria.
@@ -22,7 +22,7 @@ def vs.ZCenter(c):
 
 ## Version
 Availability: from Vectorworks14.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Criteria](../Categories/Criteria.md)

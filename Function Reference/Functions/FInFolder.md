@@ -19,7 +19,7 @@ def vs.FInFolder(sfHd):
 |sfHd|HANDLE|Handle to symbol definition or symbol folder.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2017.12.25): This since VW 2017 supports all resource folders, not only symbol folders.
+*_c_* (2017.12.25): This since VW 2017 supports all resource folders, not only symbol folders.
 
 ## Version
 Availability: from All Versions

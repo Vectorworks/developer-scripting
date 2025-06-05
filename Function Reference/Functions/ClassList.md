@@ -25,7 +25,7 @@ What is the internal sort order of the class list.  We should add to documentati
 
 Answer: There's no sorting criteria, the list shows the class in order of their creation. the first created as first, the last created as last.
 
-[[User:CBM-c-|_c_]] [2011.03.29]: If you wish the classes alpha-sorted, you can use [[VS:BuildResourceList| BuildResourceList]].
+*_c_* [2011.03.29]: If you wish the classes alpha-sorted, you can use [BuildResourceList](BuildResourceList.md).
 
 ## Examples
 #### VectorScript ####

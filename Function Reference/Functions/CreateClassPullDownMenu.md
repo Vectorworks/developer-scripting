@@ -23,7 +23,7 @@ def vs.CreateClassPullDownMenu(nDialogID, nComponentID, nWidthInChars):
 |nWidthInChars|INTEGER|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.02.22): Add the localized string "<Object Class>" below "New...". You must do this during the SetupDialogC event of your dialog driver:
+*_c_* (2016.02.22): Add the localized string "<Object Class>" below "New...". You must do this during the SetupDialogC event of your dialog driver:
 <code lang="vs">
 GetResourceString(objClassString, 2103, 148); { fetches the localized "<Object Class>" string }
 IF InsertPropClassOrLayerItem(dialogID, c_classPullDownMenu_Index, objClassString, '') THEN

@@ -26,7 +26,7 @@ def vs.CellHasNum(h, row, col):
 [IsWSCellNumber | IsWSCellNumber](IsWSCellNumber%20| IsWSCellNumber.md), [IsWSSubrowCellNumber | IsWSSubrowCellNumber](IsWSSubrowCellNumber%20| IsWSSubrowCellNumber.md)
 
 ## Version
-CellHasNum is obsolete as of VectorWorks 9.0, see [[VS:IsWSCellNumber | IsWSCellNumber]], [[VS:IsWSSubrowCellNumber | IsWSSubrowCellNumber]]
+CellHasNum is obsolete as of VectorWorks 9.0, see [IsWSCellNumber](IsWSCellNumber.md), [IsWSSubrowCellNumber](IsWSSubrowCellNumber.md)
 
 Availability: from All Versions
 

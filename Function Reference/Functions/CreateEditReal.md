@@ -48,7 +48,7 @@ There are 5 edit real types:
 *4 - CoordinateX, this is an exact x location on the drawing;
 *5 - CoordinateY, this is an exact y location on the drawing. There are separate x and y controls to account for changes the user may make to the origin. I think Z coordinates should use the offset mode, but I need to check with mark on this one.
 
-The default value parameter isn't worth much -- it plops the value into the edit box OK -- but it does not assign the value to the control. [[VS:GetEditReal]] will return 0 for the control, unless the user clicks in the control. Use SetEditReal in your SetupDialogC event instead of using a default value for this control.
+The default value parameter isn't worth much -- it plops the value into the edit box OK -- but it does not assign the value to the control. [GetEditReal](GetEditReal.md) will return 0 for the control, unless the user clicks in the control. Use SetEditReal in your SetupDialogC event instead of using a default value for this control.
 
 Accepts '3 1/4' and '3000000' but not '3,000,000'.
 

@@ -19,7 +19,7 @@ def vs.GetLS(h):
 |h|HANDLE|Handle to object.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] 2016.02.29: This is deprecated and returns always -1 as of VW 2016.
+*_c_* 2016.02.29: This is deprecated and returns always -1 as of VW 2016.
 
 ## Examples
 #### VectorScript ####

@@ -19,9 +19,9 @@ def vs.HArea(h):
 |h|HANDLE|Handle to object.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2011.01.27): HArea is affected by the application preference "2D Conversion Resolution" (PrefInt 55): will output faulty values on polylines with curved vertexes, if this preference is set to anything but "Very high" (512). It is advisable to set this preferences to 512 before using HArea and restore the user value at end of script. (tested VW 2010 and 2011).
+(*_c_*, 2011.01.27): HArea is affected by the application preference "2D Conversion Resolution" (PrefInt 55): will output faulty values on polylines with curved vertexes, if this preference is set to anything but "Very high" (512). It is advisable to set this preferences to 512 before using HArea and restore the user value at end of script. (tested VW 2010 and 2011).
 
-([[User:CBM-c-|_c_]], 2010.04.13): Replaced by [[VS:ObjArea| ObjArea]]. ''HArea'' still works, but will always use the current settings for length primary units, while ''ObjArea'' will use the settings for Area units, which might be different. See preference flags 176-179 in the SDK.
+(*_c_*, 2010.04.13): Replaced by [[VS:ObjArea| ObjArea]]. ''HArea'' still works, but will always use the current settings for length primary units, while ''ObjArea'' will use the settings for Area units, which might be different. See preference flags 176-179 in the SDK.
 
 ## Version
 HArea is obsolete as of VectorWorks 12.5

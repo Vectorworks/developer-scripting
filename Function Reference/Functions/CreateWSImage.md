@@ -21,7 +21,7 @@ def vs.CreateWSImage(worksheet, location):
 |location|REAL|X-Y coordinate location of image object.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.06.20: It is possible to have any number of worksheet images on drawing, each on a different location. But be warned: if you use this routine AND already have some images of the chosen worksheet on drawing, the routine will shift the last created image object, placing it at the chosen coordinates. 
+*_c_*, 2015.06.20: It is possible to have any number of worksheet images on drawing, each on a different location. But be warned: if you use this routine AND already have some images of the chosen worksheet on drawing, the routine will shift the last created image object, placing it at the chosen coordinates. 
 
 You must check for the presence of other worksheet images using [[VS:GetWSImage| GetWSImage]] before trying to create a new one then duplicate one of the found items, instead of creating an image.
 

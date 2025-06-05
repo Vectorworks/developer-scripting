@@ -23,7 +23,7 @@ def vs.DotProduct(v1, v2):
 |v2|VECTOR|Source vector 2.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.20) In Python the two vectors used as parameters MUST be 3-dimensional, or it will return gibberish. This doesn't matter in Pascal.
+(*_c_*, 2022.01.20) In Python the two vectors used as parameters MUST be 3-dimensional, or it will return gibberish. This doesn't matter in Pascal.
 
 <code lang="py">
 # EXAMPLE OF FAULTY USAGE

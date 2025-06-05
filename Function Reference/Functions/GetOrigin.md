@@ -21,7 +21,7 @@ def vs.GetOrigin():
 |y|REAL|Returns Y coordinate of origin.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.05.31: 
+*_c_*, 2015.05.31: 
 This routine behaves differently across years and usage method:
 * until VW 2009:
 ** used in Commands: returned the User origin shift in current units

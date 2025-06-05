@@ -18,7 +18,7 @@ def vs.IsPluginFormat(theFormat):
 |theFormat|HANDLE|Handle to the format node in question.|
 
 ## Remarks
-([[User:CBM-c-|_c_]]), 2014.09.22: VW 2014, 2015: This routine crashes VW instantly if the passed handle is NIL, be careful. 
+(*_c_*), 2014.09.22: VW 2014, 2015: This routine crashes VW instantly if the passed handle is NIL, be careful. 
 
 It is unreliable, for example it fails to recognize a Door format as plug-in format, but will succeed on the Window format. 
 * generic objects with attached format (normal format in the Resource Browser) will be mistakenly recognized as parametric (type 48), while their record definition (type 47) won't.

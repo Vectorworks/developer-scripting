@@ -1,7 +1,7 @@
 # ClipPolygon
 
 ## Description
-Same as [[VS:IntersectSurface]], but improves performance by first checking to see if hClipper is within the bounding box of hPolygon before calling IntersectSurface.
+Same as [IntersectSurface](IntersectSurface.md), but improves performance by first checking to see if hClipper is within the bounding box of hPolygon before calling IntersectSurface.
 
 ```pascal
 FUNCTION ClipPolygon(

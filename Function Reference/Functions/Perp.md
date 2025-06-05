@@ -18,7 +18,7 @@ def vs.Perp(Vec):
 |Vec|VECTOR|Source vector.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.19) In VS Python the tuple returned is always 3-dimensional, but the third value is always zero (see comment below for VS Pascal). So this is a 2D only routine.
+(*_c_*, 2022.01.19) In VS Python the tuple returned is always 3-dimensional, but the third value is always zero (see comment below for VS Pascal). So this is a 2D only routine.
 
 ([[User:CBM-c-| _c_]], 2011.01.25) The z-value of the vector returned by Perp is always zero. If your source vector has z<>0 the resulting vector might not be what you expect, because of the source vector's angle.
 

@@ -25,7 +25,7 @@ def vs.CreateNurbsCurve(first, byCtrlPts, degree):
 ## Remarks
 Creates a NURBS curve with a single fit or control point, if it succeeds, return nil if it fails.
 
-([[User:CBM-c-|_c_]], 2010.12.26) Large [http://www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/ introduction to NURBS] by C.-K. Shene (MTU), including great many images.
+(*_c_*, 2010.12.26) Large [http://www.cs.mtu.edu/~shene/COURSES/cs3621/NOTES/ introduction to NURBS] by C.-K. Shene (MTU), including great many images.
 
 ## Examples
 #### VectorScript ####

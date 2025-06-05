@@ -23,7 +23,7 @@ def vs.GetCompAltSecFill(obj, componentIndex):
 |alternateSectionFill|LONGINT|Returns the alternate section fill of the component.|
 
 ## Remarks
-[[User:CBM-c-|_c_]]: 2016.02.03:  The Alternate Section fill is used for Roof Style components whose "Section FIll Change Point" is NOT none, which only applies to Roof Styles. It nevertheless returns the current section fill index for Slab and Wall Styles. 
+*_c_*: 2016.02.03:  The Alternate Section fill is used for Roof Style components whose "Section FIll Change Point" is NOT none, which only applies to Roof Styles. It nevertheless returns the current section fill index for Slab and Wall Styles. 
 
 ; Warning: passing NIL will always return the Wall Preferences' component fill! Not the Roof's Preference component alternate fill!
 : Use the handle returned by the routine [[VS:GetRoofPreferences]] to parse the Roof's defaults. 

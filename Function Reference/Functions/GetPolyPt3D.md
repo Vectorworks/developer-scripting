@@ -29,7 +29,7 @@ Conrad Preen, 2014/10/12: Save you the trip to VectorLab, index is zero-based an
 
 Gerard Jonker, 2007/1/8:  Please have a look at my [http://www.vectorlab.info/index.php?title=Absolute_Origin comments on the VectorLab] regarding this function, concerning index and origin.
 
-[[User:CBM-c-|_c_]], 2010/09/12: Warning: From VW13 this function returns the z-value adding the layer Z. So, for example, by a layer z of 10, if you have a vertex whose z is 1, the routine will return 11.
+*_c_*, 2010/09/12: Warning: From VW13 this function returns the z-value adding the layer Z. So, for example, by a layer z of 10, if you have a vertex whose z is 1, the routine will return 11.
 
 ## Examples
 #### VectorScript ####

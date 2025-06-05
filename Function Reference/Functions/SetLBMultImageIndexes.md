@@ -1,7 +1,7 @@
 # SetLBMultImageIndexes
 
 ## Description
-<b>[[VS:Vectorworks 2012 Deprecated Functions|DEPRECATED after Vectorworks2012]]</b>. See [[VS:SetLBImageIndexes|SetLBImageIndexes]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:SetLBImageIndexes|SetLBImageIndexes]] for a replacement.
 
 Sets the index of the images within the list browser multi image display.
 
@@ -34,7 +34,7 @@ def vs.SetLBMultImageIndexes(dialogID, componentID, itemIndex, subItemIndex, ima
 
 ## Version
 Availability: from VectorWorks12.0
-Deprecated: [[VS:Vectorworks 2012 Deprecated Functions|Vectorworks 2012]]
+Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)
 
 ## Category
 * [Dialogs - Modern - Browser](../Categories/Dialogs%20-%20Modern%20-%20Browser.md)

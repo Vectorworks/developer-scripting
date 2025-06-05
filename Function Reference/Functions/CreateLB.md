@@ -25,7 +25,7 @@ def vs.CreateLB(dialogID, componentID, widthInCharacters, heightInCharacters):
 |heightInCharacters|INTEGER|the height of the control in characters|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.22) : Here the former Vectorlab article: [[User:CBM-c-/VS-List_Browsers_part_1| List Browsers]]
+(*_c_*, 2022.01.22) : Here the former Vectorlab article: [[User:CBM-c-/VS-List_Browsers_part_1| List Browsers]]
 
 ## Examples
 [ComplexDialogLayout4](examples/ComplexDialogLayout4.md)

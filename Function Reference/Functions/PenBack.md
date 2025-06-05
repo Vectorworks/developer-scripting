@@ -18,7 +18,7 @@ def vs.PenBack(color):
 |color|LONGINT|RGB color value to be set as active pen background.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] 2015.05.19: This Procedure will also accept a single INTEGER Color Palette Index value in lieu of three LONGINT RGB values for the COLOR parameter. The Color index can be obtained with [[VS:RGBToColorIndex]]. See remarks under [[VS:SetPenFore]] for more infos. On Vectorlab there is a list of all color routines accepting multiple variable type, see: [http://www.vectorlab.info/index.php?title=Index_pitfalls#Colors Color Index].
+*_c_* 2015.05.19: This Procedure will also accept a single INTEGER Color Palette Index value in lieu of three LONGINT RGB values for the COLOR parameter. The Color index can be obtained with [[VS:RGBToColorIndex]]. See remarks under [[VS:SetPenFore]] for more infos. On Vectorlab there is a list of all color routines accepting multiple variable type, see: [http://www.vectorlab.info/index.php?title=Index_pitfalls#Colors Color Index].
 
 ## Examples
 #### VectorScript ####

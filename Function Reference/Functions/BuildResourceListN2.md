@@ -25,7 +25,7 @@ def vs.BuildResourceListN2(type, fullPath, useDefaultContent):
 |useDefaultContent|BOOLEAN|determine if the list should contain default content|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2016.02.29:  It supports also posix paths on mac ("/"). It can't be used to retrive the resources in the active document. The useDefaultContent variable doesn't make sense to me: it doesn't seem to make any difference. 
+*_c_*, 2016.02.29:  It supports also posix paths on mac ("/"). It can't be used to retrive the resources in the active document. The useDefaultContent variable doesn't make sense to me: it doesn't seem to make any difference. 
 
 Here some usage examples:
 <code lang="vs">

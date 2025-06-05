@@ -21,7 +21,7 @@ def vs.Ang2Vec(angleR, Length):
 |Length|REAL|The length of the vector.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.20) The vector returned is always 3-dimensional whereby the last item is always 0: Pascal: {x, y, z}, Python: tuple (0.0, 0.0, 0.0)
+(*_c_*, 2022.01.20) The vector returned is always 3-dimensional whereby the last item is always 0: Pascal: {x, y, z}, Python: tuple (0.0, 0.0, 0.0)
 
 ## Examples
 #### VectorScript ####

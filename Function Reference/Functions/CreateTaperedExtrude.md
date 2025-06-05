@@ -23,7 +23,7 @@ def vs.CreateTaperedExtrude(profileH, angle, height):
 |height|REAL|Height of extrude.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], (2016.02.10):  This always fails creating a number of NURBS instead of a tapered extrude. From VW 2016 you can use [[VS:CreateTaperedExtrd2]].
+*_c_*, (2016.02.10):  This always fails creating a number of NURBS instead of a tapered extrude. From VW 2016 you can use [[VS:CreateTaperedExtrd2]].
 
 ## Version
 Availability: from VectorWorks 9.0

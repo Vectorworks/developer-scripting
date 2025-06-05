@@ -13,7 +13,7 @@ def vs.NumDashStyles():
 ```
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2014.04.08:  It returns exclusively the count of dash styles ignoring complex line types, if any. Use [[VS:BuildResourceList]]  instead if you need them.
+*_c_*, 2014.04.08:  It returns exclusively the count of dash styles ignoring complex line types, if any. Use [[VS:BuildResourceList]]  instead if you need them.
 
 ## Examples
 #### VectorScript ####

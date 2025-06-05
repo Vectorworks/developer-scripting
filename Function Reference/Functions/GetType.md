@@ -5,7 +5,7 @@ DON'T USE THIS ANYMORE. Switch over to [[VS:GetTypeN| GetTypeN]].
 
 Returns the type index of the referenced object.
 
-A complete listing of supported object types may be found in the [[VS:Function_Reference_Appendix#Object_Types| Appendix]].
+A complete listing of supported object types may be found in the [Script Appendix](../Appendix/pages/Appendix%20D%20-%20Vectorworks%20Object%20Types%20and%20Subtypes.md).
 
 ```pascal
 FUNCTION GetType(h : HANDLE): INTEGER;

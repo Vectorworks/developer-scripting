@@ -34,7 +34,7 @@ def vs.GetTexMapBoolN(obj, texPartID, texLayerID, selector):
 |selector|INTEGER|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2017.12.29) For the texPartID flags, check the [[VS:Function_Reference_Appendix#tex]]: ''Texture Part ID'' or more completely the SDK file RenderOptionsValues.h:
+*_c_* (2017.12.29) For the texPartID flags, check the SDK file RenderOptionsValues.h:
 : 3: overall for any kind of object
 : 4: top in extrudes/sweeps
 : 5: bottom in extrudes/sweeps

@@ -7,7 +7,7 @@ If the Display Default Content preference (#130) is on and folderIndex is not 0,
 
 If folderIndex is positive, the list will include all the resources of that type from the current document, as well as from the specified folder. If folderIndex is 0, only the resources in the current document will be in the list. If folderIndex is negative, only the resources in the specified folder will be in the list.
 
-A complete listing of supported object types may be found in the [[VS:Function_Reference_Appendix| Appendix]].
+A complete listing of supported object types may be found in the [Function_Reference_Appendix](Function_Reference_Appendix.md).
 
 ; Note that use of the negative values of these constants can be used to get the user-based folder path.  The positive values are for application-based paths, which should not be used for writing.
 
@@ -134,7 +134,7 @@ def vs.BuildResourceList2(type, folderIndex, subFolderName, useDefaultContent):
 |useDefaultContent|BOOLEAN|determine if the list should contain default content|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2016.02.29:  Here some usage examples:
+*_c_*, 2016.02.29:  Here some usage examples:
 <code lang="vs">
 
 resID := 127; { wall styles }

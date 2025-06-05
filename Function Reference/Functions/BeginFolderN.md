@@ -1,9 +1,9 @@
 # BeginFolderN
 
 ## Description
-Procedure BeginFolderN creates a new resource folder of the indicated type in a Vectorworks document. Any resource or folder of that type created after the current call to BeginFolderN will be nested inside the new folder. A call to [[VS:EndFolder| EndFolder]] will complete the creation of the folder, which is then generated in the Vectorworks document.
+Procedure BeginFolderN creates a new resource folder of the indicated type in a Vectorworks document. Any resource or folder of that type created after the current call to BeginFolderN will be nested inside the new folder. A call to [EndFolder](EndFolder.md) will complete the creation of the folder, which is then generated in the Vectorworks document.
 
-To name the new folder, precede BeginFolderN with a call to [[VS:NameObject| NameObject]].
+To name the new folder, precede BeginFolderN with a call to [NameObject](NameObject.md).
 
 ```pascal
 PROCEDURE BeginFolderN(type : INTEGER);

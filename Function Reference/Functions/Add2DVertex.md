@@ -23,7 +23,7 @@ def vs.Add2DVertex(p, vertexType, arcRadius):
 |arcRadius|REAL|The arc radius if the vertex type is 3 or 4.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2020.09.28): 
+*_c_* (2020.09.28): 
 Vertex types:
 : 0 = corner
 : 1 = bezier

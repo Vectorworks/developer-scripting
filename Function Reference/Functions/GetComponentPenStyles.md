@@ -25,7 +25,7 @@ def vs.GetComponentPenStyles(obj, componentIndex):
 |rightPenStyle|INTEGER|Returns the pen style of the component's right line.  Positive values for patterns, negative values for dash styles.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2016.02.04: This doesn't support Line Types: the values returned are faulty. Use [[VS:GetCompPenStylesN]]
+*_c_*, 2016.02.04: This doesn't support Line Types: the values returned are faulty. Use [[VS:GetCompPenStylesN]]
 
 ## See Also
 VS Functions:

@@ -25,7 +25,7 @@ def vs.OffsetHandle(h, offsetDistance, EdgeRestoration, FilletSharpEdges):
 |FilletSharpEdges|BOOLEAN|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2014.03.25): The routine was introduced undocumented by VW11 (2006). 
+(*_c_*, 2014.03.25): The routine was introduced undocumented by VW11 (2006). 
 Warning: 
 * The parameter ''offsetDistance'' takes mm, unregarded unit's settings. 
 * If you pass a polygon/polyline it outputs a group containing one or more polygon/polylines, not a group of lines.

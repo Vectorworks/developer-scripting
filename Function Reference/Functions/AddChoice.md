@@ -3,7 +3,7 @@
 ## Description
 Adds an item to the component's choices.
 
-The valid components are created by [[VS:CreatePullDownMenu| CreatePullDownMenu]], [[VS:CreatePullDownMenuGroupBox| CreatePullDownMenuGroupBox]], [[VS:CreateListBox| CreateListBox]], [[VS:CreateListBoxN| CreateListBoxN]].
+The valid components are created by [CreatePullDownMenu](CreatePullDownMenu.md), [CreatePullDownMenuGroupBox](CreatePullDownMenuGroupBox.md), [CreateListBox](CreateListBox.md), [CreateListBoxN](CreateListBoxN.md).
 
 ```pascal
 PROCEDURE AddChoice(
@@ -27,20 +27,20 @@ def vs.AddChoice(dialogID, componentID, choiceText, itemIndex):
 |itemIndex|INTEGER|The index after which the new item is to be added.|
 
 ## Remarks
-For components created by [[VS:CreateEnhancedPullDownMenu| CreateEnhancedPullDownMenu]], [[VS:InsertEnhancedPullDownMenuItem| InsertEnhancedPullDownMenuItem]] should be used.
+For components created by [CreateEnhancedPullDownMenu](CreateEnhancedPullDownMenu.md), [InsertEnhancedPullDownMenuItem](InsertEnhancedPullDownMenuItem.md) should be used.
 
 ## Examples
 [DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
 ## See Also
 For further information, please check out:
-[CreatePullDownMenu| CreatePullDownMenu](CreatePullDownMenu|%20CreatePullDownMenu.md)
+[CreatePullDownMenu](CreatePullDownMenu.md)
 
-[CreatePullDownMenuGroupBox| CreatePullDownMenuGroupBox](CreatePullDownMenuGroupBox|%20CreatePullDownMenuGroupBox.md)
+[CreatePullDownMenuGroupBox](CreatePullDownMenuGroupBox.md)
 
-[CreateListBox| CreateListBox](CreateListBox|%20CreateListBox.md)
+[CreateListBox](CreateListBox.md)
 
-[CreateListBoxN| CreateListBoxN](CreateListBoxN|%20CreateListBoxN.md)
+[CreateListBoxN](CreateListBoxN.md)
 
 ## Version
 Availability: from Vectorworks 2010

@@ -29,7 +29,7 @@ def vs.AddCavity(pair, leftOffDistance, rightOffDistance, pairFill):
 |pairFill|LONGINT|Fill index for filled cavities.|
 
 ## Remarks
-(NZH 5-9-05) OBSOLETE for Version 12: Use [[VS:InsertNewComponent]] instead.
+(NZH 5-9-05) OBSOLETE for Version 12: Use [InsertNewComponent](InsertNewComponent.md) instead.
 
 ## Examples
 #### VectorScript ####

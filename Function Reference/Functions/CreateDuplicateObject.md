@@ -21,13 +21,13 @@ def vs.CreateDuplicateObject(objectToDuplicate, containerHandle):
 |containerHandle|HANDLE|The container to the newly duplicated object|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2010.10.03): if you are using this call in VW 2011 for copying the poly out of the path group in a path PIO be aware that
+(*_c_*, 2010.10.03): if you are using this call in VW 2011 for copying the poly out of the path group in a path PIO be aware that
 * if the PIO instance is showing a 2D surface geometry as "layer" (not "screen") AND
 * if the PIO is event enabled and surface eligible (SetObjPropVS(kObjXIs2DSurfEligible, TRUE) AND
 * the user modifies the path using the Clip tool
-the poly will disappear from display or shift until further regen of the PIO. Until this bug is fixed you can either avoid using this routine (recycling a "PolyCopy" routine) or coerce a regen of the PIO instance using [[VS:ResetObject| ResetObject]](myPioHandle). This is peculiar of VW 2011 SP1.
+the poly will disappear from display or shift until further regen of the PIO. Until this bug is fixed you can either avoid using this routine (recycling a "PolyCopy" routine) or coerce a regen of the PIO instance using [ResetObject](ResetObject.md)(myPioHandle). This is peculiar of VW 2011 SP1.
 
-([[User:CBM-c-|_c_]], 2008.10.14): It is advisable to coerce the path of path-PIOs to an empty fill. The PIO path is only visible when edited with the 2D Reshape tool. If the path fill is not empty, on edit it will come to foreground and cover whatever else you draw with your PIO, which is most annoying.
+(*_c_*, 2008.10.14): It is advisable to coerce the path of path-PIOs to an empty fill. The PIO path is only visible when edited with the 2D Reshape tool. If the path fill is not empty, on edit it will come to foreground and cover whatever else you draw with your PIO, which is most annoying.
 
 <code lang="pas">
 pioPathH := GetCustomObjectPath(PioH);
@@ -40,7 +40,7 @@ This copy can have any fill you please }
 </code>
 
 
-([[User:CBM-c-|_c_]], 2009.06.02): This call can be used to duplicate resources, not only objects, but pay great attention to the target container. For example creating in ActLayer a duplicate of a symbol definition (whose parent container should be SymList, type 54), will indeed succeed and create a nameless symbol definition identical to the previous, even visible on drawing, but unselectable. And with parent ActLayer. This can only break your documents and you should avoid it. 
+(*_c_*, 2009.06.02): This call can be used to duplicate resources, not only objects, but pay great attention to the target container. For example creating in ActLayer a duplicate of a symbol definition (whose parent container should be SymList, type 54), will indeed succeed and create a nameless symbol definition identical to the previous, even visible on drawing, but unselectable. And with parent ActLayer. This can only break your documents and you should avoid it. 
 
 To duplicate a resource simply pass the parent of the resource as target container AND rename the resource with a valid unique name immediately.
 

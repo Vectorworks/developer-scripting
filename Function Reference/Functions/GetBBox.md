@@ -23,7 +23,7 @@ def vs.GetBBox(h):
 |p2|REAL|Bottom right coordinate of bounding box.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2017.02.24: GetBBox fails unpredictably on Roof faces when in top-plan: it returns a bounding box dependent on the axis widget and the page position of the face. Avoid the axis widget setting the view to Top, then the returned values will be correct. This is valid up to VW 2017 (bug reported).
+*_c_*, 2017.02.24: GetBBox fails unpredictably on Roof faces when in top-plan: it returns a bounding box dependent on the axis widget and the page position of the face. Avoid the axis widget setting the view to Top, then the returned values will be correct. This is valid up to VW 2017 (bug reported).
 
 ## Version
 Availability: from All Versions

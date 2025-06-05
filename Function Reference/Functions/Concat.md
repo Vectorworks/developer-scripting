@@ -18,7 +18,7 @@ def vs.Concat(txt):
 |txt|DYNARRAY[] of CHAR|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.05.23: You can use [Concat](Concat.md) to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, it outputs the number as seen from inside VS. See the table below for a list of routines formatting according to your system's settings.
+*_c_*, 2015.05.23: You can use [Concat](Concat.md) to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, it outputs the number as seen from inside VS. See the table below for a list of routines formatting according to your system's settings.
 
 **Decimal marker symbol usage**
 

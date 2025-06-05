@@ -27,7 +27,7 @@ def vs.GetTexSpaceKind(textureSpace):
 |textureSpace|HANDLE|Handle to texture space.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], (2018.12.29) Use [[VS:GetTexMapIntN]] instead. 
+*_c_*, (2018.12.29) Use [[VS:GetTexMapIntN]] instead. 
 
 
 Returns the kind of the texture mapping space; 0 = Plane space, 1 = Sphere, 2 = Cylinder, and 3 = Algorithmic (Perimeter or Roof)

@@ -27,7 +27,7 @@ def vs.GetRField(h, record, field):
 To fetch the default values, use GetObject(GetName(GetParametricRecord(..))) as handle.
 Object Type of GetObject return value is 47 (Record Definition) vs. 48 (Record) from GetParametricRecord.
 
-[[User:CBM-c-|_c_]], 2015.02.24:
+*_c_*, 2015.02.24:
 Please note that since the introduction of ifc data, the usual praxis of fetching plug-in records using 
  GetRecord(h, NumRecords(h))
 can bring you perhaps unexpectedly the ifc record. Use [[VS:GetParametricRecord]] instead, introduced from VW 2011.

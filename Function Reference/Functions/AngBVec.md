@@ -23,9 +23,9 @@ def vs.AngBVec(v1, v2):
 |v2|VECTOR|Second vector to be compared.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.20) In VS Python the vectors must be a 3-dimensional tuple in form (0.0, 0.0, 0.0), or the routine will return zero.
+(*_c_*, 2022.01.20) In VS Python the vectors must be a 3-dimensional tuple in form (0.0, 0.0, 0.0), or the routine will return zero.
 
-([[User:CBM-c-|_c_]], 2010.12.22) See vector diagrams on [[User:CBM-c-/VS-Math| VS Math]].
+(*_c_*, 2010.12.22) See vector diagrams on [[User:CBM-c-/VS-Math| VS Math]].
 
 
 This is precisely what Vec2Ang does, except that Vec2Ang uses the X axis as the other vector.

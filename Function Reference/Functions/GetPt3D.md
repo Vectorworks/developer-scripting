@@ -21,7 +21,7 @@ def vs.GetPt3D(useWPOnly, callback):
 |useWPOnly|BOOLEAN|TRUE if the returned point have to be on the active Working Plane. Snapping to arbitrary 3D geometry will produce vertical projection result on the WP; FALSE if the point can be arbitrary 3D point (produced, for example, by snapping to a 3D geometry)|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2011.01.09) the z-value of the returned 3D point is always zero if 
+(*_c_*, 2011.01.09) the z-value of the returned 3D point is always zero if 
 * the current view is Top-plan or Top (From Raymond Mullin). 
 * there is no pre-existing snapped geometry in 3D (by useWPOnly = FALSE)
 

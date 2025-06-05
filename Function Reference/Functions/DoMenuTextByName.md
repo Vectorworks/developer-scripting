@@ -29,9 +29,9 @@ def vs.DoMenuTextByName(subMenu, index):
 ## Remarks
 If a plug-in command (.vsm) uses global variables that are being used by various subroutines and also uses parameters, the command will not work if it is called using DoMenuTextByName. The global variables are not maintaining their values and are being reset to 0, NIL, False, etc. as if they were local variables in each subroutine. This is in the bug list.
 
-([[User:CBM-c-|_c_]], 2016.02.17): This is not operational when used from the regen event (kParametricRecalculate) or set up event (kObjOnInitXProperties) of plug-in objects. But can be used outside. To be noted that other view routines behave the same. the Plug-in regeneration environment is isolated.
+(*_c_*, 2016.02.17): This is not operational when used from the regen event (kParametricRecalculate) or set up event (kObjOnInitXProperties) of plug-in objects. But can be used outside. To be noted that other view routines behave the same. the Plug-in regeneration environment is isolated.
 
-([[User:CBM-c-|_c_]], 2007.03.18): DoMenuTextByName('Classes', 0); is not valid any longer (from VW 12.5+),
+(*_c_*, 2007.03.18): DoMenuTextByName('Classes', 0); is not valid any longer (from VW 12.5+),
 use DoMenuTextByName('Organization', 0); instead. This call will fail if the specified item is not present in the workspace.
 
 ## Examples

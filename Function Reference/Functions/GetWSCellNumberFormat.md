@@ -33,7 +33,7 @@ def vs.GetWSCellNumberFormat(worksheet, row, column):
 |trailerString|STRING|Trailer string (where applicable).|
 
 ## Remarks
-([[User:CBM-c-|_c_]] 2022.05.09):
+(*_c_* 2022.05.09):
 
 Number Format constants:
 

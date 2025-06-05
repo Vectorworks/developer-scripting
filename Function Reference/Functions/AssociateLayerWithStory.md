@@ -21,7 +21,7 @@ def vs.AssociateLayerWithStory(layer, story):
 |story|HANDLE|The Story to associate.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2018.10.23): This needs the layer to be linked to a level with [[VS:SetLayerLevelType]] or it will fail. In the example below you have the sequence to make that work.
+(*_c_*, 2018.10.23): This needs the layer to be linked to a level with [SetLayerLevelType](SetLayerLevelType.md) or it will fail. In the example below you have the sequence to make that work.
 
 <code lang="pas">
 { _c_ }

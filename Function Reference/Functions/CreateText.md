@@ -18,7 +18,7 @@ def vs.CreateText(theText):
 |theText|DYNARRAY[] of CHAR|Text string.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.12.19: If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
+*_c_*, 2015.12.19: If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
 <code lang="pas">
 PushAttrs;
 	NameClass(ClassList(1));
