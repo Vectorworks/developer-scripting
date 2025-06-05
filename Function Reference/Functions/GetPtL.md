@@ -21,7 +21,7 @@ def vs.GetPtL(callback):
 |p2|REAL|Returns coordinates of mouse click.|
 
 ## Remarks
-In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted line (two points as callback function parameters).
+In Python this function will _NOT_ block execution. It will execute a callback function with the resulted line (two points as callback function parameters).
 
 ## Examples
 #### VectorScript ####

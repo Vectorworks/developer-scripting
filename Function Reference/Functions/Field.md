@@ -1,7 +1,7 @@
 # Field
 
 ## Description
-<b>Obsolete. Use [ SetRField](SetRField.md) for new scripts.</b>
+_Obsolete. Use [ SetRField](SetRField.md) for new scripts._
 
 ```pascal
 PROCEDURE Field(

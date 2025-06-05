@@ -1,7 +1,7 @@
 # XCenter
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b><b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [XCenterN](XCenterN.md) for a replacement function.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)__[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [XCenterN](XCenterN.md) for a replacement function.
 
 
 Returns the x-coordinate of the center point of an object matching the serach criteria. If more than one object matches the search criteria, the function will return the sum of the coordinates of all the matching objects.

@@ -1,7 +1,7 @@
 # GetMarkerChoice
 
 ## Description
-<b>OBSOLETE procedure for VW2008</b>
+_OBSOLETE procedure for VW2008_
 Get current choice for Marker popup dialog control.
 
 ```pascal

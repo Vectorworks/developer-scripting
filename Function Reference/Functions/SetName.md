@@ -36,7 +36,7 @@ END;
 
 Also note that while GetName will return 'none' for an object which has not been given a name yet, GetObject('none') will either return a nil handle, or it will return the handle to the None class, if such a class exists in the document. If the None class is present, you cannot assign the name "none" to any new object, because of the name conflict. If the None class ''is not'' present, SetName(objectHandle, 'none') will not generate a warning, but you still won't be able to access the object using GetObject. In other words, an object name of "none" is sort of like an empty name, except that it can't be set if there's a None class in the document.
 
-One more thing: <b>never rename the None class!</b> Many things in VW (English edition) expect this to be present, and will access it literally. If you want to initialize object names, do it like this: SetName(objectHandle, ''). Then GetName(objectHandle) will return ''.
+One more thing: _never rename the None class!_ Many things in VW (English edition) expect this to be present, and will access it literally. If you want to initialize object names, do it like this: SetName(objectHandle, ''). Then GetName(objectHandle) will return ''.
 
 ## Examples
 #### VectorScript ####

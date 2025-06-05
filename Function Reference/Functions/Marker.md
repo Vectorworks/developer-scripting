@@ -1,7 +1,7 @@
 # Marker
 
 ## Description
-<b>OBSOLETE for VW2008: Use [SetDefaultBeginningMarker](SetDefaultBeginningMarker.md) and/or [SetDefaultEndMarker](SetDefaultEndMarker.md) instead.</b>
+_OBSOLETE for VW2008: Use [SetDefaultBeginningMarker](SetDefaultBeginningMarker.md) and/or [SetDefaultEndMarker](SetDefaultEndMarker.md) instead._
 Marker defines a marker (arrowhead) style for the document. This marker style becomes the active style for the document.
 
 A complete listing of marker styles can be found in the [Script Appendix](../Appendix/pages/Appendix%20I%20-%20Markers.md).

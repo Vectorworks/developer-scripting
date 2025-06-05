@@ -1,7 +1,7 @@
 # SetVSResourceFile
 
 ## Description
-<b>This function does not do anything in Vectorworks 2015 and later.</b> This is because the resource system changed. See more at: [[Vectorworks VWR Resources]]
+_This function does not do anything in Vectorworks 2015 and later._ This is because the resource system changed. See more at: [[Vectorworks VWR Resources]]
 
 As of Vectorworks 2015, resources are accessed directly by specifying full resource path (resource identifier) and using [GetVWRString](GetVWRString.md)
 

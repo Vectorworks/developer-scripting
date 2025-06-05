@@ -6,7 +6,7 @@ Text may be specified in single quotes, or variables may be used..
 
 To specify the insertion point of the new text object, use TextOrigin.
 
-<b>Note:</b> This function is not available in Python. Use [CreateText](CreateText.md) instead.
+_Note:_ This function is not available in Python. Use [CreateText](CreateText.md) instead.
 
 ```pascal
 PROCEDURE BeginText;

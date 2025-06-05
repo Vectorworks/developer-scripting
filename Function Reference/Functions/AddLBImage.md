@@ -1,7 +1,7 @@
 # AddLBImage
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md) DEPRECATED after Vectorworks2012</b>. See [AddListBrowserImage](AddListBrowserImage.md) for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md) DEPRECATED after Vectorworks2012_. See [AddListBrowserImage](AddListBrowserImage.md) for a replacement.
 
 Adds specified image resource to image list.
 

@@ -1,7 +1,7 @@
 # GetObjArrow
 
 ## Description
-<b>Use [ GetObjBeginningMarker](GetObjBeginningMarker.md) and/or [ GetObjEndMarker](GetObjEndMarker.md) instead.</b>
+_Use [ GetObjBeginningMarker](GetObjBeginningMarker.md) and/or [ GetObjEndMarker](GetObjEndMarker.md) instead._
 Procedure GetObjArrow returns the arrow style parameters for the indicated object.
 
 ```pascal

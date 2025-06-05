@@ -1,7 +1,7 @@
 # GetResourceString
 
 ## Description
-<b>Deprecated since Vectorworks 2015</b>: Use [GetVWRString](GetVWRString.md) instead.
+_Deprecated since Vectorworks 2015_: Use [GetVWRString](GetVWRString.md) instead.
 
 <br>
 Returns the specified resource string from a resource file.
@@ -32,7 +32,7 @@ VS Functions:
 
 ## Version
 Availability: from VectorWorks 9.0
-<b>Deprecated since Vectorworks 2015</b>: Use [GetVWRString](GetVWRString.md) instead.
+_Deprecated since Vectorworks 2015_: Use [GetVWRString](GetVWRString.md) instead.
 
 ## Category
 * [Strings](../Categories/Strings.md)

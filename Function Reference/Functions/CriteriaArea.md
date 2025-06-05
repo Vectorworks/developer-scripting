@@ -1,7 +1,7 @@
 # CriteriaArea
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [AreaN](AreaN.md) for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [AreaN](AreaN.md) for a replacement.
 
 Returns the area of an object. If more than one object matches the search criteria, the function will return the sum of all the matching object areas.
 

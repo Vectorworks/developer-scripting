@@ -1,7 +1,7 @@
 # GetLinkHeightToLayerDeltaZ
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See architectural category for replacement:
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See architectural category for replacement:
 :[DelObjStoryBound](DelObjStoryBound.md)
 :[DelObjStoryBounds](DelObjStoryBounds.md)
 :[GetObjBoundElevation](GetObjBoundElevation.md)

@@ -20,7 +20,7 @@ def vs.vsoAddParamWidget(widgetID, paramName, locName):
 |---|---|---|
 |widgetID|LONGINT|A unique number specified by the user to identify this widget.|
 |paramName|STRING|The universal name of the parameter.|
-|locName|STRING|Localized text that will appear next to the widget. <b>Note!</b> If you specify an empty string, the alternate name of the parameter will be used.|
+|locName|STRING|Localized text that will appear next to the widget. _Note!_ If you specify an empty string, the alternate name of the parameter will be used.|
 
 ## Examples
 ```python

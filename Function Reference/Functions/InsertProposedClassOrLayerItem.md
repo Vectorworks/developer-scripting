@@ -1,7 +1,7 @@
 # InsertProposedClassOrLayerItem
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>.  See [InsertPropClassOrLayerItem](InsertPropClassOrLayerItem.md) for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_.  See [InsertPropClassOrLayerItem](InsertPropClassOrLayerItem.md) for a replacement.
 
 Inserts a class or layer item in the proposed section of a Class, Design Layer, or Sheet Layer Layout Manager Pull Down.
 

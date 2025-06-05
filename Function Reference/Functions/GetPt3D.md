@@ -25,7 +25,7 @@ def vs.GetPt3D(useWPOnly, callback):
 * the current view is Top-plan or Top (From Raymond Mullin). 
 * there is no pre-existing snapped geometry in 3D (by useWPOnly = FALSE)
 
-In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted point (as callback function parameter).
+In Python this function will _NOT_ block execution. It will execute a callback function with the resulted point (as callback function parameter).
 
 ## Examples
 on sample is similar to the sample in [GetPt](GetPt.md).

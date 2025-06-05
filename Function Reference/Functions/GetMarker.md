@@ -1,7 +1,7 @@
 # GetMarker
 
 ## Description
-<b>OBSOLETE for VW2008: Use [ GetObjBeginningMarker](GetObjBeginningMarker.md) and/or [ GetObjEndMarker](GetObjEndMarker.md) instead.</b>
+_OBSOLETE for VW2008: Use [ GetObjBeginningMarker](GetObjBeginningMarker.md) and/or [ GetObjEndMarker](GetObjEndMarker.md) instead._
 Returns marker information on the referenced object.
 
 ```pascal

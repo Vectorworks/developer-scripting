@@ -1,7 +1,7 @@
 # SetLS
 
 ## Description
-<b>Use [SetLSN](SetLSN.md) instead.</b>
+_Use [SetLSN](SetLSN.md) instead._
 Procedure SetLS sets the linestyle of the referenced object.
 
 If the value is in the range 0 to 71, the specified fill pattern is applied as the linestyle; a value in the range of -1 to -8 will apply the specified linestyle.

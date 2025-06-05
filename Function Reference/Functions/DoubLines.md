@@ -1,7 +1,7 @@
 # DoubLines
 
 ## Description
-<b>DoubLines is obsolete as of VectorWorks12.5</b>
+_DoubLines is obsolete as of VectorWorks12.5_
 Procedure DoubLines sets the line spacing width for double-line tools.
 
 ```pascal

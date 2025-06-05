@@ -1,7 +1,7 @@
 # CriteriaVolume
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [VolumeN](VolumeN.md) for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [VolumeN](VolumeN.md) for a replacement.
 
 Returns the volume of the items matching the specified criteria. If more than one object matches the search criteria, the sum of all the volumes of the matching objects will be returned. 
 

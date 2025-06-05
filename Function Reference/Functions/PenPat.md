@@ -1,7 +1,7 @@
 # PenPat
 
 ## Description
-<b>Use [PenPatN](PenPatN.md) instead. </b>
+_Use [PenPatN](PenPatN.md) instead. _
 Procedure PenPat sets the active pen pattern (line style) for the document.
 
 If patNumber is in the range 0 to 71 the linestyle will be set to the corresponding fill pattern. A value in the range -1 to -8, will set the linestyle to one of the defined VectorWorks linestyles.

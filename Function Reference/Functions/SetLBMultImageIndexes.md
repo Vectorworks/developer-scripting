@@ -1,7 +1,7 @@
 # SetLBMultImageIndexes
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [SetLBImageIndexes](SetLBImageIndexes.md) for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [SetLBImageIndexes](SetLBImageIndexes.md) for a replacement.
 
 Sets the index of the images within the list browser multi image display.
 

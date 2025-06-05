@@ -1,7 +1,7 @@
 # GetLS
 
 ## Description
-<b>Use [GetLSN](GetLSN.md) instead.</b>
+_Use [GetLSN](GetLSN.md) instead._
 Function GetLS returns the line style of the referenced object.
 
 ```pascal

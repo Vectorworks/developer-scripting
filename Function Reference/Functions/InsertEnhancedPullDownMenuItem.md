@@ -1,7 +1,7 @@
 # InsertEnhancedPullDownMenuItem
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [InsertEnhanPullDownMenuItem](InsertEnhanPullDownMenuItem.md) for a replacement.
+_[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [InsertEnhanPullDownMenuItem](InsertEnhanPullDownMenuItem.md) for a replacement.
 
 Inserts the item into the specified Layout Manager created with [ CreateEnhancedPullDownMenu](CreateEnhancedPullDownMenu.md)
 

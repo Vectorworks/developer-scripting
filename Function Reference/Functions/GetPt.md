@@ -19,7 +19,7 @@ def vs.GetPt(callback):
 |callback|FUNCTION|Python only! A callback function that will be executed when the tool finishes. The callback receives the point|
 
 ## Remarks
-In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted point.
+In Python this function will _NOT_ block execution. It will execute a callback function with the resulted point.
 
 [MaKro 6/2018]: ... in a tool consider using VS:vstGetCurrPt2D ...
 

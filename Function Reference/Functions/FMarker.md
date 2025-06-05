@@ -1,7 +1,7 @@
 # FMarker
 
 ## Description
-<b>OBSOLETE for VW 2008: Use [ GetDefaultBeginningMarker](GetDefaultBeginningMarker.md) and/or [ GetDefaultEndMarker](GetDefaultEndMarker.md) instead.</b>
+_OBSOLETE for VW 2008: Use [ GetDefaultBeginningMarker](GetDefaultBeginningMarker.md) and/or [ GetDefaultEndMarker](GetDefaultEndMarker.md) instead._
 Procedure FMarker returns the active marker style parameters.
 
 A complete listing of marker styles can be found in the [Script Appendix](../Appendix/pages/Appendix%20I%20-%20Markers.md).

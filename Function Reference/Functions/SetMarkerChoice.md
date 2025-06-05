@@ -1,7 +1,7 @@
 # SetMarkerChoice
 
 ## Description
-<b>OBSOLETE procedure for VW2008</b>
+_OBSOLETE procedure for VW2008_
 
 Set current choice for Marker popup dialog control.  Index  is the standing position of marker; it is -1 for customized, otherwise 1-based index.
 Style is the chosen shape of arrow head . Style is zero-based. The angle parameter must be in range 0 to 90 degrees, depending on the style. Size is per Inches.  Style, angle and size may be changed by user in VW preferences.

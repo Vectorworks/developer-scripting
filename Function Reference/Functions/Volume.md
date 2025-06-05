@@ -1,7 +1,7 @@
 # Volume
 
 ## Description
-<b>See [VolumeN](VolumeN.md) for a replacement function.</b>
+_See [VolumeN](VolumeN.md) for a replacement function._
 Returns the volume of the items matching the specified criteria. If more than one object matches the search criteria, the sum of all the volumes of the matching objects will be returned.
 
 Volume will return only return volumes on objects which support the solids modelling functions.

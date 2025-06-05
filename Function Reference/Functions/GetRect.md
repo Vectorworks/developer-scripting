@@ -21,7 +21,7 @@ def vs.GetRect(callback):
 |p2|REAL|Returns coordinates of second user click.|
 
 ## Remarks
-In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted rectangle (two points as callback function parameters).
+In Python this function will _NOT_ block execution. It will execute a callback function with the resulted rectangle (two points as callback function parameters).
 
 ## Examples
 on sample is similar to the sample in [GetPt](GetPt.md).

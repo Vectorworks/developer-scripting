@@ -1,7 +1,7 @@
 # HArea
 
 ## Description
-<b>See [ObjArea](ObjArea.md) for a replacement function.</b>
+_See [ObjArea](ObjArea.md) for a replacement function._
 Function HArea returns the area of the referenced object.
 
 ```pascal
