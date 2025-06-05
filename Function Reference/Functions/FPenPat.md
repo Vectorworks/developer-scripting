@@ -1,7 +1,7 @@
 # FPenPat
 
 ## Description
-<b>Use [[VS:FPenPatN| FPenPatN]]  instead.</b>
+<b>Use [ FPenPatN](FPenPatN.md)  instead.</b>
 Function FPenPat returns the active pen pattern setting.
 
 ```pascal

@@ -21,7 +21,7 @@ def vs.vsoStateGetLayrChng(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outOldScale|REAL|Output parameter. Old layer scale.|
 |outNewScale|REAL|Output parameter. New layer scale.|
 |outScaleText|BOOLEAN|Output parameter. Does the new scale affect texts.|

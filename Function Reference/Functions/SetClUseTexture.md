@@ -23,7 +23,7 @@ def vs.SetClUseTexture(className, use):
 ## Remarks
 Sets whether the class texture attributes are used at object creation.
 
-Respective 'Get' is under Textures: [[VS:GetClUseTexture]] .
+Respective 'Get' is under Textures: [GetClUseTexture](GetClUseTexture.md) .
 
 ## Examples
 #### VectorScript ####

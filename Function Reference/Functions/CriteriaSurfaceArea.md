@@ -1,7 +1,7 @@
 # CriteriaSurfaceArea
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>.. See [[VS:SurfaceAreaN|SurfaceAreaN]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>.. See [SurfaceAreaN](SurfaceAreaN.md) for a replacement.
 
 Returns the surface area of the items matching the specified criteria. If more than one object matches the search criteria, the sum of all the surface areas of the matching objects will be returned. 
 

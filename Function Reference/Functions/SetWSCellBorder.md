@@ -42,7 +42,7 @@ def vs.SetWSCellBorder(worksheet, topRow, leftColumn, bottomRow, rightColumn, to
 [SetWSCellBorders| SetWSCellBorders](SetWSCellBorders|%20SetWSCellBorders.md)
 
 ## Version
-SetWSCellBorder is obsolete as of VectorWorks 12.0, see new [[VS:SetWSCellBorders| SetWSCellBorders]]
+SetWSCellBorder is obsolete as of VectorWorks 12.0, see new [ SetWSCellBorders](SetWSCellBorders.md)
 
 Availability: from VectorWorks 9.0
 

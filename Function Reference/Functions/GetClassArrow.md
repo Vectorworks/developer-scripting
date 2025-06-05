@@ -25,7 +25,7 @@ def vs.GetClassArrow(className):
 |angle|INTEGER|Returns arrow angle (in degrees).|
 
 ## Remarks
-OBSOLETE for VW2008: Use [[VS:GetClassBeginningMarker| GetClassBeginningMarker]] and/or [[VS:GetClassEndMarker| GetClassEndMarker]] instead.
+OBSOLETE for VW2008: Use [ GetClassBeginningMarker](GetClassBeginningMarker.md) and/or [ GetClassEndMarker](GetClassEndMarker.md) instead.
 Style indicates the index of the arrow style to be used.
 
 Size is in page-inches. Legal values are 0.0 to 2.0.

@@ -32,7 +32,7 @@ SetPref(21, False); {Stop VectorScript on Warnings}
 results in a total system freeze requiring a forced restart.
 This problem has been in VW9 (w/ Mac OS 9.2) and is still in VW 9.5b1.
 
-'Hidden' preference 12348 allows us to turn on and off dialog list box refresh.  This is a significant performance enhancement for any dialog that loads list boxes.  Just do [[VS:SetPref]](12348, False) load your list box(es) and then [[VS:SetPref]](12348, True) to re-enable list refreshing.  I believe this must be called after the dialog is on screen, so after the [[VS:GetDialog]] Call for classic dialogs and in the handler procedure for modern dialogs.
+'Hidden' preference 12348 allows us to turn on and off dialog list box refresh.  This is a significant performance enhancement for any dialog that loads list boxes.  Just do [SetPref](SetPref.md)(12348, False) load your list box(es) and then [SetPref](SetPref.md)(12348, True) to re-enable list refreshing.  I believe this must be called after the dialog is on screen, so after the [GetDialog](GetDialog.md) Call for classic dialogs and in the handler procedure for modern dialogs.
 
 ## Examples
 #### VectorScript ####

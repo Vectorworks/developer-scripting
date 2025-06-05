@@ -30,7 +30,7 @@ Functions:
 * [GetWSSubrowCellStrN | GetWSSubrowCellStrN](GetWSSubrowCellStrN%20| GetWSSubrowCellStrN.md)
 
 ## Version
-GetCellStr is obsolete as of VectorWorks 9.0, see new [[VS:GetWSCellString| GetWSCellString]] and [[VS:GetWSSubrowCellString| GetWSSubrowCellString]], [[VS:GetWSCellStringN| GetWSCellStringN]] and [[VS:GetWSSubrowCellStrN| GetWSSubrowCellStrN]]
+GetCellStr is obsolete as of VectorWorks 9.0, see new [ GetWSCellString](GetWSCellString.md) and [ GetWSSubrowCellString](GetWSSubrowCellString.md), [ GetWSCellStringN](GetWSCellStringN.md) and [ GetWSSubrowCellStrN](GetWSSubrowCellStrN.md)
 
 Availability: from All Versions
 

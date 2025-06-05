@@ -1,7 +1,7 @@
 # XMLSAXEndDoc
 
 ## Description
-Write XML using SAX, end of a document. [[VS:XMLSAXBeginDocFile| XMLSAXBeginDocFile]] begins a document.
+Write XML using SAX, end of a document. [ XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) begins a document.
 
 ```pascal
 FUNCTION XMLSAXEndDoc(XMLHandle : LONGINT): INTEGER;
@@ -18,7 +18,7 @@ def vs.XMLSAXEndDoc(XMLHandle):
 |XMLHandle|LONGINT|   |
 
 ## Examples
-[[VS:XMLSAXBeginDocFile]].
+[XMLSAXBeginDocFile](XMLSAXBeginDocFile.md).
 
 ## See Also
 [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md)

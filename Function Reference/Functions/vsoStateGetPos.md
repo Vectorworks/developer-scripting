@@ -22,7 +22,7 @@ def vs.vsoStateGetPos(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outX|REAL|Output parameter. Moved distance in mm.|
 |outY|REAL|Output parameter. Moved distance in mm.|
 |outZ|REAL|Output parameter. Moved distance in mm.|

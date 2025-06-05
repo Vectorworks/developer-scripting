@@ -23,7 +23,7 @@ def vs.SetTextureRef(obj, textureRef, partID):
 |partID|INTEGER|Part to be assigned texture reference.|
 
 ## Remarks
-See [[VS:GetTextureRef]].
+See [GetTextureRef](GetTextureRef.md).
 
 From Pat Stanford on the VectorScript list: To set an object's texture to be "by class", it looks like you need to use SetTextureRef with a TextureRef of -1 to set an object to use the class texture. For multitextureable objects like walls, you will either have to use SetTextureRef multiple times to set each part to use the class texture, or you will need to Use SetObjExpandTexture with a variable of false to set all of the parts to the same setting prior to using the SetTextureRef.
 

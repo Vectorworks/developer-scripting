@@ -2,16 +2,16 @@
 
 ## Description
 <b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See architectural category for replacement:
-:[[VS:DelObjStoryBound|DelObjStoryBound]]
-:[[VS:DelObjStoryBounds|DelObjStoryBounds]]
-:[[VS:GetObjBoundElevation|GetObjBoundElevation]]
-:[[VS:GetObjStoryBound|GetObjStoryBound]]
-:[[VS:GetObjStoryBoundsAt|GetObjStoryBoundsAt]]
-:[[VS:GetObjStoryBoundsCnt|GetObjStoryBoundsCnt]]
-:[[VS:GetStoryLayerInfo|GetStoryLayerInfo]]
-:[[VS:HasObjStoryBound|HasObjStoryBound]]
-:[[VS:HasObjStoryBounds|HasObjStoryBounds]]
-:[[VS:SetObjectStoryBound|SetObjectStoryBound]]
+:[DelObjStoryBound](DelObjStoryBound.md)
+:[DelObjStoryBounds](DelObjStoryBounds.md)
+:[GetObjBoundElevation](GetObjBoundElevation.md)
+:[GetObjStoryBound](GetObjStoryBound.md)
+:[GetObjStoryBoundsAt](GetObjStoryBoundsAt.md)
+:[GetObjStoryBoundsCnt](GetObjStoryBoundsCnt.md)
+:[GetStoryLayerInfo](GetStoryLayerInfo.md)
+:[HasObjStoryBound](HasObjStoryBound.md)
+:[HasObjStoryBounds](HasObjStoryBounds.md)
+:[SetObjectStoryBound](SetObjectStoryBound.md)
 
 Returns whether or not the wall's height is linked to the layer delta z.
 

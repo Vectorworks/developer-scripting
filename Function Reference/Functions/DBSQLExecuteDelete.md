@@ -18,7 +18,7 @@ def vs.DBSQLExecuteDelete():
 |resultSetInst|LONGINT|   |
 
 ## Examples
-[[VS:DBSQLExecuteDSN]]
+[DBSQLExecuteDSN](DBSQLExecuteDSN.md)
 
 ## See Also
 [DBSQLExecuteDSN](DBSQLExecuteDSN.md) | [DBSQLExecute](DBSQLExecute.md)

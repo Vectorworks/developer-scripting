@@ -23,7 +23,7 @@ def vs.NameObject(objName):
 NameObject('Part 5257');
 Rect(0,2,2,0);
 ```
-On Vectorworks 2009 the function have problems with groups ([[VS:BeginGroup]] and [[VS:EndGroup]]). In order to workaround the problem use this ([[VS:SetName]] call):
+On Vectorworks 2009 the function have problems with groups ([BeginGroup](BeginGroup.md) and [EndGroup](EndGroup.md)). In order to workaround the problem use this ([SetName](SetName.md) call):
 ```pascal
 BeginGroup;
 Rect(0,2,2,0);

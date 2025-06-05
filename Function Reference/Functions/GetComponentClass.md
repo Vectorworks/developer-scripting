@@ -23,7 +23,7 @@ def vs.GetComponentClass(obj, componentIndex):
 |componentClass|LONGINT|Returns the class of the component.|
 
 ## Remarks
-To get the name of the class, use [[VS:Index2Name]], not [[VS:ClassList]] to convert componentClass to a STRING.
+To get the name of the class, use [Index2Name](Index2Name.md), not [ClassList](ClassList.md) to convert componentClass to a STRING.
 
 ## See Also
 VS Functions:

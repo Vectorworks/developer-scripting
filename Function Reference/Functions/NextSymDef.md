@@ -18,7 +18,7 @@ def vs.NextSymDef(symHd):
 |symHd|HANDLE|Handle to symbol definition in library.|
 
 ## Remarks
-If the symHd passed as argument is a symbol folder, the list ignores the symbol definitions. See: [[VS:FSymDef]].
+If the symHd passed as argument is a symbol folder, the list ignores the symbol definitions. See: [FSymDef](FSymDef.md).
 
 ## Version
 Availability: from All Versions

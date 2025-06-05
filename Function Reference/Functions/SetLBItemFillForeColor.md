@@ -31,7 +31,7 @@ def vs.SetLBItemFillForeColor(dialogID, componentID, itemIndex, subItemIndex, re
 |blueIndex|INTEGER|the blue component (0 - 255)|
 
 ## Examples
-[[VS:SetLBItemPatternIndex]]
+[SetLBItemPatternIndex](SetLBItemPatternIndex.md)
 
 ## See Also
 [SetLBItemFillForeColor](SetLBItemFillForeColor.md) | [SetLBItemFillBackColor](SetLBItemFillBackColor.md)

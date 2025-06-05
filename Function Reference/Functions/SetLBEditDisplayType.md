@@ -25,7 +25,7 @@ def vs.SetLBEditDisplayType(dialogID, componentID, columnIndex, displayType):
 |displayType|INTEGER|the display type to be set (0: Text Only, 1: Icon Only, 3: Text and Icon)|
 
 ## Remarks
-How is this different from [[VS:SetLBItemDisplayType]]? Declaration and description are almost identical. Both operate on columns. What is meant with 'edit' and with 'display'?
+How is this different from [SetLBItemDisplayType](SetLBItemDisplayType.md)? Declaration and description are almost identical. Both operate on columns. What is meant with 'edit' and with 'display'?
 
 ## Version
 Availability: from VectorWorks11.0

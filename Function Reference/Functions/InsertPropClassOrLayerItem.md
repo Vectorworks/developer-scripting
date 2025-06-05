@@ -3,7 +3,7 @@
 ## Description
 Inserts a class or layer item in the proposed section of a Class, Design Layer, or Sheet Layer Layout Manager Pull Down.
 
-Replaces [[VS:InsertProposedClassOrLayerItem| InsertProposedClassOrLayerItem]]
+Replaces [ InsertProposedClassOrLayerItem](InsertProposedClassOrLayerItem.md)
 
 ```pascal
 FUNCTION InsertPropClassOrLayerItem(

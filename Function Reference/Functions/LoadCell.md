@@ -44,7 +44,7 @@ VS functions:
 * [SetWSCellFormulaN| SetWSCellFormulaN](SetWSCellFormulaN|%20SetWSCellFormulaN.md) (Dynarray of Char)
 
 ## Version
-LoadCell is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellFormula| SetWSCellFormula]] (string),  [[VS:SetWSCellFormulaN| SetWSCellFormulaN]] (Dynarray of Char).
+LoadCell is obsolete as of VectorWorks 9.0, see new [ SetWSCellFormula](SetWSCellFormula.md) (string),  [ SetWSCellFormulaN](SetWSCellFormulaN.md) (Dynarray of Char).
 
 Availability: from All Versions
 

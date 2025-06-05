@@ -26,7 +26,7 @@ def vs.GetCWidth(h, row, col):
 [GetWSColumnWidth | GetWSColumnWidth](GetWSColumnWidth%20| GetWSColumnWidth.md)
 
 ## Version
-GetCWidth is obsolete as of VectorWorks 9.0, see [[VS:GetWSColumnWidth | GetWSColumnWidth]]
+GetCWidth is obsolete as of VectorWorks 9.0, see [GetWSColumnWidth ](GetWSColumnWidth .md)
 
 Availability: from All Versions
 

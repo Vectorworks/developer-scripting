@@ -1,7 +1,7 @@
 # XMLSAXAddNodeAttr
 
 ## Description
-Write XML using SAX, adds a node attributes to a node begun with [[VS:XMLSAXBeginNode| XMLSAXBeginNode]].
+Write XML using SAX, adds a node attributes to a node begun with [ XMLSAXBeginNode](XMLSAXBeginNode.md).
 
 ```pascal
 FUNCTION XMLSAXAddNodeAttr(
@@ -23,7 +23,7 @@ def vs.XMLSAXAddNodeAttr(XMLHandle, nodeAttrName, nodeAttrValue):
 |nodeAttrValue|STRING|   |
 
 ## Examples
-[[VS:XMLSAXBeginDocFile]] or [[VS:XMLSAXBeginDocMemory]].
+[XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) or [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
 ## Version
 Availability: from Vectorworks 2011

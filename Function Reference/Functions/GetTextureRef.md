@@ -33,7 +33,7 @@ message(GetTextureRef(obj, partID, TRUE), ' * ', GetTextureRef(obj, partID, FALS
 { returns the id of the texture on the left call and -1 on the right call, if it is by class }
 </code>
 
-See [[VS:SetTextureRef]] remarks.
+See [SetTextureRef](SetTextureRef.md) remarks.
 
 ## Version
 Availability: from VectorWorks8.0

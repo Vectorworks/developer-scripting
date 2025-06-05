@@ -1,7 +1,7 @@
 # ZCenter
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:ZCenterN|ZCenterN]] for a replacement function.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [ZCenterN](ZCenterN.md) for a replacement function.
 
 
 Returns the z-coordinate value of the center of an object matching the search criteria.

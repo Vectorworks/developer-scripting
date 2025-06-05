@@ -13,7 +13,7 @@ def vs.GetFName():
 ```
 
 ## Remarks
-See also: [[VS:GetFPathName]], which returns the fully qualified path of the active document.
+See also: [GetFPathName](GetFPathName.md), which returns the fully qualified path of the active document.
 
 ## Version
 Availability: from All Versions

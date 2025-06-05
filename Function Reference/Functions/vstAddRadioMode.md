@@ -9,7 +9,7 @@ Adds a group of radio buttons to the mode bar. <ul>
 
 Rsrc IDs must be greater than 10000.
 
-(Seems like this has been replaced by [[VS:AddRadioMode]])
+(Seems like this has been replaced by [AddRadioMode](AddRadioMode.md))
 
 ```pascal
 PROCEDURE vstAddRadioMode(

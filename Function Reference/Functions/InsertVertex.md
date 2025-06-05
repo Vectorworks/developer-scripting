@@ -34,7 +34,7 @@ def vs.InsertVertex(objectHandle, x, y, beforeVertexNum, vertexType, arcRadius):
 * pass anything else (custom radius): you need to convert the radius to mm:
 ** arcRadius :=  arcRadius / upi * 25.4;
 
-It is not possible insert a vertex as type 4 (radius vertex). You must insert the vertex first, then use [[VS:SetPolylineVertex|SetPolylineVertex]] to change the type to 4.
+It is not possible insert a vertex as type 4 (radius vertex). You must insert the vertex first, then use [SetPolylineVertex](SetPolylineVertex.md) to change the type to 4.
 
 ## Version
 Availability: from VectorWorks 10.0

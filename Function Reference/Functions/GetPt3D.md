@@ -28,7 +28,7 @@ def vs.GetPt3D(useWPOnly, callback):
 In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted point (as callback function parameter).
 
 ## Examples
-on sample is similar to the sample in [[VS:GetPt]].
+on sample is similar to the sample in [GetPt](GetPt.md).
 
 ## See Also
 VS Functions:

@@ -33,7 +33,7 @@ All parameters are for output:
 :offsetX, Y, and Z, the center of the view
 
 (MaKro, 2016.10.18):<br />
-Use [[VS:GetProjection|GetProjection]](ActLayer) == 6 and xyzAngleR == 0 to check if the view is Top/Plan
+Use [GetProjection](GetProjection.md)(ActLayer) == 6 and xyzAngleR == 0 to check if the view is Top/Plan
 
 ## Examples
 #### VectorScript ####

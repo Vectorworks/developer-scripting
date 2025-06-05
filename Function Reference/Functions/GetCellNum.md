@@ -26,7 +26,7 @@ def vs.GetCellNum(h, row, col):
 [GetWSCellValue| GetWSCellValue](GetWSCellValue|%20GetWSCellValue.md), [GetWSSubrowCellValue| GetWSSubrowCellValue](GetWSSubrowCellValue|%20GetWSSubrowCellValue.md)
 
 ## Version
-GetCellNum is obsolete as of VectorWorks 9.0, see new [[VS:GetWSCellValue| GetWSCellValue]] and [[VS:GetWSSubrowCellValue| GetWSSubrowCellValue]]
+GetCellNum is obsolete as of VectorWorks 9.0, see new [ GetWSCellValue](GetWSCellValue.md) and [ GetWSSubrowCellValue](GetWSSubrowCellValue.md)
 
 Availability: from All Versions
 

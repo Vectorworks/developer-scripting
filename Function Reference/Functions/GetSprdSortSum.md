@@ -35,7 +35,7 @@ Gets sorting for a database row.  The sortCol1, sortCol2, and sortCol3 values sp
 [GetWSColumnOperators | GetWSColumnOperators](GetWSColumnOperators%20| GetWSColumnOperators.md)
 
 ## Version
-GetSprdSortSum is obsolete as of VectorWorks 9.0, see new [[VS:GetWSColumnOperators | GetWSColumnOperators]].
+GetSprdSortSum is obsolete as of VectorWorks 9.0, see new [GetWSColumnOperators ](GetWSColumnOperators .md).
 
 Availability: from VectorWorks 8.0
 

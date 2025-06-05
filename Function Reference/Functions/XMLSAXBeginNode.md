@@ -1,7 +1,7 @@
 # XMLSAXBeginNode
 
 ## Description
-Write XML using SAX, begin of a node. [[VS:XMLSAXEndNode| XMLSAXEndNode]] ends a node
+Write XML using SAX, begin of a node. [ XMLSAXEndNode](XMLSAXEndNode.md) ends a node
 
 ```pascal
 FUNCTION XMLSAXBeginNode(
@@ -21,7 +21,7 @@ def vs.XMLSAXBeginNode(XMLHandle, nodeName):
 |nodeName|STRING|   |
 
 ## Examples
-[[VS:XMLSAXBeginDocFile]] or [[VS:XMLSAXBeginDocMemory]].
+[XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) or [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
 ## Version
 Availability: from Vectorworks 2011

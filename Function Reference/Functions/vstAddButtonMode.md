@@ -3,7 +3,7 @@
 ## Description
 Used in the initialization of an event-enabled tool, add a mode bar button.
 
-(Seems like this has been replaced by [[VS:AddButtonMode]])
+(Seems like this has been replaced by [AddButtonMode](AddButtonMode.md))
 
 ```pascal
 PROCEDURE vstAddButtonMode(inIconID : DYNARRAY OF CHAR);

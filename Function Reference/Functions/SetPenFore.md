@@ -24,7 +24,7 @@ def vs.SetPenFore(h, color):
 ([[User:CBM-c-|_c_]] 2015.05.18): This Vectorscript routine responds to multiple types of notations:
 
 Vectorscript:
-* Singular [[VS:RGBToColorIndex| color index]]:
+* Singular [ color index](RGBToColorIndex.md):
 *: <code>colorIndex := RGBToColorIndex(65535, 0, 0);</code>
 *: <code>SetPenFore(FSActLayer, colorIndex);</code>
 * Three RGB longints:

@@ -18,7 +18,7 @@ def vs.LineTo(p):
 |p|REAL|Line endpoint.|
 
 ## Remarks
-(Joel Sciamma, 2006.08.14): After the line is drawn, the graphics pen is set to the end of the line ready to draw another object. Use [[VS:MoveTo| MoveTo]] to reset the graphics pen position.
+(Joel Sciamma, 2006.08.14): After the line is drawn, the graphics pen is set to the end of the line ready to draw another object. Use [ MoveTo](MoveTo.md) to reset the graphics pen position.
 
 ## Examples
 #### VectorScript ####

@@ -40,7 +40,7 @@ This function is also called before the dialog opens with a value of 2255 for it
 and when the dialog closes (value 2256). 
 Despite the fact that the arguments to the callback procedure are VARd (so that they should have global bindings), these variables really only have bindings within the callback procedure. Even if you declare them globally. Fact of the matter is that you cannot specify arguments when you call the callback procedure, so there's no way to establish the global bindings of the VARd arguments. Inside the callback procedure, the item argument is set to the index of the last control event. The data argument is set to values appropriate for the type of control that was activated.
 
-Do not use the [[VS:Wait]]() function in the event handler subroutine of Layout Manager dialogs. Doing so will freeze the script, though you can force quit it with a command-period.
+Do not use the [Wait](Wait.md)() function in the event handler subroutine of Layout Manager dialogs. Doing so will freeze the script, though you can force quit it with a command-period.
 
 If you want to prevent a dialog from terminating after someone has clicked on the OK button, set item equal to -1. Note that in Python there is no output parameters. So, this value should be returned.
 

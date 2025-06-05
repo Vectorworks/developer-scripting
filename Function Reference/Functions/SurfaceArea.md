@@ -1,7 +1,7 @@
 # SurfaceArea
 
 ## Description
-<b>See [[VS:SurfaceAreaN|SurfaceAreaN]] for a replacement function</b>
+<b>See [SurfaceAreaN](SurfaceAreaN.md) for a replacement function</b>
 Returns the surface area of the items matching the specified criteria. If more than one object matches the search criteria, the sum of all the surface areas of the matching objects will be returned.
 
 SurfaceArea will return only return areas on objects which support the solids modelling functions.

@@ -21,7 +21,7 @@ def vs.GetClUseTexture(className):
 Returns whether the class is set to use its texture attributes at object creation.
 
 
-Respective [[VS:SetClUseTexture]].
+Respective [SetClUseTexture](SetClUseTexture.md).
 
 ## Version
 Availability: from VectorWorks8.0

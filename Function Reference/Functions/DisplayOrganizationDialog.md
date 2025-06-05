@@ -26,7 +26,7 @@ def vs.DisplayOrganizationDialog(tabToSelect):
 |tabToSelect|INTEGER|The tab to be initially selected.|
 
 ## Remarks
-*_c_* (2016.06.20): This doesn't answer to [[VS:DidCancel| DidCancel]].
+*_c_* (2016.06.20): This doesn't answer to [ DidCancel](DidCancel.md).
 
 ## Version
 Availability: from VectorWorks 12.0

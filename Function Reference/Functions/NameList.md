@@ -28,15 +28,15 @@ Names in both NameList and LayerList are subject to the following rules:
 * names are case insensitive: "bla" = "BLA"
 * diacriticals are ignored and reduced to their carrying character below ASCII 128: "blä" = 'bla":
 
-Layer names don't belong to the NameList. You can have a class and a layer both named "xxx" and no name collision will arise. There is thus a fundamental difference in behavior between NameList and [[VS:GetObject| GetObject]]. Pay attention:
+Layer names don't belong to the NameList. You can have a class and a layer both named "xxx" and no name collision will arise. There is thus a fundamental difference in behavior between NameList and [ GetObject](GetObject.md). Pay attention:
 <code lang="pas">
 GetObject('xxx') { an obj called "xxx" is present and is not a layer > returns the obj }
 GetObject('xxx') { only a layer called "xxx" is present > returns the layer }
 GetObject('xxx') { both an obj and a layer called "xxx" are present > returns the obj }
 </code>
 
-NameList(index) would never return the layer. With [[VS:GetObject| GetObject]] you can fetch the layer, but you'll get preferably the item belonging to the NameList if both present, in this case the obj "xxx', but not the layer 'xxx'.
-If no item in the NameList carries the name searched with [[VS:GetObject| GetObject]], then the LayerList will be taken into account.
+NameList(index) would never return the layer. With [ GetObject](GetObject.md) you can fetch the layer, but you'll get preferably the item belonging to the NameList if both present, in this case the obj "xxx', but not the layer 'xxx'.
+If no item in the NameList carries the name searched with [ GetObject](GetObject.md), then the LayerList will be taken into account.
 
 ## Version
 Availability: from All Versions

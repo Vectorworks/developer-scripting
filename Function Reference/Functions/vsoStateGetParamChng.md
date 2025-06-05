@@ -21,7 +21,7 @@ def vs.vsoStateGetParamChng(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outWidgID|LONGINT|Output parameter. Widget ID of the changed parameter.|
 |outPrmIdx|INTEGER|Output parameter. Parameter index.|
 |outOldVal|STRING|Output parameter. String representation of the old value.|

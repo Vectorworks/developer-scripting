@@ -2,7 +2,7 @@
 
 ## Description
 Returns the fieldname from the plugin-definition by a widget id.
-The opposite of [[VS:vsoPrmName2WidgetID|vsoPrmName2WidgetID]]
+The opposite of [vsoPrmName2WidgetID](vsoPrmName2WidgetID.md)
 
 ```pascal
 FUNCTION vsoWidgetGetRecParam(widgetID : LONGINT): STRING;

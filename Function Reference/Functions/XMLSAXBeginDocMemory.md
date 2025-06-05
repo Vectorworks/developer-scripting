@@ -1,7 +1,7 @@
 # XMLSAXBeginDocMemory
 
 ## Description
-Write XML using SAX, begin of a document in memory. [[VS:XMLSAXEndDocMemory| XMLSAXEndDocMemory]] ends a document.
+Write XML using SAX, begin of a document in memory. [ XMLSAXEndDocMemory](XMLSAXEndDocMemory.md) ends a document.
 
 ```pascal
 FUNCTION XMLSAXBeginDocMemory(XMLHandle : LONGINT): INTEGER;

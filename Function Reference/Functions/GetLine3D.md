@@ -26,7 +26,7 @@ def vs.GetLine3D(useWP, callback):
 In Python this function will <b>NOT</b> block execution. It will execute a callback function with the resulted line (two points as callback function parameters).
 
 ## Examples
-on sample is similar to the sample in [[VS:GetPt]].
+on sample is similar to the sample in [GetPt](GetPt.md).
 
 ## See Also
 VS Functions:

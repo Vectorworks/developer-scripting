@@ -27,7 +27,7 @@ def vs.DisplaySwapPane(dialogID, swapControlID, groupNumber):
 ## Remarks
 Note that pane indeces are 1-based in VectorScript, and 0-based in the SDK.  Swap panes are numbered sequentially in the order that they were inserted into the control.
 
-Counter-intuitively, groupNumber is not the index of the groupbox that you want displayed, but rather, a 1-based index which is dynamically incremented every time you call CreateSwapPane. So if you want to display whatever you put into the first call of CreateSwapPane, then call [[VS:DisplaySwapPane]] with an index of 1.
+Counter-intuitively, groupNumber is not the index of the groupbox that you want displayed, but rather, a 1-based index which is dynamically incremented every time you call CreateSwapPane. So if you want to display whatever you put into the first call of CreateSwapPane, then call [DisplaySwapPane](DisplaySwapPane.md) with an index of 1.
 
 ## Examples
 [ComplexDialogLayout5](examples/ComplexDialogLayout5.md)

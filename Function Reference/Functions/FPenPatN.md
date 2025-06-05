@@ -13,7 +13,7 @@ def vs.FPenPatN():
 ```
 
 ## Remarks
-*_c_* (2016.02.29): [[VS:FPenPatN]] returns the name list index of the active dash style, while the older routine [[VS:FPenPat]] will return the dash style index. They are not the same.
+*_c_* (2016.02.29): [FPenPatN](FPenPatN.md) returns the name list index of the active dash style, while the older routine [FPenPat](FPenPat.md) will return the dash style index. They are not the same.
 
 <code lang='vs'>
 { compare the two different indexes: }

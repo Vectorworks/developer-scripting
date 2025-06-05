@@ -25,7 +25,7 @@ def vs.vsoStateGetExitGroup(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outGrpType|LONGINT|Output parameter. Return the group type.|
 
 ## Examples

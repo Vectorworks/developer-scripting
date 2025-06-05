@@ -1,7 +1,7 @@
 # GetType
 
 ## Description
-DON'T USE THIS ANYMORE. Switch over to [[VS:GetTypeN| GetTypeN]].
+DON'T USE THIS ANYMORE. Switch over to [ GetTypeN](GetTypeN.md).
 
 Returns the type index of the referenced object.
 

@@ -30,7 +30,7 @@ Object Type of GetObject return value is 47 (Record Definition) vs. 48 (Record) 
 *_c_*, 2015.02.24:
 Please note that since the introduction of ifc data, the usual praxis of fetching plug-in records using 
  GetRecord(h, NumRecords(h))
-can bring you perhaps unexpectedly the ifc record. Use [[VS:GetParametricRecord]] instead, introduced from VW 2011.
+can bring you perhaps unexpectedly the ifc record. Use [GetParametricRecord](GetParametricRecord.md) instead, introduced from VW 2011.
 
 (Others): 
 Returns a string interpretation of the field from the specified record

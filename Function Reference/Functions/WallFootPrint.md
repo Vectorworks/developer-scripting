@@ -20,7 +20,7 @@ def vs.WallFootPrint(wallHandle):
 ## Remarks
 [[User:CBM-c-|_c_]], (2008.01.07): This actually generates the footprint object in the parent container (active layer or whatever other parent). It doesn't only return a handle.
 
-[[User:CBM-c-|_c_]], (2011.01.30): You might need to regen it using [[VS:ResetObject| ResetObject]] in order to actually see/use it in the drawing. Mind that this object is always a screen plane polyline, unregarded the active plane, and that its vertexes are all hidden.
+[[User:CBM-c-|_c_]], (2011.01.30): You might need to regen it using [ ResetObject](ResetObject.md) in order to actually see/use it in the drawing. Mind that this object is always a screen plane polyline, unregarded the active plane, and that its vertexes are all hidden.
 
 ## Examples
 #### VectorScript ####

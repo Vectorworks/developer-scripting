@@ -3,7 +3,7 @@
 ## Description
 Function GetName returns the object name of the referenced object. The function returns "None" if the object has no object name.
 
-A handle to layer may not passed to this routine; to obtain a layer name, use [[VS:GetLName| GetLName]].
+A handle to layer may not passed to this routine; to obtain a layer name, use [ GetLName](GetLName.md).
 
 ```pascal
 FUNCTION GetName(h : HANDLE): STRING;

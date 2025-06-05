@@ -18,7 +18,7 @@ def vs.GetLSN(h):
 |h|HANDLE|Handle to object.|
 
 ## Remarks
-*_c_* (2016.02.29): Returns a name list index, while the older routine [[VS:GetLS]] returned a dash style index. 
+*_c_* (2016.02.29): Returns a name list index, while the older routine [GetLS](GetLS.md) returned a dash style index. 
 
 <code lang="vs">
 styleName := Index2Name(-GetLSN(FSActLayer));

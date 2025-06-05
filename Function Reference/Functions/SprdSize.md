@@ -26,7 +26,7 @@ def vs.SprdSize(h):
 [GetWSRowColumnCount| GetWSRowColumnCount](GetWSRowColumnCount|%20GetWSRowColumnCount.md)
 
 ## Version
-SprdSize is obsolete as of VectorWorks 9.0, see new [[VS:GetWSRowColumnCount| GetWSRowColumnCount]].
+SprdSize is obsolete as of VectorWorks 9.0, see new [ GetWSRowColumnCount](GetWSRowColumnCount.md).
 
 Availability: from All Versions
 

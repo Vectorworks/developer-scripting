@@ -1,7 +1,7 @@
 # CreateTaperedExtrd2
 
 ## Description
-Creates a new tapered extrude object in the document. This function returns a "general solid" object while the other function, [[VS:CreateTaperedExtrude]], produces a bunch of NURBS surfaces.
+Creates a new tapered extrude object in the document. This function returns a "general solid" object while the other function, [CreateTaperedExtrude](CreateTaperedExtrude.md), produces a bunch of NURBS surfaces.
 
 ```pascal
 FUNCTION CreateTaperedExtrd2(

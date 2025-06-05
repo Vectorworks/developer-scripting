@@ -19,7 +19,7 @@ def vs.vsoStateGet(hObj, state):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |state|INTEGER|State Identifier which you want to check.|
 
 ## Remarks

@@ -21,7 +21,7 @@ def vs.CreateNewXMLDocument(XMLHandle, rootElementName):
 |rootElementName|STRING|   |
 
 ## Examples
-[[VS:WriteXMLFile]] and [[VS:WriteXMLMemory]]
+[WriteXMLFile](WriteXMLFile.md) and [WriteXMLMemory](WriteXMLMemory.md)
 
 ## See Also
 [SetElementValue](SetElementValue.md) | [WriteXMLMemory](WriteXMLMemory.md) | [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md)

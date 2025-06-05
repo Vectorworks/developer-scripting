@@ -46,7 +46,7 @@ AlignmentMode = vs.GetCAlign(WSheetHd, 4, 5)
 [GetWSCellAlignment | GetWSCellAlignment](GetWSCellAlignment%20| GetWSCellAlignment.md)
 
 ## Version
-GetCAlign is obsolete as of VectorWorks 9.0, see new [[VS:GetWSCellAlignment| GetWSCellAlignment]]
+GetCAlign is obsolete as of VectorWorks 9.0, see new [ GetWSCellAlignment](GetWSCellAlignment.md)
 
 Availability: from All Versions
 

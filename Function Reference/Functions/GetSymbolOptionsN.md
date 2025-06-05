@@ -57,7 +57,7 @@ def vs.GetSymbolOptionsN(name):
 ## Remarks
 Gets the insertion options from the master symbol named &lt;name&gt;.
 
-See [[VS:SetSymbolOptionsN]].
+See [SetSymbolOptionsN](SetSymbolOptionsN.md).
 
 Here's a way to get the left/right/center information for a symbol instance in a wall:
 <code lang="pas">

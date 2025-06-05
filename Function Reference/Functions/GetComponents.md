@@ -22,11 +22,11 @@ def vs.GetComponents(object):
 The "components" returned here, node 69, is an object that contains the entire array of components.  This is not something VectorScript developers should need to know about or attempt to interact with directly.  That is why it is not documented or exposed.  I believe this call was added for a very specific purpose, and you shouldn't use it unless you know exactly what you are doing.
 
 To interact with wall components via VectorScript, you should use this call to get the number of components of the wall:
-[[VS:GetNumberOfComponents| GetNumberOfComponents]]
+[ GetNumberOfComponents](GetNumberOfComponents.md)
 
 Then you can reference each component by index, from 1 to however many components there are.  So you could them get and set a component thickness with these calls, for example:
-[[VS:GetComponentWidth| GetComponentWidth]]
-[[VS:SetComponentWidth| SetComponentWidth]]
+[ GetComponentWidth](GetComponentWidth.md)
+[ SetComponentWidth](SetComponentWidth.md)
 
 There are similar calls for getting and setting each piece of data for a component.
 

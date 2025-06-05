@@ -27,7 +27,7 @@ Creates a new worksheet object with the specified name and number of rows and co
 If the name is in use, a legal available name based on the specified name will be used instead.
 The number of rows must be &gt;= 1 and &lt;= 4094.
 The number of columns must be &gt;= 1 and &lt;= 256.
-NOTE: To create an on-drawing worksheet object, pass a worksheet handle to [[VS:CreateWSImage | CreateWSImage]].
+NOTE: To create an on-drawing worksheet object, pass a worksheet handle to [CreateWSImage ](CreateWSImage .md).
 
 ## Version
 Availability: from VectorWorks 9.0

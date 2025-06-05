@@ -37,7 +37,7 @@ LineTo(pt2.x, pt2.y);
 END;
 RUN(Example);
 ```
-Python sample is similar to the sample in [[VS:GetPt]].
+Python sample is similar to the sample in [GetPt](GetPt.md).
 #### Python ####
 ```python
 

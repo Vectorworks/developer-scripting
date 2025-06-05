@@ -25,7 +25,7 @@ def vs.DBSQLExecuteGet(resultSetInst, colIndex):
 |outValue|DYNARRAY[] of CHAR|   |
 
 ## Examples
-[[VS:DBSQLExecuteDSN]]
+[DBSQLExecuteDSN](DBSQLExecuteDSN.md)
 
 ## Version
 Availability: from Vectorworks 2011

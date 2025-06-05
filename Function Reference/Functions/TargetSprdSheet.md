@@ -24,7 +24,7 @@ This selects a spreadsheet for use by the script.  It does not open the spreadsh
 [SetTopVisibleWS| SetTopVisibleWS](SetTopVisibleWS|%20SetTopVisibleWS.md)
 
 ## Version
-TargetSprdSheet is obsolete as of VectorWorks 9.0, see new [[VS:SetTopVisibleWS| SetTopVisibleWS]].
+TargetSprdSheet is obsolete as of VectorWorks 9.0, see new [ SetTopVisibleWS](SetTopVisibleWS.md).
 
 Availability: from VectorWorks 8.0
 

@@ -23,7 +23,7 @@ def vs.GetLocPt(h):
 ## Remarks
 (*_c_*, 2022.01.19) In Python the tuple returned is always bidimensional in the form (0, 0).
 
-Remember to add a third item (0, 0, 0) for usage in the Vector Routines such as [[VS:Vec2Ang]] or they will return gibberish.
+Remember to add a third item (0, 0, 0) for usage in the Vector Routines such as [Vec2Ang](Vec2Ang.md) or they will return gibberish.
 
 ## Examples
 #### VectorScript ####

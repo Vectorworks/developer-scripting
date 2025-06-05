@@ -3,7 +3,7 @@
 ## Description
 Procedure EndText completes creation of a new text object.
 
-<b>Note:</b> This function is not available in Python. Use [[VS:CreateText]] instead.
+<b>Note:</b> This function is not available in Python. Use [CreateText](CreateText.md) instead.
 
 ```pascal
 PROCEDURE EndText;

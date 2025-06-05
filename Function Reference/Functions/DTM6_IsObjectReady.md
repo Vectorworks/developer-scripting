@@ -1,7 +1,7 @@
 # DTM6_IsObjectReady
 
 ## Description
-Checks if this passed DTM object is ready for use. That means that the object has associated internal data (triangulated data and so which doesn't allow the document to be big). If this returns false, you can call [[VS:ResetObject| ResetObject]] to prepare the object to be used.
+Checks if this passed DTM object is ready for use. That means that the object has associated internal data (triangulated data and so which doesn't allow the document to be big). If this returns false, you can call [ ResetObject](ResetObject.md) to prepare the object to be used.
 
 As of Vectorworks 2011 this function will always return true.
 

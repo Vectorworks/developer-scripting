@@ -62,7 +62,7 @@ From Vectorlab, 2006:
 * Short date always returns MM/DD/YY regardless of your system settings.
 * Day and month can return one or two digits, so use the "/" character to parse the values. The year is always 2 digits.
 * The hour can also return one or two digits but minutes and seconds always return two digits, so use the ":" character to parse the values.
-* the time is a 12-hour clock, not 24-hour. Use the [[VS:Pos| Pos()]] function to detect the AM or PM suffix.
+* the time is a 12-hour clock, not 24-hour. Use the [ Pos()](Pos.md) function to detect the AM or PM suffix.
 
 At least on Windows, some of the return values are dependent on the user's operating system date format settings.
 

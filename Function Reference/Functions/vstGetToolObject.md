@@ -1,7 +1,7 @@
 # vstGetToolObject
 
 ## Description
-The installed [[VS:vstSetPtBehavior]] might create an object with tool complete. [[VS:vstGetToolObject]] returns this object
+The installed [vstSetPtBehavior](vstSetPtBehavior.md) might create an object with tool complete. [vstGetToolObject](vstGetToolObject.md) returns this object
 
 ```pascal
 FUNCTION vstGetToolObject() :HANDLE;

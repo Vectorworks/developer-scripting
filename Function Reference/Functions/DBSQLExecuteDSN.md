@@ -1,7 +1,7 @@
 # DBSQLExecuteDSN
 
 ## Description
-Executes a SQL query the specified DSN. It is not necessary to be registered in the ODBC manager. '''Note!''' The resultSetInstance have to be deleted with call to [[VS:DBSQLExecuteDelete|DBSQLExecuteDelete]]
+Executes a SQL query the specified DSN. It is not necessary to be registered in the ODBC manager. '''Note!''' The resultSetInstance have to be deleted with call to [DBSQLExecuteDelete](DBSQLExecuteDelete.md)
 
 ```pascal
 FUNCTION DBSQLExecuteDSN(

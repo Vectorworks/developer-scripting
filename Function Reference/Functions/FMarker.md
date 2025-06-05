@@ -1,7 +1,7 @@
 # FMarker
 
 ## Description
-<b>OBSOLETE for VW 2008: Use [[VS:GetDefaultBeginningMarker| GetDefaultBeginningMarker]] and/or [[VS:GetDefaultEndMarker| GetDefaultEndMarker]] instead.</b>
+<b>OBSOLETE for VW 2008: Use [ GetDefaultBeginningMarker](GetDefaultBeginningMarker.md) and/or [ GetDefaultEndMarker](GetDefaultEndMarker.md) instead.</b>
 Procedure FMarker returns the active marker style parameters.
 
 A complete listing of marker styles can be found in the [Script Appendix](../Appendix/pages/Appendix%20I%20-%20Markers.md).
@@ -26,7 +26,7 @@ def vs.FMarker():
 |ang|INTEGER|Returns marker angle (in degrees).|
 
 ## Remarks
-OBSOLETE for VW 2008: Use [[VS:GetDefaultBeginningMarker| GetDefaultBeginningMarker]] and/or [[VS:GetDefaultEndMarker| GetDefaultEndMarker]] instead.
+OBSOLETE for VW 2008: Use [ GetDefaultBeginningMarker](GetDefaultBeginningMarker.md) and/or [ GetDefaultEndMarker](GetDefaultEndMarker.md) instead.
 Style is an 8 bit quantity interpreted as follows:
 
 * Bit 0 indicates the visibility of a marker at the start of the line.

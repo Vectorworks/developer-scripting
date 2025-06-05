@@ -1,7 +1,7 @@
 # SetDefaultTexMap
 
 ## Description
-Set the object to have default texture mapping info. Texture resource being used is set with [[VS:SetTextureRef]]. Similar to [[VS:SetDefaultTextureSpace]] except that routine has been superseded in version 2009.
+Set the object to have default texture mapping info. Texture resource being used is set with [SetTextureRef](SetTextureRef.md). Similar to [SetDefaultTextureSpace](SetDefaultTextureSpace.md) except that routine has been superseded in version 2009.
 
 ```pascal
 PROCEDURE SetDefaultTexMap(h : HANDLE);

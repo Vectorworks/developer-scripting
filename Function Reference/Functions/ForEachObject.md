@@ -47,7 +47,7 @@ END;
 
 The only difference is that ForEachObject is handling the looping for you, and providing a convenient mechanism for filtering the objects by criteria.
 
-Now, if you're deleting h inside that loop, the NextObj call is going to fail miserably. Doing anything that will alter the sequence of entities in the drawing list, inside a loop that walks the drawing list, will produce unexpected results. This includes creating objects, deleting objects, changing the layer of an object, or changing the stacking order ([[VS:HMoveForward]], [[VS:HMoveBackward]]). This will be true if you are walking the drawing list explicitly (using NextObj), or implicitly (using [[VS:ForEachObject]], [[VS:ForEachObjectInLayer]], or [[VS:ForEachObjectInList]]).
+Now, if you're deleting h inside that loop, the NextObj call is going to fail miserably. Doing anything that will alter the sequence of entities in the drawing list, inside a loop that walks the drawing list, will produce unexpected results. This includes creating objects, deleting objects, changing the layer of an object, or changing the stacking order ([HMoveForward](HMoveForward.md), [HMoveBackward](HMoveBackward.md)). This will be true if you are walking the drawing list explicitly (using NextObj), or implicitly (using [ForEachObject](ForEachObject.md), [ForEachObjectInLayer](ForEachObjectInLayer.md), or [ForEachObjectInList](ForEachObjectInList.md)).
 
 So use ForEachObject just to build a handle array. Then go back and iterate through the handles, and delete the ones you don't like.
 

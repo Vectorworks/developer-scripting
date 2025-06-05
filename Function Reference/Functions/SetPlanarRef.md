@@ -21,7 +21,7 @@ def vs.SetPlanarRef(h, refID):
 |refID|LONGINT|Reference ID of the plane.|
 
 ## Remarks
-The refID is the return value from [[VS:GetPlanarRef|GetPlanarRef()]]. As noted in [[VS:GetCurrentPlanarRefID|GetCurrentPlanarRefID()]].
+The refID is the return value from [GetPlanarRef()](GetPlanarRef.md). As noted in [GetCurrentPlanarRefID()](GetCurrentPlanarRefID.md).
 Screen Plane has a ref ID of 0.
 Layer Plane has a ref ID of -1.
 

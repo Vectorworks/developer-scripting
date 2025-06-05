@@ -1,7 +1,7 @@
 # GetFirstChild
 
 ## Description
-Gets the last child within the specified element path. Use [[VS:GetPreviousElement| GetPreviousElement]] to step through the rest of the elements at the same nesting level.
+Gets the last child within the specified element path. Use [ GetPreviousElement](GetPreviousElement.md) to step through the rest of the elements at the same nesting level.
 
 ```pascal
 FUNCTION GetFirstChild(

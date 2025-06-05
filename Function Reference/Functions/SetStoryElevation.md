@@ -21,7 +21,7 @@ def vs.SetStoryElevation(story, elevation):
 |elevation|REAL|The elevation to set the Story to.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2018.10.23): SetStoryElevations wants mm. It needs the story to have an associated design layer with [[VS:AssociateLayerWithStory]], or it will fail, while AssociateLayerWithStory needs the layer to be linked to a level with [[VS:SetLayerLevelType]] or it will fail. In the example below you have the sequence to make that work.
+([[User:CBM-c-|_c_]], 2018.10.23): SetStoryElevations wants mm. It needs the story to have an associated design layer with [AssociateLayerWithStory](AssociateLayerWithStory.md), or it will fail, while AssociateLayerWithStory needs the layer to be linked to a level with [SetLayerLevelType](SetLayerLevelType.md) or it will fail. In the example below you have the sequence to make that work.
 
 <code lang="pas">
 { _c_ }

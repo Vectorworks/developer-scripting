@@ -32,7 +32,7 @@ Warning:
 * Polyline holes are ignored
 * Undo fails on this action: you should consider carefully if using this routine
 
-; VW 2011, 2012, 2013: the handle ''h'' doesn't set. Use [[VS:LObject| LObject]] to fetch the handle. This is dangerous, if the routine fails, LObject will be something else: store LObject before running the script and afterwards, then compare. If they are different the routine succeeded.
+; VW 2011, 2012, 2013: the handle ''h'' doesn't set. Use [ LObject](LObject.md) to fetch the handle. This is dangerous, if the routine fails, LObject will be something else: store LObject before running the script and afterwards, then compare. If they are different the routine succeeded.
 ; VW 2014: the handle will set as expected, undo still fails
 
 ## Examples

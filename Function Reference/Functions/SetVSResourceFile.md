@@ -3,7 +3,7 @@
 ## Description
 <b>This function does not do anything in Vectorworks 2015 and later.</b> This is because the resource system changed. See more at: [[Vectorworks VWR Resources]]
 
-As of Vectorworks 2015, resources are accessed directly by specifying full resource path (resource identifier) and using [[VS:GetVWRString]]
+As of Vectorworks 2015, resources are accessed directly by specifying full resource path (resource identifier) and using [GetVWRString](GetVWRString.md)
 
 Pre Vectorworks 2015:
 Sets the active resource file for a script. The resource file is opened for the duration of script execution.

@@ -28,7 +28,7 @@ def vs.SetLBColumnOwnerDrawnType(dialogID, componentID, itemIndex, subItemIndex,
 
 ## Remarks
 ([[User:CBM-c-|_c_]], 2015.12.19): 
-Pattern and pattern rects are supported starting with VW 15 (2010). Use [[VS:SetLBItemPatternIndex]] to choose the Pattern.
+Pattern and pattern rects are supported starting with VW 15 (2010). Use [SetLBItemPatternIndex](SetLBItemPatternIndex.md) to choose the Pattern.
 
 ([[User:CBM-c-|_c_]], 2007.05.16): 
 Pattern and pattern rect are not quite supported under VW 12.5 and 12.5.1. Setting a LB cell to this type will only load the artifact of a pattern. The image loaded is by default random and stretches on Mac (not on PC). A pattern shouldn't stretch according to the width of the LB cell, should be bound to the screen resolution.

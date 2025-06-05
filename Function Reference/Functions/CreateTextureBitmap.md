@@ -13,7 +13,7 @@ def vs.CreateTextureBitmap():
 ```
 
 ## Remarks
-Creates a new default texture bitmap, with no paint node attached.  Texture bitmap's paint node should be attached before this texture bitmap is used by MiniCAD ([[VS:SetTexBitPaintNode]]).
+Creates a new default texture bitmap, with no paint node attached.  Texture bitmap's paint node should be attached before this texture bitmap is used by MiniCAD ([SetTexBitPaintNode](SetTexBitPaintNode.md)).
 
 ## See Also
 VS Functions:

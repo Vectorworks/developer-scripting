@@ -39,7 +39,7 @@ Sets sorting and summation for a database row.  The sortCol1, sortCol2, and sort
 [SetWSColumnOperators| SetWSColumnOperators](SetWSColumnOperators|%20SetWSColumnOperators.md)
 
 ## Version
-SetSprdSortSumColumns is obsolete as of VectorWorks 9.0, see new [[VS:SetWSColumnOperators| SetWSColumnOperators]]
+SetSprdSortSumColumns is obsolete as of VectorWorks 9.0, see new [ SetWSColumnOperators](SetWSColumnOperators.md)
 
 Availability: from VectorWorks 8.5
 

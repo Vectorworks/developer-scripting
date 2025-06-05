@@ -7,9 +7,9 @@ SetWSCellFormulaN allows a formula to be inserted into a rectangular range of ce
 
 SetWSCellFormulaN triggers a worksheet recalculation if the AutoRecalc flag is set.
 
-It is best to turn off that flag before using SetWSCellFormulaN repeatedly or in a loop and restore the flag after all operations are done (see [[VS:GetWSAutoRecalcState| GetWSAutoRecalcState]] and [[VS:SetWSAutoRecalcState| SetWSAutoRecalcState]]).
+It is best to turn off that flag before using SetWSCellFormulaN repeatedly or in a loop and restore the flag after all operations are done (see [ GetWSAutoRecalcState](GetWSAutoRecalcState.md) and [ SetWSAutoRecalcState](SetWSAutoRecalcState.md)).
 
-At the end, the worksheet should be recalculated by calling [[VS:RecalculateWS| RecalculateWS]].
+At the end, the worksheet should be recalculated by calling [ RecalculateWS](RecalculateWS.md).
 
 ```pascal
 PROCEDURE SetWSCellFormulaN(

@@ -10,7 +10,7 @@ The URL (Uniform Resource Locator) is a pointer to a resource on the World Wide 
 
 There are some platform differences to be aware of.  Windows will accept either  or / as the path separators.  MacOS X requires that <code>file://</code> URLs begin with <code>/Volumes/</code> before the drive name.  Also, currently the MacOS X implementation of OpenURL does not accept spaces in the URL.  Spaces should be replaced with the escape code <code>%20</code> before calling this function.
 
-Note: The function [[VS:GetFolderPath]] returns a string with separators specific for the platform it is running on (/ on Mac and  on Windows).  If your script calls this function to assemble a local <code>file://</code> URL then you will have to replace the : separators with / characters.
+Note: The function [GetFolderPath](GetFolderPath.md) returns a string with separators specific for the platform it is running on (/ on Mac and  on Windows).  If your script calls this function to assemble a local <code>file://</code> URL then you will have to replace the : separators with / characters.
 
 ```pascal
 FUNCTION OpenURL(URLname : DYNARRAY[] of CHAR): BOOLEAN;

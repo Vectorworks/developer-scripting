@@ -20,7 +20,7 @@ def vs.vsoStateGetRot(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outDiffAng|REAL|Output parameter. Difference between the new and the old angles. Negative if old angle was bigger value.|
 |outIs3D|BOOLEAN|Output parameter. Was a 3D operation.|
 

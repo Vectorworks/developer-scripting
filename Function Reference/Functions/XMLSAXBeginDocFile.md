@@ -1,7 +1,7 @@
 # XMLSAXBeginDocFile
 
 ## Description
-Write XML using SAX, begin of a document file. [[VS:XMLSAXEndDoc| MLSAXEndDoc]] ends a document.
+Write XML using SAX, begin of a document file. [ MLSAXEndDoc](XMLSAXEndDoc.md) ends a document.
 
 ```pascal
 FUNCTION XMLSAXBeginDocFile(

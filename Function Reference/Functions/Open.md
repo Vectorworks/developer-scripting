@@ -35,25 +35,25 @@ def vs.Open(fileName):
 Absolute paths versus relative paths:
 
 Accepts platform specific absolute paths, or windows delimited relative paths:
-*[[VS:Append]]
-*[[VS:Close]]
-*[[VS:EOF]]
-*[[VS:Open]]
-*[[VS:Rewrite]]
+*[Append](Append.md)
+*[Close](Close.md)
+*[EOF](EOF.md)
+*[Open](Open.md)
+*[Rewrite](Rewrite.md)
 
 Accepts platform specific absolute paths only:
-*[[VS:CreateFolder]]
-*[[VS:GetFilesInFolder]]
-*[[VS:GetFolder]]
+*[CreateFolder](CreateFolder.md)
+*[GetFilesInFolder](GetFilesInFolder.md)
+*[GetFolder](GetFolder.md)
 
 Returns platform specific absolute paths (user interactive):
-*[[VS:GetFile]]
-*[[VS:GetFileN]]
-*[[VS:PutFile]]
+*[GetFile](GetFile.md)
+*[GetFileN](GetFileN.md)
+*[PutFile](PutFile.md)
 
 Returns platform specific absolute paths (not user interactive):
-*[[VS:GetFolderPath]]
-*[[VS:GetFPathName]]
+*[GetFolderPath](GetFolderPath.md)
+*[GetFPathName](GetFPathName.md)
 
 ## Examples
 #### VectorScript ####

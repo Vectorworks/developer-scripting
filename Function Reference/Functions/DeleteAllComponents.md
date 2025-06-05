@@ -18,7 +18,7 @@ def vs.DeleteAllComponents(obj):
 |obj|HANDLE|The object. Can be a wall, round wall, Wall Style, or the Wall Preferences.|
 
 ## Remarks
-*_c_*: 2016.02.03:  As of VW 2016 it doesn't work on other slab types such as Slab styles, Roof Styles. Use [[VS:DeleteComponent]] looping by index.
+*_c_*: 2016.02.03:  As of VW 2016 it doesn't work on other slab types such as Slab styles, Roof Styles. Use [DeleteComponent](DeleteComponent.md) looping by index.
 
 ## Version
 Availability: from VectorWorks 12.5

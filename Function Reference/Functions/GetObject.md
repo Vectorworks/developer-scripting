@@ -18,7 +18,7 @@ def vs.GetObject(name):
 |name|STRING|Object name.|
 
 ## Remarks
-([[User:CBM-c-_| _c_]] 2008.03.26): Quoting Charles two years ago (comment below): "....in case the behavior of GetObject is ever changed to return only results from the main name list...". Today it is the opposite: GetObject will first parse the [[VS:NameList| NameList]] and only if it doesn't find anything there, it will parse the LayerList. 
+([[User:CBM-c-_| _c_]] 2008.03.26): Quoting Charles two years ago (comment below): "....in case the behavior of GetObject is ever changed to return only results from the main name list...". Today it is the opposite: GetObject will first parse the [ NameList](NameList.md) and only if it doesn't find anything there, it will parse the LayerList. 
 
 Back to Charles' example, having a class and a layer with the same name, GetObject will always find the class.
 

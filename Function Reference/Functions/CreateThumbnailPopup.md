@@ -21,7 +21,7 @@ def vs.CreateThumbnailPopup(dialogID, controlID):
 |controlID|LONGINT|   |
 
 ## Remarks
-'''BE AWARE:''' this will not work for Line Types of an external document (default library for example). Use [[VS:CreateCustThumbPopup]] in that situation.
+'''BE AWARE:''' this will not work for Line Types of an external document (default library for example). Use [CreateCustThumbPopup](CreateCustThumbPopup.md) in that situation.
 
 ## Version
 Availability: from Vectorworks 2012

@@ -17,7 +17,7 @@ def vs.ImportResourceToCurrentFile(listID, index):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|listID|LONGINT|an ID for a resource list created by the [[VS:BuildResourceList]] and [[VS:BuildResourceListN]] command.|
+|listID|LONGINT|an ID for a resource list created by the [BuildResourceList](BuildResourceList.md) and [BuildResourceListN](BuildResourceListN.md) command.|
 |index|LONGINT|an index into the list.|
 
 ## Examples

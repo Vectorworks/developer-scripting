@@ -23,7 +23,7 @@ def vs.CreateWSImage(worksheet, location):
 ## Remarks
 *_c_*, 2015.06.20: It is possible to have any number of worksheet images on drawing, each on a different location. But be warned: if you use this routine AND already have some images of the chosen worksheet on drawing, the routine will shift the last created image object, placing it at the chosen coordinates. 
 
-You must check for the presence of other worksheet images using [[VS:GetWSImage| GetWSImage]] before trying to create a new one then duplicate one of the found items, instead of creating an image.
+You must check for the presence of other worksheet images using [ GetWSImage](GetWSImage.md) before trying to create a new one then duplicate one of the found items, instead of creating an image.
 
 Moreover, if the WS image is too large to display (about 11 meters long), it will be zero-sized. This also rises a Vectorscript error that - as far as I can tell - is not avoidable, since only creating it you can know if it's too large.
 

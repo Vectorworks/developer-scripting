@@ -19,7 +19,7 @@ def vs.vsoStateGetObjChng(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outChangeID|LONGINT|Output parameter. Identifier of the object change that has happened.|
 
 ## Examples

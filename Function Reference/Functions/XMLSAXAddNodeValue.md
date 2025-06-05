@@ -1,7 +1,7 @@
 # XMLSAXAddNodeValue
 
 ## Description
-Write XML using SAX, adds a node value to a node begun with [[VS:XMLSAXBeginNode| XMLSAXBeginNode]].
+Write XML using SAX, adds a node value to a node begun with [ XMLSAXBeginNode](XMLSAXBeginNode.md).
 
 ```pascal
 FUNCTION XMLSAXAddNodeValue(
@@ -21,7 +21,7 @@ def vs.XMLSAXAddNodeValue(XMLHandle, nodeValue):
 |nodeValue|STRING|   |
 
 ## Examples
-[[VS:XMLSAXBeginDocFile]] or [[VS:XMLSAXBeginDocMemory]].
+[XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) or [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
 ## Version
 Availability: from Vectorworks 2011

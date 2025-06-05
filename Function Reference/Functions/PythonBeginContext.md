@@ -15,7 +15,7 @@ def vs.PythonBeginContext():
 ```
 
 ## Examples
-[[VS:PythonExecute]].
+[PythonExecute](PythonExecute.md).
 
 ## See Also
 VS Functions:

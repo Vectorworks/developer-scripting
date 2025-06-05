@@ -1,7 +1,7 @@
 # vstRestoreWPHybridTool
 
 ## Description
-Restore the working plane after hybrid tool [[VS:vstSetWPHybridTool]].
+Restore the working plane after hybrid tool [vstSetWPHybridTool](vstSetWPHybridTool.md).
 
 ```pascal
 PROCEDURE vstRestoreWPHybridTool(message1 : LONGINT);

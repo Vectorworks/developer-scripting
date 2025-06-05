@@ -5,7 +5,7 @@ Procedure Set3DRot rotates the referenced 3D object about a specified 3D point. 
 
 ![3D Rotate](files/3drotate.gif)
 
-The difference between Set3DRot and [[VS:SetRot3D| SetRot3D]] is that Set3DRot adds the specified rotation to the existing rotation of the object, whereas [[VS:SetRot3D| SetRot3D]] does not consider the existing rotation, and merely makes the object rotation match the specified values.
+The difference between Set3DRot and [SetRot3D](SetRot3D.md) is that Set3DRot adds the specified rotation to the existing rotation of the object, whereas [SetRot3D](SetRot3D.md) does not consider the existing rotation, and merely makes the object rotation match the specified values.
 
 ```pascal
 PROCEDURE Set3DRot(

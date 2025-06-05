@@ -27,7 +27,7 @@ def vs.SetLBItemTextColorN(dialogID, componentID, itemIndex, subItemIndex, tint)
 |tint|INTEGER|Tint number. See Appendix for the available values.|
 
 ## Remarks
-For a list of available tints, see [[VS:SetStaticTextColorN|SetStaticTextColorN]]
+For a list of available tints, see [SetStaticTextColorN](SetStaticTextColorN.md)
 
 ## Version
 Availability: from Vectorworks 2023

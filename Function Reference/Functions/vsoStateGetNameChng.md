@@ -20,7 +20,7 @@ def vs.vsoStateGetNameChng(hObj):
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|hObj|HANDLE|Handle to the parametric object. Obtained by call to [[VS:GetCustomObjectInfo]]|
+|hObj|HANDLE|Handle to the parametric object. Obtained by call to [GetCustomObjectInfo](GetCustomObjectInfo.md)|
 |outOldName|STRING|Output parameter. Old object name.|
 |outNewName|STRING|Output parameter. New object name.|
 

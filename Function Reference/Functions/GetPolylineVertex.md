@@ -44,9 +44,9 @@ vs.AlrtDialog( 'after GetPolylineVertex: ' + str(len(p)) ) # 2 items?!?
 * larger than the displayed radius, in which case the drawn radius is the biggest radius that will fit.
 
 MaKro 2022:
-* 4 - Radius (new type has been added) [[VS:GetPolylineArcMaxRadius]]
+* 4 - Radius (new type has been added) [GetPolylineArcMaxRadius](GetPolylineArcMaxRadius.md)
 * Corner vertex, which has no radius at all, returns value other than zero for radius, so always check vertex type.
-* For an Arc type (3) vertex, the internally stored radius can be different to the one showed in the info palette. [[VS:ConvertToArcPolyline]] fixes this issue.
+* For an Arc type (3) vertex, the internally stored radius can be different to the one showed in the info palette. [ConvertToArcPolyline](ConvertToArcPolyline.md) fixes this issue.
 
 ## Examples
 #### VectorScript ####

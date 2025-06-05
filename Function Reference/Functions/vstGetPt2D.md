@@ -25,7 +25,7 @@ def vs.vstGetPt2D(inPtIndex, result):
 |result|BOOLEAN|   |
 
 ## Remarks
-Note that [[VS:vstNumPts]] will return the number of clicked points (a 1-based index). vstGetPt2D is zero-based. So if you're collecting points in the kToolEventPointAdded event you'll likely have to do something like
+Note that [vstNumPts](vstNumPts.md) will return the number of clicked points (a 1-based index). vstGetPt2D is zero-based. So if you're collecting points in the kToolEventPointAdded event you'll likely have to do something like
 
 <code>
  vstNumPoints(pointNum);

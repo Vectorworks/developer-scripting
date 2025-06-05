@@ -34,7 +34,7 @@ def vs.SetTexMapBool(h, partID, selector, value):
 |value|BOOLEAN|   |
 
 ## Remarks
-The init value is whether the texture mapping info contains valid information.  If the mapping is not really set to important values then the init value will be false.  This can happen if the mapping was not set with [[VS:SetDefaultTexMap]].
+The init value is whether the texture mapping info contains valid information.  If the mapping is not really set to important values then the init value will be false.  This can happen if the mapping was not set with [SetDefaultTexMap](SetDefaultTexMap.md).
 
 ## See Also
 [GetTexMapBool](GetTexMapBool.md) | [SetDefaultTexMap](SetDefaultTexMap.md)

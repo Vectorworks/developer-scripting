@@ -1,7 +1,7 @@
 # GetMarker
 
 ## Description
-<b>OBSOLETE for VW2008: Use [[VS:GetObjBeginningMarker| GetObjBeginningMarker]] and/or [[VS:GetObjEndMarker| GetObjEndMarker]] instead.</b>
+<b>OBSOLETE for VW2008: Use [ GetObjBeginningMarker](GetObjBeginningMarker.md) and/or [ GetObjEndMarker](GetObjEndMarker.md) instead.</b>
 Returns marker information on the referenced object.
 
 ```pascal
@@ -28,7 +28,7 @@ def vs.GetMarker(h):
 |size|REAL|Size of marker.|
 
 ## Remarks
-OBSOLETE for VW2008: Use [[VS:GetObjBeginningMarker| GetObjBeginningMarker]] and/or [[VS:GetObjEndMarker| GetObjEndMarker]] instead.
+OBSOLETE for VW2008: Use [ GetObjBeginningMarker](GetObjBeginningMarker.md) and/or [ GetObjEndMarker](GetObjEndMarker.md) instead.
 For a one inch marker pass in a size value equal to 16384. If you pass NIL for the obj parameter, this call will set the marker defaults for this document.  angle must be in range 0 to 90 degrees.
 
 ## Examples

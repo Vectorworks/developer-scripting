@@ -23,7 +23,7 @@ def vs.GetFontName(fontID):
 *_c_* (2016.03.05): Upon passing an illegal font index it returns:
 * before VW 2015: an empty string
 * after VW 2015: the string "System font regular".
-After VW 2015 you can use [[VS:GetFontListSize]] to fetch the count of installed fonts. Before that you had to check in both negative and positive direction the whole integer limit: from -32767 to +32767.
+After VW 2015 you can use [GetFontListSize](GetFontListSize.md) to fetch the count of installed fonts. Before that you had to check in both negative and positive direction the whole integer limit: from -32767 to +32767.
 
 ## Examples
 #### VectorScript ####

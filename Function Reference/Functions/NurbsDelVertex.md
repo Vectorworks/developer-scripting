@@ -25,7 +25,7 @@ def vs.NurbsDelVertex(objectHd, index1, index2):
 ## Remarks
 This function will work for both nurbs curves and nurbs surfaces.
 
-[[VS:DelObject]] should be used to completely remove a NURBS curve or surface from the drawing.
+[DelObject](DelObject.md) should be used to completely remove a NURBS curve or surface from the drawing.
 
 There is also a bug in that VW does not redraw properly after a NurbsDelVertex call.
 

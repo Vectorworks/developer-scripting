@@ -23,7 +23,7 @@ def vs.Symbol(symbolName, p, rotationAngle):
 |rotationAngle|REAL|Rotation angle of symbol, in degrees.|
 
 ## Remarks
-This doesn't work if [[VS:AngleVar]] is turned on.
+This doesn't work if [AngleVar](AngleVar.md) is turned on.
 
 Seems to set the documents active symbol definition [CMP]
 

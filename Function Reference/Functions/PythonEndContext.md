@@ -13,7 +13,7 @@ def vs.PythonEndContext():
 ```
 
 ## Examples
-[[VS:PythonExecute]].
+[PythonExecute](PythonExecute.md).
 
 ## See Also
 VS Functions:

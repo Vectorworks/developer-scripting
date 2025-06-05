@@ -42,7 +42,7 @@ NewSprdSheet('Window Schedule', 12, 24, 5, 8, TRUE, FALSE);
 [CreateWS | CreateWS](CreateWS%20| CreateWS.md)
 
 ## Version
-NewSprdSheet is obsolete as of VectorWorks 9.0, see new [[VS:CreateWS| CreateWS]]
+NewSprdSheet is obsolete as of VectorWorks 9.0, see new [ CreateWS](CreateWS.md)
 
 Availability: from VectorWorks 8.0
 

@@ -1,7 +1,7 @@
 # vstGetPickObject
 
 ## Description
-Looks like this is the same as [[VS:PickObject]], except that it works inside an event-enabled tool loop.
+Looks like this is the same as [PickObject](PickObject.md), except that it works inside an event-enabled tool loop.
 
 ```pascal
 FUNCTION vstGetPickObject() :HANDLE;

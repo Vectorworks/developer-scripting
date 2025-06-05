@@ -21,7 +21,7 @@ Procedure GetUnits returns the current units settings of the document.
 | style="text-align:center"| 3
 |}
 
-More extensive Units information is available using the [[VS:GetPref]] routines with the selectors shown in the tables of the [Scirpt Appendix](../Appendix/pages/Appendix%20F%20-%20Preference%20Selectors.md#primary-units-selectors).
+More extensive Units information is available using the [GetPref](GetPref.md) routines with the selectors shown in the tables of the [Scirpt Appendix](../Appendix/pages/Appendix%20F%20-%20Preference%20Selectors.md#primary-units-selectors).
 
 ```pascal
 PROCEDURE GetUnits(

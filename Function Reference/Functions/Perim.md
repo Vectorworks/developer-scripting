@@ -1,7 +1,7 @@
 # Perim
 
 ## Description
-<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [[VS:PerimN|PerimN]] for a replacement.
+<b>[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)</b>. See [PerimN](PerimN.md) for a replacement.
 
 Returns the perimeter of an object. If more than one object matches the search criteria, the function will return the sum of the matching objects' perimeters.
 

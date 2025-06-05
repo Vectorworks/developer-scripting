@@ -19,7 +19,7 @@ def vs.IsPlanarObj(object):
 
 ## Remarks
 This function always seems to return 0 for refID, no matter which plane the object being tested is located.
-Use [[VS:GetPlanarRef|GetPlanarRef]] instead to find the planar refID of a given planar object.
+Use [GetPlanarRef](GetPlanarRef.md) instead to find the planar refID of a given planar object.
 
 ## Version
 Availability: from Vectorworks 2016

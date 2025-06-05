@@ -18,7 +18,7 @@ def vs.WallWidth(wallHd):
 |wallHd|HANDLE|Handle to wall.|
 
 ## Remarks
-"Function WallWidth returns the wall width of the referenced wall object", whereas [[VS:HWallWidth]] changes the width of the referenced wall. [[VS:GetWallThickness|GetWallThickness]](wallHandle, thicknessDist) 
+"Function WallWidth returns the wall width of the referenced wall object", whereas [HWallWidth](HWallWidth.md) changes the width of the referenced wall. [GetWallThickness](GetWallThickness.md)(wallHandle, thicknessDist) 
 
 (http://www.nemetschek.net/support/custom/vscript/reference/asp/main.asp?name=GetWallThickness) does the same as WallWidth, but is often more practical and at least looks better in scripts.
 

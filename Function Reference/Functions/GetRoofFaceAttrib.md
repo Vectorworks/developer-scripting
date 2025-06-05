@@ -51,7 +51,7 @@ Other authors:
 * Returns information about old-style roof objects (single roof faces).
 * Returns slope, edge miter style, miter dimensions, and thickness of roof object.
 
-See Also [[VS:GetRoofFaceCoords| GetRoofFaceCoords]]() for additional roof face data
+See Also [ GetRoofFaceCoords](GetRoofFaceCoords.md)() for additional roof face data
 
 ## Examples
 [GetRoofProperties](examples/GetRoofProperties.md)

@@ -39,7 +39,7 @@ LoadCell(1, 1, 'This is a string');
 [SetWSCellBorder| SetWSCellBorder](SetWSCellBorder|%20SetWSCellBorder.md)
 
 ## Version
-SprdBorder is obsolete as of VectorWorks 9.0, see new [[VS:SetWSCellBorder| SetWSCellBorder]]
+SprdBorder is obsolete as of VectorWorks 9.0, see new [ SetWSCellBorder](SetWSCellBorder.md)
 
 Availability: from All Versions
 

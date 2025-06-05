@@ -18,7 +18,7 @@ def vs.NurbsCurveGetNumPieces(objectHd):
 |objectHd|HANDLE|Handle to NURBS curve.|
 
 ## Remarks
-See example on [[VS:NurbsGetPt3D]]
+See example on [NurbsGetPt3D](NurbsGetPt3D.md)
 
 ## Examples
 presentation of pieces (segments in the example) in a NURBS curve:

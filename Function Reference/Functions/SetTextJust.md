@@ -33,7 +33,7 @@ def vs.SetTextJust(TextHd, JustFlag):
 |JustFlag|INTEGER|Justification setting for text.|
 
 ## Remarks
-([[User:Orso.b.schmid|Orso]], 2012 Mai. 26): The constant 4 "Justify" is introduced by VW 2011. This routine needs a screen redraw after running. The text object will shift after changing the alignment, use [[VS:SetTextJustN]] if the shift is not wished.
+([[User:Orso.b.schmid|Orso]], 2012 Mai. 26): The constant 4 "Justify" is introduced by VW 2011. This routine needs a screen redraw after running. The text object will shift after changing the alignment, use [SetTextJustN](SetTextJustN.md) if the shift is not wished.
 
 ## See Also
 VS Functions:

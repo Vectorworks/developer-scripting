@@ -18,7 +18,7 @@ def vs.DBSQLExecuteNext(resultSetInst):
 |resultSetInst|LONGINT|   |
 
 ## Examples
-[[VS:DBSQLExecuteDSN]]
+[DBSQLExecuteDSN](DBSQLExecuteDSN.md)
 
 ## Version
 Availability: from Vectorworks 2011
