@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Tool Events
+
 | | | |
 |---|---|---|
 | [ResList_DlgInit](../Functions/ResList_DlgInit.md) | [vstAddButtonMode](../Functions/vstAddButtonMode.md) | [vstAddPDMenuItem](../Functions/vstAddPDMenuItem.md) |

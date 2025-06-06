@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Graphic Calculation
+
 | | | |
 |---|---|---|
 | [CalcPolySegLen](../Functions/CalcPolySegLen.md) | [Centroid](../Functions/Centroid.md) | [CircleCircleInters](../Functions/CircleCircleInters.md) |
@@ -22,3 +23,4 @@
 | [RegularPolygon](../Functions/RegularPolygon.md) | [RelativeCoords](../Functions/RelativeCoords.md) | [Split2DObjectByLine](../Functions/Split2DObjectByLine.md) |
 | [SrndArea](../Functions/SrndArea.md) | [Stipple](../Functions/Stipple.md) | [SubtractPolygon](../Functions/SubtractPolygon.md) |
 | [ThreePtCenter](../Functions/ThreePtCenter.md) | [UnionRect](../Functions/UnionRect.md) 
+

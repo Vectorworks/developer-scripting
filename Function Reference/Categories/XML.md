@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # XML
+
 | | | |
 |---|---|---|
 | [CreateNewXMLDocument](../Functions/CreateNewXMLDocument.md) | [DeleteAttribute](../Functions/DeleteAttribute.md) | [DeleteCDATA](../Functions/DeleteCDATA.md) |

@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Spotlight
+
 | | | |
 |---|---|---|
 | [AdditionalDefRecords](../Functions/AdditionalDefRecords.md) | [ApplyLightInfoRecord](../Functions/ApplyLightInfoRecord.md) | [DBeam_Begin](../Functions/DBeam_Begin.md) |
@@ -27,3 +28,4 @@
 | [LightingInvImport](../Functions/LightingInvImport.md) | [LightingUnivExport](../Functions/LightingUnivExport.md) | [LightingUnivImport](../Functions/LightingUnivImport.md) |
 | [SetVisionMapping](../Functions/SetVisionMapping.md) | [SL_Export](../Functions/SL_Export.md) | [SL_Import](../Functions/SL_Import.md) |
 | [SL_UpdateSAcc](../Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](../Functions/SL_UpdateUID.md) 
+

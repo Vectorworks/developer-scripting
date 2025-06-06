@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Math - General
+
 | | | |
 |---|---|---|
 | [Abs](../Functions/Abs.md) | [ArcCos](../Functions/ArcCos.md) | [ArcSin](../Functions/ArcSin.md) |

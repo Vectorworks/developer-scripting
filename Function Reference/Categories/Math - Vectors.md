@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Math - Vectors
+
 | | | |
 |---|---|---|
 | [Ang2Vec](../Functions/Ang2Vec.md) | [AngBVec](../Functions/AngBVec.md) | [Comp](../Functions/Comp.md) |

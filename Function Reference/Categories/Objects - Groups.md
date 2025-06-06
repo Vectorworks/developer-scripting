@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Objects - Groups
+
 | | | |
 |---|---|---|
 | [AddVPAnnotationObject](../Functions/AddVPAnnotationObject.md) | [BeginGroup](../Functions/BeginGroup.md) | [BeginGroupN](../Functions/BeginGroupN.md) |
@@ -10,3 +11,4 @@
 | [HUngroup](../Functions/HUngroup.md) | [IsVPGroupContainedObject](../Functions/IsVPGroupContainedObject.md) | [SetVPClassVisibility](../Functions/SetVPClassVisibility.md) |
 | [SetVPCropObject](../Functions/SetVPCropObject.md) | [SetVPLayerVisibility](../Functions/SetVPLayerVisibility.md) | [Ungroup](../Functions/Ungroup.md) |
 | [UpdateVP](../Functions/UpdateVP.md) | [VPHasCropObject](../Functions/VPHasCropObject.md) 
+

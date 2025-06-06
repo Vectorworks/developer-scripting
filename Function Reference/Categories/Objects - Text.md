@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Objects - Text
+
 | | | |
 |---|---|---|
 | [BeginText](../Functions/BeginText.md) | [CreateText](../Functions/CreateText.md) | [CreateTextStyleRes](../Functions/CreateTextStyleRes.md) |
@@ -21,3 +22,4 @@
 | [TextLeading](../Functions/TextLeading.md) | [TextOrigin](../Functions/TextOrigin.md) | [TextRotate](../Functions/TextRotate.md) |
 | [TextSize](../Functions/TextSize.md) | [TextSpace](../Functions/TextSpace.md) | [TextVerticalAlign](../Functions/TextVerticalAlign.md) |
 | [TrueTypeToPoly](../Functions/TrueTypeToPoly.md) 
+

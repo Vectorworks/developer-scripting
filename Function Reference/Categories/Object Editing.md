@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Object Editing
+
 | | | |
 |---|---|---|
 | [BeginMultipleDuplicate](../Functions/BeginMultipleDuplicate.md) | [CreateDuplicateObject](../Functions/CreateDuplicateObject.md) | [CreateDuplicateObjN](../Functions/CreateDuplicateObjN.md) |
@@ -13,3 +14,4 @@
 | [Move3DObj](../Functions/Move3DObj.md) | [MoveObjs](../Functions/MoveObjs.md) | [OffsetHandle](../Functions/OffsetHandle.md) |
 | [ResetBBox](../Functions/ResetBBox.md) | [SetBBox](../Functions/SetBBox.md) | [SetHDef](../Functions/SetHDef.md) |
 | [SetRRDiam](../Functions/SetRRDiam.md) 
+

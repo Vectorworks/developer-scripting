@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Objects - Symbols
+
 | | | |
 |---|---|---|
 | [ActSymDef](../Functions/ActSymDef.md) | [ActSymDefN](../Functions/ActSymDefN.md) | [AddToPluginStyle](../Functions/AddToPluginStyle.md) |
@@ -11,3 +12,4 @@
 | [SetActSymbol](../Functions/SetActSymbol.md) | [SetSymbolOptionsN](../Functions/SetSymbolOptionsN.md) | [SetSymBrightMult](../Functions/SetSymBrightMult.md) |
 | [SetSymDefSubType](../Functions/SetSymDefSubType.md) | [Symbol](../Functions/Symbol.md) | [SymbolToGroup](../Functions/SymbolToGroup.md) |
 | [SymDefNum](../Functions/SymDefNum.md) 
+

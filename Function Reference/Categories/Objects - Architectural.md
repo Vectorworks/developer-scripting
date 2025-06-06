@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Objects - Architectural
+
 | | | |
 |---|---|---|
 | [BeginColumn](../Functions/BeginColumn.md) | [BeginFloor](../Functions/BeginFloor.md) | [ConvertToUnstyledSlab](../Functions/ConvertToUnstyledSlab.md) |
@@ -14,7 +15,7 @@
 | [GetComponentFillColors](../Functions/GetComponentFillColors.md) | [GetComponentFollowBottomWallPeaks](../Functions/GetComponentFollowBottomWallPeaks.md) | [GetComponentFollowTopWallPeaks](../Functions/GetComponentFollowTopWallPeaks.md) |
 | [GetComponentFunction](../Functions/GetComponentFunction.md) | [GetComponentManualEdgeOffset](../Functions/GetComponentManualEdgeOffset.md) | [GetComponentMaterial](../Functions/GetComponentMaterial.md) |
 | [GetComponentName](../Functions/GetComponentName.md) | [GetComponentNetArea](../Functions/GetComponentNetArea.md) | [GetComponentNetVolume](../Functions/GetComponentNetVolume.md) |
-| [GetComponentPenColors](../Functions/GetComponentPenColors.md) | [GetComponentPenStyles](../Functions/GetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetComponentPenWeights](../Functions/GetComponentPenWeights.md) |
+| [GetComponentPenColors](../Functions/GetComponentPenColors.md) | [GetComponentPenStyles](../Functions/GetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetComponentPenWeights](../Functions/GetComponentPenWeights.md) |
 | [GetComponents](../Functions/GetComponents.md) | [GetComponentTexture](../Functions/GetComponentTexture.md) | [GetComponentUseFillClassAttr](../Functions/GetComponentUseFillClassAttr.md) |
 | [GetComponentUsePenClassAttr](../Functions/GetComponentUsePenClassAttr.md) | [GetComponentWallBottomOffset](../Functions/GetComponentWallBottomOffset.md) | [GetComponentWallTopOffset](../Functions/GetComponentWallTopOffset.md) |
 | [GetComponentWidth](../Functions/GetComponentWidth.md) | [GetCompPenStylesN](../Functions/GetCompPenStylesN.md) | [GetCompSecFillChgPt](../Functions/GetCompSecFillChgPt.md) |
@@ -29,7 +30,7 @@
 | [GetRoofPrefStyle](../Functions/GetRoofPrefStyle.md) | [GetSlabHeight](../Functions/GetSlabHeight.md) | [GetSlabPreferences](../Functions/GetSlabPreferences.md) |
 | [GetSlabPreferencesStyle](../Functions/GetSlabPreferencesStyle.md) | [GetSlabStyle](../Functions/GetSlabStyle.md) | [GetStoryLayerInfo](../Functions/GetStoryLayerInfo.md) |
 | [GetTaperedComponent](../Functions/GetTaperedComponent.md) | [GetWallPreferences](../Functions/GetWallPreferences.md) | [HasObjStoryBound](../Functions/HasObjStoryBound.md) |
-| [HasObjStoryBounds](../Functions/HasObjStoryBounds.md) | [InsertNewComponent](../Functions/InsertNewComponent.md) <sub>*obsolete in Vectorworks 2014*</sub>| [InsertNewComponentN](../Functions/InsertNewComponentN.md) |
+| [HasObjStoryBounds](../Functions/HasObjStoryBounds.md) | [InsertNewComponent](../Functions/InsertNewComponent.md) <sub>*obsolete in Vectorworks 2014*</sub> | [InsertNewComponentN](../Functions/InsertNewComponentN.md) |
 | [ModifySlab](../Functions/ModifySlab.md) | [SetCompABoundEOffOff](../Functions/SetCompABoundEOffOff.md) | [SetCompAltSecFill](../Functions/SetCompAltSecFill.md) |
 | [SetCompAltSecFillCl](../Functions/SetCompAltSecFillCl.md) | [SetCompAutoJoinCap](../Functions/SetCompAutoJoinCap.md) | [SetCompBotIsRelStory](../Functions/SetCompBotIsRelStory.md) |
 | [SetCompBoundOffset](../Functions/SetCompBoundOffset.md) | [SetCompDatTopOfComp](../Functions/SetCompDatTopOfComp.md) | [SetCompInsertLoc](../Functions/SetCompInsertLoc.md) |
@@ -37,7 +38,7 @@
 | [SetComponentAutoBoundEdgeOffset](../Functions/SetComponentAutoBoundEdgeOffset.md) | [SetComponentClass](../Functions/SetComponentClass.md) | [SetComponentFill](../Functions/SetComponentFill.md) |
 | [SetComponentFillColors](../Functions/SetComponentFillColors.md) | [SetComponentFollowBottomWallPeaks](../Functions/SetComponentFollowBottomWallPeaks.md) | [SetComponentFollowTopWallPeaks](../Functions/SetComponentFollowTopWallPeaks.md) |
 | [SetComponentFunction](../Functions/SetComponentFunction.md) | [SetComponentManualEdgeOffset](../Functions/SetComponentManualEdgeOffset.md) | [SetComponentMaterial](../Functions/SetComponentMaterial.md) |
-| [SetComponentName](../Functions/SetComponentName.md) | [SetComponentPenColors](../Functions/SetComponentPenColors.md) | [SetComponentPenStyles](../Functions/SetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [SetComponentName](../Functions/SetComponentName.md) | [SetComponentPenColors](../Functions/SetComponentPenColors.md) | [SetComponentPenStyles](../Functions/SetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [SetComponentPenWeights](../Functions/SetComponentPenWeights.md) | [SetComponentTexture](../Functions/SetComponentTexture.md) | [SetComponentUseFillClassAttr](../Functions/SetComponentUseFillClassAttr.md) |
 | [SetComponentUsePenClassAttr](../Functions/SetComponentUsePenClassAttr.md) | [SetComponentWallBottomOffset](../Functions/SetComponentWallBottomOffset.md) | [SetComponentWallTopOffset](../Functions/SetComponentWallTopOffset.md) |
 | [SetComponentWidth](../Functions/SetComponentWidth.md) | [SetCompPenStylesN](../Functions/SetCompPenStylesN.md) | [SetCompSecFillChgPt](../Functions/SetCompSecFillChgPt.md) |
@@ -50,3 +51,4 @@
 | [SetObjectStoryBound](../Functions/SetObjectStoryBound.md) | [SetRoofPrefStyle](../Functions/SetRoofPrefStyle.md) | [SetSlabHeight](../Functions/SetSlabHeight.md) |
 | [SetSlabPreferencesStyle](../Functions/SetSlabPreferencesStyle.md) | [SetSlabStyle](../Functions/SetSlabStyle.md) | [SetTaperedComponent](../Functions/SetTaperedComponent.md) |
 | [SlabFromPoly](../Functions/SlabFromPoly.md) | [SyncMatrixToBound](../Functions/SyncMatrixToBound.md) 
+

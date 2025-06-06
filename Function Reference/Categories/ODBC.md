@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # ODBC
+
 | | | |
 |---|---|---|
 | [DBDiagnose](../Functions/DBDiagnose.md) | [DBDocAddConn](../Functions/DBDocAddConn.md) | [DBDocGetColumns](../Functions/DBDocGetColumns.md) |
@@ -12,3 +13,4 @@
 | [DBShowManageDBsDlg](../Functions/DBShowManageDBsDlg.md) | [DBShowObjConnDlg](../Functions/DBShowObjConnDlg.md) | [DBSQLExecute](../Functions/DBSQLExecute.md) |
 | [DBSQLExecuteDelete](../Functions/DBSQLExecuteDelete.md) | [DBSQLExecuteDSN](../Functions/DBSQLExecuteDSN.md) | [DBSQLExecuteError](../Functions/DBSQLExecuteError.md) |
 | [DBSQLExecuteGet](../Functions/DBSQLExecuteGet.md) | [DBSQLExecuteNext](../Functions/DBSQLExecuteNext.md) 
+

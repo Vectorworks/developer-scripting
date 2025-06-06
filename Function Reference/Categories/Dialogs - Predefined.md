@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Dialogs - Predefined
+
 | | | |
 |---|---|---|
 | [AlertCritical](../Functions/AlertCritical.md) | [AlertCriticalHLink](../Functions/AlertCriticalHLink.md) | [AlertInform](../Functions/AlertInform.md) |

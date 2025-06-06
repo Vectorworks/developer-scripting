@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
-# File IO
+# File I/O
+
 | | | |
 |---|---|---|
 | [Append](../Functions/Append.md) | [Close](../Functions/Close.md) | [ConvertHSF2PosixPath](../Functions/ConvertHSF2PosixPath.md) |
@@ -18,3 +19,4 @@
 | [Tab](../Functions/Tab.md) | [UseDefaultFileErrorHandling](../Functions/UseDefaultFileErrorHandling.md) | [Write](../Functions/Write.md) |
 | [WriteBin](../Functions/WriteBin.md) | [WriteLn](../Functions/WriteLn.md) | [WriteLnMac](../Functions/WriteLnMac.md) |
 | [WriteMac](../Functions/WriteMac.md) 
+

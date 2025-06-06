@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Dialogs - Modern
+
 | | | |
 |---|---|---|
 | [AddButtonMode](../Functions/AddButtonMode.md) | [AddChoice](../Functions/AddChoice.md) | [AddListBoxTabStop](../Functions/AddListBoxTabStop.md) |
@@ -12,7 +13,7 @@
 | [CreateDataVisPDMenu](../Functions/CreateDataVisPDMenu.md) | [CreateDesignLayerPullDownMenu](../Functions/CreateDesignLayerPullDownMenu.md) | [CreateEditColorText](../Functions/CreateEditColorText.md) |
 | [CreateEditInteger](../Functions/CreateEditInteger.md) | [CreateEditPassword](../Functions/CreateEditPassword.md) | [CreateEditReal](../Functions/CreateEditReal.md) |
 | [CreateEditText](../Functions/CreateEditText.md) | [CreateEditTextBox](../Functions/CreateEditTextBox.md) | [CreateEnhancedPullDownMenu](../Functions/CreateEnhancedPullDownMenu.md) |
-| [CreateGradient](../Functions/CreateGradient.md) | [CreateGroupBox](../Functions/CreateGroupBox.md) | [CreateIconPushButton](../Functions/CreateIconPushButton.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [CreateGradient](../Functions/CreateGradient.md) | [CreateGroupBox](../Functions/CreateGroupBox.md) | [CreateIconPushButton](../Functions/CreateIconPushButton.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [CreateImageControl](../Functions/CreateImageControl.md) | [CreateImageControl2](../Functions/CreateImageControl2.md) | [CreateImagePushButton](../Functions/CreateImagePushButton.md) |
 | [CreateLayerPDMenu](../Functions/CreateLayerPDMenu.md) | [CreateLayout](../Functions/CreateLayout.md) | [CreateLineAttributePopup](../Functions/CreateLineAttributePopup.md) |
 | [CreateLineStylePopup](../Functions/CreateLineStylePopup.md) | [CreateLineWeightPopup](../Functions/CreateLineWeightPopup.md) | [CreateListBox](../Functions/CreateListBox.md) |
@@ -37,18 +38,18 @@
 | [GetGradientSliderSelectedMarker](../Functions/GetGradientSliderSelectedMarker.md) | [GetIconPushButtonState](../Functions/GetIconPushButtonState.md) | [GetImagePopupObject](../Functions/GetImagePopupObject.md) |
 | [GetImagePopupObjectItemIndex](../Functions/GetImagePopupObjectItemIndex.md) | [GetImagePopupSelectedItem](../Functions/GetImagePopupSelectedItem.md) | [GetItemText](../Functions/GetItemText.md) |
 | [GetLayoutDialogPosition](../Functions/GetLayoutDialogPosition.md) | [GetLayoutDialogSize](../Functions/GetLayoutDialogSize.md) | [GetLBHeaderTextWidth](../Functions/GetLBHeaderTextWidth.md) |
-| [GetLineAttributeData](../Functions/GetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetLineStyleChoice](../Functions/GetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetLineTypeAtIndex](../Functions/GetLineTypeAtIndex.md) |
+| [GetLineAttributeData](../Functions/GetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetLineStyleChoice](../Functions/GetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetLineTypeAtIndex](../Functions/GetLineTypeAtIndex.md) |
 | [GetLineTypeAttriData](../Functions/GetLineTypeAttriData.md) | [GetLineTypeChoice](../Functions/GetLineTypeChoice.md) | [GetLineWeightChoice](../Functions/GetLineWeightChoice.md) |
-| [GetMarkerChoice](../Functions/GetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetMarkerPopupSelectedItem](../Functions/GetMarkerPopupSelectedItem.md) | [GetMarkerValue](../Functions/GetMarkerValue.md) |
+| [GetMarkerChoice](../Functions/GetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [GetMarkerPopupSelectedItem](../Functions/GetMarkerPopupSelectedItem.md) | [GetMarkerValue](../Functions/GetMarkerValue.md) |
 | [GetMultilineText](../Functions/GetMultilineText.md) | [GetNumGradientSliderSegments](../Functions/GetNumGradientSliderSegments.md) | [GetNumImagePopupItems](../Functions/GetNumImagePopupItems.md) |
 | [GetNumLineTypeItems](../Functions/GetNumLineTypeItems.md) | [GetPatternData](../Functions/GetPatternData.md) | [GetPopUpChoiceIndex](../Functions/GetPopUpChoiceIndex.md) |
 | [GetSelectedChoiceIndex](../Functions/GetSelectedChoiceIndex.md) | [GetSelectedChoiceInfo](../Functions/GetSelectedChoiceInfo.md) | [GetSelectionRange](../Functions/GetSelectionRange.md) |
 | [GetStoryBoundChoiceStrings](../Functions/GetStoryBoundChoiceStrings.md) | [GetStoryBoundDataFromChoiceString](../Functions/GetStoryBoundDataFromChoiceString.md) | [GetStoryChoiceStrsN](../Functions/GetStoryChoiceStrsN.md) |
 | [GetThreeStateCheckBoxState](../Functions/GetThreeStateCheckBoxState.md) | [GetTreeControlItemData](../Functions/GetTreeControlItemData.md) | [GetTreeControlItemText](../Functions/GetTreeControlItemText.md) |
-| [GetTreeControlSelectedItem](../Functions/GetTreeControlSelectedItem.md) | [GetTreeControlTextSelectedItem](../Functions/GetTreeControlTextSelectedItem.md) | [InsertEnhancedPullDownMenuItem](../Functions/InsertEnhancedPullDownMenuItem.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [GetTreeControlSelectedItem](../Functions/GetTreeControlSelectedItem.md) | [GetTreeControlTextSelectedItem](../Functions/GetTreeControlTextSelectedItem.md) | [InsertEnhancedPullDownMenuItem](../Functions/InsertEnhancedPullDownMenuItem.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [InsertEnhanPullDownMenuItem](../Functions/InsertEnhanPullDownMenuItem.md) | [InsertGradientSliderSegment](../Functions/InsertGradientSliderSegment.md) | [InsertGradientSliSeg](../Functions/InsertGradientSliSeg.md) |
 | [InsertImagePopupObjectItem](../Functions/InsertImagePopupObjectItem.md) | [InsertImagePopupResource](../Functions/InsertImagePopupResource.md) | [InsertImagePopupSeparator](../Functions/InsertImagePopupSeparator.md) |
-| [InsertPropClassOrLayerItem](../Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](../Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub>| [InsertTreeControlItem](../Functions/InsertTreeControlItem.md) |
+| [InsertPropClassOrLayerItem](../Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](../Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub> | [InsertTreeControlItem](../Functions/InsertTreeControlItem.md) |
 | [IsClassChoiceSelected](../Functions/IsClassChoiceSelected.md) | [IsItemEnabled](../Functions/IsItemEnabled.md) | [IsItemVisible](../Functions/IsItemVisible.md) |
 | [NotifyPullDownClicked](../Functions/NotifyPullDownClicked.md) | [RefreshItem](../Functions/RefreshItem.md) | [RegisterDialogForTimerEvents](../Functions/RegisterDialogForTimerEvents.md) |
 | [RemoveAllImagePopupItems](../Functions/RemoveAllImagePopupItems.md) | [RemoveChoice](../Functions/RemoveChoice.md) | [RemoveEnhancedPullDownMenuItemRange](../Functions/RemoveEnhancedPullDownMenuItemRange.md) |
@@ -66,9 +67,9 @@
 | [SetImageControlPath](../Functions/SetImageControlPath.md) | [SetImagePopupSelectedItem](../Functions/SetImagePopupSelectedItem.md) | [SetItemClickable](../Functions/SetItemClickable.md) |
 | [SetItemText](../Functions/SetItemText.md) | [SetItemToolTipText](../Functions/SetItemToolTipText.md) | [SetLayoutDialogPosition](../Functions/SetLayoutDialogPosition.md) |
 | [SetLayoutDialogSize](../Functions/SetLayoutDialogSize.md) | [SetLayoutOption](../Functions/SetLayoutOption.md) | [SetLBImageIndexes](../Functions/SetLBImageIndexes.md) |
-| [SetLineAttributeData](../Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetLineStyleChoice](../Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetLineTypeAttriData](../Functions/SetLineTypeAttriData.md) |
+| [SetLineAttributeData](../Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineStyleChoice](../Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineTypeAttriData](../Functions/SetLineTypeAttriData.md) |
 | [SetLineTypeChoice](../Functions/SetLineTypeChoice.md) | [SetLineWeightChoice](../Functions/SetLineWeightChoice.md) | [SetListBoxTabStops](../Functions/SetListBoxTabStops.md) |
-| [SetMarkerChoice](../Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetMarkerValue](../Functions/SetMarkerValue.md) | [SetPatternData](../Functions/SetPatternData.md) |
+| [SetMarkerChoice](../Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerValue](../Functions/SetMarkerValue.md) | [SetPatternData](../Functions/SetPatternData.md) |
 | [SetProportionalBinding](../Functions/SetProportionalBinding.md) | [SetRightItem](../Functions/SetRightItem.md) | [SetSelectionRange](../Functions/SetSelectionRange.md) |
 | [SetSliderLiveUpdate](../Functions/SetSliderLiveUpdate.md) | [SetStaticTextColor](../Functions/SetStaticTextColor.md) | [SetStaticTextColorN](../Functions/SetStaticTextColorN.md) |
 | [SetStaticTextStyle](../Functions/SetStaticTextStyle.md) | [SetThreeStateCheckBoxState](../Functions/SetThreeStateCheckBoxState.md) | [SetTreeControlItemData](../Functions/SetTreeControlItemData.md) |
@@ -77,3 +78,4 @@
 | [ShowNewTileDialog](../Functions/ShowNewTileDialog.md) | [UpdateImageControl2](../Functions/UpdateImageControl2.md) | [UpdateImageControl3](../Functions/UpdateImageControl3.md) |
 | [UpdateImagePushButton](../Functions/UpdateImagePushButton.md) | [UpdateSymbolDisplayControl](../Functions/UpdateSymbolDisplayControl.md) | [UpdateSymDispCtrlN](../Functions/UpdateSymDispCtrlN.md) |
 | [VerifyLayout](../Functions/VerifyLayout.md) 
+

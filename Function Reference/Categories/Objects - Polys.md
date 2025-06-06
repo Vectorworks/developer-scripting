@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Objects - Polys
+
 | | | |
 |---|---|---|
 | [Add2DVertex](../Functions/Add2DVertex.md) | [AddPoint](../Functions/AddPoint.md) | [ArcTo](../Functions/ArcTo.md) |
@@ -12,3 +13,4 @@
 | [OpenPoly](../Functions/OpenPoly.md) | [Poly](../Functions/Poly.md) | [SetPolyClosed](../Functions/SetPolyClosed.md) |
 | [SetPolylineVertex](../Functions/SetPolylineVertex.md) | [SetPolyPt](../Functions/SetPolyPt.md) | [SetVertexVisibility](../Functions/SetVertexVisibility.md) |
 | [Smooth](../Functions/Smooth.md) 
+

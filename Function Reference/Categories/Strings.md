@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Strings
+
 | | | |
 |---|---|---|
 | [Angle2Str](../Functions/Angle2Str.md) | [Area2Str](../Functions/Area2Str.md) | [Chr](../Functions/Chr.md) |
@@ -11,3 +12,4 @@
 | [Str2Angle](../Functions/Str2Angle.md) | [Str2Area](../Functions/Str2Area.md) | [Str2Num](../Functions/Str2Num.md) |
 | [Str2Volume](../Functions/Str2Volume.md) | [SubString](../Functions/SubString.md) | [UniChr](../Functions/UniChr.md) |
 | [UprString](../Functions/UprString.md) | [Volume2Str](../Functions/Volume2Str.md) 
+

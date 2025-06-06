@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # ImportExport
+
 | | | |
 |---|---|---|
 | [DXFScaleString](../Functions/DXFScaleString.md) | [ExportDXFDWG](../Functions/ExportDXFDWG.md) | [GetDXFColorToLW](../Functions/GetDXFColorToLW.md) |
@@ -10,3 +11,4 @@
 | [InitDWGServices](../Functions/InitDWGServices.md) | [InitRevitServices](../Functions/InitRevitServices.md) | [PublishSavedSet](../Functions/PublishSavedSet.md) |
 | [SetDXFColorToLW](../Functions/SetDXFColorToLW.md) | [SetInvisLayersOFF](../Functions/SetInvisLayersOFF.md) | [SetLastDXFImportOpt](../Functions/SetLastDXFImportOpt.md) |
 | [SetLTGeneration](../Functions/SetLTGeneration.md) 
+

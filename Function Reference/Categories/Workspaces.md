@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Workspaces
+
 | | | |
 |---|---|---|
 | [ws2AddMenuGroup](../Functions/ws2AddMenuGroup.md) | [ws2AddMenuItem](../Functions/ws2AddMenuItem.md) | [ws2CommitChanges](../Functions/ws2CommitChanges.md) |
@@ -13,3 +14,4 @@
 | [wsEditAddTool](../Functions/wsEditAddTool.md) | [wsEditAddTool2](../Functions/wsEditAddTool2.md) | [wsEditBegin](../Functions/wsEditBegin.md) |
 | [wsEditBeginN](../Functions/wsEditBeginN.md) | [wsEditEnd](../Functions/wsEditEnd.md) | [wsInstallCanceled](../Functions/wsInstallCanceled.md) |
 | [wsInstallFailed](../Functions/wsInstallFailed.md) 
+

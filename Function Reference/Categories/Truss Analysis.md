@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Truss Analysis
+
 | | | |
 |---|---|---|
 | [DLDBeginLoadData](../Functions/DLDBeginLoadData.md) | [DLDEndLoadData](../Functions/DLDEndLoadData.md) | [DLDSetLoadDataBool](../Functions/DLDSetLoadDataBool.md) |

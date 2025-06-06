@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Utility
+
 | | | |
 |---|---|---|
 | [BeginContext](../Functions/BeginContext.md) | [BeginMultDashConvert](../Functions/BeginMultDashConvert.md) | [CallToolByIndex](../Functions/CallToolByIndex.md) |
@@ -47,3 +48,4 @@
 | [UndoOff](../Functions/UndoOff.md) | [UpdatePIOFromStyle](../Functions/UpdatePIOFromStyle.md) | [ValidAngStr](../Functions/ValidAngStr.md) |
 | [ValidNumStr](../Functions/ValidNumStr.md) | [VerifyLibraryRoutine](../Functions/VerifyLibraryRoutine.md) | [Wait](../Functions/Wait.md) |
 | [WebDlgEnableConsole](../Functions/WebDlgEnableConsole.md) 
+

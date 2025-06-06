@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
-# View - Zoom
+# View / Zoom
+
 | | | |
 |---|---|---|
 | [CreateHLHandle](../Functions/CreateHLHandle.md) | [CreateOpenGLHandle](../Functions/CreateOpenGLHandle.md) | [CreateRenderworksStyle](../Functions/CreateRenderworksStyle.md) |

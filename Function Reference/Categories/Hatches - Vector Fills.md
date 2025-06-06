@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
-# Hatches - Vector Fills
+# Hatches / Vector Fills
+
 | | | |
 |---|---|---|
 | [AddVectorFillLayer](../Functions/AddVectorFillLayer.md) | [BeginVectorFillN](../Functions/BeginVectorFillN.md) | [CreateStaticHatch](../Functions/CreateStaticHatch.md) |

@@ -7,8 +7,8 @@
 | [Vectorworks 2010](#vectorworks-2010)| [Vectorworks 2009](#vectorworks-2009)| [VectorWorks 2008](#vectorworks-2008)|
 | [VectorWorks12.5](#vectorworks125)| [VectorWorks12.0](#vectorworks120)| [VectorWorks10.1](#vectorworks101)|
 | [VectorWorks9.0](#vectorworks90)| [VectorWorks8.0](#vectorworks80)
-# Script Obsolete Functions
 
+# Script Obsolete Functions
 
 ## Vectorworks 2022
 | | | |
@@ -40,7 +40,6 @@
 | [FPenPat](Functions/FPenPat.md) | [GetClLS](Functions/GetClLS.md) | [GetLS](Functions/GetLS.md) |
 | [PenPat](Functions/PenPat.md) | [SetClLS](Functions/SetClLS.md) | [SetLS](Functions/SetLS.md) |
 
-
 ## Vectorworks 2012
 | | | |
 |---|---|---|
@@ -53,7 +52,6 @@
 | [SetWallHeights](Functions/SetWallHeights.md) | [TopBound](Functions/TopBound.md) | [WallHeight](Functions/WallHeight.md) |
 | [XCenter](Functions/XCenter.md) | [YCenter](Functions/YCenter.md) | [ZCenter](Functions/ZCenter.md) |
 
-
 ## Vectorworks 2011
 | | | |
 |---|---|---|
@@ -65,7 +63,6 @@
 | [GetTexMapBool](Functions/GetTexMapBool.md) | [GetTexMapInt](Functions/GetTexMapInt.md) | [GetTexMapReal](Functions/GetTexMapReal.md) |
 | [GetTextureRef](Functions/GetTextureRef.md) | [SetDefaultTexMap](Functions/SetDefaultTexMap.md) | [SetTexMapBool](Functions/SetTexMapBool.md) |
 | [SetTexMapInt](Functions/SetTexMapInt.md) | [SetTexMapReal](Functions/SetTexMapReal.md) | [SetTextureRef](Functions/SetTextureRef.md) |
-
 
 ## Vectorworks 2009
 | | | |
@@ -128,3 +125,4 @@
 | | | |
 |---|---|---|
 | [DoMenuText](Functions/DoMenuText.md) 
+

@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Special - QuickTime
+
 | | | |
 |---|---|---|
 | [QTCloseMovieFile](../Functions/QTCloseMovieFile.md) | [QTCloseMovieFileN](../Functions/QTCloseMovieFileN.md) | [QTCreateMovieRefID](../Functions/QTCreateMovieRefID.md) |

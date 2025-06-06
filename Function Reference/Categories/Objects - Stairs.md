@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Objects - Stairs
+
 | | | |
 |---|---|---|
 | [StairGet2D3DCompType](../Functions/StairGet2D3DCompType.md) | [StairGetConfigType](../Functions/StairGetConfigType.md) | [StairGetConstType](../Functions/StairGetConstType.md) |

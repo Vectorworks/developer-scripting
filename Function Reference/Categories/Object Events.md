@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Object Events
+
 | | | |
 |---|---|---|
 | [AddAssociation](../Functions/AddAssociation.md) | [GetEvent](../Functions/GetEvent.md) | [GetXPropVersion](../Functions/GetXPropVersion.md) |
@@ -34,3 +35,4 @@
 | [vsoWidgetPopupSet](../Functions/vsoWidgetPopupSet.md) | [vsoWidgetSetBound](../Functions/vsoWidgetSetBound.md) | [vsoWidgetSetEnable](../Functions/vsoWidgetSetEnable.md) |
 | [vsoWidgetSetIndLvl](../Functions/vsoWidgetSetIndLvl.md) | [vsoWidgetSetText](../Functions/vsoWidgetSetText.md) | [vsoWidgetSetType](../Functions/vsoWidgetSetType.md) |
 | [vsoWidgetSetVisible](../Functions/vsoWidgetSetVisible.md) | [vsoWSGetParamForEdit](../Functions/vsoWSGetParamForEdit.md) 
+

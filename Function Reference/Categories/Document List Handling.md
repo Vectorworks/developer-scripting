@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Document List Handling
+
 | | | |
 |---|---|---|
 | [AddResourceToList](../Functions/AddResourceToList.md) | [BeginFolder](../Functions/BeginFolder.md) | [BeginFolderN](../Functions/BeginFolderN.md) |

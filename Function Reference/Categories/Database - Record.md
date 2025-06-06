@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
-# Database - Record
+# Database / Record
+
 | | | |
 |---|---|---|
 | [DelRecord](../Functions/DelRecord.md) | [Field](../Functions/Field.md) | [GetFldFlag](../Functions/GetFldFlag.md) |
@@ -10,3 +11,4 @@
 | [NumRecords](../Functions/NumRecords.md) | [PopupGetChoices](../Functions/PopupGetChoices.md) | [PopupSetChoices](../Functions/PopupSetChoices.md) |
 | [Record](../Functions/Record.md) | [SetRecord](../Functions/SetRecord.md) | [SetRField](../Functions/SetRField.md) |
 | [SetRFieldOpt](../Functions/SetRFieldOpt.md) 
+

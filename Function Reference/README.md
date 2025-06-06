@@ -2,68 +2,71 @@
 
 | | | |
 |---|---|---|
-| [Classes](#classes)| [Color](#color)| [Command](#command)|
-| [ConnectCAD](#connectcad)| [Criteria](#criteria)| [Data Sheets](#data-sheets)|
-| [Data Tag Interface Library](#data-tag-interface-library)| [Database / Record](#database--record)| [Dialogs - Modern](#dialogs---modern)|
-| [Dialogs - Modern - Browser](#dialogs---modern---browser)| [Dialogs - Predefined](#dialogs---predefined)| [Dimensions](#dimensions)|
-| [Document Attributes](#document-attributes)| [Document List Handling](#document-list-handling)| [Document Settings](#document-settings)|
-| [EnergyAnalysis Interface Library](#energyanalysis-interface-library)| [Excel](#excel)| [File I/O](#file-io)|
-| [General Edit](#general-edit)| [GIS](#gis)| [Graphic Calculation](#graphic-calculation)|
-| [Hatches / Vector Fills](#hatches--vector-fills)| [IFC](#ifc)| [ImportExport](#importexport)|
-| [Layers](#layers)| [Math - General](#math---general)| [Math - Vectors](#math---vectors)|
-| [Object Attributes](#object-attributes)| [Object Editing](#object-editing)| [Object Events](#object-events)|
-| [Object Info](#object-info)| [Object Names](#object-names)| [Objects - 2D](#objects---2d)|
-| [Objects - 3D](#objects---3d)| [Objects - Architectural](#objects---architectural)| [Objects - Cables](#objects---cables)|
-| [Objects - Custom](#objects---custom)| [Objects - Groups](#objects---groups)| [Objects - Lights](#objects---lights)|
-| [Objects - NURBS](#objects---nurbs)| [Objects - Polys](#objects---polys)| [Objects - Roofs](#objects---roofs)|
-| [Objects - Solids](#objects---solids)| [Objects - Stairs](#objects---stairs)| [Objects - Symbols](#objects---symbols)|
-| [Objects - Text](#objects---text)| [Objects - Walls](#objects---walls)| [ODBC](#odbc)|
-| [Parametric Constraints](#parametric-constraints)| [PDF](#pdf)| [PlantObjectCoreTools](#plantobjectcoretools)|
-| [Project Sharing](#project-sharing)| [Protection](#protection)| [Roadway Interface Library](#roadway-interface-library)|
-| [Selection](#selection)| [SiteModel Interface Library](#sitemodel-interface-library)| [SpaceObjectCoreTools](#spaceobjectcoretools)|
-| [Special - QuickTime](#special---quicktime)| [Spotlight](#spotlight)| [Strings](#strings)|
-| [StructuralMember](#structuralmember)| [Textures](#textures)| [Tool Events](#tool-events)|
-| [Truss Analysis](#truss-analysis)| [Units](#units)| [User Interactive](#user-interactive)|
-| [Utility](#utility)| [View / Zoom](#view--zoom)| [Viewports](#viewports)|
-| [Worksheets](#worksheets)| [Workspaces](#workspaces)| [XML](#xml)|
-| [XML SAX](#xml-sax)
+| [Classes](#classes) | [Color](#color) | [Command](#command) |
+| [ConnectCAD](#connectcad) | [Criteria](#criteria) | [Data Sheets](#data-sheets) |
+| [Data Tag Interface Library](#data-tag-interface-library) | [Database / Record](#database--record) | [Dialogs - Modern](#dialogs---modern) |
+| [Dialogs - Modern - Browser](#dialogs---modern---browser) | [Dialogs - Predefined](#dialogs---predefined) | [Dimensions](#dimensions) |
+| [Document Attributes](#document-attributes) | [Document List Handling](#document-list-handling) | [Document Settings](#document-settings) |
+| [EnergyAnalysis Interface Library](#energyanalysis-interface-library) | [Excel](#excel) | [File I/O](#file-io) |
+| [General Edit](#general-edit) | [GIS](#gis) | [Graphic Calculation](#graphic-calculation) |
+| [Hatches / Vector Fills](#hatches--vector-fills) | [IFC](#ifc) | [ImportExport](#importexport) |
+| [Layers](#layers) | [Math - General](#math---general) | [Math - Vectors](#math---vectors) |
+| [Object Attributes](#object-attributes) | [Object Editing](#object-editing) | [Object Events](#object-events) |
+| [Object Info](#object-info) | [Object Names](#object-names) | [Objects - 2D](#objects---2d) |
+| [Objects - 3D](#objects---3d) | [Objects - Architectural](#objects---architectural) | [Objects - Cables](#objects---cables) |
+| [Objects - Custom](#objects---custom) | [Objects - Groups](#objects---groups) | [Objects - Lights](#objects---lights) |
+| [Objects - NURBS](#objects---nurbs) | [Objects - Polys](#objects---polys) | [Objects - Roofs](#objects---roofs) |
+| [Objects - Solids](#objects---solids) | [Objects - Stairs](#objects---stairs) | [Objects - Symbols](#objects---symbols) |
+| [Objects - Text](#objects---text) | [Objects - Walls](#objects---walls) | [ODBC](#odbc) |
+| [Parametric Constraints](#parametric-constraints) | [PDF](#pdf) | [PlantObjectCoreTools](#plantobjectcoretools) |
+| [Project Sharing](#project-sharing) | [Protection](#protection) | [Roadway Interface Library](#roadway-interface-library) |
+| [Selection](#selection) | [SiteModel Interface Library](#sitemodel-interface-library) | [SpaceObjectCoreTools](#spaceobjectcoretools) |
+| [Special - QuickTime](#special---quicktime) | [Spotlight](#spotlight) | [Strings](#strings) |
+| [StructuralMember](#structuralmember) | [Textures](#textures) | [Tool Events](#tool-events) |
+| [Truss Analysis](#truss-analysis) | [Units](#units) | [User Interactive](#user-interactive) |
+| [Utility](#utility) | [View / Zoom](#view--zoom) | [Viewports](#viewports) |
+| [Worksheets](#worksheets) | [Workspaces](#workspaces) | [XML](#xml) |
+| [XML SAX](#xml-sax) 
+
 # Script Functions by Category
 
-
 ## Classes
+
 | | | |
 |---|---|---|
 | [ActiveClass](Functions/ActiveClass.md) | [ClassList](Functions/ClassList.md) | [ClassNum](Functions/ClassNum.md) |
 | [CLDropShadowEnabled](Functions/CLDropShadowEnabled.md) | [DelClass](Functions/DelClass.md) | [EnableCLDropShadow](Functions/EnableCLDropShadow.md) |
-| [FillColorByClass](Functions/FillColorByClass.md) | [FPatByClass](Functions/FPatByClass.md) | [GetClassArrow](Functions/GetClassArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>|
+| [FillColorByClass](Functions/FillColorByClass.md) | [FPatByClass](Functions/FPatByClass.md) | [GetClassArrow](Functions/GetClassArrow.md) <sub>*obsolete in VectorWorks 2008*</sub> |
 | [GetClassBeginningMarker](Functions/GetClassBeginningMarker.md) | [GetClassEndMarker](Functions/GetClassEndMarker.md) | [GetClassOptions](Functions/GetClassOptions.md) |
 | [GetCLDrpShadowData](Functions/GetCLDrpShadowData.md) | [GetClFillBack](Functions/GetClFillBack.md) | [GetClFillFore](Functions/GetClFillFore.md) |
-| [GetClFPat](Functions/GetClFPat.md) | [GetClLS](Functions/GetClLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [GetClLSN](Functions/GetClLSN.md) |
+| [GetClFPat](Functions/GetClFPat.md) | [GetClLS](Functions/GetClLS.md) <sub>*obsolete in Vectorworks 2013*</sub> | [GetClLSN](Functions/GetClLSN.md) |
 | [GetClLW](Functions/GetClLW.md) | [GetClOpacity](Functions/GetClOpacity.md) | [GetClOpacityN](Functions/GetClOpacityN.md) |
 | [GetClPenBack](Functions/GetClPenBack.md) | [GetClPenFore](Functions/GetClPenFore.md) | [GetClTextStyleRef](Functions/GetClTextStyleRef.md) |
 | [GetClUseGraphic](Functions/GetClUseGraphic.md) | [GetClUseTextStyle](Functions/GetClUseTextStyle.md) | [GetClVectorFill](Functions/GetClVectorFill.md) |
 | [GetCVis](Functions/GetCVis.md) | [GrayClass](Functions/GrayClass.md) | [HideClass](Functions/HideClass.md) |
 | [LSByClass](Functions/LSByClass.md) | [LWByClass](Functions/LWByClass.md) | [MarkerByClass](Functions/MarkerByClass.md) |
 | [NameClass](Functions/NameClass.md) | [OpacityByClass](Functions/OpacityByClass.md) | [OpacityByClassN](Functions/OpacityByClassN.md) |
-| [PenColorByClass](Functions/PenColorByClass.md) | [RenameClass](Functions/RenameClass.md) | [SetClassArrow](Functions/SetClassArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>|
+| [PenColorByClass](Functions/PenColorByClass.md) | [RenameClass](Functions/RenameClass.md) | [SetClassArrow](Functions/SetClassArrow.md) <sub>*obsolete in VectorWorks 2008*</sub> |
 | [SetClassBeginningMarker](Functions/SetClassBeginningMarker.md) | [SetClassEndMarker](Functions/SetClassEndMarker.md) | [SetClassOptions](Functions/SetClassOptions.md) |
 | [SetCLDrpShadowData](Functions/SetCLDrpShadowData.md) | [SetClFillBack](Functions/SetClFillBack.md) | [SetClFillFore](Functions/SetClFillFore.md) |
-| [SetClFPat](Functions/SetClFPat.md) | [SetClLS](Functions/SetClLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [SetClLSN](Functions/SetClLSN.md) |
+| [SetClFPat](Functions/SetClFPat.md) | [SetClLS](Functions/SetClLS.md) <sub>*obsolete in Vectorworks 2013*</sub> | [SetClLSN](Functions/SetClLSN.md) |
 | [SetClLW](Functions/SetClLW.md) | [SetClOpacity](Functions/SetClOpacity.md) | [SetCLOpacityN](Functions/SetCLOpacityN.md) |
 | [SetClPenBack](Functions/SetClPenBack.md) | [SetClPenFore](Functions/SetClPenFore.md) | [SetClTextStyleRef](Functions/SetClTextStyleRef.md) |
 | [SetClUseGraphic](Functions/SetClUseGraphic.md) | [SetClUseTextStyle](Functions/SetClUseTextStyle.md) | [SetClUseTexture](Functions/SetClUseTexture.md) |
 | [SetClVectorFill](Functions/SetClVectorFill.md) | [ShowClass](Functions/ShowClass.md) 
 
 ## Color
+
 | | | |
 |---|---|---|
 | [RunColorPaletteMgr](Functions/RunColorPaletteMgr.md) | [RunNewColorPalette](Functions/RunNewColorPalette.md) 
 
 ## Command
+
 | | | |
 |---|---|---|
 | [Absolute](Functions/Absolute.md) | [AcquireExportPDFSettingsAndLocation](Functions/AcquireExportPDFSettingsAndLocation.md) | [AngleVar](Functions/AngleVar.md) |
-| [ClosePDFDocument](Functions/ClosePDFDocument.md) | [DoMenuText](Functions/DoMenuText.md) <sub>*obsolete in VectorWorks8.0*</sub>| [DoMenuTextByName](Functions/DoMenuTextByName.md) |
+| [ClosePDFDocument](Functions/ClosePDFDocument.md) | [DoMenuText](Functions/DoMenuText.md) <sub>*obsolete in VectorWorks8.0*</sub> | [DoMenuTextByName](Functions/DoMenuTextByName.md) |
 | [ExportPDFPages](Functions/ExportPDFPages.md) | [Move](Functions/Move.md) | [MoveTo](Functions/MoveTo.md) |
 | [NoAngleVar](Functions/NoAngleVar.md) | [OpenPDFDocument](Functions/OpenPDFDocument.md) | [PenLoc](Functions/PenLoc.md) |
 | [PopAttrs](Functions/PopAttrs.md) | [PrintUsingPrintDialog](Functions/PrintUsingPrintDialog.md) | [PrintWithoutUsingPrintDialog](Functions/PrintWithoutUsingPrintDialog.md) |
@@ -71,6 +74,7 @@
 | [SetTool](Functions/SetTool.md) 
 
 ## ConnectCAD
+
 | | | |
 |---|---|---|
 | [CC_CircuitFromShape](Functions/CC_CircuitFromShape.md) | [CC_DeviceFromShape](Functions/CC_DeviceFromShape.md) | [CC_GetCableTypeData](Functions/CC_GetCableTypeData.md) |
@@ -80,43 +84,45 @@
 | [CC_RouteFromShape](Functions/CC_RouteFromShape.md) 
 
 ## Criteria
+
 | | | |
 |---|---|---|
-| [Angle](Functions/Angle.md) | [Area](Functions/Area.md) <sub>*obsolete in VectorWorks12.5*</sub>| [AreaN](Functions/AreaN.md) |
-| [BotBound](Functions/BotBound.md) <sub>*obsolete in Vectorworks 2012*</sub>| [BotBoundN](Functions/BotBoundN.md) | [CheckoutObj](Functions/CheckoutObj.md) |
+| [Angle](Functions/Angle.md) | [Area](Functions/Area.md) <sub>*obsolete in VectorWorks12.5*</sub> | [AreaN](Functions/AreaN.md) |
+| [BotBound](Functions/BotBound.md) <sub>*obsolete in Vectorworks 2012*</sub> | [BotBoundN](Functions/BotBoundN.md) | [CheckoutObj](Functions/CheckoutObj.md) |
 | [ComponentArea](Functions/ComponentArea.md) | [ComponentVolume](Functions/ComponentVolume.md) | [Count](Functions/Count.md) |
-| [CriteriaArea](Functions/CriteriaArea.md) <sub>*obsolete in Vectorworks 2012*</sub>| [CriteriaSurfaceArea](Functions/CriteriaSurfaceArea.md) <sub>*obsolete in Vectorworks 2012*</sub>| [CriteriaVolume](Functions/CriteriaVolume.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [CriteriaArea](Functions/CriteriaArea.md) <sub>*obsolete in Vectorworks 2012*</sub> | [CriteriaSurfaceArea](Functions/CriteriaSurfaceArea.md) <sub>*obsolete in Vectorworks 2012*</sub> | [CriteriaVolume](Functions/CriteriaVolume.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [DSelectObj](Functions/DSelectObj.md) | [EditProperties](Functions/EditProperties.md) | [Eval](Functions/Eval.md) |
 | [EvalStr](Functions/EvalStr.md) | [ForEachObject](Functions/ForEachObject.md) | [Height](Functions/Height.md) |
-| [Hide](Functions/Hide.md) | [IsFlipped](Functions/IsFlipped.md) | [LeftBound](Functions/LeftBound.md) <sub>*obsolete in Vectorworks 2012*</sub>|
-| [LeftBoundN](Functions/LeftBoundN.md) | [Length](Functions/Length.md) <sub>*obsolete in Vectorworks 2012*</sub>| [LengthN](Functions/LengthN.md) |
-| [ObjectType](Functions/ObjectType.md) | [Perim](Functions/Perim.md) <sub>*obsolete in Vectorworks 2012*</sub>| [PerimN](Functions/PerimN.md) |
-| [ReleaseObj](Functions/ReleaseObj.md) | [RightBound](Functions/RightBound.md) <sub>*obsolete in Vectorworks 2012*</sub>| [RightBoundN](Functions/RightBoundN.md) |
+| [Hide](Functions/Hide.md) | [IsFlipped](Functions/IsFlipped.md) | [LeftBound](Functions/LeftBound.md) <sub>*obsolete in Vectorworks 2012*</sub> |
+| [LeftBoundN](Functions/LeftBoundN.md) | [Length](Functions/Length.md) <sub>*obsolete in Vectorworks 2012*</sub> | [LengthN](Functions/LengthN.md) |
+| [ObjectType](Functions/ObjectType.md) | [Perim](Functions/Perim.md) <sub>*obsolete in Vectorworks 2012*</sub> | [PerimN](Functions/PerimN.md) |
+| [ReleaseObj](Functions/ReleaseObj.md) | [RightBound](Functions/RightBound.md) <sub>*obsolete in Vectorworks 2012*</sub> | [RightBoundN](Functions/RightBoundN.md) |
 | [RoofArea_Heated](Functions/RoofArea_Heated.md) | [RoofArea_HeatedProj](Functions/RoofArea_HeatedProj.md) | [RoofArea_Total](Functions/RoofArea_Total.md) |
 | [RoofArea_TotalProj](Functions/RoofArea_TotalProj.md) | [SelectObj](Functions/SelectObj.md) | [Show](Functions/Show.md) |
-| [SlabThickness](Functions/SlabThickness.md) | [SurfaceArea](Functions/SurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub>| [SurfaceAreaN](Functions/SurfaceAreaN.md) |
-| [TopBound](Functions/TopBound.md) <sub>*obsolete in Vectorworks 2012*</sub>| [TopBoundN](Functions/TopBoundN.md) | [Volume](Functions/Volume.md) <sub>*obsolete in VectorWorks12.5*</sub>|
+| [SlabThickness](Functions/SlabThickness.md) | [SurfaceArea](Functions/SurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub> | [SurfaceAreaN](Functions/SurfaceAreaN.md) |
+| [TopBound](Functions/TopBound.md) <sub>*obsolete in Vectorworks 2012*</sub> | [TopBoundN](Functions/TopBoundN.md) | [Volume](Functions/Volume.md) <sub>*obsolete in VectorWorks12.5*</sub> |
 | [VolumeN](Functions/VolumeN.md) | [WallArea_Gross](Functions/WallArea_Gross.md) | [WallArea_Net](Functions/WallArea_Net.md) |
 | [WallAverageHeight](Functions/WallAverageHeight.md) | [WallThickness](Functions/WallThickness.md) | [Width](Functions/Width.md) |
-| [XCenter](Functions/XCenter.md) <sub>*obsolete in Vectorworks 2012*</sub>| [XCenterN](Functions/XCenterN.md) | [XCoordinate](Functions/XCoordinate.md) |
-| [YCenter](Functions/YCenter.md) <sub>*obsolete in Vectorworks 2012*</sub>| [YCenterN](Functions/YCenterN.md) | [YCoordinate](Functions/YCoordinate.md) |
-| [ZCenter](Functions/ZCenter.md) <sub>*obsolete in Vectorworks 2012*</sub>| [ZCenterN](Functions/ZCenterN.md) | [ZCoordinate](Functions/ZCoordinate.md) |
-
+| [XCenter](Functions/XCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [XCenterN](Functions/XCenterN.md) | [XCoordinate](Functions/XCoordinate.md) |
+| [YCenter](Functions/YCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [YCenterN](Functions/YCenterN.md) | [YCoordinate](Functions/YCoordinate.md) |
+| [ZCenter](Functions/ZCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [ZCenterN](Functions/ZCenterN.md) | [ZCoordinate](Functions/ZCoordinate.md) |
 
 ## Data Sheets
+
 | | | |
 |---|---|---|
 | [DSH_GetDSCount](Functions/DSH_GetDSCount.md) | [DSH_GetDSFieldInfoAt](Functions/DSH_GetDSFieldInfoAt.md) | [DSH_GetDSFieldsCount](Functions/DSH_GetDSFieldsCount.md) |
 | [DSH_GetDSFieldValue](Functions/DSH_GetDSFieldValue.md) | [DSH_GetDSNameAt](Functions/DSH_GetDSNameAt.md) | [DSH_SetDSFieldValue](Functions/DSH_SetDSFieldValue.md) |
 
-
 ## Data Tag Interface Library
+
 | | | |
 |---|---|---|
 | [DT_AssociateWithObj](Functions/DT_AssociateWithObj.md) | [DT_BeginMultipleMove](Functions/DT_BeginMultipleMove.md) | [DT_EndMultipleMove](Functions/DT_EndMultipleMove.md) |
 | [DT_ResetAllDataTags](Functions/DT_ResetAllDataTags.md) | [DT_UpdateTaggedTags](Functions/DT_UpdateTaggedTags.md) 
 
 ## Database / Record
+
 | | | |
 |---|---|---|
 | [DelRecord](Functions/DelRecord.md) | [Field](Functions/Field.md) | [GetFldFlag](Functions/GetFldFlag.md) |
@@ -128,6 +134,7 @@
 | [SetRFieldOpt](Functions/SetRFieldOpt.md) 
 
 ## Dialogs - Modern
+
 | | | |
 |---|---|---|
 | [AddButtonMode](Functions/AddButtonMode.md) | [AddChoice](Functions/AddChoice.md) | [AddListBoxTabStop](Functions/AddListBoxTabStop.md) |
@@ -139,7 +146,7 @@
 | [CreateDataVisPDMenu](Functions/CreateDataVisPDMenu.md) | [CreateDesignLayerPullDownMenu](Functions/CreateDesignLayerPullDownMenu.md) | [CreateEditColorText](Functions/CreateEditColorText.md) |
 | [CreateEditInteger](Functions/CreateEditInteger.md) | [CreateEditPassword](Functions/CreateEditPassword.md) | [CreateEditReal](Functions/CreateEditReal.md) |
 | [CreateEditText](Functions/CreateEditText.md) | [CreateEditTextBox](Functions/CreateEditTextBox.md) | [CreateEnhancedPullDownMenu](Functions/CreateEnhancedPullDownMenu.md) |
-| [CreateGradient](Functions/CreateGradient.md) | [CreateGroupBox](Functions/CreateGroupBox.md) | [CreateIconPushButton](Functions/CreateIconPushButton.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [CreateGradient](Functions/CreateGradient.md) | [CreateGroupBox](Functions/CreateGroupBox.md) | [CreateIconPushButton](Functions/CreateIconPushButton.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [CreateImageControl](Functions/CreateImageControl.md) | [CreateImageControl2](Functions/CreateImageControl2.md) | [CreateImagePushButton](Functions/CreateImagePushButton.md) |
 | [CreateLayerPDMenu](Functions/CreateLayerPDMenu.md) | [CreateLayout](Functions/CreateLayout.md) | [CreateLineAttributePopup](Functions/CreateLineAttributePopup.md) |
 | [CreateLineStylePopup](Functions/CreateLineStylePopup.md) | [CreateLineWeightPopup](Functions/CreateLineWeightPopup.md) | [CreateListBox](Functions/CreateListBox.md) |
@@ -164,18 +171,18 @@
 | [GetGradientSliderSelectedMarker](Functions/GetGradientSliderSelectedMarker.md) | [GetIconPushButtonState](Functions/GetIconPushButtonState.md) | [GetImagePopupObject](Functions/GetImagePopupObject.md) |
 | [GetImagePopupObjectItemIndex](Functions/GetImagePopupObjectItemIndex.md) | [GetImagePopupSelectedItem](Functions/GetImagePopupSelectedItem.md) | [GetItemText](Functions/GetItemText.md) |
 | [GetLayoutDialogPosition](Functions/GetLayoutDialogPosition.md) | [GetLayoutDialogSize](Functions/GetLayoutDialogSize.md) | [GetLBHeaderTextWidth](Functions/GetLBHeaderTextWidth.md) |
-| [GetLineAttributeData](Functions/GetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetLineStyleChoice](Functions/GetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetLineTypeAtIndex](Functions/GetLineTypeAtIndex.md) |
+| [GetLineAttributeData](Functions/GetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetLineStyleChoice](Functions/GetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetLineTypeAtIndex](Functions/GetLineTypeAtIndex.md) |
 | [GetLineTypeAttriData](Functions/GetLineTypeAttriData.md) | [GetLineTypeChoice](Functions/GetLineTypeChoice.md) | [GetLineWeightChoice](Functions/GetLineWeightChoice.md) |
-| [GetMarkerChoice](Functions/GetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetMarkerPopupSelectedItem](Functions/GetMarkerPopupSelectedItem.md) | [GetMarkerValue](Functions/GetMarkerValue.md) |
+| [GetMarkerChoice](Functions/GetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [GetMarkerPopupSelectedItem](Functions/GetMarkerPopupSelectedItem.md) | [GetMarkerValue](Functions/GetMarkerValue.md) |
 | [GetMultilineText](Functions/GetMultilineText.md) | [GetNumGradientSliderSegments](Functions/GetNumGradientSliderSegments.md) | [GetNumImagePopupItems](Functions/GetNumImagePopupItems.md) |
 | [GetNumLineTypeItems](Functions/GetNumLineTypeItems.md) | [GetPatternData](Functions/GetPatternData.md) | [GetPopUpChoiceIndex](Functions/GetPopUpChoiceIndex.md) |
 | [GetSelectedChoiceIndex](Functions/GetSelectedChoiceIndex.md) | [GetSelectedChoiceInfo](Functions/GetSelectedChoiceInfo.md) | [GetSelectionRange](Functions/GetSelectionRange.md) |
 | [GetStoryBoundChoiceStrings](Functions/GetStoryBoundChoiceStrings.md) | [GetStoryBoundDataFromChoiceString](Functions/GetStoryBoundDataFromChoiceString.md) | [GetStoryChoiceStrsN](Functions/GetStoryChoiceStrsN.md) |
 | [GetThreeStateCheckBoxState](Functions/GetThreeStateCheckBoxState.md) | [GetTreeControlItemData](Functions/GetTreeControlItemData.md) | [GetTreeControlItemText](Functions/GetTreeControlItemText.md) |
-| [GetTreeControlSelectedItem](Functions/GetTreeControlSelectedItem.md) | [GetTreeControlTextSelectedItem](Functions/GetTreeControlTextSelectedItem.md) | [InsertEnhancedPullDownMenuItem](Functions/InsertEnhancedPullDownMenuItem.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [GetTreeControlSelectedItem](Functions/GetTreeControlSelectedItem.md) | [GetTreeControlTextSelectedItem](Functions/GetTreeControlTextSelectedItem.md) | [InsertEnhancedPullDownMenuItem](Functions/InsertEnhancedPullDownMenuItem.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [InsertEnhanPullDownMenuItem](Functions/InsertEnhanPullDownMenuItem.md) | [InsertGradientSliderSegment](Functions/InsertGradientSliderSegment.md) | [InsertGradientSliSeg](Functions/InsertGradientSliSeg.md) |
 | [InsertImagePopupObjectItem](Functions/InsertImagePopupObjectItem.md) | [InsertImagePopupResource](Functions/InsertImagePopupResource.md) | [InsertImagePopupSeparator](Functions/InsertImagePopupSeparator.md) |
-| [InsertPropClassOrLayerItem](Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub>| [InsertTreeControlItem](Functions/InsertTreeControlItem.md) |
+| [InsertPropClassOrLayerItem](Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub> | [InsertTreeControlItem](Functions/InsertTreeControlItem.md) |
 | [IsClassChoiceSelected](Functions/IsClassChoiceSelected.md) | [IsItemEnabled](Functions/IsItemEnabled.md) | [IsItemVisible](Functions/IsItemVisible.md) |
 | [NotifyPullDownClicked](Functions/NotifyPullDownClicked.md) | [RefreshItem](Functions/RefreshItem.md) | [RegisterDialogForTimerEvents](Functions/RegisterDialogForTimerEvents.md) |
 | [RemoveAllImagePopupItems](Functions/RemoveAllImagePopupItems.md) | [RemoveChoice](Functions/RemoveChoice.md) | [RemoveEnhancedPullDownMenuItemRange](Functions/RemoveEnhancedPullDownMenuItemRange.md) |
@@ -193,9 +200,9 @@
 | [SetImageControlPath](Functions/SetImageControlPath.md) | [SetImagePopupSelectedItem](Functions/SetImagePopupSelectedItem.md) | [SetItemClickable](Functions/SetItemClickable.md) |
 | [SetItemText](Functions/SetItemText.md) | [SetItemToolTipText](Functions/SetItemToolTipText.md) | [SetLayoutDialogPosition](Functions/SetLayoutDialogPosition.md) |
 | [SetLayoutDialogSize](Functions/SetLayoutDialogSize.md) | [SetLayoutOption](Functions/SetLayoutOption.md) | [SetLBImageIndexes](Functions/SetLBImageIndexes.md) |
-| [SetLineAttributeData](Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetLineStyleChoice](Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetLineTypeAttriData](Functions/SetLineTypeAttriData.md) |
+| [SetLineAttributeData](Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineStyleChoice](Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineTypeAttriData](Functions/SetLineTypeAttriData.md) |
 | [SetLineTypeChoice](Functions/SetLineTypeChoice.md) | [SetLineWeightChoice](Functions/SetLineWeightChoice.md) | [SetListBoxTabStops](Functions/SetListBoxTabStops.md) |
-| [SetMarkerChoice](Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetMarkerValue](Functions/SetMarkerValue.md) | [SetPatternData](Functions/SetPatternData.md) |
+| [SetMarkerChoice](Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerValue](Functions/SetMarkerValue.md) | [SetPatternData](Functions/SetPatternData.md) |
 | [SetProportionalBinding](Functions/SetProportionalBinding.md) | [SetRightItem](Functions/SetRightItem.md) | [SetSelectionRange](Functions/SetSelectionRange.md) |
 | [SetSliderLiveUpdate](Functions/SetSliderLiveUpdate.md) | [SetStaticTextColor](Functions/SetStaticTextColor.md) | [SetStaticTextColorN](Functions/SetStaticTextColorN.md) |
 | [SetStaticTextStyle](Functions/SetStaticTextStyle.md) | [SetThreeStateCheckBoxState](Functions/SetThreeStateCheckBoxState.md) | [SetTreeControlItemData](Functions/SetTreeControlItemData.md) |
@@ -206,9 +213,10 @@
 | [VerifyLayout](Functions/VerifyLayout.md) 
 
 ## Dialogs - Modern - Browser
+
 | | | |
 |---|---|---|
-| [AddLBImage](Functions/AddLBImage.md) <sub>*obsolete in Vectorworks 2012*</sub>| [AddLBOriginalName](Functions/AddLBOriginalName.md) | [AddListBrowserImage](Functions/AddListBrowserImage.md) |
+| [AddLBImage](Functions/AddLBImage.md) <sub>*obsolete in Vectorworks 2012*</sub> | [AddLBOriginalName](Functions/AddLBOriginalName.md) | [AddListBrowserImage](Functions/AddListBrowserImage.md) |
 | [AreLBColumnLinesEnabled](Functions/AreLBColumnLinesEnabled.md) | [AreLBRadioColumnLinesEnabled](Functions/AreLBRadioColumnLinesEnabled.md) | [CollapseAllLBItems](Functions/CollapseAllLBItems.md) |
 | [CreateLB](Functions/CreateLB.md) | [DeleteAllLBItems](Functions/DeleteAllLBItems.md) | [DeleteLBColumn](Functions/DeleteLBColumn.md) |
 | [DeleteLBItem](Functions/DeleteLBItem.md) | [EnableLB](Functions/EnableLB.md) | [EnableLBClickAllDataChange](Functions/EnableLBClickAllDataChange.md) |
@@ -219,7 +227,7 @@
 | [FindLBColumnItem](Functions/FindLBColumnItem.md) | [GetLBColumnDataItemInfo](Functions/GetLBColumnDataItemInfo.md) | [GetLBColumnHeaderJust](Functions/GetLBColumnHeaderJust.md) |
 | [GetLBColumnHeaderToolTip](Functions/GetLBColumnHeaderToolTip.md) | [GetLBColumnOwnerDrawnType](Functions/GetLBColumnOwnerDrawnType.md) | [GetLBColumnSortState](Functions/GetLBColumnSortState.md) |
 | [GetLBColumnWidth](Functions/GetLBColumnWidth.md) | [GetLBControlType](Functions/GetLBControlType.md) | [GetLBEditDisplayType](Functions/GetLBEditDisplayType.md) |
-| [GetLBEventInfo](Functions/GetLBEventInfo.md) | [GetLBItemByClass](Functions/GetLBItemByClass.md) | [GetLBItemDashStyle](Functions/GetLBItemDashStyle.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [GetLBEventInfo](Functions/GetLBEventInfo.md) | [GetLBItemByClass](Functions/GetLBItemByClass.md) | [GetLBItemDashStyle](Functions/GetLBItemDashStyle.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [GetLBItemData](Functions/GetLBItemData.md) | [GetLBItemDisplayType](Functions/GetLBItemDisplayType.md) | [GetLBItemFillBackColor](Functions/GetLBItemFillBackColor.md) |
 | [GetLBItemFillForeColor](Functions/GetLBItemFillForeColor.md) | [GetLBItemGradientOrImageRefNumber](Functions/GetLBItemGradientOrImageRefNumber.md) | [GetLBItemHatchRefNum](Functions/GetLBItemHatchRefNum.md) |
 | [GetLBItemInfo](Functions/GetLBItemInfo.md) | [GetLBItemLineType](Functions/GetLBItemLineType.md) | [GetLBItemMkrByClass](Functions/GetLBItemMkrByClass.md) |
@@ -237,7 +245,7 @@
 | [SetFocusOnLB](Functions/SetFocusOnLB.md) | [SetLBColumnHeaderJust](Functions/SetLBColumnHeaderJust.md) | [SetLBColumnHeaderToolTip](Functions/SetLBColumnHeaderToolTip.md) |
 | [SetLBColumnImage](Functions/SetLBColumnImage.md) | [SetLBColumnOwnerDrawnType](Functions/SetLBColumnOwnerDrawnType.md) | [SetLBColumnWidth](Functions/SetLBColumnWidth.md) |
 | [SetLBControlType](Functions/SetLBControlType.md) | [SetLBDragDropColumn](Functions/SetLBDragDropColumn.md) | [SetLBEditDisplayType](Functions/SetLBEditDisplayType.md) |
-| [SetLBHierDispColumn](Functions/SetLBHierDispColumn.md) | [SetLBItemByClass](Functions/SetLBItemByClass.md) | [SetLBItemDashStyle](Functions/SetLBItemDashStyle.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [SetLBHierDispColumn](Functions/SetLBHierDispColumn.md) | [SetLBItemByClass](Functions/SetLBItemByClass.md) | [SetLBItemDashStyle](Functions/SetLBItemDashStyle.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [SetLBItemData](Functions/SetLBItemData.md) | [SetLBItemDisplayType](Functions/SetLBItemDisplayType.md) | [SetLBItemFillBackColor](Functions/SetLBItemFillBackColor.md) |
 | [SetLBItemFillForeColor](Functions/SetLBItemFillForeColor.md) | [SetLBItemGradientOrImageRefNumber](Functions/SetLBItemGradientOrImageRefNumber.md) | [SetLBItemHatchRefNum](Functions/SetLBItemHatchRefNum.md) |
 | [SetLBItemInfo](Functions/SetLBItemInfo.md) | [SetLBItemInteracType](Functions/SetLBItemInteracType.md) | [SetLBItemLineType](Functions/SetLBItemLineType.md) |
@@ -245,12 +253,13 @@
 | [SetLBItemPenBackColor](Functions/SetLBItemPenBackColor.md) | [SetLBItemPenForeColor](Functions/SetLBItemPenForeColor.md) | [SetLBItemReadOnly](Functions/SetLBItemReadOnly.md) |
 | [SetLBItemTextColor](Functions/SetLBItemTextColor.md) | [SetLBItemTextColorN](Functions/SetLBItemTextColorN.md) | [SetLBItemTextJust](Functions/SetLBItemTextJust.md) |
 | [SetLBItemTextStyle](Functions/SetLBItemTextStyle.md) | [SetLBItemTileRefNum](Functions/SetLBItemTileRefNum.md) | [SetLBItemUsingColumnDataItem](Functions/SetLBItemUsingColumnDataItem.md) |
-| [SetLBMultImageIndexes](Functions/SetLBMultImageIndexes.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetLBNumericItemInfo](Functions/SetLBNumericItemInfo.md) | [SetLBOrigNameClLevel](Functions/SetLBOrigNameClLevel.md) |
+| [SetLBMultImageIndexes](Functions/SetLBMultImageIndexes.md) <sub>*obsolete in Vectorworks 2012*</sub> | [SetLBNumericItemInfo](Functions/SetLBNumericItemInfo.md) | [SetLBOrigNameClLevel](Functions/SetLBOrigNameClLevel.md) |
 | [SetLBReadOnly](Functions/SetLBReadOnly.md) | [SetLBResOnlyCurDoc](Functions/SetLBResOnlyCurDoc.md) | [SetLBSelection](Functions/SetLBSelection.md) |
 | [SetLBSortColumn](Functions/SetLBSortColumn.md) | [ShowLBHeader](Functions/ShowLBHeader.md) | [ShowLBItemByClassOpt](Functions/ShowLBItemByClassOpt.md) |
 | [ShowLBItemMkrByClass](Functions/ShowLBItemMkrByClass.md) | [ShowLBItemMkrEditLst](Functions/ShowLBItemMkrEditLst.md) 
 
 ## Dialogs - Predefined
+
 | | | |
 |---|---|---|
 | [AlertCritical](Functions/AlertCritical.md) | [AlertCriticalHLink](Functions/AlertCriticalHLink.md) | [AlertInform](Functions/AlertInform.md) |
@@ -262,8 +271,8 @@
 | [NonUndoableActionOK](Functions/NonUndoableActionOK.md) | [PtDialog](Functions/PtDialog.md) | [PtDialog3D](Functions/PtDialog3D.md) |
 | [RealDialog](Functions/RealDialog.md) | [StrDialog](Functions/StrDialog.md) | [YNDialog](Functions/YNDialog.md) |
 
-
 ## Dimensions
+
 | | | |
 |---|---|---|
 | [AngularDim](Functions/AngularDim.md) | [AssociateLinearDimension](Functions/AssociateLinearDimension.md) | [CircularDim](Functions/CircularDim.md) |
@@ -272,8 +281,8 @@
 | [HasDim](Functions/HasDim.md) | [LimitTolerance](Functions/LimitTolerance.md) | [LinearDim](Functions/LinearDim.md) |
 | [SetDimNote](Functions/SetDimNote.md) | [SetDimText](Functions/SetDimText.md) | [SingleTolerance](Functions/SingleTolerance.md) |
 
-
 ## Document Attributes
+
 | | | |
 |---|---|---|
 | [AddTileGeometryObject](Functions/AddTileGeometryObject.md) | [CreateImageFromPaint](Functions/CreateImageFromPaint.md) | [CreateImgFromSymbol](Functions/CreateImgFromSymbol.md) |
@@ -284,22 +293,22 @@
 | [FFillBack](Functions/FFillBack.md) | [FFillColorByClass](Functions/FFillColorByClass.md) | [FFillFore](Functions/FFillFore.md) |
 | [FFillPat](Functions/FFillPat.md) | [FFPatByClass](Functions/FFPatByClass.md) | [FillBack](Functions/FillBack.md) |
 | [FillFore](Functions/FillFore.md) | [FillPat](Functions/FillPat.md) | [FLSByClass](Functions/FLSByClass.md) |
-| [FLWByClass](Functions/FLWByClass.md) | [FMarker](Functions/FMarker.md) <sub>*obsolete in VectorWorks 2008*</sub>| [FMarkerByClass](Functions/FMarkerByClass.md) |
+| [FLWByClass](Functions/FLWByClass.md) | [FMarker](Functions/FMarker.md) <sub>*obsolete in VectorWorks 2008*</sub> | [FMarkerByClass](Functions/FMarkerByClass.md) |
 | [FPenBack](Functions/FPenBack.md) | [FPenColorByClass](Functions/FPenColorByClass.md) | [FPenFore](Functions/FPenFore.md) |
-| [FPenPat](Functions/FPenPat.md) <sub>*obsolete in Vectorworks 2013*</sub>| [FPenPatN](Functions/FPenPatN.md) | [FPenSize](Functions/FPenSize.md) |
-| [GetDashDataValPairAt](Functions/GetDashDataValPairAt.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetDashDataValPrAtN](Functions/GetDashDataValPrAtN.md) | [GetDashStyle](Functions/GetDashStyle.md) <sub>*obsolete in Vectorworks 2019*</sub>|
-| [GetDashStyleIndex](Functions/GetDashStyleIndex.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetDashStyleIndexN](Functions/GetDashStyleIndexN.md) | [GetDashStyleN](Functions/GetDashStyleN.md) |
+| [FPenPat](Functions/FPenPat.md) <sub>*obsolete in Vectorworks 2013*</sub> | [FPenPatN](Functions/FPenPatN.md) | [FPenSize](Functions/FPenSize.md) |
+| [GetDashDataValPairAt](Functions/GetDashDataValPairAt.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetDashDataValPrAtN](Functions/GetDashDataValPrAtN.md) | [GetDashStyle](Functions/GetDashStyle.md) <sub>*obsolete in Vectorworks 2019*</sub> |
+| [GetDashStyleIndex](Functions/GetDashStyleIndex.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetDashStyleIndexN](Functions/GetDashStyleIndexN.md) | [GetDashStyleN](Functions/GetDashStyleN.md) |
 | [GetDefaultBeginningMarker](Functions/GetDefaultBeginningMarker.md) | [GetDefaultEndMarker](Functions/GetDefaultEndMarker.md) | [GetDefaultOpacity](Functions/GetDefaultOpacity.md) |
 | [GetDefaultOpacityN](Functions/GetDefaultOpacityN.md) | [GetDefOpacityByClsN](Functions/GetDefOpacityByClsN.md) | [GetDocDrpShadowData](Functions/GetDocDrpShadowData.md) |
 | [GetDocumentDefaultSketchStyle](Functions/GetDocumentDefaultSketchStyle.md) | [GetGradientData](Functions/GetGradientData.md) | [GetGradientDataN](Functions/GetGradientDataN.md) |
 | [GetGradientMidpointPosition](Functions/GetGradientMidpointPosition.md) | [GetGradientOpacity](Functions/GetGradientOpacity.md) | [GetGradientSpotColor](Functions/GetGradientSpotColor.md) |
-| [GetGradientSpotPosition](Functions/GetGradientSpotPosition.md) | [GetNumDashDataPairs](Functions/GetNumDashDataPairs.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetNumDashDataPairsN](Functions/GetNumDashDataPairsN.md) |
+| [GetGradientSpotPosition](Functions/GetGradientSpotPosition.md) | [GetNumDashDataPairs](Functions/GetNumDashDataPairs.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetNumDashDataPairsN](Functions/GetNumDashDataPairsN.md) |
 | [GetNumGradientSegments](Functions/GetNumGradientSegments.md) | [GetTileBackgroundColor](Functions/GetTileBackgroundColor.md) | [GetTileGeometryGroup](Functions/GetTileGeometryGroup.md) |
 | [GetTileGroupParent](Functions/GetTileGroupParent.md) | [GetTileOffsetPoint](Functions/GetTileOffsetPoint.md) | [GetTileRepetitionPoint](Functions/GetTileRepetitionPoint.md) |
 | [InsertGradientData](Functions/InsertGradientData.md) | [InsertGradientSegment](Functions/InsertGradientSegment.md) | [IsTileGroupContainedObject](Functions/IsTileGroupContainedObject.md) |
-| [IsUserColor](Functions/IsUserColor.md) | [Marker](Functions/Marker.md) <sub>*obsolete in VectorWorks 2008*</sub>| [NumColors](Functions/NumColors.md) |
-| [NumDashStyles](Functions/NumDashStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>| [Opacity](Functions/Opacity.md) | [OpacityN](Functions/OpacityN.md) |
-| [PenBack](Functions/PenBack.md) | [PenFore](Functions/PenFore.md) | [PenPat](Functions/PenPat.md) <sub>*obsolete in Vectorworks 2013*</sub>|
+| [IsUserColor](Functions/IsUserColor.md) | [Marker](Functions/Marker.md) <sub>*obsolete in VectorWorks 2008*</sub> | [NumColors](Functions/NumColors.md) |
+| [NumDashStyles](Functions/NumDashStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> | [Opacity](Functions/Opacity.md) | [OpacityN](Functions/OpacityN.md) |
+| [PenBack](Functions/PenBack.md) | [PenFore](Functions/PenFore.md) | [PenPat](Functions/PenPat.md) <sub>*obsolete in Vectorworks 2013*</sub> |
 | [PenPatN](Functions/PenPatN.md) | [PenSize](Functions/PenSize.md) | [RemoveGradientSegment](Functions/RemoveGradientSegment.md) |
 | [SetDashStyle](Functions/SetDashStyle.md) | [SetDashStyleN](Functions/SetDashStyleN.md) | [SetDefaultBeginningMarker](Functions/SetDefaultBeginningMarker.md) |
 | [SetDefaultEndMarker](Functions/SetDefaultEndMarker.md) | [SetDefaultOpacity](Functions/SetDefaultOpacity.md) | [SetDefaultOpacityByClass](Functions/SetDefaultOpacityByClass.md) |
@@ -312,6 +321,7 @@
 | [ShowPlanShadowsTab](Functions/ShowPlanShadowsTab.md) 
 
 ## Document List Handling
+
 | | | |
 |---|---|---|
 | [AddResourceToList](Functions/AddResourceToList.md) | [BeginFolder](Functions/BeginFolder.md) | [BeginFolderN](Functions/BeginFolderN.md) |
@@ -335,14 +345,14 @@
 | [ResList_RemRsrcCtrls](Functions/ResList_RemRsrcCtrls.md) | [ResList_SelFAvail](Functions/ResList_SelFAvail.md) | [ResList_SetSel](Functions/ResList_SetSel.md) |
 | [ResList_SetSelCtrl](Functions/ResList_SetSelCtrl.md) | [ResourceListSize](Functions/ResourceListSize.md) | [SetParent](Functions/SetParent.md) |
 
-
 ## Document Settings
+
 | | | |
 |---|---|---|
-| [DeleteAllDLComponents](Functions/DeleteAllDLComponents.md) | [DeleteDLComponent](Functions/DeleteDLComponent.md) | [DoubLines](Functions/DoubLines.md) <sub>*obsolete in VectorWorks12.5*</sub>|
+| [DeleteAllDLComponents](Functions/DeleteAllDLComponents.md) | [DeleteDLComponent](Functions/DeleteDLComponent.md) | [DoubLines](Functions/DoubLines.md) <sub>*obsolete in VectorWorks12.5*</sub> |
 | [DrwSize](Functions/DrwSize.md) | [GetCurrentPlanarRefID](Functions/GetCurrentPlanarRefID.md) | [GetDefaultTextSize](Functions/GetDefaultTextSize.md) |
 | [GetDLComponentClass](Functions/GetDLComponentClass.md) | [GetDLComponentFill](Functions/GetDLComponentFill.md) | [GetDLComponentFillColors](Functions/GetDLComponentFillColors.md) |
-| [GetDLComponentName](Functions/GetDLComponentName.md) | [GetDLComponentPenColors](Functions/GetDLComponentPenColors.md) | [GetDLComponentPenStyles](Functions/GetDLComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [GetDLComponentName](Functions/GetDLComponentName.md) | [GetDLComponentPenColors](Functions/GetDLComponentPenColors.md) | [GetDLComponentPenStyles](Functions/GetDLComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [GetDLComponentPenWeights](Functions/GetDLComponentPenWeights.md) | [GetDLComponentUseFillClassAttr](Functions/GetDLComponentUseFillClassAttr.md) | [GetDLComponentUsePenClassAttr](Functions/GetDLComponentUsePenClassAttr.md) |
 | [GetDLComponentWidth](Functions/GetDLComponentWidth.md) | [GetDLCompPenStylesN](Functions/GetDLCompPenStylesN.md) | [GetDLControlOffset](Functions/GetDLControlOffset.md) |
 | [GetDLOptions](Functions/GetDLOptions.md) | [GetDLSeparation](Functions/GetDLSeparation.md) | [GetDrawingSizeRect](Functions/GetDrawingSizeRect.md) |
@@ -350,11 +360,11 @@
 | [GetOrigin](Functions/GetOrigin.md) | [GetOriginInDocUnits](Functions/GetOriginInDocUnits.md) | [GetPref](Functions/GetPref.md) |
 | [GetPrefInt](Functions/GetPrefInt.md) | [GetPrefLongInt](Functions/GetPrefLongInt.md) | [GetPrefReal](Functions/GetPrefReal.md) |
 | [GetPrefRGB](Functions/GetPrefRGB.md) | [GetPrefString](Functions/GetPrefString.md) | [GetWallPrefStyle](Functions/GetWallPrefStyle.md) |
-| [GridLines](Functions/GridLines.md) | [InsertNewDLCompN](Functions/InsertNewDLCompN.md) | [InsertNewDLComponent](Functions/InsertNewDLComponent.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [GridLines](Functions/GridLines.md) | [InsertNewDLCompN](Functions/InsertNewDLCompN.md) | [InsertNewDLComponent](Functions/InsertNewDLComponent.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [PenGrid](Functions/PenGrid.md) | [RunGridSettingsDlg](Functions/RunGridSettingsDlg.md) | [SetConstrain](Functions/SetConstrain.md) |
 | [SetDimStd](Functions/SetDimStd.md) | [SetDLComponentClass](Functions/SetDLComponentClass.md) | [SetDLComponentFill](Functions/SetDLComponentFill.md) |
 | [SetDLComponentFillColors](Functions/SetDLComponentFillColors.md) | [SetDLComponentName](Functions/SetDLComponentName.md) | [SetDLComponentPenColors](Functions/SetDLComponentPenColors.md) |
-| [SetDLComponentPenStyles](Functions/SetDLComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetDLComponentPenWeights](Functions/SetDLComponentPenWeights.md) | [SetDLComponentUseFillClassAttr](Functions/SetDLComponentUseFillClassAttr.md) |
+| [SetDLComponentPenStyles](Functions/SetDLComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetDLComponentPenWeights](Functions/SetDLComponentPenWeights.md) | [SetDLComponentUseFillClassAttr](Functions/SetDLComponentUseFillClassAttr.md) |
 | [SetDLComponentUsePenClassAttr](Functions/SetDLComponentUsePenClassAttr.md) | [SetDLComponentWidth](Functions/SetDLComponentWidth.md) | [SetDLCompPenStylesN](Functions/SetDLCompPenStylesN.md) |
 | [SetDLControlOffset](Functions/SetDLControlOffset.md) | [SetDLOptions](Functions/SetDLOptions.md) | [SetDLSeparation](Functions/SetDLSeparation.md) |
 | [SetOrigin](Functions/SetOrigin.md) | [SetOriginAbsolute](Functions/SetOriginAbsolute.md) | [SetPref](Functions/SetPref.md) |
@@ -362,8 +372,8 @@
 | [SetPrefRGB](Functions/SetPrefRGB.md) | [SetPrefString](Functions/SetPrefString.md) | [SetPrimaryDim](Functions/SetPrimaryDim.md) |
 | [SetSecondaryDim](Functions/SetSecondaryDim.md) | [SetUnits](Functions/SetUnits.md) | [SetWallPrefStyle](Functions/SetWallPrefStyle.md) |
 
-
 ## EnergyAnalysis Interface Library
+
 | | | |
 |---|---|---|
 | [EA_ConvDoc2X](Functions/EA_ConvDoc2X.md) | [EA_ConvStr2X](Functions/EA_ConvStr2X.md) | [EA_ConvX2Doc](Functions/EA_ConvX2Doc.md) |
@@ -377,6 +387,7 @@
 | [EA_IsUsedUValue](Functions/EA_IsUsedUValue.md) | [EA_UValueText](Functions/EA_UValueText.md) 
 
 ## Excel
+
 | | | |
 |---|---|---|
 | [Excel_Convert](Functions/Excel_Convert.md) | [EXL_AddSheet](Functions/EXL_AddSheet.md) | [EXL_CloseBook](Functions/EXL_CloseBook.md) |
@@ -392,6 +403,7 @@
 | [EXL_SetCellStrFormula](Functions/EXL_SetCellStrFormula.md) | [EXL_SetCellString](Functions/EXL_SetCellString.md) 
 
 ## File I/O
+
 | | | |
 |---|---|---|
 | [Append](Functions/Append.md) | [Close](Functions/Close.md) | [ConvertHSF2PosixPath](Functions/ConvertHSF2PosixPath.md) |
@@ -411,6 +423,7 @@
 | [WriteMac](Functions/WriteMac.md) 
 
 ## General Edit
+
 | | | |
 |---|---|---|
 | [AlignDistribute2D](Functions/AlignDistribute2D.md) | [AlignDistribute3D](Functions/AlignDistribute3D.md) | [Backward](Functions/Backward.md) |
@@ -422,8 +435,8 @@
 | [RotatePoint](Functions/RotatePoint.md) | [Scale](Functions/Scale.md) | [SetObjectTags](Functions/SetObjectTags.md) |
 | [SetResourceTags](Functions/SetResourceTags.md) | [SetScriptResource](Functions/SetScriptResource.md) | [UnLckObjs](Functions/UnLckObjs.md) |
 
-
 ## GIS
+
 | | | |
 |---|---|---|
 | [BindLayerToArcGISFS](Functions/BindLayerToArcGISFS.md) | [BindLayerToWFSFS](Functions/BindLayerToWFSFS.md) | [EditGeorefWithUI](Functions/EditGeorefWithUI.md) |
@@ -435,8 +448,8 @@
 | [SetGISLayer](Functions/SetGISLayer.md) | [SetProjectElevation](Functions/SetProjectElevation.md) | [UpdateFeatureLayer](Functions/UpdateFeatureLayer.md) |
 | [UpdateLayerFromFS](Functions/UpdateLayerFromFS.md) | [VWCoordToGeog](Functions/VWCoordToGeog.md) | [VWCoordToGeogN](Functions/VWCoordToGeogN.md) |
 
-
 ## Graphic Calculation
+
 | | | |
 |---|---|---|
 | [CalcPolySegLen](Functions/CalcPolySegLen.md) | [Centroid](Functions/Centroid.md) | [CircleCircleInters](Functions/CircleCircleInters.md) |
@@ -460,6 +473,7 @@
 | [ThreePtCenter](Functions/ThreePtCenter.md) | [UnionRect](Functions/UnionRect.md) 
 
 ## Hatches / Vector Fills
+
 | | | |
 |---|---|---|
 | [AddVectorFillLayer](Functions/AddVectorFillLayer.md) | [BeginVectorFillN](Functions/BeginVectorFillN.md) | [CreateStaticHatch](Functions/CreateStaticHatch.md) |
@@ -467,8 +481,8 @@
 | [GetVectorFill](Functions/GetVectorFill.md) | [GetVectorFillDefault](Functions/GetVectorFillDefault.md) | [NumVectorFills](Functions/NumVectorFills.md) |
 | [SetVectorFill](Functions/SetVectorFill.md) | [SetVectorFillDefault](Functions/SetVectorFillDefault.md) | [VectorFillList](Functions/VectorFillList.md) |
 
-
 ## IFC
+
 | | | |
 |---|---|---|
 | [IFC_AddDSField](Functions/IFC_AddDSField.md) | [IFC_AddObjectMapping](Functions/IFC_AddObjectMapping.md) | [IFC_AddRecToObjMap](Functions/IFC_AddRecToObjMap.md) |
@@ -516,8 +530,8 @@
 | [IFC_SetRecEnabled](Functions/IFC_SetRecEnabled.md) | [IFC_SetStructureGUID](Functions/IFC_SetStructureGUID.md) | [IFC_SetZSGField](Functions/IFC_SetZSGField.md) |
 | [IFC_SetZSGPSetField](Functions/IFC_SetZSGPSetField.md) | [IFC_WriteProjectData](Functions/IFC_WriteProjectData.md) | [ReplaceIFCWithMap](Functions/ReplaceIFCWithMap.md) |
 
-
 ## ImportExport
+
 | | | |
 |---|---|---|
 | [DXFScaleString](Functions/DXFScaleString.md) | [ExportDXFDWG](Functions/ExportDXFDWG.md) | [GetDXFColorToLW](Functions/GetDXFColorToLW.md) |
@@ -529,6 +543,7 @@
 | [SetLTGeneration](Functions/SetLTGeneration.md) 
 
 ## Layers
+
 | | | |
 |---|---|---|
 | [ActLayer](Functions/ActLayer.md) | [AddLevelFromTemplate](Functions/AddLevelFromTemplate.md) | [AddStoryLevel](Functions/AddStoryLevel.md) |
@@ -561,8 +576,8 @@
 | [SetSheetLayerUserOrigin](Functions/SetSheetLayerUserOrigin.md) | [SetStoryElevation](Functions/SetStoryElevation.md) | [SetStoryElevationN](Functions/SetStoryElevationN.md) |
 | [SetStorySuffix](Functions/SetStorySuffix.md) | [SetZVals](Functions/SetZVals.md) | [ShowLayer](Functions/ShowLayer.md) |
 
-
 ## Math - General
+
 | | | |
 |---|---|---|
 | [Abs](Functions/Abs.md) | [ArcCos](Functions/ArcCos.md) | [ArcSin](Functions/ArcSin.md) |
@@ -572,16 +587,16 @@
 | [Round](Functions/Round.md) | [Sin](Functions/Sin.md) | [Sqr](Functions/Sqr.md) |
 | [Sqrt](Functions/Sqrt.md) | [Tan](Functions/Tan.md) | [Trunc](Functions/Trunc.md) |
 
-
 ## Math - Vectors
+
 | | | |
 |---|---|---|
 | [Ang2Vec](Functions/Ang2Vec.md) | [AngBVec](Functions/AngBVec.md) | [Comp](Functions/Comp.md) |
 | [CrossProduct](Functions/CrossProduct.md) | [DotProduct](Functions/DotProduct.md) | [Norm](Functions/Norm.md) |
 | [Perp](Functions/Perp.md) | [UnitVec](Functions/UnitVec.md) | [Vec2Ang](Functions/Vec2Ang.md) |
 
-
 ## Object Attributes
+
 | | | |
 |---|---|---|
 | [AddSubMtrlToMtrl](Functions/AddSubMtrlToMtrl.md) | [CountFillSpaces](Functions/CountFillSpaces.md) | [CreateFillSpace](Functions/CreateFillSpace.md) |
@@ -590,11 +605,11 @@
 | [GetDropShadowData](Functions/GetDropShadowData.md) | [GetEntityMatrix](Functions/GetEntityMatrix.md) | [GetFillBack](Functions/GetFillBack.md) |
 | [GetFillFore](Functions/GetFillFore.md) | [GetFillIAxisEndPoint](Functions/GetFillIAxisEndPoint.md) | [GetFillJAxisEndPoint](Functions/GetFillJAxisEndPoint.md) |
 | [GetFillOriginPoint](Functions/GetFillOriginPoint.md) | [GetFillPoints](Functions/GetFillPoints.md) | [GetFillSpace](Functions/GetFillSpace.md) |
-| [GetFPat](Functions/GetFPat.md) | [GetLS](Functions/GetLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [GetLSN](Functions/GetLSN.md) |
-| [GetLW](Functions/GetLW.md) | [GetMarker](Functions/GetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetMaterialArea](Functions/GetMaterialArea.md) |
+| [GetFPat](Functions/GetFPat.md) | [GetLS](Functions/GetLS.md) <sub>*obsolete in Vectorworks 2013*</sub> | [GetLSN](Functions/GetLSN.md) |
+| [GetLW](Functions/GetLW.md) | [GetMarker](Functions/GetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub> | [GetMaterialArea](Functions/GetMaterialArea.md) |
 | [GetMaterialFillStyle](Functions/GetMaterialFillStyle.md) | [GetMaterialTexture](Functions/GetMaterialTexture.md) | [GetMaterialVolume](Functions/GetMaterialVolume.md) |
-| [GetMtlFillBackColor](Functions/GetMtlFillBackColor.md) | [GetMtlFillForeColor](Functions/GetMtlFillForeColor.md) | [GetMtlPenBackColor](Functions/GetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub>|
-| [GetMtlPenForeColor](Functions/GetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub>| [GetObjArrow](Functions/GetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetObjBeginningMarker](Functions/GetObjBeginningMarker.md) |
+| [GetMtlFillBackColor](Functions/GetMtlFillBackColor.md) | [GetMtlFillForeColor](Functions/GetMtlFillForeColor.md) | [GetMtlPenBackColor](Functions/GetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub> |
+| [GetMtlPenForeColor](Functions/GetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub> | [GetObjArrow](Functions/GetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub> | [GetObjBeginningMarker](Functions/GetObjBeginningMarker.md) |
 | [GetObjEndMarker](Functions/GetObjEndMarker.md) | [GetObjMaterialHandle](Functions/GetObjMaterialHandle.md) | [GetObjMaterialName](Functions/GetObjMaterialName.md) |
 | [GetObjTypeProperties](Functions/GetObjTypeProperties.md) | [GetOpacity](Functions/GetOpacity.md) | [GetOpacityByClass](Functions/GetOpacityByClass.md) |
 | [GetOpacityByClassN](Functions/GetOpacityByClassN.md) | [GetOpacityN](Functions/GetOpacityN.md) | [GetPenBack](Functions/GetPenBack.md) |
@@ -608,12 +623,12 @@
 | [SetEntityMatrix](Functions/SetEntityMatrix.md) | [SetEntityMatrixN](Functions/SetEntityMatrixN.md) | [SetFillBack](Functions/SetFillBack.md) |
 | [SetFillColorByClass](Functions/SetFillColorByClass.md) | [SetFillFore](Functions/SetFillFore.md) | [SetFillIAxisEndPoint](Functions/SetFillIAxisEndPoint.md) |
 | [SetFillJAxisEndPoint](Functions/SetFillJAxisEndPoint.md) | [SetFillOriginPoint](Functions/SetFillOriginPoint.md) | [SetFPat](Functions/SetFPat.md) |
-| [SetFPatByClass](Functions/SetFPatByClass.md) | [SetLS](Functions/SetLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [SetLSByClass](Functions/SetLSByClass.md) |
+| [SetFPatByClass](Functions/SetFPatByClass.md) | [SetLS](Functions/SetLS.md) <sub>*obsolete in Vectorworks 2013*</sub> | [SetLSByClass](Functions/SetLSByClass.md) |
 | [SetLSN](Functions/SetLSN.md) | [SetLW](Functions/SetLW.md) | [SetLWByClass](Functions/SetLWByClass.md) |
-| [SetMarker](Functions/SetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetMarkerByClass](Functions/SetMarkerByClass.md) | [SetMaterialFillStyle](Functions/SetMaterialFillStyle.md) |
+| [SetMarker](Functions/SetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerByClass](Functions/SetMarkerByClass.md) | [SetMaterialFillStyle](Functions/SetMaterialFillStyle.md) |
 | [SetMaterialTexture](Functions/SetMaterialTexture.md) | [SetMtlFillBackColor](Functions/SetMtlFillBackColor.md) | [SetMtlFillForeColor](Functions/SetMtlFillForeColor.md) |
-| [SetMtlFillStyleByCls](Functions/SetMtlFillStyleByCls.md) | [SetMtlPenBackColor](Functions/SetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub>| [SetMtlPenForeColor](Functions/SetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub>|
-| [SetObjArrow](Functions/SetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetObjBeginningMarker](Functions/SetObjBeginningMarker.md) | [SetObjEndMarker](Functions/SetObjEndMarker.md) |
+| [SetMtlFillStyleByCls](Functions/SetMtlFillStyleByCls.md) | [SetMtlPenBackColor](Functions/SetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub> | [SetMtlPenForeColor](Functions/SetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub> |
+| [SetObjArrow](Functions/SetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetObjBeginningMarker](Functions/SetObjBeginningMarker.md) | [SetObjEndMarker](Functions/SetObjEndMarker.md) |
 | [SetObjMaterialHandle](Functions/SetObjMaterialHandle.md) | [SetOpacity](Functions/SetOpacity.md) | [SetOpacityByClass](Functions/SetOpacityByClass.md) |
 | [SetOpacityByClassN](Functions/SetOpacityByClassN.md) | [SetOpacityN](Functions/SetOpacityN.md) | [SetPenBack](Functions/SetPenBack.md) |
 | [SetPenColorByClass](Functions/SetPenColorByClass.md) | [SetPenFore](Functions/SetPenFore.md) | [SetTextStyleByClass](Functions/SetTextStyleByClass.md) |
@@ -621,6 +636,7 @@
 | [UpdateSubMtrlInMtrl](Functions/UpdateSubMtrlInMtrl.md) | [UpdateThumbnailPreview](Functions/UpdateThumbnailPreview.md) 
 
 ## Object Editing
+
 | | | |
 |---|---|---|
 | [BeginMultipleDuplicate](Functions/BeginMultipleDuplicate.md) | [CreateDuplicateObject](Functions/CreateDuplicateObject.md) | [CreateDuplicateObjN](Functions/CreateDuplicateObjN.md) |
@@ -635,6 +651,7 @@
 | [SetRRDiam](Functions/SetRRDiam.md) 
 
 ## Object Events
+
 | | | |
 |---|---|---|
 | [AddAssociation](Functions/AddAssociation.md) | [GetEvent](Functions/GetEvent.md) | [GetXPropVersion](Functions/GetXPropVersion.md) |
@@ -670,6 +687,7 @@
 | [vsoWidgetSetVisible](Functions/vsoWidgetSetVisible.md) | [vsoWSGetParamForEdit](Functions/vsoWSGetParamForEdit.md) 
 
 ## Object Info
+
 | | | |
 |---|---|---|
 | [ConsolidatePlanar](Functions/ConsolidatePlanar.md) | [Get2DPt](Functions/Get2DPt.md) | [GetBBox](Functions/GetBBox.md) |
@@ -677,8 +695,8 @@
 | [GetObjectVariableHandle](Functions/GetObjectVariableHandle.md) | [GetObjectVariableInt](Functions/GetObjectVariableInt.md) | [GetObjectVariableLongInt](Functions/GetObjectVariableLongInt.md) |
 | [GetObjectVariablePoint](Functions/GetObjectVariablePoint.md) | [GetObjectVariableReal](Functions/GetObjectVariableReal.md) | [GetObjectVariableString](Functions/GetObjectVariableString.md) |
 | [GetParent](Functions/GetParent.md) | [GetPlanarRef](Functions/GetPlanarRef.md) | [GetSymLoc](Functions/GetSymLoc.md) |
-| [GetSymRot](Functions/GetSymRot.md) | [GetType](Functions/GetType.md) <sub>*obsolete in Vectorworks 2011*</sub>| [GetTypeN](Functions/GetTypeN.md) |
-| [HAngle](Functions/HAngle.md) | [HArea](Functions/HArea.md) <sub>*obsolete in VectorWorks12.5*</sub>| [HAreaN](Functions/HAreaN.md) |
+| [GetSymRot](Functions/GetSymRot.md) | [GetType](Functions/GetType.md) <sub>*obsolete in Vectorworks 2011*</sub> | [GetTypeN](Functions/GetTypeN.md) |
+| [HAngle](Functions/HAngle.md) | [HArea](Functions/HArea.md) <sub>*obsolete in VectorWorks12.5*</sub> | [HAreaN](Functions/HAreaN.md) |
 | [HHeight](Functions/HHeight.md) | [HLength](Functions/HLength.md) | [HPerim](Functions/HPerim.md) |
 | [HPerimN](Functions/HPerimN.md) | [HWidth](Functions/HWidth.md) | [IsLocked](Functions/IsLocked.md) |
 | [IsResourceReferenced](Functions/IsResourceReferenced.md) | [ObjArea](Functions/ObjArea.md) | [ObjAreaN](Functions/ObjAreaN.md) |
@@ -687,18 +705,18 @@
 | [SetObjectVariablePoint](Functions/SetObjectVariablePoint.md) | [SetObjectVariableReal](Functions/SetObjectVariableReal.md) | [SetObjectVariableString](Functions/SetObjectVariableString.md) |
 | [SetPlanarRef](Functions/SetPlanarRef.md) | [SetPlanarRefIDToGround](Functions/SetPlanarRefIDToGround.md) | [SetWidth](Functions/SetWidth.md) |
 
-
 ## Object Names
+
 | | | |
 |---|---|---|
 | [DelName](Functions/DelName.md) | [GetColorName](Functions/GetColorName.md) | [GetDashLineTypeName](Functions/GetDashLineTypeName.md) |
-| [GetDashStyleName](Functions/GetDashStyleName.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetName](Functions/GetName.md) | [GetObject](Functions/GetObject.md) |
+| [GetDashStyleName](Functions/GetDashStyleName.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetName](Functions/GetName.md) | [GetObject](Functions/GetObject.md) |
 | [Index2Name](Functions/Index2Name.md) | [Name2Index](Functions/Name2Index.md) | [NameList](Functions/NameList.md) |
 | [NameNum](Functions/NameNum.md) | [NameObject](Functions/NameObject.md) | [SetColorName](Functions/SetColorName.md) |
-| [SetDashLineTypeName](Functions/SetDashLineTypeName.md) | [SetDashStyleName](Functions/SetDashStyleName.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetName](Functions/SetName.md) |
-
+| [SetDashLineTypeName](Functions/SetDashLineTypeName.md) | [SetDashStyleName](Functions/SetDashStyleName.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetName](Functions/SetName.md) |
 
 ## Objects - 2D
+
 | | | |
 |---|---|---|
 | [AddHole](Functions/AddHole.md) | [AddSurface](Functions/AddSurface.md) | [Arc](Functions/Arc.md) |
@@ -715,6 +733,7 @@
 | [SetSegPt1](Functions/SetSegPt1.md) | [SetSegPt2](Functions/SetSegPt2.md) 
 
 ## Objects - 3D
+
 | | | |
 |---|---|---|
 | [Add3DPt](Functions/Add3DPt.md) | [AddVertex3D](Functions/AddVertex3D.md) | [BeginMesh](Functions/BeginMesh.md) |
@@ -731,8 +750,8 @@
 | [Products3D](Functions/Products3D.md) | [Set3DInfo](Functions/Set3DInfo.md) | [Set3DRot](Functions/Set3DRot.md) |
 | [SetMeshVertex](Functions/SetMeshVertex.md) | [SetPolyPt3D](Functions/SetPolyPt3D.md) | [SetRot3D](Functions/SetRot3D.md) |
 
-
 ## Objects - Architectural
+
 | | | |
 |---|---|---|
 | [BeginColumn](Functions/BeginColumn.md) | [BeginFloor](Functions/BeginFloor.md) | [ConvertToUnstyledSlab](Functions/ConvertToUnstyledSlab.md) |
@@ -746,7 +765,7 @@
 | [GetComponentFillColors](Functions/GetComponentFillColors.md) | [GetComponentFollowBottomWallPeaks](Functions/GetComponentFollowBottomWallPeaks.md) | [GetComponentFollowTopWallPeaks](Functions/GetComponentFollowTopWallPeaks.md) |
 | [GetComponentFunction](Functions/GetComponentFunction.md) | [GetComponentManualEdgeOffset](Functions/GetComponentManualEdgeOffset.md) | [GetComponentMaterial](Functions/GetComponentMaterial.md) |
 | [GetComponentName](Functions/GetComponentName.md) | [GetComponentNetArea](Functions/GetComponentNetArea.md) | [GetComponentNetVolume](Functions/GetComponentNetVolume.md) |
-| [GetComponentPenColors](Functions/GetComponentPenColors.md) | [GetComponentPenStyles](Functions/GetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetComponentPenWeights](Functions/GetComponentPenWeights.md) |
+| [GetComponentPenColors](Functions/GetComponentPenColors.md) | [GetComponentPenStyles](Functions/GetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> | [GetComponentPenWeights](Functions/GetComponentPenWeights.md) |
 | [GetComponents](Functions/GetComponents.md) | [GetComponentTexture](Functions/GetComponentTexture.md) | [GetComponentUseFillClassAttr](Functions/GetComponentUseFillClassAttr.md) |
 | [GetComponentUsePenClassAttr](Functions/GetComponentUsePenClassAttr.md) | [GetComponentWallBottomOffset](Functions/GetComponentWallBottomOffset.md) | [GetComponentWallTopOffset](Functions/GetComponentWallTopOffset.md) |
 | [GetComponentWidth](Functions/GetComponentWidth.md) | [GetCompPenStylesN](Functions/GetCompPenStylesN.md) | [GetCompSecFillChgPt](Functions/GetCompSecFillChgPt.md) |
@@ -761,7 +780,7 @@
 | [GetRoofPrefStyle](Functions/GetRoofPrefStyle.md) | [GetSlabHeight](Functions/GetSlabHeight.md) | [GetSlabPreferences](Functions/GetSlabPreferences.md) |
 | [GetSlabPreferencesStyle](Functions/GetSlabPreferencesStyle.md) | [GetSlabStyle](Functions/GetSlabStyle.md) | [GetStoryLayerInfo](Functions/GetStoryLayerInfo.md) |
 | [GetTaperedComponent](Functions/GetTaperedComponent.md) | [GetWallPreferences](Functions/GetWallPreferences.md) | [HasObjStoryBound](Functions/HasObjStoryBound.md) |
-| [HasObjStoryBounds](Functions/HasObjStoryBounds.md) | [InsertNewComponent](Functions/InsertNewComponent.md) <sub>*obsolete in Vectorworks 2014*</sub>| [InsertNewComponentN](Functions/InsertNewComponentN.md) |
+| [HasObjStoryBounds](Functions/HasObjStoryBounds.md) | [InsertNewComponent](Functions/InsertNewComponent.md) <sub>*obsolete in Vectorworks 2014*</sub> | [InsertNewComponentN](Functions/InsertNewComponentN.md) |
 | [ModifySlab](Functions/ModifySlab.md) | [SetCompABoundEOffOff](Functions/SetCompABoundEOffOff.md) | [SetCompAltSecFill](Functions/SetCompAltSecFill.md) |
 | [SetCompAltSecFillCl](Functions/SetCompAltSecFillCl.md) | [SetCompAutoJoinCap](Functions/SetCompAutoJoinCap.md) | [SetCompBotIsRelStory](Functions/SetCompBotIsRelStory.md) |
 | [SetCompBoundOffset](Functions/SetCompBoundOffset.md) | [SetCompDatTopOfComp](Functions/SetCompDatTopOfComp.md) | [SetCompInsertLoc](Functions/SetCompInsertLoc.md) |
@@ -769,7 +788,7 @@
 | [SetComponentAutoBoundEdgeOffset](Functions/SetComponentAutoBoundEdgeOffset.md) | [SetComponentClass](Functions/SetComponentClass.md) | [SetComponentFill](Functions/SetComponentFill.md) |
 | [SetComponentFillColors](Functions/SetComponentFillColors.md) | [SetComponentFollowBottomWallPeaks](Functions/SetComponentFollowBottomWallPeaks.md) | [SetComponentFollowTopWallPeaks](Functions/SetComponentFollowTopWallPeaks.md) |
 | [SetComponentFunction](Functions/SetComponentFunction.md) | [SetComponentManualEdgeOffset](Functions/SetComponentManualEdgeOffset.md) | [SetComponentMaterial](Functions/SetComponentMaterial.md) |
-| [SetComponentName](Functions/SetComponentName.md) | [SetComponentPenColors](Functions/SetComponentPenColors.md) | [SetComponentPenStyles](Functions/SetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [SetComponentName](Functions/SetComponentName.md) | [SetComponentPenColors](Functions/SetComponentPenColors.md) | [SetComponentPenStyles](Functions/SetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [SetComponentPenWeights](Functions/SetComponentPenWeights.md) | [SetComponentTexture](Functions/SetComponentTexture.md) | [SetComponentUseFillClassAttr](Functions/SetComponentUseFillClassAttr.md) |
 | [SetComponentUsePenClassAttr](Functions/SetComponentUsePenClassAttr.md) | [SetComponentWallBottomOffset](Functions/SetComponentWallBottomOffset.md) | [SetComponentWallTopOffset](Functions/SetComponentWallTopOffset.md) |
 | [SetComponentWidth](Functions/SetComponentWidth.md) | [SetCompPenStylesN](Functions/SetCompPenStylesN.md) | [SetCompSecFillChgPt](Functions/SetCompSecFillChgPt.md) |
@@ -784,6 +803,7 @@
 | [SlabFromPoly](Functions/SlabFromPoly.md) | [SyncMatrixToBound](Functions/SyncMatrixToBound.md) 
 
 ## Objects - Cables
+
 | | | |
 |---|---|---|
 | [GetCableBreakData](Functions/GetCableBreakData.md) | [GetCableBreaksCnt](Functions/GetCableBreaksCnt.md) | [GetCablePartsCnt](Functions/GetCablePartsCnt.md) |
@@ -791,6 +811,7 @@
 | [SetCableSectionData](Functions/SetCableSectionData.md) 
 
 ## Objects - Custom
+
 | | | |
 |---|---|---|
 | [AddObjectTo2DComp](Functions/AddObjectTo2DComp.md) | [AddToPIOStyleEdit](Functions/AddToPIOStyleEdit.md) | [CreateCustomObject](Functions/CreateCustomObject.md) |
@@ -829,8 +850,8 @@
 | [SetWallRecessGroup](Functions/SetWallRecessGroup.md) | [SetWInsLocOffByStyle](Functions/SetWInsLocOffByStyle.md) | [SetWllHoleObjIgnClsr](Functions/SetWllHoleObjIgnClsr.md) |
 | [StExWllClsrFrmStBStl](Functions/StExWllClsrFrmStBStl.md) | [TagSubObjectAsPart](Functions/TagSubObjectAsPart.md) | [UpdateStyledObjects](Functions/UpdateStyledObjects.md) |
 
-
 ## Objects - Groups
+
 | | | |
 |---|---|---|
 | [AddVPAnnotationObject](Functions/AddVPAnnotationObject.md) | [BeginGroup](Functions/BeginGroup.md) | [BeginGroupN](Functions/BeginGroupN.md) |
@@ -842,6 +863,7 @@
 | [UpdateVP](Functions/UpdateVP.md) | [VPHasCropObject](Functions/VPHasCropObject.md) 
 
 ## Objects - Lights
+
 | | | |
 |---|---|---|
 | [ContainsLight](Functions/ContainsLight.md) | [CreateLight](Functions/CreateLight.md) | [GetBeamAngle](Functions/GetBeamAngle.md) |
@@ -853,6 +875,7 @@
 | [SetLightLocation](Functions/SetLightLocation.md) | [SetSpreadAngle](Functions/SetSpreadAngle.md) 
 
 ## Objects - NURBS
+
 | | | |
 |---|---|---|
 | [ConvertToNURBS](Functions/ConvertToNURBS.md) | [CreateInterpolatedSurface](Functions/CreateInterpolatedSurface.md) | [CreateLoftSurfaces](Functions/CreateLoftSurfaces.md) |
@@ -866,8 +889,8 @@
 | [NurbsSetKnot](Functions/NurbsSetKnot.md) | [NurbsSetPt3D](Functions/NurbsSetPt3D.md) | [NurbsSetWeight](Functions/NurbsSetWeight.md) |
 | [NurbsSurfaceEvalPt](Functions/NurbsSurfaceEvalPt.md) | [RevolveWithRail](Functions/RevolveWithRail.md) | [TrimNurbsSurface](Functions/TrimNurbsSurface.md) |
 
-
 ## Objects - Polys
+
 | | | |
 |---|---|---|
 | [Add2DVertex](Functions/Add2DVertex.md) | [AddPoint](Functions/AddPoint.md) | [ArcTo](Functions/ArcTo.md) |
@@ -881,6 +904,7 @@
 | [Smooth](Functions/Smooth.md) 
 
 ## Objects - Roofs
+
 | | | |
 |---|---|---|
 | [AppendRoofEdge](Functions/AppendRoofEdge.md) | [BeginRoof](Functions/BeginRoof.md) | [ConvToUnstyledRoof](Functions/ConvToUnstyledRoof.md) |
@@ -897,17 +921,18 @@
 | [SetRoofAttributes](Functions/SetRoofAttributes.md) | [SetRoofEdge](Functions/SetRoofEdge.md) | [SetRoofStyle](Functions/SetRoofStyle.md) |
 | [SetShedAttributes](Functions/SetShedAttributes.md) | [SetSkylight](Functions/SetSkylight.md) | [SetTrapeziumAttributes](Functions/SetTrapeziumAttributes.md) |
 
-
 ## Objects - Solids
+
 | | | |
 |---|---|---|
-| [AddSolid](Functions/AddSolid.md) | [CalcSurfaceArea](Functions/CalcSurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub>| [CalcVolume](Functions/CalcVolume.md) <sub>*obsolete in VectorWorks12.5*</sub>|
+| [AddSolid](Functions/AddSolid.md) | [CalcSurfaceArea](Functions/CalcSurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub> | [CalcVolume](Functions/CalcVolume.md) <sub>*obsolete in VectorWorks12.5*</sub> |
 | [CnvrtToGenericSolid](Functions/CnvrtToGenericSolid.md) | [CreateCone](Functions/CreateCone.md) | [CreateHemisphere](Functions/CreateHemisphere.md) |
 | [CreateShell](Functions/CreateShell.md) | [CreateSphere](Functions/CreateSphere.md) | [IntersectSolid](Functions/IntersectSolid.md) |
 | [ObjSurfaceArea](Functions/ObjSurfaceArea.md) | [ObjSurfAreaInWorldC](Functions/ObjSurfAreaInWorldC.md) | [ObjVolume](Functions/ObjVolume.md) |
 | [SubtractSolid](Functions/SubtractSolid.md) 
 
 ## Objects - Stairs
+
 | | | |
 |---|---|---|
 | [StairGet2D3DCompType](Functions/StairGet2D3DCompType.md) | [StairGetConfigType](Functions/StairGetConfigType.md) | [StairGetConstType](Functions/StairGetConstType.md) |
@@ -917,8 +942,8 @@
 | [StairSetNumRisers](Functions/StairSetNumRisers.md) | [StairSetOptTotalRise](Functions/StairSetOptTotalRise.md) | [StairSetSideLengthsM](Functions/StairSetSideLengthsM.md) |
 | [StairSetTopGrUpFlMode](Functions/StairSetTopGrUpFlMode.md) | [StairSetTotalRiseM](Functions/StairSetTotalRiseM.md) | [StairSetWFlight1M](Functions/StairSetWFlight1M.md) |
 
-
 ## Objects - Symbols
+
 | | | |
 |---|---|---|
 | [ActSymDef](Functions/ActSymDef.md) | [ActSymDefN](Functions/ActSymDefN.md) | [AddToPluginStyle](Functions/AddToPluginStyle.md) |
@@ -931,6 +956,7 @@
 | [SymDefNum](Functions/SymDefNum.md) 
 
 ## Objects - Text
+
 | | | |
 |---|---|---|
 | [BeginText](Functions/BeginText.md) | [CreateText](Functions/CreateText.md) | [CreateTextStyleRes](Functions/CreateTextStyleRes.md) |
@@ -953,38 +979,39 @@
 | [TrueTypeToPoly](Functions/TrueTypeToPoly.md) 
 
 ## Objects - Walls
+
 | | | |
 |---|---|---|
-| [AddCavity](Functions/AddCavity.md) <sub>*obsolete in VectorWorks12.0*</sub>| [AddSymToWall](Functions/AddSymToWall.md) | [AddSymToWallEdge](Functions/AddSymToWallEdge.md) |
+| [AddCavity](Functions/AddCavity.md) <sub>*obsolete in VectorWorks12.0*</sub> | [AddSymToWall](Functions/AddSymToWall.md) | [AddSymToWallEdge](Functions/AddSymToWallEdge.md) |
 | [AddWallBottomPeak](Functions/AddWallBottomPeak.md) | [AddWallPeak](Functions/AddWallPeak.md) | [BreakWall](Functions/BreakWall.md) |
-| [ClearCavities](Functions/ClearCavities.md) <sub>*obsolete in VectorWorks12.5*</sub>| [ClearWallPeaks](Functions/ClearWallPeaks.md) | [ConvertToUnstyledWall](Functions/ConvertToUnstyledWall.md) |
+| [ClearCavities](Functions/ClearCavities.md) <sub>*obsolete in VectorWorks12.5*</sub> | [ClearWallPeaks](Functions/ClearWallPeaks.md) | [ConvertToUnstyledWall](Functions/ConvertToUnstyledWall.md) |
 | [CreateWallFeature](Functions/CreateWallFeature.md) | [CreateWallStyle](Functions/CreateWallStyle.md) | [DeleteWallPeak](Functions/DeleteWallPeak.md) |
 | [DeleteWallSym](Functions/DeleteWallSym.md) | [GetCurtainWallCutPl](Functions/GetCurtainWallCutPl.md) | [GetCWFramesFromPt](Functions/GetCWFramesFromPt.md) |
-| [GetCWPanelFromPt](Functions/GetCWPanelFromPt.md) | [GetLayerDeltaZOffset](Functions/GetLayerDeltaZOffset.md) <sub>*obsolete in Vectorworks 2012*</sub>| [GetLinkHeightToLayerDeltaZ](Functions/GetLinkHeightToLayerDeltaZ.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [GetCWPanelFromPt](Functions/GetCWPanelFromPt.md) | [GetLayerDeltaZOffset](Functions/GetLayerDeltaZOffset.md) <sub>*obsolete in Vectorworks 2012*</sub> | [GetLinkHeightToLayerDeltaZ](Functions/GetLinkHeightToLayerDeltaZ.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [GetNumOfWallBreaks](Functions/GetNumOfWallBreaks.md) | [GetNumWallPeaks](Functions/GetNumWallPeaks.md) | [GetObjectWallHeight](Functions/GetObjectWallHeight.md) |
 | [GetObjectWallOffset](Functions/GetObjectWallOffset.md) | [GetObjectWallPerpOff](Functions/GetObjectWallPerpOff.md) | [GetObjExtentsInWall](Functions/GetObjExtentsInWall.md) |
 | [GetObjWallBreakMode](Functions/GetObjWallBreakMode.md) | [GetObjWallInsertMode](Functions/GetObjWallInsertMode.md) | [GetObjWallInsLocOff](Functions/GetObjWallInsLocOff.md) |
 | [GetWallBelCutPlClass](Functions/GetWallBelCutPlClass.md) | [GetWallCapAttributesType](Functions/GetWallCapAttributesType.md) | [GetWallCaps](Functions/GetWallCaps.md) |
 | [GetWallCapsOffsets](Functions/GetWallCapsOffsets.md) | [GetWallCompEndPts](Functions/GetWallCompEndPts.md) | [GetWallCompStartPts](Functions/GetWallCompStartPts.md) |
-| [GetWallControlOffset](Functions/GetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub>| [GetWallCornerHeights](Functions/GetWallCornerHeights.md) | [GetWallHalfBreakInfo](Functions/GetWallHalfBreakInfo.md) |
+| [GetWallControlOffset](Functions/GetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub> | [GetWallCornerHeights](Functions/GetWallCornerHeights.md) | [GetWallHalfBreakInfo](Functions/GetWallHalfBreakInfo.md) |
 | [GetWallOverallHeights](Functions/GetWallOverallHeights.md) | [GetWallPathType](Functions/GetWallPathType.md) | [GetWallPeak](Functions/GetWallPeak.md) |
 | [GetWallPerpOffOfData](Functions/GetWallPerpOffOfData.md) | [GetWallStyle](Functions/GetWallStyle.md) | [GetWallThickness](Functions/GetWallThickness.md) |
-| [GetWallWidth](Functions/GetWallWidth.md) | [HWallHeight](Functions/HWallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub>| [HWallWidth](Functions/HWallWidth.md) |
+| [GetWallWidth](Functions/GetWallWidth.md) | [HWallHeight](Functions/HWallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub> | [HWallWidth](Functions/HWallWidth.md) |
 | [InsertSymbol](Functions/InsertSymbol.md) | [IsCurtainWall](Functions/IsCurtainWall.md) | [IsWallPeakTop](Functions/IsWallPeakTop.md) |
 | [JoinWalls](Functions/JoinWalls.md) | [MoveWallByOffset](Functions/MoveWallByOffset.md) | [ReverseWallSides](Functions/ReverseWallSides.md) |
 | [RoundWall](Functions/RoundWall.md) | [SetCurtainWallCutPl](Functions/SetCurtainWallCutPl.md) | [SetIsCurtainWall](Functions/SetIsCurtainWall.md) |
-| [SetLayerDeltaZOffset](Functions/SetLayerDeltaZOffset.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetLinkHeightToLayerDeltaZ](Functions/SetLinkHeightToLayerDeltaZ.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetObjectAsCornerBreak](Functions/SetObjectAsCornerBreak.md) |
+| [SetLayerDeltaZOffset](Functions/SetLayerDeltaZOffset.md) <sub>*obsolete in Vectorworks 2012*</sub> | [SetLinkHeightToLayerDeltaZ](Functions/SetLinkHeightToLayerDeltaZ.md) <sub>*obsolete in Vectorworks 2012*</sub> | [SetObjectAsCornerBreak](Functions/SetObjectAsCornerBreak.md) |
 | [SetObjectAsSpanBreak](Functions/SetObjectAsSpanBreak.md) | [SetObjectWallHeight](Functions/SetObjectWallHeight.md) | [SetObjectWallOffset](Functions/SetObjectWallOffset.md) |
 | [SetObjWallBreakMode](Functions/SetObjWallBreakMode.md) | [SetObjWallInsertMode](Functions/SetObjWallInsertMode.md) | [SetObjWallInsLocOff](Functions/SetObjWallInsLocOff.md) |
 | [SetWallBelCutPlClass](Functions/SetWallBelCutPlClass.md) | [SetWallCapAttributesType](Functions/SetWallCapAttributesType.md) | [SetWallCaps](Functions/SetWallCaps.md) |
-| [SetWallCapsOffsets](Functions/SetWallCapsOffsets.md) | [SetWallControlOffset](Functions/SetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub>| [SetWallCornerHeights](Functions/SetWallCornerHeights.md) |
-| [SetWallHeights](Functions/SetWallHeights.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetWallOverallHeights](Functions/SetWallOverallHeights.md) | [SetWallStyle](Functions/SetWallStyle.md) |
-| [SetWallThickness](Functions/SetWallThickness.md) | [SetWallWidth](Functions/SetWallWidth.md) <sub>*obsolete in VectorWorks12.0*</sub>| [Wall](Functions/Wall.md) |
-| [WallCap](Functions/WallCap.md) | [WallFootPrint](Functions/WallFootPrint.md) | [WallHeight](Functions/WallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [SetWallCapsOffsets](Functions/SetWallCapsOffsets.md) | [SetWallControlOffset](Functions/SetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub> | [SetWallCornerHeights](Functions/SetWallCornerHeights.md) |
+| [SetWallHeights](Functions/SetWallHeights.md) <sub>*obsolete in Vectorworks 2012*</sub> | [SetWallOverallHeights](Functions/SetWallOverallHeights.md) | [SetWallStyle](Functions/SetWallStyle.md) |
+| [SetWallThickness](Functions/SetWallThickness.md) | [SetWallWidth](Functions/SetWallWidth.md) <sub>*obsolete in VectorWorks12.0*</sub> | [Wall](Functions/Wall.md) |
+| [WallCap](Functions/WallCap.md) | [WallFootPrint](Functions/WallFootPrint.md) | [WallHeight](Functions/WallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [WallPeak](Functions/WallPeak.md) | [WallTo](Functions/WallTo.md) | [WallWidth](Functions/WallWidth.md) |
 
-
 ## ODBC
+
 | | | |
 |---|---|---|
 | [DBDiagnose](Functions/DBDiagnose.md) | [DBDocAddConn](Functions/DBDocAddConn.md) | [DBDocGetColumns](Functions/DBDocGetColumns.md) |
@@ -998,6 +1025,7 @@
 | [DBSQLExecuteGet](Functions/DBSQLExecuteGet.md) | [DBSQLExecuteNext](Functions/DBSQLExecuteNext.md) 
 
 ## Parametric Constraints
+
 | | | |
 |---|---|---|
 | [BuildConstraintModelForObject](Functions/BuildConstraintModelForObject.md) | [DeleteConstraint](Functions/DeleteConstraint.md) | [GetBinaryConstraint](Functions/GetBinaryConstraint.md) |
@@ -1005,6 +1033,7 @@
 | [SetConstraintValue](Functions/SetConstraintValue.md) | [SetSingularConstraint](Functions/SetSingularConstraint.md) 
 
 ## PDF
+
 | | | |
 |---|---|---|
 | [PDF_AnnotationsFromBlob](Functions/PDF_AnnotationsFromBlob.md) | [PDF_CreateBlob](Functions/PDF_CreateBlob.md) | [PDF_CreatePDFABlobFromBlob](Functions/PDF_CreatePDFABlobFromBlob.md) |
@@ -1015,6 +1044,7 @@
 | [PDF_ThreadInitialize](Functions/PDF_ThreadInitialize.md) | [PDF_VerifyLibrary](Functions/PDF_VerifyLibrary.md) 
 
 ## PlantObjectCoreTools
+
 | | | |
 |---|---|---|
 | [Plant_CreateDupPlant](Functions/Plant_CreateDupPlant.md) | [Plant_EditPlantDefRB](Functions/Plant_EditPlantDefRB.md) | [Plant_GetToolInit](Functions/Plant_GetToolInit.md) |
@@ -1023,6 +1053,7 @@
 | [Plant_UpdatePlaceTool](Functions/Plant_UpdatePlaceTool.md) | [Plant_UpdateTranslat](Functions/Plant_UpdateTranslat.md) 
 
 ## Project Sharing
+
 | | | |
 |---|---|---|
 | [GetCheckoutsComment](Functions/GetCheckoutsComment.md) | [GetCurrentUserId](Functions/GetCurrentUserId.md) | [GetLayerProjectInfo](Functions/GetLayerProjectInfo.md) |
@@ -1031,6 +1062,7 @@
 | [IsProjectOffline](Functions/IsProjectOffline.md) | [SetCheckoutsComment](Functions/SetCheckoutsComment.md) 
 
 ## Protection
+
 | | | |
 |---|---|---|
 | [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) | [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) |
@@ -1038,12 +1070,13 @@
 | [Prot_IsFundamentals](Functions/Prot_IsFundamentals.md) | [Prot_IsModuleEnabled](Functions/Prot_IsModuleEnabled.md) 
 
 ## Roadway Interface Library
+
 | | | |
 |---|---|---|
 | [Road_GetStationCount](Functions/Road_GetStationCount.md) | [Road_GetStationPoint](Functions/Road_GetStationPoint.md) | [Road_InsertStation](Functions/Road_InsertStation.md) |
 
-
 ## Selection
+
 | | | |
 |---|---|---|
 | [DSelectAll](Functions/DSelectAll.md) | [NumSelectedObjects](Functions/NumSelectedObjects.md) | [NumSObj](Functions/NumSObj.md) |
@@ -1051,6 +1084,7 @@
 | [SetSelect](Functions/SetSelect.md) 
 
 ## SiteModel Interface Library
+
 | | | |
 |---|---|---|
 | [DegFromStr](Functions/DegFromStr.md) | [DTM6_ClearModelCache](Functions/DTM6_ClearModelCache.md) | [DTM6_GetDTMObject](Functions/DTM6_GetDTMObject.md) |
@@ -1061,6 +1095,7 @@
 | [SetFenceAttrs](Functions/SetFenceAttrs.md) | [SetPadAttrs](Functions/SetPadAttrs.md) 
 
 ## SpaceObjectCoreTools
+
 | | | |
 |---|---|---|
 | [Space_AddAreaModif](Functions/Space_AddAreaModif.md) | [Space_AddDiscription](Functions/Space_AddDiscription.md) | [Space_AddName](Functions/Space_AddName.md) |
@@ -1073,6 +1108,7 @@
 | [Space_RenAssignZoneX](Functions/Space_RenAssignZoneX.md) 
 
 ## Special - QuickTime
+
 | | | |
 |---|---|---|
 | [QTCloseMovieFile](Functions/QTCloseMovieFile.md) | [QTCloseMovieFileN](Functions/QTCloseMovieFileN.md) | [QTCreateMovieRefID](Functions/QTCreateMovieRefID.md) |
@@ -1080,8 +1116,8 @@
 | [QTOpenMovieFile](Functions/QTOpenMovieFile.md) | [QTOpenMovieFileN](Functions/QTOpenMovieFileN.md) | [QTSetMovieOptions](Functions/QTSetMovieOptions.md) |
 | [QTSetMovieOptionsN](Functions/QTSetMovieOptionsN.md) | [QTTerminate](Functions/QTTerminate.md) | [QTWriteFrame](Functions/QTWriteFrame.md) |
 
-
 ## Spotlight
+
 | | | |
 |---|---|---|
 | [AdditionalDefRecords](Functions/AdditionalDefRecords.md) | [ApplyLightInfoRecord](Functions/ApplyLightInfoRecord.md) | [DBeam_Begin](Functions/DBeam_Begin.md) |
@@ -1110,6 +1146,7 @@
 | [SL_UpdateSAcc](Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](Functions/SL_UpdateUID.md) 
 
 ## Strings
+
 | | | |
 |---|---|---|
 | [Angle2Str](Functions/Angle2Str.md) | [Area2Str](Functions/Area2Str.md) | [Chr](Functions/Chr.md) |
@@ -1122,55 +1159,58 @@
 | [UprString](Functions/UprString.md) | [Volume2Str](Functions/Volume2Str.md) 
 
 ## StructuralMember
+
 | | | |
 |---|---|---|
 | [SM_FromShape](Functions/SM_FromShape.md) | [SM_Preferences](Functions/SM_Preferences.md) 
 
 ## Textures
+
 | | | |
 |---|---|---|
-| [AddCustomTexPart](Functions/AddCustomTexPart.md) | [ApplyCustomTexPart](Functions/ApplyCustomTexPart.md) | [AttachDefaultTextureSpace](Functions/AttachDefaultTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [AddCustomTexPart](Functions/AddCustomTexPart.md) | [ApplyCustomTexPart](Functions/ApplyCustomTexPart.md) | [AttachDefaultTextureSpace](Functions/AttachDefaultTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub> |
 | [CreatePaintFromImage](Functions/CreatePaintFromImage.md) | [CreatePaintFromImgN](Functions/CreatePaintFromImgN.md) | [CreateShaderRecord](Functions/CreateShaderRecord.md) |
-| [CreateTexture](Functions/CreateTexture.md) | [CreateTextureBitmap](Functions/CreateTextureBitmap.md) <sub>*obsolete in VectorWorks10.1*</sub>| [CreateTextureBitmapD](Functions/CreateTextureBitmapD.md) |
-| [CreateTextureBitmapN](Functions/CreateTextureBitmapN.md) | [CustomTexPartExists](Functions/CustomTexPartExists.md) | [DeleteTextureSpace](Functions/DeleteTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [EditShaderRecord](Functions/EditShaderRecord.md) | [EditTexture](Functions/EditTexture.md) | [EditTextureBitmap](Functions/EditTextureBitmap.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [EditTextureSpace](Functions/EditTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetClTextureC](Functions/GetClTextureC.md) | [GetClTextureD](Functions/GetClTextureD.md) |
+| [CreateTexture](Functions/CreateTexture.md) | [CreateTextureBitmap](Functions/CreateTextureBitmap.md) <sub>*obsolete in VectorWorks10.1*</sub> | [CreateTextureBitmapD](Functions/CreateTextureBitmapD.md) |
+| [CreateTextureBitmapN](Functions/CreateTextureBitmapN.md) | [CustomTexPartExists](Functions/CustomTexPartExists.md) | [DeleteTextureSpace](Functions/DeleteTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [EditShaderRecord](Functions/EditShaderRecord.md) | [EditTexture](Functions/EditTexture.md) | [EditTextureBitmap](Functions/EditTextureBitmap.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [EditTextureSpace](Functions/EditTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetClTextureC](Functions/GetClTextureC.md) | [GetClTextureD](Functions/GetClTextureD.md) |
 | [GetClTextureG](Functions/GetClTextureG.md) | [GetClTextureL](Functions/GetClTextureL.md) | [GetClTextureR](Functions/GetClTextureR.md) |
 | [GetClTextureT](Functions/GetClTextureT.md) | [GetClUseTexture](Functions/GetClUseTexture.md) | [GetImageCropObject](Functions/GetImageCropObject.md) |
-| [GetNumTexLayers](Functions/GetNumTexLayers.md) | [GetObjExpandTexture](Functions/GetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetShaderRecord](Functions/GetShaderRecord.md) |
+| [GetNumTexLayers](Functions/GetNumTexLayers.md) | [GetObjExpandTexture](Functions/GetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetShaderRecord](Functions/GetShaderRecord.md) |
 | [GetTexBFeatureEnd](Functions/GetTexBFeatureEnd.md) | [GetTexBFeatureStart](Functions/GetTexBFeatureStart.md) | [GetTexBitFeatureSize](Functions/GetTexBitFeatureSize.md) |
-| [GetTexBitmapOrigin](Functions/GetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetTexBitPaintNode](Functions/GetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub>| [GetTexBitRepHoriz](Functions/GetTexBitRepHoriz.md) |
-| [GetTexBitRepVert](Functions/GetTexBitRepVert.md) | [GetTexMapBool](Functions/GetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub>| [GetTexMapBoolN](Functions/GetTexMapBoolN.md) |
-| [GetTexMapInt](Functions/GetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub>| [GetTexMapIntN](Functions/GetTexMapIntN.md) | [GetTexMapReal](Functions/GetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub>|
-| [GetTexMapRealN](Functions/GetTexMapRealN.md) | [GetTexSpace2DOffset](Functions/GetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpace2DRadius](Functions/GetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [GetTexSpace2DRot](Functions/GetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpace2DScale](Functions/GetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceEndCap](Functions/GetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [GetTexSpaceKind](Functions/GetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceOrientU](Functions/GetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceOrientV](Functions/GetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [GetTexSpaceOrientW](Functions/GetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceOrigin](Functions/GetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpacePartID](Functions/GetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [GetTexSpaceStartCap](Functions/GetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTextureBitmap](Functions/GetTextureBitmap.md) | [GetTextureRef](Functions/GetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub>|
-| [GetTextureRefN](Functions/GetTextureRefN.md) | [GetTextureSet](Functions/GetTextureSet.md) | [GetTextureShader](Functions/GetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [GetTextureShininess](Functions/GetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetTextureSize](Functions/GetTextureSize.md) | [GetTextureSpace](Functions/GetTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [GetTextureTransp](Functions/GetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetWallHoleTexturePart](Functions/GetWallHoleTexturePart.md) | [GS_EdSh_ConstructLayout](Functions/GS_EdSh_ConstructLayout.md) |
+| [GetTexBitmapOrigin](Functions/GetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetTexBitPaintNode](Functions/GetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub> | [GetTexBitRepHoriz](Functions/GetTexBitRepHoriz.md) |
+| [GetTexBitRepVert](Functions/GetTexBitRepVert.md) | [GetTexMapBool](Functions/GetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub> | [GetTexMapBoolN](Functions/GetTexMapBoolN.md) |
+| [GetTexMapInt](Functions/GetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub> | [GetTexMapIntN](Functions/GetTexMapIntN.md) | [GetTexMapReal](Functions/GetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub> |
+| [GetTexMapRealN](Functions/GetTexMapRealN.md) | [GetTexSpace2DOffset](Functions/GetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpace2DRadius](Functions/GetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [GetTexSpace2DRot](Functions/GetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpace2DScale](Functions/GetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpaceEndCap](Functions/GetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [GetTexSpaceKind](Functions/GetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpaceOrientU](Functions/GetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpaceOrientV](Functions/GetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [GetTexSpaceOrientW](Functions/GetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpaceOrigin](Functions/GetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTexSpacePartID](Functions/GetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [GetTexSpaceStartCap](Functions/GetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub> | [GetTextureBitmap](Functions/GetTextureBitmap.md) | [GetTextureRef](Functions/GetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub> |
+| [GetTextureRefN](Functions/GetTextureRefN.md) | [GetTextureSet](Functions/GetTextureSet.md) | [GetTextureShader](Functions/GetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [GetTextureShininess](Functions/GetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetTextureSize](Functions/GetTextureSize.md) | [GetTextureSpace](Functions/GetTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [GetTextureTransp](Functions/GetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetWallHoleTexturePart](Functions/GetWallHoleTexturePart.md) | [GS_EdSh_ConstructLayout](Functions/GS_EdSh_ConstructLayout.md) |
 | [GS_EdSh_PopulateMenu](Functions/GS_EdSh_PopulateMenu.md) | [GS_EdSh_RunDialog](Functions/GS_EdSh_RunDialog.md) | [IsImageCropped](Functions/IsImageCropped.md) |
 | [IsImageCropVisible](Functions/IsImageCropVisible.md) | [IsRW](Functions/IsRW.md) | [IsTextureableObject](Functions/IsTextureableObject.md) |
 | [RemoveCustomTexParts](Functions/RemoveCustomTexParts.md) | [ResolveByClassTextureRef](Functions/ResolveByClassTextureRef.md) | [SetClTextureC](Functions/SetClTextureC.md) |
 | [SetClTextureD](Functions/SetClTextureD.md) | [SetClTextureG](Functions/SetClTextureG.md) | [SetClTextureL](Functions/SetClTextureL.md) |
 | [SetClTextureR](Functions/SetClTextureR.md) | [SetClTextureT](Functions/SetClTextureT.md) | [SetCustomRWPrefs](Functions/SetCustomRWPrefs.md) |
-| [SetDefaultTexMap](Functions/SetDefaultTexMap.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetDefaultTexMapN](Functions/SetDefaultTexMapN.md) | [SetDefaultTextureSpace](Functions/SetDefaultTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [SetImageCropObject](Functions/SetImageCropObject.md) | [SetImageCropVisible](Functions/SetImageCropVisible.md) | [SetObjExpandTexture](Functions/SetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetDefaultTexMap](Functions/SetDefaultTexMap.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetDefaultTexMapN](Functions/SetDefaultTexMapN.md) | [SetDefaultTextureSpace](Functions/SetDefaultTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetImageCropObject](Functions/SetImageCropObject.md) | [SetImageCropVisible](Functions/SetImageCropVisible.md) | [SetObjExpandTexture](Functions/SetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub> |
 | [SetOpenGLPrefs](Functions/SetOpenGLPrefs.md) | [SetTexBFeatureEnd](Functions/SetTexBFeatureEnd.md) | [SetTexBFeatureStart](Functions/SetTexBFeatureStart.md) |
-| [SetTexBitFeatureSize](Functions/SetTexBitFeatureSize.md) | [SetTexBitmapOrigin](Functions/SetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTexBitPaintNode](Functions/SetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub>|
-| [SetTexBitRepHoriz](Functions/SetTexBitRepHoriz.md) | [SetTexBitRepVert](Functions/SetTexBitRepVert.md) | [SetTexMapBool](Functions/SetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub>|
-| [SetTexMapBoolN](Functions/SetTexMapBoolN.md) | [SetTexMapInt](Functions/SetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetTexMapIntN](Functions/SetTexMapIntN.md) |
-| [SetTexMapReal](Functions/SetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetTexMapRealN](Functions/SetTexMapRealN.md) | [SetTexSpace2DOffset](Functions/SetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [SetTexSpace2DRadius](Functions/SetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpace2DRot](Functions/SetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpace2DScale](Functions/SetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [SetTexSpaceEndCap](Functions/SetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceKind](Functions/SetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceOrientU](Functions/SetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [SetTexSpaceOrientV](Functions/SetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceOrientW](Functions/SetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceOrigin](Functions/SetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub>|
-| [SetTexSpacePartID](Functions/SetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceStartCap](Functions/SetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTextureBitmap](Functions/SetTextureBitmap.md) |
-| [SetTextureRef](Functions/SetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetTextureRefN](Functions/SetTextureRefN.md) | [SetTextureSet](Functions/SetTextureSet.md) |
-| [SetTextureShader](Functions/SetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTextureShininess](Functions/SetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTextureSize](Functions/SetTextureSize.md) |
-| [SetTextureTransp](Functions/SetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetWallHoleTexturePart](Functions/SetWallHoleTexturePart.md) 
+| [SetTexBitFeatureSize](Functions/SetTexBitFeatureSize.md) | [SetTexBitmapOrigin](Functions/SetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTexBitPaintNode](Functions/SetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub> |
+| [SetTexBitRepHoriz](Functions/SetTexBitRepHoriz.md) | [SetTexBitRepVert](Functions/SetTexBitRepVert.md) | [SetTexMapBool](Functions/SetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub> |
+| [SetTexMapBoolN](Functions/SetTexMapBoolN.md) | [SetTexMapInt](Functions/SetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTexMapIntN](Functions/SetTexMapIntN.md) |
+| [SetTexMapReal](Functions/SetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTexMapRealN](Functions/SetTexMapRealN.md) | [SetTexSpace2DOffset](Functions/SetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpace2DRadius](Functions/SetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpace2DRot](Functions/SetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpace2DScale](Functions/SetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpaceEndCap](Functions/SetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceKind](Functions/SetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrientU](Functions/SetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpaceOrientV](Functions/SetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrientW](Functions/SetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrigin](Functions/SetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpacePartID](Functions/SetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceStartCap](Functions/SetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTextureBitmap](Functions/SetTextureBitmap.md) |
+| [SetTextureRef](Functions/SetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTextureRefN](Functions/SetTextureRefN.md) | [SetTextureSet](Functions/SetTextureSet.md) |
+| [SetTextureShader](Functions/SetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTextureShininess](Functions/SetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTextureSize](Functions/SetTextureSize.md) |
+| [SetTextureTransp](Functions/SetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetWallHoleTexturePart](Functions/SetWallHoleTexturePart.md) 
 
 ## Tool Events
+
 | | | |
 |---|---|---|
 | [ResList_DlgInit](Functions/ResList_DlgInit.md) | [vstAddButtonMode](Functions/vstAddButtonMode.md) | [vstAddPDMenuItem](Functions/vstAddPDMenuItem.md) |
@@ -1190,8 +1230,8 @@
 | [vstSetEventResult](Functions/vstSetEventResult.md) | [vstSetHelpString](Functions/vstSetHelpString.md) | [vstSetModeHelpBase](Functions/vstSetModeHelpBase.md) |
 | [vstSetPDMenuSel](Functions/vstSetPDMenuSel.md) | [vstSetPtBehavior](Functions/vstSetPtBehavior.md) | [vstSetWPHybridTool](Functions/vstSetWPHybridTool.md) |
 
-
 ## Truss Analysis
+
 | | | |
 |---|---|---|
 | [DLDBeginLoadData](Functions/DLDBeginLoadData.md) | [DLDEndLoadData](Functions/DLDEndLoadData.md) | [DLDSetLoadDataBool](Functions/DLDSetLoadDataBool.md) |
@@ -1208,8 +1248,8 @@
 | [OLDSetLoadDataBool](Functions/OLDSetLoadDataBool.md) | [OLDSetLoadDataReal](Functions/OLDSetLoadDataReal.md) | [OLDSetLoadDataStr](Functions/OLDSetLoadDataStr.md) |
 | [OLDShowTrussSnapping](Functions/OLDShowTrussSnapping.md) | [OLDTrussSectionDlg](Functions/OLDTrussSectionDlg.md) | [UpdatePositionParam](Functions/UpdatePositionParam.md) |
 
-
 ## Units
+
 | | | |
 |---|---|---|
 | [GetPrimaryUnitInfo](Functions/GetPrimaryUnitInfo.md) | [GetRoundingBase](Functions/GetRoundingBase.md) | [GetSecondaryUnitInfo](Functions/GetSecondaryUnitInfo.md) |
@@ -1217,6 +1257,7 @@
 | [Units](Functions/Units.md) 
 
 ## User Interactive
+
 | | | |
 |---|---|---|
 | [AutoKey](Functions/AutoKey.md) | [BeginModeButtonsText](Functions/BeginModeButtonsText.md) | [CallTool](Functions/CallTool.md) |
@@ -1229,8 +1270,8 @@
 | [SetModeButtonText](Functions/SetModeButtonText.md) | [SetTempToolHelpStr](Functions/SetTempToolHelpStr.md) | [SetToolHelpMessage](Functions/SetToolHelpMessage.md) |
 | [Shift](Functions/Shift.md) | [TrackObject](Functions/TrackObject.md) | [TrackObjectN](Functions/TrackObjectN.md) |
 
-
 ## Utility
+
 | | | |
 |---|---|---|
 | [BeginContext](Functions/BeginContext.md) | [BeginMultDashConvert](Functions/BeginMultDashConvert.md) | [CallToolByIndex](Functions/CallToolByIndex.md) |
@@ -1279,6 +1320,7 @@
 | [WebDlgEnableConsole](Functions/WebDlgEnableConsole.md) 
 
 ## View / Zoom
+
 | | | |
 |---|---|---|
 | [CreateHLHandle](Functions/CreateHLHandle.md) | [CreateOpenGLHandle](Functions/CreateOpenGLHandle.md) | [CreateRenderworksStyle](Functions/CreateRenderworksStyle.md) |
@@ -1290,8 +1332,8 @@
 | [SetView](Functions/SetView.md) | [SetViewVector](Functions/SetViewVector.md) | [SetZoom](Functions/SetZoom.md) |
 | [VDelete](Functions/VDelete.md) | [VRestore](Functions/VRestore.md) | [VSave](Functions/VSave.md) |
 
-
 ## Viewports
+
 | | | |
 |---|---|---|
 | [CreateVPClOvrd](Functions/CreateVPClOvrd.md) | [CreateVPLrOvrd](Functions/CreateVPLrOvrd.md) | [GetVPClOvrdCount](Functions/GetVPClOvrdCount.md) |
@@ -1309,17 +1351,17 @@
 | [SetVPClOvrdWallTxt](Functions/SetVPClOvrdWallTxt.md) | [SetVPLrOvrdFillBack](Functions/SetVPLrOvrdFillBack.md) | [SetVPLrOvrdFillFore](Functions/SetVPLrOvrdFillFore.md) |
 | [SetVPLrOvrdOpty](Functions/SetVPLrOvrdOpty.md) | [SetVPLrOvrdPenBack](Functions/SetVPLrOvrdPenBack.md) | [SetVPLrOvrdPenFore](Functions/SetVPLrOvrdPenFore.md) |
 
-
 ## Worksheets
+
 | | | |
 |---|---|---|
-| [ActSSheet](Functions/ActSSheet.md) <sub>*obsolete in VectorWorks9.0*</sub>| [AddWSColumnOperator](Functions/AddWSColumnOperator.md) | [AreWorksheetGridLinesVisible](Functions/AreWorksheetGridLinesVisible.md) |
-| [AutoFitWSRowHeights](Functions/AutoFitWSRowHeights.md) | [CellHasNum](Functions/CellHasNum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [CellHasStr](Functions/CellHasStr.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [CellString](Functions/CellString.md) <sub>*obsolete in VectorWorks9.0*</sub>| [CellValue](Functions/CellValue.md) <sub>*obsolete in VectorWorks9.0*</sub>| [ClearWSCell](Functions/ClearWSCell.md) |
-| [CloseSS](Functions/CloseSS.md) <sub>*obsolete in VectorWorks9.0*</sub>| [CreateWS](Functions/CreateWS.md) | [CreateWSImage](Functions/CreateWSImage.md) |
+| [ActSSheet](Functions/ActSSheet.md) <sub>*obsolete in VectorWorks9.0*</sub> | [AddWSColumnOperator](Functions/AddWSColumnOperator.md) | [AreWorksheetGridLinesVisible](Functions/AreWorksheetGridLinesVisible.md) |
+| [AutoFitWSRowHeights](Functions/AutoFitWSRowHeights.md) | [CellHasNum](Functions/CellHasNum.md) <sub>*obsolete in VectorWorks9.0*</sub> | [CellHasStr](Functions/CellHasStr.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [CellString](Functions/CellString.md) <sub>*obsolete in VectorWorks9.0*</sub> | [CellValue](Functions/CellValue.md) <sub>*obsolete in VectorWorks9.0*</sub> | [ClearWSCell](Functions/ClearWSCell.md) |
+| [CloseSS](Functions/CloseSS.md) <sub>*obsolete in VectorWorks9.0*</sub> | [CreateWS](Functions/CreateWS.md) | [CreateWSImage](Functions/CreateWSImage.md) |
 | [DeleteWSColumns](Functions/DeleteWSColumns.md) | [DeleteWSRows](Functions/DeleteWSRows.md) | [EnableDrawingWorksheetPalette](Functions/EnableDrawingWorksheetPalette.md) |
-| [GetCAlign](Functions/GetCAlign.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetCellNum](Functions/GetCellNum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetCellStr](Functions/GetCellStr.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [GetCWidth](Functions/GetCWidth.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetSprdSortSum](Functions/GetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetSprdSortSumColumns](Functions/GetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [GetCAlign](Functions/GetCAlign.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetCellNum](Functions/GetCellNum.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetCellStr](Functions/GetCellStr.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [GetCWidth](Functions/GetCWidth.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetSprdSortSum](Functions/GetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub> | [GetSprdSortSumColumns](Functions/GetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub> |
 | [GetTopVisibleWS](Functions/GetTopVisibleWS.md) | [GetWSAutoRecalcState](Functions/GetWSAutoRecalcState.md) | [GetWSCellAlignment](Functions/GetWSCellAlignment.md) |
 | [GetWSCellBorder](Functions/GetWSCellBorder.md) | [GetWSCellFill](Functions/GetWSCellFill.md) | [GetWSCellFormula](Functions/GetWSCellFormula.md) |
 | [GetWSCellFormulaN](Functions/GetWSCellFormulaN.md) | [GetWSCellNumberFormat](Functions/GetWSCellNumberFormat.md) | [GetWSCellsImgDPIRes](Functions/GetWSCellsImgDPIRes.md) |
@@ -1340,19 +1382,19 @@
 | [InsertWSRows](Functions/InsertWSRows.md) | [IsValidWSCell](Functions/IsValidWSCell.md) | [IsValidWSRange](Functions/IsValidWSRange.md) |
 | [IsValidWSSubrowCell](Functions/IsValidWSSubrowCell.md) | [IsWSCellNumber](Functions/IsWSCellNumber.md) | [IsWSCellString](Functions/IsWSCellString.md) |
 | [IsWSDatabaseRow](Functions/IsWSDatabaseRow.md) | [IsWSImg](Functions/IsWSImg.md) | [IsWSSubrowCellNumber](Functions/IsWSSubrowCellNumber.md) |
-| [IsWSSubrowCellString](Functions/IsWSSubrowCellString.md) | [IsWSVisible](Functions/IsWSVisible.md) | [LoadCell](Functions/LoadCell.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [MoveWSColumnOperator](Functions/MoveWSColumnOperator.md) | [NewSprdSheet](Functions/NewSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub>| [RecalculateWS](Functions/RecalculateWS.md) |
-| [RemoveAllWSColumnOperators](Functions/RemoveAllWSColumnOperators.md) | [RemoveWSColumnOperator](Functions/RemoveWSColumnOperator.md) | [SelectSS](Functions/SelectSS.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [SetSprdSortSum](Functions/SetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetSprdSortSumColumns](Functions/SetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTopVisibleWS](Functions/SetTopVisibleWS.md) |
+| [IsWSSubrowCellString](Functions/IsWSSubrowCellString.md) | [IsWSVisible](Functions/IsWSVisible.md) | [LoadCell](Functions/LoadCell.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [MoveWSColumnOperator](Functions/MoveWSColumnOperator.md) | [NewSprdSheet](Functions/NewSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub> | [RecalculateWS](Functions/RecalculateWS.md) |
+| [RemoveAllWSColumnOperators](Functions/RemoveAllWSColumnOperators.md) | [RemoveWSColumnOperator](Functions/RemoveWSColumnOperator.md) | [SelectSS](Functions/SelectSS.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SetSprdSortSum](Functions/SetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetSprdSortSumColumns](Functions/SetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTopVisibleWS](Functions/SetTopVisibleWS.md) |
 | [SetWorksheetGridLinesVisibility](Functions/SetWorksheetGridLinesVisibility.md) | [SetWSAutoRecalcState](Functions/SetWSAutoRecalcState.md) | [SetWSCellAlignment](Functions/SetWSCellAlignment.md) |
-| [SetWSCellBorder](Functions/SetWSCellBorder.md) <sub>*obsolete in VectorWorks12.0*</sub>| [SetWSCellBorders](Functions/SetWSCellBorders.md) | [SetWSCellBottomBN](Functions/SetWSCellBottomBN.md) |
-| [SetWSCellBottomBorder](Functions/SetWSCellBottomBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellFill](Functions/SetWSCellFill.md) | [SetWSCellFormula](Functions/SetWSCellFormula.md) |
-| [SetWSCellFormulaN](Functions/SetWSCellFormulaN.md) | [SetWSCellInsideHorizBorder](Functions/SetWSCellInsideHorizBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellInsideHzBN](Functions/SetWSCellInsideHzBN.md) |
-| [SetWSCellInsideVertBorder](Functions/SetWSCellInsideVertBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellInsideVtBN](Functions/SetWSCellInsideVtBN.md) | [SetWSCellLeftBN](Functions/SetWSCellLeftBN.md) |
-| [SetWSCellLeftBorder](Functions/SetWSCellLeftBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellNumberFormat](Functions/SetWSCellNumberFormat.md) | [SetWSCellOutlineBN](Functions/SetWSCellOutlineBN.md) |
-| [SetWSCellOutlineBorder](Functions/SetWSCellOutlineBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellRightBN](Functions/SetWSCellRightBN.md) | [SetWSCellRightBorder](Functions/SetWSCellRightBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [SetWSCellBorder](Functions/SetWSCellBorder.md) <sub>*obsolete in VectorWorks12.0*</sub> | [SetWSCellBorders](Functions/SetWSCellBorders.md) | [SetWSCellBottomBN](Functions/SetWSCellBottomBN.md) |
+| [SetWSCellBottomBorder](Functions/SetWSCellBottomBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellFill](Functions/SetWSCellFill.md) | [SetWSCellFormula](Functions/SetWSCellFormula.md) |
+| [SetWSCellFormulaN](Functions/SetWSCellFormulaN.md) | [SetWSCellInsideHorizBorder](Functions/SetWSCellInsideHorizBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellInsideHzBN](Functions/SetWSCellInsideHzBN.md) |
+| [SetWSCellInsideVertBorder](Functions/SetWSCellInsideVertBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellInsideVtBN](Functions/SetWSCellInsideVtBN.md) | [SetWSCellLeftBN](Functions/SetWSCellLeftBN.md) |
+| [SetWSCellLeftBorder](Functions/SetWSCellLeftBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellNumberFormat](Functions/SetWSCellNumberFormat.md) | [SetWSCellOutlineBN](Functions/SetWSCellOutlineBN.md) |
+| [SetWSCellOutlineBorder](Functions/SetWSCellOutlineBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellRightBN](Functions/SetWSCellRightBN.md) | [SetWSCellRightBorder](Functions/SetWSCellRightBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> |
 | [SetWSCellsImgDPIRes](Functions/SetWSCellsImgDPIRes.md) | [SetWSCellTextColor](Functions/SetWSCellTextColor.md) | [SetWSCellTextFormat](Functions/SetWSCellTextFormat.md) |
-| [SetWSCellTopBN](Functions/SetWSCellTopBN.md) | [SetWSCellTopBorder](Functions/SetWSCellTopBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellVertAlignment](Functions/SetWSCellVertAlignment.md) |
+| [SetWSCellTopBN](Functions/SetWSCellTopBN.md) | [SetWSCellTopBorder](Functions/SetWSCellTopBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellVertAlignment](Functions/SetWSCellVertAlignment.md) |
 | [SetWSCellWrapTextFlag](Functions/SetWSCellWrapTextFlag.md) | [SetWSColumnOperators](Functions/SetWSColumnOperators.md) | [SetWSColumnSortType](Functions/SetWSColumnSortType.md) |
 | [SetWSColumnWidth](Functions/SetWSColumnWidth.md) | [SetWSCurrentCell](Functions/SetWSCurrentCell.md) | [SetWSImageScaleF](Functions/SetWSImageScaleF.md) |
 | [SetWSImgAngle](Functions/SetWSImgAngle.md) | [SetWSImgComponent](Functions/SetWSImgComponent.md) | [SetWSImgMarginSize](Functions/SetWSImgMarginSize.md) |
@@ -1361,8 +1403,8 @@
 | [SetWSImgUseLayScale](Functions/SetWSImgUseLayScale.md) | [SetWSImgUseObjectImg](Functions/SetWSImgUseObjectImg.md) | [SetWSImgView](Functions/SetWSImgView.md) |
 | [SetWSPlacement](Functions/SetWSPlacement.md) | [SetWSRowHeight](Functions/SetWSRowHeight.md) | [SetWSSelection](Functions/SetWSSelection.md) |
 | [SetWSTextAngle](Functions/SetWSTextAngle.md) | [ShowWS](Functions/ShowWS.md) | [ShowWSDialog](Functions/ShowWSDialog.md) |
-| [SprdAlign](Functions/SprdAlign.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SprdBorder](Functions/SprdBorder.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SprdFormat](Functions/SprdFormat.md) <sub>*obsolete in VectorWorks9.0*</sub>|
-| [SprdSize](Functions/SprdSize.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SprdWidth](Functions/SprdWidth.md) <sub>*obsolete in VectorWorks9.0*</sub>| [TargetSprdSheet](Functions/TargetSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [SprdAlign](Functions/SprdAlign.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdBorder](Functions/SprdBorder.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdFormat](Functions/SprdFormat.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SprdSize](Functions/SprdSize.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdWidth](Functions/SprdWidth.md) <sub>*obsolete in VectorWorks9.0*</sub> | [TargetSprdSheet](Functions/TargetSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub> |
 | [WorksheetMergeCells](Functions/WorksheetMergeCells.md) | [WorksheetSplitCells](Functions/WorksheetSplitCells.md) | [WSScript_AddHandle](Functions/WSScript_AddHandle.md) |
 | [WSScript_AddHandleId](Functions/WSScript_AddHandleId.md) | [WSScript_GetEdit](Functions/WSScript_GetEdit.md) | [WSScript_GetEditObj](Functions/WSScript_GetEditObj.md) |
 | [WSScript_GetObject](Functions/WSScript_GetObject.md) | [WSScript_GetPrmInt](Functions/WSScript_GetPrmInt.md) | [WSScript_GetPrmReal](Functions/WSScript_GetPrmReal.md) |
@@ -1370,6 +1412,7 @@
 | [WSScript_SetResReal](Functions/WSScript_SetResReal.md) | [WSScript_SetResStr](Functions/WSScript_SetResStr.md) 
 
 ## Workspaces
+
 | | | |
 |---|---|---|
 | [ws2AddMenuGroup](Functions/ws2AddMenuGroup.md) | [ws2AddMenuItem](Functions/ws2AddMenuItem.md) | [ws2CommitChanges](Functions/ws2CommitChanges.md) |
@@ -1384,6 +1427,7 @@
 | [wsInstallFailed](Functions/wsInstallFailed.md) 
 
 ## XML
+
 | | | |
 |---|---|---|
 | [CreateNewXMLDocument](Functions/CreateNewXMLDocument.md) | [DeleteAttribute](Functions/DeleteAttribute.md) | [DeleteCDATA](Functions/DeleteCDATA.md) |
@@ -1394,11 +1438,12 @@
 | [ReleaseXML](Functions/ReleaseXML.md) | [SetAttributeValue](Functions/SetAttributeValue.md) | [SetCDATA](Functions/SetCDATA.md) |
 | [SetElementValue](Functions/SetElementValue.md) | [WriteXMLFile](Functions/WriteXMLFile.md) | [WriteXMLMemory](Functions/WriteXMLMemory.md) |
 
-
 ## XML SAX
+
 | | | |
 |---|---|---|
 | [XMLSAXAddNodeAttr](Functions/XMLSAXAddNodeAttr.md) | [XMLSAXAddNodeValue](Functions/XMLSAXAddNodeValue.md) | [XMLSAXBeginDocFile](Functions/XMLSAXBeginDocFile.md) |
 | [XMLSAXBeginDocMemory](Functions/XMLSAXBeginDocMemory.md) | [XMLSAXBeginNode](Functions/XMLSAXBeginNode.md) | [XMLSAXEndDoc](Functions/XMLSAXEndDoc.md) |
 | [XMLSAXEndDocMemory](Functions/XMLSAXEndDocMemory.md) | [XMLSAXEndNode](Functions/XMLSAXEndNode.md) | [XMLSAXParseFile](Functions/XMLSAXParseFile.md) |
 | [XMLSAXParseMemory](Functions/XMLSAXParseMemory.md) 
+

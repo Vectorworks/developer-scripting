@@ -1,6 +1,7 @@
 [Function Reference](../README.md)
 
 # Excel
+
 | | | |
 |---|---|---|
 | [Excel_Convert](../Functions/Excel_Convert.md) | [EXL_AddSheet](../Functions/EXL_AddSheet.md) | [EXL_CloseBook](../Functions/EXL_CloseBook.md) |
@@ -14,3 +15,4 @@
 | [EXL_SetCellBorderL](../Functions/EXL_SetCellBorderL.md) | [EXL_SetCellBorderR](../Functions/EXL_SetCellBorderR.md) | [EXL_SetCellBorderT](../Functions/EXL_SetCellBorderT.md) |
 | [EXL_SetCellFont](../Functions/EXL_SetCellFont.md) | [EXL_SetCellNumber](../Functions/EXL_SetCellNumber.md) | [EXL_SetCellNumFormula](../Functions/EXL_SetCellNumFormula.md) |
 | [EXL_SetCellStrFormula](../Functions/EXL_SetCellStrFormula.md) | [EXL_SetCellString](../Functions/EXL_SetCellString.md) 
+
