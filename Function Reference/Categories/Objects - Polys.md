@@ -1,27 +1,14 @@
-# Objects - Polys
+[Function Reference](../README.md)
 
-- [Add2DVertex.md](../Functions/Add2DVertex.md)
-- [AddPoint.md](../Functions/AddPoint.md)
-- [ArcTo.md](../Functions/ArcTo.md)
-- [BeginPoly.md](../Functions/BeginPoly.md)
-- [ClosePoly.md](../Functions/ClosePoly.md)
-- [CurveThrough.md](../Functions/CurveThrough.md)
-- [CurveTo.md](../Functions/CurveTo.md)
-- [DelVertex.md](../Functions/DelVertex.md)
-- [EndPoly.md](../Functions/EndPoly.md)
-- [GetHole.md](../Functions/GetHole.md)
-- [GetNumHoles.md](../Functions/GetNumHoles.md)
-- [GetPolylineArcMaxRadius.md](../Functions/GetPolylineArcMaxRadius.md)
-- [GetPolylineVertex.md](../Functions/GetPolylineVertex.md)
-- [GetPolyPt.md](../Functions/GetPolyPt.md)
-- [GetVertexVisibility.md](../Functions/GetVertexVisibility.md)
-- [GetVertNum.md](../Functions/GetVertNum.md)
-- [InsertVertex.md](../Functions/InsertVertex.md)
-- [IsPolyClosed.md](../Functions/IsPolyClosed.md)
-- [OpenPoly.md](../Functions/OpenPoly.md)
-- [Poly.md](../Functions/Poly.md)
-- [SetPolyClosed.md](../Functions/SetPolyClosed.md)
-- [SetPolylineVertex.md](../Functions/SetPolylineVertex.md)
-- [SetPolyPt.md](../Functions/SetPolyPt.md)
-- [SetVertexVisibility.md](../Functions/SetVertexVisibility.md)
-- [Smooth.md](../Functions/Smooth.md)
+# Objects - Polys
+| | | |
+|---|---|---|
+| [Add2DVertex](../Functions/Add2DVertex.md) | [AddPoint](../Functions/AddPoint.md) | [ArcTo](../Functions/ArcTo.md) |
+| [BeginPoly](../Functions/BeginPoly.md) | [ClosePoly](../Functions/ClosePoly.md) | [CurveThrough](../Functions/CurveThrough.md) |
+| [CurveTo](../Functions/CurveTo.md) | [DelVertex](../Functions/DelVertex.md) | [EndPoly](../Functions/EndPoly.md) |
+| [GetHole](../Functions/GetHole.md) | [GetNumHoles](../Functions/GetNumHoles.md) | [GetPolylineArcMaxRadius](../Functions/GetPolylineArcMaxRadius.md) |
+| [GetPolylineVertex](../Functions/GetPolylineVertex.md) | [GetPolyPt](../Functions/GetPolyPt.md) | [GetVertexVisibility](../Functions/GetVertexVisibility.md) |
+| [GetVertNum](../Functions/GetVertNum.md) | [InsertVertex](../Functions/InsertVertex.md) | [IsPolyClosed](../Functions/IsPolyClosed.md) |
+| [OpenPoly](../Functions/OpenPoly.md) | [Poly](../Functions/Poly.md) | [SetPolyClosed](../Functions/SetPolyClosed.md) |
+| [SetPolylineVertex](../Functions/SetPolylineVertex.md) | [SetPolyPt](../Functions/SetPolyPt.md) | [SetVertexVisibility](../Functions/SetVertexVisibility.md) |
+| [Smooth](../Functions/Smooth.md) 

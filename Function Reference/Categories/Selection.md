@@ -1,9 +1,8 @@
-# Selection
+[Function Reference](../README.md)
 
-- [DSelectAll.md](../Functions/DSelectAll.md)
-- [NumSelectedObjects.md](../Functions/NumSelectedObjects.md)
-- [NumSObj.md](../Functions/NumSObj.md)
-- [SelectAll.md](../Functions/SelectAll.md)
-- [Selected.md](../Functions/Selected.md)
-- [SetDSelect.md](../Functions/SetDSelect.md)
-- [SetSelect.md](../Functions/SetSelect.md)
+# Selection
+| | | |
+|---|---|---|
+| [DSelectAll](../Functions/DSelectAll.md) | [NumSelectedObjects](../Functions/NumSelectedObjects.md) | [NumSObj](../Functions/NumSObj.md) |
+| [SelectAll](../Functions/SelectAll.md) | [Selected](../Functions/Selected.md) | [SetDSelect](../Functions/SetDSelect.md) |
+| [SetSelect](../Functions/SetSelect.md) 

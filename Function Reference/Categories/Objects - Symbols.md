@@ -1,24 +1,13 @@
-# Objects - Symbols
+[Function Reference](../README.md)
 
-- [ActSymDef.md](../Functions/ActSymDef.md)
-- [ActSymDefN.md](../Functions/ActSymDefN.md)
-- [AddToPluginStyle.md](../Functions/AddToPluginStyle.md)
-- [BeginSym.md](../Functions/BeginSym.md)
-- [CopySymbol.md](../Functions/CopySymbol.md)
-- [EndSym.md](../Functions/EndSym.md)
-- [GetSDName.md](../Functions/GetSDName.md)
-- [GetSymbolOptionsN.md](../Functions/GetSymbolOptionsN.md)
-- [GetSymbolType.md](../Functions/GetSymbolType.md)
-- [GetSymBrightMult.md](../Functions/GetSymBrightMult.md)
-- [GetSymDefSubType.md](../Functions/GetSymDefSubType.md)
-- [GetSymLoc3D.md](../Functions/GetSymLoc3D.md)
-- [GetSymName.md](../Functions/GetSymName.md)
-- [InsertSymbolInFolder.md](../Functions/InsertSymbolInFolder.md)
-- [RemoveFrmPluginStyle.md](../Functions/RemoveFrmPluginStyle.md)
-- [SetActSymbol.md](../Functions/SetActSymbol.md)
-- [SetSymbolOptionsN.md](../Functions/SetSymbolOptionsN.md)
-- [SetSymBrightMult.md](../Functions/SetSymBrightMult.md)
-- [SetSymDefSubType.md](../Functions/SetSymDefSubType.md)
-- [Symbol.md](../Functions/Symbol.md)
-- [SymbolToGroup.md](../Functions/SymbolToGroup.md)
-- [SymDefNum.md](../Functions/SymDefNum.md)
+# Objects - Symbols
+| | | |
+|---|---|---|
+| [ActSymDef](../Functions/ActSymDef.md) | [ActSymDefN](../Functions/ActSymDefN.md) | [AddToPluginStyle](../Functions/AddToPluginStyle.md) |
+| [BeginSym](../Functions/BeginSym.md) | [CopySymbol](../Functions/CopySymbol.md) | [EndSym](../Functions/EndSym.md) |
+| [GetSDName](../Functions/GetSDName.md) | [GetSymbolOptionsN](../Functions/GetSymbolOptionsN.md) | [GetSymbolType](../Functions/GetSymbolType.md) |
+| [GetSymBrightMult](../Functions/GetSymBrightMult.md) | [GetSymDefSubType](../Functions/GetSymDefSubType.md) | [GetSymLoc3D](../Functions/GetSymLoc3D.md) |
+| [GetSymName](../Functions/GetSymName.md) | [InsertSymbolInFolder](../Functions/InsertSymbolInFolder.md) | [RemoveFrmPluginStyle](../Functions/RemoveFrmPluginStyle.md) |
+| [SetActSymbol](../Functions/SetActSymbol.md) | [SetSymbolOptionsN](../Functions/SetSymbolOptionsN.md) | [SetSymBrightMult](../Functions/SetSymBrightMult.md) |
+| [SetSymDefSubType](../Functions/SetSymDefSubType.md) | [Symbol](../Functions/Symbol.md) | [SymbolToGroup](../Functions/SymbolToGroup.md) |
+| [SymDefNum](../Functions/SymDefNum.md) 

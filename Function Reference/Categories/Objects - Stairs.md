@@ -1,20 +1,12 @@
-# Objects - Stairs
+[Function Reference](../README.md)
 
-- [StairGet2D3DCompType.md](../Functions/StairGet2D3DCompType.md)
-- [StairGetConfigType.md](../Functions/StairGetConfigType.md)
-- [StairGetConstType.md](../Functions/StairGetConstType.md)
-- [StairGetNumRisers.md](../Functions/StairGetNumRisers.md)
-- [StairGetOptTotalRise.md](../Functions/StairGetOptTotalRise.md)
-- [StairGetSideLengthsM.md](../Functions/StairGetSideLengthsM.md)
-- [StairGetTopGrUpFlMode.md](../Functions/StairGetTopGrUpFlMode.md)
-- [StairGetTotalRiseM.md](../Functions/StairGetTotalRiseM.md)
-- [StairGetWFlight1M.md](../Functions/StairGetWFlight1M.md)
-- [StairSet2D3DCompType.md](../Functions/StairSet2D3DCompType.md)
-- [StairSetConfigType.md](../Functions/StairSetConfigType.md)
-- [StairSetConstType.md](../Functions/StairSetConstType.md)
-- [StairSetNumRisers.md](../Functions/StairSetNumRisers.md)
-- [StairSetOptTotalRise.md](../Functions/StairSetOptTotalRise.md)
-- [StairSetSideLengthsM.md](../Functions/StairSetSideLengthsM.md)
-- [StairSetTopGrUpFlMode.md](../Functions/StairSetTopGrUpFlMode.md)
-- [StairSetTotalRiseM.md](../Functions/StairSetTotalRiseM.md)
-- [StairSetWFlight1M.md](../Functions/StairSetWFlight1M.md)
+# Objects - Stairs
+| | | |
+|---|---|---|
+| [StairGet2D3DCompType](../Functions/StairGet2D3DCompType.md) | [StairGetConfigType](../Functions/StairGetConfigType.md) | [StairGetConstType](../Functions/StairGetConstType.md) |
+| [StairGetNumRisers](../Functions/StairGetNumRisers.md) | [StairGetOptTotalRise](../Functions/StairGetOptTotalRise.md) | [StairGetSideLengthsM](../Functions/StairGetSideLengthsM.md) |
+| [StairGetTopGrUpFlMode](../Functions/StairGetTopGrUpFlMode.md) | [StairGetTotalRiseM](../Functions/StairGetTotalRiseM.md) | [StairGetWFlight1M](../Functions/StairGetWFlight1M.md) |
+| [StairSet2D3DCompType](../Functions/StairSet2D3DCompType.md) | [StairSetConfigType](../Functions/StairSetConfigType.md) | [StairSetConstType](../Functions/StairSetConstType.md) |
+| [StairSetNumRisers](../Functions/StairSetNumRisers.md) | [StairSetOptTotalRise](../Functions/StairSetOptTotalRise.md) | [StairSetSideLengthsM](../Functions/StairSetSideLengthsM.md) |
+| [StairSetTopGrUpFlMode](../Functions/StairSetTopGrUpFlMode.md) | [StairSetTotalRiseM](../Functions/StairSetTotalRiseM.md) | [StairSetWFlight1M](../Functions/StairSetWFlight1M.md) |
+

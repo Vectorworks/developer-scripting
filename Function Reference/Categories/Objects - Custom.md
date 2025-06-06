@@ -1,107 +1,41 @@
-# Objects - Custom
+[Function Reference](../README.md)
 
-- [AddObjectTo2DComp.md](../Functions/AddObjectTo2DComp.md)
-- [AddToPIOStyleEdit.md](../Functions/AddToPIOStyleEdit.md)
-- [CreateCustomObject.md](../Functions/CreateCustomObject.md)
-- [CreateCustomObjectN.md](../Functions/CreateCustomObjectN.md)
-- [CreateCustomObjectPath.md](../Functions/CreateCustomObjectPath.md)
-- [CreateGroupOutline.md](../Functions/CreateGroupOutline.md)
-- [DefineCustomObj.md](../Functions/DefineCustomObj.md)
-- [EnableParameter.md](../Functions/EnableParameter.md)
-- [FlipHybMatrixObj.md](../Functions/FlipHybMatrixObj.md)
-- [Generate2DFrom3DComp.md](../Functions/Generate2DFrom3DComp.md)
-- [Get2DCompByStyle.md](../Functions/Get2DCompByStyle.md)
-- [Get2DCompLocation.md](../Functions/Get2DCompLocation.md)
-- [Get2DComponentGroup.md](../Functions/Get2DComponentGroup.md)
-- [GetCatalogItem.md](../Functions/GetCatalogItem.md)
-- [GetCatalogPath.md](../Functions/GetCatalogPath.md)
-- [GetClassByStyle.md](../Functions/GetClassByStyle.md)
-- [GetCustomFeedback.md](../Functions/GetCustomFeedback.md)
-- [GetCustomObjectChoice.md](../Functions/GetCustomObjectChoice.md)
-- [GetCustomObjectColor.md](../Functions/GetCustomObjectColor.md)
-- [GetCustomObjectInfo.md](../Functions/GetCustomObjectInfo.md)
-- [GetCustomObjectPath.md](../Functions/GetCustomObjectPath.md)
-- [GetCustomObjectProfileGroup.md](../Functions/GetCustomObjectProfileGroup.md)
-- [GetCustomObjectSelectionGroup.md](../Functions/GetCustomObjectSelectionGroup.md)
-- [GetCustomObjectWallHoleGroup.md](../Functions/GetCustomObjectWallHoleGroup.md)
-- [GetCustomObjSecPath.md](../Functions/GetCustomObjSecPath.md)
-- [GetDisplayWith2DComp.md](../Functions/GetDisplayWith2DComp.md)
-- [GetExWllClsrFrmSt.md](../Functions/GetExWllClsrFrmSt.md)
-- [GetHorizSecCPByStyle.md](../Functions/GetHorizSecCPByStyle.md)
-- [GetHorizSecCutPlane.md](../Functions/GetHorizSecCutPlane.md)
-- [GetLocalizedPluginChoice.md](../Functions/GetLocalizedPluginChoice.md)
-- [GetLocalizedPluginName.md](../Functions/GetLocalizedPluginName.md)
-- [GetLocalizedPluginParameter.md](../Functions/GetLocalizedPluginParameter.md)
-- [GetMirrorEmpty2DComp.md](../Functions/GetMirrorEmpty2DComp.md)
-- [GetMrEm2DCompByStyle.md](../Functions/GetMrEm2DCompByStyle.md)
-- [GetParamStyleType.md](../Functions/GetParamStyleType.md)
-- [GetPartDataID.md](../Functions/GetPartDataID.md)
-- [GetPartInstanceName.md](../Functions/GetPartInstanceName.md)
-- [GetPartTypeInfo.md](../Functions/GetPartTypeInfo.md)
-- [GetPartTypeName.md](../Functions/GetPartTypeName.md)
-- [GetPluginChoiceIndex.md](../Functions/GetPluginChoiceIndex.md)
-- [GetPluginInfo.md](../Functions/GetPluginInfo.md)
-- [GetPluginString.md](../Functions/GetPluginString.md)
-- [GetPluginStyle.md](../Functions/GetPluginStyle.md)
-- [GetPluginStyleSymbol.md](../Functions/GetPluginStyleSymbol.md)
-- [GetTopPlan2DComp.md](../Functions/GetTopPlan2DComp.md)
-- [GetTpPl2DCompByStyle.md](../Functions/GetTpPl2DCompByStyle.md)
-- [GetUseWallClosure.md](../Functions/GetUseWallClosure.md)
-- [GetUseWllClsrByStyle.md](../Functions/GetUseWllClsrByStyle.md)
-- [GetVertSecCPByStyle.md](../Functions/GetVertSecCPByStyle.md)
-- [GetVertSecCutPlane.md](../Functions/GetVertSecCutPlane.md)
-- [GetWallClosureGroup.md](../Functions/GetWallClosureGroup.md)
-- [GetWallInsertLoc.md](../Functions/GetWallInsertLoc.md)
-- [GetWallInsertLocOff.md](../Functions/GetWallInsertLocOff.md)
-- [GetWallInsLocByStyle.md](../Functions/GetWallInsLocByStyle.md)
-- [GetWallRecessGroup.md](../Functions/GetWallRecessGroup.md)
-- [GetWInsLocOffByStyle.md](../Functions/GetWInsLocOffByStyle.md)
-- [GetWllHoleObjIgnClsr.md](../Functions/GetWllHoleObjIgnClsr.md)
-- [GtExWllClsrFrmStBStl.md](../Functions/GtExWllClsrFrmStBStl.md)
-- [HasPlugin.md](../Functions/HasPlugin.md)
-- [IsCatalogParameter.md](../Functions/IsCatalogParameter.md)
-- [IsNewCustomObject.md](../Functions/IsNewCustomObject.md)
-- [IsObjectTaggedAsPart.md](../Functions/IsObjectTaggedAsPart.md)
-- [IsPluginFormat.md](../Functions/IsPluginFormat.md)
-- [NumCustomObjectChoices.md](../Functions/NumCustomObjectChoices.md)
-- [RemovePartTag.md](../Functions/RemovePartTag.md)
-- [RemovePIOStyleEdit.md](../Functions/RemovePIOStyleEdit.md)
-- [SelectPluginCatalog.md](../Functions/SelectPluginCatalog.md)
-- [Set2DCompByStyle.md](../Functions/Set2DCompByStyle.md)
-- [Set2DCompLocation.md](../Functions/Set2DCompLocation.md)
-- [Set2DComponentGroup.md](../Functions/Set2DComponentGroup.md)
-- [SetAllStyleParams.md](../Functions/SetAllStyleParams.md)
-- [SetClassByStyle.md](../Functions/SetClassByStyle.md)
-- [SetCustomFeedback.md](../Functions/SetCustomFeedback.md)
-- [SetCustomObjectColor.md](../Functions/SetCustomObjectColor.md)
-- [SetCustomObjectPath.md](../Functions/SetCustomObjectPath.md)
-- [SetCustomObjectProfileGroup.md](../Functions/SetCustomObjectProfileGroup.md)
-- [SetCustomObjectSelectionGroup.md](../Functions/SetCustomObjectSelectionGroup.md)
-- [SetCustomObjectWallHoleGroup.md](../Functions/SetCustomObjectWallHoleGroup.md)
-- [SetDisplayWith2DComp.md](../Functions/SetDisplayWith2DComp.md)
-- [SetExWllClsrFrmSt.md](../Functions/SetExWllClsrFrmSt.md)
-- [SetHorizSecCPByStyle.md](../Functions/SetHorizSecCPByStyle.md)
-- [SetHorizSecCutPlane.md](../Functions/SetHorizSecCutPlane.md)
-- [SetMirrorEmpty2DComp.md](../Functions/SetMirrorEmpty2DComp.md)
-- [SetMrEm2DCompByStyle.md](../Functions/SetMrEm2DCompByStyle.md)
-- [SetParameterVisibility.md](../Functions/SetParameterVisibility.md)
-- [SetParamStyleType.md](../Functions/SetParamStyleType.md)
-- [SetPartDataID.md](../Functions/SetPartDataID.md)
-- [SetPartInstanceName.md](../Functions/SetPartInstanceName.md)
-- [SetPluginStyle.md](../Functions/SetPluginStyle.md)
-- [SetTopPlan2DComp.md](../Functions/SetTopPlan2DComp.md)
-- [SetTpPl2DCompByStyle.md](../Functions/SetTpPl2DCompByStyle.md)
-- [SetUseWallClosure.md](../Functions/SetUseWallClosure.md)
-- [SetUseWllClsrByStyle.md](../Functions/SetUseWllClsrByStyle.md)
-- [SetVertSecCPByStyle.md](../Functions/SetVertSecCPByStyle.md)
-- [SetVertSecCutPlane.md](../Functions/SetVertSecCutPlane.md)
-- [SetWallClosureGroup.md](../Functions/SetWallClosureGroup.md)
-- [SetWallInsertLoc.md](../Functions/SetWallInsertLoc.md)
-- [SetWallInsertLocOff.md](../Functions/SetWallInsertLocOff.md)
-- [SetWallInsLocByStyle.md](../Functions/SetWallInsLocByStyle.md)
-- [SetWallRecessGroup.md](../Functions/SetWallRecessGroup.md)
-- [SetWInsLocOffByStyle.md](../Functions/SetWInsLocOffByStyle.md)
-- [SetWllHoleObjIgnClsr.md](../Functions/SetWllHoleObjIgnClsr.md)
-- [StExWllClsrFrmStBStl.md](../Functions/StExWllClsrFrmStBStl.md)
-- [TagSubObjectAsPart.md](../Functions/TagSubObjectAsPart.md)
-- [UpdateStyledObjects.md](../Functions/UpdateStyledObjects.md)
+# Objects - Custom
+| | | |
+|---|---|---|
+| [AddObjectTo2DComp](../Functions/AddObjectTo2DComp.md) | [AddToPIOStyleEdit](../Functions/AddToPIOStyleEdit.md) | [CreateCustomObject](../Functions/CreateCustomObject.md) |
+| [CreateCustomObjectN](../Functions/CreateCustomObjectN.md) | [CreateCustomObjectPath](../Functions/CreateCustomObjectPath.md) | [CreateGroupOutline](../Functions/CreateGroupOutline.md) |
+| [DefineCustomObj](../Functions/DefineCustomObj.md) | [EnableParameter](../Functions/EnableParameter.md) | [FlipHybMatrixObj](../Functions/FlipHybMatrixObj.md) |
+| [Generate2DFrom3DComp](../Functions/Generate2DFrom3DComp.md) | [Get2DCompByStyle](../Functions/Get2DCompByStyle.md) | [Get2DCompLocation](../Functions/Get2DCompLocation.md) |
+| [Get2DComponentGroup](../Functions/Get2DComponentGroup.md) | [GetCatalogItem](../Functions/GetCatalogItem.md) | [GetCatalogPath](../Functions/GetCatalogPath.md) |
+| [GetClassByStyle](../Functions/GetClassByStyle.md) | [GetCustomFeedback](../Functions/GetCustomFeedback.md) | [GetCustomObjectChoice](../Functions/GetCustomObjectChoice.md) |
+| [GetCustomObjectColor](../Functions/GetCustomObjectColor.md) | [GetCustomObjectInfo](../Functions/GetCustomObjectInfo.md) | [GetCustomObjectPath](../Functions/GetCustomObjectPath.md) |
+| [GetCustomObjectProfileGroup](../Functions/GetCustomObjectProfileGroup.md) | [GetCustomObjectSelectionGroup](../Functions/GetCustomObjectSelectionGroup.md) | [GetCustomObjectWallHoleGroup](../Functions/GetCustomObjectWallHoleGroup.md) |
+| [GetCustomObjSecPath](../Functions/GetCustomObjSecPath.md) | [GetDisplayWith2DComp](../Functions/GetDisplayWith2DComp.md) | [GetExWllClsrFrmSt](../Functions/GetExWllClsrFrmSt.md) |
+| [GetHorizSecCPByStyle](../Functions/GetHorizSecCPByStyle.md) | [GetHorizSecCutPlane](../Functions/GetHorizSecCutPlane.md) | [GetLocalizedPluginChoice](../Functions/GetLocalizedPluginChoice.md) |
+| [GetLocalizedPluginName](../Functions/GetLocalizedPluginName.md) | [GetLocalizedPluginParameter](../Functions/GetLocalizedPluginParameter.md) | [GetMirrorEmpty2DComp](../Functions/GetMirrorEmpty2DComp.md) |
+| [GetMrEm2DCompByStyle](../Functions/GetMrEm2DCompByStyle.md) | [GetParamStyleType](../Functions/GetParamStyleType.md) | [GetPartDataID](../Functions/GetPartDataID.md) |
+| [GetPartInstanceName](../Functions/GetPartInstanceName.md) | [GetPartTypeInfo](../Functions/GetPartTypeInfo.md) | [GetPartTypeName](../Functions/GetPartTypeName.md) |
+| [GetPluginChoiceIndex](../Functions/GetPluginChoiceIndex.md) | [GetPluginInfo](../Functions/GetPluginInfo.md) | [GetPluginString](../Functions/GetPluginString.md) |
+| [GetPluginStyle](../Functions/GetPluginStyle.md) | [GetPluginStyleSymbol](../Functions/GetPluginStyleSymbol.md) | [GetTopPlan2DComp](../Functions/GetTopPlan2DComp.md) |
+| [GetTpPl2DCompByStyle](../Functions/GetTpPl2DCompByStyle.md) | [GetUseWallClosure](../Functions/GetUseWallClosure.md) | [GetUseWllClsrByStyle](../Functions/GetUseWllClsrByStyle.md) |
+| [GetVertSecCPByStyle](../Functions/GetVertSecCPByStyle.md) | [GetVertSecCutPlane](../Functions/GetVertSecCutPlane.md) | [GetWallClosureGroup](../Functions/GetWallClosureGroup.md) |
+| [GetWallInsertLoc](../Functions/GetWallInsertLoc.md) | [GetWallInsertLocOff](../Functions/GetWallInsertLocOff.md) | [GetWallInsLocByStyle](../Functions/GetWallInsLocByStyle.md) |
+| [GetWallRecessGroup](../Functions/GetWallRecessGroup.md) | [GetWInsLocOffByStyle](../Functions/GetWInsLocOffByStyle.md) | [GetWllHoleObjIgnClsr](../Functions/GetWllHoleObjIgnClsr.md) |
+| [GtExWllClsrFrmStBStl](../Functions/GtExWllClsrFrmStBStl.md) | [HasPlugin](../Functions/HasPlugin.md) | [IsCatalogParameter](../Functions/IsCatalogParameter.md) |
+| [IsNewCustomObject](../Functions/IsNewCustomObject.md) | [IsObjectTaggedAsPart](../Functions/IsObjectTaggedAsPart.md) | [IsPluginFormat](../Functions/IsPluginFormat.md) |
+| [NumCustomObjectChoices](../Functions/NumCustomObjectChoices.md) | [RemovePartTag](../Functions/RemovePartTag.md) | [RemovePIOStyleEdit](../Functions/RemovePIOStyleEdit.md) |
+| [SelectPluginCatalog](../Functions/SelectPluginCatalog.md) | [Set2DCompByStyle](../Functions/Set2DCompByStyle.md) | [Set2DCompLocation](../Functions/Set2DCompLocation.md) |
+| [Set2DComponentGroup](../Functions/Set2DComponentGroup.md) | [SetAllStyleParams](../Functions/SetAllStyleParams.md) | [SetClassByStyle](../Functions/SetClassByStyle.md) |
+| [SetCustomFeedback](../Functions/SetCustomFeedback.md) | [SetCustomObjectColor](../Functions/SetCustomObjectColor.md) | [SetCustomObjectPath](../Functions/SetCustomObjectPath.md) |
+| [SetCustomObjectProfileGroup](../Functions/SetCustomObjectProfileGroup.md) | [SetCustomObjectSelectionGroup](../Functions/SetCustomObjectSelectionGroup.md) | [SetCustomObjectWallHoleGroup](../Functions/SetCustomObjectWallHoleGroup.md) |
+| [SetDisplayWith2DComp](../Functions/SetDisplayWith2DComp.md) | [SetExWllClsrFrmSt](../Functions/SetExWllClsrFrmSt.md) | [SetHorizSecCPByStyle](../Functions/SetHorizSecCPByStyle.md) |
+| [SetHorizSecCutPlane](../Functions/SetHorizSecCutPlane.md) | [SetMirrorEmpty2DComp](../Functions/SetMirrorEmpty2DComp.md) | [SetMrEm2DCompByStyle](../Functions/SetMrEm2DCompByStyle.md) |
+| [SetParameterVisibility](../Functions/SetParameterVisibility.md) | [SetParamStyleType](../Functions/SetParamStyleType.md) | [SetPartDataID](../Functions/SetPartDataID.md) |
+| [SetPartInstanceName](../Functions/SetPartInstanceName.md) | [SetPluginStyle](../Functions/SetPluginStyle.md) | [SetTopPlan2DComp](../Functions/SetTopPlan2DComp.md) |
+| [SetTpPl2DCompByStyle](../Functions/SetTpPl2DCompByStyle.md) | [SetUseWallClosure](../Functions/SetUseWallClosure.md) | [SetUseWllClsrByStyle](../Functions/SetUseWllClsrByStyle.md) |
+| [SetVertSecCPByStyle](../Functions/SetVertSecCPByStyle.md) | [SetVertSecCutPlane](../Functions/SetVertSecCutPlane.md) | [SetWallClosureGroup](../Functions/SetWallClosureGroup.md) |
+| [SetWallInsertLoc](../Functions/SetWallInsertLoc.md) | [SetWallInsertLocOff](../Functions/SetWallInsertLocOff.md) | [SetWallInsLocByStyle](../Functions/SetWallInsLocByStyle.md) |
+| [SetWallRecessGroup](../Functions/SetWallRecessGroup.md) | [SetWInsLocOffByStyle](../Functions/SetWInsLocOffByStyle.md) | [SetWllHoleObjIgnClsr](../Functions/SetWllHoleObjIgnClsr.md) |
+| [StExWllClsrFrmStBStl](../Functions/StExWllClsrFrmStBStl.md) | [TagSubObjectAsPart](../Functions/TagSubObjectAsPart.md) | [UpdateStyledObjects](../Functions/UpdateStyledObjects.md) |
+

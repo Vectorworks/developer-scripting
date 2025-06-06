@@ -1,61 +1,25 @@
-# Classes
+[Function Reference](../README.md)
 
-- [ActiveClass.md](../Functions/ActiveClass.md)
-- [ClassList.md](../Functions/ClassList.md)
-- [ClassNum.md](../Functions/ClassNum.md)
-- [CLDropShadowEnabled.md](../Functions/CLDropShadowEnabled.md)
-- [DelClass.md](../Functions/DelClass.md)
-- [EnableCLDropShadow.md](../Functions/EnableCLDropShadow.md)
-- [FillColorByClass.md](../Functions/FillColorByClass.md)
-- [FPatByClass.md](../Functions/FPatByClass.md)
-- [GetClassArrow.md](../Functions/GetClassArrow.md)
-- [GetClassBeginningMarker.md](../Functions/GetClassBeginningMarker.md)
-- [GetClassEndMarker.md](../Functions/GetClassEndMarker.md)
-- [GetClassOptions.md](../Functions/GetClassOptions.md)
-- [GetCLDrpShadowData.md](../Functions/GetCLDrpShadowData.md)
-- [GetClFillBack.md](../Functions/GetClFillBack.md)
-- [GetClFillFore.md](../Functions/GetClFillFore.md)
-- [GetClFPat.md](../Functions/GetClFPat.md)
-- [GetClLS.md](../Functions/GetClLS.md)
-- [GetClLSN.md](../Functions/GetClLSN.md)
-- [GetClLW.md](../Functions/GetClLW.md)
-- [GetClOpacity.md](../Functions/GetClOpacity.md)
-- [GetClOpacityN.md](../Functions/GetClOpacityN.md)
-- [GetClPenBack.md](../Functions/GetClPenBack.md)
-- [GetClPenFore.md](../Functions/GetClPenFore.md)
-- [GetClTextStyleRef.md](../Functions/GetClTextStyleRef.md)
-- [GetClUseGraphic.md](../Functions/GetClUseGraphic.md)
-- [GetClUseTextStyle.md](../Functions/GetClUseTextStyle.md)
-- [GetClVectorFill.md](../Functions/GetClVectorFill.md)
-- [GetCVis.md](../Functions/GetCVis.md)
-- [GrayClass.md](../Functions/GrayClass.md)
-- [HideClass.md](../Functions/HideClass.md)
-- [LSByClass.md](../Functions/LSByClass.md)
-- [LWByClass.md](../Functions/LWByClass.md)
-- [MarkerByClass.md](../Functions/MarkerByClass.md)
-- [NameClass.md](../Functions/NameClass.md)
-- [OpacityByClass.md](../Functions/OpacityByClass.md)
-- [OpacityByClassN.md](../Functions/OpacityByClassN.md)
-- [PenColorByClass.md](../Functions/PenColorByClass.md)
-- [RenameClass.md](../Functions/RenameClass.md)
-- [SetClassArrow.md](../Functions/SetClassArrow.md)
-- [SetClassBeginningMarker.md](../Functions/SetClassBeginningMarker.md)
-- [SetClassEndMarker.md](../Functions/SetClassEndMarker.md)
-- [SetClassOptions.md](../Functions/SetClassOptions.md)
-- [SetCLDrpShadowData.md](../Functions/SetCLDrpShadowData.md)
-- [SetClFillBack.md](../Functions/SetClFillBack.md)
-- [SetClFillFore.md](../Functions/SetClFillFore.md)
-- [SetClFPat.md](../Functions/SetClFPat.md)
-- [SetClLS.md](../Functions/SetClLS.md)
-- [SetClLSN.md](../Functions/SetClLSN.md)
-- [SetClLW.md](../Functions/SetClLW.md)
-- [SetClOpacity.md](../Functions/SetClOpacity.md)
-- [SetCLOpacityN.md](../Functions/SetCLOpacityN.md)
-- [SetClPenBack.md](../Functions/SetClPenBack.md)
-- [SetClPenFore.md](../Functions/SetClPenFore.md)
-- [SetClTextStyleRef.md](../Functions/SetClTextStyleRef.md)
-- [SetClUseGraphic.md](../Functions/SetClUseGraphic.md)
-- [SetClUseTextStyle.md](../Functions/SetClUseTextStyle.md)
-- [SetClUseTexture.md](../Functions/SetClUseTexture.md)
-- [SetClVectorFill.md](../Functions/SetClVectorFill.md)
-- [ShowClass.md](../Functions/ShowClass.md)
+# Classes
+| | | |
+|---|---|---|
+| [ActiveClass](../Functions/ActiveClass.md) | [ClassList](../Functions/ClassList.md) | [ClassNum](../Functions/ClassNum.md) |
+| [CLDropShadowEnabled](../Functions/CLDropShadowEnabled.md) | [DelClass](../Functions/DelClass.md) | [EnableCLDropShadow](../Functions/EnableCLDropShadow.md) |
+| [FillColorByClass](../Functions/FillColorByClass.md) | [FPatByClass](../Functions/FPatByClass.md) | [GetClassArrow](../Functions/GetClassArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>|
+| [GetClassBeginningMarker](../Functions/GetClassBeginningMarker.md) | [GetClassEndMarker](../Functions/GetClassEndMarker.md) | [GetClassOptions](../Functions/GetClassOptions.md) |
+| [GetCLDrpShadowData](../Functions/GetCLDrpShadowData.md) | [GetClFillBack](../Functions/GetClFillBack.md) | [GetClFillFore](../Functions/GetClFillFore.md) |
+| [GetClFPat](../Functions/GetClFPat.md) | [GetClLS](../Functions/GetClLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [GetClLSN](../Functions/GetClLSN.md) |
+| [GetClLW](../Functions/GetClLW.md) | [GetClOpacity](../Functions/GetClOpacity.md) | [GetClOpacityN](../Functions/GetClOpacityN.md) |
+| [GetClPenBack](../Functions/GetClPenBack.md) | [GetClPenFore](../Functions/GetClPenFore.md) | [GetClTextStyleRef](../Functions/GetClTextStyleRef.md) |
+| [GetClUseGraphic](../Functions/GetClUseGraphic.md) | [GetClUseTextStyle](../Functions/GetClUseTextStyle.md) | [GetClVectorFill](../Functions/GetClVectorFill.md) |
+| [GetCVis](../Functions/GetCVis.md) | [GrayClass](../Functions/GrayClass.md) | [HideClass](../Functions/HideClass.md) |
+| [LSByClass](../Functions/LSByClass.md) | [LWByClass](../Functions/LWByClass.md) | [MarkerByClass](../Functions/MarkerByClass.md) |
+| [NameClass](../Functions/NameClass.md) | [OpacityByClass](../Functions/OpacityByClass.md) | [OpacityByClassN](../Functions/OpacityByClassN.md) |
+| [PenColorByClass](../Functions/PenColorByClass.md) | [RenameClass](../Functions/RenameClass.md) | [SetClassArrow](../Functions/SetClassArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>|
+| [SetClassBeginningMarker](../Functions/SetClassBeginningMarker.md) | [SetClassEndMarker](../Functions/SetClassEndMarker.md) | [SetClassOptions](../Functions/SetClassOptions.md) |
+| [SetCLDrpShadowData](../Functions/SetCLDrpShadowData.md) | [SetClFillBack](../Functions/SetClFillBack.md) | [SetClFillFore](../Functions/SetClFillFore.md) |
+| [SetClFPat](../Functions/SetClFPat.md) | [SetClLS](../Functions/SetClLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [SetClLSN](../Functions/SetClLSN.md) |
+| [SetClLW](../Functions/SetClLW.md) | [SetClOpacity](../Functions/SetClOpacity.md) | [SetCLOpacityN](../Functions/SetCLOpacityN.md) |
+| [SetClPenBack](../Functions/SetClPenBack.md) | [SetClPenFore](../Functions/SetClPenFore.md) | [SetClTextStyleRef](../Functions/SetClTextStyleRef.md) |
+| [SetClUseGraphic](../Functions/SetClUseGraphic.md) | [SetClUseTextStyle](../Functions/SetClUseTextStyle.md) | [SetClUseTexture](../Functions/SetClUseTexture.md) |
+| [SetClVectorFill](../Functions/SetClVectorFill.md) | [ShowClass](../Functions/ShowClass.md) 

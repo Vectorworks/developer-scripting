@@ -1,17 +1,11 @@
-# Object Names
+[Function Reference](../README.md)
 
-- [DelName.md](../Functions/DelName.md)
-- [GetColorName.md](../Functions/GetColorName.md)
-- [GetDashLineTypeName.md](../Functions/GetDashLineTypeName.md)
-- [GetDashStyleName.md](../Functions/GetDashStyleName.md)
-- [GetName.md](../Functions/GetName.md)
-- [GetObject.md](../Functions/GetObject.md)
-- [Index2Name.md](../Functions/Index2Name.md)
-- [Name2Index.md](../Functions/Name2Index.md)
-- [NameList.md](../Functions/NameList.md)
-- [NameNum.md](../Functions/NameNum.md)
-- [NameObject.md](../Functions/NameObject.md)
-- [SetColorName.md](../Functions/SetColorName.md)
-- [SetDashLineTypeName.md](../Functions/SetDashLineTypeName.md)
-- [SetDashStyleName.md](../Functions/SetDashStyleName.md)
-- [SetName.md](../Functions/SetName.md)
+# Object Names
+| | | |
+|---|---|---|
+| [DelName](../Functions/DelName.md) | [GetColorName](../Functions/GetColorName.md) | [GetDashLineTypeName](../Functions/GetDashLineTypeName.md) |
+| [GetDashStyleName](../Functions/GetDashStyleName.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetName](../Functions/GetName.md) | [GetObject](../Functions/GetObject.md) |
+| [Index2Name](../Functions/Index2Name.md) | [Name2Index](../Functions/Name2Index.md) | [NameList](../Functions/NameList.md) |
+| [NameNum](../Functions/NameNum.md) | [NameObject](../Functions/NameObject.md) | [SetColorName](../Functions/SetColorName.md) |
+| [SetDashLineTypeName](../Functions/SetDashLineTypeName.md) | [SetDashStyleName](../Functions/SetDashStyleName.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetName](../Functions/SetName.md) |
+

@@ -1,26 +1,13 @@
-# SpaceObjectCoreTools
+[Function Reference](../README.md)
 
-- [Space_AddAreaModifierToSpace.md](../Functions/Space_AddAreaModifierToSpace.md)
-- [Space_AddDiscription.md](../Functions/Space_AddDiscription.md)
-- [Space_AddName.md](../Functions/Space_AddName.md)
-- [Space_AddRoomID.md](../Functions/Space_AddRoomID.md)
-- [Space_AddZone.md](../Functions/Space_AddZone.md)
-- [Space_AssignZone.md](../Functions/Space_AssignZone.md)
-- [Space_CountAssignedZones.md](../Functions/Space_CountAssignedZones.md)
-- [Space_CountAvailableZones.md](../Functions/Space_CountAvailableZones.md)
-- [Space_CreateSpace.md](../Functions/Space_CreateSpace.md)
-- [Space_DeassignZone.md](../Functions/Space_DeassignZone.md)
-- [Space_GetGrossArea.md](../Functions/Space_GetGrossArea.md)
-- [Space_GetGrossPoly.md](../Functions/Space_GetGrossPoly.md)
-- [Space_GetGrossVolume.md](../Functions/Space_GetGrossVolume.md)
-- [Space_GetNetArea.md](../Functions/Space_GetNetArea.md)
-- [Space_GetNetPoly.md](../Functions/Space_GetNetPoly.md)
-- [Space_GetNetVolume.md](../Functions/Space_GetNetVolume.md)
-- [Space_Gross3DBoundary.md](../Functions/Space_Gross3DBoundary.md)
-- [Space_ItemAssignedZones.md](../Functions/Space_ItemAssignedZones.md)
-- [Space_ItemAvailableZones.md](../Functions/Space_ItemAvailableZones.md)
-- [Space_Net3DBoundary.md](../Functions/Space_Net3DBoundary.md)
-- [Space_RenameAssignedZoneX.md](../Functions/Space_RenameAssignedZoneX.md)
-- [Space_Set3DGrossHeightOffset.md](../Functions/Space_Set3DGrossHeightOffset.md)
-- [Space_Set3DGrossHeightOffset1.md](../Functions/Space_Set3DGrossHeightOffset1.md)
-- [Space_Set3DNetHeightOffset.md](../Functions/Space_Set3DNetHeightOffset.md)
+# SpaceObjectCoreTools
+| | | |
+|---|---|---|
+| [Space_AddAreaModif](../Functions/Space_AddAreaModif.md) | [Space_AddDiscription](../Functions/Space_AddDiscription.md) | [Space_AddName](../Functions/Space_AddName.md) |
+| [Space_AddRoomID](../Functions/Space_AddRoomID.md) | [Space_AddZone](../Functions/Space_AddZone.md) | [Space_AssignZone](../Functions/Space_AssignZone.md) |
+| [Space_CountAssZones](../Functions/Space_CountAssZones.md) | [Space_CountAvZones](../Functions/Space_CountAvZones.md) | [Space_CreateSpace](../Functions/Space_CreateSpace.md) |
+| [Space_DeassignZone](../Functions/Space_DeassignZone.md) | [Space_FullyReset](../Functions/Space_FullyReset.md) | [Space_GetGrossArea](../Functions/Space_GetGrossArea.md) |
+| [Space_GetGrossPoly](../Functions/Space_GetGrossPoly.md) | [Space_GetGrossVolume](../Functions/Space_GetGrossVolume.md) | [Space_GetNetArea](../Functions/Space_GetNetArea.md) |
+| [Space_GetNetPoly](../Functions/Space_GetNetPoly.md) | [Space_GetNetVolume](../Functions/Space_GetNetVolume.md) | [Space_Gross3DBound](../Functions/Space_Gross3DBound.md) |
+| [Space_ItemAssZones](../Functions/Space_ItemAssZones.md) | [Space_ItemAvZones](../Functions/Space_ItemAvZones.md) | [Space_Net3DBoundary](../Functions/Space_Net3DBoundary.md) |
+| [Space_RenAssignZoneX](../Functions/Space_RenAssignZoneX.md) 

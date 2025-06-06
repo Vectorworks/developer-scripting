@@ -1,54 +1,23 @@
-# Objects - Text
+[Function Reference](../README.md)
 
-- [BeginText.md](../Functions/BeginText.md)
-- [CreateText.md](../Functions/CreateText.md)
-- [CreateTextStyleRes.md](../Functions/CreateTextStyleRes.md)
-- [EndText.md](../Functions/EndText.md)
-- [GetCharColor.md](../Functions/GetCharColor.md)
-- [GetFontID.md](../Functions/GetFontID.md)
-- [GetFontListSize.md](../Functions/GetFontListSize.md)
-- [GetFontName.md](../Functions/GetFontName.md)
-- [GetText.md](../Functions/GetText.md)
-- [GetTextFont.md](../Functions/GetTextFont.md)
-- [GetTextJust.md](../Functions/GetTextJust.md)
-- [GetTextLeading.md](../Functions/GetTextLeading.md)
-- [GetTextLength.md](../Functions/GetTextLength.md)
-- [GetTextOrientation.md](../Functions/GetTextOrientation.md)
-- [GetTextSize.md](../Functions/GetTextSize.md)
-- [GetTextSpace.md](../Functions/GetTextSpace.md)
-- [GetTextStyle.md](../Functions/GetTextStyle.md)
-- [GetTextStyleRef.md](../Functions/GetTextStyleRef.md)
-- [GetTextStyleRefN.md](../Functions/GetTextStyleRefN.md)
-- [GetTextVerticalAlign.md](../Functions/GetTextVerticalAlign.md)
-- [GetTextWidth.md](../Functions/GetTextWidth.md)
-- [GetTextWrap.md](../Functions/GetTextWrap.md)
-- [IsTextStyleByClassN.md](../Functions/IsTextStyleByClassN.md)
-- [ReplaceText.md](../Functions/ReplaceText.md)
-- [SetText.md](../Functions/SetText.md)
-- [SetTextAdorner.md](../Functions/SetTextAdorner.md)
-- [SetTextFont.md](../Functions/SetTextFont.md)
-- [SetTextJust.md](../Functions/SetTextJust.md)
-- [SetTextJustN.md](../Functions/SetTextJustN.md)
-- [SetTextLeading.md](../Functions/SetTextLeading.md)
-- [SetTextOrientation.md](../Functions/SetTextOrientation.md)
-- [SetTextSize.md](../Functions/SetTextSize.md)
-- [SetTextSpace.md](../Functions/SetTextSpace.md)
-- [SetTextStyle.md](../Functions/SetTextStyle.md)
-- [SetTextStyleByClassN.md](../Functions/SetTextStyleByClassN.md)
-- [SetTextStyleRef.md](../Functions/SetTextStyleRef.md)
-- [SetTextStyleRefN.md](../Functions/SetTextStyleRefN.md)
-- [SetTextVertAlignN.md](../Functions/SetTextVertAlignN.md)
-- [SetTextVerticalAlign.md](../Functions/SetTextVerticalAlign.md)
-- [SetTextWidth.md](../Functions/SetTextWidth.md)
-- [SetTextWrap.md](../Functions/SetTextWrap.md)
-- [TextFace.md](../Functions/TextFace.md)
-- [TextFlip.md](../Functions/TextFlip.md)
-- [TextFont.md](../Functions/TextFont.md)
-- [TextJust.md](../Functions/TextJust.md)
-- [TextLeading.md](../Functions/TextLeading.md)
-- [TextOrigin.md](../Functions/TextOrigin.md)
-- [TextRotate.md](../Functions/TextRotate.md)
-- [TextSize.md](../Functions/TextSize.md)
-- [TextSpace.md](../Functions/TextSpace.md)
-- [TextVerticalAlign.md](../Functions/TextVerticalAlign.md)
-- [TrueTypeToPoly.md](../Functions/TrueTypeToPoly.md)
+# Objects - Text
+| | | |
+|---|---|---|
+| [BeginText](../Functions/BeginText.md) | [CreateText](../Functions/CreateText.md) | [CreateTextStyleRes](../Functions/CreateTextStyleRes.md) |
+| [EndText](../Functions/EndText.md) | [GetCharColor](../Functions/GetCharColor.md) | [GetFontID](../Functions/GetFontID.md) |
+| [GetFontListSize](../Functions/GetFontListSize.md) | [GetFontName](../Functions/GetFontName.md) | [GetText](../Functions/GetText.md) |
+| [GetTextFont](../Functions/GetTextFont.md) | [GetTextJust](../Functions/GetTextJust.md) | [GetTextLeading](../Functions/GetTextLeading.md) |
+| [GetTextLength](../Functions/GetTextLength.md) | [GetTextOrientation](../Functions/GetTextOrientation.md) | [GetTextSize](../Functions/GetTextSize.md) |
+| [GetTextSpace](../Functions/GetTextSpace.md) | [GetTextStyle](../Functions/GetTextStyle.md) | [GetTextStyleRef](../Functions/GetTextStyleRef.md) |
+| [GetTextStyleRefN](../Functions/GetTextStyleRefN.md) | [GetTextVerticalAlign](../Functions/GetTextVerticalAlign.md) | [GetTextWidth](../Functions/GetTextWidth.md) |
+| [GetTextWrap](../Functions/GetTextWrap.md) | [IsTextStyleByClassN](../Functions/IsTextStyleByClassN.md) | [ReplaceText](../Functions/ReplaceText.md) |
+| [SetText](../Functions/SetText.md) | [SetTextAdorner](../Functions/SetTextAdorner.md) | [SetTextFont](../Functions/SetTextFont.md) |
+| [SetTextJust](../Functions/SetTextJust.md) | [SetTextJustN](../Functions/SetTextJustN.md) | [SetTextLeading](../Functions/SetTextLeading.md) |
+| [SetTextOrientation](../Functions/SetTextOrientation.md) | [SetTextSize](../Functions/SetTextSize.md) | [SetTextSpace](../Functions/SetTextSpace.md) |
+| [SetTextStyle](../Functions/SetTextStyle.md) | [SetTextStyleByClassN](../Functions/SetTextStyleByClassN.md) | [SetTextStyleRef](../Functions/SetTextStyleRef.md) |
+| [SetTextStyleRefN](../Functions/SetTextStyleRefN.md) | [SetTextVertAlignN](../Functions/SetTextVertAlignN.md) | [SetTextVerticalAlign](../Functions/SetTextVerticalAlign.md) |
+| [SetTextWidth](../Functions/SetTextWidth.md) | [SetTextWrap](../Functions/SetTextWrap.md) | [TextFace](../Functions/TextFace.md) |
+| [TextFlip](../Functions/TextFlip.md) | [TextFont](../Functions/TextFont.md) | [TextJust](../Functions/TextJust.md) |
+| [TextLeading](../Functions/TextLeading.md) | [TextOrigin](../Functions/TextOrigin.md) | [TextRotate](../Functions/TextRotate.md) |
+| [TextSize](../Functions/TextSize.md) | [TextSpace](../Functions/TextSpace.md) | [TextVerticalAlign](../Functions/TextVerticalAlign.md) |
+| [TrueTypeToPoly](../Functions/TrueTypeToPoly.md) 

@@ -1,25 +1,13 @@
-# Strings
+[Function Reference](../README.md)
 
-- [Angle2Str.md](../Functions/Angle2Str.md)
-- [Area2Str.md](../Functions/Area2Str.md)
-- [Chr.md](../Functions/Chr.md)
-- [Concat.md](../Functions/Concat.md)
-- [Copy.md](../Functions/Copy.md)
-- [Delete.md](../Functions/Delete.md)
-- [GetResourceString.md](../Functions/GetResourceString.md)
-- [GetVWRString.md](../Functions/GetVWRString.md)
-- [Insert.md](../Functions/Insert.md)
-- [Len.md](../Functions/Len.md)
-- [LenEncoding.md](../Functions/LenEncoding.md)
-- [Num2Str.md](../Functions/Num2Str.md)
-- [Num2StrF.md](../Functions/Num2StrF.md)
-- [Ord.md](../Functions/Ord.md)
-- [Pos.md](../Functions/Pos.md)
-- [Str2Angle.md](../Functions/Str2Angle.md)
-- [Str2Area.md](../Functions/Str2Area.md)
-- [Str2Num.md](../Functions/Str2Num.md)
-- [Str2Volume.md](../Functions/Str2Volume.md)
-- [SubString.md](../Functions/SubString.md)
-- [UniChr.md](../Functions/UniChr.md)
-- [UprString.md](../Functions/UprString.md)
-- [Volume2Str.md](../Functions/Volume2Str.md)
+# Strings
+| | | |
+|---|---|---|
+| [Angle2Str](../Functions/Angle2Str.md) | [Area2Str](../Functions/Area2Str.md) | [Chr](../Functions/Chr.md) |
+| [Concat](../Functions/Concat.md) | [Copy](../Functions/Copy.md) | [Delete](../Functions/Delete.md) |
+| [GetResourceString](../Functions/GetResourceString.md) | [GetVWRString](../Functions/GetVWRString.md) | [Insert](../Functions/Insert.md) |
+| [Len](../Functions/Len.md) | [LenEncoding](../Functions/LenEncoding.md) | [Num2Str](../Functions/Num2Str.md) |
+| [Num2StrF](../Functions/Num2StrF.md) | [Ord](../Functions/Ord.md) | [Pos](../Functions/Pos.md) |
+| [Str2Angle](../Functions/Str2Angle.md) | [Str2Area](../Functions/Str2Area.md) | [Str2Num](../Functions/Str2Num.md) |
+| [Str2Volume](../Functions/Str2Volume.md) | [SubString](../Functions/SubString.md) | [UniChr](../Functions/UniChr.md) |
+| [UprString](../Functions/UprString.md) | [Volume2Str](../Functions/Volume2Str.md) 

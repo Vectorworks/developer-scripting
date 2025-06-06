@@ -1,22 +1,12 @@
-# Objects - Lights
+[Function Reference](../README.md)
 
-- [ContainsLight.md](../Functions/ContainsLight.md)
-- [CreateLight.md](../Functions/CreateLight.md)
-- [GetBeamAngle.md](../Functions/GetBeamAngle.md)
-- [GetLayerAmbientColor.md](../Functions/GetLayerAmbientColor.md)
-- [GetLayerAmbientInfo.md](../Functions/GetLayerAmbientInfo.md)
-- [GetLightColorRGB.md](../Functions/GetLightColorRGB.md)
-- [GetLightDirection.md](../Functions/GetLightDirection.md)
-- [GetLightFalloff.md](../Functions/GetLightFalloff.md)
-- [GetLightInfo.md](../Functions/GetLightInfo.md)
-- [GetLightLocation.md](../Functions/GetLightLocation.md)
-- [GetSpreadAngle.md](../Functions/GetSpreadAngle.md)
-- [SetBeamAngle.md](../Functions/SetBeamAngle.md)
-- [SetLayerAmbientColor.md](../Functions/SetLayerAmbientColor.md)
-- [SetLayerAmbientInfo.md](../Functions/SetLayerAmbientInfo.md)
-- [SetLightColorRGB.md](../Functions/SetLightColorRGB.md)
-- [SetLightDirection.md](../Functions/SetLightDirection.md)
-- [SetLightFalloff.md](../Functions/SetLightFalloff.md)
-- [SetLightInfo.md](../Functions/SetLightInfo.md)
-- [SetLightLocation.md](../Functions/SetLightLocation.md)
-- [SetSpreadAngle.md](../Functions/SetSpreadAngle.md)
+# Objects - Lights
+| | | |
+|---|---|---|
+| [ContainsLight](../Functions/ContainsLight.md) | [CreateLight](../Functions/CreateLight.md) | [GetBeamAngle](../Functions/GetBeamAngle.md) |
+| [GetLayerAmbientColor](../Functions/GetLayerAmbientColor.md) | [GetLayerAmbientInfo](../Functions/GetLayerAmbientInfo.md) | [GetLightColorRGB](../Functions/GetLightColorRGB.md) |
+| [GetLightDirection](../Functions/GetLightDirection.md) | [GetLightFalloff](../Functions/GetLightFalloff.md) | [GetLightInfo](../Functions/GetLightInfo.md) |
+| [GetLightLocation](../Functions/GetLightLocation.md) | [GetSpreadAngle](../Functions/GetSpreadAngle.md) | [SetBeamAngle](../Functions/SetBeamAngle.md) |
+| [SetLayerAmbientColor](../Functions/SetLayerAmbientColor.md) | [SetLayerAmbientInfo](../Functions/SetLayerAmbientInfo.md) | [SetLightColorRGB](../Functions/SetLightColorRGB.md) |
+| [SetLightDirection](../Functions/SetLightDirection.md) | [SetLightFalloff](../Functions/SetLightFalloff.md) | [SetLightInfo](../Functions/SetLightInfo.md) |
+| [SetLightLocation](../Functions/SetLightLocation.md) | [SetSpreadAngle](../Functions/SetSpreadAngle.md) 

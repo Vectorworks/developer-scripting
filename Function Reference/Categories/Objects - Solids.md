@@ -1,15 +1,10 @@
-# Objects - Solids
+[Function Reference](../README.md)
 
-- [AddSolid.md](../Functions/AddSolid.md)
-- [CalcSurfaceArea.md](../Functions/CalcSurfaceArea.md)
-- [CalcVolume.md](../Functions/CalcVolume.md)
-- [CnvrtToGenericSolid.md](../Functions/CnvrtToGenericSolid.md)
-- [CreateCone.md](../Functions/CreateCone.md)
-- [CreateHemisphere.md](../Functions/CreateHemisphere.md)
-- [CreateShell.md](../Functions/CreateShell.md)
-- [CreateSphere.md](../Functions/CreateSphere.md)
-- [IntersectSolid.md](../Functions/IntersectSolid.md)
-- [ObjSurfaceArea.md](../Functions/ObjSurfaceArea.md)
-- [ObjSurfAreaInWorldC.md](../Functions/ObjSurfAreaInWorldC.md)
-- [ObjVolume.md](../Functions/ObjVolume.md)
-- [SubtractSolid.md](../Functions/SubtractSolid.md)
+# Objects - Solids
+| | | |
+|---|---|---|
+| [AddSolid](../Functions/AddSolid.md) | [CalcSurfaceArea](../Functions/CalcSurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub>| [CalcVolume](../Functions/CalcVolume.md) <sub>*obsolete in VectorWorks12.5*</sub>|
+| [CnvrtToGenericSolid](../Functions/CnvrtToGenericSolid.md) | [CreateCone](../Functions/CreateCone.md) | [CreateHemisphere](../Functions/CreateHemisphere.md) |
+| [CreateShell](../Functions/CreateShell.md) | [CreateSphere](../Functions/CreateSphere.md) | [IntersectSolid](../Functions/IntersectSolid.md) |
+| [ObjSurfaceArea](../Functions/ObjSurfaceArea.md) | [ObjSurfAreaInWorldC](../Functions/ObjSurfAreaInWorldC.md) | [ObjVolume](../Functions/ObjVolume.md) |
+| [SubtractSolid](../Functions/SubtractSolid.md) 

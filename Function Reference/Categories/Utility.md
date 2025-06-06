@@ -1,135 +1,49 @@
-# Utility
+[Function Reference](../README.md)
 
-- [BeginContext.md](../Functions/BeginContext.md)
-- [BeginMultDashConvert.md](../Functions/BeginMultDashConvert.md)
-- [CallToolByIndex.md](../Functions/CallToolByIndex.md)
-- [CallToolByName.md](../Functions/CallToolByName.md)
-- [CallToolWithMode.md](../Functions/CallToolWithMode.md)
-- [ClrMessage.md](../Functions/ClrMessage.md)
-- [ColorIndexToRGB.md](../Functions/ColorIndexToRGB.md)
-- [ColorIndexToRGBN.md](../Functions/ColorIndexToRGBN.md)
-- [CreateUUID.md](../Functions/CreateUUID.md)
-- [Date.md](../Functions/Date.md)
-- [DelSavedSetting.md](../Functions/DelSavedSetting.md)
-- [DelSavedSettings.md](../Functions/DelSavedSettings.md)
-- [DisableModules.md](../Functions/DisableModules.md)
-- [DisplayContextHelpOfCurrentPlugin.md](../Functions/DisplayContextHelpOfCurrentPlugin.md)
-- [DisplayContextualHelp.md](../Functions/DisplayContextualHelp.md)
-- [DisplayOrganizationDialog.md](../Functions/DisplayOrganizationDialog.md)
-- [EditCriteriaWithUI.md](../Functions/EditCriteriaWithUI.md)
-- [EncryptAllPlugins.md](../Functions/EncryptAllPlugins.md)
-- [EncryptPlugin.md](../Functions/EncryptPlugin.md)
-- [EndContext.md](../Functions/EndContext.md)
-- [EndMultDashConvert.md](../Functions/EndMultDashConvert.md)
-- [ExportImageFile.md](../Functions/ExportImageFile.md)
-- [FndError.md](../Functions/FndError.md)
-- [ForEachObjectAtPoint.md](../Functions/ForEachObjectAtPoint.md)
-- [ForEachObjectInLayer.md](../Functions/ForEachObjectInLayer.md)
-- [ForEachObjectInList.md](../Functions/ForEachObjectInList.md)
-- [GetActiveSerialNumber.md](../Functions/GetActiveSerialNumber.md)
-- [GetArrayDimensions.md](../Functions/GetArrayDimensions.md)
-- [GetCallBackInval.md](../Functions/GetCallBackInval.md)
-- [GetClosestPt.md](../Functions/GetClosestPt.md)
-- [GetClosestSide.md](../Functions/GetClosestSide.md)
-- [GetCurrentLocalization.md](../Functions/GetCurrentLocalization.md)
-- [GetCurrentMode.md](../Functions/GetCurrentMode.md)
-- [GetDashFromPseudoInd.md](../Functions/GetDashFromPseudoInd.md)
-- [GetEnabledModules.md](../Functions/GetEnabledModules.md)
-- [GetMainDisplayBounds.md](../Functions/GetMainDisplayBounds.md)
-- [GetModifierFlags.md](../Functions/GetModifierFlags.md)
-- [GetNetAdapterInfo.md](../Functions/GetNetAdapterInfo.md)
-- [GetOSVersion.md](../Functions/GetOSVersion.md)
-- [GetPaletteVisibility.md](../Functions/GetPaletteVisibility.md)
-- [GetPickObjectInfo.md](../Functions/GetPickObjectInfo.md)
-- [GetPlantToolInitialized.md](../Functions/GetPlantToolInitialized.md)
-- [GetPlantToolPlacementMode.md](../Functions/GetPlantToolPlacementMode.md)
-- [GetPlantToolPlantName.md](../Functions/GetPlantToolPlantName.md)
-- [GetPlantToolSpacing.md](../Functions/GetPlantToolSpacing.md)
-- [GetProduct.md](../Functions/GetProduct.md)
-- [GetPseudoIndFromDash.md](../Functions/GetPseudoIndFromDash.md)
-- [GetSavedSetting.md](../Functions/GetSavedSetting.md)
-- [GetScreen.md](../Functions/GetScreen.md)
-- [GetTickCount.md](../Functions/GetTickCount.md)
-- [GetVersion.md](../Functions/GetVersion.md)
-- [GetVersionEx.md](../Functions/GetVersionEx.md)
-- [GetWorkingPlane.md](../Functions/GetWorkingPlane.md)
-- [GetWorkingPlaneMat.md](../Functions/GetWorkingPlaneMat.md)
-- [GetWorkingPlaneN.md](../Functions/GetWorkingPlaneN.md)
-- [ImportImageFile.md](../Functions/ImportImageFile.md)
-- [ImportImageFileN.md](../Functions/ImportImageFileN.md)
-- [InstallScriptAddPath.md](../Functions/InstallScriptAddPath.md)
-- [IsCoPlanar.md](../Functions/IsCoPlanar.md)
-- [IsPerpPlane.md](../Functions/IsPerpPlane.md)
-- [LandmarkMatchSlope.md](../Functions/LandmarkMatchSlope.md)
-- [Message.md](../Functions/Message.md)
-- [NameUndoEvent.md](../Functions/NameUndoEvent.md)
-- [ObjPropsEditDlg.md](../Functions/ObjPropsEditDlg.md)
-- [OpenScriptResPal.md](../Functions/OpenScriptResPal.md)
-- [OpenURL.md](../Functions/OpenURL.md)
-- [PickObject.md](../Functions/PickObject.md)
-- [PlanarPtTo3DModelPt.md](../Functions/PlanarPtTo3DModelPt.md)
-- [PlanarPtToScreenPlanePt.md](../Functions/PlanarPtToScreenPlanePt.md)
-- [PrepRelatedObjectForChange.md](../Functions/PrepRelatedObjectForChange.md)
-- [ProgressDlgClose.md](../Functions/ProgressDlgClose.md)
-- [ProgressDlgEnd.md](../Functions/ProgressDlgEnd.md)
-- [ProgressDlgHasCancel.md](../Functions/ProgressDlgHasCancel.md)
-- [ProgressDlgOpen.md](../Functions/ProgressDlgOpen.md)
-- [ProgressDlgOpenDelay.md](../Functions/ProgressDlgOpenDelay.md)
-- [ProgressDlgSetBotMsg.md](../Functions/ProgressDlgSetBotMsg.md)
-- [ProgressDlgSetMeter.md](../Functions/ProgressDlgSetMeter.md)
-- [ProgressDlgSetTopMsg.md](../Functions/ProgressDlgSetTopMsg.md)
-- [ProgressDlgStart.md](../Functions/ProgressDlgStart.md)
-- [ProgressDlgYield.md](../Functions/ProgressDlgYield.md)
-- [PythonBeginContext.md](../Functions/PythonBeginContext.md)
-- [PythonEndContext.md](../Functions/PythonEndContext.md)
-- [PythonExecute.md](../Functions/PythonExecute.md)
-- [PythonGetSearchPath.md](../Functions/PythonGetSearchPath.md)
-- [PythonSetSearchPath.md](../Functions/PythonSetSearchPath.md)
-- [ReDraw.md](../Functions/ReDraw.md)
-- [ReDrawAll.md](../Functions/ReDrawAll.md)
-- [RedrawSelection.md](../Functions/RedrawSelection.md)
-- [RefreshResManager.md](../Functions/RefreshResManager.md)
-- [ResetObject.md](../Functions/ResetObject.md)
-- [RGBToColorIndex.md](../Functions/RGBToColorIndex.md)
-- [RGBToColorIndexN.md](../Functions/RGBToColorIndexN.md)
-- [Rpstr_GetValueBool.md](../Functions/Rpstr_GetValueBool.md)
-- [Rpstr_GetValueInt.md](../Functions/Rpstr_GetValueInt.md)
-- [Rpstr_GetValueReal.md](../Functions/Rpstr_GetValueReal.md)
-- [Rpstr_GetValueStr.md](../Functions/Rpstr_GetValueStr.md)
-- [Rpstr_RemoveValue.md](../Functions/Rpstr_RemoveValue.md)
-- [Rpstr_RemoveValues.md](../Functions/Rpstr_RemoveValues.md)
-- [Rpstr_SetValueBool.md](../Functions/Rpstr_SetValueBool.md)
-- [Rpstr_SetValueInt.md](../Functions/Rpstr_SetValueInt.md)
-- [Rpstr_SetValueReal.md](../Functions/Rpstr_SetValueReal.md)
-- [Rpstr_SetValueStr.md](../Functions/Rpstr_SetValueStr.md)
-- [RunImageComp.md](../Functions/RunImageComp.md)
-- [ScreenPlanePtToPlanarPt.md](../Functions/ScreenPlanePtToPlanarPt.md)
-- [SetCallBackInval.md](../Functions/SetCallBackInval.md)
-- [SetCurrentObject.md](../Functions/SetCurrentObject.md)
-- [SetDrawingRect.md](../Functions/SetDrawingRect.md)
-- [SetMaximumUndoEvents.md](../Functions/SetMaximumUndoEvents.md)
-- [SetModeString.md](../Functions/SetModeString.md)
-- [SetPaletteVisibility.md](../Functions/SetPaletteVisibility.md)
-- [SetPlanarTransform.md](../Functions/SetPlanarTransform.md)
-- [SetSavedSetting.md](../Functions/SetSavedSetting.md)
-- [SetToolByIndex.md](../Functions/SetToolByIndex.md)
-- [SetToolByName.md](../Functions/SetToolByName.md)
-- [SetToolWithMode.md](../Functions/SetToolWithMode.md)
-- [SetWorkingPlane.md](../Functions/SetWorkingPlane.md)
-- [SetWorkingPlaneN.md](../Functions/SetWorkingPlaneN.md)
-- [ShowWebDlg.md](../Functions/ShowWebDlg.md)
-- [SortArray.md](../Functions/SortArray.md)
-- [SysBeep.md](../Functions/SysBeep.md)
-- [TBB_AttachRecords.md](../Functions/TBB_AttachRecords.md)
-- [TBB_GetPageArea.md](../Functions/TBB_GetPageArea.md)
-- [TBB_OpenTBBSelDlg.md](../Functions/TBB_OpenTBBSelDlg.md)
-- [TBB_UpdateOldBorders.md](../Functions/TBB_UpdateOldBorders.md)
-- [TBB_UpdateOldVAATB.md](../Functions/TBB_UpdateOldVAATB.md)
-- [TestEncryptPlugins.md](../Functions/TestEncryptPlugins.md)
-- [UndoOff.md](../Functions/UndoOff.md)
-- [UpdatePIOFromStyle.md](../Functions/UpdatePIOFromStyle.md)
-- [ValidAngStr.md](../Functions/ValidAngStr.md)
-- [ValidNumStr.md](../Functions/ValidNumStr.md)
-- [VerifyLibraryRoutine.md](../Functions/VerifyLibraryRoutine.md)
-- [Wait.md](../Functions/Wait.md)
-- [WebDlgEnableConsole.md](../Functions/WebDlgEnableConsole.md)
+# Utility
+| | | |
+|---|---|---|
+| [BeginContext](../Functions/BeginContext.md) | [BeginMultDashConvert](../Functions/BeginMultDashConvert.md) | [CallToolByIndex](../Functions/CallToolByIndex.md) |
+| [CallToolByName](../Functions/CallToolByName.md) | [CallToolWithMode](../Functions/CallToolWithMode.md) | [ClrMessage](../Functions/ClrMessage.md) |
+| [ColorIndexToRGB](../Functions/ColorIndexToRGB.md) | [ColorIndexToRGBN](../Functions/ColorIndexToRGBN.md) | [CreateUUID](../Functions/CreateUUID.md) |
+| [Date](../Functions/Date.md) | [DelSavedSetting](../Functions/DelSavedSetting.md) | [DelSavedSettings](../Functions/DelSavedSettings.md) |
+| [DisableModules](../Functions/DisableModules.md) | [DisplayContextHelpOfCurrentPlugin](../Functions/DisplayContextHelpOfCurrentPlugin.md) | [DisplayContextualHelp](../Functions/DisplayContextualHelp.md) |
+| [DisplayOrganizationDialog](../Functions/DisplayOrganizationDialog.md) | [EditCriteriaWithUI](../Functions/EditCriteriaWithUI.md) | [EndContext](../Functions/EndContext.md) |
+| [EndMultDashConvert](../Functions/EndMultDashConvert.md) | [ExportImageFile](../Functions/ExportImageFile.md) | [FndError](../Functions/FndError.md) |
+| [ForEachObjectAtPoint](../Functions/ForEachObjectAtPoint.md) | [ForEachObjectInLayer](../Functions/ForEachObjectInLayer.md) | [ForEachObjectInList](../Functions/ForEachObjectInList.md) |
+| [GetActiveSerialNumber](../Functions/GetActiveSerialNumber.md) | [GetArrayDimensions](../Functions/GetArrayDimensions.md) | [GetCallBackInval](../Functions/GetCallBackInval.md) |
+| [GetClosestPt](../Functions/GetClosestPt.md) | [GetClosestSide](../Functions/GetClosestSide.md) | [GetCurrentLocalization](../Functions/GetCurrentLocalization.md) |
+| [GetCurrentMode](../Functions/GetCurrentMode.md) | [GetDashFromPseudoInd](../Functions/GetDashFromPseudoInd.md) | [GetEnabledModules](../Functions/GetEnabledModules.md) |
+| [GetMainDisplayBounds](../Functions/GetMainDisplayBounds.md) | [GetModifierFlags](../Functions/GetModifierFlags.md) | [GetNetAdapterInfo](../Functions/GetNetAdapterInfo.md) |
+| [GetOSVersion](../Functions/GetOSVersion.md) | [GetPaletteVisibility](../Functions/GetPaletteVisibility.md) | [GetPickObjectInfo](../Functions/GetPickObjectInfo.md) |
+| [GetPlantToolInitialized](../Functions/GetPlantToolInitialized.md) | [GetPlantToolPlacementMode](../Functions/GetPlantToolPlacementMode.md) | [GetPlantToolPlantName](../Functions/GetPlantToolPlantName.md) |
+| [GetPlantToolSpacing](../Functions/GetPlantToolSpacing.md) | [GetProduct](../Functions/GetProduct.md) | [GetPseudoIndFromDash](../Functions/GetPseudoIndFromDash.md) |
+| [GetSavedSetting](../Functions/GetSavedSetting.md) | [GetScreen](../Functions/GetScreen.md) | [GetTickCount](../Functions/GetTickCount.md) |
+| [GetVersion](../Functions/GetVersion.md) | [GetVersionEx](../Functions/GetVersionEx.md) | [GetWorkingPlane](../Functions/GetWorkingPlane.md) |
+| [GetWorkingPlaneMat](../Functions/GetWorkingPlaneMat.md) | [GetWorkingPlaneN](../Functions/GetWorkingPlaneN.md) | [ImportImageFile](../Functions/ImportImageFile.md) |
+| [ImportImageFileN](../Functions/ImportImageFileN.md) | [InstallScriptAddPath](../Functions/InstallScriptAddPath.md) | [IsCoPlanar](../Functions/IsCoPlanar.md) |
+| [IsPerpPlane](../Functions/IsPerpPlane.md) | [LandmarkMatchSlope](../Functions/LandmarkMatchSlope.md) | [Message](../Functions/Message.md) |
+| [NameUndoEvent](../Functions/NameUndoEvent.md) | [ObjPropsEditDlg](../Functions/ObjPropsEditDlg.md) | [OpenScriptResPal](../Functions/OpenScriptResPal.md) |
+| [OpenURL](../Functions/OpenURL.md) | [PickObject](../Functions/PickObject.md) | [PlanarPtTo3DModelPt](../Functions/PlanarPtTo3DModelPt.md) |
+| [PlanarPtToScreenPlanePt](../Functions/PlanarPtToScreenPlanePt.md) | [PrepRelatedObjectForChange](../Functions/PrepRelatedObjectForChange.md) | [ProgressDlgClose](../Functions/ProgressDlgClose.md) |
+| [ProgressDlgEnd](../Functions/ProgressDlgEnd.md) | [ProgressDlgHasCancel](../Functions/ProgressDlgHasCancel.md) | [ProgressDlgOpen](../Functions/ProgressDlgOpen.md) |
+| [ProgressDlgOpenDelay](../Functions/ProgressDlgOpenDelay.md) | [ProgressDlgSetBotMsg](../Functions/ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](../Functions/ProgressDlgSetMeter.md) |
+| [ProgressDlgSetTopMsg](../Functions/ProgressDlgSetTopMsg.md) | [ProgressDlgStart](../Functions/ProgressDlgStart.md) | [ProgressDlgYield](../Functions/ProgressDlgYield.md) |
+| [PythonBeginContext](../Functions/PythonBeginContext.md) | [PythonEndContext](../Functions/PythonEndContext.md) | [PythonExecute](../Functions/PythonExecute.md) |
+| [PythonGetSearchPath](../Functions/PythonGetSearchPath.md) | [PythonSetSearchPath](../Functions/PythonSetSearchPath.md) | [ReDraw](../Functions/ReDraw.md) |
+| [ReDrawAll](../Functions/ReDrawAll.md) | [RedrawSelection](../Functions/RedrawSelection.md) | [RefreshResManager](../Functions/RefreshResManager.md) |
+| [ResetObject](../Functions/ResetObject.md) | [RGBToColorIndex](../Functions/RGBToColorIndex.md) | [RGBToColorIndexN](../Functions/RGBToColorIndexN.md) |
+| [Rpstr_GetValueBool](../Functions/Rpstr_GetValueBool.md) | [Rpstr_GetValueInt](../Functions/Rpstr_GetValueInt.md) | [Rpstr_GetValueReal](../Functions/Rpstr_GetValueReal.md) |
+| [Rpstr_GetValueStr](../Functions/Rpstr_GetValueStr.md) | [Rpstr_RemoveValue](../Functions/Rpstr_RemoveValue.md) | [Rpstr_RemoveValues](../Functions/Rpstr_RemoveValues.md) |
+| [Rpstr_SetValueBool](../Functions/Rpstr_SetValueBool.md) | [Rpstr_SetValueInt](../Functions/Rpstr_SetValueInt.md) | [Rpstr_SetValueReal](../Functions/Rpstr_SetValueReal.md) |
+| [Rpstr_SetValueStr](../Functions/Rpstr_SetValueStr.md) | [RunImageComp](../Functions/RunImageComp.md) | [ScreenPlanePtToPlanarPt](../Functions/ScreenPlanePtToPlanarPt.md) |
+| [SetCallBackInval](../Functions/SetCallBackInval.md) | [SetCurrentObject](../Functions/SetCurrentObject.md) | [SetDrawingRect](../Functions/SetDrawingRect.md) |
+| [SetMaximumUndoEvents](../Functions/SetMaximumUndoEvents.md) | [SetModeString](../Functions/SetModeString.md) | [SetPaletteVisibility](../Functions/SetPaletteVisibility.md) |
+| [SetPlanarTransform](../Functions/SetPlanarTransform.md) | [SetSavedSetting](../Functions/SetSavedSetting.md) | [SetToolByIndex](../Functions/SetToolByIndex.md) |
+| [SetToolByName](../Functions/SetToolByName.md) | [SetToolWithMode](../Functions/SetToolWithMode.md) | [SetWorkingPlane](../Functions/SetWorkingPlane.md) |
+| [SetWorkingPlaneN](../Functions/SetWorkingPlaneN.md) | [ShowWebDlg](../Functions/ShowWebDlg.md) | [SortArray](../Functions/SortArray.md) |
+| [SysBeep](../Functions/SysBeep.md) | [TBB_AttachRecords](../Functions/TBB_AttachRecords.md) | [TBB_GetPageArea](../Functions/TBB_GetPageArea.md) |
+| [TBB_OpenTBBSelDlg](../Functions/TBB_OpenTBBSelDlg.md) | [TBB_UpdateOldBorders](../Functions/TBB_UpdateOldBorders.md) | [TBB_UpdateOldVAATB](../Functions/TBB_UpdateOldVAATB.md) |
+| [UndoOff](../Functions/UndoOff.md) | [UpdatePIOFromStyle](../Functions/UpdatePIOFromStyle.md) | [ValidAngStr](../Functions/ValidAngStr.md) |
+| [ValidNumStr](../Functions/ValidNumStr.md) | [VerifyLibraryRoutine](../Functions/VerifyLibraryRoutine.md) | [Wait](../Functions/Wait.md) |
+| [WebDlgEnableConsole](../Functions/WebDlgEnableConsole.md) 

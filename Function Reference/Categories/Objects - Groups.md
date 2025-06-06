@@ -1,22 +1,12 @@
-# Objects - Groups
+[Function Reference](../README.md)
 
-- [AddVPAnnotationObject.md](../Functions/AddVPAnnotationObject.md)
-- [BeginGroup.md](../Functions/BeginGroup.md)
-- [BeginGroupN.md](../Functions/BeginGroupN.md)
-- [CreateVP.md](../Functions/CreateVP.md)
-- [EndGroup.md](../Functions/EndGroup.md)
-- [GetVPClassVisibility.md](../Functions/GetVPClassVisibility.md)
-- [GetVPCropObject.md](../Functions/GetVPCropObject.md)
-- [GetVPGroup.md](../Functions/GetVPGroup.md)
-- [GetVPGroupParent.md](../Functions/GetVPGroupParent.md)
-- [GetVPLayerVisibility.md](../Functions/GetVPLayerVisibility.md)
-- [Group.md](../Functions/Group.md)
-- [GroupToMesh.md](../Functions/GroupToMesh.md)
-- [HUngroup.md](../Functions/HUngroup.md)
-- [IsVPGroupContainedObject.md](../Functions/IsVPGroupContainedObject.md)
-- [SetVPClassVisibility.md](../Functions/SetVPClassVisibility.md)
-- [SetVPCropObject.md](../Functions/SetVPCropObject.md)
-- [SetVPLayerVisibility.md](../Functions/SetVPLayerVisibility.md)
-- [Ungroup.md](../Functions/Ungroup.md)
-- [UpdateVP.md](../Functions/UpdateVP.md)
-- [VPHasCropObject.md](../Functions/VPHasCropObject.md)
+# Objects - Groups
+| | | |
+|---|---|---|
+| [AddVPAnnotationObject](../Functions/AddVPAnnotationObject.md) | [BeginGroup](../Functions/BeginGroup.md) | [BeginGroupN](../Functions/BeginGroupN.md) |
+| [CreateVP](../Functions/CreateVP.md) | [EndGroup](../Functions/EndGroup.md) | [GetVPClassVisibility](../Functions/GetVPClassVisibility.md) |
+| [GetVPCropObject](../Functions/GetVPCropObject.md) | [GetVPGroup](../Functions/GetVPGroup.md) | [GetVPGroupParent](../Functions/GetVPGroupParent.md) |
+| [GetVPLayerVisibility](../Functions/GetVPLayerVisibility.md) | [Group](../Functions/Group.md) | [GroupToMesh](../Functions/GroupToMesh.md) |
+| [HUngroup](../Functions/HUngroup.md) | [IsVPGroupContainedObject](../Functions/IsVPGroupContainedObject.md) | [SetVPClassVisibility](../Functions/SetVPClassVisibility.md) |
+| [SetVPCropObject](../Functions/SetVPCropObject.md) | [SetVPLayerVisibility](../Functions/SetVPLayerVisibility.md) | [Ungroup](../Functions/Ungroup.md) |
+| [UpdateVP](../Functions/UpdateVP.md) | [VPHasCropObject](../Functions/VPHasCropObject.md) 

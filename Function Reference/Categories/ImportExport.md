@@ -1,20 +1,12 @@
-# ImportExport
+[Function Reference](../README.md)
 
-- [DXFScaleString.md](../Functions/DXFScaleString.md)
-- [ExportDXFDWG.md](../Functions/ExportDXFDWG.md)
-- [GetDXFColorToLW.md](../Functions/GetDXFColorToLW.md)
-- [GetLastDXFImportOpt.md](../Functions/GetLastDXFImportOpt.md)
-- [Import3DSFile.md](../Functions/Import3DSFile.md)
-- [ImportDXFDWG.md](../Functions/ImportDXFDWG.md)
-- [ImportDXFDWGFile.md](../Functions/ImportDXFDWGFile.md)
-- [ImportOBJ.md](../Functions/ImportOBJ.md)
-- [ImportRevit.md](../Functions/ImportRevit.md)
-- [ImportSingleDXFDWG.md](../Functions/ImportSingleDXFDWG.md)
-- [ImportSketchUp.md](../Functions/ImportSketchUp.md)
-- [Init3DSServices.md](../Functions/Init3DSServices.md)
-- [InitDWGServices.md](../Functions/InitDWGServices.md)
-- [InitRevitServices.md](../Functions/InitRevitServices.md)
-- [PublishSavedSet.md](../Functions/PublishSavedSet.md)
-- [SetDXFColorToLW.md](../Functions/SetDXFColorToLW.md)
-- [SetLastDXFImportOpt.md](../Functions/SetLastDXFImportOpt.md)
-- [SetLTGeneration.md](../Functions/SetLTGeneration.md)
+# ImportExport
+| | | |
+|---|---|---|
+| [DXFScaleString](../Functions/DXFScaleString.md) | [ExportDXFDWG](../Functions/ExportDXFDWG.md) | [GetDXFColorToLW](../Functions/GetDXFColorToLW.md) |
+| [GetLastDXFImportOpt](../Functions/GetLastDXFImportOpt.md) | [Import3DSFile](../Functions/Import3DSFile.md) | [ImportDXFDWG](../Functions/ImportDXFDWG.md) |
+| [ImportDXFDWGFile](../Functions/ImportDXFDWGFile.md) | [ImportOBJ](../Functions/ImportOBJ.md) | [ImportRevit](../Functions/ImportRevit.md) |
+| [ImportSingleDXFDWG](../Functions/ImportSingleDXFDWG.md) | [ImportSketchUp](../Functions/ImportSketchUp.md) | [Init3DSServices](../Functions/Init3DSServices.md) |
+| [InitDWGServices](../Functions/InitDWGServices.md) | [InitRevitServices](../Functions/InitRevitServices.md) | [PublishSavedSet](../Functions/PublishSavedSet.md) |
+| [SetDXFColorToLW](../Functions/SetDXFColorToLW.md) | [SetInvisLayersOFF](../Functions/SetInvisLayersOFF.md) | [SetLastDXFImportOpt](../Functions/SetLastDXFImportOpt.md) |
+| [SetLTGeneration](../Functions/SetLTGeneration.md) 

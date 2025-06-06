@@ -1,17 +1,11 @@
-# Dimensions
+[Function Reference](../README.md)
 
-- [AngularDim.md](../Functions/AngularDim.md)
-- [AssociateLinearDimension.md](../Functions/AssociateLinearDimension.md)
-- [CircularDim.md](../Functions/CircularDim.md)
-- [CreateChainDimension.md](../Functions/CreateChainDimension.md)
-- [DimArcText.md](../Functions/DimArcText.md)
-- [DimText.md](../Functions/DimText.md)
-- [DoubleFixedTolerance.md](../Functions/DoubleFixedTolerance.md)
-- [DoubleTolerance.md](../Functions/DoubleTolerance.md)
-- [GetDimText.md](../Functions/GetDimText.md)
-- [HasDim.md](../Functions/HasDim.md)
-- [LimitTolerance.md](../Functions/LimitTolerance.md)
-- [LinearDim.md](../Functions/LinearDim.md)
-- [SetDimNote.md](../Functions/SetDimNote.md)
-- [SetDimText.md](../Functions/SetDimText.md)
-- [SingleTolerance.md](../Functions/SingleTolerance.md)
+# Dimensions
+| | | |
+|---|---|---|
+| [AngularDim](../Functions/AngularDim.md) | [AssociateLinearDimension](../Functions/AssociateLinearDimension.md) | [CircularDim](../Functions/CircularDim.md) |
+| [CreateChainDimension](../Functions/CreateChainDimension.md) | [DimArcText](../Functions/DimArcText.md) | [DimText](../Functions/DimText.md) |
+| [DoubleFixedTolerance](../Functions/DoubleFixedTolerance.md) | [DoubleTolerance](../Functions/DoubleTolerance.md) | [GetDimText](../Functions/GetDimText.md) |
+| [HasDim](../Functions/HasDim.md) | [LimitTolerance](../Functions/LimitTolerance.md) | [LinearDim](../Functions/LinearDim.md) |
+| [SetDimNote](../Functions/SetDimNote.md) | [SetDimText](../Functions/SetDimText.md) | [SingleTolerance](../Functions/SingleTolerance.md) |
+

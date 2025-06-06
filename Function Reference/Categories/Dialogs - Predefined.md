@@ -1,26 +1,14 @@
-# Dialogs - Predefined
+[Function Reference](../README.md)
 
-- [AlertCritical.md](../Functions/AlertCritical.md)
-- [AlertCriticalHLink.md](../Functions/AlertCriticalHLink.md)
-- [AlertInform.md](../Functions/AlertInform.md)
-- [AlertInformDontShowAgain.md](../Functions/AlertInformDontShowAgain.md)
-- [AlertInformHLink.md](../Functions/AlertInformHLink.md)
-- [AlertInformHLinkN.md](../Functions/AlertInformHLinkN.md)
-- [AlertQuestion.md](../Functions/AlertQuestion.md)
-- [AlertQuestionDontShowAgain.md](../Functions/AlertQuestionDontShowAgain.md)
-- [AlertSetAlwaysDoVal.md](../Functions/AlertSetAlwaysDoVal.md)
-- [AlrtDialog.md](../Functions/AlrtDialog.md)
-- [AngDialog.md](../Functions/AngDialog.md)
-- [AngDialog3D.md](../Functions/AngDialog3D.md)
-- [DetailGraphicOptDlg.md](../Functions/DetailGraphicOptDlg.md)
-- [DidCancel.md](../Functions/DidCancel.md)
-- [DistDialog.md](../Functions/DistDialog.md)
-- [EditSymMarkersDlg.md](../Functions/EditSymMarkersDlg.md)
-- [FormatTextDialog.md](../Functions/FormatTextDialog.md)
-- [IntDialog.md](../Functions/IntDialog.md)
-- [NonUndoableActionOK.md](../Functions/NonUndoableActionOK.md)
-- [PtDialog.md](../Functions/PtDialog.md)
-- [PtDialog3D.md](../Functions/PtDialog3D.md)
-- [RealDialog.md](../Functions/RealDialog.md)
-- [StrDialog.md](../Functions/StrDialog.md)
-- [YNDialog.md](../Functions/YNDialog.md)
+# Dialogs - Predefined
+| | | |
+|---|---|---|
+| [AlertCritical](../Functions/AlertCritical.md) | [AlertCriticalHLink](../Functions/AlertCriticalHLink.md) | [AlertInform](../Functions/AlertInform.md) |
+| [AlertInformDontShowAgain](../Functions/AlertInformDontShowAgain.md) | [AlertInformHLink](../Functions/AlertInformHLink.md) | [AlertInformHLinkN](../Functions/AlertInformHLinkN.md) |
+| [AlertQuestion](../Functions/AlertQuestion.md) | [AlertQuestionDontShowAgain](../Functions/AlertQuestionDontShowAgain.md) | [AlertSetAlwaysDoVal](../Functions/AlertSetAlwaysDoVal.md) |
+| [AlrtDialog](../Functions/AlrtDialog.md) | [AngDialog](../Functions/AngDialog.md) | [AngDialog3D](../Functions/AngDialog3D.md) |
+| [DetailGraphicOptDlg](../Functions/DetailGraphicOptDlg.md) | [DidCancel](../Functions/DidCancel.md) | [DistDialog](../Functions/DistDialog.md) |
+| [EditSymMarkersDlg](../Functions/EditSymMarkersDlg.md) | [FormatTextDialog](../Functions/FormatTextDialog.md) | [IntDialog](../Functions/IntDialog.md) |
+| [NonUndoableActionOK](../Functions/NonUndoableActionOK.md) | [PtDialog](../Functions/PtDialog.md) | [PtDialog3D](../Functions/PtDialog3D.md) |
+| [RealDialog](../Functions/RealDialog.md) | [StrDialog](../Functions/StrDialog.md) | [YNDialog](../Functions/YNDialog.md) |
+

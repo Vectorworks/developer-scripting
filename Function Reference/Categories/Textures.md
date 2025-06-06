@@ -1,121 +1,45 @@
-# Textures
+[Function Reference](../README.md)
 
-- [AddCustomTexPart.md](../Functions/AddCustomTexPart.md)
-- [ApplyCustomTexPart.md](../Functions/ApplyCustomTexPart.md)
-- [AttachDefaultTextureSpace.md](../Functions/AttachDefaultTextureSpace.md)
-- [CreatePaintFromImage.md](../Functions/CreatePaintFromImage.md)
-- [CreatePaintFromImgN.md](../Functions/CreatePaintFromImgN.md)
-- [CreateShaderRecord.md](../Functions/CreateShaderRecord.md)
-- [CreateTexture.md](../Functions/CreateTexture.md)
-- [CreateTextureBitmap.md](../Functions/CreateTextureBitmap.md)
-- [CreateTextureBitmapD.md](../Functions/CreateTextureBitmapD.md)
-- [CreateTextureBitmapN.md](../Functions/CreateTextureBitmapN.md)
-- [CustomTexPartExists.md](../Functions/CustomTexPartExists.md)
-- [DeleteTextureSpace.md](../Functions/DeleteTextureSpace.md)
-- [EditShaderRecord.md](../Functions/EditShaderRecord.md)
-- [EditTexture.md](../Functions/EditTexture.md)
-- [EditTextureBitmap.md](../Functions/EditTextureBitmap.md)
-- [EditTextureSpace.md](../Functions/EditTextureSpace.md)
-- [GetClTextureC.md](../Functions/GetClTextureC.md)
-- [GetClTextureD.md](../Functions/GetClTextureD.md)
-- [GetClTextureG.md](../Functions/GetClTextureG.md)
-- [GetClTextureL.md](../Functions/GetClTextureL.md)
-- [GetClTextureR.md](../Functions/GetClTextureR.md)
-- [GetClTextureT.md](../Functions/GetClTextureT.md)
-- [GetClUseTexture.md](../Functions/GetClUseTexture.md)
-- [GetImageCropObject.md](../Functions/GetImageCropObject.md)
-- [GetNumTexLayers.md](../Functions/GetNumTexLayers.md)
-- [GetObjExpandTexture.md](../Functions/GetObjExpandTexture.md)
-- [GetShaderRecord.md](../Functions/GetShaderRecord.md)
-- [GetTexBFeatureEnd.md](../Functions/GetTexBFeatureEnd.md)
-- [GetTexBFeatureStart.md](../Functions/GetTexBFeatureStart.md)
-- [GetTexBitFeatureSize.md](../Functions/GetTexBitFeatureSize.md)
-- [GetTexBitmapOrigin.md](../Functions/GetTexBitmapOrigin.md)
-- [GetTexBitPaintNode.md](../Functions/GetTexBitPaintNode.md)
-- [GetTexBitRepHoriz.md](../Functions/GetTexBitRepHoriz.md)
-- [GetTexBitRepVert.md](../Functions/GetTexBitRepVert.md)
-- [GetTexMapBool.md](../Functions/GetTexMapBool.md)
-- [GetTexMapBoolN.md](../Functions/GetTexMapBoolN.md)
-- [GetTexMapInt.md](../Functions/GetTexMapInt.md)
-- [GetTexMapIntN.md](../Functions/GetTexMapIntN.md)
-- [GetTexMapReal.md](../Functions/GetTexMapReal.md)
-- [GetTexMapRealN.md](../Functions/GetTexMapRealN.md)
-- [GetTexSpace2DOffset.md](../Functions/GetTexSpace2DOffset.md)
-- [GetTexSpace2DRadius.md](../Functions/GetTexSpace2DRadius.md)
-- [GetTexSpace2DRot.md](../Functions/GetTexSpace2DRot.md)
-- [GetTexSpace2DScale.md](../Functions/GetTexSpace2DScale.md)
-- [GetTexSpaceEndCap.md](../Functions/GetTexSpaceEndCap.md)
-- [GetTexSpaceKind.md](../Functions/GetTexSpaceKind.md)
-- [GetTexSpaceOrientU.md](../Functions/GetTexSpaceOrientU.md)
-- [GetTexSpaceOrientV.md](../Functions/GetTexSpaceOrientV.md)
-- [GetTexSpaceOrientW.md](../Functions/GetTexSpaceOrientW.md)
-- [GetTexSpaceOrigin.md](../Functions/GetTexSpaceOrigin.md)
-- [GetTexSpacePartID.md](../Functions/GetTexSpacePartID.md)
-- [GetTexSpaceStartCap.md](../Functions/GetTexSpaceStartCap.md)
-- [GetTextureBitmap.md](../Functions/GetTextureBitmap.md)
-- [GetTextureRef.md](../Functions/GetTextureRef.md)
-- [GetTextureRefN.md](../Functions/GetTextureRefN.md)
-- [GetTextureSet.md](../Functions/GetTextureSet.md)
-- [GetTextureShader.md](../Functions/GetTextureShader.md)
-- [GetTextureShininess.md](../Functions/GetTextureShininess.md)
-- [GetTextureSize.md](../Functions/GetTextureSize.md)
-- [GetTextureSpace.md](../Functions/GetTextureSpace.md)
-- [GetTextureTransp.md](../Functions/GetTextureTransp.md)
-- [GetWallHoleTexturePart.md](../Functions/GetWallHoleTexturePart.md)
-- [GS_EdSh_ConstructLayout.md](../Functions/GS_EdSh_ConstructLayout.md)
-- [GS_EdSh_PopulateMenu.md](../Functions/GS_EdSh_PopulateMenu.md)
-- [GS_EdSh_RunDialog.md](../Functions/GS_EdSh_RunDialog.md)
-- [IsImageCropped.md](../Functions/IsImageCropped.md)
-- [IsImageCropVisible.md](../Functions/IsImageCropVisible.md)
-- [IsRW.md](../Functions/IsRW.md)
-- [IsTextureableObject.md](../Functions/IsTextureableObject.md)
-- [RemoveCustomTexParts.md](../Functions/RemoveCustomTexParts.md)
-- [ResolveByClassTextureRef.md](../Functions/ResolveByClassTextureRef.md)
-- [SetClTextureC.md](../Functions/SetClTextureC.md)
-- [SetClTextureD.md](../Functions/SetClTextureD.md)
-- [SetClTextureG.md](../Functions/SetClTextureG.md)
-- [SetClTextureL.md](../Functions/SetClTextureL.md)
-- [SetClTextureR.md](../Functions/SetClTextureR.md)
-- [SetClTextureT.md](../Functions/SetClTextureT.md)
-- [SetCustomRWPrefs.md](../Functions/SetCustomRWPrefs.md)
-- [SetDefaultTexMap.md](../Functions/SetDefaultTexMap.md)
-- [SetDefaultTexMapN.md](../Functions/SetDefaultTexMapN.md)
-- [SetDefaultTextureSpace.md](../Functions/SetDefaultTextureSpace.md)
-- [SetImageCropObject.md](../Functions/SetImageCropObject.md)
-- [SetImageCropVisible.md](../Functions/SetImageCropVisible.md)
-- [SetObjExpandTexture.md](../Functions/SetObjExpandTexture.md)
-- [SetOpenGLPrefs.md](../Functions/SetOpenGLPrefs.md)
-- [SetTexBFeatureEnd.md](../Functions/SetTexBFeatureEnd.md)
-- [SetTexBFeatureStart.md](../Functions/SetTexBFeatureStart.md)
-- [SetTexBitFeatureSize.md](../Functions/SetTexBitFeatureSize.md)
-- [SetTexBitmapOrigin.md](../Functions/SetTexBitmapOrigin.md)
-- [SetTexBitPaintNode.md](../Functions/SetTexBitPaintNode.md)
-- [SetTexBitRepHoriz.md](../Functions/SetTexBitRepHoriz.md)
-- [SetTexBitRepVert.md](../Functions/SetTexBitRepVert.md)
-- [SetTexMapBool.md](../Functions/SetTexMapBool.md)
-- [SetTexMapBoolN.md](../Functions/SetTexMapBoolN.md)
-- [SetTexMapInt.md](../Functions/SetTexMapInt.md)
-- [SetTexMapIntN.md](../Functions/SetTexMapIntN.md)
-- [SetTexMapReal.md](../Functions/SetTexMapReal.md)
-- [SetTexMapRealN.md](../Functions/SetTexMapRealN.md)
-- [SetTexSpace2DOffset.md](../Functions/SetTexSpace2DOffset.md)
-- [SetTexSpace2DRadius.md](../Functions/SetTexSpace2DRadius.md)
-- [SetTexSpace2DRot.md](../Functions/SetTexSpace2DRot.md)
-- [SetTexSpace2DScale.md](../Functions/SetTexSpace2DScale.md)
-- [SetTexSpaceEndCap.md](../Functions/SetTexSpaceEndCap.md)
-- [SetTexSpaceKind.md](../Functions/SetTexSpaceKind.md)
-- [SetTexSpaceOrientU.md](../Functions/SetTexSpaceOrientU.md)
-- [SetTexSpaceOrientV.md](../Functions/SetTexSpaceOrientV.md)
-- [SetTexSpaceOrientW.md](../Functions/SetTexSpaceOrientW.md)
-- [SetTexSpaceOrigin.md](../Functions/SetTexSpaceOrigin.md)
-- [SetTexSpacePartID.md](../Functions/SetTexSpacePartID.md)
-- [SetTexSpaceStartCap.md](../Functions/SetTexSpaceStartCap.md)
-- [SetTextureBitmap.md](../Functions/SetTextureBitmap.md)
-- [SetTextureRef.md](../Functions/SetTextureRef.md)
-- [SetTextureRefN.md](../Functions/SetTextureRefN.md)
-- [SetTextureSet.md](../Functions/SetTextureSet.md)
-- [SetTextureShader.md](../Functions/SetTextureShader.md)
-- [SetTextureShininess.md](../Functions/SetTextureShininess.md)
-- [SetTextureSize.md](../Functions/SetTextureSize.md)
-- [SetTextureTransp.md](../Functions/SetTextureTransp.md)
-- [SetWallHoleTexturePart.md](../Functions/SetWallHoleTexturePart.md)
+# Textures
+| | | |
+|---|---|---|
+| [AddCustomTexPart](../Functions/AddCustomTexPart.md) | [ApplyCustomTexPart](../Functions/ApplyCustomTexPart.md) | [AttachDefaultTextureSpace](../Functions/AttachDefaultTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [CreatePaintFromImage](../Functions/CreatePaintFromImage.md) | [CreatePaintFromImgN](../Functions/CreatePaintFromImgN.md) | [CreateShaderRecord](../Functions/CreateShaderRecord.md) |
+| [CreateTexture](../Functions/CreateTexture.md) | [CreateTextureBitmap](../Functions/CreateTextureBitmap.md) <sub>*obsolete in VectorWorks10.1*</sub>| [CreateTextureBitmapD](../Functions/CreateTextureBitmapD.md) |
+| [CreateTextureBitmapN](../Functions/CreateTextureBitmapN.md) | [CustomTexPartExists](../Functions/CustomTexPartExists.md) | [DeleteTextureSpace](../Functions/DeleteTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [EditShaderRecord](../Functions/EditShaderRecord.md) | [EditTexture](../Functions/EditTexture.md) | [EditTextureBitmap](../Functions/EditTextureBitmap.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [EditTextureSpace](../Functions/EditTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetClTextureC](../Functions/GetClTextureC.md) | [GetClTextureD](../Functions/GetClTextureD.md) |
+| [GetClTextureG](../Functions/GetClTextureG.md) | [GetClTextureL](../Functions/GetClTextureL.md) | [GetClTextureR](../Functions/GetClTextureR.md) |
+| [GetClTextureT](../Functions/GetClTextureT.md) | [GetClUseTexture](../Functions/GetClUseTexture.md) | [GetImageCropObject](../Functions/GetImageCropObject.md) |
+| [GetNumTexLayers](../Functions/GetNumTexLayers.md) | [GetObjExpandTexture](../Functions/GetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetShaderRecord](../Functions/GetShaderRecord.md) |
+| [GetTexBFeatureEnd](../Functions/GetTexBFeatureEnd.md) | [GetTexBFeatureStart](../Functions/GetTexBFeatureStart.md) | [GetTexBitFeatureSize](../Functions/GetTexBitFeatureSize.md) |
+| [GetTexBitmapOrigin](../Functions/GetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetTexBitPaintNode](../Functions/GetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub>| [GetTexBitRepHoriz](../Functions/GetTexBitRepHoriz.md) |
+| [GetTexBitRepVert](../Functions/GetTexBitRepVert.md) | [GetTexMapBool](../Functions/GetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub>| [GetTexMapBoolN](../Functions/GetTexMapBoolN.md) |
+| [GetTexMapInt](../Functions/GetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub>| [GetTexMapIntN](../Functions/GetTexMapIntN.md) | [GetTexMapReal](../Functions/GetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub>|
+| [GetTexMapRealN](../Functions/GetTexMapRealN.md) | [GetTexSpace2DOffset](../Functions/GetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpace2DRadius](../Functions/GetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [GetTexSpace2DRot](../Functions/GetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpace2DScale](../Functions/GetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceEndCap](../Functions/GetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [GetTexSpaceKind](../Functions/GetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceOrientU](../Functions/GetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceOrientV](../Functions/GetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [GetTexSpaceOrientW](../Functions/GetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpaceOrigin](../Functions/GetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTexSpacePartID](../Functions/GetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [GetTexSpaceStartCap](../Functions/GetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub>| [GetTextureBitmap](../Functions/GetTextureBitmap.md) | [GetTextureRef](../Functions/GetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub>|
+| [GetTextureRefN](../Functions/GetTextureRefN.md) | [GetTextureSet](../Functions/GetTextureSet.md) | [GetTextureShader](../Functions/GetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [GetTextureShininess](../Functions/GetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetTextureSize](../Functions/GetTextureSize.md) | [GetTextureSpace](../Functions/GetTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [GetTextureTransp](../Functions/GetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetWallHoleTexturePart](../Functions/GetWallHoleTexturePart.md) | [GS_EdSh_ConstructLayout](../Functions/GS_EdSh_ConstructLayout.md) |
+| [GS_EdSh_PopulateMenu](../Functions/GS_EdSh_PopulateMenu.md) | [GS_EdSh_RunDialog](../Functions/GS_EdSh_RunDialog.md) | [IsImageCropped](../Functions/IsImageCropped.md) |
+| [IsImageCropVisible](../Functions/IsImageCropVisible.md) | [IsRW](../Functions/IsRW.md) | [IsTextureableObject](../Functions/IsTextureableObject.md) |
+| [RemoveCustomTexParts](../Functions/RemoveCustomTexParts.md) | [ResolveByClassTextureRef](../Functions/ResolveByClassTextureRef.md) | [SetClTextureC](../Functions/SetClTextureC.md) |
+| [SetClTextureD](../Functions/SetClTextureD.md) | [SetClTextureG](../Functions/SetClTextureG.md) | [SetClTextureL](../Functions/SetClTextureL.md) |
+| [SetClTextureR](../Functions/SetClTextureR.md) | [SetClTextureT](../Functions/SetClTextureT.md) | [SetCustomRWPrefs](../Functions/SetCustomRWPrefs.md) |
+| [SetDefaultTexMap](../Functions/SetDefaultTexMap.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetDefaultTexMapN](../Functions/SetDefaultTexMapN.md) | [SetDefaultTextureSpace](../Functions/SetDefaultTextureSpace.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetImageCropObject](../Functions/SetImageCropObject.md) | [SetImageCropVisible](../Functions/SetImageCropVisible.md) | [SetObjExpandTexture](../Functions/SetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetOpenGLPrefs](../Functions/SetOpenGLPrefs.md) | [SetTexBFeatureEnd](../Functions/SetTexBFeatureEnd.md) | [SetTexBFeatureStart](../Functions/SetTexBFeatureStart.md) |
+| [SetTexBitFeatureSize](../Functions/SetTexBitFeatureSize.md) | [SetTexBitmapOrigin](../Functions/SetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTexBitPaintNode](../Functions/SetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub>|
+| [SetTexBitRepHoriz](../Functions/SetTexBitRepHoriz.md) | [SetTexBitRepVert](../Functions/SetTexBitRepVert.md) | [SetTexMapBool](../Functions/SetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub>|
+| [SetTexMapBoolN](../Functions/SetTexMapBoolN.md) | [SetTexMapInt](../Functions/SetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetTexMapIntN](../Functions/SetTexMapIntN.md) |
+| [SetTexMapReal](../Functions/SetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetTexMapRealN](../Functions/SetTexMapRealN.md) | [SetTexSpace2DOffset](../Functions/SetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetTexSpace2DRadius](../Functions/SetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpace2DRot](../Functions/SetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpace2DScale](../Functions/SetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetTexSpaceEndCap](../Functions/SetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceKind](../Functions/SetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceOrientU](../Functions/SetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetTexSpaceOrientV](../Functions/SetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceOrientW](../Functions/SetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceOrigin](../Functions/SetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub>|
+| [SetTexSpacePartID](../Functions/SetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTexSpaceStartCap](../Functions/SetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub>| [SetTextureBitmap](../Functions/SetTextureBitmap.md) |
+| [SetTextureRef](../Functions/SetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub>| [SetTextureRefN](../Functions/SetTextureRefN.md) | [SetTextureSet](../Functions/SetTextureSet.md) |
+| [SetTextureShader](../Functions/SetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTextureShininess](../Functions/SetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTextureSize](../Functions/SetTextureSize.md) |
+| [SetTextureTransp](../Functions/SetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetWallHoleTexturePart](../Functions/SetWallHoleTexturePart.md) 

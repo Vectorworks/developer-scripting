@@ -1,83 +1,33 @@
-# Objects - Walls
+[Function Reference](../README.md)
 
-- [AddCavity.md](../Functions/AddCavity.md)
-- [AddSymToWall.md](../Functions/AddSymToWall.md)
-- [AddSymToWallEdge.md](../Functions/AddSymToWallEdge.md)
-- [AddWallBottomPeak.md](../Functions/AddWallBottomPeak.md)
-- [AddWallPeak.md](../Functions/AddWallPeak.md)
-- [BreakWall.md](../Functions/BreakWall.md)
-- [ClearCavities.md](../Functions/ClearCavities.md)
-- [ClearWallPeaks.md](../Functions/ClearWallPeaks.md)
-- [ConvertToUnstyledWall.md](../Functions/ConvertToUnstyledWall.md)
-- [CreateWallFeature.md](../Functions/CreateWallFeature.md)
-- [CreateWallStyle.md](../Functions/CreateWallStyle.md)
-- [DeleteWallPeak.md](../Functions/DeleteWallPeak.md)
-- [DeleteWallSym.md](../Functions/DeleteWallSym.md)
-- [GetCurtainWallCutPl.md](../Functions/GetCurtainWallCutPl.md)
-- [GetCWFramesFromPt.md](../Functions/GetCWFramesFromPt.md)
-- [GetCWPanelFromPt.md](../Functions/GetCWPanelFromPt.md)
-- [GetLayerDeltaZOffset.md](../Functions/GetLayerDeltaZOffset.md)
-- [GetLinkHeightToLayerDeltaZ.md](../Functions/GetLinkHeightToLayerDeltaZ.md)
-- [GetNumOfWallBreaks.md](../Functions/GetNumOfWallBreaks.md)
-- [GetNumWallPeaks.md](../Functions/GetNumWallPeaks.md)
-- [GetObjectWallHeight.md](../Functions/GetObjectWallHeight.md)
-- [GetObjectWallOffset.md](../Functions/GetObjectWallOffset.md)
-- [GetObjectWallPerpOff.md](../Functions/GetObjectWallPerpOff.md)
-- [GetObjExtentsInWall.md](../Functions/GetObjExtentsInWall.md)
-- [GetObjWallBreakMode.md](../Functions/GetObjWallBreakMode.md)
-- [GetObjWallInsertMode.md](../Functions/GetObjWallInsertMode.md)
-- [GetObjWallInsLocOff.md](../Functions/GetObjWallInsLocOff.md)
-- [GetWallBelCutPlClass.md](../Functions/GetWallBelCutPlClass.md)
-- [GetWallCapAttributesType.md](../Functions/GetWallCapAttributesType.md)
-- [GetWallCaps.md](../Functions/GetWallCaps.md)
-- [GetWallCapsOffsets.md](../Functions/GetWallCapsOffsets.md)
-- [GetWallCompEndPts.md](../Functions/GetWallCompEndPts.md)
-- [GetWallCompStartPts.md](../Functions/GetWallCompStartPts.md)
-- [GetWallControlOffset.md](../Functions/GetWallControlOffset.md)
-- [GetWallCornerHeights.md](../Functions/GetWallCornerHeights.md)
-- [GetWallHalfBreakInfo.md](../Functions/GetWallHalfBreakInfo.md)
-- [GetWallOverallHeights.md](../Functions/GetWallOverallHeights.md)
-- [GetWallPathType.md](../Functions/GetWallPathType.md)
-- [GetWallPeak.md](../Functions/GetWallPeak.md)
-- [GetWallPerpOffOfData.md](../Functions/GetWallPerpOffOfData.md)
-- [GetWallStyle.md](../Functions/GetWallStyle.md)
-- [GetWallThickness.md](../Functions/GetWallThickness.md)
-- [GetWallWidth.md](../Functions/GetWallWidth.md)
-- [HWallHeight.md](../Functions/HWallHeight.md)
-- [HWallWidth.md](../Functions/HWallWidth.md)
-- [InsertSymbol.md](../Functions/InsertSymbol.md)
-- [IsCurtainWall.md](../Functions/IsCurtainWall.md)
-- [IsWallPeakTop.md](../Functions/IsWallPeakTop.md)
-- [JoinWalls.md](../Functions/JoinWalls.md)
-- [MoveWallByOffset.md](../Functions/MoveWallByOffset.md)
-- [ReverseWallSides.md](../Functions/ReverseWallSides.md)
-- [RoundWall.md](../Functions/RoundWall.md)
-- [SetCurtainWallCutPl.md](../Functions/SetCurtainWallCutPl.md)
-- [SetIsCurtainWall.md](../Functions/SetIsCurtainWall.md)
-- [SetLayerDeltaZOffset.md](../Functions/SetLayerDeltaZOffset.md)
-- [SetLinkHeightToLayerDeltaZ.md](../Functions/SetLinkHeightToLayerDeltaZ.md)
-- [SetObjectAsCornerBreak.md](../Functions/SetObjectAsCornerBreak.md)
-- [SetObjectAsSpanBreak.md](../Functions/SetObjectAsSpanBreak.md)
-- [SetObjectWallHeight.md](../Functions/SetObjectWallHeight.md)
-- [SetObjectWallOffset.md](../Functions/SetObjectWallOffset.md)
-- [SetObjWallBreakMode.md](../Functions/SetObjWallBreakMode.md)
-- [SetObjWallInsertMode.md](../Functions/SetObjWallInsertMode.md)
-- [SetObjWallInsLocOff.md](../Functions/SetObjWallInsLocOff.md)
-- [SetWallBelCutPlClass.md](../Functions/SetWallBelCutPlClass.md)
-- [SetWallCapAttributesType.md](../Functions/SetWallCapAttributesType.md)
-- [SetWallCaps.md](../Functions/SetWallCaps.md)
-- [SetWallCapsOffsets.md](../Functions/SetWallCapsOffsets.md)
-- [SetWallControlOffset.md](../Functions/SetWallControlOffset.md)
-- [SetWallCornerHeights.md](../Functions/SetWallCornerHeights.md)
-- [SetWallHeights.md](../Functions/SetWallHeights.md)
-- [SetWallOverallHeights.md](../Functions/SetWallOverallHeights.md)
-- [SetWallStyle.md](../Functions/SetWallStyle.md)
-- [SetWallThickness.md](../Functions/SetWallThickness.md)
-- [SetWallWidth.md](../Functions/SetWallWidth.md)
-- [Wall.md](../Functions/Wall.md)
-- [WallCap.md](../Functions/WallCap.md)
-- [WallFootPrint.md](../Functions/WallFootPrint.md)
-- [WallHeight.md](../Functions/WallHeight.md)
-- [WallPeak.md](../Functions/WallPeak.md)
-- [WallTo.md](../Functions/WallTo.md)
-- [WallWidth.md](../Functions/WallWidth.md)
+# Objects - Walls
+| | | |
+|---|---|---|
+| [AddCavity](../Functions/AddCavity.md) <sub>*obsolete in VectorWorks12.0*</sub>| [AddSymToWall](../Functions/AddSymToWall.md) | [AddSymToWallEdge](../Functions/AddSymToWallEdge.md) |
+| [AddWallBottomPeak](../Functions/AddWallBottomPeak.md) | [AddWallPeak](../Functions/AddWallPeak.md) | [BreakWall](../Functions/BreakWall.md) |
+| [ClearCavities](../Functions/ClearCavities.md) <sub>*obsolete in VectorWorks12.5*</sub>| [ClearWallPeaks](../Functions/ClearWallPeaks.md) | [ConvertToUnstyledWall](../Functions/ConvertToUnstyledWall.md) |
+| [CreateWallFeature](../Functions/CreateWallFeature.md) | [CreateWallStyle](../Functions/CreateWallStyle.md) | [DeleteWallPeak](../Functions/DeleteWallPeak.md) |
+| [DeleteWallSym](../Functions/DeleteWallSym.md) | [GetCurtainWallCutPl](../Functions/GetCurtainWallCutPl.md) | [GetCWFramesFromPt](../Functions/GetCWFramesFromPt.md) |
+| [GetCWPanelFromPt](../Functions/GetCWPanelFromPt.md) | [GetLayerDeltaZOffset](../Functions/GetLayerDeltaZOffset.md) <sub>*obsolete in Vectorworks 2012*</sub>| [GetLinkHeightToLayerDeltaZ](../Functions/GetLinkHeightToLayerDeltaZ.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [GetNumOfWallBreaks](../Functions/GetNumOfWallBreaks.md) | [GetNumWallPeaks](../Functions/GetNumWallPeaks.md) | [GetObjectWallHeight](../Functions/GetObjectWallHeight.md) |
+| [GetObjectWallOffset](../Functions/GetObjectWallOffset.md) | [GetObjectWallPerpOff](../Functions/GetObjectWallPerpOff.md) | [GetObjExtentsInWall](../Functions/GetObjExtentsInWall.md) |
+| [GetObjWallBreakMode](../Functions/GetObjWallBreakMode.md) | [GetObjWallInsertMode](../Functions/GetObjWallInsertMode.md) | [GetObjWallInsLocOff](../Functions/GetObjWallInsLocOff.md) |
+| [GetWallBelCutPlClass](../Functions/GetWallBelCutPlClass.md) | [GetWallCapAttributesType](../Functions/GetWallCapAttributesType.md) | [GetWallCaps](../Functions/GetWallCaps.md) |
+| [GetWallCapsOffsets](../Functions/GetWallCapsOffsets.md) | [GetWallCompEndPts](../Functions/GetWallCompEndPts.md) | [GetWallCompStartPts](../Functions/GetWallCompStartPts.md) |
+| [GetWallControlOffset](../Functions/GetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub>| [GetWallCornerHeights](../Functions/GetWallCornerHeights.md) | [GetWallHalfBreakInfo](../Functions/GetWallHalfBreakInfo.md) |
+| [GetWallOverallHeights](../Functions/GetWallOverallHeights.md) | [GetWallPathType](../Functions/GetWallPathType.md) | [GetWallPeak](../Functions/GetWallPeak.md) |
+| [GetWallPerpOffOfData](../Functions/GetWallPerpOffOfData.md) | [GetWallStyle](../Functions/GetWallStyle.md) | [GetWallThickness](../Functions/GetWallThickness.md) |
+| [GetWallWidth](../Functions/GetWallWidth.md) | [HWallHeight](../Functions/HWallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub>| [HWallWidth](../Functions/HWallWidth.md) |
+| [InsertSymbol](../Functions/InsertSymbol.md) | [IsCurtainWall](../Functions/IsCurtainWall.md) | [IsWallPeakTop](../Functions/IsWallPeakTop.md) |
+| [JoinWalls](../Functions/JoinWalls.md) | [MoveWallByOffset](../Functions/MoveWallByOffset.md) | [ReverseWallSides](../Functions/ReverseWallSides.md) |
+| [RoundWall](../Functions/RoundWall.md) | [SetCurtainWallCutPl](../Functions/SetCurtainWallCutPl.md) | [SetIsCurtainWall](../Functions/SetIsCurtainWall.md) |
+| [SetLayerDeltaZOffset](../Functions/SetLayerDeltaZOffset.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetLinkHeightToLayerDeltaZ](../Functions/SetLinkHeightToLayerDeltaZ.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetObjectAsCornerBreak](../Functions/SetObjectAsCornerBreak.md) |
+| [SetObjectAsSpanBreak](../Functions/SetObjectAsSpanBreak.md) | [SetObjectWallHeight](../Functions/SetObjectWallHeight.md) | [SetObjectWallOffset](../Functions/SetObjectWallOffset.md) |
+| [SetObjWallBreakMode](../Functions/SetObjWallBreakMode.md) | [SetObjWallInsertMode](../Functions/SetObjWallInsertMode.md) | [SetObjWallInsLocOff](../Functions/SetObjWallInsLocOff.md) |
+| [SetWallBelCutPlClass](../Functions/SetWallBelCutPlClass.md) | [SetWallCapAttributesType](../Functions/SetWallCapAttributesType.md) | [SetWallCaps](../Functions/SetWallCaps.md) |
+| [SetWallCapsOffsets](../Functions/SetWallCapsOffsets.md) | [SetWallControlOffset](../Functions/SetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub>| [SetWallCornerHeights](../Functions/SetWallCornerHeights.md) |
+| [SetWallHeights](../Functions/SetWallHeights.md) <sub>*obsolete in Vectorworks 2012*</sub>| [SetWallOverallHeights](../Functions/SetWallOverallHeights.md) | [SetWallStyle](../Functions/SetWallStyle.md) |
+| [SetWallThickness](../Functions/SetWallThickness.md) | [SetWallWidth](../Functions/SetWallWidth.md) <sub>*obsolete in VectorWorks12.0*</sub>| [Wall](../Functions/Wall.md) |
+| [WallCap](../Functions/WallCap.md) | [WallFootPrint](../Functions/WallFootPrint.md) | [WallHeight](../Functions/WallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [WallPeak](../Functions/WallPeak.md) | [WallTo](../Functions/WallTo.md) | [WallWidth](../Functions/WallWidth.md) |
+

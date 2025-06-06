@@ -1,59 +1,25 @@
-# Criteria
+[Function Reference](../README.md)
 
-- [Angle.md](../Functions/Angle.md)
-- [Area.md](../Functions/Area.md)
-- [AreaN.md](../Functions/AreaN.md)
-- [BotBound.md](../Functions/BotBound.md)
-- [BotBoundN.md](../Functions/BotBoundN.md)
-- [CheckoutObj.md](../Functions/CheckoutObj.md)
-- [ComponentArea.md](../Functions/ComponentArea.md)
-- [ComponentVolume.md](../Functions/ComponentVolume.md)
-- [Count.md](../Functions/Count.md)
-- [CriteriaArea.md](../Functions/CriteriaArea.md)
-- [CriteriaSurfaceArea.md](../Functions/CriteriaSurfaceArea.md)
-- [CriteriaVolume.md](../Functions/CriteriaVolume.md)
-- [DSelectObj.md](../Functions/DSelectObj.md)
-- [EditProperties.md](../Functions/EditProperties.md)
-- [Eval.md](../Functions/Eval.md)
-- [EvalStr.md](../Functions/EvalStr.md)
-- [ForEachObject.md](../Functions/ForEachObject.md)
-- [Height.md](../Functions/Height.md)
-- [Hide.md](../Functions/Hide.md)
-- [IsFlipped.md](../Functions/IsFlipped.md)
-- [LeftBound.md](../Functions/LeftBound.md)
-- [LeftBoundN.md](../Functions/LeftBoundN.md)
-- [Length.md](../Functions/Length.md)
-- [LengthN.md](../Functions/LengthN.md)
-- [ObjectType.md](../Functions/ObjectType.md)
-- [Perim.md](../Functions/Perim.md)
-- [PerimN.md](../Functions/PerimN.md)
-- [ReleaseObj.md](../Functions/ReleaseObj.md)
-- [RightBound.md](../Functions/RightBound.md)
-- [RightBoundN.md](../Functions/RightBoundN.md)
-- [RoofArea_Heated.md](../Functions/RoofArea_Heated.md)
-- [RoofArea_HeatedProj.md](../Functions/RoofArea_HeatedProj.md)
-- [RoofArea_Total.md](../Functions/RoofArea_Total.md)
-- [RoofArea_TotalProj.md](../Functions/RoofArea_TotalProj.md)
-- [SelectObj.md](../Functions/SelectObj.md)
-- [Show.md](../Functions/Show.md)
-- [SlabThickness.md](../Functions/SlabThickness.md)
-- [SurfaceArea.md](../Functions/SurfaceArea.md)
-- [SurfaceAreaN.md](../Functions/SurfaceAreaN.md)
-- [TopBound.md](../Functions/TopBound.md)
-- [TopBoundN.md](../Functions/TopBoundN.md)
-- [Volume.md](../Functions/Volume.md)
-- [VolumeN.md](../Functions/VolumeN.md)
-- [WallArea_Gross.md](../Functions/WallArea_Gross.md)
-- [WallArea_Net.md](../Functions/WallArea_Net.md)
-- [WallAverageHeight.md](../Functions/WallAverageHeight.md)
-- [WallThickness.md](../Functions/WallThickness.md)
-- [Width.md](../Functions/Width.md)
-- [XCenter.md](../Functions/XCenter.md)
-- [XCenterN.md](../Functions/XCenterN.md)
-- [XCoordinate.md](../Functions/XCoordinate.md)
-- [YCenter.md](../Functions/YCenter.md)
-- [YCenterN.md](../Functions/YCenterN.md)
-- [YCoordinate.md](../Functions/YCoordinate.md)
-- [ZCenter.md](../Functions/ZCenter.md)
-- [ZCenterN.md](../Functions/ZCenterN.md)
-- [ZCoordinate.md](../Functions/ZCoordinate.md)
+# Criteria
+| | | |
+|---|---|---|
+| [Angle](../Functions/Angle.md) | [Area](../Functions/Area.md) <sub>*obsolete in VectorWorks12.5*</sub>| [AreaN](../Functions/AreaN.md) |
+| [BotBound](../Functions/BotBound.md) <sub>*obsolete in Vectorworks 2012*</sub>| [BotBoundN](../Functions/BotBoundN.md) | [CheckoutObj](../Functions/CheckoutObj.md) |
+| [ComponentArea](../Functions/ComponentArea.md) | [ComponentVolume](../Functions/ComponentVolume.md) | [Count](../Functions/Count.md) |
+| [CriteriaArea](../Functions/CriteriaArea.md) <sub>*obsolete in Vectorworks 2012*</sub>| [CriteriaSurfaceArea](../Functions/CriteriaSurfaceArea.md) <sub>*obsolete in Vectorworks 2012*</sub>| [CriteriaVolume](../Functions/CriteriaVolume.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [DSelectObj](../Functions/DSelectObj.md) | [EditProperties](../Functions/EditProperties.md) | [Eval](../Functions/Eval.md) |
+| [EvalStr](../Functions/EvalStr.md) | [ForEachObject](../Functions/ForEachObject.md) | [Height](../Functions/Height.md) |
+| [Hide](../Functions/Hide.md) | [IsFlipped](../Functions/IsFlipped.md) | [LeftBound](../Functions/LeftBound.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [LeftBoundN](../Functions/LeftBoundN.md) | [Length](../Functions/Length.md) <sub>*obsolete in Vectorworks 2012*</sub>| [LengthN](../Functions/LengthN.md) |
+| [ObjectType](../Functions/ObjectType.md) | [Perim](../Functions/Perim.md) <sub>*obsolete in Vectorworks 2012*</sub>| [PerimN](../Functions/PerimN.md) |
+| [ReleaseObj](../Functions/ReleaseObj.md) | [RightBound](../Functions/RightBound.md) <sub>*obsolete in Vectorworks 2012*</sub>| [RightBoundN](../Functions/RightBoundN.md) |
+| [RoofArea_Heated](../Functions/RoofArea_Heated.md) | [RoofArea_HeatedProj](../Functions/RoofArea_HeatedProj.md) | [RoofArea_Total](../Functions/RoofArea_Total.md) |
+| [RoofArea_TotalProj](../Functions/RoofArea_TotalProj.md) | [SelectObj](../Functions/SelectObj.md) | [Show](../Functions/Show.md) |
+| [SlabThickness](../Functions/SlabThickness.md) | [SurfaceArea](../Functions/SurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub>| [SurfaceAreaN](../Functions/SurfaceAreaN.md) |
+| [TopBound](../Functions/TopBound.md) <sub>*obsolete in Vectorworks 2012*</sub>| [TopBoundN](../Functions/TopBoundN.md) | [Volume](../Functions/Volume.md) <sub>*obsolete in VectorWorks12.5*</sub>|
+| [VolumeN](../Functions/VolumeN.md) | [WallArea_Gross](../Functions/WallArea_Gross.md) | [WallArea_Net](../Functions/WallArea_Net.md) |
+| [WallAverageHeight](../Functions/WallAverageHeight.md) | [WallThickness](../Functions/WallThickness.md) | [Width](../Functions/Width.md) |
+| [XCenter](../Functions/XCenter.md) <sub>*obsolete in Vectorworks 2012*</sub>| [XCenterN](../Functions/XCenterN.md) | [XCoordinate](../Functions/XCoordinate.md) |
+| [YCenter](../Functions/YCenter.md) <sub>*obsolete in Vectorworks 2012*</sub>| [YCenterN](../Functions/YCenterN.md) | [YCoordinate](../Functions/YCoordinate.md) |
+| [ZCenter](../Functions/ZCenter.md) <sub>*obsolete in Vectorworks 2012*</sub>| [ZCenterN](../Functions/ZCenterN.md) | [ZCoordinate](../Functions/ZCoordinate.md) |
+

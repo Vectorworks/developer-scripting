@@ -1,23 +1,14 @@
-# GIS
+[Function Reference](../README.md)
 
-- [BindLayerToArcGISFS.md](../Functions/BindLayerToArcGISFS.md)
-- [BindLayerToWFSFS.md](../Functions/BindLayerToWFSFS.md)
-- [EditGeorefWithUI.md](../Functions/EditGeorefWithUI.md)
-- [GeogCoordToVW.md](../Functions/GeogCoordToVW.md)
-- [GeogCoordToVWN.md](../Functions/GeogCoordToVWN.md)
-- [GetAngleToNorth.md](../Functions/GetAngleToNorth.md)
-- [GetGISOrigin.md](../Functions/GetGISOrigin.md)
-- [GetGISOriginN.md](../Functions/GetGISOriginN.md)
-- [GetProjectionLocName.md](../Functions/GetProjectionLocName.md)
-- [GetProjectionProj4.md](../Functions/GetProjectionProj4.md)
-- [GetProjectionWKT.md](../Functions/GetProjectionWKT.md)
-- [IsGeoreferenced.md](../Functions/IsGeoreferenced.md)
-- [LegacyShapefileExp.md](../Functions/LegacyShapefileExp.md)
-- [LegacyShapefileImp.md](../Functions/LegacyShapefileImp.md)
-- [RemoveGeoref.md](../Functions/RemoveGeoref.md)
-- [SetDocGeoRefByUsrOrg.md](../Functions/SetDocGeoRefByUsrOrg.md)
-- [SetGISLayer.md](../Functions/SetGISLayer.md)
-- [UpdateFeatureLayer.md](../Functions/UpdateFeatureLayer.md)
-- [UpdateLayerFromFS.md](../Functions/UpdateLayerFromFS.md)
-- [VWCoordToGeog.md](../Functions/VWCoordToGeog.md)
-- [VWCoordToGeogN.md](../Functions/VWCoordToGeogN.md)
+# GIS
+| | | |
+|---|---|---|
+| [BindLayerToArcGISFS](../Functions/BindLayerToArcGISFS.md) | [BindLayerToWFSFS](../Functions/BindLayerToWFSFS.md) | [EditGeorefWithUI](../Functions/EditGeorefWithUI.md) |
+| [GeogCoordToVW](../Functions/GeogCoordToVW.md) | [GeogCoordToVWN](../Functions/GeogCoordToVWN.md) | [GetAngleToNorth](../Functions/GetAngleToNorth.md) |
+| [GetGISOrigin](../Functions/GetGISOrigin.md) | [GetGISOriginN](../Functions/GetGISOriginN.md) | [GetProjectElevation](../Functions/GetProjectElevation.md) |
+| [GetProjectionLocName](../Functions/GetProjectionLocName.md) | [GetProjectionProj4](../Functions/GetProjectionProj4.md) | [GetProjectionWKT](../Functions/GetProjectionWKT.md) |
+| [GISDimStringToMM](../Functions/GISDimStringToMM.md) | [IsGeoreferenced](../Functions/IsGeoreferenced.md) | [LegacyShapefileExp](../Functions/LegacyShapefileExp.md) |
+| [LegacyShapefileImp](../Functions/LegacyShapefileImp.md) | [RemoveGeoref](../Functions/RemoveGeoref.md) | [SetDocGeoRefByUsrOrg](../Functions/SetDocGeoRefByUsrOrg.md) |
+| [SetGISLayer](../Functions/SetGISLayer.md) | [SetProjectElevation](../Functions/SetProjectElevation.md) | [UpdateFeatureLayer](../Functions/UpdateFeatureLayer.md) |
+| [UpdateLayerFromFS](../Functions/UpdateLayerFromFS.md) | [VWCoordToGeog](../Functions/VWCoordToGeog.md) | [VWCoordToGeogN](../Functions/VWCoordToGeogN.md) |
+

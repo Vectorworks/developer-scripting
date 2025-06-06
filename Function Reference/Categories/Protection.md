@@ -1,10 +1,8 @@
-# Protection
+[Function Reference](../README.md)
 
-- [Prot_DisableModule.md](../Functions/Prot_DisableModule.md)
-- [Prot_GetDistribCode.md](../Functions/Prot_GetDistribCode.md)
-- [Prot_GetLicenseID.md](../Functions/Prot_GetLicenseID.md)
-- [Prot_GetLicenseType.md](../Functions/Prot_GetLicenseType.md)
-- [Prot_GetSeatsNum.md](../Functions/Prot_GetSeatsNum.md)
-- [Prot_GetUsedSeatsNum.md](../Functions/Prot_GetUsedSeatsNum.md)
-- [Prot_IsFundamentals.md](../Functions/Prot_IsFundamentals.md)
-- [Prot_IsModuleEnabled.md](../Functions/Prot_IsModuleEnabled.md)
+# Protection
+| | | |
+|---|---|---|
+| [Prot_DisableModule](../Functions/Prot_DisableModule.md) | [Prot_GetDistribCode](../Functions/Prot_GetDistribCode.md) | [Prot_GetLicenseID](../Functions/Prot_GetLicenseID.md) |
+| [Prot_GetLicenseType](../Functions/Prot_GetLicenseType.md) | [Prot_GetSeatsNum](../Functions/Prot_GetSeatsNum.md) | [Prot_GetUsedSeatsNum](../Functions/Prot_GetUsedSeatsNum.md) |
+| [Prot_IsFundamentals](../Functions/Prot_IsFundamentals.md) | [Prot_IsModuleEnabled](../Functions/Prot_IsModuleEnabled.md) 

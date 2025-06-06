@@ -1,28 +1,14 @@
-# ODBC
+[Function Reference](../README.md)
 
-- [DBDiagnose.md](../Functions/DBDiagnose.md)
-- [DBDocAddConn.md](../Functions/DBDocAddConn.md)
-- [DBDocGetColumns.md](../Functions/DBDocGetColumns.md)
-- [DBDocGetConn.md](../Functions/DBDocGetConn.md)
-- [DBDocGetDB.md](../Functions/DBDocGetDB.md)
-- [DBDocGetTables.md](../Functions/DBDocGetTables.md)
-- [DBDocHasConn.md](../Functions/DBDocHasConn.md)
-- [DBDocRemoveConn.md](../Functions/DBDocRemoveConn.md)
-- [DBDocSetColKey.md](../Functions/DBDocSetColKey.md)
-- [DBGetFormatConn.md](../Functions/DBGetFormatConn.md)
-- [DBGetFormatFieldConn.md](../Functions/DBGetFormatFieldConn.md)
-- [DBObjSQLGetRead.md](../Functions/DBObjSQLGetRead.md)
-- [DBObjSQLGetWrite.md](../Functions/DBObjSQLGetWrite.md)
-- [DBObjSQLSetRead.md](../Functions/DBObjSQLSetRead.md)
-- [DBObjSQLSetWrite.md](../Functions/DBObjSQLSetWrite.md)
-- [DBSetFormatConn.md](../Functions/DBSetFormatConn.md)
-- [DBSetFormatFieldConn.md](../Functions/DBSetFormatFieldConn.md)
-- [DBShowDBTableDlg.md](../Functions/DBShowDBTableDlg.md)
-- [DBShowManageDBsDlg.md](../Functions/DBShowManageDBsDlg.md)
-- [DBShowObjConnDlg.md](../Functions/DBShowObjConnDlg.md)
-- [DBSQLExecute.md](../Functions/DBSQLExecute.md)
-- [DBSQLExecuteDelete.md](../Functions/DBSQLExecuteDelete.md)
-- [DBSQLExecuteDSN.md](../Functions/DBSQLExecuteDSN.md)
-- [DBSQLExecuteError.md](../Functions/DBSQLExecuteError.md)
-- [DBSQLExecuteGet.md](../Functions/DBSQLExecuteGet.md)
-- [DBSQLExecuteNext.md](../Functions/DBSQLExecuteNext.md)
+# ODBC
+| | | |
+|---|---|---|
+| [DBDiagnose](../Functions/DBDiagnose.md) | [DBDocAddConn](../Functions/DBDocAddConn.md) | [DBDocGetColumns](../Functions/DBDocGetColumns.md) |
+| [DBDocGetConn](../Functions/DBDocGetConn.md) | [DBDocGetDB](../Functions/DBDocGetDB.md) | [DBDocGetTables](../Functions/DBDocGetTables.md) |
+| [DBDocHasConn](../Functions/DBDocHasConn.md) | [DBDocRemoveConn](../Functions/DBDocRemoveConn.md) | [DBDocSetColKey](../Functions/DBDocSetColKey.md) |
+| [DBGetFormatConn](../Functions/DBGetFormatConn.md) | [DBGetFormatFieldConn](../Functions/DBGetFormatFieldConn.md) | [DBObjSQLGetRead](../Functions/DBObjSQLGetRead.md) |
+| [DBObjSQLGetWrite](../Functions/DBObjSQLGetWrite.md) | [DBObjSQLSetRead](../Functions/DBObjSQLSetRead.md) | [DBObjSQLSetWrite](../Functions/DBObjSQLSetWrite.md) |
+| [DBSetFormatConn](../Functions/DBSetFormatConn.md) | [DBSetFormatFieldConn](../Functions/DBSetFormatFieldConn.md) | [DBShowDBTableDlg](../Functions/DBShowDBTableDlg.md) |
+| [DBShowManageDBsDlg](../Functions/DBShowManageDBsDlg.md) | [DBShowObjConnDlg](../Functions/DBShowObjConnDlg.md) | [DBSQLExecute](../Functions/DBSQLExecute.md) |
+| [DBSQLExecuteDelete](../Functions/DBSQLExecuteDelete.md) | [DBSQLExecuteDSN](../Functions/DBSQLExecuteDSN.md) | [DBSQLExecuteError](../Functions/DBSQLExecuteError.md) |
+| [DBSQLExecuteGet](../Functions/DBSQLExecuteGet.md) | [DBSQLExecuteNext](../Functions/DBSQLExecuteNext.md) 

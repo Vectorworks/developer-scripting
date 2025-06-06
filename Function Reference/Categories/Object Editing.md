@@ -1,30 +1,15 @@
-# Object Editing
+[Function Reference](../README.md)
 
-- [BeginMultipleDuplicate.md](../Functions/BeginMultipleDuplicate.md)
-- [CreateDuplicateObject.md](../Functions/CreateDuplicateObject.md)
-- [CreateDuplicateObjN.md](../Functions/CreateDuplicateObjN.md)
-- [DeleteObjs.md](../Functions/DeleteObjs.md)
-- [DeleteSymbolDefinition.md](../Functions/DeleteSymbolDefinition.md)
-- [DelObject.md](../Functions/DelObject.md)
-- [Duplicate.md](../Functions/Duplicate.md)
-- [EditObjectSpecial.md](../Functions/EditObjectSpecial.md)
-- [EndMultipleDuplicate.md](../Functions/EndMultipleDuplicate.md)
-- [GetAssociation.md](../Functions/GetAssociation.md)
-- [GetNumAssociations.md](../Functions/GetNumAssociations.md)
-- [HDuplicate.md](../Functions/HDuplicate.md)
-- [HMove.md](../Functions/HMove.md)
-- [HMoveBackward.md](../Functions/HMoveBackward.md)
-- [HMoveForward.md](../Functions/HMoveForward.md)
-- [HRotate.md](../Functions/HRotate.md)
-- [HScale2D.md](../Functions/HScale2D.md)
-- [HScale3D.md](../Functions/HScale3D.md)
-- [Mirror.md](../Functions/Mirror.md)
-- [MirrorN.md](../Functions/MirrorN.md)
-- [Move3D.md](../Functions/Move3D.md)
-- [Move3DObj.md](../Functions/Move3DObj.md)
-- [MoveObjs.md](../Functions/MoveObjs.md)
-- [OffsetHandle.md](../Functions/OffsetHandle.md)
-- [ResetBBox.md](../Functions/ResetBBox.md)
-- [SetBBox.md](../Functions/SetBBox.md)
-- [SetHDef.md](../Functions/SetHDef.md)
-- [SetRRDiam.md](../Functions/SetRRDiam.md)
+# Object Editing
+| | | |
+|---|---|---|
+| [BeginMultipleDuplicate](../Functions/BeginMultipleDuplicate.md) | [CreateDuplicateObject](../Functions/CreateDuplicateObject.md) | [CreateDuplicateObjN](../Functions/CreateDuplicateObjN.md) |
+| [DeleteObjs](../Functions/DeleteObjs.md) | [DeleteSymbolDefinition](../Functions/DeleteSymbolDefinition.md) | [DelObject](../Functions/DelObject.md) |
+| [Duplicate](../Functions/Duplicate.md) | [EditObjectSpecial](../Functions/EditObjectSpecial.md) | [EndMultipleDuplicate](../Functions/EndMultipleDuplicate.md) |
+| [GetAssociation](../Functions/GetAssociation.md) | [GetNumAssociations](../Functions/GetNumAssociations.md) | [HDuplicate](../Functions/HDuplicate.md) |
+| [HMove](../Functions/HMove.md) | [HMoveBackward](../Functions/HMoveBackward.md) | [HMoveForward](../Functions/HMoveForward.md) |
+| [HRotate](../Functions/HRotate.md) | [HScale2D](../Functions/HScale2D.md) | [HScale3D](../Functions/HScale3D.md) |
+| [Mirror](../Functions/Mirror.md) | [MirrorN](../Functions/MirrorN.md) | [Move3D](../Functions/Move3D.md) |
+| [Move3DObj](../Functions/Move3DObj.md) | [MoveObjs](../Functions/MoveObjs.md) | [OffsetHandle](../Functions/OffsetHandle.md) |
+| [ResetBBox](../Functions/ResetBBox.md) | [SetBBox](../Functions/SetBBox.md) | [SetHDef](../Functions/SetHDef.md) |
+| [SetRRDiam](../Functions/SetRRDiam.md) 

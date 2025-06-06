@@ -1,23 +1,13 @@
-# XML
+[Function Reference](../README.md)
 
-- [CreateNewXMLDocument.md](../Functions/CreateNewXMLDocument.md)
-- [DeleteAttribute.md](../Functions/DeleteAttribute.md)
-- [DeleteCDATA.md](../Functions/DeleteCDATA.md)
-- [DeleteElement.md](../Functions/DeleteElement.md)
-- [FindAttribute.md](../Functions/FindAttribute.md)
-- [FindElement.md](../Functions/FindElement.md)
-- [GetAttributeValue.md](../Functions/GetAttributeValue.md)
-- [GetCDATA.md](../Functions/GetCDATA.md)
-- [GetElementValue.md](../Functions/GetElementValue.md)
-- [GetFirstChild.md](../Functions/GetFirstChild.md)
-- [GetNextElement.md](../Functions/GetNextElement.md)
-- [GetPreviousElement.md](../Functions/GetPreviousElement.md)
-- [InitXML.md](../Functions/InitXML.md)
-- [ReadXMLFile.md](../Functions/ReadXMLFile.md)
-- [ReadXMLMemory.md](../Functions/ReadXMLMemory.md)
-- [ReleaseXML.md](../Functions/ReleaseXML.md)
-- [SetAttributeValue.md](../Functions/SetAttributeValue.md)
-- [SetCDATA.md](../Functions/SetCDATA.md)
-- [SetElementValue.md](../Functions/SetElementValue.md)
-- [WriteXMLFile.md](../Functions/WriteXMLFile.md)
-- [WriteXMLMemory.md](../Functions/WriteXMLMemory.md)
+# XML
+| | | |
+|---|---|---|
+| [CreateNewXMLDocument](../Functions/CreateNewXMLDocument.md) | [DeleteAttribute](../Functions/DeleteAttribute.md) | [DeleteCDATA](../Functions/DeleteCDATA.md) |
+| [DeleteElement](../Functions/DeleteElement.md) | [FindAttribute](../Functions/FindAttribute.md) | [FindElement](../Functions/FindElement.md) |
+| [GetAttributeValue](../Functions/GetAttributeValue.md) | [GetCDATA](../Functions/GetCDATA.md) | [GetElementValue](../Functions/GetElementValue.md) |
+| [GetFirstChild](../Functions/GetFirstChild.md) | [GetNextElement](../Functions/GetNextElement.md) | [GetPreviousElement](../Functions/GetPreviousElement.md) |
+| [InitXML](../Functions/InitXML.md) | [ReadXMLFile](../Functions/ReadXMLFile.md) | [ReadXMLMemory](../Functions/ReadXMLMemory.md) |
+| [ReleaseXML](../Functions/ReleaseXML.md) | [SetAttributeValue](../Functions/SetAttributeValue.md) | [SetCDATA](../Functions/SetCDATA.md) |
+| [SetElementValue](../Functions/SetElementValue.md) | [WriteXMLFile](../Functions/WriteXMLFile.md) | [WriteXMLMemory](../Functions/WriteXMLMemory.md) |
+

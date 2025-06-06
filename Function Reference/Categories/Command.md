@@ -1,21 +1,12 @@
-# Command
+[Function Reference](../README.md)
 
-- [Absolute.md](../Functions/Absolute.md)
-- [AcquireExportPDFSettingsAndLocation.md](../Functions/AcquireExportPDFSettingsAndLocation.md)
-- [AngleVar.md](../Functions/AngleVar.md)
-- [ClosePDFDocument.md](../Functions/ClosePDFDocument.md)
-- [DoMenuText.md](../Functions/DoMenuText.md)
-- [DoMenuTextByName.md](../Functions/DoMenuTextByName.md)
-- [ExportPDFPages.md](../Functions/ExportPDFPages.md)
-- [Move.md](../Functions/Move.md)
-- [MoveTo.md](../Functions/MoveTo.md)
-- [NoAngleVar.md](../Functions/NoAngleVar.md)
-- [OpenPDFDocument.md](../Functions/OpenPDFDocument.md)
-- [PenLoc.md](../Functions/PenLoc.md)
-- [PopAttrs.md](../Functions/PopAttrs.md)
-- [PrintUsingPrintDialog.md](../Functions/PrintUsingPrintDialog.md)
-- [PrintWithoutUsingPrintDialog.md](../Functions/PrintWithoutUsingPrintDialog.md)
-- [PushAttrs.md](../Functions/PushAttrs.md)
-- [Relative.md](../Functions/Relative.md)
-- [Run.md](../Functions/Run.md)
-- [SetTool.md](../Functions/SetTool.md)
+# Command
+| | | |
+|---|---|---|
+| [Absolute](../Functions/Absolute.md) | [AcquireExportPDFSettingsAndLocation](../Functions/AcquireExportPDFSettingsAndLocation.md) | [AngleVar](../Functions/AngleVar.md) |
+| [ClosePDFDocument](../Functions/ClosePDFDocument.md) | [DoMenuText](../Functions/DoMenuText.md) <sub>*obsolete in VectorWorks8.0*</sub>| [DoMenuTextByName](../Functions/DoMenuTextByName.md) |
+| [ExportPDFPages](../Functions/ExportPDFPages.md) | [Move](../Functions/Move.md) | [MoveTo](../Functions/MoveTo.md) |
+| [NoAngleVar](../Functions/NoAngleVar.md) | [OpenPDFDocument](../Functions/OpenPDFDocument.md) | [PenLoc](../Functions/PenLoc.md) |
+| [PopAttrs](../Functions/PopAttrs.md) | [PrintUsingPrintDialog](../Functions/PrintUsingPrintDialog.md) | [PrintWithoutUsingPrintDialog](../Functions/PrintWithoutUsingPrintDialog.md) |
+| [PushAttrs](../Functions/PushAttrs.md) | [Relative](../Functions/Relative.md) | [Run](../Functions/Run.md) |
+| [SetTool](../Functions/SetTool.md) 

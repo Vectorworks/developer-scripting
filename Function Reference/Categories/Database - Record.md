@@ -1,21 +1,12 @@
-# Database @ Record
+[Function Reference](../README.md)
 
-- [DelRecord.md](../Functions/DelRecord.md)
-- [Field.md](../Functions/Field.md)
-- [GetFldFlag.md](../Functions/GetFldFlag.md)
-- [GetFldName.md](../Functions/GetFldName.md)
-- [GetFldType.md](../Functions/GetFldType.md)
-- [GetParametricRecord.md](../Functions/GetParametricRecord.md)
-- [GetRecord.md](../Functions/GetRecord.md)
-- [GetRField.md](../Functions/GetRField.md)
-- [GetRFieldOpt.md](../Functions/GetRFieldOpt.md)
-- [LinkText.md](../Functions/LinkText.md)
-- [NewField.md](../Functions/NewField.md)
-- [NumFields.md](../Functions/NumFields.md)
-- [NumRecords.md](../Functions/NumRecords.md)
-- [PopupGetChoices.md](../Functions/PopupGetChoices.md)
-- [PopupSetChoices.md](../Functions/PopupSetChoices.md)
-- [Record.md](../Functions/Record.md)
-- [SetRecord.md](../Functions/SetRecord.md)
-- [SetRField.md](../Functions/SetRField.md)
-- [SetRFieldOpt.md](../Functions/SetRFieldOpt.md)
+# Database - Record
+| | | |
+|---|---|---|
+| [DelRecord](../Functions/DelRecord.md) | [Field](../Functions/Field.md) | [GetFldFlag](../Functions/GetFldFlag.md) |
+| [GetFldName](../Functions/GetFldName.md) | [GetFldType](../Functions/GetFldType.md) | [GetParametricRecord](../Functions/GetParametricRecord.md) |
+| [GetRecord](../Functions/GetRecord.md) | [GetRField](../Functions/GetRField.md) | [GetRFieldOpt](../Functions/GetRFieldOpt.md) |
+| [LinkText](../Functions/LinkText.md) | [NewField](../Functions/NewField.md) | [NumFields](../Functions/NumFields.md) |
+| [NumRecords](../Functions/NumRecords.md) | [PopupGetChoices](../Functions/PopupGetChoices.md) | [PopupSetChoices](../Functions/PopupSetChoices.md) |
+| [Record](../Functions/Record.md) | [SetRecord](../Functions/SetRecord.md) | [SetRField](../Functions/SetRField.md) |
+| [SetRFieldOpt](../Functions/SetRFieldOpt.md) 

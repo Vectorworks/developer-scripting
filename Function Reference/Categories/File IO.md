@@ -1,45 +1,20 @@
-# File IO
+[Function Reference](../README.md)
 
-- [Append.md](../Functions/Append.md)
-- [Close.md](../Functions/Close.md)
-- [ConvertHSF2PosixPath.md](../Functions/ConvertHSF2PosixPath.md)
-- [ConvertPosix2HSFPath.md](../Functions/ConvertPosix2HSFPath.md)
-- [CreateFolder.md](../Functions/CreateFolder.md)
-- [EOF.md](../Functions/EOF.md)
-- [EOLN.md](../Functions/EOLN.md)
-- [ExportIGES.md](../Functions/ExportIGES.md)
-- [ExportSAT.md](../Functions/ExportSAT.md)
-- [ExportSTEP.md](../Functions/ExportSTEP.md)
-- [ExportSTL.md](../Functions/ExportSTL.md)
-- [FindFile.md](../Functions/FindFile.md)
-- [FindFileInPluginFolder.md](../Functions/FindFileInPluginFolder.md)
-- [GetFile.md](../Functions/GetFile.md)
-- [GetFileInfo.md](../Functions/GetFileInfo.md)
-- [GetFileN.md](../Functions/GetFileN.md)
-- [GetFilesInFolder.md](../Functions/GetFilesInFolder.md)
-- [GetFileSize.md](../Functions/GetFileSize.md)
-- [GetFolder.md](../Functions/GetFolder.md)
-- [GetFolderPath.md](../Functions/GetFolderPath.md)
-- [GetFPathName.md](../Functions/GetFPathName.md)
-- [GetLastFileErr.md](../Functions/GetLastFileErr.md)
-- [ImportIGES.md](../Functions/ImportIGES.md)
-- [ImportParasolidXT.md](../Functions/ImportParasolidXT.md)
-- [ImportSAT.md](../Functions/ImportSAT.md)
-- [ImportSketchup1.md](../Functions/ImportSketchup1.md)
-- [Open.md](../Functions/Open.md)
-- [PutFile.md](../Functions/PutFile.md)
-- [Read.md](../Functions/Read.md)
-- [ReadBin.md](../Functions/ReadBin.md)
-- [ReadLn.md](../Functions/ReadLn.md)
-- [Rewrite.md](../Functions/Rewrite.md)
-- [SaveActiveDocument.md](../Functions/SaveActiveDocument.md)
-- [Space.md](../Functions/Space.md)
-- [StdRead.md](../Functions/StdRead.md)
-- [StdReadLn.md](../Functions/StdReadLn.md)
-- [Tab.md](../Functions/Tab.md)
-- [UseDefaultFileErrorHandling.md](../Functions/UseDefaultFileErrorHandling.md)
-- [Write.md](../Functions/Write.md)
-- [WriteBin.md](../Functions/WriteBin.md)
-- [WriteLn.md](../Functions/WriteLn.md)
-- [WriteLnMac.md](../Functions/WriteLnMac.md)
-- [WriteMac.md](../Functions/WriteMac.md)
+# File IO
+| | | |
+|---|---|---|
+| [Append](../Functions/Append.md) | [Close](../Functions/Close.md) | [ConvertHSF2PosixPath](../Functions/ConvertHSF2PosixPath.md) |
+| [ConvertPosix2HSFPath](../Functions/ConvertPosix2HSFPath.md) | [CreateFolder](../Functions/CreateFolder.md) | [EOF](../Functions/EOF.md) |
+| [EOLN](../Functions/EOLN.md) | [ExportIGES](../Functions/ExportIGES.md) | [ExportSAT](../Functions/ExportSAT.md) |
+| [ExportSTEP](../Functions/ExportSTEP.md) | [ExportSTL](../Functions/ExportSTL.md) | [FindFile](../Functions/FindFile.md) |
+| [FindFileInPluginFolder](../Functions/FindFileInPluginFolder.md) | [GetFile](../Functions/GetFile.md) | [GetFileInfo](../Functions/GetFileInfo.md) |
+| [GetFileN](../Functions/GetFileN.md) | [GetFilesInFolder](../Functions/GetFilesInFolder.md) | [GetFileSize](../Functions/GetFileSize.md) |
+| [GetFolder](../Functions/GetFolder.md) | [GetFolderPath](../Functions/GetFolderPath.md) | [GetFPathName](../Functions/GetFPathName.md) |
+| [GetLastFileErr](../Functions/GetLastFileErr.md) | [ImportIGES](../Functions/ImportIGES.md) | [ImportParasolidXT](../Functions/ImportParasolidXT.md) |
+| [ImportSAT](../Functions/ImportSAT.md) | [ImportSketchup1](../Functions/ImportSketchup1.md) | [Open](../Functions/Open.md) |
+| [PutFile](../Functions/PutFile.md) | [Read](../Functions/Read.md) | [ReadBin](../Functions/ReadBin.md) |
+| [ReadLn](../Functions/ReadLn.md) | [Rewrite](../Functions/Rewrite.md) | [SaveActiveDocument](../Functions/SaveActiveDocument.md) |
+| [Space](../Functions/Space.md) | [StdRead](../Functions/StdRead.md) | [StdReadLn](../Functions/StdReadLn.md) |
+| [Tab](../Functions/Tab.md) | [UseDefaultFileErrorHandling](../Functions/UseDefaultFileErrorHandling.md) | [Write](../Functions/Write.md) |
+| [WriteBin](../Functions/WriteBin.md) | [WriteLn](../Functions/WriteLn.md) | [WriteLnMac](../Functions/WriteLnMac.md) |
+| [WriteMac](../Functions/WriteMac.md) 

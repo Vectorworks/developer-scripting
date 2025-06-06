@@ -1,142 +1,52 @@
-# Objects - Architectural
+[Function Reference](../README.md)
 
-- [BeginColumn.md](../Functions/BeginColumn.md)
-- [BeginFloor.md](../Functions/BeginFloor.md)
-- [ConvertToUnstyledSlab.md](../Functions/ConvertToUnstyledSlab.md)
-- [CreateRoofStyle.md](../Functions/CreateRoofStyle.md)
-- [CreateSlab.md](../Functions/CreateSlab.md)
-- [CreateSlabStyle.md](../Functions/CreateSlabStyle.md)
-- [DeleteAllComponents.md](../Functions/DeleteAllComponents.md)
-- [DeleteComponent.md](../Functions/DeleteComponent.md)
-- [DelObjStoryBound.md](../Functions/DelObjStoryBound.md)
-- [DelObjStoryBounds.md](../Functions/DelObjStoryBounds.md)
-- [GetCompABoundEOffOff.md](../Functions/GetCompABoundEOffOff.md)
-- [GetCompAltSecFill.md](../Functions/GetCompAltSecFill.md)
-- [GetCompAltSecFillCl.md](../Functions/GetCompAltSecFillCl.md)
-- [GetCompAutoJoinCap.md](../Functions/GetCompAutoJoinCap.md)
-- [GetCompBotIsRelStory.md](../Functions/GetCompBotIsRelStory.md)
-- [GetCompBoundOffset.md](../Functions/GetCompBoundOffset.md)
-- [GetCompDatTopOfComp.md](../Functions/GetCompDatTopOfComp.md)
-- [GetCompInsertLoc.md](../Functions/GetCompInsertLoc.md)
-- [GetCompInsertLocOff.md](../Functions/GetCompInsertLocOff.md)
-- [GetCompManualBound.md](../Functions/GetCompManualBound.md)
-- [GetCompMasterSnaps.md](../Functions/GetCompMasterSnaps.md)
-- [GetComponentAutoBoundEdgeOffset.md](../Functions/GetComponentAutoBoundEdgeOffset.md)
-- [GetComponentClass.md](../Functions/GetComponentClass.md)
-- [GetComponentFill.md](../Functions/GetComponentFill.md)
-- [GetComponentFillColors.md](../Functions/GetComponentFillColors.md)
-- [GetComponentFollowBottomWallPeaks.md](../Functions/GetComponentFollowBottomWallPeaks.md)
-- [GetComponentFollowTopWallPeaks.md](../Functions/GetComponentFollowTopWallPeaks.md)
-- [GetComponentFunction.md](../Functions/GetComponentFunction.md)
-- [GetComponentManualEdgeOffset.md](../Functions/GetComponentManualEdgeOffset.md)
-- [GetComponentMaterial.md](../Functions/GetComponentMaterial.md)
-- [GetComponentName.md](../Functions/GetComponentName.md)
-- [GetComponentNetArea.md](../Functions/GetComponentNetArea.md)
-- [GetComponentNetVolume.md](../Functions/GetComponentNetVolume.md)
-- [GetComponentPenColors.md](../Functions/GetComponentPenColors.md)
-- [GetComponentPenStyles.md](../Functions/GetComponentPenStyles.md)
-- [GetComponentPenWeights.md](../Functions/GetComponentPenWeights.md)
-- [GetComponents.md](../Functions/GetComponents.md)
-- [GetComponentTexture.md](../Functions/GetComponentTexture.md)
-- [GetComponentUseFillClassAttr.md](../Functions/GetComponentUseFillClassAttr.md)
-- [GetComponentUsePenClassAttr.md](../Functions/GetComponentUsePenClassAttr.md)
-- [GetComponentWallBottomOffset.md](../Functions/GetComponentWallBottomOffset.md)
-- [GetComponentWallTopOffset.md](../Functions/GetComponentWallTopOffset.md)
-- [GetComponentWidth.md](../Functions/GetComponentWidth.md)
-- [GetCompPenStylesN.md](../Functions/GetCompPenStylesN.md)
-- [GetCompSecFillChgPt.md](../Functions/GetCompSecFillChgPt.md)
-- [GetCompTopIsRelStory.md](../Functions/GetCompTopIsRelStory.md)
-- [GetCompUseClassASF.md](../Functions/GetCompUseClassASF.md)
-- [GetCompUseClassASFCl.md](../Functions/GetCompUseClassASFCl.md)
-- [GetCompUseClassFCl.md](../Functions/GetCompUseClassFCl.md)
-- [GetCompUseClassFill.md](../Functions/GetCompUseClassFill.md)
-- [GetCompUseClassLPCl.md](../Functions/GetCompUseClassLPCl.md)
-- [GetCompUseClassLPS.md](../Functions/GetCompUseClassLPS.md)
-- [GetCompUseClassLPW.md](../Functions/GetCompUseClassLPW.md)
-- [GetCompUseClassRPCl.md](../Functions/GetCompUseClassRPCl.md)
-- [GetCompUseClassRPS.md](../Functions/GetCompUseClassRPS.md)
-- [GetCompUseClassRPW.md](../Functions/GetCompUseClassRPW.md)
-- [GetCompWallAssBound.md](../Functions/GetCompWallAssBound.md)
-- [GetCompWallAssMod.md](../Functions/GetCompWallAssMod.md)
-- [GetCoreWallComponent.md](../Functions/GetCoreWallComponent.md)
-- [GetDatumRoofComp.md](../Functions/GetDatumRoofComp.md)
-- [GetDatumSlabComponent.md](../Functions/GetDatumSlabComponent.md)
-- [GetDefGenStoryBound.md](../Functions/GetDefGenStoryBound.md)
-- [GetInsertLocComp.md](../Functions/GetInsertLocComp.md)
-- [GetNumberOfComponents.md](../Functions/GetNumberOfComponents.md)
-- [GetObjBoundElevation.md](../Functions/GetObjBoundElevation.md)
-- [GetObjStoryBound.md](../Functions/GetObjStoryBound.md)
-- [GetObjStoryBoundsAt.md](../Functions/GetObjStoryBoundsAt.md)
-- [GetObjStoryBoundsCnt.md](../Functions/GetObjStoryBoundsCnt.md)
-- [GetRoofPreferences.md](../Functions/GetRoofPreferences.md)
-- [GetRoofPrefStyle.md](../Functions/GetRoofPrefStyle.md)
-- [GetSlabHeight.md](../Functions/GetSlabHeight.md)
-- [GetSlabPreferences.md](../Functions/GetSlabPreferences.md)
-- [GetSlabPreferencesStyle.md](../Functions/GetSlabPreferencesStyle.md)
-- [GetSlabStyle.md](../Functions/GetSlabStyle.md)
-- [GetStoryLayerInfo.md](../Functions/GetStoryLayerInfo.md)
-- [GetTaperedComponent.md](../Functions/GetTaperedComponent.md)
-- [GetWallPreferences.md](../Functions/GetWallPreferences.md)
-- [HasObjStoryBound.md](../Functions/HasObjStoryBound.md)
-- [HasObjStoryBounds.md](../Functions/HasObjStoryBounds.md)
-- [InsertNewComponent.md](../Functions/InsertNewComponent.md)
-- [InsertNewComponentN.md](../Functions/InsertNewComponentN.md)
-- [ModifySlab.md](../Functions/ModifySlab.md)
-- [SetCompABoundEOffOff.md](../Functions/SetCompABoundEOffOff.md)
-- [SetCompAltSecFill.md](../Functions/SetCompAltSecFill.md)
-- [SetCompAltSecFillCl.md](../Functions/SetCompAltSecFillCl.md)
-- [SetCompAutoJoinCap.md](../Functions/SetCompAutoJoinCap.md)
-- [SetCompBotIsRelStory.md](../Functions/SetCompBotIsRelStory.md)
-- [SetCompBoundOffset.md](../Functions/SetCompBoundOffset.md)
-- [SetCompDatTopOfComp.md](../Functions/SetCompDatTopOfComp.md)
-- [SetCompInsertLoc.md](../Functions/SetCompInsertLoc.md)
-- [SetCompInsertLocOff.md](../Functions/SetCompInsertLocOff.md)
-- [SetCompManualBound.md](../Functions/SetCompManualBound.md)
-- [SetCompMasterSnaps.md](../Functions/SetCompMasterSnaps.md)
-- [SetComponentAutoBoundEdgeOffset.md](../Functions/SetComponentAutoBoundEdgeOffset.md)
-- [SetComponentClass.md](../Functions/SetComponentClass.md)
-- [SetComponentFill.md](../Functions/SetComponentFill.md)
-- [SetComponentFillColors.md](../Functions/SetComponentFillColors.md)
-- [SetComponentFollowBottomWallPeaks.md](../Functions/SetComponentFollowBottomWallPeaks.md)
-- [SetComponentFollowTopWallPeaks.md](../Functions/SetComponentFollowTopWallPeaks.md)
-- [SetComponentFunction.md](../Functions/SetComponentFunction.md)
-- [SetComponentManualEdgeOffset.md](../Functions/SetComponentManualEdgeOffset.md)
-- [SetComponentMaterial.md](../Functions/SetComponentMaterial.md)
-- [SetComponentName.md](../Functions/SetComponentName.md)
-- [SetComponentPenColors.md](../Functions/SetComponentPenColors.md)
-- [SetComponentPenStyles.md](../Functions/SetComponentPenStyles.md)
-- [SetComponentPenWeights.md](../Functions/SetComponentPenWeights.md)
-- [SetComponentTexture.md](../Functions/SetComponentTexture.md)
-- [SetComponentUseFillClassAttr.md](../Functions/SetComponentUseFillClassAttr.md)
-- [SetComponentUsePenClassAttr.md](../Functions/SetComponentUsePenClassAttr.md)
-- [SetComponentWallBottomOffset.md](../Functions/SetComponentWallBottomOffset.md)
-- [SetComponentWallTopOffset.md](../Functions/SetComponentWallTopOffset.md)
-- [SetComponentWidth.md](../Functions/SetComponentWidth.md)
-- [SetCompPenStylesN.md](../Functions/SetCompPenStylesN.md)
-- [SetCompSecFillChgPt.md](../Functions/SetCompSecFillChgPt.md)
-- [SetCompTopIsRelStory.md](../Functions/SetCompTopIsRelStory.md)
-- [SetCompUseClassASF.md](../Functions/SetCompUseClassASF.md)
-- [SetCompUseClassASFCl.md](../Functions/SetCompUseClassASFCl.md)
-- [SetCompUseClassFCl.md](../Functions/SetCompUseClassFCl.md)
-- [SetCompUseClassFill.md](../Functions/SetCompUseClassFill.md)
-- [SetCompUseClassLPCl.md](../Functions/SetCompUseClassLPCl.md)
-- [SetCompUseClassLPS.md](../Functions/SetCompUseClassLPS.md)
-- [SetCompUseClassLPW.md](../Functions/SetCompUseClassLPW.md)
-- [SetCompUseClassRPCl.md](../Functions/SetCompUseClassRPCl.md)
-- [SetCompUseClassRPS.md](../Functions/SetCompUseClassRPS.md)
-- [SetCompUseClassRPW.md](../Functions/SetCompUseClassRPW.md)
-- [SetCompWallAssBound.md](../Functions/SetCompWallAssBound.md)
-- [SetCompWallAssMod.md](../Functions/SetCompWallAssMod.md)
-- [SetCoreWallComponent.md](../Functions/SetCoreWallComponent.md)
-- [SetDatumRoofComp.md](../Functions/SetDatumRoofComp.md)
-- [SetDatumSlabComponent.md](../Functions/SetDatumSlabComponent.md)
-- [SetDefGenStoryBound.md](../Functions/SetDefGenStoryBound.md)
-- [SetInsertLocComp.md](../Functions/SetInsertLocComp.md)
-- [SetObjectStoryBound.md](../Functions/SetObjectStoryBound.md)
-- [SetRoofPrefStyle.md](../Functions/SetRoofPrefStyle.md)
-- [SetSlabHeight.md](../Functions/SetSlabHeight.md)
-- [SetSlabPreferencesStyle.md](../Functions/SetSlabPreferencesStyle.md)
-- [SetSlabStyle.md](../Functions/SetSlabStyle.md)
-- [SetTaperedComponent.md](../Functions/SetTaperedComponent.md)
-- [SlabFromPoly.md](../Functions/SlabFromPoly.md)
-- [SyncMatrixToBound.md](../Functions/SyncMatrixToBound.md)
+# Objects - Architectural
+| | | |
+|---|---|---|
+| [BeginColumn](../Functions/BeginColumn.md) | [BeginFloor](../Functions/BeginFloor.md) | [ConvertToUnstyledSlab](../Functions/ConvertToUnstyledSlab.md) |
+| [CreateRoofStyle](../Functions/CreateRoofStyle.md) | [CreateSlab](../Functions/CreateSlab.md) | [CreateSlabStyle](../Functions/CreateSlabStyle.md) |
+| [DeleteAllComponents](../Functions/DeleteAllComponents.md) | [DeleteComponent](../Functions/DeleteComponent.md) | [DelObjStoryBound](../Functions/DelObjStoryBound.md) |
+| [DelObjStoryBounds](../Functions/DelObjStoryBounds.md) | [GetCompABoundEOffOff](../Functions/GetCompABoundEOffOff.md) | [GetCompAltSecFill](../Functions/GetCompAltSecFill.md) |
+| [GetCompAltSecFillCl](../Functions/GetCompAltSecFillCl.md) | [GetCompAutoJoinCap](../Functions/GetCompAutoJoinCap.md) | [GetCompBotIsRelStory](../Functions/GetCompBotIsRelStory.md) |
+| [GetCompBoundOffset](../Functions/GetCompBoundOffset.md) | [GetCompDatTopOfComp](../Functions/GetCompDatTopOfComp.md) | [GetCompInsertLoc](../Functions/GetCompInsertLoc.md) |
+| [GetCompInsertLocOff](../Functions/GetCompInsertLocOff.md) | [GetCompManualBound](../Functions/GetCompManualBound.md) | [GetCompMasterSnaps](../Functions/GetCompMasterSnaps.md) |
+| [GetComponentAutoBoundEdgeOffset](../Functions/GetComponentAutoBoundEdgeOffset.md) | [GetComponentClass](../Functions/GetComponentClass.md) | [GetComponentFill](../Functions/GetComponentFill.md) |
+| [GetComponentFillColors](../Functions/GetComponentFillColors.md) | [GetComponentFollowBottomWallPeaks](../Functions/GetComponentFollowBottomWallPeaks.md) | [GetComponentFollowTopWallPeaks](../Functions/GetComponentFollowTopWallPeaks.md) |
+| [GetComponentFunction](../Functions/GetComponentFunction.md) | [GetComponentManualEdgeOffset](../Functions/GetComponentManualEdgeOffset.md) | [GetComponentMaterial](../Functions/GetComponentMaterial.md) |
+| [GetComponentName](../Functions/GetComponentName.md) | [GetComponentNetArea](../Functions/GetComponentNetArea.md) | [GetComponentNetVolume](../Functions/GetComponentNetVolume.md) |
+| [GetComponentPenColors](../Functions/GetComponentPenColors.md) | [GetComponentPenStyles](../Functions/GetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetComponentPenWeights](../Functions/GetComponentPenWeights.md) |
+| [GetComponents](../Functions/GetComponents.md) | [GetComponentTexture](../Functions/GetComponentTexture.md) | [GetComponentUseFillClassAttr](../Functions/GetComponentUseFillClassAttr.md) |
+| [GetComponentUsePenClassAttr](../Functions/GetComponentUsePenClassAttr.md) | [GetComponentWallBottomOffset](../Functions/GetComponentWallBottomOffset.md) | [GetComponentWallTopOffset](../Functions/GetComponentWallTopOffset.md) |
+| [GetComponentWidth](../Functions/GetComponentWidth.md) | [GetCompPenStylesN](../Functions/GetCompPenStylesN.md) | [GetCompSecFillChgPt](../Functions/GetCompSecFillChgPt.md) |
+| [GetCompTopIsRelStory](../Functions/GetCompTopIsRelStory.md) | [GetCompUseClassASF](../Functions/GetCompUseClassASF.md) | [GetCompUseClassASFCl](../Functions/GetCompUseClassASFCl.md) |
+| [GetCompUseClassFCl](../Functions/GetCompUseClassFCl.md) | [GetCompUseClassFill](../Functions/GetCompUseClassFill.md) | [GetCompUseClassLPCl](../Functions/GetCompUseClassLPCl.md) |
+| [GetCompUseClassLPS](../Functions/GetCompUseClassLPS.md) | [GetCompUseClassLPW](../Functions/GetCompUseClassLPW.md) | [GetCompUseClassRPCl](../Functions/GetCompUseClassRPCl.md) |
+| [GetCompUseClassRPS](../Functions/GetCompUseClassRPS.md) | [GetCompUseClassRPW](../Functions/GetCompUseClassRPW.md) | [GetCompWallAssBound](../Functions/GetCompWallAssBound.md) |
+| [GetCompWallAssMod](../Functions/GetCompWallAssMod.md) | [GetCoreWallComponent](../Functions/GetCoreWallComponent.md) | [GetDatumRoofComp](../Functions/GetDatumRoofComp.md) |
+| [GetDatumSlabComponent](../Functions/GetDatumSlabComponent.md) | [GetDefGenStoryBound](../Functions/GetDefGenStoryBound.md) | [GetInsertLocComp](../Functions/GetInsertLocComp.md) |
+| [GetNumberOfComponents](../Functions/GetNumberOfComponents.md) | [GetObjBoundElevation](../Functions/GetObjBoundElevation.md) | [GetObjStoryBound](../Functions/GetObjStoryBound.md) |
+| [GetObjStoryBoundsAt](../Functions/GetObjStoryBoundsAt.md) | [GetObjStoryBoundsCnt](../Functions/GetObjStoryBoundsCnt.md) | [GetRoofPreferences](../Functions/GetRoofPreferences.md) |
+| [GetRoofPrefStyle](../Functions/GetRoofPrefStyle.md) | [GetSlabHeight](../Functions/GetSlabHeight.md) | [GetSlabPreferences](../Functions/GetSlabPreferences.md) |
+| [GetSlabPreferencesStyle](../Functions/GetSlabPreferencesStyle.md) | [GetSlabStyle](../Functions/GetSlabStyle.md) | [GetStoryLayerInfo](../Functions/GetStoryLayerInfo.md) |
+| [GetTaperedComponent](../Functions/GetTaperedComponent.md) | [GetWallPreferences](../Functions/GetWallPreferences.md) | [HasObjStoryBound](../Functions/HasObjStoryBound.md) |
+| [HasObjStoryBounds](../Functions/HasObjStoryBounds.md) | [InsertNewComponent](../Functions/InsertNewComponent.md) <sub>*obsolete in Vectorworks 2014*</sub>| [InsertNewComponentN](../Functions/InsertNewComponentN.md) |
+| [ModifySlab](../Functions/ModifySlab.md) | [SetCompABoundEOffOff](../Functions/SetCompABoundEOffOff.md) | [SetCompAltSecFill](../Functions/SetCompAltSecFill.md) |
+| [SetCompAltSecFillCl](../Functions/SetCompAltSecFillCl.md) | [SetCompAutoJoinCap](../Functions/SetCompAutoJoinCap.md) | [SetCompBotIsRelStory](../Functions/SetCompBotIsRelStory.md) |
+| [SetCompBoundOffset](../Functions/SetCompBoundOffset.md) | [SetCompDatTopOfComp](../Functions/SetCompDatTopOfComp.md) | [SetCompInsertLoc](../Functions/SetCompInsertLoc.md) |
+| [SetCompInsertLocOff](../Functions/SetCompInsertLocOff.md) | [SetCompManualBound](../Functions/SetCompManualBound.md) | [SetCompMasterSnaps](../Functions/SetCompMasterSnaps.md) |
+| [SetComponentAutoBoundEdgeOffset](../Functions/SetComponentAutoBoundEdgeOffset.md) | [SetComponentClass](../Functions/SetComponentClass.md) | [SetComponentFill](../Functions/SetComponentFill.md) |
+| [SetComponentFillColors](../Functions/SetComponentFillColors.md) | [SetComponentFollowBottomWallPeaks](../Functions/SetComponentFollowBottomWallPeaks.md) | [SetComponentFollowTopWallPeaks](../Functions/SetComponentFollowTopWallPeaks.md) |
+| [SetComponentFunction](../Functions/SetComponentFunction.md) | [SetComponentManualEdgeOffset](../Functions/SetComponentManualEdgeOffset.md) | [SetComponentMaterial](../Functions/SetComponentMaterial.md) |
+| [SetComponentName](../Functions/SetComponentName.md) | [SetComponentPenColors](../Functions/SetComponentPenColors.md) | [SetComponentPenStyles](../Functions/SetComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [SetComponentPenWeights](../Functions/SetComponentPenWeights.md) | [SetComponentTexture](../Functions/SetComponentTexture.md) | [SetComponentUseFillClassAttr](../Functions/SetComponentUseFillClassAttr.md) |
+| [SetComponentUsePenClassAttr](../Functions/SetComponentUsePenClassAttr.md) | [SetComponentWallBottomOffset](../Functions/SetComponentWallBottomOffset.md) | [SetComponentWallTopOffset](../Functions/SetComponentWallTopOffset.md) |
+| [SetComponentWidth](../Functions/SetComponentWidth.md) | [SetCompPenStylesN](../Functions/SetCompPenStylesN.md) | [SetCompSecFillChgPt](../Functions/SetCompSecFillChgPt.md) |
+| [SetCompTopIsRelStory](../Functions/SetCompTopIsRelStory.md) | [SetCompUseClassASF](../Functions/SetCompUseClassASF.md) | [SetCompUseClassASFCl](../Functions/SetCompUseClassASFCl.md) |
+| [SetCompUseClassFCl](../Functions/SetCompUseClassFCl.md) | [SetCompUseClassFill](../Functions/SetCompUseClassFill.md) | [SetCompUseClassLPCl](../Functions/SetCompUseClassLPCl.md) |
+| [SetCompUseClassLPS](../Functions/SetCompUseClassLPS.md) | [SetCompUseClassLPW](../Functions/SetCompUseClassLPW.md) | [SetCompUseClassRPCl](../Functions/SetCompUseClassRPCl.md) |
+| [SetCompUseClassRPS](../Functions/SetCompUseClassRPS.md) | [SetCompUseClassRPW](../Functions/SetCompUseClassRPW.md) | [SetCompWallAssBound](../Functions/SetCompWallAssBound.md) |
+| [SetCompWallAssMod](../Functions/SetCompWallAssMod.md) | [SetCoreWallComponent](../Functions/SetCoreWallComponent.md) | [SetDatumRoofComp](../Functions/SetDatumRoofComp.md) |
+| [SetDatumSlabComponent](../Functions/SetDatumSlabComponent.md) | [SetDefGenStoryBound](../Functions/SetDefGenStoryBound.md) | [SetInsertLocComp](../Functions/SetInsertLocComp.md) |
+| [SetObjectStoryBound](../Functions/SetObjectStoryBound.md) | [SetRoofPrefStyle](../Functions/SetRoofPrefStyle.md) | [SetSlabHeight](../Functions/SetSlabHeight.md) |
+| [SetSlabPreferencesStyle](../Functions/SetSlabPreferencesStyle.md) | [SetSlabStyle](../Functions/SetSlabStyle.md) | [SetTaperedComponent](../Functions/SetTaperedComponent.md) |
+| [SlabFromPoly](../Functions/SlabFromPoly.md) | [SyncMatrixToBound](../Functions/SyncMatrixToBound.md) 

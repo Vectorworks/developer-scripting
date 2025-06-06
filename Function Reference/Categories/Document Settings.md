@@ -1,68 +1,28 @@
-# Document Settings
+[Function Reference](../README.md)
 
-- [DeleteAllDLComponents.md](../Functions/DeleteAllDLComponents.md)
-- [DeleteDLComponent.md](../Functions/DeleteDLComponent.md)
-- [DoubLines.md](../Functions/DoubLines.md)
-- [DrwSize.md](../Functions/DrwSize.md)
-- [GetCurrentPlanarRefID.md](../Functions/GetCurrentPlanarRefID.md)
-- [GetDefaultTextSize.md](../Functions/GetDefaultTextSize.md)
-- [GetDLComponentClass.md](../Functions/GetDLComponentClass.md)
-- [GetDLComponentFill.md](../Functions/GetDLComponentFill.md)
-- [GetDLComponentFillColors.md](../Functions/GetDLComponentFillColors.md)
-- [GetDLComponentName.md](../Functions/GetDLComponentName.md)
-- [GetDLComponentPenColors.md](../Functions/GetDLComponentPenColors.md)
-- [GetDLComponentPenStyles.md](../Functions/GetDLComponentPenStyles.md)
-- [GetDLComponentPenWeights.md](../Functions/GetDLComponentPenWeights.md)
-- [GetDLComponentUseFillClassAttr.md](../Functions/GetDLComponentUseFillClassAttr.md)
-- [GetDLComponentUsePenClassAttr.md](../Functions/GetDLComponentUsePenClassAttr.md)
-- [GetDLComponentWidth.md](../Functions/GetDLComponentWidth.md)
-- [GetDLCompPenStylesN.md](../Functions/GetDLCompPenStylesN.md)
-- [GetDLControlOffset.md](../Functions/GetDLControlOffset.md)
-- [GetDLOptions.md](../Functions/GetDLOptions.md)
-- [GetDLSeparation.md](../Functions/GetDLSeparation.md)
-- [GetDrawingSizeRect.md](../Functions/GetDrawingSizeRect.md)
-- [GetDrawingSizeRectN.md](../Functions/GetDrawingSizeRectN.md)
-- [GetFName.md](../Functions/GetFName.md)
-- [GetNumberOfDLComponents.md](../Functions/GetNumberOfDLComponents.md)
-- [GetOrigin.md](../Functions/GetOrigin.md)
-- [GetOriginInDocUnits.md](../Functions/GetOriginInDocUnits.md)
-- [GetPref.md](../Functions/GetPref.md)
-- [GetPrefInt.md](../Functions/GetPrefInt.md)
-- [GetPrefLongInt.md](../Functions/GetPrefLongInt.md)
-- [GetPrefReal.md](../Functions/GetPrefReal.md)
-- [GetPrefRGB.md](../Functions/GetPrefRGB.md)
-- [GetPrefString.md](../Functions/GetPrefString.md)
-- [GetWallPrefStyle.md](../Functions/GetWallPrefStyle.md)
-- [GridLines.md](../Functions/GridLines.md)
-- [InsertNewDLCompN.md](../Functions/InsertNewDLCompN.md)
-- [InsertNewDLComponent.md](../Functions/InsertNewDLComponent.md)
-- [PenGrid.md](../Functions/PenGrid.md)
-- [RunGridSettingsDlg.md](../Functions/RunGridSettingsDlg.md)
-- [SetConstrain.md](../Functions/SetConstrain.md)
-- [SetDimStd.md](../Functions/SetDimStd.md)
-- [SetDLComponentClass.md](../Functions/SetDLComponentClass.md)
-- [SetDLComponentFill.md](../Functions/SetDLComponentFill.md)
-- [SetDLComponentFillColors.md](../Functions/SetDLComponentFillColors.md)
-- [SetDLComponentName.md](../Functions/SetDLComponentName.md)
-- [SetDLComponentPenColors.md](../Functions/SetDLComponentPenColors.md)
-- [SetDLComponentPenStyles.md](../Functions/SetDLComponentPenStyles.md)
-- [SetDLComponentPenWeights.md](../Functions/SetDLComponentPenWeights.md)
-- [SetDLComponentUseFillClassAttr.md](../Functions/SetDLComponentUseFillClassAttr.md)
-- [SetDLComponentUsePenClassAttr.md](../Functions/SetDLComponentUsePenClassAttr.md)
-- [SetDLComponentWidth.md](../Functions/SetDLComponentWidth.md)
-- [SetDLCompPenStylesN.md](../Functions/SetDLCompPenStylesN.md)
-- [SetDLControlOffset.md](../Functions/SetDLControlOffset.md)
-- [SetDLOptions.md](../Functions/SetDLOptions.md)
-- [SetDLSeparation.md](../Functions/SetDLSeparation.md)
-- [SetOrigin.md](../Functions/SetOrigin.md)
-- [SetOriginAbsolute.md](../Functions/SetOriginAbsolute.md)
-- [SetPref.md](../Functions/SetPref.md)
-- [SetPrefInt.md](../Functions/SetPrefInt.md)
-- [SetPrefLongInt.md](../Functions/SetPrefLongInt.md)
-- [SetPrefReal.md](../Functions/SetPrefReal.md)
-- [SetPrefRGB.md](../Functions/SetPrefRGB.md)
-- [SetPrefString.md](../Functions/SetPrefString.md)
-- [SetPrimaryDim.md](../Functions/SetPrimaryDim.md)
-- [SetSecondaryDim.md](../Functions/SetSecondaryDim.md)
-- [SetUnits.md](../Functions/SetUnits.md)
-- [SetWallPrefStyle.md](../Functions/SetWallPrefStyle.md)
+# Document Settings
+| | | |
+|---|---|---|
+| [DeleteAllDLComponents](../Functions/DeleteAllDLComponents.md) | [DeleteDLComponent](../Functions/DeleteDLComponent.md) | [DoubLines](../Functions/DoubLines.md) <sub>*obsolete in VectorWorks12.5*</sub>|
+| [DrwSize](../Functions/DrwSize.md) | [GetCurrentPlanarRefID](../Functions/GetCurrentPlanarRefID.md) | [GetDefaultTextSize](../Functions/GetDefaultTextSize.md) |
+| [GetDLComponentClass](../Functions/GetDLComponentClass.md) | [GetDLComponentFill](../Functions/GetDLComponentFill.md) | [GetDLComponentFillColors](../Functions/GetDLComponentFillColors.md) |
+| [GetDLComponentName](../Functions/GetDLComponentName.md) | [GetDLComponentPenColors](../Functions/GetDLComponentPenColors.md) | [GetDLComponentPenStyles](../Functions/GetDLComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [GetDLComponentPenWeights](../Functions/GetDLComponentPenWeights.md) | [GetDLComponentUseFillClassAttr](../Functions/GetDLComponentUseFillClassAttr.md) | [GetDLComponentUsePenClassAttr](../Functions/GetDLComponentUsePenClassAttr.md) |
+| [GetDLComponentWidth](../Functions/GetDLComponentWidth.md) | [GetDLCompPenStylesN](../Functions/GetDLCompPenStylesN.md) | [GetDLControlOffset](../Functions/GetDLControlOffset.md) |
+| [GetDLOptions](../Functions/GetDLOptions.md) | [GetDLSeparation](../Functions/GetDLSeparation.md) | [GetDrawingSizeRect](../Functions/GetDrawingSizeRect.md) |
+| [GetDrawingSizeRectN](../Functions/GetDrawingSizeRectN.md) | [GetFName](../Functions/GetFName.md) | [GetNumberOfDLComponents](../Functions/GetNumberOfDLComponents.md) |
+| [GetOrigin](../Functions/GetOrigin.md) | [GetOriginInDocUnits](../Functions/GetOriginInDocUnits.md) | [GetPref](../Functions/GetPref.md) |
+| [GetPrefInt](../Functions/GetPrefInt.md) | [GetPrefLongInt](../Functions/GetPrefLongInt.md) | [GetPrefReal](../Functions/GetPrefReal.md) |
+| [GetPrefRGB](../Functions/GetPrefRGB.md) | [GetPrefString](../Functions/GetPrefString.md) | [GetWallPrefStyle](../Functions/GetWallPrefStyle.md) |
+| [GridLines](../Functions/GridLines.md) | [InsertNewDLCompN](../Functions/InsertNewDLCompN.md) | [InsertNewDLComponent](../Functions/InsertNewDLComponent.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [PenGrid](../Functions/PenGrid.md) | [RunGridSettingsDlg](../Functions/RunGridSettingsDlg.md) | [SetConstrain](../Functions/SetConstrain.md) |
+| [SetDimStd](../Functions/SetDimStd.md) | [SetDLComponentClass](../Functions/SetDLComponentClass.md) | [SetDLComponentFill](../Functions/SetDLComponentFill.md) |
+| [SetDLComponentFillColors](../Functions/SetDLComponentFillColors.md) | [SetDLComponentName](../Functions/SetDLComponentName.md) | [SetDLComponentPenColors](../Functions/SetDLComponentPenColors.md) |
+| [SetDLComponentPenStyles](../Functions/SetDLComponentPenStyles.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetDLComponentPenWeights](../Functions/SetDLComponentPenWeights.md) | [SetDLComponentUseFillClassAttr](../Functions/SetDLComponentUseFillClassAttr.md) |
+| [SetDLComponentUsePenClassAttr](../Functions/SetDLComponentUsePenClassAttr.md) | [SetDLComponentWidth](../Functions/SetDLComponentWidth.md) | [SetDLCompPenStylesN](../Functions/SetDLCompPenStylesN.md) |
+| [SetDLControlOffset](../Functions/SetDLControlOffset.md) | [SetDLOptions](../Functions/SetDLOptions.md) | [SetDLSeparation](../Functions/SetDLSeparation.md) |
+| [SetOrigin](../Functions/SetOrigin.md) | [SetOriginAbsolute](../Functions/SetOriginAbsolute.md) | [SetPref](../Functions/SetPref.md) |
+| [SetPrefInt](../Functions/SetPrefInt.md) | [SetPrefLongInt](../Functions/SetPrefLongInt.md) | [SetPrefReal](../Functions/SetPrefReal.md) |
+| [SetPrefRGB](../Functions/SetPrefRGB.md) | [SetPrefString](../Functions/SetPrefString.md) | [SetPrimaryDim](../Functions/SetPrimaryDim.md) |
+| [SetSecondaryDim](../Functions/SetSecondaryDim.md) | [SetUnits](../Functions/SetUnits.md) | [SetWallPrefStyle](../Functions/SetWallPrefStyle.md) |
+

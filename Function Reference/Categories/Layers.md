@@ -1,89 +1,35 @@
-# Layers
+[Function Reference](../README.md)
 
-- [ActLayer.md](../Functions/ActLayer.md)
-- [AddLevelFromTemplate.md](../Functions/AddLevelFromTemplate.md)
-- [AddStoryLevel.md](../Functions/AddStoryLevel.md)
-- [AddStoryLevelN.md](../Functions/AddStoryLevelN.md)
-- [AssociateLayerWithStory.md](../Functions/AssociateLayerWithStory.md)
-- [CopyMode.md](../Functions/CopyMode.md)
-- [CreateLayer.md](../Functions/CreateLayer.md)
-- [CreateLayerLevelType.md](../Functions/CreateLayerLevelType.md)
-- [CreateLevelTemplate.md](../Functions/CreateLevelTemplate.md)
-- [CreateLevelTemplateN.md](../Functions/CreateLevelTemplateN.md)
-- [CreateStory.md](../Functions/CreateStory.md)
-- [CreateStoryLayerTemplate.md](../Functions/CreateStoryLayerTemplate.md)
-- [DeleteLevelTemplate.md](../Functions/DeleteLevelTemplate.md)
-- [DeleteStoryLayerTemplate.md](../Functions/DeleteStoryLayerTemplate.md)
-- [DisplayLayerScaleDialog.md](../Functions/DisplayLayerScaleDialog.md)
-- [FLayer.md](../Functions/FLayer.md)
-- [GetDrawingArea.md](../Functions/GetDrawingArea.md)
-- [GetLayer.md](../Functions/GetLayer.md)
-- [GetLayerByName.md](../Functions/GetLayerByName.md)
-- [GetLayerCutPlane.md](../Functions/GetLayerCutPlane.md)
-- [GetLayerElevation.md](../Functions/GetLayerElevation.md)
-- [GetLayerElevationN.md](../Functions/GetLayerElevationN.md)
-- [GetLayerEnableCutPl.md](../Functions/GetLayerEnableCutPl.md)
-- [GetLayerForStory.md](../Functions/GetLayerForStory.md)
-- [GetLayerLevelType.md](../Functions/GetLayerLevelType.md)
-- [GetLayerOptions.md](../Functions/GetLayerOptions.md)
-- [GetLayerRenderMode.md](../Functions/GetLayerRenderMode.md)
-- [GetLayerTransparency.md](../Functions/GetLayerTransparency.md)
-- [GetLevelElevation.md](../Functions/GetLevelElevation.md)
-- [GetLevelElevationN.md](../Functions/GetLevelElevationN.md)
-- [GetLevelTemplateInfo.md](../Functions/GetLevelTemplateInfo.md)
-- [GetLevelTemplateName.md](../Functions/GetLevelTemplateName.md)
-- [GetLevelTmpltInfoN.md](../Functions/GetLevelTmpltInfoN.md)
-- [GetLevelTypeName.md](../Functions/GetLevelTypeName.md)
-- [GetLName.md](../Functions/GetLName.md)
-- [GetLScale.md](../Functions/GetLScale.md)
-- [GetLVis.md](../Functions/GetLVis.md)
-- [GetNumLayerLevelTypes.md](../Functions/GetNumLayerLevelTypes.md)
-- [GetNumLevelTemplates.md](../Functions/GetNumLevelTemplates.md)
-- [GetNumStories.md](../Functions/GetNumStories.md)
-- [GetNumStoryLayerTemplates.md](../Functions/GetNumStoryLayerTemplates.md)
-- [GetSheetLayerUserOrigin.md](../Functions/GetSheetLayerUserOrigin.md)
-- [GetStoryAbove.md](../Functions/GetStoryAbove.md)
-- [GetStoryBelow.md](../Functions/GetStoryBelow.md)
-- [GetStoryElevation.md](../Functions/GetStoryElevation.md)
-- [GetStoryElevationN.md](../Functions/GetStoryElevationN.md)
-- [GetStoryLayerTemplateName.md](../Functions/GetStoryLayerTemplateName.md)
-- [GetStoryOfLayer.md](../Functions/GetStoryOfLayer.md)
-- [GetStorySuffix.md](../Functions/GetStorySuffix.md)
-- [GetZVals.md](../Functions/GetZVals.md)
-- [GrayLayer.md](../Functions/GrayLayer.md)
-- [HGetLayerTransp.md](../Functions/HGetLayerTransp.md)
-- [HideLayer.md](../Functions/HideLayer.md)
-- [HSetLayerTransp.md](../Functions/HSetLayerTransp.md)
-- [IsLayerReferenced.md](../Functions/IsLayerReferenced.md)
-- [Layer.md](../Functions/Layer.md)
-- [LayerRef.md](../Functions/LayerRef.md)
-- [LFillBack.md](../Functions/LFillBack.md)
-- [LFillFore.md](../Functions/LFillFore.md)
-- [LLayer.md](../Functions/LLayer.md)
-- [LPenBack.md](../Functions/LPenBack.md)
-- [LPenFore.md](../Functions/LPenFore.md)
-- [NumLayers.md](../Functions/NumLayers.md)
-- [NumObj.md](../Functions/NumObj.md)
-- [RemoveStoryLevel.md](../Functions/RemoveStoryLevel.md)
-- [ResetDefStoryLevels.md](../Functions/ResetDefStoryLevels.md)
-- [SetDefStoryLayerName.md](../Functions/SetDefStoryLayerName.md)
-- [SetLayerCutPlane.md](../Functions/SetLayerCutPlane.md)
-- [SetLayerElevation.md](../Functions/SetLayerElevation.md)
-- [SetLayerElevationN.md](../Functions/SetLayerElevationN.md)
-- [SetLayerEnableCutPl.md](../Functions/SetLayerEnableCutPl.md)
-- [SetLayerLevelType.md](../Functions/SetLayerLevelType.md)
-- [SetLayerOptions.md](../Functions/SetLayerOptions.md)
-- [SetLayerRenderMode.md](../Functions/SetLayerRenderMode.md)
-- [SetLayerTransparency.md](../Functions/SetLayerTransparency.md)
-- [SetLevelElevation.md](../Functions/SetLevelElevation.md)
-- [SetLevelElevationN.md](../Functions/SetLevelElevationN.md)
-- [SetLevelTemplateName.md](../Functions/SetLevelTemplateName.md)
-- [SetLevelTypeName.md](../Functions/SetLevelTypeName.md)
-- [SetLScale.md](../Functions/SetLScale.md)
-- [SetScale.md](../Functions/SetScale.md)
-- [SetSheetLayerUserOrigin.md](../Functions/SetSheetLayerUserOrigin.md)
-- [SetStoryElevation.md](../Functions/SetStoryElevation.md)
-- [SetStoryElevationN.md](../Functions/SetStoryElevationN.md)
-- [SetStorySuffix.md](../Functions/SetStorySuffix.md)
-- [SetZVals.md](../Functions/SetZVals.md)
-- [ShowLayer.md](../Functions/ShowLayer.md)
+# Layers
+| | | |
+|---|---|---|
+| [ActLayer](../Functions/ActLayer.md) | [AddLevelFromTemplate](../Functions/AddLevelFromTemplate.md) | [AddStoryLevel](../Functions/AddStoryLevel.md) |
+| [AddStoryLevelN](../Functions/AddStoryLevelN.md) | [AssociateLayerWithStory](../Functions/AssociateLayerWithStory.md) | [CopyMode](../Functions/CopyMode.md) |
+| [CreateLayer](../Functions/CreateLayer.md) | [CreateLayerLevelType](../Functions/CreateLayerLevelType.md) | [CreateLevelTemplate](../Functions/CreateLevelTemplate.md) |
+| [CreateLevelTemplateN](../Functions/CreateLevelTemplateN.md) | [CreateStory](../Functions/CreateStory.md) | [CreateStoryLayerTemplate](../Functions/CreateStoryLayerTemplate.md) |
+| [DeleteLevelTemplate](../Functions/DeleteLevelTemplate.md) | [DeleteStoryLayerTemplate](../Functions/DeleteStoryLayerTemplate.md) | [DisplayLayerScaleDialog](../Functions/DisplayLayerScaleDialog.md) |
+| [FLayer](../Functions/FLayer.md) | [GetDrawingArea](../Functions/GetDrawingArea.md) | [GetLayer](../Functions/GetLayer.md) |
+| [GetLayerByName](../Functions/GetLayerByName.md) | [GetLayerCutPlane](../Functions/GetLayerCutPlane.md) | [GetLayerElevation](../Functions/GetLayerElevation.md) |
+| [GetLayerElevationN](../Functions/GetLayerElevationN.md) | [GetLayerEnableCutPl](../Functions/GetLayerEnableCutPl.md) | [GetLayerForStory](../Functions/GetLayerForStory.md) |
+| [GetLayerLevelType](../Functions/GetLayerLevelType.md) | [GetLayerOptions](../Functions/GetLayerOptions.md) | [GetLayerRenderMode](../Functions/GetLayerRenderMode.md) |
+| [GetLayerTransparency](../Functions/GetLayerTransparency.md) | [GetLevelElevation](../Functions/GetLevelElevation.md) | [GetLevelElevationN](../Functions/GetLevelElevationN.md) |
+| [GetLevelTemplateInfo](../Functions/GetLevelTemplateInfo.md) | [GetLevelTemplateName](../Functions/GetLevelTemplateName.md) | [GetLevelTmpltInfoN](../Functions/GetLevelTmpltInfoN.md) |
+| [GetLevelTypeName](../Functions/GetLevelTypeName.md) | [GetLName](../Functions/GetLName.md) | [GetLScale](../Functions/GetLScale.md) |
+| [GetLVis](../Functions/GetLVis.md) | [GetNumLayerLevelTypes](../Functions/GetNumLayerLevelTypes.md) | [GetNumLevelTemplates](../Functions/GetNumLevelTemplates.md) |
+| [GetNumStories](../Functions/GetNumStories.md) | [GetNumStoryLayerTemplates](../Functions/GetNumStoryLayerTemplates.md) | [GetSheetLayerUserOrigin](../Functions/GetSheetLayerUserOrigin.md) |
+| [GetStoryAbove](../Functions/GetStoryAbove.md) | [GetStoryBelow](../Functions/GetStoryBelow.md) | [GetStoryElevation](../Functions/GetStoryElevation.md) |
+| [GetStoryElevationN](../Functions/GetStoryElevationN.md) | [GetStoryLayerTemplateName](../Functions/GetStoryLayerTemplateName.md) | [GetStoryOfLayer](../Functions/GetStoryOfLayer.md) |
+| [GetStorySuffix](../Functions/GetStorySuffix.md) | [GetZVals](../Functions/GetZVals.md) | [GrayLayer](../Functions/GrayLayer.md) |
+| [HGetLayerTransp](../Functions/HGetLayerTransp.md) | [HideLayer](../Functions/HideLayer.md) | [HSetLayerTransp](../Functions/HSetLayerTransp.md) |
+| [IsLayerReferenced](../Functions/IsLayerReferenced.md) | [Layer](../Functions/Layer.md) | [LayerRef](../Functions/LayerRef.md) |
+| [LFillBack](../Functions/LFillBack.md) | [LFillFore](../Functions/LFillFore.md) | [LLayer](../Functions/LLayer.md) |
+| [LPenBack](../Functions/LPenBack.md) | [LPenFore](../Functions/LPenFore.md) | [NumLayers](../Functions/NumLayers.md) |
+| [NumObj](../Functions/NumObj.md) | [RemoveStoryLevel](../Functions/RemoveStoryLevel.md) | [ResetDefStoryLevels](../Functions/ResetDefStoryLevels.md) |
+| [SetDefStoryLayerName](../Functions/SetDefStoryLayerName.md) | [SetLayerCutPlane](../Functions/SetLayerCutPlane.md) | [SetLayerElevation](../Functions/SetLayerElevation.md) |
+| [SetLayerElevationN](../Functions/SetLayerElevationN.md) | [SetLayerEnableCutPl](../Functions/SetLayerEnableCutPl.md) | [SetLayerLevelType](../Functions/SetLayerLevelType.md) |
+| [SetLayerOptions](../Functions/SetLayerOptions.md) | [SetLayerRenderMode](../Functions/SetLayerRenderMode.md) | [SetLayerTransparency](../Functions/SetLayerTransparency.md) |
+| [SetLevelElevation](../Functions/SetLevelElevation.md) | [SetLevelElevationN](../Functions/SetLevelElevationN.md) | [SetLevelTemplateName](../Functions/SetLevelTemplateName.md) |
+| [SetLevelTypeName](../Functions/SetLevelTypeName.md) | [SetLScale](../Functions/SetLScale.md) | [SetScale](../Functions/SetScale.md) |
+| [SetSheetLayerUserOrigin](../Functions/SetSheetLayerUserOrigin.md) | [SetStoryElevation](../Functions/SetStoryElevation.md) | [SetStoryElevationN](../Functions/SetStoryElevationN.md) |
+| [SetStorySuffix](../Functions/SetStorySuffix.md) | [SetZVals](../Functions/SetZVals.md) | [ShowLayer](../Functions/ShowLayer.md) |
+

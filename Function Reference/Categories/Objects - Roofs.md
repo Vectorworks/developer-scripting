@@ -1,41 +1,19 @@
-# Objects - Roofs
+[Function Reference](../README.md)
 
-- [AppendRoofEdge.md](../Functions/AppendRoofEdge.md)
-- [BeginRoof.md](../Functions/BeginRoof.md)
-- [ConvToUnstyledRoof.md](../Functions/ConvToUnstyledRoof.md)
-- [CreateBatDormer.md](../Functions/CreateBatDormer.md)
-- [CreateGableDormer.md](../Functions/CreateGableDormer.md)
-- [CreateHipDormer.md](../Functions/CreateHipDormer.md)
-- [CreateRoof.md](../Functions/CreateRoof.md)
-- [CreateShedDormer.md](../Functions/CreateShedDormer.md)
-- [CreateSkylight.md](../Functions/CreateSkylight.md)
-- [CreateTrapeziumDormer.md](../Functions/CreateTrapeziumDormer.md)
-- [GetBatAttributes.md](../Functions/GetBatAttributes.md)
-- [GetDormerAttributes.md](../Functions/GetDormerAttributes.md)
-- [GetDormerThick.md](../Functions/GetDormerThick.md)
-- [GetGableAttributes.md](../Functions/GetGableAttributes.md)
-- [GetHipAttributes.md](../Functions/GetHipAttributes.md)
-- [GetNumRoofElements.md](../Functions/GetNumRoofElements.md)
-- [GetRoofAttributes.md](../Functions/GetRoofAttributes.md)
-- [GetRoofEdge.md](../Functions/GetRoofEdge.md)
-- [GetRoofElementType.md](../Functions/GetRoofElementType.md)
-- [GetRoofFaceAttrib.md](../Functions/GetRoofFaceAttrib.md)
-- [GetRoofFaceCoords.md](../Functions/GetRoofFaceCoords.md)
-- [GetRoofStyle.md](../Functions/GetRoofStyle.md)
-- [GetRoofVertices.md](../Functions/GetRoofVertices.md)
-- [GetShedAttributes.md](../Functions/GetShedAttributes.md)
-- [GetSkylight.md](../Functions/GetSkylight.md)
-- [GetTrapeziumAttributes.md](../Functions/GetTrapeziumAttributes.md)
-- [RemoveRoofEdge.md](../Functions/RemoveRoofEdge.md)
-- [RemoveRoofElement.md](../Functions/RemoveRoofElement.md)
-- [SetBatAttributes.md](../Functions/SetBatAttributes.md)
-- [SetDormerAttributes.md](../Functions/SetDormerAttributes.md)
-- [SetDormerThick.md](../Functions/SetDormerThick.md)
-- [SetGableAttributes.md](../Functions/SetGableAttributes.md)
-- [SetHipAttributes.md](../Functions/SetHipAttributes.md)
-- [SetRoofAttributes.md](../Functions/SetRoofAttributes.md)
-- [SetRoofEdge.md](../Functions/SetRoofEdge.md)
-- [SetRoofStyle.md](../Functions/SetRoofStyle.md)
-- [SetShedAttributes.md](../Functions/SetShedAttributes.md)
-- [SetSkylight.md](../Functions/SetSkylight.md)
-- [SetTrapeziumAttributes.md](../Functions/SetTrapeziumAttributes.md)
+# Objects - Roofs
+| | | |
+|---|---|---|
+| [AppendRoofEdge](../Functions/AppendRoofEdge.md) | [BeginRoof](../Functions/BeginRoof.md) | [ConvToUnstyledRoof](../Functions/ConvToUnstyledRoof.md) |
+| [CreateBatDormer](../Functions/CreateBatDormer.md) | [CreateGableDormer](../Functions/CreateGableDormer.md) | [CreateHipDormer](../Functions/CreateHipDormer.md) |
+| [CreateRoof](../Functions/CreateRoof.md) | [CreateShedDormer](../Functions/CreateShedDormer.md) | [CreateSkylight](../Functions/CreateSkylight.md) |
+| [CreateTrapeziumDormer](../Functions/CreateTrapeziumDormer.md) | [GetBatAttributes](../Functions/GetBatAttributes.md) | [GetDormerAttributes](../Functions/GetDormerAttributes.md) |
+| [GetDormerThick](../Functions/GetDormerThick.md) | [GetGableAttributes](../Functions/GetGableAttributes.md) | [GetHipAttributes](../Functions/GetHipAttributes.md) |
+| [GetNumRoofElements](../Functions/GetNumRoofElements.md) | [GetRoofAttributes](../Functions/GetRoofAttributes.md) | [GetRoofEdge](../Functions/GetRoofEdge.md) |
+| [GetRoofElementType](../Functions/GetRoofElementType.md) | [GetRoofFaceAttrib](../Functions/GetRoofFaceAttrib.md) | [GetRoofFaceCoords](../Functions/GetRoofFaceCoords.md) |
+| [GetRoofStyle](../Functions/GetRoofStyle.md) | [GetRoofVertices](../Functions/GetRoofVertices.md) | [GetShedAttributes](../Functions/GetShedAttributes.md) |
+| [GetSkylight](../Functions/GetSkylight.md) | [GetTrapeziumAttributes](../Functions/GetTrapeziumAttributes.md) | [RemoveRoofEdge](../Functions/RemoveRoofEdge.md) |
+| [RemoveRoofElement](../Functions/RemoveRoofElement.md) | [SetBatAttributes](../Functions/SetBatAttributes.md) | [SetDormerAttributes](../Functions/SetDormerAttributes.md) |
+| [SetDormerThick](../Functions/SetDormerThick.md) | [SetGableAttributes](../Functions/SetGableAttributes.md) | [SetHipAttributes](../Functions/SetHipAttributes.md) |
+| [SetRoofAttributes](../Functions/SetRoofAttributes.md) | [SetRoofEdge](../Functions/SetRoofEdge.md) | [SetRoofStyle](../Functions/SetRoofStyle.md) |
+| [SetShedAttributes](../Functions/SetShedAttributes.md) | [SetSkylight](../Functions/SetSkylight.md) | [SetTrapeziumAttributes](../Functions/SetTrapeziumAttributes.md) |
+

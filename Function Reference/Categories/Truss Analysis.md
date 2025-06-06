@@ -1,37 +1,19 @@
-# Truss Analysis
+[Function Reference](../README.md)
 
-- [DLDBeginLoadData.md](../Functions/DLDBeginLoadData.md)
-- [DLDEndLoadData.md](../Functions/DLDEndLoadData.md)
-- [DLDSetLoadDataBool.md](../Functions/DLDSetLoadDataBool.md)
-- [DLDSetLoadDataReal.md](../Functions/DLDSetLoadDataReal.md)
-- [DLDSetLoadDataString.md](../Functions/DLDSetLoadDataString.md)
-- [HP_AutoAttachLoads.md](../Functions/HP_AutoAttachLoads.md)
-- [HP_ConvertToHangPos.md](../Functions/HP_ConvertToHangPos.md)
-- [OLDAddLoadHangPoint.md](../Functions/OLDAddLoadHangPoint.md)
-- [OLDClearHangPtsPath.md](../Functions/OLDClearHangPtsPath.md)
-- [OLDConstructMatsCnt.md](../Functions/OLDConstructMatsCnt.md)
-- [OLDFindAttachHangPos.md](../Functions/OLDFindAttachHangPos.md)
-- [OLDForceRealToStr.md](../Functions/OLDForceRealToStr.md)
-- [OLDForceStrToReal.md](../Functions/OLDForceStrToReal.md)
-- [OLDGetConstructMat.md](../Functions/OLDGetConstructMat.md)
-- [OLDGetDragSnapPoint.md](../Functions/OLDGetDragSnapPoint.md)
-- [OLDGetHangingPos.md](../Functions/OLDGetHangingPos.md)
-- [OLDGetHangPointAt.md](../Functions/OLDGetHangPointAt.md)
-- [OLDGetHangPointsCnt.md](../Functions/OLDGetHangPointsCnt.md)
-- [OLDGetLoadDataBool.md](../Functions/OLDGetLoadDataBool.md)
-- [OLDGetLoadDataReal.md](../Functions/OLDGetLoadDataReal.md)
-- [OLDGetLoadDataStr.md](../Functions/OLDGetLoadDataStr.md)
-- [OLDGetPositionTransf.md](../Functions/OLDGetPositionTransf.md)
-- [OLDHoistSectionDlg.md](../Functions/OLDHoistSectionDlg.md)
-- [OLDMassDistRealToStr.md](../Functions/OLDMassDistRealToStr.md)
-- [OLDMassDistStrToReal.md](../Functions/OLDMassDistStrToReal.md)
-- [OLDMassRealToStr.md](../Functions/OLDMassRealToStr.md)
-- [OLDMassStrToReal.md](../Functions/OLDMassStrToReal.md)
-- [OLDSelectTrussSystem.md](../Functions/OLDSelectTrussSystem.md)
-- [OLDSetHangPathHandle.md](../Functions/OLDSetHangPathHandle.md)
-- [OLDSetLoadDataBool.md](../Functions/OLDSetLoadDataBool.md)
-- [OLDSetLoadDataReal.md](../Functions/OLDSetLoadDataReal.md)
-- [OLDSetLoadDataStr.md](../Functions/OLDSetLoadDataStr.md)
-- [OLDShowTrussSnapping.md](../Functions/OLDShowTrussSnapping.md)
-- [OLDTrussSectionDlg.md](../Functions/OLDTrussSectionDlg.md)
-- [UpdatePositionParam.md](../Functions/UpdatePositionParam.md)
+# Truss Analysis
+| | | |
+|---|---|---|
+| [DLDBeginLoadData](../Functions/DLDBeginLoadData.md) | [DLDEndLoadData](../Functions/DLDEndLoadData.md) | [DLDSetLoadDataBool](../Functions/DLDSetLoadDataBool.md) |
+| [DLDSetLoadDataReal](../Functions/DLDSetLoadDataReal.md) | [DLDSetLoadDataString](../Functions/DLDSetLoadDataString.md) | [HP_AutoAttachLoads](../Functions/HP_AutoAttachLoads.md) |
+| [HP_ConvertToHangPos](../Functions/HP_ConvertToHangPos.md) | [OLDAddLoadHangPoint](../Functions/OLDAddLoadHangPoint.md) | [OLDClearHangPtsPath](../Functions/OLDClearHangPtsPath.md) |
+| [OLDConstructMatsCnt](../Functions/OLDConstructMatsCnt.md) | [OLDDeleteLoad](../Functions/OLDDeleteLoad.md) | [OLDFindAttachHangPos](../Functions/OLDFindAttachHangPos.md) |
+| [OLDForceRealToStr](../Functions/OLDForceRealToStr.md) | [OLDForceStrToReal](../Functions/OLDForceStrToReal.md) | [OLDGetConstructMat](../Functions/OLDGetConstructMat.md) |
+| [OLDGetCountLoads](../Functions/OLDGetCountLoads.md) | [OLDGetDragSnapPoint](../Functions/OLDGetDragSnapPoint.md) | [OLDGetHangingPos](../Functions/OLDGetHangingPos.md) |
+| [OLDGetHangPointAt](../Functions/OLDGetHangPointAt.md) | [OLDGetHangPointsCnt](../Functions/OLDGetHangPointsCnt.md) | [OLDGetLoadDataBool](../Functions/OLDGetLoadDataBool.md) |
+| [OLDGetLoadDataReal](../Functions/OLDGetLoadDataReal.md) | [OLDGetLoadDataStr](../Functions/OLDGetLoadDataStr.md) | [OLDGetMatDensity](../Functions/OLDGetMatDensity.md) |
+| [OLDGetMatDestiny](../Functions/OLDGetMatDestiny.md) | [OLDGetPositionTransf](../Functions/OLDGetPositionTransf.md) | [OLDHoistSectionDlg](../Functions/OLDHoistSectionDlg.md) |
+| [OLDMassDistRealToStr](../Functions/OLDMassDistRealToStr.md) | [OLDMassDistStrToReal](../Functions/OLDMassDistStrToReal.md) | [OLDMassRealToStr](../Functions/OLDMassRealToStr.md) |
+| [OLDMassStrToReal](../Functions/OLDMassStrToReal.md) | [OLDSelectTrussSystem](../Functions/OLDSelectTrussSystem.md) | [OLDSetHangPathHandle](../Functions/OLDSetHangPathHandle.md) |
+| [OLDSetLoadDataBool](../Functions/OLDSetLoadDataBool.md) | [OLDSetLoadDataReal](../Functions/OLDSetLoadDataReal.md) | [OLDSetLoadDataStr](../Functions/OLDSetLoadDataStr.md) |
+| [OLDShowTrussSnapping](../Functions/OLDShowTrussSnapping.md) | [OLDTrussSectionDlg](../Functions/OLDTrussSectionDlg.md) | [UpdatePositionParam](../Functions/UpdatePositionParam.md) |
+

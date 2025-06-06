@@ -1,30 +1,15 @@
-# Workspaces
+[Function Reference](../README.md)
 
-- [ws2AddMenuGroup.md](../Functions/ws2AddMenuGroup.md)
-- [ws2AddMenuItem.md](../Functions/ws2AddMenuItem.md)
-- [ws2CommitChanges.md](../Functions/ws2CommitChanges.md)
-- [ws2CreateTool.md](../Functions/ws2CreateTool.md)
-- [ws2CreateToolPalette.md](../Functions/ws2CreateToolPalette.md)
-- [ws2CreateToolSet.md](../Functions/ws2CreateToolSet.md)
-- [ws2DelMenu.md](../Functions/ws2DelMenu.md)
-- [ws2DelMenuAt.md](../Functions/ws2DelMenuAt.md)
-- [ws2DelTool.md](../Functions/ws2DelTool.md)
-- [ws2FindMenuIndex.md](../Functions/ws2FindMenuIndex.md)
-- [ws2FindToolIndex.md](../Functions/ws2FindToolIndex.md)
-- [ws2GetMenuAt.md](../Functions/ws2GetMenuAt.md)
-- [ws2GetMenuInfo.md](../Functions/ws2GetMenuInfo.md)
-- [ws2GetMenusCnt.md](../Functions/ws2GetMenusCnt.md)
-- [ws2GetToolAt.md](../Functions/ws2GetToolAt.md)
-- [ws2GetToolInfo.md](../Functions/ws2GetToolInfo.md)
-- [ws2GetToolsCnt.md](../Functions/ws2GetToolsCnt.md)
-- [ws2SetMenuInfo.md](../Functions/ws2SetMenuInfo.md)
-- [ws2SetToolInfo.md](../Functions/ws2SetToolInfo.md)
-- [wsDelete.md](../Functions/wsDelete.md)
-- [wsEditAddMenu.md](../Functions/wsEditAddMenu.md)
-- [wsEditAddTool.md](../Functions/wsEditAddTool.md)
-- [wsEditAddTool2.md](../Functions/wsEditAddTool2.md)
-- [wsEditBegin.md](../Functions/wsEditBegin.md)
-- [wsEditBeginN.md](../Functions/wsEditBeginN.md)
-- [wsEditEnd.md](../Functions/wsEditEnd.md)
-- [wsInstallCanceled.md](../Functions/wsInstallCanceled.md)
-- [wsInstallFailed.md](../Functions/wsInstallFailed.md)
+# Workspaces
+| | | |
+|---|---|---|
+| [ws2AddMenuGroup](../Functions/ws2AddMenuGroup.md) | [ws2AddMenuItem](../Functions/ws2AddMenuItem.md) | [ws2CommitChanges](../Functions/ws2CommitChanges.md) |
+| [ws2CreateTool](../Functions/ws2CreateTool.md) | [ws2CreateToolPalette](../Functions/ws2CreateToolPalette.md) | [ws2CreateToolSet](../Functions/ws2CreateToolSet.md) |
+| [ws2DelMenu](../Functions/ws2DelMenu.md) | [ws2DelMenuAt](../Functions/ws2DelMenuAt.md) | [ws2DelTool](../Functions/ws2DelTool.md) |
+| [ws2FindMenuIndex](../Functions/ws2FindMenuIndex.md) | [ws2FindToolIndex](../Functions/ws2FindToolIndex.md) | [ws2GetMenuAt](../Functions/ws2GetMenuAt.md) |
+| [ws2GetMenuInfo](../Functions/ws2GetMenuInfo.md) | [ws2GetMenusCnt](../Functions/ws2GetMenusCnt.md) | [ws2GetToolAt](../Functions/ws2GetToolAt.md) |
+| [ws2GetToolInfo](../Functions/ws2GetToolInfo.md) | [ws2GetToolsCnt](../Functions/ws2GetToolsCnt.md) | [ws2SetMenuInfo](../Functions/ws2SetMenuInfo.md) |
+| [ws2SetToolInfo](../Functions/ws2SetToolInfo.md) | [wsDelete](../Functions/wsDelete.md) | [wsEditAddMenu](../Functions/wsEditAddMenu.md) |
+| [wsEditAddTool](../Functions/wsEditAddTool.md) | [wsEditAddTool2](../Functions/wsEditAddTool2.md) | [wsEditBegin](../Functions/wsEditBegin.md) |
+| [wsEditBeginN](../Functions/wsEditBeginN.md) | [wsEditEnd](../Functions/wsEditEnd.md) | [wsInstallCanceled](../Functions/wsInstallCanceled.md) |
+| [wsInstallFailed](../Functions/wsInstallFailed.md) 

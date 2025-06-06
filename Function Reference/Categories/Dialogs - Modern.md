@@ -1,225 +1,79 @@
-# Dialogs - Modern
+[Function Reference](../README.md)
 
-- [AddButtonMode.md](../Functions/AddButtonMode.md)
-- [AddChoice.md](../Functions/AddChoice.md)
-- [AddListBoxTabStop.md](../Functions/AddListBoxTabStop.md)
-- [AddRadioMode.md](../Functions/AddRadioMode.md)
-- [AdjustComponentPixelPos.md](../Functions/AdjustComponentPixelPos.md)
-- [AlignItemEdge.md](../Functions/AlignItemEdge.md)
-- [ClearGradientSliderSegments.md](../Functions/ClearGradientSliderSegments.md)
-- [CreateCenteredStaticText.md](../Functions/CreateCenteredStaticText.md)
-- [CreateCheckBox.md](../Functions/CreateCheckBox.md)
-- [CreateCheckBox2.md](../Functions/CreateCheckBox2.md)
-- [CreateCheckBoxGroupBox.md](../Functions/CreateCheckBoxGroupBox.md)
-- [CreateClassPullDownMenu.md](../Functions/CreateClassPullDownMenu.md)
-- [CreateColorPopup.md](../Functions/CreateColorPopup.md)
-- [CreateControl.md](../Functions/CreateControl.md)
-- [CreateCustomControl.md](../Functions/CreateCustomControl.md)
-- [CreateCustThumbPopup.md](../Functions/CreateCustThumbPopup.md)
-- [CreateDesignLayerPullDownMenu.md](../Functions/CreateDesignLayerPullDownMenu.md)
-- [CreateEditColorText.md](../Functions/CreateEditColorText.md)
-- [CreateEditInteger.md](../Functions/CreateEditInteger.md)
-- [CreateEditPassword.md](../Functions/CreateEditPassword.md)
-- [CreateEditReal.md](../Functions/CreateEditReal.md)
-- [CreateEditText.md](../Functions/CreateEditText.md)
-- [CreateEditTextBox.md](../Functions/CreateEditTextBox.md)
-- [CreateEnhancedPullDownMenu.md](../Functions/CreateEnhancedPullDownMenu.md)
-- [CreateGradient.md](../Functions/CreateGradient.md)
-- [CreateGroupBox.md](../Functions/CreateGroupBox.md)
-- [CreateIconPushButton.md](../Functions/CreateIconPushButton.md)
-- [CreateImageControl.md](../Functions/CreateImageControl.md)
-- [CreateImageControl2.md](../Functions/CreateImageControl2.md)
-- [CreateImagePushButton.md](../Functions/CreateImagePushButton.md)
-- [CreateLayerPDMenu.md](../Functions/CreateLayerPDMenu.md)
-- [CreateLayout.md](../Functions/CreateLayout.md)
-- [CreateLineAttributePopup.md](../Functions/CreateLineAttributePopup.md)
-- [CreateLineStylePopup.md](../Functions/CreateLineStylePopup.md)
-- [CreateLineWeightPopup.md](../Functions/CreateLineWeightPopup.md)
-- [CreateListBox.md](../Functions/CreateListBox.md)
-- [CreateListBoxN.md](../Functions/CreateListBoxN.md)
-- [CreateMarkerPopup.md](../Functions/CreateMarkerPopup.md)
-- [CreatePatternPopup.md](../Functions/CreatePatternPopup.md)
-- [CreatePullDownMenu.md](../Functions/CreatePullDownMenu.md)
-- [CreatePullDownMenuGroupBox.md](../Functions/CreatePullDownMenuGroupBox.md)
-- [CreatePullDownSearch.md](../Functions/CreatePullDownSearch.md)
-- [CreatePushButton.md](../Functions/CreatePushButton.md)
-- [CreateRadioButton.md](../Functions/CreateRadioButton.md)
-- [CreateRadioButton2.md](../Functions/CreateRadioButton2.md)
-- [CreateRadioButtonGroupBox.md](../Functions/CreateRadioButtonGroupBox.md)
-- [CreateResizableLayout.md](../Functions/CreateResizableLayout.md)
-- [CreateResourcePopup.md](../Functions/CreateResourcePopup.md)
-- [CreateRightStaticText.md](../Functions/CreateRightStaticText.md)
-- [CreateSearchEditBox.md](../Functions/CreateSearchEditBox.md)
-- [CreateSeparator.md](../Functions/CreateSeparator.md)
-- [CreateSheetLayerPullDownMenu.md](../Functions/CreateSheetLayerPullDownMenu.md)
-- [CreateStandardIconControl.md](../Functions/CreateStandardIconControl.md)
-- [CreateStaticText.md](../Functions/CreateStaticText.md)
-- [CreateStyledStatic.md](../Functions/CreateStyledStatic.md)
-- [CreateSwapControl.md](../Functions/CreateSwapControl.md)
-- [CreateSwapPane.md](../Functions/CreateSwapPane.md)
-- [CreateSymbolDisplayControl.md](../Functions/CreateSymbolDisplayControl.md)
-- [CreateSymDispCtrlN.md](../Functions/CreateSymDispCtrlN.md)
-- [CreateTabControl.md](../Functions/CreateTabControl.md)
-- [CreateTabPane.md](../Functions/CreateTabPane.md)
-- [CreateThreeStateCheckBox.md](../Functions/CreateThreeStateCheckBox.md)
-- [CreateThumbnailPopup.md](../Functions/CreateThumbnailPopup.md)
-- [CreateTreeControl.md](../Functions/CreateTreeControl.md)
-- [DeleteAllItems.md](../Functions/DeleteAllItems.md)
-- [DeregisterDialogFromTimerEvents.md](../Functions/DeregisterDialogFromTimerEvents.md)
-- [DeselectEditText.md](../Functions/DeselectEditText.md)
-- [DialogTimerEventMessageC.md](../Functions/DialogTimerEventMessageC.md)
-- [DisplayDialogHelpC.md](../Functions/DisplayDialogHelpC.md)
-- [DisplaySwapPane.md](../Functions/DisplaySwapPane.md)
-- [DisplayTabPane.md](../Functions/DisplayTabPane.md)
-- [EnableItem.md](../Functions/EnableItem.md)
-- [EnableLBDropOnIndices.md](../Functions/EnableLBDropOnIndices.md)
-- [EnableTextEdit.md](../Functions/EnableTextEdit.md)
-- [ExpandTreeControlItem.md](../Functions/ExpandTreeControlItem.md)
-- [GetActiveEditItem.md](../Functions/GetActiveEditItem.md)
-- [GetActivePane.md](../Functions/GetActivePane.md)
-- [GetBooleanItem.md](../Functions/GetBooleanItem.md)
-- [GetChoiceCount.md](../Functions/GetChoiceCount.md)
-- [GetChoiceIndex.md](../Functions/GetChoiceIndex.md)
-- [GetChoiceStringFromStoryBoundData.md](../Functions/GetChoiceStringFromStoryBoundData.md)
-- [GetChoiceText.md](../Functions/GetChoiceText.md)
-- [GetColorButton.md](../Functions/GetColorButton.md)
-- [GetColorChoice.md](../Functions/GetColorChoice.md)
-- [GetComponentRect.md](../Functions/GetComponentRect.md)
-- [GetComponentTextWidth.md](../Functions/GetComponentTextWidth.md)
-- [GetControlData.md](../Functions/GetControlData.md)
-- [GetDlgCtrlWidthStdCh.md](../Functions/GetDlgCtrlWidthStdCh.md)
-- [GetEditInteger.md](../Functions/GetEditInteger.md)
-- [GetEditReal.md](../Functions/GetEditReal.md)
-- [GetGradientSlider.md](../Functions/GetGradientSlider.md)
-- [GetGradientSliderData.md](../Functions/GetGradientSliderData.md)
-- [GetGradientSliderSelectedMarker.md](../Functions/GetGradientSliderSelectedMarker.md)
-- [GetIconPushButtonState.md](../Functions/GetIconPushButtonState.md)
-- [GetImagePopupObject.md](../Functions/GetImagePopupObject.md)
-- [GetImagePopupObjectItemIndex.md](../Functions/GetImagePopupObjectItemIndex.md)
-- [GetImagePopupSelectedItem.md](../Functions/GetImagePopupSelectedItem.md)
-- [GetItemText.md](../Functions/GetItemText.md)
-- [GetLayoutDialogPosition.md](../Functions/GetLayoutDialogPosition.md)
-- [GetLayoutDialogSize.md](../Functions/GetLayoutDialogSize.md)
-- [GetLBHeaderTextWidth.md](../Functions/GetLBHeaderTextWidth.md)
-- [GetLineAttributeData.md](../Functions/GetLineAttributeData.md)
-- [GetLineStyleChoice.md](../Functions/GetLineStyleChoice.md)
-- [GetLineTypeAtIndex.md](../Functions/GetLineTypeAtIndex.md)
-- [GetLineTypeAttriData.md](../Functions/GetLineTypeAttriData.md)
-- [GetLineTypeChoice.md](../Functions/GetLineTypeChoice.md)
-- [GetLineWeightChoice.md](../Functions/GetLineWeightChoice.md)
-- [GetMarkerChoice.md](../Functions/GetMarkerChoice.md)
-- [GetMarkerPopupSelectedItem.md](../Functions/GetMarkerPopupSelectedItem.md)
-- [GetMarkerValue.md](../Functions/GetMarkerValue.md)
-- [GetMultilineText.md](../Functions/GetMultilineText.md)
-- [GetNumGradientSliderSegments.md](../Functions/GetNumGradientSliderSegments.md)
-- [GetNumImagePopupItems.md](../Functions/GetNumImagePopupItems.md)
-- [GetNumLineTypeItems.md](../Functions/GetNumLineTypeItems.md)
-- [GetPatternData.md](../Functions/GetPatternData.md)
-- [GetPopUpChoiceIndex.md](../Functions/GetPopUpChoiceIndex.md)
-- [GetSelectedChoiceIndex.md](../Functions/GetSelectedChoiceIndex.md)
-- [GetSelectedChoiceInfo.md](../Functions/GetSelectedChoiceInfo.md)
-- [GetSelectionRange.md](../Functions/GetSelectionRange.md)
-- [GetStoryBoundChoiceStrings.md](../Functions/GetStoryBoundChoiceStrings.md)
-- [GetStoryBoundDataFromChoiceString.md](../Functions/GetStoryBoundDataFromChoiceString.md)
-- [GetStoryChoiceStrsN.md](../Functions/GetStoryChoiceStrsN.md)
-- [GetThreeStateCheckBoxState.md](../Functions/GetThreeStateCheckBoxState.md)
-- [GetTreeControlItemData.md](../Functions/GetTreeControlItemData.md)
-- [GetTreeControlItemText.md](../Functions/GetTreeControlItemText.md)
-- [GetTreeControlSelectedItem.md](../Functions/GetTreeControlSelectedItem.md)
-- [GetTreeControlTextSelectedItem.md](../Functions/GetTreeControlTextSelectedItem.md)
-- [InsertEnhancedPullDownMenuItem.md](../Functions/InsertEnhancedPullDownMenuItem.md)
-- [InsertEnhanPullDownMenuItem.md](../Functions/InsertEnhanPullDownMenuItem.md)
-- [InsertGradientSliderSegment.md](../Functions/InsertGradientSliderSegment.md)
-- [InsertGradientSliSeg.md](../Functions/InsertGradientSliSeg.md)
-- [InsertImagePopupObjectItem.md](../Functions/InsertImagePopupObjectItem.md)
-- [InsertImagePopupResource.md](../Functions/InsertImagePopupResource.md)
-- [InsertImagePopupSeparator.md](../Functions/InsertImagePopupSeparator.md)
-- [InsertPropClassOrLayerItem.md](../Functions/InsertPropClassOrLayerItem.md)
-- [InsertProposedClassOrLayerItem.md](../Functions/InsertProposedClassOrLayerItem.md)
-- [InsertTreeControlItem.md](../Functions/InsertTreeControlItem.md)
-- [IsClassChoiceSelected.md](../Functions/IsClassChoiceSelected.md)
-- [IsItemEnabled.md](../Functions/IsItemEnabled.md)
-- [IsItemVisible.md](../Functions/IsItemVisible.md)
-- [LeftButtonC.md](../Functions/LeftButtonC.md)
-- [NotifyPullDownClicked.md](../Functions/NotifyPullDownClicked.md)
-- [RefreshItem.md](../Functions/RefreshItem.md)
-- [RegisterDialogForTimerEvents.md](../Functions/RegisterDialogForTimerEvents.md)
-- [RemoveAllImagePopupItems.md](../Functions/RemoveAllImagePopupItems.md)
-- [RemoveChoice.md](../Functions/RemoveChoice.md)
-- [RemoveEnhancedPullDownMenuItemRange.md](../Functions/RemoveEnhancedPullDownMenuItemRange.md)
-- [RemoveGradientSliderSegment.md](../Functions/RemoveGradientSliderSegment.md)
-- [RemoveImagePopupItem.md](../Functions/RemoveImagePopupItem.md)
-- [RemoveListBoxTabStop.md](../Functions/RemoveListBoxTabStop.md)
-- [RemoveTreeControlItem.md](../Functions/RemoveTreeControlItem.md)
-- [ResizeDialogC.md](../Functions/ResizeDialogC.md)
-- [RunLayoutDialog.md](../Functions/RunLayoutDialog.md)
-- [RunLayoutDialogN.md](../Functions/RunLayoutDialogN.md)
-- [RunNamedDialog.md](../Functions/RunNamedDialog.md)
-- [RunNamedDialogN.md](../Functions/RunNamedDialogN.md)
-- [SelectChoice.md](../Functions/SelectChoice.md)
-- [SelectClassChoice.md](../Functions/SelectClassChoice.md)
-- [SelectEditText.md](../Functions/SelectEditText.md)
-- [SelectTreeControlItem.md](../Functions/SelectTreeControlItem.md)
-- [SetBelowItem.md](../Functions/SetBelowItem.md)
-- [SetBooleanItem.md](../Functions/SetBooleanItem.md)
-- [SetColorButton.md](../Functions/SetColorButton.md)
-- [SetColorChoice.md](../Functions/SetColorChoice.md)
-- [SetComponentIndeterminate.md](../Functions/SetComponentIndeterminate.md)
-- [SetComponentSize.md](../Functions/SetComponentSize.md)
-- [SetControlData.md](../Functions/SetControlData.md)
-- [SetControlText.md](../Functions/SetControlText.md)
-- [SetdownDialogC.md](../Functions/SetdownDialogC.md)
-- [SetEdgeBinding.md](../Functions/SetEdgeBinding.md)
-- [SetEditColorTextStyl.md](../Functions/SetEditColorTextStyl.md)
-- [SetEditInteger.md](../Functions/SetEditInteger.md)
-- [SetEditReal.md](../Functions/SetEditReal.md)
-- [SetFirstGroupItem.md](../Functions/SetFirstGroupItem.md)
-- [SetFirstLayoutItem.md](../Functions/SetFirstLayoutItem.md)
-- [SetFocusOnItem.md](../Functions/SetFocusOnItem.md)
-- [SetGradientSlider.md](../Functions/SetGradientSlider.md)
-- [SetGradientSliderData.md](../Functions/SetGradientSliderData.md)
-- [SetGradientSliderSelectedMarker.md](../Functions/SetGradientSliderSelectedMarker.md)
-- [SetHelpText.md](../Functions/SetHelpText.md)
-- [SetIconPushButtonState.md](../Functions/SetIconPushButtonState.md)
-- [SetImageControlHandle.md](../Functions/SetImageControlHandle.md)
-- [SetImageControlPath.md](../Functions/SetImageControlPath.md)
-- [SetImagePopupSelectedItem.md](../Functions/SetImagePopupSelectedItem.md)
-- [SetItemClickable.md](../Functions/SetItemClickable.md)
-- [SetItemText.md](../Functions/SetItemText.md)
-- [SetItemToolTipText.md](../Functions/SetItemToolTipText.md)
-- [SetLayoutDialogPosition.md](../Functions/SetLayoutDialogPosition.md)
-- [SetLayoutDialogSize.md](../Functions/SetLayoutDialogSize.md)
-- [SetLayoutOption.md](../Functions/SetLayoutOption.md)
-- [SetLBImageIndexes.md](../Functions/SetLBImageIndexes.md)
-- [SetLineAttributeData.md](../Functions/SetLineAttributeData.md)
-- [SetLineStyleChoice.md](../Functions/SetLineStyleChoice.md)
-- [SetLineTypeAttriData.md](../Functions/SetLineTypeAttriData.md)
-- [SetLineTypeChoice.md](../Functions/SetLineTypeChoice.md)
-- [SetLineWeightChoice.md](../Functions/SetLineWeightChoice.md)
-- [SetListBoxTabStops.md](../Functions/SetListBoxTabStops.md)
-- [SetMarkerChoice.md](../Functions/SetMarkerChoice.md)
-- [SetMarkerValue.md](../Functions/SetMarkerValue.md)
-- [SetPatternData.md](../Functions/SetPatternData.md)
-- [SetProportionalBinding.md](../Functions/SetProportionalBinding.md)
-- [SetRightItem.md](../Functions/SetRightItem.md)
-- [SetSelectionRange.md](../Functions/SetSelectionRange.md)
-- [SetSliderLiveUpdate.md](../Functions/SetSliderLiveUpdate.md)
-- [SetStaticTextColor.md](../Functions/SetStaticTextColor.md)
-- [SetStaticTextColorN.md](../Functions/SetStaticTextColorN.md)
-- [SetStaticTextStyle.md](../Functions/SetStaticTextStyle.md)
-- [SetThreeStateCheckBoxState.md](../Functions/SetThreeStateCheckBoxState.md)
-- [SetTreeControlItemData.md](../Functions/SetTreeControlItemData.md)
-- [SetupDialogC.md](../Functions/SetupDialogC.md)
-- [SetVSResourceFile.md](../Functions/SetVSResourceFile.md)
-- [ShowByClassChoice.md](../Functions/ShowByClassChoice.md)
-- [ShowEditTileDialog.md](../Functions/ShowEditTileDialog.md)
-- [ShowEditTileSettingsDialog.md](../Functions/ShowEditTileSettingsDialog.md)
-- [ShowEnhancedPullDownMenuGroupIcon.md](../Functions/ShowEnhancedPullDownMenuGroupIcon.md)
-- [ShowItem.md](../Functions/ShowItem.md)
-- [ShowNewTileDialog.md](../Functions/ShowNewTileDialog.md)
-- [UpdateImageControl2.md](../Functions/UpdateImageControl2.md)
-- [UpdateImageControl3.md](../Functions/UpdateImageControl3.md)
-- [UpdateImagePushButton.md](../Functions/UpdateImagePushButton.md)
-- [UpdateSymbolDisplayControl.md](../Functions/UpdateSymbolDisplayControl.md)
-- [UpdateSymDispCtrlN.md](../Functions/UpdateSymDispCtrlN.md)
-- [VerifyLayout.md](../Functions/VerifyLayout.md)
+# Dialogs - Modern
+| | | |
+|---|---|---|
+| [AddButtonMode](../Functions/AddButtonMode.md) | [AddChoice](../Functions/AddChoice.md) | [AddListBoxTabStop](../Functions/AddListBoxTabStop.md) |
+| [AddRadioMode](../Functions/AddRadioMode.md) | [AdjustComponentPixelPos](../Functions/AdjustComponentPixelPos.md) | [AlignItemEdge](../Functions/AlignItemEdge.md) |
+| [ClearGradientSliderSegments](../Functions/ClearGradientSliderSegments.md) | [CreateBorderlessBtn](../Functions/CreateBorderlessBtn.md) | [CreateBorderlessMenu](../Functions/CreateBorderlessMenu.md) |
+| [CreateCenteredStaticText](../Functions/CreateCenteredStaticText.md) | [CreateCheckBox](../Functions/CreateCheckBox.md) | [CreateCheckBox2](../Functions/CreateCheckBox2.md) |
+| [CreateCheckBoxGroupBox](../Functions/CreateCheckBoxGroupBox.md) | [CreateClassPullDownMenu](../Functions/CreateClassPullDownMenu.md) | [CreateColorPopup](../Functions/CreateColorPopup.md) |
+| [CreateControl](../Functions/CreateControl.md) | [CreateCustomControl](../Functions/CreateCustomControl.md) | [CreateCustThumbPopup](../Functions/CreateCustThumbPopup.md) |
+| [CreateDataVisPDMenu](../Functions/CreateDataVisPDMenu.md) | [CreateDesignLayerPullDownMenu](../Functions/CreateDesignLayerPullDownMenu.md) | [CreateEditColorText](../Functions/CreateEditColorText.md) |
+| [CreateEditInteger](../Functions/CreateEditInteger.md) | [CreateEditPassword](../Functions/CreateEditPassword.md) | [CreateEditReal](../Functions/CreateEditReal.md) |
+| [CreateEditText](../Functions/CreateEditText.md) | [CreateEditTextBox](../Functions/CreateEditTextBox.md) | [CreateEnhancedPullDownMenu](../Functions/CreateEnhancedPullDownMenu.md) |
+| [CreateGradient](../Functions/CreateGradient.md) | [CreateGroupBox](../Functions/CreateGroupBox.md) | [CreateIconPushButton](../Functions/CreateIconPushButton.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [CreateImageControl](../Functions/CreateImageControl.md) | [CreateImageControl2](../Functions/CreateImageControl2.md) | [CreateImagePushButton](../Functions/CreateImagePushButton.md) |
+| [CreateLayerPDMenu](../Functions/CreateLayerPDMenu.md) | [CreateLayout](../Functions/CreateLayout.md) | [CreateLineAttributePopup](../Functions/CreateLineAttributePopup.md) |
+| [CreateLineStylePopup](../Functions/CreateLineStylePopup.md) | [CreateLineWeightPopup](../Functions/CreateLineWeightPopup.md) | [CreateListBox](../Functions/CreateListBox.md) |
+| [CreateListBoxN](../Functions/CreateListBoxN.md) | [CreateMarkerPopup](../Functions/CreateMarkerPopup.md) | [CreatePatternPopup](../Functions/CreatePatternPopup.md) |
+| [CreatePullDownMenu](../Functions/CreatePullDownMenu.md) | [CreatePullDownMenuGroupBox](../Functions/CreatePullDownMenuGroupBox.md) | [CreatePullDownSearch](../Functions/CreatePullDownSearch.md) |
+| [CreatePushButton](../Functions/CreatePushButton.md) | [CreateRadioButton](../Functions/CreateRadioButton.md) | [CreateRadioButton2](../Functions/CreateRadioButton2.md) |
+| [CreateRadioButtonGroupBox](../Functions/CreateRadioButtonGroupBox.md) | [CreateResizableLayout](../Functions/CreateResizableLayout.md) | [CreateResourcePopup](../Functions/CreateResourcePopup.md) |
+| [CreateRightStaticText](../Functions/CreateRightStaticText.md) | [CreateSearchEditBox](../Functions/CreateSearchEditBox.md) | [CreateSeparator](../Functions/CreateSeparator.md) |
+| [CreateSheetLayerPullDownMenu](../Functions/CreateSheetLayerPullDownMenu.md) | [CreateStandardIconControl](../Functions/CreateStandardIconControl.md) | [CreateStaticText](../Functions/CreateStaticText.md) |
+| [CreateStyledStatic](../Functions/CreateStyledStatic.md) | [CreateSwapControl](../Functions/CreateSwapControl.md) | [CreateSwapPane](../Functions/CreateSwapPane.md) |
+| [CreateSymbolDisplayControl](../Functions/CreateSymbolDisplayControl.md) | [CreateSymDispCtrlN](../Functions/CreateSymDispCtrlN.md) | [CreateTabControl](../Functions/CreateTabControl.md) |
+| [CreateTabPane](../Functions/CreateTabPane.md) | [CreateThreeStateCheckBox](../Functions/CreateThreeStateCheckBox.md) | [CreateThumbnailPopup](../Functions/CreateThumbnailPopup.md) |
+| [CreateTreeControl](../Functions/CreateTreeControl.md) | [DeleteAllItems](../Functions/DeleteAllItems.md) | [DeregisterDialogFromTimerEvents](../Functions/DeregisterDialogFromTimerEvents.md) |
+| [DeselectEditText](../Functions/DeselectEditText.md) | [DisplaySwapPane](../Functions/DisplaySwapPane.md) | [DisplayTabPane](../Functions/DisplayTabPane.md) |
+| [EnableItem](../Functions/EnableItem.md) | [EnableLBDropOnIndices](../Functions/EnableLBDropOnIndices.md) | [EnableTextEdit](../Functions/EnableTextEdit.md) |
+| [ExpandTreeControlItem](../Functions/ExpandTreeControlItem.md) | [GetActiveEditItem](../Functions/GetActiveEditItem.md) | [GetActivePane](../Functions/GetActivePane.md) |
+| [GetBooleanItem](../Functions/GetBooleanItem.md) | [GetChoiceCount](../Functions/GetChoiceCount.md) | [GetChoiceIndex](../Functions/GetChoiceIndex.md) |
+| [GetChoiceStringFromStoryBoundData](../Functions/GetChoiceStringFromStoryBoundData.md) | [GetChoiceText](../Functions/GetChoiceText.md) | [GetColorButton](../Functions/GetColorButton.md) |
+| [GetColorChoice](../Functions/GetColorChoice.md) | [GetComponentRect](../Functions/GetComponentRect.md) | [GetComponentTextWidth](../Functions/GetComponentTextWidth.md) |
+| [GetControlData](../Functions/GetControlData.md) | [GetDlgCtrlWidthStdCh](../Functions/GetDlgCtrlWidthStdCh.md) | [GetEditInteger](../Functions/GetEditInteger.md) |
+| [GetEditReal](../Functions/GetEditReal.md) | [GetGradientSlider](../Functions/GetGradientSlider.md) | [GetGradientSliderData](../Functions/GetGradientSliderData.md) |
+| [GetGradientSliderSelectedMarker](../Functions/GetGradientSliderSelectedMarker.md) | [GetIconPushButtonState](../Functions/GetIconPushButtonState.md) | [GetImagePopupObject](../Functions/GetImagePopupObject.md) |
+| [GetImagePopupObjectItemIndex](../Functions/GetImagePopupObjectItemIndex.md) | [GetImagePopupSelectedItem](../Functions/GetImagePopupSelectedItem.md) | [GetItemText](../Functions/GetItemText.md) |
+| [GetLayoutDialogPosition](../Functions/GetLayoutDialogPosition.md) | [GetLayoutDialogSize](../Functions/GetLayoutDialogSize.md) | [GetLBHeaderTextWidth](../Functions/GetLBHeaderTextWidth.md) |
+| [GetLineAttributeData](../Functions/GetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetLineStyleChoice](../Functions/GetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub>| [GetLineTypeAtIndex](../Functions/GetLineTypeAtIndex.md) |
+| [GetLineTypeAttriData](../Functions/GetLineTypeAttriData.md) | [GetLineTypeChoice](../Functions/GetLineTypeChoice.md) | [GetLineWeightChoice](../Functions/GetLineWeightChoice.md) |
+| [GetMarkerChoice](../Functions/GetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetMarkerPopupSelectedItem](../Functions/GetMarkerPopupSelectedItem.md) | [GetMarkerValue](../Functions/GetMarkerValue.md) |
+| [GetMultilineText](../Functions/GetMultilineText.md) | [GetNumGradientSliderSegments](../Functions/GetNumGradientSliderSegments.md) | [GetNumImagePopupItems](../Functions/GetNumImagePopupItems.md) |
+| [GetNumLineTypeItems](../Functions/GetNumLineTypeItems.md) | [GetPatternData](../Functions/GetPatternData.md) | [GetPopUpChoiceIndex](../Functions/GetPopUpChoiceIndex.md) |
+| [GetSelectedChoiceIndex](../Functions/GetSelectedChoiceIndex.md) | [GetSelectedChoiceInfo](../Functions/GetSelectedChoiceInfo.md) | [GetSelectionRange](../Functions/GetSelectionRange.md) |
+| [GetStoryBoundChoiceStrings](../Functions/GetStoryBoundChoiceStrings.md) | [GetStoryBoundDataFromChoiceString](../Functions/GetStoryBoundDataFromChoiceString.md) | [GetStoryChoiceStrsN](../Functions/GetStoryChoiceStrsN.md) |
+| [GetThreeStateCheckBoxState](../Functions/GetThreeStateCheckBoxState.md) | [GetTreeControlItemData](../Functions/GetTreeControlItemData.md) | [GetTreeControlItemText](../Functions/GetTreeControlItemText.md) |
+| [GetTreeControlSelectedItem](../Functions/GetTreeControlSelectedItem.md) | [GetTreeControlTextSelectedItem](../Functions/GetTreeControlTextSelectedItem.md) | [InsertEnhancedPullDownMenuItem](../Functions/InsertEnhancedPullDownMenuItem.md) <sub>*obsolete in Vectorworks 2012*</sub>|
+| [InsertEnhanPullDownMenuItem](../Functions/InsertEnhanPullDownMenuItem.md) | [InsertGradientSliderSegment](../Functions/InsertGradientSliderSegment.md) | [InsertGradientSliSeg](../Functions/InsertGradientSliSeg.md) |
+| [InsertImagePopupObjectItem](../Functions/InsertImagePopupObjectItem.md) | [InsertImagePopupResource](../Functions/InsertImagePopupResource.md) | [InsertImagePopupSeparator](../Functions/InsertImagePopupSeparator.md) |
+| [InsertPropClassOrLayerItem](../Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](../Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub>| [InsertTreeControlItem](../Functions/InsertTreeControlItem.md) |
+| [IsClassChoiceSelected](../Functions/IsClassChoiceSelected.md) | [IsItemEnabled](../Functions/IsItemEnabled.md) | [IsItemVisible](../Functions/IsItemVisible.md) |
+| [NotifyPullDownClicked](../Functions/NotifyPullDownClicked.md) | [RefreshItem](../Functions/RefreshItem.md) | [RegisterDialogForTimerEvents](../Functions/RegisterDialogForTimerEvents.md) |
+| [RemoveAllImagePopupItems](../Functions/RemoveAllImagePopupItems.md) | [RemoveChoice](../Functions/RemoveChoice.md) | [RemoveEnhancedPullDownMenuItemRange](../Functions/RemoveEnhancedPullDownMenuItemRange.md) |
+| [RemoveGradientSliderSegment](../Functions/RemoveGradientSliderSegment.md) | [RemoveImagePopupItem](../Functions/RemoveImagePopupItem.md) | [RemoveListBoxTabStop](../Functions/RemoveListBoxTabStop.md) |
+| [RemoveTreeControlItem](../Functions/RemoveTreeControlItem.md) | [RunLayoutDialog](../Functions/RunLayoutDialog.md) | [RunLayoutDialogN](../Functions/RunLayoutDialogN.md) |
+| [RunNamedDialog](../Functions/RunNamedDialog.md) | [RunNamedDialogN](../Functions/RunNamedDialogN.md) | [SelectChoice](../Functions/SelectChoice.md) |
+| [SelectClassChoice](../Functions/SelectClassChoice.md) | [SelectEditText](../Functions/SelectEditText.md) | [SelectTreeControlItem](../Functions/SelectTreeControlItem.md) |
+| [SetBelowItem](../Functions/SetBelowItem.md) | [SetBooleanItem](../Functions/SetBooleanItem.md) | [SetColorButton](../Functions/SetColorButton.md) |
+| [SetColorChoice](../Functions/SetColorChoice.md) | [SetComponentIndeterminate](../Functions/SetComponentIndeterminate.md) | [SetComponentSize](../Functions/SetComponentSize.md) |
+| [SetControlData](../Functions/SetControlData.md) | [SetControlText](../Functions/SetControlText.md) | [SetEdgeBinding](../Functions/SetEdgeBinding.md) |
+| [SetEditColorTextStyl](../Functions/SetEditColorTextStyl.md) | [SetEditInteger](../Functions/SetEditInteger.md) | [SetEditReal](../Functions/SetEditReal.md) |
+| [SetFirstGroupItem](../Functions/SetFirstGroupItem.md) | [SetFirstLayoutItem](../Functions/SetFirstLayoutItem.md) | [SetFocusOnItem](../Functions/SetFocusOnItem.md) |
+| [SetGradientSlider](../Functions/SetGradientSlider.md) | [SetGradientSliderData](../Functions/SetGradientSliderData.md) | [SetGradientSliderSelectedMarker](../Functions/SetGradientSliderSelectedMarker.md) |
+| [SetHelpText](../Functions/SetHelpText.md) | [SetIconPushButtonState](../Functions/SetIconPushButtonState.md) | [SetImageControlHandle](../Functions/SetImageControlHandle.md) |
+| [SetImageControlPath](../Functions/SetImageControlPath.md) | [SetImagePopupSelectedItem](../Functions/SetImagePopupSelectedItem.md) | [SetItemClickable](../Functions/SetItemClickable.md) |
+| [SetItemText](../Functions/SetItemText.md) | [SetItemToolTipText](../Functions/SetItemToolTipText.md) | [SetLayoutDialogPosition](../Functions/SetLayoutDialogPosition.md) |
+| [SetLayoutDialogSize](../Functions/SetLayoutDialogSize.md) | [SetLayoutOption](../Functions/SetLayoutOption.md) | [SetLBImageIndexes](../Functions/SetLBImageIndexes.md) |
+| [SetLineAttributeData](../Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetLineStyleChoice](../Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetLineTypeAttriData](../Functions/SetLineTypeAttriData.md) |
+| [SetLineTypeChoice](../Functions/SetLineTypeChoice.md) | [SetLineWeightChoice](../Functions/SetLineWeightChoice.md) | [SetListBoxTabStops](../Functions/SetListBoxTabStops.md) |
+| [SetMarkerChoice](../Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetMarkerValue](../Functions/SetMarkerValue.md) | [SetPatternData](../Functions/SetPatternData.md) |
+| [SetProportionalBinding](../Functions/SetProportionalBinding.md) | [SetRightItem](../Functions/SetRightItem.md) | [SetSelectionRange](../Functions/SetSelectionRange.md) |
+| [SetSliderLiveUpdate](../Functions/SetSliderLiveUpdate.md) | [SetStaticTextColor](../Functions/SetStaticTextColor.md) | [SetStaticTextColorN](../Functions/SetStaticTextColorN.md) |
+| [SetStaticTextStyle](../Functions/SetStaticTextStyle.md) | [SetThreeStateCheckBoxState](../Functions/SetThreeStateCheckBoxState.md) | [SetTreeControlItemData](../Functions/SetTreeControlItemData.md) |
+| [SetVSResourceFile](../Functions/SetVSResourceFile.md) | [ShowByClassChoice](../Functions/ShowByClassChoice.md) | [ShowEditTileDialog](../Functions/ShowEditTileDialog.md) |
+| [ShowEditTileSettingsDialog](../Functions/ShowEditTileSettingsDialog.md) | [ShowEnhancedPullDownMenuGroupIcon](../Functions/ShowEnhancedPullDownMenuGroupIcon.md) | [ShowItem](../Functions/ShowItem.md) |
+| [ShowNewTileDialog](../Functions/ShowNewTileDialog.md) | [UpdateImageControl2](../Functions/UpdateImageControl2.md) | [UpdateImageControl3](../Functions/UpdateImageControl3.md) |
+| [UpdateImagePushButton](../Functions/UpdateImagePushButton.md) | [UpdateSymbolDisplayControl](../Functions/UpdateSymbolDisplayControl.md) | [UpdateSymDispCtrlN](../Functions/UpdateSymDispCtrlN.md) |
+| [VerifyLayout](../Functions/VerifyLayout.md) 

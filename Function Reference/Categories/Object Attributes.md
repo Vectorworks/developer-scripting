@@ -1,105 +1,40 @@
-# Object Attributes
+[Function Reference](../README.md)
 
-- [AddSubMtrlToMtrl.md](../Functions/AddSubMtrlToMtrl.md)
-- [CountFillSpaces.md](../Functions/CountFillSpaces.md)
-- [CreateFillSpace.md](../Functions/CreateFillSpace.md)
-- [CreateMaterial.md](../Functions/CreateMaterial.md)
-- [EnableDropShadow.md](../Functions/EnableDropShadow.md)
-- [GetClass.md](../Functions/GetClass.md)
-- [GetDescriptionText.md](../Functions/GetDescriptionText.md)
-- [GetDropShadowByCls.md](../Functions/GetDropShadowByCls.md)
-- [GetDropShadowData.md](../Functions/GetDropShadowData.md)
-- [GetEntityMatrix.md](../Functions/GetEntityMatrix.md)
-- [GetFillBack.md](../Functions/GetFillBack.md)
-- [GetFillFore.md](../Functions/GetFillFore.md)
-- [GetFillIAxisEndPoint.md](../Functions/GetFillIAxisEndPoint.md)
-- [GetFillJAxisEndPoint.md](../Functions/GetFillJAxisEndPoint.md)
-- [GetFillOriginPoint.md](../Functions/GetFillOriginPoint.md)
-- [GetFillPoints.md](../Functions/GetFillPoints.md)
-- [GetFillSpace.md](../Functions/GetFillSpace.md)
-- [GetFPat.md](../Functions/GetFPat.md)
-- [GetLS.md](../Functions/GetLS.md)
-- [GetLSN.md](../Functions/GetLSN.md)
-- [GetLW.md](../Functions/GetLW.md)
-- [GetMarker.md](../Functions/GetMarker.md)
-- [GetMaterialArea.md](../Functions/GetMaterialArea.md)
-- [GetMaterialFillStyle.md](../Functions/GetMaterialFillStyle.md)
-- [GetMaterialTexture.md](../Functions/GetMaterialTexture.md)
-- [GetMaterialVolume.md](../Functions/GetMaterialVolume.md)
-- [GetMtlFillBackColor.md](../Functions/GetMtlFillBackColor.md)
-- [GetMtlFillForeColor.md](../Functions/GetMtlFillForeColor.md)
-- [GetMtlPenBackColor.md](../Functions/GetMtlPenBackColor.md)
-- [GetMtlPenForeColor.md](../Functions/GetMtlPenForeColor.md)
-- [GetObjArrow.md](../Functions/GetObjArrow.md)
-- [GetObjBeginningMarker.md](../Functions/GetObjBeginningMarker.md)
-- [GetObjEndMarker.md](../Functions/GetObjEndMarker.md)
-- [GetObjMaterialHandle.md](../Functions/GetObjMaterialHandle.md)
-- [GetObjMaterialName.md](../Functions/GetObjMaterialName.md)
-- [GetObjTypeProperties.md](../Functions/GetObjTypeProperties.md)
-- [GetOpacity.md](../Functions/GetOpacity.md)
-- [GetOpacityByClass.md](../Functions/GetOpacityByClass.md)
-- [GetOpacityByClassN.md](../Functions/GetOpacityByClassN.md)
-- [GetOpacityN.md](../Functions/GetOpacityN.md)
-- [GetPenBack.md](../Functions/GetPenBack.md)
-- [GetPenFore.md](../Functions/GetPenFore.md)
-- [GetViewMatrix.md](../Functions/GetViewMatrix.md)
-- [HideSelectedObjects.md](../Functions/HideSelectedObjects.md)
-- [IsDropShadowEnabled.md](../Functions/IsDropShadowEnabled.md)
-- [IsFillColorByClass.md](../Functions/IsFillColorByClass.md)
-- [IsFPatByClass.md](../Functions/IsFPatByClass.md)
-- [IsLSByClass.md](../Functions/IsLSByClass.md)
-- [IsLWByClass.md](../Functions/IsLWByClass.md)
-- [IsMarkerByClass.md](../Functions/IsMarkerByClass.md)
-- [IsMaterialSimple.md](../Functions/IsMaterialSimple.md)
-- [IsMtrlFillStyleByCls.md](../Functions/IsMtrlFillStyleByCls.md)
-- [IsObjectFlipped.md](../Functions/IsObjectFlipped.md)
-- [IsPenColorByClass.md](../Functions/IsPenColorByClass.md)
-- [IsPlanarObj.md](../Functions/IsPlanarObj.md)
-- [IsTextStyleByClass.md](../Functions/IsTextStyleByClass.md)
-- [RemoveSubMtrlFromMtl.md](../Functions/RemoveSubMtrlFromMtl.md)
-- [SetClass.md](../Functions/SetClass.md)
-- [SetClassN.md](../Functions/SetClassN.md)
-- [SetDescriptionText.md](../Functions/SetDescriptionText.md)
-- [SetDropShadowByCls.md](../Functions/SetDropShadowByCls.md)
-- [SetDropShadowData.md](../Functions/SetDropShadowData.md)
-- [SetEntityMatrix.md](../Functions/SetEntityMatrix.md)
-- [SetEntityMatrixN.md](../Functions/SetEntityMatrixN.md)
-- [SetFillBack.md](../Functions/SetFillBack.md)
-- [SetFillColorByClass.md](../Functions/SetFillColorByClass.md)
-- [SetFillFore.md](../Functions/SetFillFore.md)
-- [SetFillIAxisEndPoint.md](../Functions/SetFillIAxisEndPoint.md)
-- [SetFillJAxisEndPoint.md](../Functions/SetFillJAxisEndPoint.md)
-- [SetFillOriginPoint.md](../Functions/SetFillOriginPoint.md)
-- [SetFPat.md](../Functions/SetFPat.md)
-- [SetFPatByClass.md](../Functions/SetFPatByClass.md)
-- [SetLS.md](../Functions/SetLS.md)
-- [SetLSByClass.md](../Functions/SetLSByClass.md)
-- [SetLSN.md](../Functions/SetLSN.md)
-- [SetLW.md](../Functions/SetLW.md)
-- [SetLWByClass.md](../Functions/SetLWByClass.md)
-- [SetMarker.md](../Functions/SetMarker.md)
-- [SetMarkerByClass.md](../Functions/SetMarkerByClass.md)
-- [SetMaterialFillStyle.md](../Functions/SetMaterialFillStyle.md)
-- [SetMaterialTexture.md](../Functions/SetMaterialTexture.md)
-- [SetMtlFillBackColor.md](../Functions/SetMtlFillBackColor.md)
-- [SetMtlFillForeColor.md](../Functions/SetMtlFillForeColor.md)
-- [SetMtlFillStyleByCls.md](../Functions/SetMtlFillStyleByCls.md)
-- [SetMtlPenBackColor.md](../Functions/SetMtlPenBackColor.md)
-- [SetMtlPenForeColor.md](../Functions/SetMtlPenForeColor.md)
-- [SetObjArrow.md](../Functions/SetObjArrow.md)
-- [SetObjBeginningMarker.md](../Functions/SetObjBeginningMarker.md)
-- [SetObjEndMarker.md](../Functions/SetObjEndMarker.md)
-- [SetObjMaterialHandle.md](../Functions/SetObjMaterialHandle.md)
-- [SetOpacity.md](../Functions/SetOpacity.md)
-- [SetOpacityByClass.md](../Functions/SetOpacityByClass.md)
-- [SetOpacityByClassN.md](../Functions/SetOpacityByClassN.md)
-- [SetOpacityN.md](../Functions/SetOpacityN.md)
-- [SetPenBack.md](../Functions/SetPenBack.md)
-- [SetPenColorByClass.md](../Functions/SetPenColorByClass.md)
-- [SetPenFore.md](../Functions/SetPenFore.md)
-- [SetTextStyleByClass.md](../Functions/SetTextStyleByClass.md)
-- [SetViewMatrix.md](../Functions/SetViewMatrix.md)
-- [ShowOnlySelected.md](../Functions/ShowOnlySelected.md)
-- [UnHideObjects.md](../Functions/UnHideObjects.md)
-- [UpdateSubMtrlInMtrl.md](../Functions/UpdateSubMtrlInMtrl.md)
-- [UpdateThumbnailPreview.md](../Functions/UpdateThumbnailPreview.md)
+# Object Attributes
+| | | |
+|---|---|---|
+| [AddSubMtrlToMtrl](../Functions/AddSubMtrlToMtrl.md) | [CountFillSpaces](../Functions/CountFillSpaces.md) | [CreateFillSpace](../Functions/CreateFillSpace.md) |
+| [CreateMaterial](../Functions/CreateMaterial.md) | [EnableDropShadow](../Functions/EnableDropShadow.md) | [ExcludeFromDataVis](../Functions/ExcludeFromDataVis.md) |
+| [GetClass](../Functions/GetClass.md) | [GetDescriptionText](../Functions/GetDescriptionText.md) | [GetDropShadowByCls](../Functions/GetDropShadowByCls.md) |
+| [GetDropShadowData](../Functions/GetDropShadowData.md) | [GetEntityMatrix](../Functions/GetEntityMatrix.md) | [GetFillBack](../Functions/GetFillBack.md) |
+| [GetFillFore](../Functions/GetFillFore.md) | [GetFillIAxisEndPoint](../Functions/GetFillIAxisEndPoint.md) | [GetFillJAxisEndPoint](../Functions/GetFillJAxisEndPoint.md) |
+| [GetFillOriginPoint](../Functions/GetFillOriginPoint.md) | [GetFillPoints](../Functions/GetFillPoints.md) | [GetFillSpace](../Functions/GetFillSpace.md) |
+| [GetFPat](../Functions/GetFPat.md) | [GetLS](../Functions/GetLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [GetLSN](../Functions/GetLSN.md) |
+| [GetLW](../Functions/GetLW.md) | [GetMarker](../Functions/GetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetMaterialArea](../Functions/GetMaterialArea.md) |
+| [GetMaterialFillStyle](../Functions/GetMaterialFillStyle.md) | [GetMaterialTexture](../Functions/GetMaterialTexture.md) | [GetMaterialVolume](../Functions/GetMaterialVolume.md) |
+| [GetMtlFillBackColor](../Functions/GetMtlFillBackColor.md) | [GetMtlFillForeColor](../Functions/GetMtlFillForeColor.md) | [GetMtlPenBackColor](../Functions/GetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub>|
+| [GetMtlPenForeColor](../Functions/GetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub>| [GetObjArrow](../Functions/GetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>| [GetObjBeginningMarker](../Functions/GetObjBeginningMarker.md) |
+| [GetObjEndMarker](../Functions/GetObjEndMarker.md) | [GetObjMaterialHandle](../Functions/GetObjMaterialHandle.md) | [GetObjMaterialName](../Functions/GetObjMaterialName.md) |
+| [GetObjTypeProperties](../Functions/GetObjTypeProperties.md) | [GetOpacity](../Functions/GetOpacity.md) | [GetOpacityByClass](../Functions/GetOpacityByClass.md) |
+| [GetOpacityByClassN](../Functions/GetOpacityByClassN.md) | [GetOpacityN](../Functions/GetOpacityN.md) | [GetPenBack](../Functions/GetPenBack.md) |
+| [GetPenFore](../Functions/GetPenFore.md) | [GetViewMatrix](../Functions/GetViewMatrix.md) | [HideSelectedObjects](../Functions/HideSelectedObjects.md) |
+| [IsDropShadowEnabled](../Functions/IsDropShadowEnabled.md) | [IsFillColorByClass](../Functions/IsFillColorByClass.md) | [IsFPatByClass](../Functions/IsFPatByClass.md) |
+| [IsLSByClass](../Functions/IsLSByClass.md) | [IsLWByClass](../Functions/IsLWByClass.md) | [IsMarkerByClass](../Functions/IsMarkerByClass.md) |
+| [IsMaterialSimple](../Functions/IsMaterialSimple.md) | [IsMtrlFillStyleByCls](../Functions/IsMtrlFillStyleByCls.md) | [IsObjectFlipped](../Functions/IsObjectFlipped.md) |
+| [IsPenColorByClass](../Functions/IsPenColorByClass.md) | [IsPlanarObj](../Functions/IsPlanarObj.md) | [IsTextStyleByClass](../Functions/IsTextStyleByClass.md) |
+| [RemoveSubMtrlFromMtl](../Functions/RemoveSubMtrlFromMtl.md) | [SetClass](../Functions/SetClass.md) | [SetClassN](../Functions/SetClassN.md) |
+| [SetDescriptionText](../Functions/SetDescriptionText.md) | [SetDropShadowByCls](../Functions/SetDropShadowByCls.md) | [SetDropShadowData](../Functions/SetDropShadowData.md) |
+| [SetEntityMatrix](../Functions/SetEntityMatrix.md) | [SetEntityMatrixN](../Functions/SetEntityMatrixN.md) | [SetFillBack](../Functions/SetFillBack.md) |
+| [SetFillColorByClass](../Functions/SetFillColorByClass.md) | [SetFillFore](../Functions/SetFillFore.md) | [SetFillIAxisEndPoint](../Functions/SetFillIAxisEndPoint.md) |
+| [SetFillJAxisEndPoint](../Functions/SetFillJAxisEndPoint.md) | [SetFillOriginPoint](../Functions/SetFillOriginPoint.md) | [SetFPat](../Functions/SetFPat.md) |
+| [SetFPatByClass](../Functions/SetFPatByClass.md) | [SetLS](../Functions/SetLS.md) <sub>*obsolete in Vectorworks 2013*</sub>| [SetLSByClass](../Functions/SetLSByClass.md) |
+| [SetLSN](../Functions/SetLSN.md) | [SetLW](../Functions/SetLW.md) | [SetLWByClass](../Functions/SetLWByClass.md) |
+| [SetMarker](../Functions/SetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetMarkerByClass](../Functions/SetMarkerByClass.md) | [SetMaterialFillStyle](../Functions/SetMaterialFillStyle.md) |
+| [SetMaterialTexture](../Functions/SetMaterialTexture.md) | [SetMtlFillBackColor](../Functions/SetMtlFillBackColor.md) | [SetMtlFillForeColor](../Functions/SetMtlFillForeColor.md) |
+| [SetMtlFillStyleByCls](../Functions/SetMtlFillStyleByCls.md) | [SetMtlPenBackColor](../Functions/SetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub>| [SetMtlPenForeColor](../Functions/SetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub>|
+| [SetObjArrow](../Functions/SetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub>| [SetObjBeginningMarker](../Functions/SetObjBeginningMarker.md) | [SetObjEndMarker](../Functions/SetObjEndMarker.md) |
+| [SetObjMaterialHandle](../Functions/SetObjMaterialHandle.md) | [SetOpacity](../Functions/SetOpacity.md) | [SetOpacityByClass](../Functions/SetOpacityByClass.md) |
+| [SetOpacityByClassN](../Functions/SetOpacityByClassN.md) | [SetOpacityN](../Functions/SetOpacityN.md) | [SetPenBack](../Functions/SetPenBack.md) |
+| [SetPenColorByClass](../Functions/SetPenColorByClass.md) | [SetPenFore](../Functions/SetPenFore.md) | [SetTextStyleByClass](../Functions/SetTextStyleByClass.md) |
+| [SetViewMatrix](../Functions/SetViewMatrix.md) | [ShowOnlySelected](../Functions/ShowOnlySelected.md) | [UnHideObjects](../Functions/UnHideObjects.md) |
+| [UpdateSubMtrlInMtrl](../Functions/UpdateSubMtrlInMtrl.md) | [UpdateThumbnailPreview](../Functions/UpdateThumbnailPreview.md) 

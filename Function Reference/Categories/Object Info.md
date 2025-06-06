@@ -1,43 +1,20 @@
-# Object Info
+[Function Reference](../README.md)
 
-- [ConsolidatePlanar.md](../Functions/ConsolidatePlanar.md)
-- [Get2DPt.md](../Functions/Get2DPt.md)
-- [GetBBox.md](../Functions/GetBBox.md)
-- [GetObjectByUuid.md](../Functions/GetObjectByUuid.md)
-- [GetObjectUuid.md](../Functions/GetObjectUuid.md)
-- [GetObjectVariableBoolean.md](../Functions/GetObjectVariableBoolean.md)
-- [GetObjectVariableHandle.md](../Functions/GetObjectVariableHandle.md)
-- [GetObjectVariableInt.md](../Functions/GetObjectVariableInt.md)
-- [GetObjectVariableLongInt.md](../Functions/GetObjectVariableLongInt.md)
-- [GetObjectVariablePoint.md](../Functions/GetObjectVariablePoint.md)
-- [GetObjectVariableReal.md](../Functions/GetObjectVariableReal.md)
-- [GetObjectVariableString.md](../Functions/GetObjectVariableString.md)
-- [GetParent.md](../Functions/GetParent.md)
-- [GetPlanarRef.md](../Functions/GetPlanarRef.md)
-- [GetSymLoc.md](../Functions/GetSymLoc.md)
-- [GetSymRot.md](../Functions/GetSymRot.md)
-- [GetType.md](../Functions/GetType.md)
-- [GetTypeN.md](../Functions/GetTypeN.md)
-- [HAngle.md](../Functions/HAngle.md)
-- [HArea.md](../Functions/HArea.md)
-- [HAreaN.md](../Functions/HAreaN.md)
-- [HHeight.md](../Functions/HHeight.md)
-- [HLength.md](../Functions/HLength.md)
-- [HPerim.md](../Functions/HPerim.md)
-- [HPerimN.md](../Functions/HPerimN.md)
-- [HWidth.md](../Functions/HWidth.md)
-- [IsLocked.md](../Functions/IsLocked.md)
-- [ObjArea.md](../Functions/ObjArea.md)
-- [ObjAreaN.md](../Functions/ObjAreaN.md)
-- [SetAngle.md](../Functions/SetAngle.md)
-- [SetHeight.md](../Functions/SetHeight.md)
-- [SetObjectVariableBoolean.md](../Functions/SetObjectVariableBoolean.md)
-- [SetObjectVariableHandle.md](../Functions/SetObjectVariableHandle.md)
-- [SetObjectVariableInt.md](../Functions/SetObjectVariableInt.md)
-- [SetObjectVariableLongInt.md](../Functions/SetObjectVariableLongInt.md)
-- [SetObjectVariablePoint.md](../Functions/SetObjectVariablePoint.md)
-- [SetObjectVariableReal.md](../Functions/SetObjectVariableReal.md)
-- [SetObjectVariableString.md](../Functions/SetObjectVariableString.md)
-- [SetPlanarRef.md](../Functions/SetPlanarRef.md)
-- [SetPlanarRefIDToGround.md](../Functions/SetPlanarRefIDToGround.md)
-- [SetWidth.md](../Functions/SetWidth.md)
+# Object Info
+| | | |
+|---|---|---|
+| [ConsolidatePlanar](../Functions/ConsolidatePlanar.md) | [Get2DPt](../Functions/Get2DPt.md) | [GetBBox](../Functions/GetBBox.md) |
+| [GetObjectByUuid](../Functions/GetObjectByUuid.md) | [GetObjectUuid](../Functions/GetObjectUuid.md) | [GetObjectVariableBoolean](../Functions/GetObjectVariableBoolean.md) |
+| [GetObjectVariableHandle](../Functions/GetObjectVariableHandle.md) | [GetObjectVariableInt](../Functions/GetObjectVariableInt.md) | [GetObjectVariableLongInt](../Functions/GetObjectVariableLongInt.md) |
+| [GetObjectVariablePoint](../Functions/GetObjectVariablePoint.md) | [GetObjectVariableReal](../Functions/GetObjectVariableReal.md) | [GetObjectVariableString](../Functions/GetObjectVariableString.md) |
+| [GetParent](../Functions/GetParent.md) | [GetPlanarRef](../Functions/GetPlanarRef.md) | [GetSymLoc](../Functions/GetSymLoc.md) |
+| [GetSymRot](../Functions/GetSymRot.md) | [GetType](../Functions/GetType.md) <sub>*obsolete in Vectorworks 2011*</sub>| [GetTypeN](../Functions/GetTypeN.md) |
+| [HAngle](../Functions/HAngle.md) | [HArea](../Functions/HArea.md) <sub>*obsolete in VectorWorks12.5*</sub>| [HAreaN](../Functions/HAreaN.md) |
+| [HHeight](../Functions/HHeight.md) | [HLength](../Functions/HLength.md) | [HPerim](../Functions/HPerim.md) |
+| [HPerimN](../Functions/HPerimN.md) | [HWidth](../Functions/HWidth.md) | [IsLocked](../Functions/IsLocked.md) |
+| [IsResourceReferenced](../Functions/IsResourceReferenced.md) | [ObjArea](../Functions/ObjArea.md) | [ObjAreaN](../Functions/ObjAreaN.md) |
+| [SetAngle](../Functions/SetAngle.md) | [SetHeight](../Functions/SetHeight.md) | [SetObjectVariableBoolean](../Functions/SetObjectVariableBoolean.md) |
+| [SetObjectVariableHandle](../Functions/SetObjectVariableHandle.md) | [SetObjectVariableInt](../Functions/SetObjectVariableInt.md) | [SetObjectVariableLongInt](../Functions/SetObjectVariableLongInt.md) |
+| [SetObjectVariablePoint](../Functions/SetObjectVariablePoint.md) | [SetObjectVariableReal](../Functions/SetObjectVariableReal.md) | [SetObjectVariableString](../Functions/SetObjectVariableString.md) |
+| [SetPlanarRef](../Functions/SetPlanarRef.md) | [SetPlanarRefIDToGround](../Functions/SetPlanarRefIDToGround.md) | [SetWidth](../Functions/SetWidth.md) |
+

@@ -1,166 +1,60 @@
-# Worksheets
+[Function Reference](../README.md)
 
-- [ActSSheet.md](../Functions/ActSSheet.md)
-- [AddWSColumnOperator.md](../Functions/AddWSColumnOperator.md)
-- [AreWorksheetGridLinesVisible.md](../Functions/AreWorksheetGridLinesVisible.md)
-- [AutoFitWSRowHeights.md](../Functions/AutoFitWSRowHeights.md)
-- [CellHasNum.md](../Functions/CellHasNum.md)
-- [CellHasStr.md](../Functions/CellHasStr.md)
-- [CellString.md](../Functions/CellString.md)
-- [CellValue.md](../Functions/CellValue.md)
-- [ClearWSCell.md](../Functions/ClearWSCell.md)
-- [CloseSS.md](../Functions/CloseSS.md)
-- [CreateWS.md](../Functions/CreateWS.md)
-- [CreateWSImage.md](../Functions/CreateWSImage.md)
-- [DeleteWSColumns.md](../Functions/DeleteWSColumns.md)
-- [DeleteWSRows.md](../Functions/DeleteWSRows.md)
-- [EnableDrawingWorksheetPalette.md](../Functions/EnableDrawingWorksheetPalette.md)
-- [GetCAlign.md](../Functions/GetCAlign.md)
-- [GetCellNum.md](../Functions/GetCellNum.md)
-- [GetCellStr.md](../Functions/GetCellStr.md)
-- [GetCWidth.md](../Functions/GetCWidth.md)
-- [GetSprdSortSum.md](../Functions/GetSprdSortSum.md)
-- [GetSprdSortSumColumns.md](../Functions/GetSprdSortSumColumns.md)
-- [GetTopVisibleWS.md](../Functions/GetTopVisibleWS.md)
-- [GetWSAutoRecalcState.md](../Functions/GetWSAutoRecalcState.md)
-- [GetWSCellAlignment.md](../Functions/GetWSCellAlignment.md)
-- [GetWSCellBorder.md](../Functions/GetWSCellBorder.md)
-- [GetWSCellFill.md](../Functions/GetWSCellFill.md)
-- [GetWSCellFormula.md](../Functions/GetWSCellFormula.md)
-- [GetWSCellFormulaN.md](../Functions/GetWSCellFormulaN.md)
-- [GetWSCellNumberFormat.md](../Functions/GetWSCellNumberFormat.md)
-- [GetWSCellsImgDPIRes.md](../Functions/GetWSCellsImgDPIRes.md)
-- [GetWSCellString.md](../Functions/GetWSCellString.md)
-- [GetWSCellStringN.md](../Functions/GetWSCellStringN.md)
-- [GetWSCellTextAngle.md](../Functions/GetWSCellTextAngle.md)
-- [GetWSCellTextColor.md](../Functions/GetWSCellTextColor.md)
-- [GetWSCellTextFormat.md](../Functions/GetWSCellTextFormat.md)
-- [GetWSCellValue.md](../Functions/GetWSCellValue.md)
-- [GetWSCellVertAlignment.md](../Functions/GetWSCellVertAlignment.md)
-- [GetWSCellWrapTextFlag.md](../Functions/GetWSCellWrapTextFlag.md)
-- [GetWSColumnOperators.md](../Functions/GetWSColumnOperators.md)
-- [GetWSColumnSortPrecedence.md](../Functions/GetWSColumnSortPrecedence.md)
-- [GetWSColumnSortType.md](../Functions/GetWSColumnSortType.md)
-- [GetWSColumnWidth.md](../Functions/GetWSColumnWidth.md)
-- [GetWSFromImage.md](../Functions/GetWSFromImage.md)
-- [GetWSImage.md](../Functions/GetWSImage.md)
-- [GetWSImageScaleF.md](../Functions/GetWSImageScaleF.md)
-- [GetWSImgAngle.md](../Functions/GetWSImgAngle.md)
-- [GetWSImgComponent.md](../Functions/GetWSImgComponent.md)
-- [GetWSImgMarginSize.md](../Functions/GetWSImgMarginSize.md)
-- [GetWSImgRenderMode.md](../Functions/GetWSImgRenderMode.md)
-- [GetWSImgScale.md](../Functions/GetWSImgScale.md)
-- [GetWSImgShowDBHeader.md](../Functions/GetWSImgShowDBHeader.md)
-- [GetWSImgSize.md](../Functions/GetWSImgSize.md)
-- [GetWSImgSizeType.md](../Functions/GetWSImgSizeType.md)
-- [GetWSImgType.md](../Functions/GetWSImgType.md)
-- [GetWSImgUseLayScale.md](../Functions/GetWSImgUseLayScale.md)
-- [GetWSImgUseObjectImg.md](../Functions/GetWSImgUseObjectImg.md)
-- [GetWSImgView.md](../Functions/GetWSImgView.md)
-- [GetWSMergedCellRange.md](../Functions/GetWSMergedCellRange.md)
-- [GetWSPlacement.md](../Functions/GetWSPlacement.md)
-- [GetWSRowColumnCount.md](../Functions/GetWSRowColumnCount.md)
-- [GetWSRowHeight.md](../Functions/GetWSRowHeight.md)
-- [GetWSRowHLockState.md](../Functions/GetWSRowHLockState.md)
-- [GetWSSelection.md](../Functions/GetWSSelection.md)
-- [GetWSSubrowActualCellString.md](../Functions/GetWSSubrowActualCellString.md)
-- [GetWSSubrowActualStringN.md](../Functions/GetWSSubrowActualStringN.md)
-- [GetWSSubrowCellString.md](../Functions/GetWSSubrowCellString.md)
-- [GetWSSubrowCellStrN.md](../Functions/GetWSSubrowCellStrN.md)
-- [GetWSSubrowCellValue.md](../Functions/GetWSSubrowCellValue.md)
-- [GetWSSubrowCount.md](../Functions/GetWSSubrowCount.md)
-- [GetWSSubrowHeight.md](../Functions/GetWSSubrowHeight.md)
-- [HasWSColumnOperator.md](../Functions/HasWSColumnOperator.md)
-- [InsertWSColumns.md](../Functions/InsertWSColumns.md)
-- [InsertWSRows.md](../Functions/InsertWSRows.md)
-- [IsValidWSCell.md](../Functions/IsValidWSCell.md)
-- [IsValidWSRange.md](../Functions/IsValidWSRange.md)
-- [IsValidWSSubrowCell.md](../Functions/IsValidWSSubrowCell.md)
-- [IsWSCellNumber.md](../Functions/IsWSCellNumber.md)
-- [IsWSCellString.md](../Functions/IsWSCellString.md)
-- [IsWSDatabaseRow.md](../Functions/IsWSDatabaseRow.md)
-- [IsWSImg.md](../Functions/IsWSImg.md)
-- [IsWSSubrowCellNumber.md](../Functions/IsWSSubrowCellNumber.md)
-- [IsWSSubrowCellString.md](../Functions/IsWSSubrowCellString.md)
-- [IsWSVisible.md](../Functions/IsWSVisible.md)
-- [LoadCell.md](../Functions/LoadCell.md)
-- [MoveWSColumnOperator.md](../Functions/MoveWSColumnOperator.md)
-- [NewSprdSheet.md](../Functions/NewSprdSheet.md)
-- [RecalculateWS.md](../Functions/RecalculateWS.md)
-- [RemoveAllWSColumnOperators.md](../Functions/RemoveAllWSColumnOperators.md)
-- [RemoveWSColumnOperator.md](../Functions/RemoveWSColumnOperator.md)
-- [SelectSS.md](../Functions/SelectSS.md)
-- [SetSprdSortSum.md](../Functions/SetSprdSortSum.md)
-- [SetSprdSortSumColumns.md](../Functions/SetSprdSortSumColumns.md)
-- [SetTopVisibleWS.md](../Functions/SetTopVisibleWS.md)
-- [SetWorksheetGridLinesVisibility.md](../Functions/SetWorksheetGridLinesVisibility.md)
-- [SetWSAutoRecalcState.md](../Functions/SetWSAutoRecalcState.md)
-- [SetWSCellAlignment.md](../Functions/SetWSCellAlignment.md)
-- [SetWSCellBorder.md](../Functions/SetWSCellBorder.md)
-- [SetWSCellBorders.md](../Functions/SetWSCellBorders.md)
-- [SetWSCellBottomBN.md](../Functions/SetWSCellBottomBN.md)
-- [SetWSCellBottomBorder.md](../Functions/SetWSCellBottomBorder.md)
-- [SetWSCellFill.md](../Functions/SetWSCellFill.md)
-- [SetWSCellFormula.md](../Functions/SetWSCellFormula.md)
-- [SetWSCellFormulaN.md](../Functions/SetWSCellFormulaN.md)
-- [SetWSCellInsideHorizBorder.md](../Functions/SetWSCellInsideHorizBorder.md)
-- [SetWSCellInsideHzBN.md](../Functions/SetWSCellInsideHzBN.md)
-- [SetWSCellInsideVertBorder.md](../Functions/SetWSCellInsideVertBorder.md)
-- [SetWSCellInsideVtBN.md](../Functions/SetWSCellInsideVtBN.md)
-- [SetWSCellLeftBN.md](../Functions/SetWSCellLeftBN.md)
-- [SetWSCellLeftBorder.md](../Functions/SetWSCellLeftBorder.md)
-- [SetWSCellNumberFormat.md](../Functions/SetWSCellNumberFormat.md)
-- [SetWSCellOutlineBN.md](../Functions/SetWSCellOutlineBN.md)
-- [SetWSCellOutlineBorder.md](../Functions/SetWSCellOutlineBorder.md)
-- [SetWSCellRightBN.md](../Functions/SetWSCellRightBN.md)
-- [SetWSCellRightBorder.md](../Functions/SetWSCellRightBorder.md)
-- [SetWSCellsImgDPIRes.md](../Functions/SetWSCellsImgDPIRes.md)
-- [SetWSCellTextColor.md](../Functions/SetWSCellTextColor.md)
-- [SetWSCellTextFormat.md](../Functions/SetWSCellTextFormat.md)
-- [SetWSCellTopBN.md](../Functions/SetWSCellTopBN.md)
-- [SetWSCellTopBorder.md](../Functions/SetWSCellTopBorder.md)
-- [SetWSCellVertAlignment.md](../Functions/SetWSCellVertAlignment.md)
-- [SetWSCellWrapTextFlag.md](../Functions/SetWSCellWrapTextFlag.md)
-- [SetWSColumnOperators.md](../Functions/SetWSColumnOperators.md)
-- [SetWSColumnSortType.md](../Functions/SetWSColumnSortType.md)
-- [SetWSColumnWidth.md](../Functions/SetWSColumnWidth.md)
-- [SetWSCurrentCell.md](../Functions/SetWSCurrentCell.md)
-- [SetWSImageScaleF.md](../Functions/SetWSImageScaleF.md)
-- [SetWSImgAngle.md](../Functions/SetWSImgAngle.md)
-- [SetWSImgComponent.md](../Functions/SetWSImgComponent.md)
-- [SetWSImgMarginSize.md](../Functions/SetWSImgMarginSize.md)
-- [SetWSImgRenderMode.md](../Functions/SetWSImgRenderMode.md)
-- [SetWSImgScale.md](../Functions/SetWSImgScale.md)
-- [SetWSImgShowDBHeader.md](../Functions/SetWSImgShowDBHeader.md)
-- [SetWSImgSize.md](../Functions/SetWSImgSize.md)
-- [SetWSImgSizeType.md](../Functions/SetWSImgSizeType.md)
-- [SetWSImgType.md](../Functions/SetWSImgType.md)
-- [SetWSImgUseLayScale.md](../Functions/SetWSImgUseLayScale.md)
-- [SetWSImgUseObjectImg.md](../Functions/SetWSImgUseObjectImg.md)
-- [SetWSImgView.md](../Functions/SetWSImgView.md)
-- [SetWSPlacement.md](../Functions/SetWSPlacement.md)
-- [SetWSRowHeight.md](../Functions/SetWSRowHeight.md)
-- [SetWSSelection.md](../Functions/SetWSSelection.md)
-- [SetWSTextAngle.md](../Functions/SetWSTextAngle.md)
-- [ShowWS.md](../Functions/ShowWS.md)
-- [ShowWSDialog.md](../Functions/ShowWSDialog.md)
-- [SprdAlign.md](../Functions/SprdAlign.md)
-- [SprdBorder.md](../Functions/SprdBorder.md)
-- [SprdFormat.md](../Functions/SprdFormat.md)
-- [SprdSize.md](../Functions/SprdSize.md)
-- [SprdWidth.md](../Functions/SprdWidth.md)
-- [TargetSprdSheet.md](../Functions/TargetSprdSheet.md)
-- [WorksheetMergeCells.md](../Functions/WorksheetMergeCells.md)
-- [WorksheetSplitCells.md](../Functions/WorksheetSplitCells.md)
-- [WSScript_AddHandle.md](../Functions/WSScript_AddHandle.md)
-- [WSScript_AddHandleId.md](../Functions/WSScript_AddHandleId.md)
-- [WSScript_GetEdit.md](../Functions/WSScript_GetEdit.md)
-- [WSScript_GetEditObj.md](../Functions/WSScript_GetEditObj.md)
-- [WSScript_GetObject.md](../Functions/WSScript_GetObject.md)
-- [WSScript_GetPrmInt.md](../Functions/WSScript_GetPrmInt.md)
-- [WSScript_GetPrmReal.md](../Functions/WSScript_GetPrmReal.md)
-- [WSScript_GetPrmStr.md](../Functions/WSScript_GetPrmStr.md)
-- [WSScript_SetResImage.md](../Functions/WSScript_SetResImage.md)
-- [WSScript_SetResInt.md](../Functions/WSScript_SetResInt.md)
-- [WSScript_SetResReal.md](../Functions/WSScript_SetResReal.md)
-- [WSScript_SetResStr.md](../Functions/WSScript_SetResStr.md)
+# Worksheets
+| | | |
+|---|---|---|
+| [ActSSheet](../Functions/ActSSheet.md) <sub>*obsolete in VectorWorks9.0*</sub>| [AddWSColumnOperator](../Functions/AddWSColumnOperator.md) | [AreWorksheetGridLinesVisible](../Functions/AreWorksheetGridLinesVisible.md) |
+| [AutoFitWSRowHeights](../Functions/AutoFitWSRowHeights.md) | [CellHasNum](../Functions/CellHasNum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [CellHasStr](../Functions/CellHasStr.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [CellString](../Functions/CellString.md) <sub>*obsolete in VectorWorks9.0*</sub>| [CellValue](../Functions/CellValue.md) <sub>*obsolete in VectorWorks9.0*</sub>| [ClearWSCell](../Functions/ClearWSCell.md) |
+| [CloseSS](../Functions/CloseSS.md) <sub>*obsolete in VectorWorks9.0*</sub>| [CreateWS](../Functions/CreateWS.md) | [CreateWSImage](../Functions/CreateWSImage.md) |
+| [DeleteWSColumns](../Functions/DeleteWSColumns.md) | [DeleteWSRows](../Functions/DeleteWSRows.md) | [EnableDrawingWorksheetPalette](../Functions/EnableDrawingWorksheetPalette.md) |
+| [GetCAlign](../Functions/GetCAlign.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetCellNum](../Functions/GetCellNum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetCellStr](../Functions/GetCellStr.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [GetCWidth](../Functions/GetCWidth.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetSprdSortSum](../Functions/GetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [GetSprdSortSumColumns](../Functions/GetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [GetTopVisibleWS](../Functions/GetTopVisibleWS.md) | [GetWSAutoRecalcState](../Functions/GetWSAutoRecalcState.md) | [GetWSCellAlignment](../Functions/GetWSCellAlignment.md) |
+| [GetWSCellBorder](../Functions/GetWSCellBorder.md) | [GetWSCellFill](../Functions/GetWSCellFill.md) | [GetWSCellFormula](../Functions/GetWSCellFormula.md) |
+| [GetWSCellFormulaN](../Functions/GetWSCellFormulaN.md) | [GetWSCellNumberFormat](../Functions/GetWSCellNumberFormat.md) | [GetWSCellsImgDPIRes](../Functions/GetWSCellsImgDPIRes.md) |
+| [GetWSCellString](../Functions/GetWSCellString.md) | [GetWSCellStringN](../Functions/GetWSCellStringN.md) | [GetWSCellTextAngle](../Functions/GetWSCellTextAngle.md) |
+| [GetWSCellTextColor](../Functions/GetWSCellTextColor.md) | [GetWSCellTextFormat](../Functions/GetWSCellTextFormat.md) | [GetWSCellValue](../Functions/GetWSCellValue.md) |
+| [GetWSCellVertAlignment](../Functions/GetWSCellVertAlignment.md) | [GetWSCellWrapTextFlag](../Functions/GetWSCellWrapTextFlag.md) | [GetWSColumnOperators](../Functions/GetWSColumnOperators.md) |
+| [GetWSColumnSortPrecedence](../Functions/GetWSColumnSortPrecedence.md) | [GetWSColumnSortType](../Functions/GetWSColumnSortType.md) | [GetWSColumnWidth](../Functions/GetWSColumnWidth.md) |
+| [GetWSFromImage](../Functions/GetWSFromImage.md) | [GetWSImage](../Functions/GetWSImage.md) | [GetWSImageScaleF](../Functions/GetWSImageScaleF.md) |
+| [GetWSImgAngle](../Functions/GetWSImgAngle.md) | [GetWSImgComponent](../Functions/GetWSImgComponent.md) | [GetWSImgMarginSize](../Functions/GetWSImgMarginSize.md) |
+| [GetWSImgRenderMode](../Functions/GetWSImgRenderMode.md) | [GetWSImgScale](../Functions/GetWSImgScale.md) | [GetWSImgShowDBHeader](../Functions/GetWSImgShowDBHeader.md) |
+| [GetWSImgSize](../Functions/GetWSImgSize.md) | [GetWSImgSizeType](../Functions/GetWSImgSizeType.md) | [GetWSImgType](../Functions/GetWSImgType.md) |
+| [GetWSImgUseLayScale](../Functions/GetWSImgUseLayScale.md) | [GetWSImgUseObjectImg](../Functions/GetWSImgUseObjectImg.md) | [GetWSImgView](../Functions/GetWSImgView.md) |
+| [GetWSMergedCellRange](../Functions/GetWSMergedCellRange.md) | [GetWSPlacement](../Functions/GetWSPlacement.md) | [GetWSRowColumnCount](../Functions/GetWSRowColumnCount.md) |
+| [GetWSRowHeight](../Functions/GetWSRowHeight.md) | [GetWSRowHLockState](../Functions/GetWSRowHLockState.md) | [GetWSSelection](../Functions/GetWSSelection.md) |
+| [GetWSSubrowActualCellString](../Functions/GetWSSubrowActualCellString.md) | [GetWSSubrowActualStringN](../Functions/GetWSSubrowActualStringN.md) | [GetWSSubrowCellString](../Functions/GetWSSubrowCellString.md) |
+| [GetWSSubrowCellStrN](../Functions/GetWSSubrowCellStrN.md) | [GetWSSubrowCellValue](../Functions/GetWSSubrowCellValue.md) | [GetWSSubrowCount](../Functions/GetWSSubrowCount.md) |
+| [GetWSSubrowHeight](../Functions/GetWSSubrowHeight.md) | [HasWSColumnOperator](../Functions/HasWSColumnOperator.md) | [InsertWSColumns](../Functions/InsertWSColumns.md) |
+| [InsertWSRows](../Functions/InsertWSRows.md) | [IsValidWSCell](../Functions/IsValidWSCell.md) | [IsValidWSRange](../Functions/IsValidWSRange.md) |
+| [IsValidWSSubrowCell](../Functions/IsValidWSSubrowCell.md) | [IsWSCellNumber](../Functions/IsWSCellNumber.md) | [IsWSCellString](../Functions/IsWSCellString.md) |
+| [IsWSDatabaseRow](../Functions/IsWSDatabaseRow.md) | [IsWSImg](../Functions/IsWSImg.md) | [IsWSSubrowCellNumber](../Functions/IsWSSubrowCellNumber.md) |
+| [IsWSSubrowCellString](../Functions/IsWSSubrowCellString.md) | [IsWSVisible](../Functions/IsWSVisible.md) | [LoadCell](../Functions/LoadCell.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [MoveWSColumnOperator](../Functions/MoveWSColumnOperator.md) | [NewSprdSheet](../Functions/NewSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub>| [RecalculateWS](../Functions/RecalculateWS.md) |
+| [RemoveAllWSColumnOperators](../Functions/RemoveAllWSColumnOperators.md) | [RemoveWSColumnOperator](../Functions/RemoveWSColumnOperator.md) | [SelectSS](../Functions/SelectSS.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [SetSprdSortSum](../Functions/SetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetSprdSortSumColumns](../Functions/SetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SetTopVisibleWS](../Functions/SetTopVisibleWS.md) |
+| [SetWorksheetGridLinesVisibility](../Functions/SetWorksheetGridLinesVisibility.md) | [SetWSAutoRecalcState](../Functions/SetWSAutoRecalcState.md) | [SetWSCellAlignment](../Functions/SetWSCellAlignment.md) |
+| [SetWSCellBorder](../Functions/SetWSCellBorder.md) <sub>*obsolete in VectorWorks12.0*</sub>| [SetWSCellBorders](../Functions/SetWSCellBorders.md) | [SetWSCellBottomBN](../Functions/SetWSCellBottomBN.md) |
+| [SetWSCellBottomBorder](../Functions/SetWSCellBottomBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellFill](../Functions/SetWSCellFill.md) | [SetWSCellFormula](../Functions/SetWSCellFormula.md) |
+| [SetWSCellFormulaN](../Functions/SetWSCellFormulaN.md) | [SetWSCellInsideHorizBorder](../Functions/SetWSCellInsideHorizBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellInsideHzBN](../Functions/SetWSCellInsideHzBN.md) |
+| [SetWSCellInsideVertBorder](../Functions/SetWSCellInsideVertBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellInsideVtBN](../Functions/SetWSCellInsideVtBN.md) | [SetWSCellLeftBN](../Functions/SetWSCellLeftBN.md) |
+| [SetWSCellLeftBorder](../Functions/SetWSCellLeftBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellNumberFormat](../Functions/SetWSCellNumberFormat.md) | [SetWSCellOutlineBN](../Functions/SetWSCellOutlineBN.md) |
+| [SetWSCellOutlineBorder](../Functions/SetWSCellOutlineBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellRightBN](../Functions/SetWSCellRightBN.md) | [SetWSCellRightBorder](../Functions/SetWSCellRightBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>|
+| [SetWSCellsImgDPIRes](../Functions/SetWSCellsImgDPIRes.md) | [SetWSCellTextColor](../Functions/SetWSCellTextColor.md) | [SetWSCellTextFormat](../Functions/SetWSCellTextFormat.md) |
+| [SetWSCellTopBN](../Functions/SetWSCellTopBN.md) | [SetWSCellTopBorder](../Functions/SetWSCellTopBorder.md) <sub>*obsolete in Vectorworks 2019*</sub>| [SetWSCellVertAlignment](../Functions/SetWSCellVertAlignment.md) |
+| [SetWSCellWrapTextFlag](../Functions/SetWSCellWrapTextFlag.md) | [SetWSColumnOperators](../Functions/SetWSColumnOperators.md) | [SetWSColumnSortType](../Functions/SetWSColumnSortType.md) |
+| [SetWSColumnWidth](../Functions/SetWSColumnWidth.md) | [SetWSCurrentCell](../Functions/SetWSCurrentCell.md) | [SetWSImageScaleF](../Functions/SetWSImageScaleF.md) |
+| [SetWSImgAngle](../Functions/SetWSImgAngle.md) | [SetWSImgComponent](../Functions/SetWSImgComponent.md) | [SetWSImgMarginSize](../Functions/SetWSImgMarginSize.md) |
+| [SetWSImgRenderMode](../Functions/SetWSImgRenderMode.md) | [SetWSImgScale](../Functions/SetWSImgScale.md) | [SetWSImgShowDBHeader](../Functions/SetWSImgShowDBHeader.md) |
+| [SetWSImgSize](../Functions/SetWSImgSize.md) | [SetWSImgSizeType](../Functions/SetWSImgSizeType.md) | [SetWSImgType](../Functions/SetWSImgType.md) |
+| [SetWSImgUseLayScale](../Functions/SetWSImgUseLayScale.md) | [SetWSImgUseObjectImg](../Functions/SetWSImgUseObjectImg.md) | [SetWSImgView](../Functions/SetWSImgView.md) |
+| [SetWSPlacement](../Functions/SetWSPlacement.md) | [SetWSRowHeight](../Functions/SetWSRowHeight.md) | [SetWSSelection](../Functions/SetWSSelection.md) |
+| [SetWSTextAngle](../Functions/SetWSTextAngle.md) | [ShowWS](../Functions/ShowWS.md) | [ShowWSDialog](../Functions/ShowWSDialog.md) |
+| [SprdAlign](../Functions/SprdAlign.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SprdBorder](../Functions/SprdBorder.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SprdFormat](../Functions/SprdFormat.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [SprdSize](../Functions/SprdSize.md) <sub>*obsolete in VectorWorks9.0*</sub>| [SprdWidth](../Functions/SprdWidth.md) <sub>*obsolete in VectorWorks9.0*</sub>| [TargetSprdSheet](../Functions/TargetSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub>|
+| [WorksheetMergeCells](../Functions/WorksheetMergeCells.md) | [WorksheetSplitCells](../Functions/WorksheetSplitCells.md) | [WSScript_AddHandle](../Functions/WSScript_AddHandle.md) |
+| [WSScript_AddHandleId](../Functions/WSScript_AddHandleId.md) | [WSScript_GetEdit](../Functions/WSScript_GetEdit.md) | [WSScript_GetEditObj](../Functions/WSScript_GetEditObj.md) |
+| [WSScript_GetObject](../Functions/WSScript_GetObject.md) | [WSScript_GetPrmInt](../Functions/WSScript_GetPrmInt.md) | [WSScript_GetPrmReal](../Functions/WSScript_GetPrmReal.md) |
+| [WSScript_GetPrmStr](../Functions/WSScript_GetPrmStr.md) | [WSScript_SetResImage](../Functions/WSScript_SetResImage.md) | [WSScript_SetResInt](../Functions/WSScript_SetResInt.md) |
+| [WSScript_SetResReal](../Functions/WSScript_SetResReal.md) | [WSScript_SetResStr](../Functions/WSScript_SetResStr.md) 
