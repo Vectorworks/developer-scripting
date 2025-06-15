@@ -20,6 +20,11 @@
 * [Auto-dimension support](Tasks/Auto-dimension%20support.md)
 * [Equipment item attaching sample](Tasks/Equipment%20item%20attaching%20sample.md)
 
+## Dialogs
+
+* [Dialog Builder](https://github.com/Vectorworks/developer-sdk/blob/main/Info/Dialog%20Builder.md)
+* [Dialog Builder Samples](https://github.com/Vectorworks/developer-sdk/blob/main/Info/Dialog%20Builder%20Samples.md)
+
 ## Partner Install
 
 * [Install Partner Products](Partner%20Install/README.md)
