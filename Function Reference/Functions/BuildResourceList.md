@@ -146,7 +146,7 @@ pathID := 113; { Wall ~ Slabs folder }
 list := BuildResourceList(resID, 0, '', cnt); { current document }
 list := BuildResourceList(resID, pathID, '', cnt); { current document + app folder }
 list := BuildResourceList(resID, -pathID, '', cnt); { current document + user folder }
-</code>
+```
 
 [[User:Ptr| ptr]], 2019.09.16:
 
@@ -189,7 +189,7 @@ END;
 Run(testResCountSymFolders);
 ```
 VectorScript ====
-<code lang="pas">
+```pascal
 CONST
     kHatch = 66;
     kDefHatchFolder = 105;
@@ -200,9 +200,9 @@ BEGIN
     { the default hatch folder. }
     listID := BuildResourceList(kHatch, kDefHatchFolder, '', numItems);
     { ... }
-</code>
+```
 
-<code lang="pas">
+```pascal
 { try this on a file with some symbol folders }
 PROCEDURE testResCountSymFolders;
 VAR
@@ -214,7 +214,7 @@ BEGIN
     alrtDialog(concat(numFolders));
 END;
 Run(testResCountSymFolders);
-</code>
+```
 
 Another example from Pat Stanford <pat@coviana.com>
 November 2006

@@ -38,7 +38,7 @@ Works for me. Is this a Mac-only problem?
 
 
 You can also set the view to one of the standard views, like this:
-<code lang="pas">
+```pascal
 PROCEDURE Example;
 CONST
 kViewTopPlan        = 1;
@@ -60,7 +60,7 @@ BEGIN
 DoMenuTextByName('Standard Views', IntDialog('Enter a number (1~15): ', '1'));
 END;
 RUN(Example);
-</code>
+```
 
 ## Examples
 #### VectorScript ####

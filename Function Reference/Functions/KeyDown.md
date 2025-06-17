@@ -23,24 +23,24 @@ def vs.KeyDown():
 Using KeyDown (cCode) in a REPEAT...UNTIL loop such as the one that follows
 will cause VectorWorks to hang. (Windows only).
 
-<code lang="pas">
+```pascal
 REPEAT
 i := i + 1;
 message ('i = ',i);
 wait (1);
 UNTIL KeyDown (keyCode);
-</code>
+```
 
 If you have any scripts that use this, you had better check them.
 
-<code lang="pas">
+```pascal
 *******************************
 *         Tom Urie            *
 * Integrated Products Group   *
 *        Vectorworks          *
 *  vstanev@vectorworks.net    *
 *******************************
-</code>
+```
 
 
 I think that this is fixed in 901.

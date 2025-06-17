@@ -35,11 +35,11 @@ Only picks objects on the active class & layer, or on other classes/layers if th
 The parameter "message" should be changed to something else, since there is a built-in call by this name.
 
 with the following, able to get a handle on objects within a group- group can be in a design layer, seen through a viewport, or within a symbol.  handle is hx.  opens the door to make edits without entering containers through groups/vps or symbols, if objects are inside group.
-<code lang="pas">
+```pascal
 GetPt(X,Y);
 h:=PickObject(x,y);
 if GetPickObjectInfo(x, y, h, hx, message) then begin
-</code>
+```
 
 ## Examples
 #### VectorScript ####

@@ -5,11 +5,11 @@ Interactively, including highlighting, allows the user to select one object meet
 
 The callback function (any of these depending on what info is needed):
 
-<code lang="pas">
+```pascal
 FUNCTION Callback(h : HANDLE): BOOLEAN;
 FUNCTION CheckObjCallback(h : HANDLE; px, py : REAL) : BOOLEAN;
 FUNCTION CheckObjCallback(h : HANDLE; px, py, pz : REAL) : BOOLEAN;
-</code>
+```
 
 is used to let the user filter the object that can be returned from the function.
 

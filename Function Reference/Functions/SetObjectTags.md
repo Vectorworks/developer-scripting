@@ -56,7 +56,7 @@ def SetTags():
 SetTags()
 ```
 VectorScript ====
-<code lang="pas">
+```pascal
 Procedure Test;
 
 Var		H1:		Handle;
@@ -71,7 +71,9 @@ Begin
 	B1:=SetObjectTags(H1,A1);
 ENd;
 
-Run(Test);</code>
+Run(Test);
+```
+
 #### Python ####
 <code lang="py">
 import vs
@@ -87,7 +89,7 @@ def SetTags():
 	vs.SetObjectTags(h, l)
 
 SetTags()
-</code>
+```
 
 
 Sample VS by Pat Stanford

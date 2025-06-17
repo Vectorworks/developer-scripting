@@ -43,7 +43,7 @@ eGenericPinkTint = 208
 eGenericGrayTint = 209
 eGenericBlackTint = 210
 eGenericWhiteTint = 211
-</code>
+```
 A more frequently updated tint list can be found by looking for the EUiControlTextTint enumeration in the MiniCadCallbacks.h file.
 
 ## Version

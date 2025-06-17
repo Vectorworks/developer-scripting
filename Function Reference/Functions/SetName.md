@@ -26,13 +26,13 @@ From Tom: as of 950, this can be used to rename layers, despite the fact that it
 
 
 Note that if "name" is already in use by something else in the name list, SetName will fail with the warning, "Name already exists," and the object's previous name will persist. This conflict checking is not case-sensitive. If you need to know whether or not the new name stuck, check the name after setting it:
-<code lang="pas">
+```pascal
 FUNCTION SetNameSucceeded(h :HANDLE; theNameToSet :STRING) :BOOLEAN;
 BEGIN
 SetName(h, theNameToSet);
 SetNameSucceeded := (GetName(h) = theNameToSet);
 END;
-</code>
+```
 
 Also note that while GetName will return 'none' for an object which has not been given a name yet, GetObject('none') will either return a nil handle, or it will return the handle to the None class, if such a class exists in the document. If the None class is present, you cannot assign the name "none" to any new object, because of the name conflict. If the None class ''is not'' present, SetName(objectHandle, 'none') will not generate a warning, but you still won't be able to access the object using GetObject. In other words, an object name of "none" is sort of like an empty name, except that it can't be set if there's a None class in the document.
 

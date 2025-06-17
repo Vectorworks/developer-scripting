@@ -22,7 +22,7 @@ def vs.SetObjPropCharVS(PropertyID, PropertyVal):
 
 ## Remarks
 [ptr 09/24/2019]
-<code lang="pas">
+```pascal
 CONST
   {ObjPropCharVS}
   kObjProp_SpecialEdit = 3; {PropertyID}
@@ -30,7 +30,7 @@ CONST
 
   kObjProp_WidgetGroupMode = 81; {PropertyID}
   kPbjProp_WidgetGroupMode_Automatic = '2'; {PropertyVal}
-</code>
+```
 <code lang="py">
 # ObjPropCharVS
 kObjProp_SpecialEdit = 3  # PropertyID
@@ -38,7 +38,7 @@ kObjProp_SpecialEdit_Custom = "1"  # PropertyVal
 
 kObjProp_WidgetGroupMode = 81  # PropertyID
 kPbjProp_WidgetGroupMode_Automatic = "2"  # PropertyVal
-</code>
+```
 
 ## Version
 Availability: from All Versions

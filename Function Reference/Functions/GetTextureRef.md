@@ -28,10 +28,10 @@ Returns the texture ref for this object, which is the internal index, or name, o
 
 I'd expected the 'resolveByClass' to be a VAR. Instead you can use GetTextureRef(obj, partID, FALSE). The longint returned will be -1, if the texture is by class:
 
-<code lang="pas">
+```pascal
 message(GetTextureRef(obj, partID, TRUE), ' * ', GetTextureRef(obj, partID, FALSE));
 { returns the id of the texture on the left call and -1 on the right call, if it is by class }
-</code>
+```
 
 See [SetTextureRef](SetTextureRef.md) remarks.
 

@@ -49,7 +49,7 @@ IF gIsCopy THEN BEGIN
 	SetRField(pioHandle, pioName, '__UUID', theUUID); { now the field _UUID stores a name }
 	SetName(pioHandle, theUUID); { name the pio object with the UUID }
 END;
-</code>
+```
 
 
 (Unsigned:)
@@ -62,19 +62,19 @@ Returns false when a new object is placed into a wall, due to the dual regen iss
 
 So this will evaluate on the first regen:
 
-<code lang="pas">
+```pascal
 IF IsNewCustomObject(MyObject) & p__IsNew THEN 
     SetRField(ghParm, MyObject, '__IsNew', 'True');
-</code>
+```
 
 And this on the second regen:
 
-<code lang="pas">
+```pascal
 IF p__IsNew & (hWall <> Nil) THEN BEGIN
     SetRField(ghParm, MyObject, '__IsNew', 'False' );
     DoMyStuffHere...
 END;
-</code>
+```
 
 ## See Also
 VS Functions:

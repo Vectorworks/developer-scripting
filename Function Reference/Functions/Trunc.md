@@ -22,7 +22,7 @@ def vs.Trunc(v):
 ## Remarks
 [[User:CBM-c-|_c_]], 2015.05.23: Pay attention when using Trunc with very large numbers exceeding the Longint limit: [http://en.wikipedia.org/wiki/2147483647 2147483647]].
 
-<code lang="pas">
+```pascal
 num :=  1000000000000.23456789; { a very large number }
 AlrtDialog(Concat(num)); { --> 1000000000000.23 loss of digits }
 AlrtDialog(Concat('prec 2: ', Num2Str(2, num) )); { --> 1000000000000.23  OK }
@@ -33,7 +33,7 @@ AlrtDialog(Concat('prec -4: ', Num2Str(-4, num) )); { --> empty! }
 
 AlrtDialog(Concat('Trunc: ', Trunc(num) )); { --> 2147483647 fully wrong }
 ));
- </code>
+ ```
 
 ## Examples
 #### VectorScript ####

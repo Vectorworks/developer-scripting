@@ -31,7 +31,7 @@ It also access the file SavedSettingsUser.xml in the User's &gt; setting folder,
 The script below illustrates how it works. Open the "Settings" folder in your user's folder, move out the file SavedSettingsUser.xml, should you have it there already. Then launch the script below some times, save file and quit application.
 If you didn't have the file SavedSettingsUser.xml there, one such file will be created after quitting VW. But you'll notice that the values returned in the dialog are always increasing every time the script runs.
 From memory. The file wasn't there while you runned it.
-<code lang="pas">
+```pascal
 PROCEDURE Example;
 VAR
 incremented : INTEGER;
@@ -49,7 +49,7 @@ SetSavedSetting('Bombarder', 'BOMB', Concat(incremented));
 AlrtDialog(Concat(incremented));
 END;
 RUN(Example);
-</code>
+```
 
 ## See Also
 VS:SetSavedSetting

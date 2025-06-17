@@ -35,7 +35,7 @@ MoveTo(10m, 20m); { set pen position at x, y: 10m, 20m }
 Rect(1m, #0, 2m, #90); 
 { draws from the current pen position 
 an unrotated rectangle with width = 1m and height = 2m }
-</code>
+```
 
 ## Examples
 [SelectandDelObjects](examples/SelectandDelObjects.md)

@@ -24,7 +24,7 @@ def vs.GetClLSN(className):
 indx := GetClLSN('None');
 IF indx < 0 THEN { if the index is positive then is a pattern. Patterns are not named resources }
 	Message(Index2Name(-indx)); { returns the name of the dash style attached to the class 'None', if any }
-</code>
+```
 
 ## See Also
 VS Functions:

@@ -32,14 +32,14 @@ ReadLn will strip leading spaces, at least from the first string in the line, if
 
 RGBCOLOR triplets values stored on tabbed files will not be recognized by ReadLn, even if they are LONGINT (VW 12.5).
 
-<code lang="pas">
+```pascal
 color : RGBCOLOR;
 ...
 ReadLn(color.red, color.green, color.blue); { WRONG: only 0-values are loaded }
-</code>
+```
 
 You must recreate the structure in order to have it recognized.
-<code lang="pas">
+```pascal
 TYPE
 ACOLOR = STRUCTURE
 red, green, blue : LONGINT;
@@ -48,7 +48,7 @@ VAR
 color : ACOLOR;
 ...
 ReadLn(color.red, color.green, color.blue); { LONGINT values are correctly loaded }
-</code>
+```
 
 
 the empty value and space stripping issues are still valid today (VW 12.5.x).

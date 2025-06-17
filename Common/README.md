@@ -1,29 +1,38 @@
 ## Info
 
-* [Binary File Operations](Tasks/Binary%20File%20Operations.md)
-* [Install Plugins into the Current Workspace](Tasks/Install%20Plugins%20into%20the%20Current%20Workspace.md)
-* [Line Type Reengineering Conversion Guide for Plug-ins](Tasks/Line%20Type%20Reengineering%20Conversion%20Guide%20for%20Plug-ins.md)
-* [Vectorworks VWR Resources](Tasks/Vectorworks%20VWR%20Resources.md)
+* [Binary File Operations](Tasks/Info/Binary%20File%20Operations.md)
+* [Install Plugins into the Current Workspace](Tasks/Info/Install%20Plugins%20into%20the%20Current%20Workspace.md)
+* [Line Type Reengineering Conversion Guide for Plug-ins](Tasks/Info/Line%20Type%20Reengineering%20Conversion%20Guide%20for%20Plug-ins.md)
+* [Vectorworks VWR Resources](Tasks/Info/Vectorworks%20VWR%20Resources.md)
 
 ## Common Tasks
 
-* [Parametric Custom Opening in Wall](Tasks/Parametric%20Custom%20Opening%20in%20Wall.md)
-* [Parametric Custom Selection Indication](Tasks/Parametric%20Custom%20Selection%20Indication.md)
-* [Parametric Custom Shape Pane](Tasks/Parametric%20Custom%20Shape%20Pane.md)
-* [Parametric Custom Shape Pane Popup](Tasks/Parametric%20Custom%20Shape%20Pane%20Popup.md)
-* [Parametric Hide Details](Tasks/Parametric%20Hide%20Details.md)
-* [Parametric State Notifications](Tasks/Parametric%20State%20Notifications.md)
-* [Object_Events](Tasks/Object%20Events.md)
-* [Similar Objects Creation](Tasks/Similar%20Objects%20Creation.md)
-* [Progress Dialog](Tasks/Progress%20Dialog.md)
-* [Working_with_Materials](Tasks/Working%20with%20Materials.md)
-* [Auto-dimension support](Tasks/Auto-dimension%20support.md)
-* [Equipment item attaching sample](Tasks/Equipment%20item%20attaching%20sample.md)
+* [Parametric Custom Opening in Wall](Tasks/Parametrics/Parametric%20Custom%20Opening%20in%20Wall.md)
+* [Parametric Custom Selection Indication](Tasks/Parametrics/Parametric%20Custom%20Selection%20Indication.md)
+* [Parametric Custom Shape Pane](Tasks/Parametrics/Parametric%20Custom%20Shape%20Pane.md)
+* [Parametric Custom Shape Pane Popup](Tasks/Parametrics/Parametric%20Custom%20Shape%20Pane%20Popup.md)
+* [Parametric Hide Details](Tasks/Parametrics/Parametric%20Hide%20Details.md)
+* [Parametric State Notifications](Tasks/Parametrics/Parametric%20State%20Notifications.md)
+* [Object_Events](Tasks/Parametrics/Object%20Events.md)
+* [Similar Objects Creation](Tasks/Parametrics/Similar%20Objects%20Creation.md)
+
+* [Progress Dialog](Tasks/Dialogs/Progress%20Dialog.md)
+
+* [Working_with_Materials](Tasks/Info/Working%20with%20Materials.md)
+* [Auto-dimension support](Tasks/Info/Auto-dimension%20support.md)
+* [Equipment item attaching sample](Tasks/Spotlight/Equipment%20item%20attaching%20sample.md)
 
 ## Dialogs
 
 * [Dialog Builder](https://github.com/Vectorworks/developer-sdk/blob/main/Info/Dialog%20Builder.md)
 * [Dialog Builder Samples](https://github.com/Vectorworks/developer-sdk/blob/main/Info/Dialog%20Builder%20Samples.md)
+
+* List Browsers
+	* [Part 1: Creation](Tasks/Dialogs/List%20Browsers%20part%201.md)
+	* [Part 2: Columns](Tasks/Dialogs/List%20Browsers%20part%202.md)
+	* [Part 3: Rows and Cells](Tasks/Dialogs/List%20Browsers%20part%203.md)
+	* [Part 4: Events](Tasks/Dialogs/List%20Browsers%20part%204.md)
+	* [Example](Tasks/Dialogs/Dialog%20with%20List%20Browser.md)
 
 ## Partner Install
 

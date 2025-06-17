@@ -21,7 +21,7 @@ Somewhere there used to be a table of return values.  we should add the table of
 
 Here's a more complete list:
 
-<code lang="pas">
+```pascal
 -1: tmpStr := 'Unspecified Error.';
 0: tmpStr := 'No Err.';
 1: tmpStr := 'Bad file or volume.';
@@ -37,7 +37,7 @@ Here's a more complete list:
 11: tmpStr := 'No write permission.';
 13: tmpStr := 'Nonexistent access path.';
 14: tmpStr := 'Too many files open.';
-</code>
+```
 
 
 Only returns a read-only error if you try to write to the file and it's actually read-only. But you can read from a read-only file without getting an error.

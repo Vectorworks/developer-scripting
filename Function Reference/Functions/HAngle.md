@@ -22,10 +22,10 @@ You can use this routines for getting the angle (slope) of a straight wall as we
 It will also detect the eventual reversion of the wall, consistent with the OIP.
 
 On round walls the eventual reversion is NOT detected. Check if the wall is counterclockwise:
-<code lang="pas">
+```pascal
 IF NOT GetObjectVariableBool(wallH, 570) THEN
   wallRot := -wallrot;
-</code>
+```
 
 For rotated rectangle and oval, the angle is in range [-180;180].
 

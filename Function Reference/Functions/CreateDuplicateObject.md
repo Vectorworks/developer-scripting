@@ -29,7 +29,7 @@ the poly will disappear from display or shift until further regen of the PIO. Un
 
 (*_c_*, 2008.10.14): It is advisable to coerce the path of path-PIOs to an empty fill. The PIO path is only visible when edited with the 2D Reshape tool. If the path fill is not empty, on edit it will come to foreground and cover whatever else you draw with your PIO, which is most annoying.
 
-<code lang="pas">
+```pascal
 pioPathH := GetCustomObjectPath(PioH);
 SetFPat(pioPathH, 0); { no fill, otherwise it covers everything up on edit }
 
@@ -37,18 +37,18 @@ pioPathH := CreateDuplicateObject(pioPathH, NIL);
 { make a copy of the path for your further usage
 and swap the handle. You don't need the original path any longer.
 This copy can have any fill you please }
-</code>
+```
 
 
 (*_c_*, 2009.06.02): This call can be used to duplicate resources, not only objects, but pay great attention to the target container. For example creating in ActLayer a duplicate of a symbol definition (whose parent container should be SymList, type 54), will indeed succeed and create a nameless symbol definition identical to the previous, even visible on drawing, but unselectable. And with parent ActLayer. This can only break your documents and you should avoid it. 
 
 To duplicate a resource simply pass the parent of the resource as target container AND rename the resource with a valid unique name immediately.
 
-<code lang="pas">
+```pascal
 h := GetObject('c'); { where c is a sym def }
 temp_h := CreateDuplicateObject(h, GetParent(h));
 IF temp_h <> NIL THEN SetName(temp_h, 'c2');
-</code>
+```
 
 
 [Charles Chandler, 2006/10/16]: Sounds like this would work nicely for copying path polys out of the path group and into the top level of the PIO container.

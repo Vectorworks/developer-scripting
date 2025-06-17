@@ -28,7 +28,7 @@ def vs.GetLocalizedPluginParameter(inPluginName, inParameterName):
 
 ## Remarks
 An example, from Petri:
-<code lang="pas">
+```pascal
 PROCEDURE ParameterList; { (c) Petri Sakkinen 2008 }
 { Writes the names & "localised" names of the selected PIO to a text file. }
 
@@ -62,7 +62,7 @@ Close(fName);
 END;
 END;
 RUN(ParameterList);
-</code>
+```
 
 ## See Also
 VS Functions:

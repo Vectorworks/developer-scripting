@@ -25,20 +25,11 @@ You can go to the [Python page](Python/README.md) for more information.
 * [Functions](Function%20Reference/README.md)
 * [Appendix](Function%20Reference/Appendix/README.md)
 
-## Common Tasks
+## Tasks
 
-* [Parametric Custom Opening in Wall](Common/Tasks/Parametric%20Custom%20Opening%20in%20Wall.md)
-* [Parametric Custom Selection Indication](Common/Tasks/Parametric%20Custom%20Selection%20Indication.md)
-* [Parametric Custom Shape Pane](Common/Tasks/Parametric%20Custom%20Shape%20Pane.md)
-* [Parametric Custom Shape Pane Popup](Common/Tasks/Parametric%20Custom%20Shape%20Pane%20Popup.md)
-* [Parametric Hide Details](Common/Tasks/Parametric%20Hide%20Details.md)
-* [Parametric State Notifications](Common/Tasks/Parametric%20State%20Notifications.md)
-* [Object_Events](Common/Tasks/Object%20Events.md)
-* [Similar Objects Creation](Common/Tasks/Similar%20Objects%20Creation.md)
-* [Progress Dialog](Common/Tasks/Progress%20Dialog.md)
-* [Working_with_Materials](Common/Tasks/Working%20with%20Materials.md)
-* [Auto-dimension support](Common/Tasks/Auto-dimension%20support.md)
-* [Equipment item attaching sample](Common/Tasks/Equipment%20item%20attaching%20sample.md)
+* [Common Tasks](Common/README.md#common-tasks)
+* [Dialogs](Common/README.md#dialogs)
+
 
 ## Partner Install
 

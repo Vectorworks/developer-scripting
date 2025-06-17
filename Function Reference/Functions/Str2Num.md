@@ -21,7 +21,7 @@ def vs.Str2Num(s):
 [[User:CBM-c-|_c_]] (2017.11.18): Please be careful with overriding standard routines. I change the name of this routine into MyStr2Num. Thus it won't override the standard Str2Num.
 
 Author unknown, changed so that it doesn't override the standard routine:
-<code lang="pas">
+```pascal
 FUNCTION MyStr2Num(str :STRING) :REAL;
 {This is more robust than Str2Num because it handles unit marks in the string,
 while the built-in FUNCTION does not. Returns zero
@@ -36,7 +36,7 @@ BEGIN
 MyStr2Num := 0;
 IF ValidNumStr(str, num) THEN MyStr2Num := num;
 END;
-</code>
+```
 
 ## Examples
 #### VectorScript ####

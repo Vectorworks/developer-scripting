@@ -37,7 +37,7 @@ list := BuildResourceListN2(resID, path, cnt, TRUE); { chosen document }
 list := BuildResourceListN2(resID, path, cnt, FALSE); { chosen document again }
 
 list := BuildResourceListN2(resID, GetFPathName, cnt, FALSE); { WARNING: it always returns zero }
-</code>
+```
 
 ## See Also
 VS Functions:

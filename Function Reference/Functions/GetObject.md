@@ -22,15 +22,15 @@ def vs.GetObject(name):
 
 Back to Charles' example, having a class and a layer with the same name, GetObject will always find the class.
 
-<code lang="pas">
+```pascal
 GetObject('xxx') { only a class called "xxx" is present > returns the class }
 GetObject('xxx') { only a layer called "xxx" is present > returns the layer }
 GetObject('xxx') { both a class and a layer called "xxx" are present > returns the class! }
-</code>
+```
 
 (Charles Chandler, 2006.12.7): If there is a layer and also something else (such as a class, viewport, symbol, etc.) in the document with the same name, GetObject will find the layer, and there is no way to force GetObject to see past the layer to return the handle to the other like-named object. The function below can be used to get around this. If you actually want the handle to a layer, you should probably use GetLayerByName instead of GetObject, in case the behavior of GetObject is ever changed to return only results from the main name list.
 
-<code lang="pas">
+```pascal
 FUNCTION GetObjectByName(nameOfObject :STRING) :HANDLE;
 {Returns the handle to an object in the name list.}
 VAR
@@ -53,7 +53,7 @@ BEGIN
     END;
     GetObjectByName := h1;
 END;
-</code>
+```
 
 ## Version
 Availability: from All Versions

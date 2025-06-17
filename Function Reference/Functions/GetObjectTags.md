@@ -42,7 +42,7 @@ b,t = vs.GetObjectTags(h)
 vs.message(vs.Date(2,2), ' ', t[0], ' ', t[1])
 ```
 VectorScript ====
-<code lang="pas">
+```pascal
 Procedure Test;
 var  h :Handle;
 a :array[1..2] of string;
@@ -53,13 +53,13 @@ GetObjectTags(h, a);
 Message(Date(2,2),' ',a(1),' ',a(2));
 end;
 
-Run(Test);</code>
+Run(Test);```
 #### Python ####
 <code lang="py">
 h = vs.FLayer
 b,t = vs.GetObjectTags(h)
 vs.message(vs.Date(2,2), ' ', t[0], ' ', t[1])
-</code>
+```
 
 sample code by Pat Stanford
 

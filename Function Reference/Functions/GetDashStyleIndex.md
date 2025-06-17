@@ -38,7 +38,7 @@ GetDashStyleIndex(scalesWithThickness: BOOLEAN; numPairs: INTEGER; dash1, gap1, 
 
 indx := GetDashStyleIndex(TRUE, 1, 0.12, 0.03); 
 { returns the dash style index of 'ISO-02 Dashed' or creates a style in the document with these values }
-</code>
+```
 
 Parameter swt defines whether the linestyle will be scaled with thickness, and parameter numPairs specifies the number of length pairs (2-10) defining the linestyle.
 The linestyle is defined by up to five black/white length pairs, which are specified in parameters pair1 through pair5. The minimum length of any given black or white parameter is 1 point, or 1/72 of an inch, and the line specification must be in pairs.  

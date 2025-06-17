@@ -93,7 +93,8 @@ BEGIN
 	ELSE
 		AlrtDialog('Please select an object'); 
 END;
-RUN(TEST)</code>;
+RUN(TEST)
+```;
 
 ## Version
 Availability: from Vectorworks 2010

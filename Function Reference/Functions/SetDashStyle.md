@@ -37,7 +37,9 @@ def vs.SetDashStyle(swt, numPairs, pair1, pair2, pair3, pair4, pair5):
 
 The routine can be expressed as below, whereby you'll only enter as many dashX-gapX values as needed:
 
-<code lang="pas">SetDashStyle(scalesWithThickness: BOOLEAN; numPairs: INTEGER; dash1, gap1, dash2, gap2, dash3, gap3, dash4, gap4, dash5, gap5: REAL);</code>
+```pascal
+SetDashStyle(scalesWithThickness: BOOLEAN; numPairs: INTEGER; dash1, gap1, dash2, gap2, dash3, gap3, dash4, gap4, dash5, gap5: REAL);
+```
 
 ## Examples
 #### VectorScript ####

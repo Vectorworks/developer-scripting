@@ -30,7 +30,7 @@ Note that [vstNumPts](vstNumPts.md) will return the number of clicked points (a 
 <code>
  vstNumPoints(pointNum);
  vstGetPt2D(pointNum-1, ...);
-</code>
+```
 
 [MaKro 6/2018]: ... with pyhton consider using VS:vstGetCurrPt2D ...
 

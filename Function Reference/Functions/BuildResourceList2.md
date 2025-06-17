@@ -146,7 +146,7 @@ list := BuildResourceList2(resID, pathID, '', cnt, FALSE); { current document }
 list := BuildResourceList2(resID, pathID, '', cnt, TRUE); { app folder if def content = true }
 list := BuildResourceList2(resID, -pathID, '', cnt, FALSE); { returns nothing! }
 list := BuildResourceList2(resID, -pathID, '', cnt, TRUE); { user folder if def content = true }
-</code>
+```
 
 ## See Also
 VS Functions:

@@ -45,7 +45,7 @@ if colorRV > 0:
 	colorR = colorRV / 257
 else:
 	colorR = (colorRV + 65536) / 257
-</code>
+```
 
 ## Version
 Availability: from Vectorworks 2017

@@ -34,7 +34,7 @@ bool CDlgXXX::CreateDialogLayout()
 
 	return this->CreateDialogLayoutFromRsrcAndVWR( kDialogID, DefaultPluginVWRIdentifier() );
 }
-</code>
+```
 
 ## See Also
 VS Functions:

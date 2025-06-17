@@ -62,7 +62,7 @@ texPartID flags, check the VS:Function_Reference_Appendix#Tex: Texture Part ID o
 * 27: panel face in curtain walls 
 
 Examples:
-<code lang="pas">
+```pascal
  SetTextureRefN(obj, textureIndex, texPartID, texLayerID) { sets texture to an index }
 
  { texLayerID is always 0, if there are no decals }
@@ -70,12 +70,12 @@ Examples:
  SetTextureRefN(obj, 0, 3, 0) { sets overall texture (3) to inherit from parent container, excluding if it's by class }
  SetTextureRefN(obj, -1, 3, 0) { sets overall (3) texture to by class according to part }
  SetTextureRefN(obj, -2, 3, 0) { sets overall (3) texture to "none" }
-</code>
+```
 
 ([[User_talk:Ptr|Ptr]], 2020 Sep. 8):
 <code lang="py">
 vs.SetTextureRefN(obj, textureRef, texPartID, texLayerID)
-</code>
+```
 <lineList ident=1>
 <line>textureRef: texture index, -1 for by class</line>
 <line>texPartID: 3 = overall part</line>

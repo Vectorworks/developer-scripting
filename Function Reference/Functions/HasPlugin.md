@@ -28,7 +28,7 @@ And it doesn't work on plug-in menu commands.
 In 12.5.3, it would work on menu commands, and the "paletteName" argument would be set to the menu group containing the item.
 
 Example:
-<code lang="pas">
+```pascal
 PROCEDURE Example;
 VAR
 itemUniversalName :STRING;
@@ -40,7 +40,7 @@ result := HasPlugin(itemUniversalName, paletteName);
 AlrtDialog(Concat('result: ', result, Chr(13), 'paletteName: ', paletteName));
 END;
 RUN(Example);
-</code>
+```
 
 ## Version
 Availability: from VectorWorks10.0

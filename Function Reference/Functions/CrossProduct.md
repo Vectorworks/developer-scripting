@@ -32,7 +32,7 @@ v1 = (12, 1) # bidimensional
 v2 = (3, 15) 
 vs.Message( str(vs.CrossProduct(v1, v2)) ) 
 # returns gibberish for first two items
-</code>
+```
 
 [[User:Ptr|Ptr]] [2021.05.12]:
 Since in Python a VECTOR doesn't exist, you need to use tuples instead.

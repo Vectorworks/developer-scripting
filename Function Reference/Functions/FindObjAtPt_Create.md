@@ -39,7 +39,7 @@ It seems to ignore most object types. It will work with: lines, polylines, polyg
 
 rgm, 2016-10-05 : for objOptions it's 0 for AllObjs, 1 for VisibleOnly, 2 for SelectedOnly, 3 for UnlockedOnly; travOptions is 0 for Shallow and 1 for Groups (from `FindObjectAtPoint.h` in the SDK).
 
-<code lang="pas">
+```pascal
 PROCEDURE xxxxx;
 VAR
 	cnt, i : INTEGER;
@@ -61,7 +61,8 @@ BEGIN
 	END;
 	FindObjAtPt_Delete( list );
 END;
-Run(xxxxx);</code>
+Run(xxxxx);
+```
 
 <code lang='py'>
 def PickPointCallback(pt):
@@ -78,7 +79,7 @@ def PickPointCallback(pt):
 
 
 vs.GetPt( PickPointCallback )
-</code>
+```
 
 ## Version
 Availability: from Vectorworks 2014

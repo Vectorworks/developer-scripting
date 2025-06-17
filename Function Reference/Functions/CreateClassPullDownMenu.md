@@ -28,7 +28,7 @@ def vs.CreateClassPullDownMenu(nDialogID, nComponentID, nWidthInChars):
 GetResourceString(objClassString, 2103, 148); { fetches the localized "<Object Class>" string }
 IF InsertPropClassOrLayerItem(dialogID, c_classPullDownMenu_Index, objClassString, '') THEN
 	{ do something, eventually };
-</code>
+```
 
 ## Examples
 #### VectorScript ####

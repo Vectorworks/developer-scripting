@@ -30,7 +30,7 @@ p = (0, 0, 0)
 vs.AlrtDialog( 'init tuple: ' + str(len(p)) ) # 3 items
 p = vs.GetPolyPt(vs.FSActLayer(), 1) # take care to have a polygon selected
 vs.AlrtDialog( 'after GetPolyPt: ' + str(len(p)) ) # 2 items?!?
-</code>
+```
 
 (*_c_*, 2010.12.22) Since the introduction of rotated rectangles, it doesn't turn them into polygons any longer. The routine fails with warning, as expected. 
 

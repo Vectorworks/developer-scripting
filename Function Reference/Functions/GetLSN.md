@@ -23,7 +23,7 @@ def vs.GetLSN(h):
 <code lang="vs">
 styleName := Index2Name(-GetLSN(FSActLayer));
 { returns the name of the dash style defintion of the first selected object }
-</code>
+```
 
 ## See Also
 VS Functions:

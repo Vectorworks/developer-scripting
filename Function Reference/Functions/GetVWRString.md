@@ -27,7 +27,7 @@ def vs.GetVWRString(resIdentifier, stringIdentifier):
 *_c_* (2016.08.23): 
 GetVWRString is supported by VW 2014, but due to a bug not timely reported, you can’t use it in a subroutine to return the string value. Only directly. This is my workaround (from VW 17/2012):
 
-<code lang="pas">
+```pascal
 { _c_ ************************************************ }
 { fix for GetVWRString failing on VW 2014: strings don't set! }
 FUNCTION D_GetVWRStr(resID, resNr: INTEGER): STRING;
@@ -39,7 +39,7 @@ BEGIN
 	GetVWRString(D_GetVWRStr, Concat(resID), Concat(resNr));
 	{$ENDIF}
 END;
-</code>
+```
 
 ## Examples
 ```python

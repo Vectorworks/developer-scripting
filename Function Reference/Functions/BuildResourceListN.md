@@ -33,7 +33,7 @@ path := Concat(GetFolderPath(pathID), 'Walls~Slabs Styles Metric.vwx'); { pick a
 
 list := BuildResourceListN(resID, path, cnt); { chosen document }
 list := BuildResourceListN2(resID, GetFPathName, cnt); { WARNING: it always returns zero }
-</code>
+```
 
 ## See Also
 VS Functions:

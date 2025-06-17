@@ -29,7 +29,7 @@ _bResult = vs.SetObjPropVS(18, True)  # kObjProp_AcceptStates
 _bResult = vs.SetObjPropVS(49, True)  # kObjXSupportsStyles
 _bResult = vs.SetObjPropVS(50, True)  # kObjXPropSupportGenericStoryLevel
 _bResult = vs.SetObjPropVS(53, True)  # kObjXPropSupportResourcePopup
-</code>
+```
 
 ## Version
 Availability: from All Versions

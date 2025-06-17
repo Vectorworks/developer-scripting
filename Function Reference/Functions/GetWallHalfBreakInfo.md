@@ -39,7 +39,7 @@ This routine just serves wall-join analyzing.
 An example, which you'll like to run on many walls to see how the routine behaves in different conditions.
 It places loci on all break points (a break point has 3 loci: break's start, center and end). The loci take an incremental color index starting 2 (magenta), in order to better distinguish the breaks between each other.
 
-<code lang="pas">
+```pascal
 PROCEDURE xxxxx;
 VAR
 wallH : HANDLE;
@@ -78,7 +78,7 @@ ELSE
 AlrtDialog('Select a wall with some breaks or inserted objects');
 END;
 Run(xxxxx);
-</code>
+```
 
 ## Version
 Availability: from VectorWorks13.0

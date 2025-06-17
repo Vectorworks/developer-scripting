@@ -30,7 +30,7 @@ This routine behaves differently across years and usage method:
 ** used in Commands: returns the User origin shift in current units
 ** used in Objects:  returns the User origin shift in millimeters
 Below an example of reading the user origin shift from within a plug-in object. Save the code below as point Plug-in with Reset On Move and Rotation:
-<code lang="pas">
+```pascal
 PROCEDURE HereAmI;
 VAR
 	pioHandle, pioRecHandle, wallHandle : HANDLE;
@@ -49,7 +49,7 @@ BEGIN
      END;
 END;
 Run (HereAmI);
-</code>
+```
 
 Objects inside Symbols use the reverse of the User Origin. I added a table of the values related to VectorScript origin in the article [http://www.vectorlab.info/index.php?title=Absolute_Origin#Available_routines:Link Absolute Origin], by Gerard Jonker, on VectorLab.
 

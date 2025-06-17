@@ -60,7 +60,7 @@ When Traversal Options is set to 1, I would intuitively expect that GROUP object
 Best wishes,
 Raymond
 
-<code lang="pas">
+```pascal
 ********************
 Procedure FEOIL;
 { Select all LOCKED objects in layer. Works in version 8.5.2,
@@ -78,7 +78,7 @@ DSelectObj(All);
 ForEachObjectInLayer(SetSelekt, 4, 1, 0);
 END;
 Run(FEOIL);
-</code>
+```
 
 ## Examples
 ```pascal

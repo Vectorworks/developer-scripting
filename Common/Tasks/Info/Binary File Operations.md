@@ -5,9 +5,9 @@ By [Vladislav Stanev](mailto:vstanev@nemetschek.net)
 The existing file functions prior to Vectorworks 2018 are now converted to support UTF-8. This means that they will output encoded characters, so working with CHAR becomes harder as CHAR is a single byte interpreted as text, so writing CHAR >= 127 is not possible.
 
 This led to the addition of the following Vectorworks 2018 functions:
-* [ReadBin](#readbin) – read the value as binary representation. The string version will ask for encoding and byte count
-* [WriteBin](#writebin) – write the value as binary representation. The string version will ask for encoding
-* [LenEncoding](#lenencoding) – return byte count of a string in the specified encoding
+* [ReadBin](../../../Function%20Reference/Functions/ReadBin.md) – read the value as binary representation. The string version will ask for encoding and byte count
+* [WriteBin](../../../Function%20Reference/Functions/WriteBin.md) – write the value as binary representation. The string version will ask for encoding
+* [LenEncoding](../../../Function%20Reference/Functions/LenEncoding.md) – return byte count of a string in the specified encoding
 
 ```vs
 PROCEDURE WriteBin( value : CHAR );      { write 1 byte }
@@ -41,7 +41,7 @@ PROCEDURE ReadBin ( VAR value : DYNARRAY OF CHAR; readBytes, encoding : INTEGER 
 ```
 
 These support the ‘:` formatting similar to the other filing functions. Described in “Data Formatting with Write and WriteLn” in
-![VectorScriptGuide.pdf](../../VectorScript/VectorScript%20Language%20Guide.pdf)
+![VectorScriptGuide.pdf](../../../VectorScript/VectorScript%20Language%20Guide.pdf)
 
 For example:
 ```vs

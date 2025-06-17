@@ -25,9 +25,9 @@ def vs.SetPref(index, status):
 ## Remarks
 Running the following script:
 
-<code lang="pas">
+```pascal
 SetPref(21, False); {Stop VectorScript on Warnings}
-</code>
+```
 
 results in a total system freeze requiring a forced restart.
 This problem has been in VW9 (w/ Mac OS 9.2) and is still in VW 9.5b1.

@@ -24,7 +24,7 @@ def vs.PenPatN(patNumber):
 
 <code lang='vs'>
 PenPatN(-Name2Index('ISO-02 Dashed')); { makes 'ISO-02 Dashed' as the active pen pattern }
-</code>
+```
 
 ## Examples
 ```python

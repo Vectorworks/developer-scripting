@@ -24,7 +24,7 @@ def vs.CallTool(toolID, callback):
 (Vlado, 2022.01.22): The python function requires an extra 'callback' parameter because python will not pause in the function, while the tool executes. The python will continue until the end of the script, and then the tool will be activated. The 'callback' function will be executed when the tool completes.
 <code lang="py">
 vs.CallTool( -221, any ) # 'Any' is and does absolutely nothing in Vectorworks prior to 2022 SP3
-</code>
+```
 
 (Tom): Changes the active tool to that specified by toolID. Waits until the user has executed the functionality of that tool, then switches back to the previously active tool &amp; returns.
 

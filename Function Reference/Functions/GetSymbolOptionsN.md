@@ -60,7 +60,7 @@ Gets the insertion options from the master symbol named &lt;name&gt;.
 See [SetSymbolOptionsN](SetSymbolOptionsN.md).
 
 Here's a way to get the left/right/center information for a symbol instance in a wall:
-<code lang="pas">
+```pascal
 PROCEDURE Example;
 VAR
 wallInstance, symInstance :HANDLE;
@@ -88,7 +88,7 @@ IF relPt.y &gt; 0 THEN Message('left');
 END ELSE AlrtDialog('nil handle');
 END;
 RUN(Example);
-</code>
+```
 
 ## Version
 Availability: from VectorWorks 8.5

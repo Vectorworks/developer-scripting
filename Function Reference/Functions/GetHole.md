@@ -30,7 +30,7 @@ def vs.GetHole(inOutsidePolyline, inIndex):
 It is quite fascinating to observe that the parent of a hole has object type "0". Polyline holes reside in Nirvana, so to say....
 One would expect their parent to be the polyline container.
 
-<code lang="pas">
+```pascal
 PROCEDURE xxxxx;
 VAR
 temp_i	: INTEGER;
@@ -58,7 +58,7 @@ END;
 END;
 
 Run(xxxxx);
-</code>
+```
 
 ## Examples
 #### VectorScript ####

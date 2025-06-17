@@ -22,10 +22,10 @@ def vs.GetResourceFromList(listID, index):
 
 ## Remarks
 You can check the referenced status of a resource with the object preference 700:
-<code lang="pas">
+```pascal
 IsReferenced := GetObjectVariableBoolean(handleToResourceDefinition, 700);
 {locked/referenced status }
-</code>
+```
 
 ## Examples
 [WorkingWithResrouceList](examples/WorkingWithResrouceList.md)

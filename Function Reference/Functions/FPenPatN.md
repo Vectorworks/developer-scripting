@@ -19,7 +19,7 @@ def vs.FPenPatN():
 { compare the two different indexes: }
 indx := FPenPat; { returns the dash style list index corresponding to the active dash style }
 indx := FPenPatN; { returns the name list index corresponding to the active dash style }
-</code>
+```
 
 ## See Also
 VS Functions:

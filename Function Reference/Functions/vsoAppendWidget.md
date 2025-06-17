@@ -4,7 +4,7 @@
 Adds a parameter to the Object info palette.
 
 WidgetTypes:
-<code lang="pas">
+```pascal
 	kFieldLongInt     = 1;
 	kFieldBoolean     = 2;
 	kFieldReal        = 3;
@@ -20,7 +20,7 @@ WidgetTypes:
 	kWidgetButton     = 12;
 	kWidgetStaticText = 13;
 	kWidgetDisclosure = 14; {not implemented?}
-</code>
+```
 
 See [[VS:Object Events]].
 

@@ -68,7 +68,7 @@ enum MaxonBumpShaderPrototype {
 	kMaxonBump_Bricks = 44,
 	kMaxonBump_Pavement = 45
 };
-</code>
+```
 
 ```pascal
 FUNCTION CreateShaderRecord(

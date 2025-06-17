@@ -34,7 +34,7 @@ IF GetNumLBColumnDataItems(dialogID, listBrowserID, columnIndex) > 0 THEN BEGIN
       { ... }
    END;
 END;
-</code>
+```
 
 ## Version
 Availability: from VectorWorks 11.0

@@ -1,5 +1,5 @@
 ==== VectorScript ====
-<code lang="pas">
+```pascal
 PROCEDURE dialog1_Main;
 	VAR
 	dialog1 :INTEGER;
@@ -81,7 +81,7 @@ BEGIN
 END;
 RUN(dialog1_Main);
 
-</code>
+```
 
 ==== Python ====
 <code lang="py">
@@ -155,4 +155,4 @@ SetupDialogC = 12255
 dialog1 = 0
 dialog1_Setup()
 dialog1_Main()
-</code>
+```

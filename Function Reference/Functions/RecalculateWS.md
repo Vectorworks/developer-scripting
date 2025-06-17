@@ -19,11 +19,11 @@ def vs.RecalculateWS(worksheet):
 
 ## Remarks
 This does not update the screen, so you should also do:
-<code lang="pas">
+```pascal
 ResetObject(worksheet);
 WSImage := GetWSImage(worksheet);
 If WSImage &lt;&gt; NIL then ResetObject(WSImage);
-</code>
+```
 
 ## Examples
 #### VectorScript ####

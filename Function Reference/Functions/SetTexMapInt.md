@@ -26,12 +26,12 @@ def vs.SetTexMapInt(h, partID, selector, value):
 
 ## Remarks
 Value is one of the:
-<code lang="pas">
+```pascal
 kPlaneSpace = 0;
 kSphereSpace = 1;
 kCylinderSpace = 2;
 kAlgorithmicSpace = 3; {Space that wraps around the object most}
-</code>
+```
 
 Algorithmic means either the "perimeter" or "roof" mapping type.
 

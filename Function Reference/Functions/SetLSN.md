@@ -28,7 +28,7 @@ def vs.SetLSN(h, ls):
 <code lang="vs">
 IF GetObject('ISO-02 Dashed') <> NIL THEN
 	SetLSN(FSActLayer, -Name2Index('ISO-02 Dashed')); { sets the first selected object to 'ISO-02 Dashed' if the style is present }
-</code>
+```
 
 ## See Also
 VS Functions:

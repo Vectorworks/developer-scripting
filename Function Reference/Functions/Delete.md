@@ -25,7 +25,7 @@ def vs.Delete(source, index, count):
 ## Remarks
 Per Raymond Mullin, on the VS list, there is a bug in Delete that prevents it from getting the last character if the string is a dynarray of char. The following test script should leave T = '', but it leaves T = '7'.
 
-<code lang="pas">
+```pascal
 PROCEDURE DeleteTest;
 VAR
 T :DYNARRAY [] of CHAR;
@@ -35,7 +35,7 @@ Delete(T, 1, 7);
 Message('T: ', T);
 END;
 RUN(DeleteTest);
-</code>
+```
 
 ## Examples
 #### VectorScript ####

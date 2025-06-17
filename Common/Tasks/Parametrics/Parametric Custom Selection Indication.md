@@ -4,11 +4,11 @@ By [Vladislav Stanev](mailto:vstanev@nemetschek.net)
 
 When you have a parametric object in the drawing that is selected, the selection indication looks like all the inner objects of the parametric are selected.
 
-![Normal Selection Indication](images/normalSelectionIndication.jpg)
+![Normal Selection Indication](images/NormalSelectionIndication.jpg)
 
 From VectorWorks 2009 parametric objects are capable of customizing the selection indication by providing geometry which will be used to present the selection. That geometry will not be rendered, it will just determine the selection and preselection indication.
 
-![Custom Selection Indication](images/customSelectionIndication.jpg)
+![Custom Selection Indication](images/CustomSelectionIndication.jpg)
 
 As you can see in the image above, when the object has custom selection you can simplify the selection indication for complex geometrical objects.
 

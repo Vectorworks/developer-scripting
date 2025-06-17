@@ -28,7 +28,7 @@ CONST
   kEventID_OnDoubleClick = 7;
   kEventID_OnUIButtonHit = 35;
   kEventID_OnAddState = 44;
-</code>
+```
 <code lang = "py">
 # Event ID's
 kEventID_Reset = 3
@@ -37,7 +37,7 @@ kEventID_OnInitProperties = 5
 kEventID_OnDoubleClick = 7
 kEventID_OnUIButtonHit = 35
 kEventID_OnAddState = 44
-</code>
+```
 
 ## Version
 Availability: from All Versions

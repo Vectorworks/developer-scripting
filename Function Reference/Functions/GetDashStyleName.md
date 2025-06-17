@@ -24,7 +24,7 @@ def vs.GetDashStyleName(DashStyleIndex):
 dashStyleName := GetDashStyleName(GetDashStyleIndex(TRUE, 1, 0.12, 0.03));
 { should return 'ISO-02 Dashed' or its localized name, if a style with these pairs exists
 in the active document, otherwise it creates one with a generic name }
-</code>
+```
 
 ## See Also
 VS Functions:

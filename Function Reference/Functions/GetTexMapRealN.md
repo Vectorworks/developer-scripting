@@ -29,7 +29,7 @@ def vs.GetTexMapRealN(obj, texPartID, texLayerID, selector):
 The radius of a part's texture on a Round Wall, fetched with the flag 5, is always mm:
 <code lang="vs">
 GetTexMapRealN(FSActLayer, 7, 0, 5); { radius in mm of the left part's (7) texture on a round wall }
-</code>
+```
 
 ## Version
 Availability: from Vectorworks 2010

@@ -36,7 +36,7 @@ p = (0, 0, 0)
 vs.AlrtDialog( 'init tuple: ' + str(len(p)) ) # 3 items
 p, vertexType, arcRadius = vs.GetPolylineVertex(vs.FSActLayer(), 1) # take care to have a polygon selected
 vs.AlrtDialog( 'after GetPolylineVertex: ' + str(len(p)) ) # 2 items?!?
-</code>
+```
 
 (Charles Chandler, 2001 Jun. 11) The radius value can be one of three things: 
 * 0, in which case the actual drawn radius is simply the biggest radius that will fit, 

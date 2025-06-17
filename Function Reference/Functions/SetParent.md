@@ -25,25 +25,25 @@ This function will fail if obj is being moved from a non-regenerable list of a p
 
 SetParent cannot be used for placing a symbol definition in a symbol folder or for bringing it to the document level:
 
-<code lang="pas">
+```pascal
 symH := getObject('Decor. 3'); { a symbol definition at top level }
 foldH := getObject('Fassade'); { a symbol folder }
 temp_b := SetParent(symH, foldH);
 alrtDialog(concat(getType(getParent(symH)))); { returns the original parent type 54 (symbol list): setParent didn't work }
-</code>
+```
 
 Starting with 12.5, SetParent no longer works within plug-in objects if you're trying to move something from outside of the PIO group into the PIO group. For example, if your PIO requires that you copy geometry out of a symbol definition, and then make some sort of change to it, in previous release, you would typically do something like:
 
-<code lang="pas">
+```pascal
 dupeHandle := HDuplicate(somethingInsideSymbol);
 SetParent(dupeHandle, pioHandle);
-</code>
+```
 
 This no longer works. To accomplish the same purpose, do this:
 
-<code lang="pas">
+```pascal
 dupeHandle := CreateDuplicateObject(somethingInsideSymbol, pioHandle);
-</code>
+```
 
 This duplicates the object and puts it into the PIO container in one shot.
 

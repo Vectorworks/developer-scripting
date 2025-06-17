@@ -19,7 +19,7 @@ def vs.HUngroup(h):
 
 ## Remarks
 Example, from Beat Fleischli:
-<code lang="pas">
+```pascal
 PROCEDURE ChangeGroupClass;
 CONST
 oldClass = 'Keine-2';
@@ -55,7 +55,7 @@ NameClass(actClass);
 Layer(activeLayer);
 END;
 RUN(ChangeGroupClass);
-</code>
+```
 
 ## Version
 Availability: from VectorWorks8.5

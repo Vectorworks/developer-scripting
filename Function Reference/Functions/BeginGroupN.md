@@ -22,7 +22,7 @@ def vs.BeginGroupN(groupHandle):
 
 Be very careful with BeginGroupN, this won't automatically return NIL if empty. Used in Plug-in object it will crash VW upon attempting to use the common Group operation routines and the Group handle is not valid (Tested up to VW 2021 SP3).
 
-<code lang="pas">
+```pascal
 gr1 := NIL;
 BeginGroupN(gr1);
 EndGroup;
@@ -45,7 +45,7 @@ IF gr1 <> NIL THEN
 BeginGroupN(gr1);
 Locus(0, 0);
 EndGroup;
-</code>
+```
 
 ## Examples
 ```pascal

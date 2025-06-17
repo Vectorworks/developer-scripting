@@ -19,7 +19,7 @@ def vs.CreateSurfacefromCurvesNetwork():
 * often (but not always) on curves whose vertexes don't reside on a plane. It is advisable to set all vertex of the curves forming the network to z-values on a common plane, otherwise the surface even if generated is faulty and displays an excessive amount of vertexes (BTW, this happens also using the command ''Create Surface from Curves'' on drawing). A curve network whose z-values reside on a plane will generate the simplest surface, which can be then refined in the z-values as needed.
 
 ([[User:Orso.b.schmid|Orso]], 2010 Dec. 29) This is one of those routines that doesn't respond to [ LNewObj](LNewObj.md). You can access the generated surface through [ PrevObj](PrevObj.md) setting a temporary object after the call.
-<code lang="pas">
+```pascal
 { draws a triangle as NURBS curve, converts it to NURBS Surface and tests LNewObj on this last obj }
 PROCEDURE CreateNurbsSurf;
 VAR
@@ -45,7 +45,8 @@ BEGIN
 		AlrtDialog(Concat( 'Handle "h" should be of type 113 (NURBS surface), now check what I get:', chr(13), GetType(h) ))
 	END;
 END;
-Run(CreateNurbsSurf);</code>
+Run(CreateNurbsSurf);
+```
 
 ## Version
 Availability: from VectorWorks 10.0

@@ -27,7 +27,7 @@ def vs.OffsetPolyClosed(obj, offset, smoothCorners):
 The offset is always in mm. So please convert your document units to mm:
 <code lang="py">
 result = vs.OffsetPolyClosed(obj, offset /vs.GetPrefReal(152)*25.4, smoothCorners)
-</code>
+```
 
 ## Version
 Availability: from Vectorworks 2018

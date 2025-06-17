@@ -30,7 +30,7 @@ def vs.DotProduct(v1, v2):
 v1 = (12, 1) # bidimensional
 v2 = (3, 15) 
 vs.Message( str(vs.DotProduct(v1, v2)) ) # returns gibberish
-</code>
+```
 
 ''' other comments whose author/date is lost:'''
 

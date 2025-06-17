@@ -18,11 +18,11 @@ def vs.ResetOrientation3D():
 [[User: CBM-c-| _c_]]: (2021.04.11):
 
 Used in Plug-in Object, '''ResetOrientation''' removes the rotation of a solid, if any, so be careful:
-<code lang="pas">
+```pascal
 Set3DRot(solidHandle, 0, 90, 0, 0, 0, 0);
 ResetOrientation3D;
 { in PIO ResetOrientation3D removes the rotation of solidHandle! }
-</code>
+```
 
 ## Examples
 #### VectorScript ####

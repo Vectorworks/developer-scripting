@@ -19,7 +19,7 @@ HMove(parmHand,0,0);
 
 
 Here's Julian's code for forcing a redraw...
-<code lang="pas">
+```pascal
 Procedure RegenGeometry;
 VAR
 CurrentPref : INTEGER;
@@ -29,7 +29,7 @@ SetPrefInt(56, CurrentPref / 2);
 Layer(GetLName(ActLayer));
 SetPrefInt(56, CurrentPref);
 END;
-</code>
+```
 
 ## Version
 Availability: from All Versions

@@ -24,12 +24,12 @@ def vs.ForEachObject(callback, c):
 
 ## Remarks
 *_c_* (2016.05.14): Pay attention how you place your brakets while using criteria strings through variables. Extra brakets might not work and never return errors:
-<code lang="pas">
+```pascal
 recordName := 'Part Info'; { needs single quotes because of the space }
 criteria = Concat('((R in [', '''', recordName, '''', ']))'); { wrap in single quotes }
 ForEachObject(ProcThatTakesAHandle, criteria);  { works fine }
 ForEachObject(ProcThatTakesAHandle, (criteria));  { doesn't work }
-</code>
+```
 
 
 
@@ -37,13 +37,13 @@ ForEachObject(ProcThatTakesAHandle, (criteria));  { doesn't work }
 Don't use DelObject inside a ForEachObject callback.
 
 Essentially, ForEachObject is roughly equivalent to
-<code lang="pas">
+```pascal
 h := FObject;
 WHILE h &lt;&gt; NIL DO BEGIN
 {do something}
 h := NextObj(h);
 END;
-</code>
+```
 
 The only difference is that ForEachObject is handling the looping for you, and providing a convenient mechanism for filtering the objects by criteria.
 
@@ -54,11 +54,11 @@ So use ForEachObject just to build a handle array. Then go back and iterate thro
 [[User:Rgm|Rgm]] [2012.11.21]:
 Note that you can pass in a string for the c:CRITERIA parameter. This appears to be the best way to use variable criteria, e.g.:
 
-<code lang="pas">
+```pascal
 recordName := 'Part Info'; { literal, or maybe the value of a function }
 criteria = Concat('((R in [', '''', recordName, '''', ']))'); { '''' gives a single quote when parsed }
 ForEachObject(ProcThatTakesAHandle, criteria); 
-</code>
+```
 
 ## Examples
 ```pascal

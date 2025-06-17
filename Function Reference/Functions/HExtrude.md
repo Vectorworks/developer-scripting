@@ -25,7 +25,7 @@ def vs.HExtrude(objectH, bottom, top):
 ## Remarks
 hExtrude does not work inside PIOs. Uses BeginXtrd and EndXtrd instead. 
 If you need to extrude a Symbol inside a PIO use following workaround (idea by heiner schmalbach). This code shows the principle behind the idea:
-<code lang="pas">
+```pascal
 PioInfoOK := GetCustomObjectInfo ( PIOName, hPIO, hRecord, hWall);
 HandleSymbol2D := GetObject(mNameSymbol);
 If HandleSymbol2D = nil then SymbolError := true
@@ -47,10 +47,10 @@ SettingParentOK := SetParent(hPoly,hSchiene3D);
 hDummy := fIn3D(hSymbol3D); {Select the "dummy rectangle"}
 DelObject(hDummy);  {delete the dummy rectangle}
 End;
-</code>
+```
 
 HExtrude doesn't work in any group-like container. Below another possibility for creating a 3D object while preserving the original 2D object:
-<code lang="pas">
+```pascal
 { ***************************************** }
 { Orso.B.Schmid, creates an extrude from a HANDLE h, 
 preserving the original h. Returns a handle to the extrude }
@@ -67,7 +67,7 @@ DelObject(FIn3D(GetParent(CreateDuplicateObject(h, LNewObj))));
 
 Create3Dobj := LNewObj;
 END;
-</code>
+```
 
 ## Version
 Availability: from VectorWorks10.0

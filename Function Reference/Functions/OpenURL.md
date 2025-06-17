@@ -27,7 +27,7 @@ def vs.OpenURL(URLname):
 |URLname|DYNARRAY[] of CHAR|The Uniform Resource Locator for the web page or file to open.|
 
 ## Remarks
-<code lang="pas">
+```pascal
 PROCEDURE Main;
 VAR
   dialogID :INTEGER;
@@ -61,7 +61,7 @@ BEGIN
   END;
 END;
 RUN(Main);
-</code>
+```
 
 
 1.) Use forward slash / to separate directories. (Windows accepts  or / as separators. )
@@ -86,7 +86,7 @@ If you are on MacOS X:
 :<code>theURL := 'file:///Documents/This%20Is%20A%20Test.html';</code>
 
 
-<code lang="pas">
+```pascal
 {--------------------------------------------------------------------}
 { A sample script from Jeff }
 { }
@@ -194,7 +194,7 @@ BEGIN
 
 END;
 RUN(OpenURLExample);
-</code>
+```
 
 ## Examples
 #### VectorScript ####

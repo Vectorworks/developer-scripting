@@ -32,7 +32,7 @@ def vs.SymbolToGroup(h, convertAction):
 ([[User:CBM-c-|_c_]], 2014.09.14): Upon success, this creates a group which doesn't respond to ''LNewObj''. It actually disables ''LNewObj'', which will return NIL, unregarded what you created before running ''SymbolToGroup''
 
 The handle to the group can be fetched storing a handle to the object BEFORE the symbol on drawing, then fetching the next object:
-<code lang="pas">
+```pascal
 PROCEDURE Test;
 VAR
 	h : HANDLE;
@@ -48,7 +48,8 @@ BEGIN
 	END ELSE
 		AlrtDialog('Select a symbol on drawing!');
 END;
-RUN(Test);</code>
+RUN(Test);
+```
 
 ## Version
 Availability: from VectorWorks 10.0

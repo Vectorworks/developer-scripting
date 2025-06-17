@@ -4,7 +4,7 @@
 This function inserts a widget into the ObjectInfoPalette. It allows the user to define the location of where this widget will be in the OIP widget list.
 
 WidgetTypes:
-<code lang="pas">
+```pascal
 	kFieldLongInt     	= 1;
 	kFieldBoolean     	= 2;
 	kFieldReal        	= 3;
@@ -30,7 +30,7 @@ WidgetTypes:
 	kWidgetSubSelection	= 101;
 	kWidgetBoundPopup	= 102;
 	kWidgetBoundOffset	= 103;
-</code>
+```
 
 See [[VS:Object Events]].
 
@@ -65,9 +65,9 @@ vsoAppendWidget still works OK.
 
 It looks like the problem occurs if you don't declare kObjXPropHasUIOverride (kObjXPropHasUIOverride is FALSE or not declared):
 
-<code lang="pas">
+```pascal
 result := SetObjPropVS(kObjXPropHasUIOverride, TRUE);
-</code>
+```
 
 ## Examples
 #### VectorScript ####

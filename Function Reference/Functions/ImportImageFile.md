@@ -26,13 +26,13 @@ This function returns NIL in Vectorworks 2014.
 A typical call to this function would be:
 <code lang='py'>
 hImage = vs.ImportImageFile( imagePath, importPt )
-</code>
+```
 
 In Vectorworks 2014, if you need the result, the call should be:
 <code lang='py'>
 vs.ImportImageFile( imagePath, importPt )
 hImage = vs.FSActLayer()
-</code>
+```
 
 ## Examples
 [[Python Sample Import Images as Symbols]] for example.

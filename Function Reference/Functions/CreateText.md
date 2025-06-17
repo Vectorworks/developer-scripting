@@ -19,7 +19,7 @@ def vs.CreateText(theText):
 
 ## Remarks
 *_c_*, 2015.12.19: If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
-<code lang="pas">
+```pascal
 PushAttrs;
 	NameClass(ClassList(1));
 	PenPat(1);
@@ -28,7 +28,7 @@ PushAttrs;
 	TextSize(9); { avoid accidental small text size rising the error "An incorrect object is described" }
 	CreateText('Text');
 PopAttrs;
-</code>
+```
 
 ## Examples
 #### VectorScript ####

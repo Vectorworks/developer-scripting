@@ -86,7 +86,7 @@ for segm in range(0, segmentCnt): # python range is always one less than pascal
 		vs.CreateText(f'{segm}.{vtx}')
 ```
 VectorScript ====
-<code lang="pas">
+```pascal
 PROCEDURE Example;
 VAR
     nurbsObj : HANDLE;
@@ -116,7 +116,7 @@ BEGIN
     END;
 END;
 Run(Example);
-</code>
+```
 
 #### Python ####
 <code lang="py">
@@ -132,7 +132,7 @@ for segm in range(0, segmentCnt): # python range is always one less than pascal
 		
 		vs.MoveTo(v)
 		vs.CreateText(f'{segm}.{vtx}')
-</code>
+```
 
 A representation of pieces (segments in the example) in a NURBS curve:
 

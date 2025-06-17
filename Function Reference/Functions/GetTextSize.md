@@ -26,13 +26,13 @@ def vs.GetTextSize(TextHd, Position):
 The result was previously an integer, but is now a floating point value.
 
 Here's a snippet that shows how to get the text size that has been assigned to a PIO from the text menu:
-<code lang="pas">
+```pascal
 pioTextSize := ((GetObjectVariableReal(pioHandle, 17) / GetLScale(GetLayer(pioHandle))) * 72) / 25.4;
-</code>
+```
 
 
 Example:
-<code lang="pas">
+```pascal
 PROCEDURE Example;
 CONST
 theSizeToSelect = 10;
@@ -50,7 +50,7 @@ criteria := '(T=10)';
 ForEachObject(SelectBySize, criteria);
 END;
 RUN(Example);
-</code>
+```
 
 ## Version
 Availability: from MiniCAD6.0

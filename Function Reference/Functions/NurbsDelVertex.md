@@ -30,9 +30,9 @@ This function will work for both nurbs curves and nurbs surfaces.
 There is also a bug in that VW does not redraw properly after a NurbsDelVertex call.
 
 Create a simple nurbs curve, run it, and double click the pan tool to see it working:
-<code lang="pas">
+```pascal
 NurbsDelVertex(FSActLayer, 0, 0);
-</code>
+```
 
 ## Version
 Availability: from VectorWorks9.0

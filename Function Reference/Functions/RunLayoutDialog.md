@@ -23,19 +23,19 @@ def vs.RunLayoutDialog(dialogID, callback):
 ## Remarks
 RunLayoutDialog returns the index of the last control event (1 for OK and 2 for Cancel). The callback procedure has to be written like this:
 
-<code lang="pas">
+```pascal
 procedure callback(var item : longint; data :longint);
 begin
 message('Item: ', item, '  Data in that item: ', data);
 end;
-</code>
+```
 
 <code lang="py">
 def callback(item, data):
    vs.Message('Item: ' + str(item) + '  Data in that item: '+ str(data));
 	
     return item 
-</code>
+```
 This function is also called before the dialog opens with a value of 2255 for item
 and when the dialog closes (value 2256). 
 Despite the fact that the arguments to the callback procedure are VARd (so that they should have global bindings), these variables really only have bindings within the callback procedure. Even if you declare them globally. Fact of the matter is that you cannot specify arguments when you call the callback procedure, so there's no way to establish the global bindings of the VARd arguments. Inside the callback procedure, the item argument is set to the index of the last control event. The data argument is set to values appropriate for the type of control that was activated.

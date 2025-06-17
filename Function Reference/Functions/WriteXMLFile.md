@@ -27,20 +27,20 @@ Looks like the whichPath argument no longer supports 1 or 12. The other indexes 
 
 For example, this does not work:
 
-<code lang="pas">
+```pascal
 xmlFileName := 'XML Test File.xml';
 result := WriteXMLFile(hXML, 12, xmlFileName);
-</code>
+```
 
 But this does:
 
-<code lang="pas">
+```pascal
 xmlFileName := Concat(GetFolderPath(12), 'XML Test File.xml');
 result := WriteXMLFile(hXML, -1, xmlFileName);
-</code>
+```
 
 Result Values:
-<code lang="pas">
+```pascal
 No Error = 0;
 Unknown Error = -1;
 Invalid Path Error = -2;
@@ -52,7 +52,7 @@ Invalid XML Handle Error = -21;
 Invalid Parameters Error = -22;
 Parser Error = -23;
 No Child Or Sibling Nodes = -24;
-</code>
+```
 
 ## Examples
 #### VectorScript ####

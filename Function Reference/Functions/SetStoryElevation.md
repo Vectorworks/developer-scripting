@@ -23,7 +23,7 @@ def vs.SetStoryElevation(story, elevation):
 ## Remarks
 ([[User:CBM-c-|_c_]], 2018.10.23): SetStoryElevations wants mm. It needs the story to have an associated design layer with [AssociateLayerWithStory](AssociateLayerWithStory.md), or it will fail, while AssociateLayerWithStory needs the layer to be linked to a level with [SetLayerLevelType](SetLayerLevelType.md) or it will fail. In the example below you have the sequence to make that work.
 
-<code lang="pas">
+```pascal
 { _c_ }
 
 PROCEDURE TEST;
@@ -65,7 +65,7 @@ BEGIN
 	END;
 END;
 RUN(TEST);
-</code>
+```
 
 ## See Also
 VS Functions:

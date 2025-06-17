@@ -42,7 +42,7 @@ GetTextureRefN(obj, 3, 0, TRUE);
 * 0 if the part is "None"   
 * index of the class texture if the part is "Class Texture"  
 }
-</code>
+```
 
 ## Version
 Availability: from Vectorworks 2010
