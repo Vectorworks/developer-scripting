@@ -25,7 +25,7 @@ def vs.PointAlongPoly(h, dist):
 |tangent|VECTOR|   |
 
 ## Remarks
-([[User:CBM-c-| _c_]], 2022.01.18) In Vectorscript Python this returns a tuple with 3 items ( 0, 0, 0 ). This is relevant for usage in routines such as [Vec2Ang ](Vec2Ang .md), returning wrong values if the tuple is only bidimensional.
+(\_c\_, 2022.01.18) In Vectorscript Python this returns a tuple with 3 items ( 0, 0, 0 ). This is relevant for usage in routines such as [Vec2Ang ](Vec2Ang .md), returning wrong values if the tuple is only bidimensional.
 
 ## Examples
 ==== Pascal ====

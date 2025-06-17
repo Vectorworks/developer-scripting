@@ -29,9 +29,9 @@ def vs.FindObjAtPt_Create(hContainer, objOptions, travOptions, locX, locY, pickR
 |pickRadius|REAL|   |
 
 ## Remarks
-(*_c_*, 2011): Was undocumented, made public by VW 2012 (1700).
+(*\_c\_*, 2011): Was undocumented, made public by VW 2012 (1700).
 
-(*_c_*, 2008-10-15): Finds objects at the point "Loc" starting from the parent container "hContainer". The routine returns a longint as list of objects (similar to [BuildResourceList](BuildResourceList.md)) which you'll use to manipulate the found objects. The suffix ''create'' stays then for ''create a list''.
+(*\_c\_*, 2008-10-15): Finds objects at the point "Loc" starting from the parent container "hContainer". The routine returns a longint as list of objects (similar to [BuildResourceList](BuildResourceList.md)) which you'll use to manipulate the found objects. The suffix ''create'' stays then for ''create a list''.
 * [FindObjAtPt_GetCount.md](FindObjAtPt_GetCount.md) will return the count of found objects
 * [FindObjAtPt_GetObj.md](FindObjAtPt_GetObj.md) returns a handle to the object at index i. The index is 0-based.
 

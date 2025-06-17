@@ -18,7 +18,7 @@ def vs.GetTexSpace2DRot(textureSpace):
 |textureSpace|HANDLE|Handle to texture space.|
 
 ## Remarks
-*_c_* (2018.12.29) Use [GetTexMapRealN](GetTexMapRealN.md) instead.
+*\_c\_* (2018.12.29) Use [GetTexMapRealN](GetTexMapRealN.md) instead.
 
 
 Returns rotation in degrees

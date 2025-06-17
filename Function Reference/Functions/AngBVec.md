@@ -23,7 +23,7 @@ def vs.AngBVec(v1, v2):
 |v2|VECTOR|Second vector to be compared.|
 
 ## Remarks
-(*_c_*, 2022.01.20) In VS Python the vectors must be a 3-dimensional tuple in form (0.0, 0.0, 0.0), or the routine will return zero.
+(*\_c\_*, 2022.01.20) In VS Python the vectors must be a 3-dimensional tuple in form (0.0, 0.0, 0.0), or the routine will return zero.
 
 Here some visual helps for the vectorial routines for those of us deprived of a proper math culture (me, for example), this was previously on Vectorlab as introduction to the Math section:
 

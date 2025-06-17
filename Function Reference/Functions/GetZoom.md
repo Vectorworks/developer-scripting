@@ -13,7 +13,7 @@ def vs.GetZoom():
 ```
 
 ## Remarks
-(*_c_*, 2015.02.27): There are two possibilities to fetch the zoom. Suppose your zoom is 100%:
+(*\_c\_*, 2015.02.27): There are two possibilities to fetch the zoom. Suppose your zoom is 100%:
 * GetZoom: returns 100
 * GetPrefReal(500): returns 1
 

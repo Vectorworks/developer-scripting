@@ -29,7 +29,7 @@ def vs.SetLBItemDashStyle(dialogID, componentID, itemIndex, subItemIndex, styleI
 |lineWeight|INTEGER|the dash line's line weight|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.02.29): Expects a dash list index (not from the name list).
+\_c\_ (2016.02.29): Expects a dash list index (not from the name list).
 
 ## Version
 Availability: from VectorWorks 12.0

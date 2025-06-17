@@ -1,6 +1,6 @@
 Some of you know me as Orso from the now defunct Vectorlab, I maintained it for many years. Here is the List Browsers article from the former Vectorlab site. For better understanding please use the comprehensive example at [Dialog with List Browser](Dialog%20with%20List%20Browser.md).
 
-By --_c_ 01:31, 31 December 2020 (EST), 
+By --\_c\_ 01:31, 31 December 2020 (EST), 
 previously Orso.B.Schmid, 2009-2018.
 
 

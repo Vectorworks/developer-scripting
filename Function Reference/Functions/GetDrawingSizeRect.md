@@ -21,7 +21,7 @@ def vs.GetDrawingSizeRect():
 |p2|REAL|Returns bottom right coordinate of drawing rectangle.|
 
 ## Remarks
-(*_c_*, 2014.08.19): The returned coordinates are (current units, page) the top-left, bottom-right coordinates of the printable page in the active layer. These coordinates can vary if the active layer is sheet or design layer. The newer routine [SetDrawingRectN](SetDrawingRectN.md) allows to pass a handle to a layer.
+(*\_c\_*, 2014.08.19): The returned coordinates are (current units, page) the top-left, bottom-right coordinates of the printable page in the active layer. These coordinates can vary if the active layer is sheet or design layer. The newer routine [SetDrawingRectN](SetDrawingRectN.md) allows to pass a handle to a layer.
 
 ## Examples
 #### VectorScript ####

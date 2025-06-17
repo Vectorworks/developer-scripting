@@ -21,7 +21,7 @@ def vs.PtInPoly(p, h):
 |h|HANDLE|Handle to polygon.|
 
 ## Remarks
-([[User:CBM-c-_| _c_]] 2021.12.27): This only works on polygons or segments of polylines whose vertex type is corner. Any point on poly segments with other vertex type (bezier, arc, radius, cubic) will return false. Also small polygon sides will cause failure. All in all it is barely usable for anything than large polygons (not polylines) with large sides.
+(\_c\_ 2021.12.27): This only works on polygons or segments of polylines whose vertex type is corner. Any point on poly segments with other vertex type (bezier, arc, radius, cubic) will return false. Also small polygon sides will cause failure. All in all it is barely usable for anything than large polygons (not polylines) with large sides.
 
 ## Examples
 #### VectorScript ####

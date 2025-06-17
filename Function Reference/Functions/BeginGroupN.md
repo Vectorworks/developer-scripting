@@ -18,7 +18,7 @@ def vs.BeginGroupN(groupHandle):
 |groupHandle|HANDLE|The group handle to be used; if handle is initialized to NIL a new group is created.|
 
 ## Remarks
-[[User:CBM-c-| _c_]] 2021.02.24:
+\_c\_ 2021.02.24:
 
 Be very careful with BeginGroupN, this won't automatically return NIL if empty. Used in Plug-in object it will crash VW upon attempting to use the common Group operation routines and the Group handle is not valid (Tested up to VW 2021 SP3).
 

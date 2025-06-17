@@ -23,7 +23,7 @@ def vs.Centroid(h):
 |y|REAL|   |
 
 ## Remarks
-(*_c_* 2016.04.18): This returns mm, so convert the values into current units:
+(*\_c\_* 2016.04.18): This returns mm, so convert the values into current units:
 <code lang="vss">
 IF Centroid(h, c.x, c.y) THEN BEGIN
         { centroid returns mm }

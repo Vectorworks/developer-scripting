@@ -23,7 +23,7 @@ def vs.GetTexSpace2DOffset(textureSpace):
 |offsetV|REAL|returns texture offset V component.|
 
 ## Remarks
-*_c_*, (2018.12.29) Use [GetTexMapRealN](GetTexMapRealN.md) instead.
+*\_c\_*, (2018.12.29) Use [GetTexMapRealN](GetTexMapRealN.md) instead.
 
 
 Gets the 2D offset for this texture space in real-world inches.

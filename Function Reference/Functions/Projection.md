@@ -29,7 +29,7 @@ def vs.Projection(proj, rMode, viewDistance, clip1, clip2):
 |clip2|REAL|Bottom right coordinate of clipping rectangle.|
 
 ## Remarks
-*_c_*, (2015.02.24): 
+*\_c\_*, (2015.02.24): 
 
 The projection mode constants (in the SDK they are called type constants):
 * 0 = Orthogonal
@@ -61,10 +61,10 @@ The render mode constants:
 * 17 = Artistic Renderworks
 * 18 = Sketch
 
-*_c_*, (2014.08.18): From John Kerr. Many thanks John!
+*\_c\_*, (2014.08.18): From John Kerr. Many thanks John!
 ![Diagram of the perspective distance](files/PerspDistance.png)
 
-*_c_*, (2014.08.18): this below has lost the author during one of the wiki updates:
+*\_c\_*, (2014.08.18): this below has lost the author during one of the wiki updates:
 
 from somebody on the VS list:
 I made some tests with the following results: When I use the setting 'low perspective' (don't know the correct expression in english, sorry), it's the same as entering 24.41 for 'set perspective'. 

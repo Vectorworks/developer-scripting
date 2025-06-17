@@ -21,7 +21,7 @@ def vs.GetTextureSpace(obj, partID):
 |partID|INTEGER|Part ID (pass 1 for non-supporting objects).|
 
 ## Remarks
-*_c_*, (2018.12.29) Don't use this: it works but on walls will remove the mapping, tested on VW 2017, 2018. The new GetTexMapXXX routines accept a direct object handle, without needing the texture space handle.
+*\_c\_*, (2018.12.29) Don't use this: it works but on walls will remove the mapping, tested on VW 2017, 2018. The new GetTexMapXXX routines accept a direct object handle, without needing the texture space handle.
 
 
 Returns the texture space attached to this object, with the same part ID as partID.  Walls may have three texture spaces attached to them if they have expanded textures, for example.

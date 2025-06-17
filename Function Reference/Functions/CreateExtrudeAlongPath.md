@@ -23,9 +23,9 @@ def vs.CreateExtrudeAlongPath(pathHandle, profileHandle):
 |profileHandle|HANDLE|Handle to the profile object.|
 
 ## Remarks
-*_c_*, 2018.05.13: It creates a number of NURBS curves with class attributes, these won't section properly in Section Viewports without stitch and trim since they don't have a fill. Tested in Pio: OK. [ExtrudeAlongPath](ExtrudeAlongPath.md) outputs generic solids instead, but it won't take up the active class attributes.
+*\_c\_*, 2018.05.13: It creates a number of NURBS curves with class attributes, these won't section properly in Section Viewports without stitch and trim since they don't have a fill. Tested in Pio: OK. [ExtrudeAlongPath](ExtrudeAlongPath.md) outputs generic solids instead, but it won't take up the active class attributes.
 
-Older remarks not from me (_c_):
+Older remarks not from me (\_c\_):
 
 The following objects are supported as profile objects:
 

@@ -18,7 +18,7 @@ def vs.WSScript_AddHandle(h):
 |h|HANDLE|The handle of an object to be added|
 
 ## Remarks
-[[User:CBM-c-| _c_]] (2021.02.08):
+\_c\_ (2021.02.08):
 See excellent intrduction to Worksheet Scripting by Pat Stanford on the Techboard:
 
 forum.vectorworks.net/index.php?/topic/75193-a-super-short-course-in-worksheet-scripts/

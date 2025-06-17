@@ -23,7 +23,7 @@ def vs.Num2Str(decPlace, v):
 |v|REAL|Numeric value.|
 
 ## Remarks
-*_c_*, 2015.05.23: You can also use [Concat](Concat.md) to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, because it outputs the number as seen from inside VS, I suppose. See further comments on the page [Concat](Concat.md).
+*\_c\_*, 2015.05.23: You can also use [Concat](Concat.md) to convert numbers to strings, but it uses exclusively a dot "." as symbol for the decimal marker, because it outputs the number as seen from inside VS, I suppose. See further comments on the page [Concat](Concat.md).
 
 The parameter *decPlace* can be the following values:
 

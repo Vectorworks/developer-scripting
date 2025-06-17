@@ -31,7 +31,7 @@ def vs.OffsetPoly(h, offsetDistance, numberOfOffsets, consolidateVertices, sharp
 |consolidationTolerance|REAL|   |
 
 ## Remarks
-(*_c_*, 2011): The routine was introduced undocumented by VW10 (2005), then made public by VW17 (2012).
+(*\_c\_*, 2011): The routine was introduced undocumented by VW10 (2005), then made public by VW17 (2012).
 
 OffsetPoly fails:
 * on holes, they are ignored

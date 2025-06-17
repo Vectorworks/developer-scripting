@@ -29,7 +29,7 @@ def vs.Rect(p1x, p1y, p2x, p2y):
 |p2y|REAL|Bottom right Y coordinate of rectangle.|
 
 ## Remarks
-*_c_* (2016.03.28): An example using distance-angle. Don't forget to use the pound notation (#):
+*\_c\_* (2016.03.28): An example using distance-angle. Don't forget to use the pound notation (#):
 <code lang="vs">
 MoveTo(10m, 20m); { set pen position at x, y: 10m, 20m }
 Rect(1m, #0, 2m, #90); 

@@ -25,7 +25,7 @@ def vs.GetScreen():
 |y2|INTEGER|Returns Y coordinate of bottom right of screen.|
 
 ## Remarks
-(*_c_*, 2014.08.19): The values returned are pixels. For example my iMac returns "0, 0, 2560, 1440".
+(*\_c\_*, 2014.08.19): The values returned are pixels. For example my iMac returns "0, 0, 2560, 1440".
 
 
 This seems to crash VW on Win98.

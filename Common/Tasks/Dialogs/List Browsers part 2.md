@@ -1,6 +1,6 @@
 For better understanding please use the comprehensive example at [Dialog with List Browser](Dialog%20with%20List%20Browser.md).
 
-By --_c_  03:08, 31 December 2020 (EST), previously Orso B. Schmid.
+By --\_c\_  03:08, 31 December 2020 (EST), previously Orso B. Schmid.
 
 | [Part 1: Creation](./List%20Browsers%20part%201.md) | [Part 2: Columns](./List%20Browsers%20part%202.md) | [Part 3: Rows and Cells](./List%20Browsers%20part%204.md) | [Part 4: Events](./List%20Browsers%20part%204.md) |
 

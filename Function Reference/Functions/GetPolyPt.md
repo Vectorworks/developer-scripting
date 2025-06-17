@@ -23,7 +23,7 @@ def vs.GetPolyPt(objectHd, index):
 |p|REAL|Returns coordinates of vertex.|
 
 ## Remarks
-(*_c_*, 2022.01.18) In VS Python this routine returns a 2-dimensional tuple. Warning: Most Math - Vector routines require a 3-dimensional tuple, failing to init a third item in VW before 2023 (vs.Vec2Ang, for example, returns gibberish on 2-d tuples). You will need to make sure that a third item exists.
+(*\_c\_*, 2022.01.18) In VS Python this routine returns a 2-dimensional tuple. Warning: Most Math - Vector routines require a 3-dimensional tuple, failing to init a third item in VW before 2023 (vs.Vec2Ang, for example, returns gibberish on 2-d tuples). You will need to make sure that a third item exists.
 <code lang="py">
 # test GetPolyPt
 p = (0, 0, 0)
@@ -32,7 +32,7 @@ p = vs.GetPolyPt(vs.FSActLayer(), 1) # take care to have a polygon selected
 vs.AlrtDialog( 'after GetPolyPt: ' + str(len(p)) ) # 2 items?!?
 ```
 
-(*_c_*, 2010.12.22) Since the introduction of rotated rectangles, it doesn't turn them into polygons any longer. The routine fails with warning, as expected. 
+(*\_c\_*, 2010.12.22) Since the introduction of rotated rectangles, it doesn't turn them into polygons any longer. The routine fails with warning, as expected. 
 
 (Charles Chandler, 2001 Jan. 25): Doesn't work on rectangles, unless you rotate them, which turns them into polygons.
 

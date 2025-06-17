@@ -26,9 +26,9 @@ def vs.SetLS(h, ls):
 |ls|INTEGER|Linestyle to apply to object.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2014 Apr. 08):  This Routine can be considered partly obsolete from VW 2013 (VW 18) since it will ignore complex line types. Use [SetLSN](SetLSN.md) instead.
+(\_c\_, 2014 Apr. 08):  This Routine can be considered partly obsolete from VW 2013 (VW 18) since it will ignore complex line types. Use [SetLSN](SetLSN.md) instead.
 
-([[User:CBM-c-|_c_]], 2011 May 19): Since VW 2010 the max number of Dash styles increased to 128, thus the limit is now theoretically -128 and not -8. It is to be minded that the function will rise a warning if the dash style index passed doesn't exist. This can happen when users deleted them. 
+(\_c\_, 2011 May 19): Since VW 2010 the max number of Dash styles increased to 128, thus the limit is now theoretically -128 and not -8. It is to be minded that the function will rise a warning if the dash style index passed doesn't exist. This can happen when users deleted them. 
 
 Thus the secure range to be used is: -1 to -[NumDashStyles](NumDashStyles.md).
 

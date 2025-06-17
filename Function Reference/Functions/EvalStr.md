@@ -23,7 +23,7 @@ def vs.EvalStr(h, c):
 |c|CRITERIA|Search criteria.|
 
 ## Remarks
-*_c_*, 2015.06.17: 
+*\_c\_*, 2015.06.17: 
 Don't forget the brakets or it will block the rest of the script in a totally unpredictable way upon any special char. I suppose that it tries to parse the rest of the script as criteria:
  crit := '.'; { suspiciously dangerous special char }
  str := EvalStr(gTargetH, crit); { strange failure of parts of the script after this call ! }

@@ -133,12 +133,12 @@ def vs.BuildResourceList(type, folderIndex, subFolderName):
 It also will not work on any symbol which is ''inside'' a folder -- it only works on symbols at the top level.
 [[User:User:KKeizer| Kars]], 26-08-2020: it is now getting all symbols including "inside" a folder and handling them as one resource list. (using VW 2020).
 
-*_c_*, 2007.06.02]: This doesn't seem to support Symbol Folders (object type 92). 
+*\_c\_*, 2007.06.02]: This doesn't seem to support Symbol Folders (object type 92). 
 [[User:User:KKeizer| Kars]], 26-08-2020: it is working with Symbol Folders (object type 92) (using VW 2020).
 
-*_c_*, 2009.12.29: To obtain a list of sketch styles excluding records pass object type -47. This is to my knowledge the only usage of a negative object type.
+*\_c\_*, 2009.12.29: To obtain a list of sketch styles excluding records pass object type -47. This is to my knowledge the only usage of a negative object type.
 
-*_c_*, 2016.02.29:  Here some usage examples:
+*\_c\_*, 2016.02.29:  Here some usage examples:
 <code lang="vs">
 resID := 127; { wall styles }
 pathID := 113; { Wall ~ Slabs folder }

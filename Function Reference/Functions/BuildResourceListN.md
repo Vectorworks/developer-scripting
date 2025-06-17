@@ -23,7 +23,7 @@ def vs.BuildResourceListN(type, fullPath):
 |numItems|LONGINT|the number of items in the list built|
 
 ## Remarks
-*_c_*, (2016.02.29):  It supports also posix paths on mac ("/"). It can't be used to retrive the resources in the active document.
+*\_c\_*, (2016.02.29):  It supports also posix paths on mac ("/"). It can't be used to retrive the resources in the active document.
 
 Here some usage examples:
 <code lang="vs">

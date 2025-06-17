@@ -33,7 +33,7 @@ def vs.SetDashStyle(swt, numPairs, pair1, pair2, pair3, pair4, pair5):
 |pair5|REAL|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]], (2014.04.08):  It creates a generically named dash style. Use [SetDashStyleN](SetDashStyleN.md) to name the new style during creation. The dash-gap values must be in page inches. More comments on Vectorlab's [http://www.vectorlab.info/index.php?title=Index_pitfalls Index_pitfalls].
+\_c\_, (2014.04.08):  It creates a generically named dash style. Use [SetDashStyleN](SetDashStyleN.md) to name the new style during creation. The dash-gap values must be in page inches. More comments on Vectorlab's [http://www.vectorlab.info/index.php?title=Index_pitfalls Index_pitfalls].
 
 The routine can be expressed as below, whereby you'll only enter as many dashX-gapX values as needed:
 

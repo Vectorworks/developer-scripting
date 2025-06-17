@@ -21,7 +21,7 @@ def vs.GetNumTexLayers(obj, texPartID):
 |texPartID|LONGINT|   |
 
 ## Remarks
-*_c_*, (2017.12.29) For the texPartID flags, check the SDK file RenderOptionsValues.h:
+*\_c\_*, (2017.12.29) For the texPartID flags, check the SDK file RenderOptionsValues.h:
 : 3: overall for any kind of object
 : 4: top in extrudes/sweeps
 : 5: bottom in extrudes/sweeps

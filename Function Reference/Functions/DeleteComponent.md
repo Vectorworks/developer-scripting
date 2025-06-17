@@ -21,7 +21,7 @@ def vs.DeleteComponent(obj, componentIndex):
 |componentIndex|INTEGER|The index of the component to delete.|
 
 ## Remarks
-*_c_*: (2016.02.03):  Supports also Roof and Roof Styles components from VW 2016.
+*\_c\_*: (2016.02.03):  Supports also Roof and Roof Styles components from VW 2016.
 
 ## See Also
 VS Functions:

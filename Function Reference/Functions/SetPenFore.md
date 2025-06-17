@@ -21,7 +21,7 @@ def vs.SetPenFore(h, color):
 |color|LONGINT|RGB color value.|
 
 ## Remarks
-([[User:CBM-c-|_c_]] 2015.05.18): This Vectorscript routine responds to multiple types of notations:
+(\_c\_ 2015.05.18): This Vectorscript routine responds to multiple types of notations:
 
 Vectorscript:
 * Singular [ color index](RGBToColorIndex.md):

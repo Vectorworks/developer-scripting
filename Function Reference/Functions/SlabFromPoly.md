@@ -18,7 +18,7 @@ def vs.SlabFromPoly(poly):
 |poly|HANDLE|The polyline that the slab will be created from.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2017.01.27): This is one of those objects that don't respond to [LNewObj](LNewObj.md). It also doesn't return any value on [GetBBox](GetBBox.md).
+\_c\_ (2017.01.27): This is one of those objects that don't respond to [LNewObj](LNewObj.md). It also doesn't return any value on [GetBBox](GetBBox.md).
 ```pascal
 SlabFromPoly(FSActLayer);
 Locus(0, 0); { do something to have a marker }

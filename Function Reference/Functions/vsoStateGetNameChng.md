@@ -25,7 +25,7 @@ def vs.vsoStateGetNameChng(hObj):
 |outNewName|STRING|Output parameter. New object name.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.05.14): Warning, actions that modify an object's name don't trigger a regen event, so vsoStateGetNameChng won't detect name changes until next regen. Actions that change the name can be:
+\_c\_ (2016.05.14): Warning, actions that modify an object's name don't trigger a regen event, so vsoStateGetNameChng won't detect name changes until next regen. Actions that change the name can be:
 * editing the name object in the Data tab of the Object Info Palette
 * modifying the object's name from within the script in any fashion
 * automatic name deletion in case of name collision.

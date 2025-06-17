@@ -18,7 +18,7 @@ def vs.GetTexSpace2DRadius(textureSpace):
 |textureSpace|HANDLE|Handle to texture space.|
 
 ## Remarks
-*_c_* (2018 Dec. 29) Use [GetTexMapRealN](GetTexMapRealN.md) instead. 
+*\_c\_* (2018 Dec. 29) Use [GetTexMapRealN](GetTexMapRealN.md) instead. 
 
 
 For applicable mapping types, gets the radius of the texture space.

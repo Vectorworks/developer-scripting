@@ -25,7 +25,7 @@ def vs.GetTextureRefN(obj, texPartID, texLayerID, resolveByClass):
 |resolveByClass|BOOLEAN|   |
 
 ## Remarks
-*_c_* (2017.12.30): This was always a cryptical call, below an example from my own notes:
+*\_c\_* (2017.12.30): This was always a cryptical call, below an example from my own notes:
 <code lang="vs">
 { set texLayerID to 0, if you don't have decals you want to access }
 

@@ -27,7 +27,7 @@ def vs.EA_DataAccCompGet(acc):
 |outThickness|REAL|   |
 
 ## Remarks
-(*_c_*, 2022.04.14):
+(*\_c\_*, 2022.04.14):
 Python only: EA_DataAccCompGet can't be used for VW before 2022 SP4, the index returned is gibberish. 
 
 An extensive example about the Energos access can be found under [[VS:EA DataAccCreate]]

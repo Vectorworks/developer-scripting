@@ -18,7 +18,7 @@ def vs.Str2Num(s):
 |s|STRING|Source string.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2017.11.18): Please be careful with overriding standard routines. I change the name of this routine into MyStr2Num. Thus it won't override the standard Str2Num.
+\_c\_ (2017.11.18): Please be careful with overriding standard routines. I change the name of this routine into MyStr2Num. Thus it won't override the standard Str2Num.
 
 Author unknown, changed so that it doesn't override the standard routine:
 ```pascal

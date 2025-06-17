@@ -18,7 +18,7 @@ def vs.RoofArea_Heated(c):
 |c|CRITERIA|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.06.28): This returns the area excluding the overhang:
+\_c\_ (2016.06.28): This returns the area excluding the overhang:
 * Roof Faces: the overhang is the part outside the roof axis (line with the arrow). Mind that this doesn't necessarily run parallel to a roof face's edge and the resulting areas are influcenced.
 * Roof objects: the overhang is ruled parametrically clicking a face and setting it in the roof dialog. This sets roof axis in the embedded Roof Face[s].
 

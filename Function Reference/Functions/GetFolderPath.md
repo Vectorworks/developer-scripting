@@ -265,15 +265,15 @@ def vs.GetFolderPath(whichPath):
 [sd 8/18/98]:
 Get folder path returns the fully qualified path with platform specific folder separators. On the Mac it returns the path with colons as the separator and uses the backslash on windows. If you are concatenating your own path on the end of a GetFolderPath return string you need to match the qualifier to the platform.
 
-*_c_* [2007.06.17]: 
+*\_c\_* [2007.06.17]: 
 Always generates a minor alert if the path doesn't exist (VW 12.5.x). Can be annoying if user doesn't have "Display minor alerts on mode bar" on. Toggling the preference is also useless: by the end of the script, restoring user's preferences, the alert will be seen. 
 
-*_c_* [2007.06.21]: 
+*\_c\_* [2007.06.21]: 
 In order to access the user's settings folder use flag -15 (VW 12.5.x)
 alrtDialog(concat('User settings path: ', getFolderPath(-15)));
 Then I have no idea how to resolve eventual localizations of the SavedSettings.xml or SavedSettingsUser.xml file. I could find no string in the resources storing these file names. The SavedSettingsUser.xml can be accessed directly by GetSavedSetting/SetSavedSetting.
 
-*_c_* [2008.03.29]: 
+*\_c\_* [2008.03.29]: 
 Since VW 13 the flag system has been expanded:
 negative flag number: user's folders (by default in Application Support)
 positive flag number: application folders (where the VW folder resides)

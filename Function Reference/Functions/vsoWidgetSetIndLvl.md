@@ -21,7 +21,7 @@ def vs.vsoWidgetSetIndLvl(widgetID, indentLevel):
 |indentLevel|LONGINT|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2022.01.05): There is a commented example of plug-in object (Python) with collapsable widgets here: [[User:CBM-c-/Plug-in_with_widget_basic_example]]
+\_c\_ (2022.01.05): There is a commented example of plug-in object (Python) with collapsable widgets here: [[User:CBM-c-/Plug-in_with_widget_basic_example]]
 
 ## Examples
 #### VectorScript ####

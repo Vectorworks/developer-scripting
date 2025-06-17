@@ -25,7 +25,7 @@ def vs.SetTextureRefN(obj, textureRef, texPartID, texLayerID):
 |texLayerID|LONGINT|0 for base, &gt;0 for decals|
 
 ## Remarks
-[[User:CBM-c-| _c_]], 2021.02.21:
+\_c\_, 2021.02.21:
 This actually creates the part if it wasn't there before.
 
 textureRef:

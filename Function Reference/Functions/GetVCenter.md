@@ -18,7 +18,7 @@ def vs.GetVCenter():
 |center|REAL|Returns view center point.|
 
 ## Remarks
-(*_c_*, 2015.03.01):  This is not to be confused with the center of the page. The view center is always the center of the open window, so if you resize the window or pan somewhere else, for example, the view center will move accordingly.
+(*\_c\_*, 2015.03.01):  This is not to be confused with the center of the page. The view center is always the center of the open window, so if you resize the window or pan somewhere else, for example, the view center will move accordingly.
 
 ## Examples
 

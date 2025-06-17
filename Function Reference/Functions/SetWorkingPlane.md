@@ -29,7 +29,7 @@ def vs.SetWorkingPlane(x, y, z, xRotation, yRotation, zRotation):
 |zRotation|REAL|Z-coordinate of the rotation|
 
 ## Remarks
-([[User:CBM-c-|_c_]] 2022.05.12): From Raymond Mullin: as of VW 2022 any working plane set with this routine doesn't persist after script's end. This routine works in this fashion since VW 2011.
+(\_c\_ 2022.05.12): From Raymond Mullin: as of VW 2022 any working plane set with this routine doesn't persist after script's end. This routine works in this fashion since VW 2011.
 
 ## See Also
 VS Functions:

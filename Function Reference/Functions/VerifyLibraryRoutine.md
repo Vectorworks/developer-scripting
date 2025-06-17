@@ -22,7 +22,7 @@ def vs.VerifyLibraryRoutine(routineName):
 |routineName|STRING|Name of function call to be verified.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2016.01.02):  
+(\_c\_, 2016.01.02):  
 * The routines parsed are only those that you'll find in the VWPluginLibraryRoutines.p file. Any other will return FALSE!
 * This is the only function that doesn't accept a variable of type string. It really only accepts a routine name within quotes:
 <code lang='vs'>
@@ -32,7 +32,7 @@ def vs.VerifyLibraryRoutine(routineName):
  boo := VerifyLibraryRoutine(routineName); { error }
 ```
 
-([[User:CBM-c-|_c_]], 2015.06.14):  This can be used to test the routine in the .p files suppressing warnings. Suppose you script for VW 2013 but wish to use a routine developed for VW 2014, normally the parser would rise the error "identifier not declared" since the routine is unknown (introduced later). If you wrap the routine call into an IF condition starting with VerifyLibraryRoutine this warning is suppressed.
+(\_c\_, 2015.06.14):  This can be used to test the routine in the .p files suppressing warnings. Suppose you script for VW 2013 but wish to use a routine developed for VW 2014, normally the parser would rise the error "identifier not declared" since the routine is unknown (introduced later). If you wrap the routine call into an IF condition starting with VerifyLibraryRoutine this warning is suppressed.
 
 ; Exception: the warning "The function is deprecated and should not be used" can't be suppressed! This will rise upon usage of routines listed as deprecated, for example the old dialog routines: [[VS:Vectorworks_2010_Deprecated_Functions| Deprecated for VW 2010 (10)]]
 

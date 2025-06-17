@@ -20,7 +20,7 @@ def vs.PenPatN(patNumber):
 |patNumber|LONGINT|Pattern/linestyle ID value.|
 
 ## Remarks
-*_c_* (2016.02.29): VS:FPenPatN requires a name list index, while the older routine VS:PenPat requires the dash style index. Please mind that a document doesn't necessarily have dash styles loaded.
+*\_c\_* (2016.02.29): VS:FPenPatN requires a name list index, while the older routine VS:PenPat requires the dash style index. Please mind that a document doesn't necessarily have dash styles loaded.
 
 <code lang='vs'>
 PenPatN(-Name2Index('ISO-02 Dashed')); { makes 'ISO-02 Dashed' as the active pen pattern }

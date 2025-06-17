@@ -23,7 +23,7 @@ def vs.ThreePtCenter(pt1, pt2, pt3):
 |pt3|VECTOR|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.18) In VS Python this routine returns a 3-dimensional tuple. Warning: Most Math - Vector routines require a 3-dimensional tuple, failing to init a third item in VW before 2023 (vs.Vec2Ang, for example, returns gibberish on 2-d tuples).
+(\_c\_, 2022.01.18) In VS Python this routine returns a 3-dimensional tuple. Warning: Most Math - Vector routines require a 3-dimensional tuple, failing to init a third item in VW before 2023 (vs.Vec2Ang, for example, returns gibberish on 2-d tuples).
 
 ## Examples
 #### VectorScript ####

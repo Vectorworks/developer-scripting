@@ -18,7 +18,7 @@ def vs.Norm(Vec):
 |Vec|VECTOR|Vector to be measured.|
 
 ## Remarks
-(*_c_*, 2022.01.20) In Python the vector used as parameter MUST be 3-dimensional, or it will return gibberish. This doesn't matter in Pascal.
+(*\_c\_*, 2022.01.20) In Python the vector used as parameter MUST be 3-dimensional, or it will return gibberish. This doesn't matter in Pascal.
 
 ## Examples
 #### VectorScript ####

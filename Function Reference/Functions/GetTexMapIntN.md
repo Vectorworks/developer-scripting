@@ -25,7 +25,7 @@ def vs.GetTexMapIntN(obj, texPartID, texLayerID, selector):
 |selector|INTEGER|   |
 
 ## Remarks
-(*_c_*, 2017 Dec. 29) 
+(*\_c\_*, 2017 Dec. 29) 
 Texture Mapping Types:
 * Plane		0
 * Sphere	1

@@ -25,7 +25,7 @@ def vs.GetCompAltSecFillCl(object, componentIndex):
 |alternateSectionFillBackColor|INTEGER|Returns the alternate section fill back color of the component.|
 
 ## Remarks
-*_c_*: 2016.02.03:  See remarks under [GetCompAltSecFill](GetCompAltSecFill.md)!
+*\_c\_*: 2016.02.03:  See remarks under [GetCompAltSecFill](GetCompAltSecFill.md)!
 
 ## See Also
 VS Functions:

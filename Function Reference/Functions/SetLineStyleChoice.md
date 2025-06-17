@@ -25,7 +25,7 @@ def vs.SetLineStyleChoice(dialogID, itemID, lineStyle):
 ## Remarks
 Set the current choice of the line style popup dialog control to the specified index.
 
-[[User:CBM-c-|_c_]] (2016.02.29): Expects a dash list index (not usable for VS:Index2Name).
+\_c\_ (2016.02.29): Expects a dash list index (not usable for VS:Index2Name).
 
 ## Version
 Availability: from VectorWorks 12.0

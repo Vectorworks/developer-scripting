@@ -27,9 +27,9 @@ def vs.GetClosestSide(obj, pt):
 |index2|INTEGER|Index of second vertex of closest side.|
 
 ## Remarks
-[[User:CBM-c-| _c_]], 2021.12.28: If applied to polylines, the routine is unreliable for poly segments whose type is NOT corner: it fails. So basically this works well only on polygons
+[[User:CBM-c-| \_c\_]], 2021.12.28: If applied to polylines, the routine is unreliable for poly segments whose type is NOT corner: it fails. So basically this works well only on polygons
 
-[[User:CBM-c-| _c_]], 2011.12.31: If applied to polygons, the routine needs the passed point to be ON a side. It will return different values depending if
+[[User:CBM-c-| \_c\_]], 2011.12.31: If applied to polygons, the routine needs the passed point to be ON a side. It will return different values depending if
 * the chosen point is ON the side: always returns the vertexes defining the found side
 * the chosen point is NOT ON the side: 
 ** polygons: returns the range of vertexes --> 1-(count of vertexes)

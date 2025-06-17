@@ -21,7 +21,7 @@ def vs.SetTexSpace2DRot(textureSpace, rotationDegrees):
 |rotationDegrees|REAL|Rotation of texture space(in degrees).|
 
 ## Remarks
-[[User:CBM-c-|_c_]], (2018.12.29) Don't use this: it works but will remove the mapping, tested on VW 2017, 2018. Use [GetTexMapRealN](GetTexMapRealN.md) instead.
+\_c\_, (2018.12.29) Don't use this: it works but will remove the mapping, tested on VW 2017, 2018. Use [GetTexMapRealN](GetTexMapRealN.md) instead.
 
 
 Sets rotation in degrees

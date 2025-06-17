@@ -18,7 +18,7 @@ def vs.UnitVec(Vect):
 |Vect|VECTOR|Source vector.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2022.01.19) The vector returned is always 3-dimensional: Pascal: vector {x, y, z}, Python: tuple (0.0, 0.0, 0.0).
+(\_c\_, 2022.01.19) The vector returned is always 3-dimensional: Pascal: vector {x, y, z}, Python: tuple (0.0, 0.0, 0.0).
 Note: in Python the vector used as parameter MUST be 3-dimensional, or UnitVec will return gibberish. This doesn't matter in Pascal.
 
 ## Examples

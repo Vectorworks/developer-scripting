@@ -21,7 +21,7 @@ def vs.SetDashStyleName(DashStyleIndex, DashStyleName):
 |DashStyleName|STRING|The new name of the dash style specified by the index.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], (2014.04.08):  This sets the name in the dash style list, not in the name list. It seems to be a left over from the time before introduction of dash styles as named resources.
+\_c\_, (2014.04.08):  This sets the name in the dash style list, not in the name list. It seems to be a left over from the time before introduction of dash styles as named resources.
 
 ## See Also
 VS Functions:

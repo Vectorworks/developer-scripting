@@ -21,7 +21,7 @@ def vs.ConvertToArcPolyline(hPolygon, dFuzz):
 |dFuzz|REAL|   |
 
 ## Remarks
-(*_c_*, 2022.02.02) This routine must be updated, it still doesn't recognize Radius vertexes. 
+(*\_c\_*, 2022.02.02) This routine must be updated, it still doesn't recognize Radius vertexes. 
 
 As of VW 2022  the routine behaves on vertexes as such:
 * corner: preserved

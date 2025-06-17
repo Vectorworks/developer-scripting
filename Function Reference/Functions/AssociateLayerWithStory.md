@@ -21,7 +21,7 @@ def vs.AssociateLayerWithStory(layer, story):
 |story|HANDLE|The Story to associate.|
 
 ## Remarks
-(*_c_*, 2018.10.23): This needs the layer to be linked to a level with [SetLayerLevelType](SetLayerLevelType.md) or it will fail. In the example below you have the sequence to make that work.
+(*\_c\_*, 2018.10.23): This needs the layer to be linked to a level with [SetLayerLevelType](SetLayerLevelType.md) or it will fail. In the example below you have the sequence to make that work.
 
 ```pascal
 { _c_ }

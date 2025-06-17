@@ -27,10 +27,10 @@ def vs.CreateIconPushButton(nDialogID, nComponentID, nIconID, nWidthInChars):
 |nWidthInChars|INTEGER|   |
 
 ## Remarks
-(*_c_*, 2014.09.17): 
+(*\_c\_*, 2014.09.17): 
 The routine still works under VW 2014, but not in VW 2015.
 
-(*_c_*, 2007.04.09): 
+(*\_c\_*, 2007.04.09): 
 This routine is not recognized under VW 12.5 Fundamentals (might be VW 12.5.1)
 
 ## Examples

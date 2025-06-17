@@ -23,11 +23,11 @@ def vs.OffsetPolyN(h, offsetDistance, smoothCorners):
 |smoothCorners|BOOLEAN|   |
 
 ## Remarks
-(*_c_*, 2020): 
+(*\_c\_*, 2020): 
 * smoothCorners will create rounded corners
 * there is a suppression of collinear vertexes from the original object, so the resulting poly doesn't necessarily have the same count of vertexes.
 
-(*_c_*, 2011): It outputs a polygon (Type 5), polyline (Type 21) or a group (Type 11), according to the offset geometry and eventual intersections.
+(*\_c\_*, 2011): It outputs a polygon (Type 5), polyline (Type 21) or a group (Type 11), according to the offset geometry and eventual intersections.
 OffsetPolyN fails:
 * on holes, they are ignored
 * used from inside plug-in objects: deselects the object instance on drawing at each run, compelling the user to re-select (tested from VW 2011 through 2014, also in 2016).

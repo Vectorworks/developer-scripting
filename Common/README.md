@@ -7,6 +7,8 @@
 
 ## Common Tasks
 
+* [Math Basics](Tasks/Info/Math%20Basics.md)
+
 * [Parametric Custom Opening in Wall](Tasks/Parametrics/Parametric%20Custom%20Opening%20in%20Wall.md)
 * [Parametric Custom Selection Indication](Tasks/Parametrics/Parametric%20Custom%20Selection%20Indication.md)
 * [Parametric Custom Shape Pane](Tasks/Parametrics/Parametric%20Custom%20Shape%20Pane.md)
@@ -15,9 +17,11 @@
 * [Parametric State Notifications](Tasks/Parametrics/Parametric%20State%20Notifications.md)
 * [Object_Events](Tasks/Parametrics/Object%20Events.md)
 * [Similar Objects Creation](Tasks/Parametrics/Similar%20Objects%20Creation.md)
+* [Plug-in with widget basic example](Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
 
 * [Progress Dialog](Tasks/Dialogs/Progress%20Dialog.md)
 
+* [Energos basic example](Tasks/Info/Energos%20basic%20example.md)
 * [Working_with_Materials](Tasks/Info/Working%20with%20Materials.md)
 * [Auto-dimension support](Tasks/Info/Auto-dimension%20support.md)
 * [Equipment item attaching sample](Tasks/Spotlight/Equipment%20item%20attaching%20sample.md)

@@ -21,7 +21,7 @@ def vs.FindFileInPluginFolder(filename):
 |path|STRING|   |
 
 ## Remarks
-*_c_* (2016.05.16): This routine behaves differently according to where the searched file is placed:
+*\_c\_* (2016.05.16): This routine behaves differently according to where the searched file is placed:
 * if a file is placed in the upper level of the User/Plug-ins folder this will always be found
 * if a file is placed anywhere else (for example in a subfolder within the User/Plug-ins folder or in the Workgroup/Plug-ins folder) the routine will
 ** find a file only at VW launch (you need to restart VW to make the file be found)

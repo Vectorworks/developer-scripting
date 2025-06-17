@@ -27,7 +27,7 @@ def vs.Mirror(h, dup, p1, p2):
 |p2|POINT|A second arbitrary point on the mirror axis|
 
 ## Remarks
-(*_c_*, 2019.11.09) This doesn't support Groups and is unpredictable on 3D objects
+(*\_c\_*, 2019.11.09) This doesn't support Groups and is unpredictable on 3D objects
 
 ## Version
 Availability: from Vectorworks 2017

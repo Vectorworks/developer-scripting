@@ -23,7 +23,7 @@ def vs.Get2DPt(obj, index):
 |loc|REAL|Coordinates of 2D vertex  location.|
 
 ## Remarks
-(*_c_*, 2007.05.27): Used with bounding box objects without vertexes (groups...), the routine doesn't throw error and always returns the coordinates of the center, independently of the passed vertex index.
+(*\_c\_*, 2007.05.27): Used with bounding box objects without vertexes (groups...), the routine doesn't throw error and always returns the coordinates of the center, independently of the passed vertex index.
 
 (RGM Feb 2006): This will generally return the center of an object. Use [ GetSymLoc](GetSymLoc.md) if you want eg. the 'point' of a Point PIO.
 

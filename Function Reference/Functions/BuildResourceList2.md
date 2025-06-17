@@ -134,7 +134,7 @@ def vs.BuildResourceList2(type, folderIndex, subFolderName, useDefaultContent):
 |useDefaultContent|BOOLEAN|determine if the list should contain default content|
 
 ## Remarks
-*_c_*, 2016.02.29:  Here some usage examples:
+*\_c\_*, 2016.02.29:  Here some usage examples:
 <code lang="vs">
 
 resID := 127; { wall styles }

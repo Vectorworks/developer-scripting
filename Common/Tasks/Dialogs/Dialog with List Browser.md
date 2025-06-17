@@ -3,7 +3,7 @@
 A resizable dialog with a list browser, pull down menus, an enhanced pulldown menu, radio and check boxes. This is the basic example for the article [List Browsers](VS-List Browsers part 1.md).
 
 With this dialog you can experiment with the different results in List Browsers, according to their four basic features: Column Data Items, Control Type, Display Type, Column Owner.  
-By --_c_ (Orso B. Schmid)
+By --\_c\_ (Orso B. Schmid)
 
 The compiler mode is enabled automatically by this script in the snippet `SetPref(407, TRUE)`. Remember to turn it off!
 

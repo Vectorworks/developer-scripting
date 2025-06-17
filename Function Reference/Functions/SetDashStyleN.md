@@ -35,7 +35,7 @@ def vs.SetDashStyleN(name, swt, numPairs, pair1, pair2, pair3, pair4, pair5):
 |pair5|REAL|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]], (2014.04.08):  It creates a named dash style definition. This sets the name in both the name list and the (now) hidden dash style list. The parameter numPairs seems to be automatically filled depending on the count of pair values passed (you can omit pairs, if they are not needed). In the example below it works with "0" whereby you'd think that "2" would be needed, since two dash-gap pairs are passed. The routine supports up to 10 real dash-gap values (5 pairs). The values must be entered in page inches. More comments on Vectorlab's [http://www.vectorlab.info/index.php?title=Index_pitfalls Index_pitfalls].
+\_c\_, (2014.04.08):  It creates a named dash style definition. This sets the name in both the name list and the (now) hidden dash style list. The parameter numPairs seems to be automatically filled depending on the count of pair values passed (you can omit pairs, if they are not needed). In the example below it works with "0" whereby you'd think that "2" would be needed, since two dash-gap pairs are passed. The routine supports up to 10 real dash-gap values (5 pairs). The values must be entered in page inches. More comments on Vectorlab's [http://www.vectorlab.info/index.php?title=Index_pitfalls Index_pitfalls].
 
 The routine can be expressed as follows, whereby you'll only enter as many dashX-gapX values as needed:
 ```pascal

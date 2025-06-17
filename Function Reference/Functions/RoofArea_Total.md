@@ -18,7 +18,7 @@ def vs.RoofArea_Total(c):
 |c|CRITERIA|   |
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2016.06.28): See remark on [[VS:RoofArea Heated]].
+\_c\_ (2016.06.28): See remark on [[VS:RoofArea Heated]].
 
 ## See Also
 * [RoofArea Heated](RoofArea%20Heated.md)

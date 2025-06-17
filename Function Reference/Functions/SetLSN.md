@@ -23,7 +23,7 @@ def vs.SetLSN(h, ls):
 |ls|LONGINT|Linestyle to apply to object.|
 
 ## Remarks
-([[User:CBM-c-|_c_]] 2016.02.29): Expects a name list index, while the older routine [GetLS](GetLS.md) expected a dash style index. 
+(\_c\_ 2016.02.29): Expects a name list index, while the older routine [GetLS](GetLS.md) expected a dash style index. 
 
 <code lang="vs">
 IF GetObject('ISO-02 Dashed') <> NIL THEN

@@ -18,7 +18,7 @@ def vs.SaveActiveDocument(filePath):
 |filePath|STRING|   |
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2014.09.20): Introduced by VW 10 (not 2010!), made public for VW 2014. This is predestinated to usage with Applescript, since it's dialog-free. Probably created for that precise usage, since I am not aware of a single command in the main application that could be using it.
+(\_c\_, 2014.09.20): Introduced by VW 10 (not 2010!), made public for VW 2014. This is predestinated to usage with Applescript, since it's dialog-free. Probably created for that precise usage, since I am not aware of a single command in the main application that could be using it.
 
 It corresponds to "save as" but without dialog. Saving on the same file path name doesn't work (returns -1), only if the file path is different (returns 0).
 

@@ -13,7 +13,7 @@ PROCEDURE BeginText;
 ```
 
 ## Remarks
-(*_c_*, 2015.12.19): If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
+(*\_c\_*, 2015.12.19): If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
 
 ## See Also
 VS Functions:

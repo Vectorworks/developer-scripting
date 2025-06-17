@@ -25,7 +25,7 @@ def vs.GetLineStyleChoice(dialogID, itemID):
 ## Remarks
 Get current choice of line style popup dialog control.  Choice is an index into list of linestyles available in current document.
 
-*_c_* (2016.02.29): Returns a dash list index (not usable with VS:Index2Name).
+*\_c\_* (2016.02.29): Returns a dash list index (not usable with VS:Index2Name).
 
 ## Version
 Availability: from VectorWorks 12.0

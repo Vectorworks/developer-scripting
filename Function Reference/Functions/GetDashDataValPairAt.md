@@ -25,7 +25,7 @@ def vs.GetDashDataValPairAt(dashStyleIndex, dataIndex):
 |gap|REAL|The gap segment value.|
 
 ## Remarks
-*_c_*, 2016.03.01:
+*\_c\_*, 2016.03.01:
 * The dash style index required is relative to the dash style list, not the name list. Use [GetDashStyle](GetDashStyle.md) or [GetDashStyleIndex](GetDashStyleIndex.md) to obtain it.
 * The count of dash/gap pairs and the boolean value swt (if scale with thickness is ON) can be fetched with [GetNumDashDataPairs](GetNumDashDataPairs.md). 
 * The REAL values returned are page inches.

@@ -26,7 +26,7 @@ The parameter '''prefWhen''' can be one of:
 * kCustomObjectPrefAlways 	= 1
 * kCustomObjectPrefNew 		= 2
 
-(*_c_*, 2016.02.08): 
+(*\_c\_*, 2016.02.08): 
 Objects created with this call won't allow you to set a profile group, even if they usually support it.
 
 ## Version

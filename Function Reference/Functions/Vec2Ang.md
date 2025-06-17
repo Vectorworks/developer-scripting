@@ -18,7 +18,7 @@ def vs.Vec2Ang(Vect):
 |Vect|VECTOR|Source vector.|
 
 ## Remarks
-([[User:CBM-c-| _c_]], 2022.01.18) For Vectorscript Python you might need to add a third item in the tuple for the vector, or vs.Vec2Ang will return 90/-90. This is the opposite in VS Pascal.
+(\_c\_, 2022.01.18) For Vectorscript Python you might need to add a third item in the tuple for the vector, or vs.Vec2Ang will return 90/-90. This is the opposite in VS Pascal.
 
 ## Examples
 #### VectorScript ####

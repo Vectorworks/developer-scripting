@@ -21,7 +21,7 @@ def vs.GetRecord(h, cnt):
 |cnt|INTEGER|Index of attached record (in a range of 1 -  n).|
 
 ## Remarks
-*_c_*, 2015.02.24:
+*\_c\_*, 2015.02.24:
 Please note that since the introduction of ifc data, the usual praxis of fetching plug-in records using GetRecord(h, NumRecords(h)) can bring you perhaps unexpectedly the ifc record. Use [GetParametricRecord](GetParametricRecord.md) instead, introduced from VW 2011.
 
 ## Examples

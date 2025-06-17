@@ -20,7 +20,7 @@ def vs.GetName(h):
 |h|HANDLE|Handle to object.|
 
 ## Remarks
-*_c_* (2016.02.18): If the string 'none' is returned (and not 'None' as stated above) this is not localized. Checked in the German VW.
+*\_c\_* (2016.02.18): If the string 'none' is returned (and not 'None' as stated above) this is not localized. Checked in the German VW.
 
 (Unsigned): 
 This function is a little non-intuitive. If the namestring of object h is empty, this function returns the literal string "none". I don't know what the localization implications of this are.

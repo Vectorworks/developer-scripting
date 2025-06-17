@@ -25,7 +25,7 @@ def vs.IFC_DMGetFieldType(inStrObjName, inStrEntryName, inStrFieldName):
 |outType|INTEGER|   |
 
 ## Remarks
-*_c_* (2020.06.11) From the SDK:
+*\_c\_* (2020.06.11) From the SDK:
 
 **Table - Field Types**
 

@@ -33,7 +33,7 @@ def vs.TrackObjectN(traverseType, callback):
 |p|REAL|Returns coordinates of mouse click.|
 
 ## Remarks
-[[User:CBM-c-| _c_]] (2021.01.22) Traverse Options:
+\_c\_ (2021.01.22) Traverse Options:
 * 0 = Shallow
 * 1 = Groups (Traverse inside groups)
 * 2 = Deep (Traverse all containers: walls, extrudes, sweeps, etc)

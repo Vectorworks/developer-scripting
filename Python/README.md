@@ -36,6 +36,10 @@ To get started, here is a simple script in Python that displays an alert dialog:
 
 When executed with a double-click on the script label in the resource browser, the alert dialog will be displayed.
 
+## Python for VectorScript developers
+
+[Translate VS-Py Rosetta Stone](pages/Translate%20VS-Py%20Rosetta%20Stone.md)
+
 ## Python API
 
 Full functional reference to the Python Vectorworks API can be found on this page [Function Reference](../Function%20Reference/README.md).

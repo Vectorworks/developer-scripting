@@ -27,7 +27,7 @@ def vs.vsoStateGetParamChng(hObj):
 |outOldVal|STRING|Output parameter. String representation of the old value.|
 
 ## Remarks
-([[User:CBM-c-|_c_]], 2016.05.08): vsoStateGetParamChng returns false after following modifications:
+(\_c\_, 2016.05.08): vsoStateGetParamChng returns false after following modifications:
 * on PIO rec set up
 * on move, rot, path reshape
 * layer scale, height, thickness

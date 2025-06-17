@@ -15,7 +15,7 @@ def vs.GetVertSecCutPlane(hObject):
 |hObject|HANDLE|   |
 
 ## Remarks
-*_c_* (2021.01.31): Constants returned:
+*\_c\_* (2021.01.31): Constants returned:
 * 1 = View as Cut when Cut in Viewport
 * 3 = View as Uncut beyond when Cut in Viewport
 * 4 = View as Uncut before when Cut in Viewport

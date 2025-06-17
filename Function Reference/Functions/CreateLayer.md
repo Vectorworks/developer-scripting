@@ -25,7 +25,7 @@ def vs.CreateLayer(layerName, layerType):
 |layerType|INTEGER|   |
 
 ## Remarks
-*_c_*, 2015.07.12: The layer type constants can be fetched using [GetObjectVariableInt](GetObjectVariableInt.md)(layerHandle, 154).
+*\_c\_*, 2015.07.12: The layer type constants can be fetched using [GetObjectVariableInt](GetObjectVariableInt.md)(layerHandle, 154).
 
 ## Version
 Availability: from VectorWorks 10.5

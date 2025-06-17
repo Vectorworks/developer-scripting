@@ -35,7 +35,7 @@ def vs.SubtractSolid(obj1, obj2):
 |newSolid|HANDLE|Handle to resultant object from subtract operation.|
 
 ## Remarks
-[[User:CBM-c-|_c_]] (2018.02.11):  obj1 = clipped, obj2 = clipper
+\_c\_ (2018.02.11):  obj1 = clipped, obj2 = clipper
 
 Everything cuts the backmost object, which will be the 1st retrived using [FIn3D](FIn3D.md).
 

@@ -23,7 +23,7 @@ def vs.ExtrudeAlongPath(pathHandle, profileHandle):
 |profileHandle|HANDLE|Handle to the profile object.|
 
 ## Remarks
-*_c_*, 2018.05.13: The generated extrusion is a Generic Solid and won't take the active class attributes, while CreateExtrudeAlongPath will create a number of NURBS curves with class attributes, but they won't section properly in Section Viewports without stitch and trim, since they don't generate a fill. Tested in Pio: OK.
+*\_c\_*, 2018.05.13: The generated extrusion is a Generic Solid and won't take the active class attributes, while CreateExtrudeAlongPath will create a number of NURBS curves with class attributes, but they won't section properly in Section Viewports without stitch and trim, since they don't generate a fill. Tested in Pio: OK.
 
 
 -----

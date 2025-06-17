@@ -18,7 +18,7 @@ def vs.GetTexSpace2DScale(textureSpace):
 |textureSpace|HANDLE|Handle to texture space.|
 
 ## Remarks
-*_c_* (2018 Dec. 29) Use [GetTexMapRealN](GetTexMapRealN.md) instead.
+*\_c\_* (2018 Dec. 29) Use [GetTexMapRealN](GetTexMapRealN.md) instead.
 
 Gets the 2D scale for this texture space as a multiple of a default size of 1.
 

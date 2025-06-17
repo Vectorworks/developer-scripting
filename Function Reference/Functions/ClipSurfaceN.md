@@ -21,9 +21,9 @@ def vs.ClipSurfaceN(s1, s2):
 |s2|HANDLE|Surface to subtract from s1|
 
 ## Remarks
-[[User: CBMptr|ptr]]: (2022.05.09): This command deletes the s1 object but not the s2 object. 
+ptr: (2022.05.09): This command deletes the s1 object but not the s2 object. 
 
-[[User: CBM-c-| _c_]]: (2021.03.05):
+\_c\_: (2021.03.05):
 This clips only parts that intersect the sides of the clipper, it doesn't clip inside the clipper, probably because it would mean deleting geometry.
 
 Example:

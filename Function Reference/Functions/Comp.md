@@ -27,9 +27,9 @@ def vs.Comp(v1, v2):
 |v4|VECTOR|Component of vector 1 orthogonal to vector 2.|
 
 ## Remarks
-(*_c_*, 2022.01.19) In VS Python the tuples v1 and v2 must be 3-dimensional, or the function will return gibberish.
+(*\_c\_*, 2022.01.19) In VS Python the tuples v1 and v2 must be 3-dimensional, or the function will return gibberish.
 
-(*_c_*, 2010 Dec. 22) See graphical representation of how '''Comp''' works (click on the image to enlarge it):
+(*\_c\_*, 2010 Dec. 22) See graphical representation of how '''Comp''' works (click on the image to enlarge it):
 
 ![C_MathVectorComp](files/C_MathVectorComp.png)
 

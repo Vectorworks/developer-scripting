@@ -15,7 +15,7 @@ def vs.ResetOrientation3D():
 ```
 
 ## Remarks
-[[User: CBM-c-| _c_]]: (2021.04.11):
+\_c\_: (2021.04.11):
 
 Used in Plug-in Object, '''ResetOrientation''' removes the rotation of a solid, if any, so be careful:
 ```pascal

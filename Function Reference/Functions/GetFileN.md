@@ -25,7 +25,7 @@ def vs.GetFileN(title, defaultFolder, mask):
 |fileName|STRING|   |
 
 ## Remarks
-(*_c_* 2017.01.22): Prompts for selection of a file of type "mask". The parameter "defaultFolder", if not empty, must be a posix path (with slashes). A HFS path (with colons) to the default folders can be obtained with [GetFolderPath](GetFolderPath.md), you will need to use [ConvertHSF2PosixPath](ConvertHSF2PosixPath.md) for converting it into posix for older Vectorworks versions. Assigns the found path to var "fileName". Mask is case sensitive. The returned path is posix.
+(*\_c\_* 2017.01.22): Prompts for selection of a file of type "mask". The parameter "defaultFolder", if not empty, must be a posix path (with slashes). A HFS path (with colons) to the default folders can be obtained with [GetFolderPath](GetFolderPath.md), you will need to use [ConvertHSF2PosixPath](ConvertHSF2PosixPath.md) for converting it into posix for older Vectorworks versions. Assigns the found path to var "fileName". Mask is case sensitive. The returned path is posix.
 * mask = 'vwx' allows selection of files of type .vwx 
 * mask = ′′ allows selection of any kind of files 
 * mask = 'vwx;txt' allows range of selection (from Pat Stanford on the VS list)

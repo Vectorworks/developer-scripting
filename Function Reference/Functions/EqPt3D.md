@@ -23,7 +23,7 @@ def vs.EqPt3D(pt1, pt2, tolerance):
 |tolerance|REAL|   |
 
 ## Remarks
-(_c_, 2022.01.22) :
+(\_c\_, 2022.01.22) :
 * Python: contrary to most Pascal-derived vectorial routines, it accepts also bidimensional tuples or even a 2/3-dimensional mix
 * Python and Pascal: Don't pass 0 to the tolerance, or the routine will always return false.
 

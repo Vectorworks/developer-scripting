@@ -21,7 +21,7 @@ def vs.GetLocPt(h):
 |p|REAL|Coordinates of locus point.|
 
 ## Remarks
-(*_c_*, 2022.01.19) In Python the tuple returned is always bidimensional in the form (0, 0).
+(*\_c\_*, 2022.01.19) In Python the tuple returned is always bidimensional in the form (0, 0).
 
 Remember to add a third item (0, 0, 0) for usage in the Vector Routines such as [Vec2Ang](Vec2Ang.md) or they will return gibberish.
 

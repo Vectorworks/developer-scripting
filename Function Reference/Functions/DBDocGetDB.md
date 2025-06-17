@@ -18,7 +18,7 @@ def vs.DBDocGetDB():
 |outDatabases|DYNARRAY[] of CHAR|   |
 
 ## Remarks
-*_c_* 2010.09.27: Some observations:
+*\_c\_* 2010.09.27: Some observations:
 * no database connections in the document: returns FALSE
 * one database connected to the document: the string won't end with colon ";".
 * more databases connected: colon-separated string of database names.

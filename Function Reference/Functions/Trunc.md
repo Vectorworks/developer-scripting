@@ -20,7 +20,7 @@ def vs.Trunc(v):
 |v|REAL|Real value to truncate.|
 
 ## Remarks
-[[User:CBM-c-|_c_]], 2015.05.23: Pay attention when using Trunc with very large numbers exceeding the Longint limit: [http://en.wikipedia.org/wiki/2147483647 2147483647]].
+\_c\_, 2015.05.23: Pay attention when using Trunc with very large numbers exceeding the Longint limit: [http://en.wikipedia.org/wiki/2147483647 2147483647]].
 
 ```pascal
 num :=  1000000000000.23456789; { a very large number }
