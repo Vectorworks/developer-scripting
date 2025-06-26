@@ -1,7 +1,7 @@
 # RRectangleN
 
 ## Description
-Creates and returns a handle to a new rotated rectangle object with the specified bounds
+Creates a new rounded rectangle object with the specified bounds
 
 ```pascal
 PROCEDURE RRectangleN(
