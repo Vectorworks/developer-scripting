@@ -1,7 +1,7 @@
 # RectangleN
 
 ## Description
-Creates and returns a handle to a new rectangle object with the specified bounds.
+Creates a new rectangle object with the specified bounds.
 
 ```pascal
 PROCEDURE RectangleN(
