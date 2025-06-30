@@ -5,20 +5,13 @@ Function ResolveByClassTextureRef returns the internal index, or name, of the te
 
 Primary, secondary, or tertiary texture assignments can be returned for objects that support multiple textures, such as roofs or walls. For objects that do not support multiple textures, pass 0 to the partID parameter.
 
-{| class="wikitable_c"
-|+Table - Object Texture Reference
-! Texture
-! Index Value
-|-
-| Primary
-| style="text-align:center"| 0
-|-
-| Secondary
-| style="text-align:center"| 1
-|-
-| Tertiary
-| style="text-align:center"| 2
-|}
+* Table - Object Texture Reference
+
+| Texture | Index Value |
+|---------|-------------|
+| Primary | 0 |
+| Secondary | 1 |
+| Tertiary | 2 |
 
 ```pascal
 FUNCTION ResolveByClassTextureRef(

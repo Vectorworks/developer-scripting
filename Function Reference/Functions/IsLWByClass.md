@@ -38,9 +38,9 @@ BEGIN
 DSelectAll;
 ClrMessage;
 symDefHandle := FSymDef;
-WHILE symDefHandle &lt;&gt; NIL DO BEGIN
+WHILE symDefHandle <> NIL DO BEGIN
 h := FInSymDef(symDefHandle);
-WHILE h &lt;&gt; NIL DO BEGIN
+WHILE h <> NIL DO BEGIN
 IF IsLWByClass(h) THEN AlertMe;
 h := NextObj(h);
 END;

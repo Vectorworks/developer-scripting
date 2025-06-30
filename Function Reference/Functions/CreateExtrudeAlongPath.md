@@ -29,27 +29,18 @@ Older remarks not from me (\_c\_):
 
 The following objects are supported as profile objects:
 
-{| border=1
-|Line || 2
-|-
-|Box || 3
-|-
-|Oval || 4
-|-
-|Polygon || 5
-|-
-|Arc || 6
-|-
-|Freehand || 8
-|-
-|R Rect || 13
-|-
-|Polyline || 21
-|-
-|3D Poly || 25
-|-
-|NURBS Curve || 111
-|}
+|Object Type|Type Number|
+|---|---|
+|Line|2|
+|Box|3|
+|Oval|4|
+|Polygon|5|
+|Arc|6|
+|Freehand|8|
+|R Rect|13|
+|Polyline|21|
+|3D Poly|25|
+|NURBS Curve|111|
 
 
 This works from inside a VSO, but I couldn't get it to work using an oval. I was able to get it to work with an arc.

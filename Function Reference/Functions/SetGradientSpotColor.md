@@ -22,9 +22,9 @@ def vs.SetGradientSpotColor(gradient, segmentIndex, red, green, blue):
 |---|---|---|
 |gradient|HANDLE|Gradient that contains the segment.|
 |segmentIndex|INTEGER|Segment for which to set the data.|(segment indexes begin with 1)|
-|red|LONGINT|Red component of the color spot's color.|(red &gt;= 0 and red &lt;= 255)|
-|green|LONGINT|Green component of the color spot's color.|(green &gt;= 0 and green &lt;= 255)|
-|blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
+|red|LONGINT|Red component of the color spot's color.|(red >= 0 and red <= 255)|
+|green|LONGINT|Green component of the color spot's color.|(green >= 0 and green <= 255)|
+|blue|LONGINT|Blue component of the color spot's color.|(blue >= 0 and blue <= 255)|
 
 ## Examples
 #### VectorScript ####

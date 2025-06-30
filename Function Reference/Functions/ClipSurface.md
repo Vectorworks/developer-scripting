@@ -25,7 +25,7 @@ ClipSurface is not reliable if the smaller poly is not fully contained within th
 
 
 
-Note that in the above example, PrevObj(h2); was used to get a handle to the clipped surface. Also note that checking the validity of this handle and possibly even its object type (polyline) or comparing it to the object being clipped (IF h3 &lt;&gt; h1), is necessary to check that the clipping operation was successful.
+Note that in the above example, PrevObj(h2); was used to get a handle to the clipped surface. Also note that checking the validity of this handle and possibly even its object type (polyline) or comparing it to the object being clipped (IF h3 <> h1), is necessary to check that the clipping operation was successful.
 
 ## Examples
 #### VectorScript ####
@@ -42,7 +42,7 @@ CallTool(-203);
 h2 := FSActLayer;
 ClipSurface(h1, h2);
 h3 := PrevObj(h2);
-IF h3 &lt;&gt; h1 THEN SetFPat(h3, 5);
+IF h3 <> h1 THEN SetFPat(h3, 5);
 END;
 RUN(ClipSurfaceExample);
 ```

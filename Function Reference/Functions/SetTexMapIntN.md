@@ -22,7 +22,7 @@ def vs.SetTexMapIntN(obj, texPartID, texLayerID, selector, value):
 |---|---|---|
 |obj|HANDLE|   |
 |texPartID|LONGINT|   |
-|texLayerID|LONGINT|0 for base, &gt;0 for decals|
+|texLayerID|LONGINT|0 for base, >0 for decals|
 |selector|INTEGER|   |
 |value|INTEGER|   |
 

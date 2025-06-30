@@ -34,7 +34,7 @@ BEGIN
 
 	GetDescriptionText (tempH, descriptionTextDyn);
 
-	IF descriptionTextDyn &lt;&gt; ''  THEN 
+	IF descriptionTextDyn <> ''  THEN 
 		Message (descriptionTextDyn)
 	ELSE
 		Message ('no description');

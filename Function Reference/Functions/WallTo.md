@@ -31,7 +31,7 @@ wallStyleName :STRING;
 wallStyleHand :HANDLE;
 BEGIN
 resourceID := BuildResourceList(127, 113, '', wallStyleCnt);
-IF wallStyleCnt &gt; 0 THEN BEGIN
+IF wallStyleCnt > 0 THEN BEGIN
 wallStyleName := GetNameFromResourceList(resourceID, 1);
 AlrtDialog(wallStyleName);
 wallStyleHand := ImportResourceToCurrentFile(resourceID, 1);

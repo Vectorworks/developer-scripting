@@ -4,41 +4,21 @@
 Function Date returns a formatted date and time string.
 
 
-{| class="wikitable_c"
+* Table - Values for **dateFormat** parameter
 
-|-
-| 
-{| class="wikitable"
-|+ Table - Values for dateFormat parameter
-! Date Format
-! Constant
-|-
-| Full Date
-| style="text-align:center"| 0
-|-
-| Abbreviated Date
-| style="text-align:center"| 1
-|-
-| Short Date
-| style="text-align:center"| 2
-|}
+| Date Format | Constant |
+|-------------|----------|
+| Full Date | 0 |
+| Abbreviated Date | 1 |
+| Short Date | 2 |
 
-|
-{| class="wikitable"
-|+ Table - Values for infoFormat parameter:
-! Date/Time
-! Constant
-|-
-| Date only
-| style="text-align:center"| 0
-|-
-| Date and Time
-| style="text-align:center"| 1
-|-
-| Time only
-| style="text-align:center"| 2
-|}
-|}
+* Table - Values for **infoFormat** parameter:
+
+| Date/Time | Constant |
+|-----------|----------|
+| Date only | 0 |
+| Date and Time | 1 |
+| Time only | 2 |
 
 ```pascal
 FUNCTION Date(

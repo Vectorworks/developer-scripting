@@ -74,7 +74,7 @@ value = '25.4';
 FUNCTION DoIt(h :HANDLE) :BOOLEAN;
 BEGIN
 h := FInSymDef(h);
-IF (h &lt;&gt; NIL) &amp; (GetType(h) = 86) &amp; (Eval(h, 'R IN [pioName])') &gt; 0) THEN BEGIN
+IF (h <> NIL) &amp; (GetType(h) = 86) &amp; (Eval(h, 'R IN [pioName])') > 0) THEN BEGIN
 SetRField(h, pioName, parameter, value);
 END;
 END;

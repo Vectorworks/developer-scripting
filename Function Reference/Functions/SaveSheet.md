@@ -41,7 +41,7 @@ ovSheetSaveClass :BOOLEAN;
 ovSheetSaveLayer :BOOLEAN;
 BEGIN
 savedViewHandle := GetObject('Untitled View');
-IF savedViewHandle &lt;&gt; NIL THEN BEGIN
+IF savedViewHandle <> NIL THEN BEGIN
 ovSheetSaveView  := GetObjectVariableBoolean(savedViewHandle, 450);
 ovSheetSavePage  := GetObjectVariableBoolean(savedViewHandle, 451);
 ovSheetSaveClass := GetObjectVariableBoolean(savedViewHandle, 452);

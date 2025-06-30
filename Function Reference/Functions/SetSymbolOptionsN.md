@@ -3,35 +3,16 @@
 ## Description
 Sets the default class, insert  options, and break options for the specified symbol. 
 
-{| class="wikitable_c"
-|+ Table - Symbol Insertion Options
-|-
-| rowspan="3" | Insertion Mode
-! Description
-! Constant Value
-|-
-| Insert on Center Line
-| 0
-|-
-| Insert on Edge
-| 1
-|-
-| rowspan="5" | Break Mode
-! Description
-! Constant Value
-|-
-| Full Break with Caps
-| 1
-|-
-| Full Break No Caps
-| 2
-|-
-| Half Break
-| 3
-|-
-| No Break
-| 4
-|}
+* Table - Symbol Insertion Options
+
+| Category | Description | Constant Value |
+|----------|-------------|----------------|
+| Insertion Mode | Insert on Center Line | 0 |
+| Insertion Mode | Insert on Edge | 1 |
+| Break Mode | Full Break with Caps | 1 |
+| Break Mode | Full Break No Caps | 2 |
+| Break Mode | Half Break | 3 |
+| Break Mode | No Break | 4 |
 
 ```pascal
 PROCEDURE SetSymbolOptionsN(

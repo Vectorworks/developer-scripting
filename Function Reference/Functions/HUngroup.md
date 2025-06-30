@@ -32,11 +32,11 @@ PROCEDURE DoIt(h :HANDLE);
 BEGIN
 IF (GetType(h) = 11) AND (GetClass(h) = oldClass) THEN BEGIN
 lHd := GetParent(h);
-WHILE GetType(lHd) &lt;&gt; 31 DO lHd := GetParent(lHd);
+WHILE GetType(lHd) <> 31 DO lHd := GetParent(lHd);
 Layer(GetLName(lHd));
 DSelectAll;
 oHd := FInGroup(h);
-WHILE oHd &lt;&gt; NIL DO BEGIN
+WHILE oHd <> NIL DO BEGIN
 SetSelect(oHd);
 oHd := NextObj(oHd);
 END;

@@ -27,7 +27,9 @@ It is not correct, even if the reference is broken, the layer is nevertheless re
 
 
 Use the pref object boo 700, instead, it is more secure:
-&lt;pre&gt;IsReferenced := GetObjectVariableBoolean(handleToResourceDefinition, 700); { locked/referenced status }&lt;/pre&gt;
+```pascal
+IsReferenced := GetObjectVariableBoolean(handleToResourceDefinition, 700); { locked/referenced status }
+```
 
 ## Version
 Availability: from VectorWorks10.0

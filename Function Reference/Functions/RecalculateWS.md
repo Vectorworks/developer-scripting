@@ -22,7 +22,7 @@ This does not update the screen, so you should also do:
 ```pascal
 ResetObject(worksheet);
 WSImage := GetWSImage(worksheet);
-If WSImage &lt;&gt; NIL then ResetObject(WSImage);
+If WSImage <> NIL then ResetObject(WSImage);
 ```
 
 ## Examples

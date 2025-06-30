@@ -29,8 +29,8 @@ def vs.GetLBItemInfo(dialogID, componentID, itemIndex, subItemIndex):
 |imageIndex|INTEGER|the item image list index|
 
 ## Remarks
-&lt;li&gt;itemIndex = row
-&lt;li&gt;subItemIndex = column
+* itemIndex = row
+* subItemIndex = column
 
 ## Version
 Availability: from VectorWorks11.0

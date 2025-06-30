@@ -20,7 +20,7 @@ def vs.SetDefaultTexMapN(h, texPartID, texLayerID):
 |---|---|---|
 |h|HANDLE|The textured object|
 |texPartID|LONGINT|The texture part ID|
-|texLayerID|LONGINT|The texture layer ID, 0 for base, &gt;0 for decals|
+|texLayerID|LONGINT|The texture layer ID, 0 for base, >0 for decals|
 
 ## Version
 Availability: from Vectorworks 2010

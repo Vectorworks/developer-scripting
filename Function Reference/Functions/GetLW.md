@@ -19,7 +19,7 @@ def vs.GetLW(h):
 
 ## Remarks
 Criteria searching by lineweight works differently. An object with a lineweight by class can be found with this: 
-<code>SelectObj((LW&lt;.0000000000002));</code>
+```SelectObj((LW<.0000000000002));```
 Then you can use GetLW to determine the actual lineweight.
 
 [[User:Orso.b.schmid| orso]]: (1 mil = 1/1000 in)

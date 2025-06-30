@@ -55,7 +55,7 @@ message(numWallBreaks);
 PushAttrs;
 
 i := 0;
-WHILE i &lt; numWallBreaks DO BEGIN
+WHILE i < numWallBreaks DO BEGIN
 i := i + 1;
 PenFore(i+2);
 
@@ -72,7 +72,7 @@ END;
 END;
 BEGIN
 wallH := FSActLayer;
-IF (WallH &lt;&gt; NIL) &amp; ((GetType(wallH) = 68) | (GetType(wallH) = 86)) THEN
+IF (WallH <> NIL) &amp; ((GetType(wallH) = 68) | (GetType(wallH) = 86)) THEN
 LocusAtBreakPoints(wallH)
 ELSE
 AlrtDialog('Select a wall with some breaks or inserted objects');

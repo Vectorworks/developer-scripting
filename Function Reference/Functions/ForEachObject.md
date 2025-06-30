@@ -39,7 +39,7 @@ Don't use DelObject inside a ForEachObject callback.
 Essentially, ForEachObject is roughly equivalent to
 ```pascal
 h := FObject;
-WHILE h &lt;&gt; NIL DO BEGIN
+WHILE h <> NIL DO BEGIN
 {do something}
 h := NextObj(h);
 END;

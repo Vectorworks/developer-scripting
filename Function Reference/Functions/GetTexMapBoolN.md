@@ -30,7 +30,7 @@ def vs.GetTexMapBoolN(obj, texPartID, texLayerID, selector):
 |---|---|---|
 |obj|HANDLE|   |
 |texPartID|LONGINT|   |
-|texLayerID|LONGINT|0 for base, &gt;0 for decals|
+|texLayerID|LONGINT|0 for base, >0 for decals|
 |selector|INTEGER|   |
 
 ## Remarks

@@ -3,29 +3,16 @@
 ## Description
 Procedure SetCursor changes the appearance of the screen cursor.
 
-{| class="wikitable_c"
-|+ Table - Cursor Styles
-! Cursor Style
-! cursor parameter value
-|-
-| Large Cross
-| 1307
-|-
-| Small Cross
-| 1310
-|-
-| Watch
-| 1311
-|-
-| Text Bar
-| 1312
-|-
-| Arrow
-| 1309
-|-
-| Hand
-| 1308
-|}
+* Table - Cursor Styles
+
+| Cursor Style | cursor parameter value |
+|--------------|------------------------|
+| Large Cross | 1307 |
+| Small Cross | 1310 |
+| Watch | 1311 |
+| Text Bar | 1312 |
+| Arrow | 1309 |
+| Hand | 1308 |
 
 ```pascal
 PROCEDURE SetCursor(cursor : INTEGER);

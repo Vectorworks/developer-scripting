@@ -42,7 +42,7 @@ BEGIN
     FOR i := 1 TO 5 DO txt[i] := 'asdf';
     i := 2;
     Outpt := Txt[1];
-    WHILE Txt[i] &lt;&gt; '' DO BEGIN
+    WHILE Txt[i] <> '' DO BEGIN
         OutPt := Concat(Outpt, Chr(13), Txt[i]);
         i := i + 1;
     END;

@@ -48,7 +48,7 @@ h3 := NextObj(h2);
 h4 := IntersectSurface(h1, h2);
 
 {Now find the intersection surface(s).}
-WHILE h4 &lt;&gt; h3 DO BEGIN
+WHILE h4 <> h3 DO BEGIN
 SetFPat(h4, 3);
 h4 := NextObj(h4);
 END;

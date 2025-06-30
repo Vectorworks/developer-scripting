@@ -31,8 +31,8 @@ def vs.AlertQuestion(question, advice, defaultButton, OKOverrideText, CancelOver
 |customButtonBText|STRING|Specifies a string to use for a second optional custom button B|
 
 ## Remarks
-Examples of all of the messaging techniques:&lt;pre&gt;
-AlertQuestion uses the exclamation icon, when really it should use the question icon.
+Examples of all of the messaging techniques:
+```AlertQuestion``` uses the exclamation icon, when really it should use the question icon.
 
 ## Examples
 [AlertDialogsAndMessages](examples/AlertDialogsAndMessages.md)

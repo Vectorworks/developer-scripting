@@ -46,9 +46,10 @@ def vs.GetLayerOptions():
 ```
 
 ## Remarks
-Example:&lt;pre&gt;
+Example:
+```pascal
 Message(GetLayerOptions);
-&lt;/pre&gt;
+```
 
 ## See Also
 VS Functions:

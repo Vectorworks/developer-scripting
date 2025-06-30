@@ -30,7 +30,7 @@ def vs.GetSecondaryUnitInfo():
 Returns settings information for secondary units.
 
 
-See &lt;a href=main.php?name=GetPrimaryUnitInfo&gt;GetPrimaryUnitInfo&lt;/a&gt; for details on changes in version 9, and again in version 12.
+See [GetPrimaryUnitInfo](GetPrimaryUnitInfo.md) for details on changes in version 9, and again in version 12.
 
 ## Version
 Availability: from VectorWorks8.0

@@ -52,7 +52,7 @@ recName := GetName(recHand);
 FOR cnt1 := 1 TO pluginCnt DO 
 IF recName = plugins[cnt1].universalName 
 THEN cnt1 := pluginCnt + 2;
-IF cnt1 &lt; pluginCnt + 2 THEN BEGIN
+IF cnt1 < pluginCnt + 2 THEN BEGIN
 boo := GetLocalizedPluginName(recName, str2);
 pluginCnt := pluginCnt + 1;
 plugins[pluginCnt].universalName := recName;
@@ -81,10 +81,10 @@ ForEachObject(GetInfo, (T=86));
 FOR cnt1 := 1 TO pluginCnt DO BEGIN
 WriteLn(plugins[cnt1].universalName, Chr(9), plugins[cnt1].localizedName);
 cnt2 := 1;
-WHILE plugins[cnt1].params[cnt2, 1] &lt;&gt; '' DO BEGIN
+WHILE plugins[cnt1].params[cnt2, 1] <> '' DO BEGIN
 WriteLn('    ', plugins[cnt1].params[cnt2, 1], Chr(9), plugins[cnt1].params[cnt2, 2]);
 cnt3 := 1;
-WHILE plugins[cnt1].popups[cnt2, cnt3] &lt;&gt; '' DO BEGIN
+WHILE plugins[cnt1].popups[cnt2, cnt3] <> '' DO BEGIN
 WriteLn('        ', plugins[cnt1].popups[cnt2, cnt3]);
 cnt3 := cnt3 + 1;
 END;

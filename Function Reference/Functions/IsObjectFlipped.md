@@ -29,7 +29,7 @@ Returns true if the object is currently flipped.  Works for sweeps, extrudes, me
 ```pascal
 FUNCTION ObjFlippedInWall(objH, wallH :HANDLE) :BOOLEAN;
 BEGIN
-ObjFlippedInWall := ((Trunc(GetSymRot(objH)) &lt;&gt; Trunc(HAngle(wallH))) = IsObjectFlipped(objH)); 
+ObjFlippedInWall := ((Trunc(GetSymRot(objH)) <> Trunc(HAngle(wallH))) = IsObjectFlipped(objH)); 
 END;
 ```
 #### Python ####

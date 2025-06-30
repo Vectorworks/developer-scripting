@@ -139,7 +139,7 @@ begin
   { Replace space characters with %20 }
   locURL := theURL;
   spaceIndex := Pos(' ', locURL);
-  while (spaceIndex &lt;&gt; 0) do begin
+  while (spaceIndex <> 0) do begin
     locURL[spaceIndex] := '%';
     Insert('20', locURL, spaceIndex + 1);
     spaceIndex := Pos(' ', locURL);
@@ -163,7 +163,7 @@ begin
   { If Mac, replace : with / }
   if (RunningOnMacPlatform = true) then begin
     sepIndex := Pos(':', appDir);
-    while (sepIndex &lt;&gt; 0) do begin
+    while (sepIndex <> 0) do begin
       appDir[sepIndex] := '/';
       sepIndex := Pos(':', appDir);
     end;

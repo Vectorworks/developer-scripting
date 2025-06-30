@@ -24,11 +24,11 @@ def vs.GetGradientData(gradient, segmentIndex):
 |---|---|---|
 |gradient|HANDLE|Gradient that contains the segment.|
 |segmentIndex|INTEGER|Segment from which to get the data.|(segment indexes begin with 1)|
-|spotPosition|REAL|Position of the segment's color spot relative to left-most point of the gradient.|(position &gt;= 0.0 and position &lt;= 1.0)|
-|midpointPosition|REAL|Position of the segment's midpoint relative to color spot immediately to left.|(position &gt;= 0.0 and position &lt;= 1.0)|
-|red|LONGINT|Red component of the color spot's color.|(red &gt;= 0 and red &lt;= 255)|
-|green|LONGINT|Green component of the color spot's color.|(green &gt;= 0 and green &lt;= 255)|
-|blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
+|spotPosition|REAL|Position of the segment's color spot relative to left-most point of the gradient.|(position >= 0.0 and position <= 1.0)|
+|midpointPosition|REAL|Position of the segment's midpoint relative to color spot immediately to left.|(position >= 0.0 and position <= 1.0)|
+|red|LONGINT|Red component of the color spot's color.|(red >= 0 and red <= 255)|
+|green|LONGINT|Green component of the color spot's color.|(green >= 0 and green <= 255)|
+|blue|LONGINT|Blue component of the color spot's color.|(blue >= 0 and blue <= 255)|
 
 ## Examples
 #### VectorScript ####

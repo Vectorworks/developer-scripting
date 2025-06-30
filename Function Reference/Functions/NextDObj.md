@@ -21,7 +21,7 @@ def vs.NextDObj(h):
 #### VectorScript ####
 ```pascal
 handleToObject:=FObject;
-WHILE handleToObject &lt;&gt; NIL DO BEGIN
+WHILE handleToObject <> NIL DO BEGIN
 SetSelect(handleToObject);
 handleToObject:=NextDObj(handleToObject);
 END;

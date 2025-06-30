@@ -21,7 +21,7 @@ def vs.MakePolygon(inSourceObject):
 This routine creates its returned object not as the last object in the active layer, but immediately after inSourceObject in the stacking order, so if you delete inSourceObject, you will have "replaced" it.
 
 
-See also: &lt;a href=http://www.vectorworks.net/support/custom/vscript/reference/asp/main.asp?name=ConvertToPolygon&gt;ConvertToPolygon&lt;/a&gt;.
+See also: [ConvertToPolygon](ConvertToPolygon.md)
 
 ## Examples
 #### VectorScript ####

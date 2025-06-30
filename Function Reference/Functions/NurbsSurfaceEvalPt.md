@@ -53,7 +53,7 @@ BEGIN
 { Create a Nurbs Surface }
 
 surfaceH := CreateNurbsSurface(uMaxIndex + 1, vMaxIndex + 1, uDegree, vDegree);
-IF surfaceH &lt;&gt; NIL THEN BEGIN
+IF surfaceH <> NIL THEN BEGIN
 FOR i := 0 TO uMaxIndex  DO BEGIN
 FOR j := 0 TO vMaxIndex DO BEGIN
 x := xMin + (xMax - xMin) * (i / uMaxIndex);
@@ -84,9 +84,9 @@ uStep   := maxFoundU / (numLoci - 1);
 vStep   := maxFoundV / (numLoci - 1);
 
 u := 0;
-WHILE u &lt;= maxFoundU DO BEGIN
+WHILE u <= maxFoundU DO BEGIN
 v := 0;
-WHILE v &lt;= maxFoundV DO BEGIN
+WHILE v <= maxFoundV DO BEGIN
 NurbsSurfaceEvalPt(surfaceH, u, v, x,y,z);
 Locus3D(x,y,z);
 v := v + vStep;

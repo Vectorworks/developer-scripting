@@ -27,7 +27,7 @@ PROCEDURE Example;
 VAR
 volume, area: REAL;
 BEGIN
-IF FSActLayer &lt;&gt; NIL THEN BEGIN
+IF FSActLayer <> NIL THEN BEGIN
 volume := CalcVolume(FSActLayer);
 area := CalcSurfaceArea(FSActLayer);
 Message('Volume ', volume, ', surface area ', area);

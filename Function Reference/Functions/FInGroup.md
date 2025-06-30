@@ -25,7 +25,7 @@ VAR
 h :HANDLE;
 BEGIN
 h := FInGroup(FSActLayer);
-WHILE h &lt;&gt; NIL DO BEGIN
+WHILE h <> NIL DO BEGIN
 SetClass(h, 'None');
 h := NextObj(h);
 END;

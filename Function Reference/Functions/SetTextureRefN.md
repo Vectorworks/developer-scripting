@@ -22,7 +22,7 @@ def vs.SetTextureRefN(obj, textureRef, texPartID, texLayerID):
 |obj|HANDLE|   |
 |textureRef|LONGINT|   |
 |texPartID|LONGINT|   |
-|texLayerID|LONGINT|0 for base, &gt;0 for decals|
+|texLayerID|LONGINT|0 for base, >0 for decals|
 
 ## Remarks
 \_c\_, 2021.02.21:

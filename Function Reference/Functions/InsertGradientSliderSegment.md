@@ -23,10 +23,10 @@ def vs.InsertGradientSliderSegment(dialogID, componentID, spotPosition, red, gre
 |---|---|---|
 |dialogID|LONGINT|Index to the dialog layout that contains the gradient slider component.|
 |componentID|LONGINT|Index to a specific gradient slider component.|
-|spotPosition|REAL|Position of the segment's color marker relative to left-most point of the slider. The value should be &gt;= 0.0 and &lt;= 1.0, which represents a percentage distance across the slider.|
-|red|LONGINT|Red component of the color spot's color.|(red &gt;= 0 and red &lt;= 255)|
-|green|LONGINT|Green component of the color spot's color.|(green &gt;= 0 and green &lt;= 255)|
-|blue|LONGINT|Blue component of the color spot's color.|(blue &gt;= 0 and blue &lt;= 255)|
+|spotPosition|REAL|Position of the segment's color marker relative to left-most point of the slider. The value should be >= 0.0 and <= 1.0, which represents a percentage distance across the slider.|
+|red|LONGINT|Red component of the color spot's color.|(red >= 0 and red <= 255)|
+|green|LONGINT|Green component of the color spot's color.|(green >= 0 and green <= 255)|
+|blue|LONGINT|Blue component of the color spot's color.|(blue >= 0 and blue <= 255)|
 
 ## Examples
 #### VectorScript ####

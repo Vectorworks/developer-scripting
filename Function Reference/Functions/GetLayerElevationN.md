@@ -30,7 +30,7 @@ VAR
 	baseElev, thickness :REAL;
 BEGIN
 	h := FLayer;
-	WHILE h &lt;&gt; NIL DO BEGIN
+	WHILE h <> NIL DO BEGIN
 		GetLayerElevationN(h, baseElev, thickness);
 		thickness := thickness / (25.4 / GetPrefReal(152));
 		AlrtDialog(Concat('layer name: ', GetLName(h), ', baseElev: ', baseElev, ', thickness: ', thickness));

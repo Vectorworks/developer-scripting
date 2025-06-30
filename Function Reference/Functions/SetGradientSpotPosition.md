@@ -22,7 +22,7 @@ def vs.SetGradientSpotPosition(gradient, segmentIndex, position):
 |---|---|---|
 |gradient|HANDLE|Gradient that contains the segment.|
 |segmentIndex|INTEGER|Segment for which to set the data.|(segment indexes begin with 1)|
-|position|REAL|Position of the segment's color spot relative to left-most point of the gradient.|(position &gt;= 0.0 and position &lt;= 1.0)|
+|position|REAL|Position of the segment's color spot relative to left-most point of the gradient.|(position >= 0.0 and position <= 1.0)|
 
 ## Examples
 #### VectorScript ####

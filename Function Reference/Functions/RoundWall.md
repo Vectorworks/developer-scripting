@@ -39,7 +39,7 @@ MoveTo(x1, y1);
 LineTo(x2, y2);
 lineHandle := LNewObj;
 GetPtL(x2, y2, x3, y3);
-IF lineHandle &lt;&gt; NIL THEN DelObject(lineHandle);
+IF lineHandle <> NIL THEN DelObject(lineHandle);
 RoundWall(x1, y1, x2, y2, x3, y3);
 END;
 RUN(Example);

@@ -3,23 +3,14 @@
 ## Description
 Procedure GetUnits returns the current units settings of the document.
 
-{| class="wikitable_c"
-|+ Table - Units Formats
-! Units Format
-! Constant
-|-
-| Decimal
-| style="text-align:center"| 0
-|-
-| Fractional
-| style="text-align:center"| 1
-|-
-| Decimal Ft/Inches
-| style="text-align:center"| 2
-|-
-| Fractional Ft/Inches
-| style="text-align:center"| 3
-|}
+* Table - Units Formats
+
+| Units Format | Constant |
+|--------------|----------|
+| Decimal | 0 |
+| Fractional | 1 |
+| Decimal Ft/Inches | 2 |
+| Fractional Ft/Inches | 3 |
 
 More extensive Units information is available using the [GetPref](GetPref.md) routines with the selectors shown in the tables of the [Scirpt Appendix](../Appendix/pages/Appendix%20F%20-%20Preference%20Selectors.md#primary-units-selectors).
 

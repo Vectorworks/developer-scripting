@@ -21,7 +21,7 @@ def vs.GetTextureRefN(obj, texPartID, texLayerID, resolveByClass):
 |---|---|---|
 |obj|HANDLE|   |
 |texPartID|LONGINT|   |
-|texLayerID|LONGINT|Texture layer ID, 0 for base, &gt;0 for decals|
+|texLayerID|LONGINT|Texture layer ID, 0 for base, >0 for decals|
 |resolveByClass|BOOLEAN|   |
 
 ## Remarks

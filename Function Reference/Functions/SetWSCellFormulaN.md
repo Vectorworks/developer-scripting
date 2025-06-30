@@ -67,7 +67,7 @@ BEGIN
    SetWSCellFormulaN(worksheet, 1, 2, 1, 2, inString);
 
    { inserts a formula into a range of cells }
-   inString := '&lt;empty&gt;';
+   inString := '<empty>';
    SetWSCellFormulaN(worksheet, 1, 3, 2, 4, inString);
 
    { creates a database subrow for the type 'RECT' }

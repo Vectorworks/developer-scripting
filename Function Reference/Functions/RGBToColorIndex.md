@@ -27,7 +27,7 @@ def vs.RGBToColorIndex(red, green, blue):
 |color|INTEGER|Color index.|
 
 ## Remarks
-See &lt;a href=http://www.vectorlab.info/index.php?title=Colors_in_VectorWorks_2008%2B&gt;VectorLab&lt;/a&gt; for more info on color indices in VectorWorks 2008.
+
 
 ## Examples
 [SelectandDelObjects](examples/SelectandDelObjects.md)

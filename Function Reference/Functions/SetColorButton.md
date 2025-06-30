@@ -33,7 +33,7 @@ PROCEDURE SetColorControl(dialogID, controlID :LONGINT; colorIndex :STRING);
 VAR
 r, g, b :LONGINT;
 BEGIN
-IF colorIndex &lt;&gt; '' THEN BEGIN
+IF colorIndex <> '' THEN BEGIN
 ColorIndexToRGB(Str2Num(colorIndex), r, g, b);
 SetColorButton(dialogID, controlID, r, g, b);
 END;

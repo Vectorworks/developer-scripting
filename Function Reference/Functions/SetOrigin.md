@@ -25,8 +25,6 @@ def vs.SetOrigin(x, y):
 ## Remarks
 The difference between this and [SetOriginAbsolute](SetOriginAbsolute.md) is that this call *shifts* the origin the specified amount, where [SetOriginAbsolute](SetOriginAbsolute.md) sets the origin to the specified values.
 
-See the &lt;a href=http://www.vectorlab.info/index.php?title=Absolute_Origin&gt;VectorLab article&lt;/a&gt; on origins by Gerard Jonker.
-
 ## Examples
 #### VectorScript ####
 ```pascal

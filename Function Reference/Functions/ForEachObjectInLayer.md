@@ -65,7 +65,7 @@ Raymond
 Procedure FEOIL;
 { Select all LOCKED objects in layer. Works in version 8.5.2,
 but will not enter a group unless the group is locked, even
-though the third parameter is set to 1 -&gt; Traverse Groups. }
+though the third parameter is set to 1 -> Traverse Groups. }
 
 Function SetSelekt(Hnd: Handle) :Boolean;
 Begin

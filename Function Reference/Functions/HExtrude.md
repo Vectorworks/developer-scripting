@@ -56,7 +56,7 @@ HExtrude doesn't work in any group-like container. Below another possibility for
 preserving the original h. Returns a handle to the extrude }
 FUNCTION Create3Dobj(h: HANDLE; z, dZ: REAL): HANDLE;
 BEGIN
-IF h &lt;&gt; NIL THEN BEGIN
+IF h <> NIL THEN BEGIN
 BeginXtrd(z, dZ);
 Line(1, 1); 
 { just draw something for creating an extrude container }

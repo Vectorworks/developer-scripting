@@ -23,7 +23,6 @@ def vs.SetCustomObjectColor(objectHand, inTagID, inColoIndex):
 |inColoIndex|INTEGER|   |
 
 ## Remarks
-See the &lt;a href=http://www.vectorlab.info/index.php?title=Colors_in_VectorWorks_2008%2B&gt;VectorLab &lt;/a&gt; article for more info.
 
 ## See Also
 VS Functions:
