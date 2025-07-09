@@ -202,6 +202,18 @@ this parameter.
 
 Allows the user to select a class from a pop‐up of available classes.
 
+### Material
+### Fill
+### Pen Style
+### Pen Weight
+### Color
+### Texture
+### Symbol Definition
+
+The parameters are used to store specific resource types used but the object. These parameters will not be shown in the OIP of the object and must be controlled and set by the plug-in object. 
+These fileds are used store the name/internal ID of the resource used by the plug-in to assure the resource does not get purged, will be copied to a new document, follow name changes when the resource is renamed, etc. Parameters are restricted a valid specified resource type.
+
+
 ## Accessing Parameters from Scripts
 
 Scripting provides a well‐defined mechanism for directly accessing values in parameter records within plug‐in scripts.
