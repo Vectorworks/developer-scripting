@@ -54,6 +54,13 @@
 
 ![Fill Patterns List](images/Vs_fillpat.gif)
 
+The use of first 3 indexes may not be clear from the image.
+| Index | Patern |
+|-------|--------|
+|0|No Fill Pattern|
+|1|Solid Background Pattern|
+|2|Solid Foreground Pattern|
+
 ## Color Palette
 
 ![Color Palette List](images/Vs_pal256.gif)
