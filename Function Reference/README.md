@@ -468,9 +468,9 @@
 | [PointAlongPolyN](Functions/PointAlongPolyN.md) | [Polygonize](Functions/Polygonize.md) | [PolyMedialAxis](Functions/PolyMedialAxis.md) |
 | [PtInPoly](Functions/PtInPoly.md) | [PtInRect](Functions/PtInRect.md) | [PtOnArc](Functions/PtOnArc.md) |
 | [PtOnLine](Functions/PtOnLine.md) | [PtPerpCircle](Functions/PtPerpCircle.md) | [PtPerpLine](Functions/PtPerpLine.md) |
-| [RegularPolygon](Functions/RegularPolygon.md) | [RelativeCoords](Functions/RelativeCoords.md) | [Split2DObjectByLine](Functions/Split2DObjectByLine.md) |
-| [SrndArea](Functions/SrndArea.md) | [Stipple](Functions/Stipple.md) | [SubtractPolygon](Functions/SubtractPolygon.md) |
-| [ThreePtCenter](Functions/ThreePtCenter.md) | [UnionRect](Functions/UnionRect.md) 
+| [PtPerpLine3D](Functions/PtPerpLine3D.md) | [RegularPolygon](Functions/RegularPolygon.md) | [RelativeCoords](Functions/RelativeCoords.md) |
+| [Split2DObjectByLine](Functions/Split2DObjectByLine.md) | [SrndArea](Functions/SrndArea.md) | [Stipple](Functions/Stipple.md) |
+| [SubtractPolygon](Functions/SubtractPolygon.md) | [ThreePtCenter](Functions/ThreePtCenter.md) | [UnionRect](Functions/UnionRect.md) |
 
 ## Hatches / Vector Fills
 
@@ -1049,8 +1049,8 @@
 |---|---|---|
 | [Plant_CreateDupPlant](Functions/Plant_CreateDupPlant.md) | [Plant_EditPlantDefRB](Functions/Plant_EditPlantDefRB.md) | [Plant_GetToolInit](Functions/Plant_GetToolInit.md) |
 | [Plant_GetToolPlantNm](Functions/Plant_GetToolPlantNm.md) | [Plant_GetToolPlcMode](Functions/Plant_GetToolPlcMode.md) | [Plant_GetToolSpacing](Functions/Plant_GetToolSpacing.md) |
-| [Plant_ReplacePlant](Functions/Plant_ReplacePlant.md) | [Plant_ReplacePlantParam](Functions/Plant_ReplacePlantParam.md) | [Plant_ResetPlantInst](Functions/Plant_ResetPlantInst.md) |
-| [Plant_UpdatePlaceTool](Functions/Plant_UpdatePlaceTool.md) | [Plant_UpdateTranslat](Functions/Plant_UpdateTranslat.md) 
+| [Plant_LocateStyleMgr](Functions/Plant_LocateStyleMgr.md) | [Plant_ReplacePlant](Functions/Plant_ReplacePlant.md) | [Plant_ReplacePlantParam](Functions/Plant_ReplacePlantParam.md) |
+| [Plant_ResetPlantInst](Functions/Plant_ResetPlantInst.md) | [Plant_UpdatePlaceTool](Functions/Plant_UpdatePlaceTool.md) | [Plant_UpdateTranslat](Functions/Plant_UpdateTranslat.md) |
 
 ## Project Sharing
 
@@ -1065,8 +1065,8 @@
 
 | | | |
 |---|---|---|
-| [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) | [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) |
-| [Prot_GetLicenseType](Functions/Prot_GetLicenseType.md) | [Prot_GetSeatsNum](Functions/Prot_GetSeatsNum.md) | [Prot_GetUsedSeatsNum](Functions/Prot_GetUsedSeatsNum.md) |
+| [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetAppMode](Functions/Prot_GetAppMode.md) | [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) |
+| [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) | [Prot_GetSeatsNum](Functions/Prot_GetSeatsNum.md) | [Prot_GetUsedSeatsNum](Functions/Prot_GetUsedSeatsNum.md) |
 | [Prot_IsFundamentals](Functions/Prot_IsFundamentals.md) | [Prot_IsModuleEnabled](Functions/Prot_IsModuleEnabled.md) 
 
 ## Roadway Interface Library
@@ -1142,8 +1142,8 @@
 | [LDevice_SetAccPos3D](Functions/LDevice_SetAccPos3D.md) | [LDevice_SetParamBool](Functions/LDevice_SetParamBool.md) | [LDevice_SetParamLong](Functions/LDevice_SetParamLong.md) |
 | [LDevice_SetParamReal](Functions/LDevice_SetParamReal.md) | [LDevice_SetParamStr](Functions/LDevice_SetParamStr.md) | [LightingInvExport](Functions/LightingInvExport.md) |
 | [LightingInvImport](Functions/LightingInvImport.md) | [LightingUnivExport](Functions/LightingUnivExport.md) | [LightingUnivImport](Functions/LightingUnivImport.md) |
-| [SetVisionMapping](Functions/SetVisionMapping.md) | [SL_Export](Functions/SL_Export.md) | [SL_Import](Functions/SL_Import.md) |
-| [SL_UpdateSAcc](Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](Functions/SL_UpdateUID.md) 
+| [RemoveTrussAssoc](Functions/RemoveTrussAssoc.md) | [SetVisionMapping](Functions/SetVisionMapping.md) | [SL_Export](Functions/SL_Export.md) |
+| [SL_Import](Functions/SL_Import.md) | [SL_UpdateSAcc](Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](Functions/SL_UpdateUID.md) |
 
 ## Strings
 
@@ -1267,8 +1267,9 @@
 | [GetPtL](Functions/GetPtL.md) | [GetPtL3D](Functions/GetPtL3D.md) | [GetRect](Functions/GetRect.md) |
 | [GetRect3D](Functions/GetRect3D.md) | [KeyDown](Functions/KeyDown.md) | [MouseDown](Functions/MouseDown.md) |
 | [Option](Functions/Option.md) | [RunTempTool](Functions/RunTempTool.md) | [SetCursor](Functions/SetCursor.md) |
-| [SetModeButtonText](Functions/SetModeButtonText.md) | [SetTempToolHelpStr](Functions/SetTempToolHelpStr.md) | [SetToolHelpMessage](Functions/SetToolHelpMessage.md) |
-| [Shift](Functions/Shift.md) | [TrackObject](Functions/TrackObject.md) | [TrackObjectN](Functions/TrackObjectN.md) |
+| [SetModeButtonText](Functions/SetModeButtonText.md) | [SetModeButtonTextN](Functions/SetModeButtonTextN.md) | [SetTempToolHelpStr](Functions/SetTempToolHelpStr.md) |
+| [SetToolHelpMessage](Functions/SetToolHelpMessage.md) | [Shift](Functions/Shift.md) | [TrackObject](Functions/TrackObject.md) |
+| [TrackObjectN](Functions/TrackObjectN.md) 
 
 ## Utility
 

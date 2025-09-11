@@ -26,6 +26,6 @@
 | [LDevice_SetAccPos3D](../Functions/LDevice_SetAccPos3D.md) | [LDevice_SetParamBool](../Functions/LDevice_SetParamBool.md) | [LDevice_SetParamLong](../Functions/LDevice_SetParamLong.md) |
 | [LDevice_SetParamReal](../Functions/LDevice_SetParamReal.md) | [LDevice_SetParamStr](../Functions/LDevice_SetParamStr.md) | [LightingInvExport](../Functions/LightingInvExport.md) |
 | [LightingInvImport](../Functions/LightingInvImport.md) | [LightingUnivExport](../Functions/LightingUnivExport.md) | [LightingUnivImport](../Functions/LightingUnivImport.md) |
-| [SetVisionMapping](../Functions/SetVisionMapping.md) | [SL_Export](../Functions/SL_Export.md) | [SL_Import](../Functions/SL_Import.md) |
-| [SL_UpdateSAcc](../Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](../Functions/SL_UpdateUID.md) 
+| [RemoveTrussAssoc](../Functions/RemoveTrussAssoc.md) | [SetVisionMapping](../Functions/SetVisionMapping.md) | [SL_Export](../Functions/SL_Export.md) |
+| [SL_Import](../Functions/SL_Import.md) | [SL_UpdateSAcc](../Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](../Functions/SL_UpdateUID.md) |
 

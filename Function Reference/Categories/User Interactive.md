@@ -11,6 +11,7 @@
 | [GetPtL](../Functions/GetPtL.md) | [GetPtL3D](../Functions/GetPtL3D.md) | [GetRect](../Functions/GetRect.md) |
 | [GetRect3D](../Functions/GetRect3D.md) | [KeyDown](../Functions/KeyDown.md) | [MouseDown](../Functions/MouseDown.md) |
 | [Option](../Functions/Option.md) | [RunTempTool](../Functions/RunTempTool.md) | [SetCursor](../Functions/SetCursor.md) |
-| [SetModeButtonText](../Functions/SetModeButtonText.md) | [SetTempToolHelpStr](../Functions/SetTempToolHelpStr.md) | [SetToolHelpMessage](../Functions/SetToolHelpMessage.md) |
-| [Shift](../Functions/Shift.md) | [TrackObject](../Functions/TrackObject.md) | [TrackObjectN](../Functions/TrackObjectN.md) |
+| [SetModeButtonText](../Functions/SetModeButtonText.md) | [SetModeButtonTextN](../Functions/SetModeButtonTextN.md) | [SetTempToolHelpStr](../Functions/SetTempToolHelpStr.md) |
+| [SetToolHelpMessage](../Functions/SetToolHelpMessage.md) | [Shift](../Functions/Shift.md) | [TrackObject](../Functions/TrackObject.md) |
+| [TrackObjectN](../Functions/TrackObjectN.md) 
 

@@ -20,7 +20,7 @@
 | [PointAlongPolyN](../Functions/PointAlongPolyN.md) | [Polygonize](../Functions/Polygonize.md) | [PolyMedialAxis](../Functions/PolyMedialAxis.md) |
 | [PtInPoly](../Functions/PtInPoly.md) | [PtInRect](../Functions/PtInRect.md) | [PtOnArc](../Functions/PtOnArc.md) |
 | [PtOnLine](../Functions/PtOnLine.md) | [PtPerpCircle](../Functions/PtPerpCircle.md) | [PtPerpLine](../Functions/PtPerpLine.md) |
-| [RegularPolygon](../Functions/RegularPolygon.md) | [RelativeCoords](../Functions/RelativeCoords.md) | [Split2DObjectByLine](../Functions/Split2DObjectByLine.md) |
-| [SrndArea](../Functions/SrndArea.md) | [Stipple](../Functions/Stipple.md) | [SubtractPolygon](../Functions/SubtractPolygon.md) |
-| [ThreePtCenter](../Functions/ThreePtCenter.md) | [UnionRect](../Functions/UnionRect.md) 
+| [PtPerpLine3D](../Functions/PtPerpLine3D.md) | [RegularPolygon](../Functions/RegularPolygon.md) | [RelativeCoords](../Functions/RelativeCoords.md) |
+| [Split2DObjectByLine](../Functions/Split2DObjectByLine.md) | [SrndArea](../Functions/SrndArea.md) | [Stipple](../Functions/Stipple.md) |
+| [SubtractPolygon](../Functions/SubtractPolygon.md) | [ThreePtCenter](../Functions/ThreePtCenter.md) | [UnionRect](../Functions/UnionRect.md) |
 

@@ -37,6 +37,7 @@ You can go to the [Python page](Python/README.md) for more information.
 
 ## Version Information
 
+* [Vectorworks 2026](Common/Versions/Vectorworks%202026.md)
 * [Vectorworks 2025](Common/Versions/Vectorworks%202025.md)
 * [Vectorworks 2024](Common/Versions/Vectorworks%202024.md)
 * [Vectorworks 2023](Common/Versions/Vectorworks%202023.md)

@@ -713,53 +713,56 @@
 | [PickObject](Functions/PickObject.md) | [PlanarPtTo3DModelPt](Functions/PlanarPtTo3DModelPt.md) | [PlanarPtToScreenPlanePt](Functions/PlanarPtToScreenPlanePt.md) |
 | [Plant_CreateDupPlant](Functions/Plant_CreateDupPlant.md) | [Plant_EditPlantDefRB](Functions/Plant_EditPlantDefRB.md) | [Plant_GetToolInit](Functions/Plant_GetToolInit.md) |
 | [Plant_GetToolPlantNm](Functions/Plant_GetToolPlantNm.md) | [Plant_GetToolPlcMode](Functions/Plant_GetToolPlcMode.md) | [Plant_GetToolSpacing](Functions/Plant_GetToolSpacing.md) |
-| [Plant_ReplacePlant](Functions/Plant_ReplacePlant.md) | [Plant_ReplacePlantParam](Functions/Plant_ReplacePlantParam.md) | [Plant_ResetPlantInst](Functions/Plant_ResetPlantInst.md) |
-| [Plant_UpdatePlaceTool](Functions/Plant_UpdatePlaceTool.md) | [Plant_UpdateTranslat](Functions/Plant_UpdateTranslat.md) | [PointAlongPoly](Functions/PointAlongPoly.md) |
-| [PointAlongPolyN](Functions/PointAlongPolyN.md) | [Poly](Functions/Poly.md) | [Poly3D](Functions/Poly3D.md) |
-| [Polygonize](Functions/Polygonize.md) | [PolyMedialAxis](Functions/PolyMedialAxis.md) | [PopAttrs](Functions/PopAttrs.md) |
-| [PopupGetChoices](Functions/PopupGetChoices.md) | [PopupSetChoices](Functions/PopupSetChoices.md) | [Pos](Functions/Pos.md) |
-| [PrepRelatedObjectForChange](Functions/PrepRelatedObjectForChange.md) | [PrevDObj](Functions/PrevDObj.md) | [PrevLayer](Functions/PrevLayer.md) |
-| [PrevObj](Functions/PrevObj.md) | [PrevSObj](Functions/PrevSObj.md) | [PrevSymDef](Functions/PrevSymDef.md) |
-| [PrimaryUnits](Functions/PrimaryUnits.md) | [PrintUsingPrintDialog](Functions/PrintUsingPrintDialog.md) | [PrintWithoutUsingPrintDialog](Functions/PrintWithoutUsingPrintDialog.md) |
-| [Products3D](Functions/Products3D.md) | [ProgressDlgClose](Functions/ProgressDlgClose.md) | [ProgressDlgEnd](Functions/ProgressDlgEnd.md) |
-| [ProgressDlgHasCancel](Functions/ProgressDlgHasCancel.md) | [ProgressDlgOpen](Functions/ProgressDlgOpen.md) | [ProgressDlgOpenDelay](Functions/ProgressDlgOpenDelay.md) |
-| [ProgressDlgSetBotMsg](Functions/ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](Functions/ProgressDlgSetMeter.md) | [ProgressDlgSetTopMsg](Functions/ProgressDlgSetTopMsg.md) |
-| [ProgressDlgStart](Functions/ProgressDlgStart.md) | [ProgressDlgYield](Functions/ProgressDlgYield.md) | [Projection](Functions/Projection.md) |
-| [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) | [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) |
-| [Prot_GetLicenseType](Functions/Prot_GetLicenseType.md) | [Prot_GetSeatsNum](Functions/Prot_GetSeatsNum.md) | [Prot_GetUsedSeatsNum](Functions/Prot_GetUsedSeatsNum.md) |
-| [Prot_IsFundamentals](Functions/Prot_IsFundamentals.md) | [Prot_IsModuleEnabled](Functions/Prot_IsModuleEnabled.md) | [PtDialog](Functions/PtDialog.md) |
-| [PtDialog3D](Functions/PtDialog3D.md) | [PtInPoly](Functions/PtInPoly.md) | [PtInRect](Functions/PtInRect.md) |
-| [PtOnArc](Functions/PtOnArc.md) | [PtOnLine](Functions/PtOnLine.md) | [PtPerpCircle](Functions/PtPerpCircle.md) |
-| [PtPerpLine](Functions/PtPerpLine.md) | [PublishSavedSet](Functions/PublishSavedSet.md) | [PushAttrs](Functions/PushAttrs.md) |
-| [PutFile](Functions/PutFile.md) | [PythonBeginContext](Functions/PythonBeginContext.md) | [PythonEndContext](Functions/PythonEndContext.md) |
-| [PythonExecute](Functions/PythonExecute.md) | [PythonGetSearchPath](Functions/PythonGetSearchPath.md) | [PythonSetSearchPath](Functions/PythonSetSearchPath.md) |
+| [Plant_LocateStyleMgr](Functions/Plant_LocateStyleMgr.md) | [Plant_ReplacePlant](Functions/Plant_ReplacePlant.md) | [Plant_ReplacePlantParam](Functions/Plant_ReplacePlantParam.md) |
+| [Plant_ResetPlantInst](Functions/Plant_ResetPlantInst.md) | [Plant_UpdatePlaceTool](Functions/Plant_UpdatePlaceTool.md) | [Plant_UpdateTranslat](Functions/Plant_UpdateTranslat.md) |
+| [PointAlongPoly](Functions/PointAlongPoly.md) | [PointAlongPolyN](Functions/PointAlongPolyN.md) | [Poly](Functions/Poly.md) |
+| [Poly3D](Functions/Poly3D.md) | [Polygonize](Functions/Polygonize.md) | [PolyMedialAxis](Functions/PolyMedialAxis.md) |
+| [PopAttrs](Functions/PopAttrs.md) | [PopupGetChoices](Functions/PopupGetChoices.md) | [PopupSetChoices](Functions/PopupSetChoices.md) |
+| [Pos](Functions/Pos.md) | [PrepRelatedObjectForChange](Functions/PrepRelatedObjectForChange.md) | [PrevDObj](Functions/PrevDObj.md) |
+| [PrevLayer](Functions/PrevLayer.md) | [PrevObj](Functions/PrevObj.md) | [PrevSObj](Functions/PrevSObj.md) |
+| [PrevSymDef](Functions/PrevSymDef.md) | [PrimaryUnits](Functions/PrimaryUnits.md) | [PrintUsingPrintDialog](Functions/PrintUsingPrintDialog.md) |
+| [PrintWithoutUsingPrintDialog](Functions/PrintWithoutUsingPrintDialog.md) | [Products3D](Functions/Products3D.md) | [ProgressDlgClose](Functions/ProgressDlgClose.md) |
+| [ProgressDlgEnd](Functions/ProgressDlgEnd.md) | [ProgressDlgHasCancel](Functions/ProgressDlgHasCancel.md) | [ProgressDlgOpen](Functions/ProgressDlgOpen.md) |
+| [ProgressDlgOpenDelay](Functions/ProgressDlgOpenDelay.md) | [ProgressDlgSetBotMsg](Functions/ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](Functions/ProgressDlgSetMeter.md) |
+| [ProgressDlgSetTopMsg](Functions/ProgressDlgSetTopMsg.md) | [ProgressDlgStart](Functions/ProgressDlgStart.md) | [ProgressDlgYield](Functions/ProgressDlgYield.md) |
+| [Projection](Functions/Projection.md) | [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetAppMode](Functions/Prot_GetAppMode.md) |
+| [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) | [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) | [Prot_GetSeatsNum](Functions/Prot_GetSeatsNum.md) |
+| [Prot_GetUsedSeatsNum](Functions/Prot_GetUsedSeatsNum.md) | [Prot_IsFundamentals](Functions/Prot_IsFundamentals.md) | [Prot_IsModuleEnabled](Functions/Prot_IsModuleEnabled.md) |
+| [PtDialog](Functions/PtDialog.md) | [PtDialog3D](Functions/PtDialog3D.md) | [PtInPoly](Functions/PtInPoly.md) |
+| [PtInRect](Functions/PtInRect.md) | [PtOnArc](Functions/PtOnArc.md) | [PtOnLine](Functions/PtOnLine.md) |
+| [PtPerpCircle](Functions/PtPerpCircle.md) | [PtPerpLine](Functions/PtPerpLine.md) | [PtPerpLine3D](Functions/PtPerpLine3D.md) |
+| [PublishSavedSet](Functions/PublishSavedSet.md) | [PushAttrs](Functions/PushAttrs.md) | [PutFile](Functions/PutFile.md) |
+| [PythonBeginContext](Functions/PythonBeginContext.md) | [PythonEndContext](Functions/PythonEndContext.md) | [PythonExecute](Functions/PythonExecute.md) |
+| [PythonGetSearchPath](Functions/PythonGetSearchPath.md) | [PythonSetSearchPath](Functions/PythonSetSearchPath.md) 
 
 ## Q
 | | | |
 |---|---|---|
-| [QTCloseMovieFile](Functions/QTCloseMovieFile.md) | [QTCloseMovieFileN](Functions/QTCloseMovieFileN.md) | [QTCreateMovieRefID](Functions/QTCreateMovieRefID.md) |
-| [QTGetMovieOptions](Functions/QTGetMovieOptions.md) | [QTGetMovieOptionsN](Functions/QTGetMovieOptionsN.md) | [QTInitialize](Functions/QTInitialize.md) |
-| [QTOpenMovieFile](Functions/QTOpenMovieFile.md) | [QTOpenMovieFileN](Functions/QTOpenMovieFileN.md) | [QTSetMovieOptions](Functions/QTSetMovieOptions.md) |
-| [QTSetMovieOptionsN](Functions/QTSetMovieOptionsN.md) | [QTTerminate](Functions/QTTerminate.md) | [QTWriteFrame](Functions/QTWriteFrame.md) |
+| [QTCloseMovieFile](Functions/QTCloseMovieFile.md) |
+| [QTCloseMovieFileN](Functions/QTCloseMovieFileN.md) | [QTCreateMovieRefID](Functions/QTCreateMovieRefID.md) | [QTGetMovieOptions](Functions/QTGetMovieOptions.md) |
+| [QTGetMovieOptionsN](Functions/QTGetMovieOptionsN.md) | [QTInitialize](Functions/QTInitialize.md) | [QTOpenMovieFile](Functions/QTOpenMovieFile.md) |
+| [QTOpenMovieFileN](Functions/QTOpenMovieFileN.md) | [QTSetMovieOptions](Functions/QTSetMovieOptions.md) | [QTSetMovieOptionsN](Functions/QTSetMovieOptionsN.md) |
+| [QTTerminate](Functions/QTTerminate.md) | [QTWriteFrame](Functions/QTWriteFrame.md) 
 
 ## R
 | | | |
 |---|---|---|
-| [Rad2Deg](Functions/Rad2Deg.md) | [Random](Functions/Random.md) | [Read](Functions/Read.md) |
-| [ReadBin](Functions/ReadBin.md) | [ReadLn](Functions/ReadLn.md) | [ReadXMLFile](Functions/ReadXMLFile.md) |
-| [ReadXMLMemory](Functions/ReadXMLMemory.md) | [RealDialog](Functions/RealDialog.md) | [RecalculateWS](Functions/RecalculateWS.md) |
-| [Record](Functions/Record.md) | [Rect](Functions/Rect.md) | [RectangleN](Functions/RectangleN.md) |
-| [ReDraw](Functions/ReDraw.md) | [ReDrawAll](Functions/ReDrawAll.md) | [RedrawSelection](Functions/RedrawSelection.md) |
-| [RefreshItem](Functions/RefreshItem.md) | [RefreshLB](Functions/RefreshLB.md) | [RefreshResManager](Functions/RefreshResManager.md) |
-| [RegisterDialogForTimerEvents](Functions/RegisterDialogForTimerEvents.md) | [RegularPolygon](Functions/RegularPolygon.md) | [Relative](Functions/Relative.md) |
-| [RelativeCoords](Functions/RelativeCoords.md) | [ReleaseObj](Functions/ReleaseObj.md) | [ReleaseXML](Functions/ReleaseXML.md) |
-| [RemoveAllImagePopupItems](Functions/RemoveAllImagePopupItems.md) | [RemoveAllLBColumnDataItems](Functions/RemoveAllLBColumnDataItems.md) | [RemoveAllWSColumnOperators](Functions/RemoveAllWSColumnOperators.md) |
-| [RemoveAssociation](Functions/RemoveAssociation.md) | [RemoveChoice](Functions/RemoveChoice.md) | [RemoveCustomTexParts](Functions/RemoveCustomTexParts.md) |
-| [RemoveEnhancedPullDownMenuItemRange](Functions/RemoveEnhancedPullDownMenuItemRange.md) | [RemoveFrmPluginStyle](Functions/RemoveFrmPluginStyle.md) | [RemoveGeoref](Functions/RemoveGeoref.md) |
-| [RemoveGradientSegment](Functions/RemoveGradientSegment.md) | [RemoveGradientSliderSegment](Functions/RemoveGradientSliderSegment.md) | [RemoveImagePopupItem](Functions/RemoveImagePopupItem.md) |
-| [RemoveLBColumnDataItem](Functions/RemoveLBColumnDataItem.md) | [RemoveListBoxTabStop](Functions/RemoveListBoxTabStop.md) | [RemovePartTag](Functions/RemovePartTag.md) |
-| [RemovePIOStyleEdit](Functions/RemovePIOStyleEdit.md) | [RemoveRoofEdge](Functions/RemoveRoofEdge.md) | [RemoveRoofElement](Functions/RemoveRoofElement.md) |
-| [RemoveStoryLevel](Functions/RemoveStoryLevel.md) | [RemoveSubMtrlFromMtl](Functions/RemoveSubMtrlFromMtl.md) | [RemoveTreeControlItem](Functions/RemoveTreeControlItem.md) |
+| [Rad2Deg](Functions/Rad2Deg.md) |
+| [Random](Functions/Random.md) | [Read](Functions/Read.md) | [ReadBin](Functions/ReadBin.md) |
+| [ReadLn](Functions/ReadLn.md) | [ReadXMLFile](Functions/ReadXMLFile.md) | [ReadXMLMemory](Functions/ReadXMLMemory.md) |
+| [RealDialog](Functions/RealDialog.md) | [RecalculateWS](Functions/RecalculateWS.md) | [Record](Functions/Record.md) |
+| [Rect](Functions/Rect.md) | [RectangleN](Functions/RectangleN.md) | [ReDraw](Functions/ReDraw.md) |
+| [ReDrawAll](Functions/ReDrawAll.md) | [RedrawSelection](Functions/RedrawSelection.md) | [RefreshItem](Functions/RefreshItem.md) |
+| [RefreshLB](Functions/RefreshLB.md) | [RefreshResManager](Functions/RefreshResManager.md) | [RegisterDialogForTimerEvents](Functions/RegisterDialogForTimerEvents.md) |
+| [RegularPolygon](Functions/RegularPolygon.md) | [Relative](Functions/Relative.md) | [RelativeCoords](Functions/RelativeCoords.md) |
+| [ReleaseObj](Functions/ReleaseObj.md) | [ReleaseXML](Functions/ReleaseXML.md) | [RemoveAllImagePopupItems](Functions/RemoveAllImagePopupItems.md) |
+| [RemoveAllLBColumnDataItems](Functions/RemoveAllLBColumnDataItems.md) | [RemoveAllWSColumnOperators](Functions/RemoveAllWSColumnOperators.md) | [RemoveAssociation](Functions/RemoveAssociation.md) |
+| [RemoveChoice](Functions/RemoveChoice.md) | [RemoveCustomTexParts](Functions/RemoveCustomTexParts.md) | [RemoveEnhancedPullDownMenuItemRange](Functions/RemoveEnhancedPullDownMenuItemRange.md) |
+| [RemoveFrmPluginStyle](Functions/RemoveFrmPluginStyle.md) | [RemoveGeoref](Functions/RemoveGeoref.md) | [RemoveGradientSegment](Functions/RemoveGradientSegment.md) |
+| [RemoveGradientSliderSegment](Functions/RemoveGradientSliderSegment.md) | [RemoveImagePopupItem](Functions/RemoveImagePopupItem.md) | [RemoveLBColumnDataItem](Functions/RemoveLBColumnDataItem.md) |
+| [RemoveListBoxTabStop](Functions/RemoveListBoxTabStop.md) | [RemovePartTag](Functions/RemovePartTag.md) | [RemovePIOStyleEdit](Functions/RemovePIOStyleEdit.md) |
+| [RemoveRoofEdge](Functions/RemoveRoofEdge.md) | [RemoveRoofElement](Functions/RemoveRoofElement.md) | [RemoveStoryLevel](Functions/RemoveStoryLevel.md) |
+| [RemoveSubMtrlFromMtl](Functions/RemoveSubMtrlFromMtl.md) | [RemoveTreeControlItem](Functions/RemoveTreeControlItem.md) | [RemoveTrussAssoc](Functions/RemoveTrussAssoc.md) |
 | [RemoveVPClOvrd](Functions/RemoveVPClOvrd.md) | [RemoveVPLrOvrd](Functions/RemoveVPLrOvrd.md) | [RemoveWSColumnOperator](Functions/RemoveWSColumnOperator.md) |
 | [RenameClass](Functions/RenameClass.md) | [ReplaceIFCWithMap](Functions/ReplaceIFCWithMap.md) | [ReplaceText](Functions/ReplaceText.md) |
 | [ResetBBox](Functions/ResetBBox.md) | [ResetDefStoryLevels](Functions/ResetDefStoryLevels.md) | [ResetObject](Functions/ResetObject.md) |
@@ -896,259 +899,261 @@
 | [SetLWByClass](Functions/SetLWByClass.md) | [SetMarker](Functions/SetMarker.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerByClass](Functions/SetMarkerByClass.md) |
 | [SetMarkerChoice](Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerValue](Functions/SetMarkerValue.md) | [SetMaterialFillStyle](Functions/SetMaterialFillStyle.md) |
 | [SetMaterialTexture](Functions/SetMaterialTexture.md) | [SetMaximumUndoEvents](Functions/SetMaximumUndoEvents.md) | [SetMeshVertex](Functions/SetMeshVertex.md) |
-| [SetMirrorEmpty2DComp](Functions/SetMirrorEmpty2DComp.md) | [SetModeButtonText](Functions/SetModeButtonText.md) | [SetModeString](Functions/SetModeString.md) |
-| [SetMrEm2DCompByStyle](Functions/SetMrEm2DCompByStyle.md) | [SetMtlFillBackColor](Functions/SetMtlFillBackColor.md) | [SetMtlFillForeColor](Functions/SetMtlFillForeColor.md) |
-| [SetMtlFillStyleByCls](Functions/SetMtlFillStyleByCls.md) | [SetMtlPenBackColor](Functions/SetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub> | [SetMtlPenForeColor](Functions/SetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub> |
-| [SetName](Functions/SetName.md) | [SetObjArrow](Functions/SetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetObjBeginningMarker](Functions/SetObjBeginningMarker.md) |
-| [SetObjectAsCornerBreak](Functions/SetObjectAsCornerBreak.md) | [SetObjectAsSpanBreak](Functions/SetObjectAsSpanBreak.md) | [SetObjectStoryBound](Functions/SetObjectStoryBound.md) |
-| [SetObjectTags](Functions/SetObjectTags.md) | [SetObjectVariableBoolean](Functions/SetObjectVariableBoolean.md) | [SetObjectVariableHandle](Functions/SetObjectVariableHandle.md) |
-| [SetObjectVariableInt](Functions/SetObjectVariableInt.md) | [SetObjectVariableLongInt](Functions/SetObjectVariableLongInt.md) | [SetObjectVariablePoint](Functions/SetObjectVariablePoint.md) |
-| [SetObjectVariableReal](Functions/SetObjectVariableReal.md) | [SetObjectVariableString](Functions/SetObjectVariableString.md) | [SetObjectWallHeight](Functions/SetObjectWallHeight.md) |
-| [SetObjectWallOffset](Functions/SetObjectWallOffset.md) | [SetObjEndMarker](Functions/SetObjEndMarker.md) | [SetObjExpandTexture](Functions/SetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub> |
-| [SetObjMaterialHandle](Functions/SetObjMaterialHandle.md) | [SetObjPropCharVS](Functions/SetObjPropCharVS.md) | [SetObjPropDoubleVS](Functions/SetObjPropDoubleVS.md) |
-| [SetObjPropTxtVS](Functions/SetObjPropTxtVS.md) | [SetObjPropVS](Functions/SetObjPropVS.md) | [SetObjWallBreakMode](Functions/SetObjWallBreakMode.md) |
-| [SetObjWallInsertMode](Functions/SetObjWallInsertMode.md) | [SetObjWallInsLocOff](Functions/SetObjWallInsLocOff.md) | [SetOpacity](Functions/SetOpacity.md) |
-| [SetOpacityByClass](Functions/SetOpacityByClass.md) | [SetOpacityByClassN](Functions/SetOpacityByClassN.md) | [SetOpacityN](Functions/SetOpacityN.md) |
-| [SetOpenGLPrefs](Functions/SetOpenGLPrefs.md) | [SetOrigin](Functions/SetOrigin.md) | [SetOriginAbsolute](Functions/SetOriginAbsolute.md) |
-| [SetPadAttrs](Functions/SetPadAttrs.md) | [SetPaletteVisibility](Functions/SetPaletteVisibility.md) | [SetParameterVisibility](Functions/SetParameterVisibility.md) |
-| [SetParamStyleType](Functions/SetParamStyleType.md) | [SetParent](Functions/SetParent.md) | [SetPartDataID](Functions/SetPartDataID.md) |
-| [SetPartInstanceName](Functions/SetPartInstanceName.md) | [SetPatternData](Functions/SetPatternData.md) | [SetPenBack](Functions/SetPenBack.md) |
-| [SetPenColorByClass](Functions/SetPenColorByClass.md) | [SetPenFore](Functions/SetPenFore.md) | [SetPlanarRef](Functions/SetPlanarRef.md) |
-| [SetPlanarRefIDToGround](Functions/SetPlanarRefIDToGround.md) | [SetPlanarTransform](Functions/SetPlanarTransform.md) | [SetPluginStyle](Functions/SetPluginStyle.md) |
-| [SetPolyClosed](Functions/SetPolyClosed.md) | [SetPolylineVertex](Functions/SetPolylineVertex.md) | [SetPolyPt](Functions/SetPolyPt.md) |
-| [SetPolyPt3D](Functions/SetPolyPt3D.md) | [SetPref](Functions/SetPref.md) | [SetPrefInt](Functions/SetPrefInt.md) |
-| [SetPrefLongInt](Functions/SetPrefLongInt.md) | [SetPrefReal](Functions/SetPrefReal.md) | [SetPrefRGB](Functions/SetPrefRGB.md) |
-| [SetPrefString](Functions/SetPrefString.md) | [SetPrimaryDim](Functions/SetPrimaryDim.md) | [SetProjectElevation](Functions/SetProjectElevation.md) |
-| [SetProportionalBinding](Functions/SetProportionalBinding.md) | [SetRecord](Functions/SetRecord.md) | [SetResourceTags](Functions/SetResourceTags.md) |
-| [SetRField](Functions/SetRField.md) | [SetRFieldOpt](Functions/SetRFieldOpt.md) | [SetRightItem](Functions/SetRightItem.md) |
-| [SetRoofAttributes](Functions/SetRoofAttributes.md) | [SetRoofEdge](Functions/SetRoofEdge.md) | [SetRoofPrefStyle](Functions/SetRoofPrefStyle.md) |
-| [SetRoofStyle](Functions/SetRoofStyle.md) | [SetRot3D](Functions/SetRot3D.md) | [SetRRDiam](Functions/SetRRDiam.md) |
-| [SetSavedSetting](Functions/SetSavedSetting.md) | [SetScale](Functions/SetScale.md) | [SetScriptResource](Functions/SetScriptResource.md) |
-| [SetSecondaryDim](Functions/SetSecondaryDim.md) | [SetSegPt1](Functions/SetSegPt1.md) | [SetSegPt2](Functions/SetSegPt2.md) |
-| [SetSelect](Functions/SetSelect.md) | [SetSelectionRange](Functions/SetSelectionRange.md) | [SetShedAttributes](Functions/SetShedAttributes.md) |
-| [SetSheetLayerUserOrigin](Functions/SetSheetLayerUserOrigin.md) | [SetSingularConstraint](Functions/SetSingularConstraint.md) | [SetSkylight](Functions/SetSkylight.md) |
-| [SetSlabHeight](Functions/SetSlabHeight.md) | [SetSlabPreferencesStyle](Functions/SetSlabPreferencesStyle.md) | [SetSlabStyle](Functions/SetSlabStyle.md) |
-| [SetSliderLiveUpdate](Functions/SetSliderLiveUpdate.md) | [SetSprdSortSum](Functions/SetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetSprdSortSumColumns](Functions/SetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub> |
-| [SetSpreadAngle](Functions/SetSpreadAngle.md) | [SetStaticTextColor](Functions/SetStaticTextColor.md) | [SetStaticTextColorN](Functions/SetStaticTextColorN.md) |
-| [SetStaticTextStyle](Functions/SetStaticTextStyle.md) | [SetStoryElevation](Functions/SetStoryElevation.md) | [SetStoryElevationN](Functions/SetStoryElevationN.md) |
-| [SetStorySuffix](Functions/SetStorySuffix.md) | [SetSymbolOptionsN](Functions/SetSymbolOptionsN.md) | [SetSymBrightMult](Functions/SetSymBrightMult.md) |
-| [SetSymDefSubType](Functions/SetSymDefSubType.md) | [SetTaperedComponent](Functions/SetTaperedComponent.md) | [SetTempToolHelpStr](Functions/SetTempToolHelpStr.md) |
-| [SetTexBFeatureEnd](Functions/SetTexBFeatureEnd.md) | [SetTexBFeatureStart](Functions/SetTexBFeatureStart.md) | [SetTexBitFeatureSize](Functions/SetTexBitFeatureSize.md) |
-| [SetTexBitmapOrigin](Functions/SetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTexBitPaintNode](Functions/SetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub> | [SetTexBitRepHoriz](Functions/SetTexBitRepHoriz.md) |
-| [SetTexBitRepVert](Functions/SetTexBitRepVert.md) | [SetTexMapBool](Functions/SetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTexMapBoolN](Functions/SetTexMapBoolN.md) |
-| [SetTexMapInt](Functions/SetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTexMapIntN](Functions/SetTexMapIntN.md) | [SetTexMapReal](Functions/SetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub> |
-| [SetTexMapRealN](Functions/SetTexMapRealN.md) | [SetTexSpace2DOffset](Functions/SetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpace2DRadius](Functions/SetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub> |
-| [SetTexSpace2DRot](Functions/SetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpace2DScale](Functions/SetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceEndCap](Functions/SetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub> |
-| [SetTexSpaceKind](Functions/SetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrientU](Functions/SetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrientV](Functions/SetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub> |
-| [SetTexSpaceOrientW](Functions/SetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrigin](Functions/SetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpacePartID](Functions/SetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub> |
-| [SetTexSpaceStartCap](Functions/SetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetText](Functions/SetText.md) | [SetTextAdorner](Functions/SetTextAdorner.md) |
-| [SetTextFont](Functions/SetTextFont.md) | [SetTextJust](Functions/SetTextJust.md) | [SetTextJustN](Functions/SetTextJustN.md) |
-| [SetTextLeading](Functions/SetTextLeading.md) | [SetTextOrientation](Functions/SetTextOrientation.md) | [SetTextSize](Functions/SetTextSize.md) |
-| [SetTextSpace](Functions/SetTextSpace.md) | [SetTextStyle](Functions/SetTextStyle.md) | [SetTextStyleByClass](Functions/SetTextStyleByClass.md) |
-| [SetTextStyleByClassN](Functions/SetTextStyleByClassN.md) | [SetTextStyleRef](Functions/SetTextStyleRef.md) | [SetTextStyleRefN](Functions/SetTextStyleRefN.md) |
-| [SetTextureBitmap](Functions/SetTextureBitmap.md) | [SetTextureRef](Functions/SetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTextureRefN](Functions/SetTextureRefN.md) |
-| [SetTextureSet](Functions/SetTextureSet.md) | [SetTextureShader](Functions/SetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTextureShininess](Functions/SetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub> |
-| [SetTextureSize](Functions/SetTextureSize.md) | [SetTextureTransp](Functions/SetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTextVertAlignN](Functions/SetTextVertAlignN.md) |
-| [SetTextVerticalAlign](Functions/SetTextVerticalAlign.md) | [SetTextWidth](Functions/SetTextWidth.md) | [SetTextWrap](Functions/SetTextWrap.md) |
-| [SetThreeStateCheckBoxState](Functions/SetThreeStateCheckBoxState.md) | [SetTileBackgroundColor](Functions/SetTileBackgroundColor.md) | [SetTileOffsetPoint](Functions/SetTileOffsetPoint.md) |
-| [SetTileRepetitionPoint](Functions/SetTileRepetitionPoint.md) | [SetTool](Functions/SetTool.md) | [SetToolByIndex](Functions/SetToolByIndex.md) |
-| [SetToolByName](Functions/SetToolByName.md) | [SetToolHelpMessage](Functions/SetToolHelpMessage.md) | [SetToolWithMode](Functions/SetToolWithMode.md) |
-| [SetTopPlan2DComp](Functions/SetTopPlan2DComp.md) | [SetTopVisibleWS](Functions/SetTopVisibleWS.md) | [SetTpPl2DCompByStyle](Functions/SetTpPl2DCompByStyle.md) |
-| [SetTrapeziumAttributes](Functions/SetTrapeziumAttributes.md) | [SetTreeControlItemData](Functions/SetTreeControlItemData.md) | [SetUnits](Functions/SetUnits.md) |
-| [SetUseWallClosure](Functions/SetUseWallClosure.md) | [SetUseWllClsrByStyle](Functions/SetUseWllClsrByStyle.md) | [SetVCenter](Functions/SetVCenter.md) |
-| [SetVectorFill](Functions/SetVectorFill.md) | [SetVectorFillDefault](Functions/SetVectorFillDefault.md) | [SetVertexVisibility](Functions/SetVertexVisibility.md) |
-| [SetVertSecCPByStyle](Functions/SetVertSecCPByStyle.md) | [SetVertSecCutPlane](Functions/SetVertSecCutPlane.md) | [SetView](Functions/SetView.md) |
-| [SetViewMatrix](Functions/SetViewMatrix.md) | [SetViewVector](Functions/SetViewVector.md) | [SetVisionMapping](Functions/SetVisionMapping.md) |
-| [SetVPClassVisibility](Functions/SetVPClassVisibility.md) | [SetVPClOvrdFillBack](Functions/SetVPClOvrdFillBack.md) | [SetVPClOvrdFillFore](Functions/SetVPClOvrdFillFore.md) |
-| [SetVPClOvrdFillOpty](Functions/SetVPClOvrdFillOpty.md) | [SetVPClOvrdFillStyle](Functions/SetVPClOvrdFillStyle.md) | [SetVPClOvrdLineStyle](Functions/SetVPClOvrdLineStyle.md) |
-| [SetVPClOvrdLnWeight](Functions/SetVPClOvrdLnWeight.md) | [SetVPClOvrdObjTxt](Functions/SetVPClOvrdObjTxt.md) | [SetVPClOvrdPenBack](Functions/SetVPClOvrdPenBack.md) |
-| [SetVPClOvrdPenFore](Functions/SetVPClOvrdPenFore.md) | [SetVPClOvrdPenOpty](Functions/SetVPClOvrdPenOpty.md) | [SetVPClOvrdRoofTxt](Functions/SetVPClOvrdRoofTxt.md) |
-| [SetVPClOvrdWallTxt](Functions/SetVPClOvrdWallTxt.md) | [SetVPCropObject](Functions/SetVPCropObject.md) | [SetVPLayerVisibility](Functions/SetVPLayerVisibility.md) |
-| [SetVPLrOvrdFillBack](Functions/SetVPLrOvrdFillBack.md) | [SetVPLrOvrdFillFore](Functions/SetVPLrOvrdFillFore.md) | [SetVPLrOvrdOpty](Functions/SetVPLrOvrdOpty.md) |
-| [SetVPLrOvrdPenBack](Functions/SetVPLrOvrdPenBack.md) | [SetVPLrOvrdPenFore](Functions/SetVPLrOvrdPenFore.md) | [SetVSResourceFile](Functions/SetVSResourceFile.md) |
-| [SetWallBelCutPlClass](Functions/SetWallBelCutPlClass.md) | [SetWallCapAttributesType](Functions/SetWallCapAttributesType.md) | [SetWallCaps](Functions/SetWallCaps.md) |
-| [SetWallCapsOffsets](Functions/SetWallCapsOffsets.md) | [SetWallClosureGroup](Functions/SetWallClosureGroup.md) | [SetWallControlOffset](Functions/SetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub> |
-| [SetWallCornerHeights](Functions/SetWallCornerHeights.md) | [SetWallHeights](Functions/SetWallHeights.md) <sub>*obsolete in Vectorworks 2012*</sub> | [SetWallHoleTexturePart](Functions/SetWallHoleTexturePart.md) |
-| [SetWallInsertLoc](Functions/SetWallInsertLoc.md) | [SetWallInsertLocOff](Functions/SetWallInsertLocOff.md) | [SetWallInsLocByStyle](Functions/SetWallInsLocByStyle.md) |
-| [SetWallOverallHeights](Functions/SetWallOverallHeights.md) | [SetWallPrefStyle](Functions/SetWallPrefStyle.md) | [SetWallRecessGroup](Functions/SetWallRecessGroup.md) |
-| [SetWallStyle](Functions/SetWallStyle.md) | [SetWallThickness](Functions/SetWallThickness.md) | [SetWallWidth](Functions/SetWallWidth.md) <sub>*obsolete in VectorWorks12.0*</sub> |
-| [SetWidth](Functions/SetWidth.md) | [SetWInsLocOffByStyle](Functions/SetWInsLocOffByStyle.md) | [SetWllHoleObjIgnClsr](Functions/SetWllHoleObjIgnClsr.md) |
-| [SetWorkingPlane](Functions/SetWorkingPlane.md) | [SetWorkingPlaneN](Functions/SetWorkingPlaneN.md) | [SetWorksheetGridLinesVisibility](Functions/SetWorksheetGridLinesVisibility.md) |
-| [SetWSAutoRecalcState](Functions/SetWSAutoRecalcState.md) | [SetWSCellAlignment](Functions/SetWSCellAlignment.md) | [SetWSCellBorder](Functions/SetWSCellBorder.md) <sub>*obsolete in VectorWorks12.0*</sub> |
-| [SetWSCellBorders](Functions/SetWSCellBorders.md) | [SetWSCellBottomBN](Functions/SetWSCellBottomBN.md) | [SetWSCellBottomBorder](Functions/SetWSCellBottomBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> |
-| [SetWSCellFill](Functions/SetWSCellFill.md) | [SetWSCellFormula](Functions/SetWSCellFormula.md) | [SetWSCellFormulaN](Functions/SetWSCellFormulaN.md) |
-| [SetWSCellInsideHorizBorder](Functions/SetWSCellInsideHorizBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellInsideHzBN](Functions/SetWSCellInsideHzBN.md) | [SetWSCellInsideVertBorder](Functions/SetWSCellInsideVertBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> |
-| [SetWSCellInsideVtBN](Functions/SetWSCellInsideVtBN.md) | [SetWSCellLeftBN](Functions/SetWSCellLeftBN.md) | [SetWSCellLeftBorder](Functions/SetWSCellLeftBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> |
-| [SetWSCellNumberFormat](Functions/SetWSCellNumberFormat.md) | [SetWSCellOutlineBN](Functions/SetWSCellOutlineBN.md) | [SetWSCellOutlineBorder](Functions/SetWSCellOutlineBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> |
-| [SetWSCellRightBN](Functions/SetWSCellRightBN.md) | [SetWSCellRightBorder](Functions/SetWSCellRightBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellsImgDPIRes](Functions/SetWSCellsImgDPIRes.md) |
-| [SetWSCellTextColor](Functions/SetWSCellTextColor.md) | [SetWSCellTextFormat](Functions/SetWSCellTextFormat.md) | [SetWSCellTopBN](Functions/SetWSCellTopBN.md) |
-| [SetWSCellTopBorder](Functions/SetWSCellTopBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellVertAlignment](Functions/SetWSCellVertAlignment.md) | [SetWSCellWrapTextFlag](Functions/SetWSCellWrapTextFlag.md) |
-| [SetWSColumnOperators](Functions/SetWSColumnOperators.md) | [SetWSColumnSortType](Functions/SetWSColumnSortType.md) | [SetWSColumnWidth](Functions/SetWSColumnWidth.md) |
-| [SetWSCurrentCell](Functions/SetWSCurrentCell.md) | [SetWSImageScaleF](Functions/SetWSImageScaleF.md) | [SetWSImgAngle](Functions/SetWSImgAngle.md) |
-| [SetWSImgComponent](Functions/SetWSImgComponent.md) | [SetWSImgMarginSize](Functions/SetWSImgMarginSize.md) | [SetWSImgRenderMode](Functions/SetWSImgRenderMode.md) |
-| [SetWSImgScale](Functions/SetWSImgScale.md) | [SetWSImgShowDBHeader](Functions/SetWSImgShowDBHeader.md) | [SetWSImgSize](Functions/SetWSImgSize.md) |
-| [SetWSImgSizeType](Functions/SetWSImgSizeType.md) | [SetWSImgType](Functions/SetWSImgType.md) | [SetWSImgUseLayScale](Functions/SetWSImgUseLayScale.md) |
-| [SetWSImgUseObjectImg](Functions/SetWSImgUseObjectImg.md) | [SetWSImgView](Functions/SetWSImgView.md) | [SetWSPlacement](Functions/SetWSPlacement.md) |
-| [SetWSRowHeight](Functions/SetWSRowHeight.md) | [SetWSSelection](Functions/SetWSSelection.md) | [SetWSTextAngle](Functions/SetWSTextAngle.md) |
-| [SetZoom](Functions/SetZoom.md) | [SetZVals](Functions/SetZVals.md) | [SheetList](Functions/SheetList.md) |
-| [SheetNum](Functions/SheetNum.md) | [Shift](Functions/Shift.md) | [Show](Functions/Show.md) |
-| [ShowByClassChoice](Functions/ShowByClassChoice.md) | [ShowClass](Functions/ShowClass.md) | [ShowCreateImageDialog](Functions/ShowCreateImageDialog.md) |
-| [ShowEditTileDialog](Functions/ShowEditTileDialog.md) | [ShowEditTileSettingsDialog](Functions/ShowEditTileSettingsDialog.md) | [ShowEnhancedPullDownMenuGroupIcon](Functions/ShowEnhancedPullDownMenuGroupIcon.md) |
-| [ShowGradientEditorDialog](Functions/ShowGradientEditorDialog.md) | [ShowItem](Functions/ShowItem.md) | [ShowLayer](Functions/ShowLayer.md) |
-| [ShowLBHeader](Functions/ShowLBHeader.md) | [ShowLBItemByClassOpt](Functions/ShowLBItemByClassOpt.md) | [ShowLBItemMkrByClass](Functions/ShowLBItemMkrByClass.md) |
-| [ShowLBItemMkrEditLst](Functions/ShowLBItemMkrEditLst.md) | [ShowNewTileDialog](Functions/ShowNewTileDialog.md) | [ShowOnlySelected](Functions/ShowOnlySelected.md) |
-| [ShowPlanShadowsTab](Functions/ShowPlanShadowsTab.md) | [ShowWebDlg](Functions/ShowWebDlg.md) | [ShowWS](Functions/ShowWS.md) |
-| [ShowWSDialog](Functions/ShowWSDialog.md) | [Sin](Functions/Sin.md) | [SingleTolerance](Functions/SingleTolerance.md) |
-| [SL_Export](Functions/SL_Export.md) | [SL_Import](Functions/SL_Import.md) | [SL_UpdateSAcc](Functions/SL_UpdateSAcc.md) |
-| [SL_UpdateUID](Functions/SL_UpdateUID.md) | [SlabFromPoly](Functions/SlabFromPoly.md) | [SlabThickness](Functions/SlabThickness.md) |
-| [SM_FromShape](Functions/SM_FromShape.md) | [SM_Preferences](Functions/SM_Preferences.md) | [Smooth](Functions/Smooth.md) |
-| [SortArray](Functions/SortArray.md) | [Space](Functions/Space.md) | [Space_AddAreaModif](Functions/Space_AddAreaModif.md) |
-| [Space_AddDiscription](Functions/Space_AddDiscription.md) | [Space_AddName](Functions/Space_AddName.md) | [Space_AddRoomID](Functions/Space_AddRoomID.md) |
-| [Space_AddZone](Functions/Space_AddZone.md) | [Space_AssignZone](Functions/Space_AssignZone.md) | [Space_CountAssZones](Functions/Space_CountAssZones.md) |
-| [Space_CountAvZones](Functions/Space_CountAvZones.md) | [Space_CreateSpace](Functions/Space_CreateSpace.md) | [Space_DeassignZone](Functions/Space_DeassignZone.md) |
-| [Space_FullyReset](Functions/Space_FullyReset.md) | [Space_GetGrossArea](Functions/Space_GetGrossArea.md) | [Space_GetGrossPoly](Functions/Space_GetGrossPoly.md) |
-| [Space_GetGrossVolume](Functions/Space_GetGrossVolume.md) | [Space_GetNetArea](Functions/Space_GetNetArea.md) | [Space_GetNetPoly](Functions/Space_GetNetPoly.md) |
-| [Space_GetNetVolume](Functions/Space_GetNetVolume.md) | [Space_Gross3DBound](Functions/Space_Gross3DBound.md) | [Space_ItemAssZones](Functions/Space_ItemAssZones.md) |
-| [Space_ItemAvZones](Functions/Space_ItemAvZones.md) | [Space_Net3DBoundary](Functions/Space_Net3DBoundary.md) | [Space_RenAssignZoneX](Functions/Space_RenAssignZoneX.md) |
-| [Split2DObjectByLine](Functions/Split2DObjectByLine.md) | [SprdAlign](Functions/SprdAlign.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdBorder](Functions/SprdBorder.md) <sub>*obsolete in VectorWorks9.0*</sub> |
-| [SprdFormat](Functions/SprdFormat.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdSize](Functions/SprdSize.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdWidth](Functions/SprdWidth.md) <sub>*obsolete in VectorWorks9.0*</sub> |
-| [Sqr](Functions/Sqr.md) | [Sqrt](Functions/Sqrt.md) | [SrndArea](Functions/SrndArea.md) |
-| [StairGet2D3DCompType](Functions/StairGet2D3DCompType.md) | [StairGetConfigType](Functions/StairGetConfigType.md) | [StairGetConstType](Functions/StairGetConstType.md) |
-| [StairGetNumRisers](Functions/StairGetNumRisers.md) | [StairGetOptTotalRise](Functions/StairGetOptTotalRise.md) | [StairGetSideLengthsM](Functions/StairGetSideLengthsM.md) |
-| [StairGetTopGrUpFlMode](Functions/StairGetTopGrUpFlMode.md) | [StairGetTotalRiseM](Functions/StairGetTotalRiseM.md) | [StairGetWFlight1M](Functions/StairGetWFlight1M.md) |
-| [StairSet2D3DCompType](Functions/StairSet2D3DCompType.md) | [StairSetConfigType](Functions/StairSetConfigType.md) | [StairSetConstType](Functions/StairSetConstType.md) |
-| [StairSetNumRisers](Functions/StairSetNumRisers.md) | [StairSetOptTotalRise](Functions/StairSetOptTotalRise.md) | [StairSetSideLengthsM](Functions/StairSetSideLengthsM.md) |
-| [StairSetTopGrUpFlMode](Functions/StairSetTopGrUpFlMode.md) | [StairSetTotalRiseM](Functions/StairSetTotalRiseM.md) | [StairSetWFlight1M](Functions/StairSetWFlight1M.md) |
-| [StdRead](Functions/StdRead.md) | [StdReadLn](Functions/StdReadLn.md) | [StExWllClsrFrmStBStl](Functions/StExWllClsrFrmStBStl.md) |
-| [Stipple](Functions/Stipple.md) | [Str2Angle](Functions/Str2Angle.md) | [Str2Area](Functions/Str2Area.md) |
-| [Str2Num](Functions/Str2Num.md) | [Str2Volume](Functions/Str2Volume.md) | [StrDialog](Functions/StrDialog.md) |
-| [SubString](Functions/SubString.md) | [SubtractPolygon](Functions/SubtractPolygon.md) | [SubtractSolid](Functions/SubtractSolid.md) |
-| [SurfaceArea](Functions/SurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub> | [SurfaceAreaN](Functions/SurfaceAreaN.md) | [Symbol](Functions/Symbol.md) |
-| [SymbolToGroup](Functions/SymbolToGroup.md) | [SymDefNum](Functions/SymDefNum.md) | [SyncMatrixToBound](Functions/SyncMatrixToBound.md) |
-| [SysBeep](Functions/SysBeep.md) 
+| [SetMirrorEmpty2DComp](Functions/SetMirrorEmpty2DComp.md) | [SetModeButtonText](Functions/SetModeButtonText.md) | [SetModeButtonTextN](Functions/SetModeButtonTextN.md) |
+| [SetModeString](Functions/SetModeString.md) | [SetMrEm2DCompByStyle](Functions/SetMrEm2DCompByStyle.md) | [SetMtlFillBackColor](Functions/SetMtlFillBackColor.md) |
+| [SetMtlFillForeColor](Functions/SetMtlFillForeColor.md) | [SetMtlFillStyleByCls](Functions/SetMtlFillStyleByCls.md) | [SetMtlPenBackColor](Functions/SetMtlPenBackColor.md) <sub>*obsolete in Vectorworks 2022*</sub> |
+| [SetMtlPenForeColor](Functions/SetMtlPenForeColor.md) <sub>*obsolete in Vectorworks 2022*</sub> | [SetName](Functions/SetName.md) | [SetObjArrow](Functions/SetObjArrow.md) <sub>*obsolete in VectorWorks 2008*</sub> |
+| [SetObjBeginningMarker](Functions/SetObjBeginningMarker.md) | [SetObjectAsCornerBreak](Functions/SetObjectAsCornerBreak.md) | [SetObjectAsSpanBreak](Functions/SetObjectAsSpanBreak.md) |
+| [SetObjectStoryBound](Functions/SetObjectStoryBound.md) | [SetObjectTags](Functions/SetObjectTags.md) | [SetObjectVariableBoolean](Functions/SetObjectVariableBoolean.md) |
+| [SetObjectVariableHandle](Functions/SetObjectVariableHandle.md) | [SetObjectVariableInt](Functions/SetObjectVariableInt.md) | [SetObjectVariableLongInt](Functions/SetObjectVariableLongInt.md) |
+| [SetObjectVariablePoint](Functions/SetObjectVariablePoint.md) | [SetObjectVariableReal](Functions/SetObjectVariableReal.md) | [SetObjectVariableString](Functions/SetObjectVariableString.md) |
+| [SetObjectWallHeight](Functions/SetObjectWallHeight.md) | [SetObjectWallOffset](Functions/SetObjectWallOffset.md) | [SetObjEndMarker](Functions/SetObjEndMarker.md) |
+| [SetObjExpandTexture](Functions/SetObjExpandTexture.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetObjMaterialHandle](Functions/SetObjMaterialHandle.md) | [SetObjPropCharVS](Functions/SetObjPropCharVS.md) |
+| [SetObjPropDoubleVS](Functions/SetObjPropDoubleVS.md) | [SetObjPropTxtVS](Functions/SetObjPropTxtVS.md) | [SetObjPropVS](Functions/SetObjPropVS.md) |
+| [SetObjWallBreakMode](Functions/SetObjWallBreakMode.md) | [SetObjWallInsertMode](Functions/SetObjWallInsertMode.md) | [SetObjWallInsLocOff](Functions/SetObjWallInsLocOff.md) |
+| [SetOpacity](Functions/SetOpacity.md) | [SetOpacityByClass](Functions/SetOpacityByClass.md) | [SetOpacityByClassN](Functions/SetOpacityByClassN.md) |
+| [SetOpacityN](Functions/SetOpacityN.md) | [SetOpenGLPrefs](Functions/SetOpenGLPrefs.md) | [SetOrigin](Functions/SetOrigin.md) |
+| [SetOriginAbsolute](Functions/SetOriginAbsolute.md) | [SetPadAttrs](Functions/SetPadAttrs.md) | [SetPaletteVisibility](Functions/SetPaletteVisibility.md) |
+| [SetParameterVisibility](Functions/SetParameterVisibility.md) | [SetParamStyleType](Functions/SetParamStyleType.md) | [SetParent](Functions/SetParent.md) |
+| [SetPartDataID](Functions/SetPartDataID.md) | [SetPartInstanceName](Functions/SetPartInstanceName.md) | [SetPatternData](Functions/SetPatternData.md) |
+| [SetPenBack](Functions/SetPenBack.md) | [SetPenColorByClass](Functions/SetPenColorByClass.md) | [SetPenFore](Functions/SetPenFore.md) |
+| [SetPlanarRef](Functions/SetPlanarRef.md) | [SetPlanarRefIDToGround](Functions/SetPlanarRefIDToGround.md) | [SetPlanarTransform](Functions/SetPlanarTransform.md) |
+| [SetPluginStyle](Functions/SetPluginStyle.md) | [SetPolyClosed](Functions/SetPolyClosed.md) | [SetPolylineVertex](Functions/SetPolylineVertex.md) |
+| [SetPolyPt](Functions/SetPolyPt.md) | [SetPolyPt3D](Functions/SetPolyPt3D.md) | [SetPref](Functions/SetPref.md) |
+| [SetPrefInt](Functions/SetPrefInt.md) | [SetPrefLongInt](Functions/SetPrefLongInt.md) | [SetPrefReal](Functions/SetPrefReal.md) |
+| [SetPrefRGB](Functions/SetPrefRGB.md) | [SetPrefString](Functions/SetPrefString.md) | [SetPrimaryDim](Functions/SetPrimaryDim.md) |
+| [SetProjectElevation](Functions/SetProjectElevation.md) | [SetProportionalBinding](Functions/SetProportionalBinding.md) | [SetRecord](Functions/SetRecord.md) |
+| [SetResourceTags](Functions/SetResourceTags.md) | [SetRField](Functions/SetRField.md) | [SetRFieldOpt](Functions/SetRFieldOpt.md) |
+| [SetRightItem](Functions/SetRightItem.md) | [SetRoofAttributes](Functions/SetRoofAttributes.md) | [SetRoofEdge](Functions/SetRoofEdge.md) |
+| [SetRoofPrefStyle](Functions/SetRoofPrefStyle.md) | [SetRoofStyle](Functions/SetRoofStyle.md) | [SetRot3D](Functions/SetRot3D.md) |
+| [SetRRDiam](Functions/SetRRDiam.md) | [SetSavedSetting](Functions/SetSavedSetting.md) | [SetScale](Functions/SetScale.md) |
+| [SetScriptResource](Functions/SetScriptResource.md) | [SetSecondaryDim](Functions/SetSecondaryDim.md) | [SetSegPt1](Functions/SetSegPt1.md) |
+| [SetSegPt2](Functions/SetSegPt2.md) | [SetSelect](Functions/SetSelect.md) | [SetSelectionRange](Functions/SetSelectionRange.md) |
+| [SetShedAttributes](Functions/SetShedAttributes.md) | [SetSheetLayerUserOrigin](Functions/SetSheetLayerUserOrigin.md) | [SetSingularConstraint](Functions/SetSingularConstraint.md) |
+| [SetSkylight](Functions/SetSkylight.md) | [SetSlabHeight](Functions/SetSlabHeight.md) | [SetSlabPreferencesStyle](Functions/SetSlabPreferencesStyle.md) |
+| [SetSlabStyle](Functions/SetSlabStyle.md) | [SetSliderLiveUpdate](Functions/SetSliderLiveUpdate.md) | [SetSprdSortSum](Functions/SetSprdSortSum.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SetSprdSortSumColumns](Functions/SetSprdSortSumColumns.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetSpreadAngle](Functions/SetSpreadAngle.md) | [SetStaticTextColor](Functions/SetStaticTextColor.md) |
+| [SetStaticTextColorN](Functions/SetStaticTextColorN.md) | [SetStaticTextStyle](Functions/SetStaticTextStyle.md) | [SetStoryElevation](Functions/SetStoryElevation.md) |
+| [SetStoryElevationN](Functions/SetStoryElevationN.md) | [SetStorySuffix](Functions/SetStorySuffix.md) | [SetSymbolOptionsN](Functions/SetSymbolOptionsN.md) |
+| [SetSymBrightMult](Functions/SetSymBrightMult.md) | [SetSymDefSubType](Functions/SetSymDefSubType.md) | [SetTaperedComponent](Functions/SetTaperedComponent.md) |
+| [SetTempToolHelpStr](Functions/SetTempToolHelpStr.md) | [SetTexBFeatureEnd](Functions/SetTexBFeatureEnd.md) | [SetTexBFeatureStart](Functions/SetTexBFeatureStart.md) |
+| [SetTexBitFeatureSize](Functions/SetTexBitFeatureSize.md) | [SetTexBitmapOrigin](Functions/SetTexBitmapOrigin.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTexBitPaintNode](Functions/SetTexBitPaintNode.md) <sub>*obsolete in VectorWorks12.0*</sub> |
+| [SetTexBitRepHoriz](Functions/SetTexBitRepHoriz.md) | [SetTexBitRepVert](Functions/SetTexBitRepVert.md) | [SetTexMapBool](Functions/SetTexMapBool.md) <sub>*obsolete in Vectorworks 2010*</sub> |
+| [SetTexMapBoolN](Functions/SetTexMapBoolN.md) | [SetTexMapInt](Functions/SetTexMapInt.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTexMapIntN](Functions/SetTexMapIntN.md) |
+| [SetTexMapReal](Functions/SetTexMapReal.md) <sub>*obsolete in Vectorworks 2010*</sub> | [SetTexMapRealN](Functions/SetTexMapRealN.md) | [SetTexSpace2DOffset](Functions/SetTexSpace2DOffset.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpace2DRadius](Functions/SetTexSpace2DRadius.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpace2DRot](Functions/SetTexSpace2DRot.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpace2DScale](Functions/SetTexSpace2DScale.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpaceEndCap](Functions/SetTexSpaceEndCap.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceKind](Functions/SetTexSpaceKind.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrientU](Functions/SetTexSpaceOrientU.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpaceOrientV](Functions/SetTexSpaceOrientV.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrientW](Functions/SetTexSpaceOrientW.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceOrigin](Functions/SetTexSpaceOrigin.md) <sub>*obsolete in Vectorworks 2009*</sub> |
+| [SetTexSpacePartID](Functions/SetTexSpacePartID.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetTexSpaceStartCap](Functions/SetTexSpaceStartCap.md) <sub>*obsolete in Vectorworks 2009*</sub> | [SetText](Functions/SetText.md) |
+| [SetTextAdorner](Functions/SetTextAdorner.md) | [SetTextFont](Functions/SetTextFont.md) | [SetTextJust](Functions/SetTextJust.md) |
+| [SetTextJustN](Functions/SetTextJustN.md) | [SetTextLeading](Functions/SetTextLeading.md) | [SetTextOrientation](Functions/SetTextOrientation.md) |
+| [SetTextSize](Functions/SetTextSize.md) | [SetTextSpace](Functions/SetTextSpace.md) | [SetTextStyle](Functions/SetTextStyle.md) |
+| [SetTextStyleByClass](Functions/SetTextStyleByClass.md) | [SetTextStyleByClassN](Functions/SetTextStyleByClassN.md) | [SetTextStyleRef](Functions/SetTextStyleRef.md) |
+| [SetTextStyleRefN](Functions/SetTextStyleRefN.md) | [SetTextureBitmap](Functions/SetTextureBitmap.md) | [SetTextureRef](Functions/SetTextureRef.md) <sub>*obsolete in Vectorworks 2010*</sub> |
+| [SetTextureRefN](Functions/SetTextureRefN.md) | [SetTextureSet](Functions/SetTextureSet.md) | [SetTextureShader](Functions/SetTextureShader.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SetTextureShininess](Functions/SetTextureShininess.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SetTextureSize](Functions/SetTextureSize.md) | [SetTextureTransp](Functions/SetTextureTransp.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SetTextVertAlignN](Functions/SetTextVertAlignN.md) | [SetTextVerticalAlign](Functions/SetTextVerticalAlign.md) | [SetTextWidth](Functions/SetTextWidth.md) |
+| [SetTextWrap](Functions/SetTextWrap.md) | [SetThreeStateCheckBoxState](Functions/SetThreeStateCheckBoxState.md) | [SetTileBackgroundColor](Functions/SetTileBackgroundColor.md) |
+| [SetTileOffsetPoint](Functions/SetTileOffsetPoint.md) | [SetTileRepetitionPoint](Functions/SetTileRepetitionPoint.md) | [SetTool](Functions/SetTool.md) |
+| [SetToolByIndex](Functions/SetToolByIndex.md) | [SetToolByName](Functions/SetToolByName.md) | [SetToolHelpMessage](Functions/SetToolHelpMessage.md) |
+| [SetToolWithMode](Functions/SetToolWithMode.md) | [SetTopPlan2DComp](Functions/SetTopPlan2DComp.md) | [SetTopVisibleWS](Functions/SetTopVisibleWS.md) |
+| [SetTpPl2DCompByStyle](Functions/SetTpPl2DCompByStyle.md) | [SetTrapeziumAttributes](Functions/SetTrapeziumAttributes.md) | [SetTreeControlItemData](Functions/SetTreeControlItemData.md) |
+| [SetUnits](Functions/SetUnits.md) | [SetUseWallClosure](Functions/SetUseWallClosure.md) | [SetUseWllClsrByStyle](Functions/SetUseWllClsrByStyle.md) |
+| [SetVCenter](Functions/SetVCenter.md) | [SetVectorFill](Functions/SetVectorFill.md) | [SetVectorFillDefault](Functions/SetVectorFillDefault.md) |
+| [SetVertexVisibility](Functions/SetVertexVisibility.md) | [SetVertSecCPByStyle](Functions/SetVertSecCPByStyle.md) | [SetVertSecCutPlane](Functions/SetVertSecCutPlane.md) |
+| [SetView](Functions/SetView.md) | [SetViewMatrix](Functions/SetViewMatrix.md) | [SetViewVector](Functions/SetViewVector.md) |
+| [SetVisionMapping](Functions/SetVisionMapping.md) | [SetVPClassVisibility](Functions/SetVPClassVisibility.md) | [SetVPClOvrdFillBack](Functions/SetVPClOvrdFillBack.md) |
+| [SetVPClOvrdFillFore](Functions/SetVPClOvrdFillFore.md) | [SetVPClOvrdFillOpty](Functions/SetVPClOvrdFillOpty.md) | [SetVPClOvrdFillStyle](Functions/SetVPClOvrdFillStyle.md) |
+| [SetVPClOvrdLineStyle](Functions/SetVPClOvrdLineStyle.md) | [SetVPClOvrdLnWeight](Functions/SetVPClOvrdLnWeight.md) | [SetVPClOvrdObjTxt](Functions/SetVPClOvrdObjTxt.md) |
+| [SetVPClOvrdPenBack](Functions/SetVPClOvrdPenBack.md) | [SetVPClOvrdPenFore](Functions/SetVPClOvrdPenFore.md) | [SetVPClOvrdPenOpty](Functions/SetVPClOvrdPenOpty.md) |
+| [SetVPClOvrdRoofTxt](Functions/SetVPClOvrdRoofTxt.md) | [SetVPClOvrdWallTxt](Functions/SetVPClOvrdWallTxt.md) | [SetVPCropObject](Functions/SetVPCropObject.md) |
+| [SetVPLayerVisibility](Functions/SetVPLayerVisibility.md) | [SetVPLrOvrdFillBack](Functions/SetVPLrOvrdFillBack.md) | [SetVPLrOvrdFillFore](Functions/SetVPLrOvrdFillFore.md) |
+| [SetVPLrOvrdOpty](Functions/SetVPLrOvrdOpty.md) | [SetVPLrOvrdPenBack](Functions/SetVPLrOvrdPenBack.md) | [SetVPLrOvrdPenFore](Functions/SetVPLrOvrdPenFore.md) |
+| [SetVSResourceFile](Functions/SetVSResourceFile.md) | [SetWallBelCutPlClass](Functions/SetWallBelCutPlClass.md) | [SetWallCapAttributesType](Functions/SetWallCapAttributesType.md) |
+| [SetWallCaps](Functions/SetWallCaps.md) | [SetWallCapsOffsets](Functions/SetWallCapsOffsets.md) | [SetWallClosureGroup](Functions/SetWallClosureGroup.md) |
+| [SetWallControlOffset](Functions/SetWallControlOffset.md) <sub>*obsolete in VectorWorks12.5*</sub> | [SetWallCornerHeights](Functions/SetWallCornerHeights.md) | [SetWallHeights](Functions/SetWallHeights.md) <sub>*obsolete in Vectorworks 2012*</sub> |
+| [SetWallHoleTexturePart](Functions/SetWallHoleTexturePart.md) | [SetWallInsertLoc](Functions/SetWallInsertLoc.md) | [SetWallInsertLocOff](Functions/SetWallInsertLocOff.md) |
+| [SetWallInsLocByStyle](Functions/SetWallInsLocByStyle.md) | [SetWallOverallHeights](Functions/SetWallOverallHeights.md) | [SetWallPrefStyle](Functions/SetWallPrefStyle.md) |
+| [SetWallRecessGroup](Functions/SetWallRecessGroup.md) | [SetWallStyle](Functions/SetWallStyle.md) | [SetWallThickness](Functions/SetWallThickness.md) |
+| [SetWallWidth](Functions/SetWallWidth.md) <sub>*obsolete in VectorWorks12.0*</sub> | [SetWidth](Functions/SetWidth.md) | [SetWInsLocOffByStyle](Functions/SetWInsLocOffByStyle.md) |
+| [SetWllHoleObjIgnClsr](Functions/SetWllHoleObjIgnClsr.md) | [SetWorkingPlane](Functions/SetWorkingPlane.md) | [SetWorkingPlaneN](Functions/SetWorkingPlaneN.md) |
+| [SetWorksheetGridLinesVisibility](Functions/SetWorksheetGridLinesVisibility.md) | [SetWSAutoRecalcState](Functions/SetWSAutoRecalcState.md) | [SetWSCellAlignment](Functions/SetWSCellAlignment.md) |
+| [SetWSCellBorder](Functions/SetWSCellBorder.md) <sub>*obsolete in VectorWorks12.0*</sub> | [SetWSCellBorders](Functions/SetWSCellBorders.md) | [SetWSCellBottomBN](Functions/SetWSCellBottomBN.md) |
+| [SetWSCellBottomBorder](Functions/SetWSCellBottomBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellFill](Functions/SetWSCellFill.md) | [SetWSCellFormula](Functions/SetWSCellFormula.md) |
+| [SetWSCellFormulaN](Functions/SetWSCellFormulaN.md) | [SetWSCellInsideHorizBorder](Functions/SetWSCellInsideHorizBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellInsideHzBN](Functions/SetWSCellInsideHzBN.md) |
+| [SetWSCellInsideVertBorder](Functions/SetWSCellInsideVertBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellInsideVtBN](Functions/SetWSCellInsideVtBN.md) | [SetWSCellLeftBN](Functions/SetWSCellLeftBN.md) |
+| [SetWSCellLeftBorder](Functions/SetWSCellLeftBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellNumberFormat](Functions/SetWSCellNumberFormat.md) | [SetWSCellOutlineBN](Functions/SetWSCellOutlineBN.md) |
+| [SetWSCellOutlineBorder](Functions/SetWSCellOutlineBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellRightBN](Functions/SetWSCellRightBN.md) | [SetWSCellRightBorder](Functions/SetWSCellRightBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> |
+| [SetWSCellsImgDPIRes](Functions/SetWSCellsImgDPIRes.md) | [SetWSCellTextColor](Functions/SetWSCellTextColor.md) | [SetWSCellTextFormat](Functions/SetWSCellTextFormat.md) |
+| [SetWSCellTopBN](Functions/SetWSCellTopBN.md) | [SetWSCellTopBorder](Functions/SetWSCellTopBorder.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetWSCellVertAlignment](Functions/SetWSCellVertAlignment.md) |
+| [SetWSCellWrapTextFlag](Functions/SetWSCellWrapTextFlag.md) | [SetWSColumnOperators](Functions/SetWSColumnOperators.md) | [SetWSColumnSortType](Functions/SetWSColumnSortType.md) |
+| [SetWSColumnWidth](Functions/SetWSColumnWidth.md) | [SetWSCurrentCell](Functions/SetWSCurrentCell.md) | [SetWSImageScaleF](Functions/SetWSImageScaleF.md) |
+| [SetWSImgAngle](Functions/SetWSImgAngle.md) | [SetWSImgComponent](Functions/SetWSImgComponent.md) | [SetWSImgMarginSize](Functions/SetWSImgMarginSize.md) |
+| [SetWSImgRenderMode](Functions/SetWSImgRenderMode.md) | [SetWSImgScale](Functions/SetWSImgScale.md) | [SetWSImgShowDBHeader](Functions/SetWSImgShowDBHeader.md) |
+| [SetWSImgSize](Functions/SetWSImgSize.md) | [SetWSImgSizeType](Functions/SetWSImgSizeType.md) | [SetWSImgType](Functions/SetWSImgType.md) |
+| [SetWSImgUseLayScale](Functions/SetWSImgUseLayScale.md) | [SetWSImgUseObjectImg](Functions/SetWSImgUseObjectImg.md) | [SetWSImgView](Functions/SetWSImgView.md) |
+| [SetWSPlacement](Functions/SetWSPlacement.md) | [SetWSRowHeight](Functions/SetWSRowHeight.md) | [SetWSSelection](Functions/SetWSSelection.md) |
+| [SetWSTextAngle](Functions/SetWSTextAngle.md) | [SetZoom](Functions/SetZoom.md) | [SetZVals](Functions/SetZVals.md) |
+| [SheetList](Functions/SheetList.md) | [SheetNum](Functions/SheetNum.md) | [Shift](Functions/Shift.md) |
+| [Show](Functions/Show.md) | [ShowByClassChoice](Functions/ShowByClassChoice.md) | [ShowClass](Functions/ShowClass.md) |
+| [ShowCreateImageDialog](Functions/ShowCreateImageDialog.md) | [ShowEditTileDialog](Functions/ShowEditTileDialog.md) | [ShowEditTileSettingsDialog](Functions/ShowEditTileSettingsDialog.md) |
+| [ShowEnhancedPullDownMenuGroupIcon](Functions/ShowEnhancedPullDownMenuGroupIcon.md) | [ShowGradientEditorDialog](Functions/ShowGradientEditorDialog.md) | [ShowItem](Functions/ShowItem.md) |
+| [ShowLayer](Functions/ShowLayer.md) | [ShowLBHeader](Functions/ShowLBHeader.md) | [ShowLBItemByClassOpt](Functions/ShowLBItemByClassOpt.md) |
+| [ShowLBItemMkrByClass](Functions/ShowLBItemMkrByClass.md) | [ShowLBItemMkrEditLst](Functions/ShowLBItemMkrEditLst.md) | [ShowNewTileDialog](Functions/ShowNewTileDialog.md) |
+| [ShowOnlySelected](Functions/ShowOnlySelected.md) | [ShowPlanShadowsTab](Functions/ShowPlanShadowsTab.md) | [ShowWebDlg](Functions/ShowWebDlg.md) |
+| [ShowWS](Functions/ShowWS.md) | [ShowWSDialog](Functions/ShowWSDialog.md) | [Sin](Functions/Sin.md) |
+| [SingleTolerance](Functions/SingleTolerance.md) | [SL_Export](Functions/SL_Export.md) | [SL_Import](Functions/SL_Import.md) |
+| [SL_UpdateSAcc](Functions/SL_UpdateSAcc.md) | [SL_UpdateUID](Functions/SL_UpdateUID.md) | [SlabFromPoly](Functions/SlabFromPoly.md) |
+| [SlabThickness](Functions/SlabThickness.md) | [SM_FromShape](Functions/SM_FromShape.md) | [SM_Preferences](Functions/SM_Preferences.md) |
+| [Smooth](Functions/Smooth.md) | [SortArray](Functions/SortArray.md) | [Space](Functions/Space.md) |
+| [Space_AddAreaModif](Functions/Space_AddAreaModif.md) | [Space_AddDiscription](Functions/Space_AddDiscription.md) | [Space_AddName](Functions/Space_AddName.md) |
+| [Space_AddRoomID](Functions/Space_AddRoomID.md) | [Space_AddZone](Functions/Space_AddZone.md) | [Space_AssignZone](Functions/Space_AssignZone.md) |
+| [Space_CountAssZones](Functions/Space_CountAssZones.md) | [Space_CountAvZones](Functions/Space_CountAvZones.md) | [Space_CreateSpace](Functions/Space_CreateSpace.md) |
+| [Space_DeassignZone](Functions/Space_DeassignZone.md) | [Space_FullyReset](Functions/Space_FullyReset.md) | [Space_GetGrossArea](Functions/Space_GetGrossArea.md) |
+| [Space_GetGrossPoly](Functions/Space_GetGrossPoly.md) | [Space_GetGrossVolume](Functions/Space_GetGrossVolume.md) | [Space_GetNetArea](Functions/Space_GetNetArea.md) |
+| [Space_GetNetPoly](Functions/Space_GetNetPoly.md) | [Space_GetNetVolume](Functions/Space_GetNetVolume.md) | [Space_Gross3DBound](Functions/Space_Gross3DBound.md) |
+| [Space_ItemAssZones](Functions/Space_ItemAssZones.md) | [Space_ItemAvZones](Functions/Space_ItemAvZones.md) | [Space_Net3DBoundary](Functions/Space_Net3DBoundary.md) |
+| [Space_RenAssignZoneX](Functions/Space_RenAssignZoneX.md) | [Split2DObjectByLine](Functions/Split2DObjectByLine.md) | [SprdAlign](Functions/SprdAlign.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SprdBorder](Functions/SprdBorder.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdFormat](Functions/SprdFormat.md) <sub>*obsolete in VectorWorks9.0*</sub> | [SprdSize](Functions/SprdSize.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [SprdWidth](Functions/SprdWidth.md) <sub>*obsolete in VectorWorks9.0*</sub> | [Sqr](Functions/Sqr.md) | [Sqrt](Functions/Sqrt.md) |
+| [SrndArea](Functions/SrndArea.md) | [StairGet2D3DCompType](Functions/StairGet2D3DCompType.md) | [StairGetConfigType](Functions/StairGetConfigType.md) |
+| [StairGetConstType](Functions/StairGetConstType.md) | [StairGetNumRisers](Functions/StairGetNumRisers.md) | [StairGetOptTotalRise](Functions/StairGetOptTotalRise.md) |
+| [StairGetSideLengthsM](Functions/StairGetSideLengthsM.md) | [StairGetTopGrUpFlMode](Functions/StairGetTopGrUpFlMode.md) | [StairGetTotalRiseM](Functions/StairGetTotalRiseM.md) |
+| [StairGetWFlight1M](Functions/StairGetWFlight1M.md) | [StairSet2D3DCompType](Functions/StairSet2D3DCompType.md) | [StairSetConfigType](Functions/StairSetConfigType.md) |
+| [StairSetConstType](Functions/StairSetConstType.md) | [StairSetNumRisers](Functions/StairSetNumRisers.md) | [StairSetOptTotalRise](Functions/StairSetOptTotalRise.md) |
+| [StairSetSideLengthsM](Functions/StairSetSideLengthsM.md) | [StairSetTopGrUpFlMode](Functions/StairSetTopGrUpFlMode.md) | [StairSetTotalRiseM](Functions/StairSetTotalRiseM.md) |
+| [StairSetWFlight1M](Functions/StairSetWFlight1M.md) | [StdRead](Functions/StdRead.md) | [StdReadLn](Functions/StdReadLn.md) |
+| [StExWllClsrFrmStBStl](Functions/StExWllClsrFrmStBStl.md) | [Stipple](Functions/Stipple.md) | [Str2Angle](Functions/Str2Angle.md) |
+| [Str2Area](Functions/Str2Area.md) | [Str2Num](Functions/Str2Num.md) | [Str2Volume](Functions/Str2Volume.md) |
+| [StrDialog](Functions/StrDialog.md) | [SubString](Functions/SubString.md) | [SubtractPolygon](Functions/SubtractPolygon.md) |
+| [SubtractSolid](Functions/SubtractSolid.md) | [SurfaceArea](Functions/SurfaceArea.md) <sub>*obsolete in VectorWorks12.5*</sub> | [SurfaceAreaN](Functions/SurfaceAreaN.md) |
+| [Symbol](Functions/Symbol.md) | [SymbolToGroup](Functions/SymbolToGroup.md) | [SymDefNum](Functions/SymDefNum.md) |
+| [SyncMatrixToBound](Functions/SyncMatrixToBound.md) | [SysBeep](Functions/SysBeep.md) 
 
 ## T
 | | | |
 |---|---|---|
-| [Tab](Functions/Tab.md) | [TagSubObjectAsPart](Functions/TagSubObjectAsPart.md) |
-| [Tan](Functions/Tan.md) | [TargetSprdSheet](Functions/TargetSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub> | [TBB_AttachRecords](Functions/TBB_AttachRecords.md) |
-| [TBB_GetPageArea](Functions/TBB_GetPageArea.md) | [TBB_OpenTBBSelDlg](Functions/TBB_OpenTBBSelDlg.md) | [TBB_UpdateOldBorders](Functions/TBB_UpdateOldBorders.md) |
-| [TBB_UpdateOldVAATB](Functions/TBB_UpdateOldVAATB.md) | [TextFace](Functions/TextFace.md) | [TextFlip](Functions/TextFlip.md) |
-| [TextFont](Functions/TextFont.md) | [TextJust](Functions/TextJust.md) | [TextLeading](Functions/TextLeading.md) |
-| [TextOrigin](Functions/TextOrigin.md) | [TextRotate](Functions/TextRotate.md) | [TextSize](Functions/TextSize.md) |
-| [TextSpace](Functions/TextSpace.md) | [TextVerticalAlign](Functions/TextVerticalAlign.md) | [ThreePtCenter](Functions/ThreePtCenter.md) |
-| [TopBound](Functions/TopBound.md) <sub>*obsolete in Vectorworks 2012*</sub> | [TopBoundN](Functions/TopBoundN.md) | [TrackObject](Functions/TrackObject.md) |
-| [TrackObjectN](Functions/TrackObjectN.md) | [TrimNurbsSurface](Functions/TrimNurbsSurface.md) | [TrueTypeToPoly](Functions/TrueTypeToPoly.md) |
-| [Trunc](Functions/Trunc.md) 
+| [Tab](Functions/Tab.md) |
+| [TagSubObjectAsPart](Functions/TagSubObjectAsPart.md) | [Tan](Functions/Tan.md) | [TargetSprdSheet](Functions/TargetSprdSheet.md) <sub>*obsolete in VectorWorks9.0*</sub> |
+| [TBB_AttachRecords](Functions/TBB_AttachRecords.md) | [TBB_GetPageArea](Functions/TBB_GetPageArea.md) | [TBB_OpenTBBSelDlg](Functions/TBB_OpenTBBSelDlg.md) |
+| [TBB_UpdateOldBorders](Functions/TBB_UpdateOldBorders.md) | [TBB_UpdateOldVAATB](Functions/TBB_UpdateOldVAATB.md) | [TextFace](Functions/TextFace.md) |
+| [TextFlip](Functions/TextFlip.md) | [TextFont](Functions/TextFont.md) | [TextJust](Functions/TextJust.md) |
+| [TextLeading](Functions/TextLeading.md) | [TextOrigin](Functions/TextOrigin.md) | [TextRotate](Functions/TextRotate.md) |
+| [TextSize](Functions/TextSize.md) | [TextSpace](Functions/TextSpace.md) | [TextVerticalAlign](Functions/TextVerticalAlign.md) |
+| [ThreePtCenter](Functions/ThreePtCenter.md) | [TopBound](Functions/TopBound.md) <sub>*obsolete in Vectorworks 2012*</sub> | [TopBoundN](Functions/TopBoundN.md) |
+| [TrackObject](Functions/TrackObject.md) | [TrackObjectN](Functions/TrackObjectN.md) | [TrimNurbsSurface](Functions/TrimNurbsSurface.md) |
+| [TrueTypeToPoly](Functions/TrueTypeToPoly.md) | [Trunc](Functions/Trunc.md) 
 
 ## U
 | | | |
 |---|---|---|
-| [UndoOff](Functions/UndoOff.md) | [Ungroup](Functions/Ungroup.md) |
-| [UnHideObjects](Functions/UnHideObjects.md) | [UniChr](Functions/UniChr.md) | [UnionRect](Functions/UnionRect.md) |
-| [Units](Functions/Units.md) | [UnitVec](Functions/UnitVec.md) | [UnLckObjs](Functions/UnLckObjs.md) |
-| [UpdateFeatureLayer](Functions/UpdateFeatureLayer.md) | [UpdateImageControl2](Functions/UpdateImageControl2.md) | [UpdateImageControl3](Functions/UpdateImageControl3.md) |
-| [UpdateImagePushButton](Functions/UpdateImagePushButton.md) | [UpdateLayerFromFS](Functions/UpdateLayerFromFS.md) | [UpdatePIOFromStyle](Functions/UpdatePIOFromStyle.md) |
-| [UpdatePositionParam](Functions/UpdatePositionParam.md) | [UpdateStyledObjects](Functions/UpdateStyledObjects.md) | [UpdateSubMtrlInMtrl](Functions/UpdateSubMtrlInMtrl.md) |
-| [UpdateSymbolDisplayControl](Functions/UpdateSymbolDisplayControl.md) | [UpdateSymDispCtrlN](Functions/UpdateSymDispCtrlN.md) | [UpdateThumbnailPreview](Functions/UpdateThumbnailPreview.md) |
-| [UpdateVP](Functions/UpdateVP.md) | [UprString](Functions/UprString.md) | [UseDefaultFileErrorHandling](Functions/UseDefaultFileErrorHandling.md) |
+| [UndoOff](Functions/UndoOff.md) |
+| [Ungroup](Functions/Ungroup.md) | [UnHideObjects](Functions/UnHideObjects.md) | [UniChr](Functions/UniChr.md) |
+| [UnionRect](Functions/UnionRect.md) | [Units](Functions/Units.md) | [UnitVec](Functions/UnitVec.md) |
+| [UnLckObjs](Functions/UnLckObjs.md) | [UpdateFeatureLayer](Functions/UpdateFeatureLayer.md) | [UpdateImageControl2](Functions/UpdateImageControl2.md) |
+| [UpdateImageControl3](Functions/UpdateImageControl3.md) | [UpdateImagePushButton](Functions/UpdateImagePushButton.md) | [UpdateLayerFromFS](Functions/UpdateLayerFromFS.md) |
+| [UpdatePIOFromStyle](Functions/UpdatePIOFromStyle.md) | [UpdatePositionParam](Functions/UpdatePositionParam.md) | [UpdateStyledObjects](Functions/UpdateStyledObjects.md) |
+| [UpdateSubMtrlInMtrl](Functions/UpdateSubMtrlInMtrl.md) | [UpdateSymbolDisplayControl](Functions/UpdateSymbolDisplayControl.md) | [UpdateSymDispCtrlN](Functions/UpdateSymDispCtrlN.md) |
+| [UpdateThumbnailPreview](Functions/UpdateThumbnailPreview.md) | [UpdateVP](Functions/UpdateVP.md) | [UprString](Functions/UprString.md) |
+| [UseDefaultFileErrorHandling](Functions/UseDefaultFileErrorHandling.md) 
 
 ## V
 | | | |
 |---|---|---|
-| [ValidAngStr](Functions/ValidAngStr.md) | [ValidNumStr](Functions/ValidNumStr.md) | [VDelete](Functions/VDelete.md) |
-| [Vec2Ang](Functions/Vec2Ang.md) | [VectorFillList](Functions/VectorFillList.md) | [VerifyLayout](Functions/VerifyLayout.md) |
-| [VerifyLibraryRoutine](Functions/VerifyLibraryRoutine.md) | [Volume](Functions/Volume.md) <sub>*obsolete in VectorWorks12.5*</sub> | [Volume2Str](Functions/Volume2Str.md) |
-| [VolumeN](Functions/VolumeN.md) | [VPHasCropObject](Functions/VPHasCropObject.md) | [VRestore](Functions/VRestore.md) |
-| [VSave](Functions/VSave.md) | [vsoAddParamWidget](Functions/vsoAddParamWidget.md) | [vsoAddWidget](Functions/vsoAddWidget.md) |
-| [vsoADPAddDimDef](Functions/vsoADPAddDimDef.md) | [vsoADPAddDimPlace](Functions/vsoADPAddDimPlace.md) | [vsoADPBeginDimType](Functions/vsoADPBeginDimType.md) |
-| [vsoADPGetDimDefParms](Functions/vsoADPGetDimDefParms.md) | [vsoADPGetUniTypeName](Functions/vsoADPGetUniTypeName.md) | [vsoADPGetViewType](Functions/vsoADPGetViewType.md) |
-| [vsoADPSetCatName](Functions/vsoADPSetCatName.md) | [vsoADPSetLocTypeName](Functions/vsoADPSetLocTypeName.md) | [vsoAppendParamWidget](Functions/vsoAppendParamWidget.md) |
-| [vsoAppendWidget](Functions/vsoAppendWidget.md) | [vsoButtonGetResource](Functions/vsoButtonGetResource.md) | [vsoCanEditParam](Functions/vsoCanEditParam.md) |
-| [vsoContextM_Add](Functions/vsoContextM_Add.md) | [vsoContextM_AddN](Functions/vsoContextM_AddN.md) | [vsoContextM_AddSep](Functions/vsoContextM_AddSep.md) |
-| [vsoContextM_Check](Functions/vsoContextM_Check.md) | [vsoContextM_Enable](Functions/vsoContextM_Enable.md) | [vsoContextM_GetItem](Functions/vsoContextM_GetItem.md) |
-| [vsoDisableAttrs](Functions/vsoDisableAttrs.md) | [vsoEIDataGetContext](Functions/vsoEIDataGetContext.md) | [vsoEquipItemDataGet](Functions/vsoEquipItemDataGet.md) |
-| [vsoEquipItemDataSet](Functions/vsoEquipItemDataSet.md) | [vsoGetCatalogPath](Functions/vsoGetCatalogPath.md) | [vsoGetCWInfo](Functions/vsoGetCWInfo.md) |
-| [vsoGetEventInfo](Functions/vsoGetEventInfo.md) | [vsoGetHandingInfo](Functions/vsoGetHandingInfo.md) | [vsoGetIntSizeInfo](Functions/vsoGetIntSizeInfo.md) |
-| [vsoGetPluginStyleSym](Functions/vsoGetPluginStyleSym.md) | [vsoGetQTOFunction](Functions/vsoGetQTOFunction.md) | [vsoGetUseLyrCutPlane](Functions/vsoGetUseLyrCutPlane.md) |
-| [vsoInsertAllParams](Functions/vsoInsertAllParams.md) | [vsoInsertParamWidget](Functions/vsoInsertParamWidget.md) | [vsoInsertWidget](Functions/vsoInsertWidget.md) |
-| [vsoParamName2Index](Functions/vsoParamName2Index.md) | [vsoPFCGetContext](Functions/vsoPFCGetContext.md) | [vsoPFCSetChanged](Functions/vsoPFCSetChanged.md) |
-| [vsoPreModifyID](Functions/vsoPreModifyID.md) | [vsoPrmName2WidgetID](Functions/vsoPrmName2WidgetID.md) | [vsoSetClosureGap](Functions/vsoSetClosureGap.md) |
-| [vsoSetEventResult](Functions/vsoSetEventResult.md) | [vsoSetGlazingArea](Functions/vsoSetGlazingArea.md) | [vsoSetHandingInfo](Functions/vsoSetHandingInfo.md) |
-| [vsoSetInCurtainWall](Functions/vsoSetInCurtainWall.md) | [vsoSetIntSizeInfo](Functions/vsoSetIntSizeInfo.md) | [vsoSetObjToolName](Functions/vsoSetObjToolName.md) |
-| [vsoSetQTOValue](Functions/vsoSetQTOValue.md) | [vsoSetSubtractPanels](Functions/vsoSetSubtractPanels.md) | [vsoStateAddCurrent](Functions/vsoStateAddCurrent.md) |
-| [vsoStateClear](Functions/vsoStateClear.md) | [vsoStateGet](Functions/vsoStateGet.md) | [vsoStateGetExitGroup](Functions/vsoStateGetExitGroup.md) |
-| [vsoStateGetLayrChng](Functions/vsoStateGetLayrChng.md) | [vsoStateGetNameChng](Functions/vsoStateGetNameChng.md) | [vsoStateGetObjChng](Functions/vsoStateGetObjChng.md) |
-| [vsoStateGetParamChng](Functions/vsoStateGetParamChng.md) | [vsoStateGetPos](Functions/vsoStateGetPos.md) | [vsoStateGetRot](Functions/vsoStateGetRot.md) |
-| [vsoStateGetRotN](Functions/vsoStateGetRotN.md) | [vsoStateMaterialChng](Functions/vsoStateMaterialChng.md) | [vsoStyleWidgetChoice](Functions/vsoStyleWidgetChoice.md) |
-| [vsoWidgetGetEnable](Functions/vsoWidgetGetEnable.md) | [vsoWidgetGetRecParam](Functions/vsoWidgetGetRecParam.md) | [vsoWidgetGetText](Functions/vsoWidgetGetText.md) |
-| [vsoWidgetGetVisible](Functions/vsoWidgetGetVisible.md) | [vsoWidgetPopupAdd](Functions/vsoWidgetPopupAdd.md) | [vsoWidgetPopupAddN](Functions/vsoWidgetPopupAddN.md) |
-| [vsoWidgetPopupClear](Functions/vsoWidgetPopupClear.md) | [vsoWidgetPopupClearN](Functions/vsoWidgetPopupClearN.md) | [vsoWidgetPopupEnergy](Functions/vsoWidgetPopupEnergy.md) |
-| [vsoWidgetPopupGet](Functions/vsoWidgetPopupGet.md) | [vsoWidgetPopupGetCnt](Functions/vsoWidgetPopupGetCnt.md) | [vsoWidgetPopupGetID](Functions/vsoWidgetPopupGetID.md) |
-| [vsoWidgetPopupGetTxt](Functions/vsoWidgetPopupGetTxt.md) | [vsoWidgetPopupSet](Functions/vsoWidgetPopupSet.md) | [vsoWidgetSetBound](Functions/vsoWidgetSetBound.md) |
-| [vsoWidgetSetEnable](Functions/vsoWidgetSetEnable.md) | [vsoWidgetSetIndLvl](Functions/vsoWidgetSetIndLvl.md) | [vsoWidgetSetText](Functions/vsoWidgetSetText.md) |
-| [vsoWidgetSetType](Functions/vsoWidgetSetType.md) | [vsoWidgetSetVisible](Functions/vsoWidgetSetVisible.md) | [vsoWSGetParamForEdit](Functions/vsoWSGetParamForEdit.md) |
-| [vstAddButtonMode](Functions/vstAddButtonMode.md) | [vstAddPDMenuItem](Functions/vstAddPDMenuItem.md) | [vstAddPDMenuMode](Functions/vstAddPDMenuMode.md) |
-| [vstAddRadioMode](Functions/vstAddRadioMode.md) | [vstAddResPDMenuMode](Functions/vstAddResPDMenuMode.md) | [vstCustomProcNNA](Functions/vstCustomProcNNA.md) |
-| [vstDefault2DToolDraw](Functions/vstDefault2DToolDraw.md) | [vstDefault3DToolDraw](Functions/vstDefault3DToolDraw.md) | [vstDrawCoordArcN](Functions/vstDrawCoordArcN.md) |
-| [vstDrawCoordEllipse](Functions/vstDrawCoordEllipse.md) | [vstDrawCoordLine](Functions/vstDrawCoordLine.md) | [vstDrawCoordLine3D](Functions/vstDrawCoordLine3D.md) |
-| [vstDrawCoordLineN](Functions/vstDrawCoordLineN.md) | [vstDrawCoordLineN3D](Functions/vstDrawCoordLineN3D.md) | [vstDrawCoordRect](Functions/vstDrawCoordRect.md) |
-| [vstEnableMode](Functions/vstEnableMode.md) | [vstGetCurrPt2D](Functions/vstGetCurrPt2D.md) | [vstGetCurrPt3D](Functions/vstGetCurrPt3D.md) |
-| [vstGetDataLong](Functions/vstGetDataLong.md) | [vstGetDataReal](Functions/vstGetDataReal.md) | [vstGetDataString](Functions/vstGetDataString.md) |
-| [vstGetEventInfo](Functions/vstGetEventInfo.md) | [vstGetEventResult](Functions/vstGetEventResult.md) | [vstGetInitObject](Functions/vstGetInitObject.md) |
-| [vstGetModeHelpBase](Functions/vstGetModeHelpBase.md) | [vstGetModeValue](Functions/vstGetModeValue.md) | [vstGetPickObject](Functions/vstGetPickObject.md) |
-| [vstGetPt2D](Functions/vstGetPt2D.md) | [vstGetPt3D](Functions/vstGetPt3D.md) | [vstGetString](Functions/vstGetString.md) |
-| [vstGetToolObject](Functions/vstGetToolObject.md) | [vstNameUndoEvent](Functions/vstNameUndoEvent.md) | [vstNumPts](Functions/vstNumPts.md) |
-| [vstResPDMenuInit](Functions/vstResPDMenuInit.md) | [vstRestoreWPHybridTool](Functions/vstRestoreWPHybridTool.md) | [vstSetCursorByView](Functions/vstSetCursorByView.md) |
-| [vstSetCustomProc](Functions/vstSetCustomProc.md) | [vstSetDataLong](Functions/vstSetDataLong.md) | [vstSetDataReal](Functions/vstSetDataReal.md) |
-| [vstSetDataString](Functions/vstSetDataString.md) | [vstSetEventInfo](Functions/vstSetEventInfo.md) | [vstSetEventResult](Functions/vstSetEventResult.md) |
-| [vstSetHelpString](Functions/vstSetHelpString.md) | [vstSetModeHelpBase](Functions/vstSetModeHelpBase.md) | [vstSetPDMenuSel](Functions/vstSetPDMenuSel.md) |
-| [vstSetPtBehavior](Functions/vstSetPtBehavior.md) | [vstSetWPHybridTool](Functions/vstSetWPHybridTool.md) | [VWCoordToGeog](Functions/VWCoordToGeog.md) |
-| [VWCoordToGeogN](Functions/VWCoordToGeogN.md) 
+| [ValidAngStr](Functions/ValidAngStr.md) | [ValidNumStr](Functions/ValidNumStr.md) |
+| [VDelete](Functions/VDelete.md) | [Vec2Ang](Functions/Vec2Ang.md) | [VectorFillList](Functions/VectorFillList.md) |
+| [VerifyLayout](Functions/VerifyLayout.md) | [VerifyLibraryRoutine](Functions/VerifyLibraryRoutine.md) | [Volume](Functions/Volume.md) <sub>*obsolete in VectorWorks12.5*</sub> |
+| [Volume2Str](Functions/Volume2Str.md) | [VolumeN](Functions/VolumeN.md) | [VPHasCropObject](Functions/VPHasCropObject.md) |
+| [VRestore](Functions/VRestore.md) | [VSave](Functions/VSave.md) | [vsoAddParamWidget](Functions/vsoAddParamWidget.md) |
+| [vsoAddWidget](Functions/vsoAddWidget.md) | [vsoADPAddDimDef](Functions/vsoADPAddDimDef.md) | [vsoADPAddDimPlace](Functions/vsoADPAddDimPlace.md) |
+| [vsoADPBeginDimType](Functions/vsoADPBeginDimType.md) | [vsoADPGetDimDefParms](Functions/vsoADPGetDimDefParms.md) | [vsoADPGetUniTypeName](Functions/vsoADPGetUniTypeName.md) |
+| [vsoADPGetViewType](Functions/vsoADPGetViewType.md) | [vsoADPSetCatName](Functions/vsoADPSetCatName.md) | [vsoADPSetLocTypeName](Functions/vsoADPSetLocTypeName.md) |
+| [vsoAppendParamWidget](Functions/vsoAppendParamWidget.md) | [vsoAppendWidget](Functions/vsoAppendWidget.md) | [vsoButtonGetResource](Functions/vsoButtonGetResource.md) |
+| [vsoCanEditParam](Functions/vsoCanEditParam.md) | [vsoContextM_Add](Functions/vsoContextM_Add.md) | [vsoContextM_AddN](Functions/vsoContextM_AddN.md) |
+| [vsoContextM_AddSep](Functions/vsoContextM_AddSep.md) | [vsoContextM_Check](Functions/vsoContextM_Check.md) | [vsoContextM_Enable](Functions/vsoContextM_Enable.md) |
+| [vsoContextM_GetItem](Functions/vsoContextM_GetItem.md) | [vsoDisableAttrs](Functions/vsoDisableAttrs.md) | [vsoEIDataGetContext](Functions/vsoEIDataGetContext.md) |
+| [vsoEquipItemDataGet](Functions/vsoEquipItemDataGet.md) | [vsoEquipItemDataSet](Functions/vsoEquipItemDataSet.md) | [vsoGetCatalogPath](Functions/vsoGetCatalogPath.md) |
+| [vsoGetCWInfo](Functions/vsoGetCWInfo.md) | [vsoGetEventInfo](Functions/vsoGetEventInfo.md) | [vsoGetHandingInfo](Functions/vsoGetHandingInfo.md) |
+| [vsoGetIntSizeInfo](Functions/vsoGetIntSizeInfo.md) | [vsoGetPluginStyleSym](Functions/vsoGetPluginStyleSym.md) | [vsoGetQTOFunction](Functions/vsoGetQTOFunction.md) |
+| [vsoGetUseLyrCutPlane](Functions/vsoGetUseLyrCutPlane.md) | [vsoInsertAllParams](Functions/vsoInsertAllParams.md) | [vsoInsertParamWidget](Functions/vsoInsertParamWidget.md) |
+| [vsoInsertWidget](Functions/vsoInsertWidget.md) | [vsoParamName2Index](Functions/vsoParamName2Index.md) | [vsoPFCGetContext](Functions/vsoPFCGetContext.md) |
+| [vsoPFCSetChanged](Functions/vsoPFCSetChanged.md) | [vsoPreModifyID](Functions/vsoPreModifyID.md) | [vsoPrmName2WidgetID](Functions/vsoPrmName2WidgetID.md) |
+| [vsoSetClosureGap](Functions/vsoSetClosureGap.md) | [vsoSetEventResult](Functions/vsoSetEventResult.md) | [vsoSetGlazingArea](Functions/vsoSetGlazingArea.md) |
+| [vsoSetHandingInfo](Functions/vsoSetHandingInfo.md) | [vsoSetInCurtainWall](Functions/vsoSetInCurtainWall.md) | [vsoSetIntSizeInfo](Functions/vsoSetIntSizeInfo.md) |
+| [vsoSetObjToolName](Functions/vsoSetObjToolName.md) | [vsoSetQTOValue](Functions/vsoSetQTOValue.md) | [vsoSetSubtractPanels](Functions/vsoSetSubtractPanels.md) |
+| [vsoStateAddCurrent](Functions/vsoStateAddCurrent.md) | [vsoStateClear](Functions/vsoStateClear.md) | [vsoStateGet](Functions/vsoStateGet.md) |
+| [vsoStateGetExitGroup](Functions/vsoStateGetExitGroup.md) | [vsoStateGetLayrChng](Functions/vsoStateGetLayrChng.md) | [vsoStateGetNameChng](Functions/vsoStateGetNameChng.md) |
+| [vsoStateGetObjChng](Functions/vsoStateGetObjChng.md) | [vsoStateGetParamChng](Functions/vsoStateGetParamChng.md) | [vsoStateGetPos](Functions/vsoStateGetPos.md) |
+| [vsoStateGetRot](Functions/vsoStateGetRot.md) | [vsoStateGetRotN](Functions/vsoStateGetRotN.md) | [vsoStateMaterialChng](Functions/vsoStateMaterialChng.md) |
+| [vsoStyleWidgetChoice](Functions/vsoStyleWidgetChoice.md) | [vsoWidgetGetEnable](Functions/vsoWidgetGetEnable.md) | [vsoWidgetGetRecParam](Functions/vsoWidgetGetRecParam.md) |
+| [vsoWidgetGetText](Functions/vsoWidgetGetText.md) | [vsoWidgetGetVisible](Functions/vsoWidgetGetVisible.md) | [vsoWidgetPopupAdd](Functions/vsoWidgetPopupAdd.md) |
+| [vsoWidgetPopupAddN](Functions/vsoWidgetPopupAddN.md) | [vsoWidgetPopupClear](Functions/vsoWidgetPopupClear.md) | [vsoWidgetPopupClearN](Functions/vsoWidgetPopupClearN.md) |
+| [vsoWidgetPopupEnergy](Functions/vsoWidgetPopupEnergy.md) | [vsoWidgetPopupGet](Functions/vsoWidgetPopupGet.md) | [vsoWidgetPopupGetCnt](Functions/vsoWidgetPopupGetCnt.md) |
+| [vsoWidgetPopupGetID](Functions/vsoWidgetPopupGetID.md) | [vsoWidgetPopupGetTxt](Functions/vsoWidgetPopupGetTxt.md) | [vsoWidgetPopupSet](Functions/vsoWidgetPopupSet.md) |
+| [vsoWidgetSetBound](Functions/vsoWidgetSetBound.md) | [vsoWidgetSetEnable](Functions/vsoWidgetSetEnable.md) | [vsoWidgetSetIndLvl](Functions/vsoWidgetSetIndLvl.md) |
+| [vsoWidgetSetText](Functions/vsoWidgetSetText.md) | [vsoWidgetSetType](Functions/vsoWidgetSetType.md) | [vsoWidgetSetVisible](Functions/vsoWidgetSetVisible.md) |
+| [vsoWSGetParamForEdit](Functions/vsoWSGetParamForEdit.md) | [vstAddButtonMode](Functions/vstAddButtonMode.md) | [vstAddPDMenuItem](Functions/vstAddPDMenuItem.md) |
+| [vstAddPDMenuMode](Functions/vstAddPDMenuMode.md) | [vstAddRadioMode](Functions/vstAddRadioMode.md) | [vstAddResPDMenuMode](Functions/vstAddResPDMenuMode.md) |
+| [vstCustomProcNNA](Functions/vstCustomProcNNA.md) | [vstDefault2DToolDraw](Functions/vstDefault2DToolDraw.md) | [vstDefault3DToolDraw](Functions/vstDefault3DToolDraw.md) |
+| [vstDrawCoordArcN](Functions/vstDrawCoordArcN.md) | [vstDrawCoordEllipse](Functions/vstDrawCoordEllipse.md) | [vstDrawCoordLine](Functions/vstDrawCoordLine.md) |
+| [vstDrawCoordLine3D](Functions/vstDrawCoordLine3D.md) | [vstDrawCoordLineN](Functions/vstDrawCoordLineN.md) | [vstDrawCoordLineN3D](Functions/vstDrawCoordLineN3D.md) |
+| [vstDrawCoordRect](Functions/vstDrawCoordRect.md) | [vstEnableMode](Functions/vstEnableMode.md) | [vstGetCurrPt2D](Functions/vstGetCurrPt2D.md) |
+| [vstGetCurrPt3D](Functions/vstGetCurrPt3D.md) | [vstGetDataLong](Functions/vstGetDataLong.md) | [vstGetDataReal](Functions/vstGetDataReal.md) |
+| [vstGetDataString](Functions/vstGetDataString.md) | [vstGetEventInfo](Functions/vstGetEventInfo.md) | [vstGetEventResult](Functions/vstGetEventResult.md) |
+| [vstGetInitObject](Functions/vstGetInitObject.md) | [vstGetModeHelpBase](Functions/vstGetModeHelpBase.md) | [vstGetModeValue](Functions/vstGetModeValue.md) |
+| [vstGetPickObject](Functions/vstGetPickObject.md) | [vstGetPt2D](Functions/vstGetPt2D.md) | [vstGetPt3D](Functions/vstGetPt3D.md) |
+| [vstGetString](Functions/vstGetString.md) | [vstGetToolObject](Functions/vstGetToolObject.md) | [vstNameUndoEvent](Functions/vstNameUndoEvent.md) |
+| [vstNumPts](Functions/vstNumPts.md) | [vstResPDMenuInit](Functions/vstResPDMenuInit.md) | [vstRestoreWPHybridTool](Functions/vstRestoreWPHybridTool.md) |
+| [vstSetCursorByView](Functions/vstSetCursorByView.md) | [vstSetCustomProc](Functions/vstSetCustomProc.md) | [vstSetDataLong](Functions/vstSetDataLong.md) |
+| [vstSetDataReal](Functions/vstSetDataReal.md) | [vstSetDataString](Functions/vstSetDataString.md) | [vstSetEventInfo](Functions/vstSetEventInfo.md) |
+| [vstSetEventResult](Functions/vstSetEventResult.md) | [vstSetHelpString](Functions/vstSetHelpString.md) | [vstSetModeHelpBase](Functions/vstSetModeHelpBase.md) |
+| [vstSetPDMenuSel](Functions/vstSetPDMenuSel.md) | [vstSetPtBehavior](Functions/vstSetPtBehavior.md) | [vstSetWPHybridTool](Functions/vstSetWPHybridTool.md) |
+| [VWCoordToGeog](Functions/VWCoordToGeog.md) | [VWCoordToGeogN](Functions/VWCoordToGeogN.md) 
 
 ## W
 | | | |
 |---|---|---|
-| [Wait](Functions/Wait.md) | [Wall](Functions/Wall.md) |
-| [WallArea_Gross](Functions/WallArea_Gross.md) | [WallArea_Net](Functions/WallArea_Net.md) | [WallAverageHeight](Functions/WallAverageHeight.md) |
-| [WallCap](Functions/WallCap.md) | [WallFootPrint](Functions/WallFootPrint.md) | [WallHeight](Functions/WallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub> |
-| [WallPeak](Functions/WallPeak.md) | [WallThickness](Functions/WallThickness.md) | [WallTo](Functions/WallTo.md) |
-| [WallWidth](Functions/WallWidth.md) | [WebDlgEnableConsole](Functions/WebDlgEnableConsole.md) | [Width](Functions/Width.md) |
-| [WorksheetMergeCells](Functions/WorksheetMergeCells.md) | [WorksheetSplitCells](Functions/WorksheetSplitCells.md) | [Write](Functions/Write.md) |
-| [WriteBin](Functions/WriteBin.md) | [WriteLn](Functions/WriteLn.md) | [WriteLnMac](Functions/WriteLnMac.md) |
-| [WriteMac](Functions/WriteMac.md) | [WriteXMLFile](Functions/WriteXMLFile.md) | [WriteXMLMemory](Functions/WriteXMLMemory.md) |
-| [ws2AddMenuGroup](Functions/ws2AddMenuGroup.md) | [ws2AddMenuItem](Functions/ws2AddMenuItem.md) | [ws2CommitChanges](Functions/ws2CommitChanges.md) |
-| [ws2CreateTool](Functions/ws2CreateTool.md) | [ws2CreateToolPalette](Functions/ws2CreateToolPalette.md) | [ws2CreateToolSet](Functions/ws2CreateToolSet.md) |
-| [ws2DelMenu](Functions/ws2DelMenu.md) | [ws2DelMenuAt](Functions/ws2DelMenuAt.md) | [ws2DelTool](Functions/ws2DelTool.md) |
-| [ws2FindMenuIndex](Functions/ws2FindMenuIndex.md) | [ws2FindToolIndex](Functions/ws2FindToolIndex.md) | [ws2GetMenuAt](Functions/ws2GetMenuAt.md) |
-| [ws2GetMenuInfo](Functions/ws2GetMenuInfo.md) | [ws2GetMenusCnt](Functions/ws2GetMenusCnt.md) | [ws2GetToolAt](Functions/ws2GetToolAt.md) |
-| [ws2GetToolInfo](Functions/ws2GetToolInfo.md) | [ws2GetToolsCnt](Functions/ws2GetToolsCnt.md) | [ws2SetMenuInfo](Functions/ws2SetMenuInfo.md) |
-| [ws2SetToolInfo](Functions/ws2SetToolInfo.md) | [wsDelete](Functions/wsDelete.md) | [wsEditAddMenu](Functions/wsEditAddMenu.md) |
-| [wsEditAddTool](Functions/wsEditAddTool.md) | [wsEditAddTool2](Functions/wsEditAddTool2.md) | [wsEditBegin](Functions/wsEditBegin.md) |
-| [wsEditBeginN](Functions/wsEditBeginN.md) | [wsEditEnd](Functions/wsEditEnd.md) | [wsInstallCanceled](Functions/wsInstallCanceled.md) |
-| [wsInstallFailed](Functions/wsInstallFailed.md) | [WSScript_AddHandle](Functions/WSScript_AddHandle.md) | [WSScript_AddHandleId](Functions/WSScript_AddHandleId.md) |
-| [WSScript_GetEdit](Functions/WSScript_GetEdit.md) | [WSScript_GetEditObj](Functions/WSScript_GetEditObj.md) | [WSScript_GetObject](Functions/WSScript_GetObject.md) |
-| [WSScript_GetPrmInt](Functions/WSScript_GetPrmInt.md) | [WSScript_GetPrmReal](Functions/WSScript_GetPrmReal.md) | [WSScript_GetPrmStr](Functions/WSScript_GetPrmStr.md) |
-| [WSScript_SetResImage](Functions/WSScript_SetResImage.md) | [WSScript_SetResInt](Functions/WSScript_SetResInt.md) | [WSScript_SetResReal](Functions/WSScript_SetResReal.md) |
-| [WSScript_SetResStr](Functions/WSScript_SetResStr.md) 
+| [Wait](Functions/Wait.md) |
+| [Wall](Functions/Wall.md) | [WallArea_Gross](Functions/WallArea_Gross.md) | [WallArea_Net](Functions/WallArea_Net.md) |
+| [WallAverageHeight](Functions/WallAverageHeight.md) | [WallCap](Functions/WallCap.md) | [WallFootPrint](Functions/WallFootPrint.md) |
+| [WallHeight](Functions/WallHeight.md) <sub>*obsolete in Vectorworks 2012*</sub> | [WallPeak](Functions/WallPeak.md) | [WallThickness](Functions/WallThickness.md) |
+| [WallTo](Functions/WallTo.md) | [WallWidth](Functions/WallWidth.md) | [WebDlgEnableConsole](Functions/WebDlgEnableConsole.md) |
+| [Width](Functions/Width.md) | [WorksheetMergeCells](Functions/WorksheetMergeCells.md) | [WorksheetSplitCells](Functions/WorksheetSplitCells.md) |
+| [Write](Functions/Write.md) | [WriteBin](Functions/WriteBin.md) | [WriteLn](Functions/WriteLn.md) |
+| [WriteLnMac](Functions/WriteLnMac.md) | [WriteMac](Functions/WriteMac.md) | [WriteXMLFile](Functions/WriteXMLFile.md) |
+| [WriteXMLMemory](Functions/WriteXMLMemory.md) | [ws2AddMenuGroup](Functions/ws2AddMenuGroup.md) | [ws2AddMenuItem](Functions/ws2AddMenuItem.md) |
+| [ws2CommitChanges](Functions/ws2CommitChanges.md) | [ws2CreateTool](Functions/ws2CreateTool.md) | [ws2CreateToolPalette](Functions/ws2CreateToolPalette.md) |
+| [ws2CreateToolSet](Functions/ws2CreateToolSet.md) | [ws2DelMenu](Functions/ws2DelMenu.md) | [ws2DelMenuAt](Functions/ws2DelMenuAt.md) |
+| [ws2DelTool](Functions/ws2DelTool.md) | [ws2FindMenuIndex](Functions/ws2FindMenuIndex.md) | [ws2FindToolIndex](Functions/ws2FindToolIndex.md) |
+| [ws2GetMenuAt](Functions/ws2GetMenuAt.md) | [ws2GetMenuInfo](Functions/ws2GetMenuInfo.md) | [ws2GetMenusCnt](Functions/ws2GetMenusCnt.md) |
+| [ws2GetToolAt](Functions/ws2GetToolAt.md) | [ws2GetToolInfo](Functions/ws2GetToolInfo.md) | [ws2GetToolsCnt](Functions/ws2GetToolsCnt.md) |
+| [ws2SetMenuInfo](Functions/ws2SetMenuInfo.md) | [ws2SetToolInfo](Functions/ws2SetToolInfo.md) | [wsDelete](Functions/wsDelete.md) |
+| [wsEditAddMenu](Functions/wsEditAddMenu.md) | [wsEditAddTool](Functions/wsEditAddTool.md) | [wsEditAddTool2](Functions/wsEditAddTool2.md) |
+| [wsEditBegin](Functions/wsEditBegin.md) | [wsEditBeginN](Functions/wsEditBeginN.md) | [wsEditEnd](Functions/wsEditEnd.md) |
+| [wsInstallCanceled](Functions/wsInstallCanceled.md) | [wsInstallFailed](Functions/wsInstallFailed.md) | [WSScript_AddHandle](Functions/WSScript_AddHandle.md) |
+| [WSScript_AddHandleId](Functions/WSScript_AddHandleId.md) | [WSScript_GetEdit](Functions/WSScript_GetEdit.md) | [WSScript_GetEditObj](Functions/WSScript_GetEditObj.md) |
+| [WSScript_GetObject](Functions/WSScript_GetObject.md) | [WSScript_GetPrmInt](Functions/WSScript_GetPrmInt.md) | [WSScript_GetPrmReal](Functions/WSScript_GetPrmReal.md) |
+| [WSScript_GetPrmStr](Functions/WSScript_GetPrmStr.md) | [WSScript_SetResImage](Functions/WSScript_SetResImage.md) | [WSScript_SetResInt](Functions/WSScript_SetResInt.md) |
+| [WSScript_SetResReal](Functions/WSScript_SetResReal.md) | [WSScript_SetResStr](Functions/WSScript_SetResStr.md) 
 
 ## X
 | | | |
 |---|---|---|
-| [XCenter](Functions/XCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [XCenterN](Functions/XCenterN.md) |
-| [XCoordinate](Functions/XCoordinate.md) | [XMLSAXAddNodeAttr](Functions/XMLSAXAddNodeAttr.md) | [XMLSAXAddNodeValue](Functions/XMLSAXAddNodeValue.md) |
-| [XMLSAXBeginDocFile](Functions/XMLSAXBeginDocFile.md) | [XMLSAXBeginDocMemory](Functions/XMLSAXBeginDocMemory.md) | [XMLSAXBeginNode](Functions/XMLSAXBeginNode.md) |
-| [XMLSAXEndDoc](Functions/XMLSAXEndDoc.md) | [XMLSAXEndDocMemory](Functions/XMLSAXEndDocMemory.md) | [XMLSAXEndNode](Functions/XMLSAXEndNode.md) |
-| [XMLSAXParseFile](Functions/XMLSAXParseFile.md) | [XMLSAXParseMemory](Functions/XMLSAXParseMemory.md) 
+| [XCenter](Functions/XCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> |
+| [XCenterN](Functions/XCenterN.md) | [XCoordinate](Functions/XCoordinate.md) | [XMLSAXAddNodeAttr](Functions/XMLSAXAddNodeAttr.md) |
+| [XMLSAXAddNodeValue](Functions/XMLSAXAddNodeValue.md) | [XMLSAXBeginDocFile](Functions/XMLSAXBeginDocFile.md) | [XMLSAXBeginDocMemory](Functions/XMLSAXBeginDocMemory.md) |
+| [XMLSAXBeginNode](Functions/XMLSAXBeginNode.md) | [XMLSAXEndDoc](Functions/XMLSAXEndDoc.md) | [XMLSAXEndDocMemory](Functions/XMLSAXEndDocMemory.md) |
+| [XMLSAXEndNode](Functions/XMLSAXEndNode.md) | [XMLSAXParseFile](Functions/XMLSAXParseFile.md) | [XMLSAXParseMemory](Functions/XMLSAXParseMemory.md) |
 
 ## Y
 | | | |
 |---|---|---|
-| [YCenter](Functions/YCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> |
-| [YCenterN](Functions/YCenterN.md) | [YCoordinate](Functions/YCoordinate.md) | [YNDialog](Functions/YNDialog.md) |
+| [YCenter](Functions/YCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [YCenterN](Functions/YCenterN.md) | [YCoordinate](Functions/YCoordinate.md) |
+| [YNDialog](Functions/YNDialog.md) 
 
 ## Z
 | | | |
 |---|---|---|
-| [ZCenter](Functions/ZCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [ZCenterN](Functions/ZCenterN.md) | [ZCoordinate](Functions/ZCoordinate.md) |
+| [ZCenter](Functions/ZCenter.md) <sub>*obsolete in Vectorworks 2012*</sub> | [ZCenterN](Functions/ZCenterN.md) |
+| [ZCoordinate](Functions/ZCoordinate.md) 
 

@@ -2,26 +2,31 @@
 
 | | | |
 |---|---|---|
-| [Vectorworks 2025.4](#vectorworks-20254) | [Vectorworks 2025.3](#vectorworks-20253) | [Vectorworks 2025.2](#vectorworks-20252) |
-| [Vectorworks 2025](#vectorworks-2025) | [Vectorworks 2024.6](#vectorworks-20246) | [Vectorworks 2024.4](#vectorworks-20244) |
-| [Vectorworks 2024](#vectorworks-2024) | [Vectorworks 2023.6](#vectorworks-20236) | [Vectorworks 2023.4](#vectorworks-20234) |
-| [Vectorworks 2023](#vectorworks-2023) | [Vectorworks 2022.3](#vectorworks-20223) | [Vectorworks 2022.1](#vectorworks-20221) |
-| [Vectorworks 2022](#vectorworks-2022) | [Vectorworks 2021](#vectorworks-2021) | [Vectorworks 2020.5](#vectorworks-20205) |
-| [Vectorworks 2020.1](#vectorworks-20201) | [Vectorworks 2020](#vectorworks-2020) | [Vectorworks 2019.3](#vectorworks-20193) |
-| [Vectorworks 2019.2](#vectorworks-20192) | [Vectorworks 2019.1](#vectorworks-20191) | [Vectorworks 2019](#vectorworks-2019) |
-| [Vectorworks 2018.4](#vectorworks-20184) | [Vectorworks 2018.3](#vectorworks-20183) | [Vectorworks 2018](#vectorworks-2018) |
-| [Vectorworks 2017](#vectorworks-2017) | [Vectorworks 2016](#vectorworks-2016) | [Vectorworks 2015](#vectorworks-2015) |
-| [Vectorworks 2014](#vectorworks-2014) | [Vectorworks 2013](#vectorworks-2013) | [Vectorworks 2012](#vectorworks-2012) |
-| [Vectorworks 2011](#vectorworks-2011) | [Vectorworks 2010](#vectorworks-2010) | [Vectorworks 2009](#vectorworks-2009) |
-| [VectorWorks 2008](#vectorworks-2008) | [VectorWorks12.5](#vectorworks125) | [VectorWorks12.0.1](#vectorworks1201) |
-| [VectorWorks12.0](#vectorworks120) | [VectorWorks11.5](#vectorworks115) | [VectorWorks11.0](#vectorworks110) |
-| [VectorWorks10.5](#vectorworks105) | [VectorWorks10.1](#vectorworks101) | [VectorWorks10.0](#vectorworks100) |
-| [VectorWorks9.5](#vectorworks95) | [VectorWorks9.0](#vectorworks90) | [VectorWorks8.5](#vectorworks85) |
-| [VectorWorks8.0](#vectorworks80) | [MiniCAD7.0.1](#minicad701) | [MiniCAD7.0](#minicad70) |
-| [MiniCAD6.0](#minicad60) | [MiniCAD5.0.2](#minicad502) | [MiniCAD5.0](#minicad50) |
-| [MiniCAD4.0](#minicad40) | [MiniCAD](#minicad) 
+| [Vectorworks 2026](#vectorworks-2026) | [Vectorworks 2025.4](#vectorworks-20254) | [Vectorworks 2025.3](#vectorworks-20253) |
+| [Vectorworks 2025.2](#vectorworks-20252) | [Vectorworks 2025](#vectorworks-2025) | [Vectorworks 2024.6](#vectorworks-20246) |
+| [Vectorworks 2024.4](#vectorworks-20244) | [Vectorworks 2024](#vectorworks-2024) | [Vectorworks 2023.6](#vectorworks-20236) |
+| [Vectorworks 2023.4](#vectorworks-20234) | [Vectorworks 2023](#vectorworks-2023) | [Vectorworks 2022.3](#vectorworks-20223) |
+| [Vectorworks 2022.1](#vectorworks-20221) | [Vectorworks 2022](#vectorworks-2022) | [Vectorworks 2021](#vectorworks-2021) |
+| [Vectorworks 2020.5](#vectorworks-20205) | [Vectorworks 2020.1](#vectorworks-20201) | [Vectorworks 2020](#vectorworks-2020) |
+| [Vectorworks 2019.3](#vectorworks-20193) | [Vectorworks 2019.2](#vectorworks-20192) | [Vectorworks 2019.1](#vectorworks-20191) |
+| [Vectorworks 2019](#vectorworks-2019) | [Vectorworks 2018.4](#vectorworks-20184) | [Vectorworks 2018.3](#vectorworks-20183) |
+| [Vectorworks 2018](#vectorworks-2018) | [Vectorworks 2017](#vectorworks-2017) | [Vectorworks 2016](#vectorworks-2016) |
+| [Vectorworks 2015](#vectorworks-2015) | [Vectorworks 2014](#vectorworks-2014) | [Vectorworks 2013](#vectorworks-2013) |
+| [Vectorworks 2012](#vectorworks-2012) | [Vectorworks 2011](#vectorworks-2011) | [Vectorworks 2010](#vectorworks-2010) |
+| [Vectorworks 2009](#vectorworks-2009) | [VectorWorks 2008](#vectorworks-2008) | [VectorWorks12.5](#vectorworks125) |
+| [VectorWorks12.0.1](#vectorworks1201) | [VectorWorks12.0](#vectorworks120) | [VectorWorks11.5](#vectorworks115) |
+| [VectorWorks11.0](#vectorworks110) | [VectorWorks10.5](#vectorworks105) | [VectorWorks10.1](#vectorworks101) |
+| [VectorWorks10.0](#vectorworks100) | [VectorWorks9.5](#vectorworks95) | [VectorWorks9.0](#vectorworks90) |
+| [VectorWorks8.5](#vectorworks85) | [VectorWorks8.0](#vectorworks80) | [MiniCAD7.0.1](#minicad701) |
+| [MiniCAD7.0](#minicad70) | [MiniCAD6.0](#minicad60) | [MiniCAD5.0.2](#minicad502) |
+| [MiniCAD5.0](#minicad50) | [MiniCAD4.0](#minicad40) | [MiniCAD](#minicad) |
 
 # Script Functions by Version
+
+## Vectorworks 2026
+| | | |
+|---|---|---|
+| [Plant_LocateStyleMgr](Functions/Plant_LocateStyleMgr.md) | [RemoveTrussAssoc](Functions/RemoveTrussAssoc.md) | [SetModeButtonTextN](Functions/SetModeButtonTextN.md) |
 
 ## Vectorworks 2025.4
 | | | |
@@ -98,8 +103,8 @@
 | [GetCustomObjSecPath](Functions/GetCustomObjSecPath.md) | [GetExWllClsrFrmSt](Functions/GetExWllClsrFrmSt.md) | [GetInsertLocComp](Functions/GetInsertLocComp.md) |
 | [GetObjectWallPerpOff](Functions/GetObjectWallPerpOff.md) | [GetWallPerpOffOfData](Functions/GetWallPerpOffOfData.md) | [GtExWllClsrFrmStBStl](Functions/GtExWllClsrFrmStBStl.md) |
 | [MirrorN](Functions/MirrorN.md) | [ObjSurfAreaInWorldC](Functions/ObjSurfAreaInWorldC.md) | [PopupGetChoices](Functions/PopupGetChoices.md) |
-| [PopupSetChoices](Functions/PopupSetChoices.md) | [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) |
-| [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) | [Prot_GetLicenseType](Functions/Prot_GetLicenseType.md) | [Prot_IsFundamentals](Functions/Prot_IsFundamentals.md) |
+| [PopupSetChoices](Functions/PopupSetChoices.md) | [Prot_DisableModule](Functions/Prot_DisableModule.md) | [Prot_GetAppMode](Functions/Prot_GetAppMode.md) |
+| [Prot_GetDistribCode](Functions/Prot_GetDistribCode.md) | [Prot_GetLicenseID](Functions/Prot_GetLicenseID.md) | [Prot_IsFundamentals](Functions/Prot_IsFundamentals.md) |
 | [Prot_IsModuleEnabled](Functions/Prot_IsModuleEnabled.md) | [RemoveGeoref](Functions/RemoveGeoref.md) | [SetCompInsertLoc](Functions/SetCompInsertLoc.md) |
 | [SetCompInsertLocOff](Functions/SetCompInsertLocOff.md) | [SetExWllClsrFrmSt](Functions/SetExWllClsrFrmSt.md) | [SetInsertLocComp](Functions/SetInsertLocComp.md) |
 | [SetLBItemTextColorN](Functions/SetLBItemTextColorN.md) | [SetStaticTextColorN](Functions/SetStaticTextColorN.md) | [StExWllClsrFrmStBStl](Functions/StExWllClsrFrmStBStl.md) |
@@ -513,35 +518,35 @@
 | [Plant_ResetPlantInst](Functions/Plant_ResetPlantInst.md) | [Plant_UpdatePlaceTool](Functions/Plant_UpdatePlaceTool.md) | [Plant_UpdateTranslat](Functions/Plant_UpdateTranslat.md) |
 | [PointAlongPoly](Functions/PointAlongPoly.md) | [PointAlongPolyN](Functions/PointAlongPolyN.md) | [PolyMedialAxis](Functions/PolyMedialAxis.md) |
 | [PtOnArc](Functions/PtOnArc.md) | [PtOnLine](Functions/PtOnLine.md) | [PtPerpCircle](Functions/PtPerpCircle.md) |
-| [PtPerpLine](Functions/PtPerpLine.md) | [PythonBeginContext](Functions/PythonBeginContext.md) | [PythonEndContext](Functions/PythonEndContext.md) |
-| [PythonExecute](Functions/PythonExecute.md) | [PythonGetSearchPath](Functions/PythonGetSearchPath.md) | [PythonSetSearchPath](Functions/PythonSetSearchPath.md) |
-| [RegularPolygon](Functions/RegularPolygon.md) | [RelativeCoords](Functions/RelativeCoords.md) | [RemoveVPClOvrd](Functions/RemoveVPClOvrd.md) |
-| [RemoveVPLrOvrd](Functions/RemoveVPLrOvrd.md) | [RetrieveCustomRWPrefs](Functions/RetrieveCustomRWPrefs.md) | [RetrieveHLPrefs](Functions/RetrieveHLPrefs.md) |
-| [RetrieveOpenGLPrefs](Functions/RetrieveOpenGLPrefs.md) | [RunNamedDialog](Functions/RunNamedDialog.md) | [SaveActiveDocument](Functions/SaveActiveDocument.md) |
-| [SetCallBackInval](Functions/SetCallBackInval.md) | [SetCustomRWPrefs](Functions/SetCustomRWPrefs.md) | [SetImageCropObject](Functions/SetImageCropObject.md) |
-| [SetImageCropVisible](Functions/SetImageCropVisible.md) | [SetModeString](Functions/SetModeString.md) | [SetOpenGLPrefs](Functions/SetOpenGLPrefs.md) |
-| [SetPolyClosed](Functions/SetPolyClosed.md) | [SetRRDiam](Functions/SetRRDiam.md) | [SetScriptResource](Functions/SetScriptResource.md) |
-| [SetToolByIndex](Functions/SetToolByIndex.md) | [SetToolByName](Functions/SetToolByName.md) | [SetVPClOvrdFillBack](Functions/SetVPClOvrdFillBack.md) |
-| [SetVPClOvrdFillFore](Functions/SetVPClOvrdFillFore.md) | [SetVPClOvrdFillOpty](Functions/SetVPClOvrdFillOpty.md) | [SetVPClOvrdPenBack](Functions/SetVPClOvrdPenBack.md) |
-| [SetVPClOvrdPenFore](Functions/SetVPClOvrdPenFore.md) | [SetVPClOvrdPenOpty](Functions/SetVPClOvrdPenOpty.md) | [SetVPLrOvrdFillBack](Functions/SetVPLrOvrdFillBack.md) |
-| [SetVPLrOvrdFillFore](Functions/SetVPLrOvrdFillFore.md) | [SetVPLrOvrdOpty](Functions/SetVPLrOvrdOpty.md) | [SetVPLrOvrdPenBack](Functions/SetVPLrOvrdPenBack.md) |
-| [SetVPLrOvrdPenFore](Functions/SetVPLrOvrdPenFore.md) | [SetWSImgAngle](Functions/SetWSImgAngle.md) | [SetWSImgMarginSize](Functions/SetWSImgMarginSize.md) |
-| [SetWSImgRenderMode](Functions/SetWSImgRenderMode.md) | [SetWSImgScale](Functions/SetWSImgScale.md) | [SetWSImgSize](Functions/SetWSImgSize.md) |
-| [SetWSImgSizeType](Functions/SetWSImgSizeType.md) | [SetWSImgType](Functions/SetWSImgType.md) | [SetWSImgUseLayScale](Functions/SetWSImgUseLayScale.md) |
-| [SetWSImgUseObjectImg](Functions/SetWSImgUseObjectImg.md) | [SetWSImgView](Functions/SetWSImgView.md) | [ShowPlanShadowsTab](Functions/ShowPlanShadowsTab.md) |
-| [Space_AddAreaModif](Functions/Space_AddAreaModif.md) | [Space_AddDiscription](Functions/Space_AddDiscription.md) | [Space_AddName](Functions/Space_AddName.md) |
-| [Space_AddRoomID](Functions/Space_AddRoomID.md) | [Space_AddZone](Functions/Space_AddZone.md) | [Space_AssignZone](Functions/Space_AssignZone.md) |
-| [Space_CountAssZones](Functions/Space_CountAssZones.md) | [Space_CountAvZones](Functions/Space_CountAvZones.md) | [Space_CreateSpace](Functions/Space_CreateSpace.md) |
-| [Space_DeassignZone](Functions/Space_DeassignZone.md) | [Space_GetGrossArea](Functions/Space_GetGrossArea.md) | [Space_GetGrossPoly](Functions/Space_GetGrossPoly.md) |
-| [Space_GetGrossVolume](Functions/Space_GetGrossVolume.md) | [Space_GetNetArea](Functions/Space_GetNetArea.md) | [Space_GetNetPoly](Functions/Space_GetNetPoly.md) |
-| [Space_GetNetVolume](Functions/Space_GetNetVolume.md) | [Space_Gross3DBound](Functions/Space_Gross3DBound.md) | [Space_ItemAssZones](Functions/Space_ItemAssZones.md) |
-| [Space_ItemAvZones](Functions/Space_ItemAvZones.md) | [Space_Net3DBoundary](Functions/Space_Net3DBoundary.md) | [Space_RenAssignZoneX](Functions/Space_RenAssignZoneX.md) |
-| [Stipple](Functions/Stipple.md) | [Str2Angle](Functions/Str2Angle.md) | [Str2Area](Functions/Str2Area.md) |
-| [Str2Volume](Functions/Str2Volume.md) | [SubString](Functions/SubString.md) | [SubtractPolygon](Functions/SubtractPolygon.md) |
-| [ThreePtCenter](Functions/ThreePtCenter.md) | [TrackObjectN](Functions/TrackObjectN.md) | [TrueTypeToPoly](Functions/TrueTypeToPoly.md) |
-| [Volume2Str](Functions/Volume2Str.md) | [vsoAddWidget](Functions/vsoAddWidget.md) | [vsoContextM_Add](Functions/vsoContextM_Add.md) |
-| [vsoContextM_AddSep](Functions/vsoContextM_AddSep.md) | [vsoContextM_Check](Functions/vsoContextM_Check.md) | [vsoContextM_Enable](Functions/vsoContextM_Enable.md) |
-| [vsoContextM_GetItem](Functions/vsoContextM_GetItem.md) 
+| [PtPerpLine](Functions/PtPerpLine.md) | [PtPerpLine3D](Functions/PtPerpLine3D.md) | [PythonBeginContext](Functions/PythonBeginContext.md) |
+| [PythonEndContext](Functions/PythonEndContext.md) | [PythonExecute](Functions/PythonExecute.md) | [PythonGetSearchPath](Functions/PythonGetSearchPath.md) |
+| [PythonSetSearchPath](Functions/PythonSetSearchPath.md) | [RegularPolygon](Functions/RegularPolygon.md) | [RelativeCoords](Functions/RelativeCoords.md) |
+| [RemoveVPClOvrd](Functions/RemoveVPClOvrd.md) | [RemoveVPLrOvrd](Functions/RemoveVPLrOvrd.md) | [RetrieveCustomRWPrefs](Functions/RetrieveCustomRWPrefs.md) |
+| [RetrieveHLPrefs](Functions/RetrieveHLPrefs.md) | [RetrieveOpenGLPrefs](Functions/RetrieveOpenGLPrefs.md) | [RunNamedDialog](Functions/RunNamedDialog.md) |
+| [SaveActiveDocument](Functions/SaveActiveDocument.md) | [SetCallBackInval](Functions/SetCallBackInval.md) | [SetCustomRWPrefs](Functions/SetCustomRWPrefs.md) |
+| [SetImageCropObject](Functions/SetImageCropObject.md) | [SetImageCropVisible](Functions/SetImageCropVisible.md) | [SetModeString](Functions/SetModeString.md) |
+| [SetOpenGLPrefs](Functions/SetOpenGLPrefs.md) | [SetPolyClosed](Functions/SetPolyClosed.md) | [SetRRDiam](Functions/SetRRDiam.md) |
+| [SetScriptResource](Functions/SetScriptResource.md) | [SetToolByIndex](Functions/SetToolByIndex.md) | [SetToolByName](Functions/SetToolByName.md) |
+| [SetVPClOvrdFillBack](Functions/SetVPClOvrdFillBack.md) | [SetVPClOvrdFillFore](Functions/SetVPClOvrdFillFore.md) | [SetVPClOvrdFillOpty](Functions/SetVPClOvrdFillOpty.md) |
+| [SetVPClOvrdPenBack](Functions/SetVPClOvrdPenBack.md) | [SetVPClOvrdPenFore](Functions/SetVPClOvrdPenFore.md) | [SetVPClOvrdPenOpty](Functions/SetVPClOvrdPenOpty.md) |
+| [SetVPLrOvrdFillBack](Functions/SetVPLrOvrdFillBack.md) | [SetVPLrOvrdFillFore](Functions/SetVPLrOvrdFillFore.md) | [SetVPLrOvrdOpty](Functions/SetVPLrOvrdOpty.md) |
+| [SetVPLrOvrdPenBack](Functions/SetVPLrOvrdPenBack.md) | [SetVPLrOvrdPenFore](Functions/SetVPLrOvrdPenFore.md) | [SetWSImgAngle](Functions/SetWSImgAngle.md) |
+| [SetWSImgMarginSize](Functions/SetWSImgMarginSize.md) | [SetWSImgRenderMode](Functions/SetWSImgRenderMode.md) | [SetWSImgScale](Functions/SetWSImgScale.md) |
+| [SetWSImgSize](Functions/SetWSImgSize.md) | [SetWSImgSizeType](Functions/SetWSImgSizeType.md) | [SetWSImgType](Functions/SetWSImgType.md) |
+| [SetWSImgUseLayScale](Functions/SetWSImgUseLayScale.md) | [SetWSImgUseObjectImg](Functions/SetWSImgUseObjectImg.md) | [SetWSImgView](Functions/SetWSImgView.md) |
+| [ShowPlanShadowsTab](Functions/ShowPlanShadowsTab.md) | [Space_AddAreaModif](Functions/Space_AddAreaModif.md) | [Space_AddDiscription](Functions/Space_AddDiscription.md) |
+| [Space_AddName](Functions/Space_AddName.md) | [Space_AddRoomID](Functions/Space_AddRoomID.md) | [Space_AddZone](Functions/Space_AddZone.md) |
+| [Space_AssignZone](Functions/Space_AssignZone.md) | [Space_CountAssZones](Functions/Space_CountAssZones.md) | [Space_CountAvZones](Functions/Space_CountAvZones.md) |
+| [Space_CreateSpace](Functions/Space_CreateSpace.md) | [Space_DeassignZone](Functions/Space_DeassignZone.md) | [Space_GetGrossArea](Functions/Space_GetGrossArea.md) |
+| [Space_GetGrossPoly](Functions/Space_GetGrossPoly.md) | [Space_GetGrossVolume](Functions/Space_GetGrossVolume.md) | [Space_GetNetArea](Functions/Space_GetNetArea.md) |
+| [Space_GetNetPoly](Functions/Space_GetNetPoly.md) | [Space_GetNetVolume](Functions/Space_GetNetVolume.md) | [Space_Gross3DBound](Functions/Space_Gross3DBound.md) |
+| [Space_ItemAssZones](Functions/Space_ItemAssZones.md) | [Space_ItemAvZones](Functions/Space_ItemAvZones.md) | [Space_Net3DBoundary](Functions/Space_Net3DBoundary.md) |
+| [Space_RenAssignZoneX](Functions/Space_RenAssignZoneX.md) | [Stipple](Functions/Stipple.md) | [Str2Angle](Functions/Str2Angle.md) |
+| [Str2Area](Functions/Str2Area.md) | [Str2Volume](Functions/Str2Volume.md) | [SubString](Functions/SubString.md) |
+| [SubtractPolygon](Functions/SubtractPolygon.md) | [ThreePtCenter](Functions/ThreePtCenter.md) | [TrackObjectN](Functions/TrackObjectN.md) |
+| [TrueTypeToPoly](Functions/TrueTypeToPoly.md) | [Volume2Str](Functions/Volume2Str.md) | [vsoAddWidget](Functions/vsoAddWidget.md) |
+| [vsoContextM_Add](Functions/vsoContextM_Add.md) | [vsoContextM_AddSep](Functions/vsoContextM_AddSep.md) | [vsoContextM_Check](Functions/vsoContextM_Check.md) |
+| [vsoContextM_Enable](Functions/vsoContextM_Enable.md) | [vsoContextM_GetItem](Functions/vsoContextM_GetItem.md) 
 
 ## Vectorworks 2013
 | | | |
