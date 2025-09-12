@@ -35,6 +35,13 @@ You can go to the [Python page](Python/README.md) for more information.
 
 * [Install Partner Products](Common/Partner%20Install/README.md)
 
+## Plugin Credential files
+
+Vectorworks 2026 introduces the requirement for script plugins that are encrypted/obfuscated and SDK plugins to have a satelite credentials file that defines who is the developer of the plugins.
+
+More information can be found here: [Plugin Credentials](../../Common/Tasks/Info/PluginCredentials.md)
+
+
 ## Version Information
 
 * [Vectorworks 2026](Common/Versions/Vectorworks%202026.md)
