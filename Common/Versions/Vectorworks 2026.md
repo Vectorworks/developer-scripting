@@ -4,7 +4,7 @@ Python version: 3.9.2 <same as Vectorworks 2025>
 
 ## Plugin Credential files
 
-Vectorworks 2026 introduces the requirement for script plugins that are encrypted/obfuscated and SDK plugins to have a satelite credentials file that defines who is the developer of the plugins.
+Vectorworks 2026 introduces the requirement for script plugins that are encrypted/obfuscated and SDK plugins to have a satellite credentials file that defines who is the developer of the plugins is.
 
 More information can be found here: [Plugin Credentials](../../Common/Tasks/Info/PluginCredentials.md)
 
