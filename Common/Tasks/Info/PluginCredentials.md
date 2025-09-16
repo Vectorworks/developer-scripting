@@ -25,7 +25,7 @@ __For the developer:__
   * Containing a list of plugins, listing file names without extension.
   * The .json file must be submitted to Vectorworks to generate the credentials binary-file, and it will be provided back as part of the Vectorworks Partner program.
 
-    Please email the .json file confirming security key request to: [developer@vectorworks.net](mailto:developer@vectorworks.net)
+    Please email the .json file confirming security key request to: [devsupport@vectorworks.net](mailto:devsupport@vectorworks.net)
 
   * The credentials file has .vst extension and Vectorworks will not confuse it with a script tool.
   * The credentials file must be distributed alongside (same folder) of the plugins it covers. The presence of all plugins it covers is not necessary, this  means that you can use the same credentials file for partial plugin distributions.
