@@ -6,6 +6,8 @@ The Install Partner Products feature works with packages, provided by the develo
 
 As a developer, if you are interested in listing your products/features there, please contact us at [devsupport@vectorworks.net](mailto:devsupport@vectorworks.net).
 
+Before releaseing plugins you should [Prepare the script plugins for release](pages/PrepareReleasePlugins.md).
+
 ## Obsolete Installing Scripts
 
 The old way of installing has been deprecated. Information on it can be found in the deprecated section of [Vectorworks 2023 Development](../Versions/Vectorworks%202023.md)

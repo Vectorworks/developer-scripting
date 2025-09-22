@@ -1,21 +1,24 @@
-# EncryptPlugin
+# AddCredentials
 
 ## Description
-Encrypt one VectorScript Plug-in file.
+Adds credentials to VectorScript plug-ins. "pluginsPath" expects a full path to a file or the path to a folder containing plug-ins. "credentialFilePath" expects a full path to a .vst credential file. Empty would report the credentials of the plugins. Returns true if no errors and false if any errors were encountered. Actions are logged in "AddCredentialsLog.txt" in the user Plug-ins folder.
 
 ```pascal
-FUNCTION EncryptPlugin(fullPath : STRING): BOOLEAN;
+FUNCTION AddCredentials(
+				pluginsPath        : STRING;
+				credentialFilePath : STRING) : BOOLEAN;
 ```
 
 ```python
-def vs.EncryptPlugin(fullPath):
+def vs.AddCredentials(pluginsPath, credentialFilePath):
     return BOOLEAN
 ```
 
 ## Parameters
 |Name|Type|Description|
 |---|---|---|
-|fullPath|STRING|   |
+|pluginsPath|STRING|Full path to a folder or to a specific plugin. When folder, all plugins will be processed|
+|credentialFilePath|STRING|Full path to the credentials file. When empty, it will report the status of the plugins|
 
 ## Remarks
 This function is provided by an external plug-in that is not provided by the normal distribution of Vectorworks.
@@ -29,12 +32,9 @@ Additionally, the plug-in is called ‘BatchEncryption’ and can be found insid
 The Vectorworks SDK can be downloaded here:
 http://www.vectorworks.net/support/custom/sdk/sdkdown.php
 
-## See Also
-* [EncryptAllPlugins](EncryptAllPlugins.md)
-* [TestEncryptPlugins](TestEncryptPlugins.md)
-
 ## Version
-Availability: from Vectorworks 2014
+Availability: from Vectorworks 2026
 
 ## Category
 * [Utility](../Categories/Utility.md)
+

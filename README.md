@@ -33,6 +33,7 @@ You can go to the [Python page](Python/README.md) for more information.
 
 ## Partner Install
 
+* [Prepare the script plugins for release](Common/Partner%20Install/pages/PrepareReleasePlugins.md)
 * [Install Partner Products](Common/Partner%20Install/README.md)
 
 ## Plugin Credential files
