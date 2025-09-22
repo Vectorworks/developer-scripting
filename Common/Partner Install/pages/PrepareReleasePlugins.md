@@ -56,7 +56,8 @@ First, install the <code>Script Batch Process</code> feature from the <code>Vect
 
 This will add a plugin which will provide the following helper script functions. You can write a document script in Vectorworks to mass process plugin files.
 
-### • [EncryptPlugin](../../../Function%20Reference/Functions/EncryptPlugin.md) -- Encrypt one VectorScript Plug-in file.
+### • [EncryptPlugin](../../../Function%20Reference/Functions/EncryptPlugin.md)
+  Encrypt one VectorScript Plug-in file.
 
 ```pascal
 FUNCTION EncryptPlugin(fullPath : STRING): BOOLEAN;
@@ -68,7 +69,8 @@ def vs.EncryptPlugin(fullPath):
 ```
 
 
-### • [EncryptAllPlugins](../../../Function%20Reference/Functions/EncryptAllPlugins.md) -- will do batch encryption of all VectorScript plug-ins in the Plug-ins folder..
+### • [EncryptAllPlugins](../../../Function%20Reference/Functions/EncryptAllPlugins.md)
+  will do batch encryption of all VectorScript plug-ins in the Plug-ins folder..
 
 ```pascal
 PROCEDURE EncryptAllPlugins;
@@ -80,7 +82,8 @@ def vs.EncryptAllPlugins():
 ```
 
 
-### • [TestEncryptPlugins](../../../Function%20Reference/Functions/TestEncryptPlugins.md) -- will test do batch encryption of all VectorScript plug-ins in the Plug-ins folder and put the reuslt in a test folder. in the Plug-ins folder..
+### • [TestEncryptPlugins](../../../Function%20Reference/Functions/TestEncryptPlugins.md)
+  will test do batch encryption of all VectorScript plug-ins in the Plug-ins folder and put the reuslt in a test folder. in the Plug-ins folder..
 
 ```pascal
 PROCEDURE EncryptAllPlugins;
@@ -92,7 +95,8 @@ def vs.EncryptAllPlugins():
 ```
 
 
-### • [AddCredentials](../../../Function%20Reference/Functions/AddCredentials.md) -- Adds credentials to VectorScript plug-ins. "pluginsPath" expects a full path to a file or the path to a folder containing plug-ins. "credentialFilePath" expects a full path to a .vst credential file. Empty would report the credentials of the plugins. Returns true if no errors and false if any errors were encountered. Actions are logged in "AddCredentialsLog.txt" in the user Plug-ins folder.
+### • [AddCredentials](../../../Function%20Reference/Functions/AddCredentials.md)
+  Adds credentials to VectorScript plug-ins. "pluginsPath" expects a full path to a file or the path to a folder containing plug-ins. "credentialFilePath" expects a full path to a .vst credential file. Empty would report the credentials of the plugins. Returns true if no errors and false if any errors were encountered. Actions are logged in "AddCredentialsLog.txt" in the user Plug-ins folder.
 
 ```pascal
 FUNCTION AddCredentials(
