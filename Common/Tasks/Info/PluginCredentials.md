@@ -101,6 +101,8 @@ First, you need to prepare a <code>.json</code> file that list one or several pl
 
 Then, when you receive the credentials <code>.vst</code> file, you would would use Vectorworks script to embed it to one or many script plugin files.
 
+**Note:** You must have the plugin name that will contain these credentials into the credentials file (.json). It is possible to embed any credentials file, but it will not pick it up if the file name doesn't match the .json/.vst.
+
 Here is a pyhon script example that will enumerate all script plugins in <code>c:\MyFolder</code> and embed the <code>C:\Downloads\MyCredentials.vst</code>  credentials file in them.
 ```python
 vs.AddCredentials('c:\MyFolder', 'C:\Downloads\MyCredentials.vst')
