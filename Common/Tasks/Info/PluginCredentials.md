@@ -76,13 +76,13 @@ This is the case where all your plugins are located in one folder. Then you need
 
 ## Plugins are broken into different folders
 
-* ### One Credentials for all
+* ### One Credentials for all in the parent folder
 
 Use <code>/</code> in your credentials to cover plugins in a sub-folder.
 
 ![MultiFolderSingleCredentials](images/MultiFolderSingleCredentials.png)
 
-* ### Several credentials for each
+* ### Several credentials for each folder
 
 **Note:** The two credentials files must have different names! Even though they are in different folders they have to be different.
 
