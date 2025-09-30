@@ -119,6 +119,6 @@ Note: A file <code>_AddCredentialsLog.txt</code> will be created in the <code>pl
 
 Make sure you delete the cach of temporary allowed plugins (that still bring up the lauch alert dialog): 
 
-Mac: /Users/user_name/Library/Application Support/Vectorworks/2026/Settings
+Mac: /Users/user_name/Library/Application Support/Vectorworks/2026/Settings/ExceptionsMissingCredentials.bin
 
-Windows: C:\user_name\vstanev\AppData\Roaming\Nemetschek\Vectorworks\2026\Settings\ ExceptionsMissingCredentials.bin
+Windows: C:\Users\user_name\AppData\Roaming\Nemetschek\Vectorworks\2026\Settings\ExceptionsMissingCredentials.bin
