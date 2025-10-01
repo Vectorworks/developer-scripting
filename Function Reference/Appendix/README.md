@@ -11,3 +11,5 @@
 [Appendix H - DoMenuTextByName Constants](pages/Appendix%20H%20-%20DoMenuTextByName%20Constants.md)
 
 [Appendix I - Markers](pages/Appendix%20I%20-%20Markers.md)
+
+[Appendix J - Folder Indexes](pages/Appendix%20J%20-%20Folder%20Indexes.md)
