@@ -43,7 +43,8 @@ Here is an example structure of a manifest file. It can contain one or several p
         <Image>Logo.png</Image>
         <Thumbnail>LogoThumbnail.png</Thumbnail>
         <Developer>Vectorworks Inc.</Developer>
-        <Website>https://www.thenbs.com/nbs-chorus</Website>
+        <Website>https://www.mycompnay.com</Website>
+        <EMail>support@mycompany.com</EMail>
         <License>Free</License>
         <Version>1.0</Version>
         <ReleaseDate>3/17/2020</ReleaseDate>
@@ -69,6 +70,7 @@ Each product will define:
 * **Thumbnail** – *optional* – a URL or BASE64 of the thumbnail image of the product. If missing, the ‘Image’ will be used.
 * **Developer** – the name of the developer/company that produced the plugin.
 * **Website** – a URL to for more information about the product and/or the developer.
+* **Email** - an email for contact. This field is mandatory for the **Developer** information to be displayed.
 * **License** – a textual information about the license of the plugin. Currently every Vectorworks user will be able to install this product. Any more other licensing scheme must be implemented and supported by the developer of the plugin.
 * **Version** – a version of the product for reference.
 * **ReleaseDate** – the release date information for reference.
