@@ -33,11 +33,8 @@ I found that if you have a plug-in that uses the CallTool procedure to create an
 I think I found a foolproof (?) solution:
 
 1. Create a dummy object and get its handle (dummyH.)
-
 2. Implement the CallTool procedure and create the poly.
-
 3. Use "polyH := NextObj (dummyH)" to get the handle to the poly.
-
 4. Delete the dummy object.
 
 This works in nested groups as well as groups within symbols. If anyone knows of a simpler solution, please let me know.
