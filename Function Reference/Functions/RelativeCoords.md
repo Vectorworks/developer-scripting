@@ -34,7 +34,7 @@ See graphical representation below (click on the image to enlarge it):
 
 ## Examples
 #### VectorScript ####
-```python
+```pascal
 PROCEDURE Example;
 VAR
     pt, beg_pt, end_pt, v :VECTOR;
@@ -58,11 +58,6 @@ BEGIN
 END;
 RUN(Example);
 ```
-#### Python ####
-```python
-
-```
-
 ## Version
 Availability: from Vectorworks 2014
 

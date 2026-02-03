@@ -135,7 +135,7 @@ def vs.BuildResourceList2(type, folderIndex, subFolderName, useDefaultContent):
 
 ## Remarks
 *\_c\_*, 2016.02.29:  Here some usage examples:
-<code lang="vs">
+```pascal
 
 resID := 127; { wall styles }
 pathID := 113; { Wall ~ Slabs folder }

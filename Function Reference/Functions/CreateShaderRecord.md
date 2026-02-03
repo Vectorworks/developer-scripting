@@ -23,7 +23,7 @@ Family values are:
 
 Prototype values depend on the Family value.  These are the Prototype values for each Family:
 
-<code lang="cpp">
+```cpp
 enum MaxonColorShaderPrototype {
 	kMaxonColor_Plain = 40,
 	kMaxonColor_Image = 41,

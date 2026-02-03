@@ -30,7 +30,7 @@ def vs.GetPolylineVertex(obj, vertexNum):
 
 ## Remarks
 (*\_c\_*, 2022.01.18) In VS Python this routine will always return a 2-items tuple, clipping it if "necessary". If you need a 3 items tuple for usage in vs.Vec2Ang, for example, you will need to restore the third item.
-<code lang="py">
+```python
 # test GetPolylineVertex
 p = (0, 0, 0)
 vs.AlrtDialog( 'init tuple: ' + str(len(p)) ) # 3 items

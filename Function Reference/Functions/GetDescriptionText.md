@@ -24,7 +24,7 @@ def vs.GetDescriptionText(hObject):
 Added for T01363 to add descriptions for classes and layers.
 
 ## Examples
-```python
+```pascal
 PROCEDURE GetDescExample;
 VAR
 	descriptionTextDyn	:DYNARRAY [] of CHAR;

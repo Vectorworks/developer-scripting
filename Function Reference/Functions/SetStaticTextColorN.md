@@ -22,7 +22,7 @@ def vs.SetStaticTextColorN(dialogID, componentID, tint):
 ## Remarks
 List of available tints as of VW2023:
 
-<code lang="cpp">
+```cpp
 eDefaultTint = 0
 eDisabledTint = 1
 eRotatedCoordTint = 2

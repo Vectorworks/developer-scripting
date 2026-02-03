@@ -42,7 +42,7 @@ It also will not work on any symbol which is ''inside'' a folder -- it only work
 *\_c\_*, 2009.12.29: To obtain a list of sketch styles excluding records pass object type -47. This is to my knowledge the only usage of a negative object type.
 
 *\_c\_*, 2016.02.29:  Here some usage examples:
-<code lang="vs">
+```pascal
 resID := 127; { wall styles }
 pathID := 113; { Wall ~ Slabs folder }
 

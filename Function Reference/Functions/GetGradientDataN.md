@@ -30,7 +30,7 @@ def vs.GetGradientDataN(gradient, segmentIndex):
 |opacity|INTEGER|Opacity of the color spot.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
 gradient :HANDLE;

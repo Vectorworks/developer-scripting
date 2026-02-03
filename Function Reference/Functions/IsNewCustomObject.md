@@ -29,7 +29,7 @@ To detect a duplicated object you can use the name unicity rule of VW:
 * if it's an edit to an existing pio object: field __UUID = object name.
 * upon duplicating a pio object: the OIP's name field will be instantly deleted by VW, which doesn't allow two objects with the same name
 
-<code lang="vs">
+```pascal
 theUUID := P__UUID; { fetch the UUID value stored. It will be empty on new object }
 
 { a duplicate never triggers IsNewCustomObject }

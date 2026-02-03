@@ -21,7 +21,7 @@ def vs.GetOriginInDocUnits():
 |y|REAL|Returns Y coordinate of origin.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
 originPt : VECTOR;

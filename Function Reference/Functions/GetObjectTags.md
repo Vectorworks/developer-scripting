@@ -55,7 +55,7 @@ end;
 
 Run(Test);```
 #### Python ####
-<code lang="py">
+```python
 h = vs.FLayer
 b,t = vs.GetObjectTags(h)
 vs.message(vs.Date(2,2), ' ', t[0], ' ', t[1])

@@ -15,7 +15,7 @@ def vs.FPenPatN():
 ## Remarks
 *\_c\_* (2016.02.29): [FPenPatN](FPenPatN.md) returns the name list index of the active dash style, while the older routine [FPenPat](FPenPat.md) will return the dash style index. They are not the same.
 
-<code lang='vs'>
+```pascal
 { compare the two different indexes: }
 indx := FPenPat; { returns the dash style list index corresponding to the active dash style }
 indx := FPenPatN; { returns the name list index corresponding to the active dash style }

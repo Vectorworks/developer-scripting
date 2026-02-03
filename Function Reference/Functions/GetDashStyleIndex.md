@@ -33,7 +33,7 @@ def vs.GetDashStyleIndex(swt, numPairs, pair1, pair2, pair3, pair4, pair5):
 ## Remarks
 *\_c\_*, (2016.03.01):  The dash style index returned is relative to the dash style list, not the name list so it's not an index that can be used with [Index2Name](Index2Name.md). The values must be page inches. This routine seems to be the same as [GetDashStyle](GetDashStyle.md) but it doesn't set the found/created dash style as the active style. More comments on Vectorlab's [http://www.vectorlab.info/index.php?title=Index_pitfalls Index_pitfalls].
 
-<code lang="vs">
+```pascal
 GetDashStyleIndex(scalesWithThickness: BOOLEAN; numPairs: INTEGER; dash1, gap1, dash2, gap2, dash3, gap3, dash4, gap4, dash5, gap5: REAL): INTEGER; 
 
 indx := GetDashStyleIndex(TRUE, 1, 0.12, 0.03); 

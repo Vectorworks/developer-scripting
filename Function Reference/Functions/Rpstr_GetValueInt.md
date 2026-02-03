@@ -22,7 +22,7 @@ def vs.Rpstr_GetValueInt(name, defaultValue):
 
 ## Remarks
 Here is a sample for when this is  used from the SDK plugin to communicate with a dialog:
-<code lang="cpp">
+```cpp
 bool CDlgXXX::CreateDialogLayout()
 {
 	VectorWorks::Scripting::IVectorScriptEnginePtr	vsEngine( VectorWorks::Scripting::IID_VectorScriptEngine );

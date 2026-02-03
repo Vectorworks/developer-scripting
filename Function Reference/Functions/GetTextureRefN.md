@@ -26,7 +26,7 @@ def vs.GetTextureRefN(obj, texPartID, texLayerID, resolveByClass):
 
 ## Remarks
 *\_c\_* (2017.12.30): This was always a cryptical call, below an example from my own notes:
-<code lang="vs">
+```pascal
 { set texLayerID to 0, if you don't have decals you want to access }
 
 GetTextureRefN(obj, 3, 0, FALSE); 

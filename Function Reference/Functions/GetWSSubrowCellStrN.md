@@ -31,7 +31,7 @@ Gets the specified worksheet subrow cell's displayed string.<BR>
 WARNING: Because database subrow cells and their contents are dynamically created based on the current database of objects and the current critieria string, any return values from this function are not guaranteed to be correct beyond this function call. Use this function carefully and at your own risk.
 
 ## Examples
-```python
+```pascal
 PROCEDURE WStest;
    VAR
        autoRecalcState : BOOLEAN;

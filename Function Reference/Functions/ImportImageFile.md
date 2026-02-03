@@ -24,12 +24,12 @@ def vs.ImportImageFile(filePath, importPt):
 This function returns NIL in Vectorworks 2014.
 
 A typical call to this function would be:
-<code lang='py'>
+```python
 hImage = vs.ImportImageFile( imagePath, importPt )
 ```
 
 In Vectorworks 2014, if you need the result, the call should be:
-<code lang='py'>
+```python
 vs.ImportImageFile( imagePath, importPt )
 hImage = vs.FSActLayer()
 ```

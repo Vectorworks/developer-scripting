@@ -25,7 +25,7 @@ def vs.SetLSN(h, ls):
 ## Remarks
 (\_c\_ 2016.02.29): Expects a name list index, while the older routine [GetLS](GetLS.md) expected a dash style index. 
 
-<code lang="vs">
+```pascal
 IF GetObject('ISO-02 Dashed') <> NIL THEN
 	SetLSN(FSActLayer, -Name2Index('ISO-02 Dashed')); { sets the first selected object to 'ISO-02 Dashed' if the style is present }
 ```

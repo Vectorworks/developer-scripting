@@ -26,7 +26,7 @@ def vs.BuildResourceListN(type, fullPath):
 *\_c\_*, (2016.02.29):  It supports also posix paths on mac ("/"). It can't be used to retrive the resources in the active document.
 
 Here some usage examples:
-<code lang="vs">
+```pascal
 resID := 127; { wall styles }
 pathID := 113; { Wall ~ Slabs folder }
 path := Concat(GetFolderPath(pathID), 'Walls~Slabs Styles Metric.vwx'); { pick a file within the shipped default content }

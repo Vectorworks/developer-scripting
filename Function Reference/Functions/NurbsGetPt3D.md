@@ -119,7 +119,7 @@ Run(Example);
 ```
 
 #### Python ####
-<code lang="py">
+```python
 nurbsObj = vs.FSActLayer() # take care to select a NURBS curve
 
 # pieces are segments, you need pieces to realize edgy NURBS, appearing as corner pt edges

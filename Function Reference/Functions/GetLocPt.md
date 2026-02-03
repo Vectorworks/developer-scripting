@@ -27,7 +27,7 @@ Remember to add a third item (0, 0, 0) for usage in the Vector Routines such as 
 
 ## Examples
 #### VectorScript ####
-```python
+```pascal
 PROCEDURE TEST;
 VAR
 	pt : VECTOR;

@@ -24,7 +24,7 @@ def vs.GetPolyPt(objectHd, index):
 
 ## Remarks
 (*\_c\_*, 2022.01.18) In VS Python this routine returns a 2-dimensional tuple. Warning: Most Math - Vector routines require a 3-dimensional tuple, failing to init a third item in VW before 2023 (vs.Vec2Ang, for example, returns gibberish on 2-d tuples). You will need to make sure that a third item exists.
-<code lang="py">
+```python
 # test GetPolyPt
 p = (0, 0, 0)
 vs.AlrtDialog( 'init tuple: ' + str(len(p)) ) # 3 items

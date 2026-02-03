@@ -20,7 +20,7 @@ def vs.GetClLSN(className):
 ## Remarks
 *\_c\_* (2016.02.29): Returns a name list index, while the older routine [GetClLS](GetClLS.md) returned a dash style index. 
 
-<code lang="vs">
+```pascal
 indx := GetClLSN('None');
 IF indx < 0 THEN { if the index is positive then is a pattern. Patterns are not named resources }
 	Message(Index2Name(-indx)); { returns the name of the dash style attached to the class 'None', if any }

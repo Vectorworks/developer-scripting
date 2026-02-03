@@ -23,7 +23,7 @@ def vs.GetLayerElevationN(h):
 |thickness|REAL|Thickness of the layer in document units.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
 	h :HANDLE; 

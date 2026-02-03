@@ -24,12 +24,13 @@ def vs.Centroid(h):
 
 ## Remarks
 (*\_c\_* 2016.04.18): This returns mm, so convert the values into current units:
-<code lang="vss">
+```pascal
 IF Centroid(h, c.x, c.y) THEN BEGIN
         { centroid returns mm }
         c.x := c.x * GetPrefReal(152) / 25.4;
 	c.y := c.y * GetPrefReal(152) / 25.4;
 END;
+```
 
 ## Version
 Availability: from Vectorworks 2014

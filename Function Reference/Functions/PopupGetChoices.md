@@ -26,7 +26,7 @@ def vs.PopupGetChoices(recName, fieldName):
 This appears to work on standard resource records only and not with parametric object records when tested in v2024. Returns 0 and None. Use VS:GetLocalizedPluginChoice instead for Plug In Objects.
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 
 FUNCTION TestFunc(h :HANDLE) :BOOLEAN;

@@ -19,7 +19,7 @@ def vs.GetEvent():
 
 ## Remarks
 [Ptr 09/23/2019]
-<code lang = "pas">
+```pascal
 CONST
   {Event ID's}
   kEventID_Reset = 3;
@@ -29,7 +29,7 @@ CONST
   kEventID_OnUIButtonHit = 35;
   kEventID_OnAddState = 44;
 ```
-<code lang = "py">
+```python
 # Event ID's
 kEventID_Reset = 3
 kEventID_OnObjPref = 4

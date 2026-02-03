@@ -75,7 +75,7 @@ Run(Test);
 ```
 
 #### Python ####
-<code lang="py">
+```python
 import vs
 
 def SetTags():

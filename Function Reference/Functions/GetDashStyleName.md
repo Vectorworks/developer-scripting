@@ -20,7 +20,7 @@ def vs.GetDashStyleName(DashStyleIndex):
 ## Remarks
 *\_c\_*, (2016.03.01):  The dash style index required is relative to the dash style list, not the name list. Use [GetDashStyle](GetDashStyle.md) or [GetDashStyleIndex](GetDashStyleIndex.md) to obtain it. Analogically, the dash style name returned is the name in the dash style list (you set it with [SetDashStyleName](SetDashStyleName.md)), not the name list. This can be diverging.
 
-<code lang="vs">
+```pascal
 dashStyleName := GetDashStyleName(GetDashStyleIndex(TRUE, 1, 0.12, 0.03));
 { should return 'ISO-02 Dashed' or its localized name, if a style with these pairs exists
 in the active document, otherwise it creates one with a generic name }

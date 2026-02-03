@@ -30,7 +30,7 @@ message('Item: ', item, '  Data in that item: ', data);
 end;
 ```
 
-<code lang="py">
+```python
 def callback(item, data):
    vs.Message('Item: ' + str(item) + '  Data in that item: '+ str(data));
 	

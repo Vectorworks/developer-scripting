@@ -25,7 +25,7 @@ def vs.CallToolWithMode(toolIndex, modeGroup, modeButton, callback):
 
 ## Remarks
 The python function requires an extra 'callback' parameter because python will not pause in the function, while the tool executes. The python will continue until the end of the script, and then the tool will be activated. The 'callback' function will be executed when the tool completes.
-<code lang="py">
+```python
 vs.CallToolWithMode( -221, 0, 0, any ) # 'Any' is and does absolutely nothing in prior to Vectorworks 2022 SP3
 ```
 

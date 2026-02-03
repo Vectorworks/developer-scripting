@@ -18,7 +18,7 @@ def vs.DeleteLevelTemplate(index):
 |index|INTEGER|The index of the Story Level Template to be deleted.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 success:BOOLEAN;

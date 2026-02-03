@@ -18,7 +18,7 @@ def vs.GetLevelTemplateName(index):
 |index|INTEGER|The index of the Story Level Template whose name is to be returned.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 templateName:STRING;
