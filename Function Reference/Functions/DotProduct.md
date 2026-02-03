@@ -25,7 +25,7 @@ def vs.DotProduct(v1, v2):
 ## Remarks
 (*\_c\_*, 2022.01.20) In Python the two vectors used as parameters MUST be 3-dimensional, or it will return gibberish. This doesn't matter in Pascal.
 
-<code lang="py">
+```python
 # EXAMPLE OF FAULTY USAGE
 v1 = (12, 1) # bidimensional
 v2 = (3, 15) 

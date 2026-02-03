@@ -40,7 +40,7 @@ Disregarding the document unit settings, if nUnits = 0, dOffset and dBlurRadius 
 [[User:Ptr|Ptr]] [2021.02.22]:
 The RGB values out of this call return pretty strange values ranging from -32640 to 32639.
 To get them converted to RGB255 values, use:
-<code lang="py">
+```python
 if colorRV > 0:
 	colorR = colorRV / 257
 else:

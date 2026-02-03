@@ -84,8 +84,7 @@ RUN(dialog1_Main);
 ```
 
 ==== Python ====
-<code lang="py">
-
+```python
 def dialog1_Setup():
 	global dialog1
 	dialog1 = vs.CreateLayout('Swap Pane Test', False, 'OK', 'Cancel')

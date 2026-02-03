@@ -73,7 +73,7 @@ Examples:
 ```
 
 ([[User_talk:Ptr|Ptr]], 2020 Sep. 8):
-<code lang="py">
+```python
 vs.SetTextureRefN(obj, textureRef, texPartID, texLayerID)
 ```
 <lineList ident=1>

@@ -76,7 +76,7 @@ BEGIN
 END;
 RUN(test);
 #### Python ####
-<code lang="py">
+```python
 ```
 
 ## See Also
