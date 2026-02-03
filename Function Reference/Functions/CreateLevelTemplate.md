@@ -29,7 +29,7 @@ def vs.CreateLevelTemplate(layerName, scaleFactor, levelType, elevation, wallHei
 |index|INTEGER|After the function is called, this parameter contains the index of the new Story Level Template.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 success:BOOLEAN;

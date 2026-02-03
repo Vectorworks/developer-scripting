@@ -31,7 +31,7 @@ def vs.GetDashDataValPairAt(dashStyleIndex, dataIndex):
 * The REAL values returned are page inches.
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
  n, numPairs, dashIndex : INTEGER;

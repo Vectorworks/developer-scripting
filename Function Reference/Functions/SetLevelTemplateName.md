@@ -21,7 +21,7 @@ def vs.SetLevelTemplateName(index, name):
 |name|STRING|The new name for the Story Level Template at 'index'.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 result : BOOLEAN;

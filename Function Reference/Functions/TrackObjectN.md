@@ -39,7 +39,7 @@ def vs.TrackObjectN(traverseType, callback):
 * 2 = Deep (Traverse all containers: walls, extrudes, sweeps, etc)
 
 ## Examples
-```python
+```pascal
 PROCEDURE Test;
 VAR
   h : HANDLE;

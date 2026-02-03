@@ -45,7 +45,7 @@ See this thread for more discussion.
 https://forum.vectorworks.net/index.php?/topic/104434-importrestocurfilen-and-callback-function/&do=findComment&comment=457282
 
 ## Examples
-```python
+```pascal
 PROCEDURE testResCountSymFolders;
 VAR
     resList : LONGINT;

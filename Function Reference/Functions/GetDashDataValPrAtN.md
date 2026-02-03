@@ -25,7 +25,7 @@ def vs.GetDashDataValPrAtN(dashStyleIndex, dataIndex):
 |gap|REAL|The gap segment value.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
 n, numPairs : INTEGER;

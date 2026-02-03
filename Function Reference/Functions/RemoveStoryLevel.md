@@ -23,7 +23,7 @@ def vs.RemoveStoryLevel(storyHandle, levelType, bDeleteLayer):
 |bDeleteLayer|BOOLEAN|If this is true, and the requested Story Level has a layer associated with it, the layer will be deleted as well.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 storyHandle : HANDLE

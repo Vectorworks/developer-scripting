@@ -25,7 +25,7 @@ def vs.AddStoryLevelN(storyHandle, levelType, elevation, layerName):
 |layerName|STRING|The name of the layer to associate with the new Story Level.  This is optional.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 storyHandle : HANDLE

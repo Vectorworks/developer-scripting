@@ -23,7 +23,7 @@ Note: in Python the vector used as parameter MUST be 3-dimensional, or UnitVec w
 
 ## Examples
 #### VectorScript ####
-```python
+```pascal
 PROCEDURE TEST;
 VAR
     v1, v2 : VECTOR;

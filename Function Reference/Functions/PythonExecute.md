@@ -23,7 +23,7 @@ def vs.PythonExecute(script):
 
 ## Examples
 An example of a simple VectorScript that runs a python script:
-```python
+```pascal
 PROCEDURE Example;
 VAR
   strName : STRING;
@@ -42,7 +42,7 @@ END;
 RUN(Example);
 ```
 You can use PythonExecute to send a Python script to VW via AppleScript:
-```python
+```applescript
 tell application "BBEdit"
         set thePyScript to contents of front window
         set thePyScriptLines to paragraphs of thePyScript

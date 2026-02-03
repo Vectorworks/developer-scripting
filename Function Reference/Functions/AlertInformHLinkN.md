@@ -39,7 +39,7 @@ def vs.AlertInformHLinkN(text, adviceBeforeLink, linkTitle, linkURL, adviceAfter
 Created by KAS 8/14/2019
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 
 VAR

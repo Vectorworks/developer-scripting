@@ -23,7 +23,7 @@ def vs.CreateEditPassword(dialogID, itemID, widthInStdChar):
 |widthInStdChar|LONGINT|The width of the displayed text in standard character count. See GetDlgCtrlWidthStdCh.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
 	dialog1 :INTEGER;

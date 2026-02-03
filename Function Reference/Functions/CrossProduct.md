@@ -46,7 +46,7 @@ The first vector defines the X axis of a new coordinate system; the second vecto
 
 ## Examples
 #### VectorScript ####
-```python
+```pascal
 PROCEDURE TEST;
 VAR
     v1, v2 : VECTOR;

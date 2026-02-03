@@ -21,7 +21,7 @@ def vs.GetNumDashDataPairsN(dashIndex):
 |swt|BOOLEAN|The &quot;scale with thickness&quot; setting.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
 n, numPairs : INTEGER;

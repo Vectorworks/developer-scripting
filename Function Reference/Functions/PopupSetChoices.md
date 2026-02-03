@@ -20,7 +20,7 @@ def vs.PopupSetChoices(recName, fieldName, popUpValues):
 |popUpValues|ARRAY|Enter popup values.|
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 
 FUNCTION TestFunc(h :HANDLE) :BOOLEAN;

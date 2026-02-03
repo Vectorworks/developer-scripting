@@ -21,7 +21,7 @@ def vs.AddLevelFromTemplate(storyHandle, index):
 |index|INTEGER|The index of the Story Level Template to use when creating the Story Level.|
 
 ## Examples
-```python
+```pascal
 VAR
 
 storyHandle : HANDLE

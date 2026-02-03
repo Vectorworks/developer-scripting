@@ -35,7 +35,7 @@ def vs.Comp(v1, v2):
 
 ## Examples
 #### VectorScript ####
-```python
+```pascal
 PROCEDURE Example;
 VAR
     v1, v2, v3, v4 : VECTOR;

@@ -21,7 +21,7 @@ def vs.ObjSurfAreaInWorldC(solidObject):
 Calculates the surface area the given object if a valid solid.
 
 ## Examples
-```python
+```pascal
 PROCEDURE Example;
 VAR
         volume, area: REAL;

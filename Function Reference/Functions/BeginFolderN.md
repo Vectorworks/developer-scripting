@@ -20,7 +20,7 @@ def vs.BeginFolderN(type):
 |type|INTEGER|the type of resource the folder will contain|
 
 ## Examples
-```python
+```pascal
 NameObject('Object Symbols');
 BeginFolderN(16); { 16 = symbol definitions }
   BeginSym('Oval Symbols');
