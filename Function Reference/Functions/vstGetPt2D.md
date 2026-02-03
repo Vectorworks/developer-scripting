@@ -27,7 +27,7 @@ def vs.vstGetPt2D(inPtIndex, result):
 ## Remarks
 Note that [vstNumPts](vstNumPts.md) will return the number of clicked points (a 1-based index). vstGetPt2D is zero-based. So if you're collecting points in the kToolEventPointAdded event you'll likely have to do something like
 
-<code>
+```pascal
  vstNumPoints(pointNum);
  vstGetPt2D(pointNum-1, ...);
 ```

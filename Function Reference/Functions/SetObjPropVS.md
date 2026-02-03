@@ -22,7 +22,7 @@ def vs.SetObjPropVS(PropertyID, PropertyVal):
 
 ## Remarks
 [Ptr 04/28/2020]
-<code lang=py>
+```python
 _bResult = vs.SetObjPropVS(2, True)  # kObjXPropHasLayerScaleDeps
 _bResult = vs.SetObjPropVS(8, True)  # kObjXPropHasUIOverride
 _bResult = vs.SetObjPropVS(18, True)  # kObjProp_AcceptStates

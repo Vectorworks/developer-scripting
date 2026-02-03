@@ -25,7 +25,7 @@ def vs.VerifyLibraryRoutine(routineName):
 (\_c\_, 2016.01.02):  
 * The routines parsed are only those that you'll find in the VWPluginLibraryRoutines.p file. Any other will return FALSE!
 * This is the only function that doesn't accept a variable of type string. It really only accepts a routine name within quotes:
-<code lang='vs'>
+```pascal
  boo := VerifyLibraryRoutine('PythonExecute'); { OK }
 
  routineName := 'PythonExecute';
@@ -45,7 +45,7 @@ ELSE
 ```
 
 ; Python: this function does not work in Python scripts in Vectorworks 2017 and older. Instead, you can use Python functions to see if a function name is existing in the 'vs' module:
-<code lang='py'>
+```python
 hasattr( vs, 'FUNCTION_NAME' ) 
 ```
 

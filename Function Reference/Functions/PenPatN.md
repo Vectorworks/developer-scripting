@@ -22,12 +22,12 @@ def vs.PenPatN(patNumber):
 ## Remarks
 *\_c\_* (2016.02.29): VS:FPenPatN requires a name list index, while the older routine VS:PenPat requires the dash style index. Please mind that a document doesn't necessarily have dash styles loaded.
 
-<code lang='vs'>
+```pascal
 PenPatN(-Name2Index('ISO-02 Dashed')); { makes 'ISO-02 Dashed' as the active pen pattern }
 ```
 
 ## Examples
-```python
+```pascal
 PenPatN(25);
 { uses fill pattern 25 as the active pen pattern }
 

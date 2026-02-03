@@ -64,7 +64,7 @@ END;
 Run(xxxxx);
 ```
 
-<code lang='py'>
+```python
 def PickPointCallback(pt):
 	startContainer = vs.Handle();
 	
