@@ -22,7 +22,7 @@ def vs.Rpstr_GetValueBool(name, defaultValue):
 
 ## Remarks
 Here is a sample for when this is  used from the SDK plugin to communicate with a dialog:
-```c++
+```cpp
 bool CDlgXXX::CreateDialogLayout()
 {
 	VectorWorks::Scripting::IVectorScriptEnginePtr	vsEngine( VectorWorks::Scripting::IID_VectorScriptEngine );
