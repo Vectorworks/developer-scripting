@@ -30,7 +30,7 @@ def vs.Rect(p1x, p1y, p2x, p2y):
 
 ## Remarks
 *\_c\_* (2016.03.28): An example using distance-angle. Don't forget to use the pound notation (#):
-<code lang="vs">
+```pascal
 MoveTo(10m, 20m); { set pen position at x, y: 10m, 20m }
 Rect(1m, #0, 2m, #90); 
 { draws from the current pen position 

@@ -28,7 +28,7 @@ def vs.SetLBItemUsingColumnDataItem(dialogID, componentID, itemIndex, subItemInd
 
 ## Remarks
 (\_c\_, 2015.04.06): this crashes VW 2013 if the cell doesn't have any column data items. Check for the presence of data items in the chosen column using [GetNumLBColumnDataItems](GetNumLBColumnDataItems.md) in order to prevent accidentally using it on cells with no column data items:
-<code lang="vs">
+```pascal
 IF GetNumLBColumnDataItems(dialogID, listBrowserID, columnIndex) > 0 THEN BEGIN
    IF SetLBItemUsingColumnDataItem(dialogID, listBrowserID, rowIndex, columnIndex, columnDataItemIndex) THEN BEGIN
       { ... }
