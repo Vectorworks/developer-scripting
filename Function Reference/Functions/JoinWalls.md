@@ -15,7 +15,7 @@ FUNCTION JoinWalls(
 ```
 
 ```python
-def vs.JoinWalls(firstWall, secondWall, firstWall, secondWall, joinModifier, capped, showAlerts):
+def vs.JoinWalls(firstWall, secondWall, firstWallPt, secondWallPt, joinModifier, capped, showAlerts):
     return BOOLEAN
 ```
 
@@ -24,8 +24,8 @@ def vs.JoinWalls(firstWall, secondWall, firstWall, secondWall, joinModifier, cap
 |---|---|---|
 |firstWall|HANDLE|The first wall of the join operation. For T joins this is the wall that is extended to meet the second wall.|
 |secondWall|HANDLE|The second wall of the join operation.|
-|firstWall|REAL|The first and second wall points are used to clarify corner joins.|
-|secondWall|REAL|The first and second wall points are used to clarify corner joins.|
+|firstWallPt|REAL|The first and second wall points are used to clarify corner joins.|
+|secondWallPt|REAL|The first and second wall points are used to clarify corner joins.|
 |joinModifier|INTEGER|Specifies the type of join: T-join = 1, L-join = 2, X-join = 3, and auto join = 4.|
 |capped|BOOLEAN|True for capped joins, false for un-capped joins.|
 |showAlerts|BOOLEAN|Show an alert dialog if the join operation fails.|
