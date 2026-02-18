@@ -8,12 +8,12 @@ otherwise only the group itself will be affected.
 ```pascal
 PROCEDURE SetClassN(
 				h             : HANDLE;
-				class         : STRING;
+				className     : STRING;
 				descIntoGroup : BOOLEAN);
 ```
 
 ```python
-def vs.SetClassN(h, class, descIntoGroup):
+def vs.SetClassN(h, className, descIntoGroup):
     return None
 ```
 
@@ -21,7 +21,7 @@ def vs.SetClassN(h, class, descIntoGroup):
 |Name|Type|Description|
 |---|---|---|
 |h|HANDLE|Handle to object.|
-|class|STRING|Name of class to assign to object.|
+|className|STRING|Name of class to assign to object.|
 |descIntoGroup|BOOLEAN|Assign the same class to all objects inside the group.|
 
 ## Examples
