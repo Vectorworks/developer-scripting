@@ -209,6 +209,7 @@
 | Allow Docking to Drawing | 6752 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Allow Internal Palette Docking | 6753 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Show Docked Document Tabs | 6754 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Document in Edit Group Context | 6756 | TRUE or FALSE (Read Only) | [GetPref](../../Functions/GetPref.md)  |
 | Force the tool to trap the shift key for when it is used with the short keys for modebar | 6770 | TRUE or FALSE (write only) | [GetPref](../../Functions/GetPref.md)  |
 | Controls the state in which windowshaded palettes automaticaly unshade based on mouse proximity | 6775 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Controls the state in which docked palettes automaticaly hides based on mouse proximity | 6776 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
