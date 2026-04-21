@@ -34,6 +34,9 @@ def vs.InsertPulldownSearch(dialogID, controlID, itemIDStr, itemDisplayName, ite
 |itemImageSpec|STRING|Filename, including path, of the image to be displayed for the new item|
 |shouldUpdate|BOOLEAN|Whether or not the pulldown should be updated immediately|
 
+## Examples
+[CreateAndInsertPulldownSearch](examples/CreateAndInsertPulldownSearch.md)
+
 ## Version
 Availability: from Vectorworks 2027
 
