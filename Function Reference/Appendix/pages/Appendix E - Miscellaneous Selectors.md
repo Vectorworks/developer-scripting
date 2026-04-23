@@ -157,54 +157,54 @@ The use of first 3 indexes may not be clear from the image.
 
 ## Record - Worksheet Field Display Styles
 
-| Field Data Type | Display Style | Selector |
-|-----------------|---------------|----------|
-| Boolean | TRUE | 1 |
-| | FALSE | 2 |
-| Number-decimal | no. decimal places | 0 to 9 |
-| Number-decimal w/ commas | no. decimal places | 0 to 9 |
-| Number-scientific | no. decimal places | 0 to 9 |
-| Number-fractional | rounding value | 2,4,8,16,32, etc. |
-| Number-angle | degrees | 1 |
-| | deg-minutes | 2 |
-| | deg-min-seconds | 3 |
-| Number-date/time | mdyy | 1 |
-| | mdyy hmm | 2 |
-| | dmyy | 3 |
-| | dmyy hmm | 4 |
-| | yymd | 5 |
-| | yymd hmm | 6 |
-| | d-mmm-y | 7 |
-| | d-mmm | 8 |
-| | mmm-yy | 9 |
-| | h mm | 10 |
-| | h mm ss | 11 |
-| | h mm(AM/PM) | 12 |
-| | h mm ss(AM/PM) | 13 |
-| | mdyy hms(AM/PM) | 14 |
-| | day month d yyyy | 15 |
-| | day month d yyyy hms(AM/PM) | 16 |
-| | day mmm d yyyy | 17 |
-| | dow mmm d yyyy hms(AM/PM) | 18 |
-| | day d month yyyy | 19 |
-| | day d month yyyy hms(AM/PM) | 20 |
-| | day d mmm yyyy | 21 |
-| | dow d mmm yyyy hms(AM/PM) | 22 |
-| | dmyy hms(AM/PM) | 23 |
-| | day yyyy month d | 24 |
-| | day yyyy month d hms(AM/PM) | 25 |
-| | dow yyyy mmm d | 26 |
-| | dow yyyy mmm d hms(AM/PM) | 27 |
-| | yymd hms(AM/PM) | 28 |
-| | yyyymmdd | 29 |
-| | mmddyyyy | 30 |
-| | yyyy-mm-dd | 31 |
-| | yyyymmddhhmmss | 32 |
-| | ddmmyy | 33 |
-| | ddmmyy hms(AM/PM) | 34 |
-| | ddmmyyyy | 35 |
-| | ddmmyyyy hms(AM/PM) | 36 |
-| | yymmdd | 37 |
+| Field Data Type | Display Style | Format |Selector |
+|-----------------|---------------|--------|---------|
+| Boolean | TRUE | | 1 |
+| | FALSE | | 2 |
+| Number-decimal | no. decimal places | | 0 to 9 |
+| Number-decimal w/ commas | no. decimal places | | 0 to 9 |
+| Number-scientific | no. decimal places | | 0 to 9 |
+| Number-fractional | rounding value | | 2,4,8,16,32, etc. |
+| Number-angle | degrees | | 1 |
+| | deg-minutes | | 2 |
+| | deg-min-seconds | | 3 |
+| Number-date/time | 6/16/25 | mdyy | 1 |
+| | 6/16/25 11:00 | mdyy hmm | 2 |
+| | 16/6/25 | dmyy | 3 |
+| | 16/6/25 11:00 | dmyy hmm | 4 |
+| | 25/6/16 | yymd | 5 |
+| | 25/6/16 11:00 | yymd hmm | 6 |
+| | 16-Jun-25 | d-mmm-y | 7 |
+| | 16-Jun | d-mmm | 8 |
+| | Jun-25 | mmm-yy | 9 |
+| | 11:00 | h mm | 10 |
+| | 11:00:02 | h mm ss | 11 |
+| | 11:00 AM | h mm(AM/PM) | 12 |
+| | 11:00:02 AM | h mm ss(AM/PM) | 13 |
+| | 6/16/25 11:00:02 AM | mdyy hms(AM/PM) | 14 |
+| | Monday, June 16, 2025 | day month d yyyy | 15 |
+| | Monday, June 16, 2025 11:00:02 AM | day month d yyyy hms(AM/PM) | 16 |
+| | Mon, Jun 16, 2025 | day mmm d yyyy | 17 |
+| | Mon, Jun 16, 2026 11:00:02 AM | dow mmm d yyyy hms(AM/PM) | 18 |
+| | Monday, 16 June 2025 | day d month yyyy | 19 |
+| | Monday, 16 June 2025 11:00:02 AM | day d month yyyy hms(AM/PM) | 20 |
+| | Mon, 16 Jun 2025 | day d mmm yyyy | 21 |
+| | Mon, 16 Jun 2025 11:00:02 AM | dow d mmm yyyy hms(AM/PM) | 22 |
+| | 16/6/25 11:00:02 AM | dmyy hms(AM/PM) | 23 |
+| | Monday, 2025 June 16 | day yyyy month d | 24 |
+| | Monday, 2025 June 16 11:00:02 AM | day yyyy month d hms(AM/PM) | 25 |
+| | Mon, 2025 Jun 16 | dow yyyy mmm d | 26 |
+| | Mon, 2025 Jun 16 11:00:02 AM | dow yyyy mmm d hms(AM/PM) | 27 |
+| | 25/6/16 11:00:02 AM | yymd hms(AM/PM) | 28 |
+| | 20250616 | yyyymmdd | 29 |
+| | 06162025 | mmddyyyy | 30 |
+| | 2025-06-16 | yyyy-mm-dd | 31 |
+| | 20250616110002 | yyyymmddhhmmss | 32 |
+| | 160625 | ddmmyy | 33 |
+| | 160625 11:00:02 AM | ddmmyy hms(AM/PM) | 34 |
+| | 16062025 | ddmmyyyy | 35 |
+| | 16062025 11:00:02 AM | ddmmyyyy hms(AM/PM) | 36 |
+| | 250616 | yymmdd | 37 |
 
 ## LinearDim
 
