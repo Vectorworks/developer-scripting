@@ -168,12 +168,12 @@ The use of first 3 indexes may not be clear from the image.
 | Number-angle | degrees | | 1 |
 | | deg-minutes | | 2 |
 | | deg-min-seconds | | 3 |
-| Number-date/time | 6/16/25 | mdyy | 1 |
-| | 6/16/25 11:00 | mdyy hmm | 2 |
-| | 16/6/25 | dmyy | 3 |
-| | 16/6/25 11:00 | dmyy hmm | 4 |
-| | 25/6/16 | yymd | 5 |
-| | 25/6/16 11:00 | yymd hmm | 6 |
+| Number-date/time | 6/16/25 | m/d/yy | 1 |
+| | 6/16/25 11:00 | m/d/yy hmm | 2 |
+| | 16/6/25 | d/m/yy | 3 |
+| | 16/6/25 11:00 | d/m/yy hmm | 4 |
+| | 25/6/16 | yy/m/d | 5 |
+| | 25/6/16 11:00 | yy/m/d hmm | 6 |
 | | 16-Jun-25 | d-mmm-y | 7 |
 | | 16-Jun | d-mmm | 8 |
 | | Jun-25 | mmm-yy | 9 |
@@ -181,21 +181,21 @@ The use of first 3 indexes may not be clear from the image.
 | | 11:00:02 | h mm ss | 11 |
 | | 11:00 AM | h mm(AM/PM) | 12 |
 | | 11:00:02 AM | h mm ss(AM/PM) | 13 |
-| | 6/16/25 11:00:02 AM | mdyy hms(AM/PM) | 14 |
-| | Monday, June 16, 2025 | day month d yyyy | 15 |
-| | Monday, June 16, 2025 11:00:02 AM | day month d yyyy hms(AM/PM) | 16 |
-| | Mon, Jun 16, 2025 | day mmm d yyyy | 17 |
-| | Mon, Jun 16, 2026 11:00:02 AM | dow mmm d yyyy hms(AM/PM) | 18 |
-| | Monday, 16 June 2025 | day d month yyyy | 19 |
-| | Monday, 16 June 2025 11:00:02 AM | day d month yyyy hms(AM/PM) | 20 |
-| | Mon, 16 Jun 2025 | day d mmm yyyy | 21 |
-| | Mon, 16 Jun 2025 11:00:02 AM | dow d mmm yyyy hms(AM/PM) | 22 |
-| | 16/6/25 11:00:02 AM | dmyy hms(AM/PM) | 23 |
-| | Monday, 2025 June 16 | day yyyy month d | 24 |
-| | Monday, 2025 June 16 11:00:02 AM | day yyyy month d hms(AM/PM) | 25 |
-| | Mon, 2025 Jun 16 | dow yyyy mmm d | 26 |
-| | Mon, 2025 Jun 16 11:00:02 AM | dow yyyy mmm d hms(AM/PM) | 27 |
-| | 25/6/16 11:00:02 AM | yymd hms(AM/PM) | 28 |
+| | 6/16/25 11:00:02 AM | m/d/yy hms(AM/PM) | 14 |
+| | Monday, June 16, 2025 | day, month d, yyyy | 15 |
+| | Monday, June 16, 2025 11:00:02 AM | day, month d, yyyy hms(AM/PM) | 16 |
+| | Mon, Jun 16, 2025 | day, mmm d, yyyy | 17 |
+| | Mon, Jun 16, 2026 11:00:02 AM | dow, mmm d, yyyy hms(AM/PM) | 18 |
+| | Monday, 16 June 2025 | day, d month yyyy | 19 |
+| | Monday, 16 June 2025 11:00:02 AM | day, d month yyyy hms(AM/PM) | 20 |
+| | Mon, 16 Jun 2025 | day, d mmm yyyy | 21 |
+| | Mon, 16 Jun 2025 11:00:02 AM | dow, d mmm yyyy hms(AM/PM) | 22 |
+| | 16/6/25 11:00:02 AM | d/m/yy hms(AM/PM) | 23 |
+| | Monday, 2025 June 16 | day, yyyy month d | 24 |
+| | Monday, 2025 June 16 11:00:02 AM | day, yyyy month d hms(AM/PM) | 25 |
+| | Mon, 2025 Jun 16 | dow, yyyy mmm d | 26 |
+| | Mon, 2025 Jun 16 11:00:02 AM | dow, yyyy mmm d hms(AM/PM) | 27 |
+| | 25/6/16 11:00:02 AM | yy/m/d hms(AM/PM) | 28 |
 | | 20250616 | yyyymmdd | 29 |
 | | 06162025 | mmddyyyy | 30 |
 | | 2025-06-16 | yyyy-mm-dd | 31 |
