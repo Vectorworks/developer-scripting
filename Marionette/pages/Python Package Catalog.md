@@ -1,3 +1,5 @@
+
+Vectorworks 2027
 | Package | Package Version | Package OS | VW Version Python Version |
 |---------|-----------------|------------|---------------------------|
 | numpy-2.5.1-cp314-cp314-win_amd64.whl | 2.5.1 | Windows | 2026/3.14.5 |
@@ -24,6 +26,9 @@
 | shapely-2.1.2-cp314-cp314-win_amd64.whl | 2.1.2 | Windows | 2026/3.14.5 |
 | shapely-2.1.2-cp314-cp314-macosx_11_0_arm64.whl | 2.1.2 | MacOS X M1 | 2026/3.14.5 |
 
+Vectorworks 2026
+| Package | Package Version | Package OS | VW Version Python Version |
+|---------|-----------------|------------|---------------------------|
 | numpy-1.22.1-cp39-cp39-win_amd64 | 1.22.1 | Windows | 2025/3.9.2 |
 | numpy-1.22.1-cp39-cp39-macosx_10_9_x86_64 | 1.22.1 | MacOS X X86_64 | 2025/3.9.2 |
 | numpy-1.22.1-cp39-cp39-macosx_11_0_arm64 | 1.22.1 | MacOS X M1 | 2025/3.9.2 |
