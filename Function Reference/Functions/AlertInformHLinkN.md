@@ -56,6 +56,25 @@ END;
 RUN(Example);
 ```
 
+```pascal
+AlertInformHLinkN(text, adviceBeforeLink, linkTitle, linkURL, adviceAfterLink, TRUE, arrOptions);
+```
+```python
+import vs
+
+# Displays an alert dialog which provides the user with information about the
+# result of a command with an option to not show the dialog again.
+text = 'Example text'
+adviceBeforeLink = 'Example'
+linkTitle = 'Example'
+linkURL = 'C:/Temp/example.txt'
+adviceAfterLink = 'Example'
+minorAlert = True
+arrOptions = []
+
+vs.AlertInformHLinkN(text, adviceBeforeLink, linkTitle, linkURL, adviceAfterLink, minorAlert, arrOptions)
+```
+
 ## See Also
 VS Functions:
 [AlertInform](AlertInform.md) 

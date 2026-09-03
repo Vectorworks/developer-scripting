@@ -20,6 +20,35 @@ def vs.HasObjStoryBound(obj, boundID):
 |obj|HANDLE|The object.|
 |boundID|INTEGER|The identifier of the story bound.|
 
+## Examples
+```pascal
+IF ( NOT HasObjStoryBound( gPluginH, kOldTopBoundArchitID ) ) THEN
+BEGIN
+	UpdateBound( formatHand, gPluginH, kOldTopBoundArchitID, kOldTopBoundArchitID, pOA_Height );
+END;
+
+BEGIN
+	formatHand := GetObject( objectName );
+	IF GetObjStoryBound( formatHand, topBoundID, boundType, boundStory, layerLevelType, topOffset ) &
+		( NOT HasObjStoryBound( objectHand, topBoundID ) ) THEN
+	BEGIN
+		SetObjectStoryBound( objectHand, topBoundID, boundType, boundStory, layerLevelType, topOffset );
+	END;
+```
+```python
+import vs
+
+# Determine if the object has the specified story bound ID present.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+boundID = 1
+
+ok = vs.HasObjStoryBound(obj, boundID)
+if ok:
+    vs.Message('HasObjStoryBound succeeded')
+else:
+    vs.Message('HasObjStoryBound failed')
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

@@ -24,6 +24,27 @@ def vs.IsLBResOnlyCurDoc(dialogID, componentID, itemIndex, subItemIndex):
 |itemIndex|INTEGER|the item index|
 |subItemIndex|INTEGER|the column index|
 
+## Examples
+```pascal
+resultOK := IsLBResOnlyCurDoc(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Returns whether the specified list browser item is set, or not, to only use
+# the current document when using/displaying resources.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok = vs.IsLBResOnlyCurDoc(dialogID, componentID, itemIndex, subItemIndex)
+if ok:
+    vs.Message('IsLBResOnlyCurDoc succeeded')
+else:
+    vs.Message('IsLBResOnlyCurDoc failed')
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

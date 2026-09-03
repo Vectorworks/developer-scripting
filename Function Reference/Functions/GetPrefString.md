@@ -32,6 +32,33 @@ unitmark:=GetPrefString(154);
 unitmark = vs.GetPrefString(154)
 ```
 
+```pascal
+{save the current text style, and font of the doc in order to restore them after the creation of the new callout}
+oldDocFontName	:= GetPrefString(100);
+oldDocFontStyle	:= GetPrefInt(58);
+
+BEGIN
+gHtUnitStr := GetPrefString(154);
+IF gHtUnitStr='"' THEN gHtUnitStr:= ' in';
+nomht := Concat(ht);{Num2StrF(PCustom_Height)}
+END;
+
+CASE GetPrefInt (170) OF
+	1, 2: um := GetPluginString (5001);
+	3   : um := GetPluginString (5002);
+	OTHERWISE um := GetPrefString (154);
+END;
+```
+```python
+import vs
+
+# Returns the value of a VectorWorks preference setting.
+prefIndex = 1
+
+text = vs.GetPrefString(prefIndex)
+vs.Message('GetPrefString returned: ' + str(text))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

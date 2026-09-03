@@ -32,6 +32,19 @@ numSegments := GetNumGradientSegments(gradientHandle);
 numSegments = vs.GetNumGradientSegments(gradientHandle)
 ```
 
+```pascal
+resultN := GetNumGradientSegments(gradient);
+```
+```python
+import vs
+
+# Gets the number of segments in the gradient.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+count = vs.GetNumGradientSegments(gradient)
+vs.Message('GetNumGradientSegments returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

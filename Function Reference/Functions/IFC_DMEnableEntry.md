@@ -22,6 +22,25 @@ def vs.IFC_DMEnableEntry(inStrObjName, inStrEntryName, bEnable):
 |inStrEntryName|STRING|   |
 |bEnable|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMEnableEntry('Example', 'Example', TRUE);
+```
+```python
+import vs
+
+# Enables/Disables indicated entry from current IFC Data Mapping is enabled.
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+bEnable = True
+
+ok = vs.IFC_DMEnableEntry(inStrObjName, inStrEntryName, bEnable)
+if ok:
+    vs.Message('IFC_DMEnableEntry succeeded')
+else:
+    vs.Message('IFC_DMEnableEntry failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

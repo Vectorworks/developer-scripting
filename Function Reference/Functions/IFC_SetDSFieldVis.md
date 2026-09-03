@@ -24,6 +24,26 @@ def vs.IFC_SetDSFieldVis(objectName, dataSheetName, fieldLabel, isVisible):
 |fieldLabel|STRING|   |
 |isVisible|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_SetDSFieldVis('Example', 'Example', 'MyRecord', TRUE);
+```
+```python
+import vs
+
+# Sets Data Sheet field visibility.
+objectName = 'Example'
+dataSheetName = 'Example'
+fieldLabel = 'MyField'
+isVisible = True
+
+ok = vs.IFC_SetDSFieldVis(objectName, dataSheetName, fieldLabel, isVisible)
+if ok:
+    vs.Message('IFC_SetDSFieldVis succeeded')
+else:
+    vs.Message('IFC_SetDSFieldVis failed')
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

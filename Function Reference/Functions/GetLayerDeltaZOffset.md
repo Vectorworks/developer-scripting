@@ -29,6 +29,20 @@ def vs.GetLayerDeltaZOffset(theWall):
 |---|---|---|
 |theWall|HANDLE|The wall.|
 
+## Examples
+```pascal
+resultVal := GetLayerDeltaZOffset(theWall);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+value = vs.GetLayerDeltaZOffset(theWall)
+vs.Message('GetLayerDeltaZOffset returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetLayerDeltaZOffset](SetLayerDeltaZOffset.md)

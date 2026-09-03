@@ -23,6 +23,22 @@ def vs.CellValue(row, column):
 ## Remarks
 Returns the floating point representation of the current worksheet's cell specified by &quot;row&quot; and &quot;column&quot; numbers.  If the specified cell is not a numeric type, then this function returns 0. [sd 8/13/98]
 
+## Examples
+```pascal
+resultVal := CellValue(1, 2);
+```
+```python
+import vs
+
+# Function CellValue returns the numeric value of a specified cell in the
+# active worksheet.
+row = 10
+column = 5
+
+value = vs.CellValue(row, column)
+vs.Message('CellValue returned: ' + str(value))
+```
+
 ## See Also
 [GetWSCellValue](GetWSCellValue.md), [GetWSSubrowCellValue](GetWSSubrowCellValue.md)
 

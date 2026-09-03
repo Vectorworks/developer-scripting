@@ -33,9 +33,15 @@ totalArea:=SurfaceArea((C='Empty Space'));
 
 ```
 
+```pascal
+resultVal := SurfaceArea(c);
+```
+```python
+result = vs.SurfaceArea(c)
+```
+
 ## Version
 SurfaceArea is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from VectorWorks8.0
 

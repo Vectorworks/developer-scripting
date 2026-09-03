@@ -22,6 +22,18 @@ def vs.GetModifierFlags():
 |cmdFlag|BOOLEAN|The state of the cmd/ctrl key.|
 |shiftFlag|BOOLEAN|The state of the shift key.|
 
+## Examples
+```pascal
+GetModifierFlags(TRUE, FALSE, TRUE);
+```
+```python
+import vs
+
+# Returns the state of option/alt, cmd/ctrl, shift keys.
+optionFlag, cmdFlag, shiftFlag = vs.GetModifierFlags()
+vs.Message('GetModifierFlags returned: ' + str((optionFlag, cmdFlag, shiftFlag)))
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

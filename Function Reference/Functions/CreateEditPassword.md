@@ -40,6 +40,21 @@ END;
 RUN(Example);
 ```
 
+```pascal
+CreateEditPassword(1, 2, 3);
+```
+```python
+import vs
+
+# Creates an password text field control in a dialog layout.
+dialogID = 1
+itemID = 2
+widthInStdChar = 3
+
+vs.CreateEditPassword(dialogID, itemID, widthInStdChar)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [GetDlgCtrlWidthStdCh](GetDlgCtrlWidthStdCh.md)

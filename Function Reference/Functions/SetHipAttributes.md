@@ -51,6 +51,27 @@ overhang: Distance roof projects past dormer walls.
 ## Examples
 [CreateRoofOb](examples/CreateRoofObj.md)
 
+```pascal
+SetHipAttributes(roofObject, 1, TRUE, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Procedure SetHipAttributes sets the attributes of a hip dormer in the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+useHeight = True
+heightDepthDistance = 0.1
+bottomWidthDistance = 2.0
+overhangDistance = 1.0
+leftAngle = 45.0
+rightAngle = 90.0
+frontAngle = 30.0
+
+vs.SetHipAttributes(roofObject, dormerID, useHeight, heightDepthDistance, bottomWidthDistance, overhangDistance, leftAngle, rightAngle, frontAngle)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

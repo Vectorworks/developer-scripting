@@ -65,6 +65,20 @@ def GetClosestPtExample():
 GetClosestPtExample()
 ```
 
+```pascal
+GetClosestPt(obj, 1.0, 2.0, 1, 2);
+```
+```python
+import vs
+
+# Returns the index number of the object closest to the specified location.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+pt = (0, 0)
+
+obj, index, containedObj = vs.GetClosestPt(obj, pt)
+vs.Message('GetClosestPt returned: ' + str((obj, index, containedObj)))
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

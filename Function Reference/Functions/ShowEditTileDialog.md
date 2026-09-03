@@ -22,6 +22,19 @@ def vs.ShowEditTileDialog(tileHandle):
 ShowEditTileDialog(tileHandle);
 ```
 
+```pascal
+ShowEditTileDialog(tileHandle);
+```
+```python
+import vs
+
+# Displays the edit tile dialog for the specified tile allowing the user to
+# specify whether they wish to edit the tile's geometry or settings.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.ShowEditTileDialog(tileHandle)
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

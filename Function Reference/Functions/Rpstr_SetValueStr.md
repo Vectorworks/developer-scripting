@@ -20,6 +20,25 @@ def vs.Rpstr_SetValueStr(name, value):
 |name|STRING|The name of the value.|
 |value|DYNARRAY[] of CHAR|Set a value associated with the name in the VectorScript value repository.|
 
+## Examples
+```pascal
+	END
+	ELSE
+		listSetting := Rpstr_GetValueStr( kSettingDefList, '1' );
+	proceed := (listSetting = '1');
+	Rpstr_SetValueStr( kSettingDefList, listSetting );
+END
+```
+```python
+import vs
+
+# Set a string value from the VectorScript value repository.
+name = 'Example'
+value = 'Example'
+
+vs.Rpstr_SetValueStr(name, value)
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

@@ -20,6 +20,21 @@ def vs.vsoADPAddDimPlace(message, dimType):
 |message|LONGINT|   |
 |dimType|INTEGER|   |
 
+## Examples
+```pascal
+vsoADPAddDimPlace(1, 2);
+```
+```python
+import vs
+
+# Add a dimension placement to a dimension type result that has begun for the
+# Auto Dimension GetSupportedTypes (77) message sent to a Script object.
+message = 'Hello Vectorworks'
+dimType = 0
+
+vs.vsoADPAddDimPlace(message, dimType)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

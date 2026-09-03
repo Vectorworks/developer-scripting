@@ -19,6 +19,20 @@ def vs.WSScript_SetResInt(resultCellValue):
 |---|---|---|
 |resultCellValue|INTEGER|The value for the result of the worksheet script called by the RunScript worksheet function.|
 
+## Examples
+```pascal
+WSScript_SetResInt(1);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+resultCellValue = 1
+
+vs.WSScript_SetResInt(resultCellValue)
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

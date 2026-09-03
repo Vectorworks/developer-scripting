@@ -17,6 +17,17 @@ def vs.GetDefaultOpacityN():
 |outPenOpacity|INTEGER|   |
 |outFillOpacity|INTEGER|   |
 
+## Examples
+```pascal
+GetDefaultOpacityN(1, 2);
+```
+```python
+import vs
+
+outPenOpacity, outFillOpacity = vs.GetDefaultOpacityN()
+vs.Message('GetDefaultOpacityN returned: ' + str((outPenOpacity, outFillOpacity)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

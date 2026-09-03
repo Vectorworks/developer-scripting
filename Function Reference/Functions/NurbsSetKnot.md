@@ -33,6 +33,22 @@ def vs.NurbsSetKnot(objectHd, index1, index2, knot):
 ## Remarks
 this function will work for both nurbs curves and nurbs surfaces
 
+## Examples
+```pascal
+NurbsSetKnot(objectHd, 1, 2, 1.0);
+```
+```python
+import vs
+
+# Sets the specified knot in a NURBS curve or surface.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index1 = 1
+index2 = 1
+knot = 1.0
+
+vs.NurbsSetKnot(objectHd, index1, index2, knot)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

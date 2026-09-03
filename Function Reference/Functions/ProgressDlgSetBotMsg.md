@@ -20,8 +20,20 @@ def vs.ProgressDlgSetBotMsg(message):
 ## Examples
 les can be found at [[VS:Progress Dialog]].
 
+```pascal
+ProgressDlgSetBotMsg('Example');
+```
+```python
+import vs
+
+# Set bottom message of a progress dialog.
+message = 'Hello Vectorworks'
+
+vs.ProgressDlgSetBotMsg(message)
+```
+
 ## See Also
-[ProgressDlgOpen](ProgressDlgOpen.md) | [ProgressDlgClose](ProgressDlgClose.md) | [ProgressDlgSetTopMsg](ProgressDlgSetTopMsg.md) | [ProgressDlgSetBotMsg](ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](ProgressDlgSetMeter.md) | [ProgressDlgStart](ProgressDlgStart.md) | [ProgressDlgEnd](ProgressDlgEnd.md) | [ProgressDlgHasCancel](ProgressDlgHasCancel.md) | [ProgressDlgYeld](ProgressDlgYeld.md)
+[ProgressDlgOpen](ProgressDlgOpen.md) | [ProgressDlgClose](ProgressDlgClose.md) | [ProgressDlgSetTopMsg](ProgressDlgSetTopMsg.md) | [ProgressDlgSetBotMsg](ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](ProgressDlgSetMeter.md) | [ProgressDlgStart](ProgressDlgStart.md) | [ProgressDlgEnd](ProgressDlgEnd.md) | [ProgressDlgHasCancel](ProgressDlgHasCancel.md) | [ProgressDlgYield](ProgressDlgYield.md)
 
 ## Version
 Availability: from Vectorworks 2015

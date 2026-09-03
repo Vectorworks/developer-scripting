@@ -17,6 +17,16 @@ def vs.ShowOnlySelected():
 ShowOnlySelected();
 ```
 
+```pascal
+ShowOnlySelected;
+```
+```python
+import vs
+
+# Sets the object visibility of all unselected objects to &quot;invisible&quot;.
+vs.ShowOnlySelected()
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

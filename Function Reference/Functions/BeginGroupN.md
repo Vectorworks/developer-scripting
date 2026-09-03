@@ -61,6 +61,38 @@ EndGroup;
 { creates new group and adds created rect to created group }
 ```
 
+```pascal
+BEGIN
+	gPluginObjH := CreateCustomObjectN ('Seating Section', 0, 0, 0, FALSE);
+	tempObjH := HDuplicate (h, 0, 0);
+	BeginGroupN(profileGroupH);
+	Locus(0,0);
+	EndGroup;
+	result := SetCustomObjectPath (gPluginObjH, tempObjH);
+	result := SetCustomObjectProfileGroup( gPluginObjH, profileGroupH );
+
+BEGIN
+	BeginGroupN( HighlightGroupHand );
+		HighlightMaskHand := CreateDuplicateObject( pioPathObjHand, HighlightGroupHand );
+		{
+		IF pioLineMode
+		THEN SetPolyClosed( HighlightMaskHand, FALSE )
+
+Begin
+	BeginGroupN( TriangleGroupHand );
+```
+```python
+import vs
+
+# May be used to create objects in an existing group by passing a group
+# handle; if a handle initialized to NIL is passed a new group is created.
+groupHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.BeginGroupN(groupHandle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [BeginGroup](BeginGroup.md) 

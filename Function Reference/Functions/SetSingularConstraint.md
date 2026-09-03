@@ -38,6 +38,26 @@ def vs.SetSingularConstraint(typeOfConstraint, h, vertexA, vertexB):
 ## Remarks
 Sets a constraint of type typeOfConstraint on the object h.  The valid values for typeOfConstraint are  4 (vertical), 5 (horizontal), 8 (distance), 9 (vertical distance), 10 (horizontal distance) and 11 (radius).  vertexA and vertexB indicate which vertices of the object define the geometry to be constrained.  A value of -1 indicates that a vertex parameter is not applicable.  It returns false if the constraint cannot be set.
 
+## Examples
+```pascal
+resultOK := SetSingularConstraint(1, h, 2, 3);
+```
+```python
+import vs
+
+# Applies a parametric constraint to the referenced object.
+typeOfConstraint = 0
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+vertexA = 1
+vertexB = 2
+
+ok = vs.SetSingularConstraint(typeOfConstraint, h, vertexA, vertexB)
+if ok:
+    vs.Message('SetSingularConstraint succeeded')
+else:
+    vs.Message('SetSingularConstraint failed')
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

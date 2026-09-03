@@ -20,6 +20,37 @@ def vs.NextObj(h):
 ## Examples
 [ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
+```pascal
+			gFolderN [gNumSymFolders] := GetName (itemHdl);
+	  	 	getSymbolFolderNames (FInFolder (itemHdl));
+	   END;
+	END;
+	itemHdl := NextObj (itemHdl);
+END;
+
+			END;
+			slab_h := nextobj(slab_h);
+		END ;
+END;
+
+SetRField(hobj,kRecName,kStatName,StatVal);
+WHILE (hobj <> NIL) DO BEGIN
+	SetPenFore(hobj,r,g,b);
+	hobj := NextObj(hobj);
+	END;
+```
+```python
+import vs
+
+# Function NextObj returns the next object in any list.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.NextObj(h)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+See also in tutorials: [10. Iterate the Drawing and Report a Summary](ai%20examples/10_IterateAndReport.md)
+
 ## See Also
 Relative calls:
 * [NextObj](NextObj.md) | [PrevObj](PrevObj.md)

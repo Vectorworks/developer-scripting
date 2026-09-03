@@ -12,6 +12,17 @@ def vs.LightingUnivExport():
     return None
 ```
 
+## Examples
+```pascal
+LightingUnivExport;
+```
+```python
+import vs
+
+# Exports Lighting universe settings to data exchange file.
+vs.LightingUnivExport()
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

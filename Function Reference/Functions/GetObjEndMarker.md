@@ -65,6 +65,35 @@ def Example()
 Example()
 ```
 
+```pascal
+BEGIN
+	BSB := GetObjBeginningMarker( objHand, gArrowStyleIndex, gArrowAngle, gArrowSize, gArrowWidth, gThicknessBasis, gArrowThickness, begArrow );
+	BSB := GetObjEndMarker( objHand, gArrowStyleIndex, gArrowAngle, gArrowSize, gArrowWidth, gThicknessBasis, gArrowThickness, endArrow );
+END;
+
+END;
+if IsMarkerByClass(h1) then SetMarkerByClass(h2) else BEGIN
+	BSB := GetObjBeginningMarker(h1,style,angle,length,width,thicknessBasis,thickness,visibility);
+	BSB := SetObjBeginningMarker(h2,style,angle,length,width,thicknessBasis,thickness,visibility);
+	BSB := GetObjEndMarker(h1,style,angle,length,width,thicknessBasis,thickness,visibility);
+	BSB := SetObjEndMarker(h2,style,angle,length,width,thicknessBasis,thickness,visibility);
+END;
+
+IF pluginH = NIL THEN
+	OK := GetDefaultEndMarker (markerStyle, markerAngle, markerSize, markerWidth, markerThkBasis, markerThickness, markerVisibility)
+ELSE
+	OK := GetObjEndMarker (pluginH,markerStyle, markerAngle, markerSize, markerWidth, markerThkBasis, markerThickness, markerVisibility);
+```
+```python
+import vs
+
+# Gets all properties for an object's end marker.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, style, angle, size, width, thicknessBasis, thickness, visibility = vs.GetObjEndMarker(obj)
+vs.Message('GetObjEndMarker returned: ' + str((ok, style, angle, size, width, thicknessBasis, thickness, visibility)))
+```
+
 ## See Also
 VS Functions:
 [GetObjBeginningMarker](GetObjBeginningMarker.md)

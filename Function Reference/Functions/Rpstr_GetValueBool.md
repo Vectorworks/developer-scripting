@@ -36,6 +36,44 @@ bool CDlgXXX::CreateDialogLayout()
 }
 ```
 
+## Examples
+```pascal
+BEGIN
+	CurrClass := ActiveClass;
+	IsRegistered := Rpstr_GetValueBool('IsRegistered',FALSE);
+	IF (NOT IsRegistered) THEN
+		BEGIN
+			{AlrtDialog('You have been using AutpPlot Tools for longer than 3 months.  Please register.  See the first AutoPlot menu item');}
+			DelObject(PIOHan);
+
+BEGIN
+	IsRegistered := Rpstr_GetValueBool('IsRegistered',FALSE);
+	IF (NOT IsRegistered) THEN
+		BEGIN
+			CreateText('BAD DATA CABLE');
+		END
+
+BEGIN
+	IsRegistered := Rpstr_GetValueBool('IsRegistered',FALSE);
+	IF (NOT IsRegistered) THEN
+		BEGIN
+			CreateText('BAD FEEDER CABLE');
+		END
+```
+```python
+import vs
+
+# Get a boolean value from the VectorScript value repository.
+name = 'Example'
+defaultValue = True
+
+ok = vs.Rpstr_GetValueBool(name, defaultValue)
+if ok:
+    vs.Message('Rpstr_GetValueBool succeeded')
+else:
+    vs.Message('Rpstr_GetValueBool failed')
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

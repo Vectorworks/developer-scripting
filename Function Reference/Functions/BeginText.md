@@ -15,6 +15,11 @@ PROCEDURE BeginText;
 ## Remarks
 (*\_c\_*, 2015.12.19): If you draw text, it is important to have a proper text size on the document or you'll see the error "An incorrect object is described".
 
+## Examples
+```pascal
+BeginText;
+```
+
 ## See Also
 VS Functions:
 [EndText](EndText.md) 

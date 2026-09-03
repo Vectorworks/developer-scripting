@@ -20,6 +20,21 @@ def vs.vsoADPSetLocTypeName(message, localizedName):
 |message|LONGINT|   |
 |localizedName|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+vsoADPSetLocTypeName(1, localizedName);
+```
+```python
+import vs
+
+# Provide the localized type name result for the Auto Dimension
+# GetLocalizedTypeName (76) message sent to a Script object.
+message = 'Hello Vectorworks'
+localizedName = 'Example'
+
+vs.vsoADPSetLocTypeName(message, localizedName)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

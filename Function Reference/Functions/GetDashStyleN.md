@@ -38,6 +38,14 @@ Searches for the pattern specified by the parameters. If it exists, then the neg
 currLS:=GetDashStyleN;
 ```
 
+```pascal
+resultN := GetDashStyleN(TRUE, 1, 1.0, 2.0, 0.5, 1.5, 3.0);
+```
+```python
+if ( ls == -1 ) :
+	result	= vs.GetDashStyleN( True, 1, 0.041656, 0.041656 )
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

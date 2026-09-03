@@ -25,6 +25,21 @@ def vs.GetLayerAmbientInfo(layer):
 ## Remarks
 brightness is a percentage value
 
+## Examples
+```pascal
+GetLayerAmbientInfo(layer, TRUE, 1);
+```
+```python
+import vs
+
+# Procedure GetLayerAmbientInfo returns the attribute values for the ambient
+# light object of the referenced layer.
+layer = vs.ActLayer()  # handle to the active design layer
+
+isOn, brightness = vs.GetLayerAmbientInfo(layer)
+vs.Message('GetLayerAmbientInfo returned: ' + str((isOn, brightness)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

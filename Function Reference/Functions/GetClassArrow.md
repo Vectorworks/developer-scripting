@@ -51,6 +51,13 @@ RUN(ShowNoneClassArrowValues);
 
 ```
 
+```pascal
+GetClassArrow('Wall', 1, 1.0, 2);
+```
+```python
+result = vs.GetClassArrow('Wall')
+```
+
 ## See Also
 VS Functions:
 * [GetClassBeginningMarker](GetClassBeginningMarker.md)

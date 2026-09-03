@@ -96,8 +96,20 @@ def Test():
 		
 		hCurrentLayer = vs.NextLayer(hCurrentLayer)
 
-
 Test()
+```
+
+```pascal
+resultOK := DBObjSQLGetRead(hRecord, SQLSentence);
+```
+```python
+import vs
+
+# Get an object's SQL query for ODBC read.
+hRecord = vs.GetObject('MyRecord')  # handle to a record format
+
+ok, SQLSentence = vs.DBObjSQLGetRead(hRecord)
+vs.Message('DBObjSQLGetRead returned: ' + str((ok, SQLSentence)))
 ```
 
 ## Version

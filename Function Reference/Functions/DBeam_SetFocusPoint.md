@@ -17,6 +17,19 @@ def vs.DBeam_SetFocusPoint(pt):
 |---|---|---|
 |pt|REAL|   |
 
+## Examples
+```pascal
+DBeam_SetFocusPoint(1.0);
+```
+```python
+import vs
+
+# Set focus point for the beam.
+pt = 1.0
+
+vs.DBeam_SetFocusPoint(pt)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

@@ -22,6 +22,21 @@ def vs.OLDGetConstructMat(materialIndex):
 |UniversalName|STRING|   |
 |LocalizedName|STRING|   |
 
+## Examples
+```pascal
+OLDGetConstructMat(1, 'Example', 'Example');
+```
+```python
+import vs
+
+# Returns the universal and the localized names of the construction material
+# at the given index.
+materialIndex = 1
+
+UniversalName, LocalizedName = vs.OLDGetConstructMat(materialIndex)
+vs.Message('OLDGetConstructMat returned: ' + str((UniversalName, LocalizedName)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

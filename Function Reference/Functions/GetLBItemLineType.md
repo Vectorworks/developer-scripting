@@ -28,6 +28,23 @@ def vs.GetLBItemLineType(dialogID, componentID, itemIndex, subItemIndex):
 |lineType|LONGINT|the line type internal index (reference number)|
 |lineWeight|INTEGER|the line weight|
 
+## Examples
+```pascal
+resultOK := GetLBItemLineType(1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Gets the specified list browser item's line type.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, lineType, lineWeight = vs.GetLBItemLineType(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemLineType returned: ' + str((ok, lineType, lineWeight)))
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

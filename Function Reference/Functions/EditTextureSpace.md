@@ -23,6 +23,25 @@ def vs.EditTextureSpace(obj, partID):
 ## Remarks
 Brings up the Edit Mapping dialog for the space attached to the object.  Returns true if the texture space was changed by the dialog.
 
+## Examples
+```pascal
+resultOK := EditTextureSpace(obj, 1);
+```
+```python
+import vs
+
+# Function EditTextureSpace edits the mapping of a specified texture space
+# for the referenced object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+
+ok = vs.EditTextureSpace(obj, partID)
+if ok:
+    vs.Message('EditTextureSpace succeeded')
+else:
+    vs.Message('EditTextureSpace failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

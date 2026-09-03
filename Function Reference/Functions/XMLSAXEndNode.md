@@ -20,6 +20,19 @@ def vs.XMLSAXEndNode(XMLHandle):
 ## Examples
 [XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) or [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
+```pascal
+resultN := XMLSAXEndNode(1);
+```
+```python
+import vs
+
+# Write XML using SAX, end of a node.
+XMLHandle = 1
+
+resultN = vs.XMLSAXEndNode(XMLHandle)
+vs.Message('XMLSAXEndNode returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

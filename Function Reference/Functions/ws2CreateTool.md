@@ -33,6 +33,25 @@ VectorScript Object = 3
 
 SDK Parametric = 4
 
+## Examples
+```pascal
+resultOK := ws2CreateTool(toolPath, univName, 1);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+univName = 'Example'
+resourceID = 1
+
+ok = vs.ws2CreateTool(toolPath, univName, resourceID)
+if ok:
+    vs.Message('ws2CreateTool succeeded')
+else:
+    vs.Message('ws2CreateTool failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

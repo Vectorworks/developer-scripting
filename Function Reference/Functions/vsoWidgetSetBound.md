@@ -23,6 +23,27 @@ def vs.vsoWidgetSetBound(widgetID_Popup, widgetID_Offset, boundID, isTop, offset
 |isTop|BOOLEAN|   |
 |offsetLegPrm|STRING|   |
 
+## Examples
+```pascal
+{ set the architectural bound. }
+vsoWidgetSetBound( kTopBoundArchitWidgetID, kTopOffsetArchitWidgetID, kTopBoundArchitID, TRUE  {top}, '' );
+vsoWidgetSetBound( kBotBoundArchitWidgetID, kBotOffsetArchitWidgetID, kBotBoundArchitID, FALSE {top}, '' );
+
+vsoWidgetSetBound( kTopBoundWidgetID, kTopOffsetWidgetID, kTopBoundID, true {top}, '' );
+vsoWidgetSetBound( kBottomBoundWidgetID, kBottomOffsetWidgetID, kBottomBoundID, false {top}, '' );
+```
+```python
+import vs
+
+widgetID_Popup = 1
+widgetID_Offset = 2
+boundID = 3
+isTop = True
+offsetLegPrm = 'Example'
+
+vs.vsoWidgetSetBound(widgetID_Popup, widgetID_Offset, boundID, isTop, offsetLegPrm)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

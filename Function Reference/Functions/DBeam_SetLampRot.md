@@ -14,6 +14,18 @@ def vs.DBeam_SetLampRot(rot):
 |---|---|---|
 |rot|REAL|   |
 
+## Examples
+```pascal
+DBeam_SetLampRot(1.0);
+```
+```python
+import vs
+
+rot = 1.0
+
+vs.DBeam_SetLampRot(rot)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

@@ -20,6 +20,24 @@ def vs.DelSavedSetting(category, setting):
 |category|STRING|The category for the setting.|
 |setting|STRING|The setting to be deleted.|
 
+## Examples
+```pascal
+resultOK := DelSavedSetting('Example', 'Example');
+```
+```python
+import vs
+
+# Delete saved settings.
+category = 'Example'
+setting = 'Example'
+
+ok = vs.DelSavedSetting(category, setting)
+if ok:
+    vs.Message('DelSavedSetting succeeded')
+else:
+    vs.Message('DelSavedSetting failed')
+```
+
 ## See Also
 VS Functions:
 [DelSavedSettings](DelSavedSettings.md) 

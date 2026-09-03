@@ -24,6 +24,33 @@ def vs.Layer(name):
 ## Examples
 [IsolateLayer](examples/IsolateLayer.md)
 
+```pascal
+actLayerH := actLayer;
+IF GetLayer (h) <> NIL THEN Layer (GetLName (GetLayer (h)));
+{Layer (GetLName (GetLayer (h)));}
+getArcProps (objH, method, r, theta1, theta2, maxSegLength, x, y);
+
+{store the active Layer}
+actLH := ActLayer;
+{change the active Layer}
+Layer( GetLName( GetLayer( textFoundH ) ) );
+
+if layerOptions = 1 then BEGIN
+	SetLayerOptions(5);
+	temp_h := FLayer;
+	while temp_h <> nil do BEGIN
+		Layer(GetLName(temp_h));
+		ShowLayer;
+		temp_h := NextObj(temp_h);
+	END;
+```
+```python
+if ( objectLayerName != '' ) and ( objectLayerName != activeLayerName ):
+	vs.Layer( objectLayerName )
+	bRestoreLayer = True
+```
+See also in tutorials: [07. Set Up Document Structure: Layers and Classes](ai%20examples/07_LayersAndClasses.md), [29. Cross-Layer Summary](ai%20examples/29_WorksheetCrossLayerSummary.md), [30. Publish Worksheet Image on a Sheet Layer](ai%20examples/30_WorksheetPublishOnSheet.md)
+
 ## Version
 Availability: from All Versions
 

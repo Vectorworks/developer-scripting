@@ -22,6 +22,21 @@ def vs.GetProjectionProj4(hLayer, esriStyle):
 |esriStyle|BOOLEAN|   |
 |outProj4|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := GetProjectionProj4(hLayer, TRUE, outProj4);
+```
+```python
+import vs
+
+# Get the projection information in Proj4 format.
+hLayer = vs.ActLayer()  # handle to the active design layer
+esriStyle = True
+
+ok, outProj4 = vs.GetProjectionProj4(hLayer, esriStyle)
+vs.Message('GetProjectionProj4 returned: ' + str((ok, outProj4)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

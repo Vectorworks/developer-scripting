@@ -26,6 +26,22 @@ def vs.HierLBItemOpened(dialogID, componentID, itemIndex, recursive):
 |recursive|BOOLEAN|Indicates whether any subcontainers should also be opened.|
 |numbRedisplItems|INTEGER|The number of items that were redisplayed.|
 
+## Examples
+```pascal
+HierLBItemOpened(1, 2, 3, TRUE, 10);
+```
+```python
+import vs
+
+# This function is called when the user clicks on a container item to open it.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+recursive = True
+
+result = vs.HierLBItemOpened(dialogID, componentID, itemIndex, recursive)
+```
+
 ## See Also
 VS Functions:
 [HierLBItemClosed](HierLBItemClosed.md)

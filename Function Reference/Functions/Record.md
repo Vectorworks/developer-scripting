@@ -33,6 +33,13 @@ Record(handleToObj,'Vendor Information');
 
 ```
 
+```pascal
+Record(h, 'Example');
+```
+```python
+vs.Record(h, s)
+```
+
 ## Version
 Availability: from All Versions
 

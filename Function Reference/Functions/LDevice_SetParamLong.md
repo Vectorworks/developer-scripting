@@ -27,6 +27,24 @@ def vs.LDevice_SetParamLong(handle, cellIndex, accessoryIndex, universalName, ne
 |universalName|STRING|   |
 |newValue|LONGINT|   |
 
+## Examples
+```pascal
+LDevice_SetParamLong(handle, 1, 2, 'Example', 3);
+```
+```python
+import vs
+
+# Set long integer parameter of a Lighting Device or attached Accessory by
+# Worksheet Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+newValue = 1
+
+vs.LDevice_SetParamLong(handle, cellIndex, accessoryIndex, universalName, newValue)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

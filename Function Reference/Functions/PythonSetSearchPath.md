@@ -17,6 +17,19 @@ def vs.PythonSetSearchPath(pathList):
 |---|---|---|
 |pathList|DYNARRAY[] of CHAR|A string of semicolon delimited paths. The path it similar to the 'Open' function path parameter.|
 
+## Examples
+```pascal
+PythonSetSearchPath(pathList);
+```
+```python
+import vs
+
+# Set the search path for python files.
+pathList = 'C:/Temp'
+
+vs.PythonSetSearchPath(pathList)
+```
+
 ## See Also
 VS Functions:
 [PythonGetSearchPath](PythonGetSearchPath.md) 

@@ -27,6 +27,18 @@ WidthValue:=Width(N='Box');
 
 ```
 
+```pascal
+{====================================================================}
+{	PROCEDURE DrawBeam2DWidth;	Draws the 2D Width (rectangle) Joist representation
+{====================================================================}
+PROCEDURE DrawBeam2DWidth;
+BEGIN
+	{ draw the 2D bounding rectangle of the Joist}
+```
+```python
+result = vs.Width(c)
+```
+
 ## Version
 Availability: from All Versions
 

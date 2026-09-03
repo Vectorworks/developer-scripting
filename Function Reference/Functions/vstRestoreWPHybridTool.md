@@ -17,6 +17,19 @@ def vs.vstRestoreWPHybridTool(message1):
 |---|---|---|
 |message1|LONGINT|   |
 
+## Examples
+```pascal
+vstRestoreWPHybridTool(1);
+```
+```python
+import vs
+
+# Restore the working plane after hybrid tool vstSetWPHybridTool.
+message1 = 1
+
+vs.vstRestoreWPHybridTool(message1)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

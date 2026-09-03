@@ -14,6 +14,18 @@ def vs.vstSetEventResult(inSetVal):
 |---|---|---|
 |inSetVal|LONGINT|   |
 
+## Examples
+```pascal
+vstSetEventResult(1);
+```
+```python
+import vs
+
+inSetVal = 1
+
+vs.vstSetEventResult(inSetVal)
+```
+
 ## Version
 Availability: from All Versions
 

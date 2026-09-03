@@ -28,6 +28,21 @@ def vs.DSH_GetDSFieldInfoAt(hObject, dsName):
 |outLocSrc|STRING|   |
 |outLabel|STRING|   |
 
+## Examples
+```pascal
+resultOK := DSH_GetDSFieldInfoAt(hObject, 'Example', 1, 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Gets Object's Data Sheet field universal and localized sources and label.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dsName = 'Example'
+
+ok, fieldIndex, outUniSrc, outLocSrc, outLabel = vs.DSH_GetDSFieldInfoAt(hObject, dsName)
+vs.Message('DSH_GetDSFieldInfoAt returned: ' + str((ok, fieldIndex, outUniSrc, outLocSrc, outLabel)))
+```
+
 ## Version
 Availability: from Vectorworks 2020.1
 

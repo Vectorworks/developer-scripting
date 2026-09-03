@@ -26,6 +26,33 @@ def vs.vsoPrmName2WidgetID(recName, paramName):
 ## Remarks
 For this function to work, you need to use an empty string for the record name.
 
+## Examples
+```pascal
+BSB := vsoPrmName2WidgetID( '', 'Door Config', gDoorSwingID );
+vsoWidgetPopupClear( gDoorSwingID );
+vsoWidgetPopupClear( gDoorSwingID );
+
+result := vsoPrmName2WidgetID( '', '__boltType_inch', displayIDWidgetID );
+vsoWidgetSetVisible( displayIDWidgetID, gSeries = 1 );
+result := vsoPrmName2WidgetID( '', '__boltType_metric', displayIDWidgetID );
+vsoWidgetSetVisible( displayIDWidgetID, gSeries = 2 );
+
+BEGIN
+	result := vsoPrmName2WidgetID( '', widgetName, widgetID );
+	vsoWidgetSetVisible( widgetID, visible );
+END;
+```
+```python
+import vs
+
+# Retrieves the widget id of a field from the plugin-definition by name.
+recName = 'Example'
+paramName = 'Example'
+
+ok, outWidgetID = vs.vsoPrmName2WidgetID(recName, paramName)
+vs.Message('vsoPrmName2WidgetID returned: ' + str((ok, outWidgetID)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

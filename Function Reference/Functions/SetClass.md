@@ -39,6 +39,34 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	gClassN := getClass( gLine );
+	SetClass( gParmH, gClassN );
+	{ When creating the object, SetClass regenerates it in Screen Plane.
+		TO fix this we will SET it in the same plane with the gLine }
+	planarRef := GetPlanarRef( gLine );
+	SetPlanarRef( gParmH, planarRef );
+
+BEGIN
+	{SetRField(hObj, kRedlinePathObjName, kRedlinePathObjMemoField, gErrStr);}
+	SetRField(hObj, kRedlinePathObjName, kRedlinePathObjPickedUpField, Concat(FALSE));
+	SetClass(hObj, GetClass(hObj));
+END
+
+SetClass (objectH, class);
+```
+```python
+vs.SetClass(hDuplicated, activeClName);
+
+if objClass != "":
+	vs.SetClass( objH, objClass )
+	SetAttrsByClass( objH, setLineWeight )
+	if t == vs.kGroupNode:
+		# recursively traverse the groups as the pen and fill set doesnt work on groups
+		childObjH = objH.first
+```
+
 ## Version
 Availability: from All Versions
 

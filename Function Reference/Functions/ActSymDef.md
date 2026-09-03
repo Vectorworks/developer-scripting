@@ -29,6 +29,18 @@ def Example():
 Example()
 ```
 
+```pascal
+resultH := ActSymDef;
+```
+```python
+import vs
+
+# Function ActSymDef returns a handle to the currently active symbol.
+objHandle = vs.ActSymDef()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [ActLayer](ActLayer.md) 

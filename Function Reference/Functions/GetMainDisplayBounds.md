@@ -24,6 +24,18 @@ def vs.GetMainDisplayBounds():
 |outBottom|INTEGER|   |
 |outRight|INTEGER|   |
 
+## Examples
+```pascal
+GetMainDisplayBounds(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Returns the bounds of the main display device (Macintosh Only).
+outTop, outLeft, outBottom, outRight = vs.GetMainDisplayBounds()
+vs.Message('GetMainDisplayBounds returned: ' + str((outTop, outLeft, outBottom, outRight)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -22,6 +22,25 @@ def vs.SetCompManualBound(object, componentIndex, manualBound):
 |componentIndex|INTEGER|The index of the component.|
 |manualBound|INTEGER|The manual bound of the component.  0 - Roof edge 1 - Roof axis line|
 
+## Examples
+```pascal
+resultOK := SetCompManualBound(object, 1, 2);
+```
+```python
+import vs
+
+# Sets the manual bound of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+manualBound = 1
+
+ok = vs.SetCompManualBound(object, componentIndex, manualBound)
+if ok:
+    vs.Message('SetCompManualBound succeeded')
+else:
+    vs.Message('SetCompManualBound failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompManualBound](GetCompManualBound.md)

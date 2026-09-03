@@ -30,6 +30,21 @@ Returns which part (0 = Primary, 1 = Secondary, 2 = Tertiary) of the object this
 
 Note: GetTexMapXXX routines replace the older GetTexSpaceXXX routines.  It is recommended that all developers transition to the newer versions.
 
+## Examples
+```pascal
+resultN := GetTexSpacePartID(textureSpace);
+```
+```python
+import vs
+
+# Function GetTexSpacePartID returns the parent of the referenced texture
+# space in an expanded object (walls or roofs).
+textureSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetTexSpacePartID(textureSpace)
+vs.Message('GetTexSpacePartID returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

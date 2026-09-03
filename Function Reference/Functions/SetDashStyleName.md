@@ -23,6 +23,24 @@ def vs.SetDashStyleName(DashStyleIndex, DashStyleName):
 ## Remarks
 \_c\_, (2014.04.08):  This sets the name in the dash style list, not in the name list. It seems to be a left over from the time before introduction of dash styles as named resources.
 
+## Examples
+```pascal
+resultOK := SetDashStyleName(1, 'Example');
+```
+```python
+import vs
+
+# Sets the dash style name of the specified dash style index.
+DashStyleIndex = 1
+DashStyleName = 'Example'
+
+ok = vs.SetDashStyleName(DashStyleIndex, DashStyleName)
+if ok:
+    vs.Message('SetDashStyleName succeeded')
+else:
+    vs.Message('SetDashStyleName failed')
+```
+
 ## See Also
 VS Functions:
 [GetDashStyleName](GetDashStyleName.md)

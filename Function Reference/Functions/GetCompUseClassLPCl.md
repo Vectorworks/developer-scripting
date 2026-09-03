@@ -22,6 +22,21 @@ def vs.GetCompUseClassLPCl(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassPenColorsForLeftPen|BOOLEAN|Returns whether or not the component is using class attributes for its left pen colors.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassLPCl(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class pen colors for left pen flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassPenColorsForLeftPen = vs.GetCompUseClassLPCl(object, componentIndex)
+vs.Message('GetCompUseClassLPCl returned: ' + str((ok, useClassPenColorsForLeftPen)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassLPCl](SetCompUseClassLPCl.md)

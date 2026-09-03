@@ -22,6 +22,25 @@ def vs.SetComponentMaterial(object, componentIndex, material):
 |componentIndex|INTEGER|The index of the component.|
 |material|LONGINT|The material of the component.|
 
+## Examples
+```pascal
+resultOK := SetComponentMaterial(object, 1, 2);
+```
+```python
+import vs
+
+# Sets the material of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+material = 1
+
+ok = vs.SetComponentMaterial(object, componentIndex, material)
+if ok:
+    vs.Message('SetComponentMaterial succeeded')
+else:
+    vs.Message('SetComponentMaterial failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentMaterial](GetComponentMaterial.md)

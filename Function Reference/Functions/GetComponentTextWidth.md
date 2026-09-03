@@ -22,6 +22,21 @@ def vs.GetComponentTextWidth(nDialogID, nComponentID):
 |nComponentID|LONGINT|   |
 |nWidthInLMUnits|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := GetComponentTextWidth(1, 2, 3);
+```
+```python
+import vs
+
+# Retrieves the static text's width in Layout Manager Units.
+nDialogID = 1
+nComponentID = 2
+
+ok, nWidthInLMUnits = vs.GetComponentTextWidth(nDialogID, nComponentID)
+vs.Message('GetComponentTextWidth returned: ' + str((ok, nWidthInLMUnits)))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

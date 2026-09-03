@@ -22,6 +22,25 @@ def vs.IFC_DeleteDSField(objectName, dataSheetName, fieldLabel):
 |dataSheetName|STRING|   |
 |fieldLabel|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DeleteDSField('Example', 'Example', 'MyRecord');
+```
+```python
+import vs
+
+# Deletes field from Data Sheet.
+objectName = 'Example'
+dataSheetName = 'Example'
+fieldLabel = 'MyField'
+
+ok = vs.IFC_DeleteDSField(objectName, dataSheetName, fieldLabel)
+if ok:
+    vs.Message('IFC_DeleteDSField succeeded')
+else:
+    vs.Message('IFC_DeleteDSField failed')
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

@@ -31,11 +31,7 @@ def vs.SetView(xAngle, yAngle, zAngle, xDistance, yDistance, zDistance):
 ## Remarks
 Listed example generates VectorScript error due to the units designation after the view angle.
 
-
-
 Works for me. Is this a Mac-only problem?
-
-
 
 You can also set the view to one of the standard views, like this:
 ```pascal
@@ -70,6 +66,29 @@ SetView(45d,30d,30d,0,2,2);
 #### Python ####
 ```python
 
+```
+
+```pascal
+BEGIN
+	VSave ('myTempView00000001');
+	SetView (0,0,0,0,0,0);
+END;
+
+BEGIN
+	VSave ('__SeatingLayoutTempView');
+	SetView (0, 0, 0, 0, 0, 0);
+	Symbol(symName, 0, 0, 0);
+	h := LNewObj;
+	GetBBox(h, p1x, p1y, p2x, p2y);
+	gRowSpacing := Str2Num(GetRField(objHand, kSeatingObjectName, 'RowSpacing'));
+
+{save current view}
+GetView( xAng, yAng, zAng, dstX, dstY, dstZ );
+SetPref(9873,TRUE);
+IF (xAng <> 0) | (yAng <> 0) | (zAng <> 0) THEN SetView(0,0,0,0,0,0);
+```
+```python
+vs.SetView(1.0, 2.0, 0.5, 1.0, 2.0, 0.5)
 ```
 
 ## Version

@@ -20,6 +20,25 @@ def vs.SetWallInsertLoc(hObject, insertLocation):
 |hObject|HANDLE|The symbol definition, plug-in object style, or plug-in object.|
 |insertLocation|INTEGER|The wall insert location.  -1 - Insert on the nearest edge of the wall 0 - Insert on the center of the wall 1 - Insert on the left edge of the wall 2 - Insert on the right edge of the wall 3 - Insert on the center of the wall core component 4 - Insert on the left edge of the wall core component 5 - Insert on the right edge of the wall core component|
 
+## Examples
+```pascal
+resultOK := SetWallInsertLoc(hObject, 1);
+```
+```python
+import vs
+
+# Sets the wall insert location of a symbol definition, plug-in object style,
+# or plug-in object.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+insertLocation = 1
+
+ok = vs.SetWallInsertLoc(hObject, insertLocation)
+if ok:
+    vs.Message('SetWallInsertLoc succeeded')
+else:
+    vs.Message('SetWallInsertLoc failed')
+```
+
 ## See Also
 VS Functions:
 [GetWallInsertLoc](GetWallInsertLoc.md)

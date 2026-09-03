@@ -24,6 +24,19 @@ def vs.BuildConstraintModelForObject(h, traverseContainers):
 ## Examples
 [TraverseObjectsInActiveLayer](examples/TraverseObjectsInActiveLayer.md)
 
+```pascal
+BuildConstraintModelForObject(h, TRUE);
+```
+```python
+import vs
+
+# Create a constraint model for the specified object in the constraint manager.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+traverseContainers = True
+
+vs.BuildConstraintModelForObject(h, traverseContainers)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

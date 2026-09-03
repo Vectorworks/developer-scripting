@@ -24,6 +24,23 @@ def vs.SetLayerAmbientColor(layer, red, green, blue):
 |green|LONGINT|RGB color component value.|
 |blue|LONGINT|RGB color component value.|
 
+## Examples
+```pascal
+SetLayerAmbientColor(layer, 1, 2, 3);
+```
+```python
+import vs
+
+# Procedure SetLayerAmbientColor sets the color for the ambient light of the
+# referenced layer.
+layer = vs.ActLayer()  # handle to the active design layer
+red = 65535
+green = 0
+blue = 0
+
+vs.SetLayerAmbientColor(layer, red, green, blue)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

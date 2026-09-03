@@ -22,6 +22,25 @@ def vs.SetLevelElevation(storyHandle, levelType, newElevation):
 |levelType|STRING|The level type of the Story Level to change the elevation of.|
 |newElevation|REAL|The new elevation for the Story Level.|
 
+## Examples
+```pascal
+resultOK := SetLevelElevation(storyHandle, 'Example', 1.0);
+```
+```python
+import vs
+
+# Sets the elevation of a Story Level relative to its Story.
+storyHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+levelType = 'Example'
+newElevation = 0.0
+
+ok = vs.SetLevelElevation(storyHandle, levelType, newElevation)
+if ok:
+    vs.Message('SetLevelElevation succeeded')
+else:
+    vs.Message('SetLevelElevation failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

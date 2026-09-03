@@ -34,6 +34,41 @@ SetClPenBack('Cold Water Supply',cRed,cGrn,cBlu);
 
 ```
 
+```pascal
+NameClass(sprayClass);
+SetClFillFore(sprayClass, 0, 0, 0);
+SetClFillBack(sprayClass, 577, 43860, 60159);
+SetClPenFore(sprayClass, 577, 43860, 60159);
+SetClPenBack(sprayClass, 65535, 65535, 65535);
+SetClFPat(sprayClass, 1);
+SetClLSN(sprayClass, 2);
+SetClLW(sprayClass, 1);
+SetClUseGraphic(sprayClass, TRUE);
+
+NameClass( modifierClass ); { to create if not yet existing }
+SetClFillFore( modifierClass,0,0,0);
+SetClFillBack( modifierClass,65535,65535,65535);
+SetClPenFore( modifierClass,577,43860,60159); {** This gives the distinctive blue color for the control fence.}
+SetClPenBack( modifierClass,65535,65535,65535);
+SetClFPat( modifierClass, 0);
+SetClLSN( modifierClass, CheckLSN(-6));
+SetClLW( modifierClass, 1);
+SetClUseGraphic( modifierClass,TRUE);
+
+END;
+if GetType(classHandle) = 94 then BEGIN
+	SetClFillFore  (modifierClass,     0,     0,     0);
+	SetClFillBack  (modifierClass, 65535, 65535, 65535);
+	SetClPenBack   (modifierClass, 65535, 65535, 65535);
+	SetClPenFore   (modifierClass,   577, 43860, 60159); {control fence blue}
+	SetClFPat      (modifierClass, 0);
+	SetClLSN       (modifierClass,CheckLSN(-6));
+	SetClLW        (modifierClass, 1);
+```
+```python
+vs.SetClPenBack('Wall', r, g, b)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

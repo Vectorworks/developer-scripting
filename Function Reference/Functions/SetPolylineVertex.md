@@ -67,6 +67,33 @@ RUN(Example);
 
 ```
 
+```pascal
+gVTemp[2] := gV2[2];
+gVTemp[3] := gV2[3];
+FOR i := 2 TO gEdgeCount DO BEGIN
+	gVTemp := gVTemp + gVecArray[i];
+	SetPolylineVertex(gHPoly,i+1,gX + gVTemp[1],gY + gVTemp[2],0,0,FALSE);
+	END;
+
+5, 8, 21: FOR ptIndex := 1 TO getvertnum(hTemp) DO BEGIN	{ Polygon, Freehand, Polyline }
+	GetPolylineVertex(hTemp, ptIndex, x1, y1, ptType, arcRad);
+	IF (ptType = 3) THEN SetPolyLineVertex(hTemp, ptIndex, x1*factor, y1*factor, ptType, arcRad*factor, TRUE)
+		ELSE SetPolyLineVertex(hTemp, ptIndex, x1*factor, y1*factor, ptType, 0, TRUE);
+	END;
+
+edgeH := PolyLineOffset(gPathH,gDepth);
+numV := getvertnum(edgeH)+1;
+IF NOT(gIsClosed) THEN BEGIN
+	temp_v := gCorners[1]+gBisectors[1];
+	SetPolylineVertex(edgeH,1,temp_v.x,temp_v.y,0,0,TRUE);
+	temp_v := gCorners[gNumVert]+gBisectors[gNumVert];
+	SetPolylineVertex(edgeH,numV,temp_v.x,temp_v.y,0,0,TRUE);
+	END;
+```
+```python
+vs.SetPolylineVertex(obj, 1, (0, 0), 'Example', 1.0, recalcBounds)
+```
+
 ## See Also
 For polylines:
 * [GetPolylineVertex](GetPolylineVertex.md)

@@ -17,6 +17,22 @@ def vs.TBB_AttachRecords():
 |---|---|---|
 |TitleBlockBorder|HANDLE|   |
 
+## Examples
+```pascal
+}
+	Layer( sheetLayer );
+	borderName := 'Title Block Border';
+	borderH := CreateCustomObjectN (borderName, 0, 0, 0, FALSE);
+	TBB_AttachRecords(borderH);
+	recordName := GetName (GetRecord (borderH, NumRecords (borderH)));
+```
+```python
+import vs
+
+# Attach Project, Sheet, Revision and Issue Records.
+result = vs.TBB_AttachRecords()
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

@@ -35,6 +35,38 @@ TextSize(18);
 
 ```
 
+```pascal
+PushAttrs;
+GetOrigin(PX, PY);
+TextJust (1);
+TextVerticalAlign (1);
+TextSize (kTextSize);
+boxSize := kBoxSize * getUPI * GetLScale (ActLayer);
+textdX := kTextdX * getUPI * GetLScale (ActLayer);
+textdy := ktextdy * getUPI * GetLScale (ActLayer);
+SetCursor(WatchC);
+
+BEGIN
+	TextSize(txtSize);
+	CASE textStyleIndex OF
+		1: TextFace([Bold]);
+		2: TextFace([Italic]);
+		3: TextFace([Bold,Italic]);
+
+BEGIN
+gVAlign := GetPrefInt(83);
+SetPrefInt(83, tVAlign);
+TextSize(Str2Num(tSize));
+TextJust(tJust);
+TextOrigin(0,0);
+IF text<>'' THEN CreateText(text) ELSE CreateText(' ');
+{Set correct text alignment}
+```
+```python
+vs.TextSize(1.0)
+```
+See also in tutorials: [09. Dimensioning and Text Annotation](ai%20examples/09_DimensionsAndText.md)
+
 ## Version
 Availability: from All Versions
 

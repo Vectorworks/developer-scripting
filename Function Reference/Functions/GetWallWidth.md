@@ -12,6 +12,18 @@ def vs.GetWallWidth():
     return REAL
 ```
 
+## Examples
+```pascal
+resultVal := GetWallWidth;
+```
+```python
+import vs
+
+# Function GetWallWidth returns the default wall width setting of the document.
+value = vs.GetWallWidth()
+vs.Message('GetWallWidth returned: ' + str(value))
+```
+
 ## Version
 Availability: from MiniCAD6.0
 

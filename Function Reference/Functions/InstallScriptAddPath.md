@@ -17,6 +17,21 @@ def vs.InstallScriptAddPath(fullPath):
 |---|---|---|
 |fullPath|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+InstallScriptAddPath(fullPath);
+```
+```python
+import vs
+
+# This function can only be used doring Partner Product install script to add
+# files, by full path, to the install memento for automatic deletion during
+# uninstall.
+fullPath = 'C:/Temp'
+
+vs.InstallScriptAddPath(fullPath)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

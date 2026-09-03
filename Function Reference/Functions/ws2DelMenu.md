@@ -17,6 +17,23 @@ def vs.ws2DelMenu(menuPath):
 |---|---|---|
 |menuPath|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := ws2DelMenu(menuPath);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+
+ok = vs.ws2DelMenu(menuPath)
+if ok:
+    vs.Message('ws2DelMenu succeeded')
+else:
+    vs.Message('ws2DelMenu failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

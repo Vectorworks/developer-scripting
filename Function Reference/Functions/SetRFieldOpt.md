@@ -31,6 +31,22 @@ def vs.SetRFieldOpt(h, record, field, isEmpty, isDataLinked):
 SetRField(HandleToObject,'Part Info','Serial No.',False, False);
 ```
 
+```pascal
+SetRFieldOpt(h, 'MyRecord', 'MyRecord', TRUE, FALSE);
+```
+```python
+import vs
+
+# Set options for a record field.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+record = 'MyRecord'
+field = 'MyField'
+isEmpty = True
+isDataLinked = True
+
+vs.SetRFieldOpt(h, record, field, isEmpty, isDataLinked)
+```
+
 ## See Also
 VS Functions:
 [GetRFieldOpt](GetRFieldOpt.md) 

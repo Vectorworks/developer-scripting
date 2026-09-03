@@ -20,6 +20,18 @@ def vs.GetNumberOfDLComponents():
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := GetNumberOfDLComponents(1);
+```
+```python
+import vs
+
+# Gets the number of components in the Double Line Preferences.
+ok, numComponents = vs.GetNumberOfDLComponents()
+vs.Message('GetNumberOfDLComponents returned: ' + str((ok, numComponents)))
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

@@ -37,6 +37,13 @@ SingleTolerance(True,False,'approx. ','',1/16&quot;);
 
 ```
 
+```pascal
+SingleTolerance(TRUE, FALSE, 'Example', 'Example', 1.0);
+```
+```python
+vs.SingleTolerance(True, 'Example', leader, trailer, 1.0)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

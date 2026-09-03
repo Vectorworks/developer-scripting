@@ -65,6 +65,13 @@ RUN(Example);
 
 ```
 
+```pascal
+resultOK := InsertProposedClassOrLayerItem(1, 2, 'Example', 3);
+```
+```python
+result = vs.InsertProposedClassOrLayerItem(nDialogID, nComponentID, 'Example', 1)
+```
+
 ## Version
 Availability: from VectorWorks13.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

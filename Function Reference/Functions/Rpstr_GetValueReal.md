@@ -36,6 +36,21 @@ bool CDlgXXX::CreateDialogLayout()
 }
 ```
 
+## Examples
+```pascal
+resultVal := Rpstr_GetValueReal('Example', 1.0);
+```
+```python
+import vs
+
+# Get a real value from the VectorScript value repository.
+name = 'Example'
+defaultValue = 1.0
+
+value = vs.Rpstr_GetValueReal(name, defaultValue)
+vs.Message('Rpstr_GetValueReal returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

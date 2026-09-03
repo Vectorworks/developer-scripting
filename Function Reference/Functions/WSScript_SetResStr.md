@@ -19,6 +19,20 @@ def vs.WSScript_SetResStr(resultCellValue):
 |---|---|---|
 |resultCellValue|DYNARRAY[] of CHAR|The value for the result of the worksheet script called by the RunScript worksheet function.|
 
+## Examples
+```pascal
+WSScript_SetResStr(resultCellValue);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+resultCellValue = 'Example'
+
+vs.WSScript_SetResStr(resultCellValue)
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

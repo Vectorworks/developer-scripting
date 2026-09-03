@@ -38,6 +38,35 @@ RUN(Example);
 
 ```
 
+```pascal
+	ok := TRUE;
+	outBearing := Compass2Cad(outBearing);
+END;
+{Azimuth or Bearing, Decimal or DMS}
+IF NOT ok THEN if ValidAngStr(inBearingStr, outBearing) then BEGIN
+	ok := TRUE;
+	{Azimuth-DMS}
+	IF ValidNumStr(Copy(inBearingStr, 1, 1), num) THEN outBearing := Compass2Cad(outBearing);
+END;
+
+BEGIN
+{** Get all needed dialog data here.}
+	GetItemText(dlogID, 14, tmpStr);
+	noError := ValidAngStr(tmpStr, gLatitude);
+
+	tmpStr := Num2Str(8, tmpReal);
+	if Pos('.', tmpStr) > 0 then while Copy(tmpStr, Len(tmpStr), 1) = '0' DO tmpStr := Copy(tmpStr, 1, Len(tmpStr) - 1);
+	IF Copy(tmpStr, Len(tmpStr), 1) = '.' THEN tmpStr := Copy(tmpStr, 1, Len(tmpStr) - 1);
+END else if Pos(fldType, 'r10') > 0 then BEGIN {If it's an angle field, convert it to a real.}
+	tmpBoo := ValidAngStr(valueVa, tmpReal);
+	tmpStr := Num2Str(8, tmpReal);
+	while Copy(tmpStr, Len(tmpStr), 1) = '0' DO tmpStr := Copy(tmpStr, 1, Len(tmpStr) - 1);
+END;
+```
+```python
+result = vs.ValidAngStr('Example')
+```
+
 ## Version
 Availability: from All Versions
 

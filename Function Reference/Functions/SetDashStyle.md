@@ -51,6 +51,30 @@ SetDashStyle(True, 0,1",1 /4", 1/4", 1/4");
 
 ```
 
+```pascal
+-1:SetDashStyle(TRUE,1,0.041656,0.041656);
+-2:SetDashStyle(TRUE,1,0.097214,0.041656);
+-3:SetDashStyle(TRUE,1,0.12,0.03);
+-4:SetDashStyle(TRUE,1,0.208328,0.041666);
+-5:SetDashStyle(TRUE,1,0.005,0.03);
+
+MoveTo(0,0);
+LineTo(endLineLength,0);
+SetDashStyle(TRUE,2,0.24,0.03,0.005,0.03); {ISO-4} {Automatically sets the current pen}
+LineTo(rawLineLength-endLineLength,0);
+PenPatN(2); {Solid}
+LineTo(rawLineLength,0);
+
+BEGIN
+	SetDashStyle(TRUE, 2, .12, .03, .005, .03);
+	lineStyle := FPenPatN;
+	SetLSN(gParmH, lineStyle);
+END;
+```
+```python
+vs.SetDashStyle(swt, 1, pair1, pair2, pair3, pair4, pair5)
+```
+
 ## Version
 Availability: from MiniCAD 4.0
 

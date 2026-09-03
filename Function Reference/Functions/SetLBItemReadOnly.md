@@ -26,6 +26,23 @@ def vs.SetLBItemReadOnly(dialogID, componentID, itemIndex, subItemIndex, readOnl
 |subItemIndex|INTEGER|the column index|
 |readOnly|BOOLEAN|the read-only state|
 
+## Examples
+```pascal
+SetLBItemReadOnly(1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Sets the item's read-only state.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+readOnly = True
+
+vs.SetLBItemReadOnly(dialogID, componentID, itemIndex, subItemIndex, readOnly)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

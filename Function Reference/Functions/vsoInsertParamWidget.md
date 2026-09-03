@@ -48,6 +48,23 @@ end;
 
 ```
 
+```pascal
+BEGIN
+	If GetLocalizedPluginParameter(recName, fldName, locFldName) then BEGIN
+		result := vsoInsertParamWidget(position, GetFldIndex(GetObject(recName), fldName), locFldName, 0);
+	END;
+
+IF GetLocalizedPluginParameter( pluginName, kSeriesField_1, temp_s ) THEN
+	result := vsoInsertParamWidget( 1, 1, temp_s, eventData );
+IF GetLocalizedPluginParameter( pluginName, kSeriesField_2, temp_s ) THEN
+	result := vsoInsertParamWidget( 2, 2, temp_s, eventData );
+position := 2;
+for cnt := 1 to kNumSizeFields DO
+```
+```python
+result = vs.vsoInsertParamWidget(position, parameterID, 'Example', data)
+```
+
 ## Version
 Availability: from All Versions
 

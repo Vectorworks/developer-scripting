@@ -66,6 +66,13 @@ RUN(XMLSaxTest_Write);
 
 ```
 
+```pascal
+resultN := XMLSAXBeginDocFile(1, 2, 'file.txt');
+```
+```python
+result = vs.XMLSAXBeginDocFile(h, 'file.txt', 'file.txt')
+```
+
 ## See Also
 [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md)
 

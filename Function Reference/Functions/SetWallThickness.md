@@ -23,6 +23,24 @@ def vs.SetWallThickness(h, thicknessDistance):
 ## Remarks
 NZH 5-10-05
 
+## Examples
+```pascal
+resultOK := SetWallThickness(h, 1.0);
+```
+```python
+import vs
+
+# Sets the thickness of an unstyled wall without components.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+thicknessDistance = 0.1
+
+ok = vs.SetWallThickness(h, thicknessDistance)
+if ok:
+    vs.Message('SetWallThickness succeeded')
+else:
+    vs.Message('SetWallThickness failed')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

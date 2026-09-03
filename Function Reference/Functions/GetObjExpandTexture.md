@@ -20,6 +20,25 @@ def vs.GetObjExpandTexture(obj):
 ## Remarks
 This function returns true if the object's textures are expanded.  For example, if the object is a wall and this function returns true then there are three distinct textures applied to the left, center, and right polygons.
 
+## Examples
+```pascal
+if ( NOT GetObjExpandTexture( wallHand ) ) then
+	wallPartID := 0;
+```
+```python
+import vs
+
+# Function GetObjExpandTexture returns whether the referenced objects'
+# textures have been &quot;expanded&quot;.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetObjExpandTexture(obj)
+if ok:
+    vs.Message('GetObjExpandTexture succeeded')
+else:
+    vs.Message('GetObjExpandTexture failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

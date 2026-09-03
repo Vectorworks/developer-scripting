@@ -49,6 +49,30 @@ def vs.GetBinaryConstraint(constrType, obj1, obj2, obj1VertA, obj1VertB, obj2Ver
 |containedObj1|LONGINT|   |
 |containedObj2|LONGINT|   |
 
+## Examples
+```pascal
+resultH := GetBinaryConstraint(1, obj1, obj2, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Returns a handle to a binary parametric constraint applied to the
+# referenced objects.
+constrType = 0
+obj1 = vs.FSActLayer()  # handle to the first selected object on the active layer
+obj2 = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+obj1VertA = 1
+obj1VertB = 2
+obj2VertA = 3
+obj2VertB = 10
+containedObj1 = 1
+containedObj2 = 2
+
+objHandle = vs.GetBinaryConstraint(constrType, obj1, obj2, obj1VertA, obj1VertB, obj2VertA, obj2VertB, containedObj1, containedObj2)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

@@ -24,6 +24,22 @@ def vs.EA_DataAccCompAdd(acc, include, lambda, thickness):
 |lambda|REAL|   |
 |thickness|REAL|   |
 
+## Examples
+```pascal
+EA_DataAccCompAdd(1, TRUE, 1.0, 2.0);
+```
+```python
+import vs
+
+# Adds object component.
+acc = 1
+include = True
+lambda = 1.0
+thickness = 0.1
+
+vs.EA_DataAccCompAdd(acc, include, lambda, thickness)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -28,6 +28,24 @@ def vs.SetWSImgScale(worksheet, topRow, leftColumn, bottomRow, rightColumn, scal
 |rightColumn|INTEGER|Right column of cell range.|
 |scale|REAL|The image scale.|
 
+## Examples
+```pascal
+SetWSImgScale(worksheet, 1, 2, 3, 10, 1.0);
+```
+```python
+import vs
+
+# Sets specified image scale in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+scale = 1.0
+
+vs.SetWSImgScale(worksheet, topRow, leftColumn, bottomRow, rightColumn, scale)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

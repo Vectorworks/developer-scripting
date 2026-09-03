@@ -87,6 +87,36 @@ Run(LW_Change);
 
 ```
 
+```pascal
+	SetLW(LNewObj,kThinLine);
+IF IsLineStyleByClass THEN SetLSByClass( LNewObj );
+HMoveBackward(LNewObj, TRUE);
+MoveTo(X,Y);
+LineTo(X,Y+Length);
+
+ELSE dx := 0;
+MoveTo(dx,0);
+LineTo(pLineLength-dx,0);
+SetLSN(lnewobj,2);
+SetLW(lnewobj,wid);
+IF GetPref(16) THEN	{black background}
+	SetPenFore(lnewobj,0,0,0)
+ELSE SetPenFore(lnewobj,65535,65535,65535);
+IF pFlip
+
+IF attrNum [5] THEN SetLWByClass (objectH)
+ELSE IF option = 2 THEN SetLW (objectH, FPenSize);
+```
+```python
+	vs.SetLWByClass(hObjectHand)
+else:
+	nLineWeight = vs.GetLW ( gObjHandle )
+	vs.SetLW( hObjectHand, nLineWeight )
+
+if setLineWeight:
+	vs.SetLW(objH, vs.GetLW(parentH))
+```
+
 ## Version
 Availability: from All Versions
 

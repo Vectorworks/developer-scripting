@@ -27,7 +27,6 @@ def vs.FindFileInPluginFolder(filename):
 ** find a file only at VW launch (you need to restart VW to make the file be found)
 ** nevertheless it will detect immediately if the searched file is missing
 
-
 On the Mac, path will use colons instead of foreslashes as the folder delimiter.
 
 ## Examples
@@ -55,6 +54,32 @@ def Example():
 		vs.AlrtDialog('Could not find file.')
 		
 Example()
+```
+
+```pascal
+BEGIN
+	FoundFileFunc := FindFileInPluginFolder( FileName, CMFolderPath );
+	{
+	AlrtDialog( Concat( 'FoundFileFunc // 1 // FileName: ', FileName ) );
+	AlrtDialog( Concat( 'FoundFileFunc // 1 // CMFolderPath: ', CMFolderPath ) );
+	}
+
+IF FindFileInPluginFolder(kKeyTestFileName, KeyTestFileFilePath) THEN
+	BEGIN
+		KeyFilePathAndName := Concat(KeyTestFileFilePath, kKeyTestFileName);
+		Append(Concat(KeyFilePathAndName));
+		Writeln(Concat(' '));
+		Writeln(Concat(TestNumNum));
+	END
+```
+```python
+import vs
+
+# Searches for filename in all plug-in folders.
+filename = 'C:/Temp/example.txt'
+
+ok, path = vs.FindFileInPluginFolder(filename)
+vs.Message('FindFileInPluginFolder returned: ' + str((ok, path)))
 ```
 
 ## Version

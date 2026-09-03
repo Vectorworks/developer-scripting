@@ -33,6 +33,24 @@ def vs.AddSymToWall(wallHd, offDistance, heightDistance, flip, right, symbolName
 ## Examples
 [CreateWallObject](examples/CreateWallObject.md)
 
+```pascal
+AddSymToWall(wallHd, 1.0, 2.0, TRUE, FALSE, 'Example');
+```
+```python
+import vs
+
+# Procedure AddSymToWall inserts a specified symbol into the referenced wall.
+wallHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+offDistance = 1.0
+heightDistance = 2.0
+flip = True
+right = True
+symbolName = 'MySymbol'
+
+vs.AddSymToWall(wallHd, offDistance, heightDistance, flip, right, symbolName)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [AddSymToWallEdge](AddSymToWallEdge.md)

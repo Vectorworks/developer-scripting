@@ -26,6 +26,21 @@ useClassLWidth:=FLWByClass;
 useClassLWidth = vs.FLWByClass()
 ```
 
+```pascal
+resultOK := FLWByClass;
+```
+```python
+import vs
+
+# Function FLWByClass returns whether the global attributes are set to use
+# the line weight of the default class.
+ok = vs.FLWByClass()
+if ok:
+    vs.Message('FLWByClass succeeded')
+else:
+    vs.Message('FLWByClass failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -22,6 +22,24 @@ Returns whether end cap of extrude or sweep is textured
 
 Note: GetTexMapXXX routines replace the older GetTexSpaceXXX routines.  It is recommended that all developers transition to the newer versions.
 
+## Examples
+```pascal
+resultOK := GetTexSpaceEndCap(textureSpace);
+```
+```python
+import vs
+
+# Function GetTexSpaceEndCap returns whether the end cap of the referenced
+# extrude or sweep is textured.
+textureSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetTexSpaceEndCap(textureSpace)
+if ok:
+    vs.Message('GetTexSpaceEndCap succeeded')
+else:
+    vs.Message('GetTexSpaceEndCap failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

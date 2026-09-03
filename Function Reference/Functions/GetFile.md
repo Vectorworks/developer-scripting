@@ -46,8 +46,39 @@ def Example():
 		vs.Read(a,b,c)
 		vs.Close(fileName)
 
-
 Example()
+```
+
+```pascal
+BEGIN
+GetFile(MapingFile);
+IF NOT DidCancel THEN
+	BEGIN
+	Open(MapingFile);
+	Readln(FileHeaderStr);
+
+			EnableItem(dialogID, 13, TRUE);
+		END;
+END; {Save Settings}
+14:	BEGIN {Load Settings}
+	GetFile(LoadFile);
+	IF NOT DidCancel THEN
+	BEGIN
+			Open(LoadFile);
+			ReadLn(ValidLoadFile);
+
+1: BEGIN
+	GetBooleanItem(dialogID, 22, gImportFirstRow);
+	END;
+5:	BEGIN {Browse...}
+	GetFile(InFile);
+```
+```python
+import vs
+
+# Procedure GetFile displays a standard file dialog which requests the user
+# to select a text document.
+result = vs.GetFile()
 ```
 
 ## Version

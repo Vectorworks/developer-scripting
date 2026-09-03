@@ -34,6 +34,19 @@ totalVol := CriteriaVolume((C = 'Empty Space'));
 totalVol = vs.CriteriaVolume(("C = 'Empty Space'"))
 ```
 
+```pascal
+resultVal := CriteriaVolume(c);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+vol = vs.CriteriaVolume(c)
+vs.Message('CriteriaVolume returned: ' + str(vol))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

@@ -25,6 +25,23 @@ Locus(0, 0); { do something to have a marker }
 slabHandle := PrevObj(LNewObj); { can't use LNewObj directly to fetch slab }
 ```
 
+## Examples
+```pascal
+BEGIN
+	pathH := HDuplicate (h, 0, 0);
+	SetPolyClosed( pathH, TRUE );
+	SlabFromPoly( pathH );
+	gPluginObjH := LNewObj;
+```
+```python
+import vs
+
+# Creates a slab object from the referenced polyline.
+poly = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.SlabFromPoly(poly)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

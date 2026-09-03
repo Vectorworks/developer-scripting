@@ -15,6 +15,18 @@ def vs.LSByClass():
 ## Remarks
 Sets the global attributes to use the line style of the default class.
 
+## Examples
+```pascal
+LSByClass;
+```
+```python
+vs.PenColorByClass()
+vs.MarkerByClass()
+vs.FPatByClass()
+vs.LSByClass()
+vs.LWByClass()
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

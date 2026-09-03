@@ -26,6 +26,23 @@ def vs.GetLBItemTextJust(dialogID, componentID, itemIndex, subItemIndex):
 |subItemIndex|INTEGER|the column index|
 |justification|INTEGER|Left - 1|Center - 2|Right - 3|
 
+## Examples
+```pascal
+resultOK := GetLBItemTextJust(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Gets the text alignment for the specified list browser item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, justification = vs.GetLBItemTextJust(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemTextJust returned: ' + str((ok, justification)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

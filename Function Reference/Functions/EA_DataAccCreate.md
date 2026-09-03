@@ -93,6 +93,20 @@ END;
 RUN( TestEnergos );
 ```
 
+```pascal
+resultN := EA_DataAccCreate(1, h);
+```
+```python
+import vs
+
+# Returns accessory index.
+type = 0
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.EA_DataAccCreate(type, h)
+vs.Message('EA_DataAccCreate returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -22,6 +22,25 @@ def vs.SetCompAltSecFill(object, componentIndex, alternateSectionFill):
 |componentIndex|INTEGER|The index of the component.|
 |alternateSectionFill|LONGINT|The alternate section fill of the component.|
 
+## Examples
+```pascal
+resultOK := SetCompAltSecFill(object, 1, 2);
+```
+```python
+import vs
+
+# Sets the alternate section fill of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+alternateSectionFill = 1
+
+ok = vs.SetCompAltSecFill(object, componentIndex, alternateSectionFill)
+if ok:
+    vs.Message('SetCompAltSecFill succeeded')
+else:
+    vs.Message('SetCompAltSecFill failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompAltSecFill](GetCompAltSecFill.md)

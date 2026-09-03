@@ -27,6 +27,23 @@ isDimension:=HasDim(HandleToObject);
 vs.Message(vs.HasDim(vs.FSActLayer()))
 ```
 
+```pascal
+resultOK := HasDim(h);
+```
+```python
+import vs
+
+# Function HasDim returns TRUE if a line or arc object has dimension text
+# associated with it, otherwise it returns FALSE.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.HasDim(h)
+if ok:
+    vs.Message('HasDim succeeded')
+else:
+    vs.Message('HasDim failed')
+```
+
 ## Version
 Availability: from All Versions
 

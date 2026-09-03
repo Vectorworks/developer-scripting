@@ -47,6 +47,20 @@ END;
 RUN(WStest);
 ```
 
+```pascal
+GetWSCellFormulaN(worksheet, 1, 2, formula);
+```
+```python
+import vs
+
+# Returns the formula from a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSCellFormulaN(worksheet, row, column)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

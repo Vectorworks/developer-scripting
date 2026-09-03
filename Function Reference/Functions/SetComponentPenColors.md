@@ -28,6 +28,28 @@ def vs.SetComponentPenColors(obj, componentIndex, leftPenForeColor, leftPenBackC
 |rightPenForeColor|INTEGER|The fore color of the right pen.|
 |rightPenBackColor|INTEGER|The back color of the right pen.|
 
+## Examples
+```pascal
+resultOK := SetComponentPenColors(obj, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets the colors of the pens of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+leftPenForeColor = 5
+leftPenBackColor = 5
+rightPenForeColor = 5
+rightPenBackColor = 5
+
+ok = vs.SetComponentPenColors(obj, componentIndex, leftPenForeColor, leftPenBackColor, rightPenForeColor, rightPenBackColor)
+if ok:
+    vs.Message('SetComponentPenColors succeeded')
+else:
+    vs.Message('SetComponentPenColors failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentPenColors](GetComponentPenColors.md)

@@ -12,6 +12,18 @@ def vs.FlipHor():
     return None
 ```
 
+## Examples
+```pascal
+FlipHor;
+```
+```python
+import vs
+
+# Procedure FlipHor horizontally mirrors selected objects about the center of
+# the object(s).
+vs.FlipHor()
+```
+
 ## Version
 Availability: from All Versions
 

@@ -91,9 +91,26 @@ def SetTags():
 SetTags()
 ```
 
-
 Sample VS by Pat Stanford
 Sample PY by TWK, koenr, and Pat Stanford 4-12-24
+
+```pascal
+resultOK := SetObjectTags(objectHandle, arrTags);
+```
+```python
+import vs
+
+# Lets the user set a list of Tags on an object such as a Class,Layer or
+# Resource.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+arrTags = []
+
+ok = vs.SetObjectTags(objectHandle, arrTags)
+if ok:
+    vs.Message('SetObjectTags succeeded')
+else:
+    vs.Message('SetObjectTags failed')
+```
 
 ## Version
 Availability: from Vectorworks 2019

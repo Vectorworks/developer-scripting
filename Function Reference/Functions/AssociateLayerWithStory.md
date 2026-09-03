@@ -82,6 +82,28 @@ layer := GetObject('Plan 4');
 success := AssociateLayerWithStory(layer, story);
 ```
 
+```pascal
+if hStory <> NIL THEN BEGIN
+	IF foundLevelType THEN BEGIN
+		OK := SetLayerLevelType( layerH, storyLevel );
+	END;
+	storyOK := AssociateLayerWithStory( layerH, hStory );
+END;
+```
+```python
+import vs
+
+# Associates a Layer with a Story.
+layer = vs.ActLayer()  # handle to the active design layer
+story = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.AssociateLayerWithStory(layer, story)
+if ok:
+    vs.Message('AssociateLayerWithStory succeeded')
+else:
+    vs.Message('AssociateLayerWithStory failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumStories](GetNumStories.md) 

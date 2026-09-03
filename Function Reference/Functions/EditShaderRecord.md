@@ -17,6 +17,23 @@ def vs.EditShaderRecord(shaderRecord):
 |---|---|---|
 |shaderRecord|HANDLE|The shader record to edit.|
 
+## Examples
+```pascal
+resultOK := EditShaderRecord(shaderRecord);
+```
+```python
+import vs
+
+# Brings up the edit shader dialog for this shader.
+shaderRecord = vs.GetObject('MyRecord')  # handle to a record format
+
+ok = vs.EditShaderRecord(shaderRecord)
+if ok:
+    vs.Message('EditShaderRecord succeeded')
+else:
+    vs.Message('EditShaderRecord failed')
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

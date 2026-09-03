@@ -12,6 +12,22 @@ def vs.CapsLock():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := CapsLock;
+```
+```python
+import vs
+
+# CapsLock returns TRUE if the Caps Lock was depressed during the last user
+# event.
+ok = vs.CapsLock()
+if ok:
+    vs.Message('CapsLock succeeded')
+else:
+    vs.Message('CapsLock failed')
+```
+
 ## Version
 Availability: from All Versions
 

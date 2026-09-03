@@ -37,6 +37,21 @@ hImage = vs.FSActLayer()
 ## Examples
 [[Python Sample Import Images as Symbols]] for example.
 
+```pascal
+resultH := ImportImageFile(filePath, 1);
+```
+```python
+import vs
+
+# Import the specified image file as an Image object in Vectorworks.
+filePath = 'C:/Temp'
+importPt = (0, 0)
+
+objHandle = vs.ImportImageFile(filePath, importPt)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

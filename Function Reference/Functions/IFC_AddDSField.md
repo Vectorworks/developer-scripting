@@ -28,6 +28,28 @@ def vs.IFC_AddDSField(objectName, dataSheetName, mainEntry, childEntry, fieldNam
 |fieldName|STRING|   |
 |fieldLabel|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_AddDSField('Example', 'Example', 'Example', 'Example', 'MyRecord', 'MyRecord');
+```
+```python
+import vs
+
+# Adds field to a Data Sheet.
+objectName = 'Example'
+dataSheetName = 'Example'
+mainEntry = 'Example'
+childEntry = 'Example'
+fieldName = 'MyField'
+fieldLabel = 'MyField'
+
+ok = vs.IFC_AddDSField(objectName, dataSheetName, mainEntry, childEntry, fieldName, fieldLabel)
+if ok:
+    vs.Message('IFC_AddDSField succeeded')
+else:
+    vs.Message('IFC_AddDSField failed')
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

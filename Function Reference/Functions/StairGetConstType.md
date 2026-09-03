@@ -44,6 +44,20 @@ def vs.StairGetConstType(stair):
 |---|---|---|
 |stair|HANDLE|   |
 
+## Examples
+```pascal
+resultN := StairGetConstType(stair);
+```
+```python
+import vs
+
+# Returns construction type of stair.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.StairGetConstType(stair)
+vs.Message('StairGetConstType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

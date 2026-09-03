@@ -20,6 +20,24 @@ def vs.AddVPAnnotationObject(viewportHandle, annotationHandle):
 |viewportHandle|HANDLE|   |
 |annotationHandle|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := AddVPAnnotationObject(viewportHandle, annotationHandle);
+```
+```python
+import vs
+
+# Adds the specified annotation object to the specified viewport.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+annotationHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.AddVPAnnotationObject(viewportHandle, annotationHandle)
+if ok:
+    vs.Message('AddVPAnnotationObject succeeded')
+else:
+    vs.Message('AddVPAnnotationObject failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

@@ -20,6 +20,36 @@ def vs.GetParametricRecord(h):
 |---|---|---|
 |h|HANDLE|Handle to a parametric object|
 
+## Examples
+```pascal
+{find site model}
+obj	:= FSActLayer;
+while ( (obj <> NIL) & notFound ) do begin
+	rec	:= GetParametricRecord( obj );
+	if GetName(rec) = 'DTM6' then notFound := false;
+	obj	:= NextObj( obj );
+end;
+
+numHeliodons := numHeliodons + 1;
+city[numHeliodons] := GetRField(objectHandle, GetName(GetParametricRecord(objectHandle)), 'City');
+rotationAngle := GetSymRot(objectHandle);
+
+BEGIN
+	paramRecord 	:= GetParametricRecord ( objHandle );
+	numberFields	:= NumFields( paramRecord );
+	result 			:= FALSE;
+```
+```python
+import vs
+
+# Returns the handle to the parametric record attached the referenced object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetParametricRecord(h)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

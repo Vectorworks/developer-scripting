@@ -77,6 +77,13 @@ SetWSCellBorders(sheet,2,4,1,5,TRUE,TRUE,TRUE,TRUE,0);
 
 ```
 
+```pascal
+SetWSCellBorders(worksheet, 1, 2, 3, 10, TRUE, FALSE, TRUE, TRUE, 5);
+```
+```python
+vs.SetWSCellBorders(worksheet, topRow, leftColumn, bottomRow, rightColumn, top, left, bottom, right, OutlineInside)
+```
+
 ## See Also
 VS Functions:
 * [SetWSCellOutlineBorder](SetWSCellOutlineBorder.md) 

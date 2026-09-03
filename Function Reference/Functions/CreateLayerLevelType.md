@@ -17,6 +17,23 @@ def vs.CreateLayerLevelType(name):
 |---|---|---|
 |name|STRING|The name of the Layer Level Type to create.|
 
+## Examples
+```pascal
+resultOK := CreateLayerLevelType('Example');
+```
+```python
+import vs
+
+# Creates a Layer Level Type.
+name = 'Example'
+
+ok = vs.CreateLayerLevelType(name)
+if ok:
+    vs.Message('CreateLayerLevelType succeeded')
+else:
+    vs.Message('CreateLayerLevelType failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumLayerLevelTypes](GetNumLayerLevelTypes.md) 

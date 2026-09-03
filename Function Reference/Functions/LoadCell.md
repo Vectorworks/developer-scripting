@@ -38,6 +38,19 @@ LoadCell(1, 1, 'Window Schedule');
 
 ```
 
+```pascal
+			SetWSCellFormula(WSHand,CurrentRow,15,CurrentRow,15,Concat(gPanDeg[SceneCount, LightCount]));
+			SetWSCellFormula(WSHand,CurrentRow,16,CurrentRow,16,Concat(gTiltDeg[SceneCount, LightCount]));
+			SetWSCellFormula(WSHand,CurrentRow,17,CurrentRow,17,Concat(gDistFallOff[SceneCount, LightCount]));
+			SetWSCellFormula(WSHand,CurrentRow,18,CurrentRow,18,Concat(gAngFallOff[SceneCount, LightCount]));
+			LoadCell(CurrentRow, 18, Concat(gAngFallOff[SceneCount, LightCount]));
+		END; {LightCount}
+END; {NumLights > 0}
+```
+```python
+vs.LoadCell(ro, col, entry)
+```
+
 ## See Also
 VS functions:
 * [SetWSCellFormula](SetWSCellFormula.md) (string, obsolete from VW 2012)

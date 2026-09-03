@@ -51,6 +51,30 @@ def vs.vsoWidgetSetIndLvl(widgetID, indentLevel):
 
 ```
 
+```pascal
+BEGIN
+	vsoWidgetSetIndLvl( architHgtInfoWidgetID,			widgetIndent );
+
+widgetIndent := 1;
+vsoWidgetSetIndLvl( kFillButtonWidgetID,  widgetIndent );
+IF ( p__version < 1900 ) & (p__version <> 0) THEN
+BEGIN
+  gShowAisle := False;
+  if (gPluginH <> nil) then
+
+vsoWidgetSetEnable( wigID_LineMode, NOT pWasConvToOutline );
+vsoWidgetSetVisible( wigID_LineWidth,	pLineMode );
+vsoWidgetSetVisible( kConvToOutlineBtn_ID,	pLineMode );
+vsoWidgetSetEnable( kConvToOutlineBtn_ID, (pioHand <> NIL) );	{//// Fix for VB-181191: Disable Button in Tool Prefs dialog }
+vsoWidgetSetIndLvl( wigID_LineWidth, 1 );
+vsoWidgetSetIndLvl( kConvToOutlineBtn_ID, 1 );
+```
+```python
+vs.vsoWidgetSetIndLvl( kWidgetID_NorthArrow,  	widgetCheckBoxIndent )
+vs.vsoWidgetSetIndLvl( kWidgetID_NorthNo,  		widgetTextIndent )
+```
+See also in tutorials: [Plug-in with widgets, basic example (Python)](../../Common/Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
+
 ## Version
 Availability: from Vectorworks 2011
 

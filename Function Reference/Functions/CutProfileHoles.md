@@ -17,6 +17,19 @@ def vs.CutProfileHoles(hWall):
 |---|---|---|
 |hWall|HANDLE|   |
 
+## Examples
+```pascal
+CutProfileHoles(hWall);
+```
+```python
+import vs
+
+# Cut holes in object geometry described in it's profile group.
+hWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.CutProfileHoles(hWall)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

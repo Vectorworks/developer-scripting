@@ -46,6 +46,13 @@ SetSkylight(roofHandle,skylightID,6,13'8&quot;,2'1&quot;,Name2Index('dh2436'));
 
 ```
 
+```pascal
+SetSkylight(roofObject, 1, 2, 1.0, 2.0, 3);
+```
+```python
+vs.SetSkylight(roofObject, skylightID, 1, 1.0, 2.0, 'Example')
+```
+
 ## See Also
 VS Functions:
 [Name2Index](Name2Index.md)

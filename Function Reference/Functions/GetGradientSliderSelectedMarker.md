@@ -36,6 +36,20 @@ GetGradientSliderSelectedMarker(dialogID, componentID, segmentIndex, markerType)
 segmentIndex, markerType = vs.GetGradientSliderSelectedMarker(dialogID, componentID)
 ```
 
+```pascal
+GetGradientSliderSelectedMarker(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Gets the selected marker for the specified gradient slider.
+dialogID = 1
+componentID = 2
+
+segmentIndex, markerType = vs.GetGradientSliderSelectedMarker(dialogID, componentID)
+vs.Message('GetGradientSliderSelectedMarker returned: ' + str((segmentIndex, markerType)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

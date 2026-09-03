@@ -34,6 +34,19 @@ GetFillIAxisEndPoint(objectHandle, xIAxis, yIAxis);
 xIAxis, yIAxis = vs.GetFillIAxisEndPoint(vs.FSActLayer())
 ```
 
+```pascal
+GetFillIAxisEndPoint(objectHandle, 1.0, 2.0);
+```
+```python
+import vs
+
+# Gets the I-axis end point of the fill.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+xIAxisEndPoint, yIAxisEndPoint = vs.GetFillIAxisEndPoint(objectHandle)
+vs.Message('GetFillIAxisEndPoint returned: ' + str((xIAxisEndPoint, yIAxisEndPoint)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

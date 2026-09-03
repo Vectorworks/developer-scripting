@@ -44,6 +44,22 @@ ok	= vs.IFC_DefPsetAddMember( psetName, "Field", "IfcInteger" )
 ok	= vs.IFC_DefPsetEnd( psetName )
 ```
 
+```pascal
+resultOK := IFC_DefPsetEnd('Example');
+```
+```python
+import vs
+
+# Marks the end of creation of a new Custom Object Property set (PSet).
+psetName = 'Example'
+
+ok = vs.IFC_DefPsetEnd(psetName)
+if ok:
+    vs.Message('IFC_DefPsetEnd succeeded')
+else:
+    vs.Message('IFC_DefPsetEnd failed')
+```
+
 ## See Also
 [IFC_DefPsetBegin](IFC_DefPsetBegin.md)
 [IFC_DefPsetImport](IFC_DefPsetImport.md)

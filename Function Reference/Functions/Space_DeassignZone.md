@@ -22,6 +22,21 @@ def vs.Space_DeassignZone(space, zoneType, zoneName):
 |zoneType|STRING|   |
 |zoneName|STRING|   |
 
+## Examples
+```pascal
+Space_DeassignZone(space, 'Example', 'Example');
+```
+```python
+import vs
+
+# Deassign Zone from a space object.
+space = vs.FSActLayer()  # handle to the first selected object on the active layer
+zoneType = 'Example'
+zoneName = 'Example'
+
+vs.Space_DeassignZone(space, zoneType, zoneName)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

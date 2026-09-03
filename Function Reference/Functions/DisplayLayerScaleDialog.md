@@ -15,6 +15,17 @@ def vs.DisplayLayerScaleDialog():
 ## Remarks
 Brings up the Layer Scale dialog.
 
+## Examples
+```pascal
+DisplayLayerScaleDialog;
+```
+```python
+import vs
+
+# Brings up the Layer Scale dialog.
+vs.DisplayLayerScaleDialog()
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

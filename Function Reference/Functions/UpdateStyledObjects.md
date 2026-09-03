@@ -17,6 +17,19 @@ def vs.UpdateStyledObjects(styleName):
 |---|---|---|
 |styleName|STRING|   |
 
+## Examples
+```pascal
+UpdateStyledObjects('Example');
+```
+```python
+import vs
+
+# Update all objects of the specified style.
+styleName = 'Example'
+
+vs.UpdateStyledObjects(styleName)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

@@ -22,6 +22,25 @@ def vs.SetLayoutOption(dialogID, option, value):
 |option|INTEGER|   |
 |value|LONGINT|   |
 
+## Examples
+```pascal
+resultOK := SetLayoutOption(1, 2, 3);
+```
+```python
+import vs
+
+# Set options for a specific Layout Manager dialog.
+dialogID = 1
+option = 2
+value = 3
+
+ok = vs.SetLayoutOption(dialogID, option, value)
+if ok:
+    vs.Message('SetLayoutOption succeeded')
+else:
+    vs.Message('SetLayoutOption failed')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

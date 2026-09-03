@@ -23,6 +23,13 @@ UnLckObjs;
 
 ```
 
+```pascal
+UnLckObjs;
+```
+```python
+vs.UnLckObjs()
+```
+
 ## Version
 Availability: from All Versions
 

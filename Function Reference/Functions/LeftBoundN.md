@@ -22,6 +22,22 @@ def vs.LeftBoundN(c):
 LeftBValue:=LeftBoundN(N='MyRect');
 ```
 
+```pascal
+BEGIN
+wsPosX := LeftBoundN(SEL);
+wsPosY := TopBoundN(SEL);
+```
+```python
+import vs
+
+# Returns the x-coordinate of the bounding box (top left corner) of an object
+# matching the search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.LeftBoundN(c)
+vs.Message('LeftBoundN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

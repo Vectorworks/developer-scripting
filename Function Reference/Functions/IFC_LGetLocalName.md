@@ -22,6 +22,18 @@ def vs.IFC_LGetLocalName():
 |inIFCTypeOfString|INTEGER|   |
 |outLocalName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_LGetLocalName('Example', 1, 'Example');
+```
+```python
+import vs
+
+# Returns the Localized Name for the IFC String.
+ok, strIFCName, inIFCTypeOfString, outLocalName = vs.IFC_LGetLocalName()
+vs.Message('IFC_LGetLocalName returned: ' + str((ok, strIFCName, inIFCTypeOfString, outLocalName)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

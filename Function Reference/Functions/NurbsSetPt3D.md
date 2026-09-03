@@ -43,6 +43,18 @@ See NurbsSurfaceEvalPt
 
 ```
 
+```pascal
+{Draw the road surface in 3D.}
+h := CreateNurbsSurface(vertCnt, 2, Min(longDegree, vertCnt - 1), 1);
+for cnt := 1 to vertCnt DO BEGIN
+	NurbsSetPt3D(h, cnt - 1, 0, left[cnt].x, left[cnt].y, left[cnt].z + gPavingHeight);
+	NurbsSetPt3D(h, cnt - 1, 1, rght[cnt].x, rght[cnt].y, rght[cnt].z + gPavingHeight);
+END;
+```
+```python
+vs.NurbsSetPt3D(objectHd, 1, 2, (0, 0))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

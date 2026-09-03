@@ -28,6 +28,36 @@ Created by 1/18/2005
 ## Examples
 [AlertDialogsAndMessages](examples/AlertDialogsAndMessages.md)
 
+```pascal
+IF NOT sizeFound THEN
+	AlertInform( Concat( GetPluginString( 3001 ), nominalSize ), '', TRUE );
+
+	ELSE BEGIN
+		SetRField (objHand, objName, paramName, Num2StrF (paramValue));
+		alertMsg := Concat (locParamName, str1, Num2StrF (lowerLimit), str2, Num2StrF (upperLimit));
+	END;
+	AlertInform (alertMsg, '', TRUE);
+END;	{of isError}
+
+		{ Symbol definition: 16; SymListNode: 54 (Styled) }
+		16, 54: if HANDLE_ClassesNMtrls( temp_h ) THEN;
+		OTHERWISE
+			AlertInform( GetPluginString( 3012 ), '', TRUE);
+	END;	{of case container_type}
+END;
+```
+```python
+import vs
+
+# Displays an alert dialog which provides the user an information about the
+# result of a command.
+text = 'Example text'
+advice = 'Example'
+minorAlert = True
+
+vs.AlertInform(text, advice, minorAlert)
+```
+
 ## See Also
 VS Functions:
 [AlertQuestion](AlertQuestion.md) 

@@ -27,6 +27,24 @@ def vs.SetDocDrpShadowData(bUseDropShadow, nUnits, dOffset, dBlurRadius, dAngle,
 |nOpacity|INTEGER|   |
 |color|LONGINT|   |
 
+## Examples
+```pascal
+SetDocDrpShadowData(TRUE, 1, 1.0, 2.0, 0.5, 2, 3);
+```
+```python
+import vs
+
+bUseDropShadow = True
+nUnits = 1
+dOffset = 0.0
+dBlurRadius = 1.0
+dAngle = 45.0
+nOpacity = 2
+color = 5
+
+vs.SetDocDrpShadowData(bUseDropShadow, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, color)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

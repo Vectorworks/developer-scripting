@@ -26,6 +26,23 @@ def vs.SetLBItemData(nDialogID, nComponentID, nItemIndex, nSubItemIndex, nUserDa
 |nSubItemIndex|INTEGER|   |
 |nUserData|LONGINT|   |
 
+## Examples
+```pascal
+SetLBItemData(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets the user data associated with the list browser item.
+nDialogID = 1
+nComponentID = 2
+nItemIndex = 1
+nSubItemIndex = 1
+nUserData = 3
+
+vs.SetLBItemData(nDialogID, nComponentID, nItemIndex, nSubItemIndex, nUserData)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

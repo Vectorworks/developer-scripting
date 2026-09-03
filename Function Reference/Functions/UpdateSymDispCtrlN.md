@@ -78,6 +78,26 @@ def vs.UpdateSymDispCtrlN(dialogID, itemID, symbolName, view, renderMode, compon
 |component|INTEGER|The image component.|
 |scaleByZoom|BOOLEAN|Whether the sizing is done by zoom or layer scale.|
 
+## Examples
+```pascal
+UpdateSymDispCtrlN(1, 2, 'Example', 3, 10, 5, TRUE);
+```
+```python
+import vs
+
+# Updates a pre-existing symbol display control in the dialog with a new
+# symbol, rendering mode, view or image component.
+dialogID = 1
+itemID = 2
+symbolName = 'MySymbol'
+view = 3
+renderMode = 0
+component = 10
+scaleByZoom = True
+
+vs.UpdateSymDispCtrlN(dialogID, itemID, symbolName, view, renderMode, component, scaleByZoom)
+```
+
 ## See Also
 VS Functions:
 [CreateSymDispCtrlN](CreateSymDispCtrlN.md)

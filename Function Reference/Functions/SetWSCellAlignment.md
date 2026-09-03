@@ -41,6 +41,35 @@ def vs.SetWSCellAlignment(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 |rightColumn|INTEGER|Rightmost column of cell range.|
 |cellAlignment|INTEGER|The new alignment index value.|
 
+## Examples
+```pascal
+SetWSCellTextFormat(MyWSHandle, 3, 1, 3, 5, DefaultWSFontID, 12, 1); {Bold 12pt for row 3}
+SetWSCellFormula   (MyWSHandle, 3, 1, 3, 1, kTotal);
+SetWSCellAlignment (MyWSHandle, 3, 1, 3, 1, 3); {Right Align}
+
+{define the formatting for the main heading}
+SetWSColumnWidth(tempHandle, tempA, tempA, Str2Num(gSchFldInfo[tempA, 3])*10); {*10 = characters-to-pixels conversion}
+SetWSCellAlignment(tempHandle, 2, tempA, 2, tempA, 1);
+SetWSCellTextFormat(tempHandle, 2, tempA, 2, tempA, GetFontID(gSchFontName[1]), gSchTxtSizeInfo[1], 1);
+
+SetWSCellAlignment(gWorkSheetHandle,1,1,1,5,2);
+END;
+```
+```python
+import vs
+
+# Sets the horizontal alignment of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+cellAlignment = 1
+
+vs.SetWSCellAlignment(worksheet, topRow, leftColumn, bottomRow, rightColumn, cellAlignment)
+```
+See also in tutorials: [27. Formatted Wall Schedule](ai%20examples/27_WorksheetFormattedSchedule.md), [28. Symbol Instance Schedule](ai%20examples/28_WorksheetSymbolSchedule.md), [29. Cross-Layer Summary](ai%20examples/29_WorksheetCrossLayerSummary.md), [30. Publish Worksheet Image on a Sheet Layer](ai%20examples/30_WorksheetPublishOnSheet.md)
+
 ## Version
 Availability: from VectorWorks 9.0
 

@@ -17,6 +17,17 @@ def vs.GetDefaultOpacity():
 |---|---|---|
 |opacity|INTEGER|   |
 
+## Examples
+```pascal
+GetDefaultOpacity(1);
+```
+```python
+import vs
+
+# Returns the default opacity.
+result = vs.GetDefaultOpacity()
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

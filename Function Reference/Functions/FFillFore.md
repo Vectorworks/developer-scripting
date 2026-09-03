@@ -32,6 +32,35 @@ FFillFore(redValue,greenValue,blueValue);
 redValue,greenValue,blueValue = vs.FFillFore()
 ```
 
+```pascal
+BEGIN
+	FFillFore (R, G, B);
+	SetFillFore (objectH, R, G, B);
+	FFillBack (R, G, B);
+	SetFillBack (objectH, R, G, B);
+END;
+
+FFillFore (red, green, blue);
+RGBToColorIndex (red, green, blue, color);
+TmpClassInfo.FillFore := color;
+
+{get attributes}
+cpp := FPenPatN;
+cfp := FFillPat;
+cps := FPenSize;
+FFillFore(rff,gff,bff);
+FFillBack(rfb,gfb,bfb);
+FPenFore(rpf,gpf,bpf);
+FPenBack(rpb,gpb,bpb);
+```
+```python
+import vs
+
+# Procedure FFillFore returns the current fill foreground color.
+red, green, blue = vs.FFillFore()
+vs.Message('FFillFore returned: ' + str((red, green, blue)))
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

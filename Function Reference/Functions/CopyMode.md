@@ -49,6 +49,19 @@ Valid mode values are:
 
 This procedure may also set the layer transparency to approximate the given transfer mode on systems that don't support transfer modes.
 
+## Examples
+```pascal
+CopyMode(1);
+```
+```python
+import vs
+
+# Procedure CopyMode sets the transfer mode for the active design layer.
+mode = 0
+
+vs.CopyMode(mode)
+```
+
 ## See Also
 VS Functions:
 [SetLayerTransparency](SetLayerTransparency.md)

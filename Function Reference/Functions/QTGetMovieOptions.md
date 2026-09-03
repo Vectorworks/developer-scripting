@@ -22,6 +22,21 @@ def vs.QTGetMovieOptions(movieRef):
 |frameRate|REAL|Frame rate of movie|
 |keyFrameRate|LONGINT|Key frame rate of movie.|
 
+## Examples
+```pascal
+QTGetMovieOptions(1, 1.0, 2);
+```
+```python
+import vs
+
+# Retrieves the QuickTime movie frame rate and key frame rate for the
+# referenced movie stream.
+movieRef = 1
+
+frameRate, keyFrameRate = vs.QTGetMovieOptions(movieRef)
+vs.Message('QTGetMovieOptions returned: ' + str((frameRate, keyFrameRate)))
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

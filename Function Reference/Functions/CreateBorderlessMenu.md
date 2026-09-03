@@ -25,9 +25,25 @@ def vs.CreateBorderlessMenu(dialogID, itemID, label, iconResPath):
 |label|DYNARRAY[] of CHAR|Label of the button. If the label is empty, this button will be a small untitled borderless menu button.|
 |iconResPath|DYNARRAY[] of CHAR|The resource path of the icon|
 
+## Examples
+```pascal
+CreateBorderlessMenu(1, 2, label, iconResPath);
+```
+```python
+import vs
+
+# Creates a borderless menu button control in a dialog layout.
+dialogID = 1
+itemID = 2
+label = 'Example text'
+iconResPath = 'C:/Temp'
+
+vs.CreateBorderlessMenu(dialogID, itemID, label, iconResPath)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2024
 
 ## Category
 * [Dialogs - Modern](../Categories/Dialogs - Modern.md)
-

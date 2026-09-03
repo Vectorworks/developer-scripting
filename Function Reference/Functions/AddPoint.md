@@ -55,6 +55,59 @@ vs.EndPoly()
 #{creates a polygon object}
 ```
 
+```pascal
+3: BEGIN
+	AddPoint(Offset,0.0);
+	AddPoint(Offset + Scaler*BreakWidth/4,Scaler*BreakHeight/2);
+	AddPoint(Offset + Scaler*3*BreakWidth/4,-1*Scaler*BreakHeight/2);
+	AddPoint(Offset + Scaler*BreakWidth,0.0);
+	END;
+
+BeginXtrd(LeftCabLength-CabThick,LeftCabLength);
+BeginPoly;
+AddPoint(X,Y);
+AddPoint(CabHeight,Y);
+AddPoint(CabHeight,Y-CabDepth+FaceThick);
+AddPoint(KickHeight,Y-CabDepth+FaceThick);
+AddPoint(KickHeight,Y-CabDepth+KickInset+CabThick);
+
+BeginPoly;
+	max:=2*PI;
+	WHILE CurAng<max DO  BEGIN
+		s:=sin(curang);c:=cos(curang);
+		AddPoint(iRad*s,iRad*c);
+		curAng:=curAng+ang;
+	END;
+```
+```python
+# Create poly for roadbed
+vs.BeginPoly()
+vs.AddPoint( p40 )
+vs.AddPoint( p5 )
+vs.AddPoint( p6 )
+vs.AddPoint( p70 )
+vs.EndPoly()
+
+# Draw paving
+vs.ClosePoly()
+vs.BeginPoly()
+vs.AddPoint( p4 )
+vs.AddPoint( p3 )
+vs.AddPoint( p6 )
+vs.AddPoint( p5 )
+vs.EndPoly()
+
+vs.MoveTo( 0, 0 )
+vs.MoveTo( w, 0 )
+vs.ArcTo( w, r1 * vs.Tan( theta / 2 ), 0 )
+vs.AddPoint( w + r1 - ( r1 * vs.Cos( theta ) ), r1 * vs.Sin( theta ) )
+vs.MoveTo( -( r1 - ( r1 * vs.Cos( theta ) ) ), r1 * vs.Sin( theta ) )
+vs.ArcTo( 0, r1 * vs.Tan( theta / 2 ), 0 )
+vs.LineTo( 0, 0 )
+vs.EndPoly()
+```
+See also in tutorials: [04. Extrude 2D Shapes into 3D Solids](ai%20examples/04_ExtrudeShapesTo3D.md), [12. Polygon Area and Centroid (Shoelace Formula)](ai%20examples/12_PolygonAreaCentroid.md), [13. Point-in-Polygon Test (Ray Casting)](ai%20examples/13_PointInPolygonRayCast.md), [14. Polygon Inward / Outward Offset](ai%20examples/14_PolygonInwardOffset.md)
+
 ## See Also
 <listTable indent="1" cols="4">
 [AddPoint](AddPoint.md)

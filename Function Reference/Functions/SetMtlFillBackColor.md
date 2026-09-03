@@ -29,6 +29,19 @@ ColorIndexToRGB(214,cRed,cGrn,cBlu);
 SetMtlFillBackColor(mtlHandle,cRed,cGrn,cBlu);
 ```
 
+```pascal
+SetMtlFillBackColor(material, 1);
+```
+```python
+import vs
+
+# Sets the fill background color of the specified material.
+material = vs.FSActLayer()  # handle to the first selected object on the active layer
+color = 5
+
+vs.SetMtlFillBackColor(material, color)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

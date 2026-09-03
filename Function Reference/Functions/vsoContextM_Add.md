@@ -22,6 +22,25 @@ def vs.vsoContextM_Add(locName, itemID, helpID):
 |itemID|INTEGER|   |
 |helpID|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+	vsoContextM_Add( GetPluginString(3000) , 1, 'cm_Select_Multicable' );
+	{vsoContextM_Add( GetPluginString(3001) , 2, '' );	}
+END;
+```
+```python
+import vs
+
+# Add an item to the context menu of the object during kObjOnContextMenuInit
+# event.
+locName = 'Example'
+itemID = 1
+helpID = 'Example'
+
+vs.vsoContextM_Add(locName, itemID, helpID)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

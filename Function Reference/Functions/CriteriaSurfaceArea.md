@@ -34,6 +34,13 @@ totalArea:=CriteriaSurfaceArea((C='Empty Space'));
 
 ```
 
+```pascal
+resultVal := CriteriaSurfaceArea(c);
+```
+```python
+result = vs.CriteriaSurfaceArea(c)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

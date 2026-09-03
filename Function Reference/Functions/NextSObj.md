@@ -17,6 +17,31 @@ def vs.NextSObj(h):
 |---|---|---|
 |h|HANDLE|Handle to object.|
 
+## Examples
+```pascal
+	itemHandle := NextSObj(itemHandle);
+END;
+
+locHandle := NextSObj( locHandle ); { go to next selected. }
+
+		begin
+	ProcessSelectedChoice;
+	ResetObject(gPluginH);
+		end;
+	gPluginH := NextSObj(gPluginH);
+END;
+```
+```python
+import vs
+
+# Function NextSObj returns the next selected object in a list.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.NextSObj(h)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 Relative calls:
 * [NextObj](NextObj.md) | [PrevObj](PrevObj.md)

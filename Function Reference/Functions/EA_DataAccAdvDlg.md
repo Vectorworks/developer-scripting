@@ -17,6 +17,23 @@ def vs.EA_DataAccAdvDlg(acc):
 |---|---|---|
 |acc|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := EA_DataAccAdvDlg(1);
+```
+```python
+import vs
+
+# Shows an advanced settings dialog.
+acc = 1
+
+ok = vs.EA_DataAccAdvDlg(acc)
+if ok:
+    vs.Message('EA_DataAccAdvDlg succeeded')
+else:
+    vs.Message('EA_DataAccAdvDlg failed')
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -22,6 +22,21 @@ def vs.vstResPDMenuInit(uniqueID, modeGroup, emptyMsg):
 |modeGroup|INTEGER|   |
 |emptyMsg|STRING|   |
 
+## Examples
+```pascal
+vstResPDMenuInit('Example', 1, 'Example');
+```
+```python
+import vs
+
+# Use this call during tool setup.
+uniqueID = 'Example'
+modeGroup = 0
+emptyMsg = 'Hello Vectorworks'
+
+vs.vstResPDMenuInit(uniqueID, modeGroup, emptyMsg)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

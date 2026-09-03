@@ -15,6 +15,18 @@ def vs.GetDLSeparation():
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultVal := GetDLSeparation;
+```
+```python
+import vs
+
+# Gets the Double Line Preferences separation.
+value = vs.GetDLSeparation()
+vs.Message('GetDLSeparation returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetDLSeparation](SetDLSeparation.md)

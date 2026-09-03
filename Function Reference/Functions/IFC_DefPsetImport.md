@@ -36,6 +36,22 @@ RUN(PsetImport);
 ok = vs.IFC_DefPsetImport( 'D:\Vectorworks');
 ```
 
+```pascal
+resultOK := IFC_DefPsetImport('file.txt');
+```
+```python
+import vs
+
+# Imports Custom Object Presets from XML, XLSX, CSV or text files from folder.
+strFolderPath = 'C:/Temp'
+
+ok = vs.IFC_DefPsetImport(strFolderPath)
+if ok:
+    vs.Message('IFC_DefPsetImport succeeded')
+else:
+    vs.Message('IFC_DefPsetImport failed')
+```
+
 ## See Also
 [IFC_DefPsetBegin](IFC_DefPsetBegin.md)
 [IFC_DefPsetEnd](IFC_DefPsetEnd.md)

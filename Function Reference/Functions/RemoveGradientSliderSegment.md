@@ -34,6 +34,13 @@ RemoveGradientSliderSegment(dialogID, componentID, 4);
 
 ```
 
+```pascal
+RemoveGradientSliderSegment(1, 2, 3);
+```
+```python
+vs.RemoveGradientSliderSegment(dialogID, componentID, 1)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

@@ -25,9 +25,25 @@ def vs.GetCableSectionData(hObj, DataSelector, SectionIndex, PartIndex):
 |SectionIndex|INTEGER||
 |PartIndex|INTEGER||
 
+## Examples
+```pascal
+resultStr := GetCableSectionData(hObj, 'Example', 1, 2);
+```
+```python
+import vs
+
+# Get cable section data.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+DataSelector = 'Example'
+SectionIndex = 1
+PartIndex = 1
+
+text = vs.GetCableSectionData(hObj, DataSelector, SectionIndex, PartIndex)
+vs.Message('GetCableSectionData returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2025.4
 
 ## Category
 * [Objects - Cables](../Categories/Objects%20-%20Cables.md)
-

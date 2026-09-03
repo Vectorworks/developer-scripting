@@ -36,6 +36,17 @@ scheme	= -1
 ok	= vs.IFC_GetIFCScheme(scheme)
 ```
 
+```pascal
+resultOK := IFC_GetIFCScheme(1);
+```
+```python
+import vs
+
+# Gets the active IFC version.
+ok, outScheme = vs.IFC_GetIFCScheme()
+vs.Message('IFC_GetIFCScheme returned: ' + str((ok, outScheme)))
+```
+
 ## Remarks
 ### EIFCSupportSchema
 [buildingSMART’s](https://www.buildingsmart.org/about/what-is-openbim/ifc-introduction) technical core is based around a common data schema (model) called IFC that makes it possible to hold and exchange relevant data between different software applications. That enumeration represents different versions of the IFC model (IFC schema).

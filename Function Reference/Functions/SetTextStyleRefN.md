@@ -24,6 +24,27 @@ def vs.SetTextStyleRefN(objectId, start, count, textStyleRef):
 |count|INTEGER|Length of substring.|
 |textStyleRef|LONGINT|text style reference id|
 
+## Examples
+```pascal
+resultOK := SetTextStyleRefN(objectId, 1, 2, 3);
+```
+```python
+import vs
+
+# SetTextStyleRefN sets the text style of a specified substring of a text
+# object to the referenced style.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+start = 1
+count = 5
+textStyleRef = 0
+
+ok = vs.SetTextStyleRefN(objectId, start, count, textStyleRef)
+if ok:
+    vs.Message('SetTextStyleRefN succeeded')
+else:
+    vs.Message('SetTextStyleRefN failed')
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

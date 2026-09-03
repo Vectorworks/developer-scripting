@@ -33,6 +33,25 @@ def vs.GetDisplayWith2DComp(objectHandle, component):
 |objectHandle|HANDLE|3D object handle.|
 |component|INTEGER|2D component.|
 
+## Examples
+```pascal
+resultOK := GetDisplayWith2DComp(objectHandle, 1);
+```
+```python
+import vs
+
+# Gets whether a 3D object in a symbol definition or plug-in object is shown
+# when the specified 2D component is shown.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+component = 1
+
+ok = vs.GetDisplayWith2DComp(objectHandle, component)
+if ok:
+    vs.Message('GetDisplayWith2DComp succeeded')
+else:
+    vs.Message('GetDisplayWith2DComp failed')
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

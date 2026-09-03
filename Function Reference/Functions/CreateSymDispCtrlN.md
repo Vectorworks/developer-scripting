@@ -84,6 +84,29 @@ def vs.CreateSymDispCtrlN(dialogID, itemID, symbolName, width, height, margin, v
 |component|INTEGER|The image component.|
 |scaleByZoom|BOOLEAN|Whether the sizing is done by zoom or layer scale.|
 
+## Examples
+```pascal
+CreateSymDispCtrlN(1, 2, 'Example', 3, 10, 5, 1, 2, 3, TRUE);
+```
+```python
+import vs
+
+# Creates a new symbol display control in the dialog layout.
+dialogID = 1
+itemID = 2
+symbolName = 'MySymbol'
+width = 3
+height = 10
+margin = 1
+view = 2
+renderMode = 0
+component = 3
+scaleByZoom = True
+
+vs.CreateSymDispCtrlN(dialogID, itemID, symbolName, width, height, margin, view, renderMode, component, scaleByZoom)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [UpdateSymDispCtrlN](UpdateSymDispCtrlN.md)

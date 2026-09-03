@@ -22,6 +22,20 @@ def vs.DSH_GetDSNameAt(hObject):
 |dsIndex|INTEGER|   |
 |outDataSheetName|STRING|   |
 
+## Examples
+```pascal
+resultOK := DSH_GetDSNameAt(hObject, 1, 'Example');
+```
+```python
+import vs
+
+# Gets Object's Data Sheet Name for specified index.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, dsIndex, outDataSheetName = vs.DSH_GetDSNameAt(hObject)
+vs.Message('DSH_GetDSNameAt returned: ' + str((ok, dsIndex, outDataSheetName)))
+```
+
 ## Version
 Availability: from Vectorworks 2020.1
 

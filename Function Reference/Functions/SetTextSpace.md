@@ -31,6 +31,35 @@ def vs.SetTextSpace(theText, spacing):
 ## Remarks
 Use [SetTextLeading](SetTextLeading.md) to set a custom line spacing.
 
+## Examples
+```pascal
+IF text<>'' THEN CreateText(text) ELSE CreateText(' ');
+{Set correct text alignment}
+SetTextVertAlignN(LNewObj, tVAlign);
+SetTextJustN(LNewObj, tJust);
+SetTextSpace(LNewObj, 2);
+SetFPat(LNewObj,0);
+GetTextOrientation(LNewObj, ptX, ptY, angle, isMirrored);
+{Move the text object at the correct location}
+HMove(LNewObj, x + SizeFactor - ptX, y - ptY);
+
+CreateText(CellValue);
+SetFPat(LNewObj,0);
+SetTextVerticalAlign(LNewObj,1);
+SetTextJust(LNewObj,1);
+SetTextSpace(LNewObj,2);
+END;
+```
+```python
+import vs
+
+# Procedure SetTextSpace sets the line spacing of the referenced text object.
+theText = 'Example text'
+spacing = 1
+
+vs.SetTextSpace(theText, spacing)
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

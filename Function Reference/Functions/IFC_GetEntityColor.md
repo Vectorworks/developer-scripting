@@ -47,6 +47,19 @@ Run(Test);
 ok = vs.IFC_GetEntityColor('IfcWall', red, green, blue, transp)
 ```
 
+```pascal
+resultOK := IFC_GetEntityColor('Example', 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Gets the default color for an IFC entity type.
+inStrIfcType = 'Example'
+
+ok, outRed, outGreen, outBlue, outTransp = vs.IFC_GetEntityColor(inStrIfcType)
+vs.Message('IFC_GetEntityColor returned: ' + str((ok, outRed, outGreen, outBlue, outTransp)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

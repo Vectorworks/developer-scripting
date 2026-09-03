@@ -27,6 +27,21 @@ def vs.GetCompAltSecFillCl(object, componentIndex):
 ## Remarks
 *\_c\_*: 2016.02.03:  See remarks under [GetCompAltSecFill](GetCompAltSecFill.md)!
 
+## Examples
+```pascal
+resultOK := GetCompAltSecFillCl(object, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the alternate section fill colors of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, alternateSectionFillForeColor, alternateSectionFillBackColor = vs.GetCompAltSecFillCl(object, componentIndex)
+vs.Message('GetCompAltSecFillCl returned: ' + str((ok, alternateSectionFillForeColor, alternateSectionFillBackColor)))
+```
+
 ## See Also
 VS Functions:
 [SetCompAltSecFillCl](SetCompAltSecFillCl.md)

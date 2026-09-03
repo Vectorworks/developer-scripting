@@ -83,6 +83,38 @@ result = vs.AddAssociation(obj2, kOnDeleteDelete, obj1)
 result = vs.AddAssociation(obj2, kOnDeleteReset, obj1)
 ```
 
+```pascal
+	found1 := TRUE;
+	HCenter(h, pt1.x, pt1.y);
+	pt1 := WorldToObjectCoords(objHand, pt1);
+	status := RemoveAssociation(h, kOnDeleteDelete, objHand);
+	status := AddAssociation   (h, kOnDeleteDelete, objHand);
+END;
+
+	status := AddAssociation(heliodonHandle[i], kOnResetReset, parmHand);
+	status := AddAssociation(heliodonHandle[i], kOnDeleteReset, parmHand);
+END;
+
+boo := RemoveAssociation(objHand,     kOnDeleteDelete, theOtherOne);
+boo := AddAssociation   (objHand,     kOnDeleteDelete, theOtherOne);
+boo := RemoveAssociation(theOtherOne, kOnDeleteDelete, objHand);
+boo := AddAssociation   (theOtherOne, kOnDeleteDelete, objHand);
+```
+```python
+import vs
+
+# Adds an object-to-object association.
+ioOwnerObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+inKind = 0
+ioTargetObj = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.AddAssociation(ioOwnerObj, inKind, ioTargetObj)
+if ok:
+    vs.Message('AddAssociation succeeded')
+else:
+    vs.Message('AddAssociation failed')
+```
+
 ## Version
 Availability: from All Versions
 

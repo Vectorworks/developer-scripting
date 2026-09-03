@@ -25,7 +25,6 @@ def vs.ExtrudeAlongPath(pathHandle, profileHandle):
 ## Remarks
 *\_c\_*, 2018.05.13: The generated extrusion is a Generic Solid and won't take the active class attributes, while CreateExtrudeAlongPath will create a number of NURBS curves with class attributes, but they won't section properly in Section Viewports without stitch and trim, since they don't generate a fill. Tested in Pio: OK.
 
-
 -----
 The generic solid can not be edited
 
@@ -41,6 +40,22 @@ The following objects are supported as profile objects:
 * 21 -	Polyline
 * 25 -	3D Poly
 * 111 -	NURBS Curve
+
+## Examples
+```pascal
+h := ExtrudeAlongPath( nurbs, profileHandle );
+```
+```python
+import vs
+
+# Creates a new path extrude object in the document.
+pathHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+profileHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+objHandle = vs.ExtrudeAlongPath(pathHandle, profileHandle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
 
 ## See Also
 VS Functions:

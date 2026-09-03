@@ -17,6 +17,21 @@ def vs.PrevDObj(h):
 |---|---|---|
 |h|HANDLE|Handle to object.|
 
+## Examples
+```pascal
+resultH := PrevDObj(h);
+```
+```python
+import vs
+
+# Function PrevDObj returns the previous deselected object in a list of objects.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.PrevDObj(h)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 Relative calls:
 * [NextObj](NextObj.md) | [PrevObj](PrevObj.md)

@@ -17,6 +17,23 @@ def vs.SetToolByName(toolName):
 |---|---|---|
 |toolName|STRING|   |
 
+## Examples
+```pascal
+resultOK := SetToolByName('Example');
+```
+```python
+import vs
+
+# Similar to SetTool, but takes name rather than ID.
+toolName = 'Example'
+
+ok = vs.SetToolByName(toolName)
+if ok:
+    vs.Message('SetToolByName succeeded')
+else:
+    vs.Message('SetToolByName failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

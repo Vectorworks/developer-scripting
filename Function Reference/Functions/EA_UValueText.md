@@ -17,6 +17,20 @@ def vs.EA_UValueText(UValue):
 |---|---|---|
 |UValue|BOOLEAN|   |
 
+## Examples
+```pascal
+resultStr := EA_UValueText(TRUE);
+```
+```python
+import vs
+
+# Returns U-Value or R-Value text depending on document settings.
+UValue = True
+
+text = vs.EA_UValueText(UValue)
+vs.Message('EA_UValueText returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -59,6 +59,38 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	IF GetClassEndMarker(GetClass(LNewObj), style, angle, size, width, thicknessBasis, thickness) THEN
+	BEGIN
+		{Trick here.}
+		{You have to use SetObjEndMarker to turn the marker ON then you can reset it to ByClass and the MarkerVisibility sticks}
+		OK := SetObjEndMarker (LNewObj, style, angle, size, width, thicknessBasis, thickness, gMarkerVisibility);
+		SetMarkerByClass(lNewObj);
+		OK := SetObjEndMarker (pluginH, style, angle, size, width, thicknessBasis, thickness, gMarkerVisibility);
+		SetMarkerByClass(pluginH);
+	END;
+
+thickBasis := 0;
+thick := 0;
+ok := SetObjEndMarker(ptrLine,style,ang,size,wid,thickBasis,thick,TRUE);
+SetClass(ptrLine,pointerClass);
+ok := GetClassEndMarker(pointerClass,style,ang,size,wid,thickBasis,thick);
+IF NOT ok THEN
+	BEGIN
+		style := 0;
+		ang := 15;
+```
+```python
+import vs
+
+# Gets all properties for the named class's end marker.
+name = 'Example'
+
+ok, style, angle, size, width, thicknessBasis, thickness = vs.GetClassEndMarker(name)
+vs.Message('GetClassEndMarker returned: ' + str((ok, style, angle, size, width, thicknessBasis, thickness)))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

@@ -68,8 +68,26 @@ BEGIN
 
 ```
 
+```pascal
+		END;
+END;
+	{ check if event is exit from edit group. }
+IF vsoStateGetExitGroup( objHand, grpType ) THEN BEGIN
+	IF ( grpType = 1 ) THEN BEGIN
+		{ Old objects need to be reset on exiting the profile group }
+		IF Str2Num(GetRField(objHand,objName,'__version')) < 1750 THEN BEGIN
+			bExitEditGroup := TRUE;
+			{ First clear everything inside the parametric object (except the profie group) }
+			DeleteObjects;
+			{ Reset the object,without handrails if necessary in order to save the edited profile group }
+			Reset(TRUE);
+```
+```python
+result = vs.vsoStateGetExitGroup(h)
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

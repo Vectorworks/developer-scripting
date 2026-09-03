@@ -26,6 +26,16 @@ vs.HideLayer()
 #{hides the layer 'Future Construction'}
 ```
 
+```pascal
+HideLayer;
+```
+```python
+import vs
+
+# Procedure HideLayer sets the visibility status of the active layer to hidden.
+vs.HideLayer()
+```
+
 ## Version
 Availability: from All Versions
 

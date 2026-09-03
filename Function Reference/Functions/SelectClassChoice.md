@@ -22,6 +22,26 @@ def vs.SelectClassChoice(dialogID, componentID, select):
 |componentID|LONGINT|Id of the popup control|
 |select|BOOLEAN|TRUE if setting by class or FALSE if programmatically restoring the value to a non-class setting after class setting was applied|
 
+## Examples
+```pascal
+SetColorChoice(JoistAttributesDialogID, kPenBackPDM,	JoistPenBack);
+SetLineTypeChoice(JoistAttributesDialogID, 	kPenLineStylePDM, 	JoistPenLine   );
+SetLineWeightChoice(JoistAttributesDialogID, 	kLineWeightPDM, 	JoistLineWeight);
+ShowByClassChoice( JoistAttributesDialogID, kLineWeightPDM );
+SelectClassChoice( JoistAttributesDialogID, kLineWeightPDM, JoistLineWeightByClass );
+```
+```python
+import vs
+
+# Use to select the class option in a popup that ShowByClassChoice has been
+# called on.
+dialogID = 1
+componentID = 2
+select = True
+
+vs.SelectClassChoice(dialogID, componentID, select)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

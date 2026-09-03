@@ -28,6 +28,20 @@ def vs.StairGetSideLengthsM(stair):
 |LengthSide4M|REAL|   |
 |LengthSide5M|REAL|   |
 
+## Examples
+```pascal
+resultOK := StairGetSideLengthsM(stair, 1.0, 2.0, 0.5, 1.5, 3.0);
+```
+```python
+import vs
+
+# Returns Lengths of sides of stair.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, LengthSide1M, LengthSide2M, LengthSide3M, LengthSide4M, LengthSide5M = vs.StairGetSideLengthsM(stair)
+vs.Message('StairGetSideLengthsM returned: ' + str((ok, LengthSide1M, LengthSide2M, LengthSide3M, LengthSide4M, LengthSide5M)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

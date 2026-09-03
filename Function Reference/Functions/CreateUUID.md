@@ -12,6 +12,18 @@ def vs.CreateUUID():
     return STRING
 ```
 
+## Examples
+```pascal
+resultStr := CreateUUID;
+```
+```python
+import vs
+
+# Creates a string representing universe unique identifier.
+text = vs.CreateUUID()
+vs.Message('CreateUUID returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

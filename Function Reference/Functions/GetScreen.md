@@ -27,7 +27,6 @@ def vs.GetScreen():
 ## Remarks
 (*\_c\_*, 2014.08.19): The values returned are pixels. For example my iMac returns "0, 0, 2560, 1440".
 
-
 This seems to crash VW on Win98.
 
 Works OK on 1000 8367 on XP.
@@ -50,6 +49,26 @@ def Example():
 	x1, y1, x2, y2 = vs.GetScreen()
 	vs.Message(x1,' ',y1,' ',x2,' ',y2);
 Example()
+```
+
+```pascal
+BEGIN
+	GetVCenter(cenPt.x, cenPt.y);
+	pt := pt - cenPt;
+	pt := ((pt / GetPrefReal(152)) / GetLScale(ActLayer)) * (GetZoom / 100);
+	GetScreen(x1, y1, x2, y2);
+	pt.x := (x2 / 2) + ((pt.x / 13.5) * 1024) - 78;
+	pt.y := (y2 / 2) - ((pt.y / 10.5) *  768) + 21;
+	WorldToScreenCoords := pt;
+END;
+```
+```python
+import vs
+
+# Procedure GetScreen returns the top-left and bottom-right corners of the
+# display screen.
+x1, y1, x2, y2 = vs.GetScreen()
+vs.Message('GetScreen returned: ' + str((x1, y1, x2, y2)))
 ```
 
 ## Version

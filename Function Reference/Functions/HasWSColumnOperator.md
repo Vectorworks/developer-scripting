@@ -30,6 +30,26 @@ All operators = -1<BR>
 Sort operator = 0<BR>
 Summarize operatory = 1
 
+## Examples
+```pascal
+resultOK := HasWSColumnOperator(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Determines if specified column operator is set in column.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+column = 5
+operatorType = 0
+
+ok = vs.HasWSColumnOperator(worksheet, databaseRow, column, operatorType)
+if ok:
+    vs.Message('HasWSColumnOperator succeeded')
+else:
+    vs.Message('HasWSColumnOperator failed')
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

@@ -17,6 +17,21 @@ def vs.CreateSlabStyle(slabStyleName):
 |---|---|---|
 |slabStyleName|STRING|The name of the new Slab Style.  If the name is already in use, the next available name will be used.|
 
+## Examples
+```pascal
+resultH := CreateSlabStyle('Example');
+```
+```python
+import vs
+
+# Creates a new Slab Style of the given name.
+slabStyleName = 'Example'
+
+objHandle = vs.CreateSlabStyle(slabStyleName)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

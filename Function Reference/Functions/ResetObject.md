@@ -30,6 +30,31 @@ But if you have multiple object types that need to be regenerated, you can run i
 
 The one other thing that you have to do is provide a mechanism for preventing an infinite loop in the event model. If every time one of your linked objects gets reset, it runs an event handler which calls SetRField to update its peers, and then calls ResetObject to trigger their regeneration, then you have no exit condition. One way to handle this is to check that the objects need to be reset before resetting them. So your event handler has determined that Object X should have these values in these fields. So do some GetRFields first, to see what's already in those fields, and if they don't need to be changed, don't bother calling SetRField to change them, and don't bother calling ResetObject to regenerate them. Assuming that your event handler has already done all the setting and resetting that needs to be done on the first pass, when the second and successive objects in the chain are regenerating, they will all find that all of the work to all of the other objects has already been done, so no further resets will get triggered. The other way to prevent the infinite loop is to add a field to all of these objects called something like "wasResetByPeer", which should default to false, and which the object should set to false at the end of every execution. Then, when updating a peer object, set this to true. In the code of that object, if it's true, don't enter into the peer-to-peer code block, because you know you don't have to. This way is faster, and a bit more reliable.
 
+## Examples
+```pascal
+BEGIN
+SetRField(objHand, parmName,FieldName, SymName);
+ResetObject(objHand);
+END;
+
+WallCap(FALSE,FALSE,FALSE,-3*upi,3*upi);
+WallCap(TRUE,FALSE,FALSE,3*upi,-3*upi);
+result := SetWallOverallHeights(lnewobj,0,0,'',cHeight,0,0,'',cHeight);
+WallPeak((cWidth/2-3*upi),cRise+cHeight);
+ResetObject(lNewObj);
+
+BEGIN
+	numSymbols := numSymbols + 1;
+	traverseGroups (FinSymDef (symDefH));
+	ResetObject (symDefH);
+END;
+```
+```python
+vs.ResetObject( gObjHandle )
+vs.NameUndoEvent( vs.GetPluginString( 3001 ) )
+vs.vsoSetEventResult( vs.kObjectUIButtonHitOK )
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

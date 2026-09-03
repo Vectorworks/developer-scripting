@@ -31,6 +31,22 @@ Sort operator = 0<BR>
 Summarize operator = 1<BR>
 Add operator = 2
 
+## Examples
+```pascal
+RemoveWSColumnOperator(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Removes database column operator from specified column.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+column = 5
+operatorType = 0
+
+vs.RemoveWSColumnOperator(worksheet, databaseRow, column, operatorType)
+```
+
 ## See Also
 VS Functions:
 * [AddWSColumnOperator](AddWSColumnOperator.md)

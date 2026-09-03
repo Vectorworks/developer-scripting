@@ -33,6 +33,20 @@ def vs.StairGet2D3DCompType(stair):
 |---|---|---|
 |stair|HANDLE|   |
 
+## Examples
+```pascal
+resultN := StairGet2D3DCompType(stair);
+```
+```python
+import vs
+
+# Returns 2D3D components type of stair.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.StairGet2D3DCompType(stair)
+vs.Message('StairGet2D3DCompType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021 SP3
 

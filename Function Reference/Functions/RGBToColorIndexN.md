@@ -69,6 +69,48 @@ for c in colorData:
 vs.AlrtDialog(results)
 ```
 
+```pascal
+	Color := ColorString;
+	R := ParseColor(Color);
+	G := ParseColor(Color);
+	B := ParseColor(Color);
+	RGBToColorIndexN(R,G,B,ColorIndex,FALSE);
+	GetIndexFromString := ColorIndex;
+END;
+
+BEGIN
+	RGBToColorIndexN(	(TempColorArray [RowCount+1].Red),
+						(TempColorArray [RowCount+1].Green),
+						(TempColorArray [RowCount+1].Blue),
+						ColorIndexForName,
+						TRUE);
+	Red := ((TempColorArray [RowCount+1].Red))/257;
+	Green := ((TempColorArray [RowCount+1].Green))/257;
+	Blue := ((TempColorArray [RowCount+1].Blue))/257;
+	bFlipTexture := SetLBColumnOwnerDrawnType( dialog, kFrntMltColBrowser, RowCount,2,1);
+
+	red:=65535;
+	green:=65535;
+	blue:=65535;
+END;
+RGBToColorIndexN(red, blue, green, gelIndex, TRUE);
+IF GetColorName(gelIndex) <> colorList[i].colorSort THEN BEGIN
+	boo:=SetColorName(gelIndex, colorList[i].colorSort);
+END;
+```
+```python
+import vs
+
+# Procedure RGBToColorIndexN converts the Vectorworks palette colors from
+# its' red, green, and blue component values to the Vectorworks color index.
+red = 65535
+green = 0
+blue = 0
+ignoreBlackBackground = True
+
+result = vs.RGBToColorIndexN(red, green, blue, ignoreBlackBackground)
+```
+
 ## See Also
 Functions:
 * [ColorIndexToRGB](ColorIndexToRGB.md)

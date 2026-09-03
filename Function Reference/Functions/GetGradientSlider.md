@@ -36,6 +36,20 @@ def vs.GetGradientSlider(dialogID, componentID, segmentIndex):
 GetGradientSlider(dialogID, componentID, 4, spotPosition, midpointPosition, red, green, blue,opacity);
 ```
 
+```pascal
+GetGradientSlider(1, 2, 3, 1.0, 2.0, 10, 5, 1, 2);
+```
+```python
+import vs
+
+dialogID = 1
+componentID = 2
+segmentIndex = 1
+
+spotPosition, midpointPosition, red, green, blue, opacity = vs.GetGradientSlider(dialogID, componentID, segmentIndex)
+vs.Message('GetGradientSlider returned: ' + str((spotPosition, midpointPosition, red, green, blue, opacity)))
+```
+
 ## See Also
 VS Functions:
 [SetGradientSlider](SetGradientSlider.md) 

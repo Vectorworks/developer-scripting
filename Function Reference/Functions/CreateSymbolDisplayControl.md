@@ -108,6 +108,50 @@ def Example():
 Example()
 ```
 
+```pascal
+{General Tab}
+CreateGroupBox            (dialog1, kGenTab,                GetStr(kGenTab), FALSE);
+CreateSymbolDisplayControl(dialog1, kGeneralImage,          '', symbolDisplayHeight, symbolDisplayWidth, 20, 0, 2);
+CreateGroupBox            (dialog1, kGenHidGroup,           GetStr(kGenHidGroup), FALSE);
+CreateGroupBox            (dialog1, kOverallHgtGrp,         GetStr(kOverallHgtGrp), TRUE);
+CreateRadioButton         (dialog1, kHeightByLayer,         GetStr(kHeightByLayer));
+CreateStaticText          (dialog1, kUpperLayerLab,         GetStr(kUpperLayerLab), -1);
+
+{ ---- }
+CreateGroupBox( DialogID, kPreviewGroup_ID, DlgPrvObjGrpTex_1,  True );
+SetFirstLayoutItem( DialogID, kPreviewGroup_ID );
+	{ ---- }
+	CreateSymbolDisplayControl( DialogID, kPrevObjSymDisp_ID, PrevSymName, 300, 300, 10, 0, 2 );
+	SetFirstGroupItem( DialogID, kPreviewGroup_ID, kPrevObjSymDisp_ID );
+{ ---- }
+CreateGroupBox( DialogID, kPlaneDimsGroup_ID, DlgPrvObjGrpTex_2,  True );
+SetRightItem( DialogID, kPreviewGroup_ID, kPlaneDimsGroup_ID, 0, 0 );
+
+dialog1 := CreateLayout(GetStr( 3), TRUE, GetStr(kOK), GetStr(kCancel));
+CreateGroupBox            (dialog1, kGroupBox4,      GetStr(kGroupBox4), TRUE);
+CreateSymbolDisplayControl(dialog1, kSymbolDisp5,    '', 128, 448, 10, 11, 7);
+CreateGroupBox            (dialog1, kGroupBox6,      GetStr(kGroupBox6), TRUE);
+CreatePushButton          (dialog1, kPushButton7,    GetStr(kPushButton7));
+CreatePushButton          (dialog1, kPushButton8,    GetStr(kPushButton8));
+CreatePushButton          (dialog1, kPushButton9,    GetStr(kPushButton9));
+```
+```python
+import vs
+
+# Creates a new symbol display control in the dialog layout.
+dialogID = 1
+itemID = 2
+symbolName = 'MySymbol'
+height = 3
+width = 10
+margin = 1
+renderMode = 0
+view = 2
+
+vs.CreateSymbolDisplayControl(dialogID, itemID, symbolName, height, width, margin, renderMode, view)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [UpdateSymbolDisplayControl](UpdateSymbolDisplayControl.md)

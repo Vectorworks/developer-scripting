@@ -17,6 +17,21 @@ def vs.CreateSlab(profile):
 |---|---|---|
 |profile|HANDLE|The profile from which to create the slab.|
 
+## Examples
+```pascal
+resultH := CreateSlab(profile);
+```
+```python
+import vs
+
+# Creates a slab.
+profile = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.CreateSlab(profile)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [ModifySlab](ModifySlab.md)

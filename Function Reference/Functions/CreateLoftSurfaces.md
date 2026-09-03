@@ -90,6 +90,39 @@ def Example():
 Example()
 ```
 
+```pascal
+			Move3DObj(nurbsHand [cnt], 0, 0, z);
+		END;
+	EndGroup;
+	groupHand := LNewObj;
+	MXTrd_NURBS := CreateLoftSurfaces(groupHand, kRule, kClose, kSolid);
+	DelObject(groupHand);
+{
+message (' solidHand = ',solidHand ,'   curveHand [2] = ',curveHand [2]);
+}
+
+	{ create loft solid surface. }
+	hRes := CreateLoftSurfaces( hGroup, TRUE, FALSE, FALSE );
+	DelObj( hGroup );
+END;
+
+hRes := CreateLoftSurfaces( hGroup, TRUE, FALSE, TRUE );
+DelObj( hGroup );
+```
+```python
+import vs
+
+# Creates NURBS surfaces by interpolating a group of cross-section curves.
+groupCurvesHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+bRule = True
+bClose = False
+bSolid = True
+
+objHandle = vs.CreateLoftSurfaces(groupCurvesHd, bRule, bClose, bSolid)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks 10.0
 

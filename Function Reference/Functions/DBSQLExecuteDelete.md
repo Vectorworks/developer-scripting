@@ -20,6 +20,16 @@ def vs.DBSQLExecuteDelete():
 ## Examples
 [DBSQLExecuteDSN](DBSQLExecuteDSN.md)
 
+```pascal
+DBSQLExecuteDelete(1);
+```
+```python
+import vs
+
+# Deletes a resultSetInstance created with 'DBSQLExecute' or 'DBSQLExecuteDSN'.
+result = vs.DBSQLExecuteDelete()
+```
+
 ## See Also
 [DBSQLExecuteDSN](DBSQLExecuteDSN.md) | [DBSQLExecute](DBSQLExecute.md)
 

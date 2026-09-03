@@ -34,6 +34,18 @@ SetFillIAxisEndPoint(objectHandle, 20.0, 10.0);
 
 ```
 
+```pascal
+SetFillIAxisEndPoint( ObjHand, ImageFillOriginVec.x + ImageFill_IAxisVec.x, ImageFillOriginVec.y + ImageFill_IAxisVec.y );
+SetFillJAxisEndPoint( ObjHand, ImageFillOriginVec.x + ImageFill_JAxisVec.x, ImageFillOriginVec.y + ImageFill_JAxisVec.y );
+
+SetFillOriginPoint( ObjHand, ImageFillOriginVec.x, ImageFillOriginVec.y );
+SetFillIAxisEndPoint( ObjHand, ImageFillOriginVec.x + ImageFill_IAxisVec.x, ImageFillOriginVec.y + ImageFill_IAxisVec.y );
+SetFillJAxisEndPoint( ObjHand, ImageFillOriginVec.x + ImageFill_JAxisVec.x, ImageFillOriginVec.y + ImageFill_JAxisVec.y );
+```
+```python
+vs.SetFillIAxisEndPoint(h, (0, 0), (0, 0))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

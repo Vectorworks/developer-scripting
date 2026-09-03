@@ -37,6 +37,22 @@ hObject = vs.FSActLayer()
 ok = vs.IFC_ClearIFCInfo(hObject)
 ```
 
+```pascal
+resultOK := IFC_ClearIFCInfo(hObject);
+```
+```python
+import vs
+
+# Removes all IFC data.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IFC_ClearIFCInfo(hObject)
+if ok:
+    vs.Message('IFC_ClearIFCInfo succeeded')
+else:
+    vs.Message('IFC_ClearIFCInfo failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -58,6 +58,17 @@ END;
 RUN(Example);
 ```
 
+```pascal
+GetVersionEx(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Returns version information about the Vectorworks application.
+major, minor, maintenance, platform, buildNum = vs.GetVersionEx()
+vs.Message('GetVersionEx returned: ' + str((major, minor, maintenance, platform, buildNum)))
+```
+
 ## See Also
 [GetVersion](GetVersion.md)
 

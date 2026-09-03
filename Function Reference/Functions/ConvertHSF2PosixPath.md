@@ -36,6 +36,20 @@ Example:
  --> /Users/user/Desktop/New File.txt > /:Users:user:Desktop:New File.txt
  --> GIBBERISH
 
+## Examples
+```pascal
+resultOK := ConvertHSF2PosixPath(HSFPath, outPosixPath);
+```
+```python
+import vs
+
+# MacIntosh only!.
+HSFPath = 'C:/Temp'
+
+ok, outPosixPath = vs.ConvertHSF2PosixPath(HSFPath)
+vs.Message('ConvertHSF2PosixPath returned: ' + str((ok, outPosixPath)))
+```
+
 ## See Also
 VS Functions:
 [ConvertPosix2HSFPath](ConvertPosix2HSFPath.md)

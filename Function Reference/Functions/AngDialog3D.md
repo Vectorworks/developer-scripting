@@ -40,6 +40,23 @@ AngDialog3D('Enter the angle values:','0','0','0',x,y,z);
 x,y,z = AngDialog3D('Enter the angle values:','0','0','0')
 ```
 
+```pascal
+AngDialog3D('Example', 'Example', 'Example', 'Example', 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Function AngDialog3D displays a dialog box which requests the user to enter
+# three angle values.
+displayStr = 'Example'
+xStr = 'Example'
+yStr = 'Example'
+zStr = 'Example'
+
+xAngleResult, yAngleResult, zAngleResult = vs.AngDialog3D(displayStr, xStr, yStr, zStr)
+vs.Message('AngDialog3D returned: ' + str((xAngleResult, yAngleResult, zAngleResult)))
+```
+
 ## Version
 Availability: from All Versions
 

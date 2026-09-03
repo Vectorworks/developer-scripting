@@ -24,6 +24,21 @@ def vs.GetComponentUsePenClassAttr(obj, componentIndex):
 |useLeftPenClassAttributes|BOOLEAN|Returns whether or not the component is using class attributes for its left pen.|
 |useRightPenClassAttributes|BOOLEAN|Returns whether or not the component is using class attributes for its right pen.|
 
+## Examples
+```pascal
+resultOK := GetComponentUsePenClassAttr(obj, 1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Gets the use class attributes flags of the pens of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useLeftPenClassAttributes, useRightPenClassAttributes = vs.GetComponentUsePenClassAttr(obj, componentIndex)
+vs.Message('GetComponentUsePenClassAttr returned: ' + str((ok, useLeftPenClassAttributes, useRightPenClassAttributes)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentUsePenClassAttr](SetComponentUsePenClassAttr.md)

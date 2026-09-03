@@ -28,6 +28,22 @@ def vs.DBDocGetColumns(database, table):
 |outCanBeKey|DYNARRAY[] of CHAR|   |
 |outIsKey|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := DBDocGetColumns('Example', 'Example', outNames, outTypes, outCanBeKey, outIsKey);
+```
+```python
+import vs
+
+# Returns a string representing a ';' delimited lists of the specified table
+# data.
+database = 'Example'
+table = 'Example'
+
+ok, outNames, outTypes, outCanBeKey, outIsKey = vs.DBDocGetColumns(database, table)
+vs.Message('DBDocGetColumns returned: ' + str((ok, outNames, outTypes, outCanBeKey, outIsKey)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

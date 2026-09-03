@@ -23,6 +23,26 @@ def vs.RunImageComp(FilePath, savedView, SettingsDir, imageWidth, imageHeight):
 |imageWidth|INTEGER|The width in pixels of the image this function will save of the saved view.  This should be close to the width of the reference image.|
 |imageHeight|INTEGER|The height in pixels of the image this function will save of the saved view.  This should be close to the height of the reference image.|
 
+## Examples
+```pascal
+RunImageComp('file.txt', 'Example', 'Example', 1, 2);
+```
+```python
+import vs
+
+FilePath = 'C:/Temp'
+savedView = 'Example'
+SettingsDir = 'C:/Temp'
+imageWidth = 1
+imageHeight = 2
+
+ok = vs.RunImageComp(FilePath, savedView, SettingsDir, imageWidth, imageHeight)
+if ok:
+    vs.Message('RunImageComp succeeded')
+else:
+    vs.Message('RunImageComp failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

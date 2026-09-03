@@ -20,6 +20,32 @@ def vs.SetVPCropObject(viewportHandle, cropHandle):
 |viewportHandle|HANDLE|   |
 |cropHandle|HANDLE|   |
 
+## Examples
+```pascal
+		);
+HMove( LNewObj, pioLoc.x, pioLoc.y );
+SetLW( LNewObj, 0 );
+SetClass( LNewObj, ClassList( 1 ) );
+boo := SetVPCropObject( pioParentVPHand, LNewObj );
+{
+ResetBBox( pioParentVPHand );
+}
+{
+```
+```python
+import vs
+
+# Sets the specified crop object in the specified viewport.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cropHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.SetVPCropObject(viewportHandle, cropHandle)
+if ok:
+    vs.Message('SetVPCropObject succeeded')
+else:
+    vs.Message('SetVPCropObject failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

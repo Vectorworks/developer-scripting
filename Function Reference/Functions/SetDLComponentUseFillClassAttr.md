@@ -23,6 +23,25 @@ def vs.SetDLComponentUseFillClassAttr(index, useClassAttr):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetDLComponentUseFillClassAttr(1, TRUE);
+```
+```python
+import vs
+
+# Sets the use fill class attributes flag of the component at index in the
+# Double Line Preferences.
+index = 1
+useClassAttr = True
+
+ok = vs.SetDLComponentUseFillClassAttr(index, useClassAttr)
+if ok:
+    vs.Message('SetDLComponentUseFillClassAttr succeeded')
+else:
+    vs.Message('SetDLComponentUseFillClassAttr failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentUseFillClassAttr](GetDLComponentUseFillClassAttr.md)

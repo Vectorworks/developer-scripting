@@ -71,6 +71,30 @@ END;
 
 ```
 
+```pascal
+bsb := vsoAppendWidget(kWidgetButton, kDoorHandlesBtn, GetPlugInString(3002), 1);
+bsb := vsoAppendWidget(kWidgetButton, kDrawerHandlesBtn, GetPlugInString(3003), 1);
+
+IF GetLocalizedPluginParameter('Data Stamp','MargFact',wString) THEN
+	status := vsoAppendParamWidget( 10, wString, 0 );
+IF GetLocalizedPluginParameter('Data Stamp','LFact',wString) THEN
+	status := vsoAppendParamWidget( 11, wString, 0 );
+status := vsoAppendWidget(kWidgetButton, 100, GetPlugInString(3006), 1);
+
+resultStatus := vsoAppendWidget (kWidgetButton, 3, GetPluginString (5005), 0);
+IF gIsIPProduct THEN
+BEGIN
+	resultStatus := vsoAppendWidget (kWidgetButton, 4, GetPluginString (5006), 0);
+	resultStatus := vsoAppendWidget (kWidgetButton, 5, GetPluginString (5007), 0);
+```
+```python
+def InitParameters():
+	# add the widgets
+	vs.vsoAddParamWidget( kWidgetID_MarkerSize, 	'Marker Size', '' )
+	vs.vsoAppendWidget	( vs.kWidgetButton, 		kWidgetID_StyleButton, vs.GetPluginString( 3002 ), 0 )
+	vs.vsoAppendWidget	( vs.kWidgetSeparator, 		kWidgetID_DrawingNumber, vs.GetPluginString( 3003 ), 0 )
+```
+
 ## Version
 Availability: from All Versions
 

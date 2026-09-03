@@ -44,6 +44,27 @@ Parameter swt defines whether the linestyle will be scaled with thickness, and p
 The linestyle is defined by up to five black/white length pairs, which are specified in parameters pair1 through pair5. The minimum length of any given black or white parameter is 1 point, or 1/72 of an inch, and the line specification must be in pairs.  
 The Function will also set the document default line style.
 
+## Examples
+```pascal
+resultN := GetDashStyleIndex(TRUE, 1, 1.0, 2.0, 0.5, 1.5, 3.0);
+```
+```python
+import vs
+
+# Function GetDashStyleIndex searches for the pattern specified by the
+# parameters.
+swt = True
+numPairs = 5
+pair1 = 1.0
+pair2 = 2.0
+pair3 = 0.5
+pair4 = 3.0
+pair5 = 1.0
+
+index = vs.GetDashStyleIndex(swt, numPairs, pair1, pair2, pair3, pair4, pair5)
+vs.Message('GetDashStyleIndex returned: ' + str(index))
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

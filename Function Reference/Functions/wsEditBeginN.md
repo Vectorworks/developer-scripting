@@ -20,6 +20,20 @@ def vs.wsEditBeginN(companyName, companyToolSetIconFilePath):
 |companyName|STRING|   |
 |companyToolSetIconFilePath|STRING|   |
 
+## Examples
+```pascal
+wsEditBeginN('Example', 'file.txt');
+```
+```python
+import vs
+
+# Begin workspace edit.
+companyName = 'Example'
+companyToolSetIconFilePath = 'C:/Temp'
+
+vs.wsEditBeginN(companyName, companyToolSetIconFilePath)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

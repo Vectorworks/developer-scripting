@@ -16,8 +16,6 @@ def vs.ReDraw():
 If you use a .vsm or .vst to create a .vso, the object will not regen, even if you use redraw or redrawall. Try this at the very end of the vso script (assuming you have the vso set to regen on move):
 HMove(parmHand,0,0);
 
-
-
 Here's Julian's code for forcing a redraw...
 ```pascal
 Procedure RegenGeometry;
@@ -29,6 +27,18 @@ SetPrefInt(56, CurrentPref / 2);
 Layer(GetLName(ActLayer));
 SetPrefInt(56, CurrentPref);
 END;
+```
+
+## Examples
+```pascal
+ReDraw;
+```
+```python
+import vs
+
+# Procedure ReDraw invokes a screen redraw of newly created objects in the
+# active VectorWorks document.
+vs.ReDraw()
 ```
 
 ## Version

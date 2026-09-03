@@ -29,6 +29,18 @@ SetTool(-203);
 vs.SetTool(-241)
 ```
 
+```pascal
+SetTool(1);
+```
+```python
+import vs
+
+# Activates the specified VectorWorks tool for use.
+theTool = 1
+
+vs.SetTool(theTool)
+```
+
 ## See Also
 VS Functions:
 [CallTool](CallTool.md)

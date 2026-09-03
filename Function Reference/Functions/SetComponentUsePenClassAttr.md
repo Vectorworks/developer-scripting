@@ -27,6 +27,26 @@ def vs.SetComponentUsePenClassAttr(obj, componentIndex, useLeftPenClassAttribute
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetComponentUsePenClassAttr(obj, 1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Sets the use class attributes flags of the pens of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+useLeftPenClassAttributes = True
+useRightPenClassAttributes = True
+
+ok = vs.SetComponentUsePenClassAttr(obj, componentIndex, useLeftPenClassAttributes, useRightPenClassAttributes)
+if ok:
+    vs.Message('SetComponentUsePenClassAttr succeeded')
+else:
+    vs.Message('SetComponentUsePenClassAttr failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentUsePenClassAttr](GetComponentUsePenClassAttr.md)

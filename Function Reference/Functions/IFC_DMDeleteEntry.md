@@ -39,6 +39,23 @@ RUN(Test);
 ok = vs.IFC_DMDeleteEntry('Wall', 'IfcWall')
 ```
 
+```pascal
+resultOK := IFC_DMDeleteEntry('Example', 'Example');
+```
+```python
+import vs
+
+# Deletes an Еntry group from indicated object, from current IFC Data Mapping.
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+
+ok = vs.IFC_DMDeleteEntry(inStrObjName, inStrEntryName)
+if ok:
+    vs.Message('IFC_DMDeleteEntry succeeded')
+else:
+    vs.Message('IFC_DMDeleteEntry failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

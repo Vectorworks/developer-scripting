@@ -24,6 +24,21 @@ def vs.GetTreeControlItemData(nDialogID, nComponentID, nItemID):
 |nItemID|INTEGER|   |
 |nUserData|LONGINT|   |
 
+## Examples
+```pascal
+GetTreeControlItemData(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Retrieves the user data of the specified item from a tree control.
+nDialogID = 1
+nComponentID = 2
+nItemID = 3
+
+result = vs.GetTreeControlItemData(nDialogID, nComponentID, nItemID)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

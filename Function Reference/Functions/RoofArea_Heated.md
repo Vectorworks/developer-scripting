@@ -25,10 +25,25 @@ def vs.RoofArea_Heated(c):
 Below a schema posted by Jeff Ouellette 2008:
 ![RoofArea_Functions.png](files/RoofArea_Functions.png)
 
+## Examples
+```pascal
+resultVal := RoofArea_Heated(c);
+```
+```python
+import vs
+
+# Returns the heated (interior) area along the slope of roofs or roof faces
+# that meet the criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+area = vs.RoofArea_Heated(c)
+vs.Message('RoofArea_Heated returned: ' + str(area))
+```
+
 ## See Also
-* [RoofArea HeatedProj](RoofArea%20HeatedProj.md)
-* [RoofArea Total](RoofArea%20Total.md)
-* [RoofArea TotalProj](RoofArea%20TotalProj.md)
+* [RoofArea HeatedProj](RoofArea_HeatedProj.md)
+* [RoofArea Total](RoofArea_Total.md)
+* [RoofArea TotalProj](RoofArea_TotalProj.md)
 
 ## Version
 Availability: from Vectorworks 14.0

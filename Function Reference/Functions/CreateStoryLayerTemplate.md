@@ -39,6 +39,23 @@ BEGIN
 success := CreateStoryLayerTemplate('Mod-Slab', 1, 'LT_Slab', 0, 6);
 ```
 
+```pascal
+resultOK := CreateStoryLayerTemplate('Example', 1.0, 'Design Layer-1', 2.0, 0.5, 1);
+```
+```python
+import vs
+
+# Creates a Story Layer Template in the current file.
+name = 'Example'
+scaleFactor = 1.0
+layerLevelType = 'Design Layer-1'
+elevationOffset = 0.0
+defaultWallHeight = 2.0
+
+ok, index = vs.CreateStoryLayerTemplate(name, scaleFactor, layerLevelType, elevationOffset, defaultWallHeight)
+vs.Message('CreateStoryLayerTemplate returned: ' + str((ok, index)))
+```
+
 ## See Also
 VS Functions:
 [GetNumStoryLayerTemplates](GetNumStoryLayerTemplates.md) 

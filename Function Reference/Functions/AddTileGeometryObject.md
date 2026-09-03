@@ -25,6 +25,23 @@ def vs.AddTileGeometryObject(tileHandle, objectHandle):
 return := AddTileGeometryGroup(tileHandle, objectHandle);
 ```
 
+```pascal
+resultOK := AddTileGeometryObject(tileHandle, objectHandle);
+```
+```python
+import vs
+
+# Adds the specified object to the specified tile resource.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+objectHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.AddTileGeometryObject(tileHandle, objectHandle)
+if ok:
+    vs.Message('AddTileGeometryObject succeeded')
+else:
+    vs.Message('AddTileGeometryObject failed')
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

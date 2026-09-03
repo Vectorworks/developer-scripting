@@ -31,6 +31,13 @@ SetClOpacity('Cold Water Supply',cRed,cGrn,cBlu);
 
 ```
 
+```pascal
+SetClOpacity('Wall', 1);
+```
+```python
+vs.SetClOpacity('Wall', opacity)
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

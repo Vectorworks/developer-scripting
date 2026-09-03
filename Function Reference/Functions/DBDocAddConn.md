@@ -68,6 +68,24 @@ def SQLiteConnTest():
 SQLiteConnTest()
 ```
 
+```pascal
+resultOK := DBDocAddConn(dsn, userName, password);
+```
+```python
+import vs
+
+# Add a database connection to the current document.
+dsn = 'Example'
+userName = 'Example'
+password = 'Example'
+
+ok = vs.DBDocAddConn(dsn, userName, password)
+if ok:
+    vs.Message('DBDocAddConn succeeded')
+else:
+    vs.Message('DBDocAddConn failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

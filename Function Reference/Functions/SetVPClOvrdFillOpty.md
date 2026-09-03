@@ -22,6 +22,21 @@ def vs.SetVPClOvrdFillOpty(viewportHandle, className, fillOpacity):
 |className|STRING|Name of the class.|
 |fillOpacity|INTEGER|The fill opacity as a percentage (0-100).|
 
+## Examples
+```pascal
+SetVPClOvrdFillOpty(viewportHandle, 'Wall', 1);
+```
+```python
+import vs
+
+# Sets the fill opacity for a viewport class override.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+fillOpacity = 1
+
+vs.SetVPClOvrdFillOpty(viewportHandle, className, fillOpacity)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

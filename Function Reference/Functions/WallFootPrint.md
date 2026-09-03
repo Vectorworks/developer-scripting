@@ -39,6 +39,28 @@ RUN(GetWallFootPrint);
 
 ```
 
+```pascal
+BEGIN
+	ok := FALSE;
+	if ( GetType(h) = 68 ) then BEGIN
+		h1 := WallFootPrint(h);
+		ok := TRUE;
+	END else if (GetType(h) = 71) & (GetObjectVariableInt(h, 172) = 3) then BEGIN
+		h1 := HDuplicate(FIn3D(h), 0, 0);
+		ok := TRUE;
+
+		CreateArcVertices(cen_pt, Vec2Ang(out_END_pt - cen_pt), -sweepAng, out_radius);
+		AddPoint(out_beg_pt.x, out_beg_pt.y);
+	EndPoly;
+	temp_h := LNewObj;
+	h := WallFootPrint(h);
+	WallFootPrintRound := AddSurface(h, temp_h);
+END;
+```
+```python
+result = vs.WallFootPrint(h)
+```
+
 ## Version
 Availability: from VectorWorks 10.0
 

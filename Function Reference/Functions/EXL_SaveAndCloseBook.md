@@ -17,6 +17,23 @@ def vs.EXL_SaveAndCloseBook(filePath):
 |---|---|---|
 |filePath|STRING|   |
 
+## Examples
+```pascal
+resultOK := EXL_SaveAndCloseBook('file.txt');
+```
+```python
+import vs
+
+# Save and closes the Excel file.
+filePath = 'C:/Temp'
+
+ok = vs.EXL_SaveAndCloseBook(filePath)
+if ok:
+    vs.Message('EXL_SaveAndCloseBook succeeded')
+else:
+    vs.Message('EXL_SaveAndCloseBook failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

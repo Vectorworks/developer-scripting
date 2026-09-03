@@ -20,6 +20,19 @@ def vs.DelVectorFill(vectorFillName):
 ## Remarks
 Deletes the hatch definition that has the name 'vectorFillName'
 
+## Examples
+```pascal
+DelVectorFill('Example');
+```
+```python
+import vs
+
+# Procedure DelVectorFill deletes the specified vector fill definition.
+vectorFillName = 'Example'
+
+vs.DelVectorFill(vectorFillName)
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

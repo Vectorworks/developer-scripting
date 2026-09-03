@@ -17,6 +17,28 @@ def vs.UpdateThumbnailPreview(resourceHandle):
 |---|---|---|
 |resourceHandle|HANDLE|Handle to the resource.|
 
+## Examples
+```pascal
+GetItemText(dialogID, 4,TextureName );
+IF ((TextureName = '') | (BackUpTextureName <> TextureName)) THEN
+	IF VerifyName THEN
+		DidIt := SetTextureAttributes;
+	IF DidIt THEN DidIt := UpdateThumbnailPreview(TextureHand);
+END;
+```
+```python
+import vs
+
+# e.
+resourceHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.UpdateThumbnailPreview(resourceHandle)
+if ok:
+    vs.Message('UpdateThumbnailPreview succeeded')
+else:
+    vs.Message('UpdateThumbnailPreview failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

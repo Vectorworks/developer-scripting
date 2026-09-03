@@ -27,6 +27,22 @@ Message( CallToolByIndex( -221 ) ) { activate locus tool, returns true if succes
 vs.Message( vs.CallToolByIndex( -221 ) ) # activate locus tool, returns true if successful
 ```
 
+```pascal
+resultOK := CallToolByIndex(1);
+```
+```python
+import vs
+
+# Similar to CallTool.
+toolIndex = 1
+
+ok = vs.CallToolByIndex(toolIndex)
+if ok:
+    vs.Message('CallToolByIndex succeeded')
+else:
+    vs.Message('CallToolByIndex failed')
+```
+
 ## See Also
 VS Functions:
 * [CallTool](CallTool.md)

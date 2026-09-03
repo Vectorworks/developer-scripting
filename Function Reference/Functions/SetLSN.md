@@ -30,6 +30,38 @@ IF GetObject('ISO-02 Dashed') <> NIL THEN
 	SetLSN(FSActLayer, -Name2Index('ISO-02 Dashed')); { sets the first selected object to 'ISO-02 Dashed' if the style is present }
 ```
 
+## Examples
+```pascal
+MoveTo(X+Overhang,Y);
+SetLW(LNewObj,kThinLine);
+SetLSN(LNewObj,gDashedLine);
+LineTo(X+Overhang, Y+Length+Overhang);
+SetLW(LNewObj,kThinLine);
+SetLSN(LNewObj,gDashedLine);
+	LineTo(X+Depth,Y+Length+Overhang);
+
+BEGIN
+	Rect(originX, originY, originX + lngth, originY + thickness);
+	SetFPat(LNewObj, 1);
+	SetLSN(LNewObj, 0);
+END
+
+	dx := wid/2 * .001" * GetLScale(ActLayer)
+ELSE dx := 0;
+MoveTo(dx,0);
+LineTo(pLineLength-dx,0);
+SetLSN(lnewobj,2);
+SetLW(lnewobj,wid);
+IF GetPref(16) THEN	{black background}
+	SetPenFore(lnewobj,0,0,0)
+ELSE SetPenFore(lnewobj,65535,65535,65535);
+```
+```python
+if setLineWeight:
+	vs.SetLW(objH, vs.GetLW(parentH))
+vs.SetLSN(objH, vs.GetLSN(parentH))
+```
+
 ## See Also
 VS Functions:
 [GetLSN](GetLSN.md)

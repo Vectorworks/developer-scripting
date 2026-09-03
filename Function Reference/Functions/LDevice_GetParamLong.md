@@ -25,6 +25,24 @@ def vs.LDevice_GetParamLong(handle, cellIndex, accessoryIndex, universalName):
 |accessoryIndex|LONGINT|   |
 |universalName|STRING|   |
 
+## Examples
+```pascal
+resultN := LDevice_GetParamLong(handle, 1, 2, 'Example');
+```
+```python
+import vs
+
+# Get long integer parameter of a Lighting Device or attached Accessory by
+# Worksheet Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+
+resultN = vs.LDevice_GetParamLong(handle, cellIndex, accessoryIndex, universalName)
+vs.Message('LDevice_GetParamLong returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

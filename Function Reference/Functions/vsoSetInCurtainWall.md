@@ -17,6 +17,19 @@ def vs.vsoSetInCurtainWall(inCurtainWall):
 |---|---|---|
 |inCurtainWall|BOOLEAN|   |
 
+## Examples
+```pascal
+vsoSetInCurtainWall(TRUE);
+```
+```python
+import vs
+
+# Used during event 52 to retrun whether an object is aCurtain Wall object.
+inCurtainWall = True
+
+vs.vsoSetInCurtainWall(inCurtainWall)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

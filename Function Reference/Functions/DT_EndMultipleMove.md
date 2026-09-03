@@ -12,6 +12,21 @@ def vs.DT_EndMultipleMove():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := DT_EndMultipleMove;
+```
+```python
+import vs
+
+# Returns TRUE if moving system was stoped successful.
+ok = vs.DT_EndMultipleMove()
+if ok:
+    vs.Message('DT_EndMultipleMove succeeded')
+else:
+    vs.Message('DT_EndMultipleMove failed')
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

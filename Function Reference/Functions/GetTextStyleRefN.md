@@ -22,6 +22,22 @@ def vs.GetTextStyleRefN(objectId, position):
 |objectId|HANDLE|handle to text object|
 |position|INTEGER|Position in text string, zero-based.|
 
+## Examples
+```pascal
+resultN := GetTextStyleRefN(objectId, 1);
+```
+```python
+import vs
+
+# GetTextStyleRefN returns the text style reference at a specified position
+# within the text object.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+position = 1
+
+resultN = vs.GetTextStyleRefN(objectId, position)
+vs.Message('GetTextStyleRefN returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

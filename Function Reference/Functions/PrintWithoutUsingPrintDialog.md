@@ -12,6 +12,18 @@ def vs.PrintWithoutUsingPrintDialog():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := PrintWithoutUsingPrintDialog;
+```
+```python
+import vs
+
+# Available in Industry Series products only.
+resultN = vs.PrintWithoutUsingPrintDialog()
+vs.Message('PrintWithoutUsingPrintDialog returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks10.5
 

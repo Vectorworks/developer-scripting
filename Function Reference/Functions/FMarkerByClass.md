@@ -26,6 +26,21 @@ useClassMarker:=FMarkerByClass;
 useClassMarker = vs.FMarkerByClass()
 ```
 
+```pascal
+resultOK := FMarkerByClass;
+```
+```python
+import vs
+
+# Function FMarkerByClass returns whether the global attributes are set to
+# use the arrow style of the default class.
+ok = vs.FMarkerByClass()
+if ok:
+    vs.Message('FMarkerByClass succeeded')
+else:
+    vs.Message('FMarkerByClass failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

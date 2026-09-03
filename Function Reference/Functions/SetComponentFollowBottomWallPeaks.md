@@ -22,6 +22,25 @@ def vs.SetComponentFollowBottomWallPeaks(obj, componentIndex, followBottomWallPe
 |componentIndex|INTEGER|The index of the component.|
 |followBottomWallPeaks|BOOLEAN|Whether or not the component will follow bottom wall peaks.|
 
+## Examples
+```pascal
+resultOK := SetComponentFollowBottomWallPeaks(obj, 1, TRUE);
+```
+```python
+import vs
+
+# Sets the follow bottom wall peaks flag of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+followBottomWallPeaks = True
+
+ok = vs.SetComponentFollowBottomWallPeaks(obj, componentIndex, followBottomWallPeaks)
+if ok:
+    vs.Message('SetComponentFollowBottomWallPeaks succeeded')
+else:
+    vs.Message('SetComponentFollowBottomWallPeaks failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentFollowBottomWallPeaks](GetComponentFollowBottomWallPeaks.md)

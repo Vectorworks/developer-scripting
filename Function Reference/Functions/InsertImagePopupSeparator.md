@@ -22,6 +22,23 @@ def vs.InsertImagePopupSeparator(liDialogID, liComponentID, strLabel):
 |liComponentID|LONGINT|   |
 |strLabel|STRING|   |
 
+## Examples
+```pascal
+resultN := InsertImagePopupSeparator(1, 2, 'Example');
+```
+```python
+import vs
+
+# Inserts a separator with the specified label at the end of the image popup
+# list.
+liDialogID = 1
+liComponentID = 2
+strLabel = 'Example text'
+
+resultN = vs.InsertImagePopupSeparator(liDialogID, liComponentID, strLabel)
+vs.Message('InsertImagePopupSeparator returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

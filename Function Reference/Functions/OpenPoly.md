@@ -24,6 +24,13 @@ Poly(0,0,1,1,1,-1);
 
 ```
 
+```pascal
+OpenPoly;
+```
+```python
+vs.OpenPoly()
+```
+
 ## Version
 Availability: from All Versions
 

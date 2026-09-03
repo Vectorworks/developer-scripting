@@ -17,6 +17,21 @@ def vs.MeshToGroup(meshObj):
 |---|---|---|
 |meshObj|HANDLE|Handle to a mesh object|
 
+## Examples
+```pascal
+resultH := MeshToGroup(meshObj);
+```
+```python
+import vs
+
+# Converts meshObj to a group of 3D polygons.
+meshObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.MeshToGroup(meshObj)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [GroupToMesh](GroupToMesh.md)

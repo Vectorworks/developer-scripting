@@ -28,6 +28,24 @@ def vs.SetWSImgAngle(worksheet, topRow, leftColumn, bottomRow, rightColumn, angl
 |rightColumn|INTEGER|Right column of cell range.|
 |angle|REAL|The image angle.|
 
+## Examples
+```pascal
+SetWSImgAngle(worksheet, 1, 2, 3, 10, 1.0);
+```
+```python
+import vs
+
+# Sets specified image angle in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+angle = 45.0
+
+vs.SetWSImgAngle(worksheet, topRow, leftColumn, bottomRow, rightColumn, angle)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

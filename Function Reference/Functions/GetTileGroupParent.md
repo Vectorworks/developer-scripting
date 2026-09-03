@@ -22,6 +22,20 @@ def vs.GetTileGroupParent(groupHandle):
 tileHandle := GetTileGroupParent(groupHandle);
 ```
 
+```pascal
+resultH := GetTileGroupParent(groupHandle);
+```
+```python
+import vs
+
+# Gets the tile resource parent of the specified tile group.
+groupHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetTileGroupParent(groupHandle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

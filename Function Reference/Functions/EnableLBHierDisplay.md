@@ -22,6 +22,28 @@ def vs.EnableLBHierDisplay(dialogID, componentID, enableHierDisplay):
 |componentID|LONGINT|The id of the list browser.|
 |enableHierDisplay|BOOLEAN|Whether to enable hierarchical display in the list browser.|
 
+## Examples
+```pascal
+	boo:=EnableLBSingleLineSelection(dialogIDIM, kBrowser, FALSE);
+	EnableLBSorting(dialogIDIM, kBrowser, TRUE);
+	IF GetNumLBItems(dialogIDIM, kBrowser)>1 THEN SetLBSortColumn(dialogIDIM, kBrowser, 0, FALSE);
+	EnableLBColumnLines(dialogIDIM, kBrowser, TRUE);
+	EnableLBHierDisplay(dialogIDIM, kBrowser, FALSE);
+	RestoreLBColumnWidths('Dlg_Inst_Mnt', dialogIDIM,kBrowser);
+END;
+```
+```python
+import vs
+
+# This function enables/disables the list browser to display items
+# hierarchically.
+dialogID = 1
+componentID = 2
+enableHierDisplay = True
+
+vs.EnableLBHierDisplay(dialogID, componentID, enableHierDisplay)
+```
+
 ## See Also
 VS Functions:
 [SetLBHierDispColumn](SetLBHierDispColumn.md)

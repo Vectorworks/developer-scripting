@@ -22,6 +22,45 @@ def vs.EnableLBDragAndDrop(dialogID, componentID, enable):
 |componentID|LONGINT|id of the list browser control|
 |enable|BOOLEAN|determines if drag and drop should be enabled|
 
+## Examples
+```pascal
+{Define kFieldsLB column 2.}
+cnt := InsertLBColumn        (AddEditLegend, kFieldsLB, kColNumber, GetPlugInString(10004), 30);
+boo := SetLBControlType      (AddEditLegend, kFieldsLB, kColNumber, kLBNumber);
+boo := SetLBItemDisplayType  (AddEditLegend, kFieldsLB, kColNumber, kTextOnly);
+boo := EnableLBDragAndDrop   (AddEditLegend, kFieldsLB, TRUE);
+boo := SetLBDragDropColumn   (AddEditLegend, kFieldsLB, kColNumber);
+
+LBWorkedBool := SetLBControlType (dialog,	kArrayStackLB,	0, kNumberLBCtrlType);
+LBWorkedBool := EnableLBDragAndDrop(dialog,	kArrayStackLB,	TRUE);
+LBWorkedBool := SetLBDragDropColumn(dialog,	kArrayStackLB,	0);
+EnableLBSorting(dialog,						kArrayStackLB,	FALSE);
+
+TmpInt := InsertLBColumn (dialog, kFrntMltColBrowser, 1, GetPlugInString(11162), 79 );		{1 - Color Name}
+TmpInt := InsertLBColumn (dialog, kFrntMltColBrowser, 2, GetPlugInString(11163), 60 );		{2 - Color}
+bFlipTexture := SetLBControlType (dialog, kFrntMltColBrowser, 0, kNumberLBCtrlType);
+EnableLBSorting(dialog, kFrntMltColBrowser, FALSE);
+bFlipTexture := EnableLBDragAndDrop(dialog, kFrntMltColBrowser, TRUE);
+bFlipTexture := SetLBDragDropColumn(dialog, kFrntMltColBrowser, 0);
+DiaColorCountInc := gDiaClrCountTtl;
+LBClrCountTtl := 0;
+While DiaColorCountInc <> 0 DO
+```
+```python
+import vs
+
+# Enables list browser drag and drop.
+dialogID = 1
+componentID = 2
+enable = True
+
+ok = vs.EnableLBDragAndDrop(dialogID, componentID, enable)
+if ok:
+    vs.Message('EnableLBDragAndDrop succeeded')
+else:
+    vs.Message('EnableLBDragAndDrop failed')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

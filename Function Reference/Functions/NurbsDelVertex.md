@@ -34,6 +34,21 @@ Create a simple nurbs curve, run it, and double click the pan tool to see it wor
 NurbsDelVertex(FSActLayer, 0, 0);
 ```
 
+## Examples
+```pascal
+NurbsDelVertex(objectHd, 1, 2);
+```
+```python
+import vs
+
+# Deletes a point in the referenced NURBS curve or surface.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index1 = 1
+index2 = 1
+
+vs.NurbsDelVertex(objectHd, index1, index2)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

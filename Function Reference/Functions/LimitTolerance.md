@@ -39,6 +39,13 @@ LimitTolerance(TRUE,FALSE,'','',-1&quot;,1&quot;);
 
 ```
 
+```pascal
+LimitTolerance(TRUE, FALSE, 'Example', 'Example', 1.0, 2.0);
+```
+```python
+vs.LimitTolerance(True, 'Example', leader, trailer, 1.0, 2.0)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

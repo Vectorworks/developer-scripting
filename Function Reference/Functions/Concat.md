@@ -40,6 +40,36 @@ AlrtDialog(Concat('A', 'sample', 'string'));
 vs.AlrtDialog(vs.Concat('A', 'sample', 'string'))
 ```
 
+```pascal
+ELSE BEGIN
+	dataFile := Concat (folderPath, kFileName);
+	sizeNotFound := TRUE;
+	Open (datafile);
+	ReadLn (dataUPI);
+
+theLabel := Concat(GetPlugInString(3004), Chr(13), Chr(13),
+					GetPlugInString(3006), Num2Str(2, theta), Chr(13),
+					GetPlugInString(3007), Num2StrF(D), Chr(13),
+					GetPlugInString(3008), Num2StrF(T), Chr(13),
+					GetPlugInString(3009), Num2StrF(L), Chr(13),
+					GetPlugInString(3010), Num2StrF(theRadius));
+
+ELSE BEGIN
+	IF gNumSymbols = 1 THEN tempStr1 := GetPlugInString (3018)
+	ELSE tempStr1 := GetPlugInString (3019);
+	tempStr2 := Concat (GetPlugInString (3016), gRecordName, GetPlugInString (3017), Num2Str (0, gNumSymbols), tempStr1);
+	AlrtDialog (tempStr2);
+END;
+```
+```python
+if dMmarkerSize <= 0:
+	dMmarkerSize = 1 * dUPI
+	vs.PMarker_Size = dMmarkerSize
+	vs.SetRField( gObjHandle, gObjName, 'Marker Size', vs.Concat( dMmarkerSize) )
+	recordFormatHandle = vs.GetObject(gObjName)
+	vs.SetRField( recordFormatHandle, gObjName, 'Marker Size', vs.Concat( dMmarkerSize) )
+```
+
 ## Version
 Availability: from All Versions
 

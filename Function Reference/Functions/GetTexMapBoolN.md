@@ -96,6 +96,25 @@ END;
 RUN(TEST)
 ```;
 
+```pascal
+resultOK := GetTexMapBoolN(obj, 1, 2, 3);
+```
+```python
+import vs
+
+# Get map info for specific part of object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+texPartID = 1
+texLayerID = 2
+selector = 3
+
+ok = vs.GetTexMapBoolN(obj, texPartID, texLayerID, selector)
+if ok:
+    vs.Message('GetTexMapBoolN succeeded')
+else:
+    vs.Message('GetTexMapBoolN failed')
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

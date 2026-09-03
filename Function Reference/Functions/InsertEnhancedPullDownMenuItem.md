@@ -52,7 +52,6 @@ BEGIN
     END;
 END;
 
-
 BEGIN
     dialog := CreateLayout( 'InsertEnhancedPullDownMenuItem Test', TRUE, 'OK', 'Cancel' );
 
@@ -71,6 +70,13 @@ RUN( CreateControlsTest );
 #### Python ####
 ```python
 
+```
+
+```pascal
+resultN := InsertEnhancedPullDownMenuItem(1, 2, 'Example', 3);
+```
+```python
+result = vs.InsertEnhancedPullDownMenuItem(dialogID, componentID, 'Example', iIconID)
 ```
 
 ## Version

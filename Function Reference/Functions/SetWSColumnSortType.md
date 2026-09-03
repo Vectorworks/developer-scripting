@@ -29,6 +29,22 @@ Sort type constants:<BR>
 Sort ascending = 0<BR>
 Sort descending = 1
 
+## Examples
+```pascal
+SetWSColumnSortType(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Sets database column sort type.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+column = 5
+sortType = 0
+
+vs.SetWSColumnSortType(worksheet, databaseRow, column, sortType)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

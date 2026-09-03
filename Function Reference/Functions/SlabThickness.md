@@ -17,6 +17,20 @@ def vs.SlabThickness(c):
 |---|---|---|
 |c|CRITERIA|   |
 
+## Examples
+```pascal
+resultVal := SlabThickness(c);
+```
+```python
+import vs
+
+# Returns the thickness of slab objects that meet the criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.SlabThickness(c)
+vs.Message('SlabThickness returned: ' + str(value))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

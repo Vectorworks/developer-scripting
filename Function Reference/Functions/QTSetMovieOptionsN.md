@@ -27,6 +27,30 @@ def vs.QTSetMovieOptionsN(movieRef, frameRate, keyFrameRate, useDLG, useDlgPrevi
 |frameWidth|LONGINT|Frame width for the movie file.|
 |frameHeight|LONGINT|Frame height for the movie file.|
 
+## Examples
+```pascal
+				END;
+		END;
+	END;
+30: BEGIN {QuickTime Settings...}
+	QTSetMovieOptionsN(QTMovieID, 15, 30, True, FALSE, QTFrameWidth, QTFrameHeight);
+	UserSetQTOptions := TRUE;
+	END;
+```
+```python
+import vs
+
+movieRef = 1
+frameRate = 1.0
+keyFrameRate = 2
+useDLG = True
+useDlgPreview = True
+frameWidth = 3
+frameHeight = 10
+
+vs.QTSetMovieOptionsN(movieRef, frameRate, keyFrameRate, useDLG, useDlgPreview, frameWidth, frameHeight)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

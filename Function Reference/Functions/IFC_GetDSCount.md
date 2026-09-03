@@ -20,6 +20,20 @@ def vs.IFC_GetDSCount(objectName):
 |objectName|STRING|   |
 |outDSCount|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := IFC_GetDSCount('Example', 1);
+```
+```python
+import vs
+
+# Gets Data Sheets count for object.
+objectName = 'Example'
+
+ok, outDSCount = vs.IFC_GetDSCount(objectName)
+vs.Message('IFC_GetDSCount returned: ' + str((ok, outDSCount)))
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

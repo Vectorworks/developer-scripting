@@ -20,6 +20,19 @@ def vs.GS_EdSh_RunDialog(libraryDataPtr):
 |userHitOK|BOOLEAN|   |
 |libraryDataPtr|LONGINT|   |
 
+## Examples
+```pascal
+GS_EdSh_RunDialog(TRUE, 1);
+```
+```python
+import vs
+
+# Runs an edit shader dialog layout.
+libraryDataPtr = 1
+
+result = vs.GS_EdSh_RunDialog(libraryDataPtr)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

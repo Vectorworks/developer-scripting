@@ -20,6 +20,19 @@ def vs.AlignDistribute3D(MenuAction):
 |MenuAction|LONGINT|   |
 |AlignDist3DParms|LONGINT|   |
 
+## Examples
+```pascal
+AlignDistribute3D(1, 2);
+```
+```python
+import vs
+
+# 3D Object Alignment/Distribution.
+MenuAction = 1
+
+result = vs.AlignDistribute3D(MenuAction)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

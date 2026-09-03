@@ -22,6 +22,25 @@ def vs.SetCompWallAssMod(object, componentIndex, wallAssociatedModification):
 |componentIndex|INTEGER|The index of the component.|
 |wallAssociatedModification|INTEGER|The wall associated modification of the component.  0 - None 1 - Clip walls 2 - Clipped by walls|
 
+## Examples
+```pascal
+resultOK := SetCompWallAssMod(object, 1, 2);
+```
+```python
+import vs
+
+# Sets the wall associated modification of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+wallAssociatedModification = 1
+
+ok = vs.SetCompWallAssMod(object, componentIndex, wallAssociatedModification)
+if ok:
+    vs.Message('SetCompWallAssMod succeeded')
+else:
+    vs.Message('SetCompWallAssMod failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompWallAssMod](GetCompWallAssMod.md)

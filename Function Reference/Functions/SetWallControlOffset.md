@@ -17,9 +17,21 @@ def vs.SetWallControlOffset(offset):
 |---|---|---|
 |offset|REAL|New offset value.|
 
+## Examples
+```pascal
+SetWallControlOffset(1.0);
+```
+```python
+import vs
+
+# Sets the default wall control line offset value.
+offset = 0.0
+
+vs.SetWallControlOffset(offset)
+```
+
 ## Version
 SetWallControlOffset is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from VectorWorks8.5
 

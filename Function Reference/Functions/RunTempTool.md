@@ -60,6 +60,25 @@ RUN( Test );
 
 ```
 
+```pascal
+PenFore(45000, 45000, 45000);
+SetPref(9871, TRUE);
+GetOrigin(OriginX,OriginY);
+Is3dView := GetProjection(ActLayer)<>6;
+RunTempTool(TempToolCallback, TRUE);
+
+BEGIN
+	 Is3dView := ( GetProjection(ActLayer) <> 6 );
+	 RunTempTool(TwoPointsToolCallback, TRUE);
+END;
+
+IF getData (gResultsWksH) THEN RunTempTool( analyzeBeam_Callback, FALSE ) { handle events in analyzeBeam_Callback }
+ELSE AlertCritical(GetPluginString (3013), '');
+```
+```python
+vs.RunTempTool(initialScroll, toolCallback)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

@@ -28,6 +28,23 @@ def vs.GetLBItemDashStyle(dialogID, componentID, itemIndex, subItemIndex):
 |styleIndex|INTEGER|the dash line's style index|
 |lineWeight|INTEGER|the dash line's line weight|
 
+## Examples
+```pascal
+resultOK := GetLBItemDashStyle(1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Gets the specified list browser item's dash style.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, styleIndex, lineWeight = vs.GetLBItemDashStyle(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemDashStyle returned: ' + str((ok, styleIndex, lineWeight)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

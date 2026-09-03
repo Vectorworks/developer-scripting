@@ -22,6 +22,19 @@ activeClName:= ActiveClass;
 activeClName = vs.ActiveClass()
 ```
 
+```pascal
+resultStr := ActiveClass;
+```
+```python
+activeClName = vs.ActiveClass()
+
+if ( classHandle == vs.Handle() or (kObjTypeClassDef != vs.GetTypeN( classHandle )) ):
+	strActiveClassName = vs.ActiveClass()
+	vs.NameClass( strClassName )
+	vs.NameClass( strActiveClassName )
+	ok = True
+```
+
 ## See Also
 VS Functions:
 [ActLayer](ActLayer.md) 

@@ -46,7 +46,6 @@ BEGIN
    resultStatus := vsoAppendWidget(kWidgetButton, 1, 'Update Text', 0);
 END;
 
-
 **NOTE: For localizations purposes this call should be used in combination 
 with the GetLocalizedPluginParameter function as shown below.
 
@@ -58,6 +57,30 @@ end;
 #### Python ####
 ```python
 
+```
+
+```pascal
+IF GetLocalizedPluginParameter('Data Stamp','Date',wString) THEN
+	status := vsoAppendParamWidget( 1, wString, 0 );
+IF GetLocalizedPluginParameter('Data Stamp','Time',wString) THEN
+	status := vsoAppendParamWidget( 2, wString, 0 );
+IF GetLocalizedPluginParameter('Data Stamp','FNam',wString) THEN
+	status := vsoAppendParamWidget( 3, wString, 0 );
+
+IF GetLocalizedPluginParameter('Drawing Label','Title',wString) THEN
+	bsb := vsoAppendParamWidget( 1, wString, 0 );
+IF GetLocalizedPluginParameter('Drawing Label','Title Alignment',wString) THEN
+	bsb := vsoAppendParamWidget( 2, wString, 0 );
+IF GetLocalizedPluginParameter('Drawing Label','Drawing',wString) THEN
+	bsb := vsoAppendParamWidget( 3, wString, 0 );
+
+BEGIN
+	If GetLocalizedPluginParameter(recName, fldName, locFldName) then BEGIN
+		result := vsoAppendParamWidget(GetFldIndex(GetObject(recName), fldName), locFldName, 0);
+	END;
+```
+```python
+result = vs.vsoAppendParamWidget(parameterID, 'Example', data)
 ```
 
 ## Version

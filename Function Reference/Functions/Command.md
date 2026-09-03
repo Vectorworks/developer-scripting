@@ -12,6 +12,22 @@ def vs.Command():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := Command;
+```
+```python
+import vs
+
+# Command returns TRUE if the Command key (Mac) or Control key (Windows) was
+# depressed during the last user event.
+ok = vs.Command()
+if ok:
+    vs.Message('Command succeeded')
+else:
+    vs.Message('Command failed')
+```
+
 ## Version
 Availability: from All Versions
 

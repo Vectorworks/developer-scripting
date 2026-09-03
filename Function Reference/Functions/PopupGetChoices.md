@@ -65,6 +65,28 @@ END;
 RUN(Example);
 ```
 
+```pascal
+BEGIN
+	ALLOCATE popupValues [1..1000];
+	numValues := 0;
+	PopupGetChoices (recordName, fldName, numValues, popupValues);
+
+BEGIN
+	gNumPopupValues := 0;
+	GetSelectedChoiceInfo (dialogID, 10, 0, selFieldIdx, curFieldName);
+	ALLOCATE popupValues [1..1000];
+	PopupGetChoices (gRecordName, curFieldName, gNumPopupValues, popupValues);
+```
+```python
+import vs
+
+recName = 'Example'
+fieldName = 'MyField'
+
+outNumValues, outPopUpValues = vs.PopupGetChoices(recName, fieldName)
+vs.Message('PopupGetChoices returned: ' + str((outNumValues, outPopUpValues)))
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

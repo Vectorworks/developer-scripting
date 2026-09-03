@@ -42,10 +42,7 @@ If you have any scripts that use this, you had better check them.
 *******************************
 ```
 
-
 I think that this is fixed in 901.
-
-
 
 Also from Tom...
 A word of warning:
@@ -69,6 +66,19 @@ Message('The key pressed was ',keyHit);
 #### Python ####
 ```python
 
+```
+
+```pascal
+		HRotate (followerH, x, y, -angle);
+		HMove (camH, -x, -y);
+		HMove (followerH, -x, -y);
+	END;	{of dTheta <> 0}
+UNTIL KeyDown( cCode ) | MouseDown (xM, yM);
+
+UNTIL KeyDown (cCode) | MouseDown (xM, yM);
+```
+```python
+result = vs.KeyDown()
 ```
 
 ## Version

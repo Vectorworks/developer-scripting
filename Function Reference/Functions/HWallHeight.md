@@ -42,6 +42,21 @@ You can also change the various heights of the wall with SetObjectVariableReal f
 606 EndHeightTop
 607 EndHeightBottom
 
+## Examples
+```pascal
+HWallHeight(wallHd, 1.0, 2.0);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+wallHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+startHeightDistance = 2.0
+endHeightDistance = 2.0
+
+vs.HWallHeight(wallHd, startHeightDistance, endHeightDistance)
+```
+
 ## Version
 Availability: from MiniCAD6.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

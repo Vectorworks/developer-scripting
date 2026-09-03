@@ -31,6 +31,19 @@ DrwSize(2,3);
 vs.DrwSize(2,3)
 ```
 
+```pascal
+DrwSize(1, 2);
+```
+```python
+import vs
+
+# Procedure DrwSize sets the drawing area of the document.
+rows = 10
+columns = 5
+
+vs.DrwSize(rows, columns)
+```
+
 ## Version
 Availability: from All Versions
 

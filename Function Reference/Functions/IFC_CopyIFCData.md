@@ -53,6 +53,24 @@ ok = vs.IFC_CopyIFCData(hSource, hDestination, 2); #ok returns FALSE, IFC data n
 ok = vs.IFC_CopyIFCData(hSource, hDestination, 3); #ok returns FALSE, IFC data not copied, different entity types
 ```
 
+```pascal
+resultOK := IFC_CopyIFCData(hSource, hDestination, 1);
+```
+```python
+import vs
+
+# Copies IFC data from one object to another.
+hSource = vs.FSActLayer()  # handle to the first selected object on the active layer
+hDestination = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+inMode = 0
+
+ok = vs.IFC_CopyIFCData(hSource, hDestination, inMode)
+if ok:
+    vs.Message('IFC_CopyIFCData succeeded')
+else:
+    vs.Message('IFC_CopyIFCData failed')
+```
+
 ## Version
 Available from: Vectorworks 2011.
 

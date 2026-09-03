@@ -30,7 +30,6 @@ Here's a snippet that shows how to get the text size that has been assigned to a
 pioTextSize := ((GetObjectVariableReal(pioHandle, 17) / GetLScale(GetLayer(pioHandle))) * 72) / 25.4;
 ```
 
-
 Example:
 ```pascal
 PROCEDURE Example;
@@ -50,6 +49,43 @@ criteria := '(T=10)';
 ForEachObject(SelectBySize, criteria);
 END;
 RUN(Example);
+```
+
+## Examples
+```pascal
+IF not ValidNumStr( GetText( textFoundH ), t_real ) THEN BEGIN
+	TextOrigin(0,0);
+	CreateText(Concat(' ', KNNoteNo));
+	SetTextFont( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextFont( textFoundH, 0 ) );
+	SetTextSize( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextSize( textFoundH, 0 ) );
+	SetTextStyle( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextStyle( textFoundH, 0 ) );
+	AddNumberWidth := GetTextWidth( LNewObj );
+	DelObject(LNewObj);
+end ELSE AddNumberWidth := 0;
+
+BEGIN
+txtSize := GetTextSize(TmpTextHand,1);
+txtSize := txtSize*(gTextSheetScale/100);
+IF (gTextStyle = gsItemoverSheet) | (gTextStyle = gsItemSheet) THEN
+	SetTextSize(TmpTextHand,(Len(txtStr)-Len(gSheetName)),Len(gSheetName),txtSize)
+ELSE
+
+10: BEGIN	{ Text }
+	getTextOrientation(hTemp, x1, y1, startA, isMirr);
+	FOR ptIndex := 0 TO len(gettext(hTemp))-1 DO setTextSize(hTemp, ptIndex, 1, factor*getTextSize(hTemp, ptIndex));
+	setTextOrientation(hTemp, x1*factor, y1*factor, startA, isMirr);
+	END;
+```
+```python
+import vs
+
+# Procedure GetTextSize returns the text point size at a specified position
+# within the referenced text object.
+TextHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+Position = 1
+
+value = vs.GetTextSize(TextHd, Position)
+vs.Message('GetTextSize returned: ' + str(value))
 ```
 
 ## Version

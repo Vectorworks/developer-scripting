@@ -25,6 +25,23 @@ def vs.CreateCone(center, tip, radiusDistance):
 ## Remarks
 [sd 8/18/98]
 
+## Examples
+```pascal
+resultH := CreateCone(1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0);
+```
+```python
+import vs
+
+# Creates a 3D cone object in a VectorWorks document.
+center = (0, 0)
+tip = 'Example'
+radiusDistance = 1.0
+
+objHandle = vs.CreateCone(center, tip, radiusDistance)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

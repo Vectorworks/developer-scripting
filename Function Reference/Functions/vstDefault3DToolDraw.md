@@ -9,6 +9,16 @@ def vs.vstDefault3DToolDraw():
     return None
 ```
 
+## Examples
+```pascal
+vstDefault3DToolDraw;
+```
+```python
+import vs
+
+vs.vstDefault3DToolDraw()
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

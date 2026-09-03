@@ -20,6 +20,20 @@ def vs.vsoGetCatalogPath(folderSpec, relativePath):
 |folderSpec|INTEGER|   |
 |relativePath|STRING|   |
 
+## Examples
+```pascal
+vsoGetCatalogPath(1, 'file.txt');
+```
+```python
+import vs
+
+# Get the folder specifier and options path for an object catalog.
+folderSpec = 1
+relativePath = 'C:/Temp'
+
+vs.vsoGetCatalogPath(folderSpec, relativePath)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

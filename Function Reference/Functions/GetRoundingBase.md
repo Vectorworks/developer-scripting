@@ -74,6 +74,24 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	dec_prec := 1 / (10 ^ GetPrefLongInt(169));
+	frac_prec := 1 / (2 ^ GetPrefLongInt(171));
+	GetRoundingBase(display, primary, secondary);
+	IF display = 1 THEN dec_prec := dec_prec * 2.5 ELSE
+	IF display = 2 THEN dec_prec := dec_prec * 5;
+	IF NOT  GetPref(168) THEN DisplayAccuracy := dec_prec
+	ELSE IF GetPref(175) THEN DisplayAccuracy := Min(dec_prec, frac_prec)
+```
+```python
+import vs
+
+# 5, or 5) for the display, primary units, and secondary units.
+display, primary, secondary = vs.GetRoundingBase()
+vs.Message('GetRoundingBase returned: ' + str((display, primary, secondary)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

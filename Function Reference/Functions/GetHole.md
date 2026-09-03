@@ -106,6 +106,45 @@ def labelHoleVertices():
 labelHoleVertices()
 ```
 
+```pascal
+	GetPolyPt(h1, GetVertNum(h1), pt2.x, pt2.y);
+	IF Abs(Norm(pt2 - pt1)) < .0625" THEN DelVertex(h1, GetVertNum(h1));
+END;
+IF doNet & GetNumHoles(walls[cnt1], hole_cnt) THEN BEGIN
+	for cnt2 := 1 to hole_cnt do if GetHole(walls[cnt1], cnt2, h2) then BEGIN
+		h2 := OffsetPolygon(h2, 1");
+		for cnt4 := GetVertNum(h2) downto 2 do BEGIN
+			GetPolyPt(h2, cnt4 - 1, pt1.x, pt1.y);
+			GetPolyPt(h2, cnt4,     pt2.x, pt2.y);
+			IF Abs(Norm(pt2 - pt1)) < .0625" THEN DelVertex(h2, cnt4);
+
+{handle holes}
+IF (gettype(h) = 21) THEN BEGIN
+	temp_b := getnumholes(h,holenum);
+	IF (holenum > 0) THEN FOR i := 1 TO holenum DO BEGIN
+		temp_b := gethole(h,i,hole_OF_interest);
+		temp_b := addhole(new_out_poly_h,hole_OF_interest);
+		END;
+
+	BEGIN
+	gHasHoles := TRUE;
+	ALLOCATE gHoles[1..gHoleNum];
+	FOR i := 1 TO gHoleNum DO result := GetHole(pLine_obj,i,gHoles[i]);
+	END ELSE gHasHoles := FALSE;
+END;
+```
+```python
+import vs
+
+# Returns a handle to a polyline defining an opening within the referenced
+# polyline.
+inOutsidePolyline = vs.FSActLayer()  # handle to the first selected object on the active layer
+inIndex = 1
+
+ok, outHole = vs.GetHole(inOutsidePolyline, inIndex)
+vs.Message('GetHole returned: ' + str((ok, outHole)))
+```
+
 ## See Also
 VS Functions:
 [GetNumHoles](GetNumHoles.md)

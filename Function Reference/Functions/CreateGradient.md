@@ -32,6 +32,20 @@ gradientHandle := CreateGradient('My Gradient');
 vs.Message(vs.CreateGradient('My Gradient'))
 ```
 
+```pascal
+resultH := CreateGradient('Example');
+```
+```python
+import vs
+
+# Creates a new gradient resource.
+name = 'Example'
+
+objHandle = vs.CreateGradient(name)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

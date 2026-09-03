@@ -3,7 +3,6 @@
 ## Description
 Function GetTextVerticalAlign returns the vertical alignment of the referenced text object.
 
-
 ![Text Locus](files/Textlocus.gif)
 
 **Table - Text Vertical Justification**
@@ -29,6 +28,33 @@ def vs.GetTextVerticalAlign(TextHd):
 |Name|Type|Description|
 |---|---|---|
 |TextHd|HANDLE|Handle to text object.|
+
+## Examples
+```pascal
+textDown := (GetTextVerticalAlign (H) = 1);
+
+textDown := (GetTextVerticalAlign (gRevTextH) = 1);
+
+	END;
+PushAttrs;
+Marker(0,0,0);
+CreateText('X');
+VertAlign := GetTextVerticalAlign(LNewObj);{Not currently in Attrs call}
+DelObject(LNewObj);
+ClName:=ActiveClass;
+ALName := GetLName(ActLayer);
+ LayerOpt:=GetLayerOptions;
+```
+```python
+import vs
+
+# Function GetTextVerticalAlign returns the vertical alignment of the
+# referenced text object.
+TextHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetTextVerticalAlign(TextHd)
+vs.Message('GetTextVerticalAlign returned: ' + str(resultN))
+```
 
 ## See Also
 VS Functions:

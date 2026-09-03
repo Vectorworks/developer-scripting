@@ -12,6 +12,18 @@ def vs.GetSlabPreferencesStyle():
     return LONGINT
 ```
 
+## Examples
+```pascal
+resultN := GetSlabPreferencesStyle;
+```
+```python
+import vs
+
+# Gets the Slab Style of the Slab Preferences.
+resultN = vs.GetSlabPreferencesStyle()
+vs.Message('GetSlabPreferencesStyle returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetSlabPreferencesStyle](SetSlabPreferencesStyle.md)

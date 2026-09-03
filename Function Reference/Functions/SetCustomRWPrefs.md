@@ -34,6 +34,18 @@ def vs.SetCustomRWPrefs():
 |shadowStyle|INTEGER|   |
 |rayTracingRecursion|INTEGER|   |
 
+## Examples
+```pascal
+SetCustomRWPrefs(TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, 1, 2, 3);
+```
+```python
+import vs
+
+# Sets the current custom RenderWorks rendering preferences from data passed in.
+useTextures, useTransparency, useShadows, useRayTracing, useAntiAliasing, useDithering, tessellationDetail, shadowStyle, rayTracingRecursion = vs.SetCustomRWPrefs()
+vs.Message('SetCustomRWPrefs returned: ' + str((useTextures, useTransparency, useShadows, useRayTracing, useAntiAliasing, useDithering, tessellationDetail, shadowStyle, rayTracingRecursion)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

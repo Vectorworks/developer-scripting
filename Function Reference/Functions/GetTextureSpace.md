@@ -23,7 +23,6 @@ def vs.GetTextureSpace(obj, partID):
 ## Remarks
 *\_c\_*, (2018.12.29) Don't use this: it works but on walls will remove the mapping, tested on VW 2017, 2018. The new GetTexMapXXX routines accept a direct object handle, without needing the texture space handle.
 
-
 Returns the texture space attached to this object, with the same part ID as partID.  Walls may have three texture spaces attached to them if they have expanded textures, for example.
 
 ## Examples
@@ -56,6 +55,43 @@ def Example():
 	vs.Message('W', ' : ', XAxis, ' : ', YAxis, ' : ', ZAxis)
 
 Example()
+```
+
+```pascal
+Begin
+	SetDefaultTexMap (H);
+	SetAttrsByClass(H);
+	TextSpaceHand := GetTextureSpace(H,0);
+	IF TextSpaceHand <> NIL THEN
+	BEGIN
+		SetTexSpaceKind(TextSpaceHand,MapType);
+		IF GetTypeN( H ) = 84 THEN
+
+IF GetClass(objectHand) = noneClass THEN BEGIN {Only do things in the container class and roof container is skipped.}
+	IF (GetTextureSpace(objectHand,0) = NIL)  THEN
+		AttachDefaultTextureSpace(objectHand, 0);  {Attach a texture space to the object.}
+	PartTexIndex := GetTextureRef(objectHand, 0, FALSE); {Get the texture index assigned to the PIO.}
+	IF( (PartTexIndex = -1) OR (PartTexIndex = 0)) THEN
+	BEGIN
+		IF GetTypeN(objectHand) = 71 THEN SetTextureRef(objectHand, textureIndex, 14);{Set texture to slab top}
+
+BEGIN
+	IF IsTextureableObject(objectHand) THEN BEGIN
+		IF GetClass(objectHand) = noneClass THEN BEGIN {Only do things in the container class.}
+			IF (GetTextureSpace(objectHand,0) = NIL)  THEN
+				AttachDefaultTextureSpace(objectHand, 0);  {Attach a texture space to the object.}
+			PartTexIndex := GetTextureRef(objectHand, 0, FALSE); {Get the texture index assigned to the PIO.}
+			IF( (PartTexIndex = -1) OR (PartTexIndex = 0)) THEN
+			BEGIN
+				SetTextureRef(objectHand, PIOTexIndex, 0); {Attach the proper texture to the object.}
+```
+```python
+if vs.GetClass( objectHand ) == noneClass:
+	if ( vs.GetTextureSpace( objectHand, 0 ) == 0 ):
+		# Attach a texture space to the object.
+		vs.AttachDefaultTextureSpace( objectHand, 0 )
+	# Get the texture index assigned to the PIO.
+	partTexIndex = vs.GetTextureRefN( objectHand, 0, 0 False )
 ```
 
 ## Version

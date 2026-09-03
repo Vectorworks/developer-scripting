@@ -22,6 +22,22 @@ def vs.TopBoundN(c):
 TopBValue:=TopBoundN(N='MyRect');
 ```
 
+```pascal
+BEGIN
+wsPosX := LeftBoundN(SEL);
+wsPosY := TopBoundN(SEL);
+```
+```python
+import vs
+
+# Returns the y-coordinate of the bounding box (top left corner) of an object
+# matching the search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.TopBoundN(c)
+vs.Message('TopBoundN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

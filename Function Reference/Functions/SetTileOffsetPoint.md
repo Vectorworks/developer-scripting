@@ -25,6 +25,19 @@ def vs.SetTileOffsetPoint(tileHandle, offsetPoint):
 SetTileRepetitionPoint(tileHandle, offsetPoint);
 ```
 
+```pascal
+SetTileOffsetPoint(tileHandle, 1);
+```
+```python
+import vs
+
+# Sets the specified tile resource's offset point.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+offsetPoint = (0, 0)
+
+vs.SetTileOffsetPoint(tileHandle, offsetPoint)
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

@@ -18,6 +18,21 @@ def vs.GetPartDataID(objectHandle):
 |---|---|---|
 |objectHandle|HANDLE|The sub-object handle.|
 
+## Examples
+```pascal
+resultN := GetPartDataID(objectHandle);
+```
+```python
+import vs
+
+# Return the numeric value assigned to this part instance represented by the
+# specified sub-object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetPartDataID(objectHandle)
+vs.Message('GetPartDataID returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

@@ -69,6 +69,32 @@ RUN(dialog1_Main);
 
 ```
 
+```pascal
+RemoveAllImagePopupItems(selectSymbol, kSyms);
+for cnt := 1 to symDefCnt do BEGIN
+	IF symDefs[cnt].folderName = folderName THEN BEGIN
+		IF symDefs[cnt].folderLevel >= 0 THEN
+			int := InsertImagePopupObjectItem(selectSymbol, kSyms, symDefs[cnt].symName)
+		ELSE
+			BEGIN
+			IF symDefs[cnt].folderLevel = -2 THEN
+				int := InsertImagePopupResource(selectSymbol, kSyms, defaultListID2, symDefs[cnt].resourceIndex)
+			ELSE
+				int := InsertImagePopupResource(selectSymbol, kSyms, defaultListID, symDefs[cnt].resourceIndex);
+			END;
+
+BEGIN
+int := InsertImagePopupObjectItem(selectSymbol, kSyms, symDefs[cnt].symName);
+LoadTextPopup(symDefs[cnt].symName);
+END;
+
+BEGIN
+	temp_Int := InsertImagePopupObjectItem( dialogID, ImagePopup_ID, ImageResArray[i] );
+```
+```python
+result = vs.InsertImagePopupObjectItem(dialogID, componentID, 'Example')
+```
+
 ## See Also
 VS Functions:
 [GetNumImagePopupItems](GetNumImagePopupItems.md) 

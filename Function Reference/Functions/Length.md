@@ -30,6 +30,13 @@ LengthValue:=Length(C='CrossMembers');
 
 ```
 
+```pascal
+resultVal := Length(c);
+```
+```python
+result = vs.Length(c)
+```
+
 ## Version
 Availability: from All Versions
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

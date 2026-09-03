@@ -23,6 +23,19 @@ def vs.XMLSAXEndDocMemory(XMLHandle):
 ## Examples
 [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
+```pascal
+resultN := XMLSAXEndDocMemory(1, XMLData);
+```
+```python
+import vs
+
+# Write XML using SAX, end of a document.
+XMLHandle = 1
+
+resultN, XMLData = vs.XMLSAXEndDocMemory(XMLHandle)
+vs.Message('XMLSAXEndDocMemory returned: ' + str((resultN, XMLData)))
+```
+
 ## See Also
 [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md)
 

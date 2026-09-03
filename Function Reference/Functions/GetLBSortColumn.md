@@ -20,6 +20,24 @@ def vs.GetLBSortColumn(dialogID, componentID):
 |dialogID|LONGINT|id of the dialog that contains the list browser|
 |componentID|LONGINT|id of the list browser control|
 
+## Examples
+```pascal
+BEGIN
+	enableDragNDrop := (GetLBSortColumn(AddEditLegend, kFieldsLB) = kColNumber);
+	boo := EnableLBDragAndDrop(AddEditLegend, kFieldsLB, enableDragNDrop);
+END;
+```
+```python
+import vs
+
+# Gets the index of the sort column in the specified list browser control.
+dialogID = 1
+componentID = 2
+
+resultN = vs.GetLBSortColumn(dialogID, componentID)
+vs.Message('GetLBSortColumn returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

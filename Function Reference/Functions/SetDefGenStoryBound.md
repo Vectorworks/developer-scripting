@@ -26,6 +26,28 @@ def vs.SetDefGenStoryBound(format, boundType, boundStory, layerLevelType, offSet
 |layerLevelType|STRING|The layer type which defines this bound (e.g. &quot;Ceiling&quot;).|
 |offSet|REAL|The offset distance from the specified bound story.|
 
+## Examples
+```pascal
+resultOK := SetDefGenStoryBound(format, 1, 2, 'Design Layer-1', 1.0);
+```
+```python
+import vs
+
+# This will set the default generic story bound for a plugin that has the
+# kObjXPropSupportGenericStoryLevel property.
+format = vs.GetObject('MyRecord')  # handle to a record format
+boundType = 0
+boundStory = 1
+layerLevelType = 'Design Layer-1'
+offSet = 0.0
+
+ok = vs.SetDefGenStoryBound(format, boundType, boundStory, layerLevelType, offSet)
+if ok:
+    vs.Message('SetDefGenStoryBound succeeded')
+else:
+    vs.Message('SetDefGenStoryBound failed')
+```
+
 ## See Also
 VS Functions:
 [GetDefGenStoryBound](GetDefGenStoryBound.md)

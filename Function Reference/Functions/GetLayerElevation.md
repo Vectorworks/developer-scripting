@@ -55,6 +55,34 @@ def Example():
 Example()
 ```
 
+```pascal
+{ convert found wall bottom Z from global to layer coordinates. }
+GetLayerElevation( GetLayer( gWallHand ), layerElev, layerThick );
+layerElev   := layerElev * ( GetPrefReal( 152 ) / 25.4 );	{ convert to doc units. }
+wallBottomZ := ( wallBottomZ - layerElev );					{ to layer coordinates. }
+
+{Remove layer elevation for certain objects due to their specific workflow}
+IF gObjectTypeName = GetMyPluginString(5032) THEN BEGIN		{ Slab	}
+	GetLayerElevation(GetLayer(gPluginObjH), layerElevation, dummy);
+	layerElevation := layerElevation * ( GetPrefReal( 152 ) / 25.4 );	{ convert to doc units. }
+	matZ1 := matZ1 - layerElevation;
+END;
+
+BEGIN
+	result := GetEntityMatrix(objectHand, matX1,matY1,matZ1,matAngleX,matAngleY,matAngleZ);
+	layerH := GetLayer( objectHand );
+	GetLayerElevation( layerH, layerElevation, layerThickness );
+```
+```python
+import vs
+
+# Gets the elevation and thickness of the specified layer.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+baseElev, thickness = vs.GetLayerElevation(h)
+vs.Message('GetLayerElevation returned: ' + str((baseElev, thickness)))
+```
+
 ## See Also
 VS Functions:
 [SetLayerElevation](SetLayerElevation.md)

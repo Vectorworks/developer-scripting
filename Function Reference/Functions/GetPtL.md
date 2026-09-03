@@ -43,6 +43,19 @@ Python sample is similar to the sample in [GetPt](GetPt.md).
 
 ```
 
+```pascal
+target := PickObject(pt.x, pt.y);
+WHILE (target = NIL) & (YNDialog(Concat(GetPlugInString(3000), msg, GetPlugInString(3003)))) DO BEGIN
+	IF msg = GetPlugInString(3001)
+		THEN GetPt(pt.x, pt.y)
+		ELSE GetPtL(pt1.x, pt1.y, pt.x, pt.y);
+	target := PickObject(pt.x, pt.y);
+END;
+```
+```python
+vs.GetPtL(callback)
+```
+
 ## See Also
 VS Functions:
 [GetPt](GetPt.md) |

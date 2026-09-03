@@ -36,6 +36,13 @@ SetGradientSpotColor(gradientHandle, 4, 255, 255, 255);
 
 ```
 
+```pascal
+SetGradientSpotColor(gradient, 1, 2, 3, 10);
+```
+```python
+vs.SetGradientSpotColor(gradient, 1, red, green, blue)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

@@ -35,6 +35,26 @@ SetPrefString(154,'cubits');
 
 ```
 
+```pascal
+{set the text style, size and font for the creation of the new Callout}
+SetPrefString(100, GetFontName(GetTextFont( textFoundH, 0 )) );
+{SetPrefReal(57, GetTextSize(textFoundH, 0 ) );}
+SetPrefInt(58, GetTextStyle( textFoundH, 0 ) );
+
+txtJust := GetPrefInt(82);
+txtVert := GetPrefInt(83);
+SetPrefInt(82, 1);
+SetPrefInt(83, 1);
+SetPrefString(100, 'Arial Unicode MS');
+
+gActivePane := GetActivePane(dialog1, kTabControl);
+gActStringerPane := GetActivePane(dialog1, kStringersTabControl);
+SetPrefString(100, defaultFont);
+```
+```python
+vs.SetPrefString(1, value)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

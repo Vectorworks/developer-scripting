@@ -22,6 +22,20 @@ def vs.GetClVectorFill(className):
 |className|STRING|Name of class.|
 |hatchName|STRING|Name of active hatch pattern (if it exists).|
 
+## Examples
+```pascal
+resultOK := GetClVectorFill('Wall', 'Example');
+```
+```python
+import vs
+
+# Returns the name of the hatch pattern setting of the specified class.
+className = 'None'
+
+ok, hatchName = vs.GetClVectorFill(className)
+vs.Message('GetClVectorFill returned: ' + str((ok, hatchName)))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

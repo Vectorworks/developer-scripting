@@ -12,6 +12,18 @@ def vs.Ungroup():
     return None
 ```
 
+## Examples
+```pascal
+Ungroup;
+```
+```python
+import vs
+
+# When Ungroup is called, any selected group objects will be destroyed,
+# reverting to the original component objects.
+vs.Ungroup()
+```
+
 ## Version
 Availability: from All Versions
 

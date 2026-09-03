@@ -34,6 +34,15 @@ SetPref(17,FALSE);
 
 ```
 
+```pascal
+pioParentVPHand := GetVPGroupParent( GetParent( pioHand ) );
+{ Set RW Background }
+SetObjectVariableLongint( pioParentVPHand, 1006, Name2Index( GetName( pioRWBackRsrcHand ) ) );
+```
+```python
+vs.SetObjectVariableLongInt(h, 1, value)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

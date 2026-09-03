@@ -49,6 +49,37 @@ def GetArcSetArcExample():
 GetArcSetArcExample()
 ```
 
+```pascal
+BEGIN
+	GetArc(arcHandle, theAngle, theta);
+  	HCenter(arcHandle, centerPt[1], centerPt[2]);
+	theRadius := HPerim(arcHandle) / Deg2Rad(theta);
+	theArcLength := (PI * theRadius * theta) / 180;
+	chord := Sin(Deg2Rad(Abs(theta/2))) * theRadius * 2;
+
+BEGIN
+	HCenter (objH, x0, y0);
+	GetArc (ObjH, theta1, theta2);
+
+{Arc, circle}
+6, 7: BEGIN
+	GetArc(objH, startAngle, arcAngle);
+	IF arcAngle = 360 THEN
+		getProperties_Circle (objH, area, perim, xC, yC, Ixx, Iyy, Cxx, Cyy)
+	ELSE getProperties_Polyline (objH, area, perim, xC, yC, Ixx, Iyy, Cxx, Cyy);
+END;
+```
+```python
+import vs
+
+# Procedure GetArc returns the start and sweep angle of the referenced arc or
+# round wall.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+startAngleR, arcAngleR = vs.GetArc(h)
+vs.Message('GetArc returned: ' + str((startAngleR, arcAngleR)))
+```
+
 ## Version
 Availability: from All Versions
 

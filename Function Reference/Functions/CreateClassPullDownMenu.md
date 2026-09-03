@@ -62,6 +62,48 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	dialog1 := CreateResizableLayout(GetStr( 3), TRUE, GetStr(kOK), GetStr(kCancel), TRUE, TRUE);
+	CreateStaticText          (dialog1, kStaticText4Shaft,   		GetStr(kStaticText4Shaft), -1);
+	CreateClassPullDownMenu   (dialog1, kPopup5ShaftFinish,        	20);
+	CreateStaticText          (dialog1, kStaticText6CapitalFinish,  GetStr(kStaticText6CapitalFinish), -1);
+	CreateClassPullDownMenu   (dialog1, kPopup5CapitalFinish,       20);
+	CreateStaticText          (dialog1, kStaticText8BaseFinish,   	GetStr(kStaticText8BaseFinish), -1);
+	CreateClassPullDownMenu   (dialog1, kPopup5BaseFinish,        	20);
+
+CreateStaticText         (IDLabelDialog, kMarkerStyleTxt,      GetStr(kMarkerStyleTxt), 13);
+CreateStaticText         (IDLabelDialog, kLineStyleTxt,      GetStr(kLineStyleTxt), 15);
+CreateLineAttributePopup (IDLabelDialog, kIDLeaderLS);
+CreateStaticText         (IDLabelDialog, kIDClassTxt,      GetStr(kIDClassTxt), 16);
+CreateClassPullDownMenu  (IDLabelDialog, kLabelClass,        16);
+CreateGroupBox			 (IDLabelDialog, kGroupBox7,		GetStr(KGroupBox7), FALSE);
+CreateCheckBox			 (IDLabelDialog, kAutoRotate,   GetStr(kAutoRotateTxt));
+IF EditDoorID | EditWindowID THEN
+	BEGIN
+
+CreateGroupBox( dlgId, kLBSettingsPanel, '', False );
+CreateLB( dlgId, kLBCtrl, 70, 10 );
+CreateGroupBox( dlgId, kSelectedFloor, GetPluginString(3024), True );
+CreateStaticText( dlgId, kClassLabel, GetPluginString(3025), _grpWidth_1 );
+CreateClassPullDownMenu( dlgId, kClassPopup, 27 );
+CreateStaticText( dlgId, kElevationLabel, GetPluginString(3026), _grpWidth_1 );
+CreateEditReal( dlgId, kElevationEdit, 1, 0.0, 27 );
+CreateStaticText( dlgId, kFloorHeightLabel, GetPluginString(3027), _grpWidth_1 );
+CreateEditReal( dlgId, kFloorHeightEdit, 1, 0.0, 27 );
+```
+```python
+import vs
+
+# Creates a Layout Manager class pull down menu control.
+nDialogID = 1
+nComponentID = 2
+nWidthInChars = 3
+
+vs.CreateClassPullDownMenu(nDialogID, nComponentID, nWidthInChars)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [CreateImageControl](CreateImageControl.md), 

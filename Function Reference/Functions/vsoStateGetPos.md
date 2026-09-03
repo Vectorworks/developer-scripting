@@ -67,8 +67,21 @@ BEGIN
 
 ```
 
+```pascal
+OutMoved := vsoStateGetPos(PIOHandle,tmpX,tmpY,tmpZ,tmpIs3D);
+
+BEGIN
+	{mmPU := 25.4 / GetPrefReal(152);}
+	vsoStateGetPosN := vsoStateGetPos(HoistHdl, XChange, YChange, ZChange, Is3D);
+
+MoveChange := vsoStateGetPos(OriginHdl, XChange, YChange, ZChange, Is3D);
+```
+```python
+result = vs.vsoStateGetPos(h)
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md) 
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

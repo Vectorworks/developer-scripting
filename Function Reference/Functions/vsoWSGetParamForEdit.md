@@ -17,6 +17,17 @@ def vs.vsoWSGetParamForEdit():
 |---|---|---|
 |paramName|STRING|   |
 
+## Examples
+```pascal
+vsoWSGetParamForEdit('Example');
+```
+```python
+import vs
+
+# Get the parameter that a worksheet is trying to edit.
+result = vs.vsoWSGetParamForEdit()
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

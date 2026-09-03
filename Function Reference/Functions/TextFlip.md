@@ -36,6 +36,36 @@ CreateText('Sample text string');
 
 ```
 
+```pascal
+{ ----- set the text parameters  ----- }
+TextSize (gCellLabelSize);
+PushAttrs;
+{TextFace ([bold]);}
+TextFlip (0);
+TextRotate (#0);
+TextSpace (2);
+TextJust (2);
+TextVerticalAlign (3);
+
+BEGIN
+	TextFlip( 2 );
+	textAlignTop := NOT textAlignTop;
+END;
+
+ALLOCATE spaces [1..temp_i];
+space_cnt := 0;
+ForEachObject(LoadSpaceArray, (R IN ['Space']));
+SortArray(spaces, space_cnt, 3);
+TextFlip(0);
+TextRotate(0);
+TextSpace(2);
+TextVerticalAlign(3);
+TextWidth := 0;
+```
+```python
+vs.TextFlip(FlipType)
+```
+
 ## Version
 Availability: from All Versions
 

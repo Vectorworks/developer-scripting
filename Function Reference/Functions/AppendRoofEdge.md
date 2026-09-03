@@ -37,6 +37,27 @@ eaveHeight: eave height
 ## Examples
 [CreateRoofObj](examples/CreateRoofObj.md)
 
+```pascal
+gMiterHt := pRoofThk/2;
+gRoofH := CreateRoof(TRUE,0",pRoofThk,gEaveIdx,gMiterHt);
+FOR i := 1 to gNumV2 DO BEGIN
+	getPolyPt(gTempH,i,gXtemp,gYtemp);
+	AppendRoofEdge(gRoofH,gXtemp,gYtemp,pRoofPitch,pOverhang,pHeight-gAdjust);
+	END;
+```
+```python
+import vs
+
+# Function AppendRoofEdge creates a new edge in the referenced roof object.
+theRoof = vs.FSActLayer()  # handle to the first selected object on the active layer
+edgePt = (0, 0)
+slopeAngle = 45.0
+projectionDistance = 1.0
+eaveHeightDistance = 2.0
+
+vs.AppendRoofEdge(theRoof, edgePt, slopeAngle, projectionDistance, eaveHeightDistance)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

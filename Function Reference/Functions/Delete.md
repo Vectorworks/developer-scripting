@@ -54,6 +54,44 @@ def DeleteTest():
 DeleteTest()
 ```
 
+```pascal
+prefix := '';
+while (not ValidNumStr(Copy(inBearingStr, 1, 1), num)) & (Len(inBearingStr) > 0) do BEGIN
+	prefix := Concat(prefix, Copy(inBearingStr, 1, 1));
+	Delete(inBearingStr, 1, 1);
+	format := 'bearing';
+END;
+
+BEGIN
+	IF bConvKeyNote & GetKeyNoteData( textFoundH ) then BEGIN
+		if Copy( KNprefix, Len(KNprefix), 1) = ' ' then BEGIN
+			Delete(KNprefix, Len(KNprefix), 1);
+			if ( KNsuffix = '' ) & ( KNprefix = GetText( textFoundH ) ) then BEGIN
+				IF not ValidNumStr( GetText( textFoundH ), t_real ) THEN BEGIN
+					TextOrigin(0,0);
+					CreateText(Concat(' ', KNNoteNo));
+
+BEGIN
+{Returns the date string up to the third space character}
+pos1 := Pos (' ', input);
+dummy1 := Copy(input, 1, pos1);
+Delete(input, 1, pos1);
+pos1 := Pos (' ', input);
+dummy1 := concat(dummy1, Copy(input, 1, pos1));
+Delete(input, 1, pos1);
+pos1 := Pos (' ', input);
+```
+```python
+import vs
+
+# Procedure Delete removes a substring from the specified source string.
+source = 'Example'
+index = 1
+count = 5
+
+result = vs.Delete(source, index, count)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -20,9 +20,24 @@ def vs.GetPaletteVisibility(paletteName):
 ## Remarks
 oops, version obsolete is not correct.
 
-
-
 oops, implemented version is not correct either.
+
+## Examples
+```pascal
+resultOK := GetPaletteVisibility('Example');
+```
+```python
+import vs
+
+# Gets the visibility state of a palette.
+paletteName = 'Example'
+
+ok = vs.GetPaletteVisibility(paletteName)
+if ok:
+    vs.Message('GetPaletteVisibility succeeded')
+else:
+    vs.Message('GetPaletteVisibility failed')
+```
 
 ## See Also
 VS Functions:

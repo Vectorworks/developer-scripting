@@ -17,6 +17,19 @@ def vs.DTM6_RestoreDefaults(hObject):
 |---|---|---|
 |hObject|HANDLE|   |
 
+## Examples
+```pascal
+DTM6_RestoreDefaults(hObject);
+```
+```python
+import vs
+
+# Sets the default settings for a Site model.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.DTM6_RestoreDefaults(hObject)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

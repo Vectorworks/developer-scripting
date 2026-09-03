@@ -17,6 +17,23 @@ def vs.Rpstr_RemoveValue(name):
 |---|---|---|
 |name|STRING|The name of the value.|
 
+## Examples
+```pascal
+resultOK := Rpstr_RemoveValue('Example');
+```
+```python
+import vs
+
+# Removes a named value from the VectorScript value repository.
+name = 'Example'
+
+ok = vs.Rpstr_RemoveValue(name)
+if ok:
+    vs.Message('Rpstr_RemoveValue succeeded')
+else:
+    vs.Message('Rpstr_RemoveValue failed')
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

@@ -15,6 +15,18 @@ def vs.GetDLOptions():
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultN := GetDLOptions;
+```
+```python
+import vs
+
+# Gets the Double Line Preferences options.
+resultN = vs.GetDLOptions()
+vs.Message('GetDLOptions returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetDLOptions](SetDLOptions.md)

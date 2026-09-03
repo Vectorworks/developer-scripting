@@ -12,6 +12,18 @@ def vs.DS_GetOffsetUnit():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := DS_GetOffsetUnit;
+```
+```python
+import vs
+
+# Returns document shadow offset unit.
+resultN = vs.DS_GetOffsetUnit()
+vs.Message('DS_GetOffsetUnit returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

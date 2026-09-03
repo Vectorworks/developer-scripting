@@ -17,6 +17,18 @@ def vs.GetProjectUserNames():
 |---|---|---|
 |userArray|ARRAY|Array of userids as strings|
 
+## Examples
+```pascal
+resultOK := GetProjectUserNames(userArray);
+```
+```python
+import vs
+
+# Get a list of userids that are part of the current project.
+ok, userArray = vs.GetProjectUserNames()
+vs.Message('GetProjectUserNames returned: ' + str((ok, userArray)))
+```
+
 ## See Also
 VS Functions:
 [GetProjectUser](GetProjectUser.md)

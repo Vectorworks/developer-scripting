@@ -33,6 +33,13 @@ Scale(2,3);
 
 ```
 
+```pascal
+Scale(1.0, 2.0);
+```
+```python
+vs.Scale(scaleXR, scaleYR)
+```
+
 ## Version
 Availability: from All Versions
 

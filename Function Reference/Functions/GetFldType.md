@@ -5,7 +5,6 @@ Returns a constant indicating the data type of a specified field in the referenc
 
 Please refer to the [Script Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#record---worksheet-field-types) for specific field data types and formatting.
 
-
 For Plug-in Object Parameter Records, the field types are documented in the [Scirpt Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#plug-in-object-parameter-record-field-types).
 
 ```pascal
@@ -82,6 +81,46 @@ fieldType:=GetFldType(recordHandle,3);
 #### Python ####
 ```python
 fieldType = vs.GetFldType(recordHandle,3)
+```
+
+```pascal
+	PopSub2;
+END;
+for i := 1 to NumFields(recHandle) do BEGIN
+	if GetFldName(recHandle, i) = fieldVa then BEGIN
+		fldType := Int2Str(GetFldType(recHandle, i));
+		IF isPIO
+			THEN fldType := Concat('p', fldType)
+			ELSE fldType := Concat('r', fldType);
+	END;
+
+HRec := GetRecord(HObject,i);
+RecName := GetName(HRec);
+NumFld := NumFields(HRec);
+FOR j := 1 to NumFld DO BEGIN
+	typeflag := GetFldType(HRec,j);
+	IF (typeflag = 4) THEN BEGIN {work only on strings}
+		Fldname := GetFldName(HRec,j);
+		FldStr := GetRField(HObject,RecName,FldName);
+		IF ((Len(FldStr) > 0)&(FindString(FldStr,gFindString,1,gCase) > 0)) THEN
+
+BEGIN
+	fldType := GetFldType(recHand, ndx);
+	uniName := GetFldName(recHand, ndx);
+	locName := uniName;
+	isHid := FALSE;
+	if (IsPlugInFormat(recHand)) & (GetLocalizedPluginParameter(GetName(recHand), uniName, locName)) then BEGIN
+```
+```python
+import vs
+
+# Returns a constant indicating the data type of a specified field in the
+# referenced record.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+t = 1
+
+resultN = vs.GetFldType(h, t)
+vs.Message('GetFldType returned: ' + str(resultN))
 ```
 
 ## Version

@@ -65,6 +65,42 @@ v2 = (3, 15, 0)
 vs.Message( str(vs.CrossProduct(v1, v2)) ) # returns a 3-dimensional tuple
 ```
 
+```pascal
+vVec := CrossProduct( uVec, wVec );
+{old}
+{ Create3DCurveAt( uVec, vVec, wVec, pt1 ); }
+
+segInitComplete := TRUE;
+FOR i := 1 TO insidePts_cnt DO BEGIN
+	IF PointBtwLines(insidePts[i], seg, centerSeg) THEN BEGIN
+		segInitComplete := FALSE;
+		temp_v := CrossProduct(insidePts[i]-bound1[1], bound1[2]-bound1[1]);
+		IF PointBtwLines(insidePts[i], bound1, midAxis) | Eq( temp_v.z, 0, 0.001" ) THEN BEGIN
+				seg[1] := insidePts[i];
+		END ELSE BEGIN
+				seg[2] := insidePts[i];
+
+				END;
+		END;
+	END;
+vec_ang := angbvec(v1,v2);
+xp := crossproduct(v1,v2);
+xp := unitvec(xp);
+isCW := GetObjectVariableBoolean(poly_h,652);
+IsVert2DConcave := ((isCW & (xp = vRef)) | (NOT(isCW) & (xp <> vRef)));
+END;
+```
+```python
+import vs
+
+# Returns the cross product of the two specified vectors.
+v1 = (0, 0)
+v2 = (1, 1)
+
+vec = vs.CrossProduct(v1, v2)
+vs.Message('CrossProduct returned: ' + str(vec))
+```
+
 ## Version
 Availability: from VectorWorks 8.5
 

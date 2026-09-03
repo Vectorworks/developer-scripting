@@ -41,6 +41,13 @@ index := InsertGradientSegment(gradientHandle, 0.35, 0.4, 255, 255, 255);
 
 ```
 
+```pascal
+resultN := InsertGradientSegment(gradient, 1.0, 2.0, 1, 2, 3);
+```
+```python
+result = vs.InsertGradientSegment(gradient, spotPosition, midpointPosition, red, green, blue)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

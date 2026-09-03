@@ -17,6 +17,27 @@ def vs.CreateRWBackground(imageResource):
 |---|---|---|
 |imageResource|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+	pioRWBackRsrcHand := CreateRWBackground( pioPhotoRsrcHand );
+	IF pioRWBackRsrcHand <> NIL THEN
+	BEGIN
+		SetName( pioRWBackRsrcHand, pioRWBackRsrcName );
+		SetObjectVariableReal( pioRWBackRsrcHand, 1154, pPhotoPrintedWidth * pioLayScale * 25.4 / DocUPI );
+```
+```python
+import vs
+
+# Creates a Renderworks Background resource using the image from an existing
+# Image resource.
+imageResource = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.CreateRWBackground(imageResource)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

@@ -35,6 +35,13 @@ LoadCell(1, 1, 'This is a string');
 
 ```
 
+```pascal
+SprdBorder(TRUE, FALSE, TRUE, TRUE);
+```
+```python
+vs.SprdBorder(top, left, bot, right)
+```
+
 ## See Also
 [SetWSCellBorder](SetWSCellBorder.md)
 

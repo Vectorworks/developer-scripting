@@ -17,6 +17,23 @@ def vs.SetMaterialFillStyle(materialHandle, fillStyle):
 |materialHandle|HANDLE|   |
 |fillStyle|LONGINT|InternalIndex of fillStyle|
 
+## Examples
+```pascal
+resultOK := SetMaterialFillStyle(materialHandle, 1);
+```
+```python
+import vs
+
+materialHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+fillStyle = 0
+
+ok = vs.SetMaterialFillStyle(materialHandle, fillStyle)
+if ok:
+    vs.Message('SetMaterialFillStyle succeeded')
+else:
+    vs.Message('SetMaterialFillStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

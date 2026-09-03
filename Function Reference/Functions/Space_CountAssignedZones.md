@@ -17,6 +17,20 @@ def vs.Space_CountAssignedZones(space):
 |---|---|---|
 |space|HANDLE|   |
 
+## Examples
+```pascal
+resultN := Space_CountAssignedZones(space);
+```
+```python
+import vs
+
+# Returns count of assigned zones of the space object.
+space = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+count = vs.Space_CountAssignedZones(space)
+vs.Message('Space_CountAssignedZones returned: ' + str(count))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

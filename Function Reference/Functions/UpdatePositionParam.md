@@ -17,6 +17,22 @@ def vs.UpdatePositionParam(positionHandle):
 |---|---|---|
 |positionHandle|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+	UpdatePositionParam( parmHand );
+END;
+```
+```python
+import vs
+
+# Using the given position handle, changes the 'Position' parameter for all
+# loads.
+positionHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.UpdatePositionParam(positionHandle)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

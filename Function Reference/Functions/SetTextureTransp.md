@@ -23,9 +23,23 @@ def vs.SetTextureTransp(texture, transparency):
 ## Remarks
 Percentage value - 0 equals opaque
 
+## Examples
+```pascal
+SetTextureTransp(texture, 1);
+```
+```python
+import vs
+
+# Procedure SetTextureTransp sets the degree of transparency applied to the
+# referenced texture.
+texture = vs.FSActLayer()  # handle to the first selected object on the active layer
+transparency = 1
+
+vs.SetTextureTransp(texture, transparency)
+```
+
 ## Version
 SetTextureTransp is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

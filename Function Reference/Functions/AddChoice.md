@@ -32,6 +32,39 @@ For components created by [CreateEnhancedPullDownMenu](CreateEnhancedPullDownMen
 ## Examples
 [DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
+```pascal
+BEGIN
+	CASE item OF
+		SetupDialogC: BEGIN
+			AddChoice(dialogID,  6,  GetPlugInString (3011),  0);
+			FOR i := 1 TO gNumSymFolders DO
+				AddChoice(dialogID,  6,  gFolderN [i],  i);
+
+BEGIN
+	CASE item OF
+		SetupDialogC: BEGIN
+			AddChoice(dialogID1,  6,  GetPlugInString (3011),  0);
+			FOR i := 1 TO gNumSymFolders DO
+				AddChoice(dialogID1,  6,  gFolderN [i],  i);
+
+BEGIN
+	value := fieldN [i];
+	AddChoice(dialogID,  fieldID,  value,  i-i);
+END;
+```
+```python
+import vs
+
+# Adds an item to the component's choices.
+dialogID = 1
+componentID = 2
+choiceText = 'Example text'
+itemIndex = 1
+
+vs.AddChoice(dialogID, componentID, choiceText, itemIndex)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 For further information, please check out:
 [CreatePullDownMenu](CreatePullDownMenu.md)

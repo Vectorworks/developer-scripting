@@ -28,6 +28,22 @@ def vs.DisplayOrganizationDialog(tabToSelect):
 ## Remarks
 *\_c\_* (2016.06.20): This doesn't answer to [ DidCancel](DidCancel.md).
 
+## Examples
+```pascal
+BEGIN
+	{DoMenuTextByName (GetLocStr (11050,3) ,0);	'Classes'}
+	DisplayOrganizationDialog (1);
+```
+```python
+import vs
+
+# Displays the organization dialog with the specified integer as the
+# initially slected tab.
+tabToSelect = 1
+
+vs.DisplayOrganizationDialog(tabToSelect)
+```
+
 ## Version
 Availability: from VectorWorks 12.0
 

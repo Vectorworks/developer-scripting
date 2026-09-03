@@ -17,6 +17,18 @@ def vs.GetCurrentUserId():
 |---|---|---|
 |userid|STRING|   |
 
+## Examples
+```pascal
+resultOK := GetCurrentUserId('Example');
+```
+```python
+import vs
+
+# Get the user id for the current user.
+ok, userid = vs.GetCurrentUserId()
+vs.Message('GetCurrentUserId returned: ' + str((ok, userid)))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

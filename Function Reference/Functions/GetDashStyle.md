@@ -53,6 +53,25 @@ currLS:=GetDashStyle;
 vs.GetDashStyle(True, 1, 1)
 ```
 
+```pascal
+resultN := GetDashStyle(TRUE, 1, 1.0, 2.0, 0.5, 1.5, 3.0);
+```
+```python
+import vs
+
+# Function GetDashStyle searches for the pattern specified by the parameters.
+swt = True
+numPairs = 5
+pair1 = 1.0
+pair2 = 2.0
+pair3 = 0.5
+pair4 = 3.0
+pair5 = 1.0
+
+resultN = vs.GetDashStyle(swt, numPairs, pair1, pair2, pair3, pair4, pair5)
+vs.Message('GetDashStyle returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from MiniCAD 5.0
 

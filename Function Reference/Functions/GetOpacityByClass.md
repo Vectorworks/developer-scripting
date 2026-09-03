@@ -23,6 +23,19 @@ def vs.GetOpacityByClass(h):
 ## Remarks
 If you set opacity to an object inside parametric the actual opacity will be combined with the opacity of the parametric object itself. For example a rectangle with 50% opacity inside a parametric with 50% opacity will actually be rendered with 25% opacity. This behavior is the same for symbols too.
 
+## Examples
+```pascal
+GetOpacityByClass(h, TRUE);
+```
+```python
+import vs
+
+# Returns whether the object is using the class opacity.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+result = vs.GetOpacityByClass(h)
+```
+
 ## See Also
 [GetOpacity](GetOpacity.md) | [SetOpacity](SetOpacity.md) | [GetOpacityByClass](GetOpacityByClass.md) | [SetOpacityByClass](SetOpacityByClass.md)
 

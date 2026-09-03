@@ -33,6 +33,19 @@ GetMtlFillForeColor(mtlHandle,cRed,cGrn,cBlu);
 RGBToColorIndex(cRed,cGrn,cBlu,colorValue);
 ```
 
+```pascal
+GetMtlFillForeColor(material, 1, 2, 3);
+```
+```python
+import vs
+
+# Returns the fill foreground color of the specified material.
+material = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+red, green, blue = vs.GetMtlFillForeColor(material)
+vs.Message('GetMtlFillForeColor returned: ' + str((red, green, blue)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

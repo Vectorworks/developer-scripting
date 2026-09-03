@@ -15,6 +15,21 @@ def vs.DidCancel():
 ## Examples
 [SimpleDialog](examples/SimpleDialog.md)
 
+```pascal
+resultOK := DidCancel;
+```
+```python
+import vs
+
+# Function DidCancel detects whether the Cancel button in a predefined dialog
+# was pressed.
+ok = vs.DidCancel()
+if ok:
+    vs.Message('DidCancel succeeded')
+else:
+    vs.Message('DidCancel failed')
+```
+
 ## Version
 Availability: from All Versions
 

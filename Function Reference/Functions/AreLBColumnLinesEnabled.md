@@ -20,6 +20,24 @@ def vs.AreLBColumnLinesEnabled(dialogID, componentID):
 |dialogID|LONGINT|id of the dialog that contains the list browser|
 |componentID|LONGINT|id of the list browser control|
 
+## Examples
+```pascal
+resultOK := AreLBColumnLinesEnabled(1, 2);
+```
+```python
+import vs
+
+# Determines if column lines are drawn.
+dialogID = 1
+componentID = 2
+
+ok = vs.AreLBColumnLinesEnabled(dialogID, componentID)
+if ok:
+    vs.Message('AreLBColumnLinesEnabled succeeded')
+else:
+    vs.Message('AreLBColumnLinesEnabled failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

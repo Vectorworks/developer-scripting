@@ -36,6 +36,23 @@ def vs.GetLBItemMkrChoice(dialogID, componentID, itemIndex, subItemIndex):
 |thicknessBasis|INTEGER|the marker's thickness basis|
 |thickness|REAL|the marker's thickness|
 
+## Examples
+```pascal
+GetLBItemMkrChoice(1, 2, 3, 10, 5, 1, 1.0, 2.0, 2, 0.5);
+```
+```python
+import vs
+
+# Gets the specified list browser item's marker.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, style, angle, size, width, thicknessBasis, thickness = vs.GetLBItemMkrChoice(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemMkrChoice returned: ' + str((ok, style, angle, size, width, thicknessBasis, thickness)))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

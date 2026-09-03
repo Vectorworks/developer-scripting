@@ -40,6 +40,26 @@ def vs.vstAddRadioMode(inInitialSetting, inNumButtons, inImageSpecification1, in
 |inRsrcID_5|INTEGER|   |
 |inRsrcID_6|INTEGER|   |
 
+## Examples
+```pascal
+vstAddRadioMode(1, 2, 3, 10, 5, 1, 2, 3);
+```
+```python
+import vs
+
+# Adds a group of radio buttons to the mode bar.
+inInitialSetting = 1
+inNumButtons = 2
+inImageSpecification1 = 3
+inImageSpecification2 = 10
+inImageSpecification3 = 1
+inImageSpecification4 = 2
+inImageSpecification5 = 3
+inImageSpecification6 = 10
+
+vs.vstAddRadioMode(inInitialSetting, inNumButtons, inImageSpecification1, inImageSpecification2, inImageSpecification3, inImageSpecification4, inImageSpecification5, inImageSpecification6)
+```
+
 ## Version
 Availability: from All Versions
 

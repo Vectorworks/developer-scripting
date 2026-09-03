@@ -35,6 +35,28 @@ SetPrefLongInt(55,128);
 
 ```
 
+```pascal
+BEGIN
+	SetPrefLongInt( kConstrainMode, kConstrained );
+END;
+
+END;	{of CASE theEvent}
+SetPrefLongInt (162, gDecimalPrec);
+
+BEGIN
+	gDecimalPrec := GetPrefLongInt (162);
+	unitsStyle := GetPrefInt (170);
+	CASE unitsStyle OF
+		1, 3, 4: SetPrefLongInt (162, 3);
+		2      : SetPrefLongInt (162, 4);
+		5, 10  : SetPrefLongInt (162, 8);
+		7      : SetPrefLongInt (162, 2);
+		8      : SetPrefLongInt (162, 3);
+```
+```python
+vs.SetPrefLongInt(1, value)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

@@ -107,6 +107,14 @@ Run(LocusSurface);
 
 ```
 
+```pascal
+{ find NURBS point. }
+         NurbsSurfaceEvalPt( hExtr, inxU, inxV, curPt.x, curPt.y, curPt.z );
+```
+```python
+result = vs.NurbsSurfaceEvalPt(objectHd, u, v)
+```
+
 ## See Also
 VS Functions:
 [NurbsKnot](NurbsKnot.md) 

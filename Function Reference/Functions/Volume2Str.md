@@ -17,6 +17,21 @@ def vs.Volume2Str(value):
 |---|---|---|
 |value|REAL|The volume value in cubic millimeters.|
 
+## Examples
+```pascal
+resultStr := Volume2Str(1.0);
+```
+```python
+import vs
+
+# Convert a volume value (in cubic millimeters) from a real number to a
+# string using the current document formatting.
+value = 1.0
+
+text = vs.Volume2Str(value)
+vs.Message('Volume2Str returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

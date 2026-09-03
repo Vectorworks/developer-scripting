@@ -20,9 +20,6 @@ def vs.ObjVolume(solidObject):
 ## Remarks
 Calculates the volume of the given object if a valid solid.
 
-
-
-
 Apparently this command is replacing CalcVolume. It should be noted that ObjVolume returns the volume in volume units from the Units dialog. CalcVolume returns the volume in length units cubed.
 
 ## Examples
@@ -43,6 +40,15 @@ RUN(Example);
 #### Python ####
 ```python
 
+```
+
+```pascal
+{* Get the surface area and volume *}
+gSurfArea := ObjSurfaceArea (gObjH);
+gVolume := ObjVolume (gObjH);
+```
+```python
+result = vs.ObjVolume(solidObject)
 ```
 
 ## Version

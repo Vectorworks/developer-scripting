@@ -26,6 +26,23 @@ def vs.FindLBColumnItem(dialogID, componentID, columnIndex, itemString):
 |itemString|STRING|the text to find|
 |itemIndex|INTEGER|the index at which the text was found|
 
+## Examples
+```pascal
+resultOK := FindLBColumnItem(1, 2, 3, 'Example', 10);
+```
+```python
+import vs
+
+# Finds the column item with the specified text.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+itemString = 'Example'
+
+ok, itemIndex = vs.FindLBColumnItem(dialogID, componentID, columnIndex, itemString)
+vs.Message('FindLBColumnItem returned: ' + str((ok, itemIndex)))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

@@ -17,6 +17,20 @@ def vs.wsInstallCanceled(canceled):
 |---|---|---|
 |canceled|BOOLEAN|   |
 
+## Examples
+```pascal
+wsInstallCanceled(TRUE);
+```
+```python
+import vs
+
+# This function must be called inside 'add_to_workspace' script and it will
+# mark the install as canceled, interrupting the install.
+canceled = True
+
+vs.wsInstallCanceled(canceled)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

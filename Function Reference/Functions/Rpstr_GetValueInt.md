@@ -36,6 +36,21 @@ bool CDlgXXX::CreateDialogLayout()
 }
 ```
 
+## Examples
+```pascal
+resultN := Rpstr_GetValueInt('Example', 1);
+```
+```python
+import vs
+
+# Get an integer value from the VectorScript value repository.
+name = 'Example'
+defaultValue = 1
+
+resultN = vs.Rpstr_GetValueInt(name, defaultValue)
+vs.Message('Rpstr_GetValueInt returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

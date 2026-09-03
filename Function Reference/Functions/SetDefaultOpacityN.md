@@ -17,6 +17,19 @@ def vs.SetDefaultOpacityN(inPenOpacity, inFillOpacity):
 |inPenOpacity|INTEGER|   |
 |inFillOpacity|INTEGER|   |
 
+## Examples
+```pascal
+SetDefaultOpacityN(1, 2);
+```
+```python
+import vs
+
+inPenOpacity = 1
+inFillOpacity = 2
+
+vs.SetDefaultOpacityN(inPenOpacity, inFillOpacity)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

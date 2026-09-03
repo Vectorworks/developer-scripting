@@ -17,6 +17,19 @@ def vs.EA_DataAccCompDel(acc):
 |---|---|---|
 |acc|INTEGER|   |
 
+## Examples
+```pascal
+EA_DataAccCompDel(1);
+```
+```python
+import vs
+
+# Deletes all object components.
+acc = 1
+
+vs.EA_DataAccCompDel(acc)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -29,6 +29,19 @@ LeftBValue:=LeftBound(N='MyRect');
 
 ```
 
+```pascal
+BEGIN
+	currentUIP		:= GetPrefReal(152);
+	symWidth		:= ( RightBound( N=symbolName ) / currentUIP ) - ( LeftBound( N=symbolName ) / currentUIP );
+	symHeight		:= ( TopBound( N=symbolName ) / currentUIP ) - ( BotBound( N=symbolName ) / currentUIP );
+	IF ( ( symWidth - kSymbolDisplayWidth ) > ( symHeight - symbolDisplayHeight ) ) THEN
+	BEGIN
+		scaleFactor := kSymbolDisplayWidth / symWidth;
+```
+```python
+result = vs.LeftBound(c)
+```
+
 ## Version
 Availability: from All Versions
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

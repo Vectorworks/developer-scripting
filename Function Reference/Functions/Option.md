@@ -12,6 +12,22 @@ def vs.Option():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := Option;
+```
+```python
+import vs
+
+# Option return TRUE if the Option key (Mac) or Alt key (Windows) was
+# depressed during the last user event.
+ok = vs.Option()
+if ok:
+    vs.Message('Option succeeded')
+else:
+    vs.Message('Option failed')
+```
+
 ## See Also
 VS Functions:
 [MouseDown](MouseDown.md) 

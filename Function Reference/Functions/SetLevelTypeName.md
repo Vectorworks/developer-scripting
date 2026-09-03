@@ -31,6 +31,23 @@ BEGIN
 result := SetLayerLevelTypeName(2, &quot;Subfloor&quot;);
 ```
 
+```pascal
+resultOK := SetLevelTypeName(1, 'Example');
+```
+```python
+import vs
+
+# Sets the name of the nth Level Type in the file.
+index = 1
+name = 'Example'
+
+ok = vs.SetLevelTypeName(index, name)
+if ok:
+    vs.Message('SetLevelTypeName succeeded')
+else:
+    vs.Message('SetLevelTypeName failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumLayerLevelTypes](GetNumLayerLevelTypes.md) 

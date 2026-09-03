@@ -27,6 +27,20 @@ ShowEditTileSettingsDialog(tileHandle);
 { creates a new tile resource and displays it in the dialog }
 ```
 
+```pascal
+ShowEditTileSettingsDialog(tileHandle);
+```
+```python
+import vs
+
+# Displays the edit tile settings dialog for the specified tile.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.ShowEditTileSettingsDialog(tileHandle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

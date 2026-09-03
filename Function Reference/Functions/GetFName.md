@@ -15,6 +15,18 @@ def vs.GetFName():
 ## Remarks
 See also: [GetFPathName](GetFPathName.md), which returns the fully qualified path of the active document.
 
+## Examples
+```pascal
+resultStr := GetFName;
+```
+```python
+import vs
+
+# Function GetFName returns the current file name of the active document.
+name = vs.GetFName()
+vs.Message('GetFName returned: ' + str(name))
+```
+
 ## Version
 Availability: from All Versions
 

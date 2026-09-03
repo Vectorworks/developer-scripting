@@ -17,6 +17,24 @@ def vs.GetWallInsLocByStyle(hObject):
 |---|---|---|
 |hObject|HANDLE|The symbol definition, plug-in object style, or plug-in object.|
 
+## Examples
+```pascal
+resultOK := GetWallInsLocByStyle(hObject);
+```
+```python
+import vs
+
+# Gets whether the wall insert location of a symbol definition, plug-in
+# object style, or plug-in object is by style.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetWallInsLocByStyle(hObject)
+if ok:
+    vs.Message('GetWallInsLocByStyle succeeded')
+else:
+    vs.Message('GetWallInsLocByStyle failed')
+```
+
 ## See Also
 VS Functions:
 [SetWallInsLocByStyle](SetWallInsLocByStyle.md)

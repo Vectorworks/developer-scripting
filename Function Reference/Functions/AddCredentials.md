@@ -32,9 +32,26 @@ Additionally, the plug-in is called ‘BatchEncryption’ and can be found insid
 The Vectorworks SDK can be downloaded here:
 http://www.vectorworks.net/support/custom/sdk/sdkdown.php
 
+## Examples
+```pascal
+resultOK := AddCredentials('file.txt', 'file.txt');
+```
+```python
+import vs
+
+# Adds credentials to VectorScript plug-ins.
+pluginsPath = 'C:/Temp'
+credentialFilePath = 'C:/Temp'
+
+ok = vs.AddCredentials(pluginsPath, credentialFilePath)
+if ok:
+    vs.Message('AddCredentials succeeded')
+else:
+    vs.Message('AddCredentials failed')
+```
+
 ## Version
 Availability: from Vectorworks 2026
 
 ## Category
 * [Utility](../Categories/Utility.md)
-

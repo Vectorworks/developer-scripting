@@ -24,6 +24,20 @@ def vs.GetStoryBoundDataFromChoiceString(choiceString):
 |boundStory|INTEGER|Returns the story identified by 'boundType' = (2 - Story). If 'boundStory' = 0 then it is this story (the object's story); If 'boundStory' = 1 then it is the story above; If 'boundStory' = 2 then it is the story below.|
 |layerLevelType|STRING|Returns the layer type which defines this bound.|
 
+## Examples
+```pascal
+GetStoryBoundDataFromChoiceString('Example', 1, 2, 'Design Layer-1');
+```
+```python
+import vs
+
+# Gets the story bound data from a story bound choice string.
+choiceString = 'Example'
+
+boundType, boundStory, layerLevelType = vs.GetStoryBoundDataFromChoiceString(choiceString)
+vs.Message('GetStoryBoundDataFromChoiceString returned: ' + str((boundType, boundStory, layerLevelType)))
+```
+
 ## See Also
 VS Functions:
 [GetStoryBoundChoiceStrings](GetStoryBoundChoiceStrings.md) 

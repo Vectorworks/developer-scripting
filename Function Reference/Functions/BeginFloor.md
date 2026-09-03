@@ -33,6 +33,15 @@ vs.Rect(1,1,5,5)
 vs.EndGroup()
 ```
 
+```pascal
+BeginFloor(1.0);
+```
+```python
+if ( vs.Abs( vs.PRise ) < kMinDrop ):
+	vs.BeginFloor( thickness )
+	DrawRoadway( r1, sweep2D, w )
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

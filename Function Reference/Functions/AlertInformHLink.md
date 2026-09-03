@@ -36,6 +36,24 @@ Created by KAS 8/14/2019
 AlertInformHLink('That item is not a valid item', 'Please visit', 'our website', 'https://www.vectorworks.net', 'for more information on what is a valid item.', false);
 ```
 
+```pascal
+AlertInformHLink(text, adviceBeforeLink, linkTitle, linkURL, adviceAfterLink, TRUE);
+```
+```python
+import vs
+
+# Displays an alert dialog which provides the user with information about the
+# result of a command.
+text = 'Example text'
+adviceBeforeLink = 'Example'
+linkTitle = 'Example'
+linkURL = 'C:/Temp/example.txt'
+adviceAfterLink = 'Example'
+minorAlert = True
+
+vs.AlertInformHLink(text, adviceBeforeLink, linkTitle, linkURL, adviceAfterLink, minorAlert)
+```
+
 ## See Also
 VS Functions:
 [AlertInform](AlertInform.md) 

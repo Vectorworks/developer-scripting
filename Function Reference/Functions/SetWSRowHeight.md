@@ -51,6 +51,17 @@ SetWSRowHeight(sheet,3,9,22,TRUE,TRUE);
 
 ```
 
+```pascal
+SetWSRowHeight (wksH, 1, 1, 28, TRUE, TRUE);
+SetWSRowHeight (wksH, 2, 2, 20, TRUE, TRUE);
+SetWSRowHeight (wksH, 3, 3, 15, TRUE, TRUE);
+SetWSRowHeight (wksH, 4, 4, 20, TRUE, TRUE);
+```
+```python
+vs.SetWSRowHeight(worksheet, fromRow, toRow, 1.0, updatePalette, 2.0)
+```
+See also in tutorials: [27. Formatted Wall Schedule](ai%20examples/27_WorksheetFormattedSchedule.md)
+
 ## Version
 Availability: from VectorWorks12.0
 

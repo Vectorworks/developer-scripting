@@ -34,6 +34,13 @@ SetGradientSpotPosition(gradientHandle, segmentIndex, 0.9);
 
 ```
 
+```pascal
+SetGradientSpotPosition(gradient, 1, 1.0);
+```
+```python
+result = vs.SetGradientSpotPosition(gradient, 1, position)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

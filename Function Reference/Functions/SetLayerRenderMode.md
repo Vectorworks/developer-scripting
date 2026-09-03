@@ -31,6 +31,38 @@ RenderNow  - controls whether the specified layer will be re-rendered when the r
 
 Display progress -  ??  This might control whether the screen updates as it is rendering or not.  I haven't been able to figure out a definite effect of this parameter.
 
+## Examples
+```pascal
+{ restore saved view and delete it. }
+VRestore( 'TempView' );
+VDelete( 'TempView' );
+SetLayerRenderMode( hObjLayer, nObjRender, TRUE, TRUE );
+Layer(GetLName(ActLayer));{looks useless, but forces a layer redraw}
+
+BEGIN
+	Layer(GetLName(GetLayer(GetObject(RefGridPIOName))));
+	SetLayerRenderMode( GetLayer(GetObject(RefGridPIOName)), pioTuneRenderMode, TRUE, TRUE );
+	SetObjectVariableLongint( GetLayer(GetObject(RefGridPIOName)), 591, Name2Index( pioRWBackRsrcName ) );
+
+BEGIN
+	setview(rx,ry,rz,vx,vy,vz);
+	SetPref (9873,FALSE);
+	IF GetLayerRenderMode(hActLayer) <> LyrRendModeIndex THEN
+		SetLayerRenderMode(hActLayer,LyrRendModeIndex,FALSE,TRUE);
+END;
+```
+```python
+import vs
+
+# Sets the render mode of the referenced layer.
+theLayer = vs.ActLayer()  # handle to the active design layer
+newRenderMode = 0
+immediate = True
+doProgress = True
+
+vs.SetLayerRenderMode(theLayer, newRenderMode, immediate, doProgress)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

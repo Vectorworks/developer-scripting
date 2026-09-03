@@ -22,6 +22,20 @@ def vs.DBGetFormatConn(formatName):
 |outDatabase|STRING|   |
 |outTable|STRING|   |
 
+## Examples
+```pascal
+resultOK := DBGetFormatConn('Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Returns the ODBC connection for the specified format.
+formatName = 'MyRecord'
+
+ok, outDatabase, outTable = vs.DBGetFormatConn(formatName)
+vs.Message('DBGetFormatConn returned: ' + str((ok, outDatabase, outTable)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

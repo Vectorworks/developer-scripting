@@ -25,9 +25,24 @@ def vs.SetTexBitmapOrigin(textureBitmap, originX, originY):
 ## Remarks
 Origin x and y are in pixels from paint node top left
 
+## Examples
+```pascal
+SetTexBitmapOrigin(textureBitmap, 1, 2);
+```
+```python
+import vs
+
+# Procedure SetTexBitmapOrigin sets the origin of the bitmap applied to the
+# referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+originX = 1
+originY = 2
+
+vs.SetTexBitmapOrigin(textureBitmap, originX, originY)
+```
+
 ## Version
 SetTexBitmapOrigin is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

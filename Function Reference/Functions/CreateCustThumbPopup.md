@@ -29,6 +29,24 @@ There are two thumbnail sizes at the moment, 64x64 and 128x32.
 * sizeType = 1
 ** The LineType size (128x32) used for displaying Line Types..
 
+## Examples
+```pascal
+CreateCustThumbPopup( dialogID, ImagePopup_ID, 0 );
+SetBelowItem( dialogID, DocImagesStaTex_ID, ImagePopup_ID, 5, 0 );
+```
+```python
+import vs
+
+# Creates a custom thumbnail popup that can be populated with previews of
+# objects in Vectorworks.
+dialogID = 1
+controlID = 2
+sizeType = 0
+
+vs.CreateCustThumbPopup(dialogID, controlID, sizeType)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

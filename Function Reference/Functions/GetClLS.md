@@ -37,6 +37,19 @@ def	Example():
 Example()
 ```
 
+```pascal
+resultN := GetClLS('Wall');
+```
+```python
+import vs
+
+# Returns the line style of the specified class.
+className = 'None'
+
+resultN = vs.GetClLS(className)
+vs.Message('GetClLS returned: ' + str(resultN))
+```
+
 ## See Also
 [GetClLSN](GetClLSN.md), [SetClLSN](SetClLSN.md) from Vectorworks 2013
 [SetClLS](SetClLS.md)

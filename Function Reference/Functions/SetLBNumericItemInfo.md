@@ -30,6 +30,29 @@ def vs.SetLBNumericItemInfo(dialogID, componentID, itemIndex, subItemIndex, item
 |itemNumVal|REAL|the item numeric value|
 |imageIndex|INTEGER|the item image list index|
 
+## Examples
+```pascal
+resultOK := SetLBNumericItemInfo(1, 2, 3, 10, 'Example', 1.0, 5);
+```
+```python
+import vs
+
+# Sets numeric data for item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+itemString = 'Example'
+itemNumVal = 1.0
+imageIndex = 1
+
+ok = vs.SetLBNumericItemInfo(dialogID, componentID, itemIndex, subItemIndex, itemString, itemNumVal, imageIndex)
+if ok:
+    vs.Message('SetLBNumericItemInfo succeeded')
+else:
+    vs.Message('SetLBNumericItemInfo failed')
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

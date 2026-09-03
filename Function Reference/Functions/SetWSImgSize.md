@@ -30,6 +30,25 @@ def vs.SetWSImgSize(worksheet, topRow, leftColumn, bottomRow, rightColumn, heigh
 |height|INTEGER|The image height.|
 |width|INTEGER|The image width.|
 
+## Examples
+```pascal
+SetWSImgSize(worksheet, 1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Sets specified image size in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+height = 1
+width = 2
+
+vs.SetWSImgSize(worksheet, topRow, leftColumn, bottomRow, rightColumn, height, width)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

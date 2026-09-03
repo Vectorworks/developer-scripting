@@ -22,6 +22,21 @@ def vs.SelectTreeControlItem(nDialogID, nComponentID, nItemID):
 |nComponentID|LONGINT|   |
 |nItemID|INTEGER|   |
 
+## Examples
+```pascal
+SelectTreeControlItem(1, 2, 3);
+```
+```python
+import vs
+
+# Selects the specified tree control item.
+nDialogID = 1
+nComponentID = 2
+nItemID = 3
+
+vs.SelectTreeControlItem(nDialogID, nComponentID, nItemID)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

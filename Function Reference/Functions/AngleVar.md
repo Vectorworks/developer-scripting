@@ -34,6 +34,13 @@ run(test);
 
 ```
 
+```pascal
+AngleVar;
+```
+```python
+vs.AngleVar()
+```
+
 ## Version
 Availability: from All Versions
 

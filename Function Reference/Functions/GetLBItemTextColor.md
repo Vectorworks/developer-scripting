@@ -30,6 +30,36 @@ def vs.GetLBItemTextColor(dialogID, componentID, itemIndex, subItemIndex):
 |greenIndex|INTEGER|the green component (0 - 255)|
 |blueIndex|INTEGER|the blue component (0 - 255)|
 
+## Examples
+```pascal
+BEGIN
+	boo:=GetLBItemTextColor(dialogID, itemID, row, kCandlePowerCol, r, g, b);
+	isLBRowChanged := FALSE;
+	IF (r=TintR) & (g=TintG) & (b=TintB) THEN
+		isLBRowChanged:=TRUE;
+END;
+
+	symArray[lastPtr-firstPtr+1].cir:=choiceStr;}
+	symArray[lastPtr-firstPtr+1].cir:='1';
+	boo:=GetLBItemInfo(dialogIDSetup, kBrowserKeyList, lastPtr, kRightColNR, choiceStr, choiceInt);
+	symArray[lastPtr-firstPtr+1].nr:=choiceStr;
+	boo:=GetLBItemTextColor(dialogIDSetup, kBrowserKeyList, lastPtr, kRightColName, red, green, symArray[lastPtr-firstPtr+1].color);
+	IF lastPtr=numRows THEN lastPtr:=lastPtr+1;
+END;
+```
+```python
+import vs
+
+# Gets the text color for the specified list browser item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, redIndex, greenIndex, blueIndex = vs.GetLBItemTextColor(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemTextColor returned: ' + str((ok, redIndex, greenIndex, blueIndex)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

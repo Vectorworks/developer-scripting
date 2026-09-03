@@ -17,6 +17,25 @@ def vs.GetActiveEditItem(dialogID):
 |---|---|---|
 |dialogID|LONGINT|   |
 
+## Examples
+```pascal
+BEGIN
+	activeItem := GetActiveEditItem(dlogID);
+	IF (activeItem <> kProjectElevEdit) AND NOT (isProjectElevValid) THEN BEGIN
+		isProjectElevValid := TRUE;
+		ValidateProjElev;
+		SetProjElevEditText;
+```
+```python
+import vs
+
+# Returns the active edit control in the specified dialog.
+dialogID = 1
+
+resultN = vs.GetActiveEditItem(dialogID)
+vs.Message('GetActiveEditItem returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks12.0.1
 

@@ -19,6 +19,20 @@ def vs.GetTextStyleRef(objectId):
 |---|---|---|
 |objectId|HANDLE|handle to object|
 
+## Examples
+```pascal
+resultN := GetTextStyleRef(objectId);
+```
+```python
+import vs
+
+# Function GetTextStyleRef returns the text style for the referenced object.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetTextStyleRef(objectId)
+vs.Message('GetTextStyleRef returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

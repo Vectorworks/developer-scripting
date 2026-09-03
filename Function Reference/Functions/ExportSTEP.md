@@ -17,6 +17,23 @@ def vs.ExportSTEP(filePath, exportSolidsAsSurfaces):
 |filePath|DYNARRAY[] of CHAR|   |
 |exportSolidsAsSurfaces|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := ExportSTEP(filePath, TRUE);
+```
+```python
+import vs
+
+filePath = 'C:/Temp'
+exportSolidsAsSurfaces = True
+
+ok = vs.ExportSTEP(filePath, exportSolidsAsSurfaces)
+if ok:
+    vs.Message('ExportSTEP succeeded')
+else:
+    vs.Message('ExportSTEP failed')
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

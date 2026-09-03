@@ -27,11 +27,27 @@ def vs.GetCharColor(theText, position):
 |green|LONGINT|   |
 |blue|LONGINT|   |
 
+## Examples
+```pascal
+GetCharColor(theText, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Function GetCharColor returns the color of a character at a specified
+# position in the given text object.
+theText = 'Example text'
+position = 1
+
+red, green, blue = vs.GetCharColor(theText, position)
+vs.Message('GetCharColor returned: ' + str((red, green, blue)))
+```
+
 ## See Also
 VS Functions:
-[GetCharFontIndex](GetCharFontIndex.md) 
-| [GetCharSize](GetCharSize.md) 
-| [GetCharStyle](GetCharStyle.md)
+GetCharFontIndex
+| GetCharSize
+| GetCharStyle
 
 ## Version
 Availability: from Vectorworks 2016

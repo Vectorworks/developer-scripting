@@ -38,6 +38,31 @@ SetOrigin(1,1);
 
 ```
 
+```pascal
+IF ((GetObject(concat(SDName, kDash, num2str(0, Scalefactor))) = NIL)&(gettype(GetObject(SDName)) = 16)) THEN BEGIN
+	GetOrigin(xO, yO);
+	SetOrigin(-xO, -yO);
+	numSymDefs := 0;
+	H := GetObject(SDName);
+	factor := ScaleFactor;
+	IF ((H <> NIL) & (gettype(H)=16)) THEN BEGIN
+
+GetOrigin(userOriginX, userOriginY);
+SetOrigin(-userOriginX, -userOriginY);
+
+BEGIN
+PushAttrs;
+GetOrigin(xOrig,yOrig);
+SetOrigin(-xOrig,-yOrig);
+lowestPoint := kBiggestReal;
+higestPoint := -kBiggestReal;
+MaxRight := -kBiggestReal;
+MinLeft := kBiggestReal;
+```
+```python
+vs.SetOrigin(0, 0)
+```
+
 ## See Also
 VS Functions:
 [SetOriginAbsolute](SetOriginAbsolute.md)

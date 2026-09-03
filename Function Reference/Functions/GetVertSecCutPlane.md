@@ -20,6 +20,19 @@ def vs.GetVertSecCutPlane(hObject):
 * 3 = View as Uncut beyond when Cut in Viewport
 * 4 = View as Uncut before when Cut in Viewport
 
+## Examples
+```pascal
+resultN := GetVertSecCutPlane(hObject);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetVertSecCutPlane(hObject)
+vs.Message('GetVertSecCutPlane returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

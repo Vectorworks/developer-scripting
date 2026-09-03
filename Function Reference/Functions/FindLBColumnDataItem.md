@@ -26,6 +26,37 @@ def vs.FindLBColumnDataItem(dialogID, componentID, columnIndex, itemString):
 |itemString|STRING|the text to find|
 |columnDataItemIndex|INTEGER|the index at which the text was found|
 
+## Examples
+```pascal
+BEGIN
+	IF value = '' THEN value := ' ';
+	IF NOT FindLBColumnDataItem(dialogID, componentID, column, value, ndx) THEN
+	ndx := InsertLBColumnDataItem(dialogID, componentID, column, value, 0, 0, 0);
+	boo := SetLBItemUsingColumnDataItem(dialogID, componentID, row, column, ndx);
+END;
+
+BEGIN
+index := ParmStackOrder[labelIndex, orderNum];
+IF index <> 0 THEN
+	IF FindLBColumnDataItem(AddEditLegend, kFieldsLB, kColAttribute, ParmList[ index ].LocalFldName, int) THEN
+		BEGIN
+		LB_SetCell(AddEditLegend, kFieldsLB, int, kColNumber, Concat(orderNum));
+		numberedFields := orderNum+1;
+		END;
+```
+```python
+import vs
+
+# Finds the column data item with the specified text.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+itemString = 'Example'
+
+ok, columnDataItemIndex = vs.FindLBColumnDataItem(dialogID, componentID, columnIndex, itemString)
+vs.Message('FindLBColumnDataItem returned: ' + str((ok, columnDataItemIndex)))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

@@ -23,6 +23,20 @@ def vs.SetClTextureD(className, textureRef):
 ## Remarks
 Sets the roof dormer texture of the class named className.
 
+## Examples
+```pascal
+SetClTextureD('Wall', 1);
+```
+```python
+import vs
+
+# Procedure SetClTextureD sets the roof dormer texture of the specified class.
+className = 'None'
+textureRef = 1
+
+vs.SetClTextureD(className, textureRef)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

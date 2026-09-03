@@ -30,6 +30,21 @@ def vs.GetWSImgComponent(worksheet, row, column):
 |column|INTEGER|The cell column.|
 |component|INTEGER|The image component|
 
+## Examples
+```pascal
+GetWSImgComponent(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the specified component of a worksheet cell image.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSImgComponent(worksheet, row, column)
+```
+
 ## See Also
 VS Functions:
 [SetWSImgComponent](SetWSImgComponent.md)

@@ -28,6 +28,24 @@ def vs.SetWSImgMarginSize(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 |rightColumn|INTEGER|Right column of cell range.|
 |marginSize|INTEGER|The image margin size.|
 
+## Examples
+```pascal
+SetWSImgMarginSize(worksheet, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets specified image margin size in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+marginSize = 1
+
+vs.SetWSImgMarginSize(worksheet, topRow, leftColumn, bottomRow, rightColumn, marginSize)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

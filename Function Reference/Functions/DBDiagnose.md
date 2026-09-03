@@ -35,6 +35,20 @@ def Test():
 Test()
 ```
 
+```pascal
+resultOK := DBDiagnose;
+```
+```python
+import vs
+
+# Tests ODBC connectivity and creates log file in application folder.
+ok = vs.DBDiagnose()
+if ok:
+    vs.Message('DBDiagnose succeeded')
+else:
+    vs.Message('DBDiagnose failed')
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

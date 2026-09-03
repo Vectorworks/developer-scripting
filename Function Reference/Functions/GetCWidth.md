@@ -22,11 +22,28 @@ def vs.GetCWidth(h, row, col):
 |row|INTEGER|Worksheet row index.|
 |col|INTEGER|Worksheet column index.|
 
+## Examples
+```pascal
+resultN := GetCWidth(h, 1, 2);
+```
+```python
+import vs
+
+# Function GetCWidth returns the column width of a cell in the referenced
+# worksheet.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+row = 10
+col = 5
+
+resultN = vs.GetCWidth(h, row, col)
+vs.Message('GetCWidth returned: ' + str(resultN))
+```
+
 ## See Also
 [GetWSColumnWidth](GetWSColumnWidth.md)
 
 ## Version
-GetCWidth is obsolete as of VectorWorks 9.0, see [GetWSColumnWidth ](GetWSColumnWidth .md)
+GetCWidth is obsolete as of VectorWorks 9.0, see [GetWSColumnWidth](GetWSColumnWidth.md)
 
 Availability: from All Versions
 

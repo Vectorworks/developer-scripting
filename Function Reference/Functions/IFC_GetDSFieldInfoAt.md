@@ -28,6 +28,22 @@ def vs.IFC_GetDSFieldInfoAt(objectName, dataSheetName, iField):
 |outIsVisible|BOOLEAN|   |
 |outIsByFormula|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_GetDSFieldInfoAt('Example', 'Example', 1, 'MyRecord', TRUE, FALSE);
+```
+```python
+import vs
+
+# Gets label, visibility state, by formula state for Data Sheet field.
+objectName = 'Example'
+dataSheetName = 'Example'
+iField = 1
+
+ok, outFieldLabel, outIsVisible, outIsByFormula = vs.IFC_GetDSFieldInfoAt(objectName, dataSheetName, iField)
+vs.Message('IFC_GetDSFieldInfoAt returned: ' + str((ok, outFieldLabel, outIsVisible, outIsByFormula)))
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

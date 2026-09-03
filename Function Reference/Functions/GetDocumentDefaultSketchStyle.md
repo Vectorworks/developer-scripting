@@ -12,6 +12,18 @@ def vs.GetDocumentDefaultSketchStyle():
     return STRING
 ```
 
+## Examples
+```pascal
+resultStr := GetDocumentDefaultSketchStyle;
+```
+```python
+import vs
+
+# Returns the document default sketch style.
+text = vs.GetDocumentDefaultSketchStyle()
+vs.Message('GetDocumentDefaultSketchStyle returned: ' + str(text))
+```
+
 ## Version
 Availability: from VectorWorks11.5
 

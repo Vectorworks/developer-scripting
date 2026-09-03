@@ -25,6 +25,23 @@ def vs.CustomTexPartExists(obj, partID):
 hasPart := CustomTexturePartExists(h, 100);
 ```
 
+```pascal
+resultOK := CustomTexPartExists(obj, 1);
+```
+```python
+import vs
+
+# Returns true if object has the specified partID custom texture part.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+
+ok = vs.CustomTexPartExists(obj, partID)
+if ok:
+    vs.Message('CustomTexPartExists succeeded')
+else:
+    vs.Message('CustomTexPartExists failed')
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

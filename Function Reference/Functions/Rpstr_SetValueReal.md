@@ -20,6 +20,20 @@ def vs.Rpstr_SetValueReal(name, value):
 |name|STRING|The name of the value.|
 |value|REAL|Set a value associated with the name in the VectorScript value repository.|
 
+## Examples
+```pascal
+Rpstr_SetValueReal('Example', 1.0);
+```
+```python
+import vs
+
+# Set a real value from the VectorScript value repository.
+name = 'Example'
+value = 1.0
+
+vs.Rpstr_SetValueReal(name, value)
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

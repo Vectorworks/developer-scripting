@@ -62,6 +62,20 @@ def Example():
 Example()
 ```
 
+```pascal
+resultH := CreateWallStyle('Example');
+```
+```python
+import vs
+
+# Creates a new Wall Style of the give name.
+wallStyleName = 'Example'
+
+objHandle = vs.CreateWallStyle(wallStyleName)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

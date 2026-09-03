@@ -17,6 +17,36 @@ def vs.SetDefaultTexMap(h):
 |---|---|---|
 |h|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+    SetDefaultTexMap (slab_h);
+	if openDoor then
+		SetTexMapReal (slab_h,3,4, angOpened )
+	else
+		SetTexMapReal (slab_h,3,4, angClosed);
+
+Begin
+	SetDefaultTexMap (H);
+	SetAttrsByClass(H);
+	TextSpaceHand := GetTextureSpace(H,0);
+	IF TextSpaceHand <> NIL THEN
+	BEGIN
+
+TexObjHan := GetObject (MyTexName);
+SelImageIndx := Name2Index(MyTexName);
+ImageTextureSpaceHnd := GetTextureSpace(DummyWholeHandle,kTexturePartID);
+IF ImageTextureSpaceHnd = NIL THEN SetDefaultTexMap (DummyWholeHandle);
+```
+```python
+import vs
+
+# Set the object to have default texture mapping info.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.SetDefaultTexMap(h)
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

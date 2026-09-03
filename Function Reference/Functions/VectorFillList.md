@@ -20,6 +20,21 @@ def vs.VectorFillList(index):
 ## Remarks
 Returns the name of the specified hatch definition from the active document.
 
+## Examples
+```pascal
+resultStr := VectorFillList(1);
+```
+```python
+import vs
+
+# Function VectorFillList returns the name of the specified vector fill
+# definition.
+index = 1
+
+text = vs.VectorFillList(index)
+vs.Message('VectorFillList returned: ' + str(text))
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

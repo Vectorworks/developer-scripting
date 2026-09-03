@@ -12,6 +12,17 @@ def vs.UpdateFeatureLayer():
     return None
 ```
 
+## Examples
+```pascal
+UpdateFeatureLayer;
+```
+```python
+import vs
+
+# Upload data from a Vectorworks layer to a feature service.
+vs.UpdateFeatureLayer()
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

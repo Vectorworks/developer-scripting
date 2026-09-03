@@ -17,6 +17,21 @@ def vs.CreateTextStyleRes(name):
 |---|---|---|
 |name|STRING|The name for the new text style.|
 
+## Examples
+```pascal
+resultH := CreateTextStyleRes('Example');
+```
+```python
+import vs
+
+# Creates a new text style resource with the specified name.
+name = 'Example'
+
+objHandle = vs.CreateTextStyleRes(name)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

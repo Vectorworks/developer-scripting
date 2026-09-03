@@ -22,6 +22,25 @@ def vs.SetObjWallInsLocOff(objectHandle, wallHandle, insertLocationOffset):
 |wallHandle|HANDLE|The wall.|
 |insertLocationOffset|REAL (Coordinate)|The insert location offset.|
 
+## Examples
+```pascal
+SetObjWallInsLocOff(objectHandle, wallHandle, 1.0);
+```
+```python
+import vs
+
+# Sets the insert location offset for an object in a wall.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+wallHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+insertLocationOffset = 0.0
+
+ok = vs.SetObjWallInsLocOff(objectHandle, wallHandle, insertLocationOffset)
+if ok:
+    vs.Message('SetObjWallInsLocOff succeeded')
+else:
+    vs.Message('SetObjWallInsLocOff failed')
+```
+
 ## See Also
 VS Functions:
 [GetObjWallInsLocOff](GetObjWallInsLocOff.md)

@@ -33,6 +33,29 @@ def vs.InsertNewDLComponent(beforeIndex, widthDistance, fill, penWeightLeft, pen
 ## Remarks
 (6-27-06 CJG)
 
+## Examples
+```pascal
+resultOK := InsertNewDLComponent(1, 1.0, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Inserts a new component before index in the Double Line Preferences.
+beforeIndex = 1
+widthDistance = 2.0
+fill = 1
+penWeightLeft = 2
+penWeightRight = 3
+penStyleLeft = 0
+penStyleRight = 0
+
+ok = vs.InsertNewDLComponent(beforeIndex, widthDistance, fill, penWeightLeft, penWeightRight, penStyleLeft, penStyleRight)
+if ok:
+    vs.Message('InsertNewDLComponent succeeded')
+else:
+    vs.Message('InsertNewDLComponent failed')
+```
+
 ## See Also
 VS Functions:
 [DeleteDLComponent](DeleteDLComponent.md)

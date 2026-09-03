@@ -42,6 +42,24 @@ vs.DoubleFixedTolerance(True,False,'','','yes','no')
 #{defines a dimension with a double fixed tolerance}
 ```
 
+```pascal
+DoubleFixedTolerance(TRUE, FALSE, 'Example', 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Procedure DoubleFixedTolerance is used with dimensioning procedures to
+# define a tolerance for the most recently created dimension object.
+showVal = True
+boxText = 'Example text'
+leader = 'Example'
+trailer = 'Example'
+topStr = 'Example'
+botStr = 'Example'
+
+vs.DoubleFixedTolerance(showVal, boxText, leader, trailer, topStr, botStr)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

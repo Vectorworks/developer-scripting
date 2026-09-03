@@ -50,6 +50,32 @@ def Example():
 Example()
 ```
 
+```pascal
+theLabel := Concat(GetPlugInString(3004), Chr(13), Chr(13),
+					GetPlugInString(3006), Num2Str(2, theta), Chr(13),
+					GetPlugInString(3007), Num2StrF(D), Chr(13),
+					GetPlugInString(3008), Num2StrF(T), Chr(13),
+					GetPlugInString(3009), Num2StrF(L), Chr(13),
+					GetPlugInString(3010), Num2StrF(theRadius));
+
+bsb := SetObjPropVS(kObjXSupportsStyles, TRUE );
+bsb := SetObjPropVS(kObjXPropSupportResourcePopup, TRUE);
+bsb := SetObjPropVS(kObjXHasCustomWidgetVisibilities, TRUE );
+bsb := SetObjPropVS(kObjXPropCatalogSupport, TRUE);
+bsb := SetObjPropCharVS(kObjXPropDefaultHorizontalSectionCutPlane,	Chr(kObjXPropUncutBeyondInViewport));
+bsb := SetObjPropCharVS(kObjXPropDefaultVerticalSectionCutPlane,	Chr(kObjXPropViewAsCutInViewport));
+
+BEGIN
+	ErrorStatus := TRUE;
+	Errors := concat(Errors,chr(13),ErrorMsg);
+END;
+```
+```python
+# Sets widget group mode to automatic.
+ok = vs.SetObjPropCharVS( vs.kWidgetGroupMode, vs.Chr(vs.kWidgetGroupAutomatic))
+```
+See also in tutorials: [Plug-in with widgets, basic example (Python)](../../Common/Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
+
 ## See Also
 VS Functions:
 [Ord](Ord.md)

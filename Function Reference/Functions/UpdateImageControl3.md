@@ -26,6 +26,25 @@ def vs.UpdateImageControl3(dialogID, controlID, imageFullPath):
 |controlID|LONGINT|The identifier of the control to be updated.|
 |imageFullPath|DYNARRAY[] of CHAR|The full path to the image.|
 
+## Examples
+```pascal
+resultOK := UpdateImageControl3(1, 2, imageFullPath);
+```
+```python
+import vs
+
+# Updates the image control.
+dialogID = 1
+controlID = 2
+imageFullPath = 'C:/Temp'
+
+ok = vs.UpdateImageControl3(dialogID, controlID, imageFullPath)
+if ok:
+    vs.Message('UpdateImageControl3 succeeded')
+else:
+    vs.Message('UpdateImageControl3 failed')
+```
+
 ## See Also
 VS Functions:
 [UpdateImageControl2](UpdateImageControl2.md)

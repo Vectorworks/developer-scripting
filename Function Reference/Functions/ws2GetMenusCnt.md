@@ -17,6 +17,20 @@ def vs.ws2GetMenusCnt(menuPath):
 |---|---|---|
 |menuPath|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultN := ws2GetMenusCnt(menuPath);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+
+resultN = vs.ws2GetMenusCnt(menuPath)
+vs.Message('ws2GetMenusCnt returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

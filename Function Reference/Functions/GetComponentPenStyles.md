@@ -27,6 +27,21 @@ def vs.GetComponentPenStyles(obj, componentIndex):
 ## Remarks
 *\_c\_*, 2016.02.04: This doesn't support Line Types: the values returned are faulty. Use [GetCompPenStylesN](GetCompPenStylesN.md)
 
+## Examples
+```pascal
+resultOK := GetComponentPenStyles(obj, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the left and right side pen styles of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, leftPenStyle, rightPenStyle = vs.GetComponentPenStyles(obj, componentIndex)
+vs.Message('GetComponentPenStyles returned: ' + str((ok, leftPenStyle, rightPenStyle)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentPenStyles](SetComponentPenStyles.md)

@@ -23,6 +23,21 @@ def vs.SetClTextureR(className, textureRef):
 ## Remarks
 Sets the wall right texture of the class named className.
 
+## Examples
+```pascal
+SetClTextureR('Wall', 1);
+```
+```python
+import vs
+
+# Procedure SetClTextureR sets the right side wall texture of the specified
+# class.
+className = 'None'
+textureRef = 1
+
+vs.SetClTextureR(className, textureRef)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -40,6 +40,25 @@ GetObject('xxx') { both an obj and a layer called "xxx" are present > returns th
 NameList(index) would never return the layer. With [ GetObject](GetObject.md) you can fetch the layer, but you'll get preferably the item belonging to the NameList if both present, in this case the obj "xxx', but not the layer 'xxx'.
 If no item in the NameList carries the name searched with [ GetObject](GetObject.md), then the LayerList will be taken into account.
 
+## Examples
+```pascal
+BEGIN
+	NameStr := namelist(temp_cnt);
+	IF ( GetObject( NameStr ) <> NIL )
+	AND ( GetType( getobject( NameStr ) ) = 119 )
+	THEN
+	BEGIN
+```
+```python
+import vs
+
+# Function NameList returns the specified object name from the object name list.
+index = 1
+
+name = vs.NameList(index)
+vs.Message('NameList returned: ' + str(name))
+```
+
 ## Version
 Availability: from All Versions
 

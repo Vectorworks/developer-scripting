@@ -57,6 +57,38 @@ END;
 RUN(ChangeGroupClass);
 ```
 
+## Examples
+```pascal
+BEGIN
+tempH := FInGroup (BaseLine);
+HUnGroup (BaseLine);
+BaseLine := tempH;
+END;
+
+	IF (GetType(h1) = 2) & (HLength(h1) < fuzz) THEN DelObj(h1);
+	h1 := h2;
+END;
+DSelectAll;
+HUnGroup(handleToGroup);
+h := FSActLayer;
+IF NextObj(h) = NIL THEN BEGIN
+	CleanMedialAxis := h;
+END ELSE BEGIN
+
+BEGIN
+	ForEachObjectInList( SetPolyOpacityFunc, 0, 1, FInGroup( MaskPolyHand[i] ) );
+	HUngroup( MaskPolyHand[i]);
+END;
+```
+```python
+import vs
+
+# Decomposes the referenced group into component objects.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.HUngroup(h)
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

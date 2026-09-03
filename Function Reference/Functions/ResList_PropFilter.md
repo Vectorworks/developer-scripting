@@ -20,6 +20,23 @@ def vs.ResList_PropFilter(uniqueID, callback):
 |uniqueID|STRING|   |
 |callback|PROCEDURE|   |
 
+## Examples
+```pascal
+ResList_PropFilter('Example', callback);
+```
+```python
+import vs
+
+# Sets the filter for the resource properties.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+uniqueID = 'Example'
+callback = handle_object
+
+vs.ResList_PropFilter(uniqueID, callback)
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

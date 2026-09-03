@@ -50,6 +50,17 @@ vs.Poly3D(0*12,0*12,0*12,0*12,0*12,4*12 ,4*12 ,0*12,4*12 ,4*12 ,0*12,0*12)
 vs.EndMesh()
 ```
 
+```pascal
+BeginMesh;
+```
+```python
+import vs
+
+# Procedure BeginMesh begins the efinition of a 3D mesh object in VectorWorks.
+vs.BeginMesh()
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from All Versions
 

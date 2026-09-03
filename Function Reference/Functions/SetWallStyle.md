@@ -47,6 +47,13 @@ RUN(Example);
 
 ```
 
+```pascal
+resultOK := SetWallStyle(theWall, 'Example', 1.0, 2.0);
+```
+```python
+result = vs.SetWallStyle(theWall, wallStyle, 1.0, 2.0)
+```
+
 ## See Also
 VS Functions:
 [GetWallStyle](GetWallStyle.md)

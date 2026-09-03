@@ -16,6 +16,17 @@ def vs.LWByClass():
 Sets the global attributes to use the line weight of the default class.
 [sd 8/19/98]
 
+## Examples
+```pascal
+LWByClass;
+```
+```python
+vs.MarkerByClass()
+vs.FPatByClass()
+vs.LSByClass()
+vs.LWByClass()
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

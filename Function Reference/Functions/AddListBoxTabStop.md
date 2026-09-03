@@ -96,6 +96,34 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	AddListBoxTabStop (dialogID, 6, kTabStop1Mac);
+	AddListBoxTabStop (dialogID, 6, kTabStop2Mac);
+END
+
+BEGIN
+	AddListBoxTabStop (dialogID, 12, kTabStop1Mac);
+	AddListBoxTabStop (dialogID, 12, kTabStop2Mac);
+END
+
+CASE item OF
+	SetupDialogC:BEGIN
+		AddListBoxTabStop (dlogID, 25, kTabStop1);
+		AddListBoxTabStop (dlogID, 25, kTabStop2);
+```
+```python
+import vs
+
+# Adds a tab stop to a Layout Manager list box.
+dialogID = 1
+itemID = 2
+tabStop = 3
+
+vs.AddListBoxTabStop(dialogID, itemID, tabStop)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [RemoveListBoxTabStop](RemoveListBoxTabStop.md)

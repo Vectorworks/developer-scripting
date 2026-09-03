@@ -32,6 +32,23 @@ All operators = -1<BR>
 Sort operator = 0<BR>
 Summarize operatory = 1
 
+## Examples
+```pascal
+MoveWSColumnOperator(worksheet, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Moves database column operator between columns.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+fromColumn = 5
+toColumn = 5
+operatorType = 0
+
+vs.MoveWSColumnOperator(worksheet, databaseRow, fromColumn, toColumn, operatorType)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

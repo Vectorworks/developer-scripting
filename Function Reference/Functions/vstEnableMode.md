@@ -20,6 +20,24 @@ def vs.vstEnableMode(inModeNumber, inEnable):
 |inModeNumber|INTEGER|   |
 |inEnable|BOOLEAN|   |
 
+## Examples
+```pascal
+{kToolPointAdded}
+{	Fixed BUG 57175 by disabling the mode group while colecting tool points}
+100: BEGIN
+	vstEnableMode(1, FALSE);
+END;
+```
+```python
+import vs
+
+# Enables or disables the specified mode.
+inModeNumber = 0
+inEnable = True
+
+vs.vstEnableMode(inModeNumber, inEnable)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -69,6 +69,50 @@ def Example():
 Example()
 ```
 
+```pascal
+{ create stakes where we still have temporary loci. }
+IF ( gMakeStakes ) THEN BEGIN
+	StakePrefsResult := AlertQuestionDontShowAgain( GetPluginString( 3021 ), GetPluginString( 3022 ), 0, GetPluginString( 3024 ), GetPlugInString( 3025 ), '', '', arrOptions );
+	IF ( StakePrefsResult = 0 ) THEN
+		showStakePrefs := FALSE;
+	IF ( StakePrefsResult = 1 ) THEN
+		showStakePrefs := TRUE;
+
+BEGIN
+arrayText[1] := 'Spotlight';
+arrayText[2] := 'ConvertOthersToLPO';
+arrayText[3] := '';
+Result := AlertQuestionDontShowAgain(GetPlugInString(3011),GetPlugInString(3012),1,GetPlugInString(3013),GetPlugInString(3014),'','',arrayText );
+ConvertOthers := Result=1;
+END;
+
+IF AlertQuestionDontShowAgain(GetPlugInString(9000), '', 0, GetPlugInString(9001), GetPlugInString(9002), '', '', arrayText) = 1 THEN
+BEGIN
+SetPref(9871, TRUE);
+Is3dView := GetProjection(ActLayer)<>6;
+RunTempTool(TempToolCallback, TRUE);
+SetPref(9871, FALSE);
+cen_pt.x := tempX;
+```
+```python
+import vs
+
+# Displays an alert dialog which alerts the user to a condition or situation
+# that requires the user's decision and input before preceding; such as an
+# impending.
+question = 'Example'
+advice = 'Example'
+defaultButton = 1
+OKOverrideText = 'Example text'
+CancelOverrideText = 'Example text'
+customButtonAText = 'Example text'
+customButtonBText = 'Example text'
+arrOptions = []
+
+resultN = vs.AlertQuestionDontShowAgain(question, advice, defaultButton, OKOverrideText, CancelOverrideText, customButtonAText, customButtonBText, arrOptions)
+vs.Message('AlertQuestionDontShowAgain returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [AlertInform](AlertInform.md) 

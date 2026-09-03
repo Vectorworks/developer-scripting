@@ -17,6 +17,21 @@ def vs.WSScript_GetPrmReal(paramIndex):
 |---|---|---|
 |paramIndex|INTEGER|Zero based index of the parameter passed to the RunScript worksheet function.|
 
+## Examples
+```pascal
+resultVal := WSScript_GetPrmReal(1);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+paramIndex = 1
+
+value = vs.WSScript_GetPrmReal(paramIndex)
+vs.Message('WSScript_GetPrmReal returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

@@ -24,6 +24,21 @@ def vs.GetCompMasterSnaps(object, componentIndex):
 |masterSnapOnLeft|BOOLEAN|Returns whether or not the component has a master snap on its left.|
 |masterSnapOnRight|BOOLEAN|Returns whether or not the component has a master snap on its right.|
 
+## Examples
+```pascal
+resultOK := GetCompMasterSnaps(object, 1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Gets the master snaps of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, masterSnapOnLeft, masterSnapOnRight = vs.GetCompMasterSnaps(object, componentIndex)
+vs.Message('GetCompMasterSnaps returned: ' + str((ok, masterSnapOnLeft, masterSnapOnRight)))
+```
+
 ## See Also
 VS Functions:
 [SetCompMasterSnaps](SetCompMasterSnaps.md)

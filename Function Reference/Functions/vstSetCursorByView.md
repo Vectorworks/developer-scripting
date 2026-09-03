@@ -12,6 +12,17 @@ def vs.vstSetCursorByView():
     return None
 ```
 
+## Examples
+```pascal
+vstSetCursorByView;
+```
+```python
+import vs
+
+# Set appropreate cursor according to the view.
+vs.vstSetCursorByView()
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

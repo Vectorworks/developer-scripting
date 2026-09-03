@@ -25,6 +25,19 @@ presentation of pieces (segments in the example) in a NURBS curve:
 
 ![NURBS_Pieces.png](files/NURBS_Pieces.png)
 
+```pascal
+resultN := NurbsCurveGetNumPieces(objectHd);
+```
+```python
+import vs
+
+# Returns the number of pieces that compose the referenced NURBS curve.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+count = vs.NurbsCurveGetNumPieces(objectHd)
+vs.Message('NurbsCurveGetNumPieces returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

@@ -28,6 +28,22 @@ BEGIN
 story:=GetStoryOfLayer(ActLayer);
 ```
 
+```pascal
+BEGIN
+	{ get current. }
+	storyH         := GetStoryOfLayer( layerH );
+```
+```python
+import vs
+
+# Returns the Story that the indicated Layer is associated with.
+layer = vs.ActLayer()  # handle to the active design layer
+
+objHandle = vs.GetStoryOfLayer(layer)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [GetLayerForStory](GetLayerForStory.md) 

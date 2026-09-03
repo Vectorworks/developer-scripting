@@ -25,6 +25,21 @@ def vs.GetDLComponentUsePenClassAttr(index):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := GetDLComponentUsePenClassAttr(1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Gets the useclass attributes flags of the left and right side pens of the
+# component at index in the Double Line Preferences.
+index = 1
+
+ok, leftPenUseClassAttr, rightPenUseClassAttr = vs.GetDLComponentUsePenClassAttr(index)
+vs.Message('GetDLComponentUsePenClassAttr returned: ' + str((ok, leftPenUseClassAttr, rightPenUseClassAttr)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentUsePenClassAttr](SetDLComponentUsePenClassAttr.md)

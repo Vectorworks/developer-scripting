@@ -26,6 +26,27 @@ def vs.SetLBItemMkrByClass(dialogID, componentID, itemIndex, subItemIndex, isByC
 |subItemIndex|INTEGER|the column index|
 |isByClass|BOOLEAN|if the marker is by class or not|
 
+## Examples
+```pascal
+resultOK := SetLBItemMkrByClass(1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Sets if the specified list browser item's marker is by class.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+isByClass = True
+
+ok = vs.SetLBItemMkrByClass(dialogID, componentID, itemIndex, subItemIndex, isByClass)
+if ok:
+    vs.Message('SetLBItemMkrByClass succeeded')
+else:
+    vs.Message('SetLBItemMkrByClass failed')
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

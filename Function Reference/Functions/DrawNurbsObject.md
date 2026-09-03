@@ -17,6 +17,19 @@ def vs.DrawNurbsObject(h):
 |---|---|---|
 |h|HANDLE|   |
 
+## Examples
+```pascal
+DrawNurbsObject(h);
+```
+```python
+import vs
+
+# Draws the NURBS object h on the screen.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.DrawNurbsObject(h)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

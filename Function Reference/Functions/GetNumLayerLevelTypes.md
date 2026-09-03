@@ -12,6 +12,18 @@ def vs.GetNumLayerLevelTypes():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := GetNumLayerLevelTypes;
+```
+```python
+import vs
+
+# Returns the number of layer level types in the file.
+count = vs.GetNumLayerLevelTypes()
+vs.Message('GetNumLayerLevelTypes returned: ' + str(count))
+```
+
 ## See Also
 VS Functions:
 [GetLayerLevelType](GetLayerLevelType.md) 

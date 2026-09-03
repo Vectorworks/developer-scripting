@@ -39,6 +39,24 @@ RUN(Test);
 ok = vs.IFC_DMSaveSettings('MyIFCMapping', '', TRUE)
 ```
 
+```pascal
+resultOK := IFC_DMSaveSettings('Example', 'Example', TRUE);
+```
+```python
+import vs
+
+# Saves current IFC Data Mapping.
+inStrParam = 'Example'
+inObjName = 'Example'
+bFileSettings = True
+
+ok = vs.IFC_DMSaveSettings(inStrParam, inObjName, bFileSettings)
+if ok:
+    vs.Message('IFC_DMSaveSettings succeeded')
+else:
+    vs.Message('IFC_DMSaveSettings failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

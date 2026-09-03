@@ -30,6 +30,24 @@ def vs.GetLBItemFillForeColor(dialogID, componentID, itemIndex, subItemIndex):
 |greenIndex|INTEGER|the green component (0 - 255)|
 |blueIndex|INTEGER|the blue component (0 - 255)|
 
+## Examples
+```pascal
+BEGIN
+	Worked := GetLBItemFillForeColor(dialog,kFrntMltColBrowser,DiaColorCountInc,2,Red8,Green8,Blue8);
+```
+```python
+import vs
+
+# Gets the specified list browser item's fill foreground color.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, redIndex, greenIndex, blueIndex = vs.GetLBItemFillForeColor(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemFillForeColor returned: ' + str((ok, redIndex, greenIndex, blueIndex)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

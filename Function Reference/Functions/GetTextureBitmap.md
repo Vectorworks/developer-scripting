@@ -20,6 +20,22 @@ def vs.GetTextureBitmap(shaderRecord):
 ## Remarks
 Returns the bitmap object attached to the shader record, NIL if none
 
+## Examples
+```pascal
+resultH := GetTextureBitmap(shaderRecord);
+```
+```python
+import vs
+
+# Function GetTextureBitmap returns the bitmap object attached to the
+# referenced texture.
+shaderRecord = vs.GetObject('MyRecord')  # handle to a record format
+
+objHandle = vs.GetTextureBitmap(shaderRecord)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

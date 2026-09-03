@@ -20,6 +20,29 @@ def vs.DT_AssociateWithObj(hDataTag, hObject):
 |hDataTag|HANDLE|   |
 |hObject|HANDLE|   |
 
+## Examples
+```pascal
+dx := Str2Num( GetRField( stakeHandle, 'Stake Object', 'ControlPoint01X' ) );
+dy := Str2Num( GetRField( stakeHandle, 'Stake Object', 'ControlPoint01Y' ) );
+tagHandle := CreateCustomObjectN( 'Data Tag',x + dx, y + dy, rotation, FALSE );
+valid := SetPluginStyle( tagHandle, strTagStyle );
+valid := DT_AssociateWithObj( tagHandle, stakeHandle );
+END;
+```
+```python
+import vs
+
+# Returns TRUE if associating is successful.
+hDataTag = vs.FSActLayer()  # handle to the first selected object on the active layer
+hObject = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.DT_AssociateWithObj(hDataTag, hObject)
+if ok:
+    vs.Message('DT_AssociateWithObj succeeded')
+else:
+    vs.Message('DT_AssociateWithObj failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

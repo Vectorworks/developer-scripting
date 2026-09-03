@@ -17,6 +17,20 @@ def vs.GetCurtainWallCutPl(wall):
 |---|---|---|
 |wall|HANDLE|The wall.|
 
+## Examples
+```pascal
+resultVal := GetCurtainWallCutPl(wall);
+```
+```python
+import vs
+
+# Gets the curtain wall cut plane of the wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+value = vs.GetCurtainWallCutPl(wall)
+vs.Message('GetCurtainWallCutPl returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetCurtainWallCutPl](SetCurtainWallCutPl.md)

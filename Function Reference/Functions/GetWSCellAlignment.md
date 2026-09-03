@@ -31,6 +31,21 @@ Left         = 1
 Center    = 2
 Right      = 3
 
+## Examples
+```pascal
+GetWSCellAlignment(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Returns the horizontal alignment setting of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSCellAlignment(worksheet, row, column)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

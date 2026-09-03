@@ -3,7 +3,6 @@
 ## Description
 Returns default class, insert  options, and break options for the specified symbol. 
 
-
 * Table - Symbol Insertion Options
 
 | Category | Description | Constant Value |
@@ -70,6 +69,21 @@ IF relPt.y > 0 THEN Message('left');
 END ELSE AlrtDialog('nil handle');
 END;
 RUN(Example);
+```
+
+## Examples
+```pascal
+GetSymbolOptionsN('Example', 1, 2, 'Wall');
+```
+```python
+import vs
+
+# Returns default class, insert options, and break options for the specified
+# symbol.
+name = 'Example'
+
+insertMode, breakMode, className = vs.GetSymbolOptionsN(name)
+vs.Message('GetSymbolOptionsN returned: ' + str((insertMode, breakMode, className)))
 ```
 
 ## Version

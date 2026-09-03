@@ -26,6 +26,23 @@ def vs.GetLBItemGradientOrImageRefNumber(dialogID, componentID, itemIndex, subIt
 |subItemIndex|INTEGER|the column index|
 |refNumber|LONGINT|the gradient or image's ref number|
 
+## Examples
+```pascal
+resultOK := GetLBItemGradientOrImageRefNumber(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Gets the specified list browser item's gradient or image.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, refNumber = vs.GetLBItemGradientOrImageRefNumber(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemGradientOrImageRefNumber returned: ' + str((ok, refNumber)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

@@ -29,6 +29,19 @@ def vs.GetTileBackgroundColor(tileHandle):
 GetTileBackgroundColor(tileHandle, backgroundColor);
 ```
 
+```pascal
+GetTileBackgroundColor(tileHandle, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the specified tile resource's background color.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+red, green, blue = vs.GetTileBackgroundColor(tileHandle)
+vs.Message('GetTileBackgroundColor returned: ' + str((red, green, blue)))
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

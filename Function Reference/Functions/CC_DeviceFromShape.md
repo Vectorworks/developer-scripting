@@ -17,6 +17,21 @@ def vs.CC_DeviceFromShape(hObj):
 |---|---|---|
 |hObj|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+	gPluginObjH := CC_DeviceFromShape(h);
+END;	{of MakeDevice}
+```
+```python
+import vs
+
+# Creates device from the given shape.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.CC_DeviceFromShape(hObj)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

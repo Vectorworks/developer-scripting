@@ -46,6 +46,51 @@ _list=["1","Line","Rectangle","Oval","Polygon","Arc","7","Freehand","3D Locus","
 vs.AlrtDialog('type no. :',_tObject,'\ntype name :',_list[_tObject-1]) # show type index and type name of selected object in an dialog
 ```
 
+```pascal
+BEGIN
+	resHand	:= GetObject(Index2Name(-patID));
+	resType	:= GetTypeN(resHand);
+	IF (resType = 108{kTileDefNode}) OR (resType = 119{kImageDefNode}) OR (resType = 120{kGradientDefNode}) THEN
+		SetFPat(objHand,1);
+END;
+
+BEGIN
+	SetTexSpaceKind(TextSpaceHand,MapType);
+	IF GetTypeN( H ) = 84 THEN
+		SetTexSpace2DRot(TextSpaceHand, Deg2Rad(90));
+END;
+
+BEGIN
+TempH1 := GetObject(tempStr);
+IF GetTypeN(TempH1) = 122 THEN
+	BEGIN
+	IF GetObjectVariableString(TempH1,kVPLocatorVar) <> '' THEN
+		SetRField(ActiveParmHand,ActiveRecName,kNNA_ItemName,GetObjectVariableString(TempH1,kVPLocatorVar));
+	SetRField(ActiveParmHand,ActiveRecName,kNNA_SheetName, GetLName(GetLayer(TempH1)));
+	END;
+```
+```python
+strRecordName = kStrRecordName
+strParentName = ''
+parentParametric = vs.GetParent(gObjHandle)
+if (parentParametric != None) and (vs.GetTypeN(parentParametric) == kPlugInObject):
+	parentRecord = vs.GetRecord(parentParametric, 1)
+	if (parentRecord != None) and (vs.GetTypeN(parentRecord) == kRecordNode):
+		strParentName = vs.GetName(parentRecord)
+
+if h != 0:
+	objType	= vs.GetTypeN( h )
+	if objType == 94:
+		vs.NameClass( className )
+	else:
+		objectTypeStr = vs.GetResourceString( 11004, objType )
+
+while ( objH != None ) and ( vs.GetTypeN( objH ) != kLayerHeaderType ) and ( vs.GetTypeN( objH ) != kNILType ):
+	containerHandle = objH
+	objH = vs.GetParent( objH );
+```
+See also in tutorials: [10. Iterate the Drawing and Report a Summary](ai%20examples/10_IterateAndReport.md), [20. Read a Polyline and Build Walls Along Its Path](ai%20examples/20_PolylineToWalls.md), [22. Selected Objects → Worksheet Rows](ai%20examples/22_WorksheetSelectedObjects.md), [25. Geometric Property Extraction Table](ai%20examples/25_WorksheetPolyGeometry.md)
+
 ## See Also
 VS Functions:
 [GetType](GetType.md)

@@ -32,6 +32,18 @@ SetDimText(dimHandle,'Length varies');
 
 ```
 
+```pascal
+end else if ((temp1_r > 0) & (smallDims = 'draw in red')) then BEGIN
+	GetPrimaryUnitInfo(unitStyle, displayPrec, dimPrec, format, angPrec, showUnitMark, dispFrac);
+	DimIt (win_pts[temp1_i], win_pts[temp1_i+1], hor_ver);
+	SetPenFore(lnewobj, 65535, 0, 0);
+	SetDimText(lnewobj, num2str(dimPrec, temp1_r));
+END;
+```
+```python
+vs.SetDimText(h, leaderTrailer)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

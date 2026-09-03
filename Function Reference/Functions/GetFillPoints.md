@@ -42,6 +42,19 @@ GetFillPoints(objectHandle);
 xOrigin, yOrigin, xIAxis, yIAxis, xJAxis, yJAxis = vs.GetFillPoints(vs.FSActLayer())
 ```
 
+```pascal
+GetFillPoints(objectHandle, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Gets start and axis end points of the fill.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+xOriginPoint, yOriginPoint, xIAxisEndPoint, yIAxisEndPoint, xJAxisEndPoint, yJAxisEndPoint = vs.GetFillPoints(objectHandle)
+vs.Message('GetFillPoints returned: ' + str((xOriginPoint, yOriginPoint, xIAxisEndPoint, yIAxisEndPoint, xJAxisEndPoint, yJAxisEndPoint)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

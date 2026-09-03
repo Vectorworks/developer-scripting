@@ -22,6 +22,35 @@ def vs.GetLBColumnSortState(dialogID, componentID, columnIndex):
 |componentID|LONGINT|id of the list browser control|
 |columnIndex|INTEGER|the column index|
 
+## Examples
+```pascal
+	BEGIN
+		SaveDialogPosition('ChooseSchedule', dlogID);
+	END;
+1, -5: BEGIN
+		sortState := GetLBColumnSortState(dlogID, 5, 0);
+		schedIndex := -1;
+		LB_GetSelChoice(dlogID, 5, 0, schedIndex, schedFile);
+
+BEGIN
+	isAscending := ( GetLBColumnSortState(AddEditLegend, kFieldsLB, kColNumber) < 0 );
+	gNumRows := GetNumLBItems(AddEditLegend, kFieldsLB);
+	FOR cnt := 0 to gNumRows-1 DO
+	BEGIN
+		IF isAscending THEN
+```
+```python
+import vs
+
+# Gets the column sort state.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+
+resultN = vs.GetLBColumnSortState(dialogID, componentID, columnIndex)
+vs.Message('GetLBColumnSortState returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

@@ -26,6 +26,25 @@ def vs.GetLBItemData(nDialogID, nComponentID, nItemIndex, nSubItemIndex):
 |nSubItemIndex|INTEGER|   |
 |nUserData|LONGINT|   |
 
+## Examples
+```pascal
+BEGIN
+	GetLBItemData(dialogID, itemID, row, col, choiceInt);
+	GetLBItemDataInt:=choiceInt;
+END;
+```
+```python
+import vs
+
+# Retrieves the user data associated with the list browser item.
+nDialogID = 1
+nComponentID = 2
+nItemIndex = 1
+nSubItemIndex = 1
+
+result = vs.GetLBItemData(nDialogID, nComponentID, nItemIndex, nSubItemIndex)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

@@ -35,6 +35,24 @@ SetPrefReal(68,144);
 
 ```
 
+```pascal
+BEGIN
+	SetPrefReal(152, 25.4);
+	GetSymLoc(gMyHand, Xpos, Ypos); {get shadow handle's position in case of a custom roof}
+	HMove( dpathHandle, -Xpos, -Ypos);
+	HRotate( dpathHandle, 0, 0, -objAngle );
+	SetPrefReal(152, valUPI);
+
+BEGIN
+	SetPrefReal( 500, DocZoomLevel );
+	SetVCenter( DocViewCenter.x, DocViewCenter.y );
+	Redraw;		{//// Fix for VB-178895 Camera Match Tune View: View not live updating while slider is moving. }
+END;
+```
+```python
+vs.SetPrefReal(1, value)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

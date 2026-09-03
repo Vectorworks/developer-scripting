@@ -17,6 +17,23 @@ def vs.vsoWidgetGetVisible(widgetID):
 |---|---|---|
 |widgetID|LONGINT|   |
 
+## Examples
+```pascal
+resultOK := vsoWidgetGetVisible(1);
+```
+```python
+import vs
+
+# ?.
+widgetID = 1
+
+ok = vs.vsoWidgetGetVisible(widgetID)
+if ok:
+    vs.Message('vsoWidgetGetVisible succeeded')
+else:
+    vs.Message('vsoWidgetGetVisible failed')
+```
+
 ## Version
 Availability: from All Versions
 

@@ -13,6 +13,18 @@ def vs.FlipVer():
     return None
 ```
 
+## Examples
+```pascal
+FlipVer;
+```
+```python
+import vs
+
+# Procedure FlipVer vertically mirrors selected objects about the center of
+# the object(s).
+vs.FlipVer()
+```
+
 ## Version
 Availability: from All Versions
 

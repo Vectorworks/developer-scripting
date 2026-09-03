@@ -17,6 +17,19 @@ def vs.CheckoutObj(c):
 |---|---|---|
 |c|CRITERIA|Search criteria|
 
+## Examples
+```pascal
+CheckoutObj(c);
+```
+```python
+import vs
+
+# Checkouts all objects which match the search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+vs.CheckoutObj(c)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

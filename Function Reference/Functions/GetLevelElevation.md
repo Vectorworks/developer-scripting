@@ -20,6 +20,21 @@ def vs.GetLevelElevation(storyHandle, levelType):
 |storyHandle|HANDLE|The handle of the Story containing the Story Level we would like to know the elevation of.|
 |levelType|STRING|The level type of the Story Level that we would like to know the elevation of.|
 
+## Examples
+```pascal
+resultVal := GetLevelElevation(storyHandle, 'Example');
+```
+```python
+import vs
+
+# Gets the elevation of a Story Level, relative to its containing Story.
+storyHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+levelType = 'Example'
+
+value = vs.GetLevelElevation(storyHandle, levelType)
+vs.Message('GetLevelElevation returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

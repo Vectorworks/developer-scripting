@@ -17,6 +17,34 @@ def vs.VRestore(name):
 |---|---|---|
 |name|STRING|Name of view to be displayed.|
 
+## Examples
+```pascal
+BEGIN
+	VRestore ('myTempView00000001');
+	VDelete ('myTempView00000001');
+END;
+
+{restore the doc view before the plugin envocation}
+VRestore('UpdateObjectsTempView');
+VDelete('UpdateObjectsTempView');
+
+		BEGIN
+		SetRField(objHand, kSeatingObjectName, 'RowSpacing', Num2Str(8, RowSpacing));
+		gRowSpacing := RowSpacing;
+		END;
+	VRestore ('__SeatingLayoutTempView');
+	VDelete ('__SeatingLayoutTempView');
+END;
+```
+```python
+import vs
+
+# , sheet name).
+name = 'Example'
+
+vs.VRestore(name)
+```
+
 ## Version
 Availability: from All Versions
 

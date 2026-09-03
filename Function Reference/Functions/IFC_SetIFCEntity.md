@@ -31,6 +31,24 @@ IFC_SetIFCEntity(hObject, ‘IfcFurnishingElement’);
 ok = vs.IFC_SetIFCEntity(hObject, ‘IfcFurnishingElement’)
 ```
 
+```pascal
+resultOK := IFC_SetIFCEntity(hObject, 'Example');
+```
+```python
+import vs
+
+# This function creates and attaches to hObject an IFC Record with the given
+# IFC entity.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrIfcName = 'Example'
+
+ok = vs.IFC_SetIFCEntity(hObject, inStrIfcName)
+if ok:
+    vs.Message('IFC_SetIFCEntity succeeded')
+else:
+    vs.Message('IFC_SetIFCEntity failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

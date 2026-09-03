@@ -20,6 +20,20 @@ def vs.GetDLComponentName(index):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultStr := GetDLComponentName(1);
+```
+```python
+import vs
+
+# Gets the name of the component at index in the Double Line Preferences.
+index = 1
+
+name = vs.GetDLComponentName(index)
+vs.Message('GetDLComponentName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentName](SetDLComponentName.md)

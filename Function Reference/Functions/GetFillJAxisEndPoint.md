@@ -34,6 +34,19 @@ GetFillJAxisEndPoint(objectHandle, xJAxis, yJAxis);
 xIAxis, yIAxis = vs.GetFillJAxisEndPoint(vs.FSActLayer())
 ```
 
+```pascal
+GetFillJAxisEndPoint(objectHandle, 1.0, 2.0);
+```
+```python
+import vs
+
+# Gets the J-axis end point of the fill.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+xJAxisEndPoint, yJAxisEndPoint = vs.GetFillJAxisEndPoint(objectHandle)
+vs.Message('GetFillJAxisEndPoint returned: ' + str((xJAxisEndPoint, yJAxisEndPoint)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

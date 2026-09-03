@@ -20,6 +20,20 @@ def vs.vstGetInitObject(message1):
 ## Examples
 le can be found at [[VS:Similar_Objects_Creation#Tool_Part]]
 
+```pascal
+resultH := vstGetInitObject(1);
+```
+```python
+import vs
+
+# Return HANDLE to the object that this tool should copy.
+message1 = 1
+
+objHandle = vs.vstGetInitObject(message1)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from All Versions
 

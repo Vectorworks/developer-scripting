@@ -23,6 +23,20 @@ def vs.GetVPClOvrdWallTxt(viewportHandle, className):
 |centerTexture|LONGINT|The material of the center|
 |rightTexture|LONGINT|The material of the right side|
 
+## Examples
+```pascal
+GetVPClOvrdWallTxt(viewportHandle, 'Wall', 1, 2, 3);
+```
+```python
+import vs
+
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+
+leftTexture, centerTexture, rightTexture = vs.GetVPClOvrdWallTxt(viewportHandle, className)
+vs.Message('GetVPClOvrdWallTxt returned: ' + str((leftTexture, centerTexture, rightTexture)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

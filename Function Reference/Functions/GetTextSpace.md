@@ -25,6 +25,32 @@ def vs.GetTextSpace(theText):
 |---|---|---|
 |theText|HANDLE|Handle to text object.|
 
+## Examples
+```pascal
+txtLeading_pt := GetTextLeading (H);
+txtSpace := GetTextSpace (H);
+txtSize := GetTextSize (H, 1);
+{
+writeln (' ### Issue Text ### txtLeading_pt = ',txtLeading_pt ,'    txtSpace = ',txtSpace,'    txtSize = ',txtSize );
+}
+
+		txtLeading_pt := GetTextLeading (gRevTextH);
+		txtSpace := GetTextSpace (gRevTextH);
+		txtSize := GetTextSize (gRevTextH, 1);
+{
+writeln (' *** Revision text *** txtLeading_pt = ',txtLeading_pt ,'    txtSpace = ',txtSpace,'    txtSize = ',txtSize );
+}
+```
+```python
+import vs
+
+# Procedure GetTextSpace returns the line spacing of the referenced text object.
+theText = 'Example text'
+
+resultN = vs.GetTextSpace(theText)
+vs.Message('GetTextSpace returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

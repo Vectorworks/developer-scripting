@@ -26,6 +26,37 @@ To get the display name use GetNameFromResourceList.
 ## Examples
 [AddHatchToResource](examples/AddHatchToResource.md)
 
+```pascal
+BEGIN
+FoundMarker := TRUE;
+actualMarker1Name := GetActualNameFromResourceList(ResourceListID,I);
+IF GetObject(TempStr) = NIL THEN
+	BEGIN
+	h := ImportResourceToCurrentFile(ResourceListID, I);
+	ImportedMarker1 := TRUE;
+
+BEGIN
+{Symbol Not Found}
+defaultListID := BuildResourceList(16, -kDefConSeatingLayoutSeats, '', defaultListCount);
+symbolName := GetActualNameFromResourceList(defaultListID, 1);
+IF GetObject(symbolName) = NIL THEN
+	BEGIN
+	symbolName := GetNameFromResourceList(defaultListID, 1);
+	h := ImportResourceToCurrentFile(defaultListID, 1);
+
+Marker1 := GetNameFromResourceList(ResourceListID,Marker1idx);
+marker1ActualName := GetActualNameFromResourceList(ResourceListID,Marker1idx);
+IF Matching THEN
+	BEGIN
+	Marker2 := Marker1;
+	marker2ActualName := marker1ActualName;
+```
+```python
+if strResName == strMarkerActualName:
+	bFoundMarker = True
+	strMarkerActualName = vs.GetActualNameFromResourceList( hResourceListID, index )
+```
+
 ## See Also
 VS Functions:
 [GetNameFromResourceList](GetNameFromResourceList.md)

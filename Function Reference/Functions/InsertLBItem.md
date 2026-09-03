@@ -27,6 +27,38 @@ def vs.InsertLBItem(dialogID, componentID, itemIndex, itemString):
 ## Examples
 [ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
+```pascal
+BEGIN
+	temp_i := InsertLBItem(IDLabelDialog,kDataBox,i-1,'');
+END;
+
+boolD := GetLBItemInfo(dlgId, kLBCtrl, nFloors-1, colId2, elevNameLast, i);
+boolD := GetLBItemInfo(dlgId, kLBCtrl, nFloors-1, colId3, flHeightNameLast, i);
+IF flName = '' THEN flName := GetPluginString(3012);{'Unspecified' , note - this must be different for other strings}
+		{Class}
+			rowID := InsertLBItem(dlgId, kLBCtrl, nFloors + 1, Num2Str(0, nFloors + 1));
+
+BEGIN
+	columnIndex := InsertLBColumnDataItem(dialogID,kHeliodonList,1, city[i], -1, -1, 0);
+	temp := InsertLBItem (dialogID, kHeliodonList, i - 1, city[i]);
+	status := SetLBItemUsingColumnDataItem (dialogID, kHeliodonList, i-1, 1, columnIndex);
+	column [1] := city[i];
+	column [2] := region[i];
+	GetVWRString(angleMark, 'Vectorworks/Strings/1010 Dimension Strings.vwstrings', '10');
+```
+```python
+import vs
+
+# Insert an item into the specified list browser control.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+itemString = 'Example'
+
+resultN = vs.InsertLBItem(dialogID, componentID, itemIndex, itemString)
+vs.Message('InsertLBItem returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

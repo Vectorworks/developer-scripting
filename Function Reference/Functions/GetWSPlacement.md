@@ -26,6 +26,20 @@ def vs.GetWSPlacement(worksheet):
 |bottom|INTEGER|X-coordinate of bottom right corner of worksheet window.|
 |right|INTEGER|Y-coordinate of bottom right corner of worksheet window.|
 
+## Examples
+```pascal
+GetWSPlacement(worksheet, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Returns the on-screen location of the referenced worksheets' window.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+top, left, bottom, right = vs.GetWSPlacement(worksheet)
+vs.Message('GetWSPlacement returned: ' + str((top, left, bottom, right)))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

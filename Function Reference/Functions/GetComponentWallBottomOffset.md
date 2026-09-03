@@ -22,6 +22,21 @@ def vs.GetComponentWallBottomOffset(obj, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |offsetFromWallBottom|REAL|Returns the offset from wall bottom of the component.|
 
+## Examples
+```pascal
+resultOK := GetComponentWallBottomOffset(obj, 1, 1.0);
+```
+```python
+import vs
+
+# Gets the offset from wall bottom of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, offsetFromWallBottom = vs.GetComponentWallBottomOffset(obj, componentIndex)
+vs.Message('GetComponentWallBottomOffset returned: ' + str((ok, offsetFromWallBottom)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentWallBottomOffset](SetComponentWallBottomOffset.md)

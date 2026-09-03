@@ -12,6 +12,18 @@ def vs.GetNumStories():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := GetNumStories;
+```
+```python
+import vs
+
+# Returns the number of stories in the file.
+count = vs.GetNumStories()
+vs.Message('GetNumStories returned: ' + str(count))
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

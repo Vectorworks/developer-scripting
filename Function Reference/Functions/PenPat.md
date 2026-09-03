@@ -36,6 +36,13 @@ PenPat(-3);
 
 ```
 
+```pascal
+PenPat(1);
+```
+```python
+vs.PenPat(1)
+```
+
 ## See Also
 [PenPatN](PenPatN.md), [FPenPatN](FPenPatN.md) from Vectorworks 2013
 

@@ -23,6 +23,22 @@ def vs.GetLBHeaderTextWidth(className, allowForSortIcon):
 ## Remarks
 *\_c\_* (2021.01.19): From [[User:Tui| Tui]], this routine crashes VW 2021 on Window, not on Mac (tested VW 2021 SP2)
 
+## Examples
+```pascal
+resultN := GetLBHeaderTextWidth('Wall', TRUE);
+```
+```python
+import vs
+
+# Produces the width in pixels that will show the given string without
+# truncation in a listbrowser column header.
+className = 'None'
+allowForSortIcon = True
+
+resultN = vs.GetLBHeaderTextWidth(className, allowForSortIcon)
+vs.Message('GetLBHeaderTextWidth returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 14.0
 

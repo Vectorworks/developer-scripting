@@ -20,6 +20,21 @@ def vs.DeleteCDATA(XMLHandle, elementPath):
 |XMLHandle|LONGINT|   |
 |elementPath|STRING|   |
 
+## Examples
+```pascal
+resultN := DeleteCDATA(1, 'file.txt');
+```
+```python
+import vs
+
+# Deletes the CDATA section of the specified element.
+XMLHandle = 1
+elementPath = 'C:/Temp'
+
+resultN = vs.DeleteCDATA(XMLHandle, elementPath)
+vs.Message('DeleteCDATA returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

@@ -48,6 +48,23 @@ RUN(ImportLibrary);
 ok = vs.IFC_ImportLibrary( "D:\Files\IFCLibrary", True );
 ```
 
+```pascal
+resultOK := IFC_ImportLibrary('file.txt', TRUE);
+```
+```python
+import vs
+
+# Imports IFC Library of objects.
+strFilePath = 'C:/Temp'
+bKeepHierarchy = True
+
+ok = vs.IFC_ImportLibrary(strFilePath, bKeepHierarchy)
+if ok:
+    vs.Message('IFC_ImportLibrary succeeded')
+else:
+    vs.Message('IFC_ImportLibrary failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

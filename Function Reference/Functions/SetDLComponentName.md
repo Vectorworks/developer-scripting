@@ -23,6 +23,24 @@ def vs.SetDLComponentName(index, componentName):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetDLComponentName(1, 'Example');
+```
+```python
+import vs
+
+# Sets the name of the component at index in the Double Line Preferences.
+index = 1
+componentName = 'Example'
+
+ok = vs.SetDLComponentName(index, componentName)
+if ok:
+    vs.Message('SetDLComponentName succeeded')
+else:
+    vs.Message('SetDLComponentName failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentName](GetDLComponentName.md)

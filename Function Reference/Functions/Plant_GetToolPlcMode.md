@@ -12,6 +12,18 @@ def vs.Plant_GetToolPlcMode():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := Plant_GetToolPlcMode;
+```
+```python
+import vs
+
+# Gets the current placement mode associated with the plant tool.
+resultN = vs.Plant_GetToolPlcMode()
+vs.Message('Plant_GetToolPlcMode returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

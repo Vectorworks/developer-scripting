@@ -29,6 +29,24 @@ def vs.Mirror(h, dup, p1, p2):
 ## Remarks
 (*\_c\_*, 2019.11.09) This doesn't support Groups and is unpredictable on 3D objects
 
+## Examples
+```pascal
+resultH := Mirror(h, TRUE, 1, 2);
+```
+```python
+import vs
+
+# Reflect an object across an axis.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+dup = True
+p1 = (0, 0)
+p2 = (2, 2)
+
+objHandle = vs.Mirror(h, dup, p1, p2)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

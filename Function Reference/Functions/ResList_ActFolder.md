@@ -20,6 +20,21 @@ def vs.ResList_ActFolder(uniqueID, folder):
 |uniqueID|STRING|   |
 |folder|STRING|   |
 
+## Examples
+```pascal
+ResList_ActFolder('Example', 'Example');
+```
+```python
+import vs
+
+# Set a filter to show only symbols form a particular symbol folder in the
+# active file.
+uniqueID = 'Example'
+folder = 'C:/Temp'
+
+vs.ResList_ActFolder(uniqueID, folder)
+```
+
 ## Version
 Availability: from Vectorworks 2019.3
 

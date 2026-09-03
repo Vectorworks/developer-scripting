@@ -44,6 +44,24 @@ END;
 
 ```
 
+```pascal
+	SetBooleanItem(dialog1, 10,gDrawProposed);
+	END;
+checkBox12 := gDrawStation;
+SetBooleanItem(dialog1, 12,gDrawStation);	{Draw Selected Station Profile}
+SetColorButton(dialog1, 7,GridColor.red,GridColor.green,GridColor.blue);
+SetColorButton(dialog1, 9,ExistingColor.red,ExistingColor.green,ExistingColor.blue);
+SetColorButton(dialog1,11,ProposedColor.red,ProposedColor.green,ProposedColor.blue);
+SetColorButton(dialog1,13,StakeColor.red,StakeColor.green,StakeColor.blue);
+
+RGBToColorIndex(r, g, b, idx);
+ColorIndexToRGB(idx, r, g, b);
+SetColorButton(dlogID,itemID,r,g,b);
+```
+```python
+vs.SetColorButton(dialogID, itemID, red, green, blue)
+```
+
 ## See Also
 VS Functions:
 [GetColorButton](GetColorButton.md)

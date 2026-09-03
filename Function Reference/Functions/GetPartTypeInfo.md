@@ -24,6 +24,20 @@ def vs.GetPartTypeInfo(objectHandle):
 |dataID|LONGINT|The numeric value assigned to this part instance|
 |uniqueInstanceName|STRING|The unique name assigned to this part instance.|
 
+## Examples
+```pascal
+resultOK := GetPartTypeInfo(objectHandle, 'Example', 1, 'Example');
+```
+```python
+import vs
+
+# Get all part information for the specified sub-object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, partTypeName, dataID, uniqueInstanceName = vs.GetPartTypeInfo(objectHandle)
+vs.Message('GetPartTypeInfo returned: ' + str((ok, partTypeName, dataID, uniqueInstanceName)))
+```
+
 ## See Also
 VS Functions:
 [TagSubObjectAsPart](TagSubObjectAsPart.md) 

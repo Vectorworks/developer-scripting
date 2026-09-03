@@ -28,6 +28,21 @@ def vs.GetWSImgType(worksheet, row, column):
 Thumbnail image type     = 0,<BR>
 2D Attributes image type = 1.
 
+## Examples
+```pascal
+GetWSImgType(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the specified worksheet cell's image type.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSImgType(worksheet, row, column)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

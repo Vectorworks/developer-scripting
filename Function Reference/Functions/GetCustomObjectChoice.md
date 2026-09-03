@@ -39,6 +39,37 @@ theChoice := GetCustomObjectChoice(objectName, 'PDINNER_MENU', 1);
 theChoice = vs.GetCustomObjectChoice(objectName, 'PDINNER_MENU', 1)
 ```
 
+```pascal
+BEGIN
+	formatH := GetObject (pluginName);
+	IF pMethod = GetCustomObjectChoice (pluginName, 'pMethod', 2) THEN method := 2
+	ELSE method := 1;
+
+BEGIN
+	gSize := GetCustomObjectChoice( gPluginName, fieldName, NumCustomObjectChoices( gPluginName, fieldName ) );
+	SetRField( formatHand, gPluginName, fieldName, gSize );
+END;
+
+		gBubbleDisplay_idx := 1;
+		gNumDisplay_idx := 2;
+		END;
+	END; {Case}
+SetRfield(parmHand,parmName,'fConfig',GetCustomObjectChoice(parmName,'fConfig',gBubbleDisplay_idx));
+SetRfield(parmHand,parmName,'Num Config',GetCustomObjectChoice(parmName,'Num Config',gNumDisplay_idx));
+```
+```python
+import vs
+
+# Function GetCustomObjectChoice returns a choice string of the specified
+# plug-in object popup menu or radio group parameter.
+objectName = 'Example'
+parameterName = 'Example'
+choiceIndex = 1
+
+text = vs.GetCustomObjectChoice(objectName, parameterName, choiceIndex)
+vs.Message('GetCustomObjectChoice returned: ' + str(text))
+```
+
 ## See Also
 VS Functions:
 [NumCustomObjectChoices](NumCustomObjectChoices.md)

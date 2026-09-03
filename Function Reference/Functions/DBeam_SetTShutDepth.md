@@ -14,6 +14,18 @@ def vs.DBeam_SetTShutDepth(depth):
 |---|---|---|
 |depth|INTEGER|   |
 
+## Examples
+```pascal
+DBeam_SetTShutDepth(1);
+```
+```python
+import vs
+
+depth = 1
+
+vs.DBeam_SetTShutDepth(depth)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

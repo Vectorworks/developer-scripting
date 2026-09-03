@@ -29,6 +29,25 @@ def vs.SetObjWallBreakMode(objH, wallH, breakMode):
 |wallH|HANDLE|   |
 |breakMode|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := SetObjWallBreakMode(objH, wallH, 1);
+```
+```python
+import vs
+
+# Set the break mode for an object in a wall.
+objH = vs.FSActLayer()  # handle to the first selected object on the active layer
+wallH = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+breakMode = 0
+
+ok = vs.SetObjWallBreakMode(objH, wallH, breakMode)
+if ok:
+    vs.Message('SetObjWallBreakMode succeeded')
+else:
+    vs.Message('SetObjWallBreakMode failed')
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

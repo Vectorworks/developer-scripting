@@ -21,6 +21,33 @@ def vs.SelectEditText(dialogID, componentID):
 |dialogID|LONGINT|the dialog identifier given by CreateLayout or CreateResizableLayout|
 |componentID|LONGINT|The identifier of the component that is to be activated and selected.|
 
+## Examples
+```pascal
+SetupDialogC: BEGIN
+	SetItemText(dialogID, 4, Num2StrF (0));
+	SetItemText(dialogID, 6, Num2StrF (0));
+	SetBooleanItem(dialogID, 7, FALSE);
+	SelectEditText(dialogID, 4);
+END;
+
+	SelectEditText(dialogID, method + 5);
+END;	{of SetUpDialogC}
+
+BEGIN
+	EnableDis;
+	SelectEditText(selectSymbol, kSyms);
+END;
+```
+```python
+import vs
+
+# Activates the given text component and selects its text.
+dialogID = 1
+componentID = 2
+
+vs.SelectEditText(dialogID, componentID)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

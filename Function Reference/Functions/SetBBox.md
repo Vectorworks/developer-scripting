@@ -42,6 +42,16 @@ ResetObject(ObjHandle);
 
 ```
 
+```pascal
+3, 4, 13, 14, 22: BEGIN	{ Rectangle, Oval, rrect, PICT, image NOTE: rrect corners are not scaled}
+	getbbox(hTemp, x1, y1, x2, y2);
+	setbbox(hTemp, x1*factor, y1*factor, x2*factor, y2*factor);
+	END;
+```
+```python
+vs.SetBBox(h, p1, p2)
+```
+
 ## Version
 Availability: from All Versions
 

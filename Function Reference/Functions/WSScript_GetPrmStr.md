@@ -17,6 +17,21 @@ def vs.WSScript_GetPrmStr(paramIndex):
 |---|---|---|
 |paramIndex|INTEGER|Zero based index of the parameter passed to the RunScript worksheet function.|
 
+## Examples
+```pascal
+resultStr := WSScript_GetPrmStr(1);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+paramIndex = 1
+
+text = vs.WSScript_GetPrmStr(paramIndex)
+vs.Message('WSScript_GetPrmStr returned: ' + str(text))
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

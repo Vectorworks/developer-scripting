@@ -17,6 +17,24 @@ def vs.GtExWllClsrFrmStBStl(hObject):
 |---|---|---|
 |hObject|HANDLE|The symbol definition, plug-in object style, or plug-in object.|
 
+## Examples
+```pascal
+resultOK := GtExWllClsrFrmStBStl(hObject);
+```
+```python
+import vs
+
+# Gets whether the exclude wall closure from settings of a symbol definition,
+# plug-in object style, or plug-in object are by style.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GtExWllClsrFrmStBStl(hObject)
+if ok:
+    vs.Message('GtExWllClsrFrmStBStl succeeded')
+else:
+    vs.Message('GtExWllClsrFrmStBStl failed')
+```
+
 ## See Also
 VS Functions:
 [StExWllClsrFrmStBStl](StExWllClsrFrmStBStl.md)

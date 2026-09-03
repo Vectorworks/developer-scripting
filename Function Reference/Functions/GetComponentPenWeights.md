@@ -24,6 +24,21 @@ def vs.GetComponentPenWeights(obj, componentIndex):
 |leftPenWeight|INTEGER|Returns the pen weight of the component's left line.|
 |rightPenWeight|INTEGER|Returns the pen weight of the component's right line.|
 
+## Examples
+```pascal
+resultOK := GetComponentPenWeights(obj, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the pen weights of the left and right sides of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, leftPenWeight, rightPenWeight = vs.GetComponentPenWeights(obj, componentIndex)
+vs.Message('GetComponentPenWeights returned: ' + str((ok, leftPenWeight, rightPenWeight)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentPenWeights](SetComponentPenWeights.md)

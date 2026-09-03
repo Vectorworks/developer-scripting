@@ -20,6 +20,20 @@ def vs.SetHeight(h, value):
 |h|HANDLE|Handle to object.|
 |value|REAL|The new height of the object.|
 
+## Examples
+```pascal
+SetHeight(h, 1.0);
+```
+```python
+import vs
+
+# Set height of the passed object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+value = 1.0
+
+vs.SetHeight(h, value)
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

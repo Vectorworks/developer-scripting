@@ -14,6 +14,16 @@ def vs.vstGetModeHelpBase():
 |---|---|---|
 |outTextRsrcIDBase|INTEGER|Output parameter.|
 
+## Examples
+```pascal
+vstGetModeHelpBase(1);
+```
+```python
+import vs
+
+result = vs.vstGetModeHelpBase()
+```
+
 ## Version
 Availability: from All Versions
 

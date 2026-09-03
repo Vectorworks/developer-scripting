@@ -52,6 +52,34 @@ END;
 
 ```
 
+```pascal
+	END;
+1:	BEGIN { user selected OK button }
+	if (not GetEditInteger(dlogID,8,numRows)) | (numRows < 1) then InvalidValue(dlogID, 8, item, '') ELSE
+	if (not GetEditInteger(dlogID,9,numCols)) | (numCols < 1) then InvalidValue(dlogID, 9, item, '') ELSE
+	IF (NOT GetEditReal(dlogID,10,3,gridFreq)) | (NOT (gridFreq > 0)) THEN InvalidValue(dlogID, 10, item, '');
+	finished := (item = 1);
+	END;
+
+GetSelectedChoiceInfo(IDLabelDialog, kLabelShape, 0, DWBubbleIndex , DWBubble);
+LocalBubbleToUni;
+boo := GetEditReal(IDLabelDialog,kBubbleSize,3,DWBubbleSize);
+GetSelectedChoiceInfo(IDLabelDialog, kLabelClass, 0, I, DWClass);
+GetLineTypeAttriData(IDLabelDialog,kIDLeaderLS,DWLineStyle,DWLineWeight);
+GetLineTypeAttriData(IDLabelDialog,kBubbleLS,BubbleLS,BubbleLW);
+            GetMarkerValue(IDLabelDialog,kLeaderStyle, DWMarkerStyle, MarkerAngle, MarkerSize, MarkerWidth, MarkerBasis, MarkerThickness );
+
+BEGIN
+	boolD := GetEditReal(dlgId, kHeightEdit, 3, dHeightTotal);
+	IF (dHeightTotal > pFloorThk * nFloors) AND (bAllowFloor = FALSE) THEN
+	BEGIN
+		FOR i:=1 TO nFloors DO
+		BEGIN
+```
+```python
+result = vs.GetEditReal(dialogID, itemID, editRealType)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

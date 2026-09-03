@@ -23,6 +23,19 @@ PerimValue := PerimN(C='Fence');
 {returns the total perimeter of all objects in the class 'Fence'}
 ```
 
+```pascal
+resultVal := PerimN(c);
+```
+```python
+import vs
+
+# Returns the perimeter of an object.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.PerimN(c)
+vs.Message('PerimN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

@@ -29,6 +29,19 @@ def vs.DisableModules(modules):
 |---|---|---|
 |modules|LONGINT|This modules parameter is a LONGINT value which contains a bit for each possible product module.  If a module is enabled, then the corresponding bit is set to 1.  If that module is disabled, then its bit is 0.  The table below contains selectors that can be used to interpret the results of this function.  To determine if a module is enabled, do a bitwise &quot;and&quot; operation with the selector and the value returned by this function.  See the usage example below.|
 
+## Examples
+```pascal
+DisableModules(1);
+```
+```python
+import vs
+
+# Disables modules.
+modules = 1
+
+vs.DisableModules(modules)
+```
+
 ## See Also
 VS Functions:
 [GetEnabledModules](GetEnabledModules.md)

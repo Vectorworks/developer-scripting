@@ -22,6 +22,23 @@ def vs.CreateTaperedExtrd2(profileH, angle, height):
 |angle|REAL|Taper angle of extrude (in degrees).|
 |height|REAL|Height of extrude.|
 
+## Examples
+```pascal
+resultH := CreateTaperedExtrd2(profileH, 1.0, 2.0);
+```
+```python
+import vs
+
+# Creates a new tapered extrude object in the document.
+profileH = vs.FSActLayer()  # handle to the first selected object on the active layer
+angle = 45.0
+height = 2.0
+
+objHandle = vs.CreateTaperedExtrd2(profileH, angle, height)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

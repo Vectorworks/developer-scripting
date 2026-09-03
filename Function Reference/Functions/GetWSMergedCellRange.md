@@ -30,6 +30,22 @@ def vs.GetWSMergedCellRange(worksheet, row, column):
 |bottomRow|INTEGER|Bottom row index of merged cell range.|
 |rightColumn|INTEGER|Right column index of merged cell range.|
 
+## Examples
+```pascal
+resultOK := GetWSMergedCellRange(worksheet, 1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Gets the range of cells covered by the specified cell.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+ok, topRow, leftColumn, bottomRow, rightColumn = vs.GetWSMergedCellRange(worksheet, row, column)
+vs.Message('GetWSMergedCellRange returned: ' + str((ok, topRow, leftColumn, bottomRow, rightColumn)))
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

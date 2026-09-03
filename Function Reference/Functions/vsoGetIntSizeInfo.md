@@ -30,6 +30,25 @@ def vs.vsoGetIntSizeInfo(message, isz_index, displayName, currentValue, defaultV
 |readOnly|BOOLEAN|   |
 |isSupported|BOOLEAN|   |
 
+## Examples
+```pascal
+vsoGetIntSizeInfo(1, 2, 'Example', 1.0, 2.0, TRUE, FALSE);
+```
+```python
+import vs
+
+# Gets the parameter information needed for interactive sizeing.
+message = 'Hello Vectorworks'
+isz_index = 1
+displayName = 'Example'
+currentValue = 1.0
+defaultValue = 2.0
+readOnly = True
+isSupported = True
+
+vs.vsoGetIntSizeInfo(message, isz_index, displayName, currentValue, defaultValue, readOnly, isSupported)
+```
+
 ## Version
 Availability: from Vectorworks 2023.3
 

@@ -48,6 +48,36 @@ def AddHoleExample():
 AddHoleExample()
 ```
 
+```pascal
+	IF AddHole (objH1, objH2) THEN
+		{DelObject(objH2);}
+		SetFPat (objH2, 0)
+END
+
+IF (gettype(h) = 21) THEN BEGIN
+	temp_b := getnumholes(h,holenum);
+	IF (holenum > 0) THEN FOR i := 1 TO holenum DO BEGIN
+		temp_b := gethole(h,i,hole_OF_interest);
+		temp_b := addhole(new_out_poly_h,hole_OF_interest);
+		END;
+
+BEGIN
+	RRect (-(a/2 - t), (b/2 - t), (a/2 - t), -(b/2 - t), 2*ri, 2*ri);
+	h2 := LNewObj;
+	IF AddHole(h1, h2) THEN DelObj (h2);
+END;
+```
+```python
+import vs
+
+# AddHole uses a holeTemplate to create a hole inside objectToGetHole.
+objectToGetHole = vs.FSActLayer()  # handle to the first selected object on the active layer
+holeTemplate = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok, objectToGetHole = vs.AddHole(objectToGetHole, holeTemplate)
+vs.Message('AddHole returned: ' + str((ok, objectToGetHole)))
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

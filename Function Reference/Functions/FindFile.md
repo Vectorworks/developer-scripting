@@ -25,6 +25,22 @@ def vs.FindFile(whichPath, relFilePath):
 ## Remarks
 --~~~~June 4, 2022. Pat Stanford. OutPath MUST be a DynArray of Char. A String crashes VW to the desktop. This was also documented by Paolo in VW2020 in February 2020 on the VW Forum.
 
+## Examples
+```pascal
+resultOK := FindFile(1, relFilePath, outPath);
+```
+```python
+import vs
+
+# Find a file by searching the folder selector (whichPath) plus the relative
+# file path.
+whichPath = 'C:/Temp'
+relFilePath = 'C:/Temp'
+
+ok, outPath = vs.FindFile(whichPath, relFilePath)
+vs.Message('FindFile returned: ' + str((ok, outPath)))
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

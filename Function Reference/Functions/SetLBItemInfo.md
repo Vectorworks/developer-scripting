@@ -61,7 +61,6 @@ temp_i : INTEGER;
 temp_s : STRING;
 temp_b : BOOLEAN;
 
-
 { ************************************************* }
 { builds up the layout }
 FUNCTION Dialog_Layout: INTEGER;
@@ -80,14 +79,12 @@ SetBelowItem(dialogID, cPu_LoadRowsMac, cPu_LoadRowsPC, 0, 0);
 Dialog_Layout := dialogID;
 END;
 
-
 { ************************************************* }
 { disalog driver }
 PROCEDURE Dialog_Events(VAR item:LONGINT; data:LONGINT);
 VAR
 result : BOOLEAN;
 i, n : INTEGER;
-
 
 { **************************** set up a 2 columns LB }
 PROCEDURE Make2col_LB(listBrowser: LONGINT; colTitle0, colTitle1: STRING; colWidth: INTEGER);
@@ -200,6 +197,31 @@ RUN(Test);
 #### Python ####
 ```python
 
+```
+
+```pascal
+	boolD := SetLBItemInfo(dlgId, kLBCtrl, nFloors, colId1,  clNameLast, -1);{}
+	boolD := SetLBItemTextJust(dlgId, kLBCtrl, nFloors, colId1 , 1);{1-left, 2-right, 3-center}
+	boolD := SetLBItemInteracType(dlgId, kLBCtrl,nFloors, colId1, 4);{kListBrowserItemInteractionEditClass}
+{Elevation}
+	boolD := SetLBItemInfo(dlgId, kLBCtrl, nFloors, colId2, num2strF( Str2Num( elevNameLast ) + Str2Num( flHeightNameLast ) ), 0);
+
+BEGIN
+	columnIndex := InsertLBColumnDataItem(dialogID,kHeliodonList, j, column[j], -1, -1, 0);
+	status := SetLBItemInfo(dialogID, kHeliodonList, i - 1, j, column[j], -1);
+	status := SetLBItemUsingColumnDataItem (dialogID,kHeliodonList, i - 1, j, columnIndex);
+END;
+
+		str1 		:= gRefClassNames [i];
+		str2 		:= gActClassNames [i];
+		iLib 		:= GetNumLBItems(dialogID, itemID);
+		tempResInt 	:= InsertLBItem(dialogID, itemID, iLib, str1);
+		tempResBool	:= SetLBItemInfo(dialogID, itemID, iLib, 1, str2, 0);
+	END;	{of i := 1 TO gNumClasses DO}
+END;	{of gSetUpChoiceI = 1}
+```
+```python
+result = vs.SetLBItemInfo(dialogID, componentID, 1, 2, 'Example', 3)
 ```
 
 ## Version

@@ -29,7 +29,6 @@ def vs.GetPickObjectInfo(p):
 ## Remarks
 same as PickObject except it return the sub-selected object, if any, and a message.  See Rich D. for more details.
 
-
 Only picks objects on the active class & layer, or on other classes/layers if the class/layer options are set to Show/Snap/Modify (respectively). Essentially, it will only pick an object that you could have picked manually with the Selection Tool. Same goes for the PickObject function.
 
 The parameter "message" should be changed to something else, since there is a built-in call by this name.
@@ -70,6 +69,39 @@ def PickPointCallback( pt ):
 	
 	
 vs.GetPt( PickPointCallback )
+```
+
+```pascal
+	GetContainerInfo(gParmH,gContainerH,container_tp,LS);
+	SetParameterVisibility(gParmH,'LineLength',FALSE);
+	GetSymLoc(gParmH,pt1.x,pt1.y);
+	IF (container_tp = 11) {I'm in a group}
+		THEN temp_b := GetPickObjectInfo(pt1.x,pt1.y,gGroupH,gLine,temp_i)
+		ELSE BEGIN
+			zoomF := GetZoom;
+			SetZoom (100000);
+			gLine := PickObject(pt1.x,pt1.y);
+			SetZoom (zoomF);
+{
+
+BEGIN {Test wall source object for subselection}
+	IF GetPickObjectInfo(x2, y2, handletemp2, handletemp3, pickData) THEN
+	BEGIN
+		typedata := gettype(handletemp2);
+		IF ((typeData = 68) ) THEN
+		BEGIN
+			typedata := gettype(handletemp3);
+			IF ((typeData = 15) | (typeData = 86)) THEN
+```
+```python
+import vs
+
+# Function GetPickObjectInfo returns a handle to an object found at a user
+# selected point.
+p = (0, 0)
+
+ok, h, subH, message = vs.GetPickObjectInfo(p)
+vs.Message('GetPickObjectInfo returned: ' + str((ok, h, subH, message)))
 ```
 
 ## See Also

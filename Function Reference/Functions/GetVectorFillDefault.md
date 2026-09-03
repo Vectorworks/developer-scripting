@@ -20,6 +20,20 @@ def vs.GetVectorFillDefault():
 ## Remarks
 Returns true if the the active document contains a default hatch.  vectorFillName contains a string with the name of the default hatch.
 
+## Examples
+```pascal
+resultOK := GetVectorFillDefault('Example');
+```
+```python
+import vs
+
+# Function GetVectorFillDefault returns TRUE if the the active document
+# contains a default vector fill, and returns the name of the vector fill
+# pattern.
+ok, vectorFillName = vs.GetVectorFillDefault()
+vs.Message('GetVectorFillDefault returned: ' + str((ok, vectorFillName)))
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

@@ -80,6 +80,22 @@ def vs.IFC_DMGetFieldType(inStrObjName, inStrEntryName, inStrFieldName):
 | LIST_LIST_ENUMERATION  | 46            |             |
 | LIST_LIST_SELECT       | 47            |             |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetFieldType('Example', 'Example', 'MyRecord', 1);
+```
+```python
+import vs
+
+# Gets indicated field type from current IFC Data Mapping.
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+inStrFieldName = 'MyField'
+
+ok, outType = vs.IFC_DMGetFieldType(inStrObjName, inStrEntryName, inStrFieldName)
+vs.Message('IFC_DMGetFieldType returned: ' + str((ok, outType)))
+```
+
 ## Version
 Available from: Vectorworks 2017
 

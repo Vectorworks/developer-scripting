@@ -22,6 +22,22 @@ def vs.CreateSheetLayerPullDownMenu(nDialogID, nComponentID, nWidthInChars):
 |nComponentID|LONGINT|   |
 |nWidthInChars|INTEGER|   |
 
+## Examples
+```pascal
+CreateSheetLayerPullDownMenu(1, 2, 3);
+```
+```python
+import vs
+
+# Creates a Layout Manager sheet layer pull down menu control.
+nDialogID = 1
+nComponentID = 2
+nWidthInChars = 3
+
+vs.CreateSheetLayerPullDownMenu(nDialogID, nComponentID, nWidthInChars)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

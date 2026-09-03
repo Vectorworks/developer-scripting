@@ -30,6 +30,33 @@ def vs.GetEntityMatrix(objectHandle):
 |rotationYAngle|REAL|The rotation of the plane about the Y-axis in degrees.|
 |rotationZAngle|REAL|The rotation of the plane about the Z-axis in degrees.|
 
+## Examples
+```pascal
+BEGIN
+		bsb := GetEntityMatrix(parmHand, matX1, matY1, matZ1, matAngleX, matAngleY, matAngleZ);
+
+{Fix for Slab objects in 3D non-horizontal plane}
+isOK := GetEntityMatrix(pathH, matX1, matY1, matZ1, matAngleX, matAngleY, matAngleZ);
+IF ((matAngleX <> 0) OR (matAngleY <> 0)) THEN BEGIN
+	SetObjectVariableInt(gPluginObjH, 803, 1);{803 == ovCustomObjectSymType, 1 == k3DSym}
+	SetPlanarRef(gPluginObjH, planarRef);
+	isOK := SetEntityMatrix(gPluginObjH, matX1, matY1, matZ1, matAngleX, matAngleY, matAngleZ);
+
+BEGIN
+	result := GetEntityMatrix(objectHand, matX1,matY1,matZ1,matAngleX,matAngleY,matAngleZ);
+	layerH := GetLayer( objectHand );
+	GetLayerElevation( layerH, layerElevation, layerThickness );
+```
+```python
+import vs
+
+# Gets the matrix of the plane for a planar object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, offset, rotationXAngle, rotationYAngle, rotationZAngle = vs.GetEntityMatrix(objectHandle)
+vs.Message('GetEntityMatrix returned: ' + str((ok, offset, rotationXAngle, rotationYAngle, rotationZAngle)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

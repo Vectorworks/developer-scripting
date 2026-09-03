@@ -17,6 +17,23 @@ def vs.GetWSImgShowDBHeader(hWorksheetImage):
 |---|---|---|
 |hWorksheetImage|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := GetWSImgShowDBHeader(hWorksheetImage);
+```
+```python
+import vs
+
+# Check whether worksheet image is set to show database headers.
+hWorksheetImage = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+ok = vs.GetWSImgShowDBHeader(hWorksheetImage)
+if ok:
+    vs.Message('GetWSImgShowDBHeader succeeded')
+else:
+    vs.Message('GetWSImgShowDBHeader failed')
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

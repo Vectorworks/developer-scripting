@@ -24,6 +24,35 @@ def vs.vstGetModeValue(inModeGroup):
 |inModeGroup|LONGINT|   |
 |outValue|LONGINT|Output parameter.|
 
+## Examples
+```pascal
+CASE modeGroup OF
+	{insertion mode}
+	1: BEGIN
+		vstGetModeValue (1, modeValue_1);
+		SetHelpMessage (modeValue_1);
+		vstSetDataLong (kModeDataID_1, modeValue_1, result);
+	END;
+
+BEGIN
+	vstGetModeValue( 1, modeValue );
+	SetHelpMessage( modeValue );
+	vstSetDataLong( kModeDataID, modeValue, result );
+END;
+
+kToolModeEventID: BEGIN
+	vstGetModeValue (1, modeValue_1);
+	vstGetModeValue (2, modeValue_2);
+```
+```python
+import vs
+
+# Returns the value of the specified mode.
+inModeGroup = 0
+
+result = vs.vstGetModeValue(inModeGroup)
+```
+
 ## Version
 Availability: from All Versions
 

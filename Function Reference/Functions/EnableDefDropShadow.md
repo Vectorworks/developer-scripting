@@ -14,6 +14,18 @@ def vs.EnableDefDropShadow(bEnable):
 |---|---|---|
 |bEnable|BOOLEAN|   |
 
+## Examples
+```pascal
+EnableDefDropShadow(TRUE);
+```
+```python
+import vs
+
+bEnable = True
+
+vs.EnableDefDropShadow(bEnable)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

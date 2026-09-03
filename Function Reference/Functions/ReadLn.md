@@ -24,11 +24,7 @@ def vs.ReadLn():
 ## Remarks
 In the example above, if there are actually only two values (separated by a tab) on the line being read, ReadLn will read the next line of text, looking for a value of the variable type specified by Val3.
 
-
-
 ReadLn will strip leading spaces, at least from the first string in the line, if not from all of them.
-
-
 
 RGBCOLOR triplets values stored on tabbed files will not be recognized by ReadLn, even if they are LONGINT (VW 12.5).
 
@@ -49,7 +45,6 @@ color : ACOLOR;
 ...
 ReadLn(color.red, color.green, color.blue); { LONGINT values are correctly loaded }
 ```
-
 
 the empty value and space stripping issues are still valid today (VW 12.5.x).
 
@@ -77,6 +72,31 @@ RUN(Example);
 #### Python ####
 ```python
 
+```
+
+```pascal
+ELSE BEGIN
+	dataFile := Concat (folderPath, kFileName);
+	sizeNotFound := TRUE;
+	Open (datafile);
+	ReadLn (dataUPI);
+
+	else BEGIN
+		getData := TRUE;
+		fileName := Concat( folderPath, fileName );
+		Open( fileName );
+		ReadLn( gUPI_data );
+{
+message( ' #### gBoltType = ',gBoltType ,'   nominalSize  = ',nominalSize );
+}
+		{ Read the data file until screwSize equals or exceeds the size }
+
+BEGIN
+	Open (dataFile);
+	ReadLn (dataUPI);
+```
+```python
+result = vs.ReadLn()
 ```
 
 ## Version

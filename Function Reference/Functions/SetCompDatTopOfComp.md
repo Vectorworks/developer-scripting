@@ -22,6 +22,25 @@ def vs.SetCompDatTopOfComp(object, componentIndex, datumIsTopOfComponent):
 |componentIndex|INTEGER|The index of the component.|
 |datumIsTopOfComponent|BOOLEAN|Whether or not the datum is the top of the component.|
 
+## Examples
+```pascal
+resultOK := SetCompDatTopOfComp(object, 1, TRUE);
+```
+```python
+import vs
+
+# Sets the datum is top of component flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+datumIsTopOfComponent = True
+
+ok = vs.SetCompDatTopOfComp(object, componentIndex, datumIsTopOfComponent)
+if ok:
+    vs.Message('SetCompDatTopOfComp succeeded')
+else:
+    vs.Message('SetCompDatTopOfComp failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompDatTopOfComp](GetCompDatTopOfComp.md)

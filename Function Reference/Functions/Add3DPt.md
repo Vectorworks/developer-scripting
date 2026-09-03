@@ -43,6 +43,47 @@ vs.Add3DPt(0,0,0)
 vs.EndPoly3D()
 ```
 
+```pascal
+IF (hPolygon <> NIL) THEN BEGIN
+	BeginPoly3D;
+	FOR i := 1 TO getvertnum(hPolygon) DO BEGIN
+		GetPolyPt(hPolygon,i,x,y);
+		Add3DPt(x,y,0);
+		END;
+
+BEGIN
+	GetPolyPt (LNewObj, k, x, y);
+	Add3DPt(x, y, 0);
+END;
+
+{Draw 3D Poly.}
+BeginPoly3D;
+	for cnt := 1 to vertex_cnt DO Add3DPt(vertices[cnt].x, vertices[cnt].y, 0);
+EndPoly3D;
+SetFPat(LNewObj, 0);
+```
+```python
+if drawing3D:
+	vs.Add3DPt( v2.x, v2.y, z )
+
+if ( useModifiers ):
+	vs.BeginPoly3D()
+	vs.Add3DPt( 0, width + vs.PCurb_Width + gDTM, 0 )
+	vs.Add3DPt( length, width + vs.PCurb_Width + gDTM, vs.PRise )
+	vs.Add3DPt( length, -( width + vs.PCurb_Width + gDTM ), vs.PRise )
+	vs.Add3DPt( 0, -( width + vs.PCurb_Width + gDTM ), 0 )
+	vs.EndPoly3D()
+
+guterCurb = vs.PGutter_Width
+vs.ClosePoly()
+vs.BeginPoly3D()
+vs.Add3DPt( -vs.PCurb_Width, 0, vs.PRise )
+vs.Add3DPt( -( radiusFromEdge - ( radiusFromEdge * vs.Cos( sweepTmp ) ) ), ( radiusFromEdge * vs.Sin( sweepTmp ) - vs.PCurb_Width - ( vs.PCurb_Width * ( 1 - ( vs.Tan( sweepTmp / 2 ) ) ) ) ), 0 )
+vs.Add3DPt( -( radiusFromEdge - ( radiusFromEdge * vs.Cos( sweepTmp ) ) ), radiusFromEdge * vs.Sin( sweepTmp ), 0 )
+vs.Add3DPt( -( radiusFromEdge - ( radiusFromEdge * vs.Cos( sweepTmp ) ) ), radiusFromEdge * vs.Sin( sweepTmp ) + guterCurb, 0 )
+vs.Add3DPt( vs.PThroat_Width + radiusFromEdge - ( radiusFromEdge * vs.Cos( sweepTmp ) ), radiusFromEdge * vs.Sin( sweepTmp ) + guterCurb, 0 )
+```
+
 ## See Also
 VS Functions:
 [BeginPoly3D](BeginPoly3D.md) 

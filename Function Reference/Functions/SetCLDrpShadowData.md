@@ -33,6 +33,24 @@ nUnits returns 0 for page units and 1 for world units.
 
 If nUnits = 0, dOffset and dBlurRadius are in inch, if nUnits = 1, dOffset and dBlurRadius are in document units.
 
+## Examples
+```pascal
+SetCLDrpShadowData('Wall', 1, 1.0, 2.0, 0.5, 2, 3);
+```
+```python
+import vs
+
+className = 'None'
+nUnits = 1
+dOffset = 0.0
+dBlurRadius = 1.0
+dAngle = 45.0
+nOpacity = 2
+color = 5
+
+vs.SetCLDrpShadowData(className, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, color)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

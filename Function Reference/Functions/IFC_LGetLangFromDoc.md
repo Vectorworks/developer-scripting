@@ -17,6 +17,23 @@ def vs.IFC_LGetLangFromDoc(outbIsIFCLocalized):
 |---|---|---|
 |outbIsIFCLocalized|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_LGetLangFromDoc(TRUE);
+```
+```python
+import vs
+
+# Returns whether the IFC Strings are Localized.
+outbIsIFCLocalized = True
+
+ok = vs.IFC_LGetLangFromDoc(outbIsIFCLocalized)
+if ok:
+    vs.Message('IFC_LGetLangFromDoc succeeded')
+else:
+    vs.Message('IFC_LGetLangFromDoc failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

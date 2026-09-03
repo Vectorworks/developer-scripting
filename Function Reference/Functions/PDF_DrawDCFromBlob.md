@@ -30,6 +30,29 @@ def vs.PDF_DrawDCFromBlob(inBlobPtr, inBlobSize, inCurPage, inDC, inDrawMatrix, 
 |inInvalRect|PROCEDURE|   |
 |inCancelCB|PROCEDURE|   |
 
+## Examples
+```pascal
+resultOK := PDF_DrawDCFromBlob(inBlobPtr, 1, 2, inDC, inDrawMatrix, inInvalRect, inCancelCB);
+```
+```python
+import vs
+
+# Draws PDF DocID into passed DC.
+inBlobPtr = 'Example'
+inBlobSize = 1
+inCurPage = 2
+inDC = 'Example'
+inDrawMatrix = 'Example'
+inInvalRect = 'Example'
+inCancelCB = 'Example'
+
+ok = vs.PDF_DrawDCFromBlob(inBlobPtr, inBlobSize, inCurPage, inDC, inDrawMatrix, inInvalRect, inCancelCB)
+if ok:
+    vs.Message('PDF_DrawDCFromBlob succeeded')
+else:
+    vs.Message('PDF_DrawDCFromBlob failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -36,9 +36,23 @@ def vs.GetSprdSortSumColumns(sheetHd, row):
 Gets sorting for a database row.  The sortCol1, sortCol2, and sortCol3 values specify the primary, secondary and tertiary sorts for the database row.  For descending sorts, a positive column is returned; for ascending sorts, a negative column is returned  For no sort,  0 is returned.  Sum works the same way.
 OBSOLETE for Version 9: see new GetWSColumnOperators. [VML 01/09/01]
 
+## Examples
+```pascal
+GetSprdSortSumColumns(sheetHd, 1, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Returns the sorting and summation options for a database row.
+sheetHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+row = 10
+
+sortCol1, sortCol2, sortCol3, sumCol1, sumCol2, sumCol3 = vs.GetSprdSortSumColumns(sheetHd, row)
+vs.Message('GetSprdSortSumColumns returned: ' + str((sortCol1, sortCol2, sortCol3, sumCol1, sumCol2, sumCol3)))
+```
+
 ## Version
 GetSprdSortSumColumns is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.5
 

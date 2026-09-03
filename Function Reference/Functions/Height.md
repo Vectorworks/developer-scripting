@@ -27,6 +27,19 @@ HeightValue:=Height(N='North Wall');
 HeightValue = vs.Height((N='North Wall'))
 ```
 
+```pascal
+resultVal := Height(c);
+```
+```python
+import vs
+
+# Returns the height of an object.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.Height(c)
+vs.Message('Height returned: ' + str(value))
+```
+
 ## Version
 Availability: from All Versions
 

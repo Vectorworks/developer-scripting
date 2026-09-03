@@ -20,6 +20,24 @@ def vs.SetImageCropObject(image, crop):
 |image|HANDLE|   |
 |crop|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := SetImageCropObject(image, crop);
+```
+```python
+import vs
+
+# By given image handle and crop handle, set the crop to the image.
+image = vs.FSActLayer()  # handle to the first selected object on the active layer
+crop = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.SetImageCropObject(image, crop)
+if ok:
+    vs.Message('SetImageCropObject succeeded')
+else:
+    vs.Message('SetImageCropObject failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

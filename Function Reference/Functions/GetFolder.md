@@ -42,6 +42,27 @@ END;
 Run(Example);
 ```
 
+```pascal
+if dialogType = 'DistDialog'  then temp_s := Num2StrF(   DistDialog(prompt, default)) ELSE
+if dialogType = 'IntDialog'   then temp_s := Num2Str (0, IntDialog (prompt, default)) ELSE
+if dialogType = 'RealDialog'  then temp_s := Num2Str (8, RealDialog(prompt, default)) ELSE
+IF dialogType = 'StrDialog'   THEN temp_s :=             StrDialog (prompt, default)  ELSE
+IF dialogType = 'GetFolder'   THEN temp_i :=             GetFolder (prompt, default);
+IF temp_i < 1 THEN BEGIN
+	temp_s := default;
+	RunPreDefinedDialog := (temp_i = 0);
+end ELSE RunPreDefinedDialog := (NOT DidCancel);
+```
+```python
+import vs
+
+# Gets the path to a user selected folder.
+promptStr = 'Hello Vectorworks'
+
+resultN, directoryPath = vs.GetFolder(promptStr)
+vs.Message('GetFolder returned: ' + str((resultN, directoryPath)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

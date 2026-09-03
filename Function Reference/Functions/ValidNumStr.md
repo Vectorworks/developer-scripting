@@ -52,6 +52,36 @@ ok, num = vs.ValidNumStr( str )
 vs.AlrtDialog( num )
 ```
 
+```pascal
+OK := ValidNumStr(tmpStr, s);
+IF (NOT OK) OR (s <= 0) THEN
+BEGIN
+	SysBeep;
+	SelectEditText(dialogID, 4);
+
+1: BEGIN
+	IF method = 1 THEN BEGIN
+		GetItemText(dialogID, 6, tmpStr);
+		OK := ValidNumStr (tmpStr, nSegs);
+		IF (NOT OK) OR (nSegs < 1) THEN
+		BEGIN
+			Sysbeep;
+			AlrtDialog (GetPlugInString (3018));
+
+ok := FALSE;
+outBearing := 0;
+format := 'azimuth';
+{Azimuth-Decimal}
+if ValidNumStr(inBearingStr, outBearing) then BEGIN
+	ok := TRUE;
+	outBearing := Compass2Cad(outBearing);
+END;
+```
+```python
+isNumOk, textPtx = vs.ValidNumStr( vs.GetRField( gObjHandle, gObjName, kNNA_TextLocX ) )
+isNumOK, textPty = vs.ValidNumStr( vs.GetRField( gObjHandle, gObjName, kNNA_TextLocY ) )
+```
+
 ## Version
 Availability: from All Versions
 

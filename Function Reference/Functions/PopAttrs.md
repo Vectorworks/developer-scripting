@@ -37,6 +37,15 @@ RUN(Example);
 
 ```
 
+```pascal
+PopAttrs;
+```
+```python
+def SetDownObject(objectHand):
+	vs.TextureObjs(objectHand)
+	vs.PopAttrs(objectHand)
+```
+
 ## See Also
 VS Functions:
 [PushAttrs](PushAttrs.md)

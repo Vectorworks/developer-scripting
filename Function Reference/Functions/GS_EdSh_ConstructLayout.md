@@ -22,6 +22,20 @@ def vs.GS_EdSh_ConstructLayout(shaderNameCStr, paramsPtr):
 |paramsPtr|LONGINT|   |
 |libraryDataPtr|LONGINT|   |
 
+## Examples
+```pascal
+GS_EdSh_ConstructLayout(1, 2, 3);
+```
+```python
+import vs
+
+# Creates a dialog layout for editing a shader's parameter values.
+shaderNameCStr = 'Example'
+paramsPtr = 1
+
+result = vs.GS_EdSh_ConstructLayout(shaderNameCStr, paramsPtr)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

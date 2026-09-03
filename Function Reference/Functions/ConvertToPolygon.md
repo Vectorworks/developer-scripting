@@ -28,6 +28,37 @@ Notes: (RMullin - 2020 Mar 03)
 - This function creates a duplicate object, so you don't have to duplicate the object beforehand if you want to retain the original object.
 - If the original is selected, the duplicate will be selected, and vice versa.
 
+## Examples
+```pascal
+IF convertion THEN BEGIN
+	IF ( (gTdType = 4) OR ( (gTdType = 13) | (gTdType = 21) ) )  THEN BEGIN
+		h1 := h;
+		DelObject(h);
+		h := ConvertToPolygon(h1, 64 );
+	END;
+
+{create 2D polygon that presents nurbs fence curve}
+h4 := ConvertToPolygon( h1, 16 );
+
+BEGIN
+	SegmentHand := ConvertToPolygon( tempHand, 0.1 );
+	numVerticesConv	:= 	GetVertNum( SegmentHand );
+	{ FIND INTERSECTION between line from the center of the bounding box to the center of the polygonized segment and the polygonized segment itself}
+	{ center to Segment center vector scaled}
+	pt1.x := ( Xc1  - BoxCx1)*1000;
+```
+```python
+import vs
+
+# Converts object to polygon.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+resolution = 1
+
+objHandle = vs.ConvertToPolygon(h, resolution)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

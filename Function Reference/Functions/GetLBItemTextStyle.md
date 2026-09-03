@@ -26,6 +26,26 @@ def vs.GetLBItemTextStyle(dialogID, componentID, itemIndex, subItemIndex):
 |subItemIndex|INTEGER|the column index|
 |textStyle|INTEGER|Plain - 0|Bold - 1|Italic - 2|Underline - 4|Outline - 16 (Mac only)|Shadow - 32 (Mac only)|
 
+## Examples
+```pascal
+BEGIN
+	boo:=GetLBItemTextStyle(dialogID, itemID, row, col, styleInt);
+	isLBItemItalic:=styleInt=kStyleItalic;
+END;
+```
+```python
+import vs
+
+# Gets the text style for the specified list browser item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, textStyle = vs.GetLBItemTextStyle(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemTextStyle returned: ' + str((ok, textStyle)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

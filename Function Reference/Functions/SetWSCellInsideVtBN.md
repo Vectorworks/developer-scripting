@@ -37,6 +37,27 @@ def vs.SetWSCellInsideVtBN(worksheet, topRow, leftColumn, bottomRow, rightColumn
 |weight|INTEGER|Border line weight to be set.(in Mils)|
 |color|LONGINT|Border line color to be set. (color index: 0..255)|
 
+## Examples
+```pascal
+SetWSCellInsideVtBN(worksheet, 1, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Sets inside vertical borders with specified attributes in specified
+# worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+style = 0
+weight = 1
+color = 5
+
+vs.SetWSCellInsideVtBN(worksheet, topRow, leftColumn, bottomRow, rightColumn, style, weight, color)
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

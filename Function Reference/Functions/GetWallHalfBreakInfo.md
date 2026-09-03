@@ -80,6 +80,29 @@ END;
 Run(xxxxx);
 ```
 
+## Examples
+```pascal
+if (GetNumOfWallBreaks(originalWall_h, numOfBreaks) = true) then BEGIN
+	for temp1_i := 0 to numOfBreaks DO BEGIN
+		if (GetWallHalfBreakInfo(originalWall_h, temp1_i, breakStartPt.x, breakStartPt.y, breakCenterPt.x, breakCenterPt.y, breakEndPt.x, breakEndPt.y) = true) then BEGIN
+			tJoinIsUnique := TRUE;
+			if (dimToWallExts = TRUE) then BEGIN
+				breakTestPt := breakStartPt;
+			END ELSE BEGIN
+				breakTestPt := breakCenterPt;
+```
+```python
+import vs
+
+# Gets the start point, center point and end point of a half break in a wall
+# along the wall line.
+wallH = vs.FSActLayer()  # handle to the first selected object on the active layer
+breakIndex = 1
+
+ok, startPt, centerPt, endPt = vs.GetWallHalfBreakInfo(wallH, breakIndex)
+vs.Message('GetWallHalfBreakInfo returned: ' + str((ok, startPt, centerPt, endPt)))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

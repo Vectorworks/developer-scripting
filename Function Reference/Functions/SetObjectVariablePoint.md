@@ -24,6 +24,29 @@ def vs.SetObjectVariablePoint(h, index, p):
 |index|INTEGER|Object property index.|
 |p|REAL|The object variable data point.|
 
+## Examples
+```pascal
+		HCenter( GetVPCropObject( pioParentVPHand ), VPCropCenterPt.x, VPCropCenterPt.y );
+	END;
+END;
+{ shifts the render background to the pioCMObjSavedLocPt (also the camera taget point) }
+boo := SetObjectVariablePoint( pioParentVPHand, 1300, pioCMObjSavedLocPt.x, pioCMObjSavedLocPt.y, 0 );
+```
+```python
+import vs
+
+# Sets the value of a Vectorworks object property.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+p = 1.0
+
+ok = vs.SetObjectVariablePoint(h, index, p)
+if ok:
+    vs.Message('SetObjectVariablePoint succeeded')
+else:
+    vs.Message('SetObjectVariablePoint failed')
+```
+
 ## See Also
 VS Functions:
 [GetObjectVariablePoint](GetObjectVariablePoint.md) 

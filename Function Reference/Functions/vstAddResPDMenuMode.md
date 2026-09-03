@@ -17,6 +17,19 @@ def vs.vstAddResPDMenuMode(label, value):
 |label|STRING|   |
 |value|STRING|   |
 
+## Examples
+```pascal
+vstAddResPDMenuMode('Example', 'Example');
+```
+```python
+import vs
+
+label = 'Example text'
+value = 'Example'
+
+vs.vstAddResPDMenuMode(label, value)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

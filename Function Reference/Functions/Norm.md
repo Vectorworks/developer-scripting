@@ -50,6 +50,38 @@ v2 = (3, 15, 0)
 vs.Message( str(vs.Norm( (v1[0] - v2[0], v1[1] - v2[1], v1[2] - v2[2]) )) )
 ```
 
+```pascal
+BEGIN
+	arm1 := startPt - centerPt;
+	arm2 := endPt - centerPt;
+	zeta := AngBVec(arm1, arm2);
+	LenOfArc := (PI * Norm(arm1) * zeta)/ 180;
+END;
+
+end else BEGIN
+	GetObjArrow( arrowLineH, style, size, Angle, bstart, bend );
+	if bstart then GetSegPt2( arrowLineH, vec1[1], vec1[2] ) ELSE GetSegPt1( arrowLineH, vec1[1], vec1[2] );
+END;
+IF Abs( Norm( tempV - vec1 ) ) < Abs( Norm( originVec - vec1 ) ) THEN originVec := tempV;
+
+h1 := OffsetPolygon(walls[cnt1], -1");
+for cnt2 := GetVertNum(h1) downto 2 do BEGIN
+	GetPolyPt(h1, cnt2 - 1, pt1.x, pt1.y);
+	GetPolyPt(h1, cnt2,     pt2.x, pt2.y);
+	IF Abs(Norm(pt2 - pt1)) < .0625" THEN DelVertex(h1, cnt2);
+END;
+```
+```python
+import vs
+
+# Returns the length, or magnitude, of the specified vector.
+Vec = (0, 0)
+
+value = vs.Norm(Vec)
+vs.Message('Norm returned: ' + str(value))
+```
+See also in tutorials: [11. 2D Vector Math Toolkit](ai%20examples/11_VectorMathToolkit.md)
+
 ## See Also
 VS Functions:
 [Distance](Distance.md)

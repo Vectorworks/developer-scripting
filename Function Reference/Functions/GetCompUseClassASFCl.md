@@ -22,6 +22,22 @@ def vs.GetCompUseClassASFCl(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassFillColorsForAlternateSectionFill|BOOLEAN|Returns whether or not the component is using class attributes for its alternate section fill colors.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassASFCl(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class fill colors for alternate section fill flag of a
+# component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassFillColorsForAlternateSectionFill = vs.GetCompUseClassASFCl(object, componentIndex)
+vs.Message('GetCompUseClassASFCl returned: ' + str((ok, useClassFillColorsForAlternateSectionFill)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassASFCl](SetCompUseClassASFCl.md)

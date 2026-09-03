@@ -20,6 +20,35 @@ def vs.GetClUseGraphic(className):
 ## Remarks
 Returns whether the class is set to use its graphic attributes at object creation.
 
+## Examples
+```pascal
+BEGIN
+	SetClass (pluginH, userClassName);
+	IF GetClUseGraphic (userClassName) THEN SetAttrsByClass (pluginH);
+END;
+
+						IF GetClUseGraphic  (UserClassName) <> TmpClassInfo.UseAtCreation THEN
+							SetClUseGraphic (UserClassName, TmpClassInfo.UseAtCreation);
+{
+						SetClPenFore (UserClassName, DecimalToColorIndex(TmpClassInfo.PenColor));
+						SetClLW (UserClassName, TmpClassInfo.LW);
+						SetClLSN (UserClassName, TmpClassInfo.LS);
+
+IF GetClUseGraphic (UserClassName) <> TmpClassInfo.UseAtCreation THEN
+BEGIN
+	IF GetClUseGraphic  (UserClassName) THEN
+	BEGIN
+		gClassList [classIndex].UseAtCreation := TRUE;
+		WriteToClassWS (classIndex, 7, 1, '');
+	END
+```
+```python
+if vs.GetTypeN( vs.GetObject( userClassName ) ) == 94:
+	vs.SetClass( pluginH, userClassName )
+	if vs.GetClUseGraphic( userClassName ):
+		SetAttrsByClass( pluginH )
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

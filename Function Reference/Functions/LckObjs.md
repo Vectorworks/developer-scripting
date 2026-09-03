@@ -24,6 +24,13 @@ LckObjs;
 
 ```
 
+```pascal
+LckObjs;
+```
+```python
+vs.LckObjs()
+```
+
 ## Version
 Availability: from All Versions
 

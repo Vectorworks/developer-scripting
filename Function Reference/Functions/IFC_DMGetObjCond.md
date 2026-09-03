@@ -20,6 +20,20 @@ def vs.IFC_DMGetObjCond(strObjectName):
 |strObjectName|STRING|   |
 |outStrObjectCondition|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetObjCond('Example', 'Example');
+```
+```python
+import vs
+
+# Returns the Condition for specified Object in IFC Data Mapping.
+strObjectName = 'Example'
+
+ok, outStrObjectCondition = vs.IFC_DMGetObjCond(strObjectName)
+vs.Message('IFC_DMGetObjCond returned: ' + str((ok, outStrObjectCondition)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

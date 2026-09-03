@@ -25,6 +25,26 @@ def vs.AdjustComponentPixelPos(nDialogID, nComponentID, nHorizontalPixels, nVert
 |nHorizontalPixels|INTEGER|   |
 |nVerticalPixels|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := AdjustComponentPixelPos(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Adjust the position offset of the specified Layout Manager component in pixels.
+nDialogID = 1
+nComponentID = 2
+nHorizontalPixels = 3
+nVerticalPixels = 10
+
+ok = vs.AdjustComponentPixelPos(nDialogID, nComponentID, nHorizontalPixels, nVerticalPixels)
+if ok:
+    vs.Message('AdjustComponentPixelPos succeeded')
+else:
+    vs.Message('AdjustComponentPixelPos failed')
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

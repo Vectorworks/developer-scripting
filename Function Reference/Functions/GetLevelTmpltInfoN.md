@@ -28,6 +28,20 @@ def vs.GetLevelTmpltInfoN(index):
 |elevation|REAL|The elevation of the Story Level Template at 'index'. The elevation is in document units.|
 |wallHeight|REAL|The wall height of the Story Level Template at 'index'. The wall height is in document untis. If the layer name is blank, this parameter has no meaning.|
 
+## Examples
+```pascal
+resultOK := GetLevelTmpltInfoN(1, 'Design Layer-1', 1.0, 'Example', 2.0, 0.5);
+```
+```python
+import vs
+
+# Used to access the properties of the Story Level Template at 'index'.
+index = 1
+
+ok, layerName, scaleFactor, levelType, elevation, wallHeight = vs.GetLevelTmpltInfoN(index)
+vs.Message('GetLevelTmpltInfoN returned: ' + str((ok, layerName, scaleFactor, levelType, elevation, wallHeight)))
+```
+
 ## See Also
 VS Functions:
 [GetNumLevelTemplates](GetNumLevelTemplates.md) 
@@ -35,7 +49,7 @@ VS Functions:
 | [SetLevelTemplateName](SetLevelTemplateName.md) 
 | [CreateLevelTemplateN](CreateLevelTemplateN.md) 
 | [DeleteLevelTemplate](DeleteLevelTemplate.md) 
-| [GetLevelTemplateInfoN](GetLevelTemplateInfoN.md)
+| [GetLevelTemplateInfoN](GetLevelTmpltInfoN.md)
 
 ## Version
 Availability: from Vectorworks 2025

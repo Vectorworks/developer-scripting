@@ -29,6 +29,23 @@ def vs.GetLinkHeightToLayerDeltaZ(theWall):
 |---|---|---|
 |theWall|HANDLE|The wall.|
 
+## Examples
+```pascal
+resultOK := GetLinkHeightToLayerDeltaZ(theWall);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetLinkHeightToLayerDeltaZ(theWall)
+if ok:
+    vs.Message('GetLinkHeightToLayerDeltaZ succeeded')
+else:
+    vs.Message('GetLinkHeightToLayerDeltaZ failed')
+```
+
 ## See Also
 VS Functions:
 [SetLinkHeightToLayerDeltaZ](SetLinkHeightToLayerDeltaZ.md)

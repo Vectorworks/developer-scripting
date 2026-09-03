@@ -26,6 +26,38 @@ def vs.DTM6_GetDTMObject(hLayer, bPickUpModel):
 |hLayer|HANDLE|A handle to a layer to be searched for site model objects.|
 |bPickUpModel|BOOLEAN|Pas in TRUE if a UI is to be used to identify Site model object if there are several instances on the layer.|
 
+## Examples
+```pascal
+BEGIN
+	if hDTMObject = nil then BEGIN
+		hDTMObject := DTM6_GetDTMObject(hObjLayer, TRUE);
+	END;
+
+{work with the DTM over which the first selection is}
+hSelectedDTM	:= DTM6_GetDTMObject( hDTMLayer, TRUE );
+
+gResetErr := FALSE;
+temp_s := getlname(actlayer);
+ForEachObject(preflight,(SEL & (L = temp_s)));
+{try to find a DTM object below the Selected}
+hDTMObject := DTM6_GetDTMObject( ActLayer, TRUE );
+IF hDTMObject = NIL then AlrtDialog( GetPluginString(5008) );
+{check if the found DTM object is Ready for use}
+IF (hDTMObject  <> NIL ) AND (not DTM6_IsObjectReady( hDTMObject )) then BEGIN
+	AlrtDialog( GetPluginString(5009) );
+```
+```python
+import vs
+
+# Try to find a Site Model instance.
+hLayer = vs.ActLayer()  # handle to the active design layer
+bPickUpModel = True
+
+objHandle = vs.DTM6_GetDTMObject(hLayer, bPickUpModel)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from All Versions
 

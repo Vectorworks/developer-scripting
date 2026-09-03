@@ -12,6 +12,17 @@ def vs.TBB_UpdateOldVAATB():
     return None
 ```
 
+## Examples
+```pascal
+TBB_UpdateOldVAATB;
+```
+```python
+import vs
+
+# VAA Title Block objects to Title Block Border objects.
+vs.TBB_UpdateOldVAATB()
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

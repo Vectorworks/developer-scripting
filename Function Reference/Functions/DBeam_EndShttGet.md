@@ -17,6 +17,19 @@ def vs.DBeam_EndShttGet(bUseLampRotFlag):
 |---|---|---|
 |bUseLampRotFlag|BOOLEAN|   |
 
+## Examples
+```pascal
+DBeam_EndShttGet(TRUE);
+```
+```python
+import vs
+
+# End creating 3D shutter object.
+bUseLampRotFlag = True
+
+vs.DBeam_EndShttGet(bUseLampRotFlag)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

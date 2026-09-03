@@ -22,6 +22,21 @@ def vs.ProgressDlgOpenDelay(title, canCancel, delaySec):
 |canCancel|BOOLEAN|   |
 |delaySec|INTEGER|   |
 
+## Examples
+```pascal
+ProgressDlgOpenDelay('Example', TRUE, 1);
+```
+```python
+import vs
+
+# Show a progress dialog that doesn't interrupt the script.
+title = 'Example'
+canCancel = True
+delaySec = 1
+
+vs.ProgressDlgOpenDelay(title, canCancel, delaySec)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

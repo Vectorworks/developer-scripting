@@ -28,6 +28,21 @@ def vs.GetMarkerPopupSelectedItem(dialogID, componentID):
 |angle|INTEGER|On return, indicates the angle of the selected marker, for arrow markers|
 |size|INTEGER|On return, indicates the size of the selected marker|
 
+## Examples
+```pascal
+resultN := GetMarkerPopupSelectedItem(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# This is a deprecated function.
+dialogID = 1
+componentID = 2
+
+resultN, style, angle, size = vs.GetMarkerPopupSelectedItem(dialogID, componentID)
+vs.Message('GetMarkerPopupSelectedItem returned: ' + str((resultN, style, angle, size)))
+```
+
 ## Version
 Availability: from VectorWorks10.5
 

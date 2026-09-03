@@ -17,6 +17,23 @@ def vs.vsoWidgetGetEnable(widgetID):
 |---|---|---|
 |widgetID|LONGINT|   |
 
+## Examples
+```pascal
+resultOK := vsoWidgetGetEnable(1);
+```
+```python
+import vs
+
+# ?.
+widgetID = 1
+
+ok = vs.vsoWidgetGetEnable(widgetID)
+if ok:
+    vs.Message('vsoWidgetGetEnable succeeded')
+else:
+    vs.Message('vsoWidgetGetEnable failed')
+```
+
 ## Version
 Availability: from All Versions
 

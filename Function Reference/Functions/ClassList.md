@@ -20,7 +20,6 @@ def vs.ClassList(index):
 ## Remarks
 NOTE: the manual has said that ClassLIst(4) returns the 4th class in the list, but it actually was returning the 5th class.  BF changed the function on 3/98 so it does return the 4th class.
 
-
 What is the internal sort order of the class list.  We should add to documentation what the sorting criteria is.
 
 Answer: There's no sorting criteria, the list shows the class in order of their creation. the first created as first, the last created as last.
@@ -39,6 +38,35 @@ classNumber4 := ClassList(4);
 ```python
 noneClass = vs.ClassList(1)
 dimensionClass = vs.ClassList(2)
+```
+
+```pascal
+ALLOCATE classListN [1..ClassNum];
+FOR i := 1 TO ClassNum DO
+	classListN [i] := ClassList (i);
+SortArray(classListN, ClassNum, 0);
+
+BEGIN
+	{Empty string means container class}
+	kRealNoneClass := ClassList(1);
+	IF pShaft_Finish = kRealNoneClass THEN
+		SetRField (h, gPluginName, 'Shaft Finish','');
+	IF pCapital_Finish = kRealNoneClass THEN
+		SetRField (h, gPluginName, 'Capital Finish','');
+
+ALLOCATE classNames [1..ClassNum];
+FOR i := 1 TO ClassNum DO
+	classNames [i] := ClassList (i);
+SortArray (classNames, ClassNum, 0);
+```
+```python
+import vs
+
+# Returns the name of the specified class in the document class list.
+index = 1
+
+text = vs.ClassList(index)
+vs.Message('ClassList returned: ' + str(text))
 ```
 
 ## See Also

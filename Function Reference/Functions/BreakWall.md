@@ -37,6 +37,21 @@ vs.WallTo(7,3)
 vs.BreakWall(3,1,True)
 ```
 
+```pascal
+BreakWall(1.0, 2.0, TRUE);
+```
+```python
+import vs
+
+# Procedure BreakWall creates a break in a wall object on the left or the
+# right at a specified offset location.
+offsetDistance = 1.0
+breakWidthDistance = 2.0
+right = True
+
+vs.BreakWall(offsetDistance, breakWidthDistance, right)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

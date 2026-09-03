@@ -36,6 +36,19 @@ PtDialog('Enter a coordinate.','0','0',cX,cY);
 
 ```
 
+```pascal
+BEGIN
+	TxtX := GetRField(Obj,kHoistPIOName,'ControlPoint01X');
+	TxtY := GetRField(Obj,kHoistPIOName,'ControlPoint01Y');
+	PtDialog(CONCAT('Input location measured from the insertion of the hoist.',chr(13),'the hoist graphic center'),TxtX,TxtY,X,Y);
+	IF (NOT DidCancel) THEN
+		ForEachObject(AssignTextPosition, (((R IN [kHoistPIOName]) & (SEL=TRUE))));
+END
+```
+```python
+result = vs.PtDialog(request, defaultX, defaultY)
+```
+
 ## Version
 Availability: from All Versions
 

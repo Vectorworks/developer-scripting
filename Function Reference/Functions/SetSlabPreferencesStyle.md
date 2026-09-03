@@ -17,6 +17,19 @@ def vs.SetSlabPreferencesStyle(slabStyle):
 |---|---|---|
 |slabStyle|LONGINT|The ref number of the Slab Style to apply to the Slab Preferences. 0 for unstyled.|
 
+## Examples
+```pascal
+SetSlabPreferencesStyle(1);
+```
+```python
+import vs
+
+# Sets the Slab Style of the Slab Preferences.
+slabStyle = 0
+
+vs.SetSlabPreferencesStyle(slabStyle)
+```
+
 ## See Also
 VS Functions:
 [GetSlabPreferencesStyle](GetSlabPreferencesStyle.md)

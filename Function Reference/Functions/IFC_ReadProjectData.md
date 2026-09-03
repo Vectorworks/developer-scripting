@@ -24,6 +24,22 @@ def vs.IFC_ReadProjectData(iPane, iParam, iBuilding):
 |iBuilding|INTEGER|   |
 |outData|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_ReadProjectData(1, 2, 3, 'Example');
+```
+```python
+import vs
+
+# Reads specified field data from the Export IFC Project dialog.
+iPane = 1
+iParam = 2
+iBuilding = 3
+
+ok, outData = vs.IFC_ReadProjectData(iPane, iParam, iBuilding)
+vs.Message('IFC_ReadProjectData returned: ' + str((ok, outData)))
+```
+
 ## Version
 Availability: from Vectorworks 2024
 

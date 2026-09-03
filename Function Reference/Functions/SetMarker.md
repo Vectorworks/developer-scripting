@@ -29,7 +29,6 @@ def vs.SetMarker(h, start, end, style, size):
 ## Remarks
 OBSOLETE for VW2008: Use SetObjBeginningMarker and/or SetObjEndMarker instead.
 
-
 This changes the document defaults.
 
 ## Examples
@@ -48,6 +47,17 @@ RUN(Example);
 
 ```
 
+```pascal
+SetMarker(h, TRUE, FALSE, 1, 1.0);
+```
+```python
+vs.SetPenBack(objH, vs.GetPenBack(parentH))
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+vs.SetMarker(objH, start, end, style, size)
+vs.SetOpacity(objH, vs.GetOpacity(parentH))
+```
+
 ## See Also
 VS Functions:
 [GetMarker](GetMarker.md) 
@@ -56,7 +66,6 @@ VS Functions:
 
 ## Version
 SetMarker is obsolete as of VectorWorks13.0<P>
-
 
 Availability: from VectorWorks10.0
 

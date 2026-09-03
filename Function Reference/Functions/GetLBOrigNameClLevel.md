@@ -28,6 +28,23 @@ def vs.GetLBOrigNameClLevel(dialogID, componentID, originalName):
 |level2Closed|BOOLEAN|Whether the item's level 2 container is closed.|
 |level3Closed|BOOLEAN|Whether the item's level 3 container is closed.|
 
+## Examples
+```pascal
+GetLBOrigNameClLevel(1, 2, 'Example', TRUE, FALSE, TRUE);
+```
+```python
+import vs
+
+# This function returns the close levels for an original name in the list
+# browser.
+dialogID = 1
+componentID = 2
+originalName = 'Example'
+
+level1Closed, level2Closed, level3Closed = vs.GetLBOrigNameClLevel(dialogID, componentID, originalName)
+vs.Message('GetLBOrigNameClLevel returned: ' + str((level1Closed, level2Closed, level3Closed)))
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

@@ -36,6 +36,40 @@ TextSpace(4);
 
 ```
 
+```pascal
+PushAttrs;
+{TextFace ([bold]);}
+TextFlip (0);
+TextRotate (#0);
+TextSpace (2);
+TextJust (2);
+TextVerticalAlign (3);
+FillPat (kFPat0);
+
+ForEachObject(LoadSpaceArray, (R IN ['Space']));
+SortArray(spaces, space_cnt, 3);
+TextFlip(0);
+TextRotate(0);
+TextSpace(2);
+TextVerticalAlign(3);
+TextWidth := 0;
+for cnt1 := 1 to space_cnt do BEGIN
+	CreateText(spaces[cnt1].name);
+
+ForEachObject(AddEmUp, ((R IN ['Space Link'])));
+PushAttrs;
+TextFlip(0);
+TextRotate(0);
+TextSpace(2);
+TextVerticalAlign(3);
+scoreTxt := GetPlugInString(3000);
+CreateText(Concat(scoreTxt, Num2Str(0,total)));
+PopAttrs;
+```
+```python
+vs.TextSpace(spacing)
+```
+
 ## Version
 Availability: from All Versions
 

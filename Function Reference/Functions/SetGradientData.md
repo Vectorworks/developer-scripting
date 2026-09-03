@@ -43,6 +43,13 @@ SetGradientData(gradientHandle, segmentIndex, 0.9, 0.5, 255, 255, 255);
 
 ```
 
+```pascal
+SetGradientData(gradient, 1, 1.0, 2.0, 2, 3, 10);
+```
+```python
+result = vs.SetGradientData(gradient, 1, spotPosition, midpointPosition, red, green, blue)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

@@ -17,6 +17,19 @@ def vs.WSScript_GetEdit():
 |---|---|---|
 |outNewValue|DYNARRAY[] of CHAR|The new value for the cell as inputted by the user.|
 
+## Examples
+```pascal
+resultOK := WSScript_GetEdit(outNewValue);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by
+# 'RunScriptEdit' worksheet formula.
+ok, outNewValue = vs.WSScript_GetEdit()
+vs.Message('WSScript_GetEdit returned: ' + str((ok, outNewValue)))
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetEditObj](WSScript_GetEditObj.md)

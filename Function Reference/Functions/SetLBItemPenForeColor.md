@@ -30,6 +30,29 @@ def vs.SetLBItemPenForeColor(dialogID, componentID, itemIndex, subItemIndex, red
 |greenIndex|INTEGER|the green component (0 - 255)|
 |blueIndex|INTEGER|the blue component (0 - 255)|
 
+## Examples
+```pascal
+resultOK := SetLBItemPenForeColor(1, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Sets the specified list browser item's pen foreground color.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+redIndex = 1
+greenIndex = 1
+blueIndex = 1
+
+ok = vs.SetLBItemPenForeColor(dialogID, componentID, itemIndex, subItemIndex, redIndex, greenIndex, blueIndex)
+if ok:
+    vs.Message('SetLBItemPenForeColor succeeded')
+else:
+    vs.Message('SetLBItemPenForeColor failed')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

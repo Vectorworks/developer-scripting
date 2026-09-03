@@ -23,6 +23,17 @@ CurrPenStyle:=FPenPat;
 CurrPenStyle = vs.FPenPat()
 ```
 
+```pascal
+resultN := FPenPat;
+```
+```python
+import vs
+
+# _ Function FPenPat returns the active pen pattern setting.
+resultN = vs.FPenPat()
+vs.Message('FPenPat returned: ' + str(resultN))
+```
+
 ## See Also
 [FPenPatN](FPenPatN.md), [PenPatN](PenPatN.md)  from Vectorworks 2013
 

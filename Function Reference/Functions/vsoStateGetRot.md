@@ -60,8 +60,28 @@ BEGIN
 
 ```
 
+```pascal
+BEGIN
+	IF (vsoStateGetRot(parmHand, rotationAngle, is3D)) THEN
+	BEGIN
+		RotateNorthArrow(-rotationAngle + viewportRotationAngle);
+	END
+
+RotChange := (vsoStateGetRot(ghParm, AngChange,Is3D));
+
+{State Changes}
+vsoStateGetPosLD(ghParm,XChange,YChange,ZChange,MoveChange);
+{MoveChange := vsoStateGetPosN;}
+IF (MoveChange) THEN ChildMove;
+RotationChange := (vsoStateGetRot(ghParm, AngChange,Is3D));
+IF (RotationChange) THEN ChildRotate;
+```
+```python
+result = vs.vsoStateGetRot(h)
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

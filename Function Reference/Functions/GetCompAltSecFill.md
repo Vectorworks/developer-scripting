@@ -31,6 +31,21 @@ The Roof's preferences are a very buried set which can be accessed at user level
 
 Since the Roof has no tool, you can't pick attributes using the Eyedropper Tool or the Create Similar tool.
 
+## Examples
+```pascal
+resultOK := GetCompAltSecFill(obj, 1, 2);
+```
+```python
+import vs
+
+# Gets the alternate section fill of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, alternateSectionFill = vs.GetCompAltSecFill(obj, componentIndex)
+vs.Message('GetCompAltSecFill returned: ' + str((ok, alternateSectionFill)))
+```
+
 ## See Also
 VS Functions:
 [SetCompAltSecFill](SetCompAltSecFill.md)

@@ -25,6 +25,21 @@ def vs.GetTexBFeatureEnd(textureBitmap):
 ## Remarks
 X and y are in paint node pixels from top left
 
+## Examples
+```pascal
+GetTexBFeatureEnd(textureBitmap, 1, 2);
+```
+```python
+import vs
+
+# Procedure GetTexBFeatureEnd returns the &quot;feature endpoint&quot; of the
+# referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+featureEndX, featureEndY = vs.GetTexBFeatureEnd(textureBitmap)
+vs.Message('GetTexBFeatureEnd returned: ' + str((featureEndX, featureEndY)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

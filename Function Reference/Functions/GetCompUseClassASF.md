@@ -22,6 +22,22 @@ def vs.GetCompUseClassASF(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassFillStyleForAlternateSectionFill|BOOLEAN|Returns whether or not the component is using class attributes for its alternate section fill.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassASF(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class fill style for alternate section fill flag of a
+# component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassFillStyleForAlternateSectionFill = vs.GetCompUseClassASF(object, componentIndex)
+vs.Message('GetCompUseClassASF returned: ' + str((ok, useClassFillStyleForAlternateSectionFill)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassASF](SetCompUseClassASF.md)

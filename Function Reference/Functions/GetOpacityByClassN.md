@@ -19,6 +19,19 @@ def vs.GetOpacityByClassN(h):
 |isPenOpacityByClass|BOOLEAN|   |
 |isFillOpacityByClass|BOOLEAN|   |
 
+## Examples
+```pascal
+GetOpacityByClassN(h, TRUE, FALSE);
+```
+```python
+import vs
+
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+isPenOpacityByClass, isFillOpacityByClass = vs.GetOpacityByClassN(h)
+vs.Message('GetOpacityByClassN returned: ' + str((isPenOpacityByClass, isFillOpacityByClass)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

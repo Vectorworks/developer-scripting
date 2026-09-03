@@ -23,6 +23,27 @@ def vs.DeleteResourceFromList(listID, index):
 ## Examples
 [WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
+```pascal
+BEGIN
+DeleteResourceFromList (defaultListID, i);
+defaultListCount := defaultListCount - 1;
+END;
+
+BEGIN
+DeleteResourceFromList(ResourceListID,cnt);
+NumResources := NumResources -1;
+END
+```
+```python
+import vs
+
+# Deletes the indicated object in the specified resource list.
+listID = 1
+index = 1
+
+vs.DeleteResourceFromList(listID, index)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

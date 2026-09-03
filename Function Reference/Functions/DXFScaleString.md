@@ -17,6 +17,20 @@ def vs.DXFScaleString(scale):
 |---|---|---|
 |scale|REAL|   |
 
+## Examples
+```pascal
+resultStr := DXFScaleString(1.0);
+```
+```python
+import vs
+
+# Get DXF scale string.
+scale = 1.0
+
+text = vs.DXFScaleString(scale)
+vs.Message('DXFScaleString returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

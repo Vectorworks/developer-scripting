@@ -20,6 +20,22 @@ def vs.vsoWidgetPopupGetID(widgetID, text):
 |widgetID|LONGINT|   |
 |text|STRING|   |
 
+## Examples
+```pascal
+resultStr := vsoWidgetPopupGetID(1, 'Example');
+```
+```python
+import vs
+
+# For an OIP search popup widget, returns the IDName for an item specified by
+# it's text.
+widgetID = 1
+text = 'Example text'
+
+text = vs.vsoWidgetPopupGetID(widgetID, text)
+vs.Message('vsoWidgetPopupGetID returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

@@ -120,6 +120,32 @@ Run(WriteXML);
 
 ```
 
+```pascal
+BEGIN
+	int := WriteXMLFile(xmlID, -1, PlugInsCommonDataPreferences);
+	int := ReleaseXML(xmlID);
+END;
+
+				{Universal -> Display}
+				END;
+				END;
+	END;
+	result := WriteXMLFile(hXML, -1, xmlFileNpath);
+	CheckWrite(result,0);
+    result := ReleaseXML(hXML);
+END;
+
+	Result := SetAttributeValue(hXML, Concat('/',xmlRootName,'/',xmlSpeakerFolder,'/',Concat('Box',SpeakerNum)),
+		'WeightKG', Concat(SpeakerWeightKG));
+	Result := SetAttributeValue(hXML, Concat('/',xmlRootName,'/',xmlSpeakerFolder,'/',Concat('Box',SpeakerNum)),
+		'Version', Concat(CodeVersion));
+	Result := WriteXMLFile(hXML, -1, Concat(ActXMLFilePath,kXMLFileName));
+END
+```
+```python
+result = vs.WriteXMLFile(h, 'file.txt', 'file.txt')
+```
+
 ## Version
 Availability: from All Versions
 

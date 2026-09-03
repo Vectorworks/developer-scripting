@@ -67,6 +67,24 @@ END;
 RUN(TEST);
 ```
 
+## Examples
+```pascal
+resultOK := SetStoryElevation(story, 1.0);
+```
+```python
+import vs
+
+# Sets the elevation of the indicated Story.
+story = vs.FSActLayer()  # handle to the first selected object on the active layer
+elevation = 0.0
+
+ok = vs.SetStoryElevation(story, elevation)
+if ok:
+    vs.Message('SetStoryElevation succeeded')
+else:
+    vs.Message('SetStoryElevation failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

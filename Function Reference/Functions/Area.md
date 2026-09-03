@@ -28,9 +28,15 @@ totalA:=Area((C='Plywood')and(L='First'));
 
 ```
 
+```pascal
+resultVal := Area(c);
+```
+```python
+result = vs.Area(c)
+```
+
 ## Version
 Area is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from All Versions
 

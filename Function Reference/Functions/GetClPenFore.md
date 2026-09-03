@@ -39,6 +39,39 @@ cRed,cGrn,cBlu = vs.GetClPenFore('Grassy Cover')
 colorValue = vs.RGBToColorIndex(cRed,cGrn,cBlu)
 ```
 
+```pascal
+END;
+IF (ok) & (penforeDo) & (penforeVa <> mT) THEN BEGIN
+	if false then ok := false else BEGIN
+		IF IsPenColorByClass(h)
+			THEN GetClPenFore(GetClass(h), r, g, b)
+			ELSE GetPenFore(h, r, g, b);
+		RGBToColorIndex(r, g, b, num1);
+		num2 := Str2Num(penforeVa);
+		ok := (ok) & (((penforeOp = '=' ) & (num1 =  num2)) |
+		              ((penforeOp = '<' ) & (num1 <  num2)) |
+
+GetClPenBack( kModifierClass, cR, cG, cB );
+SetPenBack( h4, cR, cG, cB );
+GetClPenFore( kModifierClass, cR, cG, cB );
+SetPenFore( h4, cR, cG, cB );
+SetFPat(h4, 0);
+
+GetClPenFore (UserClassName, r, g, b);
+RGBToColorIndex (r, g, b, tempLongInt);
+IF DecimalToColorIndex (TmpClassInfo.PenColor) <> tempLongInt THEN
+	SetClPenFore (UserClassName, DecimalToColorIndex(TmpClassInfo.PenColor));
+```
+```python
+import vs
+
+# Returns the pen foreground color setting of the specified class.
+className = 'None'
+
+colorRV, colorGV, colorBV = vs.GetClPenFore(className)
+vs.Message('GetClPenFore returned: ' + str((colorRV, colorGV, colorBV)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

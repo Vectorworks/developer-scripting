@@ -43,6 +43,24 @@ def vs.StairSetConstType(stair, ConstructionType):
 |stair|HANDLE|   |
 |ConstructionType|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := StairSetConstType(stair, 1);
+```
+```python
+import vs
+
+# h for more details.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+ConstructionType = 0
+
+ok = vs.StairSetConstType(stair, ConstructionType)
+if ok:
+    vs.Message('StairSetConstType succeeded')
+else:
+    vs.Message('StairSetConstType failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

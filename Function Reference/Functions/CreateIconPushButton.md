@@ -69,6 +69,22 @@ def Example():
 Example()
 ```
 
+```pascal
+CreateIconPushButton(1, 2, 3, 10);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+nDialogID = 1
+nComponentID = 2
+nIconID = 3
+nWidthInChars = 10
+
+vs.CreateIconPushButton(nDialogID, nComponentID, nIconID, nWidthInChars)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks 12.5
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

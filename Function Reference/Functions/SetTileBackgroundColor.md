@@ -25,6 +25,19 @@ def vs.SetTileBackgroundColor(tileHandle, backgroundColor):
 SetTileBackgroundColor(tileHandle, backgroundColor);
 ```
 
+```pascal
+SetTileBackgroundColor(tileHandle, 1);
+```
+```python
+import vs
+
+# Sets the specified tile resource's background color.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+backgroundColor = 5
+
+vs.SetTileBackgroundColor(tileHandle, backgroundColor)
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

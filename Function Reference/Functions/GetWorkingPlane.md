@@ -28,6 +28,18 @@ def vs.GetWorkingPlane():
 |yRotation|REAL|Y-coordinate value of the rotation|
 |zRotation|REAL|Z-coordinate value of the rotation|
 
+## Examples
+```pascal
+GetWorkingPlane(1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Retrieves the location and orientation of the working plane.
+x, y, z, xRotation, yRotation, zRotation = vs.GetWorkingPlane()
+vs.Message('GetWorkingPlane returned: ' + str((x, y, z, xRotation, yRotation, zRotation)))
+```
+
 ## See Also
 VS Functions:
 [SetWorkingPlane](SetWorkingPlane.md)

@@ -34,6 +34,15 @@ See NurbsSurfaceEvalPt
 
 ```
 
+```pascal
+{ Find number of knots in each direction. }
+      knotsU := NurbsNumKnots( hExtr, 1 );
+      knotsV := NurbsNumKnots( hExtr, 0 );
+```
+```python
+result = vs.NurbsNumKnots(objectHd, 1)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

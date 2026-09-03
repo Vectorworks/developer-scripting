@@ -15,6 +15,19 @@ def vs.FPatByClass():
 ## Remarks
 Sets the global attributes to use the fill pattern of the default class.
 
+## Examples
+```pascal
+FPatByClass;
+```
+```python
+vs.FillColorByClass()
+vs.PenColorByClass()
+vs.MarkerByClass()
+vs.FPatByClass()
+vs.LSByClass()
+vs.LWByClass()
+```
+
 ## See Also
 VS Functions:
 [PenColorByClass](PenColorByClass.md) 

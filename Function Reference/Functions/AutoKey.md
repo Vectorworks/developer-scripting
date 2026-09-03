@@ -22,8 +22,6 @@ def vs.AutoKey():
 ## Remarks
 This function hangs on the Mac. Julian recommends using KeyDown on the Mac instead, while AutoKey works fine on the PC.
 
-
-
 Today, under VW 13, it looks like the opposite is true:
 *AutoKey will work (not reliably) under Mac, will hang on Windows
 *KeyDown will sort of work under Windows, will be fully ignored under Mac
@@ -44,6 +42,13 @@ Message('The key pressed was ',keyHit);
 #### Python ####
 ```python
 
+```
+
+```pascal
+resultOK := AutoKey(1);
+```
+```python
+result = vs.AutoKey()
 ```
 
 ## Version

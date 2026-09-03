@@ -12,6 +12,17 @@ def vs.EndSym():
     return None
 ```
 
+## Examples
+```pascal
+EndSym;
+```
+```python
+import vs
+
+# Procedure EndSym completes symbol creation in VectorScript.
+vs.EndSym()
+```
+
 ## Version
 Availability: from All Versions
 

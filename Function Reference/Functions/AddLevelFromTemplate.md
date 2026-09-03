@@ -33,6 +33,24 @@ storyHandle := CreateStory('Floor 1', '-1');
 success := AddLevelFromTemplate(storyHandle,1);
 ```
 
+```pascal
+resultOK := AddLevelFromTemplate(storyHandle, 1);
+```
+```python
+import vs
+
+# Adds a new Story Layer to the Story pointed to by 'storyHandle', using the
+# Story Level Template at 'index' as a template.
+storyHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+ok = vs.AddLevelFromTemplate(storyHandle, index)
+if ok:
+    vs.Message('AddLevelFromTemplate succeeded')
+else:
+    vs.Message('AddLevelFromTemplate failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

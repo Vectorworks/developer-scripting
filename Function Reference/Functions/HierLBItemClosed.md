@@ -24,6 +24,22 @@ def vs.HierLBItemClosed(dialogID, componentID, itemIndex, recursive):
 |itemIndex|INTEGER|The index of the item that was clicked on.|
 |recursive|BOOLEAN|Whether to also close any containers inside the container that was clicked on.|
 
+## Examples
+```pascal
+HierLBItemClosed(1, 2, 3, TRUE);
+```
+```python
+import vs
+
+# This function is called when the user clicks on a container item to close it.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+recursive = True
+
+vs.HierLBItemClosed(dialogID, componentID, itemIndex, recursive)
+```
+
 ## See Also
 VS Functions:
 [HierLBItemOpened](HierLBItemOpened.md)

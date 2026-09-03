@@ -35,6 +35,39 @@ END;
 
 ```
 
+```pascal
+BEGIN
+	{Dialog supports CR which ReadLn sees as a delimiter so must parse the line}
+	TempLongString := '';
+	StdReadLn(TempLongString);
+	ParseLongString(TempLongString,kTab,MasterDataTable [n,1]);{VW Sheet Name with no suffix} {SheetType}
+	ParseLongString(TempLongString,kTab,MasterDataTable [n,2]);{Layer Name with no suffix} {LayerType}
+	ParseLongString(TempLongString,kTab,MasterDataTable [n,3]);{Class Name}
+	ParseLongString(TempLongString,kTab,MasterDataTable [n,4]);{Layer Option Index} {always 5}
+
+fileOK := FALSE;
+Open(fullName);
+IF GetLastFileErr = 0 THEN BEGIN
+	for cnt := 1 to numHeadRows DO StdReadLn(dynaChar); {Get rid OF the header rows.}
+	inCnt := 0;
+	fileOK := TRUE;
+	while not EOF(fullName) do BEGIN
+		inCnt := inCnt + 1;
+
+if OpenRelError(GetLocStr(11112, 1), 'Lumber Sizes.txt', true, fullName) = 0 THEN BEGIN {$INCLOOD VW_Arch\Data\Lumber Sizes.txt}
+	nom_cnt := 0;
+	keepGoing := TRUE;
+	while keepGoing do BEGIN
+		StdReadLn(temp1_s);
+		if (Pos('Imperial', temp1_s) = 1) | (Pos('Metric', temp1_s) = 1) then StoreNominals(temp1_s) ELSE
+		if (Pos('Minimum length (Imperial):',    temp1_s) = 1) then StoreLenMinInc(temp1_s, minLenImp) ELSE
+		if (Pos('Minimum length (Metric):',      temp1_s) = 1) then StoreLenMinInc(temp1_s, minLenMet) ELSE
+		if (Pos('Length increments (Imperial):', temp1_s) = 1) then StoreLenMinInc(temp1_s, lenIncImp) ELSE
+```
+```python
+result = vs.StdReadLn()
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

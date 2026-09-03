@@ -24,6 +24,23 @@ def vs.SetPrefRGB(prefIndex, colorRV, colorGV, colorBV):
 |colorGV|LONGINT|The RGB color component (green).|
 |colorBV|LONGINT|The RGB color component (blue).|
 
+## Examples
+```pascal
+SetPrefRGB(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Procedure SetPrefRGB return the RGB color components of the specified
+# preference item.
+prefIndex = 1
+colorRV = 5
+colorGV = 5
+colorBV = 5
+
+vs.SetPrefRGB(prefIndex, colorRV, colorGV, colorBV)
+```
+
 ## See Also
 [GetPrefRGB](GetPrefRGB.md)
 

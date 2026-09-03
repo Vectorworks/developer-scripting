@@ -29,6 +29,41 @@ def vs.SetBelowItem(dialogID, srcItemID, belowtItemID, indent, lineSpacing):
 ## Remarks
 Use the indent and lineSpacing sparingly.[DWD 1/20/00]
 
+## Examples
+```pascal
+{* Position dialog control items *}
+SetFirstLayoutItem (dialogID, 3);
+SetRightItem (dialogID, 3, 4, 0, 0);
+SetBelowItem (dialogID, 3, 5, 0, 0);
+SetRightItem (dialogID, 5, 6, 0, 0);
+SetBelowItem (dialogID, 5, 7, 0, 0);
+SetBelowItem (dialogID, 7, 8, 3, -2);
+
+{* Position dialog control items *}
+	SetFirstLayoutItem (dialogID, 3);
+	SetFirstGroupItem (dialogID, 3, 4);
+	SetBelowItem (dialogID, 4, 5, 0, 2);
+	SetRightItem (dialogID, 4, 6, 0, 0);
+	SetRightItem (dialogID, 5, 7, 0, 0);
+
+{* Position the control items *}
+	SetFirstLayoutItem (dialogID, 4);
+	SetBelowItem (dialogID, 4, 5, 0, 4);
+	SetBelowItem (dialogID, 5, 7, 0, 1);
+```
+```python
+import vs
+
+# Places the specified control item below a previously inserted control item.
+dialogID = 1
+srcItemID = 2
+belowtItemID = 3
+indent = 10
+lineSpacing = 1
+
+vs.SetBelowItem(dialogID, srcItemID, belowtItemID, indent, lineSpacing)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

@@ -17,6 +17,22 @@ def vs.PrevSymDef(symHd):
 |---|---|---|
 |symHd|HANDLE|Handle to symbol definition.|
 
+## Examples
+```pascal
+resultH := PrevSymDef(symHd);
+```
+```python
+import vs
+
+# Function PrevSymDef returns a handle to the symbol definition in the symbol
+# library preceding the referenced definition.
+symHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.PrevSymDef(symHd)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from All Versions
 

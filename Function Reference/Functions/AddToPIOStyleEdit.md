@@ -34,6 +34,36 @@ def vs.AddToPIOStyleEdit(hObj, keyName, editType, displayName):
 |editType|INTEGER|1 - Add to edit list 2 - Remove from edit list|
 |displayName|STRING|The display name to use in the style map dialog. If an empy string is passed the keyName will be used.|
 
+## Examples
+```pascal
+bsb := AddToPIOStyleEdit ( styleHandle,  '__DoorHandle', kUpdateStyleEditName, GetPlugInString(3012) );
+bsb := AddToPIOStyleEdit( styleHandle, '__DrawerHandle', kUpdateStyleEditName,  GetPlugInString(3013) );
+
+BEGIN
+	IF ( NOT p__IsPilaster ) THEN resultStatus := AddToPIOStyleEdit( styleHandle, kArchitHeightParam, kRename, GetPluginString(3021) );
+	IF ( NOT p__IsPilaster ) THEN resultStatus := AddToPIOStyleEdit( styleHandle, kStructHeightParam, kRename, GetPluginString(3022) );
+	IF ( NOT p__IsPilaster ) THEN resultStatus := AddToPIOStyleEdit( styleHandle, 'NewHeight', kRemove, '' );
+	IF ( NOT p__IsPilaster ) THEN resultStatus := RemoveFrmPluginStyle( styleHandle, 'NewHeight' );
+	resultStatus := AddToPIOStyleEdit( styleHandle, kTextHeightParam, kRemove, '' );
+
+bsb := AddToPIOStyleEdit( styleHandle, '__DoorHandle', kUpdateStyleEditName,  GetPlugInString(3009) );
+```
+```python
+import vs
+
+# Adds an item to a plug-in style's default edit list.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+keyName = 'Example'
+editType = 0
+displayName = 'Example'
+
+ok = vs.AddToPIOStyleEdit(hObj, keyName, editType, displayName)
+if ok:
+    vs.Message('AddToPIOStyleEdit succeeded')
+else:
+    vs.Message('AddToPIOStyleEdit failed')
+```
+
 ## See Also
 VS Functions:
 [RemovePIOStyleEdit](RemovePIOStyleEdit.md)

@@ -43,6 +43,19 @@ else:
 	vs.AlrtDialog('The file is not georeferenced.')
 ```
 
+```pascal
+RemoveGeoref(hLayer);
+```
+```python
+import vs
+
+# Remove the georeferencing settings for a given layer handle, or for the
+# document if NIL is provided.
+hLayer = vs.ActLayer()  # handle to the active design layer
+
+vs.RemoveGeoref(hLayer)
+```
+
 ## Version
 Availability: from Vectorworks 2023.3
 

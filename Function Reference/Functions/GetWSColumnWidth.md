@@ -22,6 +22,20 @@ def vs.GetWSColumnWidth(worksheet, column):
 |column|INTEGER|Column to be queried.|
 |width|INTEGER|Width of column (in pixels).|
 
+## Examples
+```pascal
+GetWSColumnWidth(worksheet, 1, 2);
+```
+```python
+import vs
+
+# Returns the width of a column in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+column = 5
+
+result = vs.GetWSColumnWidth(worksheet, column)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

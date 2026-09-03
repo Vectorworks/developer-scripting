@@ -29,6 +29,24 @@ The parameter '''prefWhen''' can be one of:
 (*\_c\_*, 2016.02.08): 
 Objects created with this call won't allow you to set a profile group, even if they usually support it.
 
+## Examples
+```pascal
+BEGIN
+	pioRecHdl := DefineCustomObj( kHoistPIOName, 0 );
+END;
+```
+```python
+import vs
+
+# Calls GS_DefineCustomObject for a passed plugin name and preference.
+pluginName = 'Example'
+prefWhen = 1
+
+objHandle = vs.DefineCustomObj(pluginName, prefWhen)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

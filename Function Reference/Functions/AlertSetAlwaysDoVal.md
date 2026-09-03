@@ -22,6 +22,24 @@ def vs.AlertSetAlwaysDoVal(category, item, value):
 |item|STRING|item name in the category.|
 |value|INTEGER|new value for the default. Pass in -1 for the entry to be cleared out and the dialog to show up again.|
 
+## Examples
+```pascal
+BEGIN {User Clicked No}
+AlertSetAlwaysDoVal(Options[1],Options[2],-1);
+END;
+```
+```python
+import vs
+
+# Set the 'always do' value for the AlertQuestionDontShowAgain and
+# AlertInformDontShowAgain standard dialogs.
+category = 'Example'
+item = 'Example'
+value = 1
+
+vs.AlertSetAlwaysDoVal(category, item, value)
+```
+
 ## See Also
 VS Functions:
 [AlertQuestionDontShowAgain](AlertQuestionDontShowAgain.md) 

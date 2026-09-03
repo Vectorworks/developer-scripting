@@ -39,6 +39,13 @@ RUN(Example);
 
 ```
 
+```pascal
+resultH := CreateOffsetNurbsObjectHandle(h, 1.0);
+```
+```python
+result = vs.CreateOffsetNurbsObjectHandle(h, 1.0)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

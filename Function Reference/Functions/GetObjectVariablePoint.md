@@ -27,6 +27,21 @@ def vs.GetObjectVariablePoint(h, index):
 ## Remarks
 In python scripting, the point 'outP' will be returned as tuple (x,y,z)
 
+## Examples
+```pascal
+resultOK := GetObjectVariablePoint(h, 1, 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Returns the value of a Vectorworks object property.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+ok, outP = vs.GetObjectVariablePoint(h, index)
+vs.Message('GetObjectVariablePoint returned: ' + str((ok, outP)))
+```
+
 ## See Also
 VS Functions:
 [SetObjectVariablePoint](SetObjectVariablePoint.md) 

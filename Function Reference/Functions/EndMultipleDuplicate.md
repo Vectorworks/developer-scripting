@@ -15,6 +15,17 @@ def vs.EndMultipleDuplicate():
 ## Examples
 [TraverseObjectsInActiveLayer](examples/TraverseObjectsInActiveLayer.md)
 
+```pascal
+EndMultipleDuplicate;
+```
+```python
+import vs
+
+# Use this function in conjuction with EndMultipleDuplicate to preserve
+# constraints on multiple duplicated objects.
+vs.EndMultipleDuplicate()
+```
+
 ## See Also
 VS Functions:
 [BeginMultipleDuplicate](BeginMultipleDuplicate.md)

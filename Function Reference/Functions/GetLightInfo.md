@@ -34,6 +34,39 @@ def vs.GetLightInfo(h):
 |isOn|BOOLEAN|Returns on-off status of light.|
 |castShadow|BOOLEAN|Returns whether light casts shadows.|
 
+## Examples
+```pascal
+	BEGIN
+Writeln(Concat('Light Hand:',h));
+GetLightLocation(h,R1,R2,R3);
+Writeln('Location:',R1,',',R2,',',R3);
+GetLightInfo(h,I1,R1,B1,B2);
+Writeln('Type:',I1,' Brightness:',I1,' On:',B1,' Shadow:',B2);
+GetBeamAngle(h, R1);
+Writeln('Beam Angle:',R1);
+GetSpreadAngle(h, R1);
+
+		gLightZLoc[SceneNumber, LightNum] := TempLightLocVec.z;
+		gIsProjLight[SceneNumber, LightNum] := TRUE;
+		END;
+	END;
+GetLightInfo(LightObjHan,
+						gLightType[SceneNumber, LightNum],
+						gBrightNess[SceneNumber, LightNum],
+						gIsOn[SceneNumber, LightNum],
+						gCastShadow[SceneNumber, LightNum]
+					);
+```
+```python
+import vs
+
+# Procedure GetLightInfo returns the attributes of the referenced light object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+lightType, brightness, isOn, castShadow = vs.GetLightInfo(h)
+vs.Message('GetLightInfo returned: ' + str((lightType, brightness, isOn, castShadow)))
+```
+
 ## Version
 Availability: from MiniCAD 7.0
 

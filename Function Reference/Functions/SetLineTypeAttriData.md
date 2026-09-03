@@ -24,6 +24,27 @@ def vs.SetLineTypeAttriData(dialogID, itemID, lineType, lineWeight):
 |lineType|LONGINT|The internal index (reference number) of the line type.|
 |lineWeight|INTEGER|The line weight.The value is in mils.|
 
+## Examples
+```pascal
+SelectChoice(IDLabelDialog, kLabelShape, DWBubbleIndex, TRUE);
+SetLineTypeAttriData(IDLabelDialog,kIDLeaderLS,DWLineStyle,DWLineWeight);
+SetLineTypeAttriData(IDLabelDialog,kBubbleLS,BubbleLS,BubbleLW);
+SetBooleanItem(IDLabelDialog, kShowLeader,DWShowLeader);
+SetBooleanItem(IDLabelDialog, kUseMarker,UseMarker);
+SetBooleanItem(IDLabelDialog, kAutoRotate,DWHorz);
+```
+```python
+import vs
+
+# Set current choices for the line attribute dialog control.
+dialogID = 1
+itemID = 2
+lineType = 0
+lineWeight = 3
+
+vs.SetLineTypeAttriData(dialogID, itemID, lineType, lineWeight)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

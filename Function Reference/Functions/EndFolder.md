@@ -12,6 +12,17 @@ def vs.EndFolder():
     return None
 ```
 
+## Examples
+```pascal
+EndFolder;
+```
+```python
+import vs
+
+# Procedure EndFolder completes symbol folder creation in VectorScript.
+vs.EndFolder()
+```
+
 ## Version
 Availability: from All Versions
 

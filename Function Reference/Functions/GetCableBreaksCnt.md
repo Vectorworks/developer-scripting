@@ -18,6 +18,20 @@ def vs.GetCableBreaksCnt(hObj):
 |---|---|---|
 |hObj|HANDLE||
 
+## Examples
+```pascal
+resultN := GetCableBreaksCnt(hObj);
+```
+```python
+import vs
+
+# Get the count of cable breaks in the cable.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetCableBreaksCnt(hObj)
+vs.Message('GetCableBreaksCnt returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2025.4
 

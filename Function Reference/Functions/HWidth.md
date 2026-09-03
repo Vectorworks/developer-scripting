@@ -30,6 +30,31 @@ w:=HWidth(HandleToObj);
 
 ```
 
+```pascal
+	shapeH := MakeStructuralShape( shapeName, seriesIndex, univSize );
+	gStructWidth := HWidth( shapeH );
+	gStructDepth := HHeight( shapeH );
+IF is3D then BEGIN
+	EndXtrd;
+	shapeH := LNewObj;
+
+{ get the other properties }
+area   := HArea(objH);
+perim  := HPerim(objH);
+height := HHeight(objH);
+width  := HWidth(objH);
+
+BEGIN
+	symbolName := ResList_GetSel( kSymbolsContent );
+	symHandle := ResList_ImportItem( kSymbolsContent );
+	symbolWidth 	:= HWidth( symHandle );
+	symbolHeight	:= HHeight( symHandle );
+END;
+```
+```python
+result = vs.HWidth(h)
+```
+
 ## Version
 Availability: from All Versions
 

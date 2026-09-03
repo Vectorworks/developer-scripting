@@ -22,6 +22,21 @@ def vs.ShowLBHeader(dialogID, componentID, show):
 |componentID|LONGINT|   |
 |show|BOOLEAN|   |
 
+## Examples
+```pascal
+ShowLBHeader(1, 2, TRUE);
+```
+```python
+import vs
+
+# Shows or hides header row for a list browser control in a dialog.
+dialogID = 1
+componentID = 2
+show = True
+
+vs.ShowLBHeader(dialogID, componentID, show)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

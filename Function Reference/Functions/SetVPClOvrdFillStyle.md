@@ -19,6 +19,20 @@ def vs.SetVPClOvrdFillStyle(viewportHandle, className, fillStyle):
 |className|STRING|The name of the class|
 |fillStyle|LONGINT|The fill style to be set|
 
+## Examples
+```pascal
+SetVPClOvrdFillStyle(viewportHandle, 'Wall', 1);
+```
+```python
+import vs
+
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+fillStyle = 0
+
+vs.SetVPClOvrdFillStyle(viewportHandle, className, fillStyle)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

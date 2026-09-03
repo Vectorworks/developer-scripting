@@ -30,6 +30,20 @@ Sets note text (text under dimension line or dimension text) of the referenced d
 SetDimNote(dimHandle,'DLO');
 ```
 
+```pascal
+SetDimNote(h, 'Example');
+```
+```python
+import vs
+
+# Procedure SetDimNote sets the note text of the referenced dimension to the
+# specified value.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+note = 'Example'
+
+vs.SetDimNote(h, note)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

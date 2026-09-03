@@ -37,6 +37,30 @@ def vs.SetWSCellTopBN(worksheet, topRow, leftColumn, bottomRow, rightColumn, sty
 |weight|INTEGER|Border line weight to be set. (in Mils)|
 |color|LONGINT|Border line color to be set. (color index: 0..255)|
 
+## Examples
+```pascal
+BEGIN
+	IF SymDefArray[index-1,5] <> SymDefArray[index,5] THEN {Manufacturer <> previous Manufacturer}
+		SetWSCellTopBN(SymbolListWS,index+1,1,index+1,kMaxMotorFields,2,10,redIndex);
+		{Line weight is second to last parameter in mills}
+END;
+```
+```python
+import vs
+
+# Sets a top border with the specified attributes in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+style = 0
+weight = 1
+color = 5
+
+vs.SetWSCellTopBN(worksheet, topRow, leftColumn, bottomRow, rightColumn, style, weight, color)
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

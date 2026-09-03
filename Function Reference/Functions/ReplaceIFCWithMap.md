@@ -43,6 +43,23 @@ RUN(Test);
 ok = vs.ReplaceIFCWithMap(NULL, 'Wall')
 ```
 
+```pascal
+resultOK := ReplaceIFCWithMap(hObject, 'Example');
+```
+```python
+import vs
+
+# Deletes attached IFC Record from: case 1: Object If the HANDLE is not NULL.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrObjName = 'Example'
+
+ok = vs.ReplaceIFCWithMap(hObject, inStrObjName)
+if ok:
+    vs.Message('ReplaceIFCWithMap succeeded')
+else:
+    vs.Message('ReplaceIFCWithMap failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

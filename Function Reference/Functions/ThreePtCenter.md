@@ -68,6 +68,41 @@ if polyObj != vs.Handle( 0 ): # not checking here for obj type, but you should
     vs.AlrtDialog( f'Angle of tangent at pt2:\r{ang:.3f}' ) # precision = 3, coercing float
 ```
 
+```pascal
+BEGIN
+	pt1 := ThreePtCenter(PolyPoints[I].pt, PolyPoints[I+1].pt, PolyPoints[I-1].pt);
+	pt2 := PolyPoints[I-1].pt;
+	pt3 := PolyPoints[I+1].pt;
+
+to reduce the number of errors in long nearly parallel segments. I really need to
+replace the proportional algorithm with a user-definable fixed deviation factor.
+But it's too late in the 10 cycle to change the interfaces, and I'm not sure
+if one factor would DO it, or IF it would take more than one.}
+cen_pt := ThreePtCenter(pt1, pt2, pt3);
+rad := Dist(cen_pt, pt1);
+
+to reduce the number of errors in long nearly parallel segments. I really need to
+replace the proportional algorithm with a user-definable fixed deviation factor.
+But it's too late in the 10 cycle to change the interfaces, and I'm not sure
+if one factor would DO it, or IF it would take more than one.}
+cen_pt := ThreePtCenter(pt1, pt2, pt3);
+rad := Dist(cen_pt, pt1);
+IF ((EqPercent(Dist((pt1 + pt2) / 2, cen_pt), rad, 4)) &
+	 (EqPercent(Dist((pt2 + pt3) / 2, cen_pt), rad, 4)) &
+	 (EqPercent(Dist(pt1, pt2), Dist(pt2, pt3), 50))) THEN BEGIN
+```
+```python
+import vs
+
+# Returns the center of a circle passing thru 3 given points.
+pt1 = (0, 0)
+pt2 = (1, 1)
+pt3 = (2, 2)
+
+vec = vs.ThreePtCenter(pt1, pt2, pt3)
+vs.Message('ThreePtCenter returned: ' + str(vec))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

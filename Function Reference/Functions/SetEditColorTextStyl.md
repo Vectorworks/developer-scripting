@@ -26,6 +26,22 @@ def vs.SetEditColorTextStyl(dialogID, itemID, strStyle):
 |outValue|DYNARRAY[] of CHAR|Some set style commands produce value. The value will be packed up in a string which the user must take care as needed.|
 |outParam2|DYNARRAY[] of CHAR|Some style commands return parameter, The value will be packed up in a string which the user must take care as needed.|
 
+## Examples
+```pascal
+resultOK := SetEditColorTextStyl(1, 2, strStyle, outValue, outParam2);
+```
+```python
+import vs
+
+# Set styles for the control, providing or requesting data.
+dialogID = 1
+itemID = 2
+strStyle = 'Example'
+
+ok, outValue, outParam2 = vs.SetEditColorTextStyl(dialogID, itemID, strStyle)
+vs.Message('SetEditColorTextStyl returned: ' + str((ok, outValue, outParam2)))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

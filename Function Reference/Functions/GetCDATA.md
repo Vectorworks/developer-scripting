@@ -41,7 +41,6 @@ begin
 	err := GetElementValue( xml, '/root/value', value );
 	err := GetCDATA( xml, '/root/data', cdata );
 
-
 	AlrtDialog( Concat( 'value=', value, ' cdata=', cdata ) );
 
 	err := ReleaseXML( xml );
@@ -61,6 +60,20 @@ def test():
 	err = vs.ReleaseXML( xml )
 
 test()
+```
+
+```pascal
+resultN := GetCDATA(1, 'file.txt', returnVal);
+```
+```python
+import vs
+
+# Retrieves the CDATA section of the specified element.
+XMLHandle = 1
+elementPath = 'C:/Temp'
+
+resultN, returnVal = vs.GetCDATA(XMLHandle, elementPath)
+vs.Message('GetCDATA returned: ' + str((resultN, returnVal)))
 ```
 
 ## See Also

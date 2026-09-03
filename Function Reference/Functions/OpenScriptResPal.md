@@ -20,6 +20,20 @@ def vs.OpenScriptResPal(paletteName, open):
 |paletteName|STRING|The script resource palette.|
 |open|BOOLEAN|Pass in TRUE for the palette to be opened.|
 
+## Examples
+```pascal
+OpenScriptResPal('Example', TRUE);
+```
+```python
+import vs
+
+# Open or close a script resource palette.
+paletteName = 'Example'
+open = True
+
+vs.OpenScriptResPal(paletteName, open)
+```
+
 ## See Also
 VS Functions:
 [CreateScriptResource](CreateScriptResource.md) 

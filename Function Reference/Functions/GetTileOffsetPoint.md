@@ -25,6 +25,18 @@ def vs.GetTileOffsetPoint(tileHandle):
 GetTileOffsetPoint(tileHandle, offsetPoint);
 ```
 
+```pascal
+GetTileOffsetPoint(tileHandle, 1);
+```
+```python
+import vs
+
+# Gets the specified tile resource's offset point.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+result = vs.GetTileOffsetPoint(tileHandle)
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

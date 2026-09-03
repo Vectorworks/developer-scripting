@@ -41,6 +41,35 @@ RUN(GetArcSetArcExample);
 
 ```
 
+```pascal
+6: BEGIN	{ Arc/Circle }
+	getArc(hTemp, startA, endA);
+	setArc(hTemp, 0.0, 360.0);
+	getbbox(hTemp, x1, y1, x2, y2);
+	setbbox(hTemp, x1*factor, y1*factor, x2*factor, y2*factor);
+	setArc(htemp, startA, endA);
+	END;
+
+					PolyPoints[I].h := oldWalls[found].h;
+					oldWalls[found].WasUsed := TRUE;
+				END;{ else if fullyTheSameWall = 0 then begin
+					temp_pt := walls[1].center - oldWalls[found].center;
+					SetArc(oldWalls[found].h, walls[1].startAng, walls[1].sweepAng);
+					{! Need the ability to set the radius of a round wall.}
+					{HMove(oldwalls[found].h, temp_pt.x, temp_pt.y);}
+{				END;}
+
+BEGIN
+	HCenter(h, cen_pt.x, cen_pt.y);
+	SetArc (h, startAng, sweepAng);
+	{! IF GetType(h) = 6 THEN  ELSE}
+	IF IsArcBasedWall(h) THEN SetObjectVariableReal(h, 571, radius);
+END;
+```
+```python
+vs.SetArc(h, 1.0, 2.0)
+```
+
 ## Version
 Availability: from All Versions
 

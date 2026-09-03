@@ -30,6 +30,22 @@ def vs.GetCWPanelFromPt(hWall, testPt, includeBottomFrame):
 |width|REAL|The width of the rectangle in which to place the object.|
 |height|REAL|The height of the rectangle in which to place the object.|
 
+## Examples
+```pascal
+resultOK := GetCWPanelFromPt(hWall, 1, TRUE, 2, 1.0, 2.0);
+```
+```python
+import vs
+
+# Returns information about a panel in a curtain wall from a given point.
+hWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+testPt = (0, 0)
+includeBottomFrame = True
+
+ok, centerPt, width, height = vs.GetCWPanelFromPt(hWall, testPt, includeBottomFrame)
+vs.Message('GetCWPanelFromPt returned: ' + str((ok, centerPt, width, height)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

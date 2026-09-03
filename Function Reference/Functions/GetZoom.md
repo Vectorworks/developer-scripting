@@ -20,6 +20,19 @@ def vs.GetZoom():
 [sd 8/18/98]
 Returns the percentage of the zoom factor in the current view. (100.0 would be the value if no zooming was done).
 
+## Examples
+```pascal
+resultVal := GetZoom;
+```
+```python
+import vs
+
+# Function GetZoom returns the percentage of the zoom factor in the current
+# document view.
+value = vs.GetZoom()
+vs.Message('GetZoom returned: ' + str(value))
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

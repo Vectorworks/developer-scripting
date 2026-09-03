@@ -17,6 +17,17 @@ def vs.UnHideObjects():
 UnHideObjects();
 ```
 
+```pascal
+UnHideObjects;
+```
+```python
+import vs
+
+# Changes the object visibility to &quot;visible&quot; for all objects hidden
+# with Hide, HideSelectedObjects and ShowOnlySelected commands.
+vs.UnHideObjects()
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

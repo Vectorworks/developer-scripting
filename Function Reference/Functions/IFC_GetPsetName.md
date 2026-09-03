@@ -46,6 +46,19 @@ if ok:
 	vs.AlrtDialog(outStrPsetName)
 ```
 
+```pascal
+resultOK := IFC_GetPsetName(hObject, 1, 'Example');
+```
+```python
+import vs
+
+# Gets the name of the property set at that index.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inPsetIndex = 1
+
+result = vs.IFC_GetPsetName(hObject, inPsetIndex)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

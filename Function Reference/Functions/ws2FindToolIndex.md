@@ -20,6 +20,21 @@ def vs.ws2FindToolIndex(toolPath, findUnivName):
 |toolPath|DYNARRAY[] of CHAR|   |
 |findUnivName|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultN := ws2FindToolIndex(toolPath, findUnivName);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+findUnivName = 'Example'
+
+index = vs.ws2FindToolIndex(toolPath, findUnivName)
+vs.Message('ws2FindToolIndex returned: ' + str(index))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

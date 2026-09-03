@@ -25,6 +25,19 @@ object: is the roof object into which to add the dormer.
 ## Examples
 [CreateRoofOb](examples/CreateRoofObj.md)
 
+```pascal
+resultN := CreateHipDormer(roofObject);
+```
+```python
+import vs
+
+# Function CreateHipDormer creates a hip dormer in the referenced roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.CreateHipDormer(roofObject)
+vs.Message('CreateHipDormer returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

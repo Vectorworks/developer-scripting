@@ -22,6 +22,22 @@ def vs.CreateThreeStateCheckBox(dialogID, componentID, strName):
 |componentID|LONGINT|   |
 |strName|STRING|   |
 
+## Examples
+```pascal
+CreateThreeStateCheckBox(1, 2, 'Example');
+```
+```python
+import vs
+
+# Creates a Layout Manager three state checkbox.
+dialogID = 1
+componentID = 2
+strName = 'Example'
+
+vs.CreateThreeStateCheckBox(dialogID, componentID, strName)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

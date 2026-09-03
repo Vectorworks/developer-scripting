@@ -34,6 +34,31 @@ It is possible to place a control next to the OK and Cancel button. To do this, 
 ## Examples
 [DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
+```pascal
+dialogID := CreateLayout (fieldS [1], TRUE, fieldS [2], fieldS [3]);
+
+BEGIN
+	dialogID := CreateLayout (GetPlugInString (3003), TRUE, GetPlugInString (3001), GetPlugInString (3002));
+
+labelWidth := GetDlgCtrlWidthStdCh(GetPlugInString(3005));
+IF labelWidth < GetDlgCtrlWidthStdCh(GetPlugInString(3006)) THEN labelWidth := GetDlgCtrlWidthStdCh(GetPlugInString(3006));
+IF labelWidth < GetDlgCtrlWidthStdCh(GetPlugInString(3021)) THEN labelWidth := GetDlgCtrlWidthStdCh(GetPlugInString(3021));
+IF labelWidth < GetDlgCtrlWidthStdCh(GetPlugInString(3022)) THEN labelWidth := GetDlgCtrlWidthStdCh(GetPlugInString(3022));
+dialogID := CreateLayout (GetPlugInString (3003), TRUE, GetPlugInString (3001), GetPlugInString (3002));
+```
+```python
+import vs
+
+# Creates a new custom dialog layout.
+dialogTitle = 'Example'
+hasHelp = True
+defaultButtonName = 'Example'
+cancelButtonName = 'Example'
+
+resultN = vs.CreateLayout(dialogTitle, hasHelp, defaultButtonName, cancelButtonName)
+vs.Message('CreateLayout returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

@@ -41,9 +41,39 @@ Marker(2,0.25,60);
 
 ```
 
+```pascal
+EndXtrd;
+ResetOrientation3D;
+Rotate3D(#90.0,#0.0,#90.0);
+Move3D(0e0',0e0',0e0');
+Marker(0,0.125,15);
+MoveTo(-7.1875e-1',-1.333e0');
+LineTo(-7.1875e-1',-1.041667e-1');
+MoveTo(7.1875e-1',-1.3333e0');
+LineTo(7.1875e-1',-1.041667e-1');
+
+Marker(0,0,0);
+
+Marker(0,0,0);
+SetScaleFactor;
+SetFixFactor;
+```
+```python
+if ok and ResourceIsOK():
+	vs.PushAttrs()
+	vs.Marker( 0, 0, 0 )
+	if objectHand != None:
+		noneClass = vs.GetClass( objectHand )
+		succeeded = True
+
+prefInt3DRes = vs.GetPrefInt( 56 )
+vs.SetPrefInt( 5556, kPrefInt3DRes )
+vs.Marker( 0, 0, 0 )
+vs.ClosePoly()
+```
+
 ## Version
 Marker is obsolete as of VectorWorks13.0<P>
-
 
 Availability: from MiniCAD6.0
 

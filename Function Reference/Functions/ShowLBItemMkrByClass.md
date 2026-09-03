@@ -26,6 +26,24 @@ def vs.ShowLBItemMkrByClass(dialogID, componentID, itemIndex, subItemIndex, show
 |subItemIndex|INTEGER|the column index|
 |showByClass|BOOLEAN|if the marker's By Class option is shown in the popup|
 
+## Examples
+```pascal
+ShowLBItemMkrByClass(1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Indicates if the By Class option in the popup of the specified list browser
+# item's marker should be shown.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+showByClass = True
+
+vs.ShowLBItemMkrByClass(dialogID, componentID, itemIndex, subItemIndex, showByClass)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

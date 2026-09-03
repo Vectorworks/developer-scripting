@@ -17,6 +17,20 @@ def vs.GetDXFColorToLW(dxfClrIndex):
 |---|---|---|
 |dxfClrIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultN := GetDXFColorToLW(1);
+```
+```python
+import vs
+
+# Get DXF color to lineweight.
+dxfClrIndex = 1
+
+resultN = vs.GetDXFColorToLW(dxfClrIndex)
+vs.Message('GetDXFColorToLW returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

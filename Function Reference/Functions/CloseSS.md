@@ -30,6 +30,13 @@ CloseSS(HandleToWS);
 
 ```
 
+```pascal
+CloseSS(h);
+```
+```python
+vs.CloseSS(h)
+```
+
 ## See Also
 [ShowWS](ShowWS.md)
 

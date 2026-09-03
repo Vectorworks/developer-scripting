@@ -37,6 +37,33 @@ SetClFPat('Grassy Cover',42);
 
 ```
 
+```pascal
+GetWSCellValue (wksHand, row, col+4, tempInt);	{fill pattern}
+SetClFPat (userClassName, tempInt);
+
+IF GetClFPat (UserClassName) <> TmpClassInfo.FillPat THEN SetClFPat (UserClassName, TmpClassInfo.FillPat);
+
+NameClass (UserClassName);
+SetClPenFore (UserClassName, DecimalToColorIndex(TmpClassInfo.PenColor));
+SetClLW (UserClassName, TmpClassInfo.LW);
+SetClLSN (UserClassName, TmpClassInfo.LS);
+SetClFPat (UserClassName, TmpClassInfo.FillPat);
+SetClFillFore (UserClassName, DecimalToColorIndex (TmpClassInfo.FillFore));
+SetClFillBack (UserClassName, DecimalToColorIndex (TmpClassInfo.FillBack));
+SetClUseGraphic (UserClassName, TmpClassInfo.UseAtCreation);
+tempH := GetObject (UserClassName);
+```
+```python
+vs.SetClLSN( userClassName, tempInt )
+tempInt = vs.GetWSCellValue( wksHand, row, col + 4 )
+# fill pattern
+vs.SetClFPat( userClassName, tempInt )
+tempInt = vs.GetWSCellValue( wksHand, row, col + 5 )
+# fill fore pen color
+r, g, b = vs.ColorIndexToRGB( tempInt, r, g, b )
+vs.SetClFillFore( userClassName, r, g, b )
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -20,6 +20,20 @@ def vs.vsoWidgetPopupEnergy(widgetID, dataType):
 |widgetID|LONGINT|   |
 |dataType|INTEGER|   |
 
+## Examples
+```pascal
+vsoWidgetPopupEnergy(1, 2);
+```
+```python
+import vs
+
+# Attach a widget for energy data to appear in the Object Info Palette.
+widgetID = 1
+dataType = 0
+
+vs.vsoWidgetPopupEnergy(widgetID, dataType)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

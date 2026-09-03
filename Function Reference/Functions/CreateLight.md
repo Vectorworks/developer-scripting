@@ -48,6 +48,46 @@ CreateLight(2, 3, 8, 1, TRUE, TRUE);
 vs.CreateLight(2, 3, 8, 1, True, True)
 ```
 
+```pascal
+BEGIN
+	gLightHan := CreateLight(1,1,1,0, TRUE,TRUE);
+	IF gShowFrameCounter THEN SetupFrameCounter;
+	GetSunrise(gSunriseHour, gSunriseMinute, gDoQTFrames);
+	GoTilSunset(gSunriseHour, gSunriseMinute, gSunSetHour, gSunSetMinute, gDoQTFrames);
+END;
+
+BEGIN
+	z := z + ztmp;
+	SetOriginAbsolute(0,0);
+	lightHandle := CreateLight(xOrg+x,yOrg+y,z,1,TRUE,TRUE);
+	SetOriginAbsolute(xOrg,yOrg);
+	DoMenuTextByName( GetLocStr(11050,24), 1 );{'OpenGL Render Chunk'}
+	ReDrawAll;
+	END;
+
+BEGIN
+TmpLightHandle := CreateLight(gLightXLoc[SceneNumber, I], gLightYLoc[SceneNumber, I], gLightZLoc[SceneNumber, I],2,FALSE,TRUE);
+IF TmpLightHandle <> NIL THEN
+	BEGIN
+	SetName(TmpLightHandle,gLightName[SceneNumber, I]);
+	TempLightCount := TempLightCount+1;
+```
+```python
+import vs
+
+# CreateLight creates a new light object in the active VectorScript document.
+pXR = 1.0
+pYR = 2.0
+pZR = 0.5
+lightType = 0
+isOn = True
+castShadow = True
+
+objHandle = vs.CreateLight(pXR, pYR, pZR, lightType, isOn, castShadow)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from MiniCAD 7.0
 

@@ -16,6 +16,22 @@ def vs.FndError():
 This example isn't very helpful. JDW.
 [sd 8/14/98]
 
+## Examples
+```pascal
+resultOK := FndError;
+```
+```python
+import vs
+
+# Function FndError returns whether an error has occurred within a
+# VectorScript subroutine.
+ok = vs.FndError()
+if ok:
+    vs.Message('FndError succeeded')
+else:
+    vs.Message('FndError failed')
+```
+
 ## Version
 Availability: from All Versions
 

@@ -55,6 +55,43 @@ BEGIN
 END;
 ```
 
+## Examples
+```pascal
+BEGIN
+	formatH := GetObject (pluginName);
+	IF pMethod = GetCustomObjectChoice (pluginName, 'pMethod', 2) THEN method := 2
+	ELSE method := 1;
+
+ELSE
+	traverseFolder (FInFolder (GetObject (gFolderName)));
+
+BEGIN
+bsb := GetCustomObjectInfo(parmName, parmHand, parmRecordHand, wallHand);
+IF parmHand = NIL THEN parmHand := GetObject(parmName);
+	CASE theButton OF
+	kDoorHandlesBtn:
+		BEGIN
+		DoorHandSymName := GetRField(parmHand, parmName, '__DoorHandle');
+```
+```python
+if gObjHandle == None:
+	gObjName 	= 'Interior-Elevation Marker';
+	gObjHandle	= vs.GetObject( gObjName )	# get format, it is important for tool events!!
+
+if className != '':
+	# Make sure GCOI returns true, or else youll get a bunch of warnings from SetCLUseGraphic, Is__ByClass, etc.
+	h = vs.GetObject( className )
+	if h != 0:
+		objType	= vs.GetTypeN( h )
+		if objType == 94:
+			vs.NameClass( className )
+
+if gObjHandle == None:
+	gObjName = 'Roadway (Curved)'
+	gObjHandle	= vs.GetObject( gObjName )	# get format, it is important for tool events!!
+```
+See also in tutorials: [21. Hello Worksheet — Create and Populate](ai%20examples/21_WorksheetBasic.md), [22. Selected Objects → Worksheet Rows](ai%20examples/22_WorksheetSelectedObjects.md), [23. Count Objects by Criteria (Formula-Driven)](ai%20examples/23_WorksheetCountByCriteria.md), [24. Auto-Populating Database Row](ai%20examples/24_WorksheetDBRowAutoPopulate.md)
+
 ## Version
 Availability: from All Versions
 

@@ -27,6 +27,21 @@ def vs.DBSQLExecuteGet(resultSetInst, colIndex):
 ## Examples
 [DBSQLExecuteDSN](DBSQLExecuteDSN.md)
 
+```pascal
+resultOK := DBSQLExecuteGet(1, 2, outColumnName, outValue);
+```
+```python
+import vs
+
+# Retrieves information from the resultSetInstance created with
+# 'DBSQLExecute' or 'DBSQLExecuteDSN'.
+resultSetInst = 1
+colIndex = 1
+
+ok, outColumnName, outValue = vs.DBSQLExecuteGet(resultSetInst, colIndex)
+vs.Message('DBSQLExecuteGet returned: ' + str((ok, outColumnName, outValue)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

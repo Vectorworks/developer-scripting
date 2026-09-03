@@ -22,6 +22,19 @@ Sets the background pen color for the active layer.
 
 [sd  8/14/98]
 
+## Examples
+```pascal
+LPenBack(1);
+```
+```python
+import vs
+
+# Procedure LPenBack sets the background pen color for the active layer.
+color = 5
+
+vs.LPenBack(color)
+```
+
 ## Version
 Availability: from All Versions
 

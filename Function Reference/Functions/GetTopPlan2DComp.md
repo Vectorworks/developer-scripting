@@ -3,7 +3,6 @@
 ## Description
 Gets the 2D component that is shown in Top/Plan view for a symbol definition or plug-in object.
 
-
 **Table - components**
 
 | Constant | component         |
@@ -24,6 +23,21 @@ def vs.GetTopPlan2DComp(objectHandle):
 |Name|Type|Description|
 |---|---|---|
 |objectHandle|HANDLE|Handle to the object.|
+
+## Examples
+```pascal
+resultN := GetTopPlan2DComp(objectHandle);
+```
+```python
+import vs
+
+# Gets the 2D component that is shown in Top/Plan view for a symbol
+# definition or plug-in object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetTopPlan2DComp(objectHandle)
+vs.Message('GetTopPlan2DComp returned: ' + str(resultN))
+```
 
 ## See Also
 VS Functions:

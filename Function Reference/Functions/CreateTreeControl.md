@@ -71,7 +71,6 @@ def Dialog_Handler(item , data ):
 		child1 = vs.InsertTreeControlItem(dialog1, 4, 'child1', root2, 0);
 		child2 = vs.InsertTreeControlItem(dialog1, 4, 'child2', root2, child1);
 
-
 def Example():
 	global dialog1
 	dialog1 = vs.CreateLayout('Example Dialog', False, 'OK', 'Cancel')
@@ -81,9 +80,24 @@ def Example():
 	vs.SetFirstLayoutItem(dialog1, 4)
 	result = vs.RunLayoutDialog(dialog1, Dialog_Handler)
 
-
 dialog1 = 0
 Example()
+```
+
+```pascal
+CreateTreeControl(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Creates a Layout Manager tree control.
+nDialogID = 1
+nComponentID = 2
+nWidthInChars = 3
+nHeightInChars = 10
+
+vs.CreateTreeControl(nDialogID, nComponentID, nWidthInChars, nHeightInChars)
+newObj = vs.LNewObj()  # handle to the newly created object
 ```
 
 ## See Also

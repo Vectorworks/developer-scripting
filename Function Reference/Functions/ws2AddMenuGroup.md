@@ -24,6 +24,26 @@ def vs.ws2AddMenuGroup(menuPath, newUnivName, newDisplayName, beforeIndex):
 |newDisplayName|DYNARRAY[] of CHAR|   |
 |beforeIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := ws2AddMenuGroup(menuPath, newUnivName, newDisplayName, 1);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+newUnivName = 'Example'
+newDisplayName = 'Example'
+beforeIndex = 1
+
+ok = vs.ws2AddMenuGroup(menuPath, newUnivName, newDisplayName, beforeIndex)
+if ok:
+    vs.Message('ws2AddMenuGroup succeeded')
+else:
+    vs.Message('ws2AddMenuGroup failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

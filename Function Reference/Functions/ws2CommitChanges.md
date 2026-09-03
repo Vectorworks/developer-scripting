@@ -20,6 +20,20 @@ def vs.ws2CommitChanges(restart, reload):
 |restart|BOOLEAN|   |
 |reload|BOOLEAN|   |
 
+## Examples
+```pascal
+ws2CommitChanges(TRUE, FALSE);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+restart = True
+reload = True
+
+vs.ws2CommitChanges(restart, reload)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

@@ -45,6 +45,33 @@ vertMiter: Specifies vertical len of double miter.
 ## Examples
 [CreateRoofObj](examples/CreateRoofObj.md)
 
+```pascal
+gNumV2 := getvertnum(gTempH);
+IF getobjectvariableboolean(gTempH,652) THEN gTempH := FlipPoly(gTempH,TRUE);
+gAdjust := pOverhang * tan(deg2rad(pRoofPitch));
+gMiterHt := pRoofThk/2;
+gRoofH := CreateRoof(TRUE,0",pRoofThk,gEaveIdx,gMiterHt);
+FOR i := 1 to gNumV2 DO BEGIN
+	getPolyPt(gTempH,i,gXtemp,gYtemp);
+	AppendRoofEdge(gRoofH,gXtemp,gYtemp,pRoofPitch,pOverhang,pHeight-gAdjust);
+	END;
+```
+```python
+import vs
+
+# Function CreateRoof creates a new roof object in a VectorWorks document,
+# returning a handle to the object.
+genGableWall = True
+bearingInsetDistance = 1.0
+roofThickDistance = 0.1
+miterType = 0
+vertMiterDistance = 1.0
+
+objHandle = vs.CreateRoof(genGableWall, bearingInsetDistance, roofThickDistance, miterType, vertMiterDistance)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [AppendRoofEdge](AppendRoofEdge.md)

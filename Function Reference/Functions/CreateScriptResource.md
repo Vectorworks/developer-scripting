@@ -26,6 +26,27 @@ def vs.CreateScriptResource(scriptName, paletteName, paletteOpen, script, python
 |script|DYNARRAY[] of CHAR|The script text.|
 |python|BOOLEAN|Pass TRUE if the script text contains python script. Otherwise it will be considered VectorScript.|
 
+## Examples
+```pascal
+resultOK := CreateScriptResource('Example', 'Example', TRUE, script, FALSE);
+```
+```python
+import vs
+
+# Create a document script resource.
+scriptName = 'Example'
+paletteName = 'Example'
+paletteOpen = True
+script = 'Example'
+python = True
+
+ok = vs.CreateScriptResource(scriptName, paletteName, paletteOpen, script, python)
+if ok:
+    vs.Message('CreateScriptResource succeeded')
+else:
+    vs.Message('CreateScriptResource failed')
+```
+
 ## See Also
 VS Functions:
 [GetScriptResource](GetScriptResource.md) 

@@ -35,6 +35,20 @@ END;
 RUN(Example);
 ```
 
+```pascal
+resultVal := ObjSurfAreaInWorldC(solidObject);
+```
+```python
+import vs
+
+# Function ObjSurfAreaInWorldC calculates the surface area of the referenced
+# solid object.
+solidObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+area = vs.ObjSurfAreaInWorldC(solidObject)
+vs.Message('ObjSurfAreaInWorldC returned: ' + str(area))
+```
+
 ## Version
 Availability: from Vectorworks 2023.3
 

@@ -26,6 +26,29 @@ In Python this function will _NOT_ block execution. It will execute a callback f
 ## Examples
 on sample is similar to the sample in [GetPt](GetPt.md).
 
+```pascal
+BEGIN
+	GetRect(x1, y1, x2, y2);
+	IF x2 = x1 THEN x2 := x1 + 100;
+	IF y2 = y1 THEN y2 := y1 + 100;
+
+GetRect(x1, y1, x2, y2);
+IF x1 >= x2 THEN x2 := x1 + 100;
+IF y1 <= y2 THEN y2 := y1 - 100;
+```
+```python
+import vs
+
+# Procedure GetRect draws a temporary &quot;rubberband&quot; rectangle
+# onscreen, similar to a selection marquee.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+callback = handle_object
+
+vs.GetRect(callback)
+```
+
 ## See Also
 VS Functions:
 [GetPt](GetPt.md) |

@@ -27,6 +27,21 @@ useClassFPat:=FFPatByClass;
 useClassFPat = vs.FFPatByClass()
 ```
 
+```pascal
+resultOK := FFPatByClass;
+```
+```python
+import vs
+
+# Function FFPatByClass returns whether the global attributes are set to use
+# the fill pattern of the default class.
+ok = vs.FFPatByClass()
+if ok:
+    vs.Message('FFPatByClass succeeded')
+else:
+    vs.Message('FFPatByClass failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -36,6 +36,45 @@ def vs.InsertVertex(objectHandle, x, y, beforeVertexNum, vertexType, arcRadius):
 
 It is not possible insert a vertex as type 4 (radius vertex). You must insert the vertex first, then use [SetPolylineVertex](SetPolylineVertex.md) to change the type to 4.
 
+## Examples
+```pascal
+	{ If Config is 'Sort' insert the intersecting point of the two additional lines
+	  in the object as otherwise the lines will not be part of the polyline. }
+	tempH := MakePolyline( FInGroup( objH ) );
+	GetSegPt2( NextObj( tempH ), tempPt.x, tempPt.y );
+	InsertVertex( tempH, tempPt.x, tempPt.y, 4, 0 , 0 );
+	SetPolyClosed( tempH, TRUE );
+	MakePoly := tempH;
+END;
+
+FOR vertexNum := 1 TO GetVertNum( tempPolyH ) DO BEGIN
+	GetPolylineVertex( tempPolyH, vertexNum, pX, pY, vertexType, arcRadius );
+	InsertVertex( polylineH, pX, pY, 1, vertexType, arcRadius );
+	SetVertexVisibility( polylineH, 1, TRUE );
+END;
+
+	n := GetVertNum(hPoly);
+	GetPolyPt(hPoly, 1, x1, y1);
+	GetPolyPt(hPoly, n, xn, yn);
+	IF (x1 <> xn) | (y1 <> yn) THEN
+		InsertVertex(hPoly, x1, y1, n+1, 0, 0);
+	SetPolyClosed(hPoly, FALSE);
+END;
+```
+```python
+import vs
+
+# Inserts a new vertex into polygon or polyline.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+x = 0.0
+y = 0.0
+beforeVertexNum = 1
+vertexType = 0
+arcRadius = 1.0
+
+vs.InsertVertex(objectHandle, x, y, beforeVertexNum, vertexType, arcRadius)
+```
+
 ## Version
 Availability: from VectorWorks 10.0
 

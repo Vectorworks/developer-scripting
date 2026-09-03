@@ -56,9 +56,30 @@ END;
 RUN(ShowObjArrowValues);
 ```
 
+```pascal
+	tempV := UnitVec( Ang2Vec( ang , 1) ) * GetTextWidth( textH )/2 + originVec;
+	originVec := UnitVec( Ang2Vec( ang + 180 , 1) ) * GetTextWidth( textH )/2 + originVec;
+END;
+if arcLineH <> nil then BEGIN
+	GetObjArrow( arcLineH, style, size, Angle, bstart, bend );
+	if bstart then GetSegPt1( arcLineH, vec1[1], vec1[2] ) ELSE GetSegPt2( arcLineH, vec1[1], vec1[2] );
+end else BEGIN
+	GetObjArrow( arrowLineH, style, size, Angle, bstart, bend );
+	if bstart then GetSegPt2( arrowLineH, vec1[1], vec1[2] ) ELSE GetSegPt1( arrowLineH, vec1[1], vec1[2] );
+```
+```python
+import vs
+
+# _ Procedure GetObjArrow returns the arrow style parameters for the
+# indicated object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+style, size, angle, start, end = vs.GetObjArrow(obj)
+vs.Message('GetObjArrow returned: ' + str((style, size, angle, start, end)))
+```
+
 ## Version
 GetObjArrow is obsolete as of VectorWorks13.0<P>
-
 
 Availability: from VectorWorks10.0
 

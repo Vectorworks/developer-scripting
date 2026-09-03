@@ -20,6 +20,21 @@ def vs.EA_DataAccGetReal(acc, valueIndex):
 |acc|INTEGER|   |
 |valueIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultVal := EA_DataAccGetReal(1, 2);
+```
+```python
+import vs
+
+# Returns real value from the object, associated to the accessory index.
+acc = 1
+valueIndex = 1
+
+value = vs.EA_DataAccGetReal(acc, valueIndex)
+vs.Message('EA_DataAccGetReal returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

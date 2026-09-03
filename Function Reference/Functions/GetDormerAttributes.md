@@ -49,6 +49,22 @@ centerSymbol: Set to true to vertically center the symbol in the dormer.  Doing 
 Set to false to offset the symbol from the top of the dormer using the next parameter.
 symOffset: Distance from top of the dormer to symbol insertion point.
 
+## Examples
+```pascal
+GetDormerAttributes(roofObject, 1, 2, 1.0, TRUE, 2.0, 3, FALSE, 0.5);
+```
+```python
+import vs
+
+# Procedure GetDormerAttributes returns the attributes of a roof element in
+# the referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+edgeIndex, cornerOffset, isPerpOffset, perpOrHeightOffset, symName, centerSymbol, symOffset = vs.GetDormerAttributes(roofObject, dormerID)
+vs.Message('GetDormerAttributes returned: ' + str((edgeIndex, cornerOffset, isPerpOffset, perpOrHeightOffset, symName, centerSymbol, symOffset)))
+```
+
 ## See Also
 VS Functions:
 [Index2Name](Index2Name.md)

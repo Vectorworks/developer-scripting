@@ -3,7 +3,6 @@
 ## Description
 Function Date returns a formatted date and time string.
 
-
 * Table - Values for **dateFormat** parameter
 
 | Date Format | Constant |
@@ -84,6 +83,37 @@ vs.Message(vs.Date(2,2))
 
 vs.Message(vs.Date(2,1))
 #{returns 11/18/88 10:42:24 AM}
+```
+
+```pascal
+BEGIN
+	IF (copy(date(2,2),2,1)=':')
+	THEN BEGIN
+		hr:=str2num(copy(date(2,2),1,1));
+		min:=str2num(copy(date(2,2),3,2));
+		END
+
+BEGIN
+	IF Flag THEN
+		SetRField(hObj, kRedlinePathObjName, kRedlinePathObjAuthDateField, Date(2, 0))
+	ELSE
+		SetRField(hObj, kRedlinePathObjName, kRedlinePathObjPickupDateField, Date(2, 0));
+END;
+
+IF pDate THEN
+	IF ((pStyle = kMedium) | (pStyle = kLong)) THEN
+		dateStr := concat(StripDayString(Date(StyleIndex,0)))
+	ELSE dateStr := concat(Date(StyleIndex,0));
+```
+```python
+import vs
+
+# Function Date returns a formatted date and time string.
+dateFormat = 1
+infoFormat = 2
+
+text = vs.Date(dateFormat, infoFormat)
+vs.Message('Date returned: ' + str(text))
 ```
 
 ## Version

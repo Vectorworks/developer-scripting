@@ -17,6 +17,19 @@ def vs.vsoGetUseLyrCutPlane(usingLyrCutPLane):
 |---|---|---|
 |usingLyrCutPLane|BOOLEAN|   |
 
+## Examples
+```pascal
+vsoGetUseLyrCutPlane(TRUE);
+```
+```python
+import vs
+
+# Indicates whether an object is observing the layer cut plane.
+usingLyrCutPLane = True
+
+vs.vsoGetUseLyrCutPlane(usingLyrCutPLane)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

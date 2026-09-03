@@ -17,6 +17,21 @@ def vs.WSScript_GetPrmInt(paramIndex):
 |---|---|---|
 |paramIndex|INTEGER|Zero based index of the parameter passed to the RunScript worksheet function.|
 
+## Examples
+```pascal
+resultN := WSScript_GetPrmInt(1);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+paramIndex = 1
+
+resultN = vs.WSScript_GetPrmInt(paramIndex)
+vs.Message('WSScript_GetPrmInt returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

@@ -63,7 +63,6 @@ END;
 RUN(Main);
 ```
 
-
 1.) Use forward slash / to separate directories. (Windows accepts  or / as separators. )
 
 2.) Use <code>file:///</code> to begin the URL if it is a file on your local machine.
@@ -85,7 +84,6 @@ If you are on MacOS X:
 7.) Spaces are not allowed in the url. Replace them with %20 characters. This is a bug that we should be able to fix in future version. (MacOS 9 and Windows seem to accept spaces.)
 :<code>theURL := 'file:///Documents/This%20Is%20A%20Test.html';</code>
 
-
 ```pascal
 {--------------------------------------------------------------------}
 { A sample script from Jeff }
@@ -101,7 +99,6 @@ VAR
 boo :BOOLEAN;
 theURL, finalURL : STRING;
 
-
 {-------------------------}
 function RunningOnMacPlatform: BOOLEAN;
 var
@@ -115,7 +112,6 @@ begin
     RunningOnMacPlatform := false;
 end;
 
-
 {-------------------------}
 function RunningOnMacOSX: BOOLEAN;
 VAR
@@ -127,7 +123,6 @@ begin
   else
     RunningOnMacOSX := false;
 end;
-
 
 {-------------------------}
 procedure EscapeSpacesURL(theURL :String; VAR destURL : STRING);
@@ -147,7 +142,6 @@ begin
 
   destURL := locURL;
 end;
-
 
 {-------------------------}
 function GetFolderURL(whichFolder : INTEGER) : STRING;
@@ -217,6 +211,15 @@ status := OpenURL('file:///C:/My Files/VSLG11.pdf';
 #### Python ####
 ```python
 
+```
+
+```pascal
+BEGIN
+	LinkURL := openURL('http://www.landrudesign.com/VWPlugIns.htm');
+END;
+```
+```python
+result = vs.OpenURL('Example')
 ```
 
 ## Version

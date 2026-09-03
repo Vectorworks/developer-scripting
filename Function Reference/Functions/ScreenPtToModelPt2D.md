@@ -21,6 +21,32 @@ def vs.ScreenPtToModelPt2D(p):
 ## Remarks
 Takes into account both translation and rotation.
 
+## Examples
+```pascal
+FOR c := 1 TO numCols DO BEGIN
+	curX := x + ((c-1) * gridFreq);
+	modelX := curX;
+	modelY := curY;
+	ScreenPtToModelPt2D(modelX, modelY);
+
+userOriginModelX := userOriginScreenX;
+userOriginModelY := userOriginScreenY;
+ScreenPtToModelPt2D( userOriginModelX, userOriginModelY );
+
+IF Replacement THEN ScreenPtToModelPt2D (Xorg,Yorg);
+XLoc := Xorg;
+YLoc := YOrg;
+```
+```python
+import vs
+
+# Transforms a point from screen coordinate in plan rotation to the model
+# coordinates.
+p = (0, 0)
+
+result = vs.ScreenPtToModelPt2D(p)
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

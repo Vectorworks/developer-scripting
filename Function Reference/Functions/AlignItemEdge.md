@@ -16,7 +16,6 @@ Aligns the specified control item with other items having the same edge and alig
 | 0     | Resize control items  |
 | 1     | Shift control items   |
 
-
 Right alignment of objects will use the object with the minimum pixel value (=distance from the right) as the alignment baseline. Bottom and left alignment of objects will use the object with the  maximum pixel value as the alignment baseline.
 
 ```pascal
@@ -49,6 +48,33 @@ Right aligned objects are lined up with the object with the minimum pixel value.
 
 ## Examples
 [ComplexDialogLayout](examples/ComplexDialogLayout.md)
+
+```pascal
+{* Align the edit text fields on the left sides *}
+AlignItemEdge (dialogID, 4, 3, 1000, 1);
+AlignItemEdge (dialogID, 6, 3, 1000, 1);
+
+AlignItemEdge (dialogID, 6, 3, 1000, 1);
+AlignItemEdge (dialogID, 7, 3, 1000, 1);
+
+{* Align the control items *}
+{* Align static text to the right edge *}
+	AlignItemEdge (dialogID, 5, 1, 1000, 1);
+	AlignItemEdge (dialogID, 7, 1, 1000, 1);
+```
+```python
+import vs
+
+# Aligns the specified control item with other items having the same edge and
+# alignment id values.
+dialogID = 1
+itemID = 2
+whichEdge = 3
+alignID = 10
+alignMode = 0
+
+vs.AlignItemEdge(dialogID, itemID, whichEdge, alignID, alignMode)
+```
 
 ## Version
 Availability: from VectorWorks 9.0

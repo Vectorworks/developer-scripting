@@ -22,6 +22,41 @@ def vs.GetComponentWidth(obj, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |width|REAL|Returns the width of the component.|
 
+## Examples
+```pascal
+BEGIN
+	bIsUni := TRUE;
+	curCmpWidth := GetComponentWidth( 1 );
+	FOR cnt := 2 to componentCnt DO BEGIN
+		IF curCmpWidth <> GetComponentWidth( cnt ) THEN bIsUni := FALSE;
+	END;
+
+theWidth := 0;
+numComponents := GetObjectVariableInt(wallHandle, 199);
+if numComponents > 0 then BEGIN
+	for cnt := 1 to numComponents do BEGIN
+		if GetComponentWidth(wallHandle, cnt, componentWidth) then BEGIN
+			theWidth := theWidth + componentWidth;
+		END;
+
+BEGIN
+result := GetComponentWidth( extStyle_h, cnt, currTMPOffset );
+if cnt = coreComponentIndex THEN
+	BEGIN
+	offset := offset + currTMPOffset;
+	cnt := numberOfComponents;
+```
+```python
+import vs
+
+# Gets the width of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, width = vs.GetComponentWidth(obj, componentIndex)
+vs.Message('GetComponentWidth returned: ' + str((ok, width)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentWidth](SetComponentWidth.md)

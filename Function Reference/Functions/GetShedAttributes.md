@@ -44,6 +44,22 @@ topSlope: Angle of dormer roof.
 
 overhang: Distance roof projects past dormer walls.
 
+## Examples
+```pascal
+GetShedAttributes(roofObject, 1, TRUE, 1.0, 2.0, 0.5, 1.5);
+```
+```python
+import vs
+
+# Procedure GetShedAttributes returns the attributes of a shed dormer in the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+useHeight, heightDepth, bottomWidth, overhang, topSlope = vs.GetShedAttributes(roofObject, dormerID)
+vs.Message('GetShedAttributes returned: ' + str((useHeight, heightDepth, bottomWidth, overhang, topSlope)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

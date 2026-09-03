@@ -37,6 +37,24 @@ def vs.SetWSTextAngle(worksheet, topRow, leftColumn, bottomRow, rightColumn, ang
 Note:
 VW12 supports only horizontal text (0 degree) and vertical text (90 degrees). So, the input of any angle different from 0 will be handled as 90 degrees in VW12.
 
+## Examples
+```pascal
+SetWSTextAngle(worksheet, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets the text angle of a cell the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+angle = 1
+
+vs.SetWSTextAngle(worksheet, topRow, leftColumn, bottomRow, rightColumn, angle)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

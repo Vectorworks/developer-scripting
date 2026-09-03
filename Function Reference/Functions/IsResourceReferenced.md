@@ -43,6 +43,20 @@ BEGIN
 END;
 ```
 
+```pascal
+resultOK := IsResourceReferenced(resource, 'file.txt');
+```
+```python
+import vs
+
+# Returns whether a resource is workgroup referenced, and if so, the path to
+# the source document is returned.
+resource = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, pathname = vs.IsResourceReferenced(resource)
+vs.Message('IsResourceReferenced returned: ' + str((ok, pathname)))
+```
+
 ## See Also
 VS Functions:
 [IsLayerReferenced](IsLayerReferenced.md)
@@ -52,4 +66,3 @@ Availability: from Vectorworks 2024
 
 ## Category
 * [Object Info](../Categories/Object Info.md)
-

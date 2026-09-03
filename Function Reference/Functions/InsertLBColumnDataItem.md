@@ -36,6 +36,40 @@ VW2011: It seems to be impossible to fill in a column with the same value with I
 ## Examples
 [ComplexDialogLayout4](examples/ComplexDialogLayout4.md)
 
+```pascal
+status := SetLBControlType(dialogID, kHeliodonList, columnIndex, 4);
+status := SetLBItemDisplayType(dialogID, kHeliodonList, columnIndex, 1);
+gFieldsLBImg1 := AddListBrowserImage(dialogID, kHeliodonList, 'Vectorworks/Standard Images/blank.png');
+gFieldsLBImg2 := AddListBrowserImage(dialogID, kHeliodonList, 'Vectorworks/Standard Images/whitecheckmark.png');
+uncheckedIndex := InsertLBColumnDataItem(dialogID, kHeliodonList, 0, 'False', gFieldsLBImg1, -1, 0);
+checkedIndex := InsertLBColumnDataItem(dialogID, kHeliodonList, 0, 'True',  gFieldsLBImg2, -1, 1);
+
+BEGIN
+	IF value = '' THEN value := ' ';
+	IF NOT FindLBColumnDataItem(dialogID, componentID, column, value, ndx) THEN
+	ndx := InsertLBColumnDataItem(dialogID, componentID, column, value, 0, 0, 0);
+	boo := SetLBItemUsingColumnDataItem(dialogID, componentID, row, column, ndx);
+END;
+
+ColNum := InsertLBColumnDataItem(dlogID,5,0,kT,kImageCheck,-1,1);
+ColNum := InsertLBColumnDataItem(dlogID,5,0,kF,kImageBlank,-1,0);
+```
+```python
+import vs
+
+# Inserts column data item with specified data.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+itemString = 'Example'
+imageOn = 3
+imageOff = 10
+itemData = 1
+
+resultN = vs.InsertLBColumnDataItem(dialogID, componentID, columnIndex, itemString, imageOn, imageOff, itemData)
+vs.Message('InsertLBColumnDataItem returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

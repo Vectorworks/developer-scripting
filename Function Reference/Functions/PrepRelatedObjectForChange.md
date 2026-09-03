@@ -20,8 +20,30 @@ def vs.PrepRelatedObjectForChange(objectAboutToBeChange):
 ## Remarks
 This call adds an eBeforeModify primitive to the specified object provided that the undo system is currently building an undo event.  
 
-
 Does this mean that the object is sent an event, and if so, what is the event code?
+
+## Examples
+```pascal
+PrepRelatedObjectForChange(tempH1);
+selHandles[TmpIndex] := ConvertToPolyline(selHandles[TmpIndex]);
+
+	cen_pt.x := ObjLoc[TmpIndex].x+1";
+	cen_pt.y := ObjLoc[TmpIndex].y+1";
+	END;
+tempH1 := selHandles[TmpIndex];
+PrepRelatedObjectForChange(tempH1);
+selHandles[TmpIndex] := ConvertToPolyline(selHandles[TmpIndex]);
+tempH := CreateSeatLayoutObj(selHandles[TmpIndex], cen_pt, SelectedSymbolName, Auto);
+END;
+```
+```python
+import vs
+
+# Prepares some other related object for a change thats about to occur.
+objectAboutToBeChange = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.PrepRelatedObjectForChange(objectAboutToBeChange)
+```
 
 ## Version
 Availability: from VectorWorks12.5

@@ -58,6 +58,22 @@ vs.AddCavity(1, 1, 2, -vs.Name2Index('My Hatch'))
 vs.Wall(0, 1, 9, 1)
 ```
 
+```pascal
+AddCavity(TRUE, 1.0, 2.0, 1);
+```
+```python
+import vs
+
+# Procedure AddCavity creates a wall cavity in a new wall object.
+pair = True
+leftOffDistance = 1.0
+rightOffDistance = 1.0
+pairFill = 1
+
+vs.AddCavity(pair, leftOffDistance, rightOffDistance, pairFill)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [InsertNewComponent](InsertNewComponent.md)

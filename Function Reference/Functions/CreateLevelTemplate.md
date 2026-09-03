@@ -39,6 +39,23 @@ BEGIN
 success := CreateLevelTemplate('Mod-Slab', 1, 'LT_Slab', 0, 6);
 ```
 
+```pascal
+resultOK := CreateLevelTemplate('Design Layer-1', 1.0, 'Example', 2.0, 0.5, 1);
+```
+```python
+import vs
+
+# Creates a Story Level Template in the current file.
+layerName = 'Design Layer-1'
+scaleFactor = 1.0
+levelType = 'Example'
+elevation = 0.0
+wallHeight = 2.0
+
+ok, index = vs.CreateLevelTemplate(layerName, scaleFactor, levelType, elevation, wallHeight)
+vs.Message('CreateLevelTemplate returned: ' + str((ok, index)))
+```
+
 ## See Also
 VS Functions:
 [GetNumLevelTemplates](GetNumLevelTemplates.md) 

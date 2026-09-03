@@ -17,6 +17,23 @@ def vs.ws2DelTool(toolPath):
 |---|---|---|
 |toolPath|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := ws2DelTool(toolPath);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+
+ok = vs.ws2DelTool(toolPath)
+if ok:
+    vs.Message('ws2DelTool succeeded')
+else:
+    vs.Message('ws2DelTool failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

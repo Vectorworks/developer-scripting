@@ -20,6 +20,22 @@ def vs.CreatePaintFromImage(image):
 ## Examples
 [ImageAndPaint](examples/ImageAndPaint.md)
 
+```pascal
+BEGIN
+	TempPhotoRsrcHand := GetObject(TempPhotoRsrcName);
+	TempPhotoObjHand := CreatePaintFromImage(TempPhotoRsrcHand);
+```
+```python
+import vs
+
+# Creates a paint node from an image resource.
+image = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.CreatePaintFromImage(image)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

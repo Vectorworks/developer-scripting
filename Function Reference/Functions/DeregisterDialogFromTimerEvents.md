@@ -17,6 +17,23 @@ def vs.DeregisterDialogFromTimerEvents(dialogID):
 |---|---|---|
 |dialogID|LONGINT|the dialog identifier given by CreateLayout or CreateResizableLayout|
 
+## Examples
+```pascal
+}
+{
+IF ShowTestMsg THEN SetItemText( dialogID, TestMsgStaText_ID, Concat( '* ', VanPtErrAdjTestStr ) );
+}
+DeregisterDialogFromTimerEvents( dialogID );
+```
+```python
+import vs
+
+# Removes the dialog from the timer event registry system.
+dialogID = 1
+
+vs.DeregisterDialogFromTimerEvents(dialogID)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

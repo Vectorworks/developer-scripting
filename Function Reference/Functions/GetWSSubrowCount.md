@@ -29,6 +29,28 @@ WARNING: Because database subrow cells and their contents are dynamically create
 
 ([[User:Juliancarr|Julian]], 2018.05.22): If you call this in a script that is being executed via the Runscript command in a worksheet, it will return the current row number that is being processed. This allows the script to access data from database rows by using [GetWSSubrowCellValue](GetWSSubrowCellValue.md).
 
+## Examples
+```pascal
+		GetWSRowColumnCount(hWS,rows,cols);{SprdSize(hWS,rows,cols);}
+		FOR i := 1 to rows DO BEGIN
+			{KID check for a database row with subrows... KID}
+			if ( IsWSDatabaseRow( hWS, i ) ) then BEGIN
+{				GetWSSubrowCount( hWS, i, subi );
+				For k := 1 to subi DO
+					FOR j := 1 to cols DO BEGIN
+						IF ( IsValidWSSubrowCell(hWS,i,j,k) ) THEN
+							if ( IsWSSubrowCellString (hWS,i,j,k) ) then BEGIN
+```
+```python
+import vs
+
+# Returns a count of displayed subrows for a specified database row.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+
+result = vs.GetWSSubrowCount(worksheet, databaseRow)
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

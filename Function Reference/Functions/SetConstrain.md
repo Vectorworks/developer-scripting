@@ -42,6 +42,13 @@ SetConstrain('QD');
 
 ```
 
+```pascal
+SetConstrain('Example');
+```
+```python
+vs.SetConstrain('Example')
+```
+
 ## Version
 Availability: from All Versions
 

@@ -52,6 +52,27 @@ symOffset: Distance from top of the dormer to symbol insertion point.
 ## Examples
 [CreateRoofOb](examples/CreateRoofObj.md)
 
+```pascal
+SetDormerAttributes(roofObject, 1, 2, 1.0, TRUE, 2.0, 3, FALSE, 0.5);
+```
+```python
+import vs
+
+# Procedure SetDormerAttributes sets the attributes of a roof element in the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+edgeIndex = 1
+cornerOffsetDistance = 1.0
+isPerpOffset = False
+perpOrHeightOffsetDistance = 2.0
+symName = 'MySymbol'
+centerSymbol = True
+symOffsetDistance = 1.0
+
+vs.SetDormerAttributes(roofObject, dormerID, edgeIndex, cornerOffsetDistance, isPerpOffset, perpOrHeightOffsetDistance, symName, centerSymbol, symOffsetDistance)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

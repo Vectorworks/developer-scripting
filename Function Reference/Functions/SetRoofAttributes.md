@@ -82,6 +82,13 @@ RUN(Example);
 
 ```
 
+```pascal
+SetRoofAttributes(roofObject, TRUE, 1.0, 2.0, 1, 0.5);
+```
+```python
+vs.SetRoofAttributes(roofObject, genGableWall, 1.0, 2.0, miterType, 0.5)
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

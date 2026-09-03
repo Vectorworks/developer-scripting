@@ -28,6 +28,16 @@ RUN(Test);
 ok = vs.IFC_ImportWithUI()
 ```
 
+```pascal
+IFC_ImportWithUI;
+```
+```python
+import vs
+
+# Imports IFC file using the IFC Import dialog.
+vs.IFC_ImportWithUI()
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

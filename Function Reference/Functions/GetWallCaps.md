@@ -27,6 +27,20 @@ def vs.GetWallCaps(theWall):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+GetWallCaps(theWall, TRUE, FALSE, TRUE);
+```
+```python
+import vs
+
+# Gets the wall's caps.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+leftCap, rightCap, round = vs.GetWallCaps(theWall)
+vs.Message('GetWallCaps returned: ' + str((leftCap, rightCap, round)))
+```
+
 ## See Also
 VS Functions:
 [SetWallCaps](SetWallCaps.md)

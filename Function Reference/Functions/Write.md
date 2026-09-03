@@ -46,6 +46,28 @@ BEGIN
 
 ```
 
+```pascal
+IF numNestedFolders = 0 THEN
+	Write (GetPlugInString (3017));
+
+BEGIN
+	IF TmpDebug THEN Write('Checking: gSheetChoiceList2[',CurSheetType, ', ', SheetDefNum, '].SDName := ',
+					gSheetChoiceList2[CurSheetType, SheetDefNum].SDName,
+					' == gSheetInfo[', CurSheetNum, '].SheetName :=  ',
+					gSheetInfo[CurSheetNum].SheetName
+				);
+
+BEGIN
+	Write ('       ',GetPlugInString (6018),'    ');
+	Write (GetPlugInString (6019),'        ');
+	Write (GetPlugInString (6020),'    ');
+	Write (GetPlugInString (6021),'    ');
+	IF followerType > 2 THEN WriteLn (GetPlugInString (6026))
+```
+```python
+vs.Write(0)
+```
+
 ## Version
 Availability: from All Versions
 

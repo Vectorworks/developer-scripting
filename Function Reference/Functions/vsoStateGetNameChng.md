@@ -73,8 +73,32 @@ BEGIN
 
 ```
 
+```pascal
+BEGIN
+IF vsoStateGetNameChng( ParamHandle, oldName, MyName ) THEN
+		BEGIN
+		SetRfield(ParamHandle, ParamName,'Name',MyName);
+		END;
+
+	END; {IF PIOHan<>NIL}
+{//////// Name state change ////////}
+IF vsoStateGetNameChng(PIOHan, oldName, newName) THEN
+	BEGIN
+		SetRField(PIOHan, PIOName, 'Name', newName);
+	END;
+
+{//////// Name state change ////////}
+IF vsoStateGetNameChng(PIOHan, oldName, newName) THEN
+	BEGIN
+		SetRField(PIOHan, PIOName, 'Name', newName);
+	END;
+```
+```python
+result = vs.vsoStateGetNameChng(h)
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

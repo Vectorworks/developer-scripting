@@ -32,6 +32,19 @@ GetGradientSpotPosition(gradientHandle, 4, spotPosition);
 spotPosition = vs.GetGradientSpotPosition(gradientHandle, 4)
 ```
 
+```pascal
+GetGradientSpotPosition(gradient, 1, 1.0);
+```
+```python
+import vs
+
+# Gets the spot position of the specified gradient segment.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+segmentIndex = 1
+
+result = vs.GetGradientSpotPosition(gradient, segmentIndex)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

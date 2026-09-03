@@ -40,6 +40,40 @@ vs.SetFillBack( h, (0xFFFF, 0, 0) ) # red color - or you can use hex numbers in 
 vs.SetFillBack( h, 255 ) # using color index, be careful with color indexes after VW12
 ```
 
+```pascal
+BEGIN
+	FFillFore (R, G, B);
+	SetFillFore (objectH, R, G, B);
+	FFillBack (R, G, B);
+	SetFillBack (objectH, R, G, B);
+END;
+
+	SetTextJust(LNewObj,2);
+	SetTextVerticalAlign(LNewObj,3);
+	setfpat(lnewobj,GetFPat(parmHand));
+	GetFillBack(parmHand,red,grn,bl);
+	SetFillBack(LNewObj,red,grn,bl);
+	popattrs;
+END;
+
+BEGIN
+	SetFillFore( childH, redValue,		greenValue,		blueValue );
+	SetFillBack( childH, redValueBack,	greenValueBack, blueValueBack );
+END;
+```
+```python
+if vs.GetPref( 16 ):
+	vs.SetFillBack( vs.LNewObj(), ( 65535, 65535, 65535 ) )
+else:
+	vs.SetFillBack( vs.LNewObj(), ( 0, 0, 0 ) )
+
+vs.SetFillBack(objH, vs.GetFillBack(parentH))
+vs.SetFillFore(objH, vs.GetFillFore(parentH))
+vs.SetPenBack(objH, vs.GetPenBack(parentH))
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

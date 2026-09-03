@@ -12,6 +12,19 @@ def vs.GetSlabPreferences():
     return HANDLE
 ```
 
+## Examples
+```pascal
+resultH := GetSlabPreferences;
+```
+```python
+import vs
+
+# Gets the Slab Preferences.
+objHandle = vs.GetSlabPreferences()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

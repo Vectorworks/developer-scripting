@@ -15,6 +15,16 @@ def vs.PythonEndContext():
 ## Examples
 [PythonExecute](PythonExecute.md).
 
+```pascal
+PythonEndContext;
+```
+```python
+import vs
+
+# Closes python context previously opened with PythonBeginContext.
+vs.PythonEndContext()
+```
+
 ## See Also
 VS Functions:
 [PythonBeginContext](PythonBeginContext.md)

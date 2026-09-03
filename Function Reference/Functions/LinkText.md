@@ -45,6 +45,13 @@ Record(LNewObj,'Sample Format');
 
 ```
 
+```pascal
+LinkText(h, 'Example', 'Example');
+```
+```python
+vs.LinkText(h, rec, fld)
+```
+
 ## See Also
 VS Functions:
 [BeginSym](BeginSym.md) 

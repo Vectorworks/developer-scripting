@@ -38,8 +38,15 @@ NewSprdSheet('Window Schedule', 12, 24, 5, 8, TRUE, FALSE);
 
 ```
 
+```pascal
+NewSprdSheet('Example', 1.0, 2.0, 1, 2, TRUE, FALSE);
+```
+```python
+vs.NewSprdSheet('Example', location, rows, columns, True, openAfterCreate)
+```
+
 ## See Also
-[CreateWS | CreateWS](CreateWS%20| CreateWS.md)
+[CreateWS](CreateWS.md)
 
 ## Version
 NewSprdSheet is obsolete as of VectorWorks 9.0, see new [ CreateWS](CreateWS.md)

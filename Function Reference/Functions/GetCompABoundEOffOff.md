@@ -22,6 +22,21 @@ def vs.GetCompABoundEOffOff(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |autoBoundEdgeOffsetOffset|REAL|Returns the auto-bound edge offset offset.|
 
+## Examples
+```pascal
+resultOK := GetCompABoundEOffOff(object, 1, 1.0);
+```
+```python
+import vs
+
+# Gets the auto-bound edge offset offset of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, autoBoundEdgeOffsetOffset = vs.GetCompABoundEOffOff(object, componentIndex)
+vs.Message('GetCompABoundEOffOff returned: ' + str((ok, autoBoundEdgeOffsetOffset)))
+```
+
 ## See Also
 VS Functions:
 [SetCompABoundEOffOff](SetCompABoundEOffOff.md)

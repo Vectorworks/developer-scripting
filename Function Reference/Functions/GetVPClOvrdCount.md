@@ -17,6 +17,20 @@ def vs.GetVPClOvrdCount(viewportHandle):
 |---|---|---|
 |viewportHandle|HANDLE|The viewport handle.|
 
+## Examples
+```pascal
+resultN := GetVPClOvrdCount(viewportHandle);
+```
+```python
+import vs
+
+# Returns the number of class overrides associated with a particular viewport.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+count = vs.GetVPClOvrdCount(viewportHandle)
+vs.Message('GetVPClOvrdCount returned: ' + str(count))
+```
+
 ## See Also
 VS Functions:
 [GetVPClOvrdName](GetVPClOvrdName.md)

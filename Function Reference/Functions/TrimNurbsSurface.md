@@ -51,6 +51,23 @@ END;
 RUN(Example);
 ```
 
+```pascal
+resultOK := TrimNurbsSurface(surfaceHandle, curveHandle);
+```
+```python
+import vs
+
+# Trims the NURBS surface by a given NURBS curve.
+surfaceHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+curveHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+ok = vs.TrimNurbsSurface(surfaceHandle, curveHandle)
+if ok:
+    vs.Message('TrimNurbsSurface succeeded')
+else:
+    vs.Message('TrimNurbsSurface failed')
+```
+
 ## See Also
 VS Functions:
 [CreateNurbsSurface](CreateNurbsSurface.md) 

@@ -24,6 +24,22 @@ def vs.SetLineAttributeData(dialogID, itemID, lineStyle, lineWeight):
 |lineStyle|INTEGER|   |
 |lineWeight|INTEGER|   |
 
+## Examples
+```pascal
+SetLineAttributeData(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Set current choices for the line attribute dialog control.
+dialogID = 1
+itemID = 2
+lineStyle = 0
+lineWeight = 3
+
+vs.SetLineAttributeData(dialogID, itemID, lineStyle, lineWeight)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

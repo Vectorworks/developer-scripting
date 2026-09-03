@@ -30,6 +30,28 @@ def vs.IsValidWSRange(worksheet, topRow, leftColumn, bottomRow, rightColumn):
 Determines if specified range is valid for the specified worksheet.
 NOTE: A determination that a range is valid only means that the specified range falls within a range of 0 to the current number of worksheet rows and 0 to the current number of worksheet columns. A valid range does not imply that every worksheet SDK function will accept that range. The user should always  note any specific cell and cell range restrictions of a call they may use.
 
+## Examples
+```pascal
+resultOK := IsValidWSRange(worksheet, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Returns whether the specified range is within the valid range of the
+# referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+
+ok = vs.IsValidWSRange(worksheet, topRow, leftColumn, bottomRow, rightColumn)
+if ok:
+    vs.Message('IsValidWSRange succeeded')
+else:
+    vs.Message('IsValidWSRange failed')
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

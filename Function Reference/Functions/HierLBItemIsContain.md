@@ -22,6 +22,25 @@ def vs.HierLBItemIsContain(dialogID, componentID, itemIndex):
 |componentID|LONGINT|The ID of the list browser.|
 |itemIndex|INTEGER|The index of the item.|
 
+## Examples
+```pascal
+resultOK := HierLBItemIsContain(1, 2, 3);
+```
+```python
+import vs
+
+# Returns whether the indicated item is a container item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+
+ok = vs.HierLBItemIsContain(dialogID, componentID, itemIndex)
+if ok:
+    vs.Message('HierLBItemIsContain succeeded')
+else:
+    vs.Message('HierLBItemIsContain failed')
+```
+
 ## See Also
 VS Functions:
 [HierLBItemIsClosed](HierLBItemIsClosed.md)

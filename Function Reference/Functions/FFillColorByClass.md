@@ -26,6 +26,21 @@ useClassFillCol:=FFillColorByClass;
 useClassFillCol = vs.FFillColorByClass()
 ```
 
+```pascal
+resultOK := FFillColorByClass;
+```
+```python
+import vs
+
+# Function FFillColorByClass returns whether the global attributes are set to
+# use the fill colors of the default class.
+ok = vs.FFillColorByClass()
+if ok:
+    vs.Message('FFillColorByClass succeeded')
+else:
+    vs.Message('FFillColorByClass failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

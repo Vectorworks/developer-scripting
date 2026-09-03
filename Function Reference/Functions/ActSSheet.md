@@ -15,6 +15,19 @@ def vs.ActSSheet():
 ## Remarks
 OBSOLETE for Version 9: see new [GetTopVisibleWS](GetTopVisibleWS.md).
 
+## Examples
+```pascal
+resultH := ActSSheet;
+```
+```python
+import vs
+
+# Function ActSSheet returns the handle to the currently active worksheet.
+objHandle = vs.ActSSheet()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [GetTopVisibleWS](GetTopVisibleWS.md)

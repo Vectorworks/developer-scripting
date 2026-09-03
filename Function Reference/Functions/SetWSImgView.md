@@ -28,6 +28,24 @@ def vs.SetWSImgView(worksheet, topRow, leftColumn, bottomRow, rightColumn, view)
 |rightColumn|INTEGER|Right column of cell range.|
 |view|INTEGER|The image view.|
 
+## Examples
+```pascal
+SetWSImgView(worksheet, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets specified image view in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+view = 1
+
+vs.SetWSImgView(worksheet, topRow, leftColumn, bottomRow, rightColumn, view)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

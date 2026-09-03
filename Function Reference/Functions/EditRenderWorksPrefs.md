@@ -17,6 +17,18 @@ def vs.EditRenderWorksPrefs():
 |---|---|---|
 |updateRendering|BOOLEAN|   |
 
+## Examples
+```pascal
+EditRenderWorksPrefs(TRUE);
+```
+```python
+import vs
+
+# Allows the user to edit RenderWorks renderer preferences and stores them in
+# the current drawing.
+result = vs.EditRenderWorksPrefs()
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

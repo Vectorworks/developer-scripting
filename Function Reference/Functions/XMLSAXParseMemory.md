@@ -41,7 +41,6 @@ VAR
 	xmlFile : STRING;
 	xmlData	: DYNARRAY [] OF CHAR;
 
-
   PROCEDURE XMLSAXNodeCallback(
   			     XMLHandle      :LONGINT;
   			     nodeType       :INTEGER;  {one of kSAXNODEType_ constants}
@@ -95,7 +94,6 @@ VAR
 	END;
   END;
 
-
 BEGIN
 	hXML := InitXML;
 
@@ -110,6 +108,13 @@ RUN(XMLSaxTest_Read);
 #### Python ####
 ```python
 
+```
+
+```pascal
+resultN := XMLSAXParseMemory(1, XMLData, nodeCallback);
+```
+```python
+result = vs.XMLSAXParseMemory(h, XMLData, nodeCallback)
 ```
 
 ## See Also

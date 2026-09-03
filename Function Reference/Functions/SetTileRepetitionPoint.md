@@ -25,6 +25,19 @@ def vs.SetTileRepetitionPoint(tileHandle, repetitionPoint):
 SetTileRepetitionPoint(tileHandle, repetitionPoint);
 ```
 
+```pascal
+SetTileRepetitionPoint(tileHandle, 1);
+```
+```python
+import vs
+
+# Sets the specified tile resource's repetition point.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+repetitionPoint = (0, 0)
+
+vs.SetTileRepetitionPoint(tileHandle, repetitionPoint)
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

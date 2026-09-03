@@ -22,6 +22,22 @@ def vs.BindLayerToWFSFS(inURL, inFeatureName, inRequestAll):
 |inFeatureName|STRING|   |
 |inRequestAll|BOOLEAN|   |
 
+## Examples
+```pascal
+BindLayerToWFSFS('Example', 'Example', TRUE);
+```
+```python
+import vs
+
+# Associate the active design layer with the WFS feature service and bring in
+# georeferenced shapes and data.
+inURL = 'C:/Temp/example.txt'
+inFeatureName = 'Example'
+inRequestAll = True
+
+vs.BindLayerToWFSFS(inURL, inFeatureName, inRequestAll)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

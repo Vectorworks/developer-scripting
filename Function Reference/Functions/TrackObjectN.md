@@ -60,6 +60,41 @@ END;
 RUN( Test );
 ```
 
+```pascal
+BEGIN
+	SetCursor(LgCrossC);
+	TrackObjectN (1, CheckObjCallback, hobj,PickX,PickY,PickZ);
+	If option then SupressDia := False ELSE SupressDia := TRUE;
+END
+
+BEGIN
+	 TrackObjectN (1, CheckObjCallback, hobj,PickX,PickY,PickZ);
+	 IF hobj = NIL THEN
+			ObjTyp := 0
+	ELSE
+		ObjTyp := GetType(hobj);
+
+{
+				GetPt(X,Y);
+				TheMulti := PickObject(X,Y);
+}
+				TrackObjectN( 0, CheckObjCallback2, TheMulti, X,Y,Z );
+```
+```python
+import vs
+
+# Interactively, including highlighting, allows the user to select one object
+# meeting the specified criteria.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+traverseType = 0
+callback = handle_object
+
+outObj, p = vs.TrackObjectN(traverseType, callback)
+vs.Message('TrackObjectN returned: ' + str((outObj, p)))
+```
+
 ## See Also
 VS Functions:
 [TrackObject](TrackObject.md) 

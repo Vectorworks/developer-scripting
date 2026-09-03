@@ -29,6 +29,22 @@ def vs.GetObjWallBreakMode(objH, wallH, breakMode):
 |wallH|HANDLE|   |
 |breakMode|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := GetObjWallBreakMode(objH, wallH, 1);
+```
+```python
+import vs
+
+# Returns the break mode for an object in a wall.
+objH = vs.FSActLayer()  # handle to the first selected object on the active layer
+wallH = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+breakMode = 0
+
+ok, breakMode = vs.GetObjWallBreakMode(objH, wallH, breakMode)
+vs.Message('GetObjWallBreakMode returned: ' + str((ok, breakMode)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

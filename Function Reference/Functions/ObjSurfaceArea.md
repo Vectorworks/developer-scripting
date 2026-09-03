@@ -20,9 +20,6 @@ def vs.ObjSurfaceArea(solidObject):
 ## Remarks
 Calculates the volume of the given object if a valid solid.
 
-
-
-
 Apparently this command is replacing CalcSurfaceArea. It should be noted that ObjSurfaceArea returns the surface area in area units from the Units dialog. CalcSurfaceArea returns the volume in length units squared.
 
 ## Examples
@@ -43,6 +40,15 @@ RUN(Example);
 #### Python ####
 ```python
 
+```
+
+```pascal
+{* Get the surface area and volume *}
+gSurfArea := ObjSurfaceArea (gObjH);
+gVolume := ObjVolume (gObjH);
+```
+```python
+result = vs.ObjSurfaceArea(solidObject)
 ```
 
 ## Version

@@ -59,9 +59,42 @@ def Example():
 Example()
 ```
 
+```pascal
+if IsMac then
+    filename := GetPlugInString (6007)
+else
+    filename := Concat(GetFolderPath(12), GetPlugInString (6007));
+
+BEGIN
+	IF Copy(relPath, 1, 6) = appPath THEN BEGIN
+		IF IsMac THEN relPath := Substitute('/', '\', relPath);
+		relPath := Concat(GetFolderPath(1), Copy(relPath, 8, Len(relPath)));
+	END;
+
+BEGIN
+	{$INCLOOD Common\Data\VA Setup Data-Imperial.vwx}
+	{$INCLOOD Common\Data\VA Setup Data-Metric.vwx}
+	IF GetPref (173) THEN
+		fileName := convertFileName (GetFolderPath (2), GetLocStr (12017, 9))
+	ELSE
+		fileName := convertFileName (GetFolderPath (2), GetLocStr (12017, 6));
+	{* Import the LayerMap.G worksheet *}
+	status := GetLayerMapG (wksH, deleteWks);
+	layerMapOK := (status = 1) AND (wksH <> NIL);
+```
+```python
+import vs
+
+# Function GetFolderPath returns the full path to the requested folder
+# independent of localized folder names.
+whichPath = 'C:/Temp'
+
+text = vs.GetFolderPath(whichPath)
+vs.Message('GetFolderPath returned: ' + str(text))
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 
 ## Category
 * [File IO](../Categories/File%20IO.md)
-

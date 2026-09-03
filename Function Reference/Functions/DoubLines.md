@@ -21,9 +21,23 @@ def vs.DoubLines(doubleLineDistance):
 ## Examples
 [CreateWallObject2](examples/CreateWallObject2.md)
 
+```pascal
+DoubLines(6*upi);
+ResetOrientation3D;
+SetZVals(0.0,0.0);
+ClearCavities;
+```
+```python
+import vs
+
+# 5_ Procedure DoubLines sets the line spacing width for double-line tools.
+doubleLineDistance = 1.0
+
+vs.DoubLines(doubleLineDistance)
+```
+
 ## Version
 DoubLines is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from All Versions
 

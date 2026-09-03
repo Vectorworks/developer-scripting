@@ -20,6 +20,21 @@ def vs.GetMaterialArea(h, material):
 |h|HANDLE|Handle to object.|
 |material|STRING|Name of material.|
 
+## Examples
+```pascal
+resultVal := GetMaterialArea(h, 'Example');
+```
+```python
+import vs
+
+# Returns the surface area of the object having the specified material.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+material = 'Example'
+
+area = vs.GetMaterialArea(h, material)
+vs.Message('GetMaterialArea returned: ' + str(area))
+```
+
 ## See Also
 VS Functions:
 [GetMaterialVolume](GetMaterialVolume.md)

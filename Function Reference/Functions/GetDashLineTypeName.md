@@ -20,6 +20,21 @@ def vs.GetDashLineTypeName(DashStyleIndex):
 ## Remarks
 This replaces GetDashStyleName
 
+## Examples
+```pascal
+resultStr := GetDashLineTypeName(1);
+```
+```python
+import vs
+
+# Retrieves the dash style name for the specified dash style using its
+# negated internal index.
+DashStyleIndex = 1
+
+name = vs.GetDashLineTypeName(DashStyleIndex)
+vs.Message('GetDashLineTypeName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [SetDashLineTypeName](SetDashLineTypeName.md)

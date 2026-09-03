@@ -26,6 +26,43 @@ To get the actual name use GetActualNameFromResourceList.
 ## Examples
 [WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
+```pascal
+BEGIN
+symDefCnt := symDefCnt + 1;
+CheckSymDefAlloc;
+symDefs[symDefCnt].folderName := folderDisplayName;
+symDefs[symDefCnt].symName := GetNameFromResourceList(defaultListID, i);
+symDefs[symDefCnt].folderLevel := -1;
+symDefs[symDefCnt].resourceIndex := i;
+IF symDefs[symDefCnt].symName = symName THEN selSymFolder := folderDisplayName;
+END;
+
+BEGIN
+TempStr := GetNameFromResourceList(ResourceListID,I);
+IF TempStr=gMarker1Name THEN
+	BEGIN
+	FoundMarker := TRUE;
+	actualMarker1Name := GetActualNameFromResourceList(ResourceListID,I);
+
+ELSE BEGIN
+	gImagePopup5Str := GetNameFromResourceList( defConListID, gImagePopup5Int );
+	resourceH := GetObject( gImagePopup5Str );
+	PIOHand := FInSymDef( resourceH );
+	gSymbolInfo [cnt].shapeName := GetName( GetRecord (PIOHand, (NumRecords(PIOHand))));
+	gSymbolInfo[cnt].deleteMe := FALSE;
+```
+```python
+import vs
+
+# Returns the name to display of the indicated item in the specified resource
+# list.
+listID = 1
+index = 1
+
+name = vs.GetNameFromResourceList(listID, index)
+vs.Message('GetNameFromResourceList returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [GetActualNameFromResourceList](GetActualNameFromResourceList.md)

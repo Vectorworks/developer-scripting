@@ -28,6 +28,19 @@ BEGIN
 layerLevelType := GetLayerLevelType(ActLayer);
 ```
 
+```pascal
+resultStr := GetLayerLevelType(layer);
+```
+```python
+import vs
+
+# Returns the Layer Level Type of the Layer.
+layer = vs.ActLayer()  # handle to the active design layer
+
+text = vs.GetLayerLevelType(layer)
+vs.Message('GetLayerLevelType returned: ' + str(text))
+```
+
 ## See Also
 VS Functions:
 [SetLayerLevelType](SetLayerLevelType.md) 

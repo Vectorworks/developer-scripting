@@ -34,6 +34,35 @@ Move(6,1);
 vs.Move(6, 1)
 ```
 
+```pascal
+BEGIN
+	Line (0, tickMark [3]);
+	SetLW (LNewObj, markerPenSize);
+	Move (dx, -tickMark [3]);
+END
+
+	Move (-(dx2 + dx1), height - dy3);
+	PenLoc (x, y);
+	numLines := numLines + 1;
+END;
+
+begin
+Move((sWidth + gAisleWidth)/2, #0);
+PenLoc(center_x, center_y);
+end else begin
+Move((sWidth - gAisleWidth)/2, #0);
+PenLoc(center_x, center_y);
+```
+```python
+import vs
+
+# Sets the position of the graphics pen in the VectorWorks document by moving
+# a specified distance from the current pen location.
+move = 1.0
+
+vs.Move(move)
+```
+
 ## See Also
 VS Functions:
 [MoveTo](MoveTo.md)

@@ -29,6 +29,19 @@ ColorIndexToRGB(214,cRed,cGrn,cBlu);
 SetMtlPenForeColor(mtlHandle,cRed,cGrn,cBlu);
 ```
 
+```pascal
+SetMtlPenForeColor(material, 1);
+```
+```python
+import vs
+
+# Sets the pen foreground color of the specified material.
+material = vs.FSActLayer()  # handle to the first selected object on the active layer
+color = 5
+
+vs.SetMtlPenForeColor(material, color)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

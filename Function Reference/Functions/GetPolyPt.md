@@ -53,6 +53,41 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	GetPolyPt(lineHandle, vertexNum, x, y);
+	MoveTo(x, y);
+
+for cnt1 := 1 to wall_cnt do BEGIN
+	IF doGross THEN BEGIN
+		h1 := OffsetPolygon(walls[cnt1], -1");
+		for cnt2 := GetVertNum(h1) downto 2 do BEGIN
+			GetPolyPt(h1, cnt2 - 1, pt1.x, pt1.y);
+			GetPolyPt(h1, cnt2,     pt2.x, pt2.y);
+			IF Abs(Norm(pt2 - pt1)) < .0625" THEN DelVertex(h1, cnt2);
+		END;
+
+BEGIN
+	Perim := 0;
+	FOR j := 1 TO GetVertNum (hPoly) DO BEGIN
+		GetPolyPt (hPoly, j, x2, y2);
+		IF j = 1 THEN BEGIN
+			x0 := x2;
+			y0 := y2;
+		END
+```
+```python
+import vs
+
+# Procedure GetPolyPt returns the coordinates of a specified vertex of the
+# referenced object.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+result = vs.GetPolyPt(objectHd, index)
+```
+See also in tutorials: [15. Uniform Arc-Length Resampling of a Polyline](ai%20examples/15_PolylineResampleUniform.md), [20. Read a Polyline and Build Walls Along Its Path](ai%20examples/20_PolylineToWalls.md)
+
 ## See Also
 For polygons:
 * [SetPolyPt](SetPolyPt.md)

@@ -14,6 +14,18 @@ def vs.vsoSetGlazingArea(GlazingArea):
 |---|---|---|
 |GlazingArea|REAL|   |
 
+## Examples
+```pascal
+vsoSetGlazingArea(1.0);
+```
+```python
+import vs
+
+GlazingArea = 1.0
+
+vs.vsoSetGlazingArea(GlazingArea)
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

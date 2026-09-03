@@ -23,6 +23,28 @@ def vs.SetTexBitRepVert(textureBitmap, repeatVert):
 ## Remarks
 Sets the texture bitmap attribute to specify that it should repeat vertically
 
+## Examples
+```pascal
+BEGIN
+textureBitmap := CreateTextureBitmapN(shaderRecord);
+SetTexBitRepHoriz(textureBitmap, FALSE);
+SetTexBitRepVert(textureBitmap, FALSE);
+IF textureBitmap <> NIL THEN
+	BEGIN
+	SetName(TextureHand,TextureName);
+	SetTextureSize(TextureHand, 2");
+```
+```python
+import vs
+
+# Procedure SetTexBitRepVert sets the vertical repeat flag for the referenced
+# texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+repeatVert = True
+
+vs.SetTexBitRepVert(textureBitmap, repeatVert)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

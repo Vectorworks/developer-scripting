@@ -38,6 +38,42 @@ colorIndex = vs.RGBToColorIndex(65535, 0, 39321)
 vs.PenFore(colorIndex) # using Color Index values
 ```
 
+```pascal
+BEGIN
+	GetPenFore (gWallHand,r,g,b);
+	PenFore (r,g,b);
+	Pensize (GetLW (gWallHand));
+	PenPatN (GetLSN (gWallHand));
+	GetFillBack (gWallHand,r,g,b);
+	FillBack (r,g,b);
+
+Options[1] := 'Spotlight'; {Saved xml Category}
+Options[2] := 'SeatingLayoutPick'; {Saved xml Item}
+Options[3] := ''; {Check Box String}
+AlertInformDontShowAgain(GetPlugInString(3010),'', FALSE, Options);
+PenFore(45000, 45000, 45000);
+SetPref(9871, TRUE);
+GetOrigin(OriginX,OriginY);
+Is3dView := GetProjection(ActLayer)<>6;
+RunTempTool(TempToolCallback, TRUE);
+
+FPenFore(saveR, saveG, saveB);
+PenPatN(gLeaderType);
+PenSize(gLeaderThickness);
+GetPenFore(ActiveParmHand, r, g, b);
+PenFore(r, g, b);
+MoveTo(bubbleIntPt.x, bubbleIntPt.y);
+LineTo(shoulderPt.x, shoulderPt.y);
+LineTo(markerPt.x, markerPt.y);
+PenPatN(savePenPat);
+```
+```python
+if not vs.IsPenColorByClass( objHand ):
+	rgb = vs.GetPenFore( objHand )
+	vs.PenFore( rgb )
+```
+See also in tutorials: [02. Draw 2D Geometry Primitives](ai%20examples/02_Draw2DPrimitives.md)
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

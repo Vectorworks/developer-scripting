@@ -33,7 +33,6 @@ Return values:
 
 4096 - Beta Serial Number Mode
 
-
 456 in binary is 0000111001000.  (Read from the right to left)
 
 8 Student Mode
@@ -53,6 +52,18 @@ FUNCTION GetCurrentMode : INTEGER;
 ```python
 def vs.GetCurrentMode():
     return INTEGER
+```
+
+## Examples
+```pascal
+resultN := GetCurrentMode;
+```
+```python
+import vs
+
+# Returns the current application protection mode as bitwise OR.
+resultN = vs.GetCurrentMode()
+vs.Message('GetCurrentMode returned: ' + str(resultN))
 ```
 
 ## Version

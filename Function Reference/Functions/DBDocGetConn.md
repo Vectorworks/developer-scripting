@@ -22,6 +22,20 @@ def vs.DBDocGetConn(databaseName):
 |outUserName|DYNARRAY[] of CHAR|   |
 |outPassword|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := DBDocGetConn(databaseName, outUserName, outPassword);
+```
+```python
+import vs
+
+# Get database connection info.
+databaseName = 'Example'
+
+ok, outUserName, outPassword = vs.DBDocGetConn(databaseName)
+vs.Message('DBDocGetConn returned: ' + str((ok, outUserName, outPassword)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

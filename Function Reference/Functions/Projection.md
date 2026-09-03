@@ -100,6 +100,30 @@ Projection(1,2,3',-2,-2,2,2);
 
 ```
 
+```pascal
+Projection	(
+			1,
+			GetLayerRenderMode( ActLayer ),
+			ScaleToPIOLay * CameraToPPlaneDist3D,
+			ScaleToPIOLay * ( -pCamPhotoFrameWidth / 2 ) + pioCMObjSavedLocPt.x,
+			ScaleToPIOLay * ( pCamPhotoFrameHeight / 2 ) + pioCMObjSavedLocPt.y,
+			ScaleToPIOLay * ( pCamPhotoFrameWidth / 2 ) + pioCMObjSavedLocPt.x,
+			ScaleToPIOLay * ( -pCamPhotoFrameHeight / 2 ) + pioCMObjSavedLocPt.y
+			);
+
+Projection(0,0,0,0,0,0,0);	{changes to Ortho}
+
+GetView(saveView.xAngleR, saveView.yAngleR, saveView.zAngleR,
+	saveView.offsetX, saveView.offsetY, saveView.offsetZ);
+IF (saveView.xAngleR<>0)|(saveView.yAngleR<>0)|(saveView.zAngleR<>0) THEN saveView.vProjction:=0;
+IF saveView.vProjction<>6 THEN BEGIN
+	Projection(6, 0, 0, 0, 0, 0, 0);
+END;
+```
+```python
+vs.Projection(proj, rMode, 1.0, clip1, clip2)
+```
+
 ## Version
 Availability: from MiniCAD 4.0
 

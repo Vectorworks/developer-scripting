@@ -21,6 +21,25 @@ def vs.IFC_DMSetFieldOpt(inStrObjName, inStrEntryName, inStrFieldName, bOptional
 |inStrFieldName|STRING|   |
 |bOptional|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMSetFieldOpt('Example', 'Example', 'MyRecord', TRUE);
+```
+```python
+import vs
+
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+inStrFieldName = 'MyField'
+bOptional = True
+
+ok = vs.IFC_DMSetFieldOpt(inStrObjName, inStrEntryName, inStrFieldName, bOptional)
+if ok:
+    vs.Message('IFC_DMSetFieldOpt succeeded')
+else:
+    vs.Message('IFC_DMSetFieldOpt failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

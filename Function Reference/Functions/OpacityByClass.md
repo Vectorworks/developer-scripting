@@ -15,6 +15,17 @@ def vs.OpacityByClass():
 ## Remarks
 Sets the global attributes to use the opacity of the default class.
 
+## Examples
+```pascal
+OpacityByClass;
+```
+```python
+import vs
+
+# Sets the document default settings to the opacity of the active class.
+vs.OpacityByClass()
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

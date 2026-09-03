@@ -53,6 +53,13 @@ RUN(Example);
 
 ```
 
+```pascal
+HWallWidth(wallHd, 1.0);
+```
+```python
+vs.HWallWidth(wallHd, 1.0)
+```
+
 ## Version
 Availability: from MiniCAD6.0
 

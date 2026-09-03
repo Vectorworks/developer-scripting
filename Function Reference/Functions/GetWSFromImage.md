@@ -17,6 +17,21 @@ def vs.GetWSFromImage(worksheetImage):
 |---|---|---|
 |worksheetImage|HANDLE|Handle to worksheet image object.|
 
+## Examples
+```pascal
+resultH := GetWSFromImage(worksheetImage);
+```
+```python
+import vs
+
+# Returns a handle to the worksheet being displayed by a worksheet image object.
+worksheetImage = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+objHandle = vs.GetWSFromImage(worksheetImage)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

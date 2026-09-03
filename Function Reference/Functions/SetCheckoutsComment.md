@@ -19,6 +19,23 @@ def vs.SetCheckoutsComment(comment):
 |---|---|---|
 |comment|STRING|The comment to replace any currently in use.|
 
+## Examples
+```pascal
+resultOK := SetCheckoutsComment('Example');
+```
+```python
+import vs
+
+# Set the comment that will be used for checkouts and commits.
+comment = 'Example'
+
+ok = vs.SetCheckoutsComment(comment)
+if ok:
+    vs.Message('SetCheckoutsComment succeeded')
+else:
+    vs.Message('SetCheckoutsComment failed')
+```
+
 ## See Also
 VS Functions:
 [GetCheckoutsComment](GetCheckoutsComment.md)

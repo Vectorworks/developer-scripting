@@ -17,6 +17,20 @@ def vs.GetWallCapAttributesType(wall):
 |---|---|---|
 |wall|HANDLE|The handle to the wall or round wall.|
 
+## Examples
+```pascal
+resultN := GetWallCapAttributesType(wall);
+```
+```python
+import vs
+
+# Gets the wall cap attributes type of a wall or round wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetWallCapAttributesType(wall)
+vs.Message('GetWallCapAttributesType returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetWallCapAttributesType](SetWallCapAttributesType.md)

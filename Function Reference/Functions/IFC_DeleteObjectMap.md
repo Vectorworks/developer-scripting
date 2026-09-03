@@ -17,6 +17,23 @@ def vs.IFC_DeleteObjectMap(objectName):
 |---|---|---|
 |objectName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DeleteObjectMap('Example');
+```
+```python
+import vs
+
+# Deletes mapping for object.
+objectName = 'Example'
+
+ok = vs.IFC_DeleteObjectMap(objectName)
+if ok:
+    vs.Message('IFC_DeleteObjectMap succeeded')
+else:
+    vs.Message('IFC_DeleteObjectMap failed')
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

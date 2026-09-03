@@ -27,6 +27,26 @@ def vs.SetVSResourceFile(fileName):
 ## Remarks
 Specify the file name without an extension. However, the file must exist in the plug-ins folder WITH an extension. Use .rsr on Windows and .rsrc on the Mac.
 
+## Examples
+```pascal
+If SetVSResourceFile('IP Resources') THEN BEGIN END;
+
+IF SetVSResourceFile('IP Resources') THEN BEGIN END;
+
+gFlag := GetCustomObjectInfo(gPIOName, ghParm, ghParmRecord, ghWall);
+gNew := IsNewCustomObject(kPIOName);
+vsoGetEventInfo(gTheEvent, gMsgData);
+IF SetVSResourceFile('IP Resources') THEN BEGIN END;
+```
+```python
+def ResourceIsOK():
+	isOK = False
+	if vs.SetVSResourceFile( 'IP Resources' ):
+		isOK = True
+	else:
+		Message( 'The "IP Resources" file was not found.' )
+```
+
 ## See Also
 VS Functions:
 [GetResourceString](GetResourceString.md)

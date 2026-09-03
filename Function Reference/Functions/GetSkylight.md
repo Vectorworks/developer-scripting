@@ -46,6 +46,21 @@ symbolName:=Index2Name(symID);
 edgeID,cOff,pOff,symID = vs.GetSkylight(roofHandle,skylightID)
 ```
 
+```pascal
+GetSkylight(roofObject, 1, 2, 1.0, 2.0, 3);
+```
+```python
+import vs
+
+# Function GetSkylight returns the definition attributes of a specified
+# skylight in the referenced roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+skylightID = 1
+
+edgeIndex, cornerOffset, perpOffset, symName = vs.GetSkylight(roofObject, skylightID)
+vs.Message('GetSkylight returned: ' + str((edgeIndex, cornerOffset, perpOffset, symName)))
+```
+
 ## See Also
 VS Functions:
 [Index2Name](Index2Name.md)

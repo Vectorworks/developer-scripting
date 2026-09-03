@@ -21,6 +21,21 @@ def vs.SetPartDataID(objectHandle, dataID):
 |objectHandle|HANDLE|The sub-object handle.|
 |dataID|LONGINT|The numeric value assigned to the part.|
 
+## Examples
+```pascal
+SetPartDataID(objectHandle, 1);
+```
+```python
+import vs
+
+# Set a numeric value for this part instance represented by the specified
+# sub-object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+dataID = 1
+
+vs.SetPartDataID(objectHandle, dataID)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

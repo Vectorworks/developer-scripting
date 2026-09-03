@@ -43,6 +43,15 @@ See NurbsSurfaceEvalPt
 
 ```
 
+```pascal
+{ Find u and v real values that correspond the knots with the maximum u and v indices. }
+      NurbsKnot( hExtr, 1, knotsU - 1, foundU );
+      NurbsKnot( hExtr, 0, knotsV - 1, foundV );
+```
+```python
+result = vs.NurbsKnot(objectHd, 1, 2)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

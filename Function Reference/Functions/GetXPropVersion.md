@@ -19,6 +19,17 @@ def vs.GetXPropVersion():
 |---|---|---|
 |outVersion|LONGINT|Output parameter.|
 
+## Examples
+```pascal
+GetXPropVersion(1);
+```
+```python
+import vs
+
+# Returns the version of the Extended Properties support currently running.
+result = vs.GetXPropVersion()
+```
+
 ## Version
 Availability: from All Versions
 

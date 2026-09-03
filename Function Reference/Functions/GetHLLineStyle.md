@@ -20,6 +20,19 @@ def vs.GetHLLineStyle(HLOptionsHandle):
 |HLOptionsHandle|HANDLE|   |
 |lineStyle|INTEGER|   |
 
+## Examples
+```pascal
+GetHLLineStyle(HLOptionsHandle, 1);
+```
+```python
+import vs
+
+# Gets the Line Style of the specified Hidden Line Rendering options handle.
+HLOptionsHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+result = vs.GetHLLineStyle(HLOptionsHandle)
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

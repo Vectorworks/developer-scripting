@@ -22,6 +22,21 @@ def vs.GetRRDiam(h):
 |xDiam|REAL|X diameter of rounded corner.|
 |yDiam|REAL|Y diameter of rounded corner.|
 
+## Examples
+```pascal
+GetRRDiam(h, 1.0, 2.0);
+```
+```python
+import vs
+
+# Procedure GetRRDiam returns the horizontal and vertical diameters of the
+# rounded corners of a rounded rectangle object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+xDiam, yDiam = vs.GetRRDiam(h)
+vs.Message('GetRRDiam returned: ' + str((xDiam, yDiam)))
+```
+
 ## Version
 Availability: from All Versions
 

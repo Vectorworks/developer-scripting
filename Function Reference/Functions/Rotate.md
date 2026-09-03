@@ -27,6 +27,25 @@ Rotate(45d15'23");
 
 ```
 
+```pascal
+	IF Fill THEN BEGIN
+		SetFPat(LNewObj, 2);
+		SetFillFore(LNewObj, red, green, blue);
+	END;
+	IF gMag_North THEN Rotate(gDeclination);
+END;
+```
+```python
+vs.DSelectAll()
+vs.CreateText( vs.PSheet_No )
+vs.SetFPat( vs.LNewObj(), 0 )
+vs.Rotate( dTextRotation )
+
+vs.Rotate( sweepTmp - 90 )
+hObj = vs.LNewObj()
+vs.DSelectAll()
+```
+
 ## Version
 Availability: from All Versions
 

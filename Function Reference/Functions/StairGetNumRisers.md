@@ -26,6 +26,20 @@ def vs.StairGetNumRisers(stair):
 |NumRisers3|INTEGER|   |
 |NumRisers4|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := StairGetNumRisers(stair, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Returns numbers of risers of stair flights 1-4.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, NumRisers1, NumRisers2, NumRisers3, NumRisers4 = vs.StairGetNumRisers(stair)
+vs.Message('StairGetNumRisers returned: ' + str((ok, NumRisers1, NumRisers2, NumRisers3, NumRisers4)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

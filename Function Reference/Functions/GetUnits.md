@@ -69,6 +69,50 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	GetUnits(fraction, display, format, upi, name, sqName);
+	halfFont := kHalfFont * upi * GetLScale(ActLayer);
+	tmpAngle := Vec2Ang(segVector);
+	tmpVector := 0.5*segVector;
+	labelVector := -1 * Perp(UnitVec(tmpVector)) * halfFont;
+
+Height:= pHeight;
+GetUnits(Frac, DispAcc,Format,unitsPerInch,UnitMk,SqrUnitMk);
+IF pInt_Frame_W < 0 THEN BEGIN
+	IF bUseSoundVWPref THEN
+		SysBeep;
+	SetRField(parmHand, 'Base Cabinet', 'Int Frame W', Num2Str(9,UnitsPerInch));
+
+BEGIN
+	GetUnits(DummyInteger,DummyInteger,DummyInteger,UPI,DummyString,DummyString);
+END;
+```
+```python
+frac, dispAcc, format	= 0, 0, 0
+unitsPerInch			= 0.0
+unitMk, sqrUnitMk		= '', ''
+frac, dispAcc, format, unitsPerInch, unitMk, sqrUnitMk = vs.GetUnits()
+gDTM					= kDTM * unitsPerInch
+curbHeight				= vs.PCurb_Height
+
+fraction, display, format = 0, 0, 0
+unitsPerInch = 0.0
+unit, sqrUnit = '', ''
+fraction, display, format, unitsPerInch, unit, sqrUnit = vs.GetUnits()
+global gDTM
+gDTM	= unitsPerInch * kDTM
+
+frac, dispAcc, format = 0, 0, 0
+unitsPerInch = 0.0
+unitMk, sqrUnitMk = '', ''
+frac, dispAcc, format, unitsPerInch, unitMk, sqrUnitMk = vs.GetUnits()
+if vs.PDraw_Gutter_Curb:
+	guterCurb = vs.PCurb_Width + vs.PGutter_Width + vs.PGutter_Fence_Offset
+else:
+	guterCurb = vs.PGutter_Width + vs.PGutter_Fence_Offset
+```
+
 ## Version
 Availability: from All Versions
 

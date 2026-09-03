@@ -48,6 +48,34 @@ formatName = vs.GetVWRString(vwr, 'FormatName' )
 vs.AlrtDialog( formatName )
 ```
 
+```pascal
+	END;
+	IF (str = '') THEN GetVWRString(str,Concat('IP Resources/Strings/',listID,' *'),Concat(stringID));
+	GetLocStr := str;
+END;
+
+BEGIN
+	GetVWRString(angleMark, 'Vectorworks/Strings/1010 Dimension Strings.vwstrings', '10');
+	SetRField(parmHand, parmName, 'Selected Heliodon', Concat(city[i], GetPluginString(3008), Num2Str(2, rotation[i]), angleMark));
+END;
+
+BEGIN
+	If GetLocalizedPluginParameter(recName, fldName, locFldName) then BEGIN
+		IF xcoord THEN	GetVWRString(suffix,'Vectorworks/Strings/1150 *','11') {(suffix, 1150, 11 )}
+		ELSE			GetVWRString(suffix,'Vectorworks/Strings/1150 *','12');{( suffix, 1150, 12 )}
+```
+```python
+import vs
+
+# Replaces GetResourceString -- load a string from VWR file More information
+# about VWR files can be found here [[Vectorworks VWR Resources]].
+resIdentifier = 'Example'
+stringIdentifier = 'Example'
+
+text = vs.GetVWRString(resIdentifier, stringIdentifier)
+vs.Message('GetVWRString returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

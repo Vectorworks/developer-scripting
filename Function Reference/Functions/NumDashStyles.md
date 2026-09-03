@@ -25,6 +25,13 @@ numLS := NumDashStyles;
 
 ```
 
+```pascal
+resultN := NumDashStyles;
+```
+```python
+result = vs.NumDashStyles()
+```
+
 ## See Also
 VS Functions:
 [BuildResourceList](BuildResourceList.md) 

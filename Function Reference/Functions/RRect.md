@@ -39,6 +39,29 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	RRect( -gSquareWidth/2, gSquareWidth/2, gSquareWidth/2, -gSquareWidth/2, gCornerRadius*2, gCornerRadius*2 );
+	HRotate(LNewObj, gX0, gY0, 45 );
+END;
+
+BEGIN
+	IF gStructShape = kRectangularC THEN
+		RRect(-width/2, depth/2, width/2, -depth/2, 2*radius, 2*radius)
+	ELSE Oval(-width/2, depth/2, width/2, -depth/2);
+END
+
+IF pConfig=kDLSConfig1 THEN Oval(-SizeFactor,-SizeFactor/2,0,SizeFactor/2)
+ELSE IF pConfig=kDLSConfig3 THEN Rect(-SizeFactor,-SizeFactor/2,0,SizeFactor/2)
+ELSE IF pConfig=kDLSConfig2 THEN BEGIN
+	SetRadius;
+	RRect(-SizeFactor,-SizeFactor/2,0,SizeFactor/2,rad,rad);
+	END;
+```
+```python
+vs.RRect(p1, p2, Diam)
+```
+
 ## See Also
 VS Functions:
 [Rect](Rect.md) 

@@ -68,6 +68,17 @@ ok, message, state, code, internalDesc = vs.DBSQLExecuteError()
 vs.AlrtDialog('state: ' + state + '\nmessage: ' + message + '\ncode: ' + str(code) + '\nintDesc: ' + internalDesc)
 ```
 
+```pascal
+resultOK := DBSQLExecuteError(message, state, 1, internalDesc);
+```
+```python
+import vs
+
+# Return information about the last error occured in the ODBC API functions.
+ok, message, state, code, internalDesc = vs.DBSQLExecuteError()
+vs.Message('DBSQLExecuteError returned: ' + str((ok, message, state, code, internalDesc)))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

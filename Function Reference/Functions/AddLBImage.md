@@ -166,6 +166,22 @@ def Test():
 Test()
 ```
 
+```pascal
+resultN := AddLBImage(1, 2, 3, 10);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions DEPRECATED after Vectorworks2012_.
+dialogID = 1
+componentID = 2
+resourceType = 0
+resourceID = 3
+
+resultN = vs.AddLBImage(dialogID, componentID, resourceType, resourceID)
+vs.Message('AddLBImage returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetVSResourceFile](SetVSResourceFile.md) 

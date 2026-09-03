@@ -25,6 +25,22 @@ def vs.SetTexBFeatureEnd(textureBitmap, featureEndX, featureEndY):
 ## Remarks
 X and y are in paint node pixels from top left
 
+## Examples
+```pascal
+SetTexBFeatureEnd(textureBitmap, 1, 2);
+```
+```python
+import vs
+
+# Procedure SetTexBFeatureEnd sets the &quot;feature endpoint&quot; of the
+# referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+featureEndX = 1
+featureEndY = 2
+
+vs.SetTexBFeatureEnd(textureBitmap, featureEndX, featureEndY)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

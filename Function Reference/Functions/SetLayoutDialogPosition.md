@@ -57,6 +57,29 @@ RUN(Dialog);
 
 ```
 
+```pascal
+	hght := Str2Int(value)	ELSE hght := 0;
+if (left > 0) & (top > 0) then BEGIN
+	{Don't do this is position is null.}
+	SetLayoutDialogSize(dialogID, wdth, hght);
+	boo := SetLayoutDialogPosition(dialogID, left, top);
+
+BEGIN
+	IF ( SettingDlgPos_Left < 0 ) THEN SettingDlgPos_Left := 0;
+	IF ( SettingDlgPos_Top < 20 ) THEN SettingDlgPos_Top := 20;
+	boo := SetLayoutDialogPosition( dialogID, SettingDlgPos_Left, SettingDlgPos_Top );
+END;
+
+BEGIN
+	IF ( TuneDlgPos_Left < 0 ) THEN TuneDlgPos_Left := 0;
+	IF ( TuneDlgPos_Top < 20 ) THEN TuneDlgPos_Top := 20;
+	boo := SetLayoutDialogPosition( dialogID, TuneDlgPos_Left, TuneDlgPos_Top );
+END;
+```
+```python
+result = vs.SetLayoutDialogPosition(dialogID, left, top)
+```
+
 ## See Also
 VS Functions:
 [GetLayoutDialogPosition](GetLayoutDialogPosition.md)

@@ -23,6 +23,20 @@ This only creates the object, SetDormerAttributes() &amp; SetGableAttributes() m
 ## Examples
 [CreateRoofOb](examples/CreateRoofObj.md)
 
+```pascal
+resultN := CreateGableDormer(roofObject);
+```
+```python
+import vs
+
+# Function CreateGableDormer creates a gable dormer in the referenced roof
+# object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.CreateGableDormer(roofObject)
+vs.Message('CreateGableDormer returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -25,6 +25,39 @@ def vs.GetElementValue(XMLHandle, elementPath):
 |elementPath|STRING|   |
 |value|STRING|Output parameter.|
 
+## Examples
+```pascal
+BEGIN
+	IF GetElementValue(xmlID, Concat('/Preferences/', element), value) = 0
+		THEN GetElement := value
+		ELSE GetElement := '';
+END;
+
+BEGIN
+	IF GetObject(kSLFieldMapRec) <> NIL THEN DelObject(GetObject(kSLFieldMapRec));
+	IF GetObject(kLWFieldMapRec) <> NIL THEN DelObject(GetObject(kLWFieldMapRec));
+	 result := GetElementValue(hXML,Concat(xmlSL2LW,'/',SLFieldName), LWFieldName);
+	 TempSLFieldName := Substitute(' ','_',SLFieldName);
+		 IF result = 0 THEN
+		 BEGIN
+		 	NewField(kSLFieldMapRec,TempSLFieldName,LWFieldName,4,0);
+
+BEGIN {Get the status from the xml}
+	result := GetElementValue(hXML, Concat(kSLPref,'/',kAutoUniverse), str);
+	AutoU := Str2Boo(str);
+END;
+```
+```python
+import vs
+
+# Returns the value of the element corresponding to the specified element name.
+XMLHandle = 1
+elementPath = 'C:/Temp'
+
+resultN, value = vs.GetElementValue(XMLHandle, elementPath)
+vs.Message('GetElementValue returned: ' + str((resultN, value)))
+```
+
 ## Version
 Availability: from All Versions
 

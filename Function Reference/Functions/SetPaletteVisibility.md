@@ -23,6 +23,20 @@ def vs.SetPaletteVisibility(paletteName, vis):
 ## Remarks
 ptr 23-12-2019 - seems to work only on tool palets. Object Info, Attributes, ... don't react to the command.
 
+## Examples
+```pascal
+SetPaletteVisibility('Example', TRUE);
+```
+```python
+import vs
+
+# Sets the visibility state of a palette.
+paletteName = 'Example'
+vis = True
+
+vs.SetPaletteVisibility(paletteName, vis)
+```
+
 ## See Also
 VS Functions:
 [GetPaletteVisibility](GetPaletteVisibility.md)

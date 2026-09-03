@@ -22,6 +22,21 @@ def vs.IFC_GetDSFieldsCount(objectName, dataSheetName):
 |dataSheetName|STRING|   |
 |outFieldsCount|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := IFC_GetDSFieldsCount('Example', 'Example', 1);
+```
+```python
+import vs
+
+# Gets Data Sheet's fields count.
+objectName = 'Example'
+dataSheetName = 'Example'
+
+ok, outFieldsCount = vs.IFC_GetDSFieldsCount(objectName, dataSheetName)
+vs.Message('IFC_GetDSFieldsCount returned: ' + str((ok, outFieldsCount)))
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

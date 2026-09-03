@@ -5,15 +5,12 @@ Procedure Open opens a ASCII text file for reading.
 
 Remember to use Close when you are finished reading or writing to a file.
 
-
 If the filename includes a fully qualified path, the path has to use the appropriate notation for the local operating system:
 : <code>Macintosh HD:Applications:VectorWorks:Plug-Ins:Data:Notes.txt</code>
 : <code>C:\Program Files\VectorWorks\Plug-Ins\Data\Notes.txt</code>
 
-
 If the filename includes a path relative to the location of the VectorWorks executable, the subfolder delimiters have to be backslashes:
 : <code>Plug-Ins\Data\Notes.txt</code>
-
 
 If the filename does not include a path, the file is assumed to exist in the same folder as the VectorWorks executable.
 
@@ -73,6 +70,30 @@ RUN(Example);
 #### Python ####
 ```python
 
+```
+
+```pascal
+ELSE BEGIN
+	dataFile := Concat (folderPath, kFileName);
+	sizeNotFound := TRUE;
+	Open (datafile);
+	ReadLn (dataUPI);
+
+	else BEGIN
+		getData := TRUE;
+		fileName := Concat( folderPath, fileName );
+		Open( fileName );
+		ReadLn( gUPI_data );
+{
+message( ' #### gBoltType = ',gBoltType ,'   nominalSize  = ',nominalSize );
+}
+
+BEGIN
+	Open (dataFile);
+	ReadLn (dataUPI);
+```
+```python
+vs.Open('file.txt')
 ```
 
 ## Version

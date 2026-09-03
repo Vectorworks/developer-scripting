@@ -26,6 +26,24 @@ def vs.InsertTreeControlItem(nDialogID, nComponentID, strItemLabel, nParentID, n
 |nParentID|INTEGER|   |
 |nAfterID|INTEGER|   |
 
+## Examples
+```pascal
+resultN := InsertTreeControlItem(1, 2, 'Example', 3, 10);
+```
+```python
+import vs
+
+# Inserts an item into a Layout Manager tree control.
+nDialogID = 1
+nComponentID = 2
+strItemLabel = 'Example text'
+nParentID = 3
+nAfterID = 10
+
+resultN = vs.InsertTreeControlItem(nDialogID, nComponentID, strItemLabel, nParentID, nAfterID)
+vs.Message('InsertTreeControlItem returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

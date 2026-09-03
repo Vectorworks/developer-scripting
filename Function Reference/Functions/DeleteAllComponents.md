@@ -20,6 +20,23 @@ def vs.DeleteAllComponents(obj):
 ## Remarks
 *\_c\_*: 2016.02.03:  As of VW 2016 it doesn't work on other slab types such as Slab styles, Roof Styles. Use [DeleteComponent](DeleteComponent.md) looping by index.
 
+## Examples
+```pascal
+resultOK := DeleteAllComponents(obj);
+```
+```python
+import vs
+
+# Deletes all components in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.DeleteAllComponents(obj)
+if ok:
+    vs.Message('DeleteAllComponents succeeded')
+else:
+    vs.Message('DeleteAllComponents failed')
+```
+
 ## Version
 Availability: from VectorWorks 12.5
 

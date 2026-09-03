@@ -28,6 +28,29 @@ def vs.SetItemToolTipText(nDialogID, nComponentID, strToolTip, strSubToolTip, nI
 |nIndex|INTEGER|   |
 |nSubIndex|INTEGER|   |
 
+## Examples
+```pascal
+{Special Items}
+FOR i:=kFirstSpecItemStr TO kFirstSpecItemStr+kNumSpecialItems-1 DO BEGIN
+	tempInt:=InsertLBItem(dialogIDSetup, kBrowserOther, GetNumLBItems(dialogIDSetup, kBrowserOther), GetStr2(i));
+	SetItemToolTipText(dialogIDSetup, kBrowserOther, GetStr2(i), GetStr2(i+kSpecTipOffset), tempInt, 0);
+END;
+```
+```python
+import vs
+
+# Sets the tooltip text for list browsers, list boxes, edit controls, pull
+# down menus, and enhanced static text.
+nDialogID = 1
+nComponentID = 2
+strToolTip = 'Example'
+strSubToolTip = 'Example'
+nIndex = 1
+nSubIndex = 1
+
+vs.SetItemToolTipText(nDialogID, nComponentID, strToolTip, strSubToolTip, nIndex, nSubIndex)
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

@@ -79,6 +79,34 @@ verStr = vs.Concat(verStr, 'VW Version: ', vwMajor, '.', vwMinor, '.', vwMaint)
 vs.AlrtDialog(verStr)
 ```
 
+```pascal
+BEGIN
+	GetOSVersion(major, minor, incr);
+	IF (IsMac) & (major = 9) then BEGIN
+	end else if (IsMac) & ((major = 0) | (major = 10)) then BEGIN
+	end ELSE if not (IsMac) then BEGIN
+	END;
+
+BEGIN
+	GetOSVersion(major, minor, incr);
+	IF (IsMac) & (major = 9) then BEGIN
+		doneButtonHorizOffset := 23;
+	end else if (IsMac) & ((Major = 0) | (Major = 10)) then BEGIN
+		doneButtonHorizOffset := 27;
+
+BEGIN
+	GetOSVersion (osMajor, osMinor, osIncr);
+	kBoxWidth25 := Str2Num (GetPluginString (9002));
+	dialogID := CreateLayout(GetPluginString(3000),TRUE,GetPluginString(3001),GetPluginString(3002));
+```
+```python
+import vs
+
+# Returns the version of the current operating system.
+major, minor, incr = vs.GetOSVersion()
+vs.Message('GetOSVersion returned: ' + str((major, minor, incr)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

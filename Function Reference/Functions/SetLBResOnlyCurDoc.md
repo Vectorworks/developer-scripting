@@ -26,6 +26,24 @@ def vs.SetLBResOnlyCurDoc(dialogID, componentID, itemIndex, subItemIndex, onlyCu
 |subItemIndex|INTEGER|the column index|
 |onlyCurrentDoc|BOOLEAN|specifies whether or not only the current document should be used|
 
+## Examples
+```pascal
+SetLBResOnlyCurDoc(1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Sets the specified list browser item to only use the current document when
+# using/displaying resources.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+onlyCurrentDoc = True
+
+vs.SetLBResOnlyCurDoc(dialogID, componentID, itemIndex, subItemIndex, onlyCurrentDoc)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

@@ -79,13 +79,26 @@ RUN(dialog1_Main);
 
 ```
 
+```pascal
+BEGIN
+{	AlrtDialog(Concat('SetMarkerPopup:', Chr(13), Chr(13), 'style: ', style, Chr(13), 'angle: ', angle, Chr(13), 'size: ', size));
+}
+	SetMarkerChoice(dialogID, itemID, -1, style, angle, size);
+	{SetMarkerChoice(dialogID, itemID, style + 1, style, angle, size);
+	GetMarkerChoice(dialogID, itemID, index,  tmpStyle, angle, size);
+	if style <> tmpStyle then BEGIN
+		for cnt := 1 to 10 do BEGIN
+```
+```python
+vs.SetMarkerChoice(dialogID, itemID, 1, style, 1.0, 2.0)
+```
+
 ## See Also
 VS Functions:
 [GetMarkerChoice](GetMarkerChoice.md)
 
 ## Version
 SetMarkerChoice is obsolete as of VectorWorks13.0<P>
-
 
 Availability: from VectorWorks12.0
 

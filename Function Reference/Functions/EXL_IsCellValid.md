@@ -22,6 +22,25 @@ def vs.EXL_IsCellValid(sheetIndex, cellRow, cellColumn):
 |cellRow|INTEGER|   |
 |cellColumn|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := EXL_IsCellValid(1, 2, 3);
+```
+```python
+import vs
+
+# Check is cell in range of Excel sheets.
+sheetIndex = 1
+cellRow = 10
+cellColumn = 5
+
+ok = vs.EXL_IsCellValid(sheetIndex, cellRow, cellColumn)
+if ok:
+    vs.Message('EXL_IsCellValid succeeded')
+else:
+    vs.Message('EXL_IsCellValid failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

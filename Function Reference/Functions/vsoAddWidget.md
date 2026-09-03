@@ -22,6 +22,31 @@ def vs.vsoAddWidget(widgetID, widgetType, locName):
 |widgetType|LONGINT|   |
 |locName|STRING|   |
 
+## Examples
+```pascal
+boo := vsoAddWidget(Separator_1_ID, kWidgetSeperatorText, koipSeparatorStr);
+
+boo := vsoAddWidget(Separator_1_ID, kWidgetSeperatorText, koipSeparatorStr);
+	vsoAppendParameter(PIOName,'AntiAlias');
+	vsoAppendParameter(PIOName,'Opacity');
+	vsoAppendParameter(PIOName,'FillAtrAsShadowColor');
+```
+```python
+import vs
+
+# Add a widget of the specified type and localized name to appear in the
+# Object Info Palette.
+widgetID = 1
+widgetType = 0
+locName = 'Example'
+
+ok = vs.vsoAddWidget(widgetID, widgetType, locName)
+if ok:
+    vs.Message('vsoAddWidget succeeded')
+else:
+    vs.Message('vsoAddWidget failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

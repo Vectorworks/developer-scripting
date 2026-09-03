@@ -32,6 +32,19 @@ GetGradientMidpointPosition(gradientHandle, 4, midpointPosition);
 midpointPosition = vs.GetGradientMidpointPosition(gradientHandle, 4)
 ```
 
+```pascal
+GetGradientMidpointPosition(gradient, 1, 1.0);
+```
+```python
+import vs
+
+# Gets the midpoint position of the specified gradient segment.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+segmentIndex = 1
+
+result = vs.GetGradientMidpointPosition(gradient, segmentIndex)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

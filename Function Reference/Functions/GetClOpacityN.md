@@ -19,6 +19,19 @@ def vs.GetClOpacityN(strClassName):
 |outFillOpacity|INTEGER|   |
 |outPenOpacity|INTEGER|   |
 
+## Examples
+```pascal
+GetClOpacityN('Wall', 1, 2);
+```
+```python
+import vs
+
+strClassName = 'None'
+
+outFillOpacity, outPenOpacity = vs.GetClOpacityN(strClassName)
+vs.Message('GetClOpacityN returned: ' + str((outFillOpacity, outPenOpacity)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

@@ -121,7 +121,6 @@ def GetInfo( h ):
 				#		boo, str4 = vs.GetLocalizedPluginChoice(recName, str1, int2)
 				#		plugins[pluginCnt].popups[cnt2, cnt3] = vs.Concat(str3, vs.Chr(9), str4)
 
-
 def Example():	
 	global pluginCnt
 	global plugins
@@ -142,6 +141,42 @@ def Example():
 			cnt2 = cnt2 + 1
 
 Example()
+```
+
+```pascal
+BEGIN
+	dialog1_Setup;
+END;
+IF GetCustomObjectInfo(objectName,objectHand,recordHand,wallHand)THEN
+	IF NOT GetLocalizedPluginName(objectName,LocobjectName) THEN
+		LocobjectName := objectName;
+IF LocobjectName = '' THEN LocobjectName := GetLocStr(11000,26); {Display 'Object' if we don't know what the PIO is}
+kContainerClass := Concat(GetLocStr(11000,25),LocobjectName,GetLocStr(11000,27));
+IF gIsArchProduct THEN
+	GetClassesAndMaterials := RunNamedDialog(dialog1, dialog1_Handler, 'GetFinishesClasses_DS')
+
+IF (IsMac) & (major = 9) then BEGIN
+end else if (IsMac) & ((major = 0) | (major = 10)) then BEGIN
+end ELSE if not (IsMac) then BEGIN
+END;
+IF NOT GetLocalizedPluginName(objName,LocPIOName) THEN
+	LocPIOName := objName;
+dialogID := CreateLayout(Concat(title, LocPIOName), FALSE, okText, canText);
+for cnt := 1 to fldCnt do BEGIN
+	CASE flds[cnt].fldType OF
+		 1: {Integer}
+
+IF NOT GetLocalizedPluginName( pluginName, gLocPluginName ) THEN
+	gLocPluginName := pluginName;
+```
+```python
+import vs
+
+# Get the localized name of a plug-in given its universal name.
+inPluginName = 'Example'
+
+ok, outName = vs.GetLocalizedPluginName(inPluginName)
+vs.Message('GetLocalizedPluginName returned: ' + str((ok, outName)))
 ```
 
 ## See Also

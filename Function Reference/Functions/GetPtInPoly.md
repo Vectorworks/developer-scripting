@@ -17,6 +17,20 @@ def vs.GetPtInPoly(h):
 |---|---|---|
 |h|HANDLE|   |
 
+## Examples
+```pascal
+result := GetPtInPoly(h);
+```
+```python
+import vs
+
+# Finds a point inside a polyline.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vec = vs.GetPtInPoly(h)
+vs.Message('GetPtInPoly returned: ' + str(vec))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -22,6 +22,21 @@ def vs.IFC_GetPsetPropName(strPsetName, indexProperty):
 |indexProperty|INTEGER|   |
 |outPsetPropName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_GetPsetPropName('Example', 1, 'Example');
+```
+```python
+import vs
+
+# Returns the name of a property for a specified index in a Property Set.
+strPsetName = 'Example'
+indexProperty = 1
+
+ok, outPsetPropName = vs.IFC_GetPsetPropName(strPsetName, indexProperty)
+vs.Message('IFC_GetPsetPropName returned: ' + str((ok, outPsetPropName)))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

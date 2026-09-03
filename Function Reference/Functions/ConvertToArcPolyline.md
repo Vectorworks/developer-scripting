@@ -56,6 +56,22 @@ if polyObj != vs.Handle( 0 ):
 	vs.SetDSelect(polyObj)
 ```
 
+```pascal
+resultH := ConvertToArcPolyline(hPolygon, 1.0);
+```
+```python
+import vs
+
+# Convert, within a tolerance, the input polyline into an polyline that uses
+# arcs for the curves.
+hPolygon = vs.FSActLayer()  # handle to the first selected object on the active layer
+dFuzz = 1.0
+
+objHandle = vs.ConvertToArcPolyline(hPolygon, dFuzz)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

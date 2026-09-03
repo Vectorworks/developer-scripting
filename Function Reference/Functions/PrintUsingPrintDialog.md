@@ -25,6 +25,17 @@ Use GetEnabledModules to determine if an Industry Series product is installed.
 result = vs.PrintUsingPrintDialog()
 ```
 
+```pascal
+resultN := PrintUsingPrintDialog;
+```
+```python
+import vs
+
+# Available in Industry Series products only.
+resultN = vs.PrintUsingPrintDialog()
+vs.Message('PrintUsingPrintDialog returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks10.5
 

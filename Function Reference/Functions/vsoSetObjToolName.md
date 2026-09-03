@@ -23,6 +23,19 @@ def vs.vsoSetObjToolName(eventData, toolName):
 ## Examples
 le code can be found at [[VS:Similar Objects Creation]]
 
+```pascal
+vsoSetObjToolName(1, 'Example');
+```
+```python
+import vs
+
+# Set ToolName for similar object creation.
+eventData = 1
+toolName = 'Example'
+
+vs.vsoSetObjToolName(eventData, toolName)
+```
+
 ## Version
 Availability: from All Versions
 

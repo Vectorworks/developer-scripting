@@ -23,6 +23,20 @@ def vs.GetDLComponentClass(index):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := GetDLComponentClass(1, 2);
+```
+```python
+import vs
+
+# Gets the class of the component at index in the Double Line Preferences.
+index = 1
+
+ok, componentClass = vs.GetDLComponentClass(index)
+vs.Message('GetDLComponentClass returned: ' + str((ok, componentClass)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentClass](SetDLComponentClass.md)

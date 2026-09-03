@@ -22,6 +22,25 @@ def vs.IFC_SetRecEnabled(objectName, recordName, bEnable):
 |recordName|STRING|   |
 |bEnable|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_SetRecEnabled('Example', 'MyRecord', TRUE);
+```
+```python
+import vs
+
+# Enables/disables the mapped Record.
+objectName = 'Example'
+recordName = 'MyRecord'
+bEnable = True
+
+ok = vs.IFC_SetRecEnabled(objectName, recordName, bEnable)
+if ok:
+    vs.Message('IFC_SetRecEnabled succeeded')
+else:
+    vs.Message('IFC_SetRecEnabled failed')
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

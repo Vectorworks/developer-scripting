@@ -26,6 +26,22 @@ def vs.EvaluateNurbsSurfacePointAndNormal(surfaceHandle, u, v):
 |point|REAL|Coordinate of the point on the surface|
 |normal|REAL|normal vector of the surface computed at the point|
 
+## Examples
+```pascal
+resultOK := EvaluateNurbsSurfacePointAndNormal(surfaceHandle, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Determines the point and normal on the NURBS surface at the given u/v value.
+surfaceHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+u = 1.0
+v = 2.0
+
+ok, pt, normal = vs.EvaluateNurbsSurfacePointAndNormal(surfaceHandle, u, v)
+vs.Message('EvaluateNurbsSurfacePointAndNormal returned: ' + str((ok, pt, normal)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

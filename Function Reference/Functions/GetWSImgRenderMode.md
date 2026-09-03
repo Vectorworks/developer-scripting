@@ -29,6 +29,21 @@ Wire Frame render mode  = 0,<BR>
 Hidden Line render mode = 6,<BR>
 OpenGL render mode       = 11.
 
+## Examples
+```pascal
+GetWSImgRenderMode(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the specified worksheet cell's image render mode.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSImgRenderMode(worksheet, row, column)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

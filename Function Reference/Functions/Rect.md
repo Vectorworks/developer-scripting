@@ -40,6 +40,42 @@ an unrotated rectangle with width = 1m and height = 2m }
 ## Examples
 [SelectandDelObjects](examples/SelectandDelObjects.md)
 
+```pascal
+		IF IsLineStyleByClass THEN SetLSByClass( LNewObj );
+	END
+ELSE IF EndFinish = kBCStrEndNone THEN BEGIN
+	IF bShowDetail THEN BEGIN
+		Rect(xOrg,yOrg,Length,Depth);
+		SetLW(LNewObj,kThinLine);
+		IF IsLineStyleByClass THEN SetLSByClass( LNewObj );
+		HMoveBackward(LNewObj, TRUE);
+		MoveTo(XOrg,Depth);
+
+BEGIN
+	Rect(originX, originY, originX + lngth, originY + thickness);
+	SetFPat(LNewObj, 1);
+	SetLSN(LNewObj, 0);
+END
+
+BEGIN
+	IF SLength < 0 THEN {Utility Cabinet}
+		Rect(X1-kSlatSpace-I*SlatWidth,Y1,X1+kSlatSpace-I*SlatWidth,Y1-SHeight)
+	ELSE {Other cabinets}
+		Rect(X1-kSlatSpace+I*SlatWidth,Y1,X1+kSlatSpace+I*SlatWidth,Y1-SHeight);
+END;
+```
+```python
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+vs.SetFPat( vs.LNewObj(), 0 )
+b1, b2 = vs.GetBBox( vs.LNewObj() )
+vs.Rect( kBf * b1[0], kBf * b1[1], kBf * b2[0], kBf * b2[1] )
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+vs.SetFPat( vs.LNewObj(), 1 )
+vs.HMoveBackward( vs.LNewObj(), False )
+vs.EndGroup()
+```
+See also in tutorials: [02. Draw 2D Geometry Primitives](ai%20examples/02_Draw2DPrimitives.md), [04. Extrude 2D Shapes into 3D Solids](ai%20examples/04_ExtrudeShapesTo3D.md), [06. Boolean Solids: Drill a Hole Through a Block](ai%20examples/06_BooleanSolids.md), [07. Set Up Document Structure: Layers and Classes](ai%20examples/07_LayersAndClasses.md)
+
 ## See Also
 VS Functions:
 [RRect](RRect.md)

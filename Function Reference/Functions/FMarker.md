@@ -67,6 +67,33 @@ def Example():
 Example()
 ```
 
+```pascal
+IF attrNum [6] THEN SetMarkerByClass (objectH)
+ELSE IF option = 2 THEN FMarker (mStyle, mSize, mAngle);
+
+{initialize variables and standard setup}
+GetUnits (udummy,udummy,udummy,UPI,udummys,udummys);
+fMarker(mStyle,mSize,mAng);
+IF kDebug THEN
+	BEGIN
+	alrtdialog(concat('mStyle is ',num2str(0,mStyle),'.'));
+	alrtdialog(concat('mSize is ',num2str(2,mSize),'.'));
+
+BEGIN
+	fMarker(mStyle,mSize,mAng);
+	getmyunits;
+	gRot := getsymrot(pluginH);
+	eType := getIndex(pluginName, 'peType', peType);
+	show_3D_detail := pShow_3D_detail;
+```
+```python
+import vs
+
+# _ Procedure FMarker returns the active marker style parameters.
+style, size, ang = vs.FMarker()
+vs.Message('FMarker returned: ' + str((style, size, ang)))
+```
+
 ## See Also
 VS Functions:
 * [GetDefaultBeginningMarker](GetDefaultBeginningMarker.md)

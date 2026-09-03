@@ -20,6 +20,22 @@ def vs.TrueTypeToPoly(textHandle):
 |textHandle|HANDLE|   |
 |polyGroupHandle|HANDLE|   |
 
+## Examples
+```pascal
+result := TrueTypeToPoly(textHandle, groupHandle);
+HScale2D(groupHandle, 0, 0, 1 / layerScale, 1 / layerScale, TRUE);
+```
+```python
+import vs
+
+# TrueTypeToPoly converts handle to Text object into handle to Group of poly
+# objects with similar shape.
+textHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN, polyGroupHandle = vs.TrueTypeToPoly(textHandle)
+vs.Message('TrueTypeToPoly returned: ' + str((resultN, polyGroupHandle)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

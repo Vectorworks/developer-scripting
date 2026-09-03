@@ -22,6 +22,21 @@ def vs.IFC_DMGetEntryName(index, inStrObjName):
 |inStrObjName|STRING|   |
 |outStrResult|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetEntryName(1, 'Example', 'Example');
+```
+```python
+import vs
+
+# Gets the name of entry for indicated index from current IFC Data Mapping.
+index = 1
+inStrObjName = 'Example'
+
+ok, outStrResult = vs.IFC_DMGetEntryName(index, inStrObjName)
+vs.Message('IFC_DMGetEntryName returned: ' + str((ok, outStrResult)))
+```
+
 ## Version
 Available from: Vectorworks 2017
 

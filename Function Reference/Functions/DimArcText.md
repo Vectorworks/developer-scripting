@@ -28,6 +28,17 @@ vs.Arc(0,0,2,2,45,90)
 vs.DimArcText()
 ```
 
+```pascal
+DimArcText;
+```
+```python
+import vs
+
+# Procedure DimArcText creates an angular dimension object from the last arc
+# object that was drawn using VectorScript.
+vs.DimArcText()
+```
+
 ## Version
 Availability: from All Versions
 

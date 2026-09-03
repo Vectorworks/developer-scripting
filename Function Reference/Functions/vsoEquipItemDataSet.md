@@ -22,6 +22,23 @@ def vs.vsoEquipItemDataSet(message, dataIndex, dataValue):
 |dataIndex|INTEGER|   |
 |dataValue|STRING|   |
 
+## Examples
+```pascal
+vsoEquipItemDataSet(1, 2, 'Example');
+```
+```python
+import vs
+
+# Sets the specified equipment item data in the
+# ParametricEquipmentItemDataMessage(92) message sent to a Script object
+# based on the dataIndex.
+message = 'Hello Vectorworks'
+dataIndex = 1
+dataValue = 'Example'
+
+vs.vsoEquipItemDataSet(message, dataIndex, dataValue)
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

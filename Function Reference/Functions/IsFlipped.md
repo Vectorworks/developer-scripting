@@ -36,6 +36,13 @@ RUN(CountFlippedDoorSymbols);
 
 ```
 
+```pascal
+resultVal := IsFlipped(c);
+```
+```python
+result = vs.IsFlipped(c)
+```
+
 ## See Also
 VS Functions:
 [IsObjectFlipped](IsObjectFlipped.md)

@@ -20,6 +20,20 @@ def vs.SetResourceTags(handle, tags):
 |handle|HANDLE|The handle to the resource.|
 |tags|ARRAY|The list of tags.|
 
+## Examples
+```pascal
+SetResourceTags(handle, tags);
+```
+```python
+import vs
+
+# Adds the specified tags to the specified resource.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+tags = []
+
+vs.SetResourceTags(handle, tags)
+```
+
 ## See Also
 See SetObjectTags for information about returning PY tuples for the returned array.
 

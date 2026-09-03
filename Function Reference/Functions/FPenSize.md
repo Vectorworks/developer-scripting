@@ -22,6 +22,16 @@ CurrPenSize:=FPenSize;
 CurrPenSize = vs.FPenSize()
 ```
 
+```pascal
+resultN := FPenSize;
+```
+```python
+currPenSize	= vs.FPenSize()
+if not vs.PShow_Joints:
+	# Lines are drawn later because of joints
+	vs.PenSize( 0 )
+```
+
 ## Version
 Availability: from All Versions
 

@@ -28,6 +28,21 @@ All operators = -1<BR>
 Sort operator = 0<BR>
 Summarize operatory = 1
 
+## Examples
+```pascal
+RemoveAllWSColumnOperators(worksheet, 1, 2);
+```
+```python
+import vs
+
+# Removes all database column operators from specified database row.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+operatorType = 0
+
+vs.RemoveAllWSColumnOperators(worksheet, databaseRow, operatorType)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

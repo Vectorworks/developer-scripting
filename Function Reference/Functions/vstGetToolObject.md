@@ -17,6 +17,19 @@ def vs.vstGetToolObject():
 |---|---|---|
 ||   |   |
 
+## Examples
+```pascal
+resultH := vstGetToolObject;
+```
+```python
+import vs
+
+# The installed vstSetPtBehavior might create an object with tool complete.
+objHandle = vs.vstGetToolObject()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from All Versions
 

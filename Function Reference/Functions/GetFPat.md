@@ -34,6 +34,49 @@ FPatValue:=GetFPat(HandleToObj);
 FPatValue = vs.GetFPat(HandleToObj)
 ```
 
+```pascal
+		SetFPat(pluginH, 0);
+	END;
+END
+ELSE
+IF (GetFPat(pluginH) <> 0) THEN
+BEGIN
+	Rect(originX, originY, originX + lngth, originY + thickness);
+	SetLSN(LNewObj, 0);
+END
+
+BEGIN
+	patID := GetFPat(parentHand);
+	IF patID < 0 THEN
+	BEGIN
+		resHand	:= GetObject(Index2Name(-patID));
+		resType	:= GetTypeN(resHand);
+
+	Moveto(Sin(angle)*rad,cos(angle)*rad);
+	CreateText(anno);
+	SetTextJust(LNewObj,2);
+	SetTextVerticalAlign(LNewObj,3);
+	setfpat(lnewobj,GetFPat(parmHand));
+	GetFillBack(parmHand,red,grn,bl);
+	SetFillBack(LNewObj,red,grn,bl);
+	popattrs;
+END;
+```
+```python
+nFillPat = vs.GetFPat( hObjectHand )
+if nFillPat != 0:
+	if vs.IsFPatByClass(gObjHandle):
+		vs.SetFPatByClass(hObjectHand)
+	else:
+
+if not vs.IsFPatByClass( objHand ):
+	penPat	= vs.GetFPat( objHand )
+	vs.FillPat( penPat )
+
+if t != vs.kLineNode and t != vs.kLocusNode and t != vs.kLocus3DNode and t != vs.kGroupNode:
+	vs.SetFPat(objH, vs.GetFPat(parentH))
+```
+
 ## Version
 Availability: from All Versions
 

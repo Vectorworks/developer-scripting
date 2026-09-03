@@ -32,6 +32,24 @@ def vs.SetLayerDeltaZOffset(theWall, layerDeltaZOffset):
 |theWall|HANDLE|The wall.|
 |layerDeltaZOffset|REAL|The wall height's offset to the layer delta z.|
 
+## Examples
+```pascal
+resultOK := SetLayerDeltaZOffset(theWall, 1.0);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+layerDeltaZOffset = 0.0
+
+ok = vs.SetLayerDeltaZOffset(theWall, layerDeltaZOffset)
+if ok:
+    vs.Message('SetLayerDeltaZOffset succeeded')
+else:
+    vs.Message('SetLayerDeltaZOffset failed')
+```
+
 ## See Also
 VS Functions:
 [GetLayerDeltaZOffset](GetLayerDeltaZOffset.md)

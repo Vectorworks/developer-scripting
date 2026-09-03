@@ -66,6 +66,32 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	BSB := GetObjBeginningMarker( objHand, gArrowStyleIndex, gArrowAngle, gArrowSize, gArrowWidth, gThicknessBasis, gArrowThickness, begArrow );
+	BSB := GetObjEndMarker( objHand, gArrowStyleIndex, gArrowAngle, gArrowSize, gArrowWidth, gThicknessBasis, gArrowThickness, endArrow );
+END;
+
+	GetPenBack(h1, r, g, b); SetPenBack(h2, r, g, b);
+	GetPenFore(h1, r, g, b); SetPenFore(h2, r, g, b);
+END;
+if IsMarkerByClass(h1) then SetMarkerByClass(h2) else BEGIN
+	BSB := GetObjBeginningMarker(h1,style,angle,length,width,thicknessBasis,thickness,visibility);
+	BSB := SetObjBeginningMarker(h2,style,angle,length,width,thicknessBasis,thickness,visibility);
+	BSB := GetObjEndMarker(h1,style,angle,length,width,thicknessBasis,thickness,visibility);
+	BSB := SetObjEndMarker(h2,style,angle,length,width,thicknessBasis,thickness,visibility);
+END;
+```
+```python
+import vs
+
+# Gets all properties for an object's beginning marker.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, style, angle, size, width, thicknessBasis, thickness, visibility = vs.GetObjBeginningMarker(obj)
+vs.Message('GetObjBeginningMarker returned: ' + str((ok, style, angle, size, width, thicknessBasis, thickness, visibility)))
+```
+
 ## See Also
 VS Functions:
 [GetObjEndMarker](GetObjEndMarker.md)

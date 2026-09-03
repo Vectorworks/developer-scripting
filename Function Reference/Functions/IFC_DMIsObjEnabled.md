@@ -34,6 +34,23 @@ RUN(IsObjEnabled);
 bOk = vs.IFC_DMIsObjEnabled('Space'); #bOk returns if the Space Object is enabled in the current mapping
 ```
 
+```pascal
+resultOK := IFC_DMIsObjEnabled('Example');
+```
+```python
+import vs
+
+# Returns a flag that shows whether the provided object is enabled in the
+# current mapping settings.
+inStrObjName = 'Example'
+
+ok = vs.IFC_DMIsObjEnabled(inStrObjName)
+if ok:
+    vs.Message('IFC_DMIsObjEnabled succeeded')
+else:
+    vs.Message('IFC_DMIsObjEnabled failed')
+```
+
 ## See Also
 [IFC_DMEnableObject](IFC_DMEnableObject.md)
 

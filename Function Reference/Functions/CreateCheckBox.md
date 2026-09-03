@@ -52,11 +52,46 @@ def Example():
 Example()
 ```
 
+```pascal
+{* Use Mouse Clicks... *}
+CreateCheckBox (dialogID, 7, fieldS [6]);
+CreateStaticText (dialogID, 8, fieldS [7], -1);
+
+BEGIN
+	fieldNum := n1 + i - 1;
+	CreateCheckBox (dialogID, 2*i+5, '');
+	CreateStaticText (dialogID, 600+2*i, fieldName [fieldNum], labelWidth);
+	CreateSwapControl (dialogID, 2*i+6);
+	CreateGroupBox    (dialogID, 300+2*i, '', TRUE);
+	CreateEditText    (dialogID, 301+2*i, '', 45);
+
+{* Attributes to use *}
+CreateGroupBox (dialogID, 10, GetPlugInString (3007), TRUE);
+CreateGroupBox (dialogID, 30, '', FALSE);
+CreateGroupBox (dialogID, 35, '', FALSE);
+CreateCheckBox (dialogID, 11, GetPlugInString (3008));
+CreateCheckBox (dialogID, 12, GetPlugInString (3009));
+CreateCheckBox (dialogID, 13, GetPlugInString (3010));
+CreateCheckBox (dialogID, 14, GetPlugInString (3011));
+CreateGroupBox (dialogID, 31, '', FALSE);
+```
+```python
+import vs
+
+# Creates a check box control in a dialog layout.
+dialogID = 1
+itemID = 2
+text = 'Example text'
+
+vs.CreateCheckBox(dialogID, itemID, text)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
-[SetItem](SetItem.md) 
-| [SetItemEnable](SetItemEnable.md) 
-| [ItemSel](ItemSel.md)
+SetItem
+| SetItemEnable
+| ItemSel
 
 ## Version
 Availability: from VectorWorks9.0

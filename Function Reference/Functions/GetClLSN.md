@@ -26,6 +26,34 @@ IF indx < 0 THEN { if the index is positive then is a pattern. Patterns are not 
 	Message(Index2Name(-indx)); { returns the name of the dash style attached to the class 'None', if any }
 ```
 
+## Examples
+```pascal
+END;
+IF (ok) & (linestyleDo) & (linestyleVa <> mT) THEN BEGIN
+	if not ObjectHasLS(h) then ok := false else BEGIN
+		IF IsLSByClass(h)
+			THEN num1 := GetClLSN(GetClass(h))
+			ELSE num1 := GetLSN(h);
+		num2 := Str2Num(linestyleVa);
+		ok := (ok) & (((linestyleOp = '=' ) & (num1 =  num2)) |
+		              ((linestyleOp = '<' ) & (num1 <  num2)) |
+		              ((linestyleOp = '>' ) & (num1 >  num2)) |
+
+SetLSN( h4, GetClLSN( kModifierClass ) );
+SetLW( h4, GetClLW( kModifierClass ) );
+
+IF GetClLSN (UserClassName) <> TmpClassInfo.LS THEN SetClLSN (UserClassName, TmpClassInfo.LS);
+```
+```python
+import vs
+
+# Returns the line style of the specified class.
+className = 'None'
+
+resultN = vs.GetClLSN(className)
+vs.Message('GetClLSN returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetClLSN](SetClLSN.md)

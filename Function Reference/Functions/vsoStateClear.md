@@ -31,6 +31,30 @@ def vs.vsoStateClear(hObj):
   END;
 ```
 
+```pascal
+BEGIN
+	ResetEventHandler;
+	vsoStateClear(parmHand);
+END;
+
+	SetCursor (SmCrossC);
+	PopAttrs;
+	SetVersion(pluginH, recordName);
+	SetDownObject;
+	vsoStateClear(pluginH);
+END;
+
+BEGIN
+	HexBoltObjectInch;
+	vsoStateClear(gPluginH);
+END;
+```
+```python
+elif theEvent == vs.kParametricRecalculate:
+	ResetEventHandler()
+	vs.vsoStateClear( gObjHandle )
+```
+
 ## Version
 Availability: from All Versions
 

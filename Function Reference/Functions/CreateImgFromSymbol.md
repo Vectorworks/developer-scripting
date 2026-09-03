@@ -25,6 +25,25 @@ def vs.CreateImgFromSymbol(symbolName, symbolHeight, symbolWidth, symbolMargin, 
 |renderMode|INTEGER|The render mode in which to display the symbol.|
 |view|INTEGER|The standard view in which to display the symbol.|
 
+## Examples
+```pascal
+resultH := CreateImgFromSymbol('Example', 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+symbolName = 'MySymbol'
+symbolHeight = 1
+symbolWidth = 2
+symbolMargin = 3
+renderMode = 0
+view = 10
+
+symHandle = vs.CreateImgFromSymbol(symbolName, symbolHeight, symbolWidth, symbolMargin, renderMode, view)
+if symHandle is not None:
+    vs.Message('Created object handle: ' + str(symHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

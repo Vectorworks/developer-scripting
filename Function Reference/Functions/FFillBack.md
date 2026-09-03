@@ -32,6 +32,33 @@ FFillBack(redValue,greenValue,blueValue);
 redValue,greenValue,blueValue = vs.FFillBack()
 ```
 
+```pascal
+BEGIN
+	FFillFore (R, G, B);
+	SetFillFore (objectH, R, G, B);
+	FFillBack (R, G, B);
+	SetFillBack (objectH, R, G, B);
+END;
+
+structCompsNeedUpdate	:= ((structMaterialIDNum = updatedMaterialID)	& (textureByMaterial = false)) | ((structMaterialIDNum = 0) & materialDeleted);
+{AlrtDialog(concat(' Inside HandleMaterialChange(), textureNeedsUpdate = ', textureNeedsUpdate, '  ,  archMaterialIDNum = ', archMaterialIDNum, '  , structMaterialIDNum = ', structMaterialIDNum,
+												'  , updatedMaterialID =', updatedMaterialID, ' , archCompsNeedUpdate = ', archCompsNeedUpdate, ' , structCompsNeedUpdate = ', structCompsNeedUpdate)); }
+FFillFore(redValue,		greenValue,		blueValue);
+FFillBack(redValueBack, greenValueBack, blueValueBack);
+
+begin
+	FFillBack(redValue,greenValue,blueValue);
+	SetFillBack(LNewObj, redValue,greenValue,blueValue);
+end;
+```
+```python
+import vs
+
+# Procedure FFillBack returns the current fill background color.
+red, green, blue = vs.FFillBack()
+vs.Message('FFillBack returned: ' + str((red, green, blue)))
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

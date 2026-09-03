@@ -247,12 +247,43 @@ def Example():
 		if h != None:		
 			vs.AlrtDialog(vs.Concat('Object is a ', objectTypes[vs.GetType(h)]))
 
-
 Example()
 ```
 
+```pascal
+IF (lineHandle <> NIL) & (GetType(lineHandle) = 21) &
+	((vertexNum <= numberOfVertices) AND (vertexNum > 0)) then
+BEGIN
+	GetPolylineVertex(lineHandle, vertexNum, x, y, GetVertexType, radius);
+END;
+
+IF (GetType (h) = 6) AND (Selected (h)) THEN
+BEGIN
+	isArc := TRUE;
+	objH := h;
+END
+
+CASE GetType (itemHdl) OF
+
+	92:BEGIN
+		gNumSymFolders := gNumSymFolders + 1;
+		ALLOCATE gFolderN [1..gNumSymFolders];
+		gFolderN [gNumSymFolders] := GetName (itemHdl);
+  	 	getSymbolFolderNames (FInFolder (itemHdl));
+   END;
+```
+```python
+import vs
+
+# DON'T USE THIS ANYMORE.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetType(h)
+vs.Message('GetType returned: ' + str(resultN))
+```
+
 ## See Also
-From VW 2010+: [GetTypeN| GetTypeN](GetTypeN|%20GetTypeN.md)
+From VW 2010+: [GetTypeN](GetTypeN.md)
 
 ## Version
 Availability: from All Versions. Deprecated from VW 2010+.

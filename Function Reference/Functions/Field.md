@@ -29,6 +29,22 @@ Obsolete function maintained for compatibility with old scripts. Use [ SetRField
 
 [sd 9/14/98] Update the RecordNode attached to object "h" by setting the field "s2" of format "s1" to the value "s3".  The object is not redrawn immediately, so don't call this for a symbol which uses the "link text to record" feature.
 
+## Examples
+```pascal
+Field(h, 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# _Obsolete.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+s1 = 'Example'
+s2 = 'Example'
+s3 = 'Example'
+
+vs.Field(h, s1, s2, s3)
+```
+
 ## See Also
 VS Functions:
 [SetRField](SetRField.md)

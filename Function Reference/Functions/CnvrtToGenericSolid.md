@@ -17,6 +17,21 @@ def vs.CnvrtToGenericSolid(solid):
 |---|---|---|
 |solid|HANDLE|object to convert|
 
+## Examples
+```pascal
+resultH := CnvrtToGenericSolid(solid);
+```
+```python
+import vs
+
+# Converts Solid objects to generic solids.
+solid = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.CnvrtToGenericSolid(solid)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

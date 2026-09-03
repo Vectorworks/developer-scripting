@@ -16,6 +16,19 @@ def vs.PenColorByClass():
 Sets the global attributes to use the pen color of the default class.
 [sd 8/19/98]
 
+## Examples
+```pascal
+PenColorByClass;
+```
+```python
+vs.FillColorByClass()
+vs.PenColorByClass()
+vs.MarkerByClass()
+vs.FPatByClass()
+vs.LSByClass()
+vs.LWByClass()
+```
+
 ## See Also
 VS Functions:
 [FillColorByClass](FillColorByClass.md)

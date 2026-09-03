@@ -24,6 +24,22 @@ def vs.LDevice_SetAccCell(handle, cellIndex, accessoryIndex, newCellIndex):
 |accessoryIndex|LONGINT|   |
 |newCellIndex|LONGINT|   |
 
+## Examples
+```pascal
+LDevice_SetAccCell(handle, 1, 2, 3);
+```
+```python
+import vs
+
+# Change accessory parent cell by cell index.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+newCellIndex = 1
+
+vs.LDevice_SetAccCell(handle, cellIndex, accessoryIndex, newCellIndex)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

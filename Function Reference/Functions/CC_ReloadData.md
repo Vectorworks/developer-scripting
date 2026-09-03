@@ -12,6 +12,17 @@ def vs.CC_ReloadData():
     return None
 ```
 
+## Examples
+```pascal
+CC_ReloadData;
+```
+```python
+import vs
+
+# Reloads ConnectCAD data from the application, work group and user folder.
+vs.CC_ReloadData()
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

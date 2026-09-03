@@ -48,6 +48,13 @@ END;
 
 ```
 
+```pascal
+resultOK := SetLBItemPatternIndex(1, 2, 3, 10, 5);
+```
+```python
+result = vs.SetLBItemPatternIndex(dialogID, componentID, 1, 2, 3)
+```
+
 ## See Also
 [GetLBItemPatternIndex](GetLBItemPatternIndex.md) | [SetLBItemFillForeColor](SetLBItemFillForeColor.md) | [SetLBItemFillBackColor](SetLBItemFillBackColor.md)
 

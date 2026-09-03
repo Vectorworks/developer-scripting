@@ -25,8 +25,20 @@ def vs.GetProduct():
 ## Remarks
 Retrieves information that identifies what vertical market product (if any) is currently running, and which add-ons (modules) are currently available (if any).
 
-
 Should mark this as obsolete.
+
+## Examples
+```pascal
+GetProduct(1, 2);
+```
+```python
+import vs
+
+# Identifies what NNA products and product packages are available in the
+# current product installation.
+product, modules = vs.GetProduct()
+vs.Message('GetProduct returned: ' + str((product, modules)))
+```
 
 ## See Also
 VS Functions:

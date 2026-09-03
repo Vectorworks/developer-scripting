@@ -72,6 +72,43 @@ def Example():
 Example()
 ```
 
+```pascal
+IF Ang2BearingStr(tmpAngle) <> GetText (PickObject (ptX + tmpVector[1] + labelVector[1], ptY + tmpVector[2] + labelVector[2])) THEN
+	CreateText(Ang2BearingStr(tmpAngle));
+
+BEGIN
+	TextOrigin(0,0);
+	CreateText(Errors);
+END;
+
+BSB := SetObjEndMarker(LNewObj,0,30,.1,0,2,2,(pArrows <> kCSStrDown));
+SetFPat(LNewObj,0);
+angle:=angle*PI/(2*180);
+Moveto(Sin(angle)*rad,cos(angle)*rad);
+CreateText(anno);
+SetTextJust(LNewObj,2);
+SetTextVerticalAlign(LNewObj,3);
+setfpat(lnewobj,GetFPat(parmHand));
+GetFillBack(parmHand,red,grn,bl);
+```
+```python
+vs.MoveTo ( textPtx, textPty )
+vs.DSelectAll()
+vs.CreateText( vs.PSheet_No )
+vs.SetFPat( vs.LNewObj(), 0 )
+vs.Rotate( dTextRotation )
+
+vs.Absolute()
+vs.MoveTo( 0, 0 )
+vs.BeginGroup()
+vs.CreateText( message1 )
+vs.SetTextVerticalAlign( vs.LNewObj(), 3 )
+vs.SetTextJust( vs.LNewObj(), 2 )
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+vs.SetFPat( vs.LNewObj(), 0 )
+```
+See also in tutorials: [02. Draw 2D Geometry Primitives](ai%20examples/02_Draw2DPrimitives.md), [07. Set Up Document Structure: Layers and Classes](ai%20examples/07_LayersAndClasses.md), [08. Attach and Read Records on Objects](ai%20examples/08_AttachAndReadRecords.md), [09. Dimensioning and Text Annotation](ai%20examples/09_DimensionsAndText.md)
+
 ## See Also
 VS Functions:
 [BeginText](BeginText.md) 

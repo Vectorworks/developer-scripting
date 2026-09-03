@@ -67,6 +67,37 @@ v2 = (3, 15, 0)
 vs.Message( str(vs.DotProduct(v1, v2)) )
 ```
 
+```pascal
+BEGIN
+vec1 := UnitVec(v1);
+vec2 := UnitVec(v2);
+dotprod := DotProduct(vec1,vec2);
+
+zAxis.x := 0;
+zAxis.y := 0;
+zAxis.z := 1;
+slope   := DotProduct(  UnitVec(point5 - point1),zAxis);
+offset    := gTreadHeight / slope + Norm(point8 - point4);
+
+temp_v := UnitVec( EndSeg[1] - centerSeg[1] );
+IF DotProduct( seg[1]-centerSeg[1], temp_v ) > DotProduct( seg[2]-centerSeg[1], temp_v ) THEN BEGIN
+	seg_A := 1;
+	seg_B := 2;
+END ELSE BEGIN
+	seg_A := 2;
+	seg_B := 1;
+```
+```python
+import vs
+
+# Returns the dot product of the two specified vectors.
+v1 = (0, 0)
+v2 = (1, 1)
+
+value = vs.DotProduct(v1, v2)
+vs.Message('DotProduct returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [AngBVec](AngBVec.md)

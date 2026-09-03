@@ -32,6 +32,24 @@ def vs.SetLinkHeightToLayerDeltaZ(theWall, linkToLayerDeltaZ):
 |theWall|HANDLE|The wall.|
 |linkToLayerDeltaZ|BOOLEAN|Whether or not the wall's height is linked to the layer delta z.|
 
+## Examples
+```pascal
+resultOK := SetLinkHeightToLayerDeltaZ(theWall, TRUE);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+linkToLayerDeltaZ = True
+
+ok = vs.SetLinkHeightToLayerDeltaZ(theWall, linkToLayerDeltaZ)
+if ok:
+    vs.Message('SetLinkHeightToLayerDeltaZ succeeded')
+else:
+    vs.Message('SetLinkHeightToLayerDeltaZ failed')
+```
+
 ## See Also
 VS Functions:
 [GetLinkHeightToLayerDeltaZ](GetLinkHeightToLayerDeltaZ.md)

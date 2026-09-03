@@ -20,6 +20,20 @@ def vs.EXL_GetSheetIndex(sheetName):
 |sheetName|STRING|   |
 |outSheetIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := EXL_GetSheetIndex('Example', 1);
+```
+```python
+import vs
+
+# Gets index of the Excel sheet.
+sheetName = 'Example'
+
+ok, outSheetIndex = vs.EXL_GetSheetIndex(sheetName)
+vs.Message('EXL_GetSheetIndex returned: ' + str((ok, outSheetIndex)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

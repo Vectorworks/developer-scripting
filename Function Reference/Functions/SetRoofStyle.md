@@ -20,6 +20,20 @@ def vs.SetRoofStyle(roof, roofStyle):
 |roof|HANDLE|The roof.|
 |roofStyle|LONGINT|The Roof Style.|
 
+## Examples
+```pascal
+SetRoofStyle(roof, 1);
+```
+```python
+import vs
+
+# Sets the Roof Style of a roof.
+roof = vs.FSActLayer()  # handle to the first selected object on the active layer
+roofStyle = 0
+
+vs.SetRoofStyle(roof, roofStyle)
+```
+
 ## See Also
 VS Functions:
 [GetRoofStyle](GetRoofStyle.md)

@@ -26,6 +26,21 @@ def vs.GetWallCompEndPts(wall, componentIndex):
 |centerPoint|POINT|Returns the center end point of the component|
 |rightPoint|POINT|Returns the right end point of the component|
 
+## Examples
+```pascal
+GetWallCompEndPts(wall, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Gets the end points of a wall component.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+leftPoint, centerPoint, rightPoint = vs.GetWallCompEndPts(wall, componentIndex)
+vs.Message('GetWallCompEndPts returned: ' + str((leftPoint, centerPoint, rightPoint)))
+```
+
 ## See Also
 VS Functions:
 [GetWallCompStartPts](GetWallCompStartPts.md)

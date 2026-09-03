@@ -22,6 +22,31 @@ def vs.GetVCenter():
 
 ## Examples
 
+```pascal
+BEGIN
+	GetVCenter (gCenterX, gCenterY);
+	gZoomFactor := GetZoom;
+
+BEGIN
+	GetVCenter(cenPt.x, cenPt.y);
+	pt := pt - cenPt;
+	pt := ((pt / GetPrefReal(152)) / GetLScale(ActLayer)) * (GetZoom / 100);
+	GetScreen(x1, y1, x2, y2);
+	pt.x := (x2 / 2) + ((pt.x / 13.5) * 1024) - 78;
+
+BEGIN
+	DocZoomLevel := GetPrefReal( 500 );
+	GetVCenter( DocViewCenter.x, DocViewCenter.y );
+END;
+```
+```python
+import vs
+
+# Procedure GetVCenter returns the VectorWorks document coordinates at the
+# center of the drawing window.
+result = vs.GetVCenter()
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

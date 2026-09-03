@@ -101,6 +101,32 @@ vs.ForEachObjectInList(DoIt, 0, 0, vs.FSymDef);
 
 ```
 
+```pascal
+BEGIN
+CASE GetType(GetParent(parmHand)) OF
+	11: ForEachObjectInList(Reset_Selection, 2, 0, FInGroup(GetParent(parmHand)));
+	16: ForEachObjectInList(Reset_Selection, 2, 0, FInSymDef(GetParent(parmHand)));
+	END;
+
+{group, viewport annotation group}
+11, 122: ForEachObjectInList(HANDLE_ClassesNMtrls, 2, 2, FInGroup(container_h));
+
+EndGroup;
+GroupHand:= LNewObj;
+SetClass(GroupHand,noneClass);
+IF (GroupHand <> NIL) & ((GetType(GroupHand))=11) THEN
+ForEachObjectInList(DuplicateIt,0,2,FInSymDef(GetObject(actualMarker1Name)));
+END
+```
+```python
+vs.ForEachObjectInList( DeleteMe, 0, 2, vs.FInGroup( hGroupHand ) )
+
+# Get the texture index assigned to the PIO.
+pIOTexIndex = vs.GetTextureRefN( objHand, 0, 0 False )
+# Apply it to any untextured objects in the PIO.
+vs.ForEachObjectInList( AssignTex, 0, 2, vs.FIn3D( objHand ) )
+```
+
 ## Version
 Availability: from VectorWorks 8.5
 

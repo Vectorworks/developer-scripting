@@ -20,6 +20,24 @@ def vs.SetStoryElevationN(story, elevation):
 |story|HANDLE|The Story whose elevation is to be set.|
 |elevation|REAL|The elevation to set the Story to. The elevation is in document units.|
 
+## Examples
+```pascal
+resultOK := SetStoryElevationN(story, 1.0);
+```
+```python
+import vs
+
+# Sets the elevation of the indicated Story.
+story = vs.FSActLayer()  # handle to the first selected object on the active layer
+elevation = 0.0
+
+ok = vs.SetStoryElevationN(story, elevation)
+if ok:
+    vs.Message('SetStoryElevationN succeeded')
+else:
+    vs.Message('SetStoryElevationN failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

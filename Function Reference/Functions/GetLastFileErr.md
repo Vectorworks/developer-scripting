@@ -17,8 +17,6 @@ def vs.GetLastFileErr():
 ## Remarks
 Somewhere there used to be a table of return values.  we should add the table of error return values here.
 
-
-
 Here's a more complete list:
 
 ```pascal
@@ -38,7 +36,6 @@ Here's a more complete list:
 13: tmpStr := 'Nonexistent access path.';
 14: tmpStr := 'Too many files open.';
 ```
-
 
 Only returns a read-only error if you try to write to the file and it's actually read-only. But you can read from a read-only file without getting an error.
 
@@ -92,6 +89,18 @@ def Example():
 			vs.AlrtDialog(vs.Concat('The file "',fileName,'" has encountered an undetermined error.'))
 
 Example()
+```
+
+```pascal
+resultN := GetLastFileErr;
+```
+```python
+import vs
+
+# Returns an error code indicating whether an error occured during a file
+# operation.
+resultN = vs.GetLastFileErr()
+vs.Message('GetLastFileErr returned: ' + str(resultN))
 ```
 
 ## Version

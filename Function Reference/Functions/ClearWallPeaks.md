@@ -24,6 +24,19 @@ Julian says that this is broken for round walls, but I haven't verified it (nor 
 
 It works as expected on VW 13.
 
+## Examples
+```pascal
+ClearWallPeaks(h);
+```
+```python
+import vs
+
+# Removes all wall peaks from the referenced wall.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.ClearWallPeaks(h)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

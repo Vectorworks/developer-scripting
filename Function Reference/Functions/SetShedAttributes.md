@@ -45,6 +45,25 @@ overhang: Distance roof projects past dormer walls.
 ## Examples
 [CreateShedDormer](examples/CreateShedDormer.md)
 
+```pascal
+SetShedAttributes(roofObject, 1, TRUE, 1.0, 2.0, 0.5, 1.5);
+```
+```python
+import vs
+
+# Procedure SetShedAttributes sets the attributes of a shed dormer in the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+useHeight = True
+heightDepthDistance = 0.1
+bottomWidthDistance = 2.0
+overhangDistance = 1.0
+topAngle = 45.0
+
+vs.SetShedAttributes(roofObject, dormerID, useHeight, heightDepthDistance, bottomWidthDistance, overhangDistance, topAngle)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

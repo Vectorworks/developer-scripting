@@ -20,6 +20,24 @@ def vs.SetClVectorFill(className, hatchName):
 |className|STRING|Name of class.|
 |hatchName|STRING|Name of hatch pattern.|
 
+## Examples
+```pascal
+resultOK := SetClVectorFill('Wall', 'Example');
+```
+```python
+import vs
+
+# Sets the class fill style to use the specified hatch pattern.
+className = 'None'
+hatchName = 'Example'
+
+ok = vs.SetClVectorFill(className, hatchName)
+if ok:
+    vs.Message('SetClVectorFill succeeded')
+else:
+    vs.Message('SetClVectorFill failed')
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

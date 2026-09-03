@@ -9,6 +9,11 @@ _Note:_ This function is not available in Python. Use [CreateText](CreateText.md
 PROCEDURE EndText;
 ```
 
+## Examples
+```pascal
+EndText;
+```
+
 ## See Also
 VS Functions:
 [BeginText](BeginText.md) 

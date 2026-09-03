@@ -31,6 +31,20 @@ def vs.StairGetTopGrUpFlMode(stair):
 |---|---|---|
 |stair|HANDLE|   |
 
+## Examples
+```pascal
+resultN := StairGetTopGrUpFlMode(stair);
+```
+```python
+import vs
+
+# Returns top graphic on other floor mode of stair.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.StairGetTopGrUpFlMode(stair)
+vs.Message('StairGetTopGrUpFlMode returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

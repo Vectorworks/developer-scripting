@@ -24,6 +24,26 @@ def vs.IFC_DMIsPSetFldEmpty(strObjectName, strEntryName, strPSetName, strFieldNa
 |strPSetName|STRING|   |
 |strFieldName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMIsPSetFldEmpty('Example', 'Example', 'Example', 'MyRecord');
+```
+```python
+import vs
+
+# Checks if specified Field for IfcEntry's PSet is Empty.
+strObjectName = 'Example'
+strEntryName = 'Example'
+strPSetName = 'Example'
+strFieldName = 'MyField'
+
+ok = vs.IFC_DMIsPSetFldEmpty(strObjectName, strEntryName, strPSetName, strFieldName)
+if ok:
+    vs.Message('IFC_DMIsPSetFldEmpty succeeded')
+else:
+    vs.Message('IFC_DMIsPSetFldEmpty failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

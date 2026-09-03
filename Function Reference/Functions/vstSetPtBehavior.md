@@ -29,6 +29,39 @@ def vs.vstSetPtBehavior(inStatusType):
 
 102 - the tool will draw an Ellipse
 
+## Examples
+```pascal
+BEGIN
+	CASE inMode OF
+		1: VSTSetPtBehavior (kEllipseDraw);
+		2: VSTSetPtBehavior (kBoxDraw);
+		3: VSTSetPtBehavior (kPolyPointTool);
+		4: VSTSetPtBehavior (103);
+	END;
+
+BEGIN
+	VSTSetPtBehavior( kTwoPointTool );
+	vstGetDataLong( kModeDataID, modeValue, result );
+	IF NOT result THEN
+	BEGIN
+		modeValue := 2;
+
+	AddButtonMode('VWMiscSmallImages/11016.png');
+	BeginModeButtonsText;
+	SetModeButtonText( GetPluginString( 6000 ), 2 );
+	EndModeButtonsText;
+	vstSetPtBehavior(kPolyPointTool);
+	vstSetModeHelpBase( -2322 );
+END;
+```
+```python
+import vs
+
+inStatusType = 0
+
+vs.vstSetPtBehavior(inStatusType)
+```
+
 ## Version
 Availability: from All Versions
 

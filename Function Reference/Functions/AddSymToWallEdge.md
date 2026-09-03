@@ -42,6 +42,37 @@ def vs.AddSymToWallEdge(h, alongDistance, heightDistance, flip, right, symbolNam
 ## Examples
 [CreateWallObject](examples/CreateWallObject.md)
 
+```pascal
+BEGIN
+WallHand := PickObject(x3,y3);
+IF GetObject(kNNAIDSymbol) = NIL THEN
+	ImportedNNASymbol := ImportTempSymbol;
+AddSymToWallEdge(WallHand, 1', 0, FALSE, FALSE,kNNAIDSymbol,0);
+SetRField(gIDHand, PIOName, '__WallUID', 'NEW');
+propertyValue := '';
+
+IF IsLineBasedWall(parentH) THEN BEGIN
+	offsetDist := Distance(wallX, wallY, x, y);
+	AddSymToWallEdge(parentH, offsetDist, theHeight, isFlipped, isRight, gParmN, 0);
+END
+```
+```python
+import vs
+
+# Procedure AddSymToWallEdge inserts a symbol in the referenced wall using
+# the specified parameters to define placement.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+alongDistance = 1.0
+heightDistance = 2.0
+flip = True
+right = True
+symbolName = 'MySymbol'
+insertMode = 0
+
+vs.AddSymToWallEdge(h, alongDistance, heightDistance, flip, right, symbolName, insertMode)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

@@ -39,7 +39,6 @@ and swap the handle. You don't need the original path any longer.
 This copy can have any fill you please }
 ```
 
-
 (*\_c\_*, 2009.06.02): This call can be used to duplicate resources, not only objects, but pay great attention to the target container. For example creating in ActLayer a duplicate of a symbol definition (whose parent container should be SymList, type 54), will indeed succeed and create a nameless symbol definition identical to the previous, even visible on drawing, but unselectable. And with parent ActLayer. This can only break your documents and you should avoid it. 
 
 To duplicate a resource simply pass the parent of the resource as target container AND rename the resource with a valid unique name immediately.
@@ -50,8 +49,29 @@ temp_h := CreateDuplicateObject(h, GetParent(h));
 IF temp_h <> NIL THEN SetName(temp_h, 'c2');
 ```
 
-
 [Charles Chandler, 2006/10/16]: Sounds like this would work nicely for copying path polys out of the path group and into the top level of the PIO container.
+
+## Examples
+```pascal
+BEGIN
+	DupPath := CreateDuplicateObject(hPathObj, pluginH);
+
+BEGIN
+	tmp1_h := CreateDuplicateObject(tmp1_h, pluginH);
+	tmp1_h := Polygonize(poly_h, kConversionRez, FALSE);
+	tmp2_h := OffsetPolyN(poly_h, thickness, FALSE);
+	HandleOffset(tmp2_h);
+	tmp3_h := NIL;
+
+BEGIN
+IF (h <> NIL) THEN temp_h := createduplicateobject(h,gMyHand); {added nil-check - 5/22/08 - RFA}
+MoveStuffOutOfProfile := (h = NIL);
+END;
+```
+```python
+vs.FillPat(0)
+hDuplicated = vs.CreateDuplicateObject( hObjectHand, gObjHandle )
+```
 
 ## Version
 Availability: from VectorWorks 12.5

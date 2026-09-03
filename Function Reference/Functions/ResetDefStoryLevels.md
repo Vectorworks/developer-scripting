@@ -21,6 +21,24 @@ def vs.ResetDefStoryLevels(bDeleteExisting):
 { \_c\_ 2018.10.22} This, as of VW 2019, uses the default content from the Application folder. And nothing else. Not even that in the User Folder.
 { \_c\_ 2022/10/10} In VW 2023 the default contents from workgroup folders or user folder are used before the default contents from the application folder.
 
+## Examples
+```pascal
+resultOK := ResetDefStoryLevels(TRUE);
+```
+```python
+import vs
+
+# Clears default story levels and repopulates the list from XML data files on
+# disk.
+bDeleteExisting = True
+
+ok = vs.ResetDefStoryLevels(bDeleteExisting)
+if ok:
+    vs.Message('ResetDefStoryLevels succeeded')
+else:
+    vs.Message('ResetDefStoryLevels failed')
+```
+
 ## See Also
 VS Functions:
 [GetLevelTemplateName](GetLevelTemplateName.md) 

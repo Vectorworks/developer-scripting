@@ -17,6 +17,20 @@ def vs.HGetLayerTransp(hLayer):
 |---|---|---|
 |hLayer|HANDLE|Handle to the layer.|
 
+## Examples
+```pascal
+resultVal := HGetLayerTransp(hLayer);
+```
+```python
+import vs
+
+# Get the transparency of the specified layer.
+hLayer = vs.ActLayer()  # handle to the active design layer
+
+value = vs.HGetLayerTransp(hLayer)
+vs.Message('HGetLayerTransp returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [HSetLayerTransp](HSetLayerTransp.md) 

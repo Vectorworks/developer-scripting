@@ -17,6 +17,19 @@ def vs.CreateOpenGLHandle():
 |---|---|---|
 |GLHandle|HANDLE|   |
 
+## Examples
+```pascal
+CreateOpenGLHandle(GLHandle);
+```
+```python
+import vs
+
+# Return a new OpenGL options handle.
+objHandle = vs.CreateOpenGLHandle()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -24,6 +24,26 @@ def vs.IFC_DMIsPSetFldEnbl(strObjectName, strEntryName, strPSetName, strFieldNam
 |strPSetName|STRING|   |
 |strFieldName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMIsPSetFldEnbl('Example', 'Example', 'Example', 'MyRecord');
+```
+```python
+import vs
+
+# Checks if specified Field for IfcEntry's PSet is Enabled.
+strObjectName = 'Example'
+strEntryName = 'Example'
+strPSetName = 'Example'
+strFieldName = 'MyField'
+
+ok = vs.IFC_DMIsPSetFldEnbl(strObjectName, strEntryName, strPSetName, strFieldName)
+if ok:
+    vs.Message('IFC_DMIsPSetFldEnbl succeeded')
+else:
+    vs.Message('IFC_DMIsPSetFldEnbl failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

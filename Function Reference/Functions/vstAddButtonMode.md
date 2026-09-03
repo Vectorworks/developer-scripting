@@ -19,6 +19,19 @@ def vs.vstAddButtonMode(inIconSpecification):
 |---|---|---|
 |inIconID|INTEGER|   |
 
+## Examples
+```pascal
+vstAddButtonMode(inIconID);
+```
+```python
+import vs
+
+# Used in the initialization of an event-enabled tool, add a mode bar button.
+inIconSpecification = 'Example'
+
+vs.vstAddButtonMode(inIconSpecification)
+```
+
 ## Version
 Availability: from All Versions
 

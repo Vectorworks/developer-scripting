@@ -31,6 +31,25 @@ def vs.SetSprdSortSum(sheetHd, row, sortCol1, sortCol2, sortCol3, sumCol):
 ## Remarks
 Sets sorting and summation for a database row.  The sortCol1, sortCol2, and sortCol3 values specify the primary, secondary and tertiary sorts for the database row.  Pass a positive column for a descending sort; pass a negative column for an ascending sort.  For no sort,  pass 0 as the column.  Sum works the same way. [VML 01/09/01]
 
+## Examples
+```pascal
+SetSprdSortSum(sheetHd, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Procedure SetSprdSortSum specifies sorting and summation options for a
+# database row in the referenced worksheet.
+sheetHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+row = 10
+sortCol1 = 5
+sortCol2 = 5
+sortCol3 = 5
+sumCol = 5
+
+vs.SetSprdSortSum(sheetHd, row, sortCol1, sortCol2, sortCol3, sumCol)
+```
+
 ## See Also
 [SetWSColumnOperators](SetWSColumnOperators.md)
 

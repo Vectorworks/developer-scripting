@@ -58,6 +58,42 @@ FYI:  DO NOT USE 9 and 10!!!
 * General Frac = 9 is used for fraction with unreduced denominator. 
 * Dimension With Divider  = 10  is the same as Dimension but for use in output-only situations where the current units format is feet and inches and you want a feet and inch divider.
 
+## Examples
+```pascal
+SetWSColumnWidth(tempHandle,2,2,96);
+SetWSColumnWidth(tempHandle,3,3,304);
+{Cells}
+SetWSCellTextFormat(tempHandle,1,1,1,1,DefaultWSFontID,14,1);
+SetWSCellNumberFormat(tempHandle,1,1,1,1,0,0,'','');
+SetWSCellBorder(tempHandle,1,1,1,1,TRUE,TRUE,FALSE,FALSE,FALSE);
+SetWSCellFormula(tempHandle,1,1,1,1,kRLwkshtName);
+
+SetWSCellAlignment (wksH2, 1, 2, 1, 2, 1);
+SetWSCellAlignment (wksH2, 1, 1, 1, 1, 3);
+SetWSCellAlignment (wksH2, r0, 1, r0+1, 5, 2);
+SetWSCellNumberFormat (wksH2, r0, 2, r0+1, 5, 2, 4, '', '');
+
+SetWSCellNumberFormat (wksH, 3, 5, 3, 5, 1, 2, '', '');
+SetWSCellNumberFormat (wksH, 3, 7, 4, 7, 1, 2, '', '');
+```
+```python
+import vs
+
+# Sets the numeric formatting of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+style = 0
+accuracy = 1
+leaderString = 'Example'
+trailerString = 'Example'
+
+vs.SetWSCellNumberFormat(worksheet, topRow, leftColumn, bottomRow, rightColumn, style, accuracy, leaderString, trailerString)
+```
+See also in tutorials: [27. Formatted Wall Schedule](ai%20examples/27_WorksheetFormattedSchedule.md)
+
 ## Version
 Availability: from VectorWorks 9.0
 

@@ -17,6 +17,19 @@ def vs.SetTextStyleByClass(objectId):
 |---|---|---|
 |objectId|HANDLE|handle to object|
 
+## Examples
+```pascal
+SetTextStyleByClass(objectId);
+```
+```python
+import vs
+
+# SetTextStyleByClass sets the referenced object to use the class text style.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.SetTextStyleByClass(objectId)
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

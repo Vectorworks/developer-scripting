@@ -36,6 +36,20 @@ def vs.GetWSSelection(worksheet):
 |rightRangeColumn|INTEGER|Rightmost column of selection range.|
 |bottomRangeSubrow|INTEGER|Bottom row of subrow selection range.|
 
+## Examples
+```pascal
+GetWSSelection(worksheet, 1, 2, 3, 10, 5, 1, 2, 3);
+```
+```python
+import vs
+
+# Returns the current selection range of the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+currentCellRow, currentCellColumn, topRangeRow, leftRangeColumn, topRangeSubrow, bottomRangeRow, rightRangeColumn, bottomRangeSubrow = vs.GetWSSelection(worksheet)
+vs.Message('GetWSSelection returned: ' + str((currentCellRow, currentCellColumn, topRangeRow, leftRangeColumn, topRangeSubrow, bottomRangeRow, rightRangeColumn, bottomRangeSubrow)))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

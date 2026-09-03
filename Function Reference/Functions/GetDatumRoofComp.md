@@ -17,6 +17,20 @@ def vs.GetDatumRoofComp(object):
 |---|---|---|
 |object|HANDLE|The object. Can be a roof face, roof, Roof Style, or the Roof Preferences.|
 
+## Examples
+```pascal
+resultN := GetDatumRoofComp(object);
+```
+```python
+import vs
+
+# Gets the datum roof component of the object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetDatumRoofComp(object)
+vs.Message('GetDatumRoofComp returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetDatumRoofComp](SetDatumRoofComp.md)

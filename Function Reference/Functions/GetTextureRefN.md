@@ -44,6 +44,20 @@ GetTextureRefN(obj, 3, 0, TRUE);
 }
 ```
 
+## Examples
+```pascal
+TextureID := GetTextureRefN(h,PartCount,0,FALSE);
+```
+```python
+	# Attach a texture space to the object.
+	vs.AttachDefaultTextureSpace( objectHand, 0 )
+# Get the texture index assigned to the PIO.
+partTexIndex = vs.GetTextureRefN( objectHand, 0, 0 False )
+if partTexIndex in (-1, 0):
+	# Attach the proper texture to the object.
+	vs.SetTextureRefN( objectHand, TextureObjs.PIOTexIndex, 0, 0 )
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

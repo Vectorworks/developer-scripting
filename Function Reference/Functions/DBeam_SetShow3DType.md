@@ -14,6 +14,18 @@ def vs.DBeam_SetShow3DType(typeFlag):
 |---|---|---|
 |typeFlag|INTEGER|   |
 
+## Examples
+```pascal
+DBeam_SetShow3DType(1);
+```
+```python
+import vs
+
+typeFlag = 0
+
+vs.DBeam_SetShow3DType(typeFlag)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

@@ -23,6 +23,20 @@ def vs.GetDLComponentWidth(index):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := GetDLComponentWidth(1, 1.0);
+```
+```python
+import vs
+
+# Gets the width of the component at index in the Double Line Preferences.
+index = 1
+
+ok, width = vs.GetDLComponentWidth(index)
+vs.Message('GetDLComponentWidth returned: ' + str((ok, width)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentWidth](SetDLComponentWidth.md)

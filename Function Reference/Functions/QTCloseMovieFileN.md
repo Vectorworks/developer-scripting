@@ -14,6 +14,18 @@ def vs.QTCloseMovieFileN(movieRef):
 |---|---|---|
 |movieRef|INTEGER|Index of QuickTime movie stream.|
 
+## Examples
+```pascal
+QTCloseMovieFileN(1);
+```
+```python
+import vs
+
+movieRef = 1
+
+vs.QTCloseMovieFileN(movieRef)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

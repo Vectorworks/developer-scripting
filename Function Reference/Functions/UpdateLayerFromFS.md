@@ -17,6 +17,20 @@ def vs.UpdateLayerFromFS(inRequestAll):
 |---|---|---|
 |inRequestAll|BOOLEAN|   |
 
+## Examples
+```pascal
+UpdateLayerFromFS(TRUE);
+```
+```python
+import vs
+
+# Update a feature service bound to a layer to get the latest location
+# information or other data.
+inRequestAll = True
+
+vs.UpdateLayerFromFS(inRequestAll)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

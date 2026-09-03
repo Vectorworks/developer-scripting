@@ -17,6 +17,20 @@ def vs.SetCallBackInval(turnInvalOn):
 |---|---|---|
 |turnInvalOn|BOOLEAN|   |
 
+## Examples
+```pascal
+SetCallBackInval(TRUE);
+```
+```python
+import vs
+
+# Sets whether or not callbacks should be invalidating portions of the screen
+# that are being changed.
+turnInvalOn = True
+
+vs.SetCallBackInval(turnInvalOn)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

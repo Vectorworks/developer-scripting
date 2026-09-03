@@ -9,6 +9,16 @@ def vs.vstDefault2DToolDraw():
     return None
 ```
 
+## Examples
+```pascal
+vstDefault2DToolDraw;
+```
+```python
+import vs
+
+vs.vstDefault2DToolDraw()
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

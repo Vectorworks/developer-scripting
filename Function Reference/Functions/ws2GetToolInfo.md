@@ -26,6 +26,20 @@ def vs.ws2GetToolInfo(toolPath):
 |outShortcutKeyModifier|INTEGER|   |
 |outResourceID|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := ws2GetToolInfo(toolPath, outDisplayName, outShortcutKey, 1, 2);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+
+ok, outDisplayName, outShortcutKey, outShortcutKeyModifier, outResourceID = vs.ws2GetToolInfo(toolPath)
+vs.Message('ws2GetToolInfo returned: ' + str((ok, outDisplayName, outShortcutKey, outShortcutKeyModifier, outResourceID)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

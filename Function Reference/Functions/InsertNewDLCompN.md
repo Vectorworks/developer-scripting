@@ -30,6 +30,29 @@ def vs.InsertNewDLCompN(beforeIndex, widthDistance, fill, penWeightLeft, penWeig
 |penStyleLeft|LONGINT|The pen style of the component's left line.  Positive values for patterns, negative values for line types.|
 |penStyleRight|LONGINT|The pen style of the component's right line.  Positive values for patterns, negative values for line types.|
 
+## Examples
+```pascal
+InsertNewDLCompN(1, 1.0);
+```
+```python
+import vs
+
+# Inserts a new component before index in the Double Line Preferences.
+beforeIndex = 1
+widthDistance = 2.0
+fill = 'Example'
+penWeightLeft = 'Example'
+penWeightRight = 'Example'
+penStyleLeft = 0
+penStyleRight = 0
+
+ok = vs.InsertNewDLCompN(beforeIndex, widthDistance, fill, penWeightLeft, penWeightRight, penStyleLeft, penStyleRight)
+if ok:
+    vs.Message('InsertNewDLCompN succeeded')
+else:
+    vs.Message('InsertNewDLCompN failed')
+```
+
 ## See Also
 VS Functions:
 [DeleteDLComponent](DeleteDLComponent.md)

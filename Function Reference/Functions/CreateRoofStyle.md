@@ -17,6 +17,21 @@ def vs.CreateRoofStyle(roofStyleName):
 |---|---|---|
 |roofStyleName|STRING|The name of the new Roof Style.  If the name is already in use, the next available name will be used.|
 
+## Examples
+```pascal
+resultH := CreateRoofStyle('Example');
+```
+```python
+import vs
+
+# Creates a new Roof Style of the given name.
+roofStyleName = 'Example'
+
+objHandle = vs.CreateRoofStyle(roofStyleName)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

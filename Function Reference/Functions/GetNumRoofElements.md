@@ -17,6 +17,21 @@ def vs.GetNumRoofElements(roofObject):
 |---|---|---|
 |roofObject|HANDLE|Handle to roof.|
 
+## Examples
+```pascal
+resultN := GetNumRoofElements(roofObject);
+```
+```python
+import vs
+
+# Function GetNumRoofElements returns the number of roof elements (dormers
+# and skylights) in the referenced roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+count = vs.GetNumRoofElements(roofObject)
+vs.Message('GetNumRoofElements returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

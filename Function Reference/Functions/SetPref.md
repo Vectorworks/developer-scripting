@@ -32,7 +32,7 @@ SetPref(21, False); {Stop VectorScript on Warnings}
 results in a total system freeze requiring a forced restart.
 This problem has been in VW9 (w/ Mac OS 9.2) and is still in VW 9.5b1.
 
-'Hidden' preference 12348 allows us to turn on and off dialog list box refresh.  This is a significant performance enhancement for any dialog that loads list boxes.  Just do [SetPref](SetPref.md)(12348, False) load your list box(es) and then [SetPref](SetPref.md)(12348, True) to re-enable list refreshing.  I believe this must be called after the dialog is on screen, so after the [GetDialog](GetDialog.md) Call for classic dialogs and in the handler procedure for modern dialogs.
+'Hidden' preference 12348 allows us to turn on and off dialog list box refresh.  This is a significant performance enhancement for any dialog that loads list boxes.  Just do [SetPref](SetPref.md)(12348, False) load your list box(es) and then [SetPref](SetPref.md)(12348, True) to re-enable list refreshing.  I believe this must be called after the dialog is on screen, so after the GetDialog Call for classic dialogs and in the handler procedure for modern dialogs.
 
 ## Examples
 #### VectorScript ####
@@ -43,6 +43,38 @@ SetPref(17,FALSE);
 ```python
 
 ```
+
+```pascal
+angle := GetPrefReal(93);
+planrotation := GetPref(92);
+SetPref(92, FALSE);
+PushAttrs;
+GetOrigin(PX, PY);
+TextJust (1);
+TextVerticalAlign (1);
+
+Options[2] := 'SeatingLayoutPick'; {Saved xml Item}
+Options[3] := ''; {Check Box String}
+AlertInformDontShowAgain(GetPlugInString(3010),'', FALSE, Options);
+PenFore(45000, 45000, 45000);
+SetPref(9871, TRUE);
+GetOrigin(OriginX,OriginY);
+Is3dView := GetProjection(ActLayer)<>6;
+RunTempTool(TempToolCallback, TRUE);
+
+BEGIN
+	UseDefaultContent := GetPref(130);
+	IF NOT(UseDefaultContent) THEN SetPref(130,TRUE);
+	{Search the default folder}
+	gMarker1Name := gStartMarkerName;
+	ResourceListID := BuildResourceList(16,-kDefConDetailMarkers,kFolderName,NumMarkerSymbols);
+	FoundMarker := FALSE;
+```
+```python
+if not UseDefaultContent:
+	vs.SetPref( 130, True )
+```
+See also in tutorials: [Plug-in with widgets, basic example (Python)](../../Common/Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
 
 ## See Also
 [GetPref](GetPref.md)

@@ -26,6 +26,33 @@ Created by TTF 1/18/2005
 ## Examples
 [AlertDialogsAndMessages](examples/AlertDialogsAndMessages.md)
 
+```pascal
+BEGIN
+	HandleCustomTB (hasCustomTB);
+	IF NOT hasCustomTB THEN AlertCritical (GetPluginString (3017), kAbortMessage);
+END
+
+BEGIN
+	getLagMetalScrData := 2;
+	AlertCritical( errorText, '' );
+END
+
+BEGIN
+	AlertCritical( errorText, '' );
+	getData := FALSE;
+END	{of NOT validPathAndFile}
+```
+```python
+import vs
+
+# Informs the user of a serious problem that requires intervention or
+# correction before work can continue.
+text = 'Example text'
+advice = 'Example'
+
+vs.AlertCritical(text, advice)
+```
+
 ## See Also
 VS Functions:
 [AlertInform](AlertInform.md) 

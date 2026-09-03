@@ -39,6 +39,35 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	wLineCount:=1;
+	IF kDebugMode THEN WriteLn('WriteTable to file rewriting : ', fullpath);
+	Rewrite(fullpath);
+	WriteLnMac(gNumLinesData);
+
+GetChoiceCount(dialogID, 4, itemCount);
+for cnt := 0 to itemCount - 1 do BEGIN
+	GetChoiceText(dialogID, 4, cnt, temp_s);
+	WriteLnMac(temp_s);
+	stringCnt := stringCnt + 1;
+	strings[stringCnt] := temp_s;
+END;
+
+BEGIN
+	IF OpenAbsError(prefPath, GetLocStr(12000, 3), False, fullName) = 0 THEN BEGIN
+		Close(fullName);
+		ReWrite(fullName);
+		WriteLnMac(finishCnt);
+		for cnt := 1 to finishCnt do BEGIN
+			IF finishes[cnt].des = '' THEN finishes[cnt].des := '-';
+			WriteLnMac('-', Chr(9), '-', Chr(9), finishes[cnt].loc, Chr(9), finishes[cnt].key, Chr(9), finishes[cnt].des);
+		END;
+```
+```python
+vs.WriteLnMac(0)
+```
+
 ## See Also
 VS Functions:
 [WriteLn](WriteLn.md)

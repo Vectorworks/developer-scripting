@@ -38,6 +38,21 @@ vs.Oval(2*12,2*12,6*12,6*12)
 vs.EndGroup()
 ```
 
+```pascal
+BeginColumn(1.0);
+```
+```python
+import vs
+
+# Procedure BeginColumn creates a column object in a VectorWorks document
+# using 2D object creation procedure calls to define the &quot;template&quot;
+# for the c.
+columnDistance = 1.0
+
+vs.BeginColumn(columnDistance)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from MiniCAD7.0
 

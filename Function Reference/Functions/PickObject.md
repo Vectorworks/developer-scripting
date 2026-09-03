@@ -25,6 +25,38 @@ PickObject & HCenter (when used together?) are less likely to produce incorrect 
 ## Examples
 [IsolateLayer](examples/IsolateLayer.md)
 
+```pascal
+IF Ang2BearingStr(tmpAngle) <> GetText (PickObject (ptX + tmpVector[1] + labelVector[1], ptY + tmpVector[2] + labelVector[2])) THEN
+	CreateText(Ang2BearingStr(tmpAngle));
+
+		THEN temp_b := GetPickObjectInfo(pt1.x,pt1.y,gGroupH,gLine,temp_i)
+		ELSE BEGIN
+			zoomF := GetZoom;
+			SetZoom (100000);
+			gLine := PickObject(pt1.x,pt1.y);
+			SetZoom (zoomF);
+{
+message (' *** pt1.x = ',pt1.x,'    pt1.y = ',pt1.y,'    gLine = ',gLine, '(',gettype(gLine),')', '    gParmH = ',gParmH, '(',gettype(gParmH),')');
+}
+
+BEGIN
+	target := PickObject(pt.x, pt.y);
+	WHILE (target = NIL) & (YNDialog(Concat(GetPlugInString(3000), msg, GetPlugInString(3003)))) DO BEGIN
+		IF msg = GetPlugInString(3001)
+			THEN GetPt(pt.x, pt.y)
+			ELSE GetPtL(pt1.x, pt1.y, pt.x, pt.y);
+```
+```python
+import vs
+
+# Function PickObject returns a handle to an object in the document.
+p = (0, 0)
+
+objHandle = vs.PickObject(p)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [GetPickObjectInfo](GetPickObjectInfo.md) 

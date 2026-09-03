@@ -45,6 +45,24 @@ ok = vs.IFC_SetIFCEntity(hExtrude, 'IfcSlab')
 ok = vs.IFC_SetEntityProp(hExtrude, 'PredefinedType', 'BASESLAB')
 ```
 
+```pascal
+resultOK := IFC_SetEntityProp(hObject, 'Example', 'Example');
+```
+```python
+import vs
+
+# This function sets a value to the selected property of the IFC entity.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrPropName = 'Example'
+inStrPropValue = 'Example'
+
+ok = vs.IFC_SetEntityProp(hObject, inStrPropName, inStrPropValue)
+if ok:
+    vs.Message('IFC_SetEntityProp succeeded')
+else:
+    vs.Message('IFC_SetEntityProp failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

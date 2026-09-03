@@ -24,6 +24,26 @@ def vs.SetComponentPenStyles(obj, componentIndex, leftPenStyle, rightPenStyle):
 |leftPenStyle|INTEGER|The pen style of the component's left line.  Positive values for patterns, negative values for dash styles.|
 |rightPenStyle|INTEGER|The pen style of the component's right line.  Positive values for patterns, negative values for dash styles.|
 
+## Examples
+```pascal
+resultOK := SetComponentPenStyles(obj, 1, 2, 3);
+```
+```python
+import vs
+
+# Sets the left and right pen styles for a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+leftPenStyle = 0
+rightPenStyle = 0
+
+ok = vs.SetComponentPenStyles(obj, componentIndex, leftPenStyle, rightPenStyle)
+if ok:
+    vs.Message('SetComponentPenStyles succeeded')
+else:
+    vs.Message('SetComponentPenStyles failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentPenStyles](GetComponentPenStyles.md)

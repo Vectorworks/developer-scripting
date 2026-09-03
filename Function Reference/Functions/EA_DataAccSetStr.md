@@ -22,6 +22,21 @@ def vs.EA_DataAccSetStr(acc, valueIndex, value):
 |valueIndex|INTEGER|   |
 |value|STRING|   |
 
+## Examples
+```pascal
+EA_DataAccSetStr(1, 2, 'Example');
+```
+```python
+import vs
+
+# Set string value to the object, associated to the accessory index.
+acc = 1
+valueIndex = 1
+value = 'Example'
+
+vs.EA_DataAccSetStr(acc, valueIndex, value)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

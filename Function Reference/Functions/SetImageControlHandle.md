@@ -22,6 +22,22 @@ def vs.SetImageControlHandle(dialogID, componentID, hImage):
 |componentID|LONGINT|   |
 |hImage|HANDLE|   |
 
+## Examples
+```pascal
+SetImageControlHandle(1, 2, hImage);
+```
+```python
+import vs
+
+# Sets the image definition node handle for the specified Layout Manager
+# image control.
+dialogID = 1
+componentID = 2
+hImage = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.SetImageControlHandle(dialogID, componentID, hImage)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

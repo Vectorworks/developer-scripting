@@ -33,6 +33,34 @@ def vs.SetLBItemFillBackColor(dialogID, componentID, itemIndex, subItemIndex, re
 ## Examples
 [SetLBItemPatternIndex](SetLBItemPatternIndex.md)
 
+```pascal
+			Red := ((TempColorArray [RowCount+1].Red))/257;
+			Green := ((TempColorArray [RowCount+1].Green))/257;
+			Blue := ((TempColorArray [RowCount+1].Blue))/257;
+			bFlipTexture := SetLBColumnOwnerDrawnType( dialog, kFrntMltColBrowser, RowCount,2,1);
+			bFlipTexture := SetLBItemFillBackColor( dialog, kFrntMltColBrowser, RowCount,2,Red,Green,Blue);
+			bFlipTexture := SetLBItemFillForeColor( dialog, kFrntMltColBrowser, RowCount,2,Red,Green,Blue);
+{This line caused crash:  IF IsUserColor(ColorIndexForName,ColorName) then Begin End;}
+```
+```python
+import vs
+
+# Sets the specified list browser item's fill background color.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+redIndex = 1
+greenIndex = 1
+blueIndex = 1
+
+ok = vs.SetLBItemFillBackColor(dialogID, componentID, itemIndex, subItemIndex, redIndex, greenIndex, blueIndex)
+if ok:
+    vs.Message('SetLBItemFillBackColor succeeded')
+else:
+    vs.Message('SetLBItemFillBackColor failed')
+```
+
 ## See Also
 [SetLBItemFillForeColor](SetLBItemFillForeColor.md) | [SetLBItemFillBackColor](SetLBItemFillBackColor.md)
 

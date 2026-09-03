@@ -12,6 +12,18 @@ def vs.ReDrawAll():
     return None
 ```
 
+## Examples
+```pascal
+ReDrawAll;
+```
+```python
+import vs
+
+# Procedure ReDrawAll invokes a full screen redraw of the active VectorWorks
+# document.
+vs.ReDrawAll()
+```
+
 ## Version
 Availability: from All Versions
 

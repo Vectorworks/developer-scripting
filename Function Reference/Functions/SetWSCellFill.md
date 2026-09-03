@@ -46,6 +46,32 @@ no fill = 0
 solid fill= 1
 pattern fill= 2
 
+## Examples
+```pascal
+theRow := TheRow +  3;
+SetWSCellFormula(WSHan, TheRow, 2, TheRow, 2, GetPlugInString(4019)); {Cable Type, Connectors}
+ok := WorksheetMergeCells(WSHan, TheRow, 2, TheRow, 5);
+SetWSCellFill(WSHan, TheRow, 2, TheRow, 5, 1,  64, 0, 1) ;
+```
+```python
+import vs
+
+# Sets the fill style and color of a cell in the referenced worksheet
+# SetWSCellFill allows cell fill style and color text to be set for a range
+# of cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+style = 0
+bgcolor = 5
+fgcolor = 5
+fillpattern = 1
+
+vs.SetWSCellFill(worksheet, topRow, leftColumn, bottomRow, rightColumn, style, bgcolor, fgcolor, fillpattern)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

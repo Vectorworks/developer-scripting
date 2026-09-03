@@ -17,6 +17,20 @@ def vs.GetWallBelCutPlClass(wall):
 |---|---|---|
 |wall|HANDLE|The wall.|
 
+## Examples
+```pascal
+resultN := GetWallBelCutPlClass(wall);
+```
+```python
+import vs
+
+# Gets the below cut plane class of the wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetWallBelCutPlClass(wall)
+vs.Message('GetWallBelCutPlClass returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetWallBelCutPlClass](SetWallBelCutPlClass.md)

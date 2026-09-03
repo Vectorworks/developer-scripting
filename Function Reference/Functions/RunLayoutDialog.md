@@ -47,6 +47,30 @@ If you want to prevent a dialog from terminating after someone has clicked on th
 ## Examples
 [ASampleDialogWithTwoEdits](examples/ASampleDialogWithTwoEdits.md)
 
+```pascal
+		SelectSymbolDialog := 1;
+	END;
+{$ENDIF}
+{$IF ver<19}
+	IF RunLayoutDialog(selectSymbol, SelectSymbol_Handler) = 1 then BEGIN
+		symName := tmpSymName;
+		SelectSymbolDialog := 1;
+	END;
+```
+```python
+import vs
+
+# Displays the specified dialog and initiates the dialog event loop.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+dialogID = 1
+callback = handle_object
+
+resultN = vs.RunLayoutDialog(dialogID, callback)
+vs.Message('RunLayoutDialog returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

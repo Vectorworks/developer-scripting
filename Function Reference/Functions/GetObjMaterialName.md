@@ -17,6 +17,19 @@ def vs.GetObjMaterialName(h):
 |h|HANDLE|   |
 |materialName|STRING|   |
 
+## Examples
+```pascal
+resultOK := GetObjMaterialName(h, 'Example');
+```
+```python
+import vs
+
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, materialName = vs.GetObjMaterialName(h)
+vs.Message('GetObjMaterialName returned: ' + str((ok, materialName)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

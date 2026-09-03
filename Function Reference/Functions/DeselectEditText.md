@@ -20,6 +20,20 @@ def vs.DeselectEditText(dialogID, controlID):
 |dialogID|LONGINT|   |
 |controlID|LONGINT|   |
 
+## Examples
+```pascal
+DeselectEditText(1, 2);
+```
+```python
+import vs
+
+# Deselects all text in the specified edit control.
+dialogID = 1
+controlID = 2
+
+vs.DeselectEditText(dialogID, controlID)
+```
+
 ## Version
 Availability: from VectorWorks12.0.1
 

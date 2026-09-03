@@ -30,6 +30,26 @@ def vs.SetClassN(h, className, descIntoGroup):
 SetClassN(FSActLayer, 'Class Name-1', FALSE);
 ```
 
+```pascal
+			SetClUseTexture (gClassSpeakers,FALSE);
+			SetClUseGraphic (gClassSpeakers,FALSE);
+		END;
+	wrkClsSpeakers := Concat(gClassSpeakers);
+	SetClassN(hSymbolPartsGroup,gClassSpeakers,FALSE);
+	IF ((gClassSpeakers<>'')&(gClassSpeakers<>' ')) THEN NameClass (Concat(ActClass));
+END;
+```
+```python
+import vs
+
+# Procedure SetClassN assigns a class to the referenced object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+descIntoGroup = True
+
+vs.SetClassN(h, className, descIntoGroup)
+```
+
 ## See Also
 VS Functions:
 [SetClass](SetClass.md)

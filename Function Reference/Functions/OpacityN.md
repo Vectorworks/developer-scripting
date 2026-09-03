@@ -17,6 +17,19 @@ def vs.OpacityN(fillOpacity, penOpacity):
 |fillOpacity|INTEGER|   |
 |penOpacity|INTEGER|   |
 
+## Examples
+```pascal
+OpacityN(1, 2);
+```
+```python
+import vs
+
+fillOpacity = 1
+penOpacity = 2
+
+vs.OpacityN(fillOpacity, penOpacity)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

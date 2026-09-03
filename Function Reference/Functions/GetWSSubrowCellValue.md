@@ -30,6 +30,22 @@ def vs.GetWSSubrowCellValue(worksheet, row, column, subrow):
 Gets the specified worksheet subrow cell's numerical value.
 WARNING: Because database subrow cells and their contents are dynamically created based on the current database of objects and the current critieria string any return values from this function are not guaranteed to be correct beyond this function call. Use this function carefully and at your own risk.
 
+## Examples
+```pascal
+GetWSSubrowCellValue(worksheet, 1, 2, 3, 1.0);
+```
+```python
+import vs
+
+# Returns the displayed numeric value in a database subrow cell.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+subrow = 10
+
+result = vs.GetWSSubrowCellValue(worksheet, row, column, subrow)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

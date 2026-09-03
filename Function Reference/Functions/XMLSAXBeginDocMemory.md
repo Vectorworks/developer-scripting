@@ -65,6 +65,13 @@ RUN(XMLSaxTest_Write);
 
 ```
 
+```pascal
+resultN := XMLSAXBeginDocMemory(1);
+```
+```python
+result = vs.XMLSAXBeginDocMemory(h)
+```
+
 ## See Also
 [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md)
 

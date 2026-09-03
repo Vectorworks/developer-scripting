@@ -14,6 +14,18 @@ def vs.vsoDisableAttrs(attrsBits):
 |---|---|---|
 |attrsBits|LONGINT|   |
 
+## Examples
+```pascal
+vsoDisableAttrs(1);
+```
+```python
+import vs
+
+attrsBits = 1
+
+vs.vsoDisableAttrs(attrsBits)
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

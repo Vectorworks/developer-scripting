@@ -19,6 +19,24 @@ def vs.IFC_DMIsFieldOpt(inStrObjName, inStrEntryName, inStrFieldName):
 |inStrEntryName|STRING|   |
 |inStrFieldName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMIsFieldOpt('Example', 'Example', 'MyRecord');
+```
+```python
+import vs
+
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+inStrFieldName = 'MyField'
+
+ok = vs.IFC_DMIsFieldOpt(inStrObjName, inStrEntryName, inStrFieldName)
+if ok:
+    vs.Message('IFC_DMIsFieldOpt succeeded')
+else:
+    vs.Message('IFC_DMIsFieldOpt failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

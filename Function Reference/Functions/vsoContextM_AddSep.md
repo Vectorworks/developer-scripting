@@ -17,6 +17,20 @@ def vs.vsoContextM_AddSep(itemID):
 |---|---|---|
 |itemID|INTEGER|   |
 
+## Examples
+```pascal
+vsoContextM_AddSep(1);
+```
+```python
+import vs
+
+# Add a separator to the context menu of the object during
+# kObjOnContextMenuInit event.
+itemID = 1
+
+vs.vsoContextM_AddSep(itemID)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

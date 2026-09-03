@@ -40,6 +40,19 @@ if boo:
     vs.AlrtDialog(f"Count of Entries: {cnt}")
 ```
 
+```pascal
+resultOK := IFC_DMGetEntriesCnt('Example', 1);
+```
+```python
+import vs
+
+# Gets the count of entries for indicated object from current IFC Data Mapping.
+inStrObjName = 'Example'
+
+ok, outCount = vs.IFC_DMGetEntriesCnt(inStrObjName)
+vs.Message('IFC_DMGetEntriesCnt returned: ' + str((ok, outCount)))
+```
+
 ## Version
 Available from: Vectorworks 2017
 

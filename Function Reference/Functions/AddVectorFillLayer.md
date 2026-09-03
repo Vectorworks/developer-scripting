@@ -44,6 +44,37 @@ Follows a call to BeginVectorFill. The input for the layer match the input from 
 ## Examples
 [AddHatchToResource](examples/AddHatchToResource.md)
 
+```pascal
+AddVectorFillLayer(0, 0,1, 1, 0.2, -0.2, 1, 1, 257);
+
+BEGIN
+	RGBTocolorIndex (kHtch1aR, kHtch1aG, kHtch1aB, colorIndexA);
+	RGBTocolorIndex (kHtch1bR,kHtch1bG,kHtch1bB, colorIndexB);
+	BEGINVectorFillN(LocalName,FALSE,FALSE,256);
+		AddVectorFillLayer(2,0,7.5,12.990381057,7.5,-12.990381057,0.4,1,colorIndexA);
+		AddVectorFillLayer(2,0,-7.5,12.990381057,-7.5,-12.990381057,0.4,1,colorIndexA);
+		AddVectorFillLayer(2,0,2.22045e-016,25.980762114,7.5,-12.990381057,0.25,1,colorIndexB);
+	EndVectorFill;
+	objectHANDLE := GetObject(LocalName);
+```
+```python
+import vs
+
+# Procedure AddVectorFillLayer is used to add layers to a vector fill definition.
+xStart = 1.0
+yStart = 2.0
+xRepeat = 0.5
+yRepeat = 3.0
+xOffset = 0.0
+yOffset = 0.0
+dashFactor = 1.0
+lineWeight = 1
+colorIndex = 1
+
+vs.AddVectorFillLayer(xStart, yStart, xRepeat, yRepeat, xOffset, yOffset, dashFactor, lineWeight, colorIndex)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

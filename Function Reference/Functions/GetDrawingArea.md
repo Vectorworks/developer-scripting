@@ -22,5 +22,18 @@ def vs.GetDrawingArea():
 |outIsOther|BOOLEAN|Returns true, if the paper size of the active layer is not one of the predefined sizes from DwgSizes-Universal.txt.|
 |outIsOnePrintedPage|BOOLEAN|Returns true, if One Printer Page was selected in Page Setup dialog and the page area is the same as the selected from the printer page area.|
 
+## Examples
+```pascal
+BEGIN
+	GetDrawingArea( pageName, isOther, isOnePrintPage );
+```
+```python
+import vs
+
+# Gets the drawing area of the active layer, as in Page Setup dialog.
+text, outDrawingArea, outIsOther, outIsOnePrintedPage = vs.GetDrawingArea()
+vs.Message('GetDrawingArea returned: ' + str((text, outDrawingArea, outIsOther, outIsOnePrintedPage)))
+```
+
 ## Category
 * [Layers](../Categories/Layers.md)

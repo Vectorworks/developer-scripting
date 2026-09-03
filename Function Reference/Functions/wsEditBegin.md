@@ -17,6 +17,19 @@ def vs.wsEditBegin(companyName):
 |---|---|---|
 |companyName|STRING|   |
 
+## Examples
+```pascal
+wsEditBegin('Example');
+```
+```python
+import vs
+
+# Begin workspace edit.
+companyName = 'Example'
+
+vs.wsEditBegin(companyName)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

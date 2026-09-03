@@ -12,6 +12,17 @@ def vs.QTTerminate():
     return None
 ```
 
+## Examples
+```pascal
+QTTerminate;
+```
+```python
+import vs
+
+# Disables QuickTime and disposes of internal QuickTime data structures.
+vs.QTTerminate()
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

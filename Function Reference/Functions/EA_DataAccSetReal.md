@@ -22,6 +22,21 @@ def vs.EA_DataAccSetReal(acc, valueIndex, value):
 |valueIndex|INTEGER|   |
 |value|REAL|   |
 
+## Examples
+```pascal
+EA_DataAccSetReal(1, 2, 1.0);
+```
+```python
+import vs
+
+# Set real value to the object, associated to the accessory index.
+acc = 1
+valueIndex = 1
+value = 1.0
+
+vs.EA_DataAccSetReal(acc, valueIndex, value)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

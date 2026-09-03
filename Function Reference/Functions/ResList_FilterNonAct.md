@@ -20,6 +20,23 @@ def vs.ResList_FilterNonAct(uniqueID, callback):
 |uniqueID|STRING|   |
 |callback|PROCEDURE|   |
 
+## Examples
+```pascal
+ResList_FilterNonAct('Example', callback);
+```
+```python
+import vs
+
+# Sets the filter for resource in the non-active open documents.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+uniqueID = 'Example'
+callback = handle_object
+
+vs.ResList_FilterNonAct(uniqueID, callback)
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

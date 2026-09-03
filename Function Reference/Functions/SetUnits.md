@@ -56,6 +56,13 @@ SetUnits(4096,64,3,1.0,'&quot;','sq ft');
 
 ```
 
+```pascal
+SetUnits(1, 2, 3, 1.0, 'Example', 'Example');
+```
+```python
+vs.SetUnits(fraction, True, format, upi, 'Example', 'Example')
+```
+
 ## Version
 Availability: from All Versions
 

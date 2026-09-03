@@ -20,6 +20,24 @@ def vs.ExportSAT(filePath, solidAsSurface):
 |filePath|STRING|Output file path.|
 |solidAsSurface|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := ExportSAT('file.txt', TRUE);
+```
+```python
+import vs
+
+# Export the selection into a ACIS SAT 3D model file.
+filePath = 'C:/Temp'
+solidAsSurface = True
+
+ok = vs.ExportSAT(filePath, solidAsSurface)
+if ok:
+    vs.Message('ExportSAT succeeded')
+else:
+    vs.Message('ExportSAT failed')
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

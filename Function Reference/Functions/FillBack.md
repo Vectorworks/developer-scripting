@@ -36,6 +36,38 @@ colorIndex = vs.RGBToColorIndex(65535, 0, 39321)
 vs.FillBack(colorIndex) # using Color Index values
 ```
 
+```pascal
+BEGIN
+	pushattrs;
+	fillpat(1);
+	fillback(65535,42000,0);
+	BeginMXtrd(0.0,cWidth/3);
+		Oval(-cWidth/6,-cWidth/6,cWidth/6,cWidth/6);
+		Oval(-cWidth/6,-cWidth/6,cWidth/6,cWidth/6);
+		Oval(-cWidth/9,-cWidth/9,cWidth/9,cWidth/9);
+
+	PenFore (r,g,b);
+	Pensize (GetLW (gWallHand));
+	PenPatN (GetLSN (gWallHand));
+	GetFillBack (gWallHand,r,g,b);
+	FillBack (r,g,b);
+END;
+
+SetLW(TempH,gGypLW);
+PenSize(gStippleLW);
+ColorIndexToRGB(gStippleFill,Red,Green,Blue);
+FillFore(Red,Green,Blue);
+FillBack(Red,Green,Blue);
+ColorIndexToRGB(gStippleColor,Red,Green,Blue);
+PenFore(Red,Green,Blue);
+PenBack(Red,Green,Blue);
+TempH := Stipple(SolidPoly, gStippleShape, gStippleDensity, gStippleClip, gStippleMinSize, gStippleMaxSize, gStippleMinAsp, gStippleMaxAsp, gStippleRand); END;
+```
+```python
+rgb = vs.GetFillBack( objHand )
+vs.FillBack( rgb )
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

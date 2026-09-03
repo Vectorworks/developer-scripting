@@ -22,6 +22,21 @@ Given a point, returns the area of the smallest polygon bounded by the selected 
 
 [sd 8/18/98]
 
+## Examples
+```pascal
+resultVal := SrndArea(1.0, 2.0);
+```
+```python
+import vs
+
+# Function SrndArea when given a point, returns the area of the smallest
+# polygon bounded by the selected objects.
+p = (0, 0)
+
+area = vs.SrndArea(p)
+vs.Message('SrndArea returned: ' + str(area))
+```
+
 ## Version
 Availability: from All Versions
 

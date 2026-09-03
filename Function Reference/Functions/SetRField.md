@@ -45,6 +45,36 @@ SetRField(HandleToObject,'Part Info','Serial No.','P-4322');
 
 ```
 
+```pascal
+BEGIN
+	SetRField (pluginH, recordName, 'a', num2StrF (a));
+	SetRField (pluginH, recordName, 'b', num2StrF (b));
+	SetRField (pluginH, recordName, 't', num2StrF (t));
+	SetRField (pluginH, recordName, 'rf', num2StrF (rf));
+	SetRField (pluginH, recordName, 'rtA', num2StrF (rtA));
+
+BEGIN
+	SetRField (formatH, pluginName, 'method', GetCustomObjectChoice (pluginName, 'pMethod', method));
+	IF lines THEN
+		SetRField (formatH, pluginName, 'options', GetCustomObjectChoice (pluginName, 'pOptions', 2))
+	ELSE
+		SetRField (formatH, pluginName, 'options', GetCustomObjectChoice (pluginName, 'pOptions', 1));
+
+			gDoorConfig := kDoorConfigLeft
+		ELSE
+			gDoorConfig := kDoorConfigRight;
+	END;
+	SetRField(parmHand,parmName,'Door Config', gDoorConfig);
+END
+```
+```python
+vs.SetRField( gObjHandle, gObjName, '__Marker_Style_Name', strMarkerName )
+
+if len(newCurbClassName) > 0:
+	vs.SetRField( gObjHandle, gObjName, 'Curb Class', newCurbClassName )
+```
+See also in tutorials: [08. Attach and Read Records on Objects](ai%20examples/08_AttachAndReadRecords.md), [24. Auto-Populating Database Row](ai%20examples/24_WorksheetDBRowAutoPopulate.md), [26. Sorting and Grouping with `SetWSColumnOperators`](ai%20examples/26_WorksheetSortAndGroup.md)
+
 ## Version
 Availability: from All Versions.
 

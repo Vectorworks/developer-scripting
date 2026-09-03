@@ -22,6 +22,27 @@ def vs.IsLocked(hObject):
 isLocked := vs.IsLocked( object );
 ```
 
+```pascal
+BEGIN
+	recordH := GetRecord (NIL, i);
+	IF (NOT IsPluginFormat (recordH)) AND (NOT IsLocked(recordH)) THEN
+	BEGIN
+		recName := Copy( GetName( recordH ), 1, 5 );
+		if  recName <> '__NNA'  THEN
+		BEGIN
+			j := j + 1;
+			ALLOCATE gRecordH [1..j];
+```
+```python
+import vs
+
+# Returns is the object locked for edit.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, hObject = vs.IsLocked(hObject)
+vs.Message('IsLocked returned: ' + str((ok, hObject)))
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

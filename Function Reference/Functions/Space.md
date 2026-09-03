@@ -28,6 +28,13 @@ Space(5);
 
 ```
 
+```pascal
+Space(1);
+```
+```python
+vs.Space(n)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -19,6 +19,24 @@ def vs.IFC_DMIsFieldEmpty(inStrObjName, inStrEntryName, inStrFieldName):
 |inStrEntryName|STRING|   |
 |inStrFieldName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMIsFieldEmpty('Example', 'Example', 'MyRecord');
+```
+```python
+import vs
+
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+inStrFieldName = 'MyField'
+
+ok = vs.IFC_DMIsFieldEmpty(inStrObjName, inStrEntryName, inStrFieldName)
+if ok:
+    vs.Message('IFC_DMIsFieldEmpty succeeded')
+else:
+    vs.Message('IFC_DMIsFieldEmpty failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

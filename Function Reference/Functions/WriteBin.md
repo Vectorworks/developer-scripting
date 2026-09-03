@@ -34,6 +34,18 @@ WriteBin('text', 0); { string, mac }
 WriteBin(1234); { number }
 ```
 
+```pascal
+WriteBin(z);
+```
+```python
+import vs
+
+# Procedure WriteBin outputs the specified data to a binary file.
+z = 'Example'
+
+vs.WriteBin(z)
+```
+
 ## See Also
 [ReadBin](ReadBin.md) | [Open](Open.md)
 

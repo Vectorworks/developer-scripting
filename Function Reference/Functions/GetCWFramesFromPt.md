@@ -36,6 +36,22 @@ def vs.GetCWFramesFromPt(hWall, testPt, includeBottomFrame):
 |frameInsetRight|REAL|   |
 |frameInsetLeft|REAL|   |
 
+## Examples
+```pascal
+resultOK := GetCWFramesFromPt(hWall, 1, TRUE, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Returns information about the frames in a curtain wall from a given point.
+hWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+testPt = (0, 0)
+includeBottomFrame = True
+
+ok, panelThickness, panelOffset, frameInsetTop, frameInsetBottom, frameInsetRight, frameInsetLeft = vs.GetCWFramesFromPt(hWall, testPt, includeBottomFrame)
+vs.Message('GetCWFramesFromPt returned: ' + str((ok, panelThickness, panelOffset, frameInsetTop, frameInsetBottom, frameInsetRight, frameInsetLeft)))
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

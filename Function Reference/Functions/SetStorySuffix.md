@@ -20,6 +20,24 @@ def vs.SetStorySuffix(story, suffix):
 |story|HANDLE|The story whose suffix is being set.|
 |suffix|STRING|The new value of the suffix of the indicated Story.|
 
+## Examples
+```pascal
+resultOK := SetStorySuffix(story, 'Example');
+```
+```python
+import vs
+
+# Sets the suffix of the indicated Story.
+story = vs.FSActLayer()  # handle to the first selected object on the active layer
+suffix = 'Example'
+
+ok = vs.SetStorySuffix(story, suffix)
+if ok:
+    vs.Message('SetStorySuffix succeeded')
+else:
+    vs.Message('SetStorySuffix failed')
+```
+
 ## See Also
 VS Functions:
 [GetStorySuffix](GetStorySuffix.md) 

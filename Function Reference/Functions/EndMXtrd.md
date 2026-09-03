@@ -40,6 +40,19 @@ vs.Rect(-125/128,1 + 113/512,375/512,375/512)
 vs.EndMXtrd()
 ```
 
+```pascal
+EndMXtrd;
+```
+```python
+vs.AddPoint( p13 )
+vs.AddPoint( p20 )
+vs.EndPoly()
+vs.EndMXtrd()
+SetAttrsByClassOrParent(vs.LNewObj(), gObjHandle, gCurb_Class)
+vs.ResetOrientation3D()
+vs.Rotate3D( 90.0, 0.0, 90.0 )
+```
+
 ## Version
 Availability: from All Versions
 

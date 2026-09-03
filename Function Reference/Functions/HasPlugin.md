@@ -42,6 +42,20 @@ END;
 RUN(Example);
 ```
 
+## Examples
+```pascal
+resultOK := HasPlugin('Example', 'Example');
+```
+```python
+import vs
+
+# Returns whether tool item or menu command is in current workspace.
+itemUniversalName = 'Example'
+
+ok, PaletteName = vs.HasPlugin(itemUniversalName)
+vs.Message('HasPlugin returned: ' + str((ok, PaletteName)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

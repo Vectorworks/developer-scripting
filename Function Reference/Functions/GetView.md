@@ -89,6 +89,31 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+GetView(gXrot,gYrot,gZrot,xOff,yOff,zOff);
+
+{save current view}
+GetView( xAng, yAng, zAng, dstX, dstY, dstZ );
+SetPref(9873,TRUE);
+IF (xAng <> 0) | (yAng <> 0) | (zAng <> 0) THEN SetView(0,0,0,0,0,0);
+
+BEGIN
+	ChangedView := FALSE;
+	GetView(vXAng, vYAng, vZAng, vXLoc, vYLoc, vZLoc);
+	SetPref(9873,TRUE);
+	GetContainerInfo(objHand, containerHandle, containerType, containerScale);
+	IF ABS(containerType) = 31 THEN ProjectionI := GetProjection(containerHandle) ELSE ProjectionI := GetProjection(ActLayer);
+	IF (ProjectionI <> 6) & ((vXAng <> 0) | (vYAng <> 0) | (vZAng <> 0)) THEN
+```
+```python
+import vs
+
+# Returns information about the current 3D view.
+xAngleR, yAngelR, zAngleR, offset = vs.GetView()
+vs.Message('GetView returned: ' + str((xAngleR, yAngelR, zAngleR, offset)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -22,6 +22,22 @@ def vs.IsTileGroupContainedObject(objectHandle):
 return := IsTileGroupContainedObject(objectHandle);
 ```
 
+```pascal
+resultOK := IsTileGroupContainedObject(objectHandle);
+```
+```python
+import vs
+
+# Determines if the specified object is a tile group-contained object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IsTileGroupContainedObject(objectHandle)
+if ok:
+    vs.Message('IsTileGroupContainedObject succeeded')
+else:
+    vs.Message('IsTileGroupContainedObject failed')
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

@@ -22,6 +22,21 @@ def vs.GetComponentFunction(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |func|INTEGER|Returns the function of the component.  0 - Other 1 - Load-Bearing 2 - Insulation 3 - Inner Finish 4 - Outer Finish 5 - Air Gap|
 
+## Examples
+```pascal
+resultOK := GetComponentFunction(object, 1, 2);
+```
+```python
+import vs
+
+# Gets the function of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, func = vs.GetComponentFunction(object, componentIndex)
+vs.Message('GetComponentFunction returned: ' + str((ok, func)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentFunction](SetComponentFunction.md)

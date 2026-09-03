@@ -27,6 +27,20 @@ def vs.ApplyCustomTexPart(srcObj, destObj, partID):
 ApplyCustomTexPart(parentPIO, pioSubObj, 100);
 ```
 
+```pascal
+ApplyCustomTexPart(srcObj, destObj, 1);
+```
+```python
+import vs
+
+# Applies the src object’s custom texture part partID to dest Overall part.
+srcObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+destObj = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+partID = 1
+
+vs.ApplyCustomTexPart(srcObj, destObj, partID)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

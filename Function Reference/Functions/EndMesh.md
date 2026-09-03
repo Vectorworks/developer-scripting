@@ -50,6 +50,17 @@ vs.Poly3D(0,0,0,0,0,4*12,4*12,0,4*12,4*12,0,0)
 vs.EndMesh()
 ```
 
+```pascal
+EndMesh;
+```
+```python
+import vs
+
+# Procedure EndMesh completes the definition of a mesh object within a
+# VectorWorks document.
+vs.EndMesh()
+```
+
 ## Version
 Availability: from All Versions
 

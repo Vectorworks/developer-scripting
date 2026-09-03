@@ -17,6 +17,19 @@ def vs.EA_DataAccSave(acc):
 |---|---|---|
 |acc|INTEGER|   |
 
+## Examples
+```pascal
+EA_DataAccSave(1);
+```
+```python
+import vs
+
+# Saves data to accessory.
+acc = 1
+
+vs.EA_DataAccSave(acc)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

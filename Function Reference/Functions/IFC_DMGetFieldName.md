@@ -24,6 +24,22 @@ def vs.IFC_DMGetFieldName(inStrObjName, inStrEntryName, index):
 |index|INTEGER|   |
 |outStrFieldName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetFieldName('Example', 'Example', 1, 'MyRecord');
+```
+```python
+import vs
+
+# Gets indicated field name from current IFC Data Mapping.
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+index = 1
+
+ok, outStrFieldName = vs.IFC_DMGetFieldName(inStrObjName, inStrEntryName, index)
+vs.Message('IFC_DMGetFieldName returned: ' + str((ok, outStrFieldName)))
+```
+
 ## Version
 Available from: Vectorworks 2017
 

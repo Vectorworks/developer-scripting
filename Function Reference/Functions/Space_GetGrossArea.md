@@ -17,6 +17,20 @@ def vs.Space_GetGrossArea(space):
 |---|---|---|
 |space|HANDLE|   |
 
+## Examples
+```pascal
+resultVal := Space_GetGrossArea(space);
+```
+```python
+import vs
+
+# Returns gross area of given space object.
+space = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+area = vs.Space_GetGrossArea(space)
+vs.Message('Space_GetGrossArea returned: ' + str(area))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

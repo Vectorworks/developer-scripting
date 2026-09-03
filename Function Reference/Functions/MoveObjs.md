@@ -42,6 +42,20 @@ MoveObjs(3,0,FALSE,FALSE);
 
 ```
 
+```pascal
+MoveObjs(1.0, TRUE, FALSE);
+```
+```python
+while (i <= n ):
+	# Draw road bed
+	DrawParallelArcs( vs.PRadius - vs.PWidth / 2, 90, vs.PWidth, gPaving_Class )
+	vs.MoveObjs( vs.PCurb_Width + vs.PWidth, 0, False, False )
+	vs.Locus( vs.PRadius + vs.PCurb_Width + ( vs.PWidth / 2 ), 0 ); SetAttrsByClassOrParent( vs.LNewObj(), gObjHandle, gCurb_Class )
+	vs.Rotate( sweepTmp - 90 )
+	hObj = vs.LNewObj()
+	vs.DSelectAll()
+```
+
 ## Version
 Availability: from All Versions
 

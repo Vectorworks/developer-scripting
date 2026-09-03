@@ -22,6 +22,20 @@ def vs.GetTileGeometryGroup(tileHandle):
 tileGroupHandle := GetTileGeometryGroup(tileHandle);
 ```
 
+```pascal
+resultH := GetTileGeometryGroup(tileHandle);
+```
+```python
+import vs
+
+# Gets the tile resource's geometry group.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetTileGeometryGroup(tileHandle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

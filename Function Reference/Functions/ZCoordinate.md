@@ -20,6 +20,20 @@ def vs.ZCoordinate(c):
 ## Remarks
 Valid objects are PIOs, Symbols and Loci
 
+## Examples
+```pascal
+resultVal := ZCoordinate(c);
+```
+```python
+import vs
+
+# Returns the Z coordinate of the object relative to the object's layer plane.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.ZCoordinate(c)
+vs.Message('ZCoordinate returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

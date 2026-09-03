@@ -32,6 +32,23 @@ def vs.EXL_GetCellFont(sheetIndex, cellRow, cellColumn):
 |outTextColorIndex|INTEGER|   |
 |outInconsistencyFound|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := EXL_GetCellFont(1, 2, 3, 10, 5, 1, 2, TRUE);
+```
+```python
+import vs
+
+# Get cell font style, font size, font index, text color index and is
+# inconsistency found.
+sheetIndex = 1
+cellRow = 10
+cellColumn = 5
+
+ok, outFontStyle, outFontSize, outFontIndex, outTextColorIndex, outInconsistencyFound = vs.EXL_GetCellFont(sheetIndex, cellRow, cellColumn)
+vs.Message('EXL_GetCellFont returned: ' + str((ok, outFontStyle, outFontSize, outFontIndex, outTextColorIndex, outInconsistencyFound)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

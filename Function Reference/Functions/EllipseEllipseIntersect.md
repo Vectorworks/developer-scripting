@@ -78,6 +78,22 @@ def Example():
 Example()
 ```
 
+```pascal
+resultN := EllipseEllipseIntersect(1, 2, 3, 10, 5, 1, 2, 3);
+```
+```python
+import vs
+
+# Calculates the intersections between the two specified ellipses.
+upperLeft1 = 'Example'
+lowerRight1 = 'Example'
+upperLeft2 = 'Example'
+lowerRight2 = 'Example'
+
+resultN, int1, int2, int3, int4 = vs.EllipseEllipseIntersect(upperLeft1, lowerRight1, upperLeft2, lowerRight2)
+vs.Message('EllipseEllipseIntersect returned: ' + str((resultN, int1, int2, int3, int4)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

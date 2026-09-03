@@ -22,6 +22,21 @@ def vs.UpdateImagePushButton(dialogID, controlID, imageSpecifier):
 |controlID|LONGINT|The identifier of the control to be updated.|
 |imageSpecifier|DYNARRAY[] of CHAR|The string identifier for the image. It should be of the form &quot;ResourceFileNameWithoutExtension/PathOfImageFile&quot;.|
 
+## Examples
+```pascal
+UpdateImagePushButton(1, 2, imageSpecifier);
+```
+```python
+import vs
+
+# Updates the image button created with CreateImagePushButton.
+dialogID = 1
+controlID = 2
+imageSpecifier = 'Example'
+
+vs.UpdateImagePushButton(dialogID, controlID, imageSpecifier)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

@@ -24,6 +24,22 @@ def vs.SetTreeControlItemData(nDialogID, nComponentID, nItemID, nUserData):
 |nItemID|INTEGER|   |
 |nUserData|LONGINT|   |
 
+## Examples
+```pascal
+SetTreeControlItemData(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Sets the user data of the specified item from a tree control.
+nDialogID = 1
+nComponentID = 2
+nItemID = 3
+nUserData = 10
+
+vs.SetTreeControlItemData(nDialogID, nComponentID, nItemID, nUserData)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

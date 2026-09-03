@@ -14,6 +14,22 @@ def vs.GetDropShadowByCls(H):
 |---|---|---|
 |H|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := GetDropShadowByCls(H);
+```
+```python
+import vs
+
+H = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetDropShadowByCls(H)
+if ok:
+    vs.Message('GetDropShadowByCls succeeded')
+else:
+    vs.Message('GetDropShadowByCls failed')
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

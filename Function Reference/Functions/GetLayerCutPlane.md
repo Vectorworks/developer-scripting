@@ -17,6 +17,20 @@ def vs.GetLayerCutPlane(layer):
 |---|---|---|
 |layer|HANDLE|The layer.|
 
+## Examples
+```pascal
+resultVal := GetLayerCutPlane(layer);
+```
+```python
+import vs
+
+# Gets the cut plane of the layer.
+layer = vs.ActLayer()  # handle to the active design layer
+
+value = vs.GetLayerCutPlane(layer)
+vs.Message('GetLayerCutPlane returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetLayerCutPlane](SetLayerCutPlane.md)

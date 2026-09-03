@@ -77,8 +77,31 @@ def PickPointCallback(pt):
 
 	vs.FindObjAtPt_Delete( list )
 
-
 vs.GetPt( PickPointCallback )
+```
+
+## Examples
+```pascal
+GetSymLoc(h,x,y);
+   FinderID := FindObjAtPt_Create(ActLayer,1,1,x,y,1");
+   NumObjsFound := FindObjAtPt_GetCount(FinderID);
+   {AlrtDialog(Concat(NumObjsFound));}
+   For I := 0 to NumObjsFound-1 DO
+   	BEGIN
+```
+```python
+import vs
+
+# Creates object find for objects at specified point within specified radius.
+hContainer = vs.FSActLayer()  # handle to the first selected object on the active layer
+objOptions = 1
+travOptions = 2
+locX = 1.0
+locY = 2.0
+pickRadius = 1.0
+
+resultN = vs.FindObjAtPt_Create(hContainer, objOptions, travOptions, locX, locY, pickRadius)
+vs.Message('FindObjAtPt_Create returned: ' + str(resultN))
 ```
 
 ## Version

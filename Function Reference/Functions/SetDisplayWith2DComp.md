@@ -34,6 +34,26 @@ def vs.SetDisplayWith2DComp(objectHandle, component, isVisible):
 |component|INTEGER|2D component.|
 |isVisible|BOOLEAN|Visibility of the object when the 2D component is shown.|
 
+## Examples
+```pascal
+resultOK := SetDisplayWith2DComp(objectHandle, 1, TRUE);
+```
+```python
+import vs
+
+# Sets whether a 3D object in a symbol definition or plug-in object is shown
+# when the specified 2D component is shown.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+component = 1
+isVisible = True
+
+ok = vs.SetDisplayWith2DComp(objectHandle, component, isVisible)
+if ok:
+    vs.Message('SetDisplayWith2DComp succeeded')
+else:
+    vs.Message('SetDisplayWith2DComp failed')
+```
+
 ## See Also
 VS Functions:
 [Set2DComponentGroup](Set2DComponentGroup.md) 

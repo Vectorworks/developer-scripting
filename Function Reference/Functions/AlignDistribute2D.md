@@ -20,6 +20,19 @@ def vs.AlignDistribute2D(MenuAction):
 |MenuAction|LONGINT|   |
 |AlignDist2DParms|LONGINT|   |
 
+## Examples
+```pascal
+AlignDistribute2D(1, 2);
+```
+```python
+import vs
+
+# 2D Object Alignment/Distribution.
+MenuAction = 1
+
+result = vs.AlignDistribute2D(MenuAction)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

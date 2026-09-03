@@ -22,6 +22,20 @@ def vs.BotBoundN(c):
 BotBValue:=BotBoundN(N='MyRect');
 ```
 
+```pascal
+resultVal := BotBoundN(c);
+```
+```python
+import vs
+
+# Returns the y-coordinate of the bounding box (bottom right corner) of an
+# object matching the search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.BotBoundN(c)
+vs.Message('BotBoundN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

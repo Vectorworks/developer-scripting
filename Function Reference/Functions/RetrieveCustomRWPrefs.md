@@ -34,6 +34,19 @@ def vs.RetrieveCustomRWPrefs():
 |shadowStyle|INTEGER|   |
 |rayTracingRecursion|INTEGER|   |
 
+## Examples
+```pascal
+RetrieveCustomRWPrefs(TRUE, FALSE, TRUE, TRUE, FALSE, TRUE, 1, 2, 3);
+```
+```python
+import vs
+
+# Retrieves the current custom RenderWorks rendering preferences from data
+# stored in the current drawing.
+useTextures, useTransparency, useShadows, useRayTracing, useAntiAliasing, useDithering, tessellationDetail, shadowStyle, rayTracingRecursion = vs.RetrieveCustomRWPrefs()
+vs.Message('RetrieveCustomRWPrefs returned: ' + str((useTextures, useTransparency, useShadows, useRayTracing, useAntiAliasing, useDithering, tessellationDetail, shadowStyle, rayTracingRecursion)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -56,6 +56,41 @@ def Example():
 Example()
 ```
 
+```pascal
+CreateLB                  (IDLabelDialog, kDataBox,                53, 20);
+CreateStaticText          (IDLabelDialog, kName,                   GetStr(kName), -1);
+CreateStaticText          (IDLabelDialog, kFieldName,              GetStr(kFieldName), 28);
+CreateStaticText          (IDLabelDialog, kFieldValueTxt,          GetStr(kFieldValueTxt), -1);
+CreateEditTextBox         (IDLabelDialog, kFieldValue,             GetStr(kFieldValue), 28, 3);
+
+CreateEditText           (dialog1, 71,  GetStr(71), 16);
+CreateStaticText         (dialog1, 72,  GetStr(72), -1);
+CreateEditText           (dialog1, 73,  GetStr(73), 16);
+CreateStaticText         (dialog1, 74,  GetStr(74), -1);
+CreateEditTextBox        (dialog1, 75,  GetStr(75), 30, 5);
+CreateRadioButton        (dialog1, 76,  GetStr(76));
+CreateRadioButton        (dialog1, 77,  GetStr(77));
+CreateStaticText         (dialog1, 78,  '  ', -1);
+
+BEGIN
+	CreateEditTextBox (dialogID, fieldNum, '',kFieldWidth, 4);
+	fieldName := Copy (fieldName, 1, Len (fieldName) - 1);
+END
+```
+```python
+import vs
+
+# Creates a scrolling multiline editable text field in a dialog layout.
+dialogID = 1
+itemID = 2
+defaultText = 'Example text'
+widthInCharacters = 3
+heightInLines = 10
+
+vs.CreateEditTextBox(dialogID, itemID, defaultText, widthInCharacters, heightInLines)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

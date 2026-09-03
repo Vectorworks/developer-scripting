@@ -3,7 +3,6 @@
 ## Description
 Function IsNewCustomObject returns whether the specified plug-in object is a new object, indicating that the object is being regenerated for the first time.
 
-
 New object status is useful in specifying initialization and setup data, as well as calling initialization specific subroutines. This function should only be called in plug-in objects.
 
 ```pascal
@@ -51,7 +50,6 @@ IF gIsCopy THEN BEGIN
 END;
 ```
 
-
 (Unsigned:)
 
 IsNewCustomObject will never return TRUE on: objects created by Call from CustomObject scripts only.  Returns true for new objects, meaning this is the first time the regeneration script is being called.
@@ -74,6 +72,63 @@ IF p__IsNew & (hWall <> Nil) THEN BEGIN
     SetRField(ghParm, MyObject, '__IsNew', 'False' );
     DoMyStuffHere...
 END;
+```
+
+## Examples
+```pascal
+BEGIN
+	IF (p__Version = 0) & NOT(IsNewCustomObject(parmName)) THEN
+		Translate120 := TRUE
+	ELSE
+		Translate120 := FALSE;
+	IF Translate120 THEN {Translate the class texture to the object}
+		BEGIN
+		TextureIDX := GetClTextureG(pHidden);
+		IF TextureIDX <> 0 THEN
+
+BEGIN
+	IF (NOT IsNewCustomObject(gPluginName)) & (p__version < 1600) THEN
+	BEGIN
+		{Empty string means container class}
+		kRealNoneClass := ClassList(1);
+		IF pShaft_Finish = kRealNoneClass THEN
+			SetRField (h, gPluginName, 'Shaft Finish','');
+		IF pCapital_Finish = kRealNoneClass THEN
+			SetRField (h, gPluginName, 'Capital Finish','');
+
+BEGIN
+result := GetPluginChoiceIndex(parmName,'LineMode',pLineMode,LLChoice);
+{Handle Versioning -- if old instance, convert to only previous mode, Fixed}
+IF (p__Version < 1400) & NOT(IsNewCustomObject(parmName)) THEN
+	BEGIN
+	SetRField(parmHand,parmName,'LineMode','Fixed');
+	LLChoice := 1;
+	END;
+```
+```python
+	showFence = vs.PUse_Fence
+else:
+	showFence = False
+if ( vs.IsNewCustomObject( gObjName ) ):
+	if ( vs.GetObject( kStrExistDTM ) != 0 ):
+		vs.SetRField( gObjHandle, gObjName, 'Show Fences', 'True' )
+		showPad = True
+
+if useModifiers:
+	useFence = vs.PUse_Fence
+kStrExistDTM	= vs.GetResourceString( kMiscStrID, 1 )
+if ( vs.IsNewCustomObject( gObjName ) ):
+	if ( vs.GetObject( kStrExistDTM ) != 0 ):
+		vs.SetRField( gObjHandle, gObjName, 'Use Site Modifiers', 'True' )
+		useModifiers = True
+DTMModification(useModifiers, useFence, width, length)
+
+# Initialize GetLocStr variable
+kStrExistDTM = vs.GetResourceString( kMisc_str_ID, 1 )
+if ( vs.IsNewCustomObject( gObjName ) ):
+	if ( vs.GetObject( kStrExistDTM ) != 0 ):
+		vs.SetRField( gObjHandle, gObjName, 'Show Fences', 'True' )
+		showPad = True
 ```
 
 ## See Also

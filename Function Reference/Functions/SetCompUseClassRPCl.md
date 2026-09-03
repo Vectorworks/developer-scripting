@@ -22,6 +22,25 @@ def vs.SetCompUseClassRPCl(object, componentIndex, useClassPenColorsForRightPen)
 |componentIndex|INTEGER|The index of the component.|
 |useClassPenColorsForRightPen|BOOLEAN|Whether or not the component will use class attributes for its right pen colors.|
 
+## Examples
+```pascal
+resultOK := SetCompUseClassRPCl(object, 1, TRUE);
+```
+```python
+import vs
+
+# Sets the use class pen colors for right pen flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+useClassPenColorsForRightPen = True
+
+ok = vs.SetCompUseClassRPCl(object, componentIndex, useClassPenColorsForRightPen)
+if ok:
+    vs.Message('SetCompUseClassRPCl succeeded')
+else:
+    vs.Message('SetCompUseClassRPCl failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompUseClassRPCl](GetCompUseClassRPCl.md)

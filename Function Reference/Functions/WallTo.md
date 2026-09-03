@@ -51,6 +51,36 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	GetPolyPt (poly2H, i, x, y);
+	WallTo (x, y);
+	wallH [i-1] := LNewObj;
+	SetClass( LNewObj, className );
+END;
+
+	ALLOCATE wallTypes [1..wallTypeCnt];
+	wallTypes[1].name := GetPlugInString(5023);
+	SetWallWidth(3.5");
+	MoveTo(0, 0);
+	WallTo(1, 1);
+	h := LNewObj;
+	DelObj(h);
+END;
+
+	ALLOCATE wallTypes [1..wallTypeCnt];
+	wallTypes[1].name := 'Generic Wall';
+	SetWallWidth(3.5");
+	MoveTo(0, 0);
+	WallTo(1, 1);
+	h := LNewObj;
+	DelObj(h);
+END;
+```
+```python
+vs.WallTo((0, 0))
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

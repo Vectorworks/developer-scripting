@@ -54,6 +54,31 @@ def vs.SetBinaryConstraint(typeOfConstraint, h1, h2, obj1VertA, obj1VertB, obj2V
 ## Remarks
 Sets a constraint on h1 and h2 on the designated vertices.  Valid values for typeOfConstraint are 1 (coincident), 2 (collinear), 3 (parallel), 6 (tangent), 7 (concentric), 8 (distance), 9 (horizontal distance), 10 (vertical distance), 12 (angle) and 13 (perpendicular).  obj1VertA and obj1VertB indicate which vertices of the first object to use in the constraint, and obj2VertA and obj2VertB indicate which vertices of the second object to use.  A value of -1 indicates that a vertex parameter is not applicable. The containedObj fields are for an index into the list of a container object such as a symbol.  This can be obtained from the [GetClosestPt](GetClosestPt.md) function.
 
+## Examples
+```pascal
+resultOK := SetBinaryConstraint(1, h1, h2, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Applies a binary parametric constraint to the referenced objects.
+typeOfConstraint = 0
+h1 = vs.FSActLayer()  # handle to the first selected object on the active layer
+h2 = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+obj1VertA = 1
+obj1VertB = 2
+obj2VertA = 3
+obj2VertB = 10
+containedObj1 = 1
+containedObj2 = 2
+
+ok = vs.SetBinaryConstraint(typeOfConstraint, h1, h2, obj1VertA, obj1VertB, obj2VertA, obj2VertB, containedObj1, containedObj2)
+if ok:
+    vs.Message('SetBinaryConstraint succeeded')
+else:
+    vs.Message('SetBinaryConstraint failed')
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

@@ -32,6 +32,20 @@ Python only: EA_DataAccCompGet can't be used for VW before 2022 SP4, the index r
 
 An extensive example about the Energos access can be found under [[VS:EA DataAccCreate]]
 
+## Examples
+```pascal
+EA_DataAccCompGet(1, 2, TRUE, 1.0, 2.0);
+```
+```python
+import vs
+
+# Gets object component data.
+acc = 1
+
+componentIndex, outInclude, outLambda, outThickness = vs.EA_DataAccCompGet(acc)
+vs.Message('EA_DataAccCompGet returned: ' + str((componentIndex, outInclude, outLambda, outThickness)))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

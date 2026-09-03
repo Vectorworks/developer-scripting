@@ -12,6 +12,17 @@ def vs.EndMultDashConvert():
     return None
 ```
 
+## Examples
+```pascal
+EndMultDashConvert;
+```
+```python
+import vs
+
+# Used in conjunction with BeginMultDashConvert to end the set of conversions.
+vs.EndMultDashConvert()
+```
+
 ## See Also
 VS Functions:
 [GetPseudoIndFromDash](GetPseudoIndFromDash.md) 

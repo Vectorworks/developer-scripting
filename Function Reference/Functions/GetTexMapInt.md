@@ -22,6 +22,22 @@ def vs.GetTexMapInt(h, partID, selector):
 |partID|LONGINT|   |
 |selector|INTEGER|   |
 
+## Examples
+```pascal
+resultN := GetTexMapInt(h, 1, 2);
+```
+```python
+import vs
+
+# Get map info for specific part of object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+selector = 2
+
+resultN = vs.GetTexMapInt(h, partID, selector)
+vs.Message('GetTexMapInt returned: ' + str(resultN))
+```
+
 ## See Also
 [GetTexMapIntN](GetTexMapIntN.md), [SetTexMapIntN](SetTexMapIntN.md)
 

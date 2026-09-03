@@ -81,6 +81,20 @@ def vs.StairGetConfigType(stair):
 |---|---|---|
 |stair|HANDLE|   |
 
+## Examples
+```pascal
+resultN := StairGetConfigType(stair);
+```
+```python
+import vs
+
+# Returns Stair Configuration Type.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.StairGetConfigType(stair)
+vs.Message('StairGetConfigType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

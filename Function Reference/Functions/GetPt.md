@@ -48,6 +48,37 @@ vs.AlrtDialog( "show let you pick a point, and then show a dialog with the objec
 vs.GetPt( PickPointCallback )
 ```
 
+```pascal
+BEGIN
+	GetPt(mouseX, mouseY);
+
+{** Get the text location from the user; Make the text object; Get a handle to it for later.}
+	ReDrawAll;
+	Message(kClickMsg);
+	GetPt (gPtX, gPtY);
+	ClrMessage;
+	TextOrigin(gPtX, gPtY);
+	CreateText(kFrameCtr);
+	gFrameCounterHan := LNewObj;
+
+GetPt (x1, y1);
+TextOrigin (x1, y1);
+TextVerticalAlign (1);
+TextJust (1);
+```
+```python
+import vs
+
+# Procedure GetPt switches the cursor to selection mode and allows the user
+# to select a point in a VectorWorks document.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+callback = handle_object
+
+vs.GetPt(callback)
+```
+
 ## See Also
 VS Functions:
 [GetPt](GetPt.md) |

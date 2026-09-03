@@ -14,6 +14,18 @@ def vs.SetDocDrpShadwByCls(bEnable):
 |---|---|---|
 |bEnable|BOOLEAN|   |
 
+## Examples
+```pascal
+SetDocDrpShadwByCls(TRUE);
+```
+```python
+import vs
+
+bEnable = True
+
+vs.SetDocDrpShadwByCls(bEnable)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

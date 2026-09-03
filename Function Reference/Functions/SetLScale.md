@@ -38,6 +38,30 @@ SetLScale(HandleToLayer,96);
 
 ```
 
+```pascal
+{Set The scale of this layer to the scale specified by the sheet}
+IF UserLayerName <> gCommonLayer THEN
+	SetLScale(GetLayerByName(UserLayerName), gSheetInfo [i].SheetScale);
+
+writeln (' ###### Creating layer - ',UserLayerName,'    layerH  = ',layerH ,'    visibility = ',visibility,'    sheet type = ',gSheetInfo [sheetNum].SheetType,'    type = ',GetType (layerH));
+END;
+									{set the scale of the layer based on the setup value}
+									CASE gSheetInfo [sheetNum].SheetType OF
+										1:    SetLScale (layerH, gSetupRecord.SitePlanScale);
+										2, 3: SetLScale (layerH, gSetupRecord.FloorPlanScale);
+										4:    SetLScale (layerH, gSetupRecord.AuxViewScale);
+										5:    SetLScale (layerH, gSetupRecord.NoteSheetScale);
+									END;
+
+BEGIN
+	SetLScale (layerH [i], currLayerScale [i]);
+END;
+```
+```python
+vs.SetLScale(h, scale)
+```
+See also in tutorials: [07. Set Up Document Structure: Layers and Classes](ai%20examples/07_LayersAndClasses.md)
+
 ## Version
 Availability: from MiniCAD6.0
 

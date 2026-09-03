@@ -28,6 +28,28 @@ def vs.GetStoryLayerInfo(index):
 |eleveationOffset|REAL|Returns with the Elevation Offset of story layer template|
 |defaultWallHeight|REAL|Returns with the Default Wall Height of story layer template|
 
+## Examples
+```pascal
+foundLevelType := FALSE;
+foundLevel := 0;
+storyTemplates := GetNumStoryLayerTemplates;
+for storyIndex := 1 to storyTemplates DO BEGIN
+	OK := GetStoryLayerInfo( storyIndex, levelName, levelScale, levelType, levelElev, levelWallHeight );
+	if levelType = storyLevel THEN BEGIN
+		foundLevelType := TRUE;
+		foundLevel := storyIndex;
+	END
+```
+```python
+import vs
+
+# Returns information on the given story layer template.
+index = 1
+
+ok, name, scaleFactor, layerLevelType, eleveationOffset, defaultWallHeight = vs.GetStoryLayerInfo(index)
+vs.Message('GetStoryLayerInfo returned: ' + str((ok, name, scaleFactor, layerLevelType, eleveationOffset, defaultWallHeight)))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

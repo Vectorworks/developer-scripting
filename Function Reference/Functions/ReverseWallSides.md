@@ -42,6 +42,32 @@ RUN(ReverseWallSidesExample);
 
 ```
 
+```pascal
+		pt3 := temp_pt;
+	END;
+	RoundWall(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
+	PolyPoints[I].h := LNewObj;
+	IF PolyPoints[I].sweepAng > 0 THEN ReverseWallSides(PolyPoints[I].h);
+END
+
+		pt3 := temp_pt;
+	END;
+	RoundWall(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
+	PolyPoints[I].h := LNewObj;
+	IF PolyPoints[I].sweepAng < 0 THEN ReverseWallSides(PolyPoints[I].h);
+END;
+
+		pt3     := temp_pt;
+	END;
+	RoundWall(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
+	walls[cnt].h := LNewObj;
+	IF walls[cnt].sweepAng > 0 THEN ReverseWallSides(walls[cnt].h);
+END;
+```
+```python
+vs.ReverseWallSides(theWall)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

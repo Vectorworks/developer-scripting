@@ -29,6 +29,21 @@ Returns the vector that describes the u-axis of the texture (from world space to
 
 Note: GetTexMapXXX routines replace the older GetTexSpaceXXX routines.  It is recommended that all developers transition to the newer versions.
 
+## Examples
+```pascal
+GetTexSpaceOrientU( wallTextureSpace, xAxis, yAxis, zAxis );
+```
+```python
+import vs
+
+# Procedure GetTexSpaceOrientU returns the vector that describes the u-axis
+# of the referenced texture (from world space to texture space).
+textureSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+uXAxis, uYAxis, uZAxis = vs.GetTexSpaceOrientU(textureSpace)
+vs.Message('GetTexSpaceOrientU returned: ' + str((uXAxis, uYAxis, uZAxis)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

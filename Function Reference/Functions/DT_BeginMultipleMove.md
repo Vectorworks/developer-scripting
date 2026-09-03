@@ -12,6 +12,21 @@ def vs.DT_BeginMultipleMove():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := DT_BeginMultipleMove;
+```
+```python
+import vs
+
+# Returns TRUE if moving system was started successful.
+ok = vs.DT_BeginMultipleMove()
+if ok:
+    vs.Message('DT_BeginMultipleMove succeeded')
+else:
+    vs.Message('DT_BeginMultipleMove failed')
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

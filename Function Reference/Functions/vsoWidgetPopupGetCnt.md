@@ -17,6 +17,24 @@ def vs.vsoWidgetPopupGetCnt(widgetID):
 |---|---|---|
 |widgetID|LONGINT|   |
 
+## Examples
+```pascal
+BEGIN
+	IF (vsoWidgetPopupGetCnt(kShapeChoice) = 0) |  (GetRfield(ParamHandle,ParamName,'Shape')='') THEN
+	BEGIN
+		PopulateList;
+	END;
+```
+```python
+import vs
+
+# ?.
+widgetID = 1
+
+resultN = vs.vsoWidgetPopupGetCnt(widgetID)
+vs.Message('vsoWidgetPopupGetCnt returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

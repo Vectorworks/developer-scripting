@@ -25,6 +25,18 @@ def vs.SetOpenGLPrefs():
 ## Remarks
 No longer a valid function, needs updating. (MF - Nov 11, 2015)
 
+## Examples
+```pascal
+SetOpenGLPrefs(TRUE, 1, FALSE);
+```
+```python
+import vs
+
+# Sets the current OpenGL rendering preferences from data passed in.
+useTextures, tessellationDetail, useNURBS = vs.SetOpenGLPrefs()
+vs.Message('SetOpenGLPrefs returned: ' + str((useTextures, tessellationDetail, useNURBS)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

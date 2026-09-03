@@ -23,6 +23,20 @@ ZCenValue:=ZCenterN(N='Board');
 {returns the z-coord of the center of the bounding box of the named object 'Board'
 ```
 
+```pascal
+resultVal := ZCenterN(c);
+```
+```python
+import vs
+
+# Returns the z-coordinate value of the center of the bounding box of an
+# object matching the search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.ZCenterN(c)
+vs.Message('ZCenterN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

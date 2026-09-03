@@ -15,6 +15,16 @@ def vs.DeleteObjs():
 ## Examples
 [SelectandDelObjects](examples/SelectandDelObjects.md)
 
+```pascal
+DeleteObjs;
+```
+```python
+import vs
+
+# Procedure DeleteObjs deletes all selected objects on the active layer.
+vs.DeleteObjs()
+```
+
 ## Version
 Availability: from All Versions
 

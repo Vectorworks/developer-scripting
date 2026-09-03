@@ -28,6 +28,28 @@ def vs.SetLBItemLineType(dialogID, componentID, itemIndex, subItemIndex, lineTyp
 |lineType|LONGINT|the line type internal index (reference number)|
 |lineWeight|INTEGER|the line weight|
 
+## Examples
+```pascal
+resultOK := SetLBItemLineType(1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Sets the specified list browser item's line type.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+lineType = 0
+lineWeight = 3
+
+ok = vs.SetLBItemLineType(dialogID, componentID, itemIndex, subItemIndex, lineType, lineWeight)
+if ok:
+    vs.Message('SetLBItemLineType succeeded')
+else:
+    vs.Message('SetLBItemLineType failed')
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

@@ -17,6 +17,20 @@ def vs.ws2GetToolsCnt(toolPath):
 |---|---|---|
 |toolPath|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultN := ws2GetToolsCnt(toolPath);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+
+resultN = vs.ws2GetToolsCnt(toolPath)
+vs.Message('ws2GetToolsCnt returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

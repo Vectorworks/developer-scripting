@@ -20,6 +20,36 @@ def vs.Rpstr_SetValueBool(name, value):
 |name|STRING|The name of the value.|
 |value|BOOLEAN|Set a value associated with the name in the VectorScript value repository.|
 
+## Examples
+```pascal
+BEGIN
+	Rpstr_SetValueBool('IsRegistered',TRUE);
+	{This tells VW to let the object decide what goes onto the Object Info palette.}
+	result:= SetObjPropVS(kObjXPropHasUIOverride, TRUE);
+	result := SetObjPropVS(12, TRUE); {kObjXHasCustomWidgetVisibilities}
+	result := SetObjPropVS (kObjXHasCustomWidgetVisibilities,TRUE);	{Is this needed to use "SetParameterVisibility()" }
+
+BEGIN
+	Rpstr_SetValueBool('IsRegistered',TRUE);
+	{This tells VW to let the object decide what goes onto the Object Info palette.}
+	result:= SetObjPropVS(kObjXPropHasUIOverride, TRUE);
+	result := SetObjPropVS(12, TRUE); {kObjXHasCustomWidgetVisibilities}
+
+BEGIN
+	AlrtDialog('#1 You have been using AutpPlot Tools for longer than 3 months.  Please register.  See the first AutoPlot menu item');
+	Rpstr_SetValueBool('IsRegistered',FALSE);
+END
+```
+```python
+import vs
+
+# Set a boolean value from the VectorScript value repository.
+name = 'Example'
+value = True
+
+vs.Rpstr_SetValueBool(name, value)
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

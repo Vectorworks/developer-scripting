@@ -20,6 +20,24 @@ def vs.IFC_CreateDS(objectName, dataSheetName):
 |objectName|STRING|   |
 |dataSheetName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_CreateDS('Example', 'Example');
+```
+```python
+import vs
+
+# Creates Data Sheet for object.
+objectName = 'Example'
+dataSheetName = 'Example'
+
+ok = vs.IFC_CreateDS(objectName, dataSheetName)
+if ok:
+    vs.Message('IFC_CreateDS succeeded')
+else:
+    vs.Message('IFC_CreateDS failed')
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

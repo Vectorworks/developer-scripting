@@ -32,6 +32,23 @@ def vs.GetLBColumnDataItemInfo(dialogID, componentID, columnIndex, columnDataIte
 |imageOff|INTEGER|the 'off' image list index|
 |itemData|LONGINT|the item user data|
 
+## Examples
+```pascal
+resultOK := GetLBColumnDataItemInfo(1, 2, 3, 10, 'Example', 5, 1, 2);
+```
+```python
+import vs
+
+# Gets the specified column data item's text, image and user data.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+columnDataItemIndex = 1
+
+ok, itemString, imageOn, imageOff, itemData = vs.GetLBColumnDataItemInfo(dialogID, componentID, columnIndex, columnDataItemIndex)
+vs.Message('GetLBColumnDataItemInfo returned: ' + str((ok, itemString, imageOn, imageOff, itemData)))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

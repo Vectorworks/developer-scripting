@@ -27,6 +27,31 @@ def vs.NurbsGetNumPts(objectHd, index):
 ## Remarks
 this function will work for both nurbs curves and nurbs surfaces.
 
+## Examples
+```pascal
+			nurbs[cnt].y := pY;
+			nurbs[cnt].z := pZ;
+		END ELSE nurbsPtCnt := nurbsPtCnt - 1;
+	END;
+	NurbsGetPt3D(nurbsHandle, 0, NurbsGetNumPts(nurbsHandle, 0) - 1, pX, pY, pZ);
+	nurbs[nurbsPtCnt].x := pX;
+	nurbs[nurbsPtCnt].y := pY;
+	nurbs[nurbsPtCnt].z := pZ;
+END;
+```
+```python
+import vs
+
+# Returns the number of points for segment of the referenced NURBS curve, or
+# the number of points of the referenced NURBS surface in the u- or
+# v-direction.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+count = vs.NurbsGetNumPts(objectHd, index)
+vs.Message('NurbsGetNumPts returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

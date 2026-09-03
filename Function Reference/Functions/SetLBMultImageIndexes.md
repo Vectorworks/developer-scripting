@@ -32,6 +32,29 @@ def vs.SetLBMultImageIndexes(dialogID, componentID, itemIndex, subItemIndex, ima
 |imageIndex1|INTEGER|the 'ics8' resource index of the second image|
 |imageIndex2|INTEGER|the 'ics8' resource index of the third image|
 
+## Examples
+```pascal
+resultOK := SetLBMultImageIndexes(1, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+imageIndex0 = 1
+imageIndex1 = 1
+imageIndex2 = 1
+
+ok = vs.SetLBMultImageIndexes(dialogID, componentID, itemIndex, subItemIndex, imageIndex0, imageIndex1, imageIndex2)
+if ok:
+    vs.Message('SetLBMultImageIndexes succeeded')
+else:
+    vs.Message('SetLBMultImageIndexes failed')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

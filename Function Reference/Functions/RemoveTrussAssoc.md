@@ -17,9 +17,23 @@ def vs.RemoveTrussAssoc(handle):
 |---|---|---|
 |handle|HANDLE||
 
+## Examples
+```pascal
+BEGIN
+	RemoveTrussAssoc( SelObjHandles[gNumConverted] );
+END
+```
+```python
+import vs
+
+# Removes the association between the side arm and it's rigging.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.RemoveTrussAssoc(handle)
+```
+
 ## Version
 Availability: from Vectorworks 2026
 
 ## Category
-* [Spotlight](Categories/Spotlight.md)
-
+* [Spotlight](../Categories/Spotlight.md)

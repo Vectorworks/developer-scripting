@@ -24,6 +24,27 @@ def vs.RunNamedDialogN(dialogID, callback, univName, enableContextualHelp):
 |univName|STRING|The universal name of the dialog|
 |enableContextualHelp|BOOLEAN|Determines whether or not contextual help is accessible|
 
+## Examples
+```pascal
+resultN := RunNamedDialogN(1, callback, 'Example', TRUE);
+```
+```python
+import vs
+
+# Displays the specified dialog with universal name and initiates the dialog
+# event loop.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+dialogID = 1
+callback = handle_object
+univName = 'Example'
+enableContextualHelp = True
+
+resultN = vs.RunNamedDialogN(dialogID, callback, univName, enableContextualHelp)
+vs.Message('RunNamedDialogN returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [RunLayoutDialogN](RunLayoutDialogN.md)

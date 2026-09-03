@@ -22,6 +22,22 @@ def vs.GetLBItemDisplayType(dialogID, componentID, columnIndex):
 |componentID|LONGINT|id of the list browser control|
 |columnIndex|INTEGER|the index of the column|
 
+## Examples
+```pascal
+resultN := GetLBItemDisplayType(1, 2, 3);
+```
+```python
+import vs
+
+# Gets item display type for list items in specified column.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+
+resultN = vs.GetLBItemDisplayType(dialogID, componentID, columnIndex)
+vs.Message('GetLBItemDisplayType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

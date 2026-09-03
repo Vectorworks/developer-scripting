@@ -38,6 +38,24 @@ SetCursor(LgCrossC);
 
 ```
 
+```pascal
+BEGIN
+	SetCursor (WatchC);
+
+MoveTo (originX, originY);
+Relative;
+AddVertex ((unitLen/2), 0, kSmooth, 0);
+AddVertex (-(unitLen/2), thickness, kSmooth, 0);
+SetCursor (WatchC);
+
+SetCursor (WatchC);
+{*/// None ///*}
+IF folderName = GetPlugInString (3033) THEN traverseSymbolRoot
+```
+```python
+vs.SetCursor(cursor)
+```
+
 ## Version
 Availability: from All Versions
 

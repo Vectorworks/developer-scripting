@@ -63,6 +63,13 @@ vs.message(vs.Date(2,2), ' ', t[0], ' ', t[1])
 
 sample code by Pat Stanford
 
+```pascal
+resultOK := GetObjectTags(objHandle, outArrTags);
+```
+```python
+result = vs.GetObjectTags(h)
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

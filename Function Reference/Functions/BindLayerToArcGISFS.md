@@ -22,6 +22,22 @@ def vs.BindLayerToArcGISFS(inURL, inFeatureId, inRequestAll):
 |inFeatureId|STRING|   |
 |inRequestAll|BOOLEAN|   |
 
+## Examples
+```pascal
+BindLayerToArcGISFS('Example', 'Example', TRUE);
+```
+```python
+import vs
+
+# Associate the active design layer with the ArcGIS feature service and bring
+# in georeferenced shapes and data.
+inURL = 'C:/Temp/example.txt'
+inFeatureId = 'Example'
+inRequestAll = True
+
+vs.BindLayerToArcGISFS(inURL, inFeatureId, inRequestAll)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

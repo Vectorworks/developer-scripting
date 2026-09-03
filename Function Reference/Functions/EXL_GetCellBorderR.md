@@ -30,6 +30,22 @@ def vs.EXL_GetCellBorderR(sheetIndex, cellRow, cellColumn):
 |outEnabled|BOOLEAN|   |
 |outStyle|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := EXL_GetCellBorderR(1, 2, 3, 10, 5, TRUE, 1);
+```
+```python
+import vs
+
+# Get cell right border - weight, color, is enable and style.
+sheetIndex = 1
+cellRow = 10
+cellColumn = 5
+
+ok, outWeight, outColor, outEnabled, outStyle = vs.EXL_GetCellBorderR(sheetIndex, cellRow, cellColumn)
+vs.Message('EXL_GetCellBorderR returned: ' + str((ok, outWeight, outColor, outEnabled, outStyle)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

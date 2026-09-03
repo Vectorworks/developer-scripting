@@ -45,9 +45,29 @@ def Example():
 Example()
 ```
 
+```pascal
+	ELSE BEGIN
+		{* Get the volume and surface area *}
+		gVolume := CalcVolume (gObjH);
+		gSurfArea := CalcSurfaceArea (gObjH);
+{
+message (' gVolume = ',gVolume ,'    gSurfArea = ',gSurfArea ,'    ObjVolume = ', ObjVolume (gObjH),'    ObjSurfaceArea = ',ObjSurfaceArea (gObjH));
+}
+		{* If the surface area is non-zero, get the remaining properties and display the dialog *}
+```
+```python
+import vs
+
+# Function CalcSurfaceArea calculates the surface area of the referenced
+# solid object.
+solidObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+area = vs.CalcSurfaceArea(solidObject)
+vs.Message('CalcSurfaceArea returned: ' + str(area))
+```
+
 ## Version
 CalcSurfaceArea is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from VectorWorks8.0
 

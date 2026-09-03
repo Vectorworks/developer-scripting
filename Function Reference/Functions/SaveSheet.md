@@ -61,6 +61,32 @@ RUN(Example);
 
 ```
 
+```pascal
+	SaveSheet (TmpSheetName, FALSE, TRUE, TRUE);
+	IF TmpDebug THEN WriteLn('	--End of Instance ', CurInstance, '--');
+END;
+
+				layerH := NextLayer(layerH);
+				END;
+			END;
+		END;
+	SaveSheet (tmpSheetName, FALSE, TRUE, TRUE);
+END;	{of (gCreateViews) & (GetObject (tmpSheetName) = NIL)}
+
+BEGIN
+	IF GetObject (newSheetName) = NIL THEN
+		SaveSheet (newSheetName, TRUE, TRUE, TRUE)
+
+	ELSE IF GetType (GetObject (newSheetName)) <> 49 THEN
+	BEGIN
+		errorMsg := Concat (GetPluginString (5027), '"', newSheetName, '"', GetPluginString (5028));
+		AlertInform (errorMsg, '', FALSE);
+	END;
+```
+```python
+vs.SaveSheet('Example', saveView, 'Wall', 'Design Layer-1')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

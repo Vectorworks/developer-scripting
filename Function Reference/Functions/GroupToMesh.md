@@ -17,6 +17,25 @@ def vs.GroupToMesh(groupObj):
 |---|---|---|
 |groupObj|HANDLE|Handle to a group containing 3D polygons|
 
+## Examples
+```pascal
+	PixZ := PixZ+gvpitch;
+END;
+EndGroup;
+DomeGroup := ConvertTo3DPolys (LNewObj);
+LEDMesh := GroupToMesh (DomeGroup);
+```
+```python
+import vs
+
+# Converts a group of 3D polygons into a mesh network.
+groupObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GroupToMesh(groupObj)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [MeshToGroup](MeshToGroup.md)

@@ -35,6 +35,13 @@ END;
 
 ```
 
+```pascal
+StdRead(z);
+```
+```python
+result = vs.StdRead()
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

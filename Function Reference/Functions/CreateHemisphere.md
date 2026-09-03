@@ -23,6 +23,23 @@ def vs.CreateHemisphere(center, top):
 ## Remarks
 [sd 8/18/98]
 
+## Examples
+```pascal
+resultH := CreateHemisphere(1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Function CreateHemisphere creates a new hemisphere object in a VectorWorks
+# document.
+center = (0, 0)
+top = (2, 2)
+
+objHandle = vs.CreateHemisphere(center, top)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

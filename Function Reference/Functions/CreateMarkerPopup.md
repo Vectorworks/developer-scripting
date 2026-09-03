@@ -54,6 +54,45 @@ def Example():
 Example()
 ```
 
+```pascal
+	END
+ELSE
+CreateCheckBox			(IDLabelDialog, kIDAutoInc, GetPlugInString(6005));		{'Auto-Increment ID Label'}
+CreateCheckBox           (IDLabelDialog, kUseMarker,   GetStr(kUseMarkerTxt));
+CreateMarkerPopup        (IDLabelDialog, kLeaderStyle);
+CreateStaticText		(IDLabelDialog,kBubbleSizeTxt, GetStr(kBubbleSizeTxt),18);
+CreateEditReal			(IDLabelDialog,kBubbleSize, 3,0,16);
+CreateStaticText		(IDLabelDialog,kBubbleLSTxt, GetStr(kBubbleLSTxt),18);
+CreateLineAttributePopup (IDLabelDialog, kBubbleLS);
+
+CreateGroupBox            (dialog1, kPlanDetailGrp,         GetStr(kPlanDetailGrp), TRUE);
+CreateCheckBox            (dialog1, kDashedRiserLines,      GetStr(kDashedRiserLines));
+CreateCheckBox            (dialog1, kHideRiserLines,        GetStr(kHideRiserLines));
+CreateCheckBox            (dialog1, kEndMarkerCB,           GetStr(kEndMarkerCB));
+CreateMarkerPopup         (dialog1, kEndMarker);
+CreateCheckBox            (dialog1, kBegMarkerCB,           GetStr(kBegMarkerCB));
+CreateMarkerPopup         (dialog1, kBegMarker);
+CreateStaticText          (dialog1, kArrowClassLab,         GetStr(kArrowClassLab), -1);
+CreateClassPullDownMenu   (dialog1, kArrowClass,            generalPopUps);
+
+CreateCheckBox( dialog, kBubbleShadow, GetStr(kBubbleShadow) );
+CreateStaticText( dialog, kBubLeadTypePopUpLab, GetStr(kBubLeadTypePopUpLab), -1 );
+CreatePulldownMenu( dialog, kBubLeadTypePopUp, 17 );
+CreateStaticText( dialog, kBubLeadMarkerLab, GetStr(kBubLeadMarkerLab), -1 );
+CreateMarkerPopup( dialog, kBubLeadMarkerPopUp);
+```
+```python
+import vs
+
+# Creates a popup control that displays the various marker styles available
+# in VectorWorks and allows the user to choose one.
+dialogID = 1
+componentID = 2
+
+vs.CreateMarkerPopup(dialogID, componentID)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks10.5
 

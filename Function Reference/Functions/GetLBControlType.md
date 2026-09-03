@@ -22,6 +22,22 @@ def vs.GetLBControlType(dialogID, componentID, columnIndex):
 |componentID|LONGINT|id of the list browser control|
 |columnIndex|INTEGER|the index of the column|
 
+## Examples
+```pascal
+resultN := GetLBControlType(1, 2, 3);
+```
+```python
+import vs
+
+# Gets control type for column.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+
+resultN = vs.GetLBControlType(dialogID, componentID, columnIndex)
+vs.Message('GetLBControlType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks11.0
 
