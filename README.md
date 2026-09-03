@@ -24,6 +24,7 @@ You can go to the [Python page](Python/README.md) for more information.
 ## Function Reference:
 * [Functions](Function%20Reference/README.md)
 * [Appendix](Function%20Reference/Appendix/README.md)
+* [AI Generated Examples](Function%20Reference/Functions%20AI%20Examples.md)
 
 ## Tasks
 
