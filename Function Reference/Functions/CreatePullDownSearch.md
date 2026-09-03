@@ -25,6 +25,9 @@ def vs.CreatePullDownSearch(nDialogID, nComponentID, nWidthInChars):
 |nComponentID|LONGINT|   |
 |nWidthInChars|INTEGER|   |
 
+## Examples
+[CreateAndInsertPulldownSearch](examples/CreateAndInsertPulldownSearch.md)
+
 ## Version
 Availability: from Vectorworks 2020
 
