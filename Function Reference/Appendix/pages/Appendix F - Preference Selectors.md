@@ -180,8 +180,13 @@
 | Snap To Tool Snap Geometry Only | 460 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | whether to coordinate sheet and drawing numbers for various items | 544 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Auto Save To Custom Location | 552 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Keep Backups By Time | 553 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Autosave Custom Location | 554 | STRING value | [GetPrefString](../../Functions/GetPrefString.md) |
 | Keep Backups By Number Value | 555 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
+| Keep Backup By Time Value | 556 | Real | [GetPref](../../Functions/GetPref.md)  |
+| Keep Backup By Time Units | 557 | Integer | [GetPrefInt](../../Functions/GetPrefInt.md) |
+| Backup Interval | 122 | LONGINT  | [GetPrefLongInt](../../Functions/GetPrefLongInt.md) |
+| Backup By Time | 126 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Center View | 558 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Allow Copy on Option Click | 559 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | AutoUpdate Frequency | 1054 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
@@ -468,6 +473,7 @@
 | Onscreen View Control Cube | + 1680 | |
 | Onscreen View Control Working Plane Cube Face | + 1710 | |
 | General Active View Pane Label | + 1740 | |
+| General Reshape Handles Midpoint | + 1770 |
 | Property Available | + 0 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Different Background Color | + 1 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)  |
 | Pattern | + 2 | INTEGER | [GetPrefInt](../../Functions/GetPrefInt.md) |
@@ -692,6 +698,11 @@
 |  |  | 2 (User) |  |
 |  |  | 3 (UserAndAplly) |  |
 | GeoRef Import Type | 351 | STRING value | [GetPrefString](../../Functions/GetPrefString.md) |
+| Create Dynamic Objects | 362 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Move Origin On Center | 363 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Ignore Georefrencing | 364 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Transform Objects as Group | 364 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Transform Images | 366 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 
 ## Structural Units
 
@@ -837,7 +848,9 @@
 ||| -1 invisibl||
 |||0 visible||
 ||| 2 gray||
-| Use VGM Legacy | 10100 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md)
+| Cloud Job Uses Flat Scene | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Use VGM Legacy | 10100 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
+| Show Map Background | 6844 | TRUE or FALSE | [GetPref](../../Functions/GetPref.md) |
 
 ### Notes:
 #### Symbol Tool Insert Mode:
