@@ -22,6 +22,29 @@ def vs.vsoWidgetSetEnable(widgetID, enabled):
 |widgetID|LONGINT|   |
 |enabled|BOOLEAN|   |
 
+## Examples
+```pascal
+BEGIN
+	vsoWidgetSetEnable( kDoorHandlesBtn, FALSE );
+END;
+
+BEGIN
+	vsoWidgetSetVisible(8, FALSE);
+	vsoWidgetSetVisible(9, FALSE);
+	vsoWidgetSetEnable(5, (wallH <> NIL));
+	vsoWidgetSetEnable(6, ((wallH <> NIL) & pSize_TO_Wall_Length));
+	vsoWidgetSetEnable(7, ((wallH <> NIL) & pSize_to_Wall_Length));
+	vsoSetEventResult( -8 {kObjectEventHandled} );
+END;
+
+BEGIN
+	vsoWidgetSetEnable(DisplayIDWidgetID, TRUE);
+END
+```
+```python
+vs.vsoWidgetSetEnable( kWidgetID_NorthNo, 		vs.PNorth_Arrow )
+```
+
 ## Version
 Availability: from All Versions
 

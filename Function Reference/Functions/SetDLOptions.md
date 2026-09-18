@@ -20,6 +20,19 @@ def vs.SetDLOptions(options):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+SetDLOptions(1);
+```
+```python
+import vs
+
+# Gets the Double Line Preferences options.
+options = 1
+
+vs.SetDLOptions(options)
+```
+
 ## See Also
 VS Functions:
 [GetDLOptions](GetDLOptions.md)

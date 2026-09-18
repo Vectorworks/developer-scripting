@@ -28,6 +28,24 @@ def vs.SetWSImgRenderMode(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 |rightColumn|INTEGER|Right column of cell range.|
 |renderMode|INTEGER|The image render mode.|
 
+## Examples
+```pascal
+SetWSImgRenderMode(worksheet, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets specified image render mode in specified worksheet cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+renderMode = 0
+
+vs.SetWSImgRenderMode(worksheet, topRow, leftColumn, bottomRow, rightColumn, renderMode)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

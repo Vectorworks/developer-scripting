@@ -14,6 +14,22 @@ def vs.IsMaterialSimple(materialHandle):
 |---|---|---|
 |materialHandle|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := IsMaterialSimple(materialHandle);
+```
+```python
+import vs
+
+materialHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IsMaterialSimple(materialHandle)
+if ok:
+    vs.Message('IsMaterialSimple succeeded')
+else:
+    vs.Message('IsMaterialSimple failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

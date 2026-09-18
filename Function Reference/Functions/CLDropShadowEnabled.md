@@ -14,6 +14,22 @@ def vs.CLDropShadowEnabled(className):
 |---|---|---|
 |className|STRING|   |
 
+## Examples
+```pascal
+resultOK := CLDropShadowEnabled('Wall');
+```
+```python
+import vs
+
+className = 'None'
+
+ok = vs.CLDropShadowEnabled(className)
+if ok:
+    vs.Message('CLDropShadowEnabled succeeded')
+else:
+    vs.Message('CLDropShadowEnabled failed')
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

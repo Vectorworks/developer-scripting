@@ -17,6 +17,21 @@ def vs.CC_GetEquipmentItem(hDevice):
 |---|---|---|
 |hDevice|HANDLE|   |
 
+## Examples
+```pascal
+resultH := CC_GetEquipmentItem(hDevice);
+```
+```python
+import vs
+
+# Gets the associated equipment item from the given device handle.
+hDevice = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.CC_GetEquipmentItem(hDevice)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

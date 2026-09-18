@@ -30,6 +30,13 @@ PerimValue := Perim(C='Fence');
 
 ```
 
+```pascal
+resultVal := Perim(c);
+```
+```python
+result = vs.Perim(c)
+```
+
 ## Version
 Availability: from All Versions
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

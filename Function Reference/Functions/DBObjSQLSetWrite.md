@@ -24,6 +24,24 @@ def vs.DBObjSQLSetWrite(hRecord, SQLSentence):
 |hRecord|HANDLE|The handle to linked record.|
 |SQLSentence|DYNARRAY[] of CHAR|The UPDATE query.|
 
+## Examples
+```pascal
+resultOK := DBObjSQLSetWrite(hRecord, SQLSentence);
+```
+```python
+import vs
+
+# Set an object's SQL query for ODBC write.
+hRecord = vs.GetObject('MyRecord')  # handle to a record format
+SQLSentence = 'Example'
+
+ok = vs.DBObjSQLSetWrite(hRecord, SQLSentence)
+if ok:
+    vs.Message('DBObjSQLSetWrite succeeded')
+else:
+    vs.Message('DBObjSQLSetWrite failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

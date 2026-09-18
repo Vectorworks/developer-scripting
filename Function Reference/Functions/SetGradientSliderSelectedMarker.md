@@ -37,6 +37,13 @@ SetGradientSliderSelectedMarker(dialogID, componentID, 4, 2);
 
 ```
 
+```pascal
+SetGradientSliderSelectedMarker(1, 2, 3, 10);
+```
+```python
+vs.SetGradientSliderSelectedMarker(dialogID, componentID, 1, markerType)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

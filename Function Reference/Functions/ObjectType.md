@@ -29,6 +29,19 @@ TypeValue = vs.ObjectType( "N='Mystery Object'" );
 # returns the type of the object named 'Mystery Object'
 ```
 
+```pascal
+resultN := ObjectType(c);
+```
+```python
+import vs
+
+# Returns the type identifier an object.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+resultN = vs.ObjectType(c)
+vs.Message('ObjectType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

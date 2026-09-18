@@ -17,6 +17,23 @@ def vs.EXL_AddSheet(sheetName):
 |---|---|---|
 |sheetName|STRING|   |
 
+## Examples
+```pascal
+resultOK := EXL_AddSheet('Example');
+```
+```python
+import vs
+
+# Add a sheet.
+sheetName = 'Example'
+
+ok = vs.EXL_AddSheet(sheetName)
+if ok:
+    vs.Message('EXL_AddSheet succeeded')
+else:
+    vs.Message('EXL_AddSheet failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

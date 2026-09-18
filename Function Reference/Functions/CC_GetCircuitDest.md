@@ -26,6 +26,20 @@ def vs.CC_GetCircuitDest(hCircuit):
 |hAdapter|HANDLE|   |
 |hSocket|HANDLE|   |
 
+## Examples
+```pascal
+CC_GetCircuitDest(hCircuit, hDevice, hDevSkt, hAdapter, hSocket);
+```
+```python
+import vs
+
+# Gets handles for the destination device and socket of a circuit.
+hCircuit = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+hDevice, hDevSkt, hAdapter, hSocket = vs.CC_GetCircuitDest(hCircuit)
+vs.Message('CC_GetCircuitDest returned: ' + str((hDevice, hDevSkt, hAdapter, hSocket)))
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

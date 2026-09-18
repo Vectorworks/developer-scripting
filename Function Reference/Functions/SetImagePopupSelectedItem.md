@@ -32,6 +32,26 @@ SetImagePopupSelectedItem(dialogID, componentID, 4);
 
 ```
 
+```pascal
+					int := InsertImagePopupResource(selectSymbol, kSyms, defaultListID, symDefs[cnt].resourceIndex);
+				END;
+		END;
+	END;
+	SetImagePopupSelectedItem(selectSymbol, kSyms, 1);
+END;
+
+END;	{of gNumShapes > 0}
+SetImagePopupSelectedItem( dialog1, kImagePopup5, gImagePopup5Int );
+
+	SetImagePopupSelectedItem(SelectMarker, kImagePopup4, Marker1idx);
+	SetImagePopupSelectedItem(SelectMarker, kImagePopup5, Marker2idx);
+	EnableItem(SelectMarker, kImagePopup5,NOT(Matching));
+END;
+```
+```python
+vs.SetImagePopupSelectedItem(dialogID, componentID, 1)
+```
+
 ## See Also
 VS Functions:
 [InsertImagePopupObjectItem](InsertImagePopupObjectItem.md) 

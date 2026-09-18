@@ -36,6 +36,20 @@ GetGradientSpotColor(gradientHandle, 4, red, green, blue);
 red, green, blue = vs.GetGradientSpotColor(gradientHandle, 4)
 ```
 
+```pascal
+GetGradientSpotColor(gradient, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Gets the spot color of the specified gradient segment.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+segmentIndex = 1
+
+red, green, blue = vs.GetGradientSpotColor(gradient, segmentIndex)
+vs.Message('GetGradientSpotColor returned: ' + str((red, green, blue)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

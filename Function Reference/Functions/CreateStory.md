@@ -31,6 +31,23 @@ BEGIN
 success := CreateStory('4th Floor', '4');
 ```
 
+```pascal
+resultOK := CreateStory('Example', 'Example');
+```
+```python
+import vs
+
+# Creates a Story.
+name = 'Example'
+suffix = 'Example'
+
+ok = vs.CreateStory(name, suffix)
+if ok:
+    vs.Message('CreateStory succeeded')
+else:
+    vs.Message('CreateStory failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumStories](GetNumStories.md) 

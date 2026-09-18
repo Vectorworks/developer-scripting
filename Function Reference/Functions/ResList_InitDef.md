@@ -20,6 +20,21 @@ def vs.ResList_InitDef(uniqueID, univName):
 |uniqueID|STRING|   |
 |univName|STRING|   |
 
+## Examples
+```pascal
+ResList_InitDef('Example', 'Example');
+```
+```python
+import vs
+
+# Initialize a categories resource with red symbol resources of the specified
+# universal name.
+uniqueID = 'Example'
+univName = 'Example'
+
+vs.ResList_InitDef(uniqueID, univName)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

@@ -17,6 +17,23 @@ def vs.ResList_IsSelValid(uniqueID):
 |---|---|---|
 |uniqueID|STRING|   |
 
+## Examples
+```pascal
+resultOK := ResList_IsSelValid('Example');
+```
+```python
+import vs
+
+# Determine if the selection in the popup is valid.
+uniqueID = 'Example'
+
+ok = vs.ResList_IsSelValid(uniqueID)
+if ok:
+    vs.Message('ResList_IsSelValid succeeded')
+else:
+    vs.Message('ResList_IsSelValid failed')
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

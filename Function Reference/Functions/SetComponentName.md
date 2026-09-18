@@ -22,6 +22,25 @@ def vs.SetComponentName(obj, componentIndex, componentName):
 |componentIndex|INTEGER|The index of the component.|
 |componentName|STRING|The name of the component.|
 
+## Examples
+```pascal
+resultOK := SetComponentName(obj, 1, 'Example');
+```
+```python
+import vs
+
+# Sets the name of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+componentName = 'Example'
+
+ok = vs.SetComponentName(obj, componentIndex, componentName)
+if ok:
+    vs.Message('SetComponentName succeeded')
+else:
+    vs.Message('SetComponentName failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentName](GetComponentName.md)

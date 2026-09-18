@@ -17,6 +17,28 @@ def vs.LDevice_Reset(h):
 |---|---|---|
 |h|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+	LDevice_Reset(h);
+END;
+
+	END
+ELSE
+SetRField(InstHandle,kInstObjName,kNoExport,'True'); {Don't export to LW just becaus the user ran refresh instruments}
+ResetObject(InstHandle);
+LDevice_Reset(InstHandle);
+  END;
+```
+```python
+import vs
+
+# Reset the specified lighting device object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.LDevice_Reset(h)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

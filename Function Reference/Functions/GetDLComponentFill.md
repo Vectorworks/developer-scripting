@@ -23,6 +23,20 @@ def vs.GetDLComponentFill(index):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := GetDLComponentFill(1, 2);
+```
+```python
+import vs
+
+# Gets the fill of the component at index in the Double Line Preferences.
+index = 1
+
+ok, fill = vs.GetDLComponentFill(index)
+vs.Message('GetDLComponentFill returned: ' + str((ok, fill)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentFill](SetDLComponentFill.md)

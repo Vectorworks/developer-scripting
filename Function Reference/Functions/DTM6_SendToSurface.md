@@ -48,6 +48,31 @@ _hPoly3D = vs.PrevObj(_h)
 vs.DelObject(_h)  # Delete the dummy object
 ```
 
+```pascal
+IF DTM6_SendToSurface( hSelectedDTM, PolyHand, SectionType ) THEN
+	BEGIN
+
+	OpenPoly;
+	VertexCount := GetVertNum(PolyHand);
+	BeginPoly;
+	For i := 0 to VertexCount - 1 DO
+		BEGIN
+```
+```python
+import vs
+
+# Send the specified object to the surface of the SiteModel specified.
+hDTMObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+hObject = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+TINType = 0
+
+ok = vs.DTM6_SendToSurface(hDTMObject, hObject, TINType)
+if ok:
+    vs.Message('DTM6_SendToSurface succeeded')
+else:
+    vs.Message('DTM6_SendToSurface failed')
+```
+
 ## See Also
 [DTM6_GetDTMObject](DTM6_GetDTMObject.md) | [DTM6_IsDTM6Object](DTM6_IsDTM6Object.md) | [DTM6_IsObjectReady](DTM6_IsObjectReady.md) | [DTM6_IsTypeVisible](DTM6_IsTypeVisible.md)
 

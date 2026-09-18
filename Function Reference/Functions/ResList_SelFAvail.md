@@ -26,6 +26,34 @@ def vs.ResList_SelFAvail(uniqueID, onlyCurrentDocument, searchOnline, skipCurren
 |searchOnline|BOOLEAN|   |
 |skipCurrentDocument|BOOLEAN|   |
 
+## Examples
+```pascal
+{ResList_SetSel( kMaterialsContent1, localName );}
+IF (archCompMaterialNameID = '') THEN
+	ResList_SetSelCtrl(kMaterialsContent1, 0)
+ELSE BEGIN
+	ResList_SelFAvail( kMaterialsContent1, archCompMaterialNameID, FALSE, FALSE, FALSE)
+END;
+
+	ResList_SelFAvail( LocID, SelectedSymbol, FALSE, TRUE, FALSE);
+END;
+
+	ResList_SelFAvail( kTextureContent, SelectedTexture, FALSE, TRUE, FALSE);
+	ResList_DlgInit( kTextureContent, dialog, kImagePickPU );
+END;
+```
+```python
+import vs
+
+# Set the first available item in the resource popup.
+uniqueID = 'Example'
+onlyCurrentDocument = True
+searchOnline = True
+skipCurrentDocument = True
+
+result = vs.ResList_SelFAvail(uniqueID, onlyCurrentDocument, searchOnline, skipCurrentDocument)
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

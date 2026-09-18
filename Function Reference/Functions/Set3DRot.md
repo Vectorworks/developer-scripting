@@ -79,6 +79,46 @@ RUN(test);
 ```python
 ```
 
+```pascal
+BEGIN
+DrawDoor(bOpenDoor, 'Base Cabinet', gDoorStyle,gPanelStyle,-LongDoor-SideReveal,-gBottomReveal-gDepth-gKickHeight,ShortDoor,lDoorHeight ,gRailWidth,gRailWidth,gMulWidth,gDoorThick,gThinPanel,gInsideTap,gOutsideTap,gDoorsClass,gGlassClass,DoorHandSymName,gSwingI,gKnobHeight-gReveal);
+SET3DRot(LNewObj, 180, 0, 0, 0, -gDepth, 0);
+IF bOpenDoor THEN
+BEGIN
+    IF gDoorConfig = kDoorConfigRight  THEN
+	   SET3DRot(LNewObj,0, -90, 0, -LongDoor-SideReveal, -gBottomReveal-gDepth-gKickHeight, 0) ;
+
+AddPoint(X,Y-CabDepth+KickInset+CabThick);
+EndPoly;
+SetPolyClosed(lNewObj,TRUE);
+EndXtrd;
+SET3DRot(LNewObj, 0, -90, 0, X, Y, 0);
+
+		MoveTo (0, 0);
+		Relative;
+		Rect (0, 0 , width, -thk);
+	EndSweep;
+	SET3DRot(LNewObj, 90, 0, 180, 0, 0, 0);
+	Move3DObj(LNewObj, radius, 0, 0);
+	Absolute;
+END; { of spiral3d }
+{-------------------------------------------------------------------}
+```
+```python
+import vs
+
+# Procedure Set3DRot rotates the referenced 3D object about a specified 3D point.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+xAngle = 45.0
+yAngle = 90.0
+zAngle = 30.0
+xDistance = 1.0
+yDistance = 1.0
+zDistance = 1.0
+
+vs.Set3DRot(h, xAngle, yAngle, zAngle, xDistance, yDistance, zDistance)
+```
+
 ## See Also
 VS Functions:
 [SetRot3D](SetRot3D.md)

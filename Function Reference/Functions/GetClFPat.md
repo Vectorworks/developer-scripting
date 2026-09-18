@@ -40,6 +40,29 @@ def Example():
 Example();
 ```
 
+```pascal
+IF GetClFPat (UserClassName) <> TmpClassInfo.FillPat THEN SetClFPat (UserClassName, TmpClassInfo.FillPat);
+
+IF GetClFPat (UserClassName) <> TmpClassInfo.FillPat THEN
+BEGIN
+	gClassList [classIndex].FillPat := GetClFPat (UserClassName);
+	WriteToClassWS (classIndex, 4, GetClFPat (UserClassName), '');
+END;
+
+IF GetClLSN (className) <> gClassList [i].LS THEN SetClLSN (className, gClassList [i].LS);
+IF GetClLW (className) <> gClassList [i].LW THEN SetClLW (className, gClassList [i].LW);
+IF GetClFPat (className) <> gClassList [i].FillPat THEN SetClFPat (className, gClassList [i].FillPat);
+```
+```python
+import vs
+
+# Returns the fill or hatch pattern of the specified class.
+className = 'None'
+
+resultN = vs.GetClFPat(className)
+vs.Message('GetClFPat returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

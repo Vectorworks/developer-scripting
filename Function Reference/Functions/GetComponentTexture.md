@@ -22,6 +22,21 @@ def vs.GetComponentTexture(obj, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |texture|LONGINT|Returns the ref number of the texture. 0 for no texture. -1 for class texture.|
 
+## Examples
+```pascal
+resultOK := GetComponentTexture(obj, 1, 2);
+```
+```python
+import vs
+
+# Gets the texture of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, texture = vs.GetComponentTexture(obj, componentIndex)
+vs.Message('GetComponentTexture returned: ' + str((ok, texture)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentTexture](SetComponentTexture.md)

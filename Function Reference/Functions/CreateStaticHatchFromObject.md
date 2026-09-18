@@ -46,6 +46,23 @@ def PickPointCallback(pt):
 vs.GetPt( PickPointCallback )
 ```
 
+```pascal
+resultH := CreateStaticHatchFromObject(inObj, 'Example', 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Creates a static hatch using inHatchName inside the bounds of the inObj.
+inObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+inHatchName = 'Example'
+p = (0, 0)
+rotationAngle = 45.0
+
+objHandle = vs.CreateStaticHatchFromObject(inObj, inHatchName, p, rotationAngle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.5
 

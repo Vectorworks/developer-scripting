@@ -40,6 +40,37 @@ objectName := GetImagePopupObject(dialogID, componentID, 4);
 objectName = vs.GetImagePopupObject(dialogID, componentID, 4)
 ```
 
+```pascal
+		IF symHandle <> NIL THEN
+			symName := GetName(symHandle);
+		END
+	ELSE
+		symName := GetImagePopupObject(selectSymbol, kSyms, GetImagePopupSelectedItem(selectSymbol, kSyms));
+END;
+
+BEGIN
+	str := GetImagePopupObject(dialogID, controlID, GetImagePopupSelectedItem(dialogID, controlID));
+END;
+
+			symHandle := ImportResourceToCurrentFile(defaultListID, choiceNum)
+		ELSE
+			symHandle := ImportResourceToCurrentFile(defaultListID2, choiceNum-defaultListCount);
+		IF symHandle <> NIL THEN tmpSymName := GetName(symHandle);
+	END ELSE tmpSymName := GetImagePopupObject(selectSymbol, kSyms, GetImagePopupSelectedItem(selectSymbol, kSyms));
+END;
+```
+```python
+import vs
+
+# Returns the object name for the specified image popup item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+
+text = vs.GetImagePopupObject(dialogID, componentID, itemIndex)
+vs.Message('GetImagePopupObject returned: ' + str(text))
+```
+
 ## See Also
 VS Functions:
 [InsertImagePopupObjectItem](InsertImagePopupObjectItem.md) 

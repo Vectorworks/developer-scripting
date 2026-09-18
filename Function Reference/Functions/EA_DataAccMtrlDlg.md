@@ -20,6 +20,21 @@ def vs.EA_DataAccMtrlDlg(acc):
 |acc|INTEGER|   |
 |outLambda|REAL|   |
 
+## Examples
+```pascal
+resultOK := EA_DataAccMtrlDlg(1, 1.0);
+```
+```python
+import vs
+
+# Shows the lambda material dialog and set the selected lambda value to
+# outLambda.
+acc = 1
+
+ok, outLambda = vs.EA_DataAccMtrlDlg(acc)
+vs.Message('EA_DataAccMtrlDlg returned: ' + str((ok, outLambda)))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

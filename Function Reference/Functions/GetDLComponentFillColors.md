@@ -25,6 +25,21 @@ def vs.GetDLComponentFillColors(index):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := GetDLComponentFillColors(1, 2, 3);
+```
+```python
+import vs
+
+# Gets the fore and back fill colors of the component at index in the Double
+# Line Preferences.
+index = 1
+
+ok, fillForeColor, fillBackColor = vs.GetDLComponentFillColors(index)
+vs.Message('GetDLComponentFillColors returned: ' + str((ok, fillForeColor, fillBackColor)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentFillColors](SetDLComponentFillColors.md)

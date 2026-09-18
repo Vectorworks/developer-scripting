@@ -44,6 +44,36 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	BSB := AnnotateThings(FInGroup(itemHandle));
+END;
+
+BEGIN
+CASE GetType(GetParent(parmHand)) OF
+	11: ForEachObjectInList(Reset_Selection, 2, 0, FInGroup(GetParent(parmHand)));
+	16: ForEachObjectInList(Reset_Selection, 2, 0, FInSymDef(GetParent(parmHand)));
+	END;
+
+BEGIN
+		slab_h := fingroup(slab_h);
+		WHILE (slab_h <> NIL) DO
+		BEGIN
+			IF gettype(slab_h) = 38 THEN
+			BEGIN
+```
+```python
+import vs
+
+# Function FInGroup returns a handle to the first component object of the
+# referenced group.
+ObjectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.FInGroup(ObjectHd)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from All Versions
 

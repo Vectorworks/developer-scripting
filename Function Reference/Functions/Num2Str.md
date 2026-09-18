@@ -47,6 +47,32 @@ newStrValue := Num2Str(3, oldnumValue);
 
 ```
 
+```pascal
+theLabel := Concat(GetPlugInString(3004), Chr(13), Chr(13),
+					GetPlugInString(3006), Num2Str(2, theta), Chr(13),
+					GetPlugInString(3007), Num2StrF(D), Chr(13),
+					GetPlugInString(3008), Num2StrF(T), Chr(13),
+					GetPlugInString(3009), Num2StrF(L), Chr(13),
+					GetPlugInString(3010), Num2StrF(theRadius));
+
+REPEAT
+	alpha := alpha + 1 / incr;
+	theta := Deg2Rad (alpha);
+	m := (Sin (theta / 2) / theta) - (c / (2 * s));
+	m := Str2Num (Num2Str (accuracy, m));
+	IF m = 0 THEN
+		a := alpha2
+
+BEGIN
+	IF numPlaces > 9 THEN numPlaces := 9;
+	rRound := Str2Num (Num2Str (numPlaces, a));
+END;
+```
+```python
+result = vs.Num2Str(decPlace, v)
+```
+See also in tutorials: [10. Iterate the Drawing and Report a Summary](ai%20examples/10_IterateAndReport.md), [11. 2D Vector Math Toolkit](ai%20examples/11_VectorMathToolkit.md), [12. Polygon Area and Centroid (Shoelace Formula)](ai%20examples/12_PolygonAreaCentroid.md), [15. Uniform Arc-Length Resampling of a Polyline](ai%20examples/15_PolylineResampleUniform.md)
+
 ## Version
 Availability: from All Versions
 

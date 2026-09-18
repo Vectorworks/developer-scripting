@@ -25,6 +25,31 @@ def vs.CreateTabControl(dialogID, itemID):
 ## Examples
 [ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
+```pascal
+BEGIN
+	dialog1 := CreateLayout(GetStr( 0), TRUE, GetStr( 1), GetStr( 2));
+	CreateTabControl         (dialog1,  4);
+
+{* Create the dialog items *}
+CreateTabControl (dialogID,  4);
+CreateGroupBox (dialogID, 105, GetPluginString (4005), TRUE);	{'Project'}
+CreateGroupBox (dialogID, 205, GetPluginString (4034), TRUE);	{'Sheet'}
+CreateGroupBox (dialogID, 61,  GetPluginString (4061), TRUE);	{'Issue Data'}
+
+dialog1 := CreateLayout(mainDialogTitle, TRUE, GetStr(kOK), GetStr(kCancel));
+CreateTabControl          (dialog1, kTabControl);
+```
+```python
+import vs
+
+# Creates a tab control within a dialog.
+dialogID = 1
+itemID = 2
+
+vs.CreateTabControl(dialogID, itemID)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [CreateTabPane](CreateTabPane.md) 

@@ -25,6 +25,21 @@ def vs.GetTexBFeatureStart(textureBitmap):
 ## Remarks
 X and y are in paint node pixels from top left
 
+## Examples
+```pascal
+GetTexBFeatureStart(textureBitmap, 1, 2);
+```
+```python
+import vs
+
+# Procedure GetTexBFeatureStart returns the &quot;feature startpoint&quot; of
+# the referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+featureStartX, featureStartY = vs.GetTexBFeatureStart(textureBitmap)
+vs.Message('GetTexBFeatureStart returned: ' + str((featureStartX, featureStartY)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

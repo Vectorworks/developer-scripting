@@ -22,6 +22,21 @@ def vs.GetCompWallAssBound(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |wallAssociatedBound|INTEGER|Returns the wall associated bound of the component.  0 - Inner face 1 - Outer face of inner component 2 - Inner face of core 3 - Center of core 4 - Outer face of core 5 - Inner face of outer component 6 - Roof edge 7 - Roof axis line|
 
+## Examples
+```pascal
+resultOK := GetCompWallAssBound(object, 1, 2);
+```
+```python
+import vs
+
+# Gets the wall associated bound of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, wallAssociatedBound = vs.GetCompWallAssBound(object, componentIndex)
+vs.Message('GetCompWallAssBound returned: ' + str((ok, wallAssociatedBound)))
+```
+
 ## See Also
 VS Functions:
 [SetCompWallAssBound](SetCompWallAssBound.md)

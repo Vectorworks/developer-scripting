@@ -20,6 +20,30 @@ def vs.SetSpreadAngle(h, spreadAngleR):
 |h|HANDLE|Handle to light.|
 |spreadAngleR|REAL|Beam spread angle of light.|
 
+## Examples
+```pascal
+					SetBeamAngle(CurLightHandle, CurLightBeamAngle);
+					SetSpreadAngle(CurLightHandle, CurLightSpreadAngle);
+IF kNoQTOut THEN Writeln('Light # ',LightNum,' Beam ',CurLightBeamAngle, ',',CurLightSpreadAngle);
+					SetLightColorRGB(CurLightHandle,CurLightRCol, CurLightGCol, CurLightBCol);
+IF kNoQTOut THEN Writeln('Light # ',LightNum,' Color ',CurLightRCol, ',',CurLightGCol, ',',CurLightBCol);
+					IF LightingDeviceHand = NIL THEN
+
+BEGIN
+SetBeamAngle(LightObjHandle, gBeamAngle[SceneNumber, LightNumber]);
+SetSpreadAngle(LightObjHandle, gSpreadAngle[SceneNumber, LightNumber]);
+END;
+```
+```python
+import vs
+
+# Procedure SetSpreadAngle sets the spread angle of the light object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+spreadAngleR = 45.0
+
+vs.SetSpreadAngle(h, spreadAngleR)
+```
+
 ## Version
 Availability: from MiniCAD7.0
 

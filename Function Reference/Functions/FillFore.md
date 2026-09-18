@@ -36,6 +36,37 @@ colorIndex = vs.RGBToColorIndex(65535, 0, 39321)
 vs.FillFore(colorIndex) # using Color Index values
 ```
 
+```pascal
+ResetFillStyle(TempH);
+SetLW(TempH,gGypLW);
+PenSize(gStippleLW);
+ColorIndexToRGB(gStippleFill,Red,Green,Blue);
+FillFore(Red,Green,Blue);
+FillBack(Red,Green,Blue);
+ColorIndexToRGB(gStippleColor,Red,Green,Blue);
+PenFore(Red,Green,Blue);
+PenBack(Red,Green,Blue);
+
+if not IsFillColorByClass(objHand) then BEGIN
+	GetFillFore(objHand, red, green, blue);
+	FillFore(red, green, blue);
+	GetFillBack(objHand, red, green, blue);
+	FillBack(red, green, blue);
+END;
+
+BEGIN
+	FillPat (JoistFillPattern );
+	FillFore(JoistFillFore );
+	FillBack(JoistFillBack);
+END;
+```
+```python
+if not vs.IsFillColorByClass( objHand ):
+	rgb = vs.GetFillFore( objHand )
+	vs.FillFore( rgb )
+```
+See also in tutorials: [02. Draw 2D Geometry Primitives](ai%20examples/02_Draw2DPrimitives.md)
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

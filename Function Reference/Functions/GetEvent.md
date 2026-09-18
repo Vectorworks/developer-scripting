@@ -39,6 +39,18 @@ kEventID_OnUIButtonHit = 35
 kEventID_OnAddState = 44
 ```
 
+## Examples
+```pascal
+resultN := GetEvent;
+```
+```python
+import vs
+
+# See [[VS:Object Events]].
+resultN = vs.GetEvent()
+vs.Message('GetEvent returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

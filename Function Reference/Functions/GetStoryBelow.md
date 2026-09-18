@@ -30,6 +30,36 @@ baseStory := GetStoryOfLayer(ActLayer);
 storyBelow := StoryBelow(baseStory);
 ```
 
+```pascal
+BEGIN
+	storyH := GetStoryBelow( storyH );
+END;
+
+{ Find the story we are currently working on }
+hStory := GetStoryBelow( NIL );
+storySuffix := GetStorySuffix( hStory );
+WHILE (( storySuffix  <> TmpLayerSuffix ) AND ( hStory <> NIL ) ) DO BEGIN
+	hStory := GetStoryAbove( hStory );
+	if ( hStory <> NIL ) THEN BEGIN
+
+3: BEGIN
+	story := GetStoryBelow(NIL);
+	WHILE story <> NIL DO BEGIN
+		AddChoice(dialogID, 10, GetStorySuffix(story), 0);
+		story := GetStoryAbove(story);
+	END;
+```
+```python
+import vs
+
+# Returns the Story below the indicated Story.
+story = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetStoryBelow(story)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [GetStoryAbove](GetStoryAbove.md) 

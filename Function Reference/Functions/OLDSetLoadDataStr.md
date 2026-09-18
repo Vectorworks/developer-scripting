@@ -27,6 +27,24 @@ def vs.OLDSetLoadDataStr(handle, selector, value, loadIndex):
 |value|STRING|   |
 |loadIndex|INTEGER|   |
 
+## Examples
+```pascal
+OLDSetLoadDataStr(handle, 1, 'Example', 2);
+```
+```python
+import vs
+
+# Using selector, sets load data with string value for the parametric object
+# Available selectors : kDLDSelectorGroupName = 2, kDLDSelectorLoadID = 3,
+# kDLDSelec.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+selector = 1
+value = 'Example'
+loadIndex = 1
+
+vs.OLDSetLoadDataStr(handle, selector, value, loadIndex)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

@@ -3,7 +3,6 @@
 ## Description
 Function GetCAlign returns the alignment value of a cell in the referenced worksheet. 
 
-
 **Table - Worksheet Cell Alignment**
 
 | Alignment | Constant |
@@ -40,6 +39,22 @@ AlignmentMode := GetCAlign(WSheetHd, 4, 5);
 #### Python ####
 ```python
 AlignmentMode = vs.GetCAlign(WSheetHd, 4, 5)
+```
+
+```pascal
+resultN := GetCAlign(h, 1, 2);
+```
+```python
+import vs
+
+# Function GetCAlign returns the alignment value of a cell in the referenced
+# worksheet.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+row = 10
+col = 5
+
+resultN = vs.GetCAlign(h, row, col)
+vs.Message('GetCAlign returned: ' + str(resultN))
 ```
 
 ## See Also

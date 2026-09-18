@@ -26,6 +26,20 @@ dashStyleName := GetDashStyleName(GetDashStyleIndex(TRUE, 1, 0.12, 0.03));
 in the active document, otherwise it creates one with a generic name }
 ```
 
+## Examples
+```pascal
+resultStr := GetDashStyleName(1);
+```
+```python
+import vs
+
+# Retrieves the dash style name of the specified dash style index.
+DashStyleIndex = 1
+
+name = vs.GetDashStyleName(DashStyleIndex)
+vs.Message('GetDashStyleName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [SetDashStyleName](SetDashStyleName.md)

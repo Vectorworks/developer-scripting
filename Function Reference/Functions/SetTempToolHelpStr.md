@@ -45,6 +45,27 @@ RUN( Test );
 
 ```
 
+```pascal
+NumNFerInstruments := 0;
+TempHandle1 := NIL;
+TempHandle2 := NIL;
+ALLOCATE InstHands [1..5];
+SetTempToolHelpStr(GetPlugInString(3007));
+STRING3005 := GetPlugInString(3005);
+STRING3006 := GetPlugInString(3006);
+REPEAT
+TrackObject( CheckObjCallback, TempHandle1,TempXLoc, TempYLoc, TempZLoc );
+
+SetTempToolHelpStr( GetPlugInString(5008) );
+TrackLightingDevice( TmpPickObjHan, shiftKeyPressed );
+WHILE ( TmpPickObjHan <> NIL ) & ( NOT IsCanceled ) DO
+BEGIN
+	NumInsts := NumInsts + 1;
+```
+```python
+vs.SetTempToolHelpStr('Example')
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

@@ -43,7 +43,6 @@ VAR
 	xmlFile : STRING;
 	xmlData	: DYNARRAY [] OF CHAR;
 
-
   PROCEDURE XMLSAXNodeCallback(
   			     XMLHandle      :LONGINT;
   			     nodeType       :INTEGER;  {one of kSAXNODEType_ constants}
@@ -97,7 +96,6 @@ VAR
 	END;
   END;
 
-
 BEGIN
 	hXML := InitXML;
 
@@ -112,6 +110,13 @@ RUN(XMLSaxTest_Read);
 #### Python ####
 ```python
 
+```
+
+```pascal
+resultN := XMLSAXParseFile(1, 2, 'file.txt', nodeCallback);
+```
+```python
+result = vs.XMLSAXParseFile(h, 'file.txt', 'file.txt', nodeCallback)
 ```
 
 ## See Also

@@ -42,9 +42,15 @@ SetClassArrow('None', 2, 0.25, 15);
 
 ```
 
+```pascal
+SetClassArrow('Wall', 1, 1.0, 2);
+```
+```python
+vs.SetClassArrow('Wall', style, 1.0, 2.0)
+```
+
 ## Version
 SetClassArrow is obsolete as of VectorWorks13.0<P>
-
 
 Availability: from VectorWorks10.0
 

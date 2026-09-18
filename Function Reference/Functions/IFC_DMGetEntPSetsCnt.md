@@ -22,6 +22,21 @@ def vs.IFC_DMGetEntPSetsCnt(strObjectName, strEntryName):
 |strEntryName|STRING|   |
 |outType|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetEntPSetsCnt('Example', 'Example', 1);
+```
+```python
+import vs
+
+# Returns the Property Sets count for IfcEntity in Object's IFC Data Mapping.
+strObjectName = 'Example'
+strEntryName = 'Example'
+
+ok, outType = vs.IFC_DMGetEntPSetsCnt(strObjectName, strEntryName)
+vs.Message('IFC_DMGetEntPSetsCnt returned: ' + str((ok, outType)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

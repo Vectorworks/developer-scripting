@@ -12,6 +12,18 @@ def vs.Backward():
     return None
 ```
 
+## Examples
+```pascal
+Backward;
+```
+```python
+import vs
+
+# Procedure Backward moves the selected objects down one level in the
+# onscreen object stacking order.
+vs.Backward()
+```
+
 ## Version
 Availability: from All Versions
 

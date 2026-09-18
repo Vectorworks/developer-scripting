@@ -20,6 +20,19 @@ def vs.SetDLControlOffset(controlOffsetDistance):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+SetDLControlOffset(1.0);
+```
+```python
+import vs
+
+# Sets the Double Line Preferences control offset.
+controlOffsetDistance = 1.0
+
+vs.SetDLControlOffset(controlOffsetDistance)
+```
+
 ## See Also
 VS Functions:
 [GetDLControlOffset](GetDLControlOffset.md)

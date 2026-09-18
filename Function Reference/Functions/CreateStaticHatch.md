@@ -50,6 +50,23 @@ def PickPointCallback(pt):
 vs.GetPt( PickPointCallback )
 ```
 
+```pascal
+resultH := CreateStaticHatch('Example', 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Creates a static hatch using inHatchName inside the bounded selection
+# surrounding the point.
+inHatchName = 'Example'
+p = (0, 0)
+rotationAngle = 45.0
+
+objHandle = vs.CreateStaticHatch(inHatchName, p, rotationAngle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

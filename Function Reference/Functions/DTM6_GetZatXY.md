@@ -38,6 +38,38 @@ The values of TINType are one of:
 ## Examples
 [DTM6_Sample](examples/DTM6_Sample.md)
 
+```pascal
+BEGIN
+	inBounds         := FALSE;
+	IF hDTMObject <> NIL THEN BEGIN
+		tmpPt        := ObjectToWorldCoords( objHand, pt );    { convert to world coordinates. }
+		IF DTM6_GetZatXY( hDTMObject, whichDTM, tmpPt.x, tmpPt.y, tmpPt.z ) THEN BEGIN
+			pt       := WorldToObjectCoords( objHand, tmpPt ); { convert back to object coordinates. }
+			pt.z     := pt.z - layerBaseElev;
+			inBounds := TRUE;
+		END;
+
+BEGIN
+BSB := DTM6_GetZatXY( hSelectedDTM, 0 {Existring}, x2, y2, MarkerLoc[PointCount].ExistZ );
+END;
+
+{ get the Z elevation at point on the existing Site model. BS, 7/28/2011. }
+temp_b := DTM6_GetZatXY( hDTMObject, 0 {existing}, drill_v.x, drill_v.y, z_drill );
+```
+```python
+import vs
+
+# Calculates the elevation of the specified 2D point on the specified Site
+# Model object.
+hDTMObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+TINType = 0
+x = 0.0
+y = 0.0
+
+ok, outZ = vs.DTM6_GetZatXY(hDTMObject, TINType, x, y)
+vs.Message('DTM6_GetZatXY returned: ' + str((ok, outZ)))
+```
+
 ## See Also
 [DTM6_GetDTMObject](DTM6_GetDTMObject.md) | [DTM6_IsDTM6Object](DTM6_IsDTM6Object.md) | [DTM6_IsObjectReady](DTM6_IsObjectReady.md) | [DTM6_IsTypeVisible](DTM6_IsTypeVisible.md)
 

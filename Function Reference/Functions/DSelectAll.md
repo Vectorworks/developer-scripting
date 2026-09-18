@@ -12,6 +12,24 @@ def vs.DSelectAll():
     return None
 ```
 
+## Examples
+```pascal
+DSelectAll;
+```
+```python
+vs.MoveTo ( textPtx, textPty )
+vs.DSelectAll()
+vs.CreateText( vs.PSheet_No )
+vs.SetFPat( vs.LNewObj(), 0 )
+vs.Rotate( dTextRotation )
+
+vs.Rotate( sweepTmp - 90 )
+hObj = vs.LNewObj()
+vs.DSelectAll()
+
+vs.DSelectAll()
+```
+
 ## Version
 Availability: from All Versions
 

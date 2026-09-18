@@ -7,7 +7,6 @@ Bit code values for dimension flags can be found in the [VectorScript Appendix](
 
 ![Linear Dimension](files/Lindim.gif)
 
-
 October 30, 2023 Pat Stanford
 The image above is incorrect. The Offset shown in the image is not the offset that actually occurs in the function. The Offset value that is actually used in the function appears to be the offset of the text along the dimension line, specified in Page units. There is no option of the LinearDim function that will change the offset of the text away from the Dimension line.
 
@@ -53,6 +52,18 @@ LinearDim(-2&quot;,2&quot;,1&quot;,2&quot;,-3&quot;,0,771,770,0.75);
 ```python
 
 ```
+
+```pascal
+BEGIN
+	pt1 := pt1 + viewPortLoc;
+	pt2 := pt2 + viewPortLoc;
+	if (pt1 <> pt2) then BEGIN
+		LinearDim(pt1.x, pt1.y, pt2.x, pt2.y, offDis, hor_ver, arrow, textFlag, textOffset);
+```
+```python
+vs.LinearDim((0, 0), (0, 0), 1.0, dimType, arrow, 'Example', 'Example')
+```
+See also in tutorials: [09. Dimensioning and Text Annotation](ai%20examples/09_DimensionsAndText.md)
 
 ## Version
 Availability: from All Versions

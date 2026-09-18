@@ -23,6 +23,20 @@ def vs.SetClTextureC(className, textureRef):
 ## Remarks
 Sets the wall center texture of the class named className.
 
+## Examples
+```pascal
+SetClTextureC('Wall', 1);
+```
+```python
+import vs
+
+# Procedure SetClTextureC sets the wall center texture of the specified class.
+className = 'None'
+textureRef = 1
+
+vs.SetClTextureC(className, textureRef)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

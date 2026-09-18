@@ -22,6 +22,21 @@ def vs.IFC_DMGetFieldsCount(inStrObjName, inStrEntryName):
 |inStrEntryName|STRING|   |
 |outCount|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetFieldsCount('Example', 'Example', 1);
+```
+```python
+import vs
+
+# Gets fields count for indicated entry from current IFC Data Mapping.
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+
+ok, outCount = vs.IFC_DMGetFieldsCount(inStrObjName, inStrEntryName)
+vs.Message('IFC_DMGetFieldsCount returned: ' + str((ok, outCount)))
+```
+
 ## Version
 Available from: Vectorworks 2017
 

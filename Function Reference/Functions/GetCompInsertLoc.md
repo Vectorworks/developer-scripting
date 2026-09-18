@@ -17,6 +17,20 @@ def vs.GetCompInsertLoc(object):
 |---|---|---|
 |object|HANDLE|The object. Can be a wall, Wall Style, or the Wall Preferences.|
 
+## Examples
+```pascal
+resultN := GetCompInsertLoc(object);
+```
+```python
+import vs
+
+# Gets the component insert location of the object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetCompInsertLoc(object)
+vs.Message('GetCompInsertLoc returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetCompInsertLoc](SetCompInsertLoc.md)

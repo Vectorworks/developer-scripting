@@ -22,6 +22,21 @@ def vs.Space_AssignZone(space, zoneType, zoneName):
 |zoneType|STRING|   |
 |zoneName|STRING|   |
 
+## Examples
+```pascal
+Space_AssignZone(space, 'Example', 'Example');
+```
+```python
+import vs
+
+# Assign Zone to the space object.
+space = vs.FSActLayer()  # handle to the first selected object on the active layer
+zoneType = 'Example'
+zoneName = 'Example'
+
+vs.Space_AssignZone(space, zoneType, zoneName)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

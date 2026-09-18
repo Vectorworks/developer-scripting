@@ -29,10 +29,24 @@ def vs.GetTexSpaceKind(textureSpace):
 ## Remarks
 *\_c\_*, (2018.12.29) Use [GetTexMapIntN](GetTexMapIntN.md) instead. 
 
-
 Returns the kind of the texture mapping space; 0 = Plane space, 1 = Sphere, 2 = Cylinder, and 3 = Algorithmic (Perimeter or Roof)
 
 Note: GetTexMapXXX routines replace the older GetTexSpaceXXX routines.  It is recommended that all developers transition to the newer versions.
+
+## Examples
+```pascal
+tmpInt := GetTexSpaceKind( wallTextureSpace );
+SetTexSpaceKind( objTextureSpace, tmpInt);
+```
+```python
+import vs
+
+# Function GetTexSpaceKind returns the object type for texture mapping space.
+textureSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetTexSpaceKind(textureSpace)
+vs.Message('GetTexSpaceKind returned: ' + str(resultN))
+```
 
 ## Version
 Availability: from VectorWorks 8.0

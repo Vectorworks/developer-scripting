@@ -22,6 +22,20 @@ def vs.GetScriptResource(scriptName):
 |script|DYNARRAY[] of CHAR|Return the script text.|
 |python|BOOLEAN|Return if the script text is a python script.|
 
+## Examples
+```pascal
+resultOK := GetScriptResource('Example', script, TRUE);
+```
+```python
+import vs
+
+# Return the script text of the specified script resource.
+scriptName = 'Example'
+
+ok, script, python = vs.GetScriptResource(scriptName)
+vs.Message('GetScriptResource returned: ' + str((ok, script, python)))
+```
+
 ## See Also
 VS Functions:
 [CreateScriptResource](CreateScriptResource.md) 

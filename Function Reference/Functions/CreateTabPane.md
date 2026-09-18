@@ -27,6 +27,38 @@ def vs.CreateTabPane(dialogID, itemID, groupID):
 ## Examples
 [ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
+```pascal
+{ project pane }
+CreateTabPane     (dialog1,  4,   5);
+SetFirstGroupItem (dialog1,  5,   6);
+SetRightItem      (dialog1,  6,   7,  0, 0);
+SetBelowItem      (dialog1,  6,   8,  0, 4);
+SetRightItem      (dialog1,  8,   9,  0, 0);
+
+BEGIN
+	CreateTabPane (dialogID, 4, fieldNum);
+	SetFirstGroupItem (dialogID, fieldNum, gbIDNum);
+END
+
+{General Tab}
+CreateTabPane     (dialog1, kTabControl,            kGenTab);
+SetFirstGroupItem (dialog1, kGenTab,                kGeneralImage);
+SetRightItem      (dialog1, kGeneralImage,          kGenHidGroup,           0, -1);
+SetFirstGroupItem (dialog1, kGenHidGroup,           kOverallHgtGrp);
+SetFirstGroupItem (dialog1, kOverallHgtGrp,         kHeightByLayer);
+```
+```python
+import vs
+
+# Creates a tab pane within a tab control on a dialog.
+dialogID = 1
+itemID = 2
+groupID = 3
+
+vs.CreateTabPane(dialogID, itemID, groupID)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [CreateTabControl](CreateTabControl.md) 

@@ -36,6 +36,22 @@ Flag := SetIconPushButtonState(DialogID, item, Flag2);
 Flag := GetIconPushButtonState(DialogID, item, Flag2);<br />
 Flag := SetIconPushButtonState(DialogID, item, NOT Flag2);
 
+## Examples
+```pascal
+resultOK := GetIconPushButtonState(1, 2, TRUE);
+```
+```python
+import vs
+
+# Retrieves the state of the specified Layout Manager icon push button
+# (pressed or not pressed).
+nDialogID = 1
+nComponentID = 2
+
+ok, bPressed = vs.GetIconPushButtonState(nDialogID, nComponentID)
+vs.Message('GetIconPushButtonState returned: ' + str((ok, bPressed)))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

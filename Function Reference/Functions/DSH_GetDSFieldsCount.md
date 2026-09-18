@@ -22,6 +22,21 @@ def vs.DSH_GetDSFieldsCount(hObject, dsName):
 |dsName|STRING|   |
 |outCount|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := DSH_GetDSFieldsCount(hObject, 'Example', 1);
+```
+```python
+import vs
+
+# Gets Object's Data Sheet fields count.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dsName = 'Example'
+
+ok, outCount = vs.DSH_GetDSFieldsCount(hObject, dsName)
+vs.Message('DSH_GetDSFieldsCount returned: ' + str((ok, outCount)))
+```
+
 ## Version
 Availability: from Vectorworks 2020.1
 

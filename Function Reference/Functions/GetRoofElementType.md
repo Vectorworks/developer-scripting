@@ -41,6 +41,21 @@ dormerType: if it is a dormer then:
 4 for Slope Dormer
 5 for Bat Dormer
 
+## Examples
+```pascal
+GetRoofElementType(roofObject, 1, 2, TRUE, 3);
+```
+```python
+import vs
+
+# Returns information on the specified roof element.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+edgeIndex, isDormer, dormerType = vs.GetRoofElementType(roofObject, dormerID)
+vs.Message('GetRoofElementType returned: ' + str((edgeIndex, isDormer, dormerType)))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

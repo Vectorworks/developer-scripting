@@ -29,6 +29,23 @@ Additionally, the plug-in is called ‘BatchEncryption’ and can be found insid
 The Vectorworks SDK can be downloaded here:
 http://www.vectorworks.net/support/custom/sdk/sdkdown.php
 
+## Examples
+```pascal
+resultOK := EncryptPlugin('file.txt');
+```
+```python
+import vs
+
+# Encrypt one VectorScript Plug-in file.
+fullPath = 'C:/Temp'
+
+ok = vs.EncryptPlugin(fullPath)
+if ok:
+    vs.Message('EncryptPlugin succeeded')
+else:
+    vs.Message('EncryptPlugin failed')
+```
+
 ## See Also
 * [EncryptAllPlugins](EncryptAllPlugins.md)
 * [TestEncryptPlugins](TestEncryptPlugins.md)

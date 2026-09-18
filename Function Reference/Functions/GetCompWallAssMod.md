@@ -22,6 +22,21 @@ def vs.GetCompWallAssMod(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |wallAssociatedModification|INTEGER|Returns the wall associated modification of the component.  0 - None 1 - Clip walls 2 - Clipped by walls|
 
+## Examples
+```pascal
+resultOK := GetCompWallAssMod(object, 1, 2);
+```
+```python
+import vs
+
+# Gets the wall associated modification of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, wallAssociatedModification = vs.GetCompWallAssMod(object, componentIndex)
+vs.Message('GetCompWallAssMod returned: ' + str((ok, wallAssociatedModification)))
+```
+
 ## See Also
 VS Functions:
 [SetCompWallAssMod](SetCompWallAssMod.md)

@@ -24,6 +24,38 @@ def vs.SetLBItemDisplayType(dialogID, componentID, columnIndex, displayType):
 |columnIndex|INTEGER|the index of the column|
 |displayType|INTEGER|the display type to be set (0: Text Only, 1: Icon Only, 3: Text and Icon)|
 
+## Examples
+```pascal
+BEGIN
+	colId0 := InsertLBColumn(dlgId, kLBCtrl, 0, GetPluginString(3010), 40);
+	boolD := SetLBControlType(dlgId, kLBCtrl, colId0, 1);
+	boolD := SetLBItemDisplayType(dlgId, kLBCtrl, colId0, 0);
+
+ColNum := InsertLBColumn(dlogID,5,0,GetPluginString(6001),50);
+temp_b := SetLBControlType(dlogID,5,0,3);
+temp_b := SetLBItemDisplayType(dlogID,5,0,1);
+
+BEGIN
+	colNum	:= InsertLBColumn(dlogID, itemID,0 ,GetPluginString(3033), 150);
+	tempRes := SetLBControlType(dlogID, itemID, colNum, 1);
+	tempRes	:= SetLBItemDisplayType(dlogID, itemID, colNum, 0);
+```
+```python
+import vs
+
+# Sets item display type for list items in specified column.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+displayType = 0
+
+ok = vs.SetLBItemDisplayType(dialogID, componentID, columnIndex, displayType)
+if ok:
+    vs.Message('SetLBItemDisplayType succeeded')
+else:
+    vs.Message('SetLBItemDisplayType failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

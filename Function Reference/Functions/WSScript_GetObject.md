@@ -18,6 +18,20 @@ See excellent intrduction to Worksheet Scripting by Pat Stanford on the Techboar
 
 forum.vectorworks.net/index.php?/topic/75193-a-super-short-course-in-worksheet-scripts/
 
+## Examples
+```pascal
+resultH := WSScript_GetObject;
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+wsHandle = vs.WSScript_GetObject()
+if wsHandle is not None:
+    vs.Message('Created object handle: ' + str(wsHandle))
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

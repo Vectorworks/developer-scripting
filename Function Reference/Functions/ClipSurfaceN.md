@@ -30,6 +30,24 @@ Example:
 
 ![VsClipSurfaceN.png](files/VsClipSurfaceN.png)
 
+## Examples
+```pascal
+{ ClipSurfaceN deletes the original poly.}
+newSurfacedPoly := ClipSurfaceN(hOriginalPoly, hOffsetPoly);
+```
+```python
+import vs
+
+# Creates a new surface object by subtracting the intersection of surfaces s1
+# and s2 from s1.
+s1 = vs.FSActLayer()  # handle to the first selected object on the active layer
+s2 = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+objHandle = vs.ClipSurfaceN(s1, s2)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

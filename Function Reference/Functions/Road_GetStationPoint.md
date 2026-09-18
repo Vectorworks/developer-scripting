@@ -22,6 +22,20 @@ def vs.Road_GetStationPoint(hRoadwayObject, index):
 |index|LONGINT|   |
 |RETURN|REAL|   |
 
+## Examples
+```pascal
+Road_GetStationPoint(hRoadwayObject, 1, 1.0);
+```
+```python
+import vs
+
+# Return 3D point of the station that is related with the Roadway (Poly) object.
+hRoadwayObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+result = vs.Road_GetStationPoint(hRoadwayObject, index)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

@@ -14,6 +14,23 @@ def vs.vstSetCustomProc(inRoutineName):
 |---|---|---|
 |inRoutineName|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+	VSTSetCustomProc('VSTCustomProcNNA');
+	modeValue := 2;
+	radius := 1;
+	result := VSTCustomProcNNA (kParameterizeProc, unused, modeValue, radius, spacing);
+{
+```
+```python
+import vs
+
+inRoutineName = 'Example'
+
+vs.vstSetCustomProc(inRoutineName)
+```
+
 ## Version
 Availability: from All Versions
 

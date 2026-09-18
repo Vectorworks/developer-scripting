@@ -37,6 +37,46 @@ def vs.SetWSCellBottomBN(worksheet, topRow, leftColumn, bottomRow, rightColumn, 
 |weight|INTEGER|Border line weight to be set.(in Mils)|
 |color|LONGINT|Border line color to be set. (color index: 0..255)|
 
+## Examples
+```pascal
+colFormula := 'Layer';
+SetWSCellFormula(WSHan,2,theCol,2,theCol,colFormula);
+SetWSCellFormula(WSHan,3,theCol,3,theCol,'=L');
+{Message(MsgTitle,CR,'Finding Cables');}
+SetWSCellBottomBN(WSHan,2,1,2,NumDisplayFields+2,2,15,255);
+SetWSCellTextFormat(WSHan,2,1,2,NumDisplayFields+2,fontIndex,14,1 );
+SetWSCellAlignment(WSHan,1,1,3,NumDisplayFields+2,2);
+
+{	Message(MsgTitle,CR,'Finding Cables');}
+	SetWSCellBottomBN(WSHan, 2, 1, 2, NumDisplayFields+2, 2, 15, 255);
+	SetWSCellTextFormat(WSHan, 1, 1, 2, NumDisplayFields+2, fontIndex, 14, 1);
+	SetWSCellAlignment(WSHan, 1, 1, 3, NumDisplayFields+2, 2);
+
+colFormula := 'Layer';
+SetWSCellFormula(WSHan,2,theCol,2,theCol,colFormula);
+SetWSCellFormula(WSHan,3,theCol,3,theCol,'=L');
+{Message(MsgTitle,CR,'Finding Cables');}
+SetWSCellBottomBN(WSHan,2,1,2,NumDisplayFields,2,15,255);
+SetWSCellTextFormat(WSHan,2,1,2,NumDisplayFields,fontIndex,14,1 );
+SetWSCellAlignment(WSHan,1,1,3,NumDisplayFields,2);
+```
+```python
+import vs
+
+# Sets a bottom border with the specified attributes in specified worksheet
+# cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+style = 0
+weight = 1
+color = 5
+
+vs.SetWSCellBottomBN(worksheet, topRow, leftColumn, bottomRow, rightColumn, style, weight, color)
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

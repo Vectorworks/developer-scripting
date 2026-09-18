@@ -53,6 +53,13 @@ RUN(Example);
 
 ```
 
+```pascal
+resultOK := SetWallHeights(h, 1.0, 2.0);
+```
+```python
+result = vs.SetWallHeights(h, 1.0, 2.0)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

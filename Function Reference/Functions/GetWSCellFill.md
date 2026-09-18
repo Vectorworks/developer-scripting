@@ -40,6 +40,22 @@ no fill = 0
 solid fill= 1
 pattern fill= 2
 
+## Examples
+```pascal
+GetWSCellFill(worksheet, 1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Returns the fill style and color of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+style, bgcolor, fgcolor, fillpattern = vs.GetWSCellFill(worksheet, row, column)
+vs.Message('GetWSCellFill returned: ' + str((style, bgcolor, fgcolor, fillpattern)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

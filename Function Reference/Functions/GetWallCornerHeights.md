@@ -26,6 +26,27 @@ def vs.GetWallCornerHeights(theWall):
 |endHeightTop|REAL|The height of the end top corner|
 |endHeightBottom|REAL|The height of the end bottom corner|
 
+## Examples
+```pascal
+BEGIN
+IF (GetType(selWall)=68) OR (GetType(selWall)=89) THEN BEGIN
+	selLength:=HLength(selWall);
+	GetWallCornerHeights(selWall,startHeightTop,startHeightBottom,endHeightTop,endHeightBottom);
+	selHeight1 := startHeightTop-startHeightBottom;
+	selHeight2 := endHeightTop-endHeightBottom;
+	IF selHeight1<>selHeight2
+		THEN selHeight:=kVaries
+```
+```python
+import vs
+
+# Gets the corner heights of a wall or round wall.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+startHeightTop, startHeightBottom, endHeightTop, endHeightBottom = vs.GetWallCornerHeights(theWall)
+vs.Message('GetWallCornerHeights returned: ' + str((startHeightTop, startHeightBottom, endHeightTop, endHeightBottom)))
+```
+
 ## See Also
 VS Functions:
 [SetWallCornerHeights](SetWallCornerHeights.md)

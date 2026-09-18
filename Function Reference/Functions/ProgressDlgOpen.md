@@ -23,8 +23,34 @@ def vs.ProgressDlgOpen(title, canCancel):
 ## Examples
 les can be found at [[VS:Progress Dialog]].
 
+```pascal
+{prepare progress dialog}
+kProgressDlgStr := GetPlugInString(6012);
+ProgressDlgOpen( kProgressDlgStr, FALSE );
+ProgressDlgStart( 100.0, GetFileSize (gImportFilePath) );
+
+kPIS5000 := 'Initializing Lights';
+kPIS5001 := 'Initializing Gobo Projectors';
+kPIS5002 := 'Initializing Focus Points';
+kPIS5010 := 'Initializing';}
+ProgressDlgOpen(kAnnScenesStr, FALSE);
+ProgressDlgSetMeter( kPIS5010 );
+If ResourceIsOK Then BEGIN END;
+PrefRecHand := GetObject(kSLPrefRec);
+DataExchangeSuspend := FALSE;
+```
+```python
+import vs
+
+# Show a progress dialog that doesn't interrupt the script.
+title = 'Example'
+canCancel = True
+
+vs.ProgressDlgOpen(title, canCancel)
+```
+
 ## See Also
-[ProgressDlgOpen](ProgressDlgOpen.md) | [ProgressDlgClose](ProgressDlgClose.md) | [ProgressDlgSetTopMsg](ProgressDlgSetTopMsg.md) | [ProgressDlgSetBotMsg](ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](ProgressDlgSetMeter.md) | [ProgressDlgStart](ProgressDlgStart.md) | [ProgressDlgEnd](ProgressDlgEnd.md) | [ProgressDlgHasCancel](ProgressDlgHasCancel.md) | [ProgressDlgYeld](ProgressDlgYeld.md)
+[ProgressDlgOpen](ProgressDlgOpen.md) | [ProgressDlgClose](ProgressDlgClose.md) | [ProgressDlgSetTopMsg](ProgressDlgSetTopMsg.md) | [ProgressDlgSetBotMsg](ProgressDlgSetBotMsg.md) | [ProgressDlgSetMeter](ProgressDlgSetMeter.md) | [ProgressDlgStart](ProgressDlgStart.md) | [ProgressDlgEnd](ProgressDlgEnd.md) | [ProgressDlgHasCancel](ProgressDlgHasCancel.md) | [ProgressDlgYield](ProgressDlgYield.md)
 
 ## Version
 Availability: from Vectorworks 2015

@@ -17,6 +17,19 @@ Returns a handle to the last object in the active layer.
 
 [sd 8/14/98]
 
+## Examples
+```pascal
+resultH := LActLayer;
+```
+```python
+import vs
+
+# Function LActLayer returns a handle to the last object in the active layer.
+objHandle = vs.LActLayer()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 Relative calls:
 * [NextObj](NextObj.md) | [PrevObj](PrevObj.md)

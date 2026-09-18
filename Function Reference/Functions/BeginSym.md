@@ -22,7 +22,6 @@ def vs.BeginSym(symbolName):
 ## Remarks
 Note: normally SetOriginAbsolute(0,0) should be called before calling this. The user origin is used as the insertion point for the symbol, but it may be out of bounds, in which case the symbol is still created but the center of the document is used instead for the insertion point.
 
-
 BeginSym deselects all objects on the active layer (VW 13, 83388). Be aware of your handles created after that.
 
 ## Examples
@@ -47,6 +46,39 @@ vs.Rect(-4*12 -7,-2*12 -7 - 3/4,-3*12 - 3 - 1/2,-2*12 - 9 - 1/2)
 vs.MoveTo(-5*12 - 11,-3*12)
 vs.LineTo(-2*12,-3*12)
 vs.EndSym()
+```
+
+```pascal
+BEGIN
+	BeginSym(SymName);
+	ClosePoly;
+		BeginPoly;
+			MoveTo(-8.54167e-1',-1.04167e-1');
+			LineTo(-7.1875e-1',-1.04167e-1');
+
+IF kDebugMode THEN alrtdialog( concat('sub MakeSymbol === Begin Sym ', SymName ) );
+BeginSym(SymName);
+SetSelect(h);
+Duplicate(-xLoc, -yLoc);
+EndSym;
+DelObj(h);
+
+BEGIN
+	{the handicap symbol definition is missing in the default folder - we create an empty rectangle with the same size}
+	BeginSym(GetStr5(1));
+		Rect(0 - 20.35", 0 + 24", 0 + 20.35", 0 - 24"); {this the default size for the handicap symbol }
+		h := LNewObj;
+	EndSym;
+END;
+```
+```python
+import vs
+
+# Procedure BeginSym creates a new symbol definition in a VectorWorks document.
+symbolName = 'MySymbol'
+
+vs.BeginSym(symbolName)
+newObj = vs.LNewObj()  # handle to the newly created object
 ```
 
 ## Version

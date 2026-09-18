@@ -25,6 +25,24 @@ def vs.vsoStateAddCurrent(hObj, message):
 ## Remarks
 { quoting Vlado: }  During event 44 the user MUST only call VS:vsoStateAddCurrent nothing else!
 
+## Examples
+```pascal
+BEGIN
+	theButton := vsoStateAddCurrent( parmHand, theButton );
+END;
+
+BEGIN
+	eventMessage := vsoStateAddCurrent( pluginH, eventMessage );
+END;
+
+BEGIN
+	buttonNumber := vsoStateAddCurrent( gPluginH, buttonNumber );
+```
+```python
+elif theEvent == vs.kObjOnAddState:
+	theButton = vs.vsoStateAddCurrent( gObjHandle, theButton );
+```
+
 ## Version
 Availability: from All Versions
 

@@ -17,6 +17,23 @@ def vs.HasObjStoryBounds(obj):
 |---|---|---|
 |obj|HANDLE|The object.|
 
+## Examples
+```pascal
+resultOK := HasObjStoryBounds(obj);
+```
+```python
+import vs
+
+# Determine if the object has any story bounds.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.HasObjStoryBounds(obj)
+if ok:
+    vs.Message('HasObjStoryBounds succeeded')
+else:
+    vs.Message('HasObjStoryBounds failed')
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

@@ -22,6 +22,21 @@ def vs.GetComponentFill(obj, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |fill|LONGINT|Returns the fill of the component.  Positive values for patterns, negative ref numbers for hatches.|
 
+## Examples
+```pascal
+resultOK := GetComponentFill(obj, 1, 2);
+```
+```python
+import vs
+
+# Gets the fill of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, fill = vs.GetComponentFill(obj, componentIndex)
+vs.Message('GetComponentFill returned: ' + str((ok, fill)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentFill](SetComponentFill.md)

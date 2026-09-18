@@ -22,6 +22,25 @@ def vs.SetCompBoundOffset(object, componentIndex, boundOffset):
 |componentIndex|INTEGER|The index of the component.|
 |boundOffset|REAL|The bound offset of the component.|
 
+## Examples
+```pascal
+resultOK := SetCompBoundOffset(object, 1, 1.0);
+```
+```python
+import vs
+
+# Sets the bound offset of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+boundOffset = 0.0
+
+ok = vs.SetCompBoundOffset(object, componentIndex, boundOffset)
+if ok:
+    vs.Message('SetCompBoundOffset succeeded')
+else:
+    vs.Message('SetCompBoundOffset failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompBoundOffset](GetCompBoundOffset.md)

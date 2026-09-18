@@ -32,6 +32,36 @@ Counter-intuitively, groupNumber is not the index of the groupbox that you want 
 ## Examples
 [ComplexDialogLayout5](examples/ComplexDialogLayout5.md)
 
+```pascal
+BEGIN
+	loadPopupChoices (gCurrentDialogID, pulldownID, fieldName [fieldNum], gNewValue [fieldNum]);
+	DisplaySwapPane (gCurrentDialogID, swapControlID, 2);
+	EnableItem(gCurrentDialogID, pulldownID, gChangeField [fieldNum]);
+END
+
+		RemoveChoice (dialogID, 14, 0);
+	FOR i := 1 TO gNumPopupValues DO
+		AddChoice (dialogID, 14, popupValues [i], i - 1);
+	SelectChoice (dialogID, 14, 0, TRUE);
+	DisplaySwapPane (dialogID, 12, 2);
+END
+
+fValue := GetRField(gPluginH, GetName(recordHand), 'filling');
+SelectChoice(dialogID, kFillStylePopupID, Str2Num(fValue), TRUE);
+DisplaySwapPane(dialogID, kFillStyleSwapControl, Str2Num(fValue)+1);
+```
+```python
+import vs
+
+# Causes the specified swap pane to be displayed within the specified swap
+# control.
+dialogID = 1
+swapControlID = 2
+groupNumber = 3
+
+vs.DisplaySwapPane(dialogID, swapControlID, groupNumber)
+```
+
 ## See Also
 VS Functions:
 [CreateSwapControl](CreateSwapControl.md) 

@@ -19,6 +19,20 @@ def vs.WSScript_SetResImage(h):
 |---|---|---|
 |h|HANDLE|The handle of the object that will be used for image in the cell.|
 
+## Examples
+```pascal
+WSScript_SetResImage(h);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.WSScript_SetResImage(h)
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

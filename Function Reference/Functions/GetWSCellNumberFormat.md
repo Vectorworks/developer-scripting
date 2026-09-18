@@ -98,6 +98,22 @@ Number Format constants:
 | 13   | text             |
 | 14   | percentage       |
 
+## Examples
+```pascal
+GetWSCellNumberFormat(worksheet, 1, 2, 3, 10, 'Example', 'Example');
+```
+```python
+import vs
+
+# Returns the numeric formatting of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+style, accuracy, leaderString, trailerString = vs.GetWSCellNumberFormat(worksheet, row, column)
+vs.Message('GetWSCellNumberFormat returned: ' + str((style, accuracy, leaderString, trailerString)))
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

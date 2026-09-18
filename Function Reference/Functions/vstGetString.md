@@ -22,6 +22,21 @@ def vs.vstGetString(inStrListID, inStrID):
 |inStrID|INTEGER|   |
 |outString|STRING|Output parameter.|
 
+## Examples
+```pascal
+vstGetString(1, 2, 'Example');
+```
+```python
+import vs
+
+# Gets a string from the resource file.
+inStrListID = 1
+inStrID = 2
+
+text = vs.vstGetString(inStrListID, inStrID)
+vs.Message('vstGetString returned: ' + str(text))
+```
+
 ## Version
 Availability: from All Versions
 

@@ -21,6 +21,19 @@ def vs.IsPlanarObj(object):
 This function always seems to return 0 for refID, no matter which plane the object being tested is located.
 Use [GetPlanarRef](GetPlanarRef.md) instead to find the planar refID of a given planar object.
 
+## Examples
+```pascal
+resultOK := IsPlanarObj(object, 1);
+```
+```python
+import vs
+
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, refID = vs.IsPlanarObj(object)
+vs.Message('IsPlanarObj returned: ' + str((ok, refID)))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

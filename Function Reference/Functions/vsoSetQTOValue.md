@@ -24,6 +24,22 @@ def vs.vsoSetQTOValue(valueType, int, real, string):
 |real|REAL|   |
 |string|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+vsoSetQTOValue(1, 2, 1.0, string);
+```
+```python
+import vs
+
+# Set a requested QTO value during event 84 (kParametricGetQTOValue).
+valueType = 0
+int = 1
+real = 1.0
+string = 'Example'
+
+vs.vsoSetQTOValue(valueType, int, real, string)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

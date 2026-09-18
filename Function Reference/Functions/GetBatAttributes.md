@@ -50,6 +50,22 @@ topSlope: Angle of the dormer roof.
 
 controlPoint: The distance from the side to where the curve starts.  Must be less than (bottomWidth - topWidth) / 2.
 
+## Examples
+```pascal
+GetBatAttributes(roofObject, 1, TRUE, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Procedure GetBatAttributes returns the attributes of a bat dormer in the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+useHeight, heightDepth, bottomWidth, topWidth, baseHeight, controlPoint, topSlope = vs.GetBatAttributes(roofObject, dormerID)
+vs.Message('GetBatAttributes returned: ' + str((useHeight, heightDepth, bottomWidth, topWidth, baseHeight, controlPoint, topSlope)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

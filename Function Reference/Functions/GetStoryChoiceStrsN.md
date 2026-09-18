@@ -22,6 +22,21 @@ def vs.GetStoryChoiceStrsN(story, boundSelection):
 |strings|ARRAY|Returns the strings.|
 |boundSelection|INTEGER|Type of bounds strings being requested: 0 for Top Bound; 1 for Dual Bound (combines both top and bottom); 2 for Bottom Bound.|
 
+## Examples
+```pascal
+GetStoryChoiceStrsN(story, strings, 1);
+```
+```python
+import vs
+
+# Gets story bound strings to supply to the bound popup.
+story = vs.FSActLayer()  # handle to the first selected object on the active layer
+boundSelection = 1
+
+text = vs.GetStoryChoiceStrsN(story, boundSelection)
+vs.Message('GetStoryChoiceStrsN returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

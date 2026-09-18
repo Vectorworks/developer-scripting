@@ -19,6 +19,20 @@ def vs.SetCLOpacityN(className, penOpacity, fillOpacity):
 |penOpacity|INTEGER|   |
 |fillOpacity|INTEGER|   |
 
+## Examples
+```pascal
+SetCLOpacityN('Wall', 1, 2);
+```
+```python
+import vs
+
+className = 'None'
+penOpacity = 1
+fillOpacity = 2
+
+vs.SetCLOpacityN(className, penOpacity, fillOpacity)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

@@ -31,6 +31,17 @@ def vs.GetDocDrpShadowData():
 |colorGV|INTEGER|   |
 |colorBV|INTEGER|   |
 
+## Examples
+```pascal
+GetDocDrpShadowData(TRUE, 1, 1.0, 2.0, 0.5, 2, 3, 10, 5);
+```
+```python
+import vs
+
+bUseDropShadow, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colorRV, colorGV, colorBV = vs.GetDocDrpShadowData()
+vs.Message('GetDocDrpShadowData returned: ' + str((bUseDropShadow, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colorRV, colorGV, colorBV)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

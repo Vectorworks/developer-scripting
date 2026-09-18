@@ -22,6 +22,25 @@ def vs.ws2AddMenuItem(menuPath, newMenuUnivName, beforeIndex):
 |newMenuUnivName|DYNARRAY[] of CHAR|   |
 |beforeIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := ws2AddMenuItem(menuPath, newMenuUnivName, 1);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+newMenuUnivName = 'Example'
+beforeIndex = 1
+
+ok = vs.ws2AddMenuItem(menuPath, newMenuUnivName, beforeIndex)
+if ok:
+    vs.Message('ws2AddMenuItem succeeded')
+else:
+    vs.Message('ws2AddMenuItem failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

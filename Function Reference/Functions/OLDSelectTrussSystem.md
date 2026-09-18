@@ -17,6 +17,26 @@ def vs.OLDSelectTrussSystem(trussHandle):
 |---|---|---|
 |trussHandle|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+	OLDSelectTrussSystem( parmHand );
+END;
+
+BEGIN
+	OLDSelectTrussSystem( parmHand );
+	vsoSetEventResult(-5 {kObjectUIButtonHitCancel});
+END;
+```
+```python
+import vs
+
+# Using the given handle, selects the whole truss system the objects is part of.
+trussHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.OLDSelectTrussSystem(trussHandle)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

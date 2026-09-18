@@ -70,6 +70,33 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	result := SetCustomObjectPath (ObjectHand, poly_h);
+	polyClass := GetClass(poly_h);
+	SetClass(ObjectHand, polyClass);
+	GetSymLoc(ObjectHand, pt.x, pt.y);
+	cen_pt := cen_pt - pt;
+
+	HCenter (tempobjH, x0, y0);
+	HMove(tempobjH, -x0, -y0);
+	gPluginObjH := CreateCustomObjectN (objType, x0, y0, -planRotation, FALSE);
+	HRotate(tempObjH, 0, 0, planRotation);
+	result := SetCustomObjectPath (gPluginObjH, tempObjH);
+END;	 {MakeObjectFromPath}
+
+	end ELSE DelObj(tmpPath);
+end else BEGIN
+	HRotate(tmpPath, originPt.x, originPt.y, -objectRotation);
+	HMove(tmpPath, -originPt.x, -originPt.y);
+	boo := SetCustomObjectPath(objHand, tmpPath);
+	pathHandle := tmpPath;
+END;
+```
+```python
+result = vs.SetCustomObjectPath(objectHand, 'file.txt')
+```
+
 ## See Also
 VS Functions:
 [GetCustomObjectPath](GetCustomObjectPath.md)

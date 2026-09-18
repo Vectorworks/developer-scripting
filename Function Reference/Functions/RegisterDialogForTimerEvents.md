@@ -95,6 +95,17 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	IF ( mcMajor = 18 {2013} )
+	AND ( ( mcMaint = 4 ) OR ( mcMaint = 5 ) ) {for VW 2013.0.4 ONLY, set the timer to 1000 to reduce slider jumping caused by new Redraw behavior}
+		THEN RegisterDialogForTimerEvents( dialogID, 1000 )
+		ELSE RegisterDialogForTimerEvents( dialogID, timerEventIncrement );
+```
+```python
+vs.RegisterDialogForTimerEvents(dialogID, True)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

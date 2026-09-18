@@ -64,6 +64,13 @@ RUN(Example);
 
 ```
 
+```pascal
+GetFileInfo('file.txt', 'file.txt', 'file.txt', TRUE, FALSE, TRUE, TRUE, FALSE, TRUE);
+```
+```python
+result = vs.GetFileInfo('file.txt')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

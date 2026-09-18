@@ -36,6 +36,13 @@ SetDimStd(2);
 
 ```
 
+```pascal
+SetDimStd(1);
+```
+```python
+vs.SetDimStd(whichStandard)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

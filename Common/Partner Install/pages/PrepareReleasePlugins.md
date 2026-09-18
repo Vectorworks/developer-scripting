@@ -86,11 +86,11 @@ def vs.EncryptAllPlugins():
   will test do batch encryption of all VectorScript plug-ins in the Plug-ins folder and put the reuslt in a test folder. in the Plug-ins folder..
 
 ```pascal
-PROCEDURE EncryptAllPlugins;
+PROCEDURE TestEncryptPlugins;
 ```
 
 ```python
-def vs.EncryptAllPlugins():
+def vs.TestEncryptPlugins():
     return None
 ```
 

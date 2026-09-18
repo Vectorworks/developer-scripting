@@ -17,6 +17,20 @@ def vs.GetSlabStyle(slab):
 |---|---|---|
 |slab|HANDLE|The slab.|
 
+## Examples
+```pascal
+resultN := GetSlabStyle(slab);
+```
+```python
+import vs
+
+# Gets the Slab Style of a slab.
+slab = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetSlabStyle(slab)
+vs.Message('GetSlabStyle returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetSlabStyle](SetSlabStyle.md)

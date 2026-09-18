@@ -20,6 +20,19 @@ def vs.GetHorizSecCutPlane(hObject):
 * 3 = View as Uncut below when Cut in Viewport
 * 4 = View as Uncut above when Cut in Viewport
 
+## Examples
+```pascal
+resultN := GetHorizSecCutPlane(hObject);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetHorizSecCutPlane(hObject)
+vs.Message('GetHorizSecCutPlane returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

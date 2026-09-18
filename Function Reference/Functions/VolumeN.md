@@ -24,6 +24,19 @@ def vs.VolumeN(c):
 totalVol:=VolumeN((C='Empty Space'));
 ```
 
+```pascal
+resultVal := VolumeN(c);
+```
+```python
+import vs
+
+# Returns the volume of the items matching the specified criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+vol = vs.VolumeN(c)
+vs.Message('VolumeN returned: ' + str(vol))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

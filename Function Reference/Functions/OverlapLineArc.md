@@ -34,6 +34,26 @@ def vs.OverlapLineArc(begPt, endpt, cenPt, radius, startAng, sweepAng, tolerance
 |lapPt2|VECTOR|   |
 |tolerance|REAL|   |
 
+## Examples
+```pascal
+resultOK := OverlapLineArc(begPt, endpt, cenPt, 1.0, 2.0, 0.5, lapPt1, lapPt2, 1.5);
+```
+```python
+import vs
+
+# Finds the overlap of a line and an arc.
+begPt = (0, 0)
+endpt = (2, 2)
+cenPt = (2, 0)
+radius = 1.0
+startAng = 1.0
+sweepAng = 2.0
+tolerance = 0.5
+
+ok, lapPt1, lapPt2 = vs.OverlapLineArc(begPt, endpt, cenPt, radius, startAng, sweepAng, tolerance)
+vs.Message('OverlapLineArc returned: ' + str((ok, lapPt1, lapPt2)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

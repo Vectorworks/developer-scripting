@@ -35,6 +35,33 @@ Loc:=Pos('samp','A sample string');
 
 ```
 
+```pascal
+if Pos(' ', inBearingStr) > 0 then BEGIN {space delimited}
+	while (ValidNumStr(Copy(inBearingStr, 1, 1), num)) & (Len(inBearingStr) > 0) do BEGIN
+		prefix := Concat(prefix, Copy(inBearingStr, 1, 1));
+		Delete(inBearingStr, 1, 1);
+	END;
+
+{parse the hole txtFoundH string in order to separate the KN No. from the rest and thus get its full prefix and suffix}
+if ok then BEGIN
+	{find the start and end position of the prefix-No.-suffix string in  the text.}
+	temppos := Pos( noteNostr, GetText( H ) );
+	{check whether the temppos is not 0, i.e. whether the keynote pref-num-suff is not in the text's object text at all}
+	{if so - use the text's object text as a prefix! followed by ' '}
+	if ( tempPos = 0 ) THEN BEGIN
+		KNprefix := Concat( GetText( H ), ' ', KNprefix);
+
+	IF recordOp = '='
+		THEN tmpStr := '&((R in ['
+		ELSE tmpStr := Concat('&(NOT(R in [');
+	tmpStr := Concat(tmpStr, QStr(recordVa), ']))');
+	IF Pos(tmpStr, SQL) = 0 THEN SQL := Concat(SQL, tmpStr);
+END;
+```
+```python
+result = vs.Pos('Example', 'Example')
+```
+
 ## Version
 Availability: from All Versions
 

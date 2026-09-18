@@ -20,6 +20,20 @@ def vs.EditProperties(c):
 ## Remarks
 Displays the Properties dialog for all objects matching the specified search criteria
 
+## Examples
+```pascal
+EditProperties(c);
+```
+```python
+import vs
+
+# Displays the 'Properties' dialog for all objects matching the specified
+# search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+vs.EditProperties(c)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

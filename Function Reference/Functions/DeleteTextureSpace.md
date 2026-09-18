@@ -23,6 +23,21 @@ def vs.DeleteTextureSpace(obj, partID):
 ## Remarks
 Removes the texture space from this object.  To render textures correctly, an object must have both a non-zero texture ref and a texture space attached.  The reverse of this means that the texture ref for the object should be set to zero when this function is called.
 
+## Examples
+```pascal
+DeleteTextureSpace(obj, 1);
+```
+```python
+import vs
+
+# Function DeleteTextureSpace deletes the texture space attached to the
+# referenced object or object part.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+
+vs.DeleteTextureSpace(obj, partID)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

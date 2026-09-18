@@ -27,6 +27,21 @@ def vs.GetDefGenStoryBound(format):
 |layerLevelType|STRING|The layer type which defines this bound (e.g. &quot;Ceiling&quot;).|
 |offset|REAL|The offset distance from the specified bound story.|
 
+## Examples
+```pascal
+resultOK := GetDefGenStoryBound(format, 1, 2, 'Design Layer-1', 1.0);
+```
+```python
+import vs
+
+# This will get the default story bound for a plugin that has the
+# kObjXPropSupportGenericStoryLevel property.
+format = vs.GetObject('MyRecord')  # handle to a record format
+
+ok, boundType, boundStory, layerLevelType, offset = vs.GetDefGenStoryBound(format)
+vs.Message('GetDefGenStoryBound returned: ' + str((ok, boundType, boundStory, layerLevelType, offset)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

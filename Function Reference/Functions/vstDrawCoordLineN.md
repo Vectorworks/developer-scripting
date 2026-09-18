@@ -19,6 +19,22 @@ def vs.vstDrawCoordLineN(pt1X, pt1Y, pt2X, pt2Y, planeRefID):
 |pt2X, pt2Y|REAL|   |
 |planeRefID|LONGINT|   |
 
+## Examples
+```pascal
+vstDrawCoordLineN(1.0, 2.0, 0.5, 1.5, 1);
+```
+```python
+import vs
+
+pt1X = 1.0
+pt1Y = 2.0
+pt2X = 0.5
+pt2Y = 3.0
+planeRefID = 1
+
+vs.vstDrawCoordLineN(pt1X, pt1Y, pt2X, pt2Y, planeRefID)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

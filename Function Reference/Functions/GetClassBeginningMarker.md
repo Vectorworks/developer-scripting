@@ -59,6 +59,19 @@ def Example():
 Example()
 ```
 
+```pascal
+resultOK := GetClassBeginningMarker('Example', 1, 2, 1.0, 2.0, 3, 0.5);
+```
+```python
+import vs
+
+# Gets all properties for the named class' beginning marker.
+name = 'Example'
+
+ok, style, angle, size, width, thicknessBasis, thickness = vs.GetClassBeginningMarker(name)
+vs.Message('GetClassBeginningMarker returned: ' + str((ok, style, angle, size, width, thicknessBasis, thickness)))
+```
+
 ## See Also
 VS Functions:
 [GetClassEndMarker](GetClassEndMarker.md)

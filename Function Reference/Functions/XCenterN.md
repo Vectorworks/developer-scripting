@@ -23,6 +23,20 @@ XCenValue:=XCenterN(N='Board');
 {returns the x-coord of the center of the bounding box the named object 'Board'
 ```
 
+```pascal
+resultVal := XCenterN(c);
+```
+```python
+import vs
+
+# Returns the x-coordinate of the center point of the bounding box of an
+# object matching the search criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.XCenterN(c)
+vs.Message('XCenterN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

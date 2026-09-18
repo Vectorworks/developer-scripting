@@ -38,6 +38,13 @@ segmentIndex := InsertGradientSliderSegment(dialogID, componentID, 0.4, 255, 255
 
 ```
 
+```pascal
+resultN := InsertGradientSliderSegment(1, 2, 1.0, 3, 10, 5);
+```
+```python
+result = vs.InsertGradientSliderSegment(dialogID, componentID, spotPosition, red, green, blue)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

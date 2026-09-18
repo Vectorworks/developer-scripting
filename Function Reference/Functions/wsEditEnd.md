@@ -17,6 +17,23 @@ def vs.wsEditEnd(restart):
 |---|---|---|
 |restart|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := wsEditEnd(TRUE);
+```
+```python
+import vs
+
+# Finishes workspace edit started with workspaceEditBegin.
+restart = True
+
+ok = vs.wsEditEnd(restart)
+if ok:
+    vs.Message('wsEditEnd succeeded')
+else:
+    vs.Message('wsEditEnd failed')
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

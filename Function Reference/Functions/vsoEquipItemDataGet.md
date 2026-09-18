@@ -22,6 +22,23 @@ def vs.vsoEquipItemDataGet(message, dataIndex):
 |dataIndex|INTEGER|   |
 |outValue|STRING|   |
 
+## Examples
+```pascal
+resultOK := vsoEquipItemDataGet(1, 2, 'Example');
+```
+```python
+import vs
+
+# Gets the specified equipment item data from the
+# ParametricEquipmentItemDataMessage(92) message sent to a Script object
+# based on the dataIndex.
+message = 'Hello Vectorworks'
+dataIndex = 1
+
+ok, outValue = vs.vsoEquipItemDataGet(message, dataIndex)
+vs.Message('vsoEquipItemDataGet returned: ' + str((ok, outValue)))
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

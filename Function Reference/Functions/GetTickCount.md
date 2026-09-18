@@ -40,6 +40,17 @@ def Example():
 Example()
 ```
 
+```pascal
+resultN := GetTickCount;
+```
+```python
+import vs
+
+# Returns number of ticks (1/60th second) since system startup.
+count = vs.GetTickCount()
+vs.Message('GetTickCount returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

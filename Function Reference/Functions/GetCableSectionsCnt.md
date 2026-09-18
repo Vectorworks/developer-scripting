@@ -18,9 +18,22 @@ def vs.GetCableSectionsCnt(hObj):
 |---|---|---|
 |hObj|HANDLE||
 
+## Examples
+```pascal
+resultN := GetCableSectionsCnt(hObj);
+```
+```python
+import vs
+
+# Get the count of cable sections in the cable.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetCableSectionsCnt(hObj)
+vs.Message('GetCableSectionsCnt returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2025.4
 
 ## Category
 * [Objects - Cables](../Categories/Objects%20-%20Cables.md)
-

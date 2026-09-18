@@ -41,6 +41,42 @@ Everything cuts the backmost object, which will be the 1st retrived using [FIn3D
 
 A solid subtraction has object type 84 and subtype 516. Mind, also other objects have type 84, such as Generic Solids (eventually generated using [ExtrudeAlongPath](ExtrudeAlongPath.md))
 
+## Examples
+```pascal
+	ClosePoly;
+	Poly(X-Length, Y-depth+Inset,X-depth+Inset+LeftLength, Y-RightLength-Length,2*(X+Length-depth+Inset+LeftLength)-Length, -2*(Y-RightLength)-Length,2*X-Length,- 2*(Y+Length-depth+Inset)-Length);
+EndXtrd;
+Cut := LNewObj;
+Result := SubtractSolid(Circle,Cut,Temp);
+BeginXtrd(pKick_Height+(HmTDH-pKick_Height)*kBottomDrawerPct, QD3DDelta +pKick_Height+(HmTDH-pKick_Height)*kBottomDrawerPct);
+	Arc(X+inset-Length,Y+inset-Length,X-inset,Y-inset,0,360);
+EndXtrd;
+Circle := LNewObj;
+
+		ELSE {Other cabinets}
+			Rect(X1-kSlatSpace+I*SlatWidth,Y1,X1+kSlatSpace+I*SlatWidth,Y1-SHeight);
+	END;
+EndXtrd;
+I := SubtractSolid(SlabHand,LNewObj,Grooved);
+AttrReconfig(Grooved,parmHand);
+
+resultcode:=AddSolid(hVault1,hVault2,hVaultComb);
+resultcode:=SubtractSolid(hTower,hVaultComb,hCampi);
+SetTextureRef(hCampi,-1,3);
+```
+```python
+import vs
+
+# Function SubtractSolid creates a new solid subtraction object from the
+# referenced source objects.
+obj1 = vs.FSActLayer()  # handle to the first selected object on the active layer
+obj2 = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+resultN, newSolid = vs.SubtractSolid(obj1, obj2)
+vs.Message('SubtractSolid returned: ' + str((resultN, newSolid)))
+```
+See also in tutorials: [06. Boolean Solids: Drill a Hole Through a Block](ai%20examples/06_BooleanSolids.md)
+
 ## Version
 Availability: from MiniCAD 7.0
 

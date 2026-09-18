@@ -33,6 +33,22 @@ def vs.NurbsSetWeight(objectHd, index1, index2, weight):
 ## Remarks
 this function will work for both nurbs curves and nurbs surfaces
 
+## Examples
+```pascal
+NurbsSetWeight(objectHd, 1, 2, 1.0);
+```
+```python
+import vs
+
+# Sets the weight of a point in a NURBS curve or surface.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index1 = 1
+index2 = 1
+weight = 1.0
+
+vs.NurbsSetWeight(objectHd, index1, index2, weight)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

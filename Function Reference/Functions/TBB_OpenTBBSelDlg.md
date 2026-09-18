@@ -24,6 +24,32 @@ def vs.TBB_OpenTBBSelDlg(StyleName, SheetSize, TBWidth, TBHeight):
 |TBWidth|REAL|   |
 |TBHeight|REAL|   |
 
+## Examples
+```pascal
+	GetBooleanItem(dlogID, kTitleBlockBorderGroupBox, gUseTBB);
+	EnableItem(dlogID, kTitleBlockPopup, gUseTBB  AND gDrawBorderNow);
+END;
+kTitleBlockBtn: BEGIN
+	TBB_OpenTBBSelDlg(styleName, sheetSize, tbWidth, tbHeight);
+END;
+
+20: BEGIN
+	TBB_OpenTBBSelDlg(gTitleBlockType, gBorderType, gTBWidth, gTBHeight);
+END;
+```
+```python
+import vs
+
+# Open Title Block Border Selection Dialog.
+StyleName = 'Example'
+SheetSize = 'Example'
+TBWidth = 2.0
+TBHeight = 2.0
+
+StyleName, SheetSize, TBWidth, TBHeight = vs.TBB_OpenTBBSelDlg(StyleName, SheetSize, TBWidth, TBHeight)
+vs.Message('TBB_OpenTBBSelDlg returned: ' + str((StyleName, SheetSize, TBWidth, TBHeight)))
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

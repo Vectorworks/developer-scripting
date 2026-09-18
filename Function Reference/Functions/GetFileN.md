@@ -30,8 +30,6 @@ def vs.GetFileN(title, defaultFolder, mask):
 * mask = ′′ allows selection of any kind of files 
 * mask = 'vwx;txt' allows range of selection (from Pat Stanford on the VS list)
 
-
-
 The GetFileN uses the SDK interface IFileChooserDialog
 
 [[VCOM:Working with File/Folder Choose Dialogs]]
@@ -74,6 +72,35 @@ mask = 'vwx'
 boo, pathName = vs.GetFileN(title, defaultFolder, mask)
 if boo:
     vs.AlrtDialog(pathName)
+```
+
+```pascal
+if GetFileN(GetPlugInString(5004), GetPath(fullName), '', garb_s) then BEGIN
+	fullName := garb_s;
+	SetFileName;
+	ReadFile(TRUE);
+END;
+
+If GetFileN(GetPlugInString(3014), tmpStr, '****', tempPathName) then BEGIN
+	SplitFullName(tempPathName, pathName, fileName);
+	IF FoundPrefSetFlagFile(pathName)
+		THEN BEGIN thePath := pathName; SetItemText(AEDlogID, 6, pathName); END
+		ELSE InvalidValue(AEDlogID, 6, item, GetPluginString(3003));
+END;
+
+if GetFileN(GetPlugInString(4001), gImportFilePath, '', gImportFilePath) THEN BEGIN
+	UseDefaultFileErrorHandling(FALSE);
+```
+```python
+import vs
+
+# Returns the fully-qualified pathname of the selected file.
+title = 'Example'
+defaultFolder = 'C:/Temp'
+mask = 'Example'
+
+ok, fileName = vs.GetFileN(title, defaultFolder, mask)
+vs.Message('GetFileN returned: ' + str((ok, fileName)))
 ```
 
 ## Version

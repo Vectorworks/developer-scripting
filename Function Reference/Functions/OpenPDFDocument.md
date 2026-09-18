@@ -17,6 +17,23 @@ def vs.OpenPDFDocument(inFilenameStr):
 |---|---|---|
 |inFilenameStr|STRING|   |
 
+## Examples
+```pascal
+resultOK := OpenPDFDocument('file.txt');
+```
+```python
+import vs
+
+# Begins the export to a PDF document.
+inFilenameStr = 'C:/Temp/example.txt'
+
+ok = vs.OpenPDFDocument(inFilenameStr)
+if ok:
+    vs.Message('OpenPDFDocument succeeded')
+else:
+    vs.Message('OpenPDFDocument failed')
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

@@ -42,6 +42,33 @@ RUN(Example);
 
 ```
 
+```pascal
+	CreateText(pText);
+	SetTextVerticalAlign(LNewObj, 3);
+	SetTextJust(LNewObj, 2);
+	GetContainerInfo(objHand, containerHandle, containerType, containerScale);
+	SetTextWidth(LNewObj, pText_Width * containerScale);
+END;
+
+	TextOrigin(0, textCenterY * Scale);
+	CreateText(pText);
+	h := LNewObj;
+	SetTextJust(h, 2);
+	SetTextWidth(h, TextBoxWidth * Scale);
+	SetTextVerticalAlign(h, 3);
+	SetFPat(h, 0);
+END;
+
+	CreateText(strBelow);
+h2 := LNewObj;
+SetFPat(h1,0);
+SetFPat(h2,0);
+SetTextWidth(h2,(gScaleFactor*wid));
+```
+```python
+vs.SetTextWidth('Example', 1.0)
+```
+
 ## See Also
 VS Functions:
 [GetTextWidth](GetTextWidth.md)

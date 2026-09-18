@@ -23,6 +23,24 @@ def vs.SetDLComponentClass(index, componentClass):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetDLComponentClass(1, 2);
+```
+```python
+import vs
+
+# Sets the class of the component at index in the Double Line Preferences.
+index = 1
+componentClass = 1
+
+ok = vs.SetDLComponentClass(index, componentClass)
+if ok:
+    vs.Message('SetDLComponentClass succeeded')
+else:
+    vs.Message('SetDLComponentClass failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentClass](GetDLComponentClass.md)

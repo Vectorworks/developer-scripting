@@ -22,6 +22,27 @@ def vs.DegFromStr(fSlopeDef, fSlopeValue):
 |fSlopeValue|STRING|   |
 |fAngle|REAL|   |
 
+## Examples
+```pascal
+BEGIN
+GetItemText(dialogID, kSwapRiseOverRun, tmpStr);
+IF NOT DegFromStr('RiseRun', tmpStr, tmpReal) THEN
+	BEGIN
+	InvalidValue(dialogID, kSwapRiseOverRun, item, getpluginstring(5013));
+	exitProc := TRUE;
+	END
+```
+```python
+import vs
+
+# Converts slope from string format to degrees.
+fSlopeDef = 'Example'
+fSlopeValue = 'Example'
+
+ok, fAngle = vs.DegFromStr(fSlopeDef, fSlopeValue)
+vs.Message('DegFromStr returned: ' + str((ok, fAngle)))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

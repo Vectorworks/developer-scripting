@@ -22,6 +22,25 @@ def vs.SetCompUseClassRPS(object, componentIndex, useClassPenStyleForRightPen):
 |componentIndex|INTEGER|The index of the component.|
 |useClassPenStyleForRightPen|BOOLEAN|Whether or not the component will use class attributes for its right pen style.|
 
+## Examples
+```pascal
+resultOK := SetCompUseClassRPS(object, 1, TRUE);
+```
+```python
+import vs
+
+# Sets the use class pen style for right pen flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+useClassPenStyleForRightPen = True
+
+ok = vs.SetCompUseClassRPS(object, componentIndex, useClassPenStyleForRightPen)
+if ok:
+    vs.Message('SetCompUseClassRPS succeeded')
+else:
+    vs.Message('SetCompUseClassRPS failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompUseClassRPS](GetCompUseClassRPS.md)

@@ -86,6 +86,22 @@ vs.AlrtDialog( "show let you pick a point, and then show a dialog with the objec
 vs.GetPt( PickPointCallback )
 ```
 
+```pascal
+ForEachObjectAtPoint(actionFunc, 1, 2, 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Performs an action for each object at the specified point in the drawing.
+actionFunc = 'Example'
+objOptions = 1
+travOptions = 2
+loc = (0, 0)
+pickRadius = 1.0
+
+vs.ForEachObjectAtPoint(actionFunc, objOptions, travOptions, loc, pickRadius)
+```
+
 ## See Also
 VS Functions:
 [PickObject](PickObject.md) 

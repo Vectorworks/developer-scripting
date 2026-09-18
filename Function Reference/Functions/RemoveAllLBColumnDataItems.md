@@ -22,6 +22,21 @@ def vs.RemoveAllLBColumnDataItems(dialogID, componentID, columnIndex):
 |componentID|LONGINT|id of the list browser control|
 |columnIndex|INTEGER|the index of the column|
 
+## Examples
+```pascal
+RemoveAllLBColumnDataItems(1, 2, 3);
+```
+```python
+import vs
+
+# Removes all column data items.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+
+vs.RemoveAllLBColumnDataItems(dialogID, componentID, columnIndex)
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

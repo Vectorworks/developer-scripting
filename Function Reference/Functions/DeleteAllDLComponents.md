@@ -15,6 +15,21 @@ def vs.DeleteAllDLComponents():
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := DeleteAllDLComponents;
+```
+```python
+import vs
+
+# Deletes all components in the Double Line Preferences.
+ok = vs.DeleteAllDLComponents()
+if ok:
+    vs.Message('DeleteAllDLComponents succeeded')
+else:
+    vs.Message('DeleteAllDLComponents failed')
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

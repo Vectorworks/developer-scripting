@@ -20,6 +20,23 @@ def vs.IFC_DMGetObjCategory(strObjectName):
 |strObjectName|STRING|   |
 |outMappingCategory|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetObjCategory('Example', 1);
+```
+```python
+import vs
+
+# Returns the Category for the Indicated Object.
+strObjectName = 'Example'
+
+ok = vs.IFC_DMGetObjCategory(strObjectName)
+if ok:
+    vs.Message('IFC_DMGetObjCategory succeeded')
+else:
+    vs.Message('IFC_DMGetObjCategory failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

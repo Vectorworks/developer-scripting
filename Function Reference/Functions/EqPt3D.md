@@ -55,6 +55,24 @@ v2 = (12, 1, 999)
 vs.Message( str(vs.EqPt3D(v1, v2, 0)) ) # always returns false! Don't use tolerance zero
 ```
 
+```pascal
+resultOK := EqPt3D(pt1, pt2, 1.0);
+```
+```python
+import vs
+
+# Returns TRUE if the 3D points are equal within the tolerance.
+pt1 = (0, 0)
+pt2 = (1, 1)
+tolerance = 1.0
+
+ok = vs.EqPt3D(pt1, pt2, tolerance)
+if ok:
+    vs.Message('EqPt3D succeeded')
+else:
+    vs.Message('EqPt3D failed')
+```
+
 ## See Also
 VS Functions:
 * [EqualPt](EqualPt.md)

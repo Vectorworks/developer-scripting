@@ -41,6 +41,43 @@ colorIndex = vs.RGBToColorIndex(65535, 0, 39321)
 vs.SetFillFore(h, colorIndex) # using Color Index values
 ```
 
+```pascal
+BEGIN
+	FFillFore (R, G, B);
+	SetFillFore (objectH, R, G, B);
+	FFillBack (R, G, B);
+	SetFillBack (objectH, R, G, B);
+END;
+
+BEGIN
+	SetFillFore( childH, redValue,		greenValue,		blueValue );
+	SetFillBack( childH, redValueBack,	greenValueBack, blueValueBack );
+END;
+
+{set Callout Fill Pattern from the FPat of the TextNote's text block}
+SetFPat( CNH, GetFPat( textFoundH ) );
+{set Callout Fill Pattern Fore color from the FPat fore color of the TextNote's text block}
+GetFillFore( textFoundH, red, green, blue );
+SetFillFore( CNH, red, green, blue );
+{set Callout Fill Pattern Back color from the FPat Back color of the TextNote's text block}
+GetFillBack( textFoundH, red, green, blue );
+SetFillBack( CNH, red, green, blue );
+{====================== Set Attributes ======================}
+```
+```python
+	vs.SetFillColorByClass(hTmpHand)
+else:
+	colorR, colorG, colorB = vs.GetFillFore( gObjHandle )
+	vs.SetFillFore( hTmpHand, ( colorR, colorG, colorB ) )
+
+vs.SetFillBack(objH, vs.GetFillBack(parentH))
+vs.SetFillFore(objH, vs.GetFillFore(parentH))
+vs.SetPenBack(objH, vs.GetPenBack(parentH))
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+vs.SetMarker(objH, start, end, style, size)
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

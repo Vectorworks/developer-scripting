@@ -27,6 +27,22 @@ Set the current choice of the line style popup dialog control to the specified i
 
 \_c\_ (2016.02.29): Expects a dash list index (not usable for VS:Index2Name).
 
+## Examples
+```pascal
+SetLineStyleChoice(1, 2, 3);
+```
+```python
+import vs
+
+# Set the current choice of the line style popup dialog control to the
+# specified index.
+dialogID = 1
+itemID = 2
+lineStyle = 0
+
+vs.SetLineStyleChoice(dialogID, itemID, lineStyle)
+```
+
 ## Version
 Availability: from VectorWorks 12.0
 

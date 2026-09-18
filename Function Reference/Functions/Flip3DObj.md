@@ -46,7 +46,6 @@ EndXtrd;
 
 h1 := LNewObj;
 
-
 Move3DObj( h1, 5', 0 , 0 );
 h2 := CreateDuplicateObject( h1, NIL );
 
@@ -56,6 +55,19 @@ Move3DObj( h2, -5', 0, 0 );
 END;
 
 Run(FlipTest);
+```
+
+```pascal
+Flip3DObj(h, TRUE);
+```
+```python
+import vs
+
+# This function will flip a 3D object either horizontally or vertically.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+horiz = True
+
+vs.Flip3DObj(h, horiz)
 ```
 
 ## Version

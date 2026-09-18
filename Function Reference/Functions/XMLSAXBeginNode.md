@@ -23,6 +23,20 @@ def vs.XMLSAXBeginNode(XMLHandle, nodeName):
 ## Examples
 [XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) or [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
+```pascal
+resultN := XMLSAXBeginNode(1, 'Example');
+```
+```python
+import vs
+
+# Write XML using SAX, begin of a node.
+XMLHandle = 1
+nodeName = 'Example'
+
+resultN = vs.XMLSAXBeginNode(XMLHandle, nodeName)
+vs.Message('XMLSAXBeginNode returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

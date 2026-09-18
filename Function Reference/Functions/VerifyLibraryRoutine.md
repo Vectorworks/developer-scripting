@@ -49,6 +49,46 @@ ELSE
 hasattr( vs, 'FUNCTION_NAME' ) 
 ```
 
+## Examples
+```pascal
+IF (VerifyLibraryRoutine ('SetObjPropCharVS') = TRUE) THEN
+BEGIN
+	resultStatus := SetObjPropVS( kObjXPropHasUIOverride, TRUE );
+	resultStatus := SetObjPropCharVS(kObjXPropSpecialEdit, Chr(kCustomSpecialEdit));
+	resultStatus := SetObjPropVS(kObjXPropTextStyleSupport, TRUE);
+	resultStatus := SetObjPropVS(kObjXHasCustomWidgetVisibilities, TRUE );
+	resultStatus := SetObjPropCharVS(kObjXPropTopPlanViewComponent,	Chr(kObjXPropTopAndBottomComponent));
+
+BEGIN
+	IF (VerifyLibraryRoutine('SetObjPropCharVS') = TRUE) THEN
+		BEGIN
+		bsb := SetObjPropCharVS(kObjXPropEditGroup, Chr(kObjXPropEditGroupPath));
+		bsb := SetObjPropCharVS(kObjXPropSpecialEdit, Chr(kReshapeSpecialEdit));
+		END;
+
+kObjOnInitXProperties: BEGIN
+	IF (VerifyLibraryRoutine ('SetObjPropCharVS') = TRUE) THEN
+	BEGIN
+		resultStatus := SetObjPropVS (12, TRUE); {kObjXHasCustomWidgetVisibilities} {send kObjOnWidgetPrep}
+		resultStatus := SetObjPropVS (kObjXPropHasUIOverride, TRUE);
+		resultStatus := SetObjPropVS (kObjXPropHasLayerScaleDeps, TRUE);
+		resultStatus := SetObjPropVS (kObjXPropPreference, TRUE);
+		resultStatus := SetObjPropCharVS(kObjXPropSpecialEdit, Chr(kCustomSpecialEdit));
+```
+```python
+import vs
+
+# Verifies that a procedure or function call located in a VectorScript
+# extension is registered and available for use in scripts.
+routineName = 'Example'
+
+ok = vs.VerifyLibraryRoutine(routineName)
+if ok:
+    vs.Message('VerifyLibraryRoutine succeeded')
+else:
+    vs.Message('VerifyLibraryRoutine failed')
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

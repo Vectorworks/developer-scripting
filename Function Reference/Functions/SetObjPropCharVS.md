@@ -51,6 +51,35 @@ ok = vs.SetObjPropCharVS( kObjProp_SpecialEdit, chr(kObjProp_SpecialEdit_Custom)
 ok = vs.SetObjPropCharVS( kObjProp_WidgetGroupMode, chr(kPbjProp_WidgetGroupMode_Automatic) )
 ```
 
+## Examples
+```pascal
+bsb := SetObjPropVS(kObjXSupportsStyles, TRUE );
+bsb := SetObjPropVS(kObjXPropSupportResourcePopup, TRUE);
+bsb := SetObjPropVS(kObjXHasCustomWidgetVisibilities, TRUE );
+bsb := SetObjPropVS(kObjXPropCatalogSupport, TRUE);
+bsb := SetObjPropCharVS(kObjXPropDefaultHorizontalSectionCutPlane,	Chr(kObjXPropUncutBeyondInViewport));
+bsb := SetObjPropCharVS(kObjXPropDefaultVerticalSectionCutPlane,	Chr(kObjXPropViewAsCutInViewport));
+
+BEGIN
+	resultStatus := SetObjPropVS( kObjXPropHasUIOverride, TRUE );
+	resultStatus := SetObjPropCharVS(kObjXPropSpecialEdit, Chr(kCustomSpecialEdit));
+	resultStatus := SetObjPropVS(kObjXPropTextStyleSupport, TRUE);
+	resultStatus := SetObjPropVS(kObjXHasCustomWidgetVisibilities, TRUE );
+	resultStatus := SetObjPropCharVS(kObjXPropTopPlanViewComponent,	Chr(kObjXPropTopAndBottomComponent));
+
+BEGIN
+	result := SetObjPropVS(kObjXPropSupportResourcePopup, TRUE);
+	result := SetObjPropVS(kObjXSupportsStyles, TRUE );
+	result := SetObjPropCharVS(kObjXPropDefaultHorizontalSectionCutPlane,	Chr(kObjXPropUncutBeyondInViewport));
+	result := SetObjPropCharVS(kObjXPropDefaultVerticalSectionCutPlane,		Chr(kObjXPropUncutBeyondInViewport));
+END;
+```
+```python
+# Sets widget group mode to automatic.
+ok = vs.SetObjPropCharVS( vs.kWidgetGroupMode, vs.Chr(vs.kWidgetGroupAutomatic))
+```
+See also in tutorials: [Plug-in with widgets, basic example (Python)](../../Common/Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
+
 ## Version
 Availability: from All Versions
 

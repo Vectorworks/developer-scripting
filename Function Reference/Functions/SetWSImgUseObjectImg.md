@@ -28,6 +28,24 @@ def vs.SetWSImgUseObjectImg(worksheet, topRow, leftColumn, bottomRow, rightColum
 |rightColumn|INTEGER|Right column of cell range.|
 |useObjectImage|BOOLEAN|The use object image state.|
 
+## Examples
+```pascal
+SetWSImgUseObjectImg(worksheet, 1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Set state of worksheet cell's use object image.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+useObjectImage = True
+
+vs.SetWSImgUseObjectImg(worksheet, topRow, leftColumn, bottomRow, rightColumn, useObjectImage)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

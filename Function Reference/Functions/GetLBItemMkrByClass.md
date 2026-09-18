@@ -26,6 +26,23 @@ def vs.GetLBItemMkrByClass(dialogID, componentID, itemIndex, subItemIndex):
 |subItemIndex|INTEGER|the column index|
 |isByClass|BOOLEAN|if the marker is by class or not|
 
+## Examples
+```pascal
+resultOK := GetLBItemMkrByClass(1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Gets if the specified list browser item's marker is by class.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, isByClass = vs.GetLBItemMkrByClass(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemMkrByClass returned: ' + str((ok, isByClass)))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

@@ -34,6 +34,22 @@ RUN(Test);
 ok = vs.IFC_DMLoadSettings('MyIFCMapping')
 ```
 
+```pascal
+resultOK := IFC_DMLoadSettings('Example');
+```
+```python
+import vs
+
+# Loads the indicated IFC Data Mapping to Document.
+inStrParam = 'Example'
+
+ok = vs.IFC_DMLoadSettings(inStrParam)
+if ok:
+    vs.Message('IFC_DMLoadSettings succeeded')
+else:
+    vs.Message('IFC_DMLoadSettings failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

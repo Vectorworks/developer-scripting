@@ -47,6 +47,41 @@ RUN(Example);
 
 ```
 
+```pascal
+{fMark}
+BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+{Mark 0,0,0}
+BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+GetVersion(version,vdummy,vdummy,vdummy);
+IF (version > 9) THEN SetObjectVariableBoolean(parmHand, kFontPropertySelector, TRUE);
+pathHand := GetCustomObjectPath(parmHand);
+
+BEGIN
+arrowindex := str2num(copy(pArrowStyle,1,1));
+BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+CASE arrowindex OF
+	0: BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);{Mrk(0,0.25 * pMkrScaleFactor,15);}
+	1: BSB := SetDefaultEndMarker(0,15,0.25 * pMkrScaleFactor,0,2,2,TRUE);{Mrk(2,0.25 * pMkrScaleFactor,15);}
+	2: BSB := SetDefaultEndMarker(0,35,0.25 * pMkrScaleFactor,0,2,2,TRUE); {Mrk(2,0.25 * pMkrScaleFactor,35);}
+
+BEGIN
+	{FMar}
+	BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+	BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+	BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+	BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+	Loop(x, y, x2, y2, kLassoDia);
+	SetLW ( LNewObj, kThLnWeight);
+	IF (gTagIdx = 2) THEN j := -1 ELSE j := 1;
+```
+```python
+result = vs.SetDefaultBeginningMarker(style, 1.0, 2.0, 0.5, 1.0, 2.0, True)
+```
+
 ## See Also
 VS Functions:
 [SetDefaultEndMarker](SetDefaultEndMarker.md)

@@ -32,6 +32,19 @@ ClearGradientSliderSegments(dialogID, componentID);
 vsClearGradientSliderSegments(dialogID, componentID)
 ```
 
+```pascal
+ClearGradientSliderSegments(1, 2);
+```
+```python
+import vs
+
+# Removes all segments (except for 2) from the gradient slider.
+dialogID = 1
+componentID = 2
+
+vs.ClearGradientSliderSegments(dialogID, componentID)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

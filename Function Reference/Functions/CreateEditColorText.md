@@ -24,6 +24,23 @@ def vs.CreateEditColorText(dialogID, itemID, widthInStdChar, heightInLines):
 |widthInStdChar|LONGINT|The width of the displayed text in standard character count. See GetDlgCtrlWidthStdCh.|
 |heightInLines|LONGINT|Height of the control in lines.|
 
+## Examples
+```pascal
+CreateEditColorText(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Create a text box allowing collor and collapsing of text.
+dialogID = 1
+itemID = 2
+widthInStdChar = 3
+heightInLines = 10
+
+vs.CreateEditColorText(dialogID, itemID, widthInStdChar, heightInLines)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

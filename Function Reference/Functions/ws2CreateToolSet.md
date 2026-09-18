@@ -34,6 +34,26 @@ Icon_dark.svg
 
 Icon_dark@2X.svg
 
+## Examples
+```pascal
+resultOK := ws2CreateToolSet(toolPath, univName, displayName, iconFullFilePath);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+univName = 'Example'
+displayName = 'Example'
+iconFullFilePath = 'C:/Temp'
+
+ok = vs.ws2CreateToolSet(toolPath, univName, displayName, iconFullFilePath)
+if ok:
+    vs.Message('ws2CreateToolSet succeeded')
+else:
+    vs.Message('ws2CreateToolSet failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

@@ -35,6 +35,34 @@ The visibility status does not reset itself.  That is, if you want to toggle vis
 
 [David Bengali, 2020/06/26]: index seems to match not the name of the control point parameter, but its ordinal position in the PIO definition. e.g., if CONTROLPOINT03X, CONTROLPOINT03Y are listed first and CONTROLPOINT01X, CONTROLPOINT02X are listed next, possibly with some non control-point params in between, controlpoint03 will respond to index 1 and controlpoint01 will respond to index 2. (Observed with python, not tested with VS)
 
+## Examples
+```pascal
+BEGIN
+	PushAttrs;
+	SetCntrlPtVis(gPluginH, 1, (pDisplay_ID) & (pColumn_ID <> ''));
+
+		SetRField(parmHand,parmName,'ControlPoint01y','0.00');
+		END;
+	END; {of CASE}
+{Handle CP Visibility}
+SetCntrlPtVis(parmHand,1,(LLChoice > 2));
+END;
+
+status := GetLocalizedPluginChoice( objName, 'Leader Style', kStraightStyleIndex, straightLeaderStyle );
+SetCntrlPtVis( objHand, 1, ( (( pLeader_Style <> straightLeaderStyle ) & (pLeader_Style <> kStraightLeaderStyle)) ) );
+SetCntrlPtVis( objHand, 2, ( (( pLeader_Style <> straightLeaderStyle ) & (pLeader_Style <> kStraightLeaderStyle)) ) );
+```
+```python
+import vs
+
+# Sets the visibility of the specified control point.
+inCustomObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+inContrlPtIndex = 1
+inIsVisible = True
+
+vs.SetCntrlPtVis(inCustomObj, inContrlPtIndex, inIsVisible)
+```
+
 ## Version
 Availability: from All Versions
 

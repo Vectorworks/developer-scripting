@@ -72,6 +72,20 @@ if hSpace != vs.Handle(0):
 	ok	= vs.IFC_GetSpaceParamFO( hSpace, '3', res )
 ```
 
+```pascal
+resultOK := IFC_GetSpaceParamFO(hSpace, 'Example', 'Example');
+```
+```python
+import vs
+
+# Gets the space type, name or number of the Space object.
+hSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrParam = 'Example'
+
+ok, outStrResult = vs.IFC_GetSpaceParamFO(hSpace, inStrParam)
+vs.Message('IFC_GetSpaceParamFO returned: ' + str((ok, outStrResult)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

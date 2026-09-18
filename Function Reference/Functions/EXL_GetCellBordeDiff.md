@@ -24,6 +24,22 @@ def vs.EXL_GetCellBordeDiff(sheetIndex, cellRow, cellColumn):
 |cellColumn|INTEGER|   |
 |outInconsistencyFound|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := EXL_GetCellBordeDiff(1, 2, 3, TRUE);
+```
+```python
+import vs
+
+# Check is inconsistency found on cell borders.
+sheetIndex = 1
+cellRow = 10
+cellColumn = 5
+
+ok, outInconsistencyFound = vs.EXL_GetCellBordeDiff(sheetIndex, cellRow, cellColumn)
+vs.Message('EXL_GetCellBordeDiff returned: ' + str((ok, outInconsistencyFound)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

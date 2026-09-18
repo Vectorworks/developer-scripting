@@ -32,6 +32,32 @@ dim_offset:= GetObjectVariableReal(h,4);
 dim_offset = vs.GetObjectVariableReal(h,4)
 ```
 
+```pascal
+BEGIN
+VPHand := GetVPGroupParent(GetParent(ParentObj));
+IF (VPHand <> NIL) & (GetType(VPHand) = 122) THEN
+	gLayerScaleFact := GetObjectVariableReal(GetVPGroupParent(GetParent(ParentObj)), 1003);
+END;
+
+BEGIN
+	viewportRotationAngle := GetObjectVariableReal(myObjectHandle,1026);
+END;
+
+if str <> '' then BEGIN
+	version := Str2Num(str);
+	GetContainerInfo(parmH, containerHandle, containerType, containerScale);
+	if version >= 1000 then BEGIN
+		fieldVal := GetObjectVariableReal(parmH, 17) * (72.0/25.4) / containerScale;
+		SetRField(parmH, parmN, fieldN, Num2Str(3, fieldVal));
+	end else if (ValidNumStr(GetRField(parmH, parmN, fieldN), fieldVal)) & (fieldVal > 0) then BEGIN
+		SetObjectVariableReal(parmH, 17, fieldVal * (25.4/72.0) * containerScale); {pts to world coords}
+		TextSize(fieldVal);
+```
+```python
+if containerHandle != None:
+	containerScale = vs.GetObjectVariableReal( containerHandle, 1003 )
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

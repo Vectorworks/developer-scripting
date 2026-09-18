@@ -22,6 +22,25 @@ def vs.SetScriptResource(scriptName, script, python):
 |script|DYNARRAY[] of CHAR|The script text.|
 |python|BOOLEAN|Pass TRUE if the script text contains python script. Otherwise it will be considered VectorScript.|
 
+## Examples
+```pascal
+resultOK := SetScriptResource('Example', script, TRUE);
+```
+```python
+import vs
+
+# Set the script text of the specified script resource.
+scriptName = 'Example'
+script = 'Example'
+python = True
+
+ok = vs.SetScriptResource(scriptName, script, python)
+if ok:
+    vs.Message('SetScriptResource succeeded')
+else:
+    vs.Message('SetScriptResource failed')
+```
+
 ## See Also
 VS Functions:
 [CreateScriptResource](CreateScriptResource.md) 

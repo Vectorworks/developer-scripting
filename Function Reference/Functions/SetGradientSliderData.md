@@ -45,6 +45,13 @@ SetGradientSliderData(dialogID, componentID, segmentIndex, 0.9, 0.5, 255, 255, 2
 
 ```
 
+```pascal
+SetGradientSliderData(1, 2, 3, 1.0, 2.0, 10, 5, 1);
+```
+```python
+result = vs.SetGradientSliderData(dialogID, componentID, 1, spotPosition, midpointPosition, red, green, blue)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

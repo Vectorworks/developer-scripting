@@ -28,6 +28,23 @@ In Python this function will _NOT_ block execution. It will execute a callback f
 ## Examples
 on sample is similar to the sample in [GetPt](GetPt.md).
 
+```pascal
+GetLine3D(1.0, 2.0, 0.5, 1.5, 3.0, 1.0, TRUE);
+```
+```python
+import vs
+
+# Procedure GetLine3D returns two user selected points, and draws a temporary
+# &quot;rubberband&quot; 3D line when prompting for the second point.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+useWP = True
+callback = handle_object
+
+vs.GetLine3D(useWP, callback)
+```
+
 ## See Also
 VS Functions:
 [GetPt](GetPt.md) |

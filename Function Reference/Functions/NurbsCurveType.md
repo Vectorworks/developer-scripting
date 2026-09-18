@@ -24,6 +24,20 @@ def vs.NurbsCurveType(objectHd, index):
 |index|LONGINT|Index of curve segment.|
 |isByFit|BOOLEAN|Type of curve segment.|
 
+## Examples
+```pascal
+NurbsCurveType(objectHd, 1, TRUE);
+```
+```python
+import vs
+
+# Returns the curve type of a segment of the referenced NURBS curve.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+result = vs.NurbsCurveType(objectHd, index)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

@@ -24,6 +24,21 @@ def vs.GetLineTypeAtIndex(dialogID, itemID, index):
 |index|INTEGER|The choice index.|
 |lineType|LONGINT|The internal index (reference number) of the line type.|
 
+## Examples
+```pascal
+GetLineTypeAtIndex(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Get the line type at the specified index in the line style control.
+dialogID = 1
+itemID = 2
+index = 1
+
+result = vs.GetLineTypeAtIndex(dialogID, itemID, index)
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

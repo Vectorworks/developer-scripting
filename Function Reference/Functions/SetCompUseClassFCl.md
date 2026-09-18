@@ -22,6 +22,25 @@ def vs.SetCompUseClassFCl(object, componentIndex, useClassFillColorsForFill):
 |componentIndex|INTEGER|The index of the component.|
 |useClassFillColorsForFill|BOOLEAN|Whether or not the component will use class attributes for its fill colors.|
 
+## Examples
+```pascal
+resultOK := SetCompUseClassFCl(object, 1, TRUE);
+```
+```python
+import vs
+
+# Sets the use class fill colors for fill flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+useClassFillColorsForFill = True
+
+ok = vs.SetCompUseClassFCl(object, componentIndex, useClassFillColorsForFill)
+if ok:
+    vs.Message('SetCompUseClassFCl succeeded')
+else:
+    vs.Message('SetCompUseClassFCl failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompUseClassFCl](GetCompUseClassFCl.md)

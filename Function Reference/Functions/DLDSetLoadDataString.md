@@ -22,6 +22,43 @@ def vs.DLDSetLoadDataString(selector, value):
 |selector|INTEGER|   |
 |value|STRING|   |
 
+## Examples
+```pascal
+DLDBeginLoadData( kDLDTypePointLoad );
+	DLDSetLoadDataBool	( kDLDEnableWeightWidget,FALSE);
+	DLDSetLoadDataBool	( kDLDSelectorInclude, TRUE );
+	DLDSetLoadDataString( kDLDSelectorGroupName, 'Audio' );
+	DLDSetLoadDataString( kDLDSelectorLoadName,GetPlugInString(20000));
+	DLDSetLoadDataString( kDLDPositionParamName,'Position');
+DLDEndLoadData;
+
+DLDBeginLoadData( kDLDTypePointLoad );
+	DLDSetLoadDataBool	( kDLDEnableWeightWidget,	FALSE);
+	DLDSetLoadDataBool	( kDLDSelectorInclude,		TRUE );
+	DLDSetLoadDataString( kDLDSelectorGroupName,	'Audio' );
+	DLDSetLoadDataString( kDLDSelectorLoadName, 	GetPlugInString(15000));
+	DLDSetLoadDataString( kDLDPositionParamName,	'Position');
+DLDEndLoadData;
+
+DLDBeginLoadData( kDLDTypePointLoad );
+	DLDSetLoadDataBool	( kDLDEnableWeightWidget,FALSE);
+	DLDSetLoadDataBool	( kDLDSelectorInclude, TRUE );
+	DLDSetLoadDataString( kDLDSelectorGroupName, 'Audio' );
+	DLDSetLoadDataString( kDLDSelectorLoadName,GetPlugInString(10000));
+	DLDSetLoadDataString( kDLDPositionParamName,'Position');
+DLDEndLoadData;
+```
+```python
+import vs
+
+# Using selector, sets default load data with string value for the parametric
+# object.
+selector = 1
+value = 'Example'
+
+vs.DLDSetLoadDataString(selector, value)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

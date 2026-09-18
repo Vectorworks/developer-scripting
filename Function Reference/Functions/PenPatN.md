@@ -36,6 +36,34 @@ PenPatN(-indx);
 { makes 'ISO-02 Dashed' as the active pen pattern }
 ```
 
+```pascal
+	PenPatN(CurrentPenPat);
+END
+
+BEGIN
+	GetPenFore (gWallHand,r,g,b);
+	PenFore (r,g,b);
+	Pensize (GetLW (gWallHand));
+	PenPatN (GetLSN (gWallHand));
+	GetFillBack (gWallHand,r,g,b);
+	FillBack (r,g,b);
+END;
+
+savePenPat := FPenPatN;
+savePenSize := FPenSize;
+FPenFore(saveR, saveG, saveB);
+PenPatN(gLeaderType);
+PenSize(gLeaderThickness);
+GetPenFore(ActiveParmHand, r, g, b);
+PenFore(r, g, b);
+MoveTo(bubbleIntPt.x, bubbleIntPt.y);
+```
+```python
+if not vs.IsLSByClass( objHand ):
+	penPat	= vs.GetLSN( objHand )
+	vs.PenPatN( penPat )
+```
+
 ## See Also
 VS Functions:
 [FPenPatN](FPenPatN.md)

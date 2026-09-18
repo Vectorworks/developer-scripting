@@ -57,6 +57,35 @@ RUN(PaintTagWorking);
 
 ```
 
+```pascal
+BEGIN
+	For cnt := 0 to gNumColors-1 DO
+		IF IsUserColor(cnt,ColorName) THEN
+			BEGIN
+			NumUserColors := NumUserColors+1;
+			colorIndex[NumUserColors] := cnt;
+			END;
+
+ColorNameLong := ColorName;
+IF (IsUserColor(ColorChoiceNdx,ColorNameLong))&(ColorNameLong<>' ') THEN
+	BEGIN
+		bFlipTexture := SetLBItemInfo( dialog, kFrntMltColBrowser, Row, 1,Concat(ColorNameLong), 0 );
+	END
+
+BEGIN
+ColorName := '';
+IF IsUserColor(cnt,ColorName) THEN
+	BEGIN
+	UprString(ColorName);
+	IF LightColor = ColorName THEN
+		BEGIN
+		ColorNameToIndex := cnt;
+		Found := TRUE;
+```
+```python
+result = vs.IsUserColor(ColorIDX)
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

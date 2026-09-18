@@ -20,13 +20,25 @@ def vs.DoMenuText(menuItem):
 ## Remarks
 As of 9.0.0b7, DoMenuText will generate a runtime error if the user attempts to execute a main application menu item. It will continue to work wor worksheet menu items using the WS prefix until 10.0.0, when it will be removed completely. - PCP 12-21-2000
 
+## Examples
+```pascal
+DoMenuText('Example');
+```
+```python
+import vs
+
+# Obsolete procedure.
+menuItem = 'Example'
+
+vs.DoMenuText(menuItem)
+```
+
 ## See Also
 VS Functions:
 [DoMenuTextByName](DoMenuTextByName.md)
 
 ## Version
 DoMenuText is obsolete as of VectorWorks8.0<P>
-
 
 Availability: from MiniCAD4.0
 

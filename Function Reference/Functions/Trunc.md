@@ -47,6 +47,38 @@ Trunc(0.94); { returns 0 }
 
 ```
 
+```pascal
+BEGIN
+	degrees    := Trunc(inAngle);
+	tmpDecimal := inAngle - degrees;
+	minutes    := Trunc(tmpDecimal * 60.0);
+	tmpDecimal := (tmpDecimal * 60.0) - minutes;
+	seconds    := Round(tmpDecimal * 60.0);
+
+BEGIN
+NumSlats := Trunc(abs(SLength)/kSlatWidth);
+SlatWidth := Abs(SLength)/NumSlats;
+NumSlats := NumSlats-1;
+CASE Arch OF
+	4,5 :
+
+n := -1;
+REPEAT
+	n := n + 1;
+	a0 := a * 10^n;
+	frac := a0 - Trunc (a0);
+UNTIL (frac < 1e-10) OR (n = 9);
+numPlaces := n;
+```
+```python
+if sweepTmp > 90:
+	n = vs.Trunc( sweep2D / 90.00001 )
+	i = 1
+	while (i <= n ):
+		# Draw road bed
+		DrawParallelArcs( vs.PRadius - vs.PWidth / 2, 90, vs.PWidth, gPaving_Class )
+```
+
 ## Version
 Availability: from All Versions
 

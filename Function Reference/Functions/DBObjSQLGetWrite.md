@@ -20,6 +20,20 @@ def vs.DBObjSQLGetWrite(hRecord):
 |hRecord|HANDLE|   |
 |SQLSentence|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := DBObjSQLGetWrite(hRecord, SQLSentence);
+```
+```python
+import vs
+
+# Get an object's SQL sentence for ODBC write.
+hRecord = vs.GetObject('MyRecord')  # handle to a record format
+
+ok, SQLSentence = vs.DBObjSQLGetWrite(hRecord)
+vs.Message('DBObjSQLGetWrite returned: ' + str((ok, SQLSentence)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

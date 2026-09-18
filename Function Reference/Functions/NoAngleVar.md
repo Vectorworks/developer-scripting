@@ -34,6 +34,16 @@ run(test);
 vs.NoAngleVar()
 ```
 
+```pascal
+NoAngleVar;
+```
+```python
+import vs
+
+# Sets the angle designation method in VectorScript.
+vs.NoAngleVar()
+```
+
 ## Version
 Availability: from All Versions
 

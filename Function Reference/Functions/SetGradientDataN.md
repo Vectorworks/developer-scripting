@@ -38,6 +38,26 @@ segmentIndex := 4;
 SetGradientData(gradientHandle, segmentIndex, 0.9, 0.5, 255, 255, 255,100);
 ```
 
+```pascal
+SetGradientDataN(gradient, 1, 1.0, 2.0, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Note: you must use a variable, initialized to the segment index, to pass as
+# a parameter.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+segmentIndex = 1
+spotPosition = 1.0
+midpointPosition = 2.0
+red = 65535
+green = 0
+blue = 0
+opacity = 1
+
+result = vs.SetGradientDataN(gradient, segmentIndex, spotPosition, midpointPosition, red, green, blue, opacity)
+```
+
 ## See Also
 VS Functions:
 [GetGradientDataN](GetGradientDataN.md) 

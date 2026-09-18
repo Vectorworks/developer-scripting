@@ -69,6 +69,23 @@ Create3Dobj := LNewObj;
 END;
 ```
 
+## Examples
+```pascal
+resultH := HExtrude(objectH, 1.0, 2.0);
+```
+```python
+import vs
+
+# Creates an extrude object from the specified object.
+objectH = vs.FSActLayer()  # handle to the first selected object on the active layer
+bottom = 1.0
+top = 2.0
+
+objHandle = vs.HExtrude(objectH, bottom, top)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

@@ -33,6 +33,20 @@ def vs.StairGetOptTotalRise(stair):
 |---|---|---|
 |stair|HANDLE|   |
 
+## Examples
+```pascal
+resultN := StairGetOptTotalRise(stair);
+```
+```python
+import vs
+
+# Returns Stair Total Rise Option.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.StairGetOptTotalRise(stair)
+vs.Message('StairGetOptTotalRise returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

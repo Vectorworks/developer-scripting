@@ -22,6 +22,13 @@ imageHandle := ShowCreateImageDialog;
 
 ```
 
+```pascal
+resultH := ShowCreateImageDialog;
+```
+```python
+result = vs.ShowCreateImageDialog()
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

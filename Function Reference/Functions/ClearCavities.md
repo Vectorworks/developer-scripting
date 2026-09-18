@@ -15,9 +15,19 @@ def vs.ClearCavities():
 ## Examples
 [CreateWallObject2](examples/CreateWallObject2.md)
 
+```pascal
+ClearCavities;
+```
+```python
+import vs
+
+# Procedure ClearCavities resets the default cavity style of wall objects to
+# no cavities.
+vs.ClearCavities()
+```
+
 ## Version
 ClearCavities is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from MiniCAD4.0
 

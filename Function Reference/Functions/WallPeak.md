@@ -35,6 +35,18 @@ WallPeak(3'-6&quot;,9'-0&quot;);
 
 ```
 
+```pascal
+SetTextureRef(lNewObj,-1,7);
+WallCap(FALSE,FALSE,FALSE,-3*upi,3*upi);
+WallCap(TRUE,FALSE,FALSE,3*upi,-3*upi);
+result := SetWallOverallHeights(lnewobj,0,0,'',cHeight,0,0,'',cHeight);
+WallPeak((cWidth/2-3*upi),cRise+cHeight);
+ResetObject(lNewObj);
+```
+```python
+vs.WallPeak(1.0, 2.0)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

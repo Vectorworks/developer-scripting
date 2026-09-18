@@ -48,6 +48,22 @@ END;
 Run(CreateNurbsSurf);
 ```
 
+## Examples
+```pascal
+resultOK := CreateSurfacefromCurvesNetwork;
+```
+```python
+import vs
+
+# This function will create a NURBS surface from a network of selected
+# intersecting curves in the document.
+ok = vs.CreateSurfacefromCurvesNetwork()
+if ok:
+    vs.Message('CreateSurfacefromCurvesNetwork succeeded')
+else:
+    vs.Message('CreateSurfacefromCurvesNetwork failed')
+```
+
 ## Version
 Availability: from VectorWorks 10.0
 

@@ -28,6 +28,24 @@ def vs.SetLBOrigNameClLevel(dialogID, componentID, originalName, level1Closed, l
 |level2Closed|BOOLEAN|Whether the item's level 2 container is closed.|
 |level3Closed|BOOLEAN|Whether the item's level 3 container is closed.|
 
+## Examples
+```pascal
+SetLBOrigNameClLevel(1, 2, 'Example', TRUE, FALSE, TRUE);
+```
+```python
+import vs
+
+# This function sets the closed levels for an original item in the list browser.
+dialogID = 1
+componentID = 2
+originalName = 'Example'
+level1Closed = False
+level2Closed = False
+level3Closed = False
+
+vs.SetLBOrigNameClLevel(dialogID, componentID, originalName, level1Closed, level2Closed, level3Closed)
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

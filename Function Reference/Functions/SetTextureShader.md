@@ -23,9 +23,23 @@ def vs.SetTextureShader(texture, shaderIndex):
 ## Remarks
 Sets the shader to a LightWorks internal property ref.
 
+## Examples
+```pascal
+SetTextureShader(texture, 1);
+```
+```python
+import vs
+
+# Procedure SetTextureShader sets the LightWorks internal property reference
+# ID for the shader attached to the referenced texture.
+texture = vs.FSActLayer()  # handle to the first selected object on the active layer
+shaderIndex = 1
+
+vs.SetTextureShader(texture, shaderIndex)
+```
+
 ## Version
 SetTextureShader is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

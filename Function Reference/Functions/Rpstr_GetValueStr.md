@@ -36,6 +36,28 @@ bool CDlgXXX::CreateDialogLayout()
 }
 ```
 
+## Examples
+```pascal
+			 '', '', alrtOpts ) );
+	END;
+	END
+	ELSE
+		listSetting := Rpstr_GetValueStr( kSettingDefList, '1' );
+	proceed := (listSetting = '1');
+	Rpstr_SetValueStr( kSettingDefList, listSetting );
+END
+```
+```python
+import vs
+
+# Get a string value from the VectorScript value repository.
+name = 'Example'
+defaultValue = 'Example'
+
+text = vs.Rpstr_GetValueStr(name, defaultValue)
+vs.Message('Rpstr_GetValueStr returned: ' + str(text))
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

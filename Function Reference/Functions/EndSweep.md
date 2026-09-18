@@ -38,6 +38,15 @@ vs.Poly(3 + 1/4,-1/2,3 + 1/4,-1,2 + 3/4,-1,
 vs.EndSweep()
 ```
 
+```pascal
+EndSweep;
+```
+```python
+vs.Locus((vs.PRadius+vs.PCurb_Width+(vs.PWidth/2)),0); SetAttrsByClassOrParent( vs.LNewObj(), gObjHandle, gCurb_Class )
+vs.EndSweep()
+```
+See also in tutorials: [05. Turn a Column Profile with Sweep](ai%20examples/05_SweepColumnAndTorus.md)
+
 ## Version
 Availability: from All Versions
 

@@ -26,6 +26,26 @@ def vs.ExtendNurbsSurface(surfaceHandle, distance, bStart, bLinear, bUDir):
 |bLinear|BOOLEAN|True for linear, false to match curvature of existing surface.|
 |bUDir|BOOLEAN|True extends the surface in the u parametric|direction, otherwise extends it in the v parametric direction.|
 
+## Examples
+```pascal
+resultH := ExtendNurbsSurface(surfaceHandle, 1.0, TRUE, FALSE, TRUE);
+```
+```python
+import vs
+
+# Extends a surface by a given distance at the start or the end of the U
+# direction or V direction.
+surfaceHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+distance = 1.0
+bStart = True
+bLinear = True
+bUDir = True
+
+objHandle = vs.ExtendNurbsSurface(surfaceHandle, distance, bStart, bLinear, bUDir)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

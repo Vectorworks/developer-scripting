@@ -32,6 +32,24 @@ def vs.InsertGradientSliSeg(dialogID, componentID, spotPosition, red, green, blu
 segmentIndex := InsertGradientSliSeg(dialogID, componentID, 0.4, 255, 255, 255, 100);
 ```
 
+```pascal
+resultN := InsertGradientSliSeg(1, 2, 1.0, 3, 10, 5, 1);
+```
+```python
+import vs
+
+dialogID = 1
+componentID = 2
+spotPosition = 1.0
+red = 65535
+green = 0
+blue = 0
+opacity = 3
+
+resultN = vs.InsertGradientSliSeg(dialogID, componentID, spotPosition, red, green, blue, opacity)
+vs.Message('InsertGradientSliSeg returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [GetGradientSlider](GetGradientSlider.md) 

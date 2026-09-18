@@ -41,6 +41,25 @@ vs.Add3DPt(0,0,0)
 vs.EndPoly3D()
 ```
 
+```pascal
+EndPoly3D;
+```
+```python
+vs.EndPoly3D()
+vs.SetPadAttrs( vs.LNewObj() )
+
+vs.Add3DPt( length, width + vs.PCurb_Width + gDTM, vs.PRise )
+vs.Add3DPt( length, -( width + vs.PCurb_Width + gDTM ), vs.PRise )
+vs.Add3DPt( 0, -( width + vs.PCurb_Width + gDTM ), 0 )
+vs.EndPoly3D()
+vs.SetPadAttrs( vs.LNewObj() )
+
+vs.Add3DPt( vs.PThroat_Width + vs.PCurb_Width, 0, vs.PRise )
+vs.EndPoly3D()
+vs.HMoveBackward( vs.LNewObj(), True )
+vs.SetPadAttrs( vs.LNewObj() )
+```
+
 ## See Also
 VS Functions:
 [BeginPoly3D](BeginPoly3D.md) 

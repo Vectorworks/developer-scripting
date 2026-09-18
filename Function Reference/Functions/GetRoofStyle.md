@@ -17,6 +17,20 @@ def vs.GetRoofStyle(roof):
 |---|---|---|
 |roof|HANDLE|The roof.|
 
+## Examples
+```pascal
+resultN := GetRoofStyle(roof);
+```
+```python
+import vs
+
+# Gets the Roof Style of a roof.
+roof = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetRoofStyle(roof)
+vs.Message('GetRoofStyle returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetRoofStyle](SetRoofStyle.md)

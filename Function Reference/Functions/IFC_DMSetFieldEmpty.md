@@ -21,6 +21,25 @@ def vs.IFC_DMSetFieldEmpty(inStrObjName, inStrEntryName, inStrFieldName, bEmpty)
 |inStrFieldName|STRING|   |
 |bEmpty|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMSetFieldEmpty('Example', 'Example', 'MyRecord', TRUE);
+```
+```python
+import vs
+
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+inStrFieldName = 'MyField'
+bEmpty = True
+
+ok = vs.IFC_DMSetFieldEmpty(inStrObjName, inStrEntryName, inStrFieldName, bEmpty)
+if ok:
+    vs.Message('IFC_DMSetFieldEmpty succeeded')
+else:
+    vs.Message('IFC_DMSetFieldEmpty failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

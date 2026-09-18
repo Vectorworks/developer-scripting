@@ -22,6 +22,21 @@ def vs.GetCompUseClassFill(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassFillStyleForFill|BOOLEAN|Returns whether or not the component is using class attributes for its fill.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassFill(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class fill style for fill flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassFillStyleForFill = vs.GetCompUseClassFill(object, componentIndex)
+vs.Message('GetCompUseClassFill returned: ' + str((ok, useClassFillStyleForFill)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassFill](SetCompUseClassFill.md)

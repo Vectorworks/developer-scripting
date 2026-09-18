@@ -31,6 +31,26 @@ vs.CallToolWithMode( -221, 0, 0, any ) # 'Any' is and does absolutely nothing in
 
 Changes the active tool to that specified by toolID. Waits until the user has executed the functionality of that tool, then switches back to the previously active tool &amp; returns.
 
+## Examples
+```pascal
+CallToolWithMode(1, 2, 3);
+```
+```python
+import vs
+
+# Activates the specified Vectorworks tool for a single use with the
+# specified tool mode.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+toolIndex = 1
+modeGroup = 0
+modeButton = 0
+callback = handle_object
+
+vs.CallToolWithMode(toolIndex, modeGroup, modeButton, callback)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

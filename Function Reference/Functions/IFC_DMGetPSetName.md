@@ -24,6 +24,22 @@ def vs.IFC_DMGetPSetName(strObjectName, strEntryName, psetIndex):
 |psetIndex|INTEGER|   |
 |outStrPSetName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetPSetName('Example', 'Example', 1, 'Example');
+```
+```python
+import vs
+
+# Returns the Name for Mapped IfcEntity's Property Set IFC Data Mapping.
+strObjectName = 'Example'
+strEntryName = 'Example'
+psetIndex = 1
+
+ok, outStrPSetName = vs.IFC_DMGetPSetName(strObjectName, strEntryName, psetIndex)
+vs.Message('IFC_DMGetPSetName returned: ' + str((ok, outStrPSetName)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

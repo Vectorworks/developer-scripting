@@ -79,6 +79,27 @@ This creates a dialog control that displays the symbol called &quot;Chair.&quot;
 
 ```
 
+```pascal
+	UpdateSymbolDisplayControl(dialog1, controlID, symbolName, render, view);
+	DelObj(h);
+	isBeganContext := FALSE;
+EndContext(2);
+SetPref( kSuspendUndoPref, FALSE );
+
+	UpdateSymbolDisplayControl( DialogID, kPrevObjSymDisp_ID, PrevSymName, 0, 2 );
+END;
+
+	IF (h1 <> NIL) THEN
+		UpdateSymbolDisplayControl (dialog1, kSymbolDisp5, kDisplaySymbolName, 0, 2);
+{
+writeln (' #### gDisplaySymbolH = ',gDisplaySymbolH,'    kDisplaySymbolName = ',kDisplaySymbolName,'   h = ',h);
+}
+	{clean up}
+```
+```python
+vs.UpdateSymbolDisplayControl(dialogID, itemID, 'Example', renderMode, view)
+```
+
 ## See Also
 VS Functions:
 [CreateSymbolDisplayControl](CreateSymbolDisplayControl.md)

@@ -32,6 +32,30 @@ def vs.InsertNewComponent(obj, beforeComponentIndex, width, fill, leftPenWeight,
 |leftPenStyle|INTEGER|The pen style of the component's left line.  Positive values for patterns, negative values for dash styles.|
 |rightPenStyle|INTEGER|The pen style of the component's right line.  Positive values for patterns, negative values for dash styles.|
 
+## Examples
+```pascal
+resultOK := InsertNewComponent(obj, 1, 1.0, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Inserts a new component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+beforeComponentIndex = 1
+width = 2.0
+fill = 1
+leftPenWeight = 2
+rightPenWeight = 3
+leftPenStyle = 0
+rightPenStyle = 0
+
+ok = vs.InsertNewComponent(obj, beforeComponentIndex, width, fill, leftPenWeight, rightPenWeight, leftPenStyle, rightPenStyle)
+if ok:
+    vs.Message('InsertNewComponent succeeded')
+else:
+    vs.Message('InsertNewComponent failed')
+```
+
 ## See Also
 VS Functions:
 [DeleteComponent](DeleteComponent.md)

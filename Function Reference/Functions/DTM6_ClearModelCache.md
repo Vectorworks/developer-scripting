@@ -17,6 +17,19 @@ def vs.DTM6_ClearModelCache(hObject):
 |---|---|---|
 |hObject|HANDLE|A handle to the Site Model object.|
 
+## Examples
+```pascal
+DTM6_ClearModelCache(hObject);
+```
+```python
+import vs
+
+# Clear the site model's cache.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.DTM6_ClearModelCache(hObject)
+```
+
 ## See Also
 [DTM6_GetDTMObject](DTM6_GetDTMObject.md)
 

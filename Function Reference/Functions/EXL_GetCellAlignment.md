@@ -32,6 +32,23 @@ def vs.EXL_GetCellAlignment(sheetIndex, cellRow, cellColumn):
 |outWrapTextFlag|BOOLEAN|   |
 |outInconsistencyFound|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := EXL_GetCellAlignment(1, 2, 3, 10, 5, 1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Get cell horizontal and vertical alignment, text angle, is text wrapped and
+# is inconsistency found.
+sheetIndex = 1
+cellRow = 10
+cellColumn = 5
+
+ok, outAlignmentH, outAlignmentV, outTextAngle, outWrapTextFlag, outInconsistencyFound = vs.EXL_GetCellAlignment(sheetIndex, cellRow, cellColumn)
+vs.Message('EXL_GetCellAlignment returned: ' + str((ok, outAlignmentH, outAlignmentV, outTextAngle, outWrapTextFlag, outInconsistencyFound)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

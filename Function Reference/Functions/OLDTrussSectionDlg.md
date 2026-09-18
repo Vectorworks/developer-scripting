@@ -26,6 +26,31 @@ def vs.OLDTrussSectionDlg():
 |design|INTEGER|   |
 |chordDiameter|REAL|   |
 
+## Examples
+```pascal
+BEGIN
+	crossSection := GetRField( parmHand, parmName, kStrCrossSection );
+	IF OLDTrussSectionDlg( crossSection, Height, Width, Design, ChordWidth ) THEN
+	BEGIN
+		ForEachObjectInLayer( SetCrossSection, 2, 1, 1 );
+	END;
+
+BEGIN
+	crossSection := GetRField( parmHand, parmName, kStrCrossSection );
+	IF OLDTrussSectionDlg( crossSection, Height, Width, Design, ChordWidth ) THEN
+		ForEachObjectInLayer( SetCrossSection, 2, 1, 1 )
+	ELSE
+		vsoSetEventResult(-5 {kObjectUIButtonHitCancel});
+END;
+```
+```python
+import vs
+
+# Show Truss Cross Section dialog.
+ok, crossSection, height, width, design, chordDiameter = vs.OLDTrussSectionDlg()
+vs.Message('OLDTrussSectionDlg returned: ' + str((ok, crossSection, height, width, design, chordDiameter)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

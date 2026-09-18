@@ -28,6 +28,24 @@ def vs.SetWSImgUseLayScale(worksheet, topRow, leftColumn, bottomRow, rightColumn
 |rightColumn|INTEGER|Right column of cell range.|
 |useLayerScale|BOOLEAN|The user layer scale state.|
 
+## Examples
+```pascal
+SetWSImgUseLayScale(worksheet, 1, 2, 3, 10, TRUE);
+```
+```python
+import vs
+
+# Sets the worksheet cells' image use layer scale state.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+useLayerScale = True
+
+vs.SetWSImgUseLayScale(worksheet, topRow, leftColumn, bottomRow, rightColumn, useLayerScale)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

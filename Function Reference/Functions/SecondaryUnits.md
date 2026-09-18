@@ -3,7 +3,6 @@
 ## Description
 Procedure SecondaryUnits sets the secondary unit parameters for the active document. The secondary units setting is used primarily for display of alternate dimensions when a dual dimension standard is active. 
 
-
 **Table - Units Formats**
 
 | Units Format         | Constant |
@@ -65,6 +64,13 @@ SecondaryUnits(1, 6, 2, TRUE, TRUE);
 #### Python ####
 ```python
 
+```
+
+```pascal
+SecondaryUnits(1, 2, 3, TRUE, FALSE);
+```
+```python
+vs.SecondaryUnits(style, dimPrec, format, True, False)
 ```
 
 ## Version

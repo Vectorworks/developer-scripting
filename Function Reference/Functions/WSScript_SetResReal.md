@@ -19,6 +19,20 @@ def vs.WSScript_SetResReal(resultCellValue):
 |---|---|---|
 |resultCellValue|REAL|The value for the result of the worksheet script called by the RunScript worksheet function.|
 
+## Examples
+```pascal
+WSScript_SetResReal(1.0);
+```
+```python
+import vs
+
+# This function must be used inside a worksheet script called by 'RunScript'
+# worksheet formula.
+resultCellValue = 1.0
+
+vs.WSScript_SetResReal(resultCellValue)
+```
+
 ## See Also
 VS Functions:
 [WSScript_GetObject](WSScript_GetObject.md) 

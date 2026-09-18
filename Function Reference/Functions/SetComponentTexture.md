@@ -22,6 +22,25 @@ def vs.SetComponentTexture(obj, componentIndex, texture):
 |componentIndex|INTEGER|The index of the component.|
 |texture|LONGINT|The ref number of the texture. 0 for no texture. -1 for class texture.|
 
+## Examples
+```pascal
+resultOK := SetComponentTexture(obj, 1, 2);
+```
+```python
+import vs
+
+# Sets the texture of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+texture = 1
+
+ok = vs.SetComponentTexture(obj, componentIndex, texture)
+if ok:
+    vs.Message('SetComponentTexture succeeded')
+else:
+    vs.Message('SetComponentTexture failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentTexture](GetComponentTexture.md)

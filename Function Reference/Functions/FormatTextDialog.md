@@ -3,7 +3,6 @@
 ## Description
 Displays the text formatting dialog and returns the selected text formatting options.
 
-
 **Table - Text Style**
 
 | Style     | Constant |
@@ -113,6 +112,51 @@ def Example():
     font, style, size, spacing, leading, hAlign, vAlign = vs.FormatTextDialog(font, style, size, spacing, leading, hAlign, vAlign, disable)
 
 Example()
+```
+
+```pascal
+	END;
+39: BEGIN
+		tempI := Str2Num(gHeaderInfo[gActiveSchedNum, 2]);
+		tempR := Str2Num(gHeaderInfo[gActiveSchedNum, 3]);
+		FormatTextDialog(gHeaderInfo[gActiveSchedNum, 1], tempI, tempR, spacing, leading, hAlign, vAlign, 4+16+32);
+		gHeaderInfo[gActiveSchedNum, 2] := Num2Str(0, tempI);
+		gHeaderInfo[gActiveSchedNum, 3] := Num2Str(0, tempR);
+		SetFontFields(gEditPanelScheduleDialogID);
+	END;
+
+BEGIN
+	FormatTextDialog(font, style, size, spacing, leading, hAlign, vAlign, disable);
+	SetItemText(dialogID, fontStaticText, font);
+	SetItemText(dialogID, sizeStaticText, Num2Str(0, size));
+END;
+
+	END; {Col width popup}
+39: BEGIN
+	tempI := Str2Num(gHeaderInfo[gActiveSchedNum, 2]);
+	tempR := Str2Num(gHeaderInfo[gActiveSchedNum, 3]);
+	FormatTextDialog(gHeaderInfo[gActiveSchedNum, 1], tempI, tempR, spacing, leading, hAlign, vAlign, 4+16+32);
+	gHeaderInfo[gActiveSchedNum, 2] := Num2Str(0, tempI);
+	gHeaderInfo[gActiveSchedNum, 3] := Num2Str(0, tempR);
+	SetFontFields;
+	END;
+```
+```python
+import vs
+
+# Displays the text formatting dialog and returns the selected text
+# formatting options.
+fontName = 'Arial'
+style = 0
+size = 1.0
+spacing = 1
+leading = 1.0
+hAlignment = 2
+vAlignment = 3
+disableMask = 10
+
+fontName, style, size, spacing, leading, hAlignment, vAlignment = vs.FormatTextDialog(fontName, style, size, spacing, leading, hAlignment, vAlignment, disableMask)
+vs.Message('FormatTextDialog returned: ' + str((fontName, style, size, spacing, leading, hAlignment, vAlignment)))
 ```
 
 ## Version

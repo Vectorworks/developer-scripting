@@ -79,6 +79,47 @@ def Example():
 Example()
 ```
 
+```pascal
+IF SupportedL <> GetPluginString(3003){All} THEN BEGIN
+	IF SupportedL = GetPluginString(3000){Active} THEN
+		if GetLayer( H ) <> ActLayer then ok := FALSE;
+	IF SupportedL = GetPluginString(3001){Editable} THEN
+		if GetLVis( GetLayer( H ) ) = 2{grayed, i.e. non-editable} then ok := FALSE;
+END;
+
+BEGIN
+IF (GetObjectVariableInt(currLayer, 154) = 1) & (GetLVis(currLayer) = 0) & (GetLScale(currLayer) = actScale)
+	& ((GetPref(94) = TRUE) | (GetProjection(currLayer) = 6)) THEN
+	BEGIN
+	pluginH := FSObject(currLayer);
+	while (pluginH <> NIL) Do
+		BEGIN
+		IF (pluginH <> origObj) THEN
+			ApplyMarkerStyleToSEM;
+
+	WHILE (hlyr <> NIL) DO BEGIN
+		{** NEW - Check for viewport sheet layers and exclude them from the list [TEU - 1/23/04]}
+		{IF (GetLVis(hlyr) <> -1) THEN BEGIN}
+{*** NEW 6/8 ***}
+		IF (GetLVis(hlyr) <> -1)&(GetObjectVariableInt(hlyr,154)=1) THEN BEGIN
+
+		{* NEW: The instance is not being stripped from the layer name. This change is being implemented 	*}
+		{* because custom layer names (particularly AIA) may not have a dash separating the instance and	*}
+		{* indiv2type will strip off part of the layer name [TEU-7/17/2003] 						*}
+
+			AddChoice(dialogID,  itemID, GetLName(hlyr), k);
+			{AddChoice(dialogID,  itemID, indiv2type(GetLName(hlyr)), k);}
+```
+```python
+import vs
+
+# Function GetLVis returns the visibility of the referenced layer.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetLVis(h)
+vs.Message('GetLVis returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

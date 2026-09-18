@@ -14,6 +14,22 @@ def vs.GetTpPl2DCompByStyle(hObject):
 |---|---|---|
 |hObject|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := GetTpPl2DCompByStyle(hObject);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetTpPl2DCompByStyle(hObject)
+if ok:
+    vs.Message('GetTpPl2DCompByStyle succeeded')
+else:
+    vs.Message('GetTpPl2DCompByStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

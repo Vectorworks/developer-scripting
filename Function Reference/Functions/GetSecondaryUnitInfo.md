@@ -29,8 +29,20 @@ def vs.GetSecondaryUnitInfo():
 ## Remarks
 Returns settings information for secondary units.
 
-
 See [GetPrimaryUnitInfo](GetPrimaryUnitInfo.md) for details on changes in version 9, and again in version 12.
+
+## Examples
+```pascal
+GetSecondaryUnitInfo(1, 2, 3, TRUE, FALSE);
+```
+```python
+import vs
+
+# Procedure GetSecondaryUnitInfo sets the secondary unit parameters for the
+# active document.
+style, dimPrec, format, showMark, dispFrac = vs.GetSecondaryUnitInfo()
+vs.Message('GetSecondaryUnitInfo returned: ' + str((style, dimPrec, format, showMark, dispFrac)))
+```
 
 ## Version
 Availability: from VectorWorks8.0

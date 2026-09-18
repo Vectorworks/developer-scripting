@@ -22,6 +22,28 @@ def vs.SetComponentWidth(obj, componentIndex, width):
 |componentIndex|INTEGER|The index of the component.|
 |width|REAL|The width of the component.|
 
+## Examples
+```pascal
+BEGIN
+	FOR cnt := 1 to componentCnt DO BEGIN
+		SetComponentWidth( cnt, uniWidth );
+	END;
+```
+```python
+import vs
+
+# Sets the width of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+width = 2.0
+
+ok = vs.SetComponentWidth(obj, componentIndex, width)
+if ok:
+    vs.Message('SetComponentWidth succeeded')
+else:
+    vs.Message('SetComponentWidth failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentWidth](GetComponentWidth.md)

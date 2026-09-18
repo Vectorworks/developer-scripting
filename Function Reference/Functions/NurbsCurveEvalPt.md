@@ -26,6 +26,22 @@ def vs.NurbsCurveEvalPt(objectHd, index, u):
 |u|REAL|Parameter between the minimum and maximum knot value.|
 |p|REAL|Location of the u point on the curve.|
 
+## Examples
+```pascal
+NurbsCurveEvalPt(objectHd, 1, 1.0, 2.0, 0.5, 1.5);
+```
+```python
+import vs
+
+# This procedure determines the point on the nurbs curve at the given u value
+# in the indexed piece.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+u = 1.0
+
+result = vs.NurbsCurveEvalPt(objectHd, index, u)
+```
+
 ## See Also
 VS Functions:
 [NurbsKnot](NurbsKnot.md) 

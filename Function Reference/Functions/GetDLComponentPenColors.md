@@ -29,6 +29,21 @@ def vs.GetDLComponentPenColors(index):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := GetDLComponentPenColors(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Gets the fore and back colors of the left and right side pens of the
+# component at index in the Double Line Preferences.
+index = 1
+
+ok, leftPenForeColor, leftPenBackColor, rightPenForeColor, rightPenBackColor = vs.GetDLComponentPenColors(index)
+vs.Message('GetDLComponentPenColors returned: ' + str((ok, leftPenForeColor, leftPenBackColor, rightPenForeColor, rightPenBackColor)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentPenColors](SetDLComponentPenColors.md)

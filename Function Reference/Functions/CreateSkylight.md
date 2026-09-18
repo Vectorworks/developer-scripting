@@ -20,6 +20,19 @@ def vs.CreateSkylight(roofObject):
 ## Examples
 [CreateRoofObj](examples/CreateRoofObj.md)
 
+```pascal
+resultN := CreateSkylight(roofObject);
+```
+```python
+import vs
+
+# Function CreateSkylight creates a new skylight in the referenced roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.CreateSkylight(roofObject)
+vs.Message('CreateSkylight returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

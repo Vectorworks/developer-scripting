@@ -17,6 +17,19 @@ def vs.DelObjStoryBounds(obj):
 |---|---|---|
 |obj|HANDLE|The object.|
 
+## Examples
+```pascal
+DelObjStoryBounds(obj);
+```
+```python
+import vs
+
+# Delete all story bounds for this object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.DelObjStoryBounds(obj)
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

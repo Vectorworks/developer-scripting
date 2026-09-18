@@ -22,6 +22,24 @@ def vs.ObjAreaN(ObjectHandle ):
 area := HOBJAreaN(object);
 ```
 
+```pascal
+DeckArea := ObjAreaN (LNewObj);
+SetRField (ghParm, gPIOName, 'TopSurfaceArea',Concat((Round(DeckArea*100))/100,GetPrefString(178)));
+
+DeckArea := ObjAreaN (OutlinePathHandle);
+SetRField (ghParm, gPIOName, 'TopSurfaceArea',Concat((Round(DeckArea*100))/100,GetPrefString(178)));
+```
+```python
+import vs
+
+# HObjAreaN, this VS Call is the same as HOBJArea() call but it gives more
+# accurate result when the object is a polyline.
+ObjectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+area = vs.ObjAreaN(ObjectHandle)
+vs.Message('ObjAreaN returned: ' + str(area))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

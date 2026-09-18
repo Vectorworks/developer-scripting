@@ -40,6 +40,10 @@ RUN(DeleteIFCInfo);
 ok = vs.IFC_DeleteIFCInfo( hObject, True );
 ```
 
+```pascal
+IFC_DeleteIFCInfo(hObject);
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

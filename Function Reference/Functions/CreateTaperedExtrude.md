@@ -25,6 +25,23 @@ def vs.CreateTaperedExtrude(profileH, angle, height):
 ## Remarks
 *\_c\_*, (2016.02.10):  This always fails creating a number of NURBS instead of a tapered extrude. From VW 2016 you can use [CreateTaperedExtrd2](CreateTaperedExtrd2.md).
 
+## Examples
+```pascal
+resultH := CreateTaperedExtrude(profileH, 1.0, 2.0);
+```
+```python
+import vs
+
+# Creates a new tapered extrude object in the document.
+profileH = vs.FSActLayer()  # handle to the first selected object on the active layer
+angle = 45.0
+height = 2.0
+
+objHandle = vs.CreateTaperedExtrude(profileH, angle, height)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

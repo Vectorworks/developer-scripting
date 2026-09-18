@@ -38,6 +38,13 @@ UnionRect(0,0,3,3,3,3,5,5,x1,y1,x2,y2);
 
 ```
 
+```pascal
+UnionRect(1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0);
+```
+```python
+result = vs.UnionRect(p1, p2, p3, p4, p5, p6)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -87,6 +87,28 @@ END;
 RUN(WStest);
 ```
 
+```pascal
+BEGIN
+IF gInstrumentInfo[1, IndexColumn] <> '' THEN SetWSCellFormulaN(gActiveWSHand,CurrentRow, IndexColumn,CurrentRow, IndexColumn,gInstrumentInfo[1, IndexColumn]);
+{else SetWSCellFormula(gActiveWSHand,CurrentRow, IndexColumn,CurrentRow, IndexColumn,'NIL');}
+SetWSCellAlignment(gActiveWSHand,CurrentRow, IndexColumn,CurrentRow, IndexColumn,1);
+SetWSCellTextFormat(gActiveWSHand,CurrentRow, IndexColumn,CurrentRow, IndexColumn,GetFontID(gBodyFont),(gBodySize + 2),gBodyStyle);
+SetWSCellBorder(gActiveWSHand,CurrentRow,IndexColumn,CurrentRow,IndexColumn,True,FALSE,FALSE,FALSE,FALSE);
+```
+```python
+import vs
+
+# Inserts a formula into a cell of the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+formula = 'Example'
+
+vs.SetWSCellFormulaN(worksheet, topRow, leftColumn, bottomRow, rightColumn, formula)
+```
+
 ## See Also
 VS Functions:
 * [GetWSAutoRecalcState](GetWSAutoRecalcState.md) 

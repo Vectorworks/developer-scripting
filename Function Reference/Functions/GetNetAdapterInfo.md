@@ -26,6 +26,20 @@ one, if you have more than one. The function should return FALSE when
 the card with this index doesn't exist, so you can handle cases with
 many cards."
 
+## Examples
+```pascal
+resultOK := GetNetAdapterInfo(1, 'Example');
+```
+```python
+import vs
+
+# Return information about the network adapter.
+adapterIndex = 1
+
+ok, outMacAddr = vs.GetNetAdapterInfo(adapterIndex)
+vs.Message('GetNetAdapterInfo returned: ' + str((ok, outMacAddr)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

@@ -34,6 +34,21 @@ SetFillOriginPoint(objectHandle, 10.0, 20.0);
 
 ```
 
+```pascal
+SetFillOriginPoint( ObjHand, ImageFillOriginVec.x, ImageFillOriginVec.y );
+{
+SetFillIAxisEndPoint( ObjHand, ImageFillOriginVec.x + PhotoPrintedWidth, ImageFillOriginVec.y );
+SetFillJAxisEndPoint( ObjHand, ImageFillOriginVec.x, ImageFillOriginVec.y + PhotoPrintedHeight );
+}
+
+SetFillOriginPoint( ObjHand, ImageFillOriginVec.x, ImageFillOriginVec.y );
+SetFillIAxisEndPoint( ObjHand, ImageFillOriginVec.x + ImageFill_IAxisVec.x, ImageFillOriginVec.y + ImageFill_IAxisVec.y );
+SetFillJAxisEndPoint( ObjHand, ImageFillOriginVec.x + ImageFill_JAxisVec.x, ImageFillOriginVec.y + ImageFill_JAxisVec.y );
+```
+```python
+vs.SetFillOriginPoint(h, (0, 0), (0, 0))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

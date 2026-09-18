@@ -24,6 +24,22 @@ def vs.IFC_DMGetPSetFldsCnt(strObjectName, strEntryName, strPSetName):
 |strPSetName|STRING|   |
 |outFieldsCount|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetPSetFldsCnt('Example', 'Example', 'Example', 1);
+```
+```python
+import vs
+
+# Gets Fields Count for specified IfcEntry's PSet.
+strObjectName = 'Example'
+strEntryName = 'Example'
+strPSetName = 'Example'
+
+ok, outFieldsCount = vs.IFC_DMGetPSetFldsCnt(strObjectName, strEntryName, strPSetName)
+vs.Message('IFC_DMGetPSetFldsCnt returned: ' + str((ok, outFieldsCount)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

@@ -31,6 +31,44 @@ def vs.SetWSCellWrapTextFlag(worksheet, topRow, leftColumn, bottomRow, rightColu
 |rightColumn|INTEGER|Right column of cell range|
 |wrapTextFlag|BOOLEAN|Wrap text flag to be set|
 
+## Examples
+```pascal
+SetWSCellVertAlignment (wksH, 1, 1, 2, 7, 3);
+SetWSCellVertAlignment (wksH, 4, 1, 4, 7, 3);
+SetWSCellWrapTextFlag (wksH, 1, 1, 1, 7, FALSE);
+
+{Message(MsgTitle,CR,'Calculating Totals');}
+theRow := 5;
+ok := WorksheetMergeCells(WSHan,theRow,2,theRow,12);
+SetWSCellWrapTextFlag(WSHan,theRow,2,theRow,10,TRUE);
+SetWSCellFormula(WSHan,theRow,2,theRow,2,GetPlugInString(4000)); {IMPORTANT!  The table below is created by a vectorscript command.}
+SetWSCellFormula(WSHan,theRow+1,2,theRow+1,2,GetPlugInString(4001)); {It will not be recalculated until you issue the "Make Data Cable Count WKS" command again.}
+SetWSCellTextFormat(WSHan,theRow,2,theRow+1,2,fontIndex,14,1);
+ok := WorksheetMergeCells(WSHan,theRow,2,theRow,10);
+
+{	Message(MsgTitle,CR,'Calculating Totals');}
+	theRow := 5;
+	ok := WorksheetMergeCells(WSHan,theRow,2,theRow,12);
+	SetWSCellWrapTextFlag(WSHan,theRow,2,theRow,10,TRUE);
+	SetWSCellFormula(WSHan,theRow,2,theRow,2,GetPlugInString(4000)); {IMPORTANT!  The table below is created by a vectorscript command.}
+	SetWSCellFormula(WSHan,theRow+1,2,theRow+1,2,GetPlugInString(4001)); {It will not be recalculated until you issue the "Make Jumper Cable Count WKS" command again.}
+	SetWSCellTextFormat(WSHan,theRow,2,theRow+1,2,fontIndex,14,1);
+	ok := WorksheetMergeCells(WSHan,theRow,2,theRow,10);
+```
+```python
+import vs
+
+# Sets the wrap text state of cells in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+wrapTextFlag = True
+
+vs.SetWSCellWrapTextFlag(worksheet, topRow, leftColumn, bottomRow, rightColumn, wrapTextFlag)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

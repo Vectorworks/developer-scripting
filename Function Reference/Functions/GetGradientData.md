@@ -61,6 +61,21 @@ def Example():
 Example()
 ```
 
+```pascal
+GetGradientData(gradient, 1, 1.0, 2.0, 2, 3, 10);
+```
+```python
+import vs
+
+# Gets the spot position, midpoint position and color of the specified
+# gradient segment.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+segmentIndex = 1
+
+spotPosition, midpointPosition, red, green, blue = vs.GetGradientData(gradient, segmentIndex)
+vs.Message('GetGradientData returned: ' + str((spotPosition, midpointPosition, red, green, blue)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

@@ -22,6 +22,22 @@ def vs.DS_GetFillStyle():
 |shadowFillName|STRING|   |
 |solidColorRef|LONGINT|   |
 
+## Examples
+```pascal
+shadowAngle := DS_GetAngle;
+shadowOpacity := DS_GetOpacity;
+shadowOpByClass := DS_IsOpacityByClass;
+docUnitsType := DS_GetOffsetUnit;{0 - page, 1 - document, 2 - from height}
+DS_GetFillStyle( shadowFillStyle, shadowFillName, shadowColorRef);
+```
+```python
+import vs
+
+# Returns document shadow fill style, fill name or color index.
+shadowFillStyle, shadowFillName, solidColorRef = vs.DS_GetFillStyle()
+vs.Message('DS_GetFillStyle returned: ' + str((shadowFillStyle, shadowFillName, solidColorRef)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

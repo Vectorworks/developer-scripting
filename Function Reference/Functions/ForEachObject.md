@@ -31,8 +31,6 @@ ForEachObject(ProcThatTakesAHandle, criteria);  { works fine }
 ForEachObject(ProcThatTakesAHandle, (criteria));  { doesn't work }
 ```
 
-
-
 (Others)
 Don't use DelObject inside a ForEachObject callback.
 
@@ -84,6 +82,36 @@ def SelectThem(h):
 vs.AlrtDialog( 'should show three consecutive dialogs' )
 vs.ForEachObject( SelectThem, "T=WALL" )
 ```
+
+```pascal
+BEGIN
+	ALLOCATE RedList[1..ObjCount];
+	ObjCount := 0;
+	ForEachObject( StoreObjectH, (SEL));
+END
+
+ForEachObject(ResetLightingDevices, (PON = 'Lighting Device'));
+
+{as Num2Str does not support VW's maximum decimal precision 10, check for it and change it to the default internal}
+IF (realPrecision > 9) | (realPrecision < 0) THEN realPrecision := kRealPrecisionConst;
+{Count the text Block objects}
+TBlocksCount := 0;
+ForEachObject( CountTextBlocks , T = TEXT);
+```
+```python
+import vs
+
+# Calls a user defined procedure to operate on each object matching the
+# specified search criteria.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+callback = handle_object
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+vs.ForEachObject(callback, c)
+```
+See also in tutorials: [08. Attach and Read Records on Objects](ai%20examples/08_AttachAndReadRecords.md), [10. Iterate the Drawing and Report a Summary](ai%20examples/10_IterateAndReport.md), [22. Selected Objects → Worksheet Rows](ai%20examples/22_WorksheetSelectedObjects.md), [25. Geometric Property Extraction Table](ai%20examples/25_WorksheetPolyGeometry.md)
 
 ## Version
 Availability: from All Versions

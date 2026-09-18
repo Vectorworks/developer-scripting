@@ -20,6 +20,19 @@ def vs.SetDLSeparation(separationDistance):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+SetDLSeparation(1.0);
+```
+```python
+import vs
+
+# Sets the Double Line Preferences separation.
+separationDistance = 1.0
+
+vs.SetDLSeparation(separationDistance)
+```
+
 ## See Also
 VS Functions:
 [GetDLSeparation](GetDLSeparation.md)

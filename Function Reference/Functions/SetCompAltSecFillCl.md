@@ -24,6 +24,26 @@ def vs.SetCompAltSecFillCl(object, componentIndex, alternateSectionFillForeColor
 |alternateSectionFillForeColor|INTEGER|The alternate section fill fore color of the component.|
 |alternateSectionFillBackColor|INTEGER|The alternate section fill back color of the component.|
 
+## Examples
+```pascal
+resultOK := SetCompAltSecFillCl(object, 1, 2, 3);
+```
+```python
+import vs
+
+# Sets the alternate section fill colors of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+alternateSectionFillForeColor = 5
+alternateSectionFillBackColor = 5
+
+ok = vs.SetCompAltSecFillCl(object, componentIndex, alternateSectionFillForeColor, alternateSectionFillBackColor)
+if ok:
+    vs.Message('SetCompAltSecFillCl succeeded')
+else:
+    vs.Message('SetCompAltSecFillCl failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompAltSecFillCl](GetCompAltSecFillCl.md)

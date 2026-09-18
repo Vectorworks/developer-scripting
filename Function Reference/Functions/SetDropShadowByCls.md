@@ -17,6 +17,19 @@ def vs.SetDropShadowByCls(h, byClassValue):
 |h|HANDLE|   |
 |byClassValue|BOOLEAN|   |
 
+## Examples
+```pascal
+SetDropShadowByCls(h, TRUE);
+```
+```python
+import vs
+
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+byClassValue = True
+
+vs.SetDropShadowByCls(h, byClassValue)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

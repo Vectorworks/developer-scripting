@@ -27,6 +27,32 @@ def vs.SortArray(numtosort, fieldnumber):
 
 Sorts first numtosort elements of single-dimensional array  arraytosort into ascending order. If arraytosort is an array of records, it sorts on the fieldnumberth field of the record.
 
+## Examples
+```pascal
+ALLOCATE classListN [1..ClassNum];
+FOR i := 1 TO ClassNum DO
+	classListN [i] := ClassList (i);
+SortArray(classListN, ClassNum, 0);
+
+ALLOCATE classNames [1..ClassNum];
+FOR i := 1 TO ClassNum DO
+	classNames [i] := ClassList (i);
+SortArray (classNames, ClassNum, 0);
+
+BEGIN
+	SortArray(list, list_cnt, 0);
+END;
+```
+```python
+import vs
+
+# Sorts a 1-dimension array into ascending order.
+numtosort = 5
+fieldnumber = 1
+
+result = vs.SortArray(numtosort, fieldnumber)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

@@ -37,6 +37,39 @@ selectedItemIndex := GetImagePopupSelectedItem(dialogID, componentID);
 selectedItemIndex = vs.GetImagePopupSelectedItem(dialogID, componentID)
 ```
 
+```pascal
+		ELSE CreateSeatSym(symName);
+END
+ELSE IF shouldUseExisting THEN BEGIN
+	IF selSymFolder = GetPluginString(4012) THEN BEGIN { symbol is in a defaults document }
+		choiceNum := GetImagePopupSelectedItem(selectSymbol, kSyms);
+		IF choiceNum <= defaultListCount THEN
+			symHandle := ImportResourceToCurrentFile(defaultListID, choiceNum)
+		ELSE
+			symHandle := ImportResourceToCurrentFile(defaultListID2, choiceNum-defaultListCount);
+
+tempInt := GetImagePopupSelectedItem( dialog1, kImagePopup5 );
+tempShapeName := gSymbolInfo [tempInt].shapeName;
+gSymbolName := gSymbolInfo[tempInt].symbolName;
+
+BEGIN
+	Symbolidx := GetImagePopupSelectedItem(SelectRepSymbol, kImagePopup6);
+	h := ResList_ImportItem( kRepetUnitSymbols );
+	if h <> NIL THEN
+	BEGIN
+		SymbolName := GetName(h);
+```
+```python
+import vs
+
+# Gets the selected image popup item.
+dialogID = 1
+componentID = 2
+
+resultN = vs.GetImagePopupSelectedItem(dialogID, componentID)
+vs.Message('GetImagePopupSelectedItem returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [InsertImagePopupObjectItem](InsertImagePopupObjectItem.md) 

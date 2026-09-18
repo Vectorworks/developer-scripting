@@ -47,6 +47,25 @@ SetDashStyleN(name: STRING; scalesWithThickness: BOOLEAN; numPairs: INTEGER; das
 SetDashStyle('My Dash Style', True, 0, 1", 1/4", 1/4", 1/4");
 ```
 
+```pascal
+SetDashStyleN(DummyName, TRUE, 2, 0.15, 0.05);
+```
+```python
+import vs
+
+# Procedure SetDashStyleN creates a new linestyle in a Vectorworks document.
+name = 'Example'
+swt = True
+numPairs = 5
+pair1 = 1.0
+pair2 = 2.0
+pair3 = 0.5
+pair4 = 3.0
+pair5 = 1.0
+
+vs.SetDashStyleN(name, swt, numPairs, pair1, pair2, pair3, pair4, pair5)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

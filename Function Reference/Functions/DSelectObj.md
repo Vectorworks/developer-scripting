@@ -28,6 +28,19 @@ DSelectObj(S='Pine Tree');
 
 ```
 
+```pascal
+BEGIN
+	CASE gLayerMode OF
+		0:	DSelectAll;	{Active Layer only}
+		1,2:DSelectObj(kALL);	{Visible layers/All layers}
+		END; {of CASE}
+	gObjOption := 0;	{look in all objects}
+	END;
+```
+```python
+vs.DSelectObj(c)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -17,6 +17,21 @@ def vs.vsoEIDataGetContext(message):
 |---|---|---|
 |message|LONGINT|   |
 
+## Examples
+```pascal
+resultN := vsoEIDataGetContext(1);
+```
+```python
+import vs
+
+# Gets the equipment item data context from the
+# ParametricEquipmentItemDataMessage(92) message sent to a Script object.
+message = 'Hello Vectorworks'
+
+resultN = vs.vsoEIDataGetContext(message)
+vs.Message('vsoEIDataGetContext returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

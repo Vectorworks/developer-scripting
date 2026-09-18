@@ -17,6 +17,19 @@ def vs.EA_DataAccDelete(acc):
 |---|---|---|
 |acc|INTEGER|   |
 
+## Examples
+```pascal
+EA_DataAccDelete(1);
+```
+```python
+import vs
+
+# Destroys accessory by index.
+acc = 1
+
+vs.EA_DataAccDelete(acc)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

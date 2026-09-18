@@ -22,6 +22,21 @@ def vs.GetCompUseClassRPW(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassPenWeightForRightPen|BOOLEAN|Returns whether or not the component is using class attributes for its right pen weight.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassRPW(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class pen weight for right pen flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassPenWeightForRightPen = vs.GetCompUseClassRPW(object, componentIndex)
+vs.Message('GetCompUseClassRPW returned: ' + str((ok, useClassPenWeightForRightPen)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassRPW](SetCompUseClassRPW.md)

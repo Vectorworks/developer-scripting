@@ -39,6 +39,36 @@ clr = ColorIndexToRGB(98)
 SetClFillBack('Grassy Cover', clr)
 ```
 
+```pascal
+GetWSCellValue (wksHand, row, col+6, tempInt);	{fill back pen color}
+ColorIndexToRGB (tempInt, r, g, b);
+SetClFillBack (userClassName, r, g, b);
+
+GetClFillBack (UserClassName, r, g, b);
+RGBToColorIndex (r, g, b, tempLongInt);
+IF DecimalToColorIndex (TmpClassInfo.FillBack) <> tempLongInt THEN
+	SetClFillBack (UserClassName, DecimalToColorIndex (TmpClassInfo.FillBack));
+
+SetClLW (UserClassName, TmpClassInfo.LW);
+SetClLSN (UserClassName, TmpClassInfo.LS);
+SetClFPat (UserClassName, TmpClassInfo.FillPat);
+SetClFillFore (UserClassName, DecimalToColorIndex (TmpClassInfo.FillFore));
+SetClFillBack (UserClassName, DecimalToColorIndex (TmpClassInfo.FillBack));
+SetClUseGraphic (UserClassName, TmpClassInfo.UseAtCreation);
+tempH := GetObject (UserClassName);
+IF tempH <> NIL THEN
+BEGIN
+```
+```python
+tempInt = vs.GetWSCellValue( wksHand, row, col + 6 )
+# fill back pen color
+r, g, b = vs.ColorIndexToRGB( tempInt, r, g, b )
+vs.SetClFillBack( userClassName, r, g, b )
+tempStr = vs.GetWSCellString( wksHand, row, col + 7 )
+# use at creation
+vs.SetClUseGraphic( userClassName, Common.Includes.Utilities_General.Str2Boo( tempStr ) )
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

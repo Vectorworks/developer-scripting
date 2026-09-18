@@ -34,6 +34,23 @@ Created by KAS 8/14/2019
 AlertCriticalHLink('Serious Problem with X', 'Please visit', 'our website', 'https://www.vectorworks.net', 'for more information on how to resolve the problem with X.');
 ```
 
+```pascal
+AlertCriticalHLink(text, adviceBeforeLink, linkTitle, linkURL, adviceAfterLink);
+```
+```python
+import vs
+
+# Informs the user of a serious problem that requires intervention or
+# correction before work can continue.
+text = 'Example text'
+adviceBeforeLink = 'Example'
+linkTitle = 'Example'
+linkURL = 'C:/Temp/example.txt'
+adviceAfterLink = 'Example'
+
+vs.AlertCriticalHLink(text, adviceBeforeLink, linkTitle, linkURL, adviceAfterLink)
+```
+
 ## See Also
 VS Functions:
 [AlertCritical](AlertCritical.md) 

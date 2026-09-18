@@ -12,6 +12,17 @@ def vs.DBeam_End():
     return None
 ```
 
+## Examples
+```pascal
+DBeam_End;
+```
+```python
+import vs
+
+# End drawing beam routine and create the beam.
+vs.DBeam_End()
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

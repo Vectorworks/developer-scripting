@@ -57,6 +57,18 @@ def CheckMarker():
 CheckMarker()
 ```
 
+```pascal
+GetMarker(h, TRUE, FALSE, 1, 1.0);
+```
+```python
+vs.SetFillFore(objH, vs.GetFillFore(parentH))
+vs.SetPenBack(objH, vs.GetPenBack(parentH))
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+vs.SetMarker(objH, start, end, style, size)
+vs.SetOpacity(objH, vs.GetOpacity(parentH))
+```
+
 ## See Also
 VS Functions:
 * [SetMarker](SetMarker.md)

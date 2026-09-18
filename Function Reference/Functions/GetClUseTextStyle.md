@@ -17,6 +17,24 @@ def vs.GetClUseTextStyle(className):
 |---|---|---|
 |className|STRING|Name of class|
 
+## Examples
+```pascal
+resultOK := GetClUseTextStyle('Wall');
+```
+```python
+import vs
+
+# Function GetClUseTextStyle returns whether the text style of the specified
+# class is used at object creation.
+className = 'None'
+
+ok = vs.GetClUseTextStyle(className)
+if ok:
+    vs.Message('GetClUseTextStyle succeeded')
+else:
+    vs.Message('GetClUseTextStyle failed')
+```
+
 ## See Also
 VS Functions:
 [SetClUseTextStyle](SetClUseTextStyle.md) 

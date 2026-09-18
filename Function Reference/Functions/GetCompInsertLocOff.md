@@ -17,6 +17,20 @@ def vs.GetCompInsertLocOff(object):
 |---|---|---|
 |object|HANDLE|The object. Can be a wall, Wall Style, or the Wall Preferences.|
 
+## Examples
+```pascal
+resultVal := GetCompInsertLocOff(object);
+```
+```python
+import vs
+
+# Gets the component insert location offset of the object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+value = vs.GetCompInsertLocOff(object)
+vs.Message('GetCompInsertLocOff returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetCompInsertLocOff](SetCompInsertLocOff.md)

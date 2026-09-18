@@ -50,6 +50,22 @@ frontSlope: Angle of the front dormer roof face.
 
 overhang: Distance roof projects past dormer walls.
 
+## Examples
+```pascal
+GetHipAttributes(roofObject, 1, TRUE, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Procedure GetHipAttributes returns the attributes of a hip dormer in the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+useHeight, heightDepth, bottomWidth, overhang, leftSlope, rightSlope, frontSlope = vs.GetHipAttributes(roofObject, dormerID)
+vs.Message('GetHipAttributes returned: ' + str((useHeight, heightDepth, bottomWidth, overhang, leftSlope, rightSlope, frontSlope)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

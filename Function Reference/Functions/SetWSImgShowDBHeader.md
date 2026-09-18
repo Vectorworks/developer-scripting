@@ -22,6 +22,21 @@ def vs.SetWSImgShowDBHeader(hWorksheetImage, show, redrawImage):
 |show|BOOLEAN|   |
 |redrawImage|BOOLEAN|   |
 
+## Examples
+```pascal
+SetWSImgShowDBHeader(hWorksheetImage, TRUE, FALSE);
+```
+```python
+import vs
+
+# Set worksheet image to either show or hide database headers.
+hWorksheetImage = vs.GetObject('MyWorksheet')  # handle to a worksheet
+show = True
+redrawImage = True
+
+vs.SetWSImgShowDBHeader(hWorksheetImage, show, redrawImage)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

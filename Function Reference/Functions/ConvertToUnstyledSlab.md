@@ -17,6 +17,19 @@ def vs.ConvertToUnstyledSlab(slab):
 |---|---|---|
 |slab|HANDLE|The slab.|
 
+## Examples
+```pascal
+ConvertToUnstyledSlab(slab);
+```
+```python
+import vs
+
+# Sets a slab to be unstyled.
+slab = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.ConvertToUnstyledSlab(slab)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

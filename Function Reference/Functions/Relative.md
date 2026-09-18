@@ -26,6 +26,16 @@ Poly(0,0,1,1,1,2,2,2,2,0);
 
 ```
 
+```pascal
+Relative;
+```
+```python
+vs.Absolute()
+vs.MoveTo( 0.0, 0.0 )
+vs.Relative()
+vs.ClosePoly()
+```
+
 ## Version
 Availability: from All Versions
 

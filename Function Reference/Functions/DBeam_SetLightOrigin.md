@@ -17,6 +17,19 @@ def vs.DBeam_SetLightOrigin(origin):
 |---|---|---|
 |origin|REAL|   |
 
+## Examples
+```pascal
+DBeam_SetLightOrigin(1.0);
+```
+```python
+import vs
+
+# Set light origin for the beam.
+origin = 1.0
+
+vs.DBeam_SetLightOrigin(origin)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

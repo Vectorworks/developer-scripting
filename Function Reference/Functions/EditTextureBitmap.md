@@ -20,9 +20,26 @@ def vs.EditTextureBitmap(textureBitmap):
 ## Remarks
 Brings up the Edit Texture Bitmap dialog for this texture bitmap.  Returns true if texture bitmap was changed by the dialog.
 
+## Examples
+```pascal
+resultOK := EditTextureBitmap(textureBitmap);
+```
+```python
+import vs
+
+# Function EditTextureBitmap opens the Edit Texture Bitmap dialog box to the
+# referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.EditTextureBitmap(textureBitmap)
+if ok:
+    vs.Message('EditTextureBitmap succeeded')
+else:
+    vs.Message('EditTextureBitmap failed')
+```
+
 ## Version
 EditTextureBitmap is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

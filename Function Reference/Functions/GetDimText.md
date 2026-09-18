@@ -27,6 +27,20 @@ DimValue:=GetDimText(HandleToObj);
 DimValue =vs.GetDimText(HandleToObj)
 ```
 
+```pascal
+resultStr := GetDimText(h);
+```
+```python
+import vs
+
+# Function GetDimText returns the dimension value displayed with the
+# referenced object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+text = vs.GetDimText(h)
+vs.Message('GetDimText returned: ' + str(text))
+```
+
 ## Version
 Availability: from All Versions
 

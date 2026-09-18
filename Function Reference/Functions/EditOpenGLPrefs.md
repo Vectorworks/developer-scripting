@@ -17,6 +17,18 @@ def vs.EditOpenGLPrefs():
 |---|---|---|
 |updateRendering|BOOLEAN|   |
 
+## Examples
+```pascal
+EditOpenGLPrefs(TRUE);
+```
+```python
+import vs
+
+# Allows the user to edit OpenGL renderer preferences and stores them in the
+# current drawing.
+result = vs.EditOpenGLPrefs()
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

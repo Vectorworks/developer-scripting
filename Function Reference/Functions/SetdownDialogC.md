@@ -17,6 +17,19 @@ def vs.SetdownDialogC():
 ## Remarks
 [DWD 1/20/00]
 
+## Examples
+```pascal
+SetdownDialogC;
+```
+```python
+import vs
+
+# A predefined constant value that is passed to the dialog event handler
+# subroutine when a modern custom dialog is dismissed.
+resultN = vs.SetdownDialogC()
+vs.Message('SetdownDialogC returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetupDialogC](SetupDialogC.md)

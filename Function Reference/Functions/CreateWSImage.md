@@ -27,6 +27,36 @@ You must check for the presence of other worksheet images using [ GetWSImage](Ge
 
 Moreover, if the WS image is too large to display (about 11 meters long), it will be zero-sized. This also rises a Vectorscript error that - as far as I can tell - is not avoidable, since only creating it you can know if it's too large.
 
+## Examples
+```pascal
+{ create the WS image. }
+wsImageHand := CreateWSImage(wsHand, wsPosX, wsPosY);
+dup := CreateDuplicateObject(wsImageHand,objHand);
+HMoveForward(dup, TRUE);
+delObject(wsImageHand);
+wsPosReset := FALSE;
+
+	{Worksheet Image}
+	tempHandle := CreateWSImage(tempHandle, x1, y1);
+END;
+
+	{Worksheet Image}
+	IF ( gPlaceWorksheet ) THEN tempHandle := CreateWSImage(tempHandle, x1, y1);
+END;
+```
+```python
+import vs
+
+# Creates an in-document image of the specified worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+location = (0, 0)
+
+wsHandle = vs.CreateWSImage(worksheet, location)
+if wsHandle is not None:
+    vs.Message('Created object handle: ' + str(wsHandle))
+```
+See also in tutorials: [30. Publish Worksheet Image on a Sheet Layer](ai%20examples/30_WorksheetPublishOnSheet.md)
+
 ## Version
 Availability: from VectorWorks 9.0
 

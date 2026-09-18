@@ -29,6 +29,19 @@ ColorIndexToRGB(214,cRed,cGrn,cBlu);
 SetMtlFillForeColor(mtlHandle,cRed,cGrn,cBlu);
 ```
 
+```pascal
+SetMtlFillForeColor(material, 1);
+```
+```python
+import vs
+
+# Sets the fill foreground color of the specified material.
+material = vs.FSActLayer()  # handle to the first selected object on the active layer
+color = 5
+
+vs.SetMtlFillForeColor(material, color)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

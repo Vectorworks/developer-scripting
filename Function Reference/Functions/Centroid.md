@@ -32,6 +32,44 @@ IF Centroid(h, c.x, c.y) THEN BEGIN
 END;
 ```
 
+## Examples
+```pascal
+BEGIN
+	IF Centroid (objectH, gX0, gY0) THEN
+	BEGIN
+		gX0 := gX0 * gUPI / 25.4;
+		gY0 := gY0 * gUPI / 25.4;
+		Locus (gX0, gY0);
+	END;
+
+BEGIN
+	IF (NOT p__Is3D) AND Centroid(LNewObj,gXC,gYC) THEN
+	BEGIN
+		gXC := gXC * GetPrefReal (152) / 25.4;
+		gYC := gYC * GetPrefReal (152) / 25.4;
+		{calculate the centorid offset from the insertion point}
+		centroidOffset.x := gXC;
+		centroidOffset.y := gYC;
+
+BEGIN
+	IF Centroid (LNewObj, gXC, gYC) THEN
+	BEGIN
+		gXC := gXC * gUPI / 25.4;
+		gYC := gYC * gUPI / 25.4;
+		Locus (gXC, gYC);
+	END;
+```
+```python
+import vs
+
+# Returns the centroid of the object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, x, y = vs.Centroid(h)
+vs.Message('Centroid returned: ' + str((ok, x, y)))
+```
+See also in tutorials: [25. Geometric Property Extraction Table](ai%20examples/25_WorksheetPolyGeometry.md)
+
 ## Version
 Availability: from Vectorworks 2014
 

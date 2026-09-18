@@ -27,9 +27,26 @@ def vs.CreateBorderlessBtn(dialogID, itemID, label, iconResPath, isToggleButton)
 |iconResPath|DYNARRAY[] of CHAR|The resource path of the icon|
 |isToggleButton|BOOLEAN|A boolean to specify whether this is a toggle button|
 
+## Examples
+```pascal
+CreateBorderlessBtn(1, 2, label, iconResPath, TRUE);
+```
+```python
+import vs
+
+# Creates a borderless button control in a dialog layout.
+dialogID = 1
+itemID = 2
+label = 'Example text'
+iconResPath = 'C:/Temp'
+isToggleButton = True
+
+vs.CreateBorderlessBtn(dialogID, itemID, label, iconResPath, isToggleButton)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2024
 
 ## Category
 * [Dialogs - Modern](../Categories/Dialogs - Modern.md)
-

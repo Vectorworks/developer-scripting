@@ -14,6 +14,18 @@ def vs.Forward():
     return None
 ```
 
+## Examples
+```pascal
+Forward;
+```
+```python
+import vs
+
+# Procedure Forward moves the selected objects up one level in the onscreen
+# object stacking order.
+vs.Forward()
+```
+
 ## See Also
 VS Functions:
 [HMoveForward](HMoveForward.md)

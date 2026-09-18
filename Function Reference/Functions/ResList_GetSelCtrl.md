@@ -18,9 +18,22 @@ def vs.ResList_GetSelCtrl(uniqueID):
 |---|---|---|
 |uniqueID|STRING||
 
+## Examples
+```pascal
+resultN := ResList_GetSelCtrl('Example');
+```
+```python
+import vs
+
+# Gets the selected resource control of a resource popup.
+uniqueID = 'Example'
+
+resultN = vs.ResList_GetSelCtrl(uniqueID)
+vs.Message('ResList_GetSelCtrl returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2024.4
 
 ## Category
 * [Document List Handling](../Categories/Document List Handling.md)
-

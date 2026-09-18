@@ -48,6 +48,18 @@ def ODBCtest():
 ODBCtest()
 ```
 
+```pascal
+resultOK := DBDocGetDB(outDatabases);
+```
+```python
+import vs
+
+# Returns a string representing a ';' delimited list of the databases
+# currently connected to the document.
+ok, outDatabases = vs.DBDocGetDB()
+vs.Message('DBDocGetDB returned: ' + str((ok, outDatabases)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

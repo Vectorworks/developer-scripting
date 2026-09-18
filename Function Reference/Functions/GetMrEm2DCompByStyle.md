@@ -14,6 +14,22 @@ def vs.GetMrEm2DCompByStyle(hObject):
 |---|---|---|
 |hObject|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := GetMrEm2DCompByStyle(hObject);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetMrEm2DCompByStyle(hObject)
+if ok:
+    vs.Message('GetMrEm2DCompByStyle succeeded')
+else:
+    vs.Message('GetMrEm2DCompByStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

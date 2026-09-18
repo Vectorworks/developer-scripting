@@ -30,6 +30,28 @@ pbLineWt:= GetClLW('Property Bounds');
 pbLineWt = vs.GetClLW('Property Bounds')
 ```
 
+```pascal
+SetLSN( h4, GetClLSN( kModifierClass ) );
+SetLW( h4, GetClLW( kModifierClass ) );
+
+IF GetClLW (UserClassName) <> TmpClassInfo.LW THEN SetClLW (UserClassName, TmpClassInfo.LW);
+
+IF GetClLW (UserClassName) <> TmpClassInfo.LW THEN
+BEGIN
+	gClassList [classIndex].LW := GetClLW (UserClassName);
+	WriteToClassWS (classIndex, 2, GetClLW (UserClassName), '');
+END;
+```
+```python
+import vs
+
+# Returns the line weight of the specified class.
+className = 'None'
+
+resultN = vs.GetClLW(className)
+vs.Message('GetClLW returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

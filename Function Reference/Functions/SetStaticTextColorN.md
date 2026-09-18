@@ -46,6 +46,20 @@ eGenericWhiteTint = 211
 ```
 A more frequently updated tint list can be found by looking for the EUiControlTextTint enumeration in the MiniCadCallbacks.h file.
 
+## Examples
+```pascal
+SetStaticTextColorN(1, 2, 3);
+```
+```python
+import vs
+
+dialogID = 1
+componentID = 2
+tint = 3
+
+vs.SetStaticTextColorN(dialogID, componentID, tint)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

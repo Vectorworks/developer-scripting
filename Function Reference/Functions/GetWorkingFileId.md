@@ -23,6 +23,18 @@ def vs.GetWorkingFileId():
 |---|---|---|
 |uuid|STRING|Unique id for this working file|
 
+## Examples
+```pascal
+resultOK := GetWorkingFileId('Example');
+```
+```python
+import vs
+
+# Get the unique id for this Working File.
+ok, uuid = vs.GetWorkingFileId()
+vs.Message('GetWorkingFileId returned: ' + str((ok, uuid)))
+```
+
 ## See Also
 VS Functions:
 [GetLayerProjectInfo](GetLayerProjectInfo.md)

@@ -17,6 +17,19 @@ def vs.Plant_ResetPlantInst(plantSymbolName):
 |---|---|---|
 |plantSymbolName|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+Plant_ResetPlantInst(plantSymbolName);
+```
+```python
+import vs
+
+# Resets all instances of the plant symbol definition that is edited.
+plantSymbolName = 'MySymbol'
+
+vs.Plant_ResetPlantInst(plantSymbolName)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

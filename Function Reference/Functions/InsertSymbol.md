@@ -41,6 +41,13 @@ InsertSymbol(1',False,False,True,'Door');
 
 ```
 
+```pascal
+InsertSymbol(1.0, 2.0, TRUE, FALSE, TRUE, 'Example');
+```
+```python
+vs.InsertSymbol(1.0, 2.0, flipped, right, capped, 'Example')
+```
+
 ## See Also
 VS Functions:
 [AddSymToWall](AddSymToWall.md) 

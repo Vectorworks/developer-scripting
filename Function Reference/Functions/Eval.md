@@ -32,6 +32,36 @@ hasRecord:=Eval(handleToObject,(R IN ['Part Info']);
 
 ```
 
+```pascal
+BEGIN
+	if handle_cnt < 32767 then BEGIN
+		ok := (SQL = '((ALL))') | (Eval(h, sql) > 0);
+		IF (ok) & (lineweightDo) & (lineweightVa <> mT) THEN BEGIN
+			if not ObjectHasLW(h) then ok := false else BEGIN
+				num1 := GetLW(h);
+				num2 := Str2Num(lineweightVa);
+
+IF ( kGroup = nType ) THEN
+	TraverseGroups( FInGroup( h ), bFMOnly )
+ELSE IF ( (kPlugInObject = nType) ) THEN BEGIN
+	IF ( bFMOnly ) THEN BEGIN
+		bReplace := ( 0 < Eval( h, (R IN [ kStrFM ]) ) );
+	END
+
+BEGIN
+	for cnt1 := 1 to NumRecords(source) do BEGIN
+		recHand := GetRecord(source, cnt1);
+		recName := GetName(recHand);
+		IF Eval(target, (R IN [recName])) = 0 THEN SetRecord(target, recName);
+		for cnt2 := 1 to NumFields(recHand) do BEGIN
+			fldName := GetFldName(recHand, cnt2);
+			SetRField(target, recName, fldName, GetRField(source, recName, fldName));
+		END;
+```
+```python
+result = vs.Eval(h, c)
+```
+
 ## Version
 Availability: from All Versions
 

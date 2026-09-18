@@ -53,6 +53,27 @@ RUN(PutFileExample);
 
 ```
 
+```pascal
+BEGIN
+	PutFile('',GetPlugInString(3033),gFileName);
+	CancelOut := DidCancel;
+	IF NOT CancelOut THEN
+	BEGIN
+		gDoQTFrames := TRUE;
+
+   PutFile (GetPlugInString (6005), filename, fileName);
+IF fileName <> '' THEN
+BEGIN
+	Rewrite (fileName);
+	WriteLn (Concat (GetPlugInString (3018)), ':');
+
+BEGIN
+	PutFile (GetPlugInString (3013), defaultFile, fileName);
+```
+```python
+result = vs.PutFile('Example', 'Example')
+```
+
 ## See Also
 VS Functions:
 [GetLastFileErr](GetLastFileErr.md) 

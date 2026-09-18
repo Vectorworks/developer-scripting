@@ -24,6 +24,23 @@ def vs.CreateCheckBox2(dialogID, itemID, text, iconResPath):
 |text|DYNARRAY[] of CHAR|The text of this control.|
 |iconResPath|DYNARRAY[] of CHAR|The path of the icon resource.|
 
+## Examples
+```pascal
+CreateCheckBox2(1, 2, text, iconResPath);
+```
+```python
+import vs
+
+# Create a checkbox with an icon.
+dialogID = 1
+itemID = 2
+text = 'Example text'
+iconResPath = 'C:/Temp'
+
+vs.CreateCheckBox2(dialogID, itemID, text, iconResPath)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

@@ -37,7 +37,6 @@ begin
 	err := ReadXMLMemory( xml, mem );
 	err := GetElementValue( xml, '/root/value', value );
 
-
 	AlrtDialog( Concat( 'value=', value ) );
 
 	err := ReleaseXML( xml );
@@ -47,6 +46,13 @@ run(test);
 #### Python ####
 ```python
 
+```
+
+```pascal
+resultN := ReadXMLMemory(1, XMLData);
+```
+```python
+result = vs.ReadXMLMemory(h, XMLData)
 ```
 
 ## See Also

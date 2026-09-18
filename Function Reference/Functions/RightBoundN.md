@@ -22,6 +22,21 @@ def vs.RightBoundN(c):
 RightBValue:=RightBoundN(N='MyRect');
 ```
 
+```pascal
+resultVal := RightBoundN(c);
+```
+```python
+import vs
+
+# Returns the x-coordinate of the bounding box (bottom right corner) of an
+# object matching the search criteria If more than one object matches the
+# search crite.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.RightBoundN(c)
+vs.Message('RightBoundN returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

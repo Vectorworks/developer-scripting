@@ -17,6 +17,20 @@ def vs.Space_GetNetVolume(space):
 |---|---|---|
 |space|HANDLE|   |
 
+## Examples
+```pascal
+resultVal := Space_GetNetVolume(space);
+```
+```python
+import vs
+
+# Returns net volume of given space object.
+space = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vol = vs.Space_GetNetVolume(space)
+vs.Message('Space_GetNetVolume returned: ' + str(vol))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

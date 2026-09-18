@@ -49,6 +49,13 @@ textureID := ResolveByClassTextureRef(handleToObject, 0);
 
 ```
 
+```pascal
+resultN := ResolveByClassTextureRef(obj, 1);
+```
+```python
+result = vs.ResolveByClassTextureRef(obj, partID)
+```
+
 ## See Also
 VS Functions:
 [SetTextureRef](SetTextureRef.md) 

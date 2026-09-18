@@ -28,6 +28,19 @@ BEGIN
 templateName:=GetStoryLayerTemplateName(2);
 ```
 
+```pascal
+resultStr := GetStoryLayerTemplateName(1);
+```
+```python
+import vs
+
+# Returns the name of the nth Story Layer Template in the file.
+index = 1
+
+name = vs.GetStoryLayerTemplateName(index)
+vs.Message('GetStoryLayerTemplateName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [GetNumStoryLayerTemplates](GetNumStoryLayerTemplates.md) 

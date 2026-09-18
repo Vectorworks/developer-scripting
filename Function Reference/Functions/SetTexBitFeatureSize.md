@@ -23,6 +23,20 @@ def vs.SetTexBitFeatureSize(textureBitmap, featureSize):
 ## Remarks
 featureSize is in real-world inches
 
+## Examples
+```pascal
+SetTexBitFeatureSize(textureBitmap, 1.0);
+```
+```python
+import vs
+
+# Procedure SetTexBitFeatureSize sets the feature size of the referenced bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+featureSize = 1.0
+
+vs.SetTexBitFeatureSize(textureBitmap, featureSize)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

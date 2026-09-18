@@ -24,6 +24,26 @@ def vs.AddSubMtrlToMtrl(hMaterial, subMtrlName, fraction, makePrimary):
 |fraction|REAL|Fraction of the Simple material|
 |makePrimary|BOOLEAN|True if this Simple material should become the primary material of the Compound material|
 
+## Examples
+```pascal
+resultOK := AddSubMtrlToMtrl(hMaterial, 'Example', 1.0, TRUE);
+```
+```python
+import vs
+
+# Adds a Simple material to a Compound material.
+hMaterial = vs.FSActLayer()  # handle to the first selected object on the active layer
+subMtrlName = 'Example'
+fraction = 1.0
+makePrimary = True
+
+ok = vs.AddSubMtrlToMtrl(hMaterial, subMtrlName, fraction, makePrimary)
+if ok:
+    vs.Message('AddSubMtrlToMtrl succeeded')
+else:
+    vs.Message('AddSubMtrlToMtrl failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

@@ -39,6 +39,38 @@ cRed,cGrn,cBlu = vs.GetClFillFore('Grassy Cover')
 colorValue = vs.RGBToColorIndex(cRed,cGrn,cBlu)
 ```
 
+```pascal
+END;
+IF (ok) & (fillforeDo) & (fillforeVa <> mT) THEN BEGIN
+	if false then ok := false else BEGIN
+		IF IsFillColorByClass(h)
+			THEN GetClFillFore(GetClass(h), r, g, b)
+			ELSE GetFillFore(h, r, g, b);
+		RGBToColorIndex(r, g, b, num1);
+		num2 := Str2Num(fillforeVa);
+		ok := (ok) & (((fillforeOp = '=' ) & (num1 =  num2)) |
+		              ((fillforeOp = '<' ) & (num1 <  num2)) |
+
+GetClFillBack( kModifierClass, cR, cG, cB );
+SetFillBack( h4, cR, cG, cB );
+GetClFillFore( kModifierClass, cR, cG, cB );
+SetFillFore( h4, cR, cG, cB );
+
+GetClFillFore (UserClassName, r, g, b);
+RGBToColorIndex (r, g, b, tempLongInt);
+IF DecimalToColorIndex (TmpClassInfo.FillFore) <> tempLongInt THEN
+	SetClFillFore (UserClassName, DecimalToColorIndex (TmpClassInfo.FillFore));
+```
+```python
+import vs
+
+# Returns the fill foreground color setting of the specified class.
+className = 'None'
+
+colorRV, colorGV, colorBV = vs.GetClFillFore(className)
+vs.Message('GetClFillFore returned: ' + str((colorRV, colorGV, colorBV)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

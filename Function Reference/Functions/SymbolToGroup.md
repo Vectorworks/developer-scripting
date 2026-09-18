@@ -51,6 +51,42 @@ END;
 RUN(Test);
 ```
 
+## Examples
+```pascal
+	{ if the object is a symbol, convert the symbol to a group }
+	IF (GetType (tempH2) = 15) THEN
+		SymbolToGroup (tempH2, 2)
+
+	{ if the object is a group, go into the group to get the objects }
+	ELSE IF (GetType (tempH2) = 11) THEN
+		tempH := FInGroup (tempH2)
+
+	ELSE tempH := tempH2;
+{
+writeln ('## type = ',GetType (h),'    tempH2 = ',tempH2 ,'    tempH = ',tempH );
+}
+
+SymbolToGroup(LNewObj, 2);
+
+while (gOffsetY + deltaY > y2) do BEGIN
+	if IsSymbolInPoly(symHandle, gPolyHandle, gOffsetX, gOffsetY) then BEGIN
+		Symbol(GetSDName(symHandle), gOffsetX, gOffsetY, 0);
+		IF gConvertToGroups THEN SymbolToGroup(LNewObj,2);
+		SetDSelect(LNewObj);
+		SetClass(LNewObj, kInvisibleClass);
+	end else BEGIN
+	   	bitHandle := FInSymDef(symHandle);
+```
+```python
+import vs
+
+# Converts referenced symbol to group using the specified conversion options.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+convertAction = 1
+
+vs.SymbolToGroup(h, convertAction)
+```
+
 ## Version
 Availability: from VectorWorks 10.0
 

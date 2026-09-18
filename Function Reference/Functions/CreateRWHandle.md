@@ -17,6 +17,19 @@ def vs.CreateRWHandle():
 |---|---|---|
 |RWHandle|HANDLE|   |
 
+## Examples
+```pascal
+CreateRWHandle(RWHandle);
+```
+```python
+import vs
+
+# Create a new RenderWorks options handle.
+objHandle = vs.CreateRWHandle()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

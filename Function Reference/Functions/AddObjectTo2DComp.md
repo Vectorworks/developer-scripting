@@ -36,6 +36,26 @@ def vs.AddObjectTo2DComp(objectHandle, objToAddHandle, component):
 |objToAddHandle|HANDLE|New object to be added to the 2D component group.|
 |component|INTEGER|2D component|
 
+## Examples
+```pascal
+resultOK := AddObjectTo2DComp(objectHandle, objToAddHandle, 1);
+```
+```python
+import vs
+
+# Adds an object to the specified 2D component group of a symbol definition
+# or plug-in object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+objToAddHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+component = 1
+
+ok = vs.AddObjectTo2DComp(objectHandle, objToAddHandle, component)
+if ok:
+    vs.Message('AddObjectTo2DComp succeeded')
+else:
+    vs.Message('AddObjectTo2DComp failed')
+```
+
 ## See Also
 VS Functions:
 [Set2DComponentGroup](Set2DComponentGroup.md) 

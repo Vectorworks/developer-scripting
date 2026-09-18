@@ -24,6 +24,24 @@ def vs.CreateImagePushButton(dialogID, controlID, widthInCharacters, imageSpecif
 |widthInCharacters|INTEGER|The width of the control.|
 |imageSpecifier|DYNARRAY[] of CHAR|The string identifier for the image. It should be of the form &quot;ResourceFileNameWithoutExtension/PathOfImageFile&quot;.|
 
+## Examples
+```pascal
+CreateImagePushButton( dialogID, VPLeftButton_ID, 8, 'IP Resources/Images/Camera Match/Vanish Left.png' );
+SetFirstGroupItem( dialogID, VanishPtGroup_ID, VPLeftButton_ID );
+```
+```python
+import vs
+
+# Creates an image push button.
+dialogID = 1
+controlID = 2
+widthInCharacters = 3
+imageSpecifier = 'Example'
+
+vs.CreateImagePushButton(dialogID, controlID, widthInCharacters, imageSpecifier)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

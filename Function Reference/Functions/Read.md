@@ -21,6 +21,36 @@ def vs.Read():
 |---|---|---|
 |z|ANY|   |
 
+## Examples
+```pascal
+BEGIN
+	Read (size1);
+	IF size1 = size THEN
+	BEGIN
+		ReadLn (a, b, t, rf, rt);
+		sizeNotFound := FALSE;
+
+BEGIN
+	Read (size1);
+	IF size1 = size THEN
+	BEGIN
+		ReadLn (d, tw, w, tf, a, b, rt, rf);
+		sizeNotFound := FALSE;
+
+BEGIN
+Read(OldName);
+Readln(NewName);
+IF  OpType = kOutNew THEN {New Name}
+	BEGIN
+	IF DoesNotExist(NewName,CheckClass) THEN
+```
+```python
+import vs
+
+# Procedure Read will read data from a currently open text file.
+result = vs.Read()
+```
+
 ## Version
 Availability: from All Versions
 

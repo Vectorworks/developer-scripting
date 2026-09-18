@@ -24,6 +24,19 @@ def vs.SurfaceAreaN(c):
 totalArea:=SurfaceAreaN((C='Empty Space'));
 ```
 
+```pascal
+resultVal := SurfaceAreaN(c);
+```
+```python
+import vs
+
+# Returns the surface area of the items matching the specified criteria.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+area = vs.SurfaceAreaN(c)
+vs.Message('SurfaceAreaN returned: ' + str(area))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

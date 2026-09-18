@@ -20,6 +20,24 @@ def vs.EA_DataAccGetBool(acc, valueIndex):
 |acc|INTEGER|   |
 |valueIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := EA_DataAccGetBool(1, 2);
+```
+```python
+import vs
+
+# Returns boolean value from the object, associated to the accessory index.
+acc = 1
+valueIndex = 1
+
+ok = vs.EA_DataAccGetBool(acc, valueIndex)
+if ok:
+    vs.Message('EA_DataAccGetBool succeeded')
+else:
+    vs.Message('EA_DataAccGetBool failed')
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -25,6 +25,26 @@ def vs.SetDLComponentPenStyles(index, penStyleLeft, penStyleRight):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := SetDLComponentPenStyles(1, 2, 3);
+```
+```python
+import vs
+
+# Sets the left and right pen styles for the component at index in the Double
+# Line Preferences.
+index = 1
+penStyleLeft = 0
+penStyleRight = 0
+
+ok = vs.SetDLComponentPenStyles(index, penStyleLeft, penStyleRight)
+if ok:
+    vs.Message('SetDLComponentPenStyles succeeded')
+else:
+    vs.Message('SetDLComponentPenStyles failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentPenStyles](GetDLComponentPenStyles.md)

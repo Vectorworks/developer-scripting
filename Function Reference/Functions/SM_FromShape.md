@@ -18,9 +18,25 @@ def vs.SM_FromShape(hObj):
 |---|---|---|
 |hObj|HANDLE||
 
+## Examples
+```pascal
+BEGIN
+	gPluginObjH := SM_FromShape(h);
+END;	{of MakeStructuralMember}
+```
+```python
+import vs
+
+# Creates a Structural Member from the given shape.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.SM_FromShape(hObj)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2024
 
 ## Category
 * [StructuralMember](../Categories/StructuralMember.md)
-

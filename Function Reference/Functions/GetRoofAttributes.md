@@ -43,8 +43,6 @@ bearingInset  is where the weight of the roof rests on the wall.  This is an ins
 miterType: Specify 1 for a vertical miter, 2 for horizontal miter, 3 for a double miter cut, and 4 for a square end miter cut.
 vertMiter: This is used only with the double miter type; it specifies the vertical length of the miter cut.
 
-
-
 slabKind := GetObjectVariableInt(h, 172); {1 = roof, 2 = floor, 3 = column}
 
 ## Examples
@@ -72,6 +70,20 @@ def Example():
 	if hasAttr:
 		vs.Message(genGableWall, ' ', bearingInset, ' ', roofThick, ' ', miterType, ' ', vertMiter)
 Example()
+```
+
+```pascal
+resultOK := GetRoofAttributes(theRoof, TRUE, 1.0, 2.0, 1, 0.5);
+```
+```python
+import vs
+
+# Function GetRoofAttributes returns the attributes of the referenced roof
+# object.
+theRoof = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, genGableWall, bearingInset, roofThick, miterType, vertMiter = vs.GetRoofAttributes(theRoof)
+vs.Message('GetRoofAttributes returned: ' + str((ok, genGableWall, bearingInset, roofThick, miterType, vertMiter)))
 ```
 
 ## Version

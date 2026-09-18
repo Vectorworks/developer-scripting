@@ -23,6 +23,20 @@ This only creates the object, SetDormerAttributes() &amp; SetTrapeziumAttributes
 ## Examples
 [CreateRoofObj](examples/CreateRoofObj.md)
 
+```pascal
+resultN := CreateTrapeziumDormer(roofObject);
+```
+```python
+import vs
+
+# Function CreateTrapeziumDormer creates a trapezium dormer in the referenced
+# roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.CreateTrapeziumDormer(roofObject)
+vs.Message('CreateTrapeziumDormer returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

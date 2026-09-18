@@ -17,6 +17,20 @@ def vs.ExportPDFPages(savedViewNameStr):
 |---|---|---|
 |savedViewNameStr|STRING|   |
 
+## Examples
+```pascal
+resultN := ExportPDFPages('Example');
+```
+```python
+import vs
+
+# This will export the current document to PDF.
+savedViewNameStr = 'Example'
+
+resultN = vs.ExportPDFPages(savedViewNameStr)
+vs.Message('ExportPDFPages returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

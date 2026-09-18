@@ -12,6 +12,19 @@ def vs.FActLayer():
     return HANDLE
 ```
 
+## Examples
+```pascal
+resultH := FActLayer;
+```
+```python
+import vs
+
+# Function FActLayer returns a handle to the first object on the active layer.
+objHandle = vs.FActLayer()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from All Versions
 

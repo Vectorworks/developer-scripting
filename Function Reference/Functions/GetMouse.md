@@ -43,6 +43,24 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+SetCursor (ArrowC);
+GetMouse (x, y);
+x := x - kX0;
+IF x < 0 THEN
+BEGIN
+	xB_S := Num2Str( numDecPlaces( deltaX ), 0 );
+```
+```python
+import vs
+
+# Procedure GetMouse tracks and returns the current location of the cursor
+# within the active VectorWorks document, allowing the cursor coordinates to
+# be return.
+result = vs.GetMouse()
+```
+
 ## Version
 Availability: from All Versions
 

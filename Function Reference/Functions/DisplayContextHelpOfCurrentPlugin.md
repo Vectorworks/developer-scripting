@@ -12,6 +12,18 @@ def vs.DisplayContextHelpOfCurrentPlugin():
     return None
 ```
 
+## Examples
+```pascal
+DisplayContextHelpOfCurrentPlugin;
+```
+```python
+import vs
+
+# This could be a command plug-in that has a dialog open, or a tool plug-in
+# that is active.
+vs.DisplayContextHelpOfCurrentPlugin()
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

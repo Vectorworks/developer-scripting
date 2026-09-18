@@ -20,6 +20,19 @@ def vs.GetResourceTags(handle):
 |handle|HANDLE|The handle to the resource.|
 |tags|ARRAY|The list of tags.|
 
+## Examples
+```pascal
+GetResourceTags(handle, tags);
+```
+```python
+import vs
+
+# Gets the tags attached to the specified resource.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+result = vs.GetResourceTags(handle)
+```
+
 ## See Also
 See GetObjectTags for information on using PY tuples as the required array.
 

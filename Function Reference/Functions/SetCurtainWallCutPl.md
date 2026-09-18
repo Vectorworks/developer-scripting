@@ -20,9 +20,23 @@ def vs.SetCurtainWallCutPl(wall, curtainWallCutPlane):
 |wall|HANDLE|The wall.|
 |curtainWallCutPlane|REAL|The curtain wall cut plane of the wall.|
 
+## Examples
+```pascal
+SetCurtainWallCutPl(wall, 1.0);
+```
+```python
+import vs
+
+# Sets the curtain wall cut plane of the wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+curtainWallCutPlane = 1.0
+
+vs.SetCurtainWallCutPl(wall, curtainWallCutPlane)
+```
+
 ## See Also
 VS Functions:
-[GetCurtainWallCutPlane](GetCurtainWallCutPlane.md)
+GetCurtainWallCutPlane
 
 ## Version
 Availability: from Vectorworks 2016

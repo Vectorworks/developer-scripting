@@ -27,6 +27,27 @@ VDelete('Detail A-A');
 
 ```
 
+```pascal
+BEGIN
+	VRestore ('myTempView00000001');
+	VDelete ('myTempView00000001');
+END;
+
+{restore the doc view before the plugin envocation}
+VRestore('UpdateObjectsTempView');
+VDelete('UpdateObjectsTempView');
+
+		SetRField(objHand, kSeatingObjectName, 'RowSpacing', Num2Str(8, RowSpacing));
+		gRowSpacing := RowSpacing;
+		END;
+	VRestore ('__SeatingLayoutTempView');
+	VDelete ('__SeatingLayoutTempView');
+END;
+```
+```python
+vs.VDelete('Example')
+```
+
 ## Version
 Availability: from All Versions
 

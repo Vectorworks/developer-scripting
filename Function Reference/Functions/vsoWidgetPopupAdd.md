@@ -25,6 +25,41 @@ def vs.vsoWidgetPopupAdd(widgetID, id, text):
 ## Remarks
 The PopUp is easy to handle if you use the same value for id and text. So that the display text is equal to the database value.
 
+## Examples
+```pascal
+vsoWidgetPopupAdd( gDoorSwingID, kDoorConfigLeft,  GetPluginString(3008));
+vsoWidgetPopupAdd( gDoorSwingID, kDoorConfigRight, GetPluginString(3009));
+IF ( pStyle = kBCStrCorSq ) | (pStyle = kBCStrCorDiag)
+| (pStyle = kBCStrStandard) | (pStyle = kBCStrSinkFront)  THEN
+BEGIN
+
+IF ( Len(optShort) > 0 ) THEN
+	vsoWidgetPopupAdd(6, kShort, optShort);
+IF ( Len(optMedium) > 0 ) THEN
+	vsoWidgetPopupAdd(6, kMedium, optMedium);
+IF ( Len(optLong) > 0 ) THEN
+	vsoWidgetPopupAdd(6, kLong, optLong);
+
+NumVPs := 0;
+ForEachObjectInLayer(BuildVPList,0,1,1);
+SortArray(VPData,NumVPs,1);
+For I := 1 to NumVPs DO
+	vsoWidgetPopupAdd(kLinkToPopUp,VPData[I].VPName,VPData[I].VPNumTitle);
+vsoSetEventResult (-8);
+Setup;
+END;
+```
+```python
+import vs
+
+# Adds an item to the widget choices.
+widgetID = 1
+id = 'Example'
+text = 'Example text'
+
+vs.vsoWidgetPopupAdd(widgetID, id, text)
+```
+
 ## Version
 Availability: from All Versions
 

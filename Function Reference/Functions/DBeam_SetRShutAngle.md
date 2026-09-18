@@ -14,6 +14,18 @@ def vs.DBeam_SetRShutAngle(angle):
 |---|---|---|
 |angle|REAL|   |
 
+## Examples
+```pascal
+DBeam_SetRShutAngle(1.0);
+```
+```python
+import vs
+
+angle = 45.0
+
+vs.DBeam_SetRShutAngle(angle)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

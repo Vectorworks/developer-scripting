@@ -31,6 +31,25 @@ def vs.GetTexMapBool(h, partID, selector):
 |partID|LONGINT|   |
 |selector|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := GetTexMapBool(h, 1, 2);
+```
+```python
+import vs
+
+# Get map info for specific part of object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+selector = 2
+
+ok = vs.GetTexMapBool(h, partID, selector)
+if ok:
+    vs.Message('GetTexMapBool succeeded')
+else:
+    vs.Message('GetTexMapBool failed')
+```
+
 ## See Also
 VS Functions:
 * VW 14: [SetTexMapBool](SetTexMapBool.md)

@@ -20,6 +20,25 @@ def vs.PublishSavedSet(savedSetName, outputFolder):
 |savedSetName|STRING|Saved set to be published.|
 |outputFolder|DYNARRAY[] of CHAR|Output folder for the createded files.|
 
+## Examples
+```pascal
+resultOK := PublishSavedSet('Example', outputFolder);
+```
+```python
+import vs
+
+# This function publishes passed saved set from the opened document to the
+# given folder.
+savedSetName = 'Example'
+outputFolder = 'C:/Temp'
+
+ok = vs.PublishSavedSet(savedSetName, outputFolder)
+if ok:
+    vs.Message('PublishSavedSet succeeded')
+else:
+    vs.Message('PublishSavedSet failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

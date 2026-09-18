@@ -28,6 +28,19 @@ BEGIN
 levelTypeName:=GetLayerLevelTypeName(2);
 ```
 
+```pascal
+resultStr := GetLevelTypeName(1);
+```
+```python
+import vs
+
+# Returns the name of the nth Level Type in the file.
+index = 1
+
+name = vs.GetLevelTypeName(index)
+vs.Message('GetLevelTypeName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [GetNumLayerLevelTypes](GetNumLayerLevelTypes.md) 

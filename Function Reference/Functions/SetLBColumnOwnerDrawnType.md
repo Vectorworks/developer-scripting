@@ -36,6 +36,34 @@ Pattern and pattern rect are not quite supported under VW 12.5 and 12.5.1. Setti
 There is to my knowledge no way to control the pattern loaded.
 A corresponding function for setting or retriving the pattern index is still missing in the currently published VS version. In the SDK there are [[SDK:GS_SetListBrowserItemPatternIndex]] and [[SDK:GS_GetListBrowserItemPatternIndex]].
 
+## Examples
+```pascal
+								TRUE);
+			Red := ((TempColorArray [RowCount+1].Red))/257;
+			Green := ((TempColorArray [RowCount+1].Green))/257;
+			Blue := ((TempColorArray [RowCount+1].Blue))/257;
+			bFlipTexture := SetLBColumnOwnerDrawnType( dialog, kFrntMltColBrowser, RowCount,2,1);
+			bFlipTexture := SetLBItemFillBackColor( dialog, kFrntMltColBrowser, RowCount,2,Red,Green,Blue);
+			bFlipTexture := SetLBItemFillForeColor( dialog, kFrntMltColBrowser, RowCount,2,Red,Green,Blue);
+{This line caused crash:  IF IsUserColor(ColorIndexForName,ColorName) then Begin End;}
+```
+```python
+import vs
+
+# Sets the list browser column's owner drawn type.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+ownerDrawnType = 0
+
+ok = vs.SetLBColumnOwnerDrawnType(dialogID, componentID, itemIndex, subItemIndex, ownerDrawnType)
+if ok:
+    vs.Message('SetLBColumnOwnerDrawnType succeeded')
+else:
+    vs.Message('SetLBColumnOwnerDrawnType failed')
+```
+
 ## Version
 Availability: from VectorWorks 12.0
 

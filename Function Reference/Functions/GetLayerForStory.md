@@ -31,6 +31,25 @@ BEGIN
 layer:=GetLayerForStory(story);
 ```
 
+```pascal
+{ Is there a current level type being used }
+if ( storyLevel <> '' ) THEN BEGIN
+	{ Find a layer with this type for the story }
+	if ( hStory <> NIL ) THEN BEGIN
+		layerH := GetLayerForStory( hStory, storyLevel );
+```
+```python
+import vs
+
+# Gets the layer with the story and layer level type specified.
+story = vs.FSActLayer()  # handle to the first selected object on the active layer
+levelType = 'Example'
+
+objHandle = vs.GetLayerForStory(story, levelType)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [GetStoryOfLayer](GetStoryOfLayer.md) 

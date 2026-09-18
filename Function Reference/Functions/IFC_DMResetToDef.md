@@ -29,6 +29,20 @@ RUN(Test);
 ok	= vs.IFC_DMResetToDef()
 ```
 
+```pascal
+resultOK := IFC_DMResetToDef;
+```
+```python
+import vs
+
+# Resets the data mapping to the default values.
+ok = vs.IFC_DMResetToDef()
+if ok:
+    vs.Message('IFC_DMResetToDef succeeded')
+else:
+    vs.Message('IFC_DMResetToDef failed')
+```
+
 ## Version
 Available from: Vectorworks 2017
 

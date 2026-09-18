@@ -66,6 +66,33 @@ RUN(SetParentExample);
 
 ```
 
+```pascal
+EndGroup;
+archGroupH := LNewObj;
+IF (archGroupH <> NIL) & (gArchClass <> '') THEN
+	SetClass(archGroupH, gArchClass);
+boo := SetParent(baseH, archGroupH);
+boo := SetParent(shaftH, archGroupH);
+DelObject(locusH);
+
+BEGIN
+CASE gettype(hInput) OF
+	11:	BEGIN
+		temp_h := fingroup(hInput);
+		temp_b := SetParent(temp_h,getparent(hInput));
+		IF (hInput <> NIL) THEN delobject(hInput);
+		hInput := temp_h;
+		END;
+
+BEGIN
+BSB := SetParent(h,NewLayerHand);
+ChangeObjLayer := FALSE;
+END;
+```
+```python
+result = vs.SetParent(obj, container)
+```
+
 ## See Also
 VS Functions:
 [CreateDuplicateObject](CreateDuplicateObject.md)

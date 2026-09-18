@@ -29,6 +29,27 @@ The offset is always in mm. So please convert your document units to mm:
 result = vs.OffsetPolyClosed(obj, offset /vs.GetPrefReal(152)*25.4, smoothCorners)
 ```
 
+## Examples
+```pascal
+IF(clipFill)
+THEN BEGIN
+	hOriginalPoly 	:= LnewObj;
+	hOffsetPoly 	:= OffsetPolyClosed(LnewObj, -1, False);
+```
+```python
+import vs
+
+# Offsets a polyline or polygon, then uses the original geometry to construct
+# a closed profile.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+offset = 0.0
+smoothCorners = True
+
+objHandle = vs.OffsetPolyClosed(obj, offset, smoothCorners)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

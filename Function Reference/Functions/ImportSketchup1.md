@@ -20,6 +20,24 @@ def vs.ImportSketchup1(filePath, doSingleSym):
 |filePath|STRING|   |
 |doSingleSym|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := ImportSketchup1('file.txt', TRUE);
+```
+```python
+import vs
+
+# Import a sketch up file.
+filePath = 'C:/Temp'
+doSingleSym = True
+
+ok = vs.ImportSketchup1(filePath, doSingleSym)
+if ok:
+    vs.Message('ImportSketchup1 succeeded')
+else:
+    vs.Message('ImportSketchup1 failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

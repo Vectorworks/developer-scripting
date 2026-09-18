@@ -17,6 +17,23 @@ def vs.SetTpPl2DCompByStyle(hObject, byStyle):
 |hObject|HANDLE|   |
 |byStyle|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := SetTpPl2DCompByStyle(hObject, TRUE);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+byStyle = True
+
+ok = vs.SetTpPl2DCompByStyle(hObject, byStyle)
+if ok:
+    vs.Message('SetTpPl2DCompByStyle succeeded')
+else:
+    vs.Message('SetTpPl2DCompByStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

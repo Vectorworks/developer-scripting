@@ -42,6 +42,19 @@ ok, iNum = vs.IFC_GetNumPsets(vs.FSActLayer())
 vs.AlrtDialog(str(iNum))
 ```
 
+```pascal
+resultOK := IFC_GetNumPsets(hObject, 1);
+```
+```python
+import vs
+
+# Gets the number of property sets, attached to the object.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, outNumPsets = vs.IFC_GetNumPsets(hObject)
+vs.Message('IFC_GetNumPsets returned: ' + str((ok, outNumPsets)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

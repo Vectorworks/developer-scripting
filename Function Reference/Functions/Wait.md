@@ -30,6 +30,33 @@ Wait(3);
 
 ```
 
+```pascal
+BEGIN
+	AlertInform (GetPluginString (5024), '', TRUE);
+	Wait(3);
+END
+
+BEGIN
+	message (GetPluginString (5001));
+	Wait(1);
+	DSelectAll;
+	VSave('UpdateObjectsTempView');
+	DoMenuTextByName(GetLocStr(11050,32), 1);{'Standard Views'}
+
+		NumLights := Count(R IN [kInstObjName]);
+		Message(GetPlugInString(5000), CurInstNum, GetPlugInString(5001), NumLights);
+		TmpCnt := Count(kInstObjName.kDeviceTypeFieldName=kSAccDevice);
+		ForEachObject(ExportLightInfo, (R IN [kInstObjName]));
+		Wait(1);
+		ClrMessage;
+		Close(ExportFile);
+	END; {DidCancel file Put Dlog}
+END;
+```
+```python
+vs.Wait(seconds)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -42,6 +42,37 @@ pt = vs.PenLoc() # penLoc = (101, 234)
 vs.Message( str(pt) )
 ```
 
+```pascal
+BEGIN
+	Absolute;
+	MoveTo (x3 + dx/2, y1 + textOff [3]);
+	PenLoc (xt, yt);
+	FOR i := 1 TO gNumZonesH DO
+	BEGIN
+		IF gNumbersLtoR THEN
+			s := Num2Str (0, i)
+
+Absolute;
+MoveTo (-dx2/2, height/2);
+Relative;
+PenLoc (x, y);
+
+LineTo(numSpaces*sLength, #0);
+MoveTo(position_x, position_y);
+IF gShow3D THEN BEGIN
+	MoveTo(numSpaces*sLength, #0);
+	PenLoc(term_x, term_y);
+	Poly3D(position_x, position_y, kZ_FACTOR, term_x, term_y, kZ_FACTOR);
+	MoveTo(position_x, position_y);
+END;
+```
+```python
+import vs
+
+# Returns the current coordinate location of the graphics pen.
+result = vs.PenLoc()
+```
+
 ## Version
 Availability: from All Versions
 

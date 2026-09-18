@@ -23,6 +23,23 @@ def vs.OLDGetLoadDataStr(handle, selector, loadIndex):
 |selector|INTEGER|   |
 |loadIndex|INTEGER|   |
 
+## Examples
+```pascal
+BrcWeightStr	:= OLDGetLoadDataStr( ghParm, kDLDSelectorWeight, 0 );
+OIPWeightStr 	:= GetRField (ghParm, kPIOName, 'BxWeight');
+```
+```python
+import vs
+
+# Using selector, gets load data with string value for the parametric object.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+selector = 1
+loadIndex = 1
+
+text = vs.OLDGetLoadDataStr(handle, selector, loadIndex)
+vs.Message('OLDGetLoadDataStr returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

@@ -28,6 +28,17 @@ def vs.ReadBin():
 |---|---|---|
 |z|ANY|   |
 
+## Examples
+```pascal
+ReadBin(z);
+```
+```python
+import vs
+
+# Procedure ReadBin will read binary data from a currently open file.
+result = vs.ReadBin()
+```
+
 ## See Also
 [WriteBin](WriteBin.md) | [Open](Open.md)
 

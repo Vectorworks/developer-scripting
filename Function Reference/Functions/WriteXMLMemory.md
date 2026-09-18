@@ -51,6 +51,13 @@ run(test);
 
 ```
 
+```pascal
+resultN := WriteXMLMemory(1, XMLData);
+```
+```python
+result = vs.WriteXMLMemory(h)
+```
+
 ## See Also
 [CreateNewXMLDocument](CreateNewXMLDocument.md) | [SetElementValue](SetElementValue.md) | [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md) | [ReadXMLMemory](ReadXMLMemory.md)
 

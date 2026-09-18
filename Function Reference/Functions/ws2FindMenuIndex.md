@@ -20,6 +20,21 @@ def vs.ws2FindMenuIndex(menuPath, findMenuUnivName):
 |menuPath|DYNARRAY[] of CHAR|   |
 |findMenuUnivName|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultN := ws2FindMenuIndex(menuPath, findMenuUnivName);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+findMenuUnivName = 'Example'
+
+index = vs.ws2FindMenuIndex(menuPath, findMenuUnivName)
+vs.Message('ws2FindMenuIndex returned: ' + str(index))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

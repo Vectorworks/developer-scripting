@@ -37,6 +37,13 @@ LoadCell(3, 3, 'Cell 1, 1');
 
 ```
 
+```pascal
+SprdAlign (3);
+```
+```python
+vs.SprdAlign(align)
+```
+
 ## See Also
 [SetWSCellAlignment](SetWSCellAlignment.md)
 

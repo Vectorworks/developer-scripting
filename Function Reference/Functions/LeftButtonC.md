@@ -15,6 +15,19 @@ def vs.LeftButtonC():
 ## Remarks
 Added 10/30/09 by Adam Petrone.
 
+## Examples
+```pascal
+LeftButtonC;
+```
+```python
+import vs
+
+# This constant is used as a control ID when a button must appear in the
+# lower left corner of a dialog.
+resultN = vs.LeftButtonC()
+vs.Message('LeftButtonC returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

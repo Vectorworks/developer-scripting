@@ -20,9 +20,23 @@ def vs.GetTextureTransp(texture):
 ## Remarks
 Percentage value - 0 equals opaque
 
+## Examples
+```pascal
+resultN := GetTextureTransp(texture);
+```
+```python
+import vs
+
+# Function GetTextureTransp returns the degree of transparency applied to the
+# referenced texture.
+texture = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetTextureTransp(texture)
+vs.Message('GetTextureTransp returned: ' + str(resultN))
+```
+
 ## Version
 GetTextureTransp is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

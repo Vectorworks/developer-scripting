@@ -28,6 +28,33 @@ def vs.SetObjectStoryBound(obj, boundID, boundType, boundStory, layerLevelType, 
 |layerLevelType|STRING|The layer type which defines this bound|
 |offset|REAL|The offset distance from the specified bound story|
 
+## Examples
+```pascal
+BEGIN
+	SetObjectStoryBound( toObject, toBoundID, boundType, boundStory, layerLevelType, tempOffset );
+END ELSE
+BEGIN
+	SetObjectStoryBound( toObject, toBoundID, 0, 0, '', defaultReal );
+END;
+
+BEGIN
+	SetObjectStoryBound( objectHand, topBoundID, boundType, boundStory, layerLevelType, topOffset );
+END;
+```
+```python
+import vs
+
+# Set the data of the specified story bound of this object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+boundID = 1
+boundType = 0
+boundStory = 2
+layerLevelType = 'Design Layer-1'
+offset = 0.0
+
+vs.SetObjectStoryBound(obj, boundID, boundType, boundStory, layerLevelType, offset)
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

@@ -32,6 +32,13 @@ LFillBack(65535,0,39321);
 
 ```
 
+```pascal
+LFillBack(1);
+```
+```python
+vs.LFillBack(color)
+```
+
 ## Version
 Availability: from All Versions
 

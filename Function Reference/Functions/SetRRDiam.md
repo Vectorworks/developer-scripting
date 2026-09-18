@@ -22,6 +22,21 @@ def vs.SetRRDiam(h, xDiam, yDiam):
 |xDiam|REAL|   |
 |yDiam|REAL|   |
 
+## Examples
+```pascal
+SetRRDiam(h, 1.0, 2.0);
+```
+```python
+import vs
+
+# Sets the diameters of a rounded rectangle.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+xDiam = 1.0
+yDiam = 2.0
+
+vs.SetRRDiam(h, xDiam, yDiam)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

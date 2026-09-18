@@ -81,6 +81,24 @@ def vs.StairSetConfigType(stair, ConfigurationType):
 |stair|HANDLE|   |
 |ConfigurationType|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := StairSetConfigType(stair, 1);
+```
+```python
+import vs
+
+# Sets Stair Configuration Type.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+ConfigurationType = 0
+
+ok = vs.StairSetConfigType(stair, ConfigurationType)
+if ok:
+    vs.Message('StairSetConfigType succeeded')
+else:
+    vs.Message('StairSetConfigType failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

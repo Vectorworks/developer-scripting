@@ -40,6 +40,29 @@ END;
 
 ```
 
+```pascal
+{ set component subclass }
+ChangeToClass(cWall_Finish);
+GetZVals(LayerZ,deltaZ);
+
+GetZVals (zVal, defaultDz);
+IF GetWallWidth = 0 THEN
+BEGIN
+	defaultThk := kDefaultThk * GetLScale (ActLayer);
+	SetWallWidth (defaultThk);
+
+BEGIN
+LScale := GetLScale(ActLayer);
+GetZVals(zVal , deltaZVal) ;
+END;
+```
+```python
+zVal, deltaZVal = vs.GetZVals()
+# Draw 2D gutter
+if gutter != 0:
+	DrawGutter( r1, sweep2D, w, gutter, currPenSize )
+```
+
 ## Version
 Availability: from MiniCAD5.0
 

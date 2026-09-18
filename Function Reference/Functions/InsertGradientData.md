@@ -36,6 +36,26 @@ index := InsertGradientData(gradientHandle, 0.35, 0.4, 255, 255, 255, 100);
 { inserts a white color spot at position, 0.35, with a midpoint position of 0.4; 100 is max opacity (i.e. opaque) }
 ```
 
+```pascal
+resultN := InsertGradientData(gradient, 1.0, 2.0, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# A segment consists of a single color spot and the single midpoint
+# immediately to the right of the color spot.
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+spotPosition = 1.0
+midpointPosition = 2.0
+red = 65535
+green = 0
+blue = 0
+opacity = 1
+
+resultN = vs.InsertGradientData(gradient, spotPosition, midpointPosition, red, green, blue, opacity)
+vs.Message('InsertGradientData returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [GetGradientDataN](GetGradientDataN.md) 

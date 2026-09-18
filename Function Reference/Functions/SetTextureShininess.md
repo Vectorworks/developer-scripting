@@ -23,9 +23,23 @@ def vs.SetTextureShininess(texture, shininess):
 ## Remarks
 Percentage value - 0 equals dull
 
+## Examples
+```pascal
+SetTextureShininess(texture, 1);
+```
+```python
+import vs
+
+# Procedure SetTextureShininess sets the shininess value of the referenced
+# texture.
+texture = vs.FSActLayer()  # handle to the first selected object on the active layer
+shininess = 1
+
+vs.SetTextureShininess(texture, shininess)
+```
+
 ## Version
 SetTextureShininess is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

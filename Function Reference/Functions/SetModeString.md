@@ -17,6 +17,24 @@ def vs.SetModeString(messageStr):
 |---|---|---|
 |messageStr|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+	SetModeString(Message1);
+	IF (GetName(GetRecord(theHoist,1)) = kHoistPIOName) THEN
+		ChecObjectCallback := TRUE
+	ELSE
+		ChecObjectCallback := FALSE;
+```
+```python
+import vs
+
+# Sets the mode string to the given parameter.
+messageStr = 'Hello Vectorworks'
+
+vs.SetModeString(messageStr)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

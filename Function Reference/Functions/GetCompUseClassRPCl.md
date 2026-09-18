@@ -22,6 +22,21 @@ def vs.GetCompUseClassRPCl(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassPenColorsForRightPen|BOOLEAN|Returns whether or not the component is using class attributes for its right pen colors.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassRPCl(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class pen colors for right pen flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassPenColorsForRightPen = vs.GetCompUseClassRPCl(object, componentIndex)
+vs.Message('GetCompUseClassRPCl returned: ' + str((ok, useClassPenColorsForRightPen)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassRPCl](SetCompUseClassRPCl.md)

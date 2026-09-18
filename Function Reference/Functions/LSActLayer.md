@@ -12,6 +12,20 @@ def vs.LSActLayer():
     return HANDLE
 ```
 
+## Examples
+```pascal
+resultH := LSActLayer;
+```
+```python
+import vs
+
+# Function LSActLayer returns a handle to the last selected object on the
+# active layer.
+objHandle = vs.LSActLayer()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 Relative calls:
 * [NextObj](NextObj.md) | [PrevObj](PrevObj.md)

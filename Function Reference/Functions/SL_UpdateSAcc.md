@@ -20,6 +20,22 @@ def vs.SL_UpdateSAcc(InstHand, InstUID):
 |InstHand|HANDLE|   |
 |InstUID|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+BEGIN
+	SL_UpdateSAcc(InstHandle,InstUID);
+END;
+```
+```python
+import vs
+
+# Updates an existing Static Accessory UID in the data exchange file.
+InstHand = vs.FSActLayer()  # handle to the first selected object on the active layer
+InstUID = 'Example'
+
+vs.SL_UpdateSAcc(InstHand, InstUID)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

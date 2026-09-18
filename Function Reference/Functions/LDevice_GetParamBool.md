@@ -25,6 +25,27 @@ def vs.LDevice_GetParamBool(handle, cellIndex, accessoryIndex, universalName):
 |accessoryIndex|LONGINT|   |
 |universalName|STRING|   |
 
+## Examples
+```pascal
+resultOK := LDevice_GetParamBool(handle, 1, 2, 'Example');
+```
+```python
+import vs
+
+# Get boolean parameter of a Lighting Device or attached Accessory by
+# Worksheet Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+
+ok = vs.LDevice_GetParamBool(handle, cellIndex, accessoryIndex, universalName)
+if ok:
+    vs.Message('LDevice_GetParamBool succeeded')
+else:
+    vs.Message('LDevice_GetParamBool failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

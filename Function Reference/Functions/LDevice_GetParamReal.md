@@ -25,6 +25,24 @@ def vs.LDevice_GetParamReal(handle, cellIndex, accessoryIndex, universalName):
 |accessoryIndex|LONGINT|   |
 |universalName|STRING|   |
 
+## Examples
+```pascal
+resultVal := LDevice_GetParamReal(handle, 1, 2, 'Example');
+```
+```python
+import vs
+
+# Get real parameter of a Lighting Device or attached Accessory by Worksheet
+# Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+
+value = vs.LDevice_GetParamReal(handle, cellIndex, accessoryIndex, universalName)
+vs.Message('LDevice_GetParamReal returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

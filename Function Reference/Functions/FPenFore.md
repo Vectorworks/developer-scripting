@@ -22,6 +22,36 @@ def vs.FPenFore():
 |green|LONGINT|Returns RGB color component value.|
 |blue|LONGINT|Returns RGB color component value.|
 
+## Examples
+```pascal
+BEGIN
+	fPenFore(R,G,B);
+	thk := fPenSize;
+END ELSE
+BEGIN
+	GetPenFore(gLine,R,G,B);
+
+BEGIN
+	FPenFore (R, G, B);
+	SetPenFore (objectH, R, G, B);
+END;
+
+savePenPat := FPenPatN;
+savePenSize := FPenSize;
+FPenFore(saveR, saveG, saveB);
+PenPatN(gLeaderType);
+PenSize(gLeaderThickness);
+GetPenFore(ActiveParmHand, r, g, b);
+PenFore(r, g, b);
+```
+```python
+import vs
+
+# Procedure FPenFore returns the current pen foreground color of the document.
+red, green, blue = vs.FPenFore()
+vs.Message('FPenFore returned: ' + str((red, green, blue)))
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

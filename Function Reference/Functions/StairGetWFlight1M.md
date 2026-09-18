@@ -17,6 +17,20 @@ def vs.StairGetWFlight1M(stair):
 |---|---|---|
 |stair|HANDLE|   |
 
+## Examples
+```pascal
+resultVal := StairGetWFlight1M(stair);
+```
+```python
+import vs
+
+# Returns Width Of First Flight in meter or -1 in case of error.
+stair = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+value = vs.StairGetWFlight1M(stair)
+vs.Message('StairGetWFlight1M returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

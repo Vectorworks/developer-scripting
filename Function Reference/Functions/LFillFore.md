@@ -32,6 +32,13 @@ LFillFore(65535,0,39321);
 
 ```
 
+```pascal
+LFillFore(1);
+```
+```python
+vs.LFillFore(color)
+```
+
 ## Version
 Availability: from All Versions
 

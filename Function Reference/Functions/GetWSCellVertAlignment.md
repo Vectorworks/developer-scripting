@@ -30,6 +30,21 @@ top = 1
 center  = 3
 bottom = 5
 
+## Examples
+```pascal
+GetWSCellVertAlignment(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Returns the vertical alignment setting of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSCellVertAlignment(worksheet, row, column)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

@@ -26,6 +26,21 @@ def vs.GetVPClOvrdPenBack(viewportHandle, className):
 |colorGV|LONGINT|Green color value.|
 |colorBV|LONGINT|Blue color value.|
 
+## Examples
+```pascal
+GetVPClOvrdPenBack(viewportHandle, 'Wall', 1, 2, 3);
+```
+```python
+import vs
+
+# Fetches the pen background color of the class override.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+
+colorRV, colorGV, colorBV = vs.GetVPClOvrdPenBack(viewportHandle, className)
+vs.Message('GetVPClOvrdPenBack returned: ' + str((colorRV, colorGV, colorBV)))
+```
+
 ## See Also
 VS Functions:
 [SetVPClOvrdPenBack](SetVPClOvrdPenBack.md)

@@ -20,6 +20,39 @@ def vs.EndContext(acceptOrReject):
 ## Remarks
 If you do not use this construct and you create a temporary plug-in object that itself creates a new class, the new class will remain even after you delete the temporary plug-in object.
 
+## Examples
+```pascal
+		UpdateSymbolDisplayControl(dialog1, controlID, symbolName, render, view);
+		DelObj(h);
+		isBeganContext := FALSE;
+	EndContext(2);
+	SetPref( kSuspendUndoPref, FALSE );
+END;
+
+EndContext( 1 );
+
+{BeginGroup;}
+TempNewSymHand := DuplicateParentSymbol(OldSymName,NewSymName);
+{EndGroup;}
+IF CreateSymbol THEN
+	EndContext(1)
+ELSE
+	BEGIN
+	{AlrtDialog(Concat('Preview ',NewSymName));}
+	UpdateSymbolDisplayControl(dialog, kSymbolDisplay, NewSymName, RenderMode, View);
+	EndContext(0);
+	END;
+```
+```python
+import vs
+
+# Use this function in conjuction with BeginContext to have VW automatically
+# accept or reject any changes that were made during the Begin/End block.
+acceptOrReject = 1
+
+vs.EndContext(acceptOrReject)
+```
+
 ## See Also
 VS Functions:
 [BeginContext](BeginContext.md)

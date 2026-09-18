@@ -35,6 +35,23 @@ def vs.LineEllipseIntersect(a1, a2, upperRight, lowerLeft):
 ## Remarks
 On return, int1 and int2 are the two possible points of intersection.  legal1 and legal2 indicate if the intersections are actually valid.
 
+## Examples
+```pascal
+LineEllipseIntersect(1, 2, 3, 10, 5, TRUE, 1, FALSE);
+```
+```python
+import vs
+
+# Calculates the intersection between the specified line and ellipse.
+a1 = 'Example'
+a2 = 'Example'
+upperRight = 'Example'
+lowerLeft = 'Example'
+
+int1, legal1, int2, legal2 = vs.LineEllipseIntersect(a1, a2, upperRight, lowerLeft)
+vs.Message('LineEllipseIntersect returned: ' + str((int1, legal1, int2, legal2)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

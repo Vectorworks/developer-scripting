@@ -24,6 +24,21 @@ def vs.NurbsDegree(objectHd, index):
 |objectHd|HANDLE|Handle to NURBS curve or surface.|
 |index|INTEGER|Index of curve segment (NURBS curve) or direction index (NURBS surface).|
 
+## Examples
+```pascal
+resultN := NurbsDegree(objectHd, 1);
+```
+```python
+import vs
+
+# Returns the degree of a segment in a NURBS curve or surface.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+resultN = vs.NurbsDegree(objectHd, index)
+vs.Message('NurbsDegree returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

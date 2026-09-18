@@ -22,6 +22,26 @@ def vs.SetDLCompPenStylesN(index, penStyleLeft, penStyleRight):
 |penStyleLeft|LONGINT|The pen style of the component's left line.  Positive values for patterns, negative values for line types.|
 |penStyleRight|LONGINT|The pen style of the component's right line.  Positive values for patterns, negative values for line types.|
 
+## Examples
+```pascal
+resultOK := SetDLCompPenStylesN(1, 2, 3);
+```
+```python
+import vs
+
+# Sets the left and right pen styles for the component at index in the Double
+# Line Preferences.
+index = 1
+penStyleLeft = 0
+penStyleRight = 0
+
+ok = vs.SetDLCompPenStylesN(index, penStyleLeft, penStyleRight)
+if ok:
+    vs.Message('SetDLCompPenStylesN succeeded')
+else:
+    vs.Message('SetDLCompPenStylesN failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLCompPenStylesN](GetDLCompPenStylesN.md)

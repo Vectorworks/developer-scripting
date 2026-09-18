@@ -14,6 +14,16 @@ def vs.vstGetRsrcFileID():
 |---|---|---|
 |outFileID|INTEGER|Output parameter.|
 
+## Examples
+```pascal
+vstGetRsrcFileID(1);
+```
+```python
+import vs
+
+result = vs.vstGetRsrcFileID()
+```
+
 ## Version
 Availability: from All Versions
 

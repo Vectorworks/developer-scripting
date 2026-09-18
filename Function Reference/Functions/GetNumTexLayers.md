@@ -48,6 +48,21 @@ def vs.GetNumTexLayers(obj, texPartID):
 : 26: frame cap in curtain walls
 : 27: panel face in curtain walls
 
+## Examples
+```pascal
+resultN := GetNumTexLayers(obj, 1);
+```
+```python
+import vs
+
+# Returns number of texture layers (base + decals) for the specified part.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+texPartID = 1
+
+count = vs.GetNumTexLayers(obj, texPartID)
+vs.Message('GetNumTexLayers returned: ' + str(count))
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

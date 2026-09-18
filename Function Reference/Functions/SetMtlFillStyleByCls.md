@@ -17,6 +17,23 @@ def vs.SetMtlFillStyleByCls(materialHandle, isByClass):
 |materialHandle|HANDLE|   |
 |isByClass|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := SetMtlFillStyleByCls(materialHandle, TRUE);
+```
+```python
+import vs
+
+materialHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+isByClass = True
+
+ok = vs.SetMtlFillStyleByCls(materialHandle, isByClass)
+if ok:
+    vs.Message('SetMtlFillStyleByCls succeeded')
+else:
+    vs.Message('SetMtlFillStyleByCls failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

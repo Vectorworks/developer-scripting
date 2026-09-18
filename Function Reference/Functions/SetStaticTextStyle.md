@@ -29,6 +29,30 @@ def vs.SetStaticTextStyle(dialogID, componentID, style):
 |componentID|LONGINT|   |
 |style|INTEGER|   |
 
+## Examples
+```pascal
+SetStaticTextStyle(dialog1, kStaticText13, 1);
+
+BEGIN
+	CreateStaticText( DialogID, kMsgLblStaTex_ID, '//// Debug Message:', -1 );
+	SetBelowItem( DialogID, kPreviewGroup_ID, kMsgLblStaTex_ID, 0, 0 );
+	SetStaticTextColor( DialogID, kMsgLblStaTex_ID, StaTexRed_R, StaTexRed_G, StaTexRed_B );
+	SetStaticTextStyle( DialogID, kMsgLblStaTex_ID, 1 );	{set style to bold}
+
+SetStaticTextStyle( dialog, kTypeHeader, 1 );
+```
+```python
+import vs
+
+# Sets the style for the Layout Manager static Text Plain 0 Bold 1 Italic 2
+# Underline 4 Can combine styles (bold + italic = 3).
+dialogID = 1
+componentID = 2
+style = 0
+
+vs.SetStaticTextStyle(dialogID, componentID, style)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

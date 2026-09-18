@@ -20,6 +20,20 @@ def vs.YCoordinate(c):
 ## Remarks
 Valid objects are PIOs, Symbols and Loci.
 
+## Examples
+```pascal
+resultVal := YCoordinate(c);
+```
+```python
+import vs
+
+# Returns the Y coordinate of the object relative to the user origin.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.YCoordinate(c)
+vs.Message('YCoordinate returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

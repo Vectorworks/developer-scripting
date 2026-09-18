@@ -12,6 +12,19 @@ def vs.SymDefNum():
     return LONGINT
 ```
 
+## Examples
+```pascal
+resultN := SymDefNum;
+```
+```python
+import vs
+
+# Function SymDefNum returns the number of symbol definitions within the
+# active document.
+count = vs.SymDefNum()
+vs.Message('SymDefNum returned: ' + str(count))
+```
+
 ## Version
 Availability: from All Versions
 

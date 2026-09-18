@@ -101,8 +101,6 @@ def Dialog_Handler( item , data ):
 		'thickness: ', thickness, vs.Chr(13),
 		'thicknessBasis: ', thicknessBasis))
 
-
-
 def Example():
 	global SetupDialogC
 	global dialogID
@@ -115,6 +113,31 @@ def Example():
 	intt = vs.RunLayoutDialog(dialogID, Dialog_Handler)
 
 Example()
+```
+
+```pascal
+boo := GetEditReal(IDLabelDialog,kBubbleSize,3,DWBubbleSize);
+GetSelectedChoiceInfo(IDLabelDialog, kLabelClass, 0, I, DWClass);
+GetLineTypeAttriData(IDLabelDialog,kIDLeaderLS,DWLineStyle,DWLineWeight);
+GetLineTypeAttriData(IDLabelDialog,kBubbleLS,BubbleLS,BubbleLW);
+            GetMarkerValue(IDLabelDialog,kLeaderStyle, DWMarkerStyle, MarkerAngle, MarkerSize, MarkerWidth, MarkerBasis, MarkerThickness );
+
+GetBooleanItem(dialog1, kEndMarkerCB, gEndMarkerCB);
+IF gEndMarkerCB THEN {GetMarkerPopup(dialog1, kEndMarker, gEndMarkerIndex, gEndMarkerSize, gEndMarkerAngle);}
+	GetMarkerValue(dialog1, kEndMarker, gEndMarkerIndex, gEndMarkerAngle, gEndMarkerSize, gEndMarkerWidth, gEndMarkerTBasis, gEndMarkerThick);
+
+GetMarkerValue(dialog, kBubLeadMarkerPopUp, MarkerStyle, MarkerAngle, MarkerLength, MarkerWidth, MarkerBasis, MarkerThickness);
+```
+```python
+import vs
+
+# Gets MarkerPopup value in dialog (replaces MarkerPopup procedures prior to
+# VW2008).
+dialogID = 1
+itemID = 2
+
+style, angle, length, width, basis, thickness = vs.GetMarkerValue(dialogID, itemID)
+vs.Message('GetMarkerValue returned: ' + str((style, angle, length, width, basis, thickness)))
 ```
 
 ## See Also

@@ -40,6 +40,21 @@ WallCap(True, True, False, 1.0', 0.0);
 
 ```
 
+```pascal
+Wall(-(cWidth/2-3*upi),(cWidth/2-3*upi),(cWidth/2-3*upi),(cWidth/2-3*upi));
+SetObjExpandTexture(lNewObj,FALSE);
+SetTextureRef(lNewObj,-1,7);
+WallCap(FALSE,FALSE,FALSE,-3*upi,3*upi);
+WallCap(TRUE,FALSE,FALSE,3*upi,-3*upi);
+result := SetWallOverallHeights(lnewobj,0,0,'',cHeight,0,0,'',cHeight);
+WallPeak((cWidth/2-3*upi),cRise+cHeight);
+ResetObject(lNewObj);
+```
+```python
+vs.WallCap(atStart, closed, round, 1.0, 2.0)
+```
+See also in tutorials: [01. Draw a Room with Walls](ai%20examples/01_DrawRoomWithWalls.md), [20. Read a Polyline and Build Walls Along Its Path](ai%20examples/20_PolylineToWalls.md)
+
 ## Version
 Availability: from MiniCAD4.0
 

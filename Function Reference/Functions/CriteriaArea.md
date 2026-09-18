@@ -30,6 +30,13 @@ totalA:=Area((C='Plywood')and(L='First'));
 
 ```
 
+```pascal
+resultVal := CriteriaArea(c);
+```
+```python
+result = vs.CriteriaArea(c)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

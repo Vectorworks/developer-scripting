@@ -3,7 +3,6 @@
 ## Description
 Add a menu under Third-party palette and companyName tool set. The menu is added underneath another existing tool in the tool set.
 
-
 **Table - Tool Types**
 
 | Tool Type                | Constant |
@@ -36,6 +35,21 @@ def vs.wsEditAddTool2(toolName, underToolName, toolType):
 
 ## Remarks
 As of Vectorworks 2018 SP2, this function takes an integer parameter toolType to specify the type of tool being added. Vectorworks 2018 prior to SP2 will only take two parameters as input.
+
+## Examples
+```pascal
+wsEditAddTool2('Example', 'Example', 1);
+```
+```python
+import vs
+
+# Add a menu under Third-party palette and companyName tool set.
+toolName = 'Example'
+underToolName = 'Example'
+toolType = 0
+
+vs.wsEditAddTool2(toolName, underToolName, toolType)
+```
 
 ## Version
 Availability: from Vectorworks 2018

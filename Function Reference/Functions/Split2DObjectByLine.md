@@ -72,6 +72,13 @@ END;
 
 ```
 
+```pascal
+Split2DObjectByLine(objectHd, 1.0, 2.0, 0.5, 1.5, listHds);
+```
+```python
+result = vs.Split2DObjectByLine(objectHd, p1, p2)
+```
+
 ## Version
 Availability: from VectorWorks 12.0
 

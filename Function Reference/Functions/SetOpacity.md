@@ -23,6 +23,31 @@ def vs.SetOpacity(h, opacity):
 ## Remarks
 If you set opacity to an object inside parametric the actual opacity will be combined with the opacity of the parametric object itself. For example a rectangle with 50% opacity inside a parametric with 50% opacity will actually be rendered with 25% opacity. This behavior is the same for symbols too.
 
+## Examples
+```pascal
+SetOpacity(LNewObj, 50);
+BeginPoly;
+  MoveTo(0.050871161717227",0.047391266048944");
+  LineTo(0.050871161717227",0.172590948885572");
+  Add2DVertex(0.000871161717227",0.222590948885572",4,0.05");
+
+SetLW(lnewobj,kLightLW);
+setobjectvariableint(lnewobj,0,dimstd);
+MoveTo(x,y);
+LineTo(x2,y2);
+SetOpacity(lnewobj, 0);
+END;
+
+IF ( shadowOpByClass AND ( ( Len( shadowFillName ) = 0 ) OR ( shadowFillStyle <> kShadowByClass ) ) )  THEN SetOpacityByClass( LNewObj )
+ELSE SetOpacity ( LNewObj , shadowOpacity );
+```
+```python
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+vs.SetMarker(objH, start, end, style, size)
+vs.SetOpacity(objH, vs.GetOpacity(parentH))
+```
+
 ## See Also
 [GetOpacity](GetOpacity.md) | [SetOpacity](SetOpacity.md) | [GetOpacityByClass](GetOpacityByClass.md) | [SetOpacityByClass](SetOpacityByClass.md)
 

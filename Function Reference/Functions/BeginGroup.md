@@ -52,6 +52,27 @@ vs.EndGroup()
 #{creates a group comprised of 2 rects and 1 group}
 ```
 
+```pascal
+BeginGroup;
+```
+```python
+if vs.GetObject( strMarkerActualName ) != None:
+	vs.BeginGroup()
+	vs.Locus(0,0)
+	vs.SetRecord( vs.LNewObj(), kHiddenRecName )
+	vs.SetRField( vs.LNewObj(), kHiddenRecName, 'IEMAction', 'DeleteMe' )
+	vs.EndGroup()
+
+vs.SysBeep()
+vs.Absolute()
+vs.MoveTo( 0, 0 )
+vs.BeginGroup()
+vs.CreateText( message1 )
+vs.SetTextVerticalAlign( vs.LNewObj(), 3 )
+vs.SetTextJust( vs.LNewObj(), 2 )
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+```
+
 ## Version
 Availability: from All Versions
 

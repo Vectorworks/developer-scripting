@@ -17,6 +17,19 @@ def vs.OpacityByClassN(fillOpacityByClass, penOpacityByClass):
 |fillOpacityByClass|BOOLEAN|   |
 |penOpacityByClass|BOOLEAN|   |
 
+## Examples
+```pascal
+OpacityByClassN(TRUE, FALSE);
+```
+```python
+import vs
+
+fillOpacityByClass = True
+penOpacityByClass = True
+
+vs.OpacityByClassN(fillOpacityByClass, penOpacityByClass)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

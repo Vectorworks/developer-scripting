@@ -24,6 +24,22 @@ def vs.GetLineAttributeData(dialogID, itemID):
 |lineStyle|INTEGER|   |
 |lineWeight|INTEGER|   |
 
+## Examples
+```pascal
+GetLineAttributeData(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Get the current choices for the combined line style and line weight dialog
+# control.
+dialogID = 1
+itemID = 2
+
+lineStyle, lineWeight = vs.GetLineAttributeData(dialogID, itemID)
+vs.Message('GetLineAttributeData returned: ' + str((lineStyle, lineWeight)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

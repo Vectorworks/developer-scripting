@@ -17,6 +17,20 @@ def vs.vsoWidgetGetText(widgetID):
 |---|---|---|
 |widgetID|LONGINT|   |
 
+## Examples
+```pascal
+resultStr := vsoWidgetGetText(1);
+```
+```python
+import vs
+
+# ?.
+widgetID = 1
+
+text = vs.vsoWidgetGetText(widgetID)
+vs.Message('vsoWidgetGetText returned: ' + str(text))
+```
+
 ## Version
 Availability: from All Versions
 

@@ -26,6 +26,21 @@ def vs.GetWallCompStartPts(wall, componentIndex):
 |centerPoint|POINT|Returns the center start point of the component|
 |rightPoint|POINT|Returns the right start point of the component|
 
+## Examples
+```pascal
+GetWallCompStartPts(wall, 1, 2, 3, 10);
+```
+```python
+import vs
+
+# Gets the start points of a wall component.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+leftPoint, centerPoint, rightPoint = vs.GetWallCompStartPts(wall, componentIndex)
+vs.Message('GetWallCompStartPts returned: ' + str((leftPoint, centerPoint, rightPoint)))
+```
+
 ## See Also
 VS Functions:
 [GetWallCompEndPts](GetWallCompEndPts.md)

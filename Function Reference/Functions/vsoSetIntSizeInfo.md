@@ -24,6 +24,21 @@ def vs.vsoSetIntSizeInfo(message, isz_index):
 |newValue|REAL|   |
 |isSupported|BOOLEAN|   |
 
+## Examples
+```pascal
+vsoSetIntSizeInfo(1, 2, 1.0, TRUE);
+```
+```python
+import vs
+
+# Sets the parameter values after interactive sizeing.
+message = 'Hello Vectorworks'
+isz_index = 1
+
+newValue, isSupported = vs.vsoSetIntSizeInfo(message, isz_index)
+vs.Message('vsoSetIntSizeInfo returned: ' + str((newValue, isSupported)))
+```
+
 ## Version
 Availability: from Vectorworks 2023.3
 

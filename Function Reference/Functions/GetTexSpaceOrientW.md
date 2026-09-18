@@ -29,6 +29,25 @@ Returns the vector that describes the w-axis of the texture (from world space to
 
 Note: GetTexMapXXX routines replace the older GetTexSpaceXXX routines.  It is recommended that all developers transition to the newer versions.
 
+## Examples
+```pascal
+GetTexSpaceOrientW( wallTextureSpace, xAxis, yAxis, zAxis );
+if ( f = -1 ) then
+begin
+	xAxis := -xAxis;
+	yAxis:= -yAxis;
+```
+```python
+import vs
+
+# Procedure GetTexSpaceOrientW returns the vector that describes the w-axis
+# of the referenced texture (from world space to texture space).
+textureSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+wXAxis, wYAxis, wZAxis = vs.GetTexSpaceOrientW(textureSpace)
+vs.Message('GetTexSpaceOrientW returned: ' + str((wXAxis, wYAxis, wZAxis)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

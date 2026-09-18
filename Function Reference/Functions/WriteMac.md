@@ -31,6 +31,13 @@ WriteMac(Value1);
 
 ```
 
+```pascal
+WriteMac(z);
+```
+```python
+vs.WriteMac(0)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

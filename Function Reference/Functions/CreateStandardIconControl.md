@@ -33,6 +33,25 @@ Should show image of each icon.
 ## Examples
 [ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
+```pascal
+{create controls}
+CreateStandardIconControl( dialog, kUnnamed, 1 );
+CreateStaticText( dialog, klPrompt, GetStr(klPrompt), 60 );
+CreateCheckBox( dialog, kbDoNotShow, GetStr(kbDoNotShow) );
+```
+```python
+import vs
+
+# Creates a standard icon control, which is used to display the application
+# icon or an alert icon.
+dialogID = 1
+iconControlID = 2
+iconNumber = 3
+
+vs.CreateStandardIconControl(dialogID, iconControlID, iconNumber)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks11.5
 

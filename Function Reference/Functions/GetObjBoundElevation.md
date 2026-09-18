@@ -23,6 +23,27 @@ def vs.GetObjBoundElevation(obj, boundID):
 ## Remarks
 Peter Vandewalle: the result is in mm.
 
+## Examples
+```pascal
+BEGIN
+	topHeigh    := GetObjBoundElevation( gPluginH, topBoundID  );
+	botHeight   := GetObjBoundElevation( gPluginH, bottomBoundID );
+
+{ get object's Z bounds. }
+topHeight      := GetObjBoundElevation( parmHand, kTopBoundID  );
+bottomHeight   := GetObjBoundElevation( parmHand, kBottomBoundID );
+```
+```python
+import vs
+
+# Get the elevation of the specified bound ID relative to the object's layer.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+boundID = 1
+
+value = vs.GetObjBoundElevation(obj, boundID)
+vs.Message('GetObjBoundElevation returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

@@ -17,6 +17,19 @@ def vs.vstAddPDMenuMode(label):
 |---|---|---|
 |lbel|STRING|   |
 
+## Examples
+```pascal
+vstAddPDMenuMode('Example');
+```
+```python
+import vs
+
+# ?.
+label = 'Example text'
+
+vs.vstAddPDMenuMode(label)
+```
+
 ## Version
 Availability: from All Versions
 

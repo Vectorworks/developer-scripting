@@ -17,6 +17,20 @@ def vs.Space_ItemAvailableZones(item):
 |---|---|---|
 |item|INTEGER|   |
 
+## Examples
+```pascal
+resultStr := Space_ItemAvailableZones(1);
+```
+```python
+import vs
+
+# Returns available zone (item) of space tool.
+item = 1
+
+text = vs.Space_ItemAvailableZones(item)
+vs.Message('Space_ItemAvailableZones returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

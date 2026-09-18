@@ -62,6 +62,32 @@ def Example():
 Example()
 ```
 
+```pascal
+bUseGroup := FALSE;
+HANDLE_cnt := 0;
+IF layers[cnt].sel THEN BEGIN
+	{Create the slice.}
+	curve_h := CreateContourCurves(solid_h, 0, 0, 0, layers[cnt].base, 0, 0, 1);
+	if (curve_h <> NIL) & ((GetType(curve_h) = 111) | (GetType(curve_h) = 11)) then BEGIN
+		{Now change the Layer to that of the target Layer.}
+		b := SetParent(curve_h, GetLayerByName(layers[cnt].name));
+			if drawWalls_b | leaveFrame then BEGIN
+```
+```python
+import vs
+
+# Creates contour curves for a solid object given the delta, point on plane
+# and plane normal.
+inSourceObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+delta = 1.0
+ptOnPlane = 'Example'
+normal = 'Example'
+
+objHandle = vs.CreateContourCurves(inSourceObject, delta, ptOnPlane, normal)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

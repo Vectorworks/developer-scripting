@@ -22,6 +22,25 @@ def vs.SetComponentWallTopOffset(obj, componentIndex, offsetFromWallTop):
 |componentIndex|INTEGER|The index of the component.|
 |offsetFromWallTop|REAL|The offset from wall top of the component.|
 
+## Examples
+```pascal
+resultOK := SetComponentWallTopOffset(obj, 1, 1.0);
+```
+```python
+import vs
+
+# Sets the offset from wall top of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+offsetFromWallTop = 0.0
+
+ok = vs.SetComponentWallTopOffset(obj, componentIndex, offsetFromWallTop)
+if ok:
+    vs.Message('SetComponentWallTopOffset succeeded')
+else:
+    vs.Message('SetComponentWallTopOffset failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentWallTopOffset](GetComponentWallTopOffset.md)

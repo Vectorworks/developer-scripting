@@ -29,6 +29,28 @@ def vs.SetDLComponentPenColors(index, leftPenForeColor, leftPenBackColor, rightP
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetDLComponentPenColors(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets the fore and back colors of the left and right side pens of the
+# component at index in the Double Line Preferences.
+index = 1
+leftPenForeColor = 5
+leftPenBackColor = 5
+rightPenForeColor = 5
+rightPenBackColor = 5
+
+ok = vs.SetDLComponentPenColors(index, leftPenForeColor, leftPenBackColor, rightPenForeColor, rightPenBackColor)
+if ok:
+    vs.Message('SetDLComponentPenColors succeeded')
+else:
+    vs.Message('SetDLComponentPenColors failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentPenColors](GetDLComponentPenColors.md)

@@ -17,6 +17,20 @@ def vs.Plant_UpdatePlaceTool(plantToUpdateWith):
 |---|---|---|
 |plantToUpdateWith|HANDLE|   |
 
+## Examples
+```pascal
+Plant_UpdatePlaceTool(plantToUpdateWith);
+```
+```python
+import vs
+
+# Updates the place plant tool when plant is double clicked from resource
+# browser.
+plantToUpdateWith = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.Plant_UpdatePlaceTool(plantToUpdateWith)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

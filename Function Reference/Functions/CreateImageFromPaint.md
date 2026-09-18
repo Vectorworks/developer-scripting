@@ -23,6 +23,21 @@ def vs.CreateImageFromPaint(paint, imageName):
 ## Examples
 [ImageAndPaint](examples/ImageAndPaint.md)
 
+```pascal
+resultH := CreateImageFromPaint(paint, 'Example');
+```
+```python
+import vs
+
+# Creates an image resource from a paint node.
+paint = vs.FSActLayer()  # handle to the first selected object on the active layer
+imageName = 'Example'
+
+objHandle = vs.CreateImageFromPaint(paint, imageName)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

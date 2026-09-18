@@ -22,6 +22,21 @@ def vs.GetCompManualBound(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |manualBound|INTEGER|Returns the manual bound of the component.  0 - Roof edge 1 - Roof axis line|
 
+## Examples
+```pascal
+resultOK := GetCompManualBound(object, 1, 2);
+```
+```python
+import vs
+
+# Gets the manual bound of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, manualBound = vs.GetCompManualBound(object, componentIndex)
+vs.Message('GetCompManualBound returned: ' + str((ok, manualBound)))
+```
+
 ## See Also
 VS Functions:
 [SetCompManualBound](SetCompManualBound.md)

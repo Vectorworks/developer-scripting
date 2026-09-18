@@ -37,6 +37,20 @@ EndFolder;
 {creates the symbol folder 'Object Symbols', which contains a symbol}
 ```
 
+```pascal
+BeginFolderN(LocResType);
+```
+```python
+import vs
+
+# Procedure BeginFolderN creates a new resource folder of the indicated type
+# in a Vectorworks document.
+type = 0
+
+vs.BeginFolderN(type)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 * [EndFolder](EndFolder.md)
 

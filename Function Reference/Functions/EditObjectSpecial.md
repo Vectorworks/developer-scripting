@@ -20,6 +20,20 @@ def vs.EditObjectSpecial(h, editMode):
 |h|HANDLE|The object to edit.|
 |editMode|INTEGER|The edit mode: 0-Default; 2-Properties; 3-Reshape; 4-Edit group like;|
 
+## Examples
+```pascal
+EditObjectSpecial(h, 1);
+```
+```python
+import vs
+
+# Edit the specified object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+editMode = 0
+
+vs.EditObjectSpecial(h, editMode)
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

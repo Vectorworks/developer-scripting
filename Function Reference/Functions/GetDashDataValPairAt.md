@@ -53,6 +53,20 @@ END;
 RUN(Example);
 ```
 
+```pascal
+resultOK := GetDashDataValPairAt(1, 2, 1.0, 2.0);
+```
+```python
+import vs
+
+# Function GetDashDataValPairAt gets the dash data for the specified dash style.
+dashStyleIndex = 1
+dataIndex = 1
+
+ok, dash, gap = vs.GetDashDataValPairAt(dashStyleIndex, dataIndex)
+vs.Message('GetDashDataValPairAt returned: ' + str((ok, dash, gap)))
+```
+
 ## See Also
 VS Functions:
 [GetNumDashDataPairs](GetNumDashDataPairs.md) 

@@ -31,6 +31,29 @@ def vs.ReplaceText(objectHd, oldText, newText, replaceAll, isCaseSens):
 ReplaceText(hText,'Old text', 'New', TRUE, FALSE);
 ```
 
+```pascal
+2:	BEGIN
+	SearchTxtObj := TRUE;
+	gStop := TRUE;
+	ReplaceStr(FldStr,gFindString,gReplString,gCase);
+	ReplaceText(HObj, gFindString, gReplString, FALSE, gCase);
+	GOTO 97;
+	END;
+```
+```python
+import vs
+
+# Procedure ReplaceText replace the oldText with the newText of the
+# referenced text object.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+oldText = 'Example text'
+newText = 'Example text'
+replaceAll = True
+isCaseSens = True
+
+vs.ReplaceText(objectHd, oldText, newText, replaceAll, isCaseSens)
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

@@ -42,6 +42,13 @@ RecalculateWS(h);
 
 ```
 
+```pascal
+SetWSAutoRecalcState(worksheet, TRUE);
+```
+```python
+vs.SetWSAutoRecalcState(worksheet, state)
+```
+
 ## See Also
 VS Functions:
 [GetWSAutoRecalcState](GetWSAutoRecalcState.md) 

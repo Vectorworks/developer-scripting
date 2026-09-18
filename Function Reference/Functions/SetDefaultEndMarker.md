@@ -47,6 +47,37 @@ RUN(Example);
 
 ```
 
+```pascal
+BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+{Mark 0,0,0}
+BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+GetVersion(version,vdummy,vdummy,vdummy);
+IF (version > 9) THEN SetObjectVariableBoolean(parmHand, kFontPropertySelector, TRUE);
+pathHand := GetCustomObjectPath(parmHand);
+Path_Area_Handler(parmHand, pathHand, FALSE, TRUE, TRUE, FALSE);
+
+{FMar}
+BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+Loop(x, y, x2, y2, kLassoDia);
+SetLW ( LNewObj, kThLnWeight);
+IF (gTagIdx = 2) THEN j := -1 ELSE j := 1;
+IF IsObjectFlipped(hSourceObj) THEN i := -1 ELSE i := 1;
+
+IF pArrows<>kRaStrNone  THEN BEGIN
+	pushattrs;
+	BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+	BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+	BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+```
+```python
+result = vs.SetDefaultEndMarker(style, 1.0, 2.0, 0.5, 1.0, 2.0, True)
+```
+
 ## See Also
 VS Functions:
 [SetDefaultBeginningMarker](SetDefaultBeginningMarker.md)

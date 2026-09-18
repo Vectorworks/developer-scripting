@@ -28,6 +28,39 @@ SetModeButtonText( 'Mode2', 0 );
 EndModeButtonsText;
 ```
 
+```pascal
+BeginModeButtonsText;
+SetModeButtonText( GetPluginString( kConstrLine ), 0 );
+SetModeButtonText( GetPluginString( kUnconstrLine ), 0 );
+EndModeButtonsText;
+
+{ ---------------------------------}
+kOnToolDoSetupEventID: BEGIN
+	AddButtonMode('VWMiscSmallImages/11016.png');
+	BeginModeButtonsText;
+	SetModeButtonText( GetPluginString( 6000 ), 2 );
+	EndModeButtonsText;
+	vstSetPtBehavior(kPolyPointTool);
+	vstSetModeHelpBase( -2322 );
+END;
+
+BeginModeButtonsText;
+SetModeButtonText( GetPluginString( 3001 ), 0 );
+SetModeButtonText( GetPluginString( 3002 ), 0 );
+SetModeButtonText( GetPluginString( 3003 ), 0 );
+SetModeButtonText( GetPluginString( 3004 ), 0 );
+SetModeButtonText( GetPluginString( 3005 ), 0 );
+```
+```python
+import vs
+
+# Sets a mode bar button help text.
+modeName = 'Example'
+modeType = 0
+
+vs.SetModeButtonText(modeName, modeType)
+```
+
 ## See Also
 VS Functions:
 [BeginModeButtonsText](BeginModeButtonsText.md) 

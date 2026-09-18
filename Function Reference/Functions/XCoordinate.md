@@ -20,6 +20,20 @@ def vs.XCoordinate(c):
 ## Remarks
 Valid objects are PIOs, Symbols and Loci.
 
+## Examples
+```pascal
+resultVal := XCoordinate(c);
+```
+```python
+import vs
+
+# Returns the X coordinate of the object relative to the user origin.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+value = vs.XCoordinate(c)
+vs.Message('XCoordinate returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

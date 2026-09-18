@@ -14,6 +14,16 @@ def vs.vstGetEventResult():
 |---|---|---|
 |outGetVal|LONGINT|Output parameter.|
 
+## Examples
+```pascal
+vstGetEventResult(1);
+```
+```python
+import vs
+
+result = vs.vstGetEventResult()
+```
+
 ## Version
 Availability: from All Versions
 

@@ -32,6 +32,28 @@ NameIndex := Name2Index('objectName');
 
 ```
 
+```pascal
+BEGIN
+	IF IsTextureableObject(hobj) THEN BEGIN
+		IF Name2Index(ClassName) = 0 THEN BEGIN
+			activeClName:= ActiveClass;
+			NameClass(ClassName);
+			NameClass(activeClName);
+		END;
+
+BEGIN
+	GetActualClassID := Name2Index( cppdIn.strClassActualName );
+END;
+
+localarchMaterialNameID		:= GetRField (gPluginH, gPluginName, 'ArchCompMaterialID');
+localstructMaterialNameID	:= GetRField (gPluginH, gPluginName, 'StructCompMaterialID');
+archMaterialIDNum			:= Name2Index(localarchMaterialNameID);
+structMaterialIDNum			:= Name2Index(localstructMaterialNameID);
+```
+```python
+result = vs.Name2Index('Example')
+```
+
 ## See Also
 VS Functions:
 [SetSkylight](SetSkylight.md) 

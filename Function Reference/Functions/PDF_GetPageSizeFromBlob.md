@@ -32,6 +32,30 @@ def vs.PDF_GetPageSizeFromBlob(inBlobPtr, inBlobSize, inPageBoxID, inCurPage, ou
 |outBoxRight|PROCEDURE|   |
 |outBoxBottom|PROCEDURE|   |
 
+## Examples
+```pascal
+resultOK := PDF_GetPageSizeFromBlob(inBlobPtr, 1, 2, inCurPage, outBoxLeft, outBoxTop, outBoxRight, outBoxBottom);
+```
+```python
+import vs
+
+# Takes Blob Data and returns corresponding page rect.
+inBlobPtr = 'Example'
+inBlobSize = 1
+inPageBoxID = 2
+inCurPage = 'Example'
+outBoxLeft = 'Example'
+outBoxTop = 'Example'
+outBoxRight = 'Example'
+outBoxBottom = 'Example'
+
+ok = vs.PDF_GetPageSizeFromBlob(inBlobPtr, inBlobSize, inPageBoxID, inCurPage, outBoxLeft, outBoxTop, outBoxRight, outBoxBottom)
+if ok:
+    vs.Message('PDF_GetPageSizeFromBlob succeeded')
+else:
+    vs.Message('PDF_GetPageSizeFromBlob failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

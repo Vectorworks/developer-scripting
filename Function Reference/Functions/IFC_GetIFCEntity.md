@@ -44,6 +44,19 @@ ok, strName = vs.IFC_GetIFCEntity(hObject)
 vs.AlrtDialog(strName)
 ```
 
+```pascal
+resultOK := IFC_GetIFCEntity(hObject, 'Example');
+```
+```python
+import vs
+
+# This function gets IFC entity name for the given object.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, outStrName = vs.IFC_GetIFCEntity(hObject)
+vs.Message('IFC_GetIFCEntity returned: ' + str((ok, outStrName)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

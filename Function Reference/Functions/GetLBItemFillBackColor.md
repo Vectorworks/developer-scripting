@@ -30,6 +30,28 @@ def vs.GetLBItemFillBackColor(dialogID, componentID, itemIndex, subItemIndex):
 |greenIndex|INTEGER|the green component (0 - 255)|
 |blueIndex|INTEGER|the blue component (0 - 255)|
 
+## Examples
+```pascal
+BEGIN
+	bFlipTexture := GetLBItemFillBackColor(dialog,kFrntMltColBrowser,RowCount,2,OldRed,OldGreen,OldBlue);
+	OldRed := (OldRed)*257;
+	OldGreen := (OldGreen)*257;
+	OldBlue := (OldBlue)*257;
+	TempColorArray [RowCount+1].Red := OldRed;
+```
+```python
+import vs
+
+# Gets the specified list browser item's fill background color.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, redIndex, greenIndex, blueIndex = vs.GetLBItemFillBackColor(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBItemFillBackColor returned: ' + str((ok, redIndex, greenIndex, blueIndex)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

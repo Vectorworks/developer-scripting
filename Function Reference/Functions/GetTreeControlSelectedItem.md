@@ -22,6 +22,21 @@ def vs.GetTreeControlSelectedItem(nDialogID, nComponentID):
 |nComponentID|LONGINT|   |
 |nItemID|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := GetTreeControlSelectedItem(1, 2, 3);
+```
+```python
+import vs
+
+# Retrieves the itemID of the selected item from a Layout Manager tree control.
+nDialogID = 1
+nComponentID = 2
+
+ok, nItemID = vs.GetTreeControlSelectedItem(nDialogID, nComponentID)
+vs.Message('GetTreeControlSelectedItem returned: ' + str((ok, nItemID)))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

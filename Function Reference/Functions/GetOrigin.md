@@ -73,6 +73,42 @@ def Example():
 Example()
 ```
 
+```pascal
+angle := GetPrefReal(93);
+planrotation := GetPref(92);
+SetPref(92, FALSE);
+PushAttrs;
+GetOrigin(PX, PY);
+TextJust (1);
+TextVerticalAlign (1);
+TextSize (kTextSize);
+boxSize := kBoxSize * getUPI * GetLScale (ActLayer);
+
+Options[3] := ''; {Check Box String}
+AlertInformDontShowAgain(GetPlugInString(3010),'', FALSE, Options);
+PenFore(45000, 45000, 45000);
+SetPref(9871, TRUE);
+GetOrigin(OriginX,OriginY);
+Is3dView := GetProjection(ActLayer)<>6;
+RunTempTool(TempToolCallback, TRUE);
+
+BEGIN
+	{If origin is not at 0.0 we have to add it to the point in order to get correct object coords}
+	GetOrigin(originX, originY);
+	pt.x := pt.x + originX;
+	pt.y := pt.y + originY;
+	pt := WorldToObjectCoords(ObjHand,pt);
+	SetRfield(ObjHand,ObjName,'ControlPoint03X',Concat(pt.x));
+```
+```python
+import vs
+
+# Procedure GetOrigin returns the current origin location relative to the
+# center of the page.
+x, y = vs.GetOrigin()
+vs.Message('GetOrigin returned: ' + str((x, y)))
+```
+
 ## Version
 Availability: from All Versions
 

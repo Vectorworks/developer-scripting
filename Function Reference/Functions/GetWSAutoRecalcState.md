@@ -55,6 +55,22 @@ vs.SetWSAutoRecalcState(h, state)
 vs.RecalculateWS(h)
 ```
 
+```pascal
+resultOK := GetWSAutoRecalcState(worksheet);
+```
+```python
+import vs
+
+# Gets the AutoRecalc state for the specified worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+ok = vs.GetWSAutoRecalcState(worksheet)
+if ok:
+    vs.Message('GetWSAutoRecalcState succeeded')
+else:
+    vs.Message('GetWSAutoRecalcState failed')
+```
+
 ## See Also
 VS Functions:
 [SetWSAutoRecalcState](SetWSAutoRecalcState.md) 

@@ -24,6 +24,24 @@ def vs.CreateRightStaticText(dialogID, itemID, text, widthInCharacters):
 |text|STRING|   |
 |widthInCharacters|INTEGER|   |
 
+## Examples
+```pascal
+CreateRightStaticText(1, 2, 'Example', 3);
+```
+```python
+import vs
+
+# Similar to CreateStaticText, but creates static text that is
+# right-justified in its control field on the dialog.
+dialogID = 1
+itemID = 2
+text = 'Example text'
+widthInCharacters = 3
+
+vs.CreateRightStaticText(dialogID, itemID, text, widthInCharacters)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks12.0.1
 

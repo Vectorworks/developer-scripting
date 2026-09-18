@@ -22,6 +22,18 @@ def vs.IFC_LGetUnivName():
 |inIFCTypeOfString|INTEGER|   |
 |outLocalName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_LGetUnivName('Example', 1, 'Example');
+```
+```python
+import vs
+
+# Returns the Universal Name for the IFC String.
+ok, strIFCName, inIFCTypeOfString, outLocalName = vs.IFC_LGetUnivName()
+vs.Message('IFC_LGetUnivName returned: ' + str((ok, strIFCName, inIFCTypeOfString, outLocalName)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

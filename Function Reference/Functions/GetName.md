@@ -37,6 +37,32 @@ ObjectName := GetName(HandleToObject);
 ObjectName = vs.GetName(vs.FSActLayer())
 ```
 
+```pascal
+BEGIN
+	PushAttrs;
+	recordName := GetName (recordH);
+	upi := GetPrefReal (152);
+
+recordName := GetName (recordH);
+upi := GetPrefReal (152);
+
+BEGIN
+	j := j + 1;
+	ALLOCATE gRecordN [1..j];
+	gRecordN [j] := GetName (recordH);
+END;
+```
+```python
+if (parentRecord != None) and (vs.GetTypeN(parentRecord) == kRecordNode):
+	strParentName = vs.GetName(parentRecord)
+
+if ( objH == None ) or ( vs.IsNewCustomObject( vs.GetName( objH ) ) ):
+	containerHandle = vs.ActLayer()
+else:
+	containerHandle = objH
+```
+See also in tutorials: [22. Selected Objects → Worksheet Rows](ai%20examples/22_WorksheetSelectedObjects.md), [25. Geometric Property Extraction Table](ai%20examples/25_WorksheetPolyGeometry.md), [27. Formatted Wall Schedule](ai%20examples/27_WorksheetFormattedSchedule.md), [30. Publish Worksheet Image on a Sheet Layer](ai%20examples/30_WorksheetPublishOnSheet.md)
+
 ## See Also
 VS Functions:
 [SetName](SetName.md)

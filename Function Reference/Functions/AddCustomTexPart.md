@@ -26,6 +26,20 @@ AddCustomTexPart(h, 100, ‘Stringers’);
 AddCustomTexPart(h, 200, ‘Treads’);
 ```
 
+```pascal
+AddCustomTexPart(obj, 1, 'Example');
+```
+```python
+import vs
+
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+partName = 'Example'
+
+vs.AddCustomTexPart(obj, partID, partName)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Available version: Vectorworks 2017
 

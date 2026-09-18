@@ -122,6 +122,38 @@ gSlider = 0
 dialog1_Main()
 ```
 
+```pascal
+CreateCheckBox(dialogID,69,GetPlugInString(6069));
+CreateCheckBox(dialogID,68,GetPlugInString(6068));
+CreateStaticText(dialogID,70,'',40);
+CreateEditText(dialogID,71,'',40);
+CreateControl(dialogID, 72, 2, '', 0);
+CreateControl(dialogID, 73, 2, '', 0);
+CreateControl(dialogID, 74, 2, '', 0);
+CreateControl(dialogID, 75, 2, '', 0);
+
+CreateControl( dialogID, ShuttleSlider_ID, 3, 'Shuttle', 2 * kHalfShuttleSliderRange );
+SetRightItem( dialogID, ShuttleIconLeft_ID, ShuttleSlider_ID, 0, 0 );
+
+CreateGroupBox (dialogID, 3, GetPluginString (3008), TRUE);
+CreateStaticText (dialogID, 4, GetPluginString (3009), -1);
+CreateControl (dialogID, 5, 3, '', kMaxSpeed);
+CreateStaticText (dialogID, 6, GetPluginString (3010), -1);
+```
+```python
+import vs
+
+# **Vectorworks 2012 Deprecated Functions DEPRECATED after Vectorworks2012**.
+dialogID = 1
+itemID = 2
+controlKind = 0
+name = 'Example'
+data = 3
+
+vs.CreateControl(dialogID, itemID, controlKind, name, data)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks 9.0, deprecated from VW 2012
 

@@ -138,6 +138,28 @@ A representation of pieces (segments in the example) in a NURBS curve:
 
 ![NURBS_Pieces.png](files/NURBS_Pieces.png)
 
+```pascal
+gStationSpacing := Str2Num(GetRField(objHand, objName, 'Station Spacing'));
+IF gStationSpacing < 12" THEN gStationSpacing := 12";
+nurbsPtCnt := Trunc(nurbsLength / gStationSpacing) + 2;
+ALLOCATE nurbs [1..nurbsPtCnt];
+NurbsGetPt3D(nurbsHandle, 0, 0, pX, pY, pZ);
+nurbs[1].x := pX;
+nurbs[1].y := pY;
+nurbs[1].z := pZ;
+for cnt := 2 to nurbsPtCnt - 1 do BEGIN
+```
+```python
+import vs
+
+# Returns the coordinates of a point in the referenced NURBS curve or surface.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index1 = 1
+index2 = 1
+
+result = vs.NurbsGetPt3D(objectHd, index1, index2)
+```
+
 ## See Also
 VS Functions:
 [NurbsCurveEvalPt](NurbsCurveEvalPt.md) 

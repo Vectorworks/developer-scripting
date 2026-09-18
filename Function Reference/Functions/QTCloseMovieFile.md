@@ -17,6 +17,24 @@ def vs.QTCloseMovieFile(movieRef):
 |---|---|---|
 |movieRef|INTEGER|Index of QuickTime movie stream.|
 
+## Examples
+```pascal
+			IF gShowFrameCounter THEN SetupFrameCounter;
+			GetSunrise(gSunriseHour, gSunriseMinute, gDoQTFrames);
+			GoTilSunset(gSunriseHour, gSunriseMinute, gSunSetHour, gSunSetMinute, gDoQTFrames);
+		END;
+	QTCloseMovieFile(gMovieRef);
+END
+```
+```python
+import vs
+
+# Closes the specified QuickTime movie file.
+movieRef = 1
+
+vs.QTCloseMovieFile(movieRef)
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

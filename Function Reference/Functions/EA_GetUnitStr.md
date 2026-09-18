@@ -17,6 +17,20 @@ def vs.EA_GetUnitStr(unitType):
 |---|---|---|
 |unitType|INTEGER|   |
 
+## Examples
+```pascal
+resultStr := EA_GetUnitStr(1);
+```
+```python
+import vs
+
+# Returns document unit string.
+unitType = 0
+
+text = vs.EA_GetUnitStr(unitType)
+vs.Message('EA_GetUnitStr returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

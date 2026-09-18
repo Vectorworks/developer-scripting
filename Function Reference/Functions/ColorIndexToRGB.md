@@ -38,6 +38,37 @@ ColorIndexToRGB(45, r, g, b);
 r, g, b = vs.ColorIndexToRGB(45)
 ```
 
+```pascal
+BEGIN
+	IF flag THEN ColorIndexToRGB(kRedIndex,r,g,b) ELSE ColorIndexToRGB(kYellowIndex,r,g,b);
+	hobj := FInGroup(h);
+
+BEGIN
+n := n + 1;
+Rect (X1, Y1, X1 + boxSize, Y1 + boxSize);
+ColorIndextoRGB (colorIndex[n], R, G, B);
+SetFPat (LNewObj, 1);
+SetFillBack (LNewObj, R, G, B);
+IF showIndices THEN
+BEGIN
+
+GetChoiceText(dialogID, popupID, 1, strg);
+ColorIndexToRGB(Str2Num(strg), r2, g2, b2);
+diff := ColorDiff(r1, g1, b1, r2, g2, b2);
+colorStr := strg;
+GetChoiceCount(dialogID, popupID, itemCount);
+```
+```python
+if classFound:
+	tempInt = vs.GetWSCellValue( wksHand, row, col + 1 )
+	# pen color
+	r, g, b = vs.ColorIndexToRGB( tempInt )
+	vs.SetClPenFore( userClassName, r, g, b )
+	tempInt = vs.GetWSCellValue( wksHand, row, col + 2 )
+	# line weight
+	vs.SetClLW( userClassName, tempInt )
+```
+
 ## See Also
 Functions:
 * [ColorIndexToRGBN](ColorIndexToRGBN.md)

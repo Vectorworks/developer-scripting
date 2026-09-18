@@ -54,6 +54,21 @@ END;
 RUN(WStest);
 ```
 
+```pascal
+GetWSCellStringN(worksheet, 1, 2, cellString);
+```
+```python
+import vs
+
+# Returns the displayed string value of a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+text = vs.GetWSCellStringN(worksheet, row, column)
+vs.Message('GetWSCellStringN returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

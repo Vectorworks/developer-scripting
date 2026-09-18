@@ -33,6 +33,21 @@ def vs.GetProjectUser(userId):
 |fullName|STRING|The users full name|
 |permission|INTEGER|Permission level of the user|
 
+## Examples
+```pascal
+resultOK := GetProjectUser('Example', 'Example', 1);
+```
+```python
+import vs
+
+# For a given userid in the current Project, get their full name and
+# permission level.
+userId = 'Example'
+
+ok, fullName, permission = vs.GetProjectUser(userId)
+vs.Message('GetProjectUser returned: ' + str((ok, fullName, permission)))
+```
+
 ## See Also
 VS Functions:
 [GetProjectUserNames](GetProjectUserNames.md)

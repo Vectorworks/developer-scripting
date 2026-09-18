@@ -81,6 +81,39 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	GetPolylineVertex(lineHandle, vertexNum, x, y, GetVertexType, radius);
+END;
+
+if arrowLineH <> NIL then BEGIN {TEXT NOTE (STRAIGHT)}
+	{BRACE TYPE Group}
+	if polyH <> NIL then BEGIN
+		{find the vertex in the middle of the imaginery Line connecting th ends of the Poly}
+		GetPolylineVertex( polyH, 1, v1[1], v1[2], verttype, arcrad );
+		GetPolylineVertex( polyH, 7, v2[1], v2[2], verttype, arcrad );
+		tempV := v1 - v2;
+		tempV := UnitVec( tempV );
+		tempV := tempV * Norm(v1 - v2)/2;
+
+FOR vertexNum := 1 TO GetVertNum( tempPolyH ) DO BEGIN
+	GetPolylineVertex( tempPolyH, vertexNum, pX, pY, vertexType, arcRadius );
+	InsertVertex( polylineH, pX, pY, 1, vertexType, arcRadius );
+	SetVertexVisibility( polylineH, 1, TRUE );
+END;
+```
+```python
+import vs
+
+# Returns information about the specified polyline vertex.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+vertexNum = 1
+
+p, vertexType, arcRadius = vs.GetPolylineVertex(obj, vertexNum)
+vs.Message('GetPolylineVertex returned: ' + str((p, vertexType, arcRadius)))
+```
+See also in tutorials: [15. Uniform Arc-Length Resampling of a Polyline](ai%20examples/15_PolylineResampleUniform.md), [20. Read a Polyline and Build Walls Along Its Path](ai%20examples/20_PolylineToWalls.md)
+
 ## See Also
 For polylines:
 * [SetPolylineVertex](SetPolylineVertex.md)

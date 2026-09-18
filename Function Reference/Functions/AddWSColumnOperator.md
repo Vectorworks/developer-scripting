@@ -31,6 +31,23 @@ Sort operator = 0<BR>
 Summarize operator = 1<BR>
 Add operator = 2
 
+## Examples
+```pascal
+AddWSColumnOperator(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Adds database column operator to specified column.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaseRow = 10
+column = 5
+operatorType = 0
+
+vs.AddWSColumnOperator(worksheet, databaseRow, column, operatorType)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

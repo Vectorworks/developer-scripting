@@ -24,6 +24,33 @@ def vs.SelectChoice(dialogID, componentID, itemIndex, selectState):
 |itemIndex|INTEGER|The index of the item to set the selection state for.|
 |selectState|BOOLEAN|True if the item at the given index should be selected. False otherwise.|
 
+## Examples
+```pascal
+AddChoice(dialogID,  6,  GetPlugInString (3012),  gNumSymFolders + 1);
+SelectChoice(dialogID, 6, 0, TRUE);
+
+AddChoice(dialogID1,  6,  GetPlugInString (3012),  gNumSymFolders + 1);
+SelectChoice(dialogID1, 6, 0, TRUE);
+
+	BEGIN
+		value := fieldN [i];
+		AddChoice(dialogID,  fieldID,  value,  i-i);
+	END;
+	SelectChoice(dialogID, fieldID, 0, TRUE);
+END;	{of LoadDataCells}
+```
+```python
+import vs
+
+# Set the selection state of the given item in a control of choices.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+selectState = True
+
+vs.SelectChoice(dialogID, componentID, itemIndex, selectState)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

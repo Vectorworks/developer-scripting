@@ -20,6 +20,20 @@ def vs.SetWidth(h, value):
 |h|HANDLE|Handle to object.|
 |value|REAL|The new width of the object.|
 
+## Examples
+```pascal
+SetWidth(h, 1.0);
+```
+```python
+import vs
+
+# Set width of the passed object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+value = 1.0
+
+vs.SetWidth(h, value)
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

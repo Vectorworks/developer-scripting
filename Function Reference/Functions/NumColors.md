@@ -12,6 +12,18 @@ def vs.NumColors():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := NumColors;
+```
+```python
+import vs
+
+# Returns the last used color index in the current document.
+count = vs.NumColors()
+vs.Message('NumColors returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

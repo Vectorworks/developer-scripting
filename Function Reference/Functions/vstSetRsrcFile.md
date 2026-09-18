@@ -17,6 +17,19 @@ def vs.vstSetRsrcFile(inFileName):
 |---|---|---|
 |inFileName|STRING|   |
 
+## Examples
+```pascal
+vstSetRsrcFile('file.txt');
+```
+```python
+import vs
+
+# Sets the name of the resource file containing mode bar buttons.
+inFileName = 'C:/Temp/example.txt'
+
+vs.vstSetRsrcFile(inFileName)
+```
+
 ## Version
 Availability: from All Versions
 

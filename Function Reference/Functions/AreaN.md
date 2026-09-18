@@ -23,6 +23,19 @@ totalA:=AreaN((C='Plywood'));
 {returns the area of all objects in class 'Plywood'}
 ```
 
+```pascal
+resultVal := AreaN(c);
+```
+```python
+import vs
+
+# Returns the area of an object.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+area = vs.AreaN(c)
+vs.Message('AreaN returned: ' + str(area))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

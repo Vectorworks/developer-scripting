@@ -20,6 +20,20 @@ def vs.IFC_IsPsetCustom(pSetName):
 |pSetName|STRING|   |
 |bCustom|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_IsPsetCustom('Example', TRUE);
+```
+```python
+import vs
+
+# Check if Pset is custom.
+pSetName = 'Example'
+
+ok, bCustom = vs.IFC_IsPsetCustom(pSetName)
+vs.Message('IFC_IsPsetCustom returned: ' + str((ok, bCustom)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

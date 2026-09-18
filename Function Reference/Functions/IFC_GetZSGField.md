@@ -24,6 +24,21 @@ def vs.IFC_GetZSGField(selector, fieldName):
 |fieldName|STRING|   |
 |outFieldValue|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_GetZSGField(1, 'Example', 'MyRecord', 'MyRecord');
+```
+```python
+import vs
+
+# Gets Zone, System or Group field value.
+selector = 1
+fieldName = 'MyField'
+
+ok, ZSGName, outFieldValue = vs.IFC_GetZSGField(selector, fieldName)
+vs.Message('IFC_GetZSGField returned: ' + str((ok, ZSGName, outFieldValue)))
+```
+
 ## Version
 Availability: from Vectorworks 2022.1
 

@@ -17,6 +17,20 @@ def vs.GetClTextStyleRef(className):
 |---|---|---|
 |className|STRING|Name of class|
 
+## Examples
+```pascal
+resultN := GetClTextStyleRef('Wall');
+```
+```python
+import vs
+
+# Function GetClTextStyleRef gets the text style of the specified class.
+className = 'None'
+
+resultN = vs.GetClTextStyleRef(className)
+vs.Message('GetClTextStyleRef returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetClUseTextStyle](SetClUseTextStyle.md) 

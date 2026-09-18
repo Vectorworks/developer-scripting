@@ -15,6 +15,19 @@ def vs.NumVectorFills():
 ## Remarks
 Returns with the number of vector fills in the active document.
 
+## Examples
+```pascal
+resultN := NumVectorFills;
+```
+```python
+import vs
+
+# Function NumVectorFills returns the number of vector fills in the active
+# document.
+count = vs.NumVectorFills()
+vs.Message('NumVectorFills returned: ' + str(count))
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

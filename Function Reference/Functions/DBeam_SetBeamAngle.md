@@ -14,6 +14,18 @@ def vs.DBeam_SetBeamAngle(angle):
 |---|---|---|
 |angle|REAL|   |
 
+## Examples
+```pascal
+DBeam_SetBeamAngle(1.0);
+```
+```python
+import vs
+
+angle = 45.0
+
+vs.DBeam_SetBeamAngle(angle)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

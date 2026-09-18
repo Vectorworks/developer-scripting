@@ -57,6 +57,25 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	boo := ValidBearingStr(str, num);
+	WriteLn(str, Sp(20 - Len(str)), num);
+END;
+
+BEGIN
+	Rewrite (fileName);
+	WriteLn (Concat (GetPlugInString (3018)), ':');
+	WriteLn (Concat (GetPlugInString (3019), ' ', sDigits2 (area2,  kMinDisplayValue, kDisplayDigits), ' ', um2));
+	WriteLn (Concat (GetPlugInString (3020), ' ', sDigits2 (perim2, kMinDisplayValue, kDisplayDigits), ' ', umD));
+	Writeln ('');
+	WriteLn (GetPlugInString (3043));
+
+  	WriteLn (GetSDName (itemHdl));
+numSymbols := numSymbols + 1;
+ END;
+```
+
 ## See Also
 VS Functions:
 [WriteLnMac](WriteLnMac.md)

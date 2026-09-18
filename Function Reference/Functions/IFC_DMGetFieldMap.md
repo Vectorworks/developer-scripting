@@ -24,6 +24,22 @@ def vs.IFC_DMGetFieldMap(inStrObjName, inStrEntryName, inStrFieldName):
 |inStrFieldName|STRING|   |
 |outStrResult|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetFieldMap('Example', 'Example', 'MyRecord', 'Example');
+```
+```python
+import vs
+
+# Gets indicated field mapping source from current IFC Data Mapping.
+inStrObjName = 'Example'
+inStrEntryName = 'Example'
+inStrFieldName = 'MyField'
+
+ok, outStrResult = vs.IFC_DMGetFieldMap(inStrObjName, inStrEntryName, inStrFieldName)
+vs.Message('IFC_DMGetFieldMap returned: ' + str((ok, outStrResult)))
+```
+
 ## Version
 Available from: Vectorworks 2017
 

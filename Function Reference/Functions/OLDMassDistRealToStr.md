@@ -17,6 +17,28 @@ def vs.OLDMassDistRealToStr(distrMassValue):
 |---|---|---|
 |distrMassValue|REAL|   |
 
+## Examples
+```pascal
+	weightValue := Str2Num( GetRField( parmHand, parmName, kStrDistributedWeight ) );
+	SetRField( parmHand, parmName, kStrDistrWeightStr, OLDMassDistRealToStr( weightValue ) );
+END;
+
+	SetRField (ghParm, kPIOName, 'DistWeight',Concat(OLDMassDistRealToStr(CalcDistWeight)));
+	OLDSetLoadDataReal(ghParm,kDLDSelectorWeight,CalcDistWeight,0);
+END
+
+SetRField (H, kPIOName, 'DistWeight',Concat(OLDMassDistRealToStr(CalcDistWeight)));
+```
+```python
+import vs
+
+# Converts distributed mass real value to string and returns TRUE on success.
+distrMassValue = 1.0
+
+text = vs.OLDMassDistRealToStr(distrMassValue)
+vs.Message('OLDMassDistRealToStr returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

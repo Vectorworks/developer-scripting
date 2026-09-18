@@ -58,6 +58,18 @@ RUN(Example);
 
 ```
 
+```pascal
+PushAttrs;
+```
+```python
+if ok and ResourceIsOK():
+	vs.PushAttrs()
+	vs.Marker( 0, 0, 0 )
+	if objectHand != None:
+		noneClass = vs.GetClass( objectHand )
+		succeeded = True
+```
+
 ## See Also
 VS Functions:
 [PopAttrs](PopAttrs.md)

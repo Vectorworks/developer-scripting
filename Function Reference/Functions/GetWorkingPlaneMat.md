@@ -30,6 +30,20 @@ def vs.GetWorkingPlaneMat(refID):
 |outNormal|REAL|Output. The working plane normal.|
 |outUVec|REAL|Output. The U Vector of the plane.|
 
+## Examples
+```pascal
+GetWorkingPlaneMat(1, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0, 0.5, 1.5);
+```
+```python
+import vs
+
+# Get the specified working plane matrix.
+refID = 1
+
+outCenterPt, outNormal, outUVec = vs.GetWorkingPlaneMat(refID)
+vs.Message('GetWorkingPlaneMat returned: ' + str((outCenterPt, outNormal, outUVec)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

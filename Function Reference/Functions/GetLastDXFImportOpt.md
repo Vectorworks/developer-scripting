@@ -20,6 +20,24 @@ def vs.GetLastDXFImportOpt(selector, value):
 |selector|INTEGER|   |
 |value|PROCEDURE|   |
 
+## Examples
+```pascal
+resultOK := GetLastDXFImportOpt(1, value);
+```
+```python
+import vs
+
+# Get Last Used DXF Import Settings.
+selector = 1
+value = 'Example'
+
+ok = vs.GetLastDXFImportOpt(selector, value)
+if ok:
+    vs.Message('GetLastDXFImportOpt succeeded')
+else:
+    vs.Message('GetLastDXFImportOpt failed')
+```
+
 ## Version
 Availability: from Vectorworks 2013
 

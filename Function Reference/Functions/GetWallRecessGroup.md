@@ -17,6 +17,21 @@ def vs.GetWallRecessGroup(objectHand):
 |---|---|---|
 |objectHand|HANDLE|Object handle to get the geometry for.|
 
+## Examples
+```pascal
+resultH := GetWallRecessGroup(objectHand);
+```
+```python
+import vs
+
+# Get the wall recess geometry group associated with the object.
+objectHand = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetWallRecessGroup(objectHand)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

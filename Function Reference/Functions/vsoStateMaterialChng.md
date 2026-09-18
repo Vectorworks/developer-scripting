@@ -24,6 +24,22 @@ def vs.vsoStateMaterialChng(hObj):
 |deleted|BOOLEAN|   |
 |previousTexture|INTEGER|   |
 
+## Examples
+```pascal
+BEGIN
+	{AlrtDialog('About to call  vsoStateMaterialChng at Column!!');}
+	resultStatus := vsoStateMaterialChng(gPluginH, updatedMaterialID, materialDeleted, prevTexture);
+```
+```python
+import vs
+
+# ObjectState event is sent to Parametric objects when Material is changed.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, materialID, deleted, previousTexture = vs.vsoStateMaterialChng(hObj)
+vs.Message('vsoStateMaterialChng returned: ' + str((ok, materialID, deleted, previousTexture)))
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

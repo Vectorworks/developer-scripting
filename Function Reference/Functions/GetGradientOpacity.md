@@ -24,6 +24,18 @@ def vs.GetGradientOpacity(gradient, segmentIndex):
 GetGradientOpacity(gradientHandle, 4, opacity);
 ```
 
+```pascal
+GetGradientOpacity(gradient, 1, 2);
+```
+```python
+import vs
+
+gradient = vs.FSActLayer()  # handle to the first selected object on the active layer
+segmentIndex = 1
+
+result = vs.GetGradientOpacity(gradient, segmentIndex)
+```
+
 ## See Also
 VS Functions:
 [SetGradientOpacity](SetGradientOpacity.md)

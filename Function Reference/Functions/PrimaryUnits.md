@@ -3,7 +3,6 @@
 ## Description
 Procedure PrimaryUnits specifies the primary units settings for the active document. The primary units setting is used by the document for all measurement entry and display values in the document. 
 
-
 **Table - Units Formats**
 
 | Units Format         | Constant |
@@ -84,6 +83,36 @@ RUN(Example);
 #### Python ####
 ```python
 
+```
+
+```pascal
+if gAnnotateSegs then BEGIN
+	GetPrimaryUnitInfo(style, prec, dimPrec, format, angPrec, showMark, dispFrac);
+	PrimaryUnits(style, decimals, dimPrec, format, angPrec, showMark, dispFrac);
+	TextSize(ObjTextSize(objHand));
+	TextJust(2);
+	TextVerticalAlign(3);
+	yAxis.x := 0;
+
+	Close(fileName);
+	END; {of if OK}
+	END; {of if doe polys found}
+	PrimaryUnits(style, prec, dimPrec, format, angPrec, showMark, dispFrac);
+	Layer(active_layer);
+	ClrMessage;
+END; {of main}
+run(main);
+
+BEGIN
+	GetPrimaryUnitInfo (style, prec, dimPrec, format, angPrec, showMark, dispFrac);
+	PrimaryUnits (2, prec, 5, 1, angPrec, FALSE, TRUE);
+	num2FracStr := Num2StrF (n);
+	PrimaryUnits (style, prec, dimPrec, format, angPrec, showMark, dispFrac);
+END;	{of num2FracStr}
+Procedure DrawKey;
+```
+```python
+vs.PrimaryUnits(style, prec, dimPrec, format, angPrec, True, False)
 ```
 
 ## Version

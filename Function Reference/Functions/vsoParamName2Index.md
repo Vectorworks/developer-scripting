@@ -20,6 +20,24 @@ def vs.vsoParamName2Index(formatName, paramUnivName):
 |formatName|STRING|   |
 |paramUnivName|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+	PrmIdx := 1 + vsoParamName2Index( PIOName, prmName );
+
+PrmIdx := 1 + vsoParamName2Index( PIOName, Concat(prmName, 'X') );
+```
+```python
+import vs
+
+# Return the zero-based index of a prameter specified by its universal name.
+formatName = 'MyRecord'
+paramUnivName = 'Example'
+
+index = vs.vsoParamName2Index(formatName, paramUnivName)
+vs.Message('vsoParamName2Index returned: ' + str(index))
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

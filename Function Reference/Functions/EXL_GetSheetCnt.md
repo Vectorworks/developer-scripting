@@ -17,6 +17,18 @@ def vs.EXL_GetSheetCnt():
 |---|---|---|
 |outSheetCount|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := EXL_GetSheetCnt(1);
+```
+```python
+import vs
+
+# Get counts of Excel sheets.
+ok, outSheetCount = vs.EXL_GetSheetCnt()
+vs.Message('EXL_GetSheetCnt returned: ' + str((ok, outSheetCount)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

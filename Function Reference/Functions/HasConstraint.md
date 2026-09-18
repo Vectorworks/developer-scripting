@@ -21,6 +21,23 @@ def vs.HasConstraint(h):
 (*\_c\_*, 2011 Oct. 06): This call returns true when there is an object of type 110 attached. This could mean an associated dimension, a join (for walls) or any user defined constraint. ONE constraint can be fetched using GetObjectVariableHandle(h, 703), but that brings nowhere, since there seems to be no way to fetch the related (constrained) object(s). Nevertheless fetching the first object of type 110 allows to parse for others using NextObj(my110obj) and checking for object type.
 Any vertex constrained creates one such object type 110 for each of the objects involved.
 
+## Examples
+```pascal
+resultOK := HasConstraint(h);
+```
+```python
+import vs
+
+# Returns whether the referenced object has a parametric constraint.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.HasConstraint(h)
+if ok:
+    vs.Message('HasConstraint succeeded')
+else:
+    vs.Message('HasConstraint failed')
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

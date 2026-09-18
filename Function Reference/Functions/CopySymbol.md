@@ -51,6 +51,35 @@ def CopySym():
 CopySym()
 ```
 
+```pascal
+BEGIN
+CopySym := NIL;
+IF CopySymbol(Concat(GetLocStr(11111, 1), GetPlugInString(8002)),SymName) THEN
+	CopySym := GetObject(SymName);
+END;
+
+	IF NOT doesSymbolExist (gTitleBlock) THEN
+		CopySymbol (gTitleBlock);
+{
+writeln (' gTitleBlock = ',gTitleBlock);
+}
+	SetRField (newBorderH, newRecName, 'titleBlock', gTitleBlock);
+```
+```python
+import vs
+
+# Procedure CopySymbol will copy a symbol into the active document from a
+# user specified source document.
+filePath = 'C:/Temp'
+symbol = 'MySymbol'
+
+ok = vs.CopySymbol(filePath, symbol)
+if ok:
+    vs.Message('CopySymbol succeeded')
+else:
+    vs.Message('CopySymbol failed')
+```
+
 ## Version
 Availability: from All Versions
 

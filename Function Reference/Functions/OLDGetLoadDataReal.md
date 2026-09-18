@@ -23,6 +23,32 @@ def vs.OLDGetLoadDataReal(handle, selector, loadIndex):
 |selector|INTEGER|   |
 |loadIndex|INTEGER|   |
 
+## Examples
+```pascal
+realVal	:= OLDGetLoadDataReal( ghParm, kDLDSelectorWeight, 0 );
+
+TTLWeightFromBW	:= OLDGetLoadDataReal( ghParm, kDLDSelectorWeight, 0 );
+
+BEGIN
+	realVal	:= OLDGetLoadDataReal( ghParm, kDLDSelectorWeight, 0 );
+	IF	Eq( realVal, 0, 1 )
+	&	NOT Eq( realVal, oldVal, 1 )		{"&" <> "|"}
+	THEN BEGIN
+		realVal	:= oldVal * 1000;
+```
+```python
+import vs
+
+# Using selector, gets load data with real value for the parametric object
+# Available selectors : kDLDSelectorWeight = 5.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+selector = 1
+loadIndex = 1
+
+area = vs.OLDGetLoadDataReal(handle, selector, loadIndex)
+vs.Message('OLDGetLoadDataReal returned: ' + str(area))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

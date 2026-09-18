@@ -73,6 +73,22 @@ END;
 RUN(WStest);
 ```
 
+```pascal
+GetWSSubrowActualStringN(worksheet, 1, 2, 3, cellString);
+```
+```python
+import vs
+
+# Returns the actual string in a database subrow cell.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+subrow = 10
+
+text = vs.GetWSSubrowActualStringN(worksheet, row, column, subrow)
+vs.Message('GetWSSubrowActualStringN returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

@@ -17,6 +17,18 @@ def vs.GetProjectName():
 |---|---|---|
 |name|STRING|   |
 
+## Examples
+```pascal
+resultOK := GetProjectName('Example');
+```
+```python
+import vs
+
+# Gets the name of the Project File for Project Sharing.
+ok, name = vs.GetProjectName()
+vs.Message('GetProjectName returned: ' + str((ok, name)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

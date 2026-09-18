@@ -55,6 +55,25 @@ ok = vs.IFC_SetPsetProp(hWall, 'Pset_WallCommon', 'Reference', 'IW-01')
 ok = vs.IFC_SetPsetProp(hWall, 'Pset_WallCommon', 'ThermalTransmittance', '0.5')
 ```
 
+```pascal
+resultOK := IFC_SetPsetProp(hObject, 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# This function sets a value to the selected property of the selected pset.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrPsetName = 'Example'
+inStrPropName = 'Example'
+inStrPropValue = 'Example'
+
+ok = vs.IFC_SetPsetProp(hObject, inStrPsetName, inStrPropName, inStrPropValue)
+if ok:
+    vs.Message('IFC_SetPsetProp succeeded')
+else:
+    vs.Message('IFC_SetPsetProp failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

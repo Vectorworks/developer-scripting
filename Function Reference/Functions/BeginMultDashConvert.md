@@ -14,6 +14,19 @@ def vs.BeginMultDashConvert():
     return None
 ```
 
+## Examples
+```pascal
+BeginMultDashConvert;
+```
+```python
+import vs
+
+# Used when a number of pseudo index to dash style conversion operations (or
+# vice versa) are going to be performed.
+vs.BeginMultDashConvert()
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [GetPseudoIndFromDash](GetPseudoIndFromDash.md) 

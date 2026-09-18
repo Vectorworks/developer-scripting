@@ -20,6 +20,20 @@ def vs.SetIsCurtainWall(wall, isCurtainWall):
 |wall|HANDLE|The wall.|
 |isCurtainWall|BOOLEAN|Whether or not the wall is a curtain wall.|
 
+## Examples
+```pascal
+SetIsCurtainWall(wall, TRUE);
+```
+```python
+import vs
+
+# Sets whether or not a wall is a curtain wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+isCurtainWall = True
+
+vs.SetIsCurtainWall(wall, isCurtainWall)
+```
+
 ## See Also
 VS Functions:
 [IsCurtainWall](IsCurtainWall.md)

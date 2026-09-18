@@ -24,6 +24,26 @@ def vs.IFC_SetProperty(hObject, pSetName, propertyName, propValue):
 |propertyName|STRING|   |
 |propValue|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_SetProperty(hObject, 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Sets the specified property value.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+pSetName = 'Example'
+propertyName = 'Example'
+propValue = 'Example'
+
+ok = vs.IFC_SetProperty(hObject, pSetName, propertyName, propValue)
+if ok:
+    vs.Message('IFC_SetProperty succeeded')
+else:
+    vs.Message('IFC_SetProperty failed')
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

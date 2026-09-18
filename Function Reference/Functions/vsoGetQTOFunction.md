@@ -22,6 +22,20 @@ def vs.vsoGetQTOFunction(hObject):
 |functionIndex|INTEGER|   |
 |option|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+vsoGetQTOFunction(hObject, 1, option);
+```
+```python
+import vs
+
+# Get the requested function during event 84 (kParametricGetQTOValue).
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+functionIndex, option = vs.vsoGetQTOFunction(hObject)
+vs.Message('vsoGetQTOFunction returned: ' + str((functionIndex, option)))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

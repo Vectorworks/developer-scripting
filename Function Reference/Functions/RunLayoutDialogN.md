@@ -22,6 +22,25 @@ def vs.RunLayoutDialogN(dialogID, callback, enableContextualHelp):
 |callback|PROCEDURE|The event loop subroutine for the dialog.|
 |enableContextualHelp|BOOLEAN|Determines whether or not contextual help is accessible|
 
+## Examples
+```pascal
+resultN := RunLayoutDialogN(1, callback, TRUE);
+```
+```python
+import vs
+
+# Displays the specified dialog and initiates the dialog event loop.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+dialogID = 1
+callback = handle_object
+enableContextualHelp = True
+
+resultN = vs.RunLayoutDialogN(dialogID, callback, enableContextualHelp)
+vs.Message('RunLayoutDialogN returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

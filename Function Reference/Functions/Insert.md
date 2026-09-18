@@ -35,6 +35,30 @@ Insert(theStr,originalStr,3);
 
 ```
 
+```pascal
+BEGIN
+	Delete (newString, i, 1);
+	Insert (CR, newString, i);
+	j := k1 - i;
+END
+
+strtemp:=Num2Str(decPlace,labtemp);
+nOfChars2:=Len(strtemp);
+IF NOT(nOfChars2>=nOfChars) THEN BEGIN {pad leading zeros}
+	WHILE (not(nOfChars2>=nOfChars)) DO BEGIN
+		Insert(kZero,strtemp,1);
+		nOfChars2:=Len(strtemp);
+		END;
+
+BEGIN
+	Delete (gNutSize, i, 1);
+	Insert (',', gNutSize, i);
+END;
+```
+```python
+result = vs.Insert(source, 1)
+```
+
 ## Version
 Availability: from All Versions
 

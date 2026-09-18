@@ -50,6 +50,40 @@ def NewNurbsCurve():
 NewNurbsCurve()
 ```
 
+```pascal
+BEGIN
+	GetPolyPt(h, 1, x, y);
+	tempObjH := CreateNurbsCurve(x, y, 0, TRUE, 2);
+	for cnt := 2 to GetVertNum(h) do BEGIN
+		GetPolyPt(h, cnt, x, y);
+		AddVertex3D(tempObjH, x, y, 0);
+	END;
+
+	nurbsHandle := CreateNurbsCurve(nurbs[1].x, nurbs[1].y, (nurbs[1].z - zCorrection), byCtrlPts, longDegree);
+	for cnt := 2 to nurbsPtCnt DO AddVertex3D(nurbsHandle, nurbs[cnt].x, nurbs[cnt].y, (nurbs[cnt].z - zCorrection) );
+	IF (objHand <> NIL) & (nurbsHandle <> NIL) THEN boo := SetCustomObjectPath(objHand, nurbsHandle);
+END;
+
+BEGIN
+	wholeNurbsHand := CreateNURBSCurve(pt1.x, pt1.y, pt1.z - vertOffset, TRUE, 2);
+	nurbsHand := CreateNURBSCurve(pt1.x, pt1.y, pt1.z - vertOffset, TRUE, 2);
+END ELSE
+BEGIN
+	AddVertex3D(wholeNurbsHand, pt1.x, pt1.y, pt1.z - vertOffset);
+```
+```python
+import vs
+
+# Creates a new NURBS curve in the document.
+first = 'Example'
+byCtrlPts = True
+degree = 1
+
+objHandle = vs.CreateNurbsCurve(first, byCtrlPts, degree)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

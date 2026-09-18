@@ -20,6 +20,21 @@ def vs.SetWallHoleTexturePart(obj, part):
 |obj|HANDLE|The handle to the cutting object in the wall hole group of a symbol definition or plug-in object.|
 |part|INTEGER|The wall texture part.||0 - The wall Holes texture part|1 - The wall Left texture part|2 - The wall Right texture part|
 
+## Examples
+```pascal
+SetWallHoleTexturePart(obj, 1);
+```
+```python
+import vs
+
+# Sets the wall texture part of an object in the wall hole group of a symbol
+# definition or plug-in object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+part = 1
+
+vs.SetWallHoleTexturePart(obj, part)
+```
+
 ## See Also
 VS Functions:
 [GetWallHoleTexturePart](GetWallHoleTexturePart.md)

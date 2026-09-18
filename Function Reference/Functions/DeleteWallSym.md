@@ -17,6 +17,23 @@ def vs.DeleteWallSym(symbolHd):
 |---|---|---|
 |symbolHd|HANDLE|Handle to symbol.|
 
+## Examples
+```pascal
+resultOK := DeleteWallSym(symbolHd);
+```
+```python
+import vs
+
+# Function DeleteWallSym deletes the referenced symbol from a wall object.
+symbolHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.DeleteWallSym(symbolHd)
+if ok:
+    vs.Message('DeleteWallSym succeeded')
+else:
+    vs.Message('DeleteWallSym failed')
+```
+
 ## Version
 Availability: from MiniCAD6.0
 

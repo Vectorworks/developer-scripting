@@ -20,6 +20,20 @@ def vs.SetConstraintValue(constraint, value):
 |constraint|HANDLE|Handle to constraint being modified.|
 |value|REAL|New value for the constraint.|
 
+## Examples
+```pascal
+SetConstraintValue(constraint, 1.0);
+```
+```python
+import vs
+
+# Sets the referenced dimensional constraint to a new value.
+constraint = vs.FSActLayer()  # handle to the first selected object on the active layer
+value = 1.0
+
+vs.SetConstraintValue(constraint, value)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

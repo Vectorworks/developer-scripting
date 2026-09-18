@@ -34,6 +34,43 @@ newStrValue:=Num2StrF(oldnumValue);
 
 ```
 
+```pascal
+BEGIN
+	SetRField (pluginH, recordName, 'a', num2StrF (a));
+	SetRField (pluginH, recordName, 'b', num2StrF (b));
+	SetRField (pluginH, recordName, 't', num2StrF (t));
+	SetRField (pluginH, recordName, 'rf', num2StrF (rf));
+	SetRField (pluginH, recordName, 'rtA', num2StrF (rtA));
+
+labelVector := -labelVector;
+TextOrigin(ptX + tmpVector[1] + labelVector[1], ptY + tmpVector[2] + labelVector[2]);
+IF Num2StrF(Norm(segVector)) <> GetText (PickObject (ptX + tmpVector[1] + labelVector[1], ptY + tmpVector[2] + labelVector[2])) THEN
+	CreateText(Num2StrF(Norm(segVector)));
+
+BEGIN
+	CASE item OF
+		{* dialog init *}
+		SetupDialogC: BEGIN
+			SetItemText(dialogID, 4, Num2StrF (0));
+			SetItemText(dialogID, 6, Num2StrF (0));
+			SetBooleanItem(dialogID, 7, FALSE);
+			SelectEditText(dialogID, 4);
+		END;
+```
+```python
+if gLFO < gMinFenceOffset:
+	gLFO = gMinFenceOffset
+	vs.SetRField( gObjHandle, gObjName, 'Left Fence Offset', vs.Num2StrF( gLFO ) )
+
+if vs.PLeft_Fence_Offset < gMinFenceOffset:
+	vs.SetRField( gObjHandle, gObjName, 'Left Fence Offset', vs.Num2StrF( vs.PRoad_Width / 20 ) )
+	gLFO = gMinFenceOffset
+
+if rightFence < gMinFenceOffset:
+	rightFence = gMinFenceOffset
+	vs.SetRField( gObjHandle, gObjName, 'Right Fence Offset', vs.Num2StrF( rightFence ) )
+```
+
 ## Version
 Availability: from All Versions
 

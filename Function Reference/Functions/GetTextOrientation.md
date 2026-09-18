@@ -49,6 +49,44 @@ def Example():
 Example()
 ```
 
+```pascal
+IF ( NOT arrTBlocksUsed[ tbNUm ] ) THEN
+	{check if text and Group are in same Layer}
+	if GetLayer( objH ) = GetLayer( textH ) then BEGIN
+		{get the text origin position and rotation Angle}
+		GetTextOrientation( textH, originVec[1], originVec[2], ang, mirrored );
+		{determine the closer end of the text to the Group, as if text has a changed justification it is possible that}
+		{the origin might be on the further side of the text block or in its center!!!!}
+		{left justified text}
+		IF ( GetTextJust( textH ) = 1 ) THEN
+
+SetTextVertAlignN(LNewObj, tVAlign);
+SetTextJustN(LNewObj, tJust);
+SetTextSpace(LNewObj, 2);
+SetFPat(LNewObj,0);
+GetTextOrientation(LNewObj, ptX, ptY, angle, isMirrored);
+{Move the text object at the correct location}
+HMove(LNewObj, x + SizeFactor - ptX, y - ptY);
+Draw_text_block  := LNewObj;
+SetPrefInt(83, gVAlign);
+
+10: BEGIN	{ Text }
+	getTextOrientation(hTemp, x1, y1, startA, isMirr);
+	FOR ptIndex := 0 TO len(gettext(hTemp))-1 DO setTextSize(hTemp, ptIndex, 1, factor*getTextSize(hTemp, ptIndex));
+	setTextOrientation(hTemp, x1*factor, y1*factor, startA, isMirr);
+	END;
+```
+```python
+import vs
+
+# Procedure GetTextOrientation returns the position and orientation
+# attributes of the referenced text object.
+theText = 'Example text'
+
+textOrigin, textAng, textIsMirrored = vs.GetTextOrientation(theText)
+vs.Message('GetTextOrientation returned: ' + str((textOrigin, textAng, textIsMirrored)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -22,6 +22,25 @@ def vs.SetComponentManualEdgeOffset(obj, componentIndex, manualEdgeOffset):
 |componentIndex|INTEGER|The index of the component.|
 |manualEdgeOffset|REAL|The manual edge offset.|
 
+## Examples
+```pascal
+resultOK := SetComponentManualEdgeOffset(obj, 1, 1.0);
+```
+```python
+import vs
+
+# Sets the manual edge offset of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+manualEdgeOffset = 0.0
+
+ok = vs.SetComponentManualEdgeOffset(obj, componentIndex, manualEdgeOffset)
+if ok:
+    vs.Message('SetComponentManualEdgeOffset succeeded')
+else:
+    vs.Message('SetComponentManualEdgeOffset failed')
+```
+
 ## See Also
 VS Functions:
 [GetComponentManualEdgeOffset](GetComponentManualEdgeOffset.md)

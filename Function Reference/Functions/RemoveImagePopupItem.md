@@ -47,6 +47,13 @@ END;
 
 ```
 
+```pascal
+RemoveImagePopupItem(1, 2, 3);
+```
+```python
+vs.RemoveImagePopupItem(dialogID, componentID, 1)
+```
+
 ## See Also
 VS Functions:
 [InsertImagePopupObjectItem](InsertImagePopupObjectItem.md) 

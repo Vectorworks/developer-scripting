@@ -24,6 +24,22 @@ def vs.EnableLBRadioColumnLines(dialogID, componentID, columnIndex, enableRadioC
 |columnIndex|INTEGER|the index of the column|
 |enableRadioColumnLines|BOOLEAN|specifies if radio item &quot;column&quot; lines should be drawn|
 
+## Examples
+```pascal
+EnableLBRadioColumnLines(1, 2, 3, TRUE);
+```
+```python
+import vs
+
+# Enables/disables radio item &quot;column&quot; lines.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+enableRadioColumnLines = True
+
+vs.EnableLBRadioColumnLines(dialogID, componentID, columnIndex, enableRadioColumnLines)
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

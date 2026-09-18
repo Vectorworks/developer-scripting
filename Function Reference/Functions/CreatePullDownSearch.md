@@ -26,7 +26,20 @@ def vs.CreatePullDownSearch(nDialogID, nComponentID, nWidthInChars):
 |nWidthInChars|INTEGER|   |
 
 ## Examples
-[CreateAndInsertPulldownSearch](examples/CreateAndInsertPulldownSearch.md)
+```pascal
+CreatePullDownSearch(1, 2, 3);
+```
+```python
+import vs
+
+# Creates a pulldown menu with a search bar at the top.
+nDialogID = 1
+nComponentID = 2
+nWidthInChars = 3
+
+vs.CreatePullDownSearch(nDialogID, nComponentID, nWidthInChars)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
 
 ## Version
 Availability: from Vectorworks 2020

@@ -25,6 +25,22 @@ def vs.XMLSAXAddNodeAttr(XMLHandle, nodeAttrName, nodeAttrValue):
 ## Examples
 [XMLSAXBeginDocFile](XMLSAXBeginDocFile.md) or [XMLSAXBeginDocMemory](XMLSAXBeginDocMemory.md).
 
+```pascal
+resultN := XMLSAXAddNodeAttr(1, 'Example', 'Example');
+```
+```python
+import vs
+
+# Write XML using SAX, adds a node attributes to a node begun with
+# XMLSAXBeginNode.
+XMLHandle = 1
+nodeAttrName = 'Example'
+nodeAttrValue = 'Example'
+
+resultN = vs.XMLSAXAddNodeAttr(XMLHandle, nodeAttrName, nodeAttrValue)
+vs.Message('XMLSAXAddNodeAttr returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

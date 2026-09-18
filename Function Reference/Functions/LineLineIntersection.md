@@ -55,6 +55,26 @@ RUN(Example);
 
 ```
 
+```pascal
+LineLineIntersection(pt[3], midPt[1], pt[1], midPt[2], parallel, intOnLines, pt[2]);
+pt[7].x := -pt[2].x;
+pt[7].y := pt[2].y;
+r[2] := rf;
+r[7] := rf;
+
+BEGIN
+	LineLineIntersection(VTP(pt1), VTP(pt2), VTP(pt3), VTP(pt4), parallel, intOnLines, point5);
+	pt5 := PTV(point5);
+	IntersLineLine := NOT parallel;
+END;
+
+LineLineIntersection( beg_pt, END_pt, temp1_pt, temp2_pt, LinesAreParallel, LinesIntersect, temp_pt );
+```
+```python
+result = vs.LineLineIntersection(l1start, l1end, l2start, l2end)
+```
+See also in tutorials: [18. Line-Segment Intersection Finder](ai%20examples/18_LineSegmentIntersections.md)
+
 ## Version
 Availability: from VectorWorks10.0
 

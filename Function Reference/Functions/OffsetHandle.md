@@ -66,6 +66,13 @@ Run(try);
 
 ```
 
+```pascal
+resultH := OffsetHandle(h, 1.0, TRUE, FALSE);
+```
+```python
+result = vs.OffsetHandle(h, 1.0, EdgeRestoration, FilletSharpEdges)
+```
+
 ## See Also
 Similar calls:
 * [OffsetPoly](OffsetPoly.md)

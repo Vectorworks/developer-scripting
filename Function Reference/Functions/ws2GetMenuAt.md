@@ -28,6 +28,21 @@ but rather a UUID looking string. The positions are numbered starting at 0 (zero
 Use ws2GetMenuAt(ˈˈ, INDEX) where the first item is an empty string and INDEX is an integer specifying the menu item you are interested in to 
 get the Universal Name of the View menu.
 
+## Examples
+```pascal
+result := ws2GetMenuAt(menuPath, 1);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+index = 1
+
+text = vs.ws2GetMenuAt(menuPath, index)
+vs.Message('ws2GetMenuAt returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

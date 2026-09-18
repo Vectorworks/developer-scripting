@@ -65,6 +65,33 @@ def Example():
 Example()
 ```
 
+```pascal
+GetVersion(major, minor, maintenance, platform);
+IF (platform = 1) THEN BEGIN  {IsMac}
+	vOffsetX := -3;
+	vOffsetYEdit := -4;
+	vOffsetYPopup := -3;
+
+BEGIN
+	GetVersion(major, minor, maintenance, platform);
+    IF (platform = 1) THEN BEGIN  {IsMac}
+      vOffsetX 		:= -3;
+	  vOffsetY		:= -3;
+    END ELSE BEGIN
+
+BEGIN
+	GetVersion(major, minor, maint, platform);
+	SetRField(objHand, objName, '__version', Concat(major, minor, maint));
+	SetParameterVisibility(objHand, '__version', FALSE);
+END;
+```
+```python
+def IsMac():
+	major, minor, maintenance, platform = 0, 0, 0, 0
+	major, minor, maintenance, platform = vs.GetVersion()
+	isMac = ( platform == 1 )
+```
+
 ## Version
 Availability: from MiniCAD7.0
 

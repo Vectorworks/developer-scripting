@@ -20,6 +20,22 @@ def vs.ComponentVolume(c, index):
 |c|CRITERIA|The search criteria string.|
 |index|INTEGER|The index of the component.|
 
+## Examples
+```pascal
+resultVal := ComponentVolume(c, 1);
+```
+```python
+import vs
+
+# Returns the total 3D volume of the specified component, minus any holes in
+# the 3D object.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+index = 1
+
+vol = vs.ComponentVolume(c, index)
+vs.Message('ComponentVolume returned: ' + str(vol))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

@@ -30,6 +30,21 @@ Hide((C='Proposed Phase 2 Construction'));
 
 ```
 
+```pascal
+		SetClassOptions(5);
+		for i := 1 to ClassNum DO ShowClass(ClassList(i));
+	END;
+	str := Concat('(NOT', SQL, ')');
+	Hide(str);
+	Show('((SEL))');
+	if (WhatToDo = 'new') | (WhatToDo = 'add') then FOR i := 1 to handle_cnt DO ReallyShowEm(handles[i]);
+	DoMenuTextByName(GetLocStr(11050, 13), 0); {'Fit To Objects'}
+END;
+```
+```python
+vs.Hide(c)
+```
+
 ## Version
 Availability: from All Versions
 

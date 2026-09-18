@@ -51,6 +51,18 @@ Example:
 Message(GetLayerOptions);
 ```
 
+## Examples
+```pascal
+resultN := GetLayerOptions;
+```
+```python
+import vs
+
+# Returns layer visibility setting for the active document.
+resultN = vs.GetLayerOptions()
+vs.Message('GetLayerOptions returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [SetLayerOptions](SetLayerOptions.md)

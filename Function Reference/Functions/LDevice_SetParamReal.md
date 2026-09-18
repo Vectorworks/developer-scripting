@@ -27,6 +27,24 @@ def vs.LDevice_SetParamReal(handle, cellIndex, accessoryIndex, universalName, ne
 |universalName|STRING|   |
 |newValue|REAL|   |
 
+## Examples
+```pascal
+LDevice_SetParamReal(handle, 1, 2, 'Example', 1.0);
+```
+```python
+import vs
+
+# Set real parameter of a Lighting Device or attached Accessory by Worksheet
+# Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+newValue = 1.0
+
+vs.LDevice_SetParamReal(handle, cellIndex, accessoryIndex, universalName, newValue)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

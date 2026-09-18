@@ -42,6 +42,40 @@ def Example():
 Example()
 ```
 
+```pascal
+{create the properly rotated Callout object}
+CNH := CreateCustomObjectN(kCallout, startCNV[1], startCNV[2], rotCN, FALSE);
+
+ObjectHand := CreateCustomObjectN (kSeatingObjectName, -OriginX,-OriginY, 0, FALSE);
+IF ObjectHand <> NIL THEN
+BEGIN
+	result := SetCustomObjectPath (ObjectHand, poly_h);
+	polyClass := GetClass(poly_h);
+
+GetPtL(pt1.x, pt1.y, pt2.x, pt2.y);
+ForcePick(pt2, h2, node2, GetPlugInString(3002));
+IF (node2 <> '') & (node1 <> node2) THEN BEGIN
+	DSelectAll;
+	h1 := CreateCustomObjectN('Flowchart Link', 0, 0, 0, FALSE);
+	pt3 := pt1 + ((pt2 - pt1) / 3);
+	pt4 := pt1 + ((pt2 - pt1) / 3 * 2);
+	SetRField(h1, 'Flowchart Link', 'ControlPoint01X', Concat(pt3.x));
+	SetRField(h1, 'Flowchart Link', 'ControlPoint01Y', Concat(pt3.y));
+```
+```python
+import vs
+
+# Creates a custom object instance at specified location and angle of rotation.
+objectName = 'Example'
+p = (0, 0)
+rotationAngle = 45.0
+showPref = True
+
+objHandle = vs.CreateCustomObjectN(objectName, p, rotationAngle, showPref)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

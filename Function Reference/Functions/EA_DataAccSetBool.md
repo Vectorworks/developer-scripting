@@ -22,6 +22,21 @@ def vs.EA_DataAccSetBool(acc, valueIndex, value):
 |valueIndex|INTEGER|   |
 |value|BOOLEAN|   |
 
+## Examples
+```pascal
+EA_DataAccSetBool(1, 2, TRUE);
+```
+```python
+import vs
+
+# Set boolean value to the object, associated to the accessory index.
+acc = 1
+valueIndex = 1
+value = True
+
+vs.EA_DataAccSetBool(acc, valueIndex, value)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

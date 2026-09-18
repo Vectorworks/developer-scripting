@@ -14,6 +14,22 @@ def vs.GetVertSecCPByStyle(hObject):
 |---|---|---|
 |hObject|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := GetVertSecCPByStyle(hObject);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetVertSecCPByStyle(hObject)
+if ok:
+    vs.Message('GetVertSecCPByStyle succeeded')
+else:
+    vs.Message('GetVertSecCPByStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

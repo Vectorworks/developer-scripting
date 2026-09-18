@@ -47,6 +47,13 @@ RUN(Example);
 
 ```
 
+```pascal
+resultOK := SetClassBeginningMarker('Example', 1, 2, 1.0, 2.0, 3, 0.5);
+```
+```python
+result = vs.SetClassBeginningMarker('Example', style, 1.0, 2.0, 0.5, 1.0, 2.0)
+```
+
 ## See Also
 VS Functions:
 [SetClassEndMarker](SetClassEndMarker.md)

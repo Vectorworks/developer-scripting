@@ -39,6 +39,24 @@ while not down:
 vs.AlrtDialog(str(pt))
 ```
 
+```pascal
+		HRotate (followerH, x, y, -angle);
+		HMove (camH, -x, -y);
+		HMove (followerH, -x, -y);
+	END;	{of dTheta <> 0}
+UNTIL KeyDown( cCode ) | MouseDown (xM, yM);
+
+UNTIL KeyDown (cCode) | MouseDown (xM, yM);
+```
+```python
+import vs
+
+# Return TRUE if a mouse down event has occurred within the active document
+# window.
+bool, (px, py = vs.MouseDown()
+vs.Message('MouseDown returned: ' + str((bool, (px, py)))
+```
+
 ## Version
 Availability: from All Versions
 

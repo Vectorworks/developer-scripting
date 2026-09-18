@@ -17,6 +17,20 @@ def vs.GetVPClOvrdLnWeight(viewportHandle, className):
 |viewportHandle|HANDLE|The handle of the viewport|
 |className|STRING|The name of the class override|
 
+## Examples
+```pascal
+resultN := GetVPClOvrdLnWeight(viewportHandle, 'Wall');
+```
+```python
+import vs
+
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+
+resultN = vs.GetVPClOvrdLnWeight(viewportHandle, className)
+vs.Message('GetVPClOvrdLnWeight returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

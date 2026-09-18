@@ -27,6 +27,29 @@ def vs.EnableLBColumnTracking(dialogID, componentID, columnIndex, enableColumnTr
 ## Remarks
 If reducing column width is allowed or not.
 
+## Examples
+```pascal
+	boo:=EnableLBSingleLineSelection(dialogIDInventory, kBrowserMain, FALSE);
+	EnableLBSorting(dialogIDInventory, kBrowserMain, TRUE);
+	IF gNumInst>1 THEN SetLBSortColumn(dialogIDInventory, kBrowserMain, kColType, FALSE);
+	EnableLBColumnLines(dialogIDInventory, kBrowserMain, TRUE);
+	EnableLBColumnTracking(dialogIDInventory, kBrowserMain, kColType, TRUE);
+	RestoreLBColumnWidths('LightingInventorySetup', dialogIDInventory,kBrowserMain);
+	EnableItem(dialogIDInventory,kRemoveButton,FALSE);
+END;
+```
+```python
+import vs
+
+# Enables/disables column tracking.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+enableColumnTracking = True
+
+vs.EnableLBColumnTracking(dialogID, componentID, columnIndex, enableColumnTracking)
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

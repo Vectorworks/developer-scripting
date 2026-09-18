@@ -18,6 +18,16 @@ Follows BeginVectorFill and a variable number AddVectorFillLayer calls.
 ## Examples
 [AddHatchToResource](examples/AddHatchToResource.md)
 
+```pascal
+EndVectorFill;
+```
+```python
+import vs
+
+# Procedure EndVectorFill ends the vector fill creation process.
+vs.EndVectorFill()
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

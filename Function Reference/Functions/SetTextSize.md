@@ -38,6 +38,37 @@ SetTextSize(HandleToText,0,5,24);
 
 ```
 
+```pascal
+IF not ValidNumStr( GetText( textFoundH ), t_real ) THEN BEGIN
+	TextOrigin(0,0);
+	CreateText(Concat(' ', KNNoteNo));
+	SetTextFont( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextFont( textFoundH, 0 ) );
+	SetTextSize( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextSize( textFoundH, 0 ) );
+	SetTextStyle( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextStyle( textFoundH, 0 ) );
+	AddNumberWidth := GetTextWidth( LNewObj );
+	DelObject(LNewObj);
+end ELSE AddNumberWidth := 0;
+
+	settextstyle(texthandle, 0, pos1, labelStyleIndex);
+	settextsize (texthandle, 0, pos1, pLFact*TextScale * str2num(pTSize));
+	settextstyle(texthandle, pos1, pos2-pos1+1, textStyleindex);
+{
+	labelFlag := TRUE;
+	startpt := 0;
+
+BEGIN
+txtSize := GetTextSize(TmpTextHand,1);
+txtSize := txtSize*(gTextSheetScale/100);
+IF (gTextStyle = gsItemoverSheet) | (gTextStyle = gsItemSheet) THEN
+	SetTextSize(TmpTextHand,(Len(txtStr)-Len(gSheetName)),Len(gSheetName),txtSize)
+ELSE
+	SetTextSize(TmpTextHand,0,Len(gSheetName),txtSize);
+END;
+```
+```python
+vs.SetTextSize(objectHd, Start, 1, 1.0)
+```
+
 ## Version
 Availability: from MiniCAD6.0
 

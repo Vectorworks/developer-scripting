@@ -34,6 +34,24 @@ def vs.SetWSImgComponent(worksheet, topRow, leftColumn, bottomRow, rightColumn, 
 |rightColumn|INTEGER|Right column of cell range.|
 |component|INTEGER|The image component.|
 
+## Examples
+```pascal
+SetWSImgComponent(worksheet, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets the specified 2D component of a worksheet cell image.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+component = 1
+
+vs.SetWSImgComponent(worksheet, topRow, leftColumn, bottomRow, rightColumn, component)
+```
+
 ## See Also
 VS Functions:
 [GetWSImgComponent](GetWSImgComponent.md)

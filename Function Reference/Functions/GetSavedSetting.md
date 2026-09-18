@@ -51,6 +51,45 @@ END;
 RUN(Example);
 ```
 
+## Examples
+```pascal
+BEGIN
+	IF GetSavedSetting('IDLabelTool','AutoIncrement',tmpStr)THEN
+		gIDAutoInc := Str2Boo(tmpStr)
+	ELSE
+		gIDAutoInc := FALSE;
+	IF EditDoorID | EditWindowID THEN
+		BEGIN
+		gCurrPfx := GetRField(ObjHand,ObjName,'IDPrefix');
+		gCurrLbl:= GetRField(ObjHand,ObjName,'IDLabel');
+
+BEGIN
+	IF GetSavedSetting('RevisionCloud','Mode1',TmpStr) THEN
+		modeValue_1 := Str2Num(TmpStr)
+	ELSE
+		modeValue_1 := 1;
+	vstSetDataLong (kModeDataID_1, modeValue_1, result);
+END;
+
+BEGIN
+	IF GetSavedSetting('DialogPositions', Concat(dialogName, '/left'), value)	THEN
+		left := Str2Int(value)	ELSE left := 0;
+	IF GetSavedSetting('DialogPositions', Concat(dialogName, '/top'), value)	THEN
+		top := Str2Int(value)	ELSE top := 0;
+	IF GetSavedSetting('DialogPositions', Concat(dialogName, '/wdth'), value)	THEN
+		wdth := Str2Int(value)	ELSE wdth := 0;
+```
+```python
+import vs
+
+# Reads a value from the saved settnigs file.
+category = 'Example'
+setting = 'Example'
+
+ok, value = vs.GetSavedSetting(category, setting)
+vs.Message('GetSavedSetting returned: ' + str((ok, value)))
+```
+
 ## See Also
 VS:SetSavedSetting
 

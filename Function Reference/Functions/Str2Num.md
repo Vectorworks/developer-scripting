@@ -48,6 +48,40 @@ numValue:=Str2Num('235.44');
 
 ```
 
+```pascal
+REPEAT
+	alpha := alpha + 1 / incr;
+	theta := Deg2Rad (alpha);
+	m := (Sin (theta / 2) / theta) - (c / (2 * s));
+	m := Str2Num (Num2Str (accuracy, m));
+	IF m = 0 THEN
+		a := alpha2
+
+BEGIN
+	IF numPlaces > 9 THEN numPlaces := 9;
+	rRound := Str2Num (Num2Str (numPlaces, a));
+END;
+
+BEGIN
+	IF (copy(date(2,2),2,1)=':')
+	THEN BEGIN
+		hr:=str2num(copy(date(2,2),1,1));
+		min:=str2num(copy(date(2,2),3,2));
+		END
+```
+```python
+fldName = vs.GetFldName( vs.GetObject( recordName ), 2 )
+fldValue_x = vs.Str2Num( vs.GetRField( hObjectHand, recordName, fldName ) )
+
+if ( recHand != 0 ) and ( wksHand != 0 ):
+	# * Get the user standard index *
+	userIndex = vs.Str2Num( vs.Copy( vs.GetRField( recHand, recName, getLocStr( 12018, 2 ) ), 1, 1 ) )
+	rows, cols = vs.GetWSRowColumnCount( wksHand )
+	i = 1
+	numClasses = rows - 1
+	while (i <= numClasses ):
+```
+
 ## See Also
 VS Functions:
 [ValidNumStr](ValidNumStr.md)

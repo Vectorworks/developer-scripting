@@ -35,6 +35,27 @@ maxChoices := NumCustomObjectChoices(objName, 'PDINNER_MENU');
 
 ```
 
+```pascal
+BEGIN
+	gSize := GetCustomObjectChoice( gPluginName, fieldName, NumCustomObjectChoices( gPluginName, fieldName ) );
+	SetRField( formatHand, gPluginName, fieldName, gSize );
+END;
+
+numItems := NumCustomObjectChoices(shapeName, paramName);
+ALLOCATE sizeArray [1..numItems, 1..2];
+StorePopupValues(shapeName, paramName, sizeArray, numItems);
+
+paramName := Concat ('__size_', Num2Str (0, seriesIndex));
+numItems := NumCustomObjectChoices(shape, paramName);
+ALLOCATE sizeArray [1..numItems, 1..2];
+StorePopupValues(shape, paramName, sizeArray, numItems);
+for cnt := 1 to numItems DO
+BEGIN
+```
+```python
+result = vs.NumCustomObjectChoices('Example', 'Example')
+```
+
 ## See Also
 VS Functions:
 [GetCustomObjectChoice](GetCustomObjectChoice.md)

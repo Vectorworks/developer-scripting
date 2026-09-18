@@ -23,6 +23,21 @@ def vs.SetItemClickable(dialogID, componentID, clickable):
 |componentID|LONGINT|   |
 |clickable|BOOLEAN|   |
 
+## Examples
+```pascal
+SetItemClickable(1, 2, TRUE);
+```
+```python
+import vs
+
+# Sets the specified item to generate events when clicked.
+dialogID = 1
+componentID = 2
+clickable = True
+
+vs.SetItemClickable(dialogID, componentID, clickable)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

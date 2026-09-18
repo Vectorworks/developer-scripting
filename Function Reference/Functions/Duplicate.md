@@ -34,6 +34,35 @@ vs.Duplicate(2,0)
 #{duplicates the rectangle 2 units right of the original}
 ```
 
+```pascal
+	IF kDebugMode THEN alrtdialog( concat('sub MakeSymbol === Begin Sym ', SymName ) );
+	BeginSym(SymName);
+	SetSelect(h);
+	Duplicate(-xLoc, -yLoc);
+	EndSym;
+	DelObj(h);
+END;
+
+if GetType(temp_h) = 15 then BEGIN {placed symbol}
+	found_window := TRUE;
+	DSelectAll;
+	SetSelect(h);
+	Duplicate(0,0);
+	round_wall_copy := FSActLayer;
+	temp_h := FIn3D(round_wall_copy);
+	while temp_h <> nil do BEGIN
+		trash_h := NIL;
+```
+```python
+import vs
+
+# Procedure Duplicate copies the currently selected objects and moves them
+# the specified offset distance.
+offset = 0.0
+
+vs.Duplicate(offset)
+```
+
 ## Version
 Availability: from All Versions
 

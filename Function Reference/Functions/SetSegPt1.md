@@ -70,6 +70,33 @@ RUN(ExtendLine);
 
 ```
 
+```pascal
+BEGIN
+	Absolute;
+	IF getIntersect2 (h1, hR, xt, yt) THEN
+		SetSegPt1 (h1, xt, yt);
+	Relative;
+END;
+
+CASE typeCode OF
+	2: BEGIN	{ Line }
+		getsegpt1(hTemp, x1, y1);
+		getsegpt2(hTemp, x2, y2);
+		setsegpt1(hTemp, x1*factor, y1*factor);
+		setsegpt2(hTemp, x2*factor, y2*factor);
+		END;
+
+{Now reshape the existing straight wall, or draw a new one.}
+if found > 0 then BEGIN
+	oldWalls[found].WasUsed := TRUE;
+	SetSegPt2(oldWalls[found].h, walls[1].beg_pt.x, walls[1].beg_pt.y);
+	SetSegPt1(oldWalls[found].h, walls[1].END_pt.x, walls[1].END_pt.y);
+	PolyPoints[I].h := oldWalls[found].h;
+```
+```python
+vs.SetSegPt1(h, (0, 0))
+```
+
 ## See Also
 VS Functions:
 [SetSegPt2](SetSegPt2.md)

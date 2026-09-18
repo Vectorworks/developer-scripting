@@ -26,6 +26,21 @@ useClassPenColor:=FPenColorByClass;
 useClassPenColor = vs.FPenColorByClass()
 ```
 
+```pascal
+resultOK := FPenColorByClass;
+```
+```python
+import vs
+
+# Function FPenColorByClass returns whether the global attributes are set to
+# use the pen colors of the default class.
+ok = vs.FPenColorByClass()
+if ok:
+    vs.Message('FPenColorByClass succeeded')
+else:
+    vs.Message('FPenColorByClass failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

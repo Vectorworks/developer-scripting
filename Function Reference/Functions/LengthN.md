@@ -23,6 +23,19 @@ LengthValue:=LengthN(C='CrossMembers');
 {returns the length of all objects in class 'CrossMembers'}
 ```
 
+```pascal
+resultVal := LengthN(c);
+```
+```python
+import vs
+
+# Returns the length of an object.
+c = "(SEL=TRUE)"  # selection criteria - all selected objects
+
+distance = vs.LengthN(c)
+vs.Message('LengthN returned: ' + str(distance))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

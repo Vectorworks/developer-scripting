@@ -17,6 +17,19 @@ def vs.Prot_DisableModule(module):
 |---|---|---|
 |module|LONGINT|   |
 
+## Examples
+```pascal
+Prot_DisableModule(1);
+```
+```python
+import vs
+
+# Disables the module, if it is currently enabled.
+module = 1
+
+vs.Prot_DisableModule(module)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

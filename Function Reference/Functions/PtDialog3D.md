@@ -40,6 +40,23 @@ PtDialog3D('Enter the 3D location:','0','0','0',x,y,z);
 xPt, yPt, zPt = vs.PtDialog3D('User prompt string','0','0','0')
 ```
 
+```pascal
+PtDialog3D('Example', 'Example', 'Example', 'Example', 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Procedure PtDialog3D displays a dialog box which requests the user to enter
+# a 3D coordinate (point) value.
+displayStr = 'Example'
+xStr = 'Example'
+yStr = 'Example'
+zStr = 'Example'
+
+xPt, yPt, zPt = vs.PtDialog3D(displayStr, xStr, yStr, zStr)
+vs.Message('PtDialog3D returned: ' + str((xPt, yPt, zPt)))
+```
+
 ## Version
 Availability: from All Versions
 

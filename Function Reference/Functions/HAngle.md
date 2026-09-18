@@ -48,6 +48,38 @@ def Example():
 Example()
 ```
 
+```pascal
+	IF usePolygon THEN objType := 5
+	ELSE objType := GetType (objH);
+	alpha := HAngle(objH);
+	isValidObject := TRUE;
+{
+message ('objType = ',objType,'   alpha = ',alpha);
+}
+
+BEGIN
+IF (IsArcBasedWall(wallHandle)) THEN
+	RoundWallRadius := 5729.28 / ((100 * HAngle(wallHandle)) / HLength(wallHandle));
+END;
+
+BEGIN
+	MoveTo( StartPt.x, StartPt.y );
+	LineTo( EndPt.x, EndPt.y );
+	LineHand := LNewObj;
+	GetAngleFromLineFunc := HAngle( LineHand );
+	DelObjectClearHandProc( LineHand );
+END;
+```
+```python
+import vs
+
+# Function HAngle returns the angle of the referenced object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+angle = vs.HAngle(h)
+vs.Message('HAngle returned: ' + str(angle))
+```
+
 ## Version
 Availability: from All Versions
 

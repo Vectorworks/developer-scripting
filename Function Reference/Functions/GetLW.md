@@ -54,6 +54,46 @@ def GetLWExample():
 GetLWExample()
 ```
 
+```pascal
+BEGIN
+	GetPenFore(gLine,R,G,B);
+	thk := getLW(gLine);
+END;
+
+BEGIN
+	GetPenFore (gWallHand,r,g,b);
+	PenFore (r,g,b);
+	Pensize (GetLW (gWallHand));
+	PenPatN (GetLSN (gWallHand));
+	GetFillBack (gWallHand,r,g,b);
+	FillBack (r,g,b);
+END;
+
+{====================== Set Attributes ======================}
+{set Callout Line style from the TextNote Group LS}
+if arcLineH <> NIl then SetLSN( CNH, GetLSN( arcLineH ) ) ELSE SetLSN( CNH, GetLSN( arrowLineH ) );
+{set Callout Line thickness from the TextNote Group LW}
+if arcLineH <> NIl then SetLW( CNH, GetLW( arcLineH ) ) ELSE SetLW( CNH, GetLW( arrowLineH ) );
+{set Callout PenFore from the TextNote text block PenFore}
+GetPenFore( textFoundH, red, green, blue );
+SetPenFore( CNH, red, green, blue );
+{set Callout PenFore from the TextNote Group PenFore
+```
+```python
+if vs.IsLWByClass(gObjHandle):
+	vs.SetLWByClass(hObjectHand)
+else:
+	nLineWeight = vs.GetLW ( gObjHandle )
+	vs.SetLW( hObjectHand, nLineWeight )
+
+if not vs.IsLWByClass( objHand ):
+	penSize	= vs.GetLW( objHand )
+	vs.PenSize( penSize )
+
+if setLineWeight:
+	vs.SetLW(objH, vs.GetLW(parentH))
+```
+
 ## Version
 Availability: from All Versions
 

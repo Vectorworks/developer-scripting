@@ -22,6 +22,20 @@ def vs.CreateTile(tileName):
 tileHandle := CreateTile('My Tile');
 ```
 
+```pascal
+resultH := CreateTile('Example');
+```
+```python
+import vs
+
+# Creates a new tile resource.
+tileName = 'Example'
+
+objHandle = vs.CreateTile(tileName)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

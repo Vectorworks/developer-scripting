@@ -12,6 +12,18 @@ def vs.UndoOff():
     return None
 ```
 
+## Examples
+```pascal
+UndoOff;
+```
+```python
+import vs
+
+# Procedure UndoOff clears the undo table and suspends undo for the remainder
+# of the VectorScript procedure.
+vs.UndoOff()
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

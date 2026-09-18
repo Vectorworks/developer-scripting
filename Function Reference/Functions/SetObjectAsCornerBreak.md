@@ -28,6 +28,25 @@ def vs.SetObjectAsCornerBreak(objH, wallH, cornerBreak):
 |wallH|HANDLE|The handle of the wall containing the object referenced in objH.|
 |cornerBreak|BOOLEAN|Boolean value to set or unset the cornerBreak flag for the object.|
 
+## Examples
+```pascal
+resultOK := SetObjectAsCornerBreak(objH, wallH, TRUE);
+```
+```python
+import vs
+
+# Sets an object's corner break flag in it's corner break record.
+objH = vs.FSActLayer()  # handle to the first selected object on the active layer
+wallH = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+cornerBreak = True
+
+ok = vs.SetObjectAsCornerBreak(objH, wallH, cornerBreak)
+if ok:
+    vs.Message('SetObjectAsCornerBreak succeeded')
+else:
+    vs.Message('SetObjectAsCornerBreak failed')
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

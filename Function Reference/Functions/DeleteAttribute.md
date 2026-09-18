@@ -22,6 +22,22 @@ def vs.DeleteAttribute(XMLHandle, elementPath, attribute):
 |elementPath|STRING|   |
 |attribute|STRING|   |
 
+## Examples
+```pascal
+resultN := DeleteAttribute(1, 'file.txt', 'Example');
+```
+```python
+import vs
+
+# Deletes the attribute at the location specified by the path.
+XMLHandle = 1
+elementPath = 'C:/Temp'
+attribute = 'Example'
+
+resultN = vs.DeleteAttribute(XMLHandle, elementPath, attribute)
+vs.Message('DeleteAttribute returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

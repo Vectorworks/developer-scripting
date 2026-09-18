@@ -22,6 +22,22 @@ def vs.SetSliderLiveUpdate(dialogID, componentID, liveUpdate):
 |componentID|LONGINT|   |
 |liveUpdate|BOOLEAN|   |
 
+## Examples
+```pascal
+{ Set the slider to live update }
+SetSliderLiveUpdate( dialogID, ShuttleSlider_ID, TRUE );
+```
+```python
+import vs
+
+# Sets the specified slider to generate events during a drag.
+dialogID = 1
+componentID = 2
+liveUpdate = True
+
+vs.SetSliderLiveUpdate(dialogID, componentID, liveUpdate)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

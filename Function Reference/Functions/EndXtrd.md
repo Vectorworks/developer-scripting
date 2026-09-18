@@ -17,7 +17,6 @@ def vs.EndXtrd():
 ## Examples
 [BeginXtrd](examples/BeginXtrd.md)
 
-
 ```pascal
 BeginXtrd(0',4');
 Rect(-1 61/64&quot;,125/128&quot;,-1 119/256&quot;,-375/512&quot;);
@@ -32,6 +31,18 @@ EndXtrd;
 ```python
 
 ```
+
+```pascal
+EndXtrd;
+```
+```python
+# Draw 3D gutter
+vs.BeginXtrd( 0, thickness )
+DrawGutter( r1, sweep2D, w, gutter, currPenSize)
+vs.EndXtrd()
+SetAttrsByClassOrParent( vs.LNewObj(), gObjHandle, gPaving_Class )
+```
+See also in tutorials: [04. Extrude 2D Shapes into 3D Solids](ai%20examples/04_ExtrudeShapesTo3D.md), [06. Boolean Solids: Drill a Hole Through a Block](ai%20examples/06_BooleanSolids.md)
 
 ## Version
 Availability: from All Versions

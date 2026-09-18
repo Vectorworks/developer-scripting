@@ -17,6 +17,16 @@ def vs.PythonBeginContext():
 ## Examples
 [PythonExecute](PythonExecute.md).
 
+```pascal
+PythonBeginContext;
+```
+```python
+import vs
+
+# This function creates a context in which PythonExecute scripts are run.
+vs.PythonBeginContext()
+```
+
 ## See Also
 VS Functions:
 [PythonExecute](PythonExecute.md) 

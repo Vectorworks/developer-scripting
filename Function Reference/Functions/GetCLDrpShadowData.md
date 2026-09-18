@@ -31,6 +31,19 @@ def vs.GetCLDrpShadowData(className):
 |colorGV|INTEGER|   |
 |colorBV|INTEGER|   |
 
+## Examples
+```pascal
+GetCLDrpShadowData('Wall', 1, 1.0, 2.0, 0.5, 2, 3, 10, 5);
+```
+```python
+import vs
+
+className = 'None'
+
+nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colorRV, colorGV, colorBV = vs.GetCLDrpShadowData(className)
+vs.Message('GetCLDrpShadowData returned: ' + str((nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colorRV, colorGV, colorBV)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

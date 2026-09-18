@@ -20,6 +20,21 @@ def vs.vsoContextM_Enable(itemID, enable):
 |itemID|INTEGER|   |
 |enable|BOOLEAN|   |
 
+## Examples
+```pascal
+vsoContextM_Enable(1, TRUE);
+```
+```python
+import vs
+
+# Enable an item in the context menu of the object during
+# kObjOnContextMenuInit event.
+itemID = 1
+enable = True
+
+vs.vsoContextM_Enable(itemID, enable)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

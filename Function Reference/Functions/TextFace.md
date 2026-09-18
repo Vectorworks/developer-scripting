@@ -36,6 +36,41 @@ TextFace([Bold,Outline]);
 
 ```
 
+```pascal
+BEGIN
+	TextSize(txtSize);
+	CASE textStyleIndex OF
+		1: TextFace([Bold]);
+		2: TextFace([Italic]);
+		3: TextFace([Bold,Italic]);
+		OTHERWISE TextFace([]);
+	END;	{of CASE textStyleIndex}
+
+	IF styleIndex = 2 THEN fieldVal := GetLocStr(11002, 3) ELSE {Italic}
+	IF styleIndex = 3 THEN fieldVal := GetLocStr(11002, 4);     {Bold Italic}
+	SetRField(parmH, parmN, fieldN, fieldVal);
+end else IF fieldVal <> '' THEN BEGIN
+	IF fieldVal = GetLocStr(11002, 1) THEN BEGIN styleIndex := 0; TextFace([]);            end ELSE {Plain}
+	IF fieldVal = GetLocStr(11002, 2) THEN BEGIN styleIndex := 1; TextFace([Bold]);        end ELSE {Bold}
+	IF fieldVal = GetLocStr(11002, 3) THEN BEGIN styleIndex := 2; TextFace([Italic]);      end ELSE {Italic}
+	IF fieldVal = GetLocStr(11002, 4) THEN BEGIN styleIndex := 3; TextFace([Bold,Italic]); END;     {Bold Italic}
+	SetObjectVariableInt(parmH, 19, styleIndex);
+
+BEGIN
+	if Face = '0' then TextFace([]) ELSE
+	if Face = '1' then TextFace([Bold]) ELSE
+	if Face = '2' then TextFace([Italic]) ELSE
+	if Face = '3' then TextFace([Bold,Italic]) ELSE
+	if Face = '4' then TextFace([Underline]) ELSE
+	if Face = '5' then TextFace([Bold,Underline]) ELSE
+	if Face = '6' then TextFace([Italic,Underline]) ELSE
+	IF Face = '7' THEN TextFace([Bold,Italic,Underline]);
+END;
+```
+```python
+vs.TextFace(s)
+```
+
 ## Version
 Availability: from All Versions
 

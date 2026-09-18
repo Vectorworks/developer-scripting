@@ -54,6 +54,45 @@ RUN(Example);
 
 ```
 
+```pascal
+tmpStruct.NotesFormat.lineStyle := GetLSN( H );
+tmpStruct.NotesFormat.lineWeight := GetLW( H );
+tmpStruct.NotesFormat.penColByClass := IsPenColorByClass( H );
+tmpStruct.NotesFormat.LSByClass := IsLSByClass( H );
+tmpStruct.NotesFormat.LWByClass := IsLWByClass( H );
+tmpStruct.NotesFormat.FillPat := GetFPat( H );
+GetFillFore( H, tmpStruct.NotesFormat.FillFore.red, tmpStruct.NotesFormat.FillFore.green, tmpStruct.NotesFormat.FillFore.blue );
+GetFillBack( H, tmpStruct.NotesFormat.FillBack.red, tmpStruct.NotesFormat.FillBack.green, tmpStruct.NotesFormat.FillBack.blue );
+tmpStruct.NotesFormat.fColByClass := IsFillColorByClass( H );
+
+IF IsLWByClass(ActiveParmHand) THEN
+	SetLWByClass(DupPath)
+ELSE
+	BEGIN
+	lw := GetLW(ActiveParmHand);
+	SetLW(DupPath, lw);
+	END;
+
+END;
+if not IsLSByClass(objHand) then BEGIN
+	PenPatN(GetLSN(objHand));
+END;
+if not IsLWByClass(objHand) then BEGIN
+	PenSize(GetLW(objHand));
+END;
+```
+```python
+if vs.IsLWByClass(gObjHandle):
+	vs.SetLWByClass(hObjectHand)
+else:
+	nLineWeight = vs.GetLW ( gObjHandle )
+	vs.SetLW( hObjectHand, nLineWeight )
+
+if not vs.IsLWByClass( objHand ):
+	penSize	= vs.GetLW( objHand )
+	vs.PenSize( penSize )
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

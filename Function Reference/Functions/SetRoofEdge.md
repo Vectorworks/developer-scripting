@@ -37,6 +37,25 @@ slope: pitch of this roof edge
 projection: eave overhang
 eaveHeight: eave height
 
+## Examples
+```pascal
+SetRoofEdge(roofObject, 1, 1.0, 2.0, 0.5, 1.5, 3.0);
+```
+```python
+import vs
+
+# Procedure SetRoofEdge sets the definition attributes of a roof edge for the
+# referenced roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+vertexPt = (0, 0)
+edgeAngle = 45.0
+projectionDistance = 1.0
+eaveHeightDistance = 2.0
+
+vs.SetRoofEdge(roofObject, index, vertexPt, edgeAngle, projectionDistance, eaveHeightDistance)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

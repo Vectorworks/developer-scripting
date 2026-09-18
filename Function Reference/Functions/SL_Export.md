@@ -22,6 +22,23 @@ def vs.SL_Export(exportType, instHand, fieldName):
 |instHand|HANDLE|   |
 |fieldName|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+Begin
+		SL_Export(ExportType,InstHand,OneField);
+End;
+```
+```python
+import vs
+
+# Export Spotlight Data to xml file.
+exportType = 0
+instHand = vs.FSActLayer()  # handle to the first selected object on the active layer
+fieldName = 'MyField'
+
+vs.SL_Export(exportType, instHand, fieldName)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

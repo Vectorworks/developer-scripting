@@ -17,6 +17,18 @@ def vs.GetCheckoutsComment():
 |---|---|---|
 |comment|STRING|The comment currently being used.|
 
+## Examples
+```pascal
+resultOK := GetCheckoutsComment('Example');
+```
+```python
+import vs
+
+# Get the comment that will be used for checkouts and commits.
+ok, comment = vs.GetCheckoutsComment()
+vs.Message('GetCheckoutsComment returned: ' + str((ok, comment)))
+```
+
 ## See Also
 VS Functions:
 [SetCheckoutsComment](SetCheckoutsComment.md)

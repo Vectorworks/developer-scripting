@@ -51,6 +51,20 @@ vs.EnableDrawingWorksheetPalette(False, None)
 vs.EnableDrawingWorksheetPalette(True, None)
 ```
 
+```pascal
+EnableDrawingWorksheetPalette(TRUE, worksheet);
+```
+```python
+import vs
+
+# Enables/disables drawing for the specified worksheet or all displayed
+# worksheet palettes if worksheet is nil.
+enable = True
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+vs.EnableDrawingWorksheetPalette(enable, worksheet)
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

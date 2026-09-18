@@ -22,6 +22,26 @@ def vs.SetTextStyleByClassN(objectId, start, count):
 |start|INTEGER|Start position in text string, zero-based.|
 |count|INTEGER|Length of substring.|
 
+## Examples
+```pascal
+resultOK := SetTextStyleByClassN(objectId, 1, 2);
+```
+```python
+import vs
+
+# SetTextStyleByClassN sets a specified substring of a text object to use the
+# class text style.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+start = 1
+count = 5
+
+ok = vs.SetTextStyleByClassN(objectId, start, count)
+if ok:
+    vs.Message('SetTextStyleByClassN succeeded')
+else:
+    vs.Message('SetTextStyleByClassN failed')
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

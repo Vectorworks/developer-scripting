@@ -18,9 +18,22 @@ def vs.OLDGetCountLoads(handle):
 |---|---|---|
 |handle|HANDLE||
 
+## Examples
+```pascal
+resultN := OLDGetCountLoads(handle);
+```
+```python
+import vs
+
+# Returns the loads count of the specified object.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+count = vs.OLDGetCountLoads(handle)
+vs.Message('OLDGetCountLoads returned: ' + str(count))
+```
+
 ## Version
 Availability: from Vectorworks 2025.3
 
 ## Category
 * [Truss Analysis](../Categories/Truss Analysis.md)
-

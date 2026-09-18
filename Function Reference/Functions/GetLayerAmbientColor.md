@@ -24,6 +24,21 @@ def vs.GetLayerAmbientColor(layer):
 |green|LONGINT|Returns RGB color component value.|
 |blue|LONGINT|Returns RGB color component value.|
 
+## Examples
+```pascal
+GetLayerAmbientColor(layer, 1, 2, 3);
+```
+```python
+import vs
+
+# Procedure GetLayerAmbientColor returns the color of the ambient light of
+# the referenced layer.
+layer = vs.ActLayer()  # handle to the active design layer
+
+red, green, blue = vs.GetLayerAmbientColor(layer)
+vs.Message('GetLayerAmbientColor returned: ' + str((red, green, blue)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -74,6 +74,18 @@ tell application "BBEdit"
     end tell
 ```
 
+```pascal
+PythonExecute(script);
+```
+```python
+import vs
+
+# Execute the given python script.
+script = 'Example'
+
+vs.PythonExecute(script)
+```
+
 ## See Also
 VS Functions:
 [PythonGetSearchPath](PythonGetSearchPath.md) 

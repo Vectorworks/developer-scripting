@@ -40,6 +40,33 @@ def Example():
 Example()
 ```
 
+```pascal
+	GetPolyPt (hPathObj, I, pt [I].x, pt [I].y);
+HandleText; {Moved KCL}
+HandleBubble;
+HandleLeaderAndMarker;
+HMoveForward(TextHand,TRUE);
+SetDown;
+END;
+
+{Move title and scale text to front}
+HMoveForward(title_h,TRUE);
+HMoveForward(scale_h,TRUE);
+
+		SetPenFore (LNewObj, 65535, 0, 0);
+		SetFPat (LNewObj, 1);
+		HMoveBackward (LNewObj, TRUE);
+	EndGroup;
+	HMoveForward (LNewObj, TRUE);
+END;	{of createErrorMessage2}
+```
+```python
+vs.SetFPat( vs.LNewObj(), 1 )
+vs.HMoveBackward( vs.LNewObj(), False )
+vs.EndGroup()
+vs.HMoveForward( vs.LNewObj(), True )
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

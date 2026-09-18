@@ -21,6 +21,21 @@ def vs.DLDSetLoadDataReal(selector, value):
 |selector|INTEGER|   |
 |value|REAL|   |
 
+## Examples
+```pascal
+DLDSetLoadDataReal(1, 1.0);
+```
+```python
+import vs
+
+# Using selector, sets default load data with real value for the parametric
+# object.
+selector = 1
+value = 1.0
+
+vs.DLDSetLoadDataReal(selector, value)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

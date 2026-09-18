@@ -17,6 +17,23 @@ def vs.SetDocumentDefaultSketchStyle(sketchName):
 |---|---|---|
 |sketchName|STRING|Sketch Style name.|
 
+## Examples
+```pascal
+resultOK := SetDocumentDefaultSketchStyle('Example');
+```
+```python
+import vs
+
+# Sets the document default sketch style.
+sketchName = 'Example'
+
+ok = vs.SetDocumentDefaultSketchStyle(sketchName)
+if ok:
+    vs.Message('SetDocumentDefaultSketchStyle succeeded')
+else:
+    vs.Message('SetDocumentDefaultSketchStyle failed')
+```
+
 ## Version
 Availability: from VectorWorks11.5
 

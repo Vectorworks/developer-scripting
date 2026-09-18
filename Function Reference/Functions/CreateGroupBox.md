@@ -34,6 +34,40 @@ A group box with out frame is used for placing and moving groups of controls.[DW
 ## Examples
 [ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
+```pascal
+{* Create dialog control items *}
+	{* Method *}
+	CreateGroupBox (dialogID, 3, GetPlugInString (3004), TRUE);
+	CreateRadioButton (dialogID, 4, GetPlugInString (3005));
+	CreateRadioButton (dialogID, 5, GetPlugInString (3006));
+	CreateEditText (dialogID, 6, '', 20);
+	CreateEditText (dialogID, 7, '', 20);
+
+{* Create the control items *}
+	CreateGroupBox (dialogID, 199, '', FALSE);
+
+CreateStaticText (dialogID, 9, GetPlugInString (3021), labelWidth);
+CreatePullDownMenu (dialogID, 10, 32);
+CreateStaticText (dialogID, 11, GetPlugInString (3022), labelWidth);
+CreateSwapControl (dialogID, 12);
+CreateGroupBox    (dialogID, 15, '', TRUE);
+CreateEditText    (dialogID, 13, '', 32);
+CreateGroupBox    (dialogID, 16, '', TRUE);
+CreatePullDownMenu(dialogID, 14, 32);
+```
+```python
+import vs
+
+# Creates a new group box control in a dialog layout.
+dialogID = 1
+itemID = 2
+text = 'Example text'
+hasFrame = True
+
+vs.CreateGroupBox(dialogID, itemID, text, hasFrame)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

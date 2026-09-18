@@ -106,6 +106,34 @@ def MakeItRed(h):
 vs.ForEachObjectInLayer( MakeItRed, 2, 0, 4 )
 ```
 
+```pascal
+BEGIN
+	IF ResourceIsOK THEN {PrintPlugInStrings};
+	gNothingDrawn := TRUE;
+	ForEachObjectInLayer(AnnotateThings, 2, 0, 4);
+	IF gNothingDrawn THEN AlrtDialog(GetPlugInString(3012));
+END;
+
+ForEachObjectInLayer (isArc, 3, 2, 14);
+
+BEGIN
+ForEachObjectInLayer(Reset_Selection, 2, 2, 4);
+END;
+```
+```python
+import vs
+
+# Traverses through all objects according to specified search options and
+# applies the specified action to each object.
+actionFunc = 'Example'
+objOptions = 1
+travOptions = 2
+layerOptions = 3
+
+vs.ForEachObjectInLayer(actionFunc, objOptions, travOptions, layerOptions)
+```
+See also in tutorials: [10. Iterate the Drawing and Report a Summary](ai%20examples/10_IterateAndReport.md), [29. Cross-Layer Summary](ai%20examples/29_WorksheetCrossLayerSummary.md)
+
 ## Version
 Availability: from VectorWorks 8.5
 

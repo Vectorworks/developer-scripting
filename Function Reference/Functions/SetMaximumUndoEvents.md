@@ -20,6 +20,20 @@ def vs.SetMaximumUndoEvents(events):
 ## Remarks
 Sets the maximum number of undo events that can be stored in the undo table. Setting this to zero effectively turns off undo.
 
+## Examples
+```pascal
+SetMaximumUndoEvents(1);
+```
+```python
+import vs
+
+# Procedure SetMaximumUndoEvents sets the maximum number of undo events that
+# can be stored in the undo table.
+events = 1
+
+vs.SetMaximumUndoEvents(events)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

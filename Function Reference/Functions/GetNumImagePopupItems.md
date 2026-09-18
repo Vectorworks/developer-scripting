@@ -30,6 +30,32 @@ numImagePopupItems := GetNumImagePopupItems(dialogID, componentID);
 numImagePopupItems = vs.GetNumImagePopupItems(dialogID, componentID)
 ```
 
+```pascal
+{ Get the selected item in the Image Popup }
+index := GetNumImagePopupItems( dialogID, PopupID);
+IF index = 0 THEN
+BEGIN
+	IF numItems = 0 THEN
+	BEGIN
+
+	EnableSymImageAndOKCtrls( FALSE );
+END else BEGIN
+	selSymFolder := selSymFolder + 1; {convert from 0 to 1 based}
+	LoadImagePopup(selSymFolder);
+	EnableSymImageAndOKCtrls( 0 < GetNumImagePopupItems(selectSymbol, kSyms) );
+END;
+```
+```python
+import vs
+
+# Returns the number of items in the image popup.
+dialogID = 1
+componentID = 2
+
+count = vs.GetNumImagePopupItems(dialogID, componentID)
+vs.Message('GetNumImagePopupItems returned: ' + str(count))
+```
+
 ## See Also
 VS Functions:
 [InsertImagePopupObjectItem](InsertImagePopupObjectItem.md) 

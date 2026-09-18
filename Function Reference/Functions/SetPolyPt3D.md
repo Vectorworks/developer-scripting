@@ -39,6 +39,21 @@ SetPolyPt3D(objectHandle,3,2.5&quot;,3&quot;,8&quot;);
 
 ```
 
+```pascal
+{ Move target point by DisplacementVec }
+NewPt3D := CameraPt3D + DisplacementVec;
+SetPolyPt3D( CameraVectorHand, kCamVecIndx_Camera, NewPt3D.x, NewPt3D.y, NewPt3D.z );
+
+BEGIN
+	GetPolyPt3D( tmpH, counter1, pt.x, pt.y, pt.z );
+	pt := ObjectToWorldCoords( objHand, pt );
+	SetPolyPt3D( tmpH, counter1, pt.x, pt.y, pt.z );
+END;
+```
+```python
+vs.SetPolyPt3D(objectHd, 1, (0, 0), zValue)
+```
+
 ## Version
 Availability: from MiniCAD7.0
 

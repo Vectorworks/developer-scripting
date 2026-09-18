@@ -73,6 +73,22 @@ END;
 RUN(WStest);
 ```
 
+```pascal
+GetWSSubrowCellStrN(worksheet, 1, 2, 3, cellString);
+```
+```python
+import vs
+
+# Returns the displayed string in a database subrow cell.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+subrow = 10
+
+text = vs.GetWSSubrowCellStrN(worksheet, row, column, subrow)
+vs.Message('GetWSSubrowCellStrN returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

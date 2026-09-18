@@ -26,6 +26,21 @@ def vs.GetExWllClsrFrmSt(hObject):
 |top|BOOLEAN|Returns the exclude wall closure from top setting.|
 |bottom|BOOLEAN|Returns the exclude wall closure from bottom setting.|
 
+## Examples
+```pascal
+GetExWllClsrFrmSt(hObject, TRUE, FALSE, TRUE, TRUE);
+```
+```python
+import vs
+
+# Gets the exclude wall closure from settings of a symbol definition, plug-in
+# object style, or plug-in object.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+left, right, top, bottom = vs.GetExWllClsrFrmSt(hObject)
+vs.Message('GetExWllClsrFrmSt returned: ' + str((left, right, top, bottom)))
+```
+
 ## See Also
 VS Functions:
 [SetExWllClsrFrmSt](SetExWllClsrFrmSt.md)

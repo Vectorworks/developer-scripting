@@ -25,6 +25,26 @@ def vs.SetDLComponentUsePenClassAttr(index, leftPenUseClassAttr, rightPenUseClas
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetDLComponentUsePenClassAttr(1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Sets the useclass attributes flags of the left and right side pens of the
+# component at index in the Double Line Preferences.
+index = 1
+leftPenUseClassAttr = True
+rightPenUseClassAttr = True
+
+ok = vs.SetDLComponentUsePenClassAttr(index, leftPenUseClassAttr, rightPenUseClassAttr)
+if ok:
+    vs.Message('SetDLComponentUsePenClassAttr succeeded')
+else:
+    vs.Message('SetDLComponentUsePenClassAttr failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentUsePenClassAttr](GetDLComponentUsePenClassAttr.md)

@@ -24,6 +24,21 @@ def vs.GetWSImgView(worksheet, row, column):
 |column|INTEGER|The cell column.|
 |view|INTEGER|The image view.|
 
+## Examples
+```pascal
+GetWSImgView(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the specified worksheet cell's image view.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSImgView(worksheet, row, column)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

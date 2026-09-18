@@ -20,6 +20,21 @@ def vs.DeleteSymbolDefinition(hSymDef, bCompletely):
 |hSymDef|HANDLE|Handle to the symbol definition.|
 |bCompletely|BOOLEAN|Determines whether to replace the corresponding symbol instances with loci or delete the instances completely.|
 
+## Examples
+```pascal
+DeleteSymbolDefinition(hSymDef, TRUE);
+```
+```python
+import vs
+
+# Procedure DeleteSymbolDefinition deletes the referenced symbol definition
+# from the document.
+hSymDef = vs.GetObject('MySymbol')  # handle to a symbol definition
+bCompletely = True
+
+vs.DeleteSymbolDefinition(hSymDef, bCompletely)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

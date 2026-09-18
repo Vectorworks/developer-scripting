@@ -29,6 +29,32 @@ This doesn't return the control ID per se, but rather, the sequential number of 
 
 ## Examples
 
+```pascal
+gActivePane := GetActivePane(dialog1, kTabControl);
+gActStringerPane := GetActivePane(dialog1, kStringersTabControl);
+SetPrefString(100, defaultFont);
+
+CASE GetActivePane (dlogID, 98) OF
+	1: BEGIN
+		IF gSetupChoiceI <> 1 THEN SelectEditText(dlogID, 14);
+		gSetupChoiceI := 1;
+	END;
+
+IF GetActivePane(dialog,kMasterTabControl) = 6 THEN			{Checks for Array Config Tab}
+	BEGIN
+		EnableItem(dialog,  kArrayTypeInsert, FALSE);
+```
+```python
+import vs
+
+# Returns the currently displayed tab or swap pane in the specified tab or
+# swap control.
+dialogID = 1
+tabControlID = 2
+
+resultN = vs.GetActivePane(dialogID, tabControlID)
+vs.Message('GetActivePane returned: ' + str(resultN))
+```
 
 ## See Also
 VS Functions:

@@ -50,6 +50,38 @@ vs.Rect(-125/128,1 + 113/512,375/512,375/512)
 vs.EndMXtrd()
 ```
 
+```pascal
+BeginMXtrd(0,RailThick);
+IF Arch = 4 THEN
+	BEGIN
+	BeginPoly;
+	PolyArc(X1,Ext,Y2,RHeight,RLength,0,Arch,TRUE);
+
+BeginMxtrd(cHeight+cRoof_Thickness,cHeight+cRoof_Thickness+cRise);
+	Rect(-(cWidth/2+cOverhang),-(cWidth/2+cOverhang),(cWidth/2+cOverhang),(cWidth/2+cOverhang));
+	Locus(0.0,0.0);
+EndMxtrd;
+SetTextureRef(lNewObj,-1,3);
+
+   r1 := LegThick * (100 - gPLeg_Taper_Pcent)/100;
+ChangeToClass(TableLegsCName);
+{ create table legs }
+   FOR i := 1 TO 4 DO BEGIN
+       BeginMXtrd(0, THeight - TopThick);
+           IF PLeg_Shape = kTCLegShapeSquare THEN BEGIN
+			{ bottom of tapered leg. -gCon/3 offsets leg from skirt slightly }
+               Rect(-gCon/3, -gCon/3, r1 - gCon/3, r1 - gCon/3);
+			{ leg offset if necessary }
+```
+```python
+# Curbs
+vs.BeginMXtrd( 0, length )
+vs.BeginPoly()
+vs.AddPoint( p1 )
+vs.AddPoint( p2 )
+vs.AddPoint( p3 )
+```
+
 ## Version
 Availability: from All Versions
 

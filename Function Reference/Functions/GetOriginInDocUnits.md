@@ -32,6 +32,18 @@ END;
 RUN(Example);
 ```
 
+```pascal
+GetOriginInDocUnits(1.0, 2.0);
+```
+```python
+import vs
+
+# Procedure GetOriginInDocUnits returns the current origin location relative
+# to the center of the page in current units.
+x, y = vs.GetOriginInDocUnits()
+vs.Message('GetOriginInDocUnits returned: ' + str((x, y)))
+```
+
 ## See Also
 VS Functions:
 [GetOrigin](GetOrigin.md)

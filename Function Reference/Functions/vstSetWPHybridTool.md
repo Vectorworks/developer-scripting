@@ -17,6 +17,20 @@ def vs.vstSetWPHybridTool(message1):
 |---|---|---|
 |message1|LONGINT|   |
 
+## Examples
+```pascal
+vstSetWPHybridTool( modeGroup );
+vstSetCursorByView;
+```
+```python
+import vs
+
+# Set the working plane on the layer preparing it for hybrid tool.
+message1 = 1
+
+vs.vstSetWPHybridTool(message1)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

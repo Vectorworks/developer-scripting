@@ -17,6 +17,21 @@ def vs.GetLoadParent(handle):
 |---|---|---|
 |handle|HANDLE|   |
 
+## Examples
+```pascal
+resultH := GetLoadParent(handle);
+```
+```python
+import vs
+
+# Get the count of cells attached to a Lighting Device.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetLoadParent(handle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

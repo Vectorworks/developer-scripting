@@ -26,6 +26,26 @@ def vs.IsValidWSCell(worksheet, row, column):
 Determines if specified cell is valid for the specified worksheet.
 NOTE: A determination that a cell is valid only means that the specified cell falls within a range of 0 to the current number of worksheet rows and 0 to the current number of worksheet columns. A valid cell does not imply that every worksheet SDK function will accept that cell. The user should always  note any specific cell and cell range restrictions of a call they may use.
 
+## Examples
+```pascal
+resultOK := IsValidWSCell(worksheet, 1, 2);
+```
+```python
+import vs
+
+# Returns if a specified cell is within the valid range of the referenced
+# worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+ok = vs.IsValidWSCell(worksheet, row, column)
+if ok:
+    vs.Message('IsValidWSCell succeeded')
+else:
+    vs.Message('IsValidWSCell failed')
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

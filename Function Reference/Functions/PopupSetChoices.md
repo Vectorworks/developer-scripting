@@ -59,6 +59,19 @@ END;
 RUN(Example);
 ```
 
+```pascal
+PopupSetChoices(recName, fieldName, popUpValues);
+```
+```python
+import vs
+
+recName = 'Example'
+fieldName = 'MyField'
+popUpValues = []
+
+vs.PopupSetChoices(recName, fieldName, popUpValues)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

@@ -14,6 +14,21 @@ def vs.IsProjectOffline():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := IsProjectOffline;
+```
+```python
+import vs
+
+# Checks if current document is a Working File operating in Offline Mode.
+ok = vs.IsProjectOffline()
+if ok:
+    vs.Message('IsProjectOffline succeeded')
+else:
+    vs.Message('IsProjectOffline failed')
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

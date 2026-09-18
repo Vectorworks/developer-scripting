@@ -17,6 +17,20 @@ def vs.wsInstallFailed(failed):
 |---|---|---|
 |failed|BOOLEAN|   |
 
+## Examples
+```pascal
+wsInstallFailed(TRUE);
+```
+```python
+import vs
+
+# This function must be called inside 'add_to_workspace' script and it will
+# mark the install as failed, showing an alert dialog at the end.
+failed = True
+
+vs.wsInstallFailed(failed)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

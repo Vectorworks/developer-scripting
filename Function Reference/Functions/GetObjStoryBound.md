@@ -28,6 +28,38 @@ def vs.GetObjStoryBound(obj, boundID):
 |layerLevelType|STRING|The layer type which defines this bound|
 |offset|REAL|The offset distance from the specified bound story|
 
+## Examples
+```pascal
+BEGIN
+	IF GetObjStoryBound( fromObject, formBoundID, boundType, boundStory, layerLevelType, tempOffset ) THEN
+	BEGIN
+		SetObjectStoryBound( toObject, toBoundID, boundType, boundStory, layerLevelType, tempOffset );
+	END ELSE
+	BEGIN
+		SetObjectStoryBound( toObject, toBoundID, 0, 0, '', defaultReal );
+	END;
+
+BEGIN
+	formatHand := GetObject( objectName );
+	IF GetObjStoryBound( formatHand, topBoundID, boundType, boundStory, layerLevelType, topOffset ) &
+		( NOT HasObjStoryBound( objectHand, topBoundID ) ) THEN
+	BEGIN
+		SetObjectStoryBound( objectHand, topBoundID, boundType, boundStory, layerLevelType, topOffset );
+	END;
+
+doesExist          := GetObjStoryBound( objectHand, boundID, boundType, boundStory, layerLevelType, tempOffset );
+```
+```python
+import vs
+
+# Get the data of the specified story bound of this object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+boundID = 1
+
+ok, boundType, boundStory, layerLevelType, offset = vs.GetObjStoryBound(obj, boundID)
+vs.Message('GetObjStoryBound returned: ' + str((ok, boundType, boundStory, layerLevelType, offset)))
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

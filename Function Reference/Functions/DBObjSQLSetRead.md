@@ -24,6 +24,24 @@ def vs.DBObjSQLSetRead(hRecord, SQLSentence):
 |hRecord|HANDLE|The handle to linked record.|
 |SQLSentence|DYNARRAY[] of CHAR|The SELECT query.|
 
+## Examples
+```pascal
+resultOK := DBObjSQLSetRead(hRecord, SQLSentence);
+```
+```python
+import vs
+
+# Set an object's SQL query for ODBC read.
+hRecord = vs.GetObject('MyRecord')  # handle to a record format
+SQLSentence = 'Example'
+
+ok = vs.DBObjSQLSetRead(hRecord, SQLSentence)
+if ok:
+    vs.Message('DBObjSQLSetRead succeeded')
+else:
+    vs.Message('DBObjSQLSetRead failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

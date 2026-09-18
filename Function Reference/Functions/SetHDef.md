@@ -31,6 +31,13 @@ SetHDef(symbolHd,newSymDefHd);
 
 ```
 
+```pascal
+SetHDef(oldH, newH);
+```
+```python
+vs.SetHDef(oldH, newH)
+```
+
 ## Version
 Availability: from MiniCAD6.0
 

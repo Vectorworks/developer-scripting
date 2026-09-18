@@ -24,6 +24,20 @@ def vs.ws2GetMenuInfo(menuPath):
 |outShortcutKey|CHAR|   |
 |outShortcutKeyModifier|INTEGER|   |
 
+## Examples
+```pascal
+result := ws2GetMenuInfo(menuPath, TRUE, outShortcutKey, 1);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+
+DYNARRAY[] of CHAR, outHasShortcutKey, outShortcutKey, outShortcutKeyModifier = vs.ws2GetMenuInfo(menuPath)
+vs.Message('ws2GetMenuInfo returned: ' + str((DYNARRAY[] of CHAR, outHasShortcutKey, outShortcutKey, outShortcutKeyModifier)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

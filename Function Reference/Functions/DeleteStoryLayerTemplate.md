@@ -28,6 +28,22 @@ BEGIN
 success := DeleteStoryTemplate(3);
 ```
 
+```pascal
+resultOK := DeleteStoryLayerTemplate(1);
+```
+```python
+import vs
+
+# Deletes the nth Story Layer Template from the current file.
+index = 1
+
+ok = vs.DeleteStoryLayerTemplate(index)
+if ok:
+    vs.Message('DeleteStoryLayerTemplate succeeded')
+else:
+    vs.Message('DeleteStoryLayerTemplate failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumStoryLayerTemplates](GetNumStoryLayerTemplates.md) 

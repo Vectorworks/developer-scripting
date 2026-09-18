@@ -40,6 +40,26 @@ def Example():
 Example()
 ```
 
+```pascal
+resultOK := EqualRect(1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Function EqualRect returns whether the two specified rectangular areas are
+# equal.
+rectAp1 = 'Example'
+rectAp2 = 'Example'
+rectBp1 = 'Example'
+rectBp2 = 'Example'
+
+ok = vs.EqualRect(rectAp1, rectAp2, rectBp1, rectBp2)
+if ok:
+    vs.Message('EqualRect succeeded')
+else:
+    vs.Message('EqualRect failed')
+```
+
 ## Version
 Availability: from All Versions
 

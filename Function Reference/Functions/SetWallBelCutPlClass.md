@@ -20,6 +20,20 @@ def vs.SetWallBelCutPlClass(wall, belowCutPlaneClass):
 |wall|HANDLE|The wall.|
 |belowCutPlaneClass|LONGINT|The below cut plane class.|
 
+## Examples
+```pascal
+SetWallBelCutPlClass(wall, 1);
+```
+```python
+import vs
+
+# Sets the below cut plane class of the wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+belowCutPlaneClass = 1
+
+vs.SetWallBelCutPlClass(wall, belowCutPlaneClass)
+```
+
 ## See Also
 VS Functions:
 [GetWallBelCutPlClass](GetWallBelCutPlClass.md)

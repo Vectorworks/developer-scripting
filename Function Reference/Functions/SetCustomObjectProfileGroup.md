@@ -20,6 +20,32 @@ def vs.SetCustomObjectProfileGroup(objectHand, profileGroupHand):
 |objectHand|HANDLE|Handle to object.|
 |profileGroupHand|HANDLE|Handle to profile group.|
 
+## Examples
+```pascal
+		SetRField(loch, kHidRecName, kNoteUUID, '');
+	END;
+EndGroup;
+loch := LNewObj;
+boo := SetCustomObjectProfileGroup(gnH, loch);
+
+EndGroup;
+h := LNewObj;
+SetClass(h,noneClass);
+bsb := SetCustomObjectProfileGroup(pluginH, h);
+{Delete the symbol if I imported it}
+IF ImportedMarker1 THEN
+	BEGIN
+	TempHand := GetObject(actualMarker1Name);
+
+BEGIN
+gTempH := HDuplicate(gRoofH,0,0);
+temp_b := SetCustomObjectProfileGroup(gMyHand,gTempH);
+END;
+```
+```python
+bResult = vs.SetCustomObjectProfileGroup( gObjHandle, vs.LNewObj() )
+```
+
 ## See Also
 VS Functions:
 [GetCustomObjectProfileGroup](GetCustomObjectProfileGroup.md)

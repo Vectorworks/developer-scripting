@@ -17,6 +17,20 @@ def vs.GetSlabHeight(slab):
 |---|---|---|
 |slab|HANDLE|The slab.|
 
+## Examples
+```pascal
+resultVal := GetSlabHeight(slab);
+```
+```python
+import vs
+
+# Gets the height of a slab.
+slab = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+value = vs.GetSlabHeight(slab)
+vs.Message('GetSlabHeight returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetSlabHeight](SetSlabHeight.md)

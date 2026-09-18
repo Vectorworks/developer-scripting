@@ -20,6 +20,31 @@ def vs.vsoWidgetSetText(widgetID, text):
 |widgetID|LONGINT|   |
 |text|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+vsoWidgetSetVisible(kCreateButton, TRUE);
+IF (tempStr <> '') & (GetObject(tempStr) <> NIL) THEN
+	vsoWidgetSetText(kCreateButton, GetPluginString(5007))
+ELSE
+	vsoWidgetSetText(kCreateButton, GetPluginString(5006));
+END;
+
+BEGIN
+	vsoWidgetSetText(widgID, Concat(localParam, ' X'));
+	vsoWidgetSetText(widgID+1, Concat(localParam, ' Y'));
+END;
+```
+```python
+import vs
+
+# Set the alternate name of a plugin parameter.
+widgetID = 1
+text = 'Example text'
+
+vs.vsoWidgetSetText(widgetID, text)
+```
+
 ## Version
 Availability: from All Versions
 

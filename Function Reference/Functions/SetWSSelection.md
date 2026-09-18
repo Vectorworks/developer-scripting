@@ -36,6 +36,27 @@ def vs.SetWSSelection(worksheet, currentCellRow, currentCellColumn, topRangeRow,
 |rightRangeColumn|INTEGER|Rightmost column of selection range.|
 |bottomRangeSubrow|INTEGER|Bottom row of subrow selection range.|
 
+## Examples
+```pascal
+SetWSSelection(worksheet, 1, 2, 3, 10, 5, 1, 2, 3);
+```
+```python
+import vs
+
+# Sets the current selection range of the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+currentCellRow = 10
+currentCellColumn = 5
+topRangeRow = 10
+leftRangeColumn = 5
+topRangeSubrow = 10
+bottomRangeRow = 10
+rightRangeColumn = 5
+bottomRangeSubrow = 10
+
+vs.SetWSSelection(worksheet, currentCellRow, currentCellColumn, topRangeRow, leftRangeColumn, topRangeSubrow, bottomRangeRow, rightRangeColumn, bottomRangeSubrow)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

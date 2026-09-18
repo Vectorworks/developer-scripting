@@ -17,6 +17,19 @@ def vs.SetupDialogC():
 ## Remarks
 [DWD 1/20/00]
 
+## Examples
+```pascal
+SetupDialogC;
+```
+```python
+import vs
+
+# A predefined constant value that is passed to the dialog event handler
+# subroutine when a modern custom dialog is initially displayed onscreen.
+resultN = vs.SetupDialogC()
+vs.Message('SetupDialogC returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

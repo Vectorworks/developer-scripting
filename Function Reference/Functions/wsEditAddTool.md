@@ -34,6 +34,20 @@ def vs.wsEditAddTool(toolName, toolType):
 ## Remarks
 As of Vectorworks 2018 SP2, this function takes an integer parameter toolType to specify the type of tool being added. Vectorworks 2018 prior to SP2 will only take a single parameter as input.
 
+## Examples
+```pascal
+wsEditAddTool('Example', 1);
+```
+```python
+import vs
+
+# Add a menu under Third-party palette and companyName tool set.
+toolName = 'Example'
+toolType = 0
+
+vs.wsEditAddTool(toolName, toolType)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

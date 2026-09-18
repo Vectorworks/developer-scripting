@@ -49,6 +49,35 @@ END;
 
 ```
 
+```pascal
+BEGIN
+	BeginXtrd(Bottom,Top);
+		ClosePoly;
+		Poly(X,Y,-Length-LeftLength,Y,-Length-LeftLength,-Depth+KickInset,-Depth+KickInset,-Length-RightLength,X,-Length-RightLength);
+	EndXtrd;
+END;
+
+BEGIN
+BeginXtrd(Z,CabHeight);
+	Poly(X-CabThick, Y-CabThick,
+	X-LeftCabLength+CabThick, Y-CabThick,
+	X-LeftCabLength+CabThick, Y-CabDepth+FaceThick,
+	X-CabDepth+FaceThick, Y-CabDepth+FaceThick,
+
+BeginXtrd(cHeight,cHeight+cRoof_Thickness);
+	Rect(-(cWidth/2+cOverhang),-(cWidth/2+cOverhang),(cWidth/2+cOverhang),(cWidth/2+cOverhang));
+EndXtrd;
+SetTextureRef(lNewObj,-1,3);
+```
+```python
+# Draw 3D gutter
+vs.BeginXtrd( 0, thickness )
+DrawGutter( r1, sweep2D, w, gutter, currPenSize)
+vs.EndXtrd()
+SetAttrsByClassOrParent( vs.LNewObj(), gObjHandle, gPaving_Class )
+```
+See also in tutorials: [04. Extrude 2D Shapes into 3D Solids](ai%20examples/04_ExtrudeShapesTo3D.md), [06. Boolean Solids: Drill a Hole Through a Block](ai%20examples/06_BooleanSolids.md)
+
 ## See Also
 [EndXtrd](EndXtrd.md)
 

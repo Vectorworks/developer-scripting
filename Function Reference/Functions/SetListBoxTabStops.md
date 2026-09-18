@@ -22,6 +22,21 @@ def vs.SetListBoxTabStops(dialogID, componentID, tabStops):
 |componentID|LONGINT|   |
 |tabStops|ARRAY|   |
 
+## Examples
+```pascal
+SetListBoxTabStops(1, 2, tabStops);
+```
+```python
+import vs
+
+# Set tab stops for list control.
+dialogID = 1
+componentID = 2
+tabStops = []
+
+vs.SetListBoxTabStops(dialogID, componentID, tabStops)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

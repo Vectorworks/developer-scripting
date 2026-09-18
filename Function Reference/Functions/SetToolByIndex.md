@@ -17,6 +17,23 @@ def vs.SetToolByIndex(toolIndex):
 |---|---|---|
 |toolIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := SetToolByIndex(1);
+```
+```python
+import vs
+
+# Similar to SetTool.
+toolIndex = 1
+
+ok = vs.SetToolByIndex(toolIndex)
+if ok:
+    vs.Message('SetToolByIndex succeeded')
+else:
+    vs.Message('SetToolByIndex failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

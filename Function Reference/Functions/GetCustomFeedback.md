@@ -20,6 +20,21 @@ def vs.GetCustomFeedback(ParametricHandle):
 |ParametricHandle|HANDLE|The parametric object to which the feedback group was added.|
 |FeedbackGroup|HANDLE|The feedback group that was attached to the Parametric Object.|
 
+## Examples
+```pascal
+resultOK := GetCustomFeedback(ParametricHandle, FeedbackGroup);
+```
+```python
+import vs
+
+# Gets the group of objects attached to a parametric used only for display on
+# screen, this group will not export or print.
+ParametricHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, FeedbackGroup = vs.GetCustomFeedback(ParametricHandle)
+vs.Message('GetCustomFeedback returned: ' + str((ok, FeedbackGroup)))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -54,6 +54,13 @@ run(test);
 
 ```
 
+```pascal
+resultN := SetCDATA(1, 'file.txt', data);
+```
+```python
+result = vs.SetCDATA(h, 'file.txt', data)
+```
+
 ## See Also
 [GetCDATA](GetCDATA.md)
 

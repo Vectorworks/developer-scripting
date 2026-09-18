@@ -51,6 +51,31 @@ SetWSCellFormula(h,2,0,2,0,'=DATABASE(R IN [''PART INFO''])');
 
 ```
 
+```pascal
+{Cells}
+SetWSCellTextFormat(tempHandle,1,1,1,1,DefaultWSFontID,14,1);
+SetWSCellNumberFormat(tempHandle,1,1,1,1,0,0,'','');
+SetWSCellBorder(tempHandle,1,1,1,1,TRUE,TRUE,FALSE,FALSE,FALSE);
+SetWSCellFormula(tempHandle,1,1,1,1,kRLwkshtName);
+
+SetWSCellTextFormat(MyWSHandle, 3, 1, 3, 5, DefaultWSFontID, 12, 1); {Bold 12pt for row 3}
+SetWSCellFormula   (MyWSHandle, 3, 1, 3, 1, kTotal);
+SetWSCellAlignment (MyWSHandle, 3, 1, 3, 1, 3); {Right Align}
+
+	SetTopVisibleWS( WSh );
+	{SelectSS(hWS);{activate and Open to Show single change}
+	GetWSCellTextFormat( WSh, row, col, fontIdx, fontSize, fontStyle );
+	ReplaceStr(str,gFindString,gReplString,gCase);
+	SetWSCellFormula( WSh, row, col, row, col, gResultText );
+	SetWSCellTextFormat(WSh,row,col,row,col,fontIdx,fontSize,fontStyle);
+	ProcessFoundCell := TRUE;
+END;
+```
+```python
+vs.SetWSCellFormula(worksheet, topRow, leftColumn, bottomRow, rightColumn, formula)
+```
+See also in tutorials: [21. Hello Worksheet — Create and Populate](ai%20examples/21_WorksheetBasic.md), [22. Selected Objects → Worksheet Rows](ai%20examples/22_WorksheetSelectedObjects.md), [23. Count Objects by Criteria (Formula-Driven)](ai%20examples/23_WorksheetCountByCriteria.md), [24. Auto-Populating Database Row](ai%20examples/24_WorksheetDBRowAutoPopulate.md)
+
 ## Version
 Availability: from VectorWorks9.0
 

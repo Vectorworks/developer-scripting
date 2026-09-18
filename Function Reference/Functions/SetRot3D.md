@@ -37,6 +37,31 @@ def vs.SetRot3D(h, xAngle, yAngle, zAngle, xDistance, yDistance, zDistance):
 ## Remarks
 [sd 8/18/98]
 
+## Examples
+```pascal
+	pt := pt1 + (tmpVec * 1.5");
+	BeginXtrd(pt1.z, pt1.z + 36");
+		Rect(pt.x - 1.5", pt.y + 1.5", pt.x + 1.5", pt.y - 1.5");
+	EndXtrd;
+	SetRot3D(LNewObj, 0, 0, Vec2Ang(tmpVec), pt.x, pt.y, pt.z);
+END;
+```
+```python
+import vs
+
+# Procedure SetRot3D sets the rotation (in degrees) of the referenced object
+# to the specified rotations and center.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+xAngle = 45.0
+yAngle = 90.0
+zAngle = 30.0
+xDistance = 1.0
+yDistance = 1.0
+zDistance = 1.0
+
+vs.SetRot3D(h, xAngle, yAngle, zAngle, xDistance, yDistance, zDistance)
+```
+
 ## See Also
 VS Functions:
 [Set3DRot](Set3DRot.md)

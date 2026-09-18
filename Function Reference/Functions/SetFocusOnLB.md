@@ -20,6 +20,24 @@ def vs.SetFocusOnLB(dialogID, componentID):
 |dialogID|LONGINT|id of the dialog that contains the list browser|
 |componentID|LONGINT|id of the list browser control|
 
+## Examples
+```pascal
+resultOK := SetFocusOnLB(1, 2);
+```
+```python
+import vs
+
+# Sets the keyboard/input focus on the specified list browser.
+dialogID = 1
+componentID = 2
+
+ok = vs.SetFocusOnLB(dialogID, componentID)
+if ok:
+    vs.Message('SetFocusOnLB succeeded')
+else:
+    vs.Message('SetFocusOnLB failed')
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

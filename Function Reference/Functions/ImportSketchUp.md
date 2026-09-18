@@ -20,6 +20,24 @@ def vs.ImportSketchUp(filePath, bImportAsMesh):
 |filePath|STRING|Full file path.|
 |bImportAsMesh|BOOLEAN|Import as a Mesh or as 3D polys. Mesh = TRUE.|
 
+## Examples
+```pascal
+resultOK := ImportSketchUp('file.txt', TRUE);
+```
+```python
+import vs
+
+# skp) files.
+filePath = 'C:/Temp'
+bImportAsMesh = True
+
+ok = vs.ImportSketchUp(filePath, bImportAsMesh)
+if ok:
+    vs.Message('ImportSketchUp succeeded')
+else:
+    vs.Message('ImportSketchUp failed')
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

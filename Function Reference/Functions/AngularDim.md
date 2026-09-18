@@ -5,7 +5,6 @@ Procedure AngularDim creates an angular dimension in the document.
 
 Bit code values for dimension flags can be found in the [VectorScript Appendix](../Appendix/pages/Appendix%20E%20-%20Miscellaneous%20Selectors.md#lineardim).
 
-
 *Angular Dimension
 
 ![Angular Dimension](files/Angdim.gif)
@@ -45,6 +44,13 @@ AngularDim(1 1/2&quot;,3/8&quot;,-1/4&quot;,-1/2&quot;,7/8&quot;,-1/2&quot;,1.70
 #### Python ####
 ```python
 
+```
+
+```pascal
+AngularDim(1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0, 1, 2, 0.5);
+```
+```python
+vs.AngularDim((0, 0), (0, 0), vert1, 'Example', arrow, 'Example', 1.0)
 ```
 
 ## Version

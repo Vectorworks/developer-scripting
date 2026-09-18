@@ -49,6 +49,13 @@ LoadCell(1, 1, '=500 * 3.25');
 
 ```
 
+```pascal
+SprdFormat(1, 2, 'Example', 'Example');
+```
+```python
+vs.SprdFormat(1, acc, ldr, trailr)
+```
+
 ## See Also
 [SetWSCellNumberFormat](SetWSCellNumberFormat.md)
 

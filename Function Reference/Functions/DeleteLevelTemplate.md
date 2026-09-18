@@ -28,9 +28,25 @@ BEGIN
 success := DeleteLevelTemplate(3);
 ```
 
+```pascal
+resultOK := DeleteLevelTemplate(1);
+```
+```python
+import vs
+
+# Deletes the nth Story Level Template from the current file.
+index = 1
+
+ok = vs.DeleteLevelTemplate(index)
+if ok:
+    vs.Message('DeleteLevelTemplate succeeded')
+else:
+    vs.Message('DeleteLevelTemplate failed')
+```
+
 ## See Also
 VS Functions:
-[GetNumStoryTemplates](GetNumStoryTemplates.md) 
+[GetNumStoryTemplates](GetNumStoryLayerTemplates.md)
 | [GetLevelTemplateName](GetLevelTemplateName.md) 
 | [SetLevelTemplateName](SetLevelTemplateName.md) 
 | [CreateLevelTemplate](CreateLevelTemplate.md) 

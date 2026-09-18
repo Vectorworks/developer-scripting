@@ -87,6 +87,31 @@ END;
 
 ```
 
+```pascal
+	resultStatus := vsoInsertWidget (38, kWidgetButton, kClassesID, GetPluginString(3005), 0);
+	IF (gIsArchProduct) THEN
+		resultStatus := vsoInsertWidget (41, kWidgetButton, kShapeID, GetPluginString(3006), 0);
+END ELSE
+BEGIN
+
+bsb := SetObjPropVS(kObjXPropHasLayerScaleDeps, TRUE);
+bsb := SetObjPropVS(kObjXPropTextStyleSupport, TRUE);
+Result := SetObjPropVS (12,TRUE);	{kObjXHasCustomWidgetVisibilities}
+bsb := vsoInsertAllParams;
+bsb := vsoInsertWidget(1,kWidgetButton, kGrOptionsButton,GetPlugInString(5000), 0);
+IF vsoPrmName2WidgetID('',kNNA_fLinkTo,kLinkToPopUp) THEN BEGIN
+	vsoWidgetSetType( kLinkToPopUp, 108 {kWidgetSearchablePopup} );
+	vsoWidgetPopupAddN(kLinkToPopUp,TRUE,'',GetPlugInString(5001), '','');
+END;
+
+resultStatus := vsoInsertWidget (5, kWidgetButton, 1, GetPluginString (5003), 0);
+resultStatus := vsoInsertWidget (6, kWidgetButton, 2, GetPluginString (5004), 0);
+```
+```python
+result = vs.vsoInsertWidget(paramID, widgetType, mappingID, 'Example', data)
+```
+See also in tutorials: [Plug-in with widgets, basic example (Python)](../../Common/Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
+
 ## Version
 Availability: from All Versions
 

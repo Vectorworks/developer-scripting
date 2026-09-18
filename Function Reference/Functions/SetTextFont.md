@@ -39,6 +39,30 @@ SetTextFont(handleToText,0,5,GetFontID('Helvetica'));
 
 ```
 
+```pascal
+if ( KNsuffix = '' ) & ( KNprefix = GetText( textFoundH ) ) then BEGIN
+	IF not ValidNumStr( GetText( textFoundH ), t_real ) THEN BEGIN
+		TextOrigin(0,0);
+		CreateText(Concat(' ', KNNoteNo));
+		SetTextFont( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextFont( textFoundH, 0 ) );
+		SetTextSize( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextSize( textFoundH, 0 ) );
+		SetTextStyle( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextStyle( textFoundH, 0 ) );
+		AddNumberWidth := GetTextWidth( LNewObj );
+		DelObject(LNewObj);
+
+IF ( objHand <> NIL ) THEN
+	SetTextFont(LNewObj, 0, Len(text), GetObjectVariableInt(objHand, 28));
+
+BEGIN
+	SetTextFont (tempH, 0, Len (GetText (tempH)), GetObjectVariableInt (gPluginH, 28));
+	SetTextStyle (tempH, 0, Len (GetText (tempH)), 0);
+	SetTextStyle (tempH, 0, Len (GetText (tempH)), GetObjectVariableInt (gPluginH, 19));
+END;
+```
+```python
+vs.SetTextFont(objectHd, Start, 1, 2)
+```
+
 ## See Also
 VS Functions:
 [GetFontID](GetFontID.md)

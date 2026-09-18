@@ -23,6 +23,21 @@ def vs.RemoveRoofElement(roofObject, id):
 ## Remarks
 id is the value returned from Create...Dormer() or CreateSkylight() routine.
 
+## Examples
+```pascal
+RemoveRoofElement(roofObject, 1);
+```
+```python
+import vs
+
+# Procedure RemoveRoofElement removes the specified roof element from the
+# referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+id = 1
+
+vs.RemoveRoofElement(roofObject, id)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

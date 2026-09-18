@@ -25,6 +25,26 @@ def vs.SetDLComponentFillColors(index, fillForeColor, fillBackColor):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := SetDLComponentFillColors(1, 2, 3);
+```
+```python
+import vs
+
+# Sets the fore and back fill colors of the component at index in the Double
+# Line Preferences.
+index = 1
+fillForeColor = 5
+fillBackColor = 5
+
+ok = vs.SetDLComponentFillColors(index, fillForeColor, fillBackColor)
+if ok:
+    vs.Message('SetDLComponentFillColors succeeded')
+else:
+    vs.Message('SetDLComponentFillColors failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentFillColors](GetDLComponentFillColors.md)

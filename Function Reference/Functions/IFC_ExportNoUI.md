@@ -17,6 +17,23 @@ def vs.IFC_ExportNoUI(strFullFilePath):
 |---|---|---|
 |strFullFilePath|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+resultOK := IFC_ExportNoUI(strFullFilePath);
+```
+```python
+import vs
+
+# Exports IFC file, without showing Export IFC Project dialog.
+strFullFilePath = 'C:/Temp'
+
+ok = vs.IFC_ExportNoUI(strFullFilePath)
+if ok:
+    vs.Message('IFC_ExportNoUI succeeded')
+else:
+    vs.Message('IFC_ExportNoUI failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

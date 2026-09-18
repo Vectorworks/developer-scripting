@@ -33,6 +33,22 @@ vs.Message( vs.CallToolByIndex( 'Spiral' ) )
 # if you try it for example with 'Wall' this will return an error, since it's an internal tool
 ```
 
+```pascal
+resultOK := CallToolByName('Example');
+```
+```python
+import vs
+
+# Similar to CallTool, but takes name rather than ID.
+toolName = 'Example'
+
+ok = vs.CallToolByName(toolName)
+if ok:
+    vs.Message('CallToolByName succeeded')
+else:
+    vs.Message('CallToolByName failed')
+```
+
 ## See Also
 VS Functions:
 * [CallTool](CallTool.md)

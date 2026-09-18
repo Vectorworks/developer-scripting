@@ -35,6 +35,22 @@ def vs.GetClosestSide(obj, pt):
 ** polygons: returns the range of vertexes --> 1-(count of vertexes)
 ** polylines: returns the range of vertexes --> (count of vertexes) -(count of vertexes)
 
+## Examples
+```pascal
+GetClosestSide(obj, 1.0, 2.0, 1, 2);
+```
+```python
+import vs
+
+# Returns the indices of the vertices that define the side closest to the
+# specified location.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+pt = (0, 0)
+
+index1, index2 = vs.GetClosestSide(obj, pt)
+vs.Message('GetClosestSide returned: ' + str((index1, index2)))
+```
+
 ## Version
 Availability: from VectorWorks 8.5
 

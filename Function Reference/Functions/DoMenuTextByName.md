@@ -52,6 +52,34 @@ def DoMenuTextByNameExample():
 DoMenuTextByNameExample()
 ```
 
+```pascal
+BEGIN
+{	VSave('UpdateObjectsTempView');
+	DoMenuTextByName(GetLocStr(11050,32), 1);{Standard Views}
+
+	str := Concat('(NOT', SQL, ')');
+	Hide(str);
+	Show('((SEL))');
+	if (WhatToDo = 'new') | (WhatToDo = 'add') then FOR i := 1 to handle_cnt DO ReallyShowEm(handles[i]);
+	DoMenuTextByName(GetLocStr(11050, 13), 0); {'Fit To Objects'}
+END;
+
+DSelectAll;
+SetSelect (objH);
+DoMenuTextByName (GetLocStr(11050,6), 0);	{'Convert Copy to Polygons'}
+Group;
+groupH := LSActLayer;
+```
+```python
+import vs
+
+# Calls the specified VectorWorks menu command item.
+subMenu = 'Example'
+index = 1
+
+vs.DoMenuTextByName(subMenu, index)
+```
+
 ## Version
 Availability: from MiniCAD 5.0
 

@@ -24,6 +24,26 @@ def vs.IsLBItemReadOnly(dialogID, componentID, itemIndex, subItemIndex):
 |itemIndex|INTEGER|the row number|
 |subItemIndex|INTEGER|the column number|
 
+## Examples
+```pascal
+resultOK := IsLBItemReadOnly(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Determines if the specified item is read only.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok = vs.IsLBItemReadOnly(dialogID, componentID, itemIndex, subItemIndex)
+if ok:
+    vs.Message('IsLBItemReadOnly succeeded')
+else:
+    vs.Message('IsLBItemReadOnly failed')
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

@@ -17,6 +17,19 @@ def vs.ConvToUnstyledRoof(roof):
 |---|---|---|
 |roof|HANDLE|The roof.|
 
+## Examples
+```pascal
+ConvToUnstyledRoof(roof);
+```
+```python
+import vs
+
+# Sets a roof to be unstyled.
+roof = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.ConvToUnstyledRoof(roof)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

@@ -17,6 +17,20 @@ def vs.GetObjStoryBoundsCnt(obj):
 |---|---|---|
 |obj|HANDLE|The object.|
 
+## Examples
+```pascal
+resultN := GetObjStoryBoundsCnt(obj);
+```
+```python
+import vs
+
+# Return the number of story bounds defined for this object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetObjStoryBoundsCnt(obj)
+vs.Message('GetObjStoryBoundsCnt returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

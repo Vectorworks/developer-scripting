@@ -23,6 +23,26 @@ def vs.GetOpacity(h):
 ## Remarks
 If you set opacity to an object inside parametric the actual opacity will be combined with the opacity of the parametric object itself. For example a rectangle with 50% opacity inside a parametric with 50% opacity will actually be rendered with 25% opacity. This behavior is the same for symbols too.
 
+## Examples
+```pascal
+GetOpacity( ObjToMatchHand, ObjOpacity );
+SetOpacity( ObjHand, ObjOpacity );
+{
+GetFillIAxisEndPoint( ObjToMatchHand, ImageFillAxisPt.x, ImageFillAxisPt.y );
+SetFillIAxisEndPoint( ObjToMatchHand, ImageFillAxisPt.x, ImageFillAxisPt.y );
+
+	{//// this makes sure that no poly is 100% opaque - a VW bug causes 100% opaque polys to have a white line }
+	GetOpacity( ObjHand, polyOpacVal );
+	IF ( polyOpacVal > 99 ) THEN SetOpacity( ObjHand, 99 );
+END;
+```
+```python
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+vs.SetMarker(objH, start, end, style, size)
+vs.SetOpacity(objH, vs.GetOpacity(parentH))
+```
+
 ## See Also
 [GetOpacity](GetOpacity.md) | [SetOpacity](SetOpacity.md) | [GetOpacityByClass](GetOpacityByClass.md) | [SetOpacityByClass](SetOpacityByClass.md)
 

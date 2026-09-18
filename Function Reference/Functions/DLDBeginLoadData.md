@@ -18,6 +18,35 @@ def vs.DLDBeginLoadData(loadDataType):
 |---|---|---|
 |loadDataType|INTEGER|   |
 
+## Examples
+```pascal
+DLDBeginLoadData( kDLDTypePointLoad );
+	DLDSetLoadDataBool	( kDLDEnableWeightWidget,FALSE);
+	DLDSetLoadDataBool	( kDLDSelectorInclude, TRUE );
+	DLDSetLoadDataString( kDLDSelectorGroupName, 'Audio' );
+	DLDSetLoadDataString( kDLDSelectorLoadName,GetPlugInString(20000));
+
+DLDBeginLoadData( kDLDTypePointLoad );
+	DLDSetLoadDataBool	( kDLDEnableWeightWidget,	FALSE);
+	DLDSetLoadDataBool	( kDLDSelectorInclude,		TRUE );
+	DLDSetLoadDataString( kDLDSelectorGroupName,	'Audio' );
+	DLDSetLoadDataString( kDLDSelectorLoadName, 	GetPlugInString(15000));
+
+DLDBeginLoadData( kDLDTypePointLoad );
+	DLDSetLoadDataBool	( kDLDEnableWeightWidget,FALSE);
+	DLDSetLoadDataBool	( kDLDSelectorInclude, TRUE );
+	DLDSetLoadDataString( kDLDSelectorGroupName, 'Audio' );
+	DLDSetLoadDataString( kDLDSelectorLoadName,GetPlugInString(10000));
+```
+```python
+import vs
+
+# Begin creation of load data from that type.
+loadDataType = 0
+
+vs.DLDBeginLoadData(loadDataType)
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

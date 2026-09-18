@@ -17,6 +17,33 @@ def vs.SetActSymbol(name):
 |---|---|---|
 |name|STRING|Name of symbol.|
 
+## Examples
+```pascal
+BEGIN
+	SetActSymbol (tempStr);
+	tempH := GetRecord (ActSymDef, 1);
+	IF tempH <> NIL THEN
+	BEGIN
+		numGoodTitleblocks := numGoodTitleblocks + 1;
+
+BEGIN
+	SetActSymbol (gTitleBlockName);
+	symH := ActSymDef;
+	gRecordH := GetRecord (symH, 1);
+END;
+
+{ Restore active Symbol }
+IF GetObject(actSymName) <> NIL THEN SetActSymbol(actSymName);
+```
+```python
+import vs
+
+# Procedure SetActSymbol sets the active symbol for a VectorWorks document.
+name = 'Example'
+
+vs.SetActSymbol(name)
+```
+
 ## Version
 Availability: from All Versions
 

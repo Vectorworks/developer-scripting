@@ -32,6 +32,29 @@ upi:= GetPrefReal(152);
 upi = vs.GetPrefReal(152)
 ```
 
+```pascal
+BEGIN
+	PushAttrs;
+	recordName := GetName (recordH);
+	upi := GetPrefReal (152);
+
+recordName := GetName (recordH);
+upi := GetPrefReal (152);
+
+BEGIN {** Main ** }
+	IF ResourceIsOK THEN InitConsts;
+	UPI := GetPrefReal(kUPIPrefID);
+```
+```python
+import vs
+
+# Returns the value of a VectorWorks preference setting.
+prefIndex = 1
+
+value = vs.GetPrefReal(prefIndex)
+vs.Message('GetPrefReal returned: ' + str(value))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

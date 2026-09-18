@@ -17,6 +17,19 @@ def vs.SetDefOpacityByClsN(inIsPenOpacityByClass, inIsFillOpacityByClass):
 |inIsPenOpacityByClass|BOOLEAN|   |
 |inIsFillOpacityByClass|BOOLEAN|   |
 
+## Examples
+```pascal
+SetDefOpacityByClsN(TRUE, FALSE);
+```
+```python
+import vs
+
+inIsPenOpacityByClass = True
+inIsFillOpacityByClass = True
+
+vs.SetDefOpacityByClsN(inIsPenOpacityByClass, inIsFillOpacityByClass)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

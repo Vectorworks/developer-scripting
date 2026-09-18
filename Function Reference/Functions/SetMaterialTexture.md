@@ -17,6 +17,20 @@ def vs.SetMaterialTexture(materialHandle, textureIndex):
 |materialHandle|HANDLE|   |
 |textureIndex|LONGINT|   |
 
+## Examples
+```pascal
+resultOK := SetMaterialTexture(materialHandle, 1);
+```
+```python
+import vs
+
+materialHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+textureIndex = 1
+
+ok, materialHandle = vs.SetMaterialTexture(materialHandle, textureIndex)
+vs.Message('SetMaterialTexture returned: ' + str((ok, materialHandle)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

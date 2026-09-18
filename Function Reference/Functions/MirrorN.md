@@ -30,6 +30,25 @@ def vs.MirrorN(h, dup, p1, p2, preserveMatrix):
 |p2|REAL|A second arbitrary point on the mirror axis|
 |preserveMatrix|BOOLEAN|When this parameter is set to false, then this function works exactly the same as Mirror. Otherwise, objects that have matrices, such as Symbols and PIOs, get their matrices updated correctly with the mirror matrix, leading to better visual results.|
 
+## Examples
+```pascal
+resultH := MirrorN(h, TRUE, 1.0, 2.0, FALSE);
+```
+```python
+import vs
+
+# Reflect an object across an axis.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+dup = True
+p1 = 1.0
+p2 = 2.0
+preserveMatrix = True
+
+objHandle = vs.MirrorN(h, dup, p1, p2, preserveMatrix)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

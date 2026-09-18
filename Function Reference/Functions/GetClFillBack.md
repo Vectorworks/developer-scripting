@@ -47,6 +47,32 @@ RUN(Example);
 
 ```
 
+```pascal
+END;
+IF (ok) & (fillbackDo) & (fillbackVa <> mT) THEN BEGIN
+	if false then ok := false else BEGIN
+		IF IsFillColorByClass(h)
+			THEN GetClFillBack(GetClass(h), r, g, b)
+			ELSE GetFillBack(h, r, g, b);
+		RGBToColorIndex(r, g, b, num1);
+		num2 := Str2Num(fillbackVa);
+		ok := (ok) & (((fillbackOp = '=' ) & (num1 =  num2)) |
+		              ((fillbackOp = '<' ) & (num1 <  num2)) |
+
+GetClFillBack( kModifierClass, cR, cG, cB );
+SetFillBack( h4, cR, cG, cB );
+GetClFillFore( kModifierClass, cR, cG, cB );
+SetFillFore( h4, cR, cG, cB );
+
+GetClFillBack (UserClassName, r, g, b);
+RGBToColorIndex (r, g, b, tempLongInt);
+IF DecimalToColorIndex (TmpClassInfo.FillBack) <> tempLongInt THEN
+	SetClFillBack (UserClassName, DecimalToColorIndex (TmpClassInfo.FillBack));
+```
+```python
+result = vs.GetClFillBack('Wall')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

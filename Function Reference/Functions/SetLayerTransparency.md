@@ -24,6 +24,20 @@ Sets the transparency percentage of the active design layer
 Valid transparency values are between 0.0 and 100.0, inclusive.
 This procedure may also set the layer transfer mode to approximate the given transparency on systems that don't support transparency.
 
+## Examples
+```pascal
+SetLayerTransparency(1.0);
+```
+```python
+import vs
+
+# Procedure SetLayerTransparency assigns a transparency percentage value to
+# the active design layer.
+transparency = 1.0
+
+vs.SetLayerTransparency(transparency)
+```
+
 ## See Also
 VS Functions:
 [CopyMode](CopyMode.md)

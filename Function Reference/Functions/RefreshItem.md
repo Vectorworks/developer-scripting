@@ -20,6 +20,20 @@ def vs.RefreshItem(liDialogID, liComponentID):
 |liDialogID|LONGINT|   |
 |liComponentID|LONGINT|   |
 
+## Examples
+```pascal
+RefreshItem(1, 2);
+```
+```python
+import vs
+
+# Refreshes the specified item.
+liDialogID = 1
+liComponentID = 2
+
+vs.RefreshItem(liDialogID, liComponentID)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

@@ -33,6 +33,21 @@ Sets which part (0 = Primary, 1 = Secondary, 2 = Tertiary) of the object this sp
 
 Note: SetTexMapXXX routines replace the older SetTexSpaceXXX routines.  It is recommended that all developers transition to the newer versions.
 
+## Examples
+```pascal
+SetTexSpacePartID(textureSpace, 1);
+```
+```python
+import vs
+
+# Procedure SetTexSpacePartID sets the parent of the referenced texture space
+# in an expanded object (walls or roofs).
+textureSpace = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+
+vs.SetTexSpacePartID(textureSpace, partID)
+```
+
 ## Version
 Availability: from VectorWorks 8.0
 

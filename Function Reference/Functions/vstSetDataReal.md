@@ -22,6 +22,20 @@ def vs.vstSetDataReal(inDataID, inDataVal):
 |inDataVal|REAL|   |
 |result|BOOLEAN|Output parameter.|
 
+## Examples
+```pascal
+vstSetDataReal(1, 1.0, TRUE);
+```
+```python
+import vs
+
+# Sets tool data.
+inDataID = 1
+inDataVal = 1.0
+
+result = vs.vstSetDataReal(inDataID, inDataVal)
+```
+
 ## Version
 Availability: from All Versions
 

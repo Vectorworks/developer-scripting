@@ -46,6 +46,20 @@ END;
 RUN(Example);
 ```
 
+```pascal
+resultN := GetNumDashDataPairs(1, TRUE);
+```
+```python
+import vs
+
+# Function GetNumDashDataPairs returns the number of dash/gap value pairs
+# defined for the specified dash style.
+dashIndex = 1
+
+resultN, swt = vs.GetNumDashDataPairs(dashIndex)
+vs.Message('GetNumDashDataPairs returned: ' + str((resultN, swt)))
+```
+
 ## See Also
 VS Functions:
 [GetDashDataValPairAt](GetDashDataValPairAt.md) 

@@ -32,6 +32,13 @@ SetGradientMidpointPosition(gradientHandle, 4, 0.6);
 
 ```
 
+```pascal
+SetGradientMidpointPosition(gradient, 1, 1.0);
+```
+```python
+vs.SetGradientMidpointPosition(gradient, 1, position)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

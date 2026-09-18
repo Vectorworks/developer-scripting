@@ -35,6 +35,31 @@ SetName(LNewObj, 'Part 5257');
 
 ```
 
+```pascal
+BEGIN {There is no sketch Folder}
+	NameObject(kRedlineSketchFolderName);
+	BeginFolder;
+	EndFolder;
+	SketchFolderHan := GetObject(kRedlineSketchFolderName);
+END;
+
+BEGIN
+nameobject(foldername_s);
+BeginFolder;
+EndFolder;
+folder_h := getobject(foldername_s);
+END;
+
+BEGIN
+	NameObject(getLocStr (16520, 12));
+	BeginFolder;
+	EndFolder;
+END;
+```
+```python
+vs.NameObject('Example')
+```
+
 ## Version
 Availability: from All Versions
 

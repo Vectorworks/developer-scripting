@@ -32,6 +32,21 @@ There are similar calls for getting and setting each piece of data for a compone
 
 by CGraye (see: VB-179932: VS: GetComponents only returns one of three wall components)
 
+## Examples
+```pascal
+resultH := GetComponents(object);
+```
+```python
+import vs
+
+# Gets the components of the object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetComponents(object)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2015
 

@@ -57,6 +57,41 @@ def Example():
 Example()
 ```
 
+```pascal
+{* Create dialog control items *}
+{* Arc Length *}
+CreateStaticText (dialogID, 3, fieldS [4], -1);
+CreateEditText (dialogID, 4, '', 20);
+
+{* Method *}
+CreateGroupBox (dialogID, 3, GetPlugInString (3004), TRUE);
+CreateRadioButton (dialogID, 4, GetPlugInString (3005));
+CreateRadioButton (dialogID, 5, GetPlugInString (3006));
+CreateEditText (dialogID, 6, '', 20);
+CreateEditText (dialogID, 7, '', 20);
+
+	CreateCheckBox (dialogID, 2*i+5, '');
+	CreateStaticText (dialogID, 600+2*i, fieldName [fieldNum], labelWidth);
+	CreateSwapControl (dialogID, 2*i+6);
+	CreateGroupBox    (dialogID, 300+2*i, '', TRUE);
+	CreateEditText    (dialogID, 301+2*i, '', 45);
+	CreateGroupBox    (dialogID, 400+2*i, '', TRUE);
+	CreatePullDownMenu(dialogID, 401+2*i, 45);
+END;
+```
+```python
+import vs
+
+# Creates an editable text field control in a dialog layout.
+dialogID = 1
+itemID = 2
+defaultText = 'Example text'
+widthInCharacters = 3
+
+vs.CreateEditText(dialogID, itemID, defaultText, widthInCharacters)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

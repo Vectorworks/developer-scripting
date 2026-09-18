@@ -20,6 +20,23 @@ def vs.AssociateLinearDimension(h, selectedObjectsMode):
 |h|HANDLE|   |
 |selectedObjectsMode|BOOLEAN|   |
 
+## Examples
+```pascal
+IF associateDim THEN BEGIN
+	AssociateLinearDimension(LNewObj, FALSE);
+END;
+```
+```python
+import vs
+
+# Associates a linear dimension with an object when the dimension's endpoints
+# are coincident with objects in the drawing.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+selectedObjectsMode = True
+
+vs.AssociateLinearDimension(h, selectedObjectsMode)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

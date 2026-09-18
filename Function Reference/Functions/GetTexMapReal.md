@@ -31,6 +31,22 @@ def vs.GetTexMapReal(h, partID, selector):
 |partID|LONGINT|texture part, overall is 3.|
 |selector|INTEGER|offsetX:1, offsetY:2, scale2D:3, rotate2D:4, radius:5, matrix mat00 through mat32: 6-17|
 
+## Examples
+```pascal
+resultVal := GetTexMapReal(h, 1, 2);
+```
+```python
+import vs
+
+# Get map info for specific part of object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+selector = 2
+
+value = vs.GetTexMapReal(h, partID, selector)
+vs.Message('GetTexMapReal returned: ' + str(value))
+```
+
 ## See Also
 * [SetTexMapReal](SetTexMapReal.md) VW 14
 * [SetTexMapRealN](SetTexMapRealN.md) from VW 15

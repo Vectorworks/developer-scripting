@@ -31,6 +31,23 @@ BEGIN
 result := SetStoryLayerTemplateName(2, &quot;Subfloor&quot;);
 ```
 
+```pascal
+resultOK := SetDefStoryLayerName(1, 'Example');
+```
+```python
+import vs
+
+# Sets the name of the nth Default Story Layer in the file.
+index = 1
+name = 'Example'
+
+ok = vs.SetDefStoryLayerName(index, name)
+if ok:
+    vs.Message('SetDefStoryLayerName succeeded')
+else:
+    vs.Message('SetDefStoryLayerName failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumStoryLayerTemplates](GetNumStoryLayerTemplates.md) 

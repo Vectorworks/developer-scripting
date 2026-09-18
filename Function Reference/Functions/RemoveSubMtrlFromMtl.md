@@ -20,6 +20,24 @@ def vs.RemoveSubMtrlFromMtl(hMaterial, subMtrlName):
 |hMaterial|HANDLE|Handle of a Compound material|
 |subMtrlName|STRING|Name of a Simple material to be deleted|
 
+## Examples
+```pascal
+resultOK := RemoveSubMtrlFromMtl(hMaterial, 'Example');
+```
+```python
+import vs
+
+# Removes a Simple material from a Compound material.
+hMaterial = vs.FSActLayer()  # handle to the first selected object on the active layer
+subMtrlName = 'Example'
+
+ok = vs.RemoveSubMtrlFromMtl(hMaterial, subMtrlName)
+if ok:
+    vs.Message('RemoveSubMtrlFromMtl succeeded')
+else:
+    vs.Message('RemoveSubMtrlFromMtl failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

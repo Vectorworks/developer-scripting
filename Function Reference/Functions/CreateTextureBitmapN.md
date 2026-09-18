@@ -17,6 +17,26 @@ def vs.CreateTextureBitmapN(shaderRecord):
 |---|---|---|
 |shaderRecord|HANDLE|Handle to shader record.|
 
+## Examples
+```pascal
+BEGIN
+textureBitmap := CreateTextureBitmapN(shaderRecord);
+SetTexBitRepHoriz(textureBitmap, FALSE);
+SetTexBitRepVert(textureBitmap, FALSE);
+IF textureBitmap <> NIL THEN
+	BEGIN
+```
+```python
+import vs
+
+# Creates a texture bitmap object for the chosen shader record.
+shaderRecord = vs.GetObject('MyRecord')  # handle to a record format
+
+objHandle = vs.CreateTextureBitmapN(shaderRecord)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

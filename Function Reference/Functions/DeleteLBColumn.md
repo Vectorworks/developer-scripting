@@ -22,6 +22,25 @@ def vs.DeleteLBColumn(dialogID, componentID, columnIndex):
 |componentID|LONGINT|id of the list browser control|
 |columnIndex|INTEGER|index of the column to be deleted|
 
+## Examples
+```pascal
+resultOK := DeleteLBColumn(1, 2, 3);
+```
+```python
+import vs
+
+# Deletes a column from the specified list browser control.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+
+ok = vs.DeleteLBColumn(dialogID, componentID, columnIndex)
+if ok:
+    vs.Message('DeleteLBColumn succeeded')
+else:
+    vs.Message('DeleteLBColumn failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

@@ -26,6 +26,23 @@ vs.ClosePoly
 vs.Poly(0,0,1,1,1,2,2,2,2,0)
 ```
 
+```pascal
+Absolute;
+```
+```python
+# Draw Oval
+vs.Absolute()
+vs.FillPat(0)
+vs.Oval( -dMmarkerSize * 0.7075, dMmarkerSize * 0.7075, dMmarkerSize * 0.7075, -dMmarkerSize * 0.7075 )
+
+vs.SysBeep()
+vs.Absolute()
+vs.MoveTo( 0, 0 )
+vs.BeginGroup()
+vs.CreateText( message1 )
+vs.SetTextVerticalAlign( vs.LNewObj(), 3 )
+```
+
 ## Version
 Availability: from All Versions
 

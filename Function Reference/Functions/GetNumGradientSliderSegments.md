@@ -32,6 +32,20 @@ numSegments := GetNumGradientSliderSegments(dialogID, componentID);
 numSegments = vs.GetNumGradientSliderSegments(dialogID, componentID)
 ```
 
+```pascal
+resultN := GetNumGradientSliderSegments(1, 2);
+```
+```python
+import vs
+
+# Gets the number of segments in the gradient slider.
+dialogID = 1
+componentID = 2
+
+count = vs.GetNumGradientSliderSegments(dialogID, componentID)
+vs.Message('GetNumGradientSliderSegments returned: ' + str(count))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

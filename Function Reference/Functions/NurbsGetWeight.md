@@ -33,6 +33,21 @@ def vs.NurbsGetWeight(objectHd, index1, index2):
 ## Remarks
 this function will work for both nurbs curves and nurbs surfaces.
 
+## Examples
+```pascal
+NurbsGetWeight(objectHd, 1, 2, 1.0);
+```
+```python
+import vs
+
+# Returns the weight of a point in a NURBS curve or surface.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index1 = 1
+index2 = 1
+
+result = vs.NurbsGetWeight(objectHd, index1, index2)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

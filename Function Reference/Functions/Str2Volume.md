@@ -17,6 +17,21 @@ def vs.Str2Volume(str):
 |---|---|---|
 |str|STRING|The string representation of the angle value.|
 
+## Examples
+```pascal
+resultVal := Str2Volume('Example');
+```
+```python
+import vs
+
+# Convert a string representation of a volume value to a real number in cubic
+# millimeters.
+str = 'Example'
+
+vol = vs.Str2Volume(str)
+vs.Message('Str2Volume returned: ' + str(vol))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

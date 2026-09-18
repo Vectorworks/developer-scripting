@@ -42,7 +42,6 @@ Here some visual helps for the vectorial routines for those of us deprived of a 
 **Subroutines**  
 ![Vector Subroutines](files/C_MathSubroutines.png)
 
-
 This is precisely what Vec2Ang does, except that Vec2Ang uses the X axis as the other vector.
 
 ## Examples
@@ -69,6 +68,48 @@ RUN(Example);
 v1 = (12, 1, 0) # 3-dimensional tuples
 v2 = (3, 15, 45)
 vs.Message(str(vs.AngBVec( v1, v2 )))
+```
+
+```pascal
+BEGIN
+	arm1 := startPt - centerPt;
+	arm2 := endPt - centerPt;
+	zeta := AngBVec(arm1, arm2);
+	LenOfArc := (PI * Norm(arm1) * zeta)/ 180;
+END;
+
+{between text origin and nonarrowLine is smaller than the max possible}
+if kUseMaxLeaderDistance then BEGIN
+	if Abs(Norm( intersV1 - originVec )) <= maxLeaderDist then BEGIN
+		{check if the Line is ortogonal to the nonArrowLine, i.e. if the text is parallel to the nonarrowLine}
+		if Abs(AngBVec( (originVec - intersV1), (vec1 - intersV1) ) - 90 ) < kAngDimPrecision then BEGIN
+			if ( foundID = 0 ) then BEGIN
+				arrTBlocksUsed[ tbNUm ] := TRUE;
+				foundID := tbNUm;
+				textAngle := ang;
+				textOriginV	:= originVec ;
+				if ang <> 0 then BEGIN
+
+vec2 := - perp(vec1);
+vec2 := vec2 * dist;
+ReturnBisector := vec2;
+END ELSE BEGIN
+	ang := angbvec(v1,v2);
+	tmpDist := dist / sin(deg2rad(ang/2));
+	IF (triarea(v1[1],v1[2],0,0,v2[1],v2[2])>0)
+	THEN tmpAng := vec2ang(v1) + (360-ang)/2
+	ELSE tmpAng := vec2ang(v1) + ang/2;
+```
+```python
+import vs
+
+# Returns the positive angle between the two specified vectors, in the range
+# of 0~180 degrees.
+v1 = (0, 0)
+v2 = (1, 1)
+
+value = vs.AngBVec(v1, v2)
+vs.Message('AngBVec returned: ' + str(value))
 ```
 
 ## Version

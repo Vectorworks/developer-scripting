@@ -35,6 +35,21 @@ RUN(Example);
 
 ```
 
+```pascal
+RUN (AngleObjectInch);
+
+RUN (AngleObjectMetric);
+
+		ForEachObjectInLayer(AnnotateThings, 2, 0, 4);
+		IF gNothingDrawn THEN AlrtDialog(GetPlugInString(3012));
+	END;
+END;
+RUN(AnnotateSegments);
+```
+```python
+vs.Run((0, 0))
+```
+
 ## Version
 Availability: from All Versions
 

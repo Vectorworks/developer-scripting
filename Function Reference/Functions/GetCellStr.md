@@ -22,6 +22,23 @@ def vs.GetCellStr(h, row, col):
 |row|INTEGER|Worksheet row index.|
 |col|INTEGER|Worksheet column index.|
 
+## Examples
+```pascal
+resultStr := GetCellStr(h, 1, 2);
+```
+```python
+import vs
+
+# Function GetCellStr returns the string value of a cell in the referenced
+# worksheet.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+row = 10
+col = 5
+
+text = vs.GetCellStr(h, row, col)
+vs.Message('GetCellStr returned: ' + str(text))
+```
+
 ## See Also
 Functions:
 * [GetWSCellString](GetWSCellString.md)

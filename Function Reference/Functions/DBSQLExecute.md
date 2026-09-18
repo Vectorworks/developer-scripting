@@ -27,6 +27,20 @@ def vs.DBSQLExecute(database, SQLQuery):
 ## Examples
 [DBSQL](examples/DBSQL.md)
 
+```pascal
+resultOK := DBSQLExecute('Example', SQLQuery, 1, 2);
+```
+```python
+import vs
+
+# Executes a SQL in the specified database connected to the current document.
+database = 'Example'
+SQLQuery = 'Example'
+
+ok, outColumnCnt, outResultSetInst = vs.DBSQLExecute(database, SQLQuery)
+vs.Message('DBSQLExecute returned: ' + str((ok, outColumnCnt, outResultSetInst)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

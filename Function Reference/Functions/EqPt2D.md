@@ -47,6 +47,41 @@ v2 = (12, 1, 0)
 vs.Message( str(vs.EqPt2D(v1, v2, 0.1)) ) # True
 ```
 
+```pascal
+IF( ( NOT EqPt2D( vec1, vec, .0000000001 ) ) & ( NOT EqPt2D( vec2, vec, .0000000001  ) ) ) THEN
+BEGIN
+	hForDel := tempH;
+	tempH := NextObj( tempH );
+	DelObject( hForDel );
+END ELSE
+BEGIN
+
+BEGIN
+	IF not (EqPt2D(pt1, pt2, fuzz)) THEN BEGIN
+		ndx1 := AddUniquePts(pt1);
+		ndx2 := AddUniquePts(pt2);
+		lineCnt := lineCnt + 1;
+		lines[lineCnt].p1 := ndx1;
+		lines[lineCnt].p2 := ndx2;
+
+{//// if the location of the viewport is the same before and after the second layer is made visible, vpRespectsDLayZHtFunc is TRUE, else FALSE }
+vpRespectsDLayZHtFunc := EqPt2D( testPt_1, testPt_2, 0.00000001 );
+```
+```python
+import vs
+
+# Returns TRUE if the 2D points are equal within the tolerance.
+pt1 = (0, 0)
+pt2 = (1, 1)
+tolerance = 1.0
+
+ok = vs.EqPt2D(pt1, pt2, tolerance)
+if ok:
+    vs.Message('EqPt2D succeeded')
+else:
+    vs.Message('EqPt2D failed')
+```
+
 ## See Also
 VS Functions:
 * [EqualPt](EqualPt.md)

@@ -23,6 +23,24 @@ def vs.DBShowDBTableDlg(database, table):
 ## Remarks
 ([[User:Orso.b.schmid| Orso]], 2010 Sep. 27): It silently fails -returns FALSE- if the database or table names are invalid. If it succeeds a list of all available records (= entries, not to be confused with the term "record" in VW, often used instead of "format") in the chosen table is displayed for viewing, but you can't edit them. You can select a record, but there is no way to retrieve the selection. Is really view only.
 
+## Examples
+```pascal
+resultOK := DBShowDBTableDlg('Example', 'Example');
+```
+```python
+import vs
+
+# Show the specified database table dialog.
+database = 'Example'
+table = 'Example'
+
+ok = vs.DBShowDBTableDlg(database, table)
+if ok:
+    vs.Message('DBShowDBTableDlg succeeded')
+else:
+    vs.Message('DBShowDBTableDlg failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

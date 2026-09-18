@@ -7,7 +7,7 @@ If the Display Default Content preference (#130) is on and folderIndex is not 0,
 
 If folderIndex is positive, the list will include all the resources of that type from the current document, as well as from the specified folder. If folderIndex is 0, only the resources in the current document will be in the list. If folderIndex is negative, only the resources in the specified folder will be in the list.
 
-A complete listing of supported object types may be found in the [Function_Reference_Appendix](Function_Reference_Appendix.md).
+A complete listing of supported object types may be found in the [Function Reference Appendix](../Appendix/README.md).
 
 ; Note that use of the negative values of these constants can be used to get the user-based folder path.  The positive values are for application-based paths, which should not be used for writing.
 
@@ -146,6 +146,38 @@ list := BuildResourceList2(resID, pathID, '', cnt, FALSE); { current document }
 list := BuildResourceList2(resID, pathID, '', cnt, TRUE); { app folder if def content = true }
 list := BuildResourceList2(resID, -pathID, '', cnt, FALSE); { returns nothing! }
 list := BuildResourceList2(resID, -pathID, '', cnt, TRUE); { user folder if def content = true }
+```
+
+## Examples
+```pascal
+BEGIN
+ResourceListID := BuildResourceList2(16, -165, '', NumResources,TRUE);
+For cnt := 1 to NumResources DO
+	BEGIN
+	IF GetNameFromResourceList(ResourceListID,cnt) = shapeName THEN
+		BEGIN
+
+LocResourceListID := BuildResourceList2(97,LocScrnImageIdx,LocScrnImageFolder,LocNumResources,TRUE);
+
+BEGIN
+	LocResourceListID := BuildResourceList2(16,-LocFolderIndex,LocFolderName,LocNumResources,TRUE);
+	IF LocNumResources > 0 THEN
+		BEGIN
+			FOR LocCounter := 1 TO LocNumResources DO
+				BEGIN
+```
+```python
+import vs
+
+# Creates an implicit list of resources of a specified type, and returns an
+# ID for the list.
+type = 0
+folderIndex = 1
+subFolderName = 'C:/Temp'
+useDefaultContent = True
+
+resultN, numItems = vs.BuildResourceList2(type, folderIndex, subFolderName, useDefaultContent)
+vs.Message('BuildResourceList2 returned: ' + str((resultN, numItems)))
 ```
 
 ## See Also

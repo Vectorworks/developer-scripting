@@ -17,6 +17,19 @@ def vs.ImportRevit(fileName):
 |---|---|---|
 |fileName|DYNARRAY[] of CHAR|   |
 
+## Examples
+```pascal
+ImportRevit(fileName);
+```
+```python
+import vs
+
+# Import RVT and RFA files.
+fileName = 'C:/Temp/example.txt'
+
+vs.ImportRevit(fileName)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

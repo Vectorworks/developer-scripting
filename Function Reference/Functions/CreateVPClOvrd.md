@@ -20,6 +20,21 @@ def vs.CreateVPClOvrd(viewportHandle, className):
 |viewportHandle|HANDLE|The viewport handle.|
 |className|STRING|The name of the class.|
 
+## Examples
+```pascal
+CreateVPClOvrd(viewportHandle, 'Wall');
+```
+```python
+import vs
+
+# Creates a new override for the specified class in the specified viewport.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+
+vs.CreateVPClOvrd(viewportHandle, className)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [RemoveVPClOvrd](RemoveVPClOvrd.md)

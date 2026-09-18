@@ -17,6 +17,18 @@ def vs.GetKeyDown():
 |---|---|---|
 |asciiCode|LONGINT|ASCII code of key pressed.|
 
+## Examples
+```pascal
+GetKeyDown(1);
+```
+```python
+import vs
+
+# Procedure GetKeyDown pauses execution of a VectorScript routine until a key
+# is pressed by the user.
+result = vs.GetKeyDown()
+```
+
 ## Version
 Availability: from All Versions
 

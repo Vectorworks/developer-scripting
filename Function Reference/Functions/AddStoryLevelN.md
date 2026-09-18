@@ -37,6 +37,25 @@ storyHandle := CreateStory('Floor 1', '-1');
 success := AddStoryLevelN(storyHandle, 'Finish Floor', 0, 'Floor');
 ```
 
+```pascal
+resultOK := AddStoryLevelN(storyHandle, 'Example', 1.0, 'Design Layer-1');
+```
+```python
+import vs
+
+# Adds a new Story Layer to the Story pointed to by 'storyHandle'.
+storyHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+levelType = 'Example'
+elevation = 0.0
+layerName = 'Design Layer-1'
+
+ok = vs.AddStoryLevelN(storyHandle, levelType, elevation, layerName)
+if ok:
+    vs.Message('AddStoryLevelN succeeded')
+else:
+    vs.Message('AddStoryLevelN failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

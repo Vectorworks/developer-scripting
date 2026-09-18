@@ -35,6 +35,22 @@ ResetOrientation3D;
 
 ```
 
+```pascal
+ResetOrientation3D;
+```
+```python
+SetAttrsByClassOrParent( vs.LNewObj(), gObjHandle, gPaving_Class )
+vs.ResetOrientation3D()
+vs.Rotate3D( 90.0, 0.0, 0.0 )
+#### end of sweep for paving.
+
+vs.EndPoly()
+vs.EndMXtrd()
+SetAttrsByClassOrParent(vs.LNewObj(), gObjHandle, gCurb_Class)
+vs.ResetOrientation3D()
+vs.Rotate3D( 90.0, 0.0, 90.0 )
+```
+
 ## Version
 Availability: from MiniCAD 5.0.2
 

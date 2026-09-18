@@ -24,6 +24,22 @@ def vs.GetParameterOnNurbsCurve(h, point):
 |parameter|REAL|   |
 |index|LONGINT|   |
 
+## Examples
+```pascal
+resultOK := GetParameterOnNurbsCurve(h, 1.0, 2.0, 0.5, 1.5, 1);
+```
+```python
+import vs
+
+# Given a NURBS curve handle and a point (in world space), this function
+# returns the parameter of the point obtained by projecting the input point.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+point = (0, 0)
+
+ok, parameter, index = vs.GetParameterOnNurbsCurve(h, point)
+vs.Message('GetParameterOnNurbsCurve returned: ' + str((ok, parameter, index)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

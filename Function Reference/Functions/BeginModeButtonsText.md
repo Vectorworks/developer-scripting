@@ -20,6 +20,17 @@ SetModeButtonText( 'Mode2', 0 );
 EndModeButtonsText;
 ```
 
+```pascal
+BeginModeButtonsText;
+```
+```python
+import vs
+
+# Creates a mode bar buttons help text.
+vs.BeginModeButtonsText()
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [EndModeButtonsText](EndModeButtonsText.md) 

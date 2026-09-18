@@ -22,6 +22,21 @@ def vs.GetCompTopIsRelStory(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |topIsRelativeToStory|BOOLEAN|Returns whether or not the component top is relative to a story.|
 
+## Examples
+```pascal
+resultOK := GetCompTopIsRelStory(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets whether or not the component top is relative to a story.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, topIsRelativeToStory = vs.GetCompTopIsRelStory(object, componentIndex)
+vs.Message('GetCompTopIsRelStory returned: ' + str((ok, topIsRelativeToStory)))
+```
+
 ## See Also
 VS Functions:
 [SetCompTopIsRelStory](SetCompTopIsRelStory.md)

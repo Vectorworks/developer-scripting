@@ -19,6 +19,18 @@ Returns the default text size in points.
 
 [sd  8/19/98]
 
+## Examples
+```pascal
+resultVal := GetDefaultTextSize;
+```
+```python
+import vs
+
+# Function GetDefaultTextSize returns the default text size in points.
+value = vs.GetDefaultTextSize()
+vs.Message('GetDefaultTextSize returned: ' + str(value))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

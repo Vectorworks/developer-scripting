@@ -12,6 +12,18 @@ def vs.GetNumLevelTemplates():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := GetNumLevelTemplates;
+```
+```python
+import vs
+
+# Returns the number of story level templates in the file.
+count = vs.GetNumLevelTemplates()
+vs.Message('GetNumLevelTemplates returned: ' + str(count))
+```
+
 ## See Also
 VS Functions:
 [GetLevelTemplateName](GetLevelTemplateName.md) 

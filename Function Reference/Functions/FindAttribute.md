@@ -26,6 +26,22 @@ def vs.FindAttribute(XMLHandle, startElementPath, searchAttribute):
 |foundPath|STRING|Output parameter.|
 |attributeValue|STRING|Output parameter.|
 
+## Examples
+```pascal
+resultN := FindAttribute(1, 'file.txt', 'Example', 'file.txt', 'Example');
+```
+```python
+import vs
+
+# Returns the element path of the specified attribute.
+XMLHandle = 1
+startElementPath = 'C:/Temp'
+searchAttribute = 'Example'
+
+resultN, foundPath, attributeValue = vs.FindAttribute(XMLHandle, startElementPath, searchAttribute)
+vs.Message('FindAttribute returned: ' + str((resultN, foundPath, attributeValue)))
+```
+
 ## Version
 Availability: from All Versions
 

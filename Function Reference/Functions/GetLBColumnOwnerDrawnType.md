@@ -29,6 +29,23 @@ def vs.GetLBColumnOwnerDrawnType(dialogID, componentID, itemIndex, subItemIndex)
 ## Remarks
 ([[User:Orso.b.schmid|Orso]], 2011 Oct. 08): This routine is non functional (tested from VW12 up to VW16): while it doesn't fail, it always sets "ownerDrawnType" to "0".
 
+## Examples
+```pascal
+resultOK := GetLBColumnOwnerDrawnType(1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Gets the list browser column's owner drawn type.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+
+ok, ownerDrawnType = vs.GetLBColumnOwnerDrawnType(dialogID, componentID, itemIndex, subItemIndex)
+vs.Message('GetLBColumnOwnerDrawnType returned: ' + str((ok, ownerDrawnType)))
+```
+
 ## Version
 Availability: from VectorWorks 12.0
 

@@ -23,6 +23,24 @@ def vs.SetDLComponentFill(index, fill):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := SetDLComponentFill(1, 2);
+```
+```python
+import vs
+
+# Sets the fill of the component at index in the Double Line Preferences.
+index = 1
+fill = 1
+
+ok = vs.SetDLComponentFill(index, fill)
+if ok:
+    vs.Message('SetDLComponentFill succeeded')
+else:
+    vs.Message('SetDLComponentFill failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentFill](GetDLComponentFill.md)

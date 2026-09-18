@@ -41,6 +41,24 @@ vs.LinearDim(-2,2,1,2,-3,0,771,771,0.75)
 vs.DoubleTolerance(True,False,'est. ','',1/16,1/16)
 ```
 
+```pascal
+DoubleTolerance(TRUE, FALSE, 'Example', 'Example', 1.0, 2.0);
+```
+```python
+import vs
+
+# Procedure DoubleTolerance is used with dimensioning procedures to define a
+# tolerance for the most recently created dimension.
+showVal = True
+boxText = 'Example text'
+leader = 'Example'
+trailer = 'Example'
+topDistance = 1.0
+botDistance = 1.0
+
+vs.DoubleTolerance(showVal, boxText, leader, trailer, topDistance, botDistance)
+```
+
 ## Version
 Availability: from MiniCAD4.0
 

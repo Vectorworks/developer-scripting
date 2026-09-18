@@ -43,6 +43,38 @@ else:
 	vs.AlrtDialog('The file is not georeferenced.')
 ```
 
+```pascal
+{set georef data}
+if IsGeoreferenced( ActLayer ) then begin
+	isOK	:= SetGISLayer( ActLayer );
+	if isOK then begin
+		gPageNorthStr	:= Num2StrF( GetAngleToNorth );
+
+if IsGeoreferenced( layerH ) then BEGIN
+	isOK	:= SetGISLayer( layerH );
+	IF isOK THEN
+		BEGIN
+
+textColumns := ParseString(dynaChar);
+IF (ValidNumStr(textColumns[inColX], x)) & (ValidNumStr(textColumns[inColY], y)) & (ValidNumStr(textColumns[inColZ], z)) THEN BEGIN
+	IF ( IsGeoreferenced( ActLayer ) AND gGeogrUnits ) THEN BEGIN
+		isgeoref := GeogCoordToVW( x, y, x, y );
+		z := ((z / importUPI) * _UPI);
+	END
+```
+```python
+import vs
+
+# Check if the layer is georeferenced.
+hLayer = vs.ActLayer()  # handle to the active design layer
+
+ok = vs.IsGeoreferenced(hLayer)
+if ok:
+    vs.Message('IsGeoreferenced succeeded')
+else:
+    vs.Message('IsGeoreferenced failed')
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

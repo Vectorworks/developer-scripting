@@ -52,6 +52,36 @@ else:
     vs.Locus( p[0], p[1] )
 ```
 
+```pascal
+TextOrigin(xC,yC);
+CreateText(concat(pprfx,itemTag));
+hText := lnewobj;
+SetFPat(lnewobj,0);
+Get2DPt(hLeaderLine,2,pX,pY);
+result := SetTextAdorner(hText,hBubble,pX,pY);
+result := SetTextAdorner(hText,hLeaderLine,pX,pY);
+{Locus(pX,pY);}
+IF pDrawSecondBubble THEN BEGIN
+
+BEGIN
+	Get2DPt( tempH, 1, vec1.x, vec1.y );
+	Get2DPt( tempH, 2, vec2.x, vec2.y );
+
+BEGIN
+	Get2DPt( pluginInstanceHandle, 1, gOffsetX, gOffsetY );
+	gOffsetX := gOffsetX + gOrigin[1];
+	gOffsetY := gOffsetY + gOrigin[2];
+```
+```python
+import vs
+
+# Returns the location of the specified vertex of a referenced object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+result = vs.Get2DPt(obj, index)
+```
+
 ## See Also
 VS Functions:
 * [GetPolyPt](GetPolyPt.md)

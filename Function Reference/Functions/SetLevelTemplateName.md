@@ -31,6 +31,23 @@ BEGIN
 result := SetLevelTemplateName(2, &quot;Subfloor&quot;);
 ```
 
+```pascal
+resultOK := SetLevelTemplateName(1, 'Example');
+```
+```python
+import vs
+
+# Sets the name of the Story Level Template at 'index' to be 'name'.
+index = 1
+name = 'Example'
+
+ok = vs.SetLevelTemplateName(index, name)
+if ok:
+    vs.Message('SetLevelTemplateName succeeded')
+else:
+    vs.Message('SetLevelTemplateName failed')
+```
+
 ## See Also
 VS Functions:
 [GetNumLevelTemplates](GetNumLevelTemplates.md) 

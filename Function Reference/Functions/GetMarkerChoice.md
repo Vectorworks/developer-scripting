@@ -88,7 +88,6 @@ def Dialog_Handler( item , data ):
 		'angle: ', angle, vs.Chr(13), 
 		'size: ', size))
 
-
 def Example():
 	global dialogID
 	global SetupDialogC
@@ -101,6 +100,26 @@ def Example():
 	intt = vs.RunLayoutDialog(dialogID, Dialog_Handler)
 
 Example()
+```
+
+```pascal
+BEGIN
+	GetMarkerChoice(dialogID, itemID, index, style, angle, size);
+{	AlrtDialog(Concat('GetMarkerPopup:', Chr(13), 'index: ', index, Chr(13), 'style: ', style, Chr(13), 'angle: ', angle, Chr(13), 'size: ', size));
+}
+	{size := .1;}
+	{angle := 20;}
+```
+```python
+import vs
+
+# _OBSOLETE procedure for VW2008_ Get current choice for Marker popup dialog
+# control.
+dialogID = 1
+itemID = 2
+
+index, style, angle, size = vs.GetMarkerChoice(dialogID, itemID)
+vs.Message('GetMarkerChoice returned: ' + str((index, style, angle, size)))
 ```
 
 ## See Also

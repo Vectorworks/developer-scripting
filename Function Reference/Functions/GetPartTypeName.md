@@ -18,6 +18,20 @@ def vs.GetPartTypeName(objectHandle):
 |---|---|---|
 |objectHandle|HANDLE|The sub-object handle.|
 
+## Examples
+```pascal
+resultStr := GetPartTypeName(objectHandle);
+```
+```python
+import vs
+
+# Return the part type for the specified sub-object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+name = vs.GetPartTypeName(objectHandle)
+vs.Message('GetPartTypeName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [TagSubObjectAsPart](TagSubObjectAsPart.md)

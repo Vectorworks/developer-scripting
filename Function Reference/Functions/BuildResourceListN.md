@@ -35,6 +35,23 @@ list := BuildResourceListN(resID, path, cnt); { chosen document }
 list := BuildResourceListN2(resID, GetFPathName, cnt); { WARNING: it always returns zero }
 ```
 
+## Examples
+```pascal
+BEGIN
+	ResourceListID := BuildResourceListN(rType,rPath,NumResSyms);
+END; {PROCEDURE BuildSymbolList}
+```
+```python
+import vs
+
+# Build a resource list from the specified file.
+type = 0
+fullPath = 'C:/Temp'
+
+resultN, numItems = vs.BuildResourceListN(type, fullPath)
+vs.Message('BuildResourceListN returned: ' + str((resultN, numItems)))
+```
+
 ## See Also
 VS Functions:
 [BuildResourceList](BuildResourceList.md)

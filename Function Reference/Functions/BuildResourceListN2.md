@@ -39,6 +39,36 @@ list := BuildResourceListN2(resID, path, cnt, FALSE); { chosen document again }
 list := BuildResourceListN2(resID, GetFPathName, cnt, FALSE); { WARNING: it always returns zero }
 ```
 
+## Examples
+```pascal
+BEGIN
+	PathFile := Concat(LocImpFile);
+	FileResourceListID := BuildResourceListN2(16,PathFile , NumSymbols,TRUE);
+		IF NumSymbols <> 0 THEN
+			BEGIN
+				For Counter := 0 to NumSymbols DO
+					BEGIN
+
+FileResourceListID := BuildResourceListN2(16,PathFile , NumSymbols,TRUE);
+
+FileResourceListID := BuildResourceListN2(16,PathFile , NumSymbols,TRUE);
+If NumSymbols <> 0 then
+	Begin
+		For Counter := 0 to NumSymbols-1 DO
+			BEGIN
+```
+```python
+import vs
+
+# Build a resource list from the specified file.
+type = 0
+fullPath = 'C:/Temp'
+useDefaultContent = True
+
+resultN, numItems = vs.BuildResourceListN2(type, fullPath, useDefaultContent)
+vs.Message('BuildResourceListN2 returned: ' + str((resultN, numItems)))
+```
+
 ## See Also
 VS Functions:
 [BuildResourceListN](BuildResourceListN.md) 

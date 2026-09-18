@@ -20,6 +20,21 @@ def vs.EA_DataAccGetStr(acc, valueIndex):
 |acc|INTEGER|   |
 |valueIndex|INTEGER|   |
 
+## Examples
+```pascal
+resultStr := EA_DataAccGetStr(1, 2);
+```
+```python
+import vs
+
+# Returns string value from the object, associated to the accessory index.
+acc = 1
+valueIndex = 1
+
+text = vs.EA_DataAccGetStr(acc, valueIndex)
+vs.Message('EA_DataAccGetStr returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

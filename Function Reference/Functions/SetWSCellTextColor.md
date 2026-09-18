@@ -30,6 +30,25 @@ def vs.SetWSCellTextColor(worksheet, topRow, leftColumn, bottomRow, rightColumn,
 |rightColumn|INTEGER|Right column of cell range|
 |color|LONGINT|Text color index value to be set|
 
+## Examples
+```pascal
+SetWSCellTextColor(worksheet, 1, 2, 3, 10, 5);
+```
+```python
+import vs
+
+# Sets the text color of a cell in the referenced worksheet
+# SetWSCellTextColor allows text color to be set for a range of cells.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+topRow = 10
+leftColumn = 5
+bottomRow = 10
+rightColumn = 5
+color = 5
+
+vs.SetWSCellTextColor(worksheet, topRow, leftColumn, bottomRow, rightColumn, color)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

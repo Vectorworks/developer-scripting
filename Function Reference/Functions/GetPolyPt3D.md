@@ -48,6 +48,42 @@ def Example():
 Example()
 ```
 
+```pascal
+	IF vertCnt = 0
+		THEN vertCnt := tmpVertCnt
+		ELSE vertCnt := vertCnt + tmpVertCnt - 1; {next vertex is same as last, so step back one}
+	ALLOCATE pts  [1..vertCnt];
+	for cnt := 1 to tmpVertCnt DO GetPolyPt3D(tempH, cnt - 1, pts[vertCnt - cnt + 1].x, pts[vertCnt - cnt + 1].y, pts[vertCnt - cnt + 1].z);
+	tempH := NextObj(tempH);
+END;
+
+BEGIN
+GetPolyPt3D(PolyHand, i, x2, y2, z2 );
+{x2:= x2*gLScaleMult;
+y2:= y2*gLScaleMult;
+z2:= z2*gLScaleMult*gVMag;}
+IF ( i = 0 ) THEN
+
+BEGIN
+	{
+	AlrtDialog( Concat( 'GetVertNum: ', GetVertNum( TuneCameraVectorHand ) ) );
+	}
+	GetPolyPt3D( TuneCameraVectorHand, kCamVecIndx_Target, TargetPt3D.x, TargetPt3D.y, TargetPt3D.z );
+	GetPolyPt3D( TuneCameraVectorHand, kCamVecIndx_Camera, CameraPt3D.x, CameraPt3D.y, CameraPt3D.z );
+	GetPolyPt3D( TuneCameraVectorHand, kCamVecIndx_CameraUp, CameraUpPt3D.x, CameraUpPt3D.y, CameraUpPt3D.z );
+	GetPolyPt3D( TuneCameraVectorHand, kCamVecIndx_ScrAnchor, ScrAnchorOffsetVect.x, ScrAnchorOffsetVect.y, ScrAnchorOffsetVect.z );
+```
+```python
+import vs
+
+# Procedure GetPolyPt3D returns the coordinates of the specified vertex of
+# the referenced mesh, 3D polygon, or NURBS curve object.
+objectHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+result = vs.GetPolyPt3D(objectHd, index)
+```
+
 ## See Also
 VS Functions:
 * [Get2DPt](Get2DPt.md)

@@ -30,6 +30,21 @@ AngleValue := AngDialog('Enter an angle value:', '0d');
 AngleValue = vs.AngDialog('Enter an angle value:', '0d')
 ```
 
+```pascal
+resultVal := AngDialog('Example', 'Example');
+```
+```python
+import vs
+
+# Function AngDialog displays a dialog box which requests the user to enter
+# an angle value.
+request = 'Example'
+default = 'Example'
+
+value = vs.AngDialog(request, default)
+vs.Message('AngDialog returned: ' + str(value))
+```
+
 ## Version
 Availability: from All Versions
 

@@ -111,7 +111,6 @@ def Example():
 		elif style == 7: 
 			vs.AlrtDialog('Feet')
 
-
 	elif major >= 9 and major <= 11:
 		if style == 0:  
 			vs.AlrtDialog('Custom')
@@ -154,6 +153,41 @@ def Example():
 			vs.AlrtDialog('Degrees')
 
 Example()
+```
+
+```pascal
+{set the Num2Str precision value for the SerRField calls}
+IF kUseRealPrecisionConst THEN realPrecision := kRealPrecisionConst
+ELSE GetPrimaryUnitInfo( prStyle, realPrecision, prDimPrec, prFormat, prAngPrec, prShowMark, prDispFrac );
+{as Num2Str does not support VW's maximum decimal precision 10, check for it and change it to the default internal}
+IF (realPrecision > 9) | (realPrecision < 0) THEN realPrecision := kRealPrecisionConst;
+{Count the text Block objects}
+TBlocksCount := 0;
+
+SetBooleanItem(dialogID, 7, gIDWriteMatch);
+SetSelChoice(dialogID, 8, gIDMatchFldNm);{Fix index in Function}
+SetBooleanItem(dialogID, 9, gIDDrawLead);
+SetBooleanItem(dialogID, 10, gIDKeepHoriz);
+GetPrimaryUnitInfo(dimStyle, prec, dimPrec, format, angPrec, showMark, dispFrac);
+SetItemText(dialogID, 12, Num2DimStr(Str2Num(Num2Str(dimPrec, gIDShoulder))));
+For I := 9 DOWNTO 0 DO AddChoice(dialogID,  14,  ArrowArray[I, 2],  0);
+I := 0;
+IdNum := Str2Num(Copy(gIDMkrStyle, 1, 1));
+
+if gAnnotateSegs then BEGIN
+	GetPrimaryUnitInfo(style, prec, dimPrec, format, angPrec, showMark, dispFrac);
+	PrimaryUnits(style, decimals, dimPrec, format, angPrec, showMark, dispFrac);
+	TextSize(ObjTextSize(objHand));
+	TextJust(2);
+	TextVerticalAlign(3);
+```
+```python
+import vs
+
+# Procedure GetPrimaryUnitInfo returns the primary units settings for the
+# active document.
+style, prec, dimPrec, format, angPrec, showMark, dispFrac = vs.GetPrimaryUnitInfo()
+vs.Message('GetPrimaryUnitInfo returned: ' + str((style, prec, dimPrec, format, angPrec, showMark, dispFrac)))
 ```
 
 ## See Also

@@ -15,6 +15,18 @@ def vs.FillColorByClass():
 ## Remarks
 Sets the global attributes to use the fill colors of the default class.
 
+## Examples
+```pascal
+FillColorByClass;
+```
+```python
+vs.FillColorByClass()
+vs.PenColorByClass()
+vs.MarkerByClass()
+vs.FPatByClass()
+vs.LSByClass()
+```
+
 ## See Also
 VS Functions:
 [PenColorByClass](PenColorByClass.md) 

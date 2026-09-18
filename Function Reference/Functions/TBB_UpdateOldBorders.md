@@ -17,6 +17,19 @@ def vs.TBB_UpdateOldBorders():
 |---|---|---|
 |NumUpdated|INTEGER|   |
 
+## Examples
+```pascal
+{ VAA Title Block }
+{ Drawing Border - Universal }
+TBB_UpdateOldBorders(gNumBordersUpdated);
+```
+```python
+import vs
+
+# Updates Drawing Border - Universal objects to Title Block Border objects.
+result = vs.TBB_UpdateOldBorders()
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

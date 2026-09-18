@@ -21,9 +21,23 @@ def vs.CC_GetSignalData(signal, col_index):
 |signal|STRING||
 |col_index|INTEGER||
 
+## Examples
+```pascal
+resultStr := CC_GetSignalData('Example', 1);
+```
+```python
+import vs
+
+# Returns the entry in the signal types table for a given signal.
+signal = 'Example'
+col_index = 1
+
+text = vs.CC_GetSignalData(signal, col_index)
+vs.Message('CC_GetSignalData returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2025.2
 
 ## Category
 * [ConnectCAD](../Categories/ConnectCAD.md)
-

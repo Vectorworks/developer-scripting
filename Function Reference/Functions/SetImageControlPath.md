@@ -22,6 +22,25 @@ def vs.SetImageControlPath(nDialogID, nComponentID, strPath):
 |nComponentID|LONGINT|   |
 |strPath|STRING|   |
 
+## Examples
+```pascal
+resultOK := SetImageControlPath(1, 2, 'file.txt');
+```
+```python
+import vs
+
+# Sets the image control path for the specified layout manager image control.
+nDialogID = 1
+nComponentID = 2
+strPath = 'C:/Temp'
+
+ok = vs.SetImageControlPath(nDialogID, nComponentID, strPath)
+if ok:
+    vs.Message('SetImageControlPath succeeded')
+else:
+    vs.Message('SetImageControlPath failed')
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

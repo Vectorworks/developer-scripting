@@ -37,6 +37,22 @@ hObject = vs.FSActLayer()
 ok = vs.IFC_ClearAllPsets(hObject)
 ```
 
+```pascal
+resultOK := IFC_ClearAllPsets(hObject);
+```
+```python
+import vs
+
+# Removes all IFC Psets.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IFC_ClearAllPsets(hObject)
+if ok:
+    vs.Message('IFC_ClearAllPsets succeeded')
+else:
+    vs.Message('IFC_ClearAllPsets failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

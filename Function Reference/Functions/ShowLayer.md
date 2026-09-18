@@ -23,6 +23,13 @@ ShowLayer;
 
 ```
 
+```pascal
+ShowLayer;
+```
+```python
+vs.ShowLayer()
+```
+
 ## Version
 Availability: from All Versions
 

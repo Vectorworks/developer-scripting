@@ -30,6 +30,47 @@ In Python this function will _NOT_ block execution. It will execute a callback f
 ## Examples
 on sample is similar to the sample in [GetPt](GetPt.md).
 
+```pascal
+BEGIN
+	DSelectAll;
+	GetPt3D( pt.x, pt.y, pt.z, TRUE );
+	h := CreateCustomObjectN( 'HumanFigure', pt.x, pt.y, 0,False );
+END;
+
+BEGIN
+	IF ResourceIsOK THEN
+	GetOrigin(origin.x, origin.y);
+	SetOriginAbsolute(0, 0);
+	GetPt3D(pt1.x, pt1.y, pt1.z, false);
+	{GetPt(pt1.x, pt1.y);}
+	crit := '(R IN [''Space''])';
+	polyCnt := Count(crit);
+	{ AlrtDialog(CONCAT('Space Link Tool: polyCnt = ', polyCnt)); }
+
+Redraw;
+Message( GetPlugInString(3009) );
+GetOrigin(xOrg,yOrg);
+SetOriginAbsolute(0,0);
+GetPt3D( x, y, z, FALSE );
+SetOriginAbsolute(xOrg,yOrg);
+ClrMessage;
+IF DTM6_GetZatXY( hDTMObject, gModelType, xOrg+x, yOrg+y, z ) THEN
+BEGIN
+```
+```python
+import vs
+
+# Procedure GetPt3D switches the cursor to 3D selection mode and allows the
+# user to select a point in a VectorWorks document.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+useWPOnly = True
+callback = handle_object
+
+vs.GetPt3D(useWPOnly, callback)
+```
+
 ## See Also
 VS Functions:
 [GetPt](GetPt.md) |

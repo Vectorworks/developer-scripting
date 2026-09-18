@@ -32,6 +32,22 @@ def vs.GetWSColumnOperators(worksheet, row):
 |sum2|INTEGER|Secondary summarize column.|
 |sum3|INTEGER|Tertiary summarize column.|
 
+## Examples
+```pascal
+GetWSColumnOperators(worksheet, 1, 2, 3, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Returns the sort and summarize column operators for a database row in the
+# referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+
+sort1, sort2, sort3, sum1, sum2, sum3 = vs.GetWSColumnOperators(worksheet, row)
+vs.Message('GetWSColumnOperators returned: ' + str((sort1, sort2, sort3, sum1, sum2, sum3)))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

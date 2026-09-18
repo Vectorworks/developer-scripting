@@ -70,6 +70,49 @@ def Example():
 Example()
 ```
 
+```pascal
+				LineTo(x0 + x[i], y0 + y[i]);
+		END;
+	EndPoly;
+	objectH := LNewObj;
+	SetFPat (objectH, FFillPat);
+END;	{of drawAngle}
+
+			ELSE
+				LineTo(x0 + x[i], y0 + y[i]);
+		END;
+	EndPoly;
+	SetFPat (LNewObj, FFillPat);
+END;	{of drawAngle}
+
+BEGIN
+	CreateText(theLabel);
+	HCenter(LNewObj, x, y);
+	HMove(LNewObj, centerPt[1]-x, centerPt[2]-y);
+	SetFPat(LNewObj, 0);
+	gNothingDrawn := FALSE;
+END;
+```
+```python
+vs.MoveTo ( textPtx, textPty )
+vs.DSelectAll()
+vs.CreateText( vs.PSheet_No )
+vs.SetFPat( vs.LNewObj(), 0 )
+vs.Rotate( dTextRotation )
+
+vs.SetTextVerticalAlign( vs.LNewObj(), 3 )
+vs.SetTextJust( vs.LNewObj(), 2 )
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+vs.SetFPat( vs.LNewObj(), 0 )
+b1, b2 = vs.GetBBox( vs.LNewObj() )
+vs.Rect( kBf * b1[0], kBf * b1[1], kBf * b2[0], kBf * b2[1] )
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+vs.SetFPat( vs.LNewObj(), 1 )
+
+if t != vs.kLineNode and t != vs.kLocusNode and t != vs.kLocus3DNode and t != vs.kGroupNode:
+	vs.SetFPat(objH, vs.GetFPat(parentH))
+```
+
 ## Version
 Availability: from All Versions
 

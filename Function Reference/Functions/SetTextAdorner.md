@@ -42,6 +42,45 @@ END;
 RUN(Example);
 ```
 
+```pascal
+IF hText1 <> NIL THEN result := SetTextAdorner(hText1,hBox,x1-margin,y1+margin);
+IF hText2 <> NIL THEN result := SetTextAdorner(hText2,hBox,x1-margin,y1+margin);
+IF hText3 <> NIL THEN result := SetTextAdorner(hText3,hBox,x1-margin,y1+margin);
+IF hText4 <> NIL THEN result := SetTextAdorner(hText4,hBox,x1-margin,y1+margin);
+IF hText5 <> NIL THEN result := SetTextAdorner(hText5,hBox,x1-margin,y1+margin);
+
+BEGIN
+	SetPlanarRef( h, 0 );
+	result := SetTextAdorner(TextHand,h,TextLocX,TextLocY);
+	IF GetPref(16) THEN
+		BEGIN
+		WhiteR := 0;
+		WhiteG := 0;
+
+			RectangleN( 0, -SizeFactor/2, 1, 0, bubble_width, SizeFactor )
+		END;
+	END; {of CASE}
+hBubble := LNewObj;
+return := SetTextAdorner(title_h,hBubble,SizeFactor/2,0);
+END;
+```
+```python
+import vs
+
+# This function creates a relationship between the specified text block and
+# the text adorner such that when theText Block is scaled in a VP, the text
+# adorner i.
+textBlock = vs.FSActLayer()  # handle to the first selected object on the active layer
+textAdorner = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+p = 1.0
+
+ok = vs.SetTextAdorner(textBlock, textAdorner, p)
+if ok:
+    vs.Message('SetTextAdorner succeeded')
+else:
+    vs.Message('SetTextAdorner failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

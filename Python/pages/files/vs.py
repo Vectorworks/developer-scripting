@@ -30206,7 +30206,27 @@ def RefreshLB(
 		Refreshes the contents of the specified list browser.
 	'''
 	pass
-	return 'BOOLEAN' # 
+	return 'BOOLEAN' #
+
+
+def RefreshResManager(
+		updateVWLibs    , # BOOLEAN - Update Vectorworks libraries.
+		updateUserLibs  , # BOOLEAN - Update User libraries.
+		updateWGLibs    , # BOOLEAN - Update Workgroups libraries.
+		updateFavs      , # BOOLEAN - Update Favorites.
+		UpdateOnlineLibs  # BOOLEAN - Update Vectorworks online libraries.
+		):
+	'''
+		Python: REAL = vs.RefreshResManager(updateVWLibs, updateUserLibs, updateWGLibs, updateFavs, UpdateOnlineLibs)
+		VectorScript: PROCEDURE RefreshResManager(updateVWLibs:BOOLEAN; updateUserLibs:BOOLEAN; updateWGLibs:BOOLEAN; updateFavs:BOOLEAN; UpdateOnlineLibs:BOOLEAN);
+
+		Category: Utility
+		Updates the Resource manager palette. It refreshes Libraries specified by the parameters.
+
+		Availability: from Vectorworks 2025
+	'''
+	pass
+	return 'REAL' #
 
 
 def RegisterDialogForTimerEvents(

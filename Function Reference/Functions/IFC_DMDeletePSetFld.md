@@ -24,6 +24,26 @@ def vs.IFC_DMDeletePSetFld(strObjectName, strEntryName, strPSetName, strFieldNam
 |strPSetName|STRING|   |
 |strFieldName|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMDeletePSetFld('Example', 'Example', 'Example', 'MyRecord');
+```
+```python
+import vs
+
+# Deletes specified IfcEntry's PSet Field.
+strObjectName = 'Example'
+strEntryName = 'Example'
+strPSetName = 'Example'
+strFieldName = 'MyField'
+
+ok = vs.IFC_DMDeletePSetFld(strObjectName, strEntryName, strPSetName, strFieldName)
+if ok:
+    vs.Message('IFC_DMDeletePSetFld succeeded')
+else:
+    vs.Message('IFC_DMDeletePSetFld failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

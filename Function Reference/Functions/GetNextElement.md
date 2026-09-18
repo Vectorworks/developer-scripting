@@ -22,6 +22,21 @@ def vs.GetNextElement(XMLHandle, elementPath):
 |elementPath|STRING|   |
 |value|STRING|Output parameter.|
 
+## Examples
+```pascal
+resultN := GetNextElement(1, 'file.txt', 'Example');
+```
+```python
+import vs
+
+# Gets the next element at the same XML nesting level.
+XMLHandle = 1
+elementPath = 'C:/Temp'
+
+resultN, value = vs.GetNextElement(XMLHandle, elementPath)
+vs.Message('GetNextElement returned: ' + str((resultN, value)))
+```
+
 ## Version
 Availability: from All Versions
 

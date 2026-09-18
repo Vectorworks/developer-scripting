@@ -3,7 +3,6 @@
 ## Description
 Gets the specified 2D component group of a symbol definition or plug-in object or NULL if the group does not exist.
 
-
 **Table - 2D components**
 
 | Constant | 2D component        |
@@ -35,6 +34,23 @@ def vs.Get2DComponentGroup(objectHandle, component):
 |---|---|---|
 |objectHandle|HANDLE|Handle to the object.|
 |component|INTEGER|2D component.|
+
+## Examples
+```pascal
+resultH := Get2DComponentGroup(objectHandle, 1);
+```
+```python
+import vs
+
+# Gets the specified 2D component group of a symbol definition or plug-in
+# object or NULL if the group does not exist.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+component = 1
+
+objHandle = vs.Get2DComponentGroup(objectHandle, component)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
 
 ## See Also
 VS Functions:

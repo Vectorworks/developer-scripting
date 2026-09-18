@@ -20,6 +20,24 @@ def vs.SetVectorFillDefault(vectorFillName):
 ## Remarks
 Returns true if the active document's default hatch was succesfully set to the hatch with the name specified by vectorFillName.  vectorFillName may retrun with a different name than passed in because there may be a name conflict.
 
+## Examples
+```pascal
+resultOK := SetVectorFillDefault('Example');
+```
+```python
+import vs
+
+# Function SetVectorFillDefault sets the default vector fill pattern for the
+# document.
+vectorFillName = 'Example'
+
+ok = vs.SetVectorFillDefault(vectorFillName)
+if ok:
+    vs.Message('SetVectorFillDefault succeeded')
+else:
+    vs.Message('SetVectorFillDefault failed')
+```
+
 ## Version
 Availability: from MiniCAD7.0.1
 

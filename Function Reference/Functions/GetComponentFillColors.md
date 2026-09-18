@@ -24,6 +24,21 @@ def vs.GetComponentFillColors(obj, componentIndex):
 |fillForeColor|INTEGER|Returns the fore color of the fill.|
 |fillBackColor|INTEGER|Returns the back color of the fill.|
 
+## Examples
+```pascal
+resultOK := GetComponentFillColors(obj, 1, 2, 3);
+```
+```python
+import vs
+
+# Gets the fore and back fill colors of a component in an object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, fillForeColor, fillBackColor = vs.GetComponentFillColors(obj, componentIndex)
+vs.Message('GetComponentFillColors returned: ' + str((ok, fillForeColor, fillBackColor)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentFillColors](SetComponentFillColors.md)

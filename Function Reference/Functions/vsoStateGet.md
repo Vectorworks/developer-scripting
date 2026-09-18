@@ -69,8 +69,34 @@ BEGIN
 
 ```
 
+```pascal
+BEGIN
+	IF ( ( pIsNew = FALSE ) & ( vsoStateGet( objectHandle, kObjectCreated ) = TRUE ) ) THEN
+	BEGIN
+		{ this object is duplicated, mark it illegal }
+		SetRField(objectHandle, objectName, 'IsIllegal', 'True' );
+	END;
+
+			MoveTruss( parmHand );
+		END;
+	END;
+END;
+IF vsoStateGet( parmHand, 13 {kCreatedReset} ) THEN
+BEGIN
+	SetRealValue;
+END;
+
+SetUp;
+{State Changes}
+bParamChanged := (vsoStateGetParamChng(ghParm,ParamChangeWidget,ParamChangeIndex,OldParam));
+gCreated	:= vsoStateGet( ghParm, 13 );
+```
+```python
+result = vs.vsoStateGet(h, state)
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

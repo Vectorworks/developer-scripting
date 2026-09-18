@@ -26,6 +26,21 @@ useClassLStyle:=FLSByClass;
 useClassLStyle = vs.FLSByClass()
 ```
 
+```pascal
+resultOK := FLSByClass;
+```
+```python
+import vs
+
+# Function FLSByClass returns whether the global attributes are set to use
+# the line style of the default class.
+ok = vs.FLSByClass()
+if ok:
+    vs.Message('FLSByClass succeeded')
+else:
+    vs.Message('FLSByClass failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

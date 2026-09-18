@@ -89,6 +89,35 @@ def vs.CreateShaderRecord(texture, family, prototype):
 |family|LONGINT|The kind of shader to create (1 = color, 2 = reflectivity, 3 = transparency, 4 = bump)|
 |prototype|LONGINT|The specific shader within the family (constants depend on the family value).|
 
+## Examples
+```pascal
+BEGIN
+shaderRecord := CreateShaderRecord(TextureHand, 3, 12);
+IF shaderRecord <> NIL THEN
+	BEGIN
+	textureBitmap := CreateTextureBitmapN(shaderRecord);
+	SetTexBitRepHoriz(textureBitmap, FALSE);
+
+ShaderRecHndl2 := CreateShaderRecord(LocImageHandle,2,38);
+
+RecHnd := CreateShaderRecord(BrdrBlckTxtrHnd,1,40);
+Rec2Hnd := CreateShaderRecord(BrdrBlckTxtrHnd,8,1);
+```
+```python
+import vs
+
+# Creates a shader record of the desired family (1 = color, 2 = reflectivity,
+# 3 = transparency, 4 = bump) and prototype (constants depend on family
+# value).
+texture = vs.FSActLayer()  # handle to the first selected object on the active layer
+family = 1
+prototype = 0
+
+recHandle = vs.CreateShaderRecord(texture, family, prototype)
+if recHandle is not None:
+    vs.Message('Created object handle: ' + str(recHandle))
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

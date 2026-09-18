@@ -50,6 +50,26 @@ ok, outValue, iType  = vs.IFC_GetPsetProp(hWall, 'Pset_WallCommon', 'Reference')
 vs.AlrtDialog(outValue + ', ' + str(iType))
 ```
 
+```pascal
+BEGIN
+	IF GetWallStyle(WallHand) <> '' THEN
+		success := IFC_GetPsetProp(GetObject(GetWallStyle(WallHand)), 'Pset_CurtainWallCommon', 'Reference', propertyValue, propertyType)
+	ELSE
+		success := IFC_GetPsetProp(WallHand, 'Pset_CurtainWallCommon', 'Reference', propertyValue, propertyType);
+END
+```
+```python
+import vs
+
+# Gets the value and type of a selected property from a property set.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrPsetName = 'Example'
+inStrPropName = 'Example'
+
+ok, outStrPropValue, outTypeSelect = vs.IFC_GetPsetProp(hObject, inStrPsetName, inStrPropName)
+vs.Message('IFC_GetPsetProp returned: ' + str((ok, outStrPropValue, outTypeSelect)))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

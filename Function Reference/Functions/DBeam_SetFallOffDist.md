@@ -14,6 +14,18 @@ def vs.DBeam_SetFallOffDist(dist):
 |---|---|---|
 |dist|REAL|   |
 
+## Examples
+```pascal
+DBeam_SetFallOffDist(1.0);
+```
+```python
+import vs
+
+dist = 1.0
+
+vs.DBeam_SetFallOffDist(dist)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

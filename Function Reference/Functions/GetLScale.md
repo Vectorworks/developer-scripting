@@ -30,6 +30,38 @@ LayerScale := GetLScale(LayerHandle);
 LayerScale  = vs.GetLScale(vs.ActLayer())
 ```
 
+```pascal
+BEGIN
+	GetUnits(fraction, display, format, upi, name, sqName);
+	halfFont := kHalfFont * upi * GetLScale(ActLayer);
+	tmpAngle := Vec2Ang(segVector);
+	tmpVector := 0.5*segVector;
+	labelVector := -1 * Perp(UnitVec(tmpVector)) * halfFont;
+
+	END
+	ELSE Scaler := GetLScale(ActLayer);
+}
+	IF GetLayer(parmHand) <> NIL THEN
+		Scaler := GetLScale(GetLayer(parmHand))
+	ELSE Scaler := GetLScale(ActLayer);
+
+SetFillBack(lnewobj,0);
+SetLW(lnewobj,0);
+}
+IF GetPref (9) THEN	{zoom line thickness}
+	dx := wid/2 * .001" * GetLScale(ActLayer)
+ELSE dx := 0;
+MoveTo(dx,0);
+LineTo(pLineLength-dx,0);
+SetLSN(lnewobj,2);
+SetLW(lnewobj,wid);
+```
+```python
+layerScale = vs.GetLScale( vs.ActLayer() )
+
+containerScale = vs.GetLScale( containerHandle )
+```
+
 ## Version
 Availability: from All Versions
 

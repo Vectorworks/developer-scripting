@@ -24,6 +24,17 @@ currFillStyle:=FFillPat;
 currFillStyle = vs.FFillPat()
 ```
 
+```pascal
+resultN := FFillPat;
+```
+```python
+import vs
+
+# Function FFillPat returns the current fill pattern setting.
+resultN = vs.FFillPat()
+vs.Message('FFillPat returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from All Versions
 

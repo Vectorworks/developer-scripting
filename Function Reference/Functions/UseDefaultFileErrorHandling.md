@@ -19,6 +19,40 @@ def vs.UseDefaultFileErrorHandling(enable):
 |---|---|---|
 |enable|BOOLEAN|Status of file error dialog usage.|
 
+## Examples
+```pascal
+BEGIN
+	tmpStatus:=TRUE;
+	tmpText:=' ';
+	UseDefaultFileErrorHandling(FALSE);
+	Open(Concat(pathName,fileName));
+	tmpCode:=GetLastFileErr;
+	IF tmpCode<>0 THEN BEGIN
+		tmpStatus:=FALSE;
+
+	UseDefaultFileErrorHandling(FALSE);
+	Append(filename);
+	IsWritable := (GetLastFileErr = 0);
+	Close(filename);
+END;
+
+BEGIN
+	xmlID := InitXML;
+	UseDefaultFileErrorHandling(FALSE);
+	Open(xmlFile);
+	IF GetLastFileErr = 0 THEN BEGIN
+		Close(xmlFile);
+		int := ReadXMLFile(xmlID, -1, xmlFile);
+```
+```python
+import vs
+
+# Enables or disables file I/O alert dialogs.
+enable = True
+
+vs.UseDefaultFileErrorHandling(enable)
+```
+
 ## See Also
 VS Functions:
 [GetLastFileErr](GetLastFileErr.md)

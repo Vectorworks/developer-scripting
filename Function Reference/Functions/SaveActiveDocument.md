@@ -34,6 +34,19 @@ END;
 Run(Test); { _c_ }
 ```
 
+```pascal
+resultN := SaveActiveDocument('file.txt');
+```
+```python
+import vs
+
+# Saves a file with out presenting dialogs.
+filePath = 'C:/Temp'
+
+resultN = vs.SaveActiveDocument(filePath)
+vs.Message('SaveActiveDocument returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

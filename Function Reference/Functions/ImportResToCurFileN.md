@@ -34,7 +34,6 @@ eImportResourceConflictResult_Rename = 2
 
 The callback will be executed only when there are conflicts, and the return value will define how the conflict should be resolved (much like the radio buttons in the dialog) If you want to rename, then change the var parameter with a new unique name, otherwise it will execute the callback again.
 
-
 '''January 23, 2023 Pat Stanford'''
 Per forum discussion with Lada Arsenyuk of Vectorworks, we have determined that ImportRestoCurFileN does a comparison check of the resource you are attempting to import and the resources in the current file. If the resource you are trying to import is an exact duplicate of a resource in the current file, then the resource is not imported and the Callback function is not called. 
 
@@ -66,6 +65,40 @@ BEGIN
     alrtDialog(concat('numRes=', numRes , ' h=', h));
 END;
 RUN(testResCountSymFolders);
+```
+
+```pascal
+BEGIN
+	LocSymbolHandle := ImportResToCurFileN( LocResourceListID , LocCounter, ImportResCallback );
+	bOKToDelete := TRUE;
+END;
+
+BEGIN
+	hImpSpeaker := ImportResToCurFileN( ExtResourceListID , ExtItemCounter, ImportResCallback );
+	SymbolChecker(hImpSpeaker,SpkrUsrType,kSpeakerDataRecord,bSymDataGood,bSymDimsGood,bSymIsHybrid,bIsCeilingSpeaker,bYokeSymbol,bGoodYokeSymData);
+	bLibSymFound := bSymDataGood & bSymDimsGood & bSymIsHybrid;
+END;
+
+BEGIN
+	hImpSpeaker := ImportResToCurFileN( ExtResourceListID , ExtItemCounter, ImportResCallback );
+END;
+```
+```python
+import vs
+
+# Imports the indicated resource from the specified list to the current file,
+# if it is not already in the current file, and returns the handle to the
+# resource.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+listID = 1
+index = 1
+callback = handle_object
+
+objHandle = vs.ImportResToCurFileN(listID, index, callback)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
 ```
 
 ## Version

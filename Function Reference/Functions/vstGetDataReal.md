@@ -22,6 +22,20 @@ def vs.vstGetDataReal(inDataID):
 |outData|REAL|Output parameter.|
 |result|BOOLEAN|Output parameter.|
 
+## Examples
+```pascal
+vstGetDataReal(1, 1.0, TRUE);
+```
+```python
+import vs
+
+# Gets tool data.
+inDataID = 1
+
+outData, result = vs.vstGetDataReal(inDataID)
+vs.Message('vstGetDataReal returned: ' + str((outData, result)))
+```
+
 ## Version
 Availability: from All Versions
 

@@ -47,6 +47,22 @@ rightSlope: Angle of right dormer roof.
 
 overhang: Distance roof projects past dormer walls.
 
+## Examples
+```pascal
+GetGableAttributes(roofObject, 1, TRUE, 1.0, 2.0, 0.5, 1.5, 3.0);
+```
+```python
+import vs
+
+# Procedure GetGableAttributes returns the attributes of a gable dormer in
+# the referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+useHeight, heightDepth, bottomWidth, overhang, leftSlope, rightSlope = vs.GetGableAttributes(roofObject, dormerID)
+vs.Message('GetGableAttributes returned: ' + str((useHeight, heightDepth, bottomWidth, overhang, leftSlope, rightSlope)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

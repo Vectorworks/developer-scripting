@@ -33,6 +33,37 @@ def vs.SetTexMapReal(h, partID, selector, value):
 |selector|INTEGER|   |
 |value|REAL|   |
 
+## Examples
+```pascal
+BEGIN
+    SetDefaultTexMap (slab_h);
+	if openDoor then
+		SetTexMapReal (slab_h,3,4, angOpened )
+	else
+		SetTexMapReal (slab_h,3,4, angClosed);
+
+SetTexMapReal (DummyWholeHandle,kTexturePartID,3,Scaleim*DummyLength/GetObjectVariableREAL(TexObjHan,511));
+
+BEGIN
+	SetTexMapBool (hGoods,kTexturePartID,2,(TRUE));
+	IF NOT (GetBool('Flat3D')) THEN
+			SetTexMapReal (hGoods,kTexturePartID,4,Deg2Rad(-90))
+					ELSE
+				SetTexMapReal (hGoods,kTexturePartID,4,Deg2Rad(-90));
+END
+```
+```python
+import vs
+
+# Set map info for specific part of object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+partID = 1
+selector = 2
+value = 1.0
+
+vs.SetTexMapReal(h, partID, selector, value)
+```
+
 ## See Also
 [GetTexMapReal](GetTexMapReal.md)
 

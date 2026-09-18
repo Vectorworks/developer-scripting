@@ -35,6 +35,39 @@ def Example():
 Example()
 ```
 
+```pascal
+BEGIN
+	SysBeep;
+	createErrorMessage2 (errorText, x0, y0);
+	HRotate (LNewObj, x0, y0, -GetSymRot (pluginH));
+	getData := FALSE;
+END	{of NOT validPathAndFile}
+
+BEGIN
+	getData := FALSE;
+	createErrorMessage2( errorText, kErrMsgTextSize, GetFontID( kErrMsgTextFont ), kErrMsgWidth, gX0, gY0, kBeep );
+	HRotate( LNewObj, gX0, gY0, -GetSymRot( gPluginH ) );
+END
+
+BEGIN
+	SysBeep;
+	createErrorMessage2 (errorText, x0, y0);
+	HRotate (LNewObj, x0, y0, -GetSymRot (pluginH));
+	getData := FALSE;
+END
+```
+```python
+import vs
+
+# Procedure HRotate rotates the referenced object about a coordinate point
+# location.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+center = (0, 0)
+rotationAngle = 45.0
+
+vs.HRotate(h, center, rotationAngle)
+```
+
 ## Version
 Availability: from MiniCAD6.0
 

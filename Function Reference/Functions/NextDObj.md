@@ -32,6 +32,13 @@ END;
 
 ```
 
+```pascal
+resultH := NextDObj(h);
+```
+```python
+result = vs.NextDObj(h)
+```
+
 ## See Also
 Relative calls:
 * [NextObj](NextObj.md) | [PrevObj](PrevObj.md)

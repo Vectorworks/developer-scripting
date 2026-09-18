@@ -36,6 +36,19 @@ See Also GetRoofFaceAttr() for additional roof face data
 ## Examples
 [GetRoofProperties](examples/GetRoofProperties.md)
 
+```pascal
+GetRoofFaceCoords(h, 1.0, 2.0, 0.5, 1.5, 3.0, 1.0, 2.0);
+```
+```python
+import vs
+
+# Returns the coordinates of the defining geometry of a roof face.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+axis1, axis2, Zaxis, upslope = vs.GetRoofFaceCoords(h)
+vs.Message('GetRoofFaceCoords returned: ' + str((axis1, axis2, Zaxis, upslope)))
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

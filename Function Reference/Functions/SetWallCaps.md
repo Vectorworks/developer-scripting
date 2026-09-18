@@ -27,6 +27,26 @@ def vs.SetWallCaps(theWall, leftCap, rightCap, round):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := SetWallCaps(theWall, TRUE, FALSE, TRUE);
+```
+```python
+import vs
+
+# Set the wall's caps.
+theWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+leftCap = True
+rightCap = True
+round = True
+
+ok = vs.SetWallCaps(theWall, leftCap, rightCap, round)
+if ok:
+    vs.Message('SetWallCaps succeeded')
+else:
+    vs.Message('SetWallCaps failed')
+```
+
 ## See Also
 VS Functions:
 [GetWallCaps](GetWallCaps.md)

@@ -14,6 +14,18 @@ def vs.DBeam_SetShowAtPoint(showFlag):
 |---|---|---|
 |showFlag|INTEGER|   |
 
+## Examples
+```pascal
+DBeam_SetShowAtPoint(1);
+```
+```python
+import vs
+
+showFlag = 1
+
+vs.DBeam_SetShowAtPoint(showFlag)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

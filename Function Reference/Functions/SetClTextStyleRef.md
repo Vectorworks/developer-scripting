@@ -20,6 +20,20 @@ def vs.SetClTextStyleRef(className, textStyleRef):
 |className|STRING|Name of class|
 |textStyleRef|LONGINT|text style reference id|
 
+## Examples
+```pascal
+SetClTextStyleRef('Wall', 1);
+```
+```python
+import vs
+
+# Function SetClTextStyleRef sets the text style of the specified class.
+className = 'None'
+textStyleRef = 0
+
+vs.SetClTextStyleRef(className, textStyleRef)
+```
+
 ## See Also
 VS Functions:
 [SetClUseTextStyle](SetClUseTextStyle.md) 

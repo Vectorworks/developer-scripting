@@ -20,6 +20,20 @@ def vs.SetDatumRoofComp(object, datumRoofComponent):
 |object|HANDLE|The object. Can be a roof face, roof, Roof Style, or the Roof Preferences.|
 |datumRoofComponent|INTEGER|The index of the datum roof component.|
 
+## Examples
+```pascal
+SetDatumRoofComp(object, 1);
+```
+```python
+import vs
+
+# Sets the datum roof component of the object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+datumRoofComponent = 1
+
+vs.SetDatumRoofComp(object, datumRoofComponent)
+```
+
 ## See Also
 VS Functions:
 [GetDatumRoofComp](GetDatumRoofComp.md)

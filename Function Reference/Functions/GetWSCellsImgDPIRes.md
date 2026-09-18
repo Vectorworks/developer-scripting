@@ -20,6 +20,19 @@ def vs.GetWSCellsImgDPIRes(worksheet):
 |worksheet|HANDLE|The worksheet handle.|
 |dpiResolution|INTEGER|The images' DPI resolution|
 
+## Examples
+```pascal
+GetWSCellsImgDPIRes(worksheet, 1);
+```
+```python
+import vs
+
+# Gets the DPI resolution for images in the specified worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+
+result = vs.GetWSCellsImgDPIRes(worksheet)
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

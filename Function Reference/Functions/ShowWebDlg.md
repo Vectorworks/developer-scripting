@@ -34,6 +34,21 @@ Python:
 vs.ShowWebDlg('Title', 'www.gooogle.com', 'Close', '')
 ```
 
+```pascal
+ShowWebDlg('Example', 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Display a web view dialog.
+title = 'Example'
+url = 'C:/Temp/example.txt'
+buttonText = 'Example text'
+contextualHelpID = 'Example'
+
+vs.ShowWebDlg(title, url, buttonText, contextualHelpID)
+```
+
 ## Version
 Availability: from Vectorworks 2019
 

@@ -25,6 +25,26 @@ def vs.SetSymBrightMult(symbol, brightnessMultiplier):
 ## Remarks
 This function sets the brightness multiplier used for symbols that contains lights.  This value is a percentage of the symbol definition's light brightness.
 
+## Examples
+```pascal
+	IF rotX > 90 THEN rotX := 90;
+	IF rotX < -90 THEN rotX := -90;
+	SET3DRot(LNewObj,rotX,RotY,RotZ,ipX,ipY,0);
+	Move3DObj(LNewObj,0,0,ipZ);
+	SetSymBrightMult(LNewObj,0);
+END;
+```
+```python
+import vs
+
+# Function SetSymBrightMult sets the brightness multiplier for the referenced
+# symbol.
+symbol = vs.FSActLayer()  # handle to the first selected object on the active layer
+brightnessMultiplier = 1
+
+vs.SetSymBrightMult(symbol, brightnessMultiplier)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -20,6 +20,19 @@ def vs.XMLSAXEndDoc(XMLHandle):
 ## Examples
 [XMLSAXBeginDocFile](XMLSAXBeginDocFile.md).
 
+```pascal
+resultN := XMLSAXEndDoc(1);
+```
+```python
+import vs
+
+# Write XML using SAX, end of a document.
+XMLHandle = 1
+
+resultN = vs.XMLSAXEndDoc(XMLHandle)
+vs.Message('XMLSAXEndDoc returned: ' + str(resultN))
+```
+
 ## See Also
 [InitXML](InitXML.md) | [ReleaseXML](ReleaseXML.md)
 

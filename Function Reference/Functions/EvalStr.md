@@ -39,6 +39,38 @@ dataValue:= EvalStr(handleToObject,('Part Info'.'Serial No.'));
 
 ```
 
+```pascal
+BEGIN
+	CASE GetType(symH) OF
+		16: BEGIN
+			IF (EvalStr(symH, R IN [kLIRecName])=TrueStr) THEN BEGIN
+				curRow:=InsertLBItem(dialogIDIM, kBrowser, GetNumLBItems(dialogIDIM, kBrowser), GetSDName(symH));
+				symCount:=GetNumLBItems(dialogIDIM, kBrowser);
+				ALLOCATE gSymInfoList[1..symCount];
+				gSymInfoList[symCount].LBid:=symCount;
+				gSymInfoList[symCount].han:=symH;
+
+BEGIN
+	CASE GetType(symH) OF
+		16: BEGIN
+			IF (EvalStr(symH, R IN [kLIRecName])=TrueStr) THEN BEGIN
+				typeStr:=GetRField(symH, kLIRecName, kLIPTypeFld);
+				IF typeStr='' THEN typeStr:=GetSDName(symH);
+				IF (gNumInst = 0) | (NOT isInstInList(gInstList, typeStr)) THEN BEGIN
+					gNumInst:=gNumInst+1;
+					ALLOCATE gInstList[1..gNumInst];
+
+BEGIN
+IF (EvalStr(itemHdl, R IN [kLIRecName])=TrueStr) THEN
+	BEGIN {Don't attempt to search for it unless it has the LIR}
+	tempStr := Concat('(NOTINREFDLVP & NOTINDLVP & (PON=''',kIObName,'''))');
+	testCount := SearchForAcc('',symName,tempStr);
+	END;
+```
+```python
+result = vs.EvalStr(h, c)
+```
+
 ## Version
 Availability: from All Versions
 

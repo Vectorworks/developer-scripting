@@ -22,6 +22,21 @@ def vs.SetToolWithMode(toolIndex, modeGroup, modeButton):
 |modeGroup|LONGINT|Index of the mode group.|
 |modeButton|LONGINT|Index of the button in the group.|
 
+## Examples
+```pascal
+SetToolWithMode(1, 2, 3);
+```
+```python
+import vs
+
+# Activates the specified Vectorworks tool for use with specified tool mode.
+toolIndex = 1
+modeGroup = 0
+modeButton = 0
+
+vs.SetToolWithMode(toolIndex, modeGroup, modeButton)
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

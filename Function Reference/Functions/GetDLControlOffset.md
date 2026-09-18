@@ -15,6 +15,18 @@ def vs.GetDLControlOffset():
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultVal := GetDLControlOffset;
+```
+```python
+import vs
+
+# Gets the Double Line Preferences control offset.
+value = vs.GetDLControlOffset()
+vs.Message('GetDLControlOffset returned: ' + str(value))
+```
+
 ## See Also
 VS Functions:
 [SetDLControlOffset](SetDLControlOffset.md)

@@ -24,6 +24,21 @@ def vs.IFC_GetIFCEntity2(hObject):
 |outStrNameRec|STRING|   |
 |outStrNameMap|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_GetIFCEntity2(hObject, 1, 'Example', 'Example');
+```
+```python
+import vs
+
+# Gets the IFC entity type for an object by IFC record and IFC Data Mapping
+# plus the type of the IFC record.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, outType, outStrNameRec, outStrNameMap = vs.IFC_GetIFCEntity2(hObject)
+vs.Message('IFC_GetIFCEntity2 returned: ' + str((ok, outType, outStrNameRec, outStrNameMap)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

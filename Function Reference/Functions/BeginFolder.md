@@ -49,6 +49,17 @@ vs.EndSym()
 vs.EndFolder()
 ```
 
+```pascal
+BeginFolder;
+```
+```python
+import vs
+
+# Procedure BeginFolder creates a new symbol folder in a VectorWorks document.
+vs.BeginFolder()
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from All Versions
 

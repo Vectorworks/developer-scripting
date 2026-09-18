@@ -66,6 +66,42 @@ def Example():
 Example()
 ```
 
+```pascal
+done := TRUE;
+for cnt1 := 1 to wall_cnt do BEGIN
+	for cnt2 := (cnt1 + 1) to wall_cnt do BEGIN
+		if cnt2 <= wall_cnt then BEGIN
+			temp_h := AddSurface(walls[cnt1], walls[cnt2]);
+			if temp_h <> nil then BEGIN
+				walls[cnt1] := temp_h;
+				for cnt3 := cnt2 to wall_cnt DO walls[cnt3] := walls[cnt3+1];
+				wall_cnt := wall_cnt - 1;
+
+Oval(-.5 * Scale, .375 * Scale, .5 * Scale, .125 * Scale);
+h1 := LNewObj;
+Rect(-.5 * Scale, .25 * Scale, .5 * Scale, -.25 * Scale);
+h2 := LNewObj;
+h1 := AddSurface(h1, h2);
+Oval(-.5 * Scale, -.125 * Scale, .5 * Scale, -.375 * Scale);
+h2 := LNewObj;
+h1 := AddSurface(h1, h2);
+Oval(-.5 * Scale, .375 * Scale, .5 * Scale, .125 * Scale);
+
+Rect (-f*x [1], 0, f*x[1], f*f1*y [2]);
+h2 := LNewObj;
+h1 := AddSurface (h1, h2);
+```
+```python
+import vs
+
+# Creates a new surface object by combining the two referenced surface objects.
+s1 = vs.FSActLayer()  # handle to the first selected object on the active layer
+s2 = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+objHandle = vs.AddSurface(s1, s2)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
 
 ## See Also
 VS Functions:

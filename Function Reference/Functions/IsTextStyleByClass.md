@@ -18,6 +18,24 @@ def vs.IsTextStyleByClass(objectId):
 |---|---|---|
 |objectId|HANDLE|handle to object|
 
+## Examples
+```pascal
+resultOK := IsTextStyleByClass(objectId);
+```
+```python
+import vs
+
+# Procedure IsTextStyleByClass returns whether the class text style is used
+# for the referenced object.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IsTextStyleByClass(objectId)
+if ok:
+    vs.Message('IsTextStyleByClass succeeded')
+else:
+    vs.Message('IsTextStyleByClass failed')
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

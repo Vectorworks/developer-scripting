@@ -20,6 +20,22 @@ def vs.DBSQLExecuteNext(resultSetInst):
 ## Examples
 [DBSQLExecuteDSN](DBSQLExecuteDSN.md)
 
+```pascal
+resultOK := DBSQLExecuteNext(1);
+```
+```python
+import vs
+
+# Moves the resultSet current pointer to the next entry.
+resultSetInst = 1
+
+ok = vs.DBSQLExecuteNext(resultSetInst)
+if ok:
+    vs.Message('DBSQLExecuteNext succeeded')
+else:
+    vs.Message('DBSQLExecuteNext failed')
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

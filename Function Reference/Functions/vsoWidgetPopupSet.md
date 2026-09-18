@@ -24,6 +24,22 @@ def vs.vsoWidgetPopupSet(widgetID, index, id, text):
 |id|STRING|The id of the item. (Can be the same as outText)|
 |text|STRING|The text of the item|
 
+## Examples
+```pascal
+vsoWidgetPopupSet(1, 2, 'Example', 'Example');
+```
+```python
+import vs
+
+# Sets the value of a choice in a popup widget.
+widgetID = 1
+index = 1
+id = 'Example'
+text = 'Example text'
+
+vs.vsoWidgetPopupSet(widgetID, index, id, text)
+```
+
 ## Version
 Availability: from All Versions
 

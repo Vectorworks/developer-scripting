@@ -17,6 +17,20 @@ def vs.Space_GetGrossVolume(space):
 |---|---|---|
 |space|HANDLE|   |
 
+## Examples
+```pascal
+resultVal := Space_GetGrossVolume(space);
+```
+```python
+import vs
+
+# Returns gross volume of given space object.
+space = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vol = vs.Space_GetGrossVolume(space)
+vs.Message('Space_GetGrossVolume returned: ' + str(vol))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

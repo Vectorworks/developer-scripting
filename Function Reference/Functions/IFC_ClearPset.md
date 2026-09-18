@@ -42,6 +42,23 @@ hObject = vs.FSActLayer()
 ok = vs.IFC_ClearPset(hObject, 'PSet_WallCommon')
 ```
 
+```pascal
+resultOK := IFC_ClearPset(hObject, 'Example');
+```
+```python
+import vs
+
+# Removes a Property Set from the object's attached Ifc Record.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+inStrPsetName = 'Example'
+
+ok = vs.IFC_ClearPset(hObject, inStrPsetName)
+if ok:
+    vs.Message('IFC_ClearPset succeeded')
+else:
+    vs.Message('IFC_ClearPset failed')
+```
+
 ## Version
 Available from: Vectorworks 2016
 

@@ -17,6 +17,23 @@ def vs.GetClOpacity(className):
 |---|---|---|
 |className|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+	objectClass := GetClass(gTempH);
+	shadowOpacity := GetClOpacity(objectClass);
+END;
+```
+```python
+import vs
+
+# Gets the opacity of the specified class.
+className = 'None'
+
+resultN = vs.GetClOpacity(className)
+vs.Message('GetClOpacity returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

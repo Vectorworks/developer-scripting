@@ -52,6 +52,22 @@ outType	= -1
 ok	= vs.IFC_GetPsetInfoAt(hObject, True, 0, outName, outType)
 ```
 
+```pascal
+resultOK := IFC_GetPsetInfoAt(hObject, TRUE, 1, 'Example', 2);
+```
+```python
+import vs
+
+# Returns the property set name, if it is attached and where from (mapping or
+# record).
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+bAllPsets = True
+index = 1
+
+ok, outIfcPsetName, outType = vs.IFC_GetPsetInfoAt(hObject, bAllPsets, index)
+vs.Message('IFC_GetPsetInfoAt returned: ' + str((ok, outIfcPsetName, outType)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

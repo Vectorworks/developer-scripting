@@ -54,6 +54,45 @@ See also Get SymbolOptions
 
 The className should specify the name of a class that exists in the parent document. After a class is set, all instances of this symbol will be marked as members of the class.
 
+## Examples
+```pascal
+{SetName(NewSymHand,NewSymName);}
+TransferData(TempHand,NewSymHand);
+	LecSymName := NewSymName;
+SetAttributes(NewSymHand);
+SetSymbolOptionsN(NewSymName,0,4,ClassName);
+SetObjectVariableBoolean(NewSymHand,127,FALSE);
+SetObjectVariableBoolean(NewSymHand,129,FALSE);
+if isTempRsource then DelObject(TempHand);
+ResetObject(NewSymHand);
+
+BEGIN
+ SetSymbolOptionsN(NewSymName,0,4,ClassName);
+ SetObjectVariableBoolean(NewSymHand,127,FALSE);
+ SetObjectVariableBoolean(NewSymHand,129,FALSE);
+ DuplicateChildSymbols := NewSymHand;
+ SetAttributes(NewSymHand,OdjClassID,TextureName,FillColor,PenColor);
+
+		FillBack(43690,43690,43690);
+		Rect(1.4375",0.025",1.8125",-0.025");
+	EndSym;
+	InsertSymbolInFolder(gTheaTypesFolderHan, GetObject(GetPlugInString(13023)));
+	SetSymbolOptionsN(GetPlugInString(13023),0,1,gNoneClassName);
+END;
+```
+```python
+import vs
+
+# Sets the default class, insert options, and break options for the specified
+# symbol.
+name = 'Example'
+insertMode = 0
+breakMode = 0
+className = 'None'
+
+vs.SetSymbolOptionsN(name, insertMode, breakMode, className)
+```
+
 ## Version
 Availability: from VectorWorks 8.5
 

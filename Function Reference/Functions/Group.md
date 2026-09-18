@@ -28,6 +28,16 @@ vs.Group()
 #{groups the most recently created objects}
 ```
 
+```pascal
+Group;
+```
+```python
+import vs
+
+# Procedures Group groups selected objects in a VectorWorks document.
+vs.Group()
+```
+
 ## Version
 Availability: from All Versions
 

@@ -61,6 +61,29 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	Rect (-p/2, -(c - g/2), p/2, -ds2);
+	objH3 := LNewObj;
+	objH2 := IntersectSurface (objH1, objH3);
+	DelObject (objH3);
+END;
+
+BEGIN
+	LastClippedObjHand := IntersectSurface( pioParentVPCropHand, PolyHand );
+	SetClass( LastClippedObjHand, GetClass( pioHand ) );
+	MatchObjAttsProc( LastClippedObjHand, PolyHand );
+	IF ( PolyHand <> NIL ) THEN DelObject( PolyHand );
+END;
+
+CutPlanePolyHand := IntersectSurface( BaseObjHand, TempPolyHand );
+SetClass( CutPlanePolyHand, GetClass( pioHand ) );
+CutGridLineHand := NextObj( TempPolyHand );
+```
+```python
+result = vs.IntersectSurface(s1, s2)
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

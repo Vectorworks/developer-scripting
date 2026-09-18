@@ -49,6 +49,41 @@ RUN(Example);
 
 ```
 
+```pascal
+		temp_pt := pt2;
+		pt2 := pt3;
+		pt3 := temp_pt;
+	END;
+	RoundWall(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
+	PolyPoints[I].h := LNewObj;
+	IF PolyPoints[I].sweepAng > 0 THEN ReverseWallSides(PolyPoints[I].h);
+END
+
+	{swap beg and end point values}
+	temp_v := Walls[1].beg_pt;Walls[1].beg_pt := Walls[1].END_pt;Walls[1].END_pt := temp_v;
+END;
+{create temp wall just to take the needed parameters}
+RoundWall(Walls[1].center.x, Walls[1].center.y,
+		Walls[1].beg_pt.x, Walls[1].beg_pt.y,
+		Walls[1].END_pt.x, Walls[1].END_pt.y);
+GetArcAll(LNewObj, temp_v, startAng, sweepAng, radius);
+DelObject(LNewObj);
+Walls[1].startAng := startAng;
+Walls[1].sweepAng := sweepAng;
+
+		temp_pt := pt2;
+		pt2     := pt3;
+		pt3     := temp_pt;
+	END;
+	RoundWall(pt1.x, pt1.y, pt2.x, pt2.y, pt3.x, pt3.y);
+	walls[cnt].h := LNewObj;
+	IF walls[cnt].sweepAng > 0 THEN ReverseWallSides(walls[cnt].h);
+END;
+```
+```python
+vs.RoundWall((0, 0), (0, 0), (0, 0))
+```
+
 ## See Also
 VS Functions:
 [Wall](Wall.md)

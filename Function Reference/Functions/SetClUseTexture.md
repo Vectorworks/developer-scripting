@@ -35,6 +35,30 @@ SetClUseTexture('Proposed Roof',TRUE);
 
 ```
 
+```pascal
+		{Cannot create class _____; an object of type ____ with that name already exists.}
+end else BEGIN
+	NameClass(className);
+	SetClUseGraphic(className, TRUE);
+	SetClUseTexture(className, TRUE);
+END;
+
+		{Cannot create class _____; an object of that name already exists.}
+end else BEGIN
+	NameClass(className);
+	SetClUseGraphic(className, TRUE);
+	SetClUseTexture(className, TRUE);
+END;
+
+SetClUseTexture ((LocClassToApply),FALSE);
+```
+```python
+# Cannot create class _____; an object of type ____ with that name already exists.
+vs.NameClass( className )
+vs.SetClUseGraphic( className, True )
+vs.SetClUseTexture( className, True )
+```
+
 ## See Also
 VS Functions:
 [GetClUseTexture](GetClUseTexture.md)

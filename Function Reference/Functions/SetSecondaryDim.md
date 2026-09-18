@@ -43,6 +43,13 @@ SetSecondaryDim(dimHd,TRUE,FALSE,'Approx.','',64);
 
 ```
 
+```pascal
+SetSecondaryDim(h, TRUE, FALSE, 'Example', 'Example', 1);
+```
+```python
+vs.SetSecondaryDim(h, True, 'Example', leader, trailer, False)
+```
+
 ## Version
 Availability: from MiniCAD7.0
 

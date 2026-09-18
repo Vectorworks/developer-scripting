@@ -20,6 +20,21 @@ def vs.SetTextStyleRef(objectId, textStyleRef):
 |objectId|HANDLE|handle to object|
 |textStyleRef|LONGINT|text style reference id|
 
+## Examples
+```pascal
+SetTextStyleRef(objectId, 1);
+```
+```python
+import vs
+
+# Procedure SetTextStyleRef sets the text style of an object to the
+# referenced style.
+objectId = vs.FSActLayer()  # handle to the first selected object on the active layer
+textStyleRef = 0
+
+vs.SetTextStyleRef(objectId, textStyleRef)
+```
+
 ## See Also
 VS Functions:
 [SetTextStyleRef](SetTextStyleRef.md) 

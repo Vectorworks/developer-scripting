@@ -27,6 +27,30 @@ Note that this procedure won't give back any information unless the tool is even
 
 ![RmTestTool.vst](files/RmTestTool.vst.jpg)
 
+## Examples
+```pascal
+vstGetEventInfo (eventID, modeGroup, modeButton);
+CASE eventID OF
+
+BEGIN
+	vstGetEventInfo( eventID, modeGroup, modeButton );
+	CASE eventID OF
+		kToolPointAddedID:
+		BEGIN
+			vstNumPts( numPts );
+
+BEGIN
+	vstGetEventInfo(eventID, modeGroup, modeButton);
+	CASE eventID OF
+```
+```python
+import vs
+
+# Gets the info on the current tool event.
+outAction, outMessage1, outMessage2 = vs.vstGetEventInfo()
+vs.Message('vstGetEventInfo returned: ' + str((outAction, outMessage1, outMessage2)))
+```
+
 ## Version
 Availability: from All Versions
 

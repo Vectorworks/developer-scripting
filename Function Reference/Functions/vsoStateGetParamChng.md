@@ -84,8 +84,39 @@ BEGIN
 
 ```
 
+```pascal
+BEGIN {Main}
+	IF SetUpObject(parmName, parmHand, parmRecordHand, wallHand, saveClass, noneClass) THEN BEGIN
+	    bsb := vsoStateGetParamChng(parmHand, widgetID, index, oldVal);
+	    bUseSoundVWPref := GetPref(18);
+		IF GetPluginString (3001) <> '' THEN AutoClass (parmHand, GetPluginString (3001));
+		bVersion22 := ( p__Version >= 2200 ) | ((p__Version = 0) & (IsNewCustomObject(parmName))) ;
+
+BEGIN
+	IF vsoStateGetParamChng( gPluginH, widgetID, parmIdx, oldValue ) THEN
+	BEGIN
+		paramName := GetFldName( recHand, parmIdx );
+		IF paramName = 'OA Height' THEN
+		BEGIN
+			result := GetObjStoryBound( gPluginH, kTopBoundArchitID, boundType, boundStory, layerLevelType, tempOffset );
+			SetObjectStoryBound( gPluginH, kTopBoundArchitID, boundType, boundStory, layerLevelType, tempOffset + ( pOA_Height - ( str2num( oldValue ) * GetPrefReal(152) / 25.4 ) ) );
+
+BEGIN
+	Status := vsoStateGetParamChng( pluginH, widgID, outPrmIndx, outOldVal );
+	IF ( NOT Status ) THEN
+	BEGIN
+		SetBubbleBoundsPt;
+		GetClosestPolygonPt(hPathObj, bubbleBoundsPt, polyNearestPt);
+```
+```python
+paramChangeFlag, paramChangeWidget, paramChangeIndex, oldParam = vs.vsoStateGetParamChng( gObjHandle );
+if paramChangeFlag:
+	if ( paramChangeWidget == -1 ) and ( paramChangeIndex == kControlPointMove ):
+		vs.SetRField( gObjHandle, gObjName, kNNA_ControlPtsSet, 'True' )
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

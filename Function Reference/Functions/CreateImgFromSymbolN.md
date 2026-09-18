@@ -70,6 +70,28 @@ def vs.CreateImgFromSymbolN(symbolName, width, height, margin, renderMode, view,
 |view|INTEGER|The standard view in which to display the symbol.|
 |component|INTEGER|Image component to use.|
 
+## Examples
+```pascal
+resultH := CreateImgFromSymbolN('Example', 1, 2, 3, 10, 5, 1);
+```
+```python
+import vs
+
+# Creates an image from the specified symbol in the specified rendering mode
+# and view, and uses the specified component of the image.
+symbolName = 'MySymbol'
+width = 1
+height = 2
+margin = 3
+renderMode = 0
+view = 10
+component = 1
+
+symHandle = vs.CreateImgFromSymbolN(symbolName, width, height, margin, renderMode, view, component)
+if symHandle is not None:
+    vs.Message('Created object handle: ' + str(symHandle))
+```
+
 ## See Also
 VS Functions:
 [CreateImgFromSymbol](CreateImgFromSymbol.md)

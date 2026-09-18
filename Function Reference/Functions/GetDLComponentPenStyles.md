@@ -25,6 +25,21 @@ def vs.GetDLComponentPenStyles(index):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := GetDLComponentPenStyles(1, 2, 3);
+```
+```python
+import vs
+
+# Gets the left and right side pen styles of the component at index in the
+# Double Line Preferences.
+index = 1
+
+ok, penStyleLeft, penStyleRight = vs.GetDLComponentPenStyles(index)
+vs.Message('GetDLComponentPenStyles returned: ' + str((ok, penStyleLeft, penStyleRight)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentPenStyles](SetDLComponentPenStyles.md)

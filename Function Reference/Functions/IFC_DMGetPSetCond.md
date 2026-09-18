@@ -24,6 +24,22 @@ def vs.IFC_DMGetPSetCond(strObjectName, strEntryName, psetIndex):
 |psetIndex|INTEGER|   |
 |outStrPSetCondition|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMGetPSetCond('Example', 'Example', 1, 'Example');
+```
+```python
+import vs
+
+# Returns the Condition for Mapped IfcEntity's Property Set IFC Data Mapping.
+strObjectName = 'Example'
+strEntryName = 'Example'
+psetIndex = 1
+
+ok, outStrPSetCondition = vs.IFC_DMGetPSetCond(strObjectName, strEntryName, psetIndex)
+vs.Message('IFC_DMGetPSetCond returned: ' + str((ok, outStrPSetCondition)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

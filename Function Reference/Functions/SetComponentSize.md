@@ -25,6 +25,31 @@ def vs.SetComponentSize(nDialogID, nComponentID, nWidthPixels, nHeightPixels):
 |nWidthPixels|INTEGER|   |
 |nHeightPixels|INTEGER|   |
 
+## Examples
+```pascal
+BEGIN
+	fieldH:=30;
+	GetItemText(dialogID, itemID, choiceStr);
+	IF Len(choiceStr)>0 THEN fieldW:=LB_WidthInPixels(Len(choiceStr))+100;
+	boo:=SetComponentSize(dialogID, itemID, fieldW, fieldH);
+END;
+```
+```python
+import vs
+
+# Sets the width and height of the specified Layout Manager component in pixels.
+nDialogID = 1
+nComponentID = 2
+nWidthPixels = 3
+nHeightPixels = 10
+
+ok = vs.SetComponentSize(nDialogID, nComponentID, nWidthPixels, nHeightPixels)
+if ok:
+    vs.Message('SetComponentSize succeeded')
+else:
+    vs.Message('SetComponentSize failed')
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

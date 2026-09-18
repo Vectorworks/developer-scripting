@@ -20,6 +20,20 @@ def vs.Space_AddZone(zoneType, zoneName):
 |zoneType|STRING|   |
 |zoneName|STRING|   |
 
+## Examples
+```pascal
+Space_AddZone('Example', 'Example');
+```
+```python
+import vs
+
+# Add a new Zone for the Space Object.
+zoneType = 'Example'
+zoneName = 'Example'
+
+vs.Space_AddZone(zoneType, zoneName)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

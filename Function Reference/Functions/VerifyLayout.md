@@ -36,6 +36,23 @@ END;
 
 ```
 
+```pascal
+dialogID := define_MainDialog;
+dialogOK := VerifyLayout (dialogID);
+exitState := RunNamedDialog (dialogID, getInfo_Main, 'ArcBySegLength');
+
+BEGIN
+	dialogID := defineDialog_Main;
+	dialogOK := VerifyLayout (dialogID);
+	exitState := RunNamedDialog (dialogID, displayDialog, 'ArcIntoSegments');
+
+dialogID := defineDialog_Main;
+dialogOK := VerifyLayout (dialogID);
+```
+```python
+result = vs.VerifyLayout(dialogID)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

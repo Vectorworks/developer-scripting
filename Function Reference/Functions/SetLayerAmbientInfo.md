@@ -25,6 +25,22 @@ def vs.SetLayerAmbientInfo(layer, isOn, brightness):
 ## Remarks
 brightness is a percentage value
 
+## Examples
+```pascal
+SetLayerAmbientInfo(layer, TRUE, 1);
+```
+```python
+import vs
+
+# Procedure SetLayerAmbientInfo sets the attribute values for the ambient
+# light object of the referenced layer.
+layer = vs.ActLayer()  # handle to the active design layer
+isOn = True
+brightness = 1
+
+vs.SetLayerAmbientInfo(layer, isOn, brightness)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

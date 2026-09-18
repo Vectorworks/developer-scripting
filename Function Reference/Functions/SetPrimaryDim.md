@@ -43,6 +43,13 @@ SetPrimaryDim(dimHd,TRUE,FALSE,'Approx.','',64);
 
 ```
 
+```pascal
+SetPrimaryDim(h, TRUE, FALSE, 'Example', 'Example', 1);
+```
+```python
+vs.SetPrimaryDim(h, True, 'Example', leader, trailer, False)
+```
+
 ## Version
 Availability: from MiniCAD7.0
 

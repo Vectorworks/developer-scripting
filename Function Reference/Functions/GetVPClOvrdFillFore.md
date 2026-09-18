@@ -26,6 +26,21 @@ def vs.GetVPClOvrdFillFore(viewportHandle, className):
 |colorGV|LONGINT|Green color value.|
 |colorBV|LONGINT|Blue color value.|
 
+## Examples
+```pascal
+GetVPClOvrdFillFore(viewportHandle, 'Wall', 1, 2, 3);
+```
+```python
+import vs
+
+# Fetches the fill foreground color of the class override.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+
+colorRV, colorGV, colorBV = vs.GetVPClOvrdFillFore(viewportHandle, className)
+vs.Message('GetVPClOvrdFillFore returned: ' + str((colorRV, colorGV, colorBV)))
+```
+
 ## See Also
 VS Functions:
 [SetVPClOvrdFillFore](SetVPClOvrdFillFore.md)

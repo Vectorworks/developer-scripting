@@ -62,9 +62,31 @@ RUN(SetObjArrowValues);
 
 ```
 
+```pascal
+Lin(begWit, endWit); SetPenFore(LNewObj, 65535, 0, 0);
+begWit := begPt + (Perp(tmpUnitVec) * 12");
+endWit := endPt + (Perp(tmpUnitVec) * 12");
+Lin(begWit, endWit); SetPenFore(LNewObj, 65535, 0, 0);
+SetObjArrow(LNewObj, 0, .125, 25, TRUE, TRUE);
+CreateText(text);
+
+MoveTo( 0, 0 );
+LineTo( ControlPoint_01.x, ControlPoint_01.y );
+SetPenFore(LNewObj, 65535, 0, 0);
+IF pInteriorCorner
+	THEN SetObjArrow( LNewObj, 0, 0.15, 15, TRUE, FALSE )
+	ELSE SetObjArrow( LNewObj, 0, 0.15, 15, FALSE, TRUE );
+
+MoveTo(vDimLineStart.x,vDimLineStart.y);
+LineTo(vDimLineEnd.x,vDimLineEnd.y);
+SetObjArrow (LNewObj,0,(P__ArrowSize/upi),13,TRUE,TRUE);
+```
+```python
+vs.SetObjArrow(obj, style, 1.0, 2.0, start, end)
+```
+
 ## Version
 SetObjArrow is obsolete as of VectorWorks13.0<P>
-
 
 Availability: from VectorWorks10.0
 

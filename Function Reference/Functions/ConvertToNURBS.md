@@ -26,6 +26,34 @@ def vs.ConvertToNURBS(h, keepOrig):
 ## Examples
 [NURBSObject](examples/NURBSObject.md)
 
+```pascal
+BEGIN
+	z := z + deltaZ;
+	SetPlanarRefIDToGround(curveHand [cnt]);
+	nurbsHand [cnt] := ConvertToNURBS(curveHand [cnt], FALSE);
+	Move3DObj(nurbsHand [cnt], 0, 0, z);
+END;
+
+OpenPoly;
+BeginPoly3D;
+	Draw3D( Elev1, Offset, 1 );
+EndPoly3D;
+hCurve := ConvertToNURBS( LNewObj, FALSE );
+
+	{ convert to NURBS curve. }
+	hCurve := ConvertToNURBS( LNewObj, FALSE );
+END;
+```
+```python
+		DrawRoadway( r1, sweep2D, w )
+	vs.SetZVals( zVal, deltaZVal )
+vs.EndGroup()
+tempHand = vs.ConvertToNURBS( vs.LNewObj(), False )
+SetAttrsByClassOrParent( tempHand, gObjHandle, gPaving_Class )
+#vs.SetSelect( gObjHandle )
+DrawRoadway( r1, sweep2D, w )
+```
+
 ## Version
 Availability: from VectorWorks 10.0
 

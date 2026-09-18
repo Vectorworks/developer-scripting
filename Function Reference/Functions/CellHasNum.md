@@ -22,6 +22,26 @@ def vs.CellHasNum(h, row, col):
 |row|INTEGER|Worksheet row index.|
 |col|INTEGER|Worksheet column index.|
 
+## Examples
+```pascal
+resultOK := CellHasNum(h, 1, 2);
+```
+```python
+import vs
+
+# Function CellHasNum returns TRUE if the specified cell of a referenced
+# worksheet contains a value or an equation which returns a numeric value.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+row = 10
+col = 5
+
+ok = vs.CellHasNum(h, row, col)
+if ok:
+    vs.Message('CellHasNum succeeded')
+else:
+    vs.Message('CellHasNum failed')
+```
+
 ## See Also
 [IsWSCellNumber](IsWSCellNumber.md), [IsWSSubrowCellNumber](IsWSSubrowCellNumber.md)
 

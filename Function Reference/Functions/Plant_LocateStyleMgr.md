@@ -17,9 +17,22 @@ def vs.Plant_LocateStyleMgr(plant):
 |---|---|---|
 |plant|HANDLE||
 
+## Examples
+```pascal
+Plant_LocateStyleMgr(plant);
+```
+```python
+import vs
+
+# Locate the selected plant's style in the Plant Style Manager, and make the
+# palette visible.
+plant = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.Plant_LocateStyleMgr(plant)
+```
+
 ## Version
 Availability: from Vectorworks 2026
 
 ## Category
-* [PlantObjectCoreTools](Categories/PlantObjectCoreTools.md)
-
+* [PlantObjectCoreTools](../Categories/PlantObjectCoreTools.md)

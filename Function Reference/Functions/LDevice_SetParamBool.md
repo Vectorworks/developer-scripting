@@ -27,6 +27,24 @@ def vs.LDevice_SetParamBool(handle, cellIndex, accessoryIndex, universalName, ne
 |universalName|STRING|   |
 |newValue|BOOLEAN|   |
 
+## Examples
+```pascal
+LDevice_SetParamBool(handle, 1, 2, 'Example', TRUE);
+```
+```python
+import vs
+
+# Set boolean parameter of a Lighting Device or attached Accessory by
+# Worksheet Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+newValue = True
+
+vs.LDevice_SetParamBool(handle, cellIndex, accessoryIndex, universalName, newValue)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

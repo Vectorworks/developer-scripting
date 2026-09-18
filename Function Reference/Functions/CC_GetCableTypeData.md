@@ -21,9 +21,23 @@ def vs.CC_GetCableTypeData(cable_type, col_index):
 |cable_type|STRING||
 |col_index|INTEGER||
 
+## Examples
+```pascal
+resultStr := CC_GetCableTypeData('Example', 1);
+```
+```python
+import vs
+
+# Returns the entry in the cable types table for a given cable type.
+cable_type = 'Example'
+col_index = 1
+
+text = vs.CC_GetCableTypeData(cable_type, col_index)
+vs.Message('CC_GetCableTypeData returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2025.2
 
 ## Category
 * [ConnectCAD](../Categories/ConnectCAD.md)
-

@@ -72,6 +72,27 @@ RUN(dialogID_Main);
 
 ```
 
+```pascal
+	{show Continuous Spacing}
+	ShowItem(dialogID, 9, pshowContinuousSp);
+END;
+
+BEGIN
+	EnableItem(dlogID, 10, (gNumSelObjs > 0));
+	If Not GetObjectVariableBoolean(gUserPathHan,1160) then EnableItem(dlogID, 10, FALSE);
+	ShowItem(dlogID, 10, TRUE);
+END
+
+AddChoice(dlogID,  kFileTypePopUp,  GetPluginString(4034),  0);{add Excel to the pop-up}
+FOR i := 1 to 2 DO AddChoice(dlogID,  kFileTypePopUp,  GetPluginString(4011+i),  i);
+SelectChoice(dlogID, kFileTypePopUp, gFileType, TRUE);
+ShowItem(dlogID, kDelimiterChLbl, FALSE);
+ShowItem(dlogID, kDelimiterChValue, FALSE);
+```
+```python
+vs.ShowItem(dialogID, item, True)
+```
+
 ## Version
 Availability: from VectorWorks11.5
 

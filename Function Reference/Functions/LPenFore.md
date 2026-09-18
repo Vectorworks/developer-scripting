@@ -22,6 +22,19 @@ Sets the foreground pen color for the active layer.
 
 [sd 8/14/98]
 
+## Examples
+```pascal
+LPenFore(1);
+```
+```python
+import vs
+
+# Procedure LPenFore sets the foreground pen color for the active layer.
+color = 5
+
+vs.LPenFore(color)
+```
+
 ## Version
 Availability: from All Versions
 

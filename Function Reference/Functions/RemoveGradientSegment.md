@@ -31,6 +31,13 @@ RemoveGradientSegment (gradientHandle, 4);
 
 ```
 
+```pascal
+RemoveGradientSegment(gradient, 1);
+```
+```python
+vs.RemoveGradientSegment(gradient, 1)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

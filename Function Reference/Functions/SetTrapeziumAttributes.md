@@ -68,6 +68,13 @@ SetDormerThick(roofHandle, 2&quot;,1.83333&quot;);
 
 ```
 
+```pascal
+SetTrapeziumAttributes(roofObject, 1, TRUE, 1.0, 2.0, FALSE, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+vs.SetTrapeziumAttributes(roofObject, dormerID, 1.0, 2.0, 0.5, 1.0, 2.0, 0.5, 1.0, 2.0)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

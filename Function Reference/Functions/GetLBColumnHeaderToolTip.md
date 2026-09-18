@@ -26,6 +26,22 @@ def vs.GetLBColumnHeaderToolTip(dialogID, componentID, columnIndex):
 |toolTipPrimaryText|STRING|the primary tooltip text|
 |toolTipSubText|STRING|the sub tooltip text displayed when the user the command (Mac) or shift (Win) button|
 
+## Examples
+```pascal
+resultOK := GetLBColumnHeaderToolTip(1, 2, 3, 'Example', 'Example');
+```
+```python
+import vs
+
+# Gets the list browser column header's tooltip text.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+
+ok, toolTipPrimaryText, toolTipSubText = vs.GetLBColumnHeaderToolTip(dialogID, componentID, columnIndex)
+vs.Message('GetLBColumnHeaderToolTip returned: ' + str((ok, toolTipPrimaryText, toolTipSubText)))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

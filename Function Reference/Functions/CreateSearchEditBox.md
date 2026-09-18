@@ -42,6 +42,22 @@ END;
 RUN(Example);
 ```
 
+```pascal
+CreateSearchEditBox(1, 2, 'Example', 3);
+```
+```python
+import vs
+
+# Creates a search field control in a dialog layout.
+dialogID = 1
+itemID = 2
+promptText = 'Hello Vectorworks'
+widthInStdChar = 3
+
+vs.CreateSearchEditBox(dialogID, itemID, promptText, widthInStdChar)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## See Also
 VS Functions:
 [GetDlgCtrlWidthStdCh](GetDlgCtrlWidthStdCh.md)

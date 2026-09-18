@@ -25,6 +25,33 @@ def vs.LDevice_GetParamStr(handle, cellIndex, accessoryIndex, universalName):
 |accessoryIndex|LONGINT|   |
 |universalName|STRING|   |
 
+## Examples
+```pascal
+BEGIN
+	lightingDeviceLabel := LDevice_GetParamStr(h, cellIndx, accIndx, 'Use Legend');
+	IF (lightingDeviceLabel <> 'None') AND (NOT LabelExists(lightingDeviceLabel)) THEN
+	BEGIN
+		needsLabelReset := TRUE;
+		counterInner 	:= accCountCell;
+
+BEGIN
+IF LDevice_GetParamStr(H,i,k,kIObType) = instType then outCount := outCount+1;
+END
+```
+```python
+import vs
+
+# Get string parameter of a Lighting Device or attached Accessory by
+# Worksheet Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+
+text = vs.LDevice_GetParamStr(handle, cellIndex, accessoryIndex, universalName)
+vs.Message('LDevice_GetParamStr returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

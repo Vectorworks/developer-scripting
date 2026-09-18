@@ -52,6 +52,38 @@ RUN(Example);
 
 ```
 
+```pascal
+END;
+Arc(-rad,-rad,rad,rad,90-angle,angle);
+{SetArrow(LNewObj, 0, .1, 30, (pArrows=kCSStrDown), (pArrows <> kCSStrDown));}
+BSB := SetObjBeginningMarker(LNewObj,0,30,.1,0,2,2,(pArrows=kCSStrDown));
+BSB := SetObjEndMarker(LNewObj,0,30,.1,0,2,2,(pArrows <> kCSStrDown));
+SetFPat(LNewObj,0);
+angle:=angle*PI/(2*180);
+Moveto(Sin(angle)*rad,cos(angle)*rad);
+CreateText(anno);
+
+	begArrow := ((pArrows = 'Start') | (pArrows = 'Both'));
+	endArrow := ((pArrows = 'End')   | (pArrows = 'Both'));
+	{SetArrow(h1, arrowIndex, pArrow_Size / GetPrefReal(152), pArrow_Angle, begArrow, endArrow);}
+	BSB := SetObjBeginningMarker(h1,arrowIndex,pArrow_Angle,pArrow_Size / GetPrefReal(152),Width,thicknessBasis,thickness,begArrow);
+	BSB := SetObjEndMarker(h1,arrowIndex,pArrow_Angle,pArrow_Size / GetPrefReal(152),Width,thicknessBasis,thickness,endArrow);
+END;
+
+BEGIN
+	MoveTo( startPoint.x, startPoint.y );
+	LineTo( endPoint.x, endPoint.y );
+	BSB := SetObjBeginningMarker( LNewObj, gArrowStyleIndex, gArrowAngle, gArrowSize, gArrowWidth, gThicknessBasis, gArrowThickness, begArrow );
+	BSB := SetObjEndMarker( LNewObj, gArrowStyleIndex, gArrowAngle, gArrowSize, gArrowWidth, gThicknessBasis, gArrowThickness, endArrow );
+	pt3 := ( startPoint + endPoint ) / 2;
+END ELSE
+BEGIN
+	OpenPoly;
+```
+```python
+result = vs.SetObjEndMarker(obj, style, 1.0, 2.0, 0.5, 1.0, 2.0, True)
+```
+
 ## See Also
 VS Functions:
 [SetObjBeginningMarker](SetObjBeginningMarker.md)

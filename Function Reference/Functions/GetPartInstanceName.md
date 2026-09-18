@@ -18,6 +18,21 @@ def vs.GetPartInstanceName(objectHandle):
 |---|---|---|
 |objectHandle|HANDLE|The sub-object handle.|
 
+## Examples
+```pascal
+resultStr := GetPartInstanceName(objectHandle);
+```
+```python
+import vs
+
+# Return the unique name assigned to this part instance represented by the
+# specified sub-object.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+name = vs.GetPartInstanceName(objectHandle)
+vs.Message('GetPartInstanceName returned: ' + str(name))
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

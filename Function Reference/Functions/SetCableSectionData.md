@@ -25,9 +25,24 @@ def vs.SetCableSectionData(hObj, DataSelector, SectionIndex, Value):
 |SectionIndex|INTEGER||
 |Value|STRING||
 
+## Examples
+```pascal
+SetCableSectionData(hObj, 'Example', 1, 'Example');
+```
+```python
+import vs
+
+# Set cable section data.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+DataSelector = 'Example'
+SectionIndex = 1
+Value = 'Example'
+
+vs.SetCableSectionData(hObj, DataSelector, SectionIndex, Value)
+```
+
 ## Version
 Availability: from Vectorworks 2025.4
 
 ## Category
 * [Objects - Cables](../Categories/Objects%20-%20Cables.md)
-

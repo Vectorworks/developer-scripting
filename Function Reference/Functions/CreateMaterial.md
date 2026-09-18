@@ -17,6 +17,21 @@ def vs.CreateMaterial(name, isSimpleMaterial):
 |name|STRING|   |
 |isSimpleMaterial|BOOLEAN|   |
 
+## Examples
+```pascal
+resultH := CreateMaterial('Example', TRUE);
+```
+```python
+import vs
+
+name = 'Example'
+isSimpleMaterial = True
+
+objHandle = vs.CreateMaterial(name, isSimpleMaterial)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

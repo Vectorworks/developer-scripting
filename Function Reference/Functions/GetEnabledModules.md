@@ -45,7 +45,6 @@ bit := bit - 1;
 END; 
 END; 
 
-
 {----------------------------------------------------------}
 FUNCTION IsModuleEnabled(whichModule :LONGINT) :BOOLEAN; 
 VAR 
@@ -54,7 +53,6 @@ BEGIN
 enabledModules := GetEnabledModules; 
 IsModuleEnabled := bittest(enabledModules, whichModule)
 END; 
-
 
 BEGIN
 IF IsModuleEnabled(4) &amp; IsModuleEnabled(1)  THEN BEGIN
@@ -93,6 +91,17 @@ def testModules():
 		#{ ... }
 
 testModules()
+```
+
+```pascal
+resultN := GetEnabledModules;
+```
+```python
+import vs
+
+# Determines which combination of product modules are currently enabled.
+resultN = vs.GetEnabledModules()
+vs.Message('GetEnabledModules returned: ' + str(resultN))
 ```
 
 ## See Also

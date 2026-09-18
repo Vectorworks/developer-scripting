@@ -17,6 +17,19 @@ def vs.DelName(name):
 |---|---|---|
 |name|STRING|Object name to be deleted.|
 
+## Examples
+```pascal
+DelName('Example');
+```
+```python
+import vs
+
+# Procedure DelName deletes an object name from a VectorWorks document.
+name = 'Example'
+
+vs.DelName(name)
+```
+
 ## Version
 Availability: from All Versions
 

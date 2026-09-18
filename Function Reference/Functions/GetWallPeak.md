@@ -29,8 +29,22 @@ def vs.GetWallPeak(h, index):
 ## Remarks
 Get xyz values of peak in wall
 
-
 From Lamberto Previati: GetWallPeak doesn't work if there is a symbol at the same point in the wall as the peak. [This has not been verified.]
+
+## Examples
+```pascal
+GetWallPeak(WallH, i, peak_pt.x, peak_pt.y, peak_pt.z);
+```
+```python
+import vs
+
+# Returns the coordinates of a wall peak in the referenced wall.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+index = 1
+
+xPeak, yPeak, zPeak = vs.GetWallPeak(h, index)
+vs.Message('GetWallPeak returned: ' + str((xPeak, yPeak, zPeak)))
+```
 
 ## Version
 Availability: from VectorWorks9.0

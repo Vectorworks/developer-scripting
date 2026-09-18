@@ -64,6 +64,43 @@ END;
 RUN(ParameterList);
 ```
 
+## Examples
+```pascal
+BEGIN
+	str1 := GetLocStr (11000, 21);
+	str2 := GetLocStr (11000, 22);
+	OK := GetLocalizedPluginParameter (objName, paramName, locParamName);
+	IF paramType = 2 THEN
+	BEGIN
+		SetRField (objHand, objName, paramName, Num2Str (GetPrefLongInt (162), paramValue));
+		alertMsg := Concat (locParamName, str1, Num2Str (GetPrefLongInt (162), lowerLimit), str2, Num2Str (GetPrefLongInt (169), upperLimit));
+
+IF GetLocalizedPluginParameter('Data Stamp','Date',wString) THEN
+	status := vsoAppendParamWidget( 1, wString, 0 );
+IF GetLocalizedPluginParameter('Data Stamp','Time',wString) THEN
+	status := vsoAppendParamWidget( 2, wString, 0 );
+IF GetLocalizedPluginParameter('Data Stamp','FNam',wString) THEN
+	status := vsoAppendParamWidget( 3, wString, 0 );
+
+IF GetLocalizedPluginParameter('Drawing Label','Title',wString) THEN
+	bsb := vsoAppendParamWidget( 1, wString, 0 );
+IF GetLocalizedPluginParameter('Drawing Label','Title Alignment',wString) THEN
+	bsb := vsoAppendParamWidget( 2, wString, 0 );
+IF GetLocalizedPluginParameter('Drawing Label','Drawing',wString) THEN
+	bsb := vsoAppendParamWidget( 3, wString, 0 );
+```
+```python
+import vs
+
+# Get the localized name of a plug-in parameter.
+inPluginName = 'Example'
+inParameterName = 'Example'
+
+ok, outParameter = vs.GetLocalizedPluginParameter(inPluginName, inParameterName)
+vs.Message('GetLocalizedPluginParameter returned: ' + str((ok, outParameter)))
+```
+See also in tutorials: [Plug-in with widgets, basic example (Python)](../../Common/Tasks/Parametrics/Plug-in%20with%20widget%20basic%20example.md)
+
 ## See Also
 VS Functions:
 [GetLocalizedPluginName](GetLocalizedPluginName.md)

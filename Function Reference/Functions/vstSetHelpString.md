@@ -31,6 +31,28 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	TempToolCallback := 0;
+	CASE action OF
+	3: vstSetHelpString(GetPluginString(3010));
+	103:
+		BEGIN
+		If Is3dView then
+			Begin
+
+BEGIN
+	TwoPointsToolCallback := 0;
+	CASE action OF
+	3: begin {initial tool setup}
+			vstSetHelpString(pick2points);
+			vstSetPtBehavior (2);
+	   end;
+```
+```python
+vs.vstSetHelpString('Example')
+```
+
 ## Version
 Availability: from All Versions
 

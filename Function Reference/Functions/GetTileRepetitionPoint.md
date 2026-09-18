@@ -25,6 +25,18 @@ def vs.GetTileRepetitionPoint(tileHandle):
 GetTileRepetitionPoint(tileHandle, repetitionPoint);
 ```
 
+```pascal
+GetTileRepetitionPoint(tileHandle, 1);
+```
+```python
+import vs
+
+# Gets the specified tile resource's repetition point.
+tileHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+result = vs.GetTileRepetitionPoint(tileHandle)
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

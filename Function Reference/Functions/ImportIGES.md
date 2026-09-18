@@ -17,6 +17,23 @@ def vs.ImportIGES(fileName):
 |---|---|---|
 |fileName|STRING|full path to the file for import|
 
+## Examples
+```pascal
+resultOK := ImportIGES('file.txt');
+```
+```python
+import vs
+
+# Import a 3D IGES file.
+fileName = 'C:/Temp/example.txt'
+
+ok = vs.ImportIGES(fileName)
+if ok:
+    vs.Message('ImportIGES succeeded')
+else:
+    vs.Message('ImportIGES failed')
+```
+
 ## See Also
 VS Functions:
 [ExportIGES](ExportIGES.md)

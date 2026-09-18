@@ -3,15 +3,12 @@
 ## Description
 Function EOF returns TRUE if the file pointer of an open text file has reached the end of the file (EOF marker). Function EOF is used with Procedures Read and ReadLn to ensure proper file reading and closure. Parameter fileName specifies a text file which is open for reading or writing.
 
-
 If the filename includes a fully qualified path, the path has to use the appropriate notation for the local operating system:
 : <code>Macintosh HD:Applications:VectorWorks:Plug-Ins:Data:Notes.txt</code>
 : <code>C:\Program Files\VectorWorks\Plug-Ins\Data\Notes.txt</code>
 
-
 If the filename includes a path relative to the location of the VectorWorks executable, the subfolder delimiters have to be backslashes:
 : <code>Plug-Ins\Data\Notes.txt</code>
-
 
 If the filename does not include a path, the file is assumed to exist in the same folder as the VectorWorks executable.
 
@@ -49,6 +46,47 @@ def Example():
 	vs.Message(a)
 
 Example()
+```
+
+```pascal
+WHILE NOT EOF (datafile) DO
+BEGIN
+	Read (size1);
+	IF size1 = size THEN
+	BEGIN
+		ReadLn (a, b, t, rf, rt);
+		sizeNotFound := FALSE;
+
+{
+message( ' #### gBoltType = ',gBoltType ,'   nominalSize  = ',nominalSize );
+}
+		{ Read the data file until screwSize equals or exceeds the size }
+		WHILE( NOT EOF( fileName ) ) & ( NOT sizeFound ) DO
+		BEGIN
+			ReadLn( screwSize, gBoltDia, tpi, gHeadDia, gHeadHeight, gSquareWidth, gSquareHeight, gCornerRadius, gFilletR );
+			sizeFound := (  screwSize = nominalSize );
+		END;
+
+WHILE NOT EOF (datafile) DO
+BEGIN
+	Read (size1);
+	IF size1 = size THEN
+	BEGIN
+		ReadLn (d, tw, w, tf, a, b, rt, rf);
+		sizeNotFound := FALSE;
+```
+```python
+import vs
+
+# Function EOF returns TRUE if the file pointer of an open text file has
+# reached the end of the file (EOF marker).
+fileName = 'C:/Temp/example.txt'
+
+ok = vs.EOF(fileName)
+if ok:
+    vs.Message('EOF succeeded')
+else:
+    vs.Message('EOF failed')
 ```
 
 ## Version

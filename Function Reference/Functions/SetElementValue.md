@@ -52,6 +52,25 @@ RUN(Example);
 
 ```
 
+```pascal
+BEGIN
+	int := SetElementValue(xmlID, Concat('/Preferences/', element), value);
+END;
+
+	BEGIN
+	TempNumFields := NumFields(RecHand);
+result := SetElementValue(hXML, Concat(xmlExpFlds,'/',kAppStamp), kXMLVW);
+result := SetElementValue(hXML, Concat(xmlExpFlds,'/',kTimeStamp), GetCurrentTime);
+FOR I := 1 TO TempNumFields DO
+	BEGIN
+	SLField := GetFldName(RecHand,I);
+
+result := SetElementValue  (TargetIndex, Concat('/',xmlRootName,'/',xmlSpeakerFolder,'/',Concat('BoxTotal')), Concat(BoxTTL));
+```
+```python
+result = vs.SetElementValue(h, 'file.txt', value)
+```
+
 ## Version
 Availability: from All Versions
 

@@ -12,6 +12,22 @@ def vs.NonUndoableActionOK():
     return BOOLEAN
 ```
 
+## Examples
+```pascal
+resultOK := NonUndoableActionOK;
+```
+```python
+import vs
+
+# Function NonUndoableActionOK displays a dialog informing the user that the
+# action that is about to be performed cannot be undone.
+ok = vs.NonUndoableActionOK()
+if ok:
+    vs.Message('NonUndoableActionOK succeeded')
+else:
+    vs.Message('NonUndoableActionOK failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

@@ -68,8 +68,15 @@ SetLS(ObjHandle, 0)
 
 ```
 
+```pascal
+SetLS(h, 1);
+```
+```python
+vs.SetLS(h, ls)
+```
+
 ## See Also
-[SetLSN|SetLSN](SetLSN|SetLSN.md) from Vectorworks 2013
+[SetLSN](SetLSN.md) from Vectorworks 2013
 
 ## Version
 Availability: from All Versions, deprecated from Vectorworks 2013

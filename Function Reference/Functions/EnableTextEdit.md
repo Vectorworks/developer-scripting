@@ -22,6 +22,21 @@ def vs.EnableTextEdit(dialogID, componentID, editableState):
 |componentID|LONGINT|The identifier of the text component.|
 |editableState|BOOLEAN|True if this text component should be editable, false otherwise.|
 
+## Examples
+```pascal
+EnableTextEdit(1, 2, TRUE);
+```
+```python
+import vs
+
+# Enables text editing for the given component.
+dialogID = 1
+componentID = 2
+editableState = True
+
+vs.EnableTextEdit(dialogID, componentID, editableState)
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

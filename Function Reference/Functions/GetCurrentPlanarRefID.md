@@ -12,6 +12,18 @@ def vs.GetCurrentPlanarRefID():
     return LONGINT
 ```
 
+## Examples
+```pascal
+resultN := GetCurrentPlanarRefID;
+```
+```python
+import vs
+
+# Return the current plane ref ID.
+resultN = vs.GetCurrentPlanarRefID()
+vs.Message('GetCurrentPlanarRefID returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

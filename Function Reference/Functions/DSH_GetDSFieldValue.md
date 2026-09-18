@@ -28,6 +28,24 @@ def vs.DSH_GetDSFieldValue(hObject, dsName, fieldLabel):
 |outStatus|INTEGER|   |
 |outType|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := DSH_GetDSFieldValue(hObject, 'Example', 'MyRecord', 'Example', 1, 2);
+```
+```python
+import vs
+
+# Gets Object's Data Sheet field value, operation
+# status(disabled/enabled/invisible/black/red), value source type (not
+# set/from instance/from mapping).
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dsName = 'Example'
+fieldLabel = 'MyField'
+
+ok, outValue, outStatus, outType = vs.DSH_GetDSFieldValue(hObject, dsName, fieldLabel)
+vs.Message('DSH_GetDSFieldValue returned: ' + str((ok, outValue, outStatus, outType)))
+```
+
 ## Version
 Availability: from Vectorworks 2020.1
 

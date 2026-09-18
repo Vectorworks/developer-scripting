@@ -24,6 +24,21 @@ def vs.GetWSSubrowHeight(worksheet, databaserow, subrow):
 |subrow|INTEGER|The database subrow to be queried|
 |height|INTEGER|Output parameter. Return the height (in pixels)|
 
+## Examples
+```pascal
+GetWSSubrowHeight(worksheet, 1, 2, 3);
+```
+```python
+import vs
+
+# Return the height of a database subrow in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+databaserow = 10
+subrow = 10
+
+result = vs.GetWSSubrowHeight(worksheet, databaserow, subrow)
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

@@ -27,6 +27,24 @@ def vs.LDevice_SetParamStr(handle, cellIndex, accessoryIndex, universalName, new
 |universalName|STRING|   |
 |newValue|STRING|   |
 
+## Examples
+```pascal
+LDevice_SetParamStr(handle, 1, 2, 'Example', 'Example');
+```
+```python
+import vs
+
+# Set string parameter of a Lighting Device or attached Accessory by
+# Worksheet Name.
+handle = vs.FSActLayer()  # handle to the first selected object on the active layer
+cellIndex = 1
+accessoryIndex = 1
+universalName = 'Example'
+newValue = 'Example'
+
+vs.LDevice_SetParamStr(handle, cellIndex, accessoryIndex, universalName, newValue)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

@@ -17,6 +17,26 @@ def vs.CC_RoomFromShape(hObj):
 |---|---|---|
 |hObj|HANDLE|   |
 
+## Examples
+```pascal
+BEGIN
+	gPluginObjH := CC_RoomFromShape(h);
+END;	{of MakeRoom}
+{--------------------------------------------------------------------------------------------}
+PROCEDURE MakeUserObject (h : HANDLE);
+VAR
+```
+```python
+import vs
+
+# Creates layout room from the given shape.
+hObj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.CC_RoomFromShape(hObj)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2022.3
 

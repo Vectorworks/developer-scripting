@@ -90,7 +90,6 @@ def Example():
 Example()
 ```
 
-
 #### VectorScript ####
 ```pascal
 PushAttrs;
@@ -113,6 +112,36 @@ def finishedCallback():
 	vs.PopAttrs()
 	
 vs.CallTool(-201, finishedCallback)
+```
+
+```pascal
+BEGIN
+	setactsymbol(TempSymName);
+	BEGINGROUP;
+		calltool(-209);
+
+CallTool (-209);
+
+BEGIN
+SetPref(581,FALSE);
+END;
+ 	CallTool(-209);
+ 	IF BackUpSymHand <> NIL THEN
+			SetActSymbol(GetName(BackUpSymHand));
+		{ELSE
+			SetActSymbol('');} {Causes and warning}
+```
+```python
+import vs
+
+# Activates the specified VectorWorks tool for a single use.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+toolID = 1
+callback = handle_object
+
+vs.CallTool(toolID, callback)
 ```
 
 ## See Also

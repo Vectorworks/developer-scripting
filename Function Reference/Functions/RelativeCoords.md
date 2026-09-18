@@ -58,6 +58,47 @@ BEGIN
 END;
 RUN(Example);
 ```
+
+```pascal
+lowestX  := kMinReal;
+highestX := kMaxReal;
+for cnt2 := 1 to sectCnt DO BEGIN
+	IF g.WinderLAngle < 0
+		THEN tmpPt := RelativeCoords(sects[cnt2], nutherPt, onPoly)
+		ELSE tmpPt := RelativeCoords(sects[cnt2], onPoly, nutherPt);
+	if (tmpPt.x > lowestX) & (tmpPt.x < 0) then BEGIN
+		lesserPt := sects[cnt2];
+		lowestX := tmpPt.x;
+	END;
+
+lowestX  := kMinReal;
+highestX := kMaxReal;
+for cnt2 := 1 to sectCnt DO BEGIN
+	IF g.WinderUAngle1 < 0
+		THEN tmpPt := RelativeCoords(sects[cnt2], nutherPt, onPoly)
+		ELSE tmpPt := RelativeCoords(sects[cnt2], onPoly, nutherPt);
+	if (tmpPt.x > lowestX) & (tmpPt.x < 0) then BEGIN
+		lesserPt := sects[cnt2];
+		lowestX := tmpPt.x;
+	END;
+
+BEGIN
+	temp_pt := RelativeCoords(pt, beg_pt, END_pt);
+	PtPerpLine := beg_pt + (UnitVec(END_pt - beg_pt) * temp_pt.x);
+END;
+```
+```python
+import vs
+
+# Translates a point into a coordinate system defined by 2 other points.
+pt = (0, 0)
+begPt = (1, 1)
+endPt = (2, 2)
+
+vec = vs.RelativeCoords(pt, begPt, endPt)
+vs.Message('RelativeCoords returned: ' + str(vec))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

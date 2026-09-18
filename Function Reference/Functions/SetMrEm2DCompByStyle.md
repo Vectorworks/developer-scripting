@@ -17,6 +17,23 @@ def vs.SetMrEm2DCompByStyle(hObject, byStyle):
 |hObject|HANDLE|   |
 |byStyle|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := SetMrEm2DCompByStyle(hObject, TRUE);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+byStyle = True
+
+ok = vs.SetMrEm2DCompByStyle(hObject, byStyle)
+if ok:
+    vs.Message('SetMrEm2DCompByStyle succeeded')
+else:
+    vs.Message('SetMrEm2DCompByStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

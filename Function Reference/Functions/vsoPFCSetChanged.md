@@ -20,6 +20,21 @@ def vs.vsoPFCSetChanged(message, didChange):
 |message|LONGINT|   |
 |didChange|BOOLEAN|   |
 
+## Examples
+```pascal
+vsoPFCSetChanged(1, TRUE);
+```
+```python
+import vs
+
+# Provide the object Changed result for the PrepareForContext (79) message
+# sent to a Script object.
+message = 'Hello Vectorworks'
+didChange = True
+
+vs.vsoPFCSetChanged(message, didChange)
+```
+
 ## Version
 Availability: from Vectorworks 2023
 

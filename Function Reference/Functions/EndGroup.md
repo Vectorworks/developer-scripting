@@ -52,6 +52,32 @@ vs.EndGroup()
 #{creates a group comprised of 2 rects and 1 group}
 ```
 
+```pascal
+EndGroup;
+```
+```python
+vs.Locus(0,0)
+vs.SetRecord( vs.LNewObj(), kHiddenRecName )
+vs.SetRField( vs.LNewObj(), kHiddenRecName, 'IEMAction', 'DeleteMe' )
+vs.EndGroup()
+hGroupHand = vs.LNewObj()
+
+vs.SetPenFore( vs.LNewObj(), 65535, 0, 0 )
+vs.SetFPat( vs.LNewObj(), 1 )
+vs.HMoveBackward( vs.LNewObj(), False )
+vs.EndGroup()
+vs.HMoveForward( vs.LNewObj(), True )
+
+		vs.BeginRoof( rightX, gutterBottomY, leftX, gutterBottomY, r1 + w / 2, -1, drop, r1, 2, thickness )
+		DrawRoadway( r1, sweep2D, w )
+	vs.SetZVals( zVal, deltaZVal )
+vs.EndGroup()
+tempHand = vs.ConvertToNURBS( vs.LNewObj(), False )
+SetAttrsByClassOrParent( tempHand, gObjHandle, gPaving_Class )
+#vs.SetSelect( gObjHandle )
+DrawRoadway( r1, sweep2D, w )
+```
+
 ## See Also
 VS Functions:
 [BeginGroup](BeginGroup.md) | [BeginGroupN](BeginGroupN.md)

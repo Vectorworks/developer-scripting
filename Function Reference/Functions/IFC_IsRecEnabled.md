@@ -22,6 +22,21 @@ def vs.IFC_IsRecEnabled(objectName, recordName):
 |recordName|STRING|   |
 |outIsEnabled|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := IFC_IsRecEnabled('Example', 'MyRecord', TRUE);
+```
+```python
+import vs
+
+# Checks if the mapped Record is enabled.
+objectName = 'Example'
+recordName = 'MyRecord'
+
+ok, outIsEnabled = vs.IFC_IsRecEnabled(objectName, recordName)
+vs.Message('IFC_IsRecEnabled returned: ' + str((ok, outIsEnabled)))
+```
+
 ## Version
 Availability: from Vectorworks 2023.4
 

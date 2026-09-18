@@ -40,6 +40,19 @@ END;
 RUN(Example);
 ```
 
+```pascal
+GetLayerElevationN(h, 1.0, 2.0);
+```
+```python
+import vs
+
+# Gets the elevation and thickness of the specified layer in document units.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+baseElev, thickness = vs.GetLayerElevationN(h)
+vs.Message('GetLayerElevationN returned: ' + str((baseElev, thickness)))
+```
+
 ## See Also
 VS Functions:
 [SetLayerElevationN](SetLayerElevationN.md)

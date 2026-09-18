@@ -34,6 +34,20 @@ def vs.WallHeight(wallHd):
 |startHt|REAL|Returns start height of wall.|
 |endHt|REAL|Returns end height of wall.|
 
+## Examples
+```pascal
+WallHeight(wallHd, 1.0, 2.0);
+```
+```python
+import vs
+
+# _Vectorworks 2012 Deprecated Functions_.
+wallHd = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+startHt, endHt = vs.WallHeight(wallHd)
+vs.Message('WallHeight returned: ' + str((startHt, endHt)))
+```
+
 ## Version
 Availability: from MiniCAD6.0
 Deprecated: [Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)

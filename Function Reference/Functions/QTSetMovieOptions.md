@@ -26,6 +26,29 @@ def vs.QTSetMovieOptions(movieRef, frameRate, keyFrameRate, useDlg, useDlgPrevie
 |useDlg|BOOLEAN|Display QuickTime comprssion options dialog.|
 |useDlgPreview|BOOLEAN|Show dialog preview.|
 
+## Examples
+```pascal
+BEGIN
+	QTSetMovieOptions(gMovieRef, 15, 5, True, FALSE);
+	IF NOT(DidCancel) THEN
+		BEGIN
+			gLightHan := CreateLight(1,1,1,0, TRUE,TRUE);
+			IF gShowFrameCounter THEN SetupFrameCounter;
+```
+```python
+import vs
+
+# Sets the QuickTime movie frame rate and key frame rate for the referenced
+# movie stream.
+movieRef = 1
+frameRate = 1.0
+keyFrameRate = 2
+useDlg = True
+useDlgPreview = True
+
+vs.QTSetMovieOptions(movieRef, frameRate, keyFrameRate, useDlg, useDlgPreview)
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

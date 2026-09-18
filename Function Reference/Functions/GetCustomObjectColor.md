@@ -24,9 +24,23 @@ def vs.GetCustomObjectColor(objectHand, inTagID):
 
 ## Remarks
 
-
 ## Examples
 [CustomObject](examples/CustomObject.md)
+
+```pascal
+resultOK := GetCustomObjectColor(objectHand, 1, 2);
+```
+```python
+import vs
+
+# Get an auxilary color index stored in'objectHand' previously with
+# SetCustomObjectColor.
+objectHand = vs.FSActLayer()  # handle to the first selected object on the active layer
+inTagID = 1
+
+ok, outColorIndex = vs.GetCustomObjectColor(objectHand, inTagID)
+vs.Message('GetCustomObjectColor returned: ' + str((ok, outColorIndex)))
+```
 
 ## See Also
 VS Functions:

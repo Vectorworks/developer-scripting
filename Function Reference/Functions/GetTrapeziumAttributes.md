@@ -51,6 +51,22 @@ twOrLSlope: dimension of the roof of the dormer if previous param is true, or sl
 rightSlope: angle of right dormer wall.
 topSlope: angle of the roof of the dormer.
 
+## Examples
+```pascal
+GetTrapeziumAttributes(roofObject, 1, TRUE, 1.0, 2.0, FALSE, 0.5, 1.5, 3.0, 1.0);
+```
+```python
+import vs
+
+# Procedure GetTrapeziumAttributes returns the attributes of a trapezium
+# dormer in the referenced roof.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+dormerID = 1
+
+useHeight, heightDepth, bottomWidth, useTopWidth, topWidth, leftSlope, rightSlope, topSlope = vs.GetTrapeziumAttributes(roofObject, dormerID)
+vs.Message('GetTrapeziumAttributes returned: ' + str((useHeight, heightDepth, bottomWidth, useTopWidth, topWidth, leftSlope, rightSlope, topSlope)))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

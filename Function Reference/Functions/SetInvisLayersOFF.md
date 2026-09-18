@@ -18,9 +18,21 @@ def vs.SetInvisLayersOFF(invisLayerOFF):
 |---|---|---|
 |invisLayerOFF|BOOLEAN||
 
+## Examples
+```pascal
+SetInvisLayersOFF(TRUE);
+```
+```python
+import vs
+
+# Sets the invisible exported DXF layers to OFF.
+invisLayerOFF = False
+
+vs.SetInvisLayersOFF(invisLayerOFF)
+```
+
 ## Version
 Availability: from Vectorworks 2024.6
 
 ## Category
 * [ImportExport](../Categories/ImportExport.md)
-

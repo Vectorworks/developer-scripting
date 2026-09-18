@@ -24,6 +24,20 @@ def vs.ActSymDefN(allowConflictDlg):
 HandleToActiveSym:=ActSymDefN(TRUE);
 ```
 
+```pascal
+resultH := ActSymDefN(TRUE);
+```
+```python
+import vs
+
+# Function ActSymDefN returns a handle to the currently active symbol.
+allowConflictDlg = True
+
+objHandle = vs.ActSymDefN(allowConflictDlg)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [ActLayer](ActLayer.md) 

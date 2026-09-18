@@ -27,6 +27,26 @@ def vs.SetLBEditDisplayType(dialogID, componentID, columnIndex, displayType):
 ## Remarks
 How is this different from [SetLBItemDisplayType](SetLBItemDisplayType.md)? Declaration and description are almost identical. Both operate on columns. What is meant with 'edit' and with 'display'?
 
+## Examples
+```pascal
+resultOK := SetLBEditDisplayType(1, 2, 3, 10);
+```
+```python
+import vs
+
+# Sets edit display type for list items in specified column.
+dialogID = 1
+componentID = 2
+columnIndex = 1
+displayType = 0
+
+ok = vs.SetLBEditDisplayType(dialogID, componentID, columnIndex, displayType)
+if ok:
+    vs.Message('SetLBEditDisplayType succeeded')
+else:
+    vs.Message('SetLBEditDisplayType failed')
+```
+
 ## Version
 Availability: from VectorWorks11.0
 

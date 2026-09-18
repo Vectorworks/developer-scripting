@@ -33,9 +33,15 @@ totalVol:=Volume((C='Empty Space'));
 
 ```
 
+```pascal
+resultVal := Volume(c);
+```
+```python
+result = vs.Volume(c)
+```
+
 ## Version
 Volume is obsolete as of VectorWorks12.5<P>
-
 
 Availability: from VectorWorks8.0
 

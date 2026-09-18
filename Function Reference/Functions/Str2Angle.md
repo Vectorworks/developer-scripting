@@ -17,6 +17,20 @@ def vs.Str2Angle(str):
 |---|---|---|
 |str|STRING|The string representation of the angle value.|
 
+## Examples
+```pascal
+resultVal := Str2Angle('Example');
+```
+```python
+import vs
+
+# Convert a string representation of an angle value to a real number in degrees.
+str = 'Example'
+
+angle = vs.Str2Angle(str)
+vs.Message('Str2Angle returned: ' + str(angle))
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

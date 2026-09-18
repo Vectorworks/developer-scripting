@@ -85,6 +85,25 @@ RUN(Example);
 
 ```
 
+```pascal
+	SetBooleanItem(IDLabelDialog, kShowLeader,DWShowLeader);
+	SetBooleanItem(IDLabelDialog, kUseMarker,UseMarker);
+	SetBooleanItem(IDLabelDialog, kAutoRotate,DWHorz);
+	SetEditReal(IDLabelDialog, kBubbleSize, 3, DWBubbleSize);
+	SetMarkerValue( IDLabelDialog, kLeaderStyle, DWMarkerStyle, MarkerAngle, MarkerSize, MarkerWidth, MarkerBasis, MarkerThickness );
+	SetItemText(IDLabelDialog, kFieldValue,gDataArr[1,2]);
+	SetItemText(IDLabelDialog, kFieldName,gDataArr[1,1]);
+END;
+
+   SetMarkerValue(dialog1, kEndMarker, gEndMarkerIndex, gEndMarkerAngle, gEndMarkerSize, gEndMarkerWidth, gEndMarkerTBasis, gEndMarkerThick);
+SetMarkerValue(dialog1, kBegMarker, gBegMarkerIndex, gBegMarkerAngle, gBegMarkerSize, gBegMarkerWidth, gBegMarkerTBasis, gBegMarkerThick);
+
+SetMarkerValue(dialog, kBubLeadMarkerPopUp, P__TextBubMarkerStyle, P__TextBubMarkerAngle, P__TextBubMarkerLng, P__TextBubMarkerWidth, P__TextBubMarkerBasis, P__TextBubMarkerThick);
+```
+```python
+vs.SetMarkerValue(dialogID, itemID, style, 1.0, 2.0, 0.5, True, 1.0)
+```
+
 ## See Also
 VS Functions:
 [GetMarkerValue](GetMarkerValue.md)

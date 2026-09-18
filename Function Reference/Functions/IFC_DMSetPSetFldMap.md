@@ -26,6 +26,27 @@ def vs.IFC_DMSetPSetFldMap(strObjectName, strEntryName, strPSetName, strFieldNam
 |strFieldName|STRING|   |
 |strMappingSrc|STRING|   |
 
+## Examples
+```pascal
+resultOK := IFC_DMSetPSetFldMap('Example', 'Example', 'Example', 'MyRecord', 'Example');
+```
+```python
+import vs
+
+# Sets the Mapping Source of specified Field for IfcEntry's PSet.
+strObjectName = 'Example'
+strEntryName = 'Example'
+strPSetName = 'Example'
+strFieldName = 'MyField'
+strMappingSrc = 'Example'
+
+ok = vs.IFC_DMSetPSetFldMap(strObjectName, strEntryName, strPSetName, strFieldName, strMappingSrc)
+if ok:
+    vs.Message('IFC_DMSetPSetFldMap succeeded')
+else:
+    vs.Message('IFC_DMSetPSetFldMap failed')
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

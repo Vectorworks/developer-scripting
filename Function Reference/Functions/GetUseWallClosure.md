@@ -17,6 +17,24 @@ def vs.GetUseWallClosure(hObject):
 |---|---|---|
 |hObject|HANDLE|The symbol definition, plug-in object style, or plug-in object.|
 
+## Examples
+```pascal
+resultOK := GetUseWallClosure(hObject);
+```
+```python
+import vs
+
+# Gets the use wall closure setting of a symbol definition, plug-in object
+# style, or plug-in object.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetUseWallClosure(hObject)
+if ok:
+    vs.Message('GetUseWallClosure succeeded')
+else:
+    vs.Message('GetUseWallClosure failed')
+```
+
 ## See Also
 VS Functions:
 [SetUseWallClosure](SetUseWallClosure.md)

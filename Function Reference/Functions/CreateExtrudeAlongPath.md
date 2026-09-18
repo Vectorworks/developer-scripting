@@ -42,15 +42,39 @@ The following objects are supported as profile objects:
 |3D Poly|25|
 |NURBS Curve|111|
 
-
 This works from inside a VSO, but I couldn't get it to work using an oval. I was able to get it to work with an arc.
-
-
 
 This will fail if the NURBS curve has two consecutive segments which are colinear, or nearly colinear. In the example that I tested, the failure occured if the segments were colinear within .375 degree, but I don't know if the failure criterion is the angular difference or a combination of other factors (length, width of profile, shape of profile, etc.).
 
-
 In VW2011 this will generate a number of NURBS surfaces instead of an extrude along path object.
+
+## Examples
+```pascal
+objH := CreateExtrudeAlongPath (pathH, profileH);
+IF profileH <> NIL THEN DelObject (profileH);
+IF pathH <> NIL THEN DelObject (pathH);
+
+BEGIN
+	objH := CreateExtrudeAlongPath (path1H, profileH);
+	IF profileH <> NIL THEN DelObject (profileH);
+	IF path1H <> NIL THEN DelObject (path1H);
+END;
+
+	objH := CreateExtrudeAlongPath (pathH, profileH);
+	createEnd := objH;
+END;
+```
+```python
+import vs
+
+# Creates a new path extrude object in the document.
+pathHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+profileHandle = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+objHandle = vs.CreateExtrudeAlongPath(pathHandle, profileHandle)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
 
 ## Version
 Availability: from VectorWorks 9.0

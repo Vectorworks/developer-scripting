@@ -33,6 +33,19 @@ GetMtlPenBackColor(mtlHandle,cRed,cGrn,cBlu);
 RGBToColorIndex(cRed,cGrn,cBlu,colorValue);
 ```
 
+```pascal
+GetMtlPenBackColor(material, 1, 2, 3);
+```
+```python
+import vs
+
+# Returns the pen background color of the specified material.
+material = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+red, green, blue = vs.GetMtlPenBackColor(material)
+vs.Message('GetMtlPenBackColor returned: ' + str((red, green, blue)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

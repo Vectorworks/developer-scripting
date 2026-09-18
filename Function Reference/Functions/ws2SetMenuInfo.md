@@ -26,6 +26,23 @@ def vs.ws2SetMenuInfo(menuPath, displayName, hasShortcutKey, shortcutKey, shortc
 |shortcutKey|CHAR|   |
 |shortcutKeyModifier|INTEGER|   |
 
+## Examples
+```pascal
+ws2SetMenuInfo(menuPath, displayName, TRUE, shortcutKey, 1);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+menuPath = 'C:/Temp'
+displayName = 'Example'
+hasShortcutKey = True
+shortcutKey = 'Example'
+shortcutKeyModifier = 1
+
+vs.ws2SetMenuInfo(menuPath, displayName, hasShortcutKey, shortcutKey, shortcutKeyModifier)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

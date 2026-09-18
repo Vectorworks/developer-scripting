@@ -35,6 +35,39 @@ If used on an extrude, the 2D shape inside the extrude will be scaled. The scali
 
 [Ptr 07/17/2019]
 
+## Examples
+```pascal
+SetFPat(lnewobj,0);
+temp_h := lnewobj;
+EndGroup;
+temp_h := getparent(temp_h);
+HScale2D(temp_h,0,0,0.666666667,0.108108108,FALSE);
+IF (ht < wd) THEN
+	BEGIN
+	HRotate(temp_h, 0, 0, 90.0);
+	HScale2D(temp_h,0,0,wd,ht,FALSE);
+
+SetOpacity(LNewObj, 50);
+EndGroup;
+LinkSymbol := LNewObj;
+HRotate(LinkSymbol,0,0,rot);
+HScale2D(LinkSymbol,0,0,scale,scale,FALSE);
+hmove(LinkSymbol,x,y);
+MakeLinkSymbol := LinkSymbol;
+END;
+
+BEGIN
+HScale2D(h,0,0,-1,1,TRUE);
+fliphoriz := FALSE;
+END;
+```
+```python
+planarRef = vs.GetPlanarRef( hDuplicated )
+vs.SetPlanarRef( hDuplicated, 0 )
+vs.HScale2D( hDuplicated, 0, 0, dMarkerScale, dMarkerScale, True)
+vs.SetPlanarRef( hDuplicated, planarRef )
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

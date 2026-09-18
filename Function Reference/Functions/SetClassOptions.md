@@ -50,6 +50,31 @@ def vs.SetClassOptions(classOpts):
 |---|---|---|
 |classOpts|INTEGER|New class visibility setting.|
 
+## Examples
+```pascal
+		Layer(GetLName(temp_h));
+		ShowLayer;
+		temp_h := NextObj(temp_h);
+	END;
+	SetClassOptions(5);
+	for i := 1 to ClassNum DO ShowClass(ClassList(i));
+END;
+
+BEGIN
+		SetClassOptions(5);
+		SetLayerOptions(5);
+		DSelectAll;
+		Layer(kStrErrorLayer);
+		SetLayerOptions(1);
+
+{set the Class Setting to Show/Snap/Modify Others}
+SetClassOptions (5);
+```
+```python
+curClassVis = vs.GetClassOptions()
+vs.SetClassOptions( 5 ) #Set to Show/Snap/Modify to fix VB-116777
+```
+
 ## Version
 Availability: from VectorWorks8.5
 

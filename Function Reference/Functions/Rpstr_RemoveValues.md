@@ -12,6 +12,17 @@ def vs.Rpstr_RemoveValues():
     return None
 ```
 
+## Examples
+```pascal
+Rpstr_RemoveValues;
+```
+```python
+import vs
+
+# Removes all values from the VectorScript value repository.
+vs.Rpstr_RemoveValues()
+```
+
 ## See Also
 VS Functions:
 [Rpstr_RemoveValues](Rpstr_RemoveValues.md) 

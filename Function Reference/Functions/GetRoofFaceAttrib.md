@@ -46,7 +46,6 @@ Hole style of openings:
 : 3 Splayed
 : 4 Square Cut
 
-
 Other authors:
 * Returns information about old-style roof objects (single roof faces).
 * Returns slope, edge miter style, miter dimensions, and thickness of roof object.
@@ -55,6 +54,19 @@ See Also [ GetRoofFaceCoords](GetRoofFaceCoords.md)() for additional roof face d
 
 ## Examples
 [GetRoofProperties](examples/GetRoofProperties.md)
+
+```pascal
+GetRoofFaceAttrib(roofFace, 1.0, 2.0, 1, 2, 0.5, 1.5);
+```
+```python
+import vs
+
+# Returns information on the referenced roof face object.
+roofFace = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+roofRise, roofRun, miterType, holeStyle, vertPart, thickness = vs.GetRoofFaceAttrib(roofFace)
+vs.Message('GetRoofFaceAttrib returned: ' + str((roofRise, roofRun, miterType, holeStyle, vertPart, thickness)))
+```
 
 ## Version
 Availability: from VectorWorks 9.0

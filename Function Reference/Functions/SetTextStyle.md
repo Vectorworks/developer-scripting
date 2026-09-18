@@ -54,6 +54,35 @@ SetTextSyle(HandleToText, 0, 5, 34);
 
 ```
 
+```pascal
+		TextOrigin(0,0);
+		CreateText(Concat(' ', KNNoteNo));
+		SetTextFont( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextFont( textFoundH, 0 ) );
+		SetTextSize( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextSize( textFoundH, 0 ) );
+		SetTextStyle( LNewObj, 0, GetTextLength( LNewObj )-1 , GetTextStyle( textFoundH, 0 ) );
+		AddNumberWidth := GetTextWidth( LNewObj );
+		DelObject(LNewObj);
+	end ELSE AddNumberWidth := 0;
+END ELSE AddNumberWidth := 0;
+
+str := gettext(textHandle);
+IF NOT(pLabel) THEN
+	settextstyle(texthandle,0,pos2,textStyleindex)
+	{settextstyle(texthandle,0,textLength,textStyleindex)}
+
+ELSE BEGIN
+	IF pLStyle = kPlain 		THEN labelStyleIndex := 0
+	ELSE IF pLStyle = kBold 	THEN labelStyleIndex := 1
+	ELSE IF pLStyle = kItalic	THEN labelStyleIndex := 2
+	ELSE labelStyleIndex := 3;
+
+SetTextSize(textHandle, 0, textLength, 18);
+SetTextStyle(textHandle, 0, textLength, 0);
+```
+```python
+vs.SetTextStyle(objectHd, Start, 1, Style)
+```
+
 ## Version
 Availability: from MiniCAD 6.0
 

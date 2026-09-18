@@ -20,6 +20,20 @@ def vs.vstAddPDMenuItem(group, item):
 |group|INTEGER|   |
 |item|STRING|   |
 
+## Examples
+```pascal
+vstAddPDMenuItem(1, 'Example');
+```
+```python
+import vs
+
+# ?.
+group = 1
+item = 'Example'
+
+vs.vstAddPDMenuItem(group, item)
+```
+
 ## Version
 Availability: from All Versions
 

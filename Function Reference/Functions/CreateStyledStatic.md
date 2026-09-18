@@ -54,6 +54,28 @@ END;
 RUN(Example);
 ```
 
+```pascal
+CreateStyledStatic( dialogID, RefObjInfoStaTex1_ID, dlogSetStaTex_5, -1, 0 {111} );
+	SetStaticTextColor( dialogID, RefObjInfoStaTex1_ID, StaTexBlue_R, StaTexBlue_G, StaTexBlue_B );
+SetBelowItem( dialogID, ReferenceObjStaTex_ID, RefObjInfoStaTex1_ID, 0, -2 );
+```
+```python
+import vs
+
+# Creates a new static text field control in a dialog layout.
+dialogID = 1
+componentID = 2
+text = 'Example text'
+widthInCharacters = 3
+style = 0
+
+ok = vs.CreateStyledStatic(dialogID, componentID, text, widthInCharacters, style)
+if ok:
+    vs.Message('CreateStyledStatic succeeded')
+else:
+    vs.Message('CreateStyledStatic failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStaticText](CreateStaticText.md)

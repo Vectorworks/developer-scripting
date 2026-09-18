@@ -17,6 +17,21 @@ def vs.vstDrawCoordRect(ptLeftTopX, ptLeftTopY, ptRghtBotX, ptRghtBotY):
 |ptLeftTopX, ptLeftTopY|REAL|   |
 |ptRghtBotX, ptRghtBotY|REAL|   |
 
+## Examples
+```pascal
+vstDrawCoordRect(1.0, 2.0, 0.5, 1.5);
+```
+```python
+import vs
+
+ptLeftTopX = 1.0
+ptLeftTopY = 2.0
+ptRghtBotX = 0.5
+ptRghtBotY = 3.0
+
+vs.vstDrawCoordRect(ptLeftTopX, ptLeftTopY, ptRghtBotX, ptRghtBotY)
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

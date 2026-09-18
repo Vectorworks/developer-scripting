@@ -31,6 +31,19 @@ lStyleValue := GetLS(handleToObject);
 lStyleValue = vs.GetLS(handleToObject)
 ```
 
+```pascal
+resultN := GetLS(h);
+```
+```python
+import vs
+
+# _ Function GetLS returns the line style of the referenced object.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.GetLS(h)
+vs.Message('GetLS returned: ' + str(resultN))
+```
+
 ## See Also
 [GetLSN](GetLSN.md) from Vectorworks 2013
 

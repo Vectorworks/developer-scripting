@@ -24,6 +24,37 @@ def vs.SetDescriptionText(hObject, descriptionText):
 ## Remarks
 Added for T01363 to add descriptions for classes and layers.
 
+## Examples
+```pascal
+BEGIN
+	GetWSCellString (wksHand, row, col+8, tempStr);	{description}
+	tempBool := SetDescriptionText (classHand, tempStr);
+END;
+
+BEGIN
+	descriptionTextDyn := descriptionTextStr;
+	tempBool := SetDescriptionText (sheetLayerH, descriptionTextDyn);
+END;
+
+GetDescriptionText (classHandle, tempDescTextDyn);
+tempDescTextStr := tempDescTextDyn;
+IF tempDescTextStr <> gClassList [i].Description THEN
+	tempBool := SetDescriptionText (classHandle, gClassList [i].Description);
+```
+```python
+import vs
+
+# Sets the user-supplied description for an object.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+descriptionText = 'Example text'
+
+ok = vs.SetDescriptionText(hObject, descriptionText)
+if ok:
+    vs.Message('SetDescriptionText succeeded')
+else:
+    vs.Message('SetDescriptionText failed')
+```
+
 ## See Also
 VS Functions:
 [GetDescriptionText](GetDescriptionText.md)

@@ -26,6 +26,24 @@ def vs.RefreshResManager(updateVWLibs, updateUserLibs, updateWGLibs, updateFavs,
 |updateFavs|BOOLEAN|Update Favorites.|
 |UpdateOnlineLibs|BOOLEAN|Update Vectorworks online libraries.|
 
+## Examples
+```pascal
+RefreshResManager(TRUE, FALSE, TRUE, TRUE, FALSE);
+```
+```python
+import vs
+
+# Procedure RefreshResManager updates the Resource manager palette.
+updateVWLibs = True
+updateUserLibs = True
+updateWGLibs = True
+updateFavs = True
+UpdateOnlineLibs = True
+
+value = vs.RefreshResManager(updateVWLibs, updateUserLibs, updateWGLibs, updateFavs, UpdateOnlineLibs)
+vs.Message('RefreshResManager returned: ' + str(value))
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

@@ -24,6 +24,27 @@ def vs.Moments3D(obj):
 |lyy|REAL|The moment of inertia relative to the y-axis passing through the center of mass of object|
 |lzz|REAL|The moment of inertia relative to the z-axis passing through the center of mass of object|
 
+## Examples
+```pascal
+BEGIN
+	OK := Centroid3D (gObjH, gXc, gYc, gZc);
+	OK := Moments3D (gObjH, gIxx, gIyy, gIzz);
+	IF gIxx > 0 THEN gKx := Sqrt (gIxx) ELSE gKx := 0;
+	IF gIyy > 0 THEN gKy := Sqrt (gIyy) ELSE gKy := 0;
+	IF gIzz > 0 THEN gKz := Sqrt (gIzz) ELSE gKz := 0;
+	OK := Products3D (gObjH, gIxy, gIyz, gIzx);
+```
+```python
+import vs
+
+# Returns the moments of inertia of a 3D object about the x, y, and z axes of
+# a point at the center of gravity of the object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, lxx, lyy, lzz = vs.Moments3D(obj)
+vs.Message('Moments3D returned: ' + str((ok, lxx, lyy, lzz)))
+```
+
 ## Version
 Availability: from VectorWorks 10.1
 

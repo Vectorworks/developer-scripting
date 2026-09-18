@@ -25,6 +25,39 @@ def vs.CreatePullDownMenu(dialogID, itemID, widthInCharacters):
 ## Examples
 [DialogLayoutPulldownMenu](examples/DialogLayoutPulldownMenu.md)
 
+```pascal
+{* Create the control items *}
+	CreateStaticText (dialogID, 4, GetPlugInString (3004), 45);
+	CreateStaticText (dialogID, 5, GetPlugInString (3005), -1);
+	CreatePullDownMenu (dialogID, 6, 32);
+	CreateStaticText (dialogID, 7, GetPlugInString (3006), -1);
+	CreatePullDownMenu (dialogID, 8, 32);
+
+{* Create the control items *}
+	CreateStaticText (dialogID, 4, GetPlugInString (3004), 45);
+	CreateStaticText (dialogID, 5, GetPlugInString (3005), labelWidth);
+	CreatePullDownMenu (dialogID, 6, 32);
+	CreateStaticText (dialogID, 7, GetPlugInString (3006), labelWidth);
+	CreatePullDownMenu (dialogID, 8, 32);
+	CreateStaticText (dialogID, 9, GetPlugInString (3021), labelWidth);
+	CreatePullDownMenu (dialogID, 10, 32);
+
+{*Symbol Folder *}
+CreateStaticText (dialogID, 5, GetPlugInString (3005), -1);
+CreatePullDownMenu (dialogID, 6, 32);
+```
+```python
+import vs
+
+# Creates a new pulldown menu control in a dialog layout.
+dialogID = 1
+itemID = 2
+widthInCharacters = 3
+
+vs.CreatePullDownMenu(dialogID, itemID, widthInCharacters)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

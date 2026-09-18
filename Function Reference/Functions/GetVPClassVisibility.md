@@ -28,6 +28,41 @@ visibilityType values:
 * 0 visible, 
 * 2 gray
 
+## Examples
+```pascal
+BEGIN
+	OK := GetVPClassVisibility (viewportH, ClassList (i), tempVis);
+	tempVis := Abs (tempVis);
+	CASE tempVis OF
+		0: ShowClass (ClassList (i));
+		1: HideClass (ClassList (i));
+
+BEGIN
+	OK := GetVPClassVisibility (h, ClassList (i)                      , tempInt);
+	IF (tempInt = 0) | (tempInt = 2) THEN
+	BEGIN
+		gViewPortInfo [gNumSheets2].NumClasses := gViewPortInfo [gNumSheets2].NumClasses + 1;
+		gViewPortInfo [gNumSheets2].ClassName [gViewPortInfo [gNumSheets2].NumClasses] := ClassList (i);
+
+BEGIN
+	numSelVPs := numSelVPs + 1;
+	IF GetVPClassVisibility  (h, kModifierClass, visibilityType) THEN
+	BEGIN
+		{message (' visibilityType = ',visibilityType);}
+		IF visibilityType = -1 THEN
+			boo := SetVPClassVisibility (h, kModifierClass, 0)
+```
+```python
+import vs
+
+# Gets the visibility for the specified class in the specified viewport.
+viewportHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+className = 'None'
+
+ok, visibilityType = vs.GetVPClassVisibility(viewportHandle, className)
+vs.Message('GetVPClassVisibility returned: ' + str((ok, visibilityType)))
+```
+
 ## Version
 Availability: from VectorWorks 11.0
 

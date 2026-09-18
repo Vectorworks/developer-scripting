@@ -35,6 +35,19 @@ def vs.ShowWSDialog(dialogType):
 |---|---|---|
 |dialogType|INTEGER|Index of dialog to be displayed.|
 
+## Examples
+```pascal
+ShowWSDialog(1);
+```
+```python
+import vs
+
+# Displays a worksheet preference or settings dialog for the active worksheet.
+dialogType = 0
+
+vs.ShowWSDialog(dialogType)
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

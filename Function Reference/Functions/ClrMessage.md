@@ -12,6 +12,17 @@ def vs.ClrMessage():
     return None
 ```
 
+## Examples
+```pascal
+ClrMessage;
+```
+```python
+import vs
+
+# Procedure ClrMessage closes the message palette.
+vs.ClrMessage()
+```
+
 ## Version
 Availability: from All Versions
 

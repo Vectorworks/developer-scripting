@@ -82,6 +82,50 @@ def Example():
 Example()
 ```
 
+```pascal
+CreateStaticText(dialogID,6,GetPlugInString(3005),-1);
+CreateStaticText(dialogID,7,GetPlugInString(3006),-1);
+CreateEditInteger(dialogID,8,0,6);
+CreateEditInteger(dialogID,9,0,6);
+CreateEditReal(dialogID,10,3,0.0,6);
+{ select the result type controls. }
+CreateStaticText(dialogID, kSelResTypeStaticTxt, GetPlugInString(3018), -1);
+CreateRadioButton(dialogID, k3DLocusRadioBtn,    GetPlugInString(3019));
+CreateRadioButton(dialogID, kStakeRadioBtn,      GetPlugInString(3020));
+
+CreateCheckBox			(IDLabelDialog, kIDAutoInc, GetPlugInString(6005));		{'Auto-Increment ID Label'}
+CreateCheckBox           (IDLabelDialog, kUseMarker,   GetStr(kUseMarkerTxt));
+CreateMarkerPopup        (IDLabelDialog, kLeaderStyle);
+CreateStaticText		(IDLabelDialog,kBubbleSizeTxt, GetStr(kBubbleSizeTxt),18);
+CreateEditReal			(IDLabelDialog,kBubbleSize, 3,0,16);
+CreateStaticText		(IDLabelDialog,kBubbleLSTxt, GetStr(kBubbleLSTxt),18);
+CreateLineAttributePopup (IDLabelDialog, kBubbleLS);
+   CreateGroupBox            (IDLabelDialog, kDataGrpBx,              GetStr(kDataGrpBx), FALSE);
+   CreateGroupBox            (IDLabelDialog, kLBSpaceGrpBx,           GetStr(kLBSpaceGrpBx), FALSE);
+
+    {create controls}
+CreateGroupBox( dlgId, kSettingsPanel,'', False );{kSettingsPanel}
+CreateStaticText( dlgId, kHeightLabel, GetPluginString(3019), -1 );{kHeightLabel}
+CreateEditReal( dlgId, kHeightEdit, 1, 0.0, 20 );
+CreateStaticText( dlgId, kFloorCountLabel, GetPluginString(3020), -1 );
+CreateEditInteger( dlgId, kFloorCountEdit, 0, 20 );
+CreateCheckBox( dlgId, kAllowIndividualCheck, GetPluginString(3021) );
+CreateCheckBox( dlgId, kSetSlabCheck, GetPluginString(3022) );
+```
+```python
+import vs
+
+# Creates an editable text field control for REAL values.
+dialogID = 1
+itemID = 2
+editRealType = 0
+defaultValue = 1.0
+widthInCharacters = 3
+
+vs.CreateEditReal(dialogID, itemID, editRealType, defaultValue, widthInCharacters)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

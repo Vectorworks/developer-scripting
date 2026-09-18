@@ -23,6 +23,18 @@ Additionally, the plug-in is called ‘BatchEncryption’ and can be found insid
 The Vectorworks SDK can be downloaded here:
 http://www.vectorworks.net/support/custom/sdk/sdkdown.php
 
+## Examples
+```pascal
+TestEncryptPlugins;
+```
+```python
+import vs
+
+# This will test do batch encryption of all VectorScript plug-ins in the
+# Plug-ins folder and put the reuslt in a test folder.
+vs.TestEncryptPlugins()
+```
+
 ## See Also
 * [EncryptPlugin](EncryptPlugin.md)
 * [EncryptAllPlugins](EncryptAllPlugins.md)

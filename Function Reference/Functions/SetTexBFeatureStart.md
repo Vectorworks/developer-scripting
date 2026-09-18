@@ -25,6 +25,22 @@ def vs.SetTexBFeatureStart(textureBitmap, featureStartX, featureStartY):
 ## Remarks
 X and y are in paint node pixels from top left
 
+## Examples
+```pascal
+SetTexBFeatureStart(textureBitmap, 1, 2);
+```
+```python
+import vs
+
+# Procedure SetTexBFeatureStart sets the &quot;feature startpoint&quot; of
+# the referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+featureStartX = 1
+featureStartY = 2
+
+vs.SetTexBFeatureStart(textureBitmap, featureStartX, featureStartY)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

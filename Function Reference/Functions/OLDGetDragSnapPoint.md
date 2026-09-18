@@ -17,6 +17,19 @@ def vs.OLDGetDragSnapPoint():
 |---|---|---|
 |point|VECTOR|   |
 
+## Examples
+```pascal
+resultOK := OLDGetDragSnapPoint(point);
+```
+```python
+import vs
+
+# If the object has been dragged and snapped, the fuction will return TRUE
+# and the point parameter will contain the snapping location.
+ok, pt = vs.OLDGetDragSnapPoint()
+vs.Message('OLDGetDragSnapPoint returned: ' + str((ok, pt)))
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

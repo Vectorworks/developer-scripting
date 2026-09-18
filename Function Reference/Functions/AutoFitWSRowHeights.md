@@ -45,6 +45,21 @@ def Example():
 Example()
 ```
 
+```pascal
+AutoFitWSRowHeights(worksheet, 1, 2);
+```
+```python
+import vs
+
+# Auto fit the height of rows to the content of the cells in the referenced
+# worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+fromRow = 10
+toRow = 10
+
+vs.AutoFitWSRowHeights(worksheet, fromRow, toRow)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

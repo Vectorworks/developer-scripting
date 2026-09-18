@@ -20,6 +20,22 @@ def vs.ResList_ImportItemN(uniqueID, doConflict):
 |uniqueID|STRING|   |
 |doConflict|LONGINT|   |
 
+## Examples
+```pascal
+resultH := ResList_ImportItemN('Example', 1);
+```
+```python
+import vs
+
+# Import the currently selected item.
+uniqueID = 'Example'
+doConflict = 1
+
+objHandle = vs.ResList_ImportItemN(uniqueID, doConflict)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

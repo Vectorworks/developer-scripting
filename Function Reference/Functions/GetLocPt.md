@@ -53,6 +53,39 @@ else:
 	vs.AlrtDialog( 'Select a locus' )
 ```
 
+```pascal
+	ELSE BEGIN
+		locusH := gObjH2;
+		objH := gObjH1;
+	END;
+	GetLocPt (locusH, gXu, gYu);
+	ModelPt2DToScreenPt (gXu, gYu);
+END	{of anotherAxis}
+
+	ModelPt2DToScreenPt (xc, yc);
+	Locus (xc, yc);
+	locusH := LNewObj;
+	HRotate (locusH, 0, 0, -gVCSAngle);
+	GetLocPt (locusH, xc, yc);
+	ModelPt2DToScreenPt (xc, yc);
+	DelObject (locusH);
+END;
+
+BEGIN
+GetLocPt(h,PitchPt.x,PitchPt.y);
+FindLoci := TRUE;
+Found := TRUE;
+END
+```
+```python
+import vs
+
+# Procedure GetLocPt returns the coordinate location of the referenced locus.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+result = vs.GetLocPt(h)
+```
+
 ## Version
 Availability: from All Versions
 

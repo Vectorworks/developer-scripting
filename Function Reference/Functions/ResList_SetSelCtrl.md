@@ -21,9 +21,27 @@ def vs.ResList_SetSelCtrl(uniqueID, controlID):
 |uniqueID|STRING||
 |controlID|INTEGER||
 
+## Examples
+```pascal
+{ResList_SetSel( kMaterialsContent1, localName );}
+IF (archCompMaterialNameID = '') THEN
+	ResList_SetSelCtrl(kMaterialsContent1, 0)
+ELSE BEGIN
+	ResList_SelFAvail( kMaterialsContent1, archCompMaterialNameID, FALSE, FALSE, FALSE)
+END;
+```
+```python
+import vs
+
+# Sets the selected resource control of a resource popup.
+uniqueID = 'Example'
+controlID = 1
+
+vs.ResList_SetSelCtrl(uniqueID, controlID)
+```
+
 ## Version
 Availability: from Vectorworks 2024.4
 
 ## Category
 * [Document List Handling](../Categories/Document List Handling.md)
-

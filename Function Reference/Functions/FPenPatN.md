@@ -21,6 +21,18 @@ indx := FPenPat; { returns the dash style list index corresponding to the active
 indx := FPenPatN; { returns the name list index corresponding to the active dash style }
 ```
 
+## Examples
+```pascal
+resultN := FPenPatN;
+```
+```python
+import vs
+
+# Function FPenPatN returns the active pen pattern setting.
+resultN = vs.FPenPatN()
+vs.Message('FPenPatN returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [PenPatN](PenPatN.md)

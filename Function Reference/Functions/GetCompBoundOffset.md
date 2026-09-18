@@ -22,6 +22,21 @@ def vs.GetCompBoundOffset(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |boundOffset|REAL|Returns the bound offset of the component.|
 
+## Examples
+```pascal
+resultOK := GetCompBoundOffset(object, 1, 1.0);
+```
+```python
+import vs
+
+# Gets the bound offset of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, boundOffset = vs.GetCompBoundOffset(object, componentIndex)
+vs.Message('GetCompBoundOffset returned: ' + str((ok, boundOffset)))
+```
+
 ## See Also
 VS Functions:
 [SetCompBoundOffset](SetCompBoundOffset.md)

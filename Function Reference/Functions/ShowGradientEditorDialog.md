@@ -34,6 +34,13 @@ ShowGradientEditorDialog(newGradientHandle);
 
 ```
 
+```pascal
+ShowGradientEditorDialog(gradient);
+```
+```python
+result = vs.ShowGradientEditorDialog(gradient)
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

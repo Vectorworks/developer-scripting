@@ -20,6 +20,20 @@ def vs.SetLayerEnableCutPl(layer, enableCutPlane):
 |layer|HANDLE|The layer.|
 |enableCutPlane|BOOLEAN|Whether the cut plane is enabled.|
 
+## Examples
+```pascal
+SetLayerEnableCutPl(layer, TRUE);
+```
+```python
+import vs
+
+# Sets whether the cut plane of the layer is enabled.
+layer = vs.ActLayer()  # handle to the active design layer
+enableCutPlane = True
+
+vs.SetLayerEnableCutPl(layer, enableCutPlane)
+```
+
 ## See Also
 VS Functions:
 [GetLayerEnableCutPl](GetLayerEnableCutPl.md)

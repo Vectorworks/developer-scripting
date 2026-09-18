@@ -34,6 +34,20 @@ def vs.GetLayerProjectInfo(layer):
 |comment|STRING|Comment for the checkout  Empty string if not checked out.|
 |outOfDate|BOOLEAN|If True, there is a newer version of the layer in the Project File that can be brought in with a Refresh.|
 
+## Examples
+```pascal
+resultOK := GetLayerProjectInfo(layer, TRUE, 1, 2, 'Example', 'file.txt', 'Example', FALSE);
+```
+```python
+import vs
+
+# Retrieves values similar to the Layers tab of the Project Sharing dialog.
+layer = vs.ActLayer()  # handle to the active design layer
+
+ok, masterLayer, modificationDate, checkoutDate, checkoutOwner, workingFileId, comment, outOfDate = vs.GetLayerProjectInfo(layer)
+vs.Message('GetLayerProjectInfo returned: ' + str((ok, masterLayer, modificationDate, checkoutDate, checkoutOwner, workingFileId, comment, outOfDate)))
+```
+
 ## See Also
 VS Functions:
 [GetWorkingFileId](GetWorkingFileId.md) 

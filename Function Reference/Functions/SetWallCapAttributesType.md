@@ -20,6 +20,20 @@ def vs.SetWallCapAttributesType(wall, wallCapAttributesType):
 |wall|HANDLE|The handle to the wall or round wall.|
 |wallCapAttributesType|INTEGER|The wall cap attributes type.||0 - The wall cap attributes are the wall line attributes|1 - The wall cap attributes are the wall component lines attributes|
 
+## Examples
+```pascal
+SetWallCapAttributesType(wall, 1);
+```
+```python
+import vs
+
+# Sets the wall cap attributes type of a wall or round wall.
+wall = vs.FSActLayer()  # handle to the first selected object on the active layer
+wallCapAttributesType = 0
+
+vs.SetWallCapAttributesType(wall, wallCapAttributesType)
+```
+
 ## See Also
 VS Functions:
 [GetWallCapAttributesType](GetWallCapAttributesType.md)

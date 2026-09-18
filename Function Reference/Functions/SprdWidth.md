@@ -28,6 +28,13 @@ LoadCell(1,1,'Cell 1,1');
 
 ```
 
+```pascal
+SprdWidth(1.0);
+```
+```python
+vs.SprdWidth(1.0)
+```
+
 ## See Also
 [SetWSColumnWidth](SetWSColumnWidth.md)
 

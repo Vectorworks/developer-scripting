@@ -26,6 +26,30 @@ vs.Poly(0,0,1,1,1,-1)
 #{creates a closed 3 sided polygon}
 ```
 
+```pascal
+ClosePoly;
+```
+```python
+vs.MoveTo(0,0)
+vs.ClosePoly()
+vs.BeginPoly()
+vs.MoveTo( -0.5 * dMmarkerSize, 0.5 * dMmarkerSize )
+vs.ArcTo( 	0,1 * dMmarkerSize, 0 )
+vs.LineTo( 	0.5 * dMmarkerSize, 0.5 * dMmarkerSize )
+
+vs.Absolute()
+vs.MoveTo( 0.0, 0.0 )
+vs.Relative()
+vs.ClosePoly()
+
+# Draw paving
+vs.ClosePoly()
+vs.BeginPoly()
+vs.AddPoint( p4 )
+vs.AddPoint( p3 )
+vs.AddPoint( p6 )
+```
+
 ## See Also
 <listTable indent="1" cols="4">
 [AddPoint](AddPoint.md)

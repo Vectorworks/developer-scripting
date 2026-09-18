@@ -34,6 +34,35 @@ handleToRecord := GetRecord(handleToObject,3);
 handleToRecord = vs.GetRecord(handleToObject,3)
 ```
 
+```pascal
+BEGIN
+	recordH := GetRecord (NIL, i);
+	IF NOT IsPluginFormat (recordH) AND NOT GetObjectVariableBoolean(recordH, 700) THEN  {700 is whether or not the object is locked}
+	BEGIN
+		j := j + 1;
+		ALLOCATE gRecordN [1..j];
+
+BEGIN
+IF (GetType(objHand) = 86) & (GetName(GetRecord(objHand,NumRecords(objHand)))= parmName) THEN {Added to make sure we don't try to set anything other than 'this' object since we need to go deep}
+	BEGIN
+	SetRField(objHand, parmName,FieldName, SymName);
+	ResetObject(objHand);
+	END;
+
+BEGIN
+	recordH := GetRecord (NIL, i);
+	IF (NOT IsPluginFormat (recordH)) AND (NOT IsLocked(recordH)) THEN
+	BEGIN
+		recName := Copy( GetName( recordH ), 1, 5 );
+		if  recName <> '__NNA'  THEN
+```
+```python
+if (parentParametric != None) and (vs.GetTypeN(parentParametric) == kPlugInObject):
+	parentRecord = vs.GetRecord(parentParametric, 1)
+	if (parentRecord != None) and (vs.GetTypeN(parentRecord) == kRecordNode):
+		strParentName = vs.GetName(parentRecord)
+```
+
 ## Version
 Availability: from All Versions
 

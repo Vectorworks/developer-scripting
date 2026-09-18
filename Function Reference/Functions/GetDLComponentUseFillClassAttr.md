@@ -23,6 +23,21 @@ def vs.GetDLComponentUseFillClassAttr(index):
 ## Remarks
 CJG 3-23-07
 
+## Examples
+```pascal
+resultOK := GetDLComponentUseFillClassAttr(1, TRUE);
+```
+```python
+import vs
+
+# Gets the use fill class attributes flag of the component at index in the
+# Double Line Preferences.
+index = 1
+
+ok, useClassAttr = vs.GetDLComponentUseFillClassAttr(index)
+vs.Message('GetDLComponentUseFillClassAttr returned: ' + str((ok, useClassAttr)))
+```
+
 ## See Also
 VS Functions:
 [SetDLComponentUseFillClassAttr](SetDLComponentUseFillClassAttr.md)

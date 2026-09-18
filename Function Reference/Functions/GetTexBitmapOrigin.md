@@ -25,9 +25,23 @@ def vs.GetTexBitmapOrigin(textureBitmap):
 ## Remarks
 Origin x and y are in pixels from paint node top left
 
+## Examples
+```pascal
+GetTexBitmapOrigin(textureBitmap, 1, 2);
+```
+```python
+import vs
+
+# Procedure GetTexBitmapOrigin returns the origin of the bitmap applied to
+# the referenced texture bitmap.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+originX, originY = vs.GetTexBitmapOrigin(textureBitmap)
+vs.Message('GetTexBitmapOrigin returned: ' + str((originX, originY)))
+```
+
 ## Version
 GetTexBitmapOrigin is obsolete as of VectorWorks9.0<P>
-
 
 Availability: from VectorWorks8.0
 

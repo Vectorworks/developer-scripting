@@ -23,6 +23,19 @@ This only creates the object, SetDormerAttributes() &amp; SetShedAttributes() mu
 ## Examples
 [CreateShedDormer](examples/CreateShedDormer.md)
 
+```pascal
+resultN := CreateShedDormer(roofObject);
+```
+```python
+import vs
+
+# Function CreateShedDormer creates a shed dormer in the referenced roof object.
+roofObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+resultN = vs.CreateShedDormer(roofObject)
+vs.Message('CreateShedDormer returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

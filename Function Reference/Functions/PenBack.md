@@ -36,6 +36,35 @@ colorIndex = vs.RGBToColorIndex(65535, 0, 39321)
 vs.PenBack(colorIndex) # using Color Index values
 ```
 
+```pascal
+	FillFore(Red,Green,Blue);
+	FillBack(Red,Green,Blue);
+	ColorIndexToRGB(gStippleColor,Red,Green,Blue);
+	PenFore(Red,Green,Blue);
+	PenBack(Red,Green,Blue);
+	TempH := Stipple(SolidPoly, gStippleShape, gStippleDensity, gStippleClip, gStippleMinSize, gStippleMaxSize, gStippleMinAsp, gStippleMaxAsp, gStippleRand); END;
+IF gConfig = 4 THEN
+BEGIN
+	PenSize(gStippleLW);
+
+if not IsPenColorByClass(objHand) then BEGIN
+	GetPenFore(objHand, red, green, blue);
+	PenFore(red, green, blue);
+	GetPenBack(objHand, red, green, blue);
+	PenBack(red, green, blue);
+END;
+
+BEGIN
+	PenPatN (JoistPenPattern );
+	PenFore(JoistPenFore);
+	PenBack(JoistPenBack);
+END;
+```
+```python
+rgb = vs.GetPenBack( objHand )
+vs.PenBack( rgb )
+```
+
 ## See Also
 VS Functions:
 [RGBToColorIndex](RGBToColorIndex.md) 

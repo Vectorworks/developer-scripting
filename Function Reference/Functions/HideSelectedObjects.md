@@ -17,6 +17,16 @@ def vs.HideSelectedObjects():
 HideSelectedObjects();
 ```
 
+```pascal
+HideSelectedObjects;
+```
+```python
+import vs
+
+# Sets the object visibility of all selected objects to &quot;invisible&quot;.
+vs.HideSelectedObjects()
+```
+
 ## Version
 Availability: from Vectorworks 2025
 

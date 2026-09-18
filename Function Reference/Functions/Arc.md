@@ -38,6 +38,45 @@ Arc(0,0,2,2,#45,#90);
 vs.Arc(0,0,2,2,45,90)
 ```
 
+```pascal
+	x0 := xc + (r - h) * Sin (Deg2Rad (beta));
+	y0 := yc - (r - h) * Cos (Deg2Rad (beta));
+	MoveTo (x0, y0);
+	Relative;
+	Arc (-r, r, r, -r, (90 - alpha/2 + beta), alpha);
+END;
+
+MoveTo(CenterX-Length-(Radius*Sin(theta)),CenterY-Length-(Radius*Cos(Theta)));
+LineTo(CenterX-Length-(Radius*Cos(Theta)),CenterY-Length-(Radius*Sin(Theta)));
+SetLW(LNewObj,kThinLine);
+SetLSN(LNewObj,gDashedLine);
+Arc(X+inset-Length,Y+inset-Length,X-inset,Y-inset,270-dTheta,270+2*dTheta);
+SetLW(LNewObj,kThinLine);
+SetLSN(LNewObj,gDashedLine);
+DSelectAll;
+
+IF GetPref(16) THEN	{black background}
+	SetPenFore(lnewobj,0,0,0)
+ELSE SetPenFore(lnewobj,65535,65535,65535);
+IF pFlip
+	THEN Arc(0.0,pLineLength/2,pLineLength,-pLineLength/2,190,160.0)
+	ELSE Arc(0.0,pLineLength/2,pLineLength,-pLineLength/2,170,-160.0);
+```
+```python
+import vs
+
+# Procedure Arc creates an arc object, or a polyline object, in the active
+# document.
+p1 = (0, 0)
+p2 = (2, 2)
+StartAngle = 45.0
+ArcAngle = 90.0
+
+vs.Arc(p1, p2, StartAngle, ArcAngle)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+See also in tutorials: [02. Draw 2D Geometry Primitives](ai%20examples/02_Draw2DPrimitives.md)
+
 ## Version
 Availability: from All Versions
 

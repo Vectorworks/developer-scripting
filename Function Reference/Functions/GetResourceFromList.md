@@ -30,6 +30,39 @@ IsReferenced := GetObjectVariableBoolean(handleToResourceDefinition, 700);
 ## Examples
 [WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
+```pascal
+BEGIN
+	IF GetResourceFromList( defConListID, cnt ) = NIL THEN
+	BEGIN
+		resourceH := ImportResourceToCurrentFile( defConListID, cnt );
+		PIOHand := FInSymDef( resourceH );
+		gSymbolInfo [cnt].shapeName := GetName( GetRecord ( PIOHand, (NumRecords(PIOHand))) );
+		gSymbolInfo[cnt].deleteMe := TRUE;
+		gSymbolInfo[cnt].symbolName := GetSDName( resourceH );
+
+BEGIN
+	hAccessible := GetResourceFromList(currentResourceList,index);
+	SetName(hAccessible, GetStr5(1));
+END;
+
+BEGIN
+	IF (folderHandle = GetResourceFromList(listID, listItemIter)) THEN
+		didCreateViewsFolder := FALSE;
+END;
+```
+```python
+import vs
+
+# Returns the indicated resource from the indicated resource list, if the
+# resource is in the current document.
+listID = 1
+index = 1
+
+objHandle = vs.GetResourceFromList(listID, index)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

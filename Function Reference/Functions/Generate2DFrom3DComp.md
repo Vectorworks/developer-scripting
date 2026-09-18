@@ -5,7 +5,6 @@ Generates the specified 2D component of a symbol definition or plug-in object fr
 The resulting graphics will be similar to converting the 3D component to lines from a view corresponding to the 2D component view. <BR>
 3D objects visible in the specified detail level will be used to generate the 2D component.
 
-
 **Table - 2D components**
 
 | Constant | 2D component         |
@@ -21,7 +20,6 @@ The resulting graphics will be similar to converting the 3D component to lines f
 | 8        | Right               |
 | 9        | Left and Right Cut  |
 
-
 **Table - Available Render Modes**
 
 | Constant | Render Mode         |
@@ -29,7 +27,6 @@ The resulting graphics will be similar to converting the 3D component to lines f
 | 0        | Wireframe          |
 | 6        | Hidden Line        |
 | 7        | Dashed Hidden Line |
-
 
 **Table - Detail levels**
 
@@ -60,6 +57,27 @@ def vs.Generate2DFrom3DComp(objectHandle, component, renderMode, levelOfDetail):
 |component|INTEGER|2D component.|
 |renderMode|INTEGER|Render mode.|
 |levelOfDetail|INTEGER|Detail level. 3D objects visible in this detail level will be used to generate 2D component.|
+
+## Examples
+```pascal
+resultOK := Generate2DFrom3DComp(objectHandle, 1, 2, 3);
+```
+```python
+import vs
+
+# Generates the specified 2D component of a symbol definition or plug-in
+# object from the 3D component.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+component = 1
+renderMode = 0
+levelOfDetail = 2
+
+ok = vs.Generate2DFrom3DComp(objectHandle, component, renderMode, levelOfDetail)
+if ok:
+    vs.Message('Generate2DFrom3DComp succeeded')
+else:
+    vs.Message('Generate2DFrom3DComp failed')
+```
 
 ## See Also
 VS Functions:

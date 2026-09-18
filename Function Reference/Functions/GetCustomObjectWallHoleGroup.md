@@ -19,6 +19,21 @@ def vs.GetCustomObjectWallHoleGroup(objectHand):
 |---|---|---|
 |objectHand|HANDLE|Handle to custom object.|
 
+## Examples
+```pascal
+resultH := GetCustomObjectWallHoleGroup(objectHand);
+```
+```python
+import vs
+
+# Access the handle to wall hole group.
+objectHand = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+objHandle = vs.GetCustomObjectWallHoleGroup(objectHand)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from Vectorworks14.0
 

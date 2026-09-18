@@ -24,6 +24,26 @@ def vs.SetCustomObjectColor(objectHand, inTagID, inColoIndex):
 
 ## Remarks
 
+## Examples
+```pascal
+resultOK := SetCustomObjectColor(objectHand, 1, 2);
+```
+```python
+import vs
+
+# Store/Set an auxilary color index in 'objectHand' so GetCustomObjectColor
+# can access it later.
+objectHand = vs.FSActLayer()  # handle to the first selected object on the active layer
+inTagID = 1
+inColoIndex = 1
+
+ok = vs.SetCustomObjectColor(objectHand, inTagID, inColoIndex)
+if ok:
+    vs.Message('SetCustomObjectColor succeeded')
+else:
+    vs.Message('SetCustomObjectColor failed')
+```
+
 ## See Also
 VS Functions:
 [GetCustomObjectColor](GetCustomObjectColor.md)

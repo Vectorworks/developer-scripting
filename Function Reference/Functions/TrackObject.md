@@ -68,6 +68,30 @@ RUN( Test );
 
 ```
 
+```pascal
+SetTempToolHelpStr(GetPlugInString(3007));
+STRING3005 := GetPlugInString(3005);
+STRING3006 := GetPlugInString(3006);
+REPEAT
+TrackObject( CheckObjCallback, TempHandle1,TempXLoc, TempYLoc, TempZLoc );
+
+BEGIN
+ 	TrackObject( CheckObjCallback, hObject, X, Y, Z );
+ 	wasShiftPressed := Shift;
+END;
+
+{TheCable := PickObject(Click.X,Click.Y);}
+AlrtDialog(GetPlugInString(3000)); {Click on first point}
+TrackObject(CheckObjCallback, TheCable, Click.X, Click.Y, Click.Z);
+SetSelect(TheCable);
+Pt1 := Click;
+AlrtDialog(GetPlugInString(3001)); {Click on second point}
+TrackObject(CheckObjCallback, TheCable, Click.X, Click.Y, Click.Z);
+```
+```python
+result = vs.TrackObject(callback)
+```
+
 ## See Also
 VS Functions:
 [GetPt](GetPt.md) |

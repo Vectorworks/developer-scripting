@@ -22,6 +22,21 @@ def vs.SetLBReadOnly(dialogID, componentID, readOnly):
 |componentID|LONGINT|id of the list browser control|
 |readOnly|BOOLEAN|the read-only state|
 
+## Examples
+```pascal
+SetLBReadOnly(1, 2, TRUE);
+```
+```python
+import vs
+
+# Sets the list browser's read-only state.
+dialogID = 1
+componentID = 2
+readOnly = True
+
+vs.SetLBReadOnly(dialogID, componentID, readOnly)
+```
+
 ## Version
 Availability: from Vectorworks 2022
 

@@ -23,6 +23,25 @@ def vs.SetDLComponentWidth(index, widthDistance):
 ## Remarks
 CJG 6-27-06
 
+## Examples
+```pascal
+resultOK := SetDLComponentWidth(1, 1.0);
+```
+```python
+import vs
+
+# Sets the width of the nth component of the Double Line Preferences, where n
+# is equal to index.
+index = 1
+widthDistance = 2.0
+
+ok = vs.SetDLComponentWidth(index, widthDistance)
+if ok:
+    vs.Message('SetDLComponentWidth succeeded')
+else:
+    vs.Message('SetDLComponentWidth failed')
+```
+
 ## See Also
 VS Functions:
 [GetDLComponentWidth](GetDLComponentWidth.md)

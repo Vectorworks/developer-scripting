@@ -12,6 +12,17 @@ def vs.DLDEndLoadData():
     return None
 ```
 
+## Examples
+```pascal
+DLDEndLoadData;
+```
+```python
+import vs
+
+# Add the created data to object properties.
+vs.DLDEndLoadData()
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

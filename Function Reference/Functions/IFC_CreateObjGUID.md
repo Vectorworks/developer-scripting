@@ -37,6 +37,22 @@ hObject = vs.FSActLayer()
 ok = vs.IFC_CreateObjGUID(hObject)
 ```
 
+```pascal
+resultOK := IFC_CreateObjGUID(hObject);
+```
+```python
+import vs
+
+# Create a Tag record for the specified object if it doesn't have any IFC info.
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IFC_CreateObjGUID(hObject)
+if ok:
+    vs.Message('IFC_CreateObjGUID succeeded')
+else:
+    vs.Message('IFC_CreateObjGUID failed')
+```
+
 ## Version
 Availability: from Vectorworks 2018
 

@@ -17,6 +17,19 @@ def vs.Plant_CreateDupPlant(plantToCreateFrom):
 |---|---|---|
 |plantToCreateFrom|HANDLE|   |
 
+## Examples
+```pascal
+Plant_CreateDupPlant(plantToCreateFrom);
+```
+```python
+import vs
+
+# Creates a new plant from the currently selected plant.
+plantToCreateFrom = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+vs.Plant_CreateDupPlant(plantToCreateFrom)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

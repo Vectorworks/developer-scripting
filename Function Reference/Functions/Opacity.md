@@ -17,6 +17,19 @@ def vs.Opacity(opacity):
 |---|---|---|
 |opacity|INTEGER|   |
 
+## Examples
+```pascal
+Opacity(1);
+```
+```python
+import vs
+
+# Sets the active opacity.
+opacity = 1
+
+vs.Opacity(opacity)
+```
+
 ## Version
 Availability: from VectorWorks13.0
 

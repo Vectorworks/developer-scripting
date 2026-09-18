@@ -31,6 +31,33 @@ Line(2,2);
 
 ```
 
+```pascal
+BEGIN
+	Line (0, tickMark [3]);
+	SetLW (LNewObj, markerPenSize);
+	Move (dx, -tickMark [3]);
+END
+
+BEGIN
+	MoveTo(0, theWidth/2);
+	Line(0, -theWidth);
+END;
+
+IF pstyle = kSUStyleOpen THEN BEGIN
+	ChangeToClass( gBracketClass );
+	BeginXtrd(0",pheight);
+		offset:=0;
+		Moveto(0,0-thick);Line(0,thick);Line(thick,0);
+		IF pconfig = kSUConfigRightCorner THEN BEGIN { right corner shelf unit }
+			Moveto(0,-wdth+thick);
+			Line(0,-thick);
+			Line(thick,0);
+```
+```python
+vs.Line(line)
+```
+See also in tutorials: [02. Draw 2D Geometry Primitives](ai%20examples/02_Draw2DPrimitives.md)
+
 ## Version
 Availability: from All Versions
 

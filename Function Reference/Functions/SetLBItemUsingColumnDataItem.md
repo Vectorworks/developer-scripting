@@ -36,6 +36,50 @@ IF GetNumLBColumnDataItems(dialogID, listBrowserID, columnIndex) > 0 THEN BEGIN
 END;
 ```
 
+## Examples
+```pascal
+BEGIN
+	columnIndex := InsertLBColumnDataItem(dialogID,kHeliodonList,1, city[i], -1, -1, 0);
+	temp := InsertLBItem (dialogID, kHeliodonList, i - 1, city[i]);
+	status := SetLBItemUsingColumnDataItem (dialogID, kHeliodonList, i-1, 1, columnIndex);
+	column [1] := city[i];
+	column [2] := region[i];
+	GetVWRString(angleMark, 'Vectorworks/Strings/1010 Dimension Strings.vwstrings', '10');
+	column [3] := Concat(Num2Str(2, rotation[i]), angleMark);
+
+BEGIN
+	IF value = '' THEN value := ' ';
+	IF NOT FindLBColumnDataItem(dialogID, componentID, column, value, ndx) THEN
+	ndx := InsertLBColumnDataItem(dialogID, componentID, column, value, 0, 0, 0);
+	boo := SetLBItemUsingColumnDataItem(dialogID, componentID, row, column, ndx);
+END;
+
+BEGIN
+ColNum := InsertLBColumnDataItem(dlogID,5,1,layerNameList[i],-1,-1,0);
+temp_i := InsertLBItem (dlogID, 5, i-1, layerNameList[i]);
+temp_b := SetLBItemUsingColumnDataItem (dlogID, 5, i-1, 1, ColNum);
+IF layerStatusList[i]
+	THEN temp_b := SetLBItemUsingColumnDataItem (dlogID, 5, i-1, 0, 0)
+	ELSE temp_b := SetLBItemUsingColumnDataItem (dlogID, 5, i-1, 0, 1);
+END;
+```
+```python
+import vs
+
+# Sets list item data with specified column data item.
+dialogID = 1
+componentID = 2
+itemIndex = 1
+subItemIndex = 1
+columnDataItemIndex = 1
+
+ok = vs.SetLBItemUsingColumnDataItem(dialogID, componentID, itemIndex, subItemIndex, columnDataItemIndex)
+if ok:
+    vs.Message('SetLBItemUsingColumnDataItem succeeded')
+else:
+    vs.Message('SetLBItemUsingColumnDataItem failed')
+```
+
 ## Version
 Availability: from VectorWorks 11.0
 

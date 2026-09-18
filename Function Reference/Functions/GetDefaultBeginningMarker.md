@@ -44,7 +44,6 @@ thickBasis: INTEGER;
 thickness: REAL;
 visibility: BOOLEAN;
 
-
 BEGIN
 ok := GetDefaultBeginningMarker (style, angle, size, width, thickBasis, thickness, visibility);
 Message (style, ' /  ', angle, '  /  ', size, '  /  ', width, ' /  ', thickBasis, ' /  ', thickness, ' /  ', visibility);	
@@ -58,6 +57,41 @@ def Example():
 	ok, style, angle, size, width, thickBasis, thickness, visibility = vs.GetDefaultBeginningMarker ()
 	vs.Message (style, ' /  ', angle, '  /  ', size, '  /  ', width, ' /  ', thickBasis, ' /  ', thickness, ' /  ', visibility)
 Example()
+```
+
+```pascal
+IF SetupObject(parmName, parmHand, parmRecordHand, wallHand,saveclass,noneclass) THEN BEGIN
+	EnableParameter(parmHand,kLenFldName,FALSE); {Fixes bug B055311 - RFA - 02/02/07}
+	dimstd := getprefint(71);
+	{fMark}
+	BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+	BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+	{Mark 0,0,0}
+	BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+	BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+
+BEGIN
+arrowindex := str2num(copy(pArrowStyle,1,1));
+BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+CASE arrowindex OF
+	0: BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);{Mrk(0,0.25 * pMkrScaleFactor,15);}
+
+BEGIN
+	{FMar}
+	BSB := GetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,viz_beg);
+	BSB := GetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,viz_end);
+	BSB := SetDefaultBeginningMarker(mStyle_beg,ang_beg,leng_beg,wid_beg,tBasis_beg,thk_beg,FALSE);
+	BSB := SetDefaultEndMarker(mStyle_end,ang_end,leng_end,wid_end,tBasis_end,thk_end,FALSE);
+	Loop(x, y, x2, y2, kLassoDia);
+```
+```python
+import vs
+
+# Gets all properties for the document default beginning marker.
+ok, style, angle, size, width, thicknessBasis, thickness, visibility = vs.GetDefaultBeginningMarker()
+vs.Message('GetDefaultBeginningMarker returned: ' + str((ok, style, angle, size, width, thicknessBasis, thickness, visibility)))
 ```
 
 ## See Also

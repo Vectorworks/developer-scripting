@@ -60,6 +60,45 @@ def Example():
 Example()
 ```
 
+```pascal
+dialogID := CreateLayout(GetPlugInString(3001),TRUE,GetPlugInString(3002),GetPlugInString(3003));
+CreateStaticText(dialogID,5,GetPlugInString(3004),-1);
+CreateStaticText(dialogID,6,GetPlugInString(3005),-1);
+CreateStaticText(dialogID,7,GetPlugInString(3006),-1);
+CreateEditInteger(dialogID,8,0,6);
+CreateEditInteger(dialogID,9,0,6);
+CreateEditReal(dialogID,10,3,0.0,6);
+{ select the result type controls. }
+CreateStaticText(dialogID, kSelResTypeStaticTxt, GetPlugInString(3018), -1);
+
+CreateGroupBox( dlgId, kSettingsPanel,'', False );{kSettingsPanel}
+CreateStaticText( dlgId, kHeightLabel, GetPluginString(3019), -1 );{kHeightLabel}
+CreateEditReal( dlgId, kHeightEdit, 1, 0.0, 20 );
+CreateStaticText( dlgId, kFloorCountLabel, GetPluginString(3020), -1 );
+CreateEditInteger( dlgId, kFloorCountEdit, 0, 20 );
+CreateCheckBox( dlgId, kAllowIndividualCheck, GetPluginString(3021) );
+CreateCheckBox( dlgId, kSetSlabCheck, GetPluginString(3022) );
+CreateStaticText( dlgId, kSlabThicknessLabel, GetPluginString(3023), -1 );
+CreateEditReal( dlgId, kSlabThicknessEdit, 1, 0.0, 20 );
+
+BEGIN
+CreateStaticText(dialogID, ndx2DlogID1(cnt), Concat(flds[cnt].locName, ':'), -1);
+CreateEditInteger(dialogID, ndx2DlogID2(cnt), 10, fldWidth);
+END;
+```
+```python
+import vs
+
+# Creates an editable text field control for INTEGER and LONGINT values.
+dialogID = 1
+itemID = 2
+defaultValue = 3
+widthInCharacters = 10
+
+vs.CreateEditInteger(dialogID, itemID, defaultValue, widthInCharacters)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

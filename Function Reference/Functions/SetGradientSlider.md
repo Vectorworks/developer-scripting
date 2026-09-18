@@ -40,6 +40,27 @@ segmentIndex := 4;
 SetGradientSlider(dialogID, componentID, segmentIndex, 0.9, 0.5, 255, 255, 255,100);
 ```
 
+```pascal
+SetGradientSlider(1, 2, 3, 1.0, 2.0, 10, 5, 1, 2);
+```
+```python
+import vs
+
+# Note: you must use a variable, initialized to the segment index, to pass as
+# a parameter.
+dialogID = 1
+componentID = 2
+segmentIndex = 1
+spotPosition = 1.0
+midpointPosition = 2.0
+red = 65535
+green = 0
+blue = 0
+opacity = 3
+
+result = vs.SetGradientSlider(dialogID, componentID, segmentIndex, spotPosition, midpointPosition, red, green, blue, opacity)
+```
+
 ## See Also
 VS Functions:
 [GetGradientSlider](GetGradientSlider.md) 

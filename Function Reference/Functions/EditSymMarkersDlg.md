@@ -24,6 +24,24 @@ def vs.EditSymMarkersDlg(dialogTitle, contextHelpID, inOutStartMarkerSymName, in
 |inOutStartMarkerSymName|STRING|Name of starting symbol marker.|
 |inOutEndMarkerSymName|STRING|Name of ending symbol marker.|
 
+## Examples
+```pascal
+resultOK := EditSymMarkersDlg('Example', 'Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Function EditSymMarkersDlg displays a dialog box which requests the user to
+# choose starting and ending symbol markers.
+dialogTitle = 'Example'
+contextHelpID = 'Example'
+inOutStartMarkerSymName = 'MySymbol'
+inOutEndMarkerSymName = 'MySymbol'
+
+ok, inOutStartMarkerSymName, inOutEndMarkerSymName = vs.EditSymMarkersDlg(dialogTitle, contextHelpID, inOutStartMarkerSymName, inOutEndMarkerSymName)
+vs.Message('EditSymMarkersDlg returned: ' + str((ok, inOutStartMarkerSymName, inOutEndMarkerSymName)))
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

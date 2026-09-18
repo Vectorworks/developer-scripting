@@ -17,6 +17,19 @@ def vs.SetLTGeneration(ltGeneration):
 |---|---|---|
 |ltGeneration|BOOLEAN|   |
 
+## Examples
+```pascal
+SetLTGeneration(TRUE);
+```
+```python
+import vs
+
+# Sets the polyline line type generation.
+ltGeneration = True
+
+vs.SetLTGeneration(ltGeneration)
+```
+
 ## Version
 Availability: from Vectorworks 2020.5
 

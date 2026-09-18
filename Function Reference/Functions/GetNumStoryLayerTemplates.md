@@ -12,6 +12,18 @@ def vs.GetNumStoryLayerTemplates():
     return INTEGER
 ```
 
+## Examples
+```pascal
+resultN := GetNumStoryLayerTemplates;
+```
+```python
+import vs
+
+# Returns the number of story layer templates in the file.
+count = vs.GetNumStoryLayerTemplates()
+vs.Message('GetNumStoryLayerTemplates returned: ' + str(count))
+```
+
 ## See Also
 VS Functions:
 [CreateStoryLayerTemplate](CreateStoryLayerTemplate.md)

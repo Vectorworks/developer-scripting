@@ -35,6 +35,24 @@ storyHandle := CreateStory('Floor 1', '-1');
 success := RemoveStoryLevel(storyHandle, 'Finish Floor', TRUE);
 ```
 
+```pascal
+resultOK := RemoveStoryLevel(storyHandle, 'Example', TRUE);
+```
+```python
+import vs
+
+# Removes the Story Level matching 'levelType' from a Story.
+storyHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+levelType = 'Example'
+bDeleteLayer = True
+
+ok = vs.RemoveStoryLevel(storyHandle, levelType, bDeleteLayer)
+if ok:
+    vs.Message('RemoveStoryLevel succeeded')
+else:
+    vs.Message('RemoveStoryLevel failed')
+```
+
 ## See Also
 VS Functions:
 [CreateStory](CreateStory.md) 

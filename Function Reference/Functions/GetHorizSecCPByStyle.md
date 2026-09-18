@@ -14,6 +14,22 @@ def vs.GetHorizSecCPByStyle(hObject):
 |---|---|---|
 |hObject|HANDLE|   |
 
+## Examples
+```pascal
+resultOK := GetHorizSecCPByStyle(hObject);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetHorizSecCPByStyle(hObject)
+if ok:
+    vs.Message('GetHorizSecCPByStyle succeeded')
+else:
+    vs.Message('GetHorizSecCPByStyle failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

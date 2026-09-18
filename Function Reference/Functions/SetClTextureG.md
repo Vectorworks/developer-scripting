@@ -23,6 +23,20 @@ def vs.SetClTextureG(className, textureRef):
 ## Remarks
 Sets the generic texture of the class named className.
 
+## Examples
+```pascal
+SetClTextureG('Wall', 1);
+```
+```python
+import vs
+
+# Procedure SetClTextureG sets the generic texture of the specified class.
+className = 'None'
+textureRef = 1
+
+vs.SetClTextureG(className, textureRef)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

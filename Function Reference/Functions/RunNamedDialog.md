@@ -25,6 +25,35 @@ def vs.RunNamedDialog(dialogID, callback, univName):
 ## Remarks
 [DWD 1/29/13]
 
+## Examples
+```pascal
+dialogID := define_MainDialog;
+dialogOK := VerifyLayout (dialogID);
+exitState := RunNamedDialog (dialogID, getInfo_Main, 'ArcBySegLength');
+
+BEGIN
+	dialogID := defineDialog_Main;
+	dialogOK := VerifyLayout (dialogID);
+	exitState := RunNamedDialog (dialogID, displayDialog, 'ArcIntoSegments');
+
+exitState := RunNamedDialog (dialogID, displayDialog, 'AttachRecord');
+```
+```python
+import vs
+
+# Displays the specified dialog with universal name and initiates the dialog
+# event loop.
+def handle_object(objHandle):
+    vs.Message('Processing: ' + str(objHandle))
+
+dialogID = 1
+callback = handle_object
+univName = 'Example'
+
+resultN = vs.RunNamedDialog(dialogID, callback, univName)
+vs.Message('RunNamedDialog returned: ' + str(resultN))
+```
+
 ## See Also
 VS Functions:
 [RunLayoutDialog](RunLayoutDialog.md)

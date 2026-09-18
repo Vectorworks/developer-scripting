@@ -32,6 +32,26 @@ def vs.EXL_SetCellBorderB(sheetIndex, cellRow, cellColumn, weight, color, style,
 |enabled|BOOLEAN|   |
 |outInconsistencyFound|BOOLEAN|   |
 
+## Examples
+```pascal
+resultOK := EXL_SetCellBorderB(1, 2, 3, 10, 5, 1, TRUE, FALSE);
+```
+```python
+import vs
+
+# Set cell bottom border - weight, color, enable and style.
+sheetIndex = 1
+cellRow = 10
+cellColumn = 5
+weight = 1
+color = 5
+style = 0
+enabled = True
+
+ok, outInconsistencyFound = vs.EXL_SetCellBorderB(sheetIndex, cellRow, cellColumn, weight, color, style, enabled)
+vs.Message('EXL_SetCellBorderB returned: ' + str((ok, outInconsistencyFound)))
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

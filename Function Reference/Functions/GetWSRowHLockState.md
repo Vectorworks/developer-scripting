@@ -35,6 +35,21 @@ GetWSRowHLockState(sheet,5,lockstate);
 lockstate = vs.GetWSRowHLockState(sheet,5)
 ```
 
+```pascal
+GetWSRowHLockState(worksheet, 1, TRUE);
+```
+```python
+import vs
+
+# Returns the lock state of a row in the referenced worksheet Note: If a row
+# height is locked, the row will not automatically resize to fit the contents
+# of the.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+
+result = vs.GetWSRowHLockState(worksheet, row)
+```
+
 ## Version
 Availability: from VectorWorks12.0
 

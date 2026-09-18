@@ -23,6 +23,20 @@ def vs.SetClTextureL(className, textureRef):
 ## Remarks
 Sets the wall left texture of the class named className.
 
+## Examples
+```pascal
+SetClTextureL('Wall', 1);
+```
+```python
+import vs
+
+# Procedure SetClTextureL sets the left side wall texture of the specified class.
+className = 'None'
+textureRef = 1
+
+vs.SetClTextureL(className, textureRef)
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

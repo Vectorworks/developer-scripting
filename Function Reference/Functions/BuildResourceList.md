@@ -123,6 +123,42 @@ Another example from Pat Stanford <pat@coviana.com>
 November 2006
 [WorkingWithResrouceList](examples/WorkingWithResrouceList.md)
 
+```pascal
+BEGIN
+	{ Add Default Symbols }
+	defaultListID := BuildResourceList(16, -kDefConSeatingLayoutSeats, '', defaultListCount);
+	defaultListID2 := BuildResourceList(16, -159, '', defaultListCount2);
+
+UseDefaultContent := GetPref(130);
+IF NOT(UseDefaultContent) THEN SetPref(130,TRUE);
+{Search the default folder}
+gMarker1Name := gStartMarkerName;
+ResourceListID := BuildResourceList(16,-kDefConDetailMarkers,kFolderName,NumMarkerSymbols);
+FoundMarker := FALSE;
+For I := 1 to NumMarkerSymbols DO
+	BEGIN
+	TempStr := GetNameFromResourceList(ResourceListID,I);
+
+RestoreDialogPosition('__Get_StructShape_Dialog__', dialog1);
+defConListID := BuildResourceList( kDefConResType, -kDefConFoldID, '', gNumShapes );
+IF gNumShapes = 0 THEN
+BEGIN
+	IF IsMac THEN
+		AlertInform( GetLocStr( 11055, 37 ), GetLocStr( 11055, 38 ), FALSE )
+```
+```python
+import vs
+
+# Creates an implicit list of resources of a specified type, and returns an
+# ID for the list.
+type = 0
+folderIndex = 1
+subFolderName = 'C:/Temp'
+
+resultN, numItems = vs.BuildResourceList(type, folderIndex, subFolderName)
+vs.Message('BuildResourceList returned: ' + str((resultN, numItems)))
+```
+
 ## See Also
 VS Functions:
 [AddResourceToList](AddResourceToList.md) 

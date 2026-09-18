@@ -34,6 +34,19 @@ GetFillOriginPoint(objectHandle, xOrigin, yOrigin);
 xIAxis, yIAxis = vs.GetFillOriginPoint(vs.FSActLayer())
 ```
 
+```pascal
+GetFillOriginPoint(objectHandle, 1.0, 2.0);
+```
+```python
+import vs
+
+# Gets the origin point of the fill.
+objectHandle = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+xOriginPoint, yOriginPoint = vs.GetFillOriginPoint(objectHandle)
+vs.Message('GetFillOriginPoint returned: ' + str((xOriginPoint, yOriginPoint)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

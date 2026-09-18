@@ -12,7 +12,6 @@ The sweep increment may also be thought of as the spacing between the duplicatio
 
 ![Sweep Object](files/Sweep3d.gif)
 
-
 ```pascal
 PROCEDURE BeginSweep(
 				startAngle    : REAL;
@@ -81,6 +80,36 @@ vs.Poly(3 + 1/4,-1/2,
 2 + 3/4,0)
 vs.EndSweep()
 ```
+
+```pascal
+BEGIN
+	Rise := Rise * ( 360 / angle );
+	L := angle * rise;
+	Absolute;
+	BeginSweep (180-angle, angle, kDt, -rise);
+		Locus (radius + width/2 ,0);
+		MoveTo (0, 0);
+		Relative;
+		Rect (0, 0 , width, -thk);
+
+BEGIN
+	BeginSweep (0, theAngle, kDt, rise);
+		Locus (-radius+modifier1, gGuardAngleHite*2 + gGuardFaceHite + gGuardIntervalHite/2);
+		MoveTo (0, 0);
+		Relative;
+		OpenPoly;
+
+BeginSweep (0, theAngle, dt, rise);
+	Locus (radius + theWidth/2 ,0);
+	{MoveTo (0, 0);}
+	{Relative;}
+	Rect (0, 0 , theWidth, -thk);
+```
+```python
+#### Sweep for paving ...
+vs.BeginSweep( 0, -vs.PSweep, 5, ( vs.PRise / ( vs.PSweep / 360 ) ) )
+```
+See also in tutorials: [05. Turn a Column Profile with Sweep](ai%20examples/05_SweepColumnAndTorus.md)
 
 ## Version
 Availability: from All Versions

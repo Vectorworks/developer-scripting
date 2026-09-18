@@ -34,6 +34,18 @@ RUN(Test);
 ok = vs.IFC_ExportWithUI(FALSE)
 ```
 
+```pascal
+IFC_ExportWithUI(TRUE);
+```
+```python
+import vs
+
+# Exports IFC file, showing Export IFC Project dialog.
+bExpSingleObj = True
+
+vs.IFC_ExportWithUI(bExpSingleObj)
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

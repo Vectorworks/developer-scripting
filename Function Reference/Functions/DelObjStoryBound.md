@@ -20,6 +20,23 @@ def vs.DelObjStoryBound(obj, boundID):
 |obj|HANDLE|The object.|
 |boundID|INTEGER|The identifier of the story bound.|
 
+## Examples
+```pascal
+BEGIN
+	DelObjStoryBound( gPluginH, kTopBoundArchitID );
+	DelObjStoryBound( gPluginH, kBotBoundArchitID );
+	SetLegacyObjectBounds( gPluginName, gPluginH, 'ArchHeightInfo', pOA_Height, kTopBoundArchitID, kBotBoundArchitID, 0.0 );
+```
+```python
+import vs
+
+# Delete the specified story bounds from this object.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+boundID = 1
+
+vs.DelObjStoryBound(obj, boundID)
+```
+
 ## See Also
 VS Functions:
 [HasObjStoryBounds](HasObjStoryBounds.md) 

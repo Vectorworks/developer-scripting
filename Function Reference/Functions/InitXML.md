@@ -12,7 +12,6 @@ To create a new XML file, use [ CreateNewXMLDocument](CreateNewXMLDocument.md), 
 * Elements (or tags), may not contain spaces.
 * Element paths must not end with a slash character.
 
-
 **Table - XML Error Codes**
 
 | Error             | Meaning                        |
@@ -61,6 +60,17 @@ def vs.InitXML():
 
 ## Examples
 [XMLParse](examples/XMLParse.md)
+
+```pascal
+resultN := InitXML;
+```
+```python
+import vs
+
+# Initializes internal structures.
+resultN = vs.InitXML()
+vs.Message('InitXML returned: ' + str(resultN))
+```
 
 ## Version
 Availability: from All Versions

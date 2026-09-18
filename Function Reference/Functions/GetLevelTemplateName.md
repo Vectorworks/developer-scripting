@@ -28,6 +28,19 @@ BEGIN
 templateName:=GetLevelTemplateName(2);
 ```
 
+```pascal
+resultStr := GetLevelTemplateName(1);
+```
+```python
+import vs
+
+# Returns the name of the nth Story Level Template in the file.
+index = 1
+
+name = vs.GetLevelTemplateName(index)
+vs.Message('GetLevelTemplateName returned: ' + str(name))
+```
+
 ## See Also
 VS Functions:
 [GetNumLevelTemplates](GetNumLevelTemplates.md) 

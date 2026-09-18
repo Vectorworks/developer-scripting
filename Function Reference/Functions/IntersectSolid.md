@@ -34,6 +34,34 @@ def vs.IntersectSolid(obj1, obj2):
 |obj2|HANDLE|Handle to source object for intersect operation.|
 |newSolid|HANDLE|Handle to resultant object from intersect operation.|
 
+## Examples
+```pascal
+objH3 := createTeeth (outsideDia_1, rootDia_1, outsideDia_2, rootDia_2, depth, -pt [9].y, 0, numTeeth, 1);
+result := IntersectSolid (objH2, objH3, objH2);
+result := AddSolid (objH1, objH2, objH1);
+
+	NoAngleVar;
+EndXtrd;
+objH1 := LNewObj;
+SET3DRot (LNewObj, -90, 0, 0, 0, 0, 0);
+status3D := IntersectSolid (objH1, objH2, objH1);
+createHexBoltHead := objH1;
+
+status3D := IntersectSolid (objH1, objH2, objH1);
+createHexBoltHead := objH1;
+```
+```python
+import vs
+
+# Function IntersectSolid creates a new solid intersection object from the
+# referenced source objects.
+obj1 = vs.FSActLayer()  # handle to the first selected object on the active layer
+obj2 = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+resultN, newSolid = vs.IntersectSolid(obj1, obj2)
+vs.Message('IntersectSolid returned: ' + str((resultN, newSolid)))
+```
+
 ## Version
 Availability: from MiniCAD 7.0
 

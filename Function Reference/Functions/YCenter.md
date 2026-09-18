@@ -3,7 +3,6 @@
 ## Description
 _[Vectorworks 2012 Deprecated Functions](../../Common/Versions/Vectorworks%202012.md)_. See [YCenterN](YCenterN.md) for a replacement function.
 
-
 Returns the y-coordinate of the center point of an object matching the serach criteria. If more than one object matches the search criteria, the function will return the sum of the coordinates of all the matching objects.
 
 ```pascal
@@ -29,6 +28,13 @@ YCenValue:=YCenter(N='Board');
 #### Python ####
 ```python
 
+```
+
+```pascal
+resultVal := YCenter(c);
+```
+```python
+result = vs.YCenter(c)
 ```
 
 ## Version

@@ -19,6 +19,22 @@ def vs.vsoInsertAllParams():
 |---|---|---|
 ||   |   |
 
+## Examples
+```pascal
+resultOK := vsoInsertAllParams;
+```
+```python
+import vs
+
+# Used in the initialization event of an object, inserts the parameters into
+# the OI palette.
+ok = vs.vsoInsertAllParams()
+if ok:
+    vs.Message('vsoInsertAllParams succeeded')
+else:
+    vs.Message('vsoInsertAllParams failed')
+```
+
 ## Version
 Availability: from All Versions
 

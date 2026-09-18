@@ -17,6 +17,23 @@ def vs.SetVertSecCutPlane(hObject, objectCutPlane):
 |hObject|HANDLE|   |
 |objectCutPlane|INTEGER|   |
 
+## Examples
+```pascal
+resultOK := SetVertSecCutPlane(hObject, 1);
+```
+```python
+import vs
+
+hObject = vs.FSActLayer()  # handle to the first selected object on the active layer
+objectCutPlane = 1
+
+ok = vs.SetVertSecCutPlane(hObject, objectCutPlane)
+if ok:
+    vs.Message('SetVertSecCutPlane succeeded')
+else:
+    vs.Message('SetVertSecCutPlane failed')
+```
+
 ## Version
 Availability: from Vectorworks 2020
 

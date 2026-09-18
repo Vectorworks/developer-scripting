@@ -35,6 +35,39 @@ If you are overlaying a StaticText control over an image e.g in an About My Grea
 *[ComplexDialogLayout](examples/ComplexDialogLayout.md)
 *[ComplexDialogLayout2](examples/ComplexDialogLayout2.md)
 
+```pascal
+{* Create dialog control items *}
+{* Arc Length *}
+CreateStaticText (dialogID, 3, fieldS [4], -1);
+CreateEditText (dialogID, 4, '', 20);
+
+{* Create the control items *}
+	CreateStaticText (dialogID, 4, GetPlugInString (3004), 45);
+	CreateStaticText (dialogID, 5, GetPlugInString (3005), -1);
+	CreatePullDownMenu (dialogID, 6, 32);
+	CreateStaticText (dialogID, 7, GetPlugInString (3006), -1);
+	CreatePullDownMenu (dialogID, 8, 32);
+
+{* Create the control items *}
+	CreateStaticText (dialogID, 4, GetPlugInString (3004), 45);
+	CreateStaticText (dialogID, 5, GetPlugInString (3005), labelWidth);
+	CreatePullDownMenu (dialogID, 6, 32);
+	CreateStaticText (dialogID, 7, GetPlugInString (3006), labelWidth);
+	CreatePullDownMenu (dialogID, 8, 32);
+```
+```python
+import vs
+
+# Creates a new static text field control in a dialog layout.
+dialogID = 1
+itemID = 2
+text = 'Example text'
+widthInCharacters = 3
+
+vs.CreateStaticText(dialogID, itemID, text, widthInCharacters)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

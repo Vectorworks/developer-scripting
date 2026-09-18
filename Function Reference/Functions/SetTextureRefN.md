@@ -81,6 +81,30 @@ vs.SetTextureRefN(obj, textureRef, texPartID, texLayerID)
 <line>texPartID: 3 = overall part</line>
 <line>texLayerID: 0 for no decals</line>
 
+## Examples
+```pascal
+IF (GetTextureSpace(hLocChild,0) = NIL)  THEN SetTextureRefN(hLocChild,ParentTexIndex,kTexturePartID,0);  	{Attach a blank texture to the object.}
+
+		BEGIN
+			vsBlkSpkGrlTextureCreate(intTnmvsGrillTexture);
+			GrillTextIndex := Name2Index(intTnmvsGrillTexture);
+		END;
+	IF (GrillTextIndex <> 0) THEN settexturerefN(LNewObj,GrillTextIndex,TexturePartID,kTextureLayerID);
+END;
+
+			vsBlkSatinTextureCreate(intTnmvsBlkHWTexture);
+			BlkHWTextIndex := Name2Index(intTnmvsBlkHWTexture);
+			ResourceToFolder(kResFldStrngBlk,GetObject(intTnmvsBlkHWTexture),kTypeTxtDef,'');
+		END;
+	IF (BlkHWTextIndex <> 0) THEN settexturerefN(hPole3D,BlkHWTextIndex,kTexturePartID,kTextureLayerID);
+END;
+```
+```python
+if partTexIndex in (-1, 0):
+	# Attach the proper texture to the object.
+	vs.SetTextureRefN( objectHand, TextureObjs.PIOTexIndex, 0, 0 )
+```
+
 ## Version
 Availability: from Vectorworks 2010
 

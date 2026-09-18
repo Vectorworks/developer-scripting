@@ -17,6 +17,24 @@ def vs.PercStrFromDeg(fSlopeDeg):
 |---|---|---|
 |fSlopeDeg|REAL|   |
 
+## Examples
+```pascal
+BEGIN
+gValAng := tmpReal;
+SetItemText(dialogID, kSwapRiseOverRun, RiseRunFromDeg( gValAng ));
+SetItemText(dialogID, kSwapPercent, PercStrFromDeg( gValAng ));
+END
+```
+```python
+import vs
+
+# Converts slope from degrees to percent string.
+fSlopeDeg = 1.0
+
+text = vs.PercStrFromDeg(fSlopeDeg)
+vs.Message('PercStrFromDeg returned: ' + str(text))
+```
+
 ## Version
 Availability: from Vectorworks 2016
 

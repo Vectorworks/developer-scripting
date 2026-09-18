@@ -22,6 +22,21 @@ def vs.GetNurbsObjectDistanceFromPoint(h, point):
 |point|REAL|point|
 |distance|REAL|Distance between point and object.|
 
+## Examples
+```pascal
+resultOK := GetNurbsObjectDistanceFromPoint(h, 1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Returns the distance from the input point to the input NURBS Object h.
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+point = (0, 0)
+
+ok, distance = vs.GetNurbsObjectDistanceFromPoint(h, point)
+vs.Message('GetNurbsObjectDistanceFromPoint returned: ' + str((ok, distance)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

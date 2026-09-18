@@ -35,6 +35,24 @@ def vs.GetSingularConstraint(typeOfConstraint, obj, vertexA, vertexB):
 |vertexA|INTEGER|Vertex defining the constraint geometry.|
 |vertexB|INTEGER|Vertex defining the constraint geometry.|
 
+## Examples
+```pascal
+resultH := GetSingularConstraint(1, obj, 2, 3);
+```
+```python
+import vs
+
+# Returns the type of constraint applied to the referenced object.
+typeOfConstraint = 0
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+vertexA = 1
+vertexB = 2
+
+objHandle = vs.GetSingularConstraint(typeOfConstraint, obj, vertexA, vertexB)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks 9.0
 

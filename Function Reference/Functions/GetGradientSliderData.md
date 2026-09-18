@@ -42,6 +42,22 @@ GetGradientSliderData(dialogID, componentID, 4, 0.7, 0.3, 255, 255, 255);
 vs.GetGradientSliderData(dialogID, componentID, 4)
 ```
 
+```pascal
+GetGradientSliderData(1, 2, 3, 1.0, 2.0, 10, 5, 1);
+```
+```python
+import vs
+
+# Gets the spot position, midpoint position and color of the specified
+# gradient slider segment.
+dialogID = 1
+componentID = 2
+segmentIndex = 1
+
+spotPosition, midpointPosition, red, green, blue = vs.GetGradientSliderData(dialogID, componentID, segmentIndex)
+vs.Message('GetGradientSliderData returned: ' + str((spotPosition, midpointPosition, red, green, blue)))
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

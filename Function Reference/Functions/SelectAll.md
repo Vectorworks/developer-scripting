@@ -14,6 +14,18 @@ def vs.SelectAll():
     return None
 ```
 
+## Examples
+```pascal
+SelectAll;
+```
+```python
+import vs
+
+# Procedure SelectAll selects all visible objects on the active layer of a
+# VectorWorks document.
+vs.SelectAll()
+```
+
 ## Version
 Availability: from All Versions
 

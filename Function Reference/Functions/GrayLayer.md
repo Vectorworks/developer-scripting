@@ -26,6 +26,16 @@ vs.GrayLayer()
 #{grays the layer 'Future Construction'}
 ```
 
+```pascal
+GrayLayer;
+```
+```python
+import vs
+
+# Procedure GrayLayer sets the visibility status of the active layer to grayed.
+vs.GrayLayer()
+```
+
 ## Version
 Availability: from All Versions
 

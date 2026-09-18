@@ -22,6 +22,21 @@ def vs.GetCompUseClassLPS(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |useClassPenStyleForLeftPen|BOOLEAN|Returns whether or not the component is using class attributes for its left pen style.|
 
+## Examples
+```pascal
+resultOK := GetCompUseClassLPS(object, 1, TRUE);
+```
+```python
+import vs
+
+# Gets the use class pen style for left pen flag of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, useClassPenStyleForLeftPen = vs.GetCompUseClassLPS(object, componentIndex)
+vs.Message('GetCompUseClassLPS returned: ' + str((ok, useClassPenStyleForLeftPen)))
+```
+
 ## See Also
 VS Functions:
 [SetCompUseClassLPS](SetCompUseClassLPS.md)

@@ -24,6 +24,36 @@ def vs.GetChoiceIndex(dialogID, componentID, itemText):
 |itemText|STRING|   |
 |itemIndex|INTEGER|   |
 
+## Examples
+```pascal
+BEGIN
+	GetChoiceIndex(nDialogID,nItemID,strChoiceSearch,fGetChoiceIndex);
+END;
+
+BEGIN
+GetChoiceIndex(dialog, 2*cnt+kUseDefaultClassButton, tempS,rowend);
+IF rowend < 0 THEN
+	BEGIN
+	IF GetObject(tempS) = NIL THEN {Class Already Exists}
+		boo := InsertPropClassOrLayerItem(dialog, 2*cnt+kUseDefaultClassButton, tempS,'')
+
+BEGIN
+	GetChoiceIndex(dialog,kTypePopUpSpkA,GetPlugInString(12001),FoundItemIndex);
+	LocTypeToUse := GetPlugInString(12001);
+END
+```
+```python
+import vs
+
+# Finds the index of the given string in a layout manager list box or pull
+# down menu.
+dialogID = 1
+componentID = 2
+itemText = 'Example text'
+
+result = vs.GetChoiceIndex(dialogID, componentID, itemText)
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

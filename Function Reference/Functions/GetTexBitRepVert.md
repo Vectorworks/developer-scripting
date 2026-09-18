@@ -20,6 +20,24 @@ def vs.GetTexBitRepVert(textureBitmap):
 ## Remarks
 Returns TRUE if this texture bitmap repeats vertically.
 
+## Examples
+```pascal
+resultOK := GetTexBitRepVert(textureBitmap);
+```
+```python
+import vs
+
+# Function GetTexBitRepVert returns whether the referenced texture bitmap is
+# set to repeat vertically.
+textureBitmap = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.GetTexBitRepVert(textureBitmap)
+if ok:
+    vs.Message('GetTexBitRepVert succeeded')
+else:
+    vs.Message('GetTexBitRepVert failed')
+```
+
 ## Version
 Availability: from VectorWorks8.0
 

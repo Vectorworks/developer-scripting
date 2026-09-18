@@ -22,6 +22,21 @@ def vs.SetLBHierDispColumn(dialogID, componentID, columnID):
 |componentID|LONGINT|The id of the list browser.|
 |columnID|INTEGER|The index of the hierarchical column.|
 
+## Examples
+```pascal
+SetLBHierDispColumn(1, 2, 3);
+```
+```python
+import vs
+
+# This function sets which column to display hierarchically in a list browser.
+dialogID = 1
+componentID = 2
+columnID = 5
+
+vs.SetLBHierDispColumn(dialogID, componentID, columnID)
+```
+
 ## See Also
 VS Functions:
 [EnableLBHierDisplay](EnableLBHierDisplay.md)

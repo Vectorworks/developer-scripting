@@ -22,6 +22,21 @@ def vs.GetComponentMaterial(object, componentIndex):
 |componentIndex|INTEGER|The index of the component.|
 |material|LONGINT|Returns the material of the component.|
 
+## Examples
+```pascal
+resultOK := GetComponentMaterial(object, 1, 2);
+```
+```python
+import vs
+
+# Gets the material of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+
+ok, material = vs.GetComponentMaterial(object, componentIndex)
+vs.Message('GetComponentMaterial returned: ' + str((ok, material)))
+```
+
 ## See Also
 VS Functions:
 [SetComponentMaterial](SetComponentMaterial.md)

@@ -20,6 +20,20 @@ def vs.DeleteConstraint(obj, constraint):
 |obj|HANDLE|Handle to object.|
 |constraint|HANDLE|Handle to constraint being deleted.|
 
+## Examples
+```pascal
+DeleteConstraint(obj, constraint);
+```
+```python
+import vs
+
+# Removes a constraint from the referenced object in the document.
+obj = vs.FSActLayer()  # handle to the first selected object on the active layer
+constraint = vs.NextSObj(vs.FSActLayer())  # handle to the next selected object
+
+vs.DeleteConstraint(obj, constraint)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

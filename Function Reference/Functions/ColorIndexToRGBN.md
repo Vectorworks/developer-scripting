@@ -40,6 +40,29 @@ ColorIndexToRGBN(255,r,g,b,TRUE);
 {will always be black RGB color regardless of the black background }{preference setting.}
 ```
 
+```pascal
+GetColorChoice(dialog,kColorZero,ColorIdx);
+ColorIndexToRGBN(ColorIdx,R,G,B,FALSE);
+SetRField(parmHand,parmName,'__ZeroThresholdColor',Concat(R,',',G,',',B));
+
+		bFlipTexture := GetLBItemInfo (dialog,kFrntMltColBrowser,RowCount,1,NewColorNameString,ImageItemIndex);
+		TempColorNameArray[RowCount+1] := NewColorNameString;
+	END;
+GetColorChoice(dialog,kFrntMltColPanColPopUp,ColorChoiceNdx);
+ColorIndexToRGBN(ColorChoiceNdx,NewRed,NewGreen,NewBlue,TRUE);		{16-bit}
+```
+```python
+import vs
+
+# Procedure ColorIndexToRGBN converts the Vectorworks palette colors from the
+# colors' palette position index to its red, green, and blue component values.
+color = 5
+ignoreBlackBackground = True
+
+red, green, blue = vs.ColorIndexToRGBN(color, ignoreBlackBackground)
+vs.Message('ColorIndexToRGBN returned: ' + str((red, green, blue)))
+```
+
 ## See Also
 Functions:
 * [ColorIndexToRGB](ColorIndexToRGB.md)

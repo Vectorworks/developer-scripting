@@ -27,6 +27,17 @@ vs.LineTo(2,2)
 vs.DimText()
 ```
 
+```pascal
+DimText;
+```
+```python
+import vs
+
+# Procedure DimText converts the most recently created line object in
+# VectorScript to a dimension.
+vs.DimText()
+```
+
 ## Version
 Availability: from All Versions
 

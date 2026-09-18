@@ -24,6 +24,20 @@ def vs.DBGetFormatFieldConn(formatName):
 |columnName|STRING|   |
 |linkType|INTEGER|0 = Read/Write; 1 = Read Only; 2 = Write Only|
 
+## Examples
+```pascal
+resultOK := DBGetFormatFieldConn('Example', 'MyRecord', 'Example', 1);
+```
+```python
+import vs
+
+# Get ODBC connection for the specified format field.
+formatName = 'MyRecord'
+
+ok, fieldName, columnName, linkType = vs.DBGetFormatFieldConn(formatName)
+vs.Message('DBGetFormatFieldConn returned: ' + str((ok, fieldName, columnName, linkType)))
+```
+
 ## Version
 Availability: from Vectorworks 2011
 

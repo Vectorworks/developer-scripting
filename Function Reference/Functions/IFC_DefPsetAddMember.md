@@ -44,6 +44,24 @@ RUN(PsetAddMember);
 ok = vs.IFC_DefPsetAddMember( 'Chair Details', 'Height', 'IfcReal');
 ```
 
+```pascal
+resultOK := IFC_DefPsetAddMember('Example', 'Example', 'Example');
+```
+```python
+import vs
+
+# Adds a new member to the currently defined Custom Object Preset.
+psetName = 'Example'
+propName = 'Example'
+propType = 'Example'
+
+ok = vs.IFC_DefPsetAddMember(psetName, propName, propType)
+if ok:
+    vs.Message('IFC_DefPsetAddMember succeeded')
+else:
+    vs.Message('IFC_DefPsetAddMember failed')
+```
+
 ## See Also
 [IFC_DefPsetBegin](IFC_DefPsetBegin.md)
 [IFC_DefPsetEnd](IFC_DefPsetEnd.md)

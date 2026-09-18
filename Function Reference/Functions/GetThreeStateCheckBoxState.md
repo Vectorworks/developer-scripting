@@ -22,6 +22,20 @@ def vs.GetThreeStateCheckBoxState(dialogID, componentID):
 |componentID|LONGINT|   |
 |iState|INTEGER|0-unchecked, 1-checked, 2-partially checked|
 
+## Examples
+```pascal
+GetThreeStateCheckBoxState(1, 2, 3);
+```
+```python
+import vs
+
+# Retrieves the state of a Layout Manager three state checkbox.
+dialogID = 1
+componentID = 2
+
+result = vs.GetThreeStateCheckBoxState(dialogID, componentID)
+```
+
 ## Version
 Availability: from VectorWorks12.5
 

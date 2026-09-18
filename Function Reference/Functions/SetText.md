@@ -56,6 +56,27 @@ RUN(Example);
 
 ```
 
+```pascal
+dateflag := (flag & (GetRField(hobj,kRecName,kStatName) = kStatValYellow))|(NOT(flag) & (GetRField(hobj,kRecName,kStatName) = kStatValRed));
+IF dateflag THEN BEGIN
+	SetText(hobj,Date(2,0));
+	IF flag THEN SetRField(hobj,kRecName,kDateName,Date(2,0)) ELSE SetRField(hobj,kRecName,kPUDateName,Date(2,0));
+	END;
+
+BEGIN
+	If gDaylightSavingsOn then fDisplayStr := Concat(Num2Str(0, fHour-1), ' : ') ELSE fDisplayStr := Concat(Num2Str(0, fHour), ' : ');
+	IF fMinute < 10 THEN fDisplayStr := Concat(fDisplayStr, '0');
+	fDisplayStr := Concat(fDisplayStr, Num2Str(0, fMinute));
+	SetText(gFrameCounterHan, fDisplayStr);
+END;
+
+BEGIN
+	SetText (gIssueNoteTextH, description);
+```
+```python
+vs.SetText(objectHd, 'Example')
+```
+
 ## Version
 Availability: from All Versions
 

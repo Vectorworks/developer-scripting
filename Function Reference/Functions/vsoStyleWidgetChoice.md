@@ -17,6 +17,17 @@ def vs.vsoStyleWidgetChoice():
 |---|---|---|
 |choice|INTEGER|   |
 
+## Examples
+```pascal
+vsoStyleWidgetChoice(1);
+```
+```python
+import vs
+
+# Get the item chosen in the Plug-in Object Style widget.
+result = vs.vsoStyleWidgetChoice()
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

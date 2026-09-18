@@ -34,6 +34,46 @@ GetFillBack(handleToObject,redValue,greenValue,blueValue);
 red_value, green_value, blue_value = vs.GetFillBack(vs.FSActLayer())
 ```
 
+```pascal
+	CreateText(anno);
+	SetTextJust(LNewObj,2);
+	SetTextVerticalAlign(LNewObj,3);
+	setfpat(lnewobj,GetFPat(parmHand));
+	GetFillBack(parmHand,red,grn,bl);
+	SetFillBack(LNewObj,red,grn,bl);
+	popattrs;
+END;
+
+	GetPenFore (gWallHand,r,g,b);
+	PenFore (r,g,b);
+	Pensize (GetLW (gWallHand));
+	PenPatN (GetLSN (gWallHand));
+	GetFillBack (gWallHand,r,g,b);
+	FillBack (r,g,b);
+END;
+
+{set Callout Fill Pattern Fore color from the FPat fore color of the TextNote's text block}
+GetFillFore( textFoundH, red, green, blue );
+SetFillFore( CNH, red, green, blue );
+{set Callout Fill Pattern Back color from the FPat Back color of the TextNote's text block}
+GetFillBack( textFoundH, red, green, blue );
+SetFillBack( CNH, red, green, blue );
+{====================== Set Attributes ======================}
+```
+```python
+colorR, colorG, colorB = vs.GetFillBack( gObjHandle )
+vs.SetFillBack( hTmpHand, ( colorR, colorG, colorB ) )
+
+rgb = vs.GetFillBack( objHand )
+vs.FillBack( rgb )
+
+vs.SetFillBack(objH, vs.GetFillBack(parentH))
+vs.SetFillFore(objH, vs.GetFillFore(parentH))
+vs.SetPenBack(objH, vs.GetPenBack(parentH))
+vs.SetPenFore(objH, vs.GetPenFore(parentH))
+start, end, style, size	= vs.GetMarker(parentH)
+```
+
 ## See Also
 VS Functions: [RGBToColorIndex](RGBToColorIndex.md) | [ColorIndexToRGB](ColorIndexToRGB.md) | [GetFillFore](GetFillFore.md) | [GetPenFore](GetPenFore.md) | [GetPenBack](GetPenBack.md)
 

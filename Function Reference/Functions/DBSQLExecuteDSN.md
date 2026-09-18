@@ -34,6 +34,22 @@ CMP: DSN param appears to need a POSIX path
 ## Examples
 [DBSQL](examples/DBSQL.md)
 
+```pascal
+resultOK := DBSQLExecuteDSN(dsn, userName, password, SQLQuery, 1, 2);
+```
+```python
+import vs
+
+# Executes a SQL query the specified DSN.
+dsn = 'Example'
+userName = 'Example'
+password = 'Example'
+SQLQuery = 'Example'
+
+ok, outColumnCnt, outResultSetInst = vs.DBSQLExecuteDSN(dsn, userName, password, SQLQuery)
+vs.Message('DBSQLExecuteDSN returned: ' + str((ok, outColumnCnt, outResultSetInst)))
+```
+
 ## See Also
 [DBSQLExecuteGet](DBSQLExecuteGet.md) | [DBSQLExecuteNext](DBSQLExecuteNext.md) | [DBSQLExecuteDelete](DBSQLExecuteDelete.md)
 

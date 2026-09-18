@@ -47,6 +47,19 @@ else:
 	colorR = (colorRV + 65536) / 257
 ```
 
+## Examples
+```pascal
+resultOK := GetDropShadowData(h, 1, 1.0, 2.0, 0.5, 2, 3, 10, 5);
+```
+```python
+import vs
+
+h = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colorRV, colorGV, colorBV = vs.GetDropShadowData(h)
+vs.Message('GetDropShadowData returned: ' + str((ok, nUnits, dOffset, dBlurRadius, dAngle, nOpacity, colorRV, colorGV, colorBV)))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

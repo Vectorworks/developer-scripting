@@ -33,6 +33,13 @@ SetClLS('Property Parcels',-4);
 
 ```
 
+```pascal
+SetClLS('Wall', 1);
+```
+```python
+vs.SetClLS('Wall', LS)
+```
+
 ## See Also
 [GetClLSN](GetClLSN.md), [SetClLSN](SetClLSN.md) from Vectorworks 2013
 [GetClLS](GetClLS.md)

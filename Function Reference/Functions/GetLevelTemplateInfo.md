@@ -28,6 +28,20 @@ def vs.GetLevelTemplateInfo(index):
 |elevation|REAL|The elevation of the Story Level Template at 'index'.|
 |wallHeight|REAL|The wall height of the Story Level Template at 'index'.  If the layer name is blank, this parameter has no meaning.|
 
+## Examples
+```pascal
+resultOK := GetLevelTemplateInfo(1, 'Design Layer-1', 1.0, 'Example', 2.0, 0.5);
+```
+```python
+import vs
+
+# Used to access the properties of the Story Level Template at 'index'.
+index = 1
+
+ok, layerName, scaleFactor, levelType, elevation, wallHeight = vs.GetLevelTemplateInfo(index)
+vs.Message('GetLevelTemplateInfo returned: ' + str((ok, layerName, scaleFactor, levelType, elevation, wallHeight)))
+```
+
 ## See Also
 VS Functions:
 [GetNumLevelTemplates](GetNumLevelTemplates.md) 

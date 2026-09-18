@@ -17,6 +17,20 @@ def vs.GetSymDefSubType(hSymDef):
 |---|---|---|
 |hSymDef|HANDLE|Handle to a symbol definition contaiing a plug-in style.|
 
+## Examples
+```pascal
+resultN := GetSymDefSubType(hSymDef);
+```
+```python
+import vs
+
+# Returns the sub type defined for a symbol definiiton.
+hSymDef = vs.GetObject('MySymbol')  # handle to a symbol definition
+
+resultN = vs.GetSymDefSubType(hSymDef)
+vs.Message('GetSymDefSubType returned: ' + str(resultN))
+```
+
 ## Version
 Availability: from Vectorworks 2017
 

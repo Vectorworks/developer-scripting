@@ -83,6 +83,39 @@ vs.AlrtDialog('Default:' + vs.GetRField(hrec, recname, fld))
 # ©MaKro - June 2018 ;-)
 ```
 
+```pascal
+gReveal := pReveal;
+GetLocTrueAndFalse;
+gDrawCounterString := GetRField( parmHand, parmName, 'Draw Counter' );
+UprString( gDrawCounterString );
+IF( gDrawCounterString = gLocFalse ) THEN
+BEGIN
+	gReveal := 0.0;
+
+EnableParameter(gParmH,'CoverWeight',Str2Boo(GetRfield(gParmH,gParmN,'setCoverWeight')));
+IF (gLine <> NIL) THEN
+	BEGIN
+	IF kDebugMode THEN alrtdialog('Picked obj is OK.');
+
+BEGIN {New Redline Path Object Based Redline}
+	DateFlag := FALSE;
+	IF Flag & Str2Boo(GetRField(hObj, kRedlinePathObjName, kRedlinePathObjPickedUpField)) THEN DateFlag := TRUE;
+	IF NOT(Flag) & NOT(Str2Boo(GetRField(hObj, kRedlinePathObjName, kRedlinePathObjPickedUpField))) THEN DateFlag := True;
+```
+```python
+strMarkerName = vs.GetRField( gObjHandle, gObjName, '__Marker_Style_Name')
+#vs.AlrtDialog(vs.Concat('strMarkerName = ',strMarkerName))
+
+if ( recHand != 0 ) and ( wksHand != 0 ):
+	# * Get the user standard index *
+	userIndex = vs.Str2Num( vs.Copy( vs.GetRField( recHand, recName, getLocStr( 12018, 2 ) ), 1, 1 ) )
+	rows, cols = vs.GetWSRowColumnCount( wksHand )
+	i = 1
+	numClasses = rows - 1
+	while (i <= numClasses ):
+```
+See also in tutorials: [08. Attach and Read Records on Objects](ai%20examples/08_AttachAndReadRecords.md)
+
 ## Version
 Availability: from VectorWorks 8.5
 

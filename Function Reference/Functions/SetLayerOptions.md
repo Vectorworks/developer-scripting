@@ -50,6 +50,41 @@ def vs.SetLayerOptions(layerOpts):
 |---|---|---|
 |layerOpts|INTEGER|New layer visibility setting for document.|
 
+## Examples
+```pascal
+if isolate & YNDialog(GetPlugInString(7000)) then BEGIN
+	{No need to change the layer & class visibility unless you're searching all layers.}
+	if layerOptions = 1 then BEGIN
+		SetLayerOptions(5);
+		temp_h := FLayer;
+		while temp_h <> nil do BEGIN
+			Layer(GetLName(temp_h));
+			ShowLayer;
+
+Begin
+SetLayerOptions(4);
+ChangedLayerOpts := True;
+End
+
+	gX2 := gXtemp;
+	gY2 := gYtemp;
+END;
+LayerOpt := GetLayerOptions;
+IF LayerOpt > 3 THEN SetLayerOptions(5);
+gDrawResult := PickPIO(kPIOName, gX1, gY1, gX2, gY2, gIDHand, gIDSymHand, gSourceObjHand, gSourceRec);
+IF kDebugMode THEN alrtdialog('Returned from Initial PickPIO');
+UserPick := TRUE;
+IsDoor := FALSE;
+```
+```python
+import vs
+
+# Sets layer visibility setting for the active document.
+layerOpts = 1
+
+vs.SetLayerOptions(layerOpts)
+```
+
 ## See Also
 VS Functions:
 [GetLayerOptions](GetLayerOptions.md)

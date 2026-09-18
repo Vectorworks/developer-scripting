@@ -26,6 +26,23 @@ def vs.ws2SetToolInfo(toolPath, displayName, shortcutKey, shortcutKeyModifier, r
 |shortcutKeyModifier|INTEGER|   |
 |resourceID|INTEGER|   |
 
+## Examples
+```pascal
+ws2SetToolInfo(toolPath, displayName, shortcutKey, 1, 2);
+```
+```python
+import vs
+
+# Workspace advanced APIs.
+toolPath = 'C:/Temp'
+displayName = 'Example'
+shortcutKey = 'Example'
+shortcutKeyModifier = 1
+resourceID = 2
+
+vs.ws2SetToolInfo(toolPath, displayName, shortcutKey, shortcutKeyModifier, resourceID)
+```
+
 ## Version
 Availability: from Vectorworks 2021
 

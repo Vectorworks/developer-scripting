@@ -23,6 +23,41 @@ def vs.SetDashLineTypeName(DashStyleIndex, DashStyleName):
 ## Remarks
 This replaces SetDashStyleName.
 
+## Examples
+```pascal
+BEGIN
+	CntrDashIndex := CheckLSN(-1);
+	IF SetDashLineTypeName(CntrDashIndex,GetPlugInString(21001)) THEN BEGIN END;
+	ResourceToFolder(kResFldStrngBlk,GetObject(GetPlugInString(21001)),kTypeLineDef,'');
+END
+
+BEGIN
+	ToeDashIndex := CheckLSN(-1);
+	IF SetDashLineTypeName(ToeDashIndex,GetPlugInString(12001)) THEN BEGIN END;
+	ResourceToFolder(kResFldStrngBlk,GetObject(GetPlugInString(12001)),kTypeLineDef,'');
+END
+
+BEGIN
+	RampBendDashIndex := CheckLSN(-1);
+	IF SetDashLineTypeName(RampBendDashIndex,GetPlugInString(12001)) THEN BEGIN END;
+	ResourceToFolder(kResFldStrngBlk,GetObject(GetPlugInString(12001)),kTypeLineDef,'');
+END
+```
+```python
+import vs
+
+# Sets the dash style name for the specified dash style using its negated
+# internal index.
+DashStyleIndex = 1
+DashStyleName = 'Example'
+
+ok = vs.SetDashLineTypeName(DashStyleIndex, DashStyleName)
+if ok:
+    vs.Message('SetDashLineTypeName succeeded')
+else:
+    vs.Message('SetDashLineTypeName failed')
+```
+
 ## See Also
 VS Functions:
 [GetDashLineTypeName](GetDashLineTypeName.md)

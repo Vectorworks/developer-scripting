@@ -45,6 +45,24 @@ v2 = (12, 1, 0)
 vs.Message( str(vs.EqPt(v1, v2, 0.1)) )
 ```
 
+```pascal
+IF EqPt( UnitVec( vec1 ), UnitVec( vec2 ), fuzz ) THEN tanAng := 0; { AngBVec gives wrong output sometimes for collinear vectors. }
+```
+```python
+import vs
+
+# Returns TRUE if the 2D points are equal within the tolerance.
+pt1 = (0, 0)
+pt2 = (1, 1)
+tolerance = 1.0
+
+ok = vs.EqPt(pt1, pt2, tolerance)
+if ok:
+    vs.Message('EqPt succeeded')
+else:
+    vs.Message('EqPt failed')
+```
+
 ## See Also
 VS Functions:
 * [EqualPt](EqualPt.md)

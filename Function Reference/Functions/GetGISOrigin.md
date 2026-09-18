@@ -22,6 +22,18 @@ def vs.GetGISOrigin():
 |outLon|REAL|   |
 |outAngleToNorth|REAL|   |
 
+## Examples
+```pascal
+resultOK := GetGISOrigin(1.0, 2.0, 0.5);
+```
+```python
+import vs
+
+# Get geographical origin.
+ok, outLat, outLon, outAngleToNorth = vs.GetGISOrigin()
+vs.Message('GetGISOrigin returned: ' + str((ok, outLat, outLon, outAngleToNorth)))
+```
+
 ## Version
 Availability: from Vectorworks 2012
 

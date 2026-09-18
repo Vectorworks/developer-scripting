@@ -63,8 +63,38 @@ BEGIN
 
 ```
 
+```pascal
+BEGIN
+	{ XXX Bobi: check fayer change (scaled, elevation changed, height changed).
+	  IF so make a fake move OF the object. }
+	IF vsoStateGetLayrChng( objHand, fakeOldLayerVal, fakeNewLayerVal, fakeLayerTextBool ) THEN BEGIN
+		HMove( objHand, 0, 0 ); { fake move. }
+	END;
+
+BEGIN
+	IF vsoStateGetLayrChng( parmHand, oldScale, newScale, scaleText ) THEN
+		BEGIN
+		IF (oldScale <> newScale) THEN
+			BEGIN
+			rawLineLength := Str2Num(GetRField(parmHand,parmName,'LineLength'));
+			newLineLength := rawLineLength*(newScale/oldScale);
+			SetRField(parmHand,parmName,'LineLength',Concat(newLineLength));
+			END;
+
+{//////// Scale Header and Title text if regen by layer change and Scale Text TRUE ////////}
+IF vsoStateGetLayrChng(PIHan, outOldScale, outNewScale, outScaleText) & outScaleText THEN BEGIN
+	key.headerTextAtts.size := key.headerTextAtts.size / outNewScale * outOldScale;
+	key.titleTextAtts.size := key.titleTextAtts.size / outNewScale * outOldScale;
+	SetRField(PIHan, PIName, 'headerSize', Concat(key.headerTextAtts.size));
+	SetRField(PIHan, PIName, 'TitleSize', Concat(key.titleTextAtts.size));
+END;
+```
+```python
+result = vs.vsoStateGetLayrChng(h)
+```
+
 ## See Also
-[Parametric State Notifications](Parametric%20State Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
+[Parametric State Notifications](../../Common/Tasks/Parametrics/Parametric%20State%20Notifications.md) | [vsoStateAddCurrent](vsoStateAddCurrent.md)
 
 [vsoStateGetPos](vsoStateGetPos.md) | [vsoStateGetRot](vsoStateGetRot.md) | [vsoStateGetParamChng](vsoStateGetParamChng.md) | [vsoStateGetObjChng](vsoStateGetObjChng.md) | [vsoStateGetLayrChng](vsoStateGetLayrChng.md) | [vsoStateGetExitGroup](vsoStateGetExitGroup.md) | [vsoStateGetNameChng](vsoStateGetNameChng.md)
 

@@ -22,6 +22,25 @@ def vs.IsWSImg(worksheet, row, column):
 |row|INTEGER|The cell row.|
 |column|INTEGER|The cell column.|
 
+## Examples
+```pascal
+resultOK := IsWSImg(worksheet, 1, 2);
+```
+```python
+import vs
+
+# Determines if worksheet cell is set to display an image.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+ok = vs.IsWSImg(worksheet, row, column)
+if ok:
+    vs.Message('IsWSImg succeeded')
+else:
+    vs.Message('IsWSImg failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

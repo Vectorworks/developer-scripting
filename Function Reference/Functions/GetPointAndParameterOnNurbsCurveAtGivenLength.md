@@ -59,6 +59,30 @@ def Example():
 Example()
 ```
 
+```pascal
+nurbs[1].x := pX;
+nurbs[1].y := pY;
+nurbs[1].z := pZ;
+for cnt := 2 to nurbsPtCnt - 1 do BEGIN
+	if GetPointAndParameterOnNurbsCurveAtGivenLength(nurbsHandle, (gStationSpacing * (cnt-1)) / nurbsLength, pX, pY, pZ, outParam, outIndex) then BEGIN
+		nurbs[cnt].x := pX;
+		nurbs[cnt].y := pY;
+		nurbs[cnt].z := pZ;
+	END ELSE nurbsPtCnt := nurbsPtCnt - 1;
+END;
+```
+```python
+import vs
+
+# Gets point, parametric parameter, and curve index of specified location
+# along a NURBS Curve.
+inNurbCurve = vs.FSActLayer()  # handle to the first selected object on the active layer
+inPercentOfLength = 1.0
+
+ok, p, outParam, outIndex = vs.GetPointAndParameterOnNurbsCurveAtGivenLength(inNurbCurve, inPercentOfLength)
+vs.Message('GetPointAndParameterOnNurbsCurveAtGivenLength returned: ' + str((ok, p, outParam, outIndex)))
+```
+
 ## Version
 Availability: from VectorWorks10.1
 

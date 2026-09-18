@@ -27,6 +27,13 @@ aValue:=Angle(N='LineSeg');
 
 ```
 
+```pascal
+resultVal := Angle(c);
+```
+```python
+result = vs.Angle(c)
+```
+
 ## Version
 Availability: from All Versions
 

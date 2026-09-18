@@ -24,6 +24,26 @@ def vs.SetCompPenStylesN(object, componentIndex, leftPenStyle, rightPenStyle):
 |leftPenStyle|LONGINT|The left pen style of the component.|
 |rightPenStyle|LONGINT|The right pen style of the component.|
 
+## Examples
+```pascal
+resultOK := SetCompPenStylesN(object, 1, 2, 3);
+```
+```python
+import vs
+
+# Sets the pen styles of a component in an object.
+object = vs.FSActLayer()  # handle to the first selected object on the active layer
+componentIndex = 1
+leftPenStyle = 0
+rightPenStyle = 0
+
+ok = vs.SetCompPenStylesN(object, componentIndex, leftPenStyle, rightPenStyle)
+if ok:
+    vs.Message('SetCompPenStylesN succeeded')
+else:
+    vs.Message('SetCompPenStylesN failed')
+```
+
 ## See Also
 VS Functions:
 [GetCompPenStylesN](GetCompPenStylesN.md)

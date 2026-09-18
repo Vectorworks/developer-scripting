@@ -24,6 +24,21 @@ def vs.GetWSCellFormula(worksheet, row, column):
 |column|INTEGER|Column of cell to be queried.|
 |formula|STRING|Formula contained in worksheet cell.|
 
+## Examples
+```pascal
+GetWSCellFormula(worksheet, 1, 2, 'Example');
+```
+```python
+import vs
+
+# Returns the formula from a cell in the referenced worksheet.
+worksheet = vs.GetObject('MyWorksheet')  # handle to a worksheet
+row = 10
+column = 5
+
+result = vs.GetWSCellFormula(worksheet, row, column)
+```
+
 ## Version
 Availability: from VectorWorks9.0
 

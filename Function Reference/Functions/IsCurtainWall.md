@@ -17,6 +17,40 @@ def vs.IsCurtainWall(hWall):
 |---|---|---|
 |hWall|HANDLE|Handle to a wall object to check for curtain wall status|
 
+## Examples
+```pascal
+BEGIN
+UID := CreateUUID;
+propertyValue := '';
+IF IsCurtainWall(WallHand) THEN
+BEGIN
+	IF GetWallStyle(WallHand) <> '' THEN
+		success := IFC_GetPsetProp(GetObject(GetWallStyle(WallHand)), 'Pset_CurtainWallCommon', 'Reference', propertyValue, propertyType)
+	ELSE
+		success := IFC_GetPsetProp(WallHand, 'Pset_CurtainWallCommon', 'Reference', propertyValue, propertyType);
+END
+
+IF IsCurtainWall(WallHand) THEN
+BEGIN
+	IF GetWallStyle(WallHand) <> '' THEN
+		success := IFC_GetPsetProp(GetObject(GetWallStyle(WallHand)), 'Pset_CurtainWallCommon', 'Reference', propertyValue, propertyType)
+	ELSE
+		success := IFC_GetPsetProp(WallHand, 'Pset_CurtainWallCommon', 'Reference', propertyValue, propertyType);
+END
+```
+```python
+import vs
+
+# Use to check whether wall is being used as a curtain wall.
+hWall = vs.FSActLayer()  # handle to the first selected object on the active layer
+
+ok = vs.IsCurtainWall(hWall)
+if ok:
+    vs.Message('IsCurtainWall succeeded')
+else:
+    vs.Message('IsCurtainWall failed')
+```
+
 ## Version
 Availability: from Vectorworks 2014
 

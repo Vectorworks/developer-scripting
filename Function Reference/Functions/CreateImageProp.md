@@ -36,6 +36,29 @@ def vs.CreateImageProp(propName, textureRef, height, width, enforceImageAspectRa
 |autoRotate|BOOLEAN|   |
 |createSymbol|BOOLEAN|   |
 
+## Examples
+```pascal
+resultH := CreateImageProp('Example', 1, 1.0, 2.0, TRUE, FALSE, TRUE, TRUE, FALSE);
+```
+```python
+import vs
+
+# Create an image prop from the options specified.
+propName = 'Example'
+textureRef = 1
+height = 2.0
+width = 2.0
+enforceImageAspectRatio = True
+crossedPlanes = True
+createPlugin = True
+autoRotate = True
+createSymbol = True
+
+objHandle = vs.CreateImageProp(propName, textureRef, height, width, enforceImageAspectRatio, crossedPlanes, createPlugin, autoRotate, createSymbol)
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## Version
 Availability: from VectorWorks11.5
 

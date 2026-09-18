@@ -53,6 +53,32 @@ def PickPointCallback(pt):
 vs.GetPt( PickPointCallback )
 ```
 
+```pascal
+BEGIN
+	ArcByCenter( segVecLoc_1.x, segVecLoc_1.y, pioLineWidth / 2, 0, 360 );
+	VertexCircleHand := LNewObj;
+END;
+
+ArcByCenter (CX,CY,CircRadius, 0 ,360);
+
+BEGIN
+	ArcByCenter (0,0,gRoundRad+kRailTubeDia, 90-((360-gRoundSweep)/2) ,-gRoundSweep);
+	RailPreClipH := LNewObj;
+```
+```python
+import vs
+
+# Creates an arc using a center point, the radius, a start angle, and a sweep.
+x = 0.0
+y = 0.0
+radius = 1.0
+startAngl = 1.0
+sweepAngle = 45.0
+
+vs.ArcByCenter(x, y, radius, startAngl, sweepAngle)
+newObj = vs.LNewObj()  # handle to the newly created object
+```
+
 ## Version
 Availability: from VectorWorks10.0
 

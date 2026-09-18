@@ -17,6 +17,18 @@ def vs.ShowNewTileDialog():
 tileHandle := ShowNewTileDialog;
 ```
 
+```pascal
+resultH := ShowNewTileDialog;
+```
+```python
+import vs
+
+# Displays the new tile dialog.
+objHandle = vs.ShowNewTileDialog()
+if objHandle is not None:
+    vs.Message('Created object handle: ' + str(objHandle))
+```
+
 ## See Also
 VS Functions:
 [CreateTile](CreateTile.md) 

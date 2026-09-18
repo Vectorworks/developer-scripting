@@ -24,6 +24,22 @@ def vs.SetScale(actualSize):
 |---|---|---|
 |actualSize|REAL|Drawing scale factor.|
 
+## Examples
+```pascal
+BEGIN
+SetZVals(zVal , deltaZVal) ;
+SetScale(LScale);
+END;
+```
+```python
+import vs
+
+# Procedure SetScale sets the drawing scale of the active layer of the document.
+actualSize = 1.0
+
+vs.SetScale(actualSize)
+```
+
 ## Version
 Availability: from All Versions
 
