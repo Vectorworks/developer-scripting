@@ -367,6 +367,10 @@
 |	Door And Window Assembly Sill Folder	| 472 |
 |	Door And Window Assembly Stool Folder | 473 |
 |	Door And Window Assembly Trim Folder	| 474 |
-|ConnectCADD Device Folder | 475 |
-|Entertainment Video Screen Casing 16-10 Folder| 476 |
-|Entertainment Video Screen TV Stands Folder| 477 |
+| ConnectCADD Device Folder | 475 |
+| Entertainment Video Screen Casing 16-10 Folder | 476 |
+| Entertainment Video Screen TV Stands Folder | 477 |
+| Entertainment	Rigging Bridle (styles) Folder | 478 |
+| Annotations Data Legend (styles) Folder | 779 |
+| Defaults Texture Preview | 780 |
+| Entertainment Schematic View Markers (styles) | 781 |
