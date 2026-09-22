@@ -49,6 +49,7 @@ More information can be found here: [Plugin Credentials](Common/Tasks/Info/Plugi
 
 ## Version Information
 
+* [Vectorworks 2027](Common/Versions/Vectorworks%202027.md)
 * [Vectorworks 2026](Common/Versions/Vectorworks%202026.md)
 * [Vectorworks 2025](Common/Versions/Vectorworks%202025.md)
 * [Vectorworks 2024](Common/Versions/Vectorworks%202024.md)

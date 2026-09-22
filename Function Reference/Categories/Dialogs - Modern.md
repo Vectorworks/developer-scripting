@@ -49,33 +49,33 @@
 | [GetTreeControlSelectedItem](../Functions/GetTreeControlSelectedItem.md) | [GetTreeControlTextSelectedItem](../Functions/GetTreeControlTextSelectedItem.md) | [InsertEnhancedPullDownMenuItem](../Functions/InsertEnhancedPullDownMenuItem.md) <sub>*obsolete in Vectorworks 2012*</sub> |
 | [InsertEnhanPullDownMenuItem](../Functions/InsertEnhanPullDownMenuItem.md) | [InsertGradientSliderSegment](../Functions/InsertGradientSliderSegment.md) | [InsertGradientSliSeg](../Functions/InsertGradientSliSeg.md) |
 | [InsertImagePopupObjectItem](../Functions/InsertImagePopupObjectItem.md) | [InsertImagePopupResource](../Functions/InsertImagePopupResource.md) | [InsertImagePopupSeparator](../Functions/InsertImagePopupSeparator.md) |
-| [InsertPropClassOrLayerItem](../Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](../Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub> | [InsertTreeControlItem](../Functions/InsertTreeControlItem.md) |
-| [IsClassChoiceSelected](../Functions/IsClassChoiceSelected.md) | [IsItemEnabled](../Functions/IsItemEnabled.md) | [IsItemVisible](../Functions/IsItemVisible.md) |
-| [NotifyPullDownClicked](../Functions/NotifyPullDownClicked.md) | [RefreshItem](../Functions/RefreshItem.md) | [RegisterDialogForTimerEvents](../Functions/RegisterDialogForTimerEvents.md) |
-| [RemoveAllImagePopupItems](../Functions/RemoveAllImagePopupItems.md) | [RemoveChoice](../Functions/RemoveChoice.md) | [RemoveEnhancedPullDownMenuItemRange](../Functions/RemoveEnhancedPullDownMenuItemRange.md) |
-| [RemoveGradientSliderSegment](../Functions/RemoveGradientSliderSegment.md) | [RemoveImagePopupItem](../Functions/RemoveImagePopupItem.md) | [RemoveListBoxTabStop](../Functions/RemoveListBoxTabStop.md) |
-| [RemoveTreeControlItem](../Functions/RemoveTreeControlItem.md) | [RunLayoutDialog](../Functions/RunLayoutDialog.md) | [RunLayoutDialogN](../Functions/RunLayoutDialogN.md) |
-| [RunNamedDialog](../Functions/RunNamedDialog.md) | [RunNamedDialogN](../Functions/RunNamedDialogN.md) | [SelectChoice](../Functions/SelectChoice.md) |
-| [SelectClassChoice](../Functions/SelectClassChoice.md) | [SelectEditText](../Functions/SelectEditText.md) | [SelectTreeControlItem](../Functions/SelectTreeControlItem.md) |
-| [SetBelowItem](../Functions/SetBelowItem.md) | [SetBooleanItem](../Functions/SetBooleanItem.md) | [SetColorButton](../Functions/SetColorButton.md) |
-| [SetColorChoice](../Functions/SetColorChoice.md) | [SetComponentIndeterminate](../Functions/SetComponentIndeterminate.md) | [SetComponentSize](../Functions/SetComponentSize.md) |
-| [SetControlData](../Functions/SetControlData.md) | [SetControlText](../Functions/SetControlText.md) | [SetEdgeBinding](../Functions/SetEdgeBinding.md) |
-| [SetEditColorTextStyl](../Functions/SetEditColorTextStyl.md) | [SetEditInteger](../Functions/SetEditInteger.md) | [SetEditReal](../Functions/SetEditReal.md) |
-| [SetFirstGroupItem](../Functions/SetFirstGroupItem.md) | [SetFirstLayoutItem](../Functions/SetFirstLayoutItem.md) | [SetFocusOnItem](../Functions/SetFocusOnItem.md) |
-| [SetGradientSlider](../Functions/SetGradientSlider.md) | [SetGradientSliderData](../Functions/SetGradientSliderData.md) | [SetGradientSliderSelectedMarker](../Functions/SetGradientSliderSelectedMarker.md) |
-| [SetHelpText](../Functions/SetHelpText.md) | [SetIconPushButtonState](../Functions/SetIconPushButtonState.md) | [SetImageControlHandle](../Functions/SetImageControlHandle.md) |
-| [SetImageControlPath](../Functions/SetImageControlPath.md) | [SetImagePopupSelectedItem](../Functions/SetImagePopupSelectedItem.md) | [SetItemClickable](../Functions/SetItemClickable.md) |
-| [SetItemText](../Functions/SetItemText.md) | [SetItemToolTipText](../Functions/SetItemToolTipText.md) | [SetLayoutDialogPosition](../Functions/SetLayoutDialogPosition.md) |
-| [SetLayoutDialogSize](../Functions/SetLayoutDialogSize.md) | [SetLayoutOption](../Functions/SetLayoutOption.md) | [SetLBImageIndexes](../Functions/SetLBImageIndexes.md) |
-| [SetLineAttributeData](../Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineStyleChoice](../Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineTypeAttriData](../Functions/SetLineTypeAttriData.md) |
-| [SetLineTypeChoice](../Functions/SetLineTypeChoice.md) | [SetLineWeightChoice](../Functions/SetLineWeightChoice.md) | [SetListBoxTabStops](../Functions/SetListBoxTabStops.md) |
-| [SetMarkerChoice](../Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerValue](../Functions/SetMarkerValue.md) | [SetPatternData](../Functions/SetPatternData.md) |
-| [SetProportionalBinding](../Functions/SetProportionalBinding.md) | [SetRightItem](../Functions/SetRightItem.md) | [SetSelectionRange](../Functions/SetSelectionRange.md) |
-| [SetSliderLiveUpdate](../Functions/SetSliderLiveUpdate.md) | [SetStaticTextColor](../Functions/SetStaticTextColor.md) | [SetStaticTextColorN](../Functions/SetStaticTextColorN.md) |
-| [SetStaticTextStyle](../Functions/SetStaticTextStyle.md) | [SetThreeStateCheckBoxState](../Functions/SetThreeStateCheckBoxState.md) | [SetTreeControlItemData](../Functions/SetTreeControlItemData.md) |
-| [SetVSResourceFile](../Functions/SetVSResourceFile.md) | [ShowByClassChoice](../Functions/ShowByClassChoice.md) | [ShowEditTileDialog](../Functions/ShowEditTileDialog.md) |
-| [ShowEditTileSettingsDialog](../Functions/ShowEditTileSettingsDialog.md) | [ShowEnhancedPullDownMenuGroupIcon](../Functions/ShowEnhancedPullDownMenuGroupIcon.md) | [ShowItem](../Functions/ShowItem.md) |
-| [ShowNewTileDialog](../Functions/ShowNewTileDialog.md) | [UpdateImageControl2](../Functions/UpdateImageControl2.md) | [UpdateImageControl3](../Functions/UpdateImageControl3.md) |
-| [UpdateImagePushButton](../Functions/UpdateImagePushButton.md) | [UpdateSymbolDisplayControl](../Functions/UpdateSymbolDisplayControl.md) | [UpdateSymDispCtrlN](../Functions/UpdateSymDispCtrlN.md) |
-| [VerifyLayout](../Functions/VerifyLayout.md) 
+| [InsertPropClassOrLayerItem](../Functions/InsertPropClassOrLayerItem.md) | [InsertProposedClassOrLayerItem](../Functions/InsertProposedClassOrLayerItem.md) <sub>*obsolete in Vectorworks 2012*</sub> | [InsertPulldownSearch](../Functions/InsertPulldownSearch.md) |
+| [InsertTreeControlItem](../Functions/InsertTreeControlItem.md) | [IsClassChoiceSelected](../Functions/IsClassChoiceSelected.md) | [IsItemEnabled](../Functions/IsItemEnabled.md) |
+| [IsItemVisible](../Functions/IsItemVisible.md) | [NotifyPullDownClicked](../Functions/NotifyPullDownClicked.md) | [RefreshItem](../Functions/RefreshItem.md) |
+| [RegisterDialogForTimerEvents](../Functions/RegisterDialogForTimerEvents.md) | [RemoveAllImagePopupItems](../Functions/RemoveAllImagePopupItems.md) | [RemoveChoice](../Functions/RemoveChoice.md) |
+| [RemoveEnhancedPullDownMenuItemRange](../Functions/RemoveEnhancedPullDownMenuItemRange.md) | [RemoveGradientSliderSegment](../Functions/RemoveGradientSliderSegment.md) | [RemoveImagePopupItem](../Functions/RemoveImagePopupItem.md) |
+| [RemoveListBoxTabStop](../Functions/RemoveListBoxTabStop.md) | [RemoveTreeControlItem](../Functions/RemoveTreeControlItem.md) | [RunLayoutDialog](../Functions/RunLayoutDialog.md) |
+| [RunLayoutDialogN](../Functions/RunLayoutDialogN.md) | [RunNamedDialog](../Functions/RunNamedDialog.md) | [RunNamedDialogN](../Functions/RunNamedDialogN.md) |
+| [SelectChoice](../Functions/SelectChoice.md) | [SelectClassChoice](../Functions/SelectClassChoice.md) | [SelectEditText](../Functions/SelectEditText.md) |
+| [SelectTreeControlItem](../Functions/SelectTreeControlItem.md) | [SetBelowItem](../Functions/SetBelowItem.md) | [SetBooleanItem](../Functions/SetBooleanItem.md) |
+| [SetColorButton](../Functions/SetColorButton.md) | [SetColorChoice](../Functions/SetColorChoice.md) | [SetComponentIndeterminate](../Functions/SetComponentIndeterminate.md) |
+| [SetComponentSize](../Functions/SetComponentSize.md) | [SetControlData](../Functions/SetControlData.md) | [SetControlText](../Functions/SetControlText.md) |
+| [SetEdgeBinding](../Functions/SetEdgeBinding.md) | [SetEditColorTextStyl](../Functions/SetEditColorTextStyl.md) | [SetEditInteger](../Functions/SetEditInteger.md) |
+| [SetEditReal](../Functions/SetEditReal.md) | [SetFirstGroupItem](../Functions/SetFirstGroupItem.md) | [SetFirstLayoutItem](../Functions/SetFirstLayoutItem.md) |
+| [SetFocusOnItem](../Functions/SetFocusOnItem.md) | [SetGradientSlider](../Functions/SetGradientSlider.md) | [SetGradientSliderData](../Functions/SetGradientSliderData.md) |
+| [SetGradientSliderSelectedMarker](../Functions/SetGradientSliderSelectedMarker.md) | [SetHelpText](../Functions/SetHelpText.md) | [SetIconPushButtonState](../Functions/SetIconPushButtonState.md) |
+| [SetImageControlHandle](../Functions/SetImageControlHandle.md) | [SetImageControlPath](../Functions/SetImageControlPath.md) | [SetImagePopupSelectedItem](../Functions/SetImagePopupSelectedItem.md) |
+| [SetItemClickable](../Functions/SetItemClickable.md) | [SetItemText](../Functions/SetItemText.md) | [SetItemToolTipText](../Functions/SetItemToolTipText.md) |
+| [SetLayoutDialogPosition](../Functions/SetLayoutDialogPosition.md) | [SetLayoutDialogSize](../Functions/SetLayoutDialogSize.md) | [SetLayoutOption](../Functions/SetLayoutOption.md) |
+| [SetLBImageIndexes](../Functions/SetLBImageIndexes.md) | [SetLineAttributeData](../Functions/SetLineAttributeData.md) <sub>*obsolete in Vectorworks 2019*</sub> | [SetLineStyleChoice](../Functions/SetLineStyleChoice.md) <sub>*obsolete in Vectorworks 2019*</sub> |
+| [SetLineTypeAttriData](../Functions/SetLineTypeAttriData.md) | [SetLineTypeChoice](../Functions/SetLineTypeChoice.md) | [SetLineWeightChoice](../Functions/SetLineWeightChoice.md) |
+| [SetListBoxTabStops](../Functions/SetListBoxTabStops.md) | [SetMarkerChoice](../Functions/SetMarkerChoice.md) <sub>*obsolete in VectorWorks 2008*</sub> | [SetMarkerValue](../Functions/SetMarkerValue.md) |
+| [SetPatternData](../Functions/SetPatternData.md) | [SetProportionalBinding](../Functions/SetProportionalBinding.md) | [SetRightItem](../Functions/SetRightItem.md) |
+| [SetSelectionRange](../Functions/SetSelectionRange.md) | [SetSliderLiveUpdate](../Functions/SetSliderLiveUpdate.md) | [SetStaticTextColor](../Functions/SetStaticTextColor.md) |
+| [SetStaticTextColorN](../Functions/SetStaticTextColorN.md) | [SetStaticTextStyle](../Functions/SetStaticTextStyle.md) | [SetThreeStateCheckBoxState](../Functions/SetThreeStateCheckBoxState.md) |
+| [SetTreeControlItemData](../Functions/SetTreeControlItemData.md) | [SetVSResourceFile](../Functions/SetVSResourceFile.md) | [ShowByClassChoice](../Functions/ShowByClassChoice.md) |
+| [ShowEditTileDialog](../Functions/ShowEditTileDialog.md) | [ShowEditTileSettingsDialog](../Functions/ShowEditTileSettingsDialog.md) | [ShowEnhancedPullDownMenuGroupIcon](../Functions/ShowEnhancedPullDownMenuGroupIcon.md) |
+| [ShowItem](../Functions/ShowItem.md) | [ShowNewTileDialog](../Functions/ShowNewTileDialog.md) | [UpdateImageControl2](../Functions/UpdateImageControl2.md) |
+| [UpdateImageControl3](../Functions/UpdateImageControl3.md) | [UpdateImagePushButton](../Functions/UpdateImagePushButton.md) | [UpdateSymbolDisplayControl](../Functions/UpdateSymbolDisplayControl.md) |
+| [UpdateSymDispCtrlN](../Functions/UpdateSymDispCtrlN.md) | [VerifyLayout](../Functions/VerifyLayout.md) 
 
